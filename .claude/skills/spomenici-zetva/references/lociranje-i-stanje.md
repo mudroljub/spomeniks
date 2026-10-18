@@ -10,6 +10,19 @@ Za staru muzejsku adresu proveri današnju ustanovu i postavku. Ime zgrade ili n
 
 Ako tačka nije potvrđena, sačuvaj kandidata i razlog u radnom zapisu. Uklonjene objekte traži poslednje; i oni se upisuju kad je tačka poznata. Hrvatske kandidate proveri po postupku opstanka ispod; istorija odluka i dozvoljenog obima je u [hrvatskim beleškama](../../../../docs/PROVERA_RUSENJA_HRVATSKA.md).
 
+## Literatura i grobni objekti
+
+Za više nerešenih lokacija biraj izvore po verovatnoći da daju upotrebljiv položaj i po broju otvorenih objekata koje pokrivaju. Prednost imaju regionalni evidencioni kartoni, konzervatorski elaborati, karte i katastarski prilozi; lokalne monografije i zbornici pomažu kada daju mikrotoponime, opis sahrane ili preseljenja. Ne obrađuj automatski redom radni spisak, dostupne knjige ili stotine stranica ratne istorije bez lokacijskog sadržaja.
+
+- Pre preuzimanja proveri `izvori/` i [IZVORI.md](../../../../docs/IZVORI.md). Razlikuj bibliografski zapis, dostupan preglednik i stvarno dostupan pun tekst. Proveri naslovnu stranu, sadržaj i dostupni raspon; broj PDF listova nije broj štampanih strana niti dokaz da nema praznina. Zabeleži šta je zaista pročitano, a šta samo pronađeno ili preuzeto.
+- Najpre pregledaj sadržaj, registar i dodatke jednog dokumenta koji pokriva izglednu grupu. OCR/tekst izdvoji jednom, pa pretražuj sve relevantne nazive mesta, stare administrativne granice, imena posvećenih i korene `groblj`, `kosturn`, `grobn`, `ekshum`, `prenes`, `premješt`, `ukop`, `sahran`, `parcela`. Presudan nalaz proveri na skenu.
+- Iz jednog izvora izdvoji sve relevantne otvorene objekte uz štampanu/PDF stranu, opis položaja, fotografiju/kartu i datum opisanog stanja. Pre lociranja uporedi glavnu bazu i radni skup. Popis poginulih i mesto pogibije nisu popis današnjih grobova.
+- UI kategorija `spomen-groblje` može obuhvatati groblje, kosturnicu, zajedničku ili pojedinačnu grobnicu: u dokazima sačuvaj stvarni oblik. Razlikuj ceo kompleks, pojedinačni grob i istorijskog prethodnika; kod prenosa ostataka poveži staro i novo mesto, ne pravi duplikat.
+- Zbirna tabela potvrđuje obuhvat istorijske evidencije, ne pojedinačne lokacije ili današnji broj objekata. Kataloško „postoji“ i datum unosa/objave nisu potvrda današnjeg stanja. Tačka ulaza u groblje, susednog objekta ili fotografa nije precizna tačka traženog groba; približne unose obrađuj po zasebnom pravilu žetve i ne računaj ih kao precizno locirane.
+- Po završenom probnom dokumentu odvojeno izmeri nove potvrđene tačke, razrešene identitete/duplikate i nepotvrđene kandidate. Ako nema korisnih opisa položaja ili prenosa, promeni izvor; preuzete strane nisu rezultat lociranja. Ne ponavljaj neuspešan izvor bez novog razloga.
+
+Naslovi, dostupnost i obrađenost ostaju u `docs/IZVORI.md`, a trenutni prioriteti i rezultati u `docs/LOCIRANJE_SPOMENIKA.md` i postojećim izveštajima u `data/provere/`; njihove promenljive brojke ne kopiraj u skil. Proveru integriteta podataka radi po završenom paketu, ne za svaki pojedinačni unos.
+
 ## Staro oštećenje i kasniji dokaz
 
 Pročitaj odlučujući knjiški nalaz na originalnom skenu, sa štampanom stranom i brojem skena. Koristi već preuzete strane. Indeks i opis istog objekta računaj kao jedan dokaz. Proveri legendu oznaka i dodatke sa ispravkama; indeks, osnovni tekst i dodatak mogu opisivati različita stanja ili različite objekte.

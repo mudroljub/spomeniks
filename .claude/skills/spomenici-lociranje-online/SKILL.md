@@ -13,12 +13,14 @@ Proveri šta već imamo, jer je besplatno: `izvori/xiwl/` (stranica spomenika i 
 
 Stranice susednih zapisa su često bolje od same stavke: wiki stranica stele „pored doma“ ili groblja „ispred škole“ daje tačku i za dom ili školu. Pre mreže proveri sve stranice istog sela, ne samo onu o traženom objektu.
 
+Za groblja, kosturnice i grupe slabo opisanih zapisa prvo traži regionalnu evidenciju ili literaturu koja pokriva više otvorenih objekata. Prati [postupak za literaturu i grobne objekte](../spomenici-zetva/references/lociranje-i-stanje.md#literatura-i-grobni-objekti): probni dokument sa mikrolokacijama ima prednost nad ponavljanjem opštih upita za svaki grob. Dostupnost i obrađenost konkretnih knjiga proveri u `docs/IZVORI.md`.
+
 ## Odakle se zna gde je
 
 Spomenik se retko opisuje sam; o njemu piše ono čemu je posvećen. Redom:
 
 1. **Članak o heroju, jedinici ili događaju** na sr, hr ili bs Vikipediji (i ćirilica i latinica): „rođen u zaseoku…“, „rodna kuća je danas…“, „spomenik je podignut kod…“. Q-id i povezane strane daju i Commons kategoriju.
-2. **Commons**: kategorija heroja ili sela i `geosearch` oko sela; geotagovana fotografija spomenika je tačka.
+2. **Commons**: kategorija heroja ili sela i `geosearch` oko sela; geotag fotografije daje kandidata, a položaj samog spomenika proverava se zasebno.
 3. **Lokalne vesti sa komemoracija**: „položeni vijenci kod spomen-kuće u…“, „obilježena godišnjica…“ — opština, SUBNOR/SABA, lokalni portali.
 4. **Sajt opštine, turističke zajednice, registri kulturnog nasleđa** (zavodi za zaštitu spomenika, komisije za nacionalne spomenike).
 5. **Google mape na jeziku i pismu mesta** (CDP, kao u skilu žetve), sa varijantama imena.
@@ -41,4 +43,4 @@ Spomenik se retko opisuje sam; o njemu piše ono čemu je posvećen. Redom:
 
 ## Prinos
 
-Posle svakih 5 stavki proveri prinos. Ako nijedna nije dobila tačku, promeni pristup (drugi izvor iz spiska, jezik, pismo) ili stani i javi korisniku šta je probano, umesto da nastaviš istim putem.
+Posle svakih 5 pojedinačnih pretraga, odnosno završenog probnog dokumenta pri obradi literature, proveri prinos. Odvojeno broji potvrđene tačke, razrešene identitete/duplikate i kandidate. Ako nema korisnog novog dokaza, promeni pristup ili izvor; ne nastavljaj istim putem i ne predstavljaj samo preuzimanje ili čitanje kao uspešno lociranje.

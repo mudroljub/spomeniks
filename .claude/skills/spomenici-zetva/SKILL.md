@@ -9,7 +9,7 @@ Standard zapisa (polja, nazivi, vrste, obuhvat) je u `references/standard.md`. N
 
 Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i otvoreni tragovi u [LOCIRANJE_SPOMENIKA.md](../../../docs/LOCIRANJE_SPOMENIKA.md), [PROVERA_RUSENJA_HRVATSKA.md](../../../docs/PROVERA_RUSENJA_HRVATSKA.md) i [DOPUNA_PODATAKA.md](../../../docs/DOPUNA_PODATAKA.md). Preuzeti izvori (knjige, registri, skenovi) čuvaju se u `izvori/` u korenu repozitorijuma, koja je u `.gitignore` (ne objavljuje se): `izvori/knjige/` (Zagreb 1981, Krapina 1966, Jokić 1986, Šibenik 1980, Hrženjak 2002 sa skenovima strana i indeks NOB) i `izvori/cg/`; tu idu i svi novi preuzeti izvori. U gitu je samo opis fascikle (`izvori/README.md`); na računaru gde fajlova nema ne preuzimaj sve ponovo, nego pitaj korisnika. Ranije jednokratne skripte su u `~/.claude/projects/<putanja repozitorijuma>/nazivi-alati`; otvori samo temu potrebnu za zadatak. Naziv dokumentacionog Markdown fajla prati naslov; pri promeni naslova preimenuj fajl i ažuriraj veze. Ponovljive postupke čitaj po potrebi:
 
-- [Lociranje, identitet i stanje](references/lociranje-i-stanje.md): pre prebacivanja radnog unosa na mapu ili razrešavanja starih podataka.
+- [Lociranje, identitet i stanje](references/lociranje-i-stanje.md): pre prebacivanja radnog unosa na mapu ili razrešavanja starih podataka; odeljak o literaturi pri traženju knjiga, monografija i podataka o grobljima.
 - [Zbirne pretrage i fotografije](references/pretrage-i-fotografije.md): pri radu sa Partizanstvo API-jem, drugim izvorima, licencama i poreklom koordinata ili datumom snimka.
 - [Autori i posvete](references/autori-i-posvete.md): pri dopunjavanju autora i povezivanju sa Wikidatom.
 
