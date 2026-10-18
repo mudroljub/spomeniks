@@ -17,8 +17,11 @@ Korisnik komituje sam i oslanja se na to da je izmena proverena kad kažeš da j
 ## 1. Podaci
 
 ```
+node alati/razdeli.mjs
 python -I alati/integritet.py
 ```
+
+Aplikacija ne učitava `data/spomeniks.json`, nego dva fajla izvedena iz njega: `data/mapa-prvo.json` (spomenici vidljivi do zuma 9, crtaju se odmah) i `data/mapa-ostalo.json` (ostali, stižu posle). Posle svake izmene baze ih napravi ponovo; integritet prijavljuje zastarele fajlove.
 
 Prolazi kad vrati izlazni status 0; stvarne greške i novi parovi na manje od 30 m vraćaju status 1. Poznati parovi (park i spomenik u njemu, grobnica i ploča na Senjaku) ostaju u ispisu, ali ne obaraju proveru: izuzeci su navedeni po tačnim ID-jevima u `POZNATI_BLISKI_PAROVI`, ne samo po ukupnom broju. Ako provera prijavi grešku, utvrdi da li je nastala tvojom izmenom; nemoj je automatski proglasiti poznatim izuzetkom.
 

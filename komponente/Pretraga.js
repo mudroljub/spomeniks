@@ -101,8 +101,7 @@ export default class Pretraga extends HTMLElement {
     this.polje.id = 'pretraga'
     this.polje.type = 'search'
     this.polje.enterKeyHint = 'search'
-    this.polje.placeholder = `🔍 ${t('pretraga', stavke.length)}`
-    this.polje.setAttribute('aria-label', t('pretraga', stavke.length))
+    this.oznaciPolje()
 
     this.dugme = document.createElement('button')
     this.dugme.className = 'dugme-filteri'
@@ -125,6 +124,21 @@ export default class Pretraga extends HTMLElement {
 
   connectedCallback() {
     this.append(style, this.polje, this.dugme, this.rezultat)
+  }
+
+  oznaciPolje() {
+    this.polje.placeholder = `🔍 ${t('pretraga', this.stavke.length)}`
+    this.polje.setAttribute('aria-label', t('pretraga', this.stavke.length))
+  }
+
+  // spomenici koji stignu posle prvog crtanja ulaze u pretragu i filtere, uz zadrzanu frazu i izbor
+  dodaj(nove) {
+    this.stavke = [...this.stavke, ...nove]
+    nove.forEach(stavka => this.tekstovi.set(stavka, praviTekst(stavka.spomenik)))
+    this.filteri.dodaj(this.stavke)
+    this.pocetnih = this.stavke.filter(({spomenik}) => this.filteri.odgovara(spomenik)).length
+    this.oznaciPolje()
+    this.pretrazi()
   }
 
   pretrazi() {

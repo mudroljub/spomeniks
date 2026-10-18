@@ -40,13 +40,14 @@ const praviStavku = (spomenik, pomak) => {
   return {spomenik, marker, dajSliku}
 }
 
-// link za deljenje (#id) otvara mapu na tom spomeniku
+// link za deljenje (#id) otvara mapu na tom spomeniku; vraca da li je spomenik nadjen
 const otvoriIzLinka = stavke => {
   const id = decodeURIComponent(location.hash.slice(1))
   const stavka = id && stavke.find(({spomenik}) => spomenik.id === id)
-  if (!stavka) return
+  if (!stavka) return false
   mapa.setView(stavka.marker.dajPoziciju(), 11, {animate: false})
   stavka.marker.otvoriProzor()
+  return true
 }
 
 const osveziSlajder = () => {
@@ -73,13 +74,23 @@ if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js')
 
 const ucitaj = putanja => fetch(putanja).then(res => res.json())
 
-Promise.all([ucitaj('data/spomeniks.json'), ucitaj('data/autori.json'), ucitaj('data/posvete.json'), ucitaj('data/ture.json')])
+// prvo stizu spomenici vidljivi na pocetnim zumovima, da se mapa nacrta odmah, a ostali posle (alati/razdeli.mjs);
+// priblizni su svi u drugom delu, pa im se pomaci racunaju zajedno
+const ostalo = ucitaj('data/mapa-ostalo.json')
+Promise.all([ucitaj('data/mapa-prvo.json'), ucitaj('data/autori.json'), ucitaj('data/posvete.json'), ucitaj('data/ture.json')])
   .then(([spomenici, autori, posvete, ture]) => {
     detalji.postaviAutore(autori)
     detalji.postaviPosvete(posvete)
-    const pomaci = pomaciPribliznih(spomenici)
-    const stavke = spomenici.map(spomenik => praviStavku(spomenik, pomaci.get(spomenik)))
-    ruta.postavi(stavke, ture)
-    document.body.appendChild(new Pretraga(stavke, render))
-    otvoriIzLinka(stavke)
+    const prve = spomenici.map(spomenik => praviStavku(spomenik))
+    ruta.postavi(prve, ture)
+    const pretraga = document.body.appendChild(new Pretraga(prve, render))
+    const otvoren = otvoriIzLinka(prve)
+    ostalo.then(spomenici => {
+      const pomaci = pomaciPribliznih(spomenici)
+      const nove = spomenici.map(spomenik => praviStavku(spomenik, pomaci.get(spomenik)))
+      ruta.postavi([...prve, ...nove], ture)
+      pretraga.dodaj(nove)
+      if (!otvoren) otvoriIzLinka(nove)
+      document.documentElement.dataset.podaci = 'svi'
+    })
   })

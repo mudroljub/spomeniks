@@ -26,6 +26,11 @@ const praviGrupe = (drzave, autori) => [
     uslov: (s, o) => o === 'neposecen' ? dajOznaku(s.id) !== 'posetio' : dajOznaku(s.id) === o},
 ]
 
+const grupeZa = stavke => {
+  const drzave = [...new Set(stavke.map(({spomenik}) => spomenik.drzava))].sort((a, b) => nazivDrzave(a).localeCompare(nazivDrzave(b)))
+  return praviGrupe(drzave, praviAutore(stavke))
+}
+
 // autori sa bar tri dela, abecedno; ostale nalazi pretraga
 const praviAutore = stavke => {
   const brojDela = {}
@@ -248,8 +253,7 @@ style.textContent = `
 export default class Filteri extends HTMLElement {
   constructor(stavke) {
     super()
-    const drzave = [...new Set(stavke.map(({spomenik}) => spomenik.drzava))].sort((a, b) => nazivDrzave(a).localeCompare(nazivDrzave(b)))
-    this.grupe = praviGrupe(drzave, praviAutore(stavke))
+    this.grupe = grupeZa(stavke)
     this.izbor = pocetniIzbor(this.grupe)
     this.osnova = stavke
 
@@ -299,6 +303,12 @@ export default class Filteri extends HTMLElement {
   }
 
   // spomenici koji odgovaraju pretrazi; brojevi uz opcije se racunaju od njih
+  // kad stignu ostali spomenici, opcije drzava i autora se racunaju iz svih; izbor korisnika ostaje
+  dodaj(stavke) {
+    this.grupe = grupeZa(stavke)
+    if (!this.panel.hidden) this.prikaziGrupe()
+  }
+
   postaviOsnovu(stavke) {
     this.osnova = stavke
     if (!this.panel.hidden) this.prikaziGrupe()

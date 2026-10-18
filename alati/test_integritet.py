@@ -16,7 +16,7 @@ def spomenik(sid, lat=44, lng=20):
 
 
 class IntegritetTest(unittest.TestCase):
-    def proveri(self, zapisi, visak_slike=False, posvete=None, bez_lokacije=None, knjiga=None):
+    def proveri(self, zapisi, visak_slike=False, posvete=None, bez_lokacije=None, knjiga=None, razdeli=True):
         with tempfile.TemporaryDirectory(prefix='spomenici-integritet-') as folder:
             koren = Path(folder)
             for f in ('data/knjige', 'data/provere'):
@@ -30,6 +30,8 @@ class IntegritetTest(unittest.TestCase):
                 (koren / 'data/knjige/test.json').write_text(json.dumps(knjiga), encoding='utf8')
             if visak_slike:
                 (slike / 'visak.webp').write_bytes(b'')
+            if razdeli:
+                subprocess.run(['node', str(ALAT.with_name('razdeli.mjs'))], cwd=koren, check=True, capture_output=True)
             return subprocess.run([sys.executable, '-I', str(ALAT)], cwd=koren,
                                   capture_output=True, text=True, encoding='utf8')
 
@@ -98,6 +100,11 @@ class IntegritetTest(unittest.TestCase):
                 r = self.proveri([spomenik('test')], bez_lokacije=bez)
                 self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
                 self.assertIn(poruka, r.stdout)
+
+    def test_zastareli_fajlovi_aplikacije(self):
+        r = self.proveri([spomenik('test')], razdeli=False)
+        self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
+        self.assertIn('fajlovi aplikacije zastareli', r.stdout)
 
     def test_nekoriscena_slika(self):
         r = self.proveri([spomenik('test')], visak_slike=True)

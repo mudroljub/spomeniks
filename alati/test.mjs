@@ -39,6 +39,7 @@ const otvori = async (hash = '') => {
   await pregledac.send('Page.navigate', {url: 'about:blank'})
   await pregledac.send('Page.navigate', {url: server.adresa + hash})
   await sacekaj("document.querySelectorAll('.leaflet-marker-pane img').length", 'obelisci na mapi')
+  await sacekaj("document.documentElement.dataset.podaci === 'svi'", 'svi podaci')
 }
 
 // prozori su web komponente, pa se elementi traze i u njihovom shadow DOM-u

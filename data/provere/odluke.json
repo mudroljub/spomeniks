@@ -13731,5 +13731,25 @@
    "prilep-spomenik-na-metodija-andonov-cento"
   ],
   "razlog": "OSM historic=memorial|monument (Kosovo 581, S. Makedonija 484 objekta u okviru). Približni zapisi: nijedan par po imenu i prezimenu. Kosovo: svih 35 kandidata dalje od 250 m su spomenici i groblja rata 1998-1999 (dëshmorët, UÇK), Toplički ustanak 1917 i nestali iz rata 1990-ih, pa nijedan nije dodat. Makedonija: dodat samo spomenik Metodiju Andonovu-Čentu u Prilepu; Hristo Uzunov (Ilinden), grčki spomenik 1947-1949, ploča i dva partizanska spomenika na bugarskoj strani granice izostavljeni."
+ },
+ {
+  "odluka": "obrisan-duplikat-dolno-perovo",
+  "datum": "2026-10-18",
+  "ishod": "obrisano-po-odluci-korisnika",
+  "id": "dolno-perovo-spomen-kosturnica",
+  "zadrzan": "veles",
+  "prethodniZapis": {
+   "id": "dolno-perovo-spomen-kosturnica",
+   "koordinate": {
+    "lat": 41,
+    "lng": 21
+   },
+   "mesto": "Долно Перово",
+   "izvor": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%9A%D0%BE%D1%81%D1%82%D1%83%D1%80%D0%BD%D0%B8%D1%86%D0%B0_-_%D0%92%D0%B5%D0%BB%D0%B5%D1%81_01.jpg",
+   "naziv": "Спомен-костурница",
+   "vrsta": "spomen-groblje",
+   "drzava": "Macedonia"
+  },
+  "razlog": "Zapis nastao iz Commons fotografije sa pogrešnim koordinatama 41/21 (mesto određeno po njima); fotografija prikazuje kosturnicu u Velesu, koja već postoji kao veles."
  }
 ]

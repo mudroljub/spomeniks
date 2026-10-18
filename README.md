@@ -23,6 +23,13 @@ POTPUNOST PODATKA:
 - dodavati fotografije gde nedostaju ([obrađeni izvori fotografija](docs/IZVORI.md#commons-i-fotografije))
 - popunjavati druge atribute na osnovu dostupnih izvora ([dopuna podataka](docs/DOPUNA_PODATAKA.md))
 
+KVALITET PODATAKA (`data/spomeniks.json`):
+- 1.519 zapisa nema `izvor`; 1.244 od njih ima samo `googleCid`, za ostalih 275 izvor nije zabeležen
+- 25 `nazivEn` sadrži HTML link: link prebaciti u `wikiEn`, a u nazivu ostaviti čist tekst
+- `godina` je slobodan tekst („pre 1971“, „1950-ih“, raspon): razdvojiti broj i odrednicu zbog filtriranja i sortiranja
+- nedosledan oblik `mesta` za delove gradova („Beograd (Zemun)“ pored „Zemun“): ujednačiti
+- 693 slike su fotografije korisnika Google mapa, koje nemaju licencu za ponovnu objavu: naći zamenu sa slobodnom licencom, pa ukloniti Google slike
+
 UI:
 - iz perspektive turiste koji obilazi ww2 spomenike bivše Jugoslavije (domaći i stranci): preispitati UI, prikazivanje po važnost podataka, prioritet vrsti spomenika, ponuđene ture i tome slično.
 
