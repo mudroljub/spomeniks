@@ -11803,5 +11803,5753 @@
    }
   },
   "tacka": "centar sela"
+ },
+ {
+  "id": "moravac-spomenik-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "mesto": "Moravac",
+   "drzava": "Serbia",
+   "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A1%D1%80%D0%B1%D0%B8%D1%98%D0%B8",
+   "slika": "Moravac spomenik.jpg",
+   "kandidati": [
+    {
+     "lat": 43.5005958,
+     "lng": 21.7037209,
+     "izvor": "https://www.openstreetmap.org/node/13926656992",
+     "opis": "OSM war_memorial u centru sela, bez imena (može biti i iz Prvog svetskog rata)"
+    }
+   ],
+   "vrsta": "lokalni"
+  },
+  "tacka": "kandidat",
+  "prolaz": 2
+ },
+ {
+  "id": "grab-spomen-grobnica-palih-boraca",
+  "izvorniZapis": {
+   "naziv": "Spomen-grobnica palih boraca",
+   "mesto": "Grab",
+   "drzava": "Montenegro",
+   "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A6%D1%80%D0%BD%D0%BE%D1%98_%D0%93%D0%BE%D1%80%D0%B8",
+   "vrsta": "groblje"
+  },
+  "tacka": "jedino istoimeno selo u drzavi",
+  "prolaz": 2
+ },
+ {
+  "id": "gornje-dubrave-spomen-kosturnica",
+  "izvorniZapis": {
+   "naziv": "Spomen-kosturnica",
+   "mesto": "Gornje Dubrave",
+   "drzava": "Croatia",
+   "autor": "Kosta Angeli Radovani",
+   "izvor": "https://registar.kulturnadobra.hr/",
+   "vrsta": "groblje"
+  },
+  "tacka": "jedino istoimeno selo u drzavi",
+  "prolaz": 2
+ },
+ {
+  "id": "kula-spomenik-na-mestu-pogibije-ise-sekickog-u-bli",
+  "izvorniZapis": {
+   "naziv": "Spomenik na mestu pogibije Ise Sekickog u blizini Kule",
+   "drzava": "Serbia",
+   "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%BC%D0%B5%D1%81%D1%82%D1%83_%D0%BF%D0%BE%D0%B3%D0%B8%D0%B1%D0%B8%D1%98%D0%B5_%D0%98%D1%81%D0%B5_%D0%A1%D0%B5%D0%BA%D0%B8%D1%86%D0%BA%D0%BE%D0%B3_%D1%83_%D0%B1%D0%BB%D0%B8%D0%B7%D0%B8%D0%BD%D0%B8_%D0%9A%D1%83%D0%BB%D0%B5",
+   "slika": "Muzej_u_Vrbasu,_Spomenik.jpg",
+   "vrsta": "lokalni",
+   "mesto": "Kula"
+  },
+  "tacka": "jedino istoimeno selo u drzavi",
+  "prolaz": 2
+ },
+ {
+  "id": "piskavica-spomenik-palim-borcima-i-zrtvama-fasisti",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora strijeljanim 1942. godine",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror executed in 1942",
+   "mesto": "Piskavica",
+   "adresa": "Village centre; In a memorial park alongside the monument to the 1992-95 war",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1991",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/banjaluka"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "piskavica-spomen-kosturnica-palih-boraca",
+  "izvorniZapis": {
+   "naziv": "Spomen-kosturnica palih boraca",
+   "nazivEn": "Memorial ossuary of fallen fighters",
+   "mesto": "Piskavica",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1949",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/banjaluka"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "pavlovac-spomenik-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to fallen fighters",
+   "mesto": "Pavlovac",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1951",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/banjaluka"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "dobrnja-bista-mike-bosnica",
+  "izvorniZapis": {
+   "naziv": "Bista Mike Bosnića",
+   "nazivEn": "Bust of NH Mika Bosnić",
+   "mesto": "Dobrnja",
+   "adresa": "Mika Bosnić barracks",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1980",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/banjaluka"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "berkovici-masovna-grobnica-oko-180-zrtava-fasistic",
+  "izvorniZapis": {
+   "naziv": "Masovna grobnica oko 180 žrtava fašističkog terora",
+   "nazivEn": "Mass grave of c.180 Victims of Fascist Terror",
+   "mesto": "Berkovići",
+   "adresa": "In front of Dom Zdravlja",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/berkovici"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "berkovici-bista-save-belovica",
+  "izvorniZapis": {
+   "naziv": "Bista Save Belovića",
+   "nazivEn": "Bust of Savo Belović",
+   "mesto": "Berkovići",
+   "adresa": "Dom Zdravlja",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Nikola Njirić",
+   "godina": "1961",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/berkovici"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "berkovici-bista-danila-soldatica",
+  "izvorniZapis": {
+   "naziv": "Bista Danila Soldatića",
+   "nazivEn": "Bust of Danilo Soldatić",
+   "mesto": "Berkovići",
+   "adresa": "Dom Zdravlja",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Nikola Njirić",
+   "godina": "1962",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/berkovici"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "berkovici-spomenik-narodnom-heroju-danilu-soldatic",
+  "izvorniZapis": {
+   "naziv": "Spomenik narodnom heroju Danilu Soldatiću",
+   "nazivEn": "Monument to commemorate NH Danilo Soldatić",
+   "mesto": "Berkovići",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/berkovici",
+   "godina": "pre 1963"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "glogovac-spomenik-palim-borcima-i-zrtvama-fasistic",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Glogovac",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bijeljina",
+   "godina": "posle 1960"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "glogovac-spomenik-afz-u",
+  "izvorniZapis": {
+   "naziv": "Spomenik AFŽ-u",
+   "nazivEn": "Monument to the AFŽ",
+   "mesto": "Glogovac",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bijeljina"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "modran-spomenik-na-mjestu-partizanske-radionice",
+  "izvorniZapis": {
+   "naziv": "Spomenik na mjestu partizanske radionice",
+   "nazivEn": "Monument to commemorate site of Partisan workshop.",
+   "mesto": "Modran",
+   "adresa": "Property of the Cvijetinović family, in front of house",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bijeljina"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "janja-zajednicka-grobnica-17-palih-boraca",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica 17 palih boraca",
+   "nazivEn": "Collective grave of 17 fallen fighters",
+   "mesto": "Janja",
+   "adresa": "In front of Dom Kulture",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/bijeljina"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "banjica-spomenik-palima-u-nob",
+  "izvorniZapis": {
+   "naziv": "Spomenik palima u NOB",
+   "nazivEn": "Monument to those who fell in the NOB",
+   "mesto": "Banjica",
+   "adresa": "In front of local clinic",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1949",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bijeljina"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "banjica-spomenik-formiranju-i-i-ii-vojvodjanske-br",
+  "izvorniZapis": {
+   "naziv": "Spomenik formiranju I i II vojvođanske brigade",
+   "nazivEn": "Monument to commemorate the formation of the I & II Vojvodinian Brigades",
+   "mesto": "Banjica",
+   "adresa": "Tavna",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1983",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bijeljina"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "suvo-polje-kosturnica-57-palih-boraca-xvii-udarne",
+  "izvorniZapis": {
+   "naziv": "Kosturnica 57 palih boraca XVII udarne divizije",
+   "nazivEn": "Ossuary of 57 fallen fighters of the XVII Assault Division",
+   "mesto": "Suvo Polje",
+   "adresa": "Jabanuša, property of Mitar Panić (former)",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1956",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/bijeljina"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "zagoni-bista-laze-stojanovica-lazica",
+  "izvorniZapis": {
+   "naziv": "Bista Laze Stojanovića Lazića",
+   "nazivEn": "Bust of NH Lazo Stojanović Lazić",
+   "mesto": "Zagoni",
+   "adresa": "Dom Kulture",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Milovan Krstić",
+   "godina": "1981",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/bijeljina"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "cadjavica-gornja-spomenik-narodnom-heroju-miji-ker",
+  "izvorniZapis": {
+   "naziv": "Spomenik narodnom heroju Miji Keroševiću Guji",
+   "nazivEn": "Monument to NH Mijo Kerošević - Guja",
+   "mesto": "Čađavica Gornja",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bijeljina",
+   "stanje": "ostecen",
+   "godina": "1980-ih"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "bukovica-donja-partizansko-groblje-sa-18-palih-bor",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje sa 18 palih boraca",
+   "nazivEn": "Partisans' cemetery with 18 fallen fighters",
+   "mesto": "Bukovica Donja",
+   "adresa": "Between community hall and village cemetery",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1966",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/bijeljina"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "bukovica-gornja-spomenik-palim-borcima-zrtvama-fas",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima, žrtvama fašističkog terora i narodnom heroju Omeru Masliću",
+   "nazivEn": "Monument to fallen fighters, Victims of Fascist Terror and NH Omer Maslić",
+   "mesto": "Bukovica Gornja",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1985",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bijeljina"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "cadjavica-donja-spomenik-preko-200-boraca-poginuli",
+  "izvorniZapis": {
+   "naziv": "Spomenik preko 200 boraca poginulih u borbama oko Čađavice",
+   "nazivEn": "Monument to commemorate over 200 fighters who fell in battles around Čađavica",
+   "mesto": "Čađavica Donja",
+   "adresa": "Community Hall",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1966",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bijeljina"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "cadjavica-donja-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Čađavica Donja",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1966",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/bijeljina"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "cadjavica-donja-spomen-cesma-55-palih-boraca-i-100",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma 55 palih boraca i 100 žrtava fašističkog terora",
+   "nazivEn": "Fountain to commemorate 55 fallen fighters and 100 Victims of Fascist Terror",
+   "mesto": "Čađavica Donja",
+   "adresa": "Partisans' cemetery",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1966",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bijeljina"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "gradac-spomenik-ustanku",
+  "izvorniZapis": {
+   "naziv": "Spomenik ustanku",
+   "nazivEn": "Monument to the Uprising",
+   "mesto": "Gradac",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bijeljina"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vrsani-spomenik-palim-borcima-i-zrtvama-fasisticko",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Vršani",
+   "adresa": "Beside main road, close to elementary school and church",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1974",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bijeljina"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "ostojicevo-spomen-cesma-palim-borcima-i-zrtvama-fa",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Fountain to commemorate fallen fighters and Victims of Fascist Terror",
+   "mesto": "Ostojićevo",
+   "adresa": "Village square",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bijeljina"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "trnjaci-spomenik-palim-borcima-i-zrtvama-fasistick",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Trnjaci",
+   "adresa": "Community Hall",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Slobodan Lukić",
+   "godina": "1968",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bijeljina"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "novo-selo-spomenik-vodjstvu-vi-istocnobosanske-bri",
+  "izvorniZapis": {
+   "naziv": "Spomenik vođstvu VI istočnobosanske brigade u oslobođenju Bijeljine 1944/1945",
+   "nazivEn": "Monument to commemorate leadership of liberation of Bijeljina by the VI Eastern Bosnian Brigade in 1944/45",
+   "mesto": "Novo Selo",
+   "adresa": "In front of PD Semberija a.d. Bijeljina",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1954",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bijeljina"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "bukovica-donja-bista-voje-ivanovica-crnogorca",
+  "izvorniZapis": {
+   "naziv": "Bista Voje Ivanovića Crnogorca",
+   "nazivEn": "Bust of NH Vojo Ivanović Crnogorac",
+   "mesto": "Bukovica Donja",
+   "adresa": "In front of church",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Svetozar Radović",
+   "godina": "2008",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/bijeljina"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "bukovica-donja-bista-veljka-lukica-kurjaka",
+  "izvorniZapis": {
+   "naziv": "Bista Veljka Lukića Kurjaka",
+   "nazivEn": "Bust of NH Veljko Lukić Kurjak",
+   "mesto": "Bukovica Donja",
+   "adresa": "In front of church",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/bijeljina"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "zagoni-spomenik-na-mjestu-partizanske-radionice",
+  "izvorniZapis": {
+   "naziv": "Spomenik na mjestu partizanske radionice",
+   "nazivEn": "Monument to commemorate site of Partisan workshop",
+   "mesto": "Zagoni",
+   "adresa": "Dom Kulture",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bijeljina",
+   "godina": "posle 1963"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "bukovica-donja-spomenik-palim-borcima-i-zrtvama-fa",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Bukovica Donja",
+   "adresa": "In front of church",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bijeljina",
+   "godina": "pre 1963"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "cadjavica-donja-spomenik-pobjedi-majevickog-odreda",
+  "izvorniZapis": {
+   "naziv": "Spomenik pobjedi Majevičkog odreda 1943. godine",
+   "nazivEn": "Monument to commemorate victory by the Majevica Detachment in 1943",
+   "mesto": "Čađavica Donja",
+   "adresa": "Alongside road between Čađavica Donja and Dragaljevac",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bijeljina"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "novo-naselje-spomenik-48-pripadnika-i-srpske-prole",
+  "izvorniZapis": {
+   "naziv": "Spomenik 48 pripadnika I srpske proleterske brigade poginulih pri oslobođenju Bijeljine",
+   "nazivEn": "Monument to commemorate 48 members of the I Serb Proletarian Brigade killed during the liberation of Bijeljina",
+   "mesto": "Novo Naselje",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1951",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bijeljina"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "novo-selo-zajednicka-grobnica-27-palih-boraca",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica 27 palih boraca",
+   "nazivEn": "Collective grave of 27 fallen fighters",
+   "mesto": "Novo Selo",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/bijeljina",
+   "godina": "pre 1960"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "trnjaci-spomenik-nizu-dogadjaja-u-trnjacima-tokom",
+  "izvorniZapis": {
+   "naziv": "Spomenik nizu događaja u Trnjacima tokom NOB",
+   "nazivEn": "Monument to commemorate multiple events in Trnjaci during the NOB",
+   "mesto": "Trnjaci",
+   "adresa": "Next to NIS petrol station",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1982",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bijeljina"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "banjica-spomenik-nob",
+  "izvorniZapis": {
+   "naziv": "Spomenik NOB",
+   "nazivEn": "Monument to the NOB",
+   "mesto": "Banjica",
+   "adresa": "Along road to Gornja Trnova",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bijeljina",
+   "stanje": "ostecen",
+   "godina": "1950-ih"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "baljci-zajednicka-grobnica-palih-boraca",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica palih boraca",
+   "nazivEn": "Collective grave of fallen fighters",
+   "mesto": "Baljci",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1960",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/bileca"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "bogdasici-zajednicka-grobnica-palih-boraca",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica palih boraca",
+   "nazivEn": "Collective grave of fallen fighters",
+   "mesto": "Bogdašići",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1961",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/bileca"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "korita-spomenik-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Korita",
+   "adresa": "Korita Jama",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1991",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bileca"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "korita-kosturnica-zrtava-fasistickog-terora-sa-spo",
+  "izvorniZapis": {
+   "naziv": "Kosturnica žrtava fašističkog terora sa spomenikom palim borcima",
+   "nazivEn": "Ossuary of Victims of Fascist Terror, with monument to fallen fighters",
+   "mesto": "Korita",
+   "adresa": "Korita Jama",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Nandor Glid",
+   "godina": "1966",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/bileca"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "jasenica-partizansko-groblje-sa-85-palih-boraca",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje sa 85 palih boraca",
+   "nazivEn": "Partisans' cemetery with 85 fallen fighters",
+   "mesto": "Jasenica",
+   "adresa": "North side of R405 road",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1961",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/bosanskakrupa"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "perna-spomenik-palim-borcima-i-zrtvama-fasistickog",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Perna",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1961",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bosanskakrupa",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "donja-suvaja-spomenik-palim-borcima-i-zrtvama-fasi",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Donja Suvaja",
+   "adresa": "Gudavac, alongside main road",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1961",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bosanskakrupa",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "gornja-suvaja-kosturnica-119-zrtava-fasistickog-te",
+  "izvorniZapis": {
+   "naziv": "Kosturnica 119 žrtava fašističkog terora",
+   "nazivEn": "Ossuary of 119 Victims of Fascist Terror",
+   "mesto": "Gornja Suvaja",
+   "adresa": "In woodland to south of village centre",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1961",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/bosanskakrupa",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "jasenica-spomenik-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to fallen fighters",
+   "mesto": "Jasenica",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Ante Ušljebrka",
+   "godina": "1954",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bosanskakrupa"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "jasenica-spomenik-na-mjestu-strijeljanja-preko-100",
+  "izvorniZapis": {
+   "naziv": "Spomenik na mjestu strijeljanja preko 100 žrtava fašističkog terora u zimu 1943. godine",
+   "nazivEn": "Monument to commemorate site of execution of over 100 Victims of Fascist Terror in winter 1943",
+   "mesto": "Jasenica",
+   "adresa": "Bjelajske Uvale, in woodland",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bosanskakrupa"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vranjska-spomenik-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Vranjska",
+   "adresa": "Vršeljak",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1983",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bosanskakrupa"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vranjska-spomenik-zrtvama-fasistickog-terora-2",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Vranjska",
+   "adresa": "Mosura",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1983",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bosanskakrupa"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "donja-suvaja-spomenik-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Donja Suvaja",
+   "adresa": "Čardak",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1983",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bosanskakrupa"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "klenovac-spomenik-strijeljanim-partizanima",
+  "izvorniZapis": {
+   "naziv": "Spomenik strijeljanim partizanima",
+   "nazivEn": "Monument to executed partisans",
+   "mesto": "Klenovac",
+   "adresa": "Village cemetery",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bosanskipetrovac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "jasenovac-spomenik-strijeljanim-partizanima",
+  "izvorniZapis": {
+   "naziv": "Spomenik strijeljanim partizanima",
+   "nazivEn": "Monument to executed partisans",
+   "mesto": "Jasenovac",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bosanskipetrovac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "ostrelj-bista-vase-kelecevica",
+  "izvorniZapis": {
+   "naziv": "Bista Vase Kelečevića",
+   "nazivEn": "Bust of NH Vaso Kelečević",
+   "mesto": "Oštrelj",
+   "adresa": "Train station",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/bosanskipetrovac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "brestovac-spomenik-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Brestovac",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1989",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bosanskipetrovac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "klenovac-spomenik-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Klenovac",
+   "adresa": "Local cemetery",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1985",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bosanskipetrovac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "klenovac-spomenik-zrtvama-fasistickog-terora-2",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Klenovac",
+   "adresa": "Vukobrata",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1988",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bosanskipetrovac",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "suvaja-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Suvaja",
+   "adresa": "Left side of road to Bosanska Krupa",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1961",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/bosanskipetrovac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "klenovac-spomenik-zrtvama-fasistickog-terora-3",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Klenovac",
+   "adresa": "Sabljići",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1988",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bosanskipetrovac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "suvaja-bista-dure-pecanca-djurekana",
+  "izvorniZapis": {
+   "naziv": "Bista Dure Pećanca Đurekana",
+   "nazivEn": "Bust of NH Duro Pećanac Đurekan",
+   "mesto": "Suvaja",
+   "adresa": "Close to church",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "2023",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/bosanskipetrovac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "unista-spomen-dom-druge-dalmatinske-proleterske-br",
+  "izvorniZapis": {
+   "naziv": "Spomen-dom Druge dalmatinske proleterske brigade",
+   "nazivEn": "Memorial hall of the 2nd Dalmatian Proletarian Brigade",
+   "mesto": "Uništa",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1975",
+   "vrsta": "muzej",
+   "izvor": "https://www.spomenicinob.info/bosanskograhovo"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "unista-spomen-kosturnica",
+  "izvorniZapis": {
+   "naziv": "Spomen-kosturnica",
+   "nazivEn": "Memorial ossuary",
+   "mesto": "Uništa",
+   "adresa": "Entrance to village",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1981",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/bosanskograhovo"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "peci-spomen-cesma-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma palim borcima",
+   "nazivEn": "Fountain to commemorate fallen fighters",
+   "mesto": "Peći",
+   "adresa": "North of village, to west of M14.2 road",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bosanskograhovo",
+   "stanje": "ostecen",
+   "godina": "1950-ih"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "malesevci-spomenik-palim-borcima-i-zrtvama-fasisti",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Maleševci",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1964",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bosanskograhovo"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "zaluzje-spomenik-nob",
+  "izvorniZapis": {
+   "naziv": "Spomenik NOB",
+   "nazivEn": "Monument to the NOB",
+   "mesto": "Zalužje",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bratunac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "brezovo-polje-spomenik-i-kosturnica-palih-boraca-i",
+  "izvorniZapis": {
+   "naziv": "Spomenik i kosturnica palih boraca i žrtava fašističkog terora",
+   "nazivEn": "Monument and ossuary of fallen fighters and Victims of Fascist Terror",
+   "mesto": "Brezovo Polje",
+   "adresa": "Community hall",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1972",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/brcko"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "brod-spomenik-partizanskim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik partizanskim borcima",
+   "nazivEn": "Monument to Partisan fighters",
+   "mesto": "Brod",
+   "adresa": "Corner of Mostarska and Huseina Salapića",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1972",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/brcko"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "potocari-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Potočari",
+   "adresa": "Beside R458 road, immediately north of church",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/brcko"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "brezovo-polje-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Brezovo Polje",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/brcko"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "maoca-spomenik-arifu-dervisevicu",
+  "izvorniZapis": {
+   "naziv": "Spomenik Arifu Derviševiću",
+   "nazivEn": "Monument to Arif Dervišević",
+   "mesto": "Maoča",
+   "adresa": "Local clinic",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1968",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/brcko"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "maoca-spomenik-na-mjestu-smrti-arifa-dervisevica",
+  "izvorniZapis": {
+   "naziv": "Spomenik na mjestu smrti Arifa Derviševića",
+   "nazivEn": "Monument to mark the place of death of Arif Dervišević",
+   "mesto": "Maoča",
+   "adresa": "Main road, approx. 150 metres south of mosque",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/brcko"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "maoca-spomenik-zarobljavanju-768-pripadnika-divizi",
+  "izvorniZapis": {
+   "naziv": "Spomenik zarobljavanju 768 pripadnika divizije „Handžar“ 1944. godine",
+   "nazivEn": "Monument to commemorate capture of 768 Handžar Division troops in 1944",
+   "mesto": "Maoča",
+   "adresa": "Main road, approx. 150 metres south of mosque",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1983",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/brcko"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "palanka-spomen-cesma-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma palim borcima",
+   "nazivEn": "Fountain to commemorate fallen fighters",
+   "mesto": "Palanka",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1978",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/brcko"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "gornji-zovik-spomen-cesma-palim-borcima-i-zrtvama",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Fountain to commemorate fallen fighters and Victims of Fascist Terror",
+   "mesto": "Gornji Zovik",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1978",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/brcko"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "dubrave-bista-mirka-filipovica",
+  "izvorniZapis": {
+   "naziv": "Bista Mirka Filipovića",
+   "nazivEn": "Bust of NH Mirko Filipović",
+   "mesto": "Dubrave",
+   "adresa": "Community Hall, next to football pitch",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Dragan Radaković",
+   "godina": "2008",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/brcko"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "bijela-spomen-cesma-radu-omladinske-radne-grupe-na",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma radu omladinske radne grupe na pruzi Brčko–Banovići",
+   "nazivEn": "Fountain to commemorate Youth Workers' Group's work on the Brčko–Banovići line",
+   "mesto": "Bijela",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1946",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/brcko"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "gorice-spomenik-nob",
+  "izvorniZapis": {
+   "naziv": "Spomenik NOB",
+   "nazivEn": "Monument to the NOB",
+   "mesto": "Gorice",
+   "adresa": "Close to elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/brcko",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "potocari-spomenik-na-mjestu-strijeljanja-milorada",
+  "izvorniZapis": {
+   "naziv": "Spomenik na mjestu strijeljanja Milorada Petrovića",
+   "nazivEn": "Monument to commemorate the site of execution of Milorad Petrović",
+   "mesto": "Potočari",
+   "adresa": "Next to elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/brcko",
+   "godina": "1981-1984"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "dubrave-bista-mirka-filipovica-2",
+  "izvorniZapis": {
+   "naziv": "Bista Mirka Filipovića",
+   "nazivEn": "Bust of NH Mirko Filipović",
+   "mesto": "Dubrave",
+   "adresa": "Elementary school (former)",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Milovan Krstić",
+   "godina": "1971",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/brcko"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "gornji-zovik-bista-mate-mateljica",
+  "izvorniZapis": {
+   "naziv": "Bista Mate Mateljića",
+   "nazivEn": "Bust of Mato Mateljić",
+   "mesto": "Gornji Zovik",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Isak Hasandžiković",
+   "godina": "1982",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/brcko"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "zboriste-spomenik-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Zborište",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/brod"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "lijesce-spomenik-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Liješće",
+   "adresa": "Community Hall",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/brod"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "novo-selo-zajednicka-grobnica-palih-boraca",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica palih boraca",
+   "nazivEn": "Collective grave of fallen fighters",
+   "mesto": "Novo Selo",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1950",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/brod"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "lijesce-spomenik-palim-borcima-i-zrtvama-fasistick",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Liješće",
+   "adresa": "Community hall",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/brod"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "porice-spomen-kosturnica-3",
+  "izvorniZapis": {
+   "naziv": "Spomen-kosturnica",
+   "nazivEn": "Memorial ossuary",
+   "mesto": "Poriče",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/bugojno"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "seferovici-spomenik-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Seferovići",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/bugojno",
+   "godina": "posle 1984"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "katici-spomenik-na-mjestu-strijeljanja-u-novembru",
+  "izvorniZapis": {
+   "naziv": "Spomenik na mjestu strijeljanja u novembru 1943. godine",
+   "nazivEn": "Monument to mark place of executions in November 1943",
+   "mesto": "Katići",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1987",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/busovaca",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "dobro-selo-spomenik-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Dobro Selo",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1983",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/buzim"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "dobro-selo-spomenik-zrtvama-fasistickog-terora-2",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Dobro Selo",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1983",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/buzim"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "dobro-selo-spomenik-zrtvama-fasistickog-terora-3",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Dobro Selo",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1983",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/buzim"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "dracevo-spomenik-70-zrtava-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik 70 žrtava fašističkog terora",
+   "nazivEn": "Monument to 70 Victims of Fascist Terror",
+   "mesto": "Dračevo",
+   "adresa": "Krupa Orthodox cemetery",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1946",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/capljina",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "rujnica-zajednicka-grobnica-110-zrtava-fasistickog",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica 110 žrtava fašističkog terora",
+   "nazivEn": "Collective grave of 110 Victims of Fascist Terror",
+   "mesto": "Rujnica",
+   "adresa": "Close to elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1968",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/cazin"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "crnaja-spomenik-nob",
+  "izvorniZapis": {
+   "naziv": "Spomenik NOB",
+   "nazivEn": "Monument to the NOB",
+   "mesto": "Crnaja",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/cazin",
+   "godina": "pre 1983"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "pivnice-spomenik-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Pivnice",
+   "adresa": "Koprivna, close to pit",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1981",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/cazin"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vrazici-spomen-obiljezje-palim-borcima-nor-a-i-zrt",
+  "izvorniZapis": {
+   "naziv": "Spomen-obilježje palim borcima NOR-a i žrtvama fašističkog terora",
+   "nazivEn": "Memorial to fallen fighters of the NOR and Victims of Fascist Terror",
+   "mesto": "Vražići",
+   "adresa": "Village centre",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/celic",
+   "godina": "pre 1973"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vrazici-bista-fadila-jahica-spanca",
+  "izvorniZapis": {
+   "naziv": "Bista Fadila Jahića Španca",
+   "nazivEn": "Bust of NH Fadil Jahić Španac",
+   "mesto": "Vražići",
+   "adresa": "Vražići elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Savo Bjelošević",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/celic",
+   "godina": "1970-1981"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "lipovac-spomenik-borbi-izmedju-partizanskih-i-cetn",
+  "izvorniZapis": {
+   "naziv": "Spomenik borbi između partizanskih i četničkih snaga",
+   "nazivEn": "Monument to commemorate battle between Partisan and Četnik forces",
+   "mesto": "Lipovac",
+   "adresa": "Close to summit of hill",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1988",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/celinac",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "popovac-spomenik-palim-borcima-i-zrtvama-fasistick",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Popovac",
+   "adresa": "In front of local shop",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1982",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/celinac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "popovac-bista-petra-gajica",
+  "izvorniZapis": {
+   "naziv": "Bista Petra Gajića",
+   "nazivEn": "Bust of Petar Gajić",
+   "mesto": "Popovac",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/celinac",
+   "godina": "posle 1971"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "milosevo-spomen-cesma-narodnom-heroju-milosu-dujic",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma narodnom heroju Milošu Dujiću i palim borcima",
+   "nazivEn": "Fountain to commemorate NH Miloš Dujić and fallen fighters",
+   "mesto": "Miloševo",
+   "adresa": "Dragojevići",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1984",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/celinac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "crni-vrh-spomenik-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to fallen fighters",
+   "mesto": "Crni Vrh",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1966",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/celinac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "brezicani-zajednicka-grobnica-zrtava-fasistickog-t",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica žrtava fašističkog terora",
+   "nazivEn": "Collective grave of Victims of Fascist Terror",
+   "mesto": "Brezičani",
+   "adresa": "Edge of woodland approx. 450m south-west of village centre",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/celinac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "lipovac-spomenik-27-partizanskih-boraca-poginulih",
+  "izvorniZapis": {
+   "naziv": "Spomenik 27 partizanskih boraca poginulih na ovom mjestu 1942. godine",
+   "nazivEn": "Monument to commemorate 27 Partisan fighters killed at this location in 1942",
+   "mesto": "Lipovac",
+   "adresa": "On border with Kotor Varoš municipality",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/celinac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "lipovac-spomenik-27-partizanskih-boraca-poginulih-2",
+  "izvorniZapis": {
+   "naziv": "Spomenik 27 partizanskih boraca poginulih 1942. godine",
+   "nazivEn": "Monument to commemorate 27 Partisan fighters killed in 1942",
+   "mesto": "Lipovac",
+   "adresa": "Close to site of former community hall",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/celinac",
+   "godina": "1969-1985"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "begluci-spomenik-nob",
+  "izvorniZapis": {
+   "naziv": "Spomenik NOB",
+   "nazivEn": "Monument to the NOB",
+   "mesto": "Begluci",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/derventa"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "bunar-spomenik-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to fallen fighters",
+   "mesto": "Bunar",
+   "adresa": "In front of community hall",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1953",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/derventa",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "brezici-spomenik-palim-borcima-poginulim-u-borbi-s",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima poginulim u borbi s četnicima 8. februara 1945. godine",
+   "nazivEn": "Monument to fallen fighters killed in battle with Chetniks on 8 February 1945",
+   "mesto": "Brezici",
+   "adresa": "Crossroads leading to Majevac",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1952",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/derventa",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "agici-spomenik-palim-borcima-i-zrtvama-fasistickog",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Agići",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/derventa",
+   "godina": "1970-ih"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "lug-spomenik-palim-borcima-i-zrtvama-fasistickog-t",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Lug",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/derventa"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "modran-spomenik-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to fallen fighters",
+   "mesto": "Modran",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Husnija Kurtagić",
+   "godina": "1954",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/derventa"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "kostajnica-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans’ cemetery",
+   "mesto": "Kostajnica",
+   "adresa": "Close to elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Dragomir Fraj",
+   "godina": "1950",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/doboj"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "johovac-kosturnica-14-nepoznatih-partizanskih-bora",
+  "izvorniZapis": {
+   "naziv": "Kosturnica 14 nepoznatih partizanskih boraca i 2 žrtve fašističkog terora",
+   "nazivEn": "Ossuary of 14 unknown Partisan fighters and 2 Victims of Fascist Terror",
+   "mesto": "Johovac",
+   "adresa": "Crossroads at entrance to village",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Nikola Krstičević",
+   "godina": "1951",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/doboj"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "majevac-spomenik-palim-partizanskim-borcima-i-zrtv",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim partizanskim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen Partisan fighters and Victims of Fascist Terror",
+   "mesto": "Majevac",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Svetislav Skopljak",
+   "godina": "1950",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/doboj"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "stanovi-spomenik-palim-partizanskim-borcima-i-zrtv",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim partizanskim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen Partisan fighters and Victims of Fascist Terror",
+   "mesto": "Stanovi",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1951",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/doboj"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "podovi-spomen-kosturnica",
+  "izvorniZapis": {
+   "naziv": "Spomen-kosturnica",
+   "nazivEn": "Memorial ossuary",
+   "mesto": "Podovi",
+   "adresa": "Beside main road",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1961",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/drvar"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "podovi-spomenik-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to fallen fighters",
+   "mesto": "Podovi",
+   "adresa": "Pasijak; Beside monument to 1992-95 war",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/drvar"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "celebici-bista-dusana-fundica",
+  "izvorniZapis": {
+   "naziv": "Bista Dušana Fundića",
+   "nazivEn": "Bust of Dušan Fundić",
+   "mesto": "Čelebići",
+   "adresa": "Opposite elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1984",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/foca"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "celebici-bista-branka-gagovica",
+  "izvorniZapis": {
+   "naziv": "Bista Branka Gagovića",
+   "nazivEn": "Bust of Branko Gagović",
+   "mesto": "Čelebići",
+   "adresa": "Opposite elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1984",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/foca"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vrbnica-logoriste-vrhovnog-staba",
+  "izvorniZapis": {
+   "naziv": "Logorište Vrhovnog štaba",
+   "nazivEn": "Encampment of Supreme Command",
+   "mesto": "Vrbnica",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/foca",
+   "godina": "pre 1975"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "slatina-spomenik-palim-borcima-xvi-muslimanske-bri",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima XVI muslimanske brigade",
+   "nazivEn": "Monument to fallen fighters of the XVI Muslim Brigade",
+   "mesto": "Slatina",
+   "adresa": "Community Hall",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/foca",
+   "stanje": "ostecen",
+   "godina": "pre 1981"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "celebici-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Čelebići",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/foca",
+   "godina": "pre 1955"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "brod-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Brod",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1949",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/foca"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "jelec-boraviste-josipa-broza-tita",
+  "izvorniZapis": {
+   "naziv": "Boravište Josipa Broza Tita",
+   "nazivEn": "Residence of Josip Broz Tito",
+   "mesto": "Jeleč",
+   "adresa": "Gozva",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "muzej",
+   "izvor": "https://www.spomenicinob.info/foca"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "samobor-spomenik-i-i-ii-proleterskoj-brigadi",
+  "izvorniZapis": {
+   "naziv": "Spomenik I i II proleterskoj brigadi",
+   "nazivEn": "Monument to the I & II Proletarian Brigades",
+   "mesto": "Samobor",
+   "adresa": "Gat",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/gacko"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vrba-spomen-cesma-borcima-koji-su-pali-u-junu-1942",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma borcima koji su pali u junu 1942",
+   "nazivEn": "Fountain to commemorate fighters who fell in June 1942",
+   "mesto": "Vrba",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/gacko",
+   "godina": "pre 1963"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "odzak-bista-dusana-cubica",
+  "izvorniZapis": {
+   "naziv": "Bista Dušana Ćubića",
+   "nazivEn": "Bust of NH Dušan Ćubić",
+   "mesto": "Odžak",
+   "adresa": "Dušan Ćubić elementary school (inside)",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/glamoc",
+   "godina": "pre 1984"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "orahovice-groblje-61-palog-borca",
+  "izvorniZapis": {
+   "naziv": "Groblje 61 palog borca",
+   "nazivEn": "Cemetery of 61 fallen fighters",
+   "mesto": "Orahovice",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1961",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/gorazde"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vitkovici-spomenik-nob",
+  "izvorniZapis": {
+   "naziv": "Spomenik NOB",
+   "nazivEn": "Monument to the NOB",
+   "mesto": "Vitkovići",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/gorazde"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vitkovici-spomenik-omladinskim-radnim-brigadama-ko",
+  "izvorniZapis": {
+   "naziv": "Spomenik omladinskim radnim brigadama koje su učestvovale u izgradnji fabrike",
+   "nazivEn": "Monument to Youth Workers' Brigades involved in construction of the factory",
+   "mesto": "Vitkovići",
+   "adresa": "Next to football stadium",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1956",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/gorazde"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "babici-spomen-kosturnica",
+  "izvorniZapis": {
+   "naziv": "Spomen-kosturnica",
+   "nazivEn": "Memorial ossuary",
+   "mesto": "Babići",
+   "adresa": "Village centre",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Jusuf Omerčićević",
+   "godina": "1985",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/gracanica"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "malesici-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans’ cemetery",
+   "mesto": "Malešići",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Ostoja Radić & Abdulah Osmičević & Anton Šego",
+   "godina": "1959",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/gracanica"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "malesici-bista-adema-alica",
+  "izvorniZapis": {
+   "naziv": "Bista Adema Alića",
+   "nazivEn": "Bust of Adem Alić",
+   "mesto": "Malešići",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Marijan Zaradić",
+   "godina": "1981",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/gracanica"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "mionica-spomenik-formiranju-mionicke-cete",
+  "izvorniZapis": {
+   "naziv": "Spomenik formiranju Mioničke čete",
+   "nazivEn": "Monument to the formation of the Mionica Company",
+   "mesto": "Mionica",
+   "adresa": "Community hall",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1986",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/gradacac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "mionica-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Mionica",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/gradacac",
+   "godina": "1952-1954"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "seferovci-spomenik-palim-borcima-i-zrtvama-fasisti",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Seferovci",
+   "adresa": "Close to Dom Kulture; In complex with monument to 1992-95 war",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/gradiska"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vakuf-spomenik-palim-borcima-i-zrtvama-fasistickog",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Vakuf",
+   "adresa": "In courtyard of elementary school; In complex with monument to 1992-95 war",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Mario Nevžala",
+   "godina": "1977",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/gradiska"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "rogolji-spomen-kuca-narodnog-heroja-stevana-dukica",
+  "izvorniZapis": {
+   "naziv": "Spomen-kuća narodnog heroja Stevana Dukića sa spomen-pločom",
+   "nazivEn": "Memorial house of NH Stevan Dukić with memorial plaque",
+   "mesto": "Rogolji",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "muzej",
+   "izvor": "https://www.spomenicinob.info/gradiska",
+   "godina": "posle 1970"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "rogolji-spomenik-palim-borcima-i-zrtvama-fasistick",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Rogolji",
+   "adresa": "Birthplace of NH Stevan Dukić; In complex with monument to 1992-95 war",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1960",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/gradiska"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "rogolji-bista-stevana-dukica",
+  "izvorniZapis": {
+   "naziv": "Bista Stevana Dukića",
+   "nazivEn": "Bust of NH Stevan Dukić",
+   "mesto": "Rogolji",
+   "adresa": "Beside monument",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/gradiska"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "nova-topola-spomen-grobnica-palih-boraca-nor-a",
+  "izvorniZapis": {
+   "naziv": "Spomen-grobnica palih boraca NOR-a",
+   "nazivEn": "Memorial grave of fallen fighters of the NOR",
+   "mesto": "Nova Topola",
+   "adresa": "Close to AD ‘Ratarstvo’ offices",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1946",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/gradiska"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "nova-topola-bista-stevana-dukica",
+  "izvorniZapis": {
+   "naziv": "Bista Stevana Dukića",
+   "nazivEn": "Bust of NH Stevan Dukić",
+   "mesto": "Nova Topola",
+   "adresa": "Elementary school; Rogolji",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1977",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/gradiska"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "masici-spomenik-palim-borcima-i-zrtvama-fasisticko",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Mašići",
+   "adresa": "Village centre; Incorporated into monument to 1992-95 war",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1981",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/gradiska"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "masici-zajednicka-grobnica-zrtava-fasistickog-tero",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica žrtava fašističkog terora",
+   "nazivEn": "Collective grave of Victims of Fascist Terror",
+   "mesto": "Mašići",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/gradiska",
+   "godina": "pre 1978"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "masici-spomenik-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Mašići",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/gradiska"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "masici-spomenik-palim-borcima-nob",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima NOB",
+   "nazivEn": "Monument to fallen fighters of the NOB",
+   "mesto": "Mašići",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/gradiska"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vilusi-spomenik-palim-borcima-i-zrtvama-fasisticko",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Vilusi",
+   "adresa": "Village centre",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1982",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/gradiska"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vilusi-spomenik-zrtvama-fasistickog-terora-strijel",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora strijeljanim 1943. godine",
+   "nazivEn": "Monument to Victims of Fascist Terror executed in 1943",
+   "mesto": "Vilusi",
+   "adresa": "Beside road leading to main road to Banja Luka",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1984",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/gradiska"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "miljevici-spomenik-palim-borcima-i-zrtvama-fasisti",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Miljevići",
+   "adresa": "Close to elementary school; In complex with monument to 1992-95 war",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1984",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/gradiska"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "miljevici-bista-mileta-ristica",
+  "izvorniZapis": {
+   "naziv": "Bista Mileta Ristića",
+   "nazivEn": "Bust of NH Mile Ristić",
+   "mesto": "Miljevići",
+   "adresa": "Beside monument",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "2017",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/gradiska"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "turjak-spomenik-palim-borcima-i-zrtvama-fasisticko",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Turjak",
+   "adresa": "Village centre; In complex with monument to 1992-95 war",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/gradiska",
+   "godina": "pre 1978"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "turjak-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Turjak",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1961",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/gradiska"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "turjak-spomen-grobnica-palih-boraca-nor-a",
+  "izvorniZapis": {
+   "naziv": "Spomen-grobnica palih boraca NOR-a",
+   "nazivEn": "Memorial grave of fallen fighters of the NOR",
+   "mesto": "Turjak",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Strahinja Petrović",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/gradiska",
+   "godina": "1973-1978"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "kijevci-spomenik-palim-borcima-i-zrtvama-fasistick",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Kijevci",
+   "adresa": "Courtyard of elementary school; In complex with monument to 1992-95 war",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1975",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/gradiska"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "grbavci-spomenik-palim-borcima-i-zrtvama-fasistick",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Grbavci",
+   "adresa": "Close to church; In complex with monument to 1992-95 war",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1959",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/gradiska"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "grbavci-zajednicka-grobnica-zrtava-fasistickog-ter",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica žrtava fašističkog terora",
+   "nazivEn": "Collective grave of Victims of Fascist Terror",
+   "mesto": "Grbavci",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/gradiska",
+   "godina": "pre 1978"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "grbavci-spomen-kosturnica-i-grobovi-12-clanova-sko",
+  "izvorniZapis": {
+   "naziv": "Spomen-kosturnica i grobovi 12 članova SKOJ-a",
+   "nazivEn": "Memorial ossuary & graves of 12 members of SKOJ",
+   "mesto": "Grbavci",
+   "adresa": "Local cemetery",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1959",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/gradiska"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "jablanica-spomenik-palim-borcima-i-zrtvama-fasisti",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Jablanica",
+   "adresa": "In front of Etno Centar Bjelovuk",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/gradiska"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "bistrica-spomenik-palim-borcima-i-zrtvama-fasistic",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Bistrica",
+   "adresa": "On road to Kozarska Dubica; In complex with monument to 1992-95 war",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1984",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/gradiska"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "orahova-bista-avde-cuka",
+  "izvorniZapis": {
+   "naziv": "Bista Avde Ćuka",
+   "nazivEn": "Bust of NH Avdo Ćuk",
+   "mesto": "Orahova",
+   "adresa": "Courtyard of Avdo Ćuk elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/gradiska"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "orahova-spomenik-partizanskoj-avijaciji",
+  "izvorniZapis": {
+   "naziv": "Spomenik partizanskoj avijaciji",
+   "nazivEn": "Monument to Partisan aviation",
+   "mesto": "Orahova",
+   "adresa": "Park Solidarnost",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1972",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/gradiska"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "orahova-spomenik-palim-borcima-i-zrtvama-fasistick",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Orahova",
+   "adresa": "In front of community hall",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1987",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/gradiska"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "cerovljani-spomenik-palim-borcima-i-zrtvama-fasist",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Cerovljani",
+   "adresa": "Next to kindergarten; In complex with monument to 1992-95 war",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/gradiska",
+   "godina": "oko 1977"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "sovjak-zajednicka-grobnica-palih-boraca-i-zrtava-f",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica palih boraca i žrtava fašističkog terora",
+   "nazivEn": "Collective grave of fallen fighters and Victims of Fascist Terror",
+   "mesto": "Sovjak",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/gradiska",
+   "godina": "posle 1967"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "ruzici-zajednicka-grobnica-23-borca-iii-dalmatinsk",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica 23 borca III dalmatinske brigade",
+   "nazivEn": "Collective grave of 23 fighters of III Dalmatian Brigade",
+   "mesto": "Ružići",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1951",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/grude"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "rakovica-zajednicka-grobnica-13-partizanskih-borac",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica 13 partizanskih boraca",
+   "nazivEn": "Collective grave of 13 Partisan fighters",
+   "mesto": "Rakovica",
+   "adresa": "Šamin Gaj, left side of Sarajevo-Rakovica road",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1953",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/ilidza"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "rakovica-spomen-kosturnica-12-palih-boraca",
+  "izvorniZapis": {
+   "naziv": "Spomen-kosturnica 12 palih boraca",
+   "nazivEn": "Memorial ossuary of 12 fallen fighters",
+   "mesto": "Rakovica",
+   "adresa": "In front of property of Milić family (former)",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/ilidza"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "rakovica-spomenik-napadu-na-aerodrom-rajlovac",
+  "izvorniZapis": {
+   "naziv": "Spomenik napadu na aerodrom Rajlovac",
+   "nazivEn": "Monument to commemorate attack on Rajlovac airfield",
+   "mesto": "Rakovica",
+   "adresa": "Stanjevac",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1959",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/ilidza"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "kobiljaca-spomenik-palim-borcima-crnogorskih-i-kra",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima crnogorskih i krajiških brigada",
+   "nazivEn": "Monument to fallen fighters of the Montenegrin and Krajinan Brigades",
+   "mesto": "Kobiljača",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Pavo Kraljević",
+   "godina": "1954",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/ilidza"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "kobiljaca-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Kobiljača",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/ilidza"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "malesici-kosturnica-sa-58-zrtava-fasistickog-teror",
+  "izvorniZapis": {
+   "naziv": "Kosturnica sa 58 žrtava fašističkog terora",
+   "nazivEn": "Ossuary containing 58 Victims of Fascist Terror",
+   "mesto": "Malešići",
+   "adresa": "Village centre",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Milutin Đokić",
+   "godina": "1954",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/ilijas"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "jezero-groblje-partizanskih-boraca-i-zrtava-fasist",
+  "izvorniZapis": {
+   "naziv": "Groblje partizanskih boraca i žrtava fašističkog terora",
+   "nazivEn": "Cemetery of Partisan fighters and Victims of Fascist Terror",
+   "mesto": "Jezero",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1983",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/jezero"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "poljani-spomen-cesma-stjepanu-kovacevicu",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma Stjepanu Kovačeviću",
+   "nazivEn": "Fountain to commemorate Stjepan Kovačević",
+   "mesto": "Poljani",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/kakanj",
+   "godina": "pre 1960"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "osredak-spomenik-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to fallen fighters",
+   "mesto": "Osredak",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/kakanj",
+   "godina": "pre 1987"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "pepici-spomenik-formiranju-kladanjskog-nop-odreda",
+  "izvorniZapis": {
+   "naziv": "Spomenik formiranju Kladanjskog NOP odreda",
+   "nazivEn": "Monument to formation of the Kladanj NOP Detachment",
+   "mesto": "Pepići",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1961",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/kladanj"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "bastaji-spomen-cesma-15-palih-boraca-i-zrtvama-fas",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma 15 palih boraca i žrtvama fašističkog terora",
+   "nazivEn": "Fountain to commemorate 15 fallen fighters and Victims of Fascist Terror",
+   "mesto": "Bastaji",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1986",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/knezevo"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "bastaji-bista-mihaila-mike-pavlovica",
+  "izvorniZapis": {
+   "naziv": "Bista Mihaila „Mike“ Pavlovića",
+   "nazivEn": "Bust of Mihailo 'Miko' Pavlović",
+   "mesto": "Bastaji",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1986",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/knezevo"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "zivinice-spomen-cesma-10-palih-boraca",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma 10 palih boraca",
+   "nazivEn": "Memorial fountain to commemorate 10 fallen fighters",
+   "mesto": "Živinice",
+   "adresa": "Beside main road, 250m north of Orthodox church",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1987",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/knezevo"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "zivinice-spomen-cesma-palim-borcima-i-zrtvama-fasi",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Fountain to commemorate fallen fighters and Victims of Fascist Terror",
+   "mesto": "Živinice",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/knezevo",
+   "godina": "pre 1986"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "seonica-bista-refika-secibovica",
+  "izvorniZapis": {
+   "naziv": "Bista Refika Šećibovića",
+   "nazivEn": "Bust of Refik Šećibović",
+   "mesto": "Seonica",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1990",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/konjic"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "petrinja-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Petrinja",
+   "adresa": "Local cemetery",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1957",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/kostajnica"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "liplje-spomen-cesma",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma",
+   "nazivEn": "Memorial fountain",
+   "mesto": "Liplje",
+   "adresa": "Kovačevići, close to monument",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1987",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/kotorvaros"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "liplje-spomenik-na-mjestu-smrti-12-vojnika-xii-sla",
+  "izvorniZapis": {
+   "naziv": "Spomenik na mjestu smrti 12 vojnika XII slavonske brigade",
+   "nazivEn": "Monument at place of death of 12 soldiers of the XII Slavonian Brigade",
+   "mesto": "Liplje",
+   "adresa": "Kovačevići",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/kotorvaros"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "maslovare-partizansko-groblje-sa-62-pala-borca",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje sa 62 pala borca",
+   "nazivEn": "Partisans' cemetery with 62 fallen fighters",
+   "mesto": "Maslovare",
+   "adresa": "Close to village centre",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1961",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/kotorvaros"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "maslovare-spomen-cesma-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma palim borcima",
+   "nazivEn": "Fountain to commemorate fallen fighters",
+   "mesto": "Maslovare",
+   "adresa": "Village centre",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1958",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/kotorvaros"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "maslovare-bista-dragana-bubica",
+  "izvorniZapis": {
+   "naziv": "Bista Dragana Bubića",
+   "nazivEn": "Bust of NH Dragan Bubić",
+   "mesto": "Maslovare",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1970",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/kotorvaros"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "maslovare-spomenik-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to fallen fighters",
+   "mesto": "Maslovare",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1953",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/kotorvaros"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "maslovare-spomenik-josipu-brozu-titu",
+  "izvorniZapis": {
+   "naziv": "Spomenik Josipu Brozu Titu",
+   "nazivEn": "Monument to Josip Broz Tito",
+   "mesto": "Maslovare",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/kotorvaros",
+   "godina": "pre 1956"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "medjedja-spomenik-palim-borcima-i-zrtvama-fasistic",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Međeđa",
+   "adresa": "Village centre",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1986",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/kozarskadubica",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "rakovica-spomen-cesma-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma žrtvama fašističkog terora",
+   "nazivEn": "Fountain to commemorate Victims of Fascist Terror",
+   "mesto": "Rakovica",
+   "adresa": "Popović Gaj",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Mladen Momčilović",
+   "godina": "1982",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/kozarskadubica"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "mirkovac-spomenik-heroju-sovjetskog-saveza-zoji-ko",
+  "izvorniZapis": {
+   "naziv": "Spomenik heroju Sovjetskog Saveza Zoji Kosmodemjanskoj",
+   "nazivEn": "Monument to Hero of the Soviet Union Zoya Kosmodemyanskaya",
+   "mesto": "Mirkovac",
+   "adresa": "Žiljegović Gaj",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1973",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/kozarskadubica"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "knezica-bista-branka-tubica",
+  "izvorniZapis": {
+   "naziv": "Bista Branka Tubića",
+   "nazivEn": "Bust of Branko Tubić",
+   "mesto": "Knežica",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1975",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/kozarskadubica"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "knezica-bista-mileta-tubica",
+  "izvorniZapis": {
+   "naziv": "Bista Mileta Tubića",
+   "nazivEn": "Bust of Mile Tubić",
+   "mesto": "Knežica",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1975",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/kozarskadubica"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "knezica-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Knežica",
+   "adresa": "Village centre",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1953",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/kozarskadubica"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "citluk-bista-vojislava-kecmanovica-djede",
+  "izvorniZapis": {
+   "naziv": "Bista Vojislava Kecmanovića „Đede“",
+   "nazivEn": "Bust of Vojislav Kecmanović \"Đedo\"",
+   "mesto": "Čitluk",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/kozarskadubica",
+   "godina": "1967-1984"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "sevarlije-spomenik-zrtvama-fasistickog-terora-spal",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora spaljenim živim na ovom mjestu",
+   "nazivEn": "Monument to Victims of Fascist Terror burned alive at the site",
+   "mesto": "Ševarlije",
+   "adresa": "Entrance to village from Bačvani",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Mladen Momčilović",
+   "godina": "1976",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/kozarskadubica"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "gunjevci-spomenik-mili-mecavi",
+  "izvorniZapis": {
+   "naziv": "Spomenik Mili Mećavi",
+   "nazivEn": "Monument to Mile Mećava",
+   "mesto": "Gunjevci",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/kozarskadubica"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "gunjevci-spomen-cesma-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma palim borcima",
+   "nazivEn": "Fountain to commemorate fallen fighters",
+   "mesto": "Gunjevci",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Alija Rešić",
+   "godina": "1988",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/kozarskadubica"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "babinac-spomenik-palim-borcima-i-zrtvama-fasistick",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Babinac",
+   "adresa": "Next to bus stop",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1961",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/kozarskadubica"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "citluk-spomenik-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Čitluk",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/kozarskadubica",
+   "godina": "pre 1958"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "bukva-spomenik-na-mjestu-smrti-narodnog-heroja-gli",
+  "izvorniZapis": {
+   "naziv": "Spomenik na mjestu smrti narodnog heroja Gliše Jankovića",
+   "nazivEn": "Monument to mark the place of death of NH Gliša Janković",
+   "mesto": "Bukva",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Ranko Milanović",
+   "godina": "1974",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/kresevo"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "aleksandrovac-spomenik-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to fallen fighters",
+   "mesto": "Aleksandrovac",
+   "adresa": "In front of elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/laktasi"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "boskovici-spomenik-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to fallen fighters",
+   "mesto": "Boškovići",
+   "adresa": "Next to elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1984",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/laktasi"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "boskovici-bista-milana-radmana",
+  "izvorniZapis": {
+   "naziv": "Bista Milana Radmana",
+   "nazivEn": "Bust of Milan Radman",
+   "mesto": "Boškovići",
+   "adresa": "Next to elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1984",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/laktasi"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "slatina-spomenik-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to fallen fighters",
+   "mesto": "Slatina",
+   "adresa": "Ul. Petra Popovića Pecije",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/laktasi"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "slatina-partizansko-groblje-sa-kosturnicom",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje sa kosturnicom",
+   "nazivEn": "Partisans' cemetery with ossuary",
+   "mesto": "Slatina",
+   "adresa": "Park in village centre",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Salihagić",
+   "godina": "1954",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/laktasi"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "trn-spomenik-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to fallen fighters",
+   "mesto": "Trn",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1951",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/laktasi"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "boskovici-spomenik-milanu-radmanu",
+  "izvorniZapis": {
+   "naziv": "Spomenik Milanu Radmanu",
+   "nazivEn": "Monument to commemorate Milan Radman",
+   "mesto": "Boškovići",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Đorđe Crnogaća",
+   "godina": "1951",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/laktasi"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "susnjari-bista-djuradja-babica",
+  "izvorniZapis": {
+   "naziv": "Bista Đurađa Babića",
+   "nazivEn": "Bust of Đurađ Babić",
+   "mesto": "Šušnjari",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1973",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/laktasi"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vlahovici-spomenik-palim-borcima-i-zrtvama-fasisti",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Vlahovići",
+   "adresa": "Opposite elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1951",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/ljubinje"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vlahovici-spomenik-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to commemorate fallen fighters",
+   "mesto": "Vlahovići",
+   "adresa": "Next to elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Borislav Kurilić",
+   "godina": "1973",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/ljubinje"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "humac-spomenik-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Humac",
+   "adresa": "Lazina Jama",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1961",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/ljubuski"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vukosavci-spomen-cesma-na-mjestu-smrti-dr-rose-had",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma na mjestu smrti dr Rose Hadživuković",
+   "nazivEn": "Fountain to commemorate place of death of Dr. Rosa Hadživuković",
+   "mesto": "Vukosavci",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/lopare",
+   "godina": "pre 1978"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "priboj-bista-veljka-cubrilovica",
+  "izvorniZapis": {
+   "naziv": "Bista Veljka Čubrilovića",
+   "nazivEn": "Bust of Veljko Čubrilović",
+   "mesto": "Priboj",
+   "adresa": "Elementary school; Inside school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1983",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/lopare"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "priboj-spomenik-na-mjestu-rodjenja-veselina-i-bran",
+  "izvorniZapis": {
+   "naziv": "Spomenik na mjestu rođenja Veselina i Brane Gavrića",
+   "nazivEn": "Monument to mark the birthplace of Veselin and Brano Gavrić",
+   "mesto": "Priboj",
+   "adresa": "Close to elementary school and entrance to church yard",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1982",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/lopare"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "priboj-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Priboj",
+   "adresa": "Village centre",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/lopare"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "priboj-spomenik-braci-gligorovic",
+  "izvorniZapis": {
+   "naziv": "Spomenik braći Gligorović",
+   "nazivEn": "Monument to commemorate the Gligorović brothers",
+   "mesto": "Priboj",
+   "adresa": "Grujčići hill",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1983",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/lopare"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "mackovac-spomenik-jovi-mitrasevicu",
+  "izvorniZapis": {
+   "naziv": "Spomenik Jovi Mitraševiću",
+   "nazivEn": "Monument to Jovo Mitrašević",
+   "mesto": "Mačkovac",
+   "adresa": "Mačkovac 48",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/lopare"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "jablanica-spomenik-sastanku-kpj-u-februaru-1942-go",
+  "izvorniZapis": {
+   "naziv": "Spomenik sastanku KPJ u februaru 1942. godine",
+   "nazivEn": "Monument to commemorate KPJ meeting in February 1942",
+   "mesto": "Jablanica",
+   "adresa": "Site of former elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/lopare"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "piperi-spomenik-na-mjestu-smrti-narodnog-heroja-kr",
+  "izvorniZapis": {
+   "naziv": "Spomenik na mjestu smrti narodnog heroja Krste Bjeletića",
+   "nazivEn": "Monument to mark the place of death of NH Krsto Bjeletić",
+   "mesto": "Piperi",
+   "adresa": "Property of Petra Antić",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/lopare"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vakuf-spomenik-pocetku-ustanka-na-majevici",
+  "izvorniZapis": {
+   "naziv": "Spomenik početku ustanka na Majevici",
+   "nazivEn": "Monument to commemorate the start of the Uprising on Majevica",
+   "mesto": "Vakuf",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/lopare"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "brusnica-spomenik-na-mjestu-strijeljanja-36-zrtava",
+  "izvorniZapis": {
+   "naziv": "Spomenik na mjestu strijeljanja 36 žrtava fašističkog terora",
+   "nazivEn": "Monument to commemorate place of execution of 36 Victims of Fascist Terror",
+   "mesto": "Brusnica",
+   "adresa": "Šašulje, close to bridge",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/lopare"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "mrtvica-spomenik-palim-borcima-nor-a",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima NOR-a",
+   "nazivEn": "Monument to fallen fighters of the NOR",
+   "mesto": "Mrtvica",
+   "adresa": "Mrtvica 87, close to elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1962",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/lopare"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vukosavci-bista-antona-macana",
+  "izvorniZapis": {
+   "naziv": "Bista Antona Macana",
+   "nazivEn": "Bust of Anton Macan",
+   "mesto": "Vukosavci",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Dragiša Trifković",
+   "godina": "1960",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/lopare"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "mackovac-spomenik-jovi-i-cvitanu-jovicu",
+  "izvorniZapis": {
+   "naziv": "Spomenik Jovi i Cvitanu Joviću",
+   "nazivEn": "Monument to Jovo and Cvitan Jović",
+   "mesto": "Mačkovac",
+   "adresa": "Beside road to Pirkovci",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/lopare",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "jablanica-bista-milaka-tesica",
+  "izvorniZapis": {
+   "naziv": "Bista Milaka Tešića",
+   "nazivEn": "Bust of NH Milak Tešić",
+   "mesto": "Jablanica",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1986",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/lopare"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "turija-spomenik-na-mjestu-smrti-mehe-tubica",
+  "izvorniZapis": {
+   "naziv": "Spomenik na mjestu smrti Mehe Tubića",
+   "nazivEn": "Monument to mark the place of death of Meho Tubić",
+   "mesto": "Turija",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1980",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/lukavac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "turija-spomenik-17-palih-boraca-ozrenskog-partizan",
+  "izvorniZapis": {
+   "naziv": "Spomenik 17 palih boraca Ozrenskog partizanskog odreda",
+   "nazivEn": "Monument to commemorate 17 fallen fighters of the Ozren Partisan Detachment",
+   "mesto": "Turija",
+   "adresa": "Fatiševina hill",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Predrag Sremčević",
+   "godina": "1980",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/lukavac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "osojnica-partizansko-groblje-sa-60-palih-boraca",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje sa 60 palih boraca",
+   "nazivEn": "Partisan cemetery with 60 fallen fighters",
+   "mesto": "Osojnica",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1961",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/maglaj"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "derventa-spomen-cesma-palim-borcima-sumadijske-bri",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma palim borcima Šumadijske brigade i mjesnih partizanskih odreda",
+   "nazivEn": "Fountain to commemorate fallen fighters of the Šumadija Brigade and local Partisan Detachments",
+   "mesto": "Derventa",
+   "adresa": "Close to elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/milici",
+   "godina": "pre 1961"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vrtoce-spomenik-ustanku",
+  "izvorniZapis": {
+   "naziv": "Spomenik ustanku",
+   "nazivEn": "Monument to the Uprising",
+   "mesto": "Vrtoče",
+   "adresa": "Lovački dom",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1987",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/milici"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "derventa-spomenik-palim-borcima-nob",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima NOB",
+   "nazivEn": "Monument to fallen fighters of the NOB",
+   "mesto": "Derventa",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/milici"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "milosevac-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Miloševac",
+   "adresa": "Southernmost corner of local cemetery",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1961",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/modrica"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "milosevac-spomenik-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to fallen fighters",
+   "mesto": "Miloševac",
+   "adresa": "Outside community hall",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/modrica"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "dugo-polje-spomenik-gavrilu-vukmanovicu",
+  "izvorniZapis": {
+   "naziv": "Spomenik Gavrilu Vukmanoviću",
+   "nazivEn": "Monument to Gavrilo Vukmanović",
+   "mesto": "Dugo Polje",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/modrica"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "koprivna-spomenik-palim-borcima-i-zrtvama-fasistic",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Koprivna",
+   "adresa": "In front of community hall",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1987",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/modrica"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "dugo-polje-spomenik-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to fallen fighters",
+   "mesto": "Dugo Polje",
+   "adresa": "In front of Dom Kulture",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1977",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/modrica"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "krusevo-kosturnica-oslobodilaca-kruseva-i-mostara",
+  "izvorniZapis": {
+   "naziv": "Kosturnica oslobodilaca Kruševa i Mostara",
+   "nazivEn": "Ossuary of the Liberators of Kruševo and Mostar",
+   "mesto": "Kruševo",
+   "adresa": "Beside elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Hasan Dizdarević",
+   "godina": "1972",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/mostar"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "potoci-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Potoci",
+   "adresa": "Bijelo Polje",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/mostar"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "sovici-kosturnica-palih-boraca",
+  "izvorniZapis": {
+   "naziv": "Kosturnica palih boraca",
+   "nazivEn": "Ossuary of fallen fighters",
+   "mesto": "Sovići",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/mostar"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "sehovci-spomenik-nob",
+  "izvorniZapis": {
+   "naziv": "Spomenik NOB",
+   "nazivEn": "Monument to the NOB",
+   "mesto": "Šehovci",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1958",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/mrkonjicgrad"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "trnovo-spomenik-jami-u-koju-su-baceni-narodni-hero",
+  "izvorniZapis": {
+   "naziv": "Spomenik jami u koju su bačeni narodni heroji Tomaš Žižić, Rifat Burdžović i Vladimir Knežević Volođa",
+   "nazivEn": "Monument to mark pit into which NH Tomaš Žižić, NH Rifat Burdžović and NH Vladimir Knežević Volođa were thrown",
+   "mesto": "Trnovo",
+   "adresa": "Grujića jama",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1977",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/mrkonjicgrad"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "sehovci-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Šehovci",
+   "adresa": "Hanovi",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1955",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/mrkonjicgrad"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "pridvorci-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Pridvorci",
+   "adresa": "Close to community hall",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1959",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/nevesinje"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "luka-grob-zrtava-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Grob žrtava fašističkog terora",
+   "nazivEn": "Grave of Victims of Fascist Terror",
+   "mesto": "Luka",
+   "adresa": "Stoča, cemetery",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1977",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/nevesinje"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "bojista-grob-narodnog-heroja-mire-popare-i-pavla-k",
+  "izvorniZapis": {
+   "naziv": "Grob narodnog heroja Mire Popare i Pavla Kovačevića",
+   "nazivEn": "Grave of of NH Miro Popara and Pavle Kovačević",
+   "mesto": "Bojišta",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/nevesinje",
+   "godina": "pre 1964"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "maslovare-spomen-kosturnica-palih-boraca",
+  "izvorniZapis": {
+   "naziv": "Spomen-kosturnica palih boraca",
+   "nazivEn": "Memorial ossuary of fallen fighters",
+   "mesto": "Maslovare",
+   "adresa": "Beside road to Blagaj Japra",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1971",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/novigrad"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "rudice-zajednicka-grobnica-zrtava-fasistickog-tero",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica žrtava fašističkog terora",
+   "nazivEn": "Collective grave of Victims of Fascist Terror",
+   "mesto": "Rudice",
+   "adresa": "Beside bridge over the Vojskova",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1952",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/novigrad"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "cerovica-zajednicka-grobnica-palih-boraca-i-zrtava",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica palih boraca i žrtava fašističkog terora",
+   "nazivEn": "Collective grave of fallen fighters and Victims of Fascist Terror",
+   "mesto": "Cerovica",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1962",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/novigrad"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "devetaci-spomen-cesma-ustanku",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma ustanku",
+   "nazivEn": "Fountain to commemorate the Uprising",
+   "mesto": "Devetaci",
+   "adresa": "Source of the Trnovac",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1986",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/novigrad"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "novi-grad-spomen-kosturnica-37-palih-boraca",
+  "izvorniZapis": {
+   "naziv": "Spomen-kosturnica 37 palih boraca",
+   "nazivEn": "Memorial ossuary of 37 fallen fighters",
+   "mesto": "Novi Grad",
+   "adresa": "Opposite church",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1953",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/odzak",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "novi-grad-spomenik-strijeljanim-partijskim-radnici",
+  "izvorniZapis": {
+   "naziv": "Spomenik strijeljanim partijskim radnicima",
+   "nazivEn": "Monument to executed Party workers",
+   "mesto": "Novi Grad",
+   "adresa": "Local cemetery",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1961",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/odzak"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "novi-grad-spomenik-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to fallen fighters",
+   "mesto": "Novi Grad",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Gusta Leček",
+   "godina": "1954",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/odzak"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "brda-zajednicka-grobnica-7-zrtava-fasistickog-tero",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica 7 žrtava fašističkog terora",
+   "nazivEn": "Collective grave of 7 Victims of Fascist Terror",
+   "mesto": "Brda",
+   "adresa": "Local cemetery",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/olovo"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "caparde-spomenik-pobjedi-vi-istocnobosanske-brigad",
+  "izvorniZapis": {
+   "naziv": "Spomenik pobjedi VI istočnobosanske brigade",
+   "nazivEn": "Monument to commemorate victory of the VI Eastern Bosnian Brigade",
+   "mesto": "Caparde",
+   "adresa": "Kulina, close to crossroads",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1953",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/osmaci"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "rakovac-spomen-kosturnica-19-zrtava-fasistickog-te",
+  "izvorniZapis": {
+   "naziv": "Spomen-kosturnica 19 žrtava fašističkog terora ubijenih u novembru 1943",
+   "nazivEn": "Memorial ossuary of 19 Victims of Fascist Terror killed in November 1943",
+   "mesto": "Rakovac",
+   "adresa": "Krivodoli",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1958",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/pale"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "rakovac-spomen-kosturnica-59-zrtava-fasistickog-te",
+  "izvorniZapis": {
+   "naziv": "Spomen-kosturnica 59 žrtava fašističkog terora ubijenih u novembru 1943",
+   "nazivEn": "Memorial ossuary of 59 Victims of Fascist Terror killed in November 1943",
+   "mesto": "Rakovac",
+   "adresa": "Bašče",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1973",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/pale"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "mokro-spomen-kosturnica-47-palih-boraca",
+  "izvorniZapis": {
+   "naziv": "Spomen-kosturnica 47 palih boraca",
+   "nazivEn": "Memorial ossuary of 47 fallen fighters",
+   "mesto": "Mokro",
+   "adresa": "Hill above elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Luka Ilić & Ranko Marković",
+   "godina": "1960",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/pale"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "bogovici-spomen-cesma-boravku-vrhovnog-staba",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma boravku Vrhovnog štaba",
+   "nazivEn": "Fountain to commemorate stay of Supreme Command",
+   "mesto": "Bogovići",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1954",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/pale"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "petrovo-partizansko-groblje-i-kosturnica",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje i kosturnica",
+   "nazivEn": "Partisan cemetery and ossuary",
+   "mesto": "Petrovo",
+   "adresa": "Opposite post office",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Dragiša Trifković & Nurudin Škapurović",
+   "godina": "1970",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/petrovo"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "petrovo-spomen-cesma-narodnom-heroju-radovanu-rado",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma narodnom heroju Radovanu Radovanoviću",
+   "nazivEn": "Fountain to commemorate NH Radovan Radovanović",
+   "mesto": "Petrovo",
+   "adresa": "Trg Nemanjića",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1982",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/petrovo"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "petrovo-spomen-cesma-milovanu-gajicu",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma Milovanu Gajiću",
+   "nazivEn": "Fountain to commemorate Milovan Gajić",
+   "mesto": "Petrovo",
+   "adresa": "Alongside road at western entrance to the town",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Milan Jovičić",
+   "godina": "1957",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/petrovo"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "karanovac-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Karanovac",
+   "adresa": "Close to Dom Kultura",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Faik Helić & Zaim Topić & Mehmed Mujkić & Anton Šego",
+   "godina": "1959",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/petrovo"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "petrovo-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Petrovo",
+   "adresa": "Lužanjak",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1953",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/petrovo"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "rastovaca-spomen-grobnica-stjepana-cuture",
+  "izvorniZapis": {
+   "naziv": "Spomen-grobnica Stjepana Čuture",
+   "nazivEn": "Memorial grave of Stjepan Čutura",
+   "mesto": "Rastovača",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1981",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/posusje"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "jaruge-bista-rade-kondica",
+  "izvorniZapis": {
+   "naziv": "Bista Rade Kondića",
+   "nazivEn": "Bust of NH Rade Kondić",
+   "mesto": "Jaruge",
+   "adresa": "Birthplace of NH Rade Kondić",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1980",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/prijedor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "kozarac-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Kozarac",
+   "adresa": "Beside old Prijedor-Banja Luka road",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1952",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/prijedor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "kozarac-spomen-cesma-palim-borcima-nor-a-i-revoluc",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma palim borcima NOR-a i revolucije",
+   "nazivEn": "Memorial fountain to fallen fighters of the NOR and Revolution",
+   "mesto": "Kozarac",
+   "adresa": "Balte",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1959",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/prijedor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "babici-spomenik-strijeljanim-zeljeznicarima-i-zrtv",
+  "izvorniZapis": {
+   "naziv": "Spomenik strijeljanim željezničarima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to executed railway workers and Victims of Fascist Terror",
+   "mesto": "Babići",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1960",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/prijedor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "ljubija-spomenik-rudarima-poginulim-u-nob-i-20-god",
+  "izvorniZapis": {
+   "naziv": "Spomenik rudarima poginulim u NOB i 20. godišnjici rudarskog štrajka",
+   "nazivEn": "Monument to miners killed in the NOB and to 20th anniversary of the miners' strike",
+   "mesto": "Ljubija",
+   "adresa": "Town park",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Marijan Kocković",
+   "godina": "1960",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/prijedor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "ljubija-bista-toneta-perica",
+  "izvorniZapis": {
+   "naziv": "Bista Toneta Perića",
+   "nazivEn": "Bust of Tone Perić",
+   "mesto": "Ljubija",
+   "adresa": "Town park",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Marijan Kocković",
+   "godina": "1960",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/prijedor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "ljubija-bista-drage-lukica",
+  "izvorniZapis": {
+   "naziv": "Bista Drage Lukića",
+   "nazivEn": "Bust of Drago Lukić",
+   "mesto": "Ljubija",
+   "adresa": "Town park",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Marijan Kocković",
+   "godina": "1960",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/prijedor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "ljubija-spomenik-prvom-rudarskom-strajku",
+  "izvorniZapis": {
+   "naziv": "Spomenik prvom rudarskom štrajku",
+   "nazivEn": "Monument to commemorate the first miners' strike",
+   "mesto": "Ljubija",
+   "adresa": "Raljaš, Šišin Hrast",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/prijedor",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "ljubija-grob-zrtava-fasistickog-terora-iz-ljeskara",
+  "izvorniZapis": {
+   "naziv": "Grob žrtava fašističkog terora iz Ljeskara, Vidrenjaka i Daljevića Gaja",
+   "nazivEn": "Grave of Victims of Fascist Terror from Ljeskare, Vidrenjak and Daljevića Gaj",
+   "mesto": "Ljubija",
+   "adresa": "Vidrenjak, Donja Ljubija",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1951",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/prijedor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "ljubija-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Ljubija",
+   "adresa": "Bagremik, beside road leading to Raljaš",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1952",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/prijedor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "cikote-masovna-grobnica-zrtava-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Masovna grobnica žrtava fašističkog terora",
+   "nazivEn": "Mass grave of Victims of Fascist Terror",
+   "mesto": "Cikote",
+   "adresa": "Orthodox cemetery",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1958",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/prijedor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "brezicani-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Brezičani",
+   "adresa": "Approx. 150m north-west of village square",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1954",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/prijedor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "cikote-spomenik-palim-borcima-i-zrtvama-fasisticko",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Cikote",
+   "adresa": "Beside former elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/prijedor",
+   "godina": "pre 1960"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "brezicani-spomenik-josipu-brozu-titu",
+  "izvorniZapis": {
+   "naziv": "Spomenik Josipu Brozu Titu",
+   "nazivEn": "Monument to Josip Broz Tito",
+   "mesto": "Brezičani",
+   "adresa": "Train station",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/prijedor",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "brezicani-bista-milana-egica",
+  "izvorniZapis": {
+   "naziv": "Bista Milana Egića",
+   "nazivEn": "Bust of NH Milan Egić",
+   "mesto": "Brezičani",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1983",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/prijedor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "babici-groblje-zrtava-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Groblje žrtava fašističkog terora",
+   "nazivEn": "Cemetery of Victims of Fascist Terror",
+   "mesto": "Babići",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/prijedor",
+   "godina": "pre 1961"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "ljubija-bista-ivice-antunovica",
+  "izvorniZapis": {
+   "naziv": "Bista Ivice Antunovića",
+   "nazivEn": "Bust of Ivica Antunović",
+   "mesto": "Ljubija",
+   "adresa": "Town park",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1987",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/prijedor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "ljubija-spomenik-partizanskoj-radionici-oruzja",
+  "izvorniZapis": {
+   "naziv": "Spomenik partizanskoj radionici oružja",
+   "nazivEn": "Monument to commemorate Partisan weapons workshop",
+   "mesto": "Ljubija",
+   "adresa": "Town park",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1990",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/prijedor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "ljubija-spomenik-rudarima-poginulim-u-nob",
+  "izvorniZapis": {
+   "naziv": "Spomenik rudarima poginulim u NOB",
+   "nazivEn": "Monument to miners killed in the NOB",
+   "mesto": "Ljubija",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1953",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/prijedor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "jaruge-zajednicka-grobnica-15-zrtava-fasistickog-t",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica 15 žrtava fašističkog terora",
+   "nazivEn": "Collective grave of 15 Victims of Fascist Terror",
+   "mesto": "Jaruge",
+   "adresa": "Next to elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1951",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/prijedor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "brdjani-zajednicka-grobnica-zrtava-fasistickog-ter",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica žrtava fašističkog terora",
+   "nazivEn": "Collective grave of Victims of Fascist Terror",
+   "mesto": "Brđani",
+   "adresa": "Balte",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1983",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/prijedor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "kremna-zajednicka-grobnica-zrtava-fasistickog-tero",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica žrtava fašističkog terora",
+   "nazivEn": "Communal grave of Victims of Fascist Terror",
+   "mesto": "Kremna",
+   "adresa": "Petrovići cemetery",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1974",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/prnjavor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "kremna-zajednicka-grobnica-zrtava-fasistickog-tero-2",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica žrtava fašističkog terora ubijenih u februaru 1942",
+   "nazivEn": "Collective grave of Victims of Fascist Terror killed in February 1942",
+   "mesto": "Kremna",
+   "adresa": "Lužani, in front of PP Trivas",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1976",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/prnjavor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "kremna-spomenik-na-mjestu-smrti-stevana-milutinovi",
+  "izvorniZapis": {
+   "naziv": "Spomenik na mjestu smrti Stevana Milutinovića",
+   "nazivEn": "Monument to mark the place of death of Stevan Milutinović",
+   "mesto": "Kremna",
+   "adresa": "Lužani, south of cemetery",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1986",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/prnjavor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "kremna-spomenik-na-mjestu-smrti-trivuna-bojanovica",
+  "izvorniZapis": {
+   "naziv": "Spomenik na mjestu smrti Trivuna Bojanovića",
+   "nazivEn": "Monument to mark the place of death of Trivun Bojanović",
+   "mesto": "Kremna",
+   "adresa": "Popovići, at turning to watermill",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1983",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/prnjavor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "kremna-spomenik-palim-borcima-i-zrtvama-fasisticko",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Kremna",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1980",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/prnjavor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "orasje-spomenik-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to fallen fighters",
+   "mesto": "Orašje",
+   "adresa": "Close to village crossroads",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/prnjavor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "orasje-bista-cedomira-mikica",
+  "izvorniZapis": {
+   "naziv": "Bista Čedomira Mikića",
+   "nazivEn": "Bust of Čedomir Mikić",
+   "mesto": "Orašje",
+   "adresa": "On monument to fallen fighters",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/prnjavor",
+   "godina": "posle 1969"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "potocani-spomenik-palim-borcima-i-zrtvama-fasistic",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Potočani",
+   "adresa": "Partisans' cemetery",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1982",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/prnjavor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "potocani-spomenik-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to fallen fighters",
+   "mesto": "Potočani",
+   "adresa": "Partisans' cemetery",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1958",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/prnjavor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "potocani-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Potočani",
+   "adresa": "Village centre",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/prnjavor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "potocani-spomenik-palim-borcima-2",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to fallen fighters",
+   "mesto": "Potočani",
+   "adresa": "Partisans' cemetery",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1966",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/prnjavor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vrsani-spomenik-palim-borcima-i-zrtvama-fasisticko-2",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Vršani",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1984",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/prnjavor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "hrvacani-spomenik-palim-borcima-i-zrtvama-fasistic",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Hrvaćani",
+   "adresa": "Village centre",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1982",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/prnjavor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "hrvacani-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Hrvaćani",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1958",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/prnjavor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "kremna-zajednicka-grobnica-palih-boraca",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica palih boraca",
+   "nazivEn": "Collective grave of fallen fighters",
+   "mesto": "Kremna",
+   "adresa": "Lužani, local cemetery",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/prnjavor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "kremna-zajednicka-grobnica-zrtava-fasistickog-tero-3",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica žrtava fašističkog terora",
+   "nazivEn": "Collective grave of Victims of Fascist Terror",
+   "mesto": "Kremna",
+   "adresa": "Lužani, in front of PP Trivas",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/prnjavor"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "zavala-spomenik-palim-borcima-nob",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima NOB",
+   "nazivEn": "Monument to fallen fighters of the NOB",
+   "mesto": "Zavala",
+   "adresa": "Village centre",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Nandor Glid & Mile Jovanović",
+   "godina": "1958",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/ravno",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "zavala-bista-laze-pribisica",
+  "izvorniZapis": {
+   "naziv": "Bista Laze Pribišića",
+   "nazivEn": "Bust of Lazo Pribišić",
+   "mesto": "Zavala",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Nandor Glid",
+   "godina": "1971",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/ravno"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "zavala-spomenik-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Zavala",
+   "adresa": "Edge of pit",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/ravno"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "seljani-spomen-obiljezje-prvoborcu-vesi-rackovicu",
+  "izvorniZapis": {
+   "naziv": "Spomen-obilježje prvoborcu Vesi Rackoviću",
+   "nazivEn": "Memorial to prvoborac Veso Racković",
+   "mesto": "Seljani",
+   "adresa": "Village cemetery",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1977",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/rogatica"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "seljani-spomen-cesma-vesu-rackovicu",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma Vesu Rackoviću",
+   "nazivEn": "Fountain to commemorate Veso Racković",
+   "mesto": "Seljani",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1954",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/rogatica"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "drobnici-spomenik-palim-borcima-i-zrtvama-fasistic",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Drobnići",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1988",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/rogatica"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "bovan-spomenik-olgi-grbic",
+  "izvorniZapis": {
+   "naziv": "Spomenik Olgi Grbić",
+   "nazivEn": "Monument to Olga Grbić",
+   "mesto": "Bovan",
+   "adresa": "Summit of hill to north of road",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/rudo",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "gornja-slatina-bista-pere-bosica",
+  "izvorniZapis": {
+   "naziv": "Bista Pere Bosića",
+   "nazivEn": "Bust of NH Pero Bosić",
+   "mesto": "Gornja Slatina",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1970",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/samac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "gornja-slatina-spomen-kosturnica-palih-boraca",
+  "izvorniZapis": {
+   "naziv": "Spomen-kosturnica palih boraca",
+   "nazivEn": "Memorial ossuary of fallen fighters",
+   "mesto": "Gornja Slatina",
+   "adresa": "In front of community hall",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1952",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/samac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "gornja-slatina-spomen-kosturnica-palih-boraca-2",
+  "izvorniZapis": {
+   "naziv": "Spomen-kosturnica palih boraca",
+   "nazivEn": "Memorial ossuary of fallen fighters",
+   "mesto": "Gornja Slatina",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1970",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/samac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "donja-slatina-spomenik-palim-borcima-i-zrtvama-fas",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Donja Slatina",
+   "adresa": "Crossroads",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Cvijetin Savić & Mato Mašić",
+   "godina": "1986",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/samac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vrhpolje-spomenik-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Vrhpolje",
+   "adresa": "Handanovići",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1966",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/sanskimost"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "podovi-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Podovi",
+   "adresa": "70 metres south-west of Orthodox church",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1961",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/sanskimost"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "podlug-spomenik-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Podlug",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1962",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/sanskimost"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "todorici-spomenik-palim-borcima-i-zrtvama-fasistic",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Todorići",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/sipovo"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "grbavica-groblje-palih-boraca-i-zrtava-fasistickog",
+  "izvorniZapis": {
+   "naziv": "Groblje palih boraca i žrtava fašističkog terora",
+   "nazivEn": "Cemetery of fallen fighters and Victims of Fascist Terror",
+   "mesto": "Grbavica",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1954",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/sipovo"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "babici-partizansko-groblje",
+  "izvorniZapis": {
+   "naziv": "Partizansko groblje",
+   "nazivEn": "Partisans' cemetery",
+   "mesto": "Babići",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/sipovo"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "sokolac-spomenik-palim-borcima-i-zrtvama-fasistick",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Sokolac",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/sipovo"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "majevac-bista-sime-solaje",
+  "izvorniZapis": {
+   "naziv": "Bista Sime Šolaje",
+   "nazivEn": "Bust of NH Simo Šolaja",
+   "mesto": "Majevac",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/sipovo",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "kosutica-zajednicka-grobnica-zrtava-fasistickog-te",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica žrtava fašističkog terora strijeljanih u džamiji u julu 1943",
+   "nazivEn": "Communal grave of Victims of Fascist Terror executed in mosque in July 1943",
+   "mesto": "Košutica",
+   "adresa": "Close to mosque",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1963",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/sokolac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "kula-spomenik-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Kula",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/sokolac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "kukulje-spomenik-palim-borcima-i-zrtvama-fasistick",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Kukulje",
+   "adresa": "In front of Dositej Obradović elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1964",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/srbac"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "sije-spomen-cesma-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma palim borcima",
+   "nazivEn": "Fountain to commemorate fallen fighters",
+   "mesto": "Šije",
+   "adresa": "Alongside E73/M17 road",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1958",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/tesanj"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "mekis-zajednicka-grobnica-7-zrtava-fasistickog-ter",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica 7 žrtava fašističkog terora",
+   "nazivEn": "Collective grave of 7 Victims of Fascist Terror",
+   "mesto": "Mekiš",
+   "adresa": "Dragin Gaj",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1957",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/tesanj"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "mekis-spomenik-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to fallen fighters",
+   "mesto": "Mekiš",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Đorđe Petrović",
+   "godina": "1953",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/tesanj"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "lug-zajednicka-grobnica-82-zrtve-fasistickog-teror",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica 82 žrtve fašističkog terora",
+   "nazivEn": "Collective grave of 82 Victims of Fascist Terror",
+   "mesto": "Lug",
+   "adresa": "Village centre, approx. 600m southeast of elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1967",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/tomislavgrad"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "mokronoge-spomenik-na-mjestu-formiranja-ii-livanjs",
+  "izvorniZapis": {
+   "naziv": "Spomenik na mjestu formiranja II livanjskog bataljona",
+   "nazivEn": "Monument to mark the place of formation of the II Livno Battalion",
+   "mesto": "Mokronoge",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/tomislavgrad",
+   "godina": "pre 1965"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vitovlje-grob-dr-milivoja-jambrisaka",
+  "izvorniZapis": {
+   "naziv": "Grob dr Milivoja Jambrišaka",
+   "nazivEn": "Grave of Dr. Milivoj Jambrišak",
+   "mesto": "Vitovlje",
+   "adresa": "Pavlovač",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Hazim Handžić",
+   "godina": "1978",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/travnik"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vitovlje-spomenik-partizanskom-pokretu",
+  "izvorniZapis": {
+   "naziv": "Spomenik partizanskom pokretu",
+   "nazivEn": "Monument dedicated to the Partisan Movement",
+   "mesto": "Vitovlje",
+   "adresa": "Next to Vitovlje Elementary School",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1988",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/travnik",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "vitovlje-spomenik-borbama-1943-i-1944-godine",
+  "izvorniZapis": {
+   "naziv": "Spomenik borbama 1943. i 1944. godine",
+   "nazivEn": "Monument to commemorate battles in 1943 and 1944",
+   "mesto": "Vitovlje",
+   "adresa": "Kajina Kamena",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1951",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/travnik"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "klobuk-spomenik-borbi-1941-godine",
+  "izvorniZapis": {
+   "naziv": "Spomenik borbi 1941. godine",
+   "nazivEn": "Monument to commemorate battle in 1941",
+   "mesto": "Klobuk",
+   "adresa": "Veliki Kuk",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Vuk Roganović",
+   "godina": "1961",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/trebinje"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "klobuk-kuca-narodnog-heroja-manojla-benderaca-maje",
+  "izvorniZapis": {
+   "naziv": "Kuća narodnog heroja Manojla Benderaća Maje",
+   "nazivEn": "House of NH Manojlo Benderać Majo",
+   "mesto": "Klobuk",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "muzej",
+   "izvor": "https://www.spomenicinob.info/trebinje"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "klobuk-kuca-narodnog-heroja-ilije-babica",
+  "izvorniZapis": {
+   "naziv": "Kuća narodnog heroja Ilije Babića",
+   "nazivEn": "House of NH Ilija Babić",
+   "mesto": "Klobuk",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "muzej",
+   "izvor": "https://www.spomenicinob.info/trebinje"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "donji-orahovac-spomen-cesma",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma",
+   "nazivEn": "Memorial fountain",
+   "mesto": "Donji Orahovac",
+   "adresa": "Begova Korita",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1958",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/trebinje"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "hum-spomenik-palim-borcima-nor-a",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima NOR-a",
+   "nazivEn": "Monument to fallen fighters of the NOR",
+   "mesto": "Hum",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Marijan Kocković & Vuk Roganović",
+   "godina": "1964",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/trebinje"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "konjsko-spomenik-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Konjsko",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1988",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/trebinje"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "plane-spomen-dom",
+  "izvorniZapis": {
+   "naziv": "Spomen-dom",
+   "nazivEn": "Memorial Hall",
+   "mesto": "Plane",
+   "adresa": "Crossroads of Plane and Mehdina Hodžića",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1982",
+   "vrsta": "muzej",
+   "izvor": "https://www.spomenicinob.info/tuzla"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "plane-spomenik-palim-borcima-nor-a",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima NOR-a",
+   "nazivEn": "Monument to fallen fighters of the NOR",
+   "mesto": "Plane",
+   "adresa": "Crossroads of Plane and Mehdina Hodžića",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Dragiša Trifković",
+   "godina": "1982",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/tuzla",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "dobrnja-spomenik-palim-borcima-nor-a",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima NOR-a",
+   "nazivEn": "Monument to fallen fighters of the NOR",
+   "mesto": "Dobrnja",
+   "adresa": "In front of local mosque",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1953",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/tuzla"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "lipnica-bista-peje-markovica",
+  "izvorniZapis": {
+   "naziv": "Bista Peje Markovića",
+   "nazivEn": "Bust of NH Pejo Marković",
+   "mesto": "Lipnica",
+   "adresa": "Lipnica elementary school; Slana Banja",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Began Turbić",
+   "godina": "1987",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/tuzla"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "korenita-spomenik-nob",
+  "izvorniZapis": {
+   "naziv": "Spomenik NOB",
+   "nazivEn": "Monument to the NOB",
+   "mesto": "Korenita",
+   "adresa": "Crossroads directly west of church",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/ugljevik"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "malesevci-spomen-obelisk-na-mjestu-partizanske-pob",
+  "izvorniZapis": {
+   "naziv": "Spomen-obelisk na mjestu partizanske pobjede nad četničkim snagama",
+   "nazivEn": "Memorial obelisk at site of Partisan victory over Chetnik forces",
+   "mesto": "Maleševci",
+   "adresa": "Jovanovića Brdo",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1952",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/ugljevik",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "mezgraja-spomenik-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to fallen fighters",
+   "mesto": "Mezgraja",
+   "adresa": "Field approx. 300m SE of southernmost tip of Mezgrajsko Jezero",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/ugljevik"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "tutnjevac-spomenik-palim-borcima-i-zrtvama-fasisti",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+   "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+   "mesto": "Tutnjevac",
+   "adresa": "Elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1988",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/ugljevik"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "zabrdje-bista-nepoznate-osobe",
+  "izvorniZapis": {
+   "naziv": "Bista nepoznate osobe",
+   "nazivEn": "Bust of unknown person",
+   "mesto": "Zabrđe",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/ugljevik"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "zabrdje-spomenik-bozi-avramovicu",
+  "izvorniZapis": {
+   "naziv": "Spomenik Boži Avramoviću",
+   "nazivEn": "Monument to commemorate Božo Avramović",
+   "mesto": "Zabrđe",
+   "adresa": "Between elementary school and former community hall",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1962",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/ugljevik"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "okruglica-spomen-cesma-na-mjestu-formiranja-partiz",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma na mjestu formiranja partizanskog odreda „Zvijezda“",
+   "nazivEn": "Fountain to commemorate place of formation of Zvijezda Partisan Detachment",
+   "mesto": "Okruglica",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Edo Negovetić",
+   "godina": "1951",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/vares",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "okruglica-zajednicka-grobnica-boraca-istocnobosans",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica boraca Istočnobosanske brigade i drugih jedinica NOVJ",
+   "nazivEn": "Collective grave of fighters of the Eastern Bosnian Brigade & other NOVJ units",
+   "mesto": "Okruglica",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Edo Negovetić",
+   "godina": "1953",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/vares",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "dragovici-spomen-cesma-formiranju-seoskog-narodnoo",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma formiranju seoskog narodnooslobodilačkog odbora i palim borcima",
+   "nazivEn": "Fountain to commemorate the formation of the village's People's Liberation Committee and fallen fighters",
+   "mesto": "Dragovići",
+   "adresa": "Village centre",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1951",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/vares"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "mijakovici-spomen-cesma-redzi-golicu-i-avdi-ibrisi",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma Redži Goliću i Avdi Ibrišimoviću",
+   "nazivEn": "Fountain to commemorate Redžo Golić and Avdo Ibrišimović",
+   "mesto": "Mijakovići",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Edo Negovetić",
+   "godina": "1952",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/vares"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "planinica-spomen-cesma-akcijama-partizanskog-odred",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma akcijama partizanskog odreda „Zvijezda“",
+   "nazivEn": "Fountain to commemorate actions by the Zvijezda Partisan Detachment",
+   "mesto": "Planinica",
+   "adresa": "Village centre",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1951",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/vares"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "mijakovici-spomen-cesma-muji-jusicu-rahmanu",
+  "izvorniZapis": {
+   "naziv": "Spomen-česma Muji Jusiću - Rahmanu",
+   "nazivEn": "Fountain to commemorate Mujo Jusić - Rahman",
+   "mesto": "Mijakovići",
+   "adresa": "Juse",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1979",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/vares",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "zagrad-zajednicka-grobnica-oko-2400-zrtava-fasisti",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica oko 2400 žrtava fašističkog terora",
+   "nazivEn": "Collective grave of c.2400 Victims of Fascist Terror",
+   "mesto": "Zagrad",
+   "adresa": "Mehino Stanje",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1956",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/velikakladusa"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "zagrad-spomen-grobnica-narodnog-heroja-ibrahima-mr",
+  "izvorniZapis": {
+   "naziv": "Spomen-grobnica narodnog heroja Ibrahima Mržljaka",
+   "nazivEn": "Memorial grave of NH Ibrahim Mržljak",
+   "mesto": "Zagrad",
+   "adresa": "Local cemetery",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/velikakladusa",
+   "godina": "pre 1955"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "polje-spomenik-zuhdiji-zalicu",
+  "izvorniZapis": {
+   "naziv": "Spomenik Zuhdiji Žaliću",
+   "nazivEn": "Monument to Zuhdija Žalić",
+   "mesto": "Polje",
+   "adresa": "Close to cemetery",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/velikakladusa",
+   "godina": "posle 1970"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "gradina-zajednicka-grobnica-19-partizanskih-boraca",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica 19 partizanskih boraca i 19 žrtava fašističkog terora",
+   "nazivEn": "Collective grave of 19 Partisan fighters and 19 Victims of Fascist Terror",
+   "mesto": "Gradina",
+   "adresa": "Local cemetery, east of church",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1972",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/velikakladusa",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "zagrad-spomenik-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Zagrad",
+   "adresa": "Kanal",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1956",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/velikakladusa"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "ponikve-spomenik-palim-borcima",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to fallen fighters",
+   "mesto": "Ponikve",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/velikakladusa",
+   "godina": "pre 1975"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "zboriste-zajednicka-grobnica-zrtava-fasistickog-te",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica žrtava fašističkog terora",
+   "nazivEn": "Collective grave of Victims of Fascist Terror",
+   "mesto": "Zborište",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1972",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/velikakladusa"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "johovica-zajednicka-grobnica-zrtava-fasistickog-te",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica žrtava fašističkog terora",
+   "nazivEn": "Collective grave of Victims of Fascist Terror",
+   "mesto": "Johovica",
+   "adresa": "Close to elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1972",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/velikakladusa"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "ponikve-zajednicka-grobnica-zrtava-fasistickog-ter",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica žrtava fašističkog terora",
+   "nazivEn": "Collective grave of Victims of Fascist Terror",
+   "mesto": "Ponikve",
+   "adresa": "Close to elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1972",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/velikakladusa"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "siljkovaca-zajednicka-grobnica-zrtava-fasistickog",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica žrtava fašističkog terora",
+   "nazivEn": "Collective grave of Victims of Fascist Terror",
+   "mesto": "Šiljkovača",
+   "adresa": "Close to elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1972",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/velikakladusa"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "poljana-zajednicka-grobnica-zrtava-fasistickog-ter",
+  "izvorniZapis": {
+   "naziv": "Zajednička grobnica žrtava fašističkog terora",
+   "nazivEn": "Collective grave of Victims of Fascist Terror",
+   "mesto": "Poljana",
+   "adresa": "Drenovac",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1972",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/velikakladusa"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "zbilje-spomenik-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Zbilje",
+   "adresa": "Jewish cemetery",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1979",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/visoko"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "rijeka-kosturnica-palih-boraca",
+  "izvorniZapis": {
+   "naziv": "Kosturnica palih boraca",
+   "nazivEn": "Ossuary of fallen fighters",
+   "mesto": "Rijeka",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1951",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/vitez"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "gostovici-spomen-kosturnica-9-palih-boraca",
+  "izvorniZapis": {
+   "naziv": "Spomen-kosturnica 9 palih boraca",
+   "nazivEn": "Memorial ossuary of 9 fallen fighters",
+   "mesto": "Gostovići",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/zavidovici",
+   "godina": "pre 1961"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "gostovici-spomenik-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Gostovići",
+   "adresa": "Crni Kamen, alongside train line (former)",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/zavidovici",
+   "stanje": "rusevine",
+   "godina": "pre 1961"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "gare-spomenik-zrtvama-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Spomenik žrtvama fašističkog terora",
+   "nazivEn": "Monument to Victims of Fascist Terror",
+   "mesto": "Gare",
+   "adresa": "Vasovine",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1963",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/zavidovici",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "gare-kosturnica-62-zrtve-fasistickog-terora",
+  "izvorniZapis": {
+   "naziv": "Kosturnica 62 žrtve fašističkog terora",
+   "nazivEn": "Ossuary of 62 Victims of Fascist Terror",
+   "mesto": "Gare",
+   "adresa": "Lug, close to school (former)",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/zavidovici"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "nemila-spomen-kompleks-omladinska-pruga",
+  "izvorniZapis": {
+   "naziv": "Spomen-kompleks „Omladinska pruga“",
+   "nazivEn": "\"Omladinska pruga\" memorial complex",
+   "mesto": "Nemila",
+   "drzava": "Bosnia and Herzegovina",
+   "vrsta": "kompleks",
+   "izvor": "https://www.spomenicinob.info/zenica",
+   "godina": "pre 1984"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "gracanica-spomenik-palim-borcima-tuzlanskog-nop-od",
+  "izvorniZapis": {
+   "naziv": "Spomenik palim borcima Tuzlanskog NOP odreda",
+   "nazivEn": "Monument to fallen fighters of the Tuzla NOP Detachment",
+   "mesto": "Gračanica",
+   "adresa": "Gračanica Elementary School",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1990",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/zivinice"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "liplje-spomenik-na-prvobitnom-mjestu-sahrane-narod",
+  "izvorniZapis": {
+   "naziv": "Spomenik na prvobitnom mjestu sahrane narodnog heroja Filipa Kljajića",
+   "nazivEn": "Monument to commemorate original burial place of NH Filip Kljajić",
+   "mesto": "Liplje",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1961",
+   "vrsta": "lokalni",
+   "izvor": "https://www.spomenicinob.info/zvornik",
+   "stanje": "ostecen"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "oraovac-spomen-kosturnica",
+  "izvorniZapis": {
+   "naziv": "Spomen-kosturnica",
+   "nazivEn": "Memorial ossuary",
+   "mesto": "Oraovac",
+   "adresa": "Grbavci elementary school",
+   "drzava": "Bosnia and Herzegovina",
+   "godina": "1956",
+   "vrsta": "groblje",
+   "izvor": "https://www.spomenicinob.info/zvornik"
+  },
+  "tacka": "centar sela u opstini iz izvora",
+  "prolaz": 2
+ },
+ {
+  "id": "bela-crkva-bista-zikice-jovanovica",
+  "izvorniZapis": {
+   "mesto": "Bela Crkva",
+   "izvor": "https://znaci.org/00003/920.pdf#page=36",
+   "naziv": "Bista Žikice Jovanovića",
+   "autor": "Stevan Bodnarov",
+   "vrsta": "bista",
+   "drzava": "Serbia"
+  },
+  "tacka": "jedino istoimeno selo u drzavi",
+  "prolaz": 2
+ },
+ {
+  "id": "bela-crkva-bista-mise-pantica",
+  "izvorniZapis": {
+   "mesto": "Bela Crkva",
+   "izvor": "https://znaci.org/00003/920.pdf#page=36",
+   "naziv": "Bista Miše Pantića",
+   "autor": "Stevan Bodnarov",
+   "vrsta": "bista",
+   "drzava": "Serbia"
+  },
+  "tacka": "jedino istoimeno selo u drzavi",
+  "prolaz": 2
+ },
+ {
+  "id": "bela-crkva-bista-cede-milosavljevica",
+  "izvorniZapis": {
+   "mesto": "Bela Crkva",
+   "izvor": "https://znaci.org/00003/920.pdf#page=36",
+   "naziv": "Bista Čede Milosavljevića",
+   "autor": "Stevan Bodnarov",
+   "vrsta": "bista",
+   "drzava": "Serbia"
+  },
+  "tacka": "jedino istoimeno selo u drzavi",
+  "prolaz": 2
+ },
+ {
+  "id": "trnavac-muzej-prve-partizanske-cete",
+  "izvorniZapis": {
+   "mesto": "Trnavac",
+   "izvor": "https://znaci.org/00003/920.pdf#page=66",
+   "naziv": "Muzej Prve partizanske čete",
+   "vrsta": "muzej",
+   "drzava": "Croatia"
+  },
+  "tacka": "jedino istoimeno selo u drzavi",
+  "prolaz": 2
+ },
+ {
+  "id": "jasenovac-mrtvi-logoras",
+  "izvorniZapis": {
+   "mesto": "Jasenovac",
+   "izvor": "https://znaci.org/00003/920.pdf#page=147",
+   "naziv": "Mrtvi logoraš",
+   "autor": "Stanko Jančić",
+   "vrsta": "statua",
+   "drzava": "Croatia"
+  },
+  "tacka": "jedino istoimeno selo u drzavi",
+  "prolaz": 2
+ },
+ {
+  "id": "kraljevo-spomenik-streljanim-radnicima-fabrike-vag",
+  "izvorniZapis": {
+   "mesto": "Kraljevo",
+   "izvor": "https://znaci.org/00003/920.pdf#page=186",
+   "naziv": "Spomenik streljanim radnicima Fabrike vagona",
+   "autor": "Oto Logo",
+   "vrsta": "spomenik",
+   "drzava": "Serbia"
+  },
+  "tacka": "jedino istoimeno selo u drzavi",
+  "prolaz": 2
+ },
+ {
+  "id": "kraljevo-biste-narodnih-heroja-u-parku-heroja",
+  "izvorniZapis": {
+   "mesto": "Kraljevo",
+   "izvor": "https://znaci.org/00003/920.pdf#page=186",
+   "naziv": "Biste narodnih heroja u Parku heroja",
+   "vrsta": "kompleks",
+   "drzava": "Serbia"
+  },
+  "tacka": "jedino istoimeno selo u drzavi",
+  "prolaz": 2
+ },
+ {
+  "id": "cemernica-spomenik-palim-borcima-i-zrtvama-ustasko",
+  "izvorniZapis": {
+   "mesto": "Čemernica",
+   "izvor": "https://znaci.org/00003/920.pdf#page=261",
+   "naziv": "Spomenik palim borcima i žrtvama ustaškog terora",
+   "vrsta": "spomenik",
+   "drzava": "Croatia"
+  },
+  "tacka": "jedino istoimeno selo u drzavi",
+  "prolaz": 2
+ },
+ {
+  "id": "mracaj-spomenik-ratnoj-stampariji-vjesnika",
+  "izvorniZapis": {
+   "mesto": "Mračaj",
+   "izvor": "https://znaci.org/00003/920.pdf#page=262",
+   "naziv": "Spomenik ratnoj štampariji „Vjesnika“",
+   "vrsta": "spomenik",
+   "drzava": "Croatia"
+  },
+  "tacka": "jedino istoimeno selo u drzavi",
+  "prolaz": 2
+ },
+ {
+  "id": "ivancici-spomen-muzej-savjetovanja-pokrajinskog-ko",
+  "izvorniZapis": {
+   "mesto": "Ivančići",
+   "izvor": "https://znaci.org/00003/920.pdf#page=287",
+   "naziv": "Spomen-muzej savjetovanja Pokrajinskog komiteta KPJ za BiH",
+   "vrsta": "muzej",
+   "drzava": "Bosnia and Herzegovina"
+  },
+  "tacka": "jedino istoimeno selo u drzavi",
+  "prolaz": 2
+ },
+ {
+  "id": "gornja-rijeka-spomenik-djeci-iz-podkozarja",
+  "izvorniZapis": {
+   "mesto": "Gornja Rijeka",
+   "izvor": "https://znaci.org/00003/920.pdf#page=397",
+   "naziv": "Spomenik djeci iz Podkozarja",
+   "vrsta": "lokalni",
+   "drzava": "Croatia",
+   "adresa": "Kod dvorca, bivšeg logora"
+  },
+  "tacka": "jedino istoimeno selo u drzavi",
+  "prolaz": 2
+ },
+ {
+  "id": "vukosavci-spomen-muzej-prvog-majevickog-partizansk",
+  "izvorniZapis": {
+   "mesto": "Vukosavci",
+   "izvor": "https://znaci.org/00003/920.pdf#page=441",
+   "naziv": "Spomen-muzej Prvog majevičkog partizanskog odreda",
+   "vrsta": "muzej",
+   "drzava": "Bosnia and Herzegovina"
+  },
+  "tacka": "jedino istoimeno selo u drzavi",
+  "prolaz": 2
+ },
+ {
+  "id": "dubravice-spomenik-marku-bilusicu",
+  "izvorniZapis": {
+   "mesto": "Dubravice",
+   "izvor": "https://znaci.org/00003/905.pdf#page=176",
+   "naziv": "Spomenik Marku Bilušiću",
+   "godina": "1961",
+   "vrsta": "spomenik",
+   "drzava": "Croatia",
+   "adresa": "Predio Jurino Pode, lijevo uz cestu Skradin–Dubravice"
+  },
+  "tacka": "jedino istoimeno selo u drzavi",
+  "prolaz": 2
+ },
+ {
+  "id": "hrib-spomenik-strijeljanim-aktivistima-nop-a",
+  "izvorniZapis": {
+   "mesto": "Hrib",
+   "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/71/",
+   "naziv": "Spomenik strijeljanim aktivistima NOP-a",
+   "vrsta": "lokalni",
+   "drzava": "Croatia",
+   "kandidati": [
+    {
+     "lat": 45.5143644,
+     "lng": 14.6769021,
+     "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/71/",
+     "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
+    }
+   ],
+   "proveraOpstanka": {
+    "datum": "2026-10-16",
+    "prethodniId": "hrib-spomenik-strijeljanim-aktivistima-nop-a",
+    "ishod": "nepotvrđen",
+    "razlog": "Nedatirana reprodukcija grobljanskog spomenika. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
+    "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
+   }
+  },
+  "tacka": "kandidat",
+  "prolaz": 2
+ },
+ {
+  "id": "prevlaka-spomenik-sa-kosturnicom-zrtvama-fasistick",
+  "izvorniZapis": {
+   "naziv": "Spomenik sa kosturnicom žrtvama fašističkog terora 1942-1943",
+   "mesto": "Prevlaka",
+   "drzava": "Croatia",
+   "izvor": "https://www.hercegnovi.me/downloads/Kultura/REGISTAR%20SPOMEN%20OB%20O%20HN.pdf",
+   "godina": "1959",
+   "autor": "Luka Tomanović",
+   "vrsta": "groblje",
+   "adresa": "Prevlaka (registar Opštine Herceg Novi, br. 39)"
+  },
+  "tacka": "jedino istoimeno selo u drzavi",
+  "prolaz": 2
  }
 ]

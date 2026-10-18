@@ -35,6 +35,6 @@ Ploče se preskaču osim veoma bitnih; dokaz da ploča postoji ne znači da ulaz
 
 ## Poreklo podataka i izveštaj
 
-Postojeći `izvor` ne zamenjuj URL-om nove fotografije ili kasnije provere. Dopunske dokaze, stvarne datume, prethodni zapis, odluku i obrazloženje čuvaj u tematskoj belešci u `docs/`, po jedan red za svaku odluku, sa izvorom. Poseban izveštaj u `data/provere/` pravi se samo za zbirni prolaz kroz mnogo stavki, kad treba sačuvati podatke kojih u bazi nema (npr. izvorne zapise i adrese premeštenih stavki); pojedinačna odluka nije razlog za novi fajl (korisnik, 2026-10-18). Prazan izvor može se dopuniti potvrđenim izvorom.
+Postojeći `izvor` ne zamenjuj URL-om nove fotografije ili kasnije provere. Dopunske dokaze, stvarne datume, prethodni zapis, odluku i obrazloženje čuvaj mašinski čitljivo u `data/provere/`: pojedinačnu odluku kao novi zapis u zajedničkom `data/provere/odluke.json` (sa poljem `odluka`, kratkim imenom), a poseban fajl pravi samo za zbirni prolaz kroz mnogo stavki. `docs/` je za ljude: tamo ide sažetak i veza na izveštaj, ne pojedinačni dokazi (korisnik, 2026-10-18). Prazan izvor može se dopuniti potvrđenim izvorom.
 
 Posle prebacivanja ili spajanja očuvaj knjiške veze i aktivne radne indekse po [skilu provere](../../spomenici-provera/SKILL.md#veze-radnih-zapisa-i-knjiga). Istorijske rezultate i brojke upiši u [evidenciju lociranja](../../../../docs/LOCIRANJE_SPOMENIKA.md) ili [hrvatske provere](../../../../docs/PROVERA_RUSENJA_HRVATSKA.md), a postupke dopunjavaj ovde.

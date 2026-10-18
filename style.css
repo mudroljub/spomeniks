@@ -21,7 +21,7 @@ img {
   max-width: 100%;
 }
 
-/* naziv pocinje odmah desno od dugmeta Legenda, da ga ono ne zaklanja */
+/* naziv na sirem ekranu stoji iznad reda dugmadi */
 h1 {
   bottom: 0;
   color: #822323;
@@ -92,6 +92,12 @@ h1 {
   pointer-events: auto;
 }
 
+#dugmad-dole prijava-spomenika {
+  bottom: 52px;
+  left: 108px;
+  position: absolute;
+}
+
 /* na telefonu je ruta levo, a na sirem ekranu odmah do ostale dugmadi, ispod svog prozora */
 #dugmad-dole planer-rute {
   margin-right: auto;
@@ -110,8 +116,20 @@ h1 {
   }
 
   #dugmad-dole dugme-legenda {
-    margin-right: auto;
+    margin-right: 8px;
+    order: -2;
     position: static;
+  }
+
+  #dugmad-dole prijava-spomenika {
+    margin-right: auto;
+    order: -1;
+    position: static;
+  }
+
+  h1 {
+    bottom: 52px;
+    left: 10px;
   }
 }
 

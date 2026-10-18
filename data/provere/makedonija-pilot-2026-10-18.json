@@ -251,7 +251,11 @@
         "przdevo-spomenik-na-nob"
       ],
       "napomena": "Postojeća fotografija prikazuje samo ploče; bez celog objekta ne potvrđuje česmu.",
-      "izvor": "https://afterart.org/wp-content/uploads/2018/09/gjorg-trajkovski_pregled-na-spomenitsite-vo-sr-makedonija.pdf#page=59"
+      "izvor": "https://afterart.org/wp-content/uploads/2018/09/gjorg-trajkovski_pregled-na-spomenitsite-vo-sr-makedonija.pdf#page=59",
+      "naknadnoUparivanje": {
+        "skup": "mapa",
+        "id": "przdevo-spomenik-na-nob"
+      }
     },
     {
       "prioritet": 16,
@@ -266,7 +270,11 @@
         "karbunica-spomenik-na-nob"
       ],
       "napomena": "Postojeći generički spomenik zahteva poređenje natpisa/izgleda; isto selo nije dovoljan dokaz.",
-      "izvor": "https://afterart.org/wp-content/uploads/2018/09/gjorg-trajkovski_pregled-na-spomenitsite-vo-sr-makedonija.pdf#page=59"
+      "izvor": "https://afterart.org/wp-content/uploads/2018/09/gjorg-trajkovski_pregled-na-spomenitsite-vo-sr-makedonija.pdf#page=59",
+      "naknadnoUparivanje": {
+        "skup": "mapa",
+        "id": "karbunica-spomen-cesma"
+      }
     },
     {
       "prioritet": 17,
@@ -551,6 +559,166 @@
     "mreznePrepreke": [
       "Prvi zbirni Commons upit vratio prazan rezultat, pa pročitani konkretni naslovi fotografija.",
       "Zbirni OSM upit vratio 502. Nije ponavljan: za tri prihvaćena objekta već postoje nezavisno identifikovane fotografije sa tačkama; za druga dva nema potvrde."
-    ]
+    ],
+    "provere": {
+      "integritet": "prolazi, 5492 markera i samo poznati bliski parovi",
+      "testovi": "svih 9 postojećih testova prolazi",
+      "telefon": "pregledan novi marker u Sasi, 390x844",
+      "promene": "3 nova markera; postojeći zapisi očuvani; spisak bez lokacije nije menjan",
+      "slike": "3 fotografije pregledane; WebP 400 px, mali prikazi i odnosi dimenzija pripremljeni"
+    }
+  },
+  "proveraPetUparivanja": {
+    "datum": "2026-10-18",
+    "rezultat": {
+      "knjiskihStavkiPregledano": 5,
+      "novihMarkera": 1,
+      "ispravljenihPostojecihMarkera": 2,
+      "sigurnoUparenihKnjiskihStavki": 2,
+      "preostalihNeizvesnihKnjiskihStavki": 3
+    },
+    "dokaziFolder": "izvori/pretrage/makedonija-pilot-uparivanja",
+    "prethodniZapisi": [
+      {
+        "id": "kanino-spomen-ploca-od-nob",
+        "koordinate": {
+          "lat": 40.945833,
+          "lng": 21.353889
+        },
+        "mesto": "Kanino",
+        "izvor": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%B2%D0%BE_%D1%81%D0%B5%D0%BB%D0%BE%D1%82%D0%BE_%D0%9A%D0%B0%D0%BD%D0%B8%D0%BD%D0%BE.jpg",
+        "slika": "slike/spomenici/kanino-spomen-ploca-od-nob.webp",
+        "slikaOdnos": 0.563,
+        "slikaPotpis": "Ehrlich91, CC BY-SA 4.0",
+        "naziv": "Спомен-плоча од НОБ",
+        "vrsta": "ploca",
+        "drzava": "Macedonia"
+      },
+      {
+        "id": "przdevo-spomenik-na-nob",
+        "koordinate": {
+          "lat": 41.421214,
+          "lng": 22.167192
+        },
+        "mesto": "Prždevo",
+        "izvor": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%9F%D1%80%D0%B6%D0%B4%D0%B5%D0%B2%D0%BE.jpg",
+        "slika": "slike/spomenici/przdevo-spomenik-na-nob.webp",
+        "slikaOdnos": 0.75,
+        "slikaPotpis": "Kiril Simeonovski, CC BY-SA 4.0",
+        "naziv": "Споменик на НОБ",
+        "vrsta": "lokalni",
+        "drzava": "Macedonia"
+      }
+    ],
+    "noviMarker": {
+      "id": "karbunica-spomen-cesma",
+      "koordinate": {
+        "lat": 41.464747,
+        "lng": 20.976836
+      },
+      "mesto": "Karbunica",
+      "izvor": "https://afterart.org/wp-content/uploads/2018/09/gjorg-trajkovski_pregled-na-spomenitsite-vo-sr-makedonija.pdf#page=59",
+      "slika": "slike/spomenici/karbunica-spomen-cesma.webp",
+      "slikaOdnos": 1.307,
+      "slikaPotpis": "Kiril Simeonovski, CC BY-SA 4.0",
+      "naziv": "Спомен-чешма на стреланите жители",
+      "godina": "1950",
+      "posveta": "На шестмината жители на Карбуница стрелани во ноември 1943 година.",
+      "vrsta": "lokalni",
+      "drzava": "Macedonia"
+    },
+    "ispravljeniZapisi": [
+      {
+        "id": "kanino-spomen-ploca-od-nob",
+        "koordinate": {
+          "lat": 40.945833,
+          "lng": 21.353889
+        },
+        "mesto": "Kanino",
+        "izvor": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%B2%D0%BE_%D1%81%D0%B5%D0%BB%D0%BE%D1%82%D0%BE_%D0%9A%D0%B0%D0%BD%D0%B8%D0%BD%D0%BE.jpg",
+        "slika": "slike/spomenici/kanino-spomen-ploca-od-nob.webp",
+        "slikaOdnos": 0.526,
+        "slikaPotpis": "Ehrlich91, CC BY-SA 4.0",
+        "naziv": "Спомен-чешма на паднатите борци",
+        "vrsta": "lokalni",
+        "drzava": "Macedonia"
+      },
+      {
+        "id": "przdevo-spomenik-na-nob",
+        "koordinate": {
+          "lat": 41.421214,
+          "lng": 22.167192
+        },
+        "mesto": "Prždevo",
+        "izvor": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%9F%D1%80%D0%B6%D0%B4%D0%B5%D0%B2%D0%BE.jpg",
+        "slika": "slike/spomenici/przdevo-spomenik-na-nob.webp",
+        "slikaOdnos": 1.084,
+        "slikaPotpis": "Kiril Simeonovski, CC BY-SA 4.0",
+        "naziv": "Спомен-чешма на борците и стреланите жители",
+        "posveta": "На борците и жителите на Прждево стрелани од германските окупатори на 6 октомври 1944 година.",
+        "vrsta": "lokalni",
+        "drzava": "Macedonia"
+      }
+    ],
+    "odluke": [
+      {
+        "knjiskiBrojevi": [
+          "1/194",
+          "2/195"
+        ],
+        "mesto": "Kanino",
+        "ishod": "veza-sa-pojedinacnim-knjiskim-stavkama-nepotvrdjena",
+        "izvor": "https://commons.wikimedia.org/wiki/File:Спомен-плоча_во_селото_Канино.jpg",
+        "datumFotografije": "2018-09-09",
+        "dokaz": "Na izvornom snimku jasno piše СПОМЕНЧЕШМА i vidljivi su slavina i korito. Postojeći marker kanino-spomen-ploca-od-nob ispravljen iz vrste ploca u lokalni, naziv spomen-česma i fotografija sa vidljivim koritom. ID, tačka i izvor sačuvani. Nije dodat još jedan marker česme na toj tački. Natpis potvrđuje šest imena, ali mikrolokacija uz današnju prodavnicu ne dokazuje koja je od dve česme iz knjige.",
+        "drugiObjekat": {
+          "id": "kanino",
+          "izvor": "https://commons.wikimedia.org/wiki/File:Споменик_на_НОБ_во_Канино_2.jpg",
+          "datumFotografije": "2023-06-25",
+          "nalaz": "Natpis potvrđuje obelisk podignut 1952, obnovljen 2002; na snimcima nema česme. Nije automatski uparen sa knjiškom kamenom piramidom/česmom 1/194. Postojeći obelisk nije menjan."
+        }
+      },
+      {
+        "knjiskiBroj": "12/513",
+        "mesto": "Prždevo",
+        "ishod": "vec-na-mapi-ispravljen-naziv-i-slika",
+        "id": "przdevo-spomenik-na-nob",
+        "izvor": "https://commons.wikimedia.org/wiki/File:Чешма_во_Прждево.jpg",
+        "datumFotografije": "2021-05-24",
+        "detalj": "https://commons.wikimedia.org/wiki/File:Споменик_на_НОБ_во_Прждево.jpg",
+        "dokaz": "Cele ploče, dodatni spisak preživelih i raspored betona identični na detalju i snimku cele česme. Geotagovi su udaljeni oko 12 m. Sačuvani postojeća tačka, ID i prvobitni izvor; nova glavna fotografija prikazuje slavine/korito. Konkretna posveta prema natpisu o streljanju 6.10.1944; godina događaja nije dodata kao godina gradnje."
+      },
+      {
+        "knjiskiBroj": "15/115",
+        "mesto": "Karbunica",
+        "ishod": "novi-marker-zasebna-cesma",
+        "id": "karbunica-spomen-cesma",
+        "izvor": "https://commons.wikimedia.org/wiki/File:Спомен-чешма_на_НОБ_во_Карбуница.jpg",
+        "datumFotografije": "2020-09-21",
+        "dokaz": "Natpis ima šest imena, streljanje u novembru 1943 i datum obeležavanja 11.X.1950; poklapa se sa knjigom. Geotag oko 87 m zapadno od postojećeg karbunica-spomenik-na-nob, koji je zaseban reljef na kamenom stubu. Postojeća skulptura nije preimenovana niti zamenjena česmom. Stub nadstrešnice zaklanja deo natpisa na fotografiji; nečitljivi delovi nisu dopisivani."
+      },
+      {
+        "knjiskiBroj": "35/329",
+        "mesto": "Makedonski Brod (most)",
+        "ishod": "nepotvrdjena-tacka",
+        "radniZapisIzvor": "https://www.mbrod.gov.mk/80-godini-sloboden-makedonski-brod/",
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Spomenik_palim_borcima_NOB,_Makedonski_Brod.JPG",
+        "datumFotografije": "2012-08-01",
+        "dokaz": "Fotografija nema geotag i potvrđuje složenu betonsku kompoziciju uz Tresku, ploču borcima i žrtvama i datum 11.10.1981. Knjiški opis ulaza iz Kičeva uz most daje izgledan kandidat Gradskog parka zapadno od mosta Maršal Tito (OSM way/195550841). Na pregledanom satelitu park je vidljiv, ali tačka same kompozicije nije nedvosmisleno prepoznata kroz krošnje. Radni zapis ostaje bez markera; nije uparen samo po gradu i opštoj posveti.",
+        "osmPostojeciIzvod": "izvori/pretrage/spomenici-mk-zavrsni/brod-osm.xml",
+        "oblastKandidata": {
+          "lat": 41.5071419,
+          "lng": 21.215524,
+          "napomena": "Centar OSM parka, nije tačka spomenika i ne koristiti za precizan marker."
+        }
+      }
+    ],
+    "provere": {
+      "integritet": "izlaz 0, 5493 markera, samo 19 poznatih bliskih parova",
+      "aplikacija": "svih 9 testova prolazi; pregledan Kanino na telefonu 390x844",
+      "promene": "1 novi marker; 2 postojeća ispravljena; njihovi ID-jevi, tačke i izvori sačuvani; ostali zapisi mape neizmenjeni ovim paketom",
+      "slike": "3 pregledane fotografije, 400 px WebP, mali prikazi i odnosi dimenzija pripremljeni",
+      "radniSpisak": "bez pomeranja, brisanja i novih preciznih tačaka za nepotvrđene objekte"
+    }
   }
 }

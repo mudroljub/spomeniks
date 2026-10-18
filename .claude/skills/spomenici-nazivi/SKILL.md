@@ -7,7 +7,7 @@ description: Određuje, prevodi i ujednačava domaće nazive spomenika u projekt
 
 Naziv je naslov prozora spomenika i ono što putnik traži u pretrazi, pa mora biti tačan i ujednačen. Korisnik ne želi pretpostavke u podacima: bolje je kratak opšti naziv nego lep naziv koji niko nije potvrdio.
 
-Jezik po državi: Srbija, Hrvatska, BiH, Crna Gora i Kosovo pišu sh latinicom (ćirilicu preslovi), Slovenija slovenački, a Makedonija makedonskom ćirilicom. `alati/integritet.py` proverava pismo.
+Jezik po državi: Srbija, Hrvatska, BiH, Crna Gora i Kosovo pišu sh latinicom (ćirilicu preslovi), Slovenija slovenački, a Makedonija makedonskom ćirilicom. `alati/integritet.py` proverava pismo. Za Makedoniju i `mesto` mora biti izvorni makedonski naziv na ćirilici, uključujući deo grada (korisnik, 2026-10-18); ne srpski oblik „Skoplje“ niti latinični prepis. Primeri: „Скопје“, „Крива Паланка“, „Ѓавато“. ID i URL se ne menjaju.
 
 ## Odakle naziv, redom
 

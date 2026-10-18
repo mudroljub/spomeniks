@@ -24,6 +24,25 @@ const jednina = n => n % 10 === 1 && n % 100 !== 11
 const malo = n => [2, 3, 4].includes(n % 10) && ![12, 13, 14].includes(n % 100)
 
 const tekstovi = {
+  prijavaNaslov: {sh: 'Pošalji spomenik', en: 'Suggest a monument'},
+  prijavaDopuna: {sh: 'Dopuna podataka', en: 'Monument update'},
+  prijavaNaziv: {sh: 'Naziv spomenika (obavezno)', en: 'Monument name (required)'},
+  prijavaLokacija: {sh: 'Lokacija — link iz mape (obavezno)', en: 'Location — map link (required)'},
+  prijavaObavezno: {sh: 'Potrebni su samo naziv spomenika i lokacija.', en: 'Only the monument name and location are required.'},
+  prijavaUputstvo: {
+    sh: 'Kopiraj link lokacije iz mape, otvori mejl i dodaj naziv spomenika. Možeš i da kopiraš našu adresu, pa u mapi izabereš „Podeli“ i pošalješ lokaciju mejlom.',
+    en: 'Copy the location link from your map, open the email and add the monument name. You can also copy our email address, then select “Share” in your map and email the location.',
+  },
+  prijavaOtvoriMejl: {sh: 'Otvori mejl', en: 'Open email'},
+  prijavaKopiraj: {sh: 'Kopiraj mejl adresu', en: 'Copy email address'},
+  prijavaKopirano: {sh: 'Adresa je kopirana.', en: 'Address copied.'},
+  prijavaKopirajRucno: {sh: 'Kopiraj adresu ručno', en: 'Copy the address manually'},
+  prijavaOpciono: {sh: 'Opciono: fotografija, kategorija, opis i ostali podaci.', en: 'Optional: photo, category, description and other details.'},
+  prijavaBonus: {sh: 'Bonus: dodaj spomenik na Google mapu', en: 'Bonus: add the monument to Google Maps'},
+  prijavaGoogle: {
+    sh: 'Ako želiš, dodaj spomenik koji nedostaje na Google mapu, pa pošalji njegov link. Ako već postoji, samo podeli njegovu lokaciju.',
+    en: 'If you like, add a missing monument to Google Maps, then send its link. If it is already there, just share its location.',
+  },
   navigacija: {sh: 'Navigacija', en: 'Navigate'},
   mesto: {sh: 'Mapa', en: 'Map'},
   dodajURutu: {sh: 'U rutu', en: 'To route'},

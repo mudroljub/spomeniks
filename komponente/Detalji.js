@@ -4,6 +4,7 @@ import {mestoUrl, navigacijaUrl, escapeHtml, naziviStanja, nestao, autoriSpomeni
 import {dajOznaku, postaviOznaku, promene} from '../utils/oznake.js'
 import {uRuti, dodajURutu, ukloniIzRute, promeneRute} from '../utils/ruta.js'
 import {jezik, t, nazivDrzave} from '../utils/jezik.js'
+import {prijavaUrl} from '../utils/prijava.js'
 
 const boja = '#822323'
 
@@ -137,6 +138,17 @@ style.textContent = `
 
   a {
     color: ${boja};
+  }
+
+  #dopuna {
+    background: none;
+    border: none;
+    color: ${boja};
+    cursor: pointer;
+    font: inherit;
+    min-height: 44px;
+    padding: 0;
+    text-decoration: underline;
   }
 
   /* link uz naslov je obicne velicine, da ne izgleda kao deo naziva */
@@ -410,9 +422,13 @@ export default class Detalji extends HTMLElement {
           </span>
         </p>
         ${spomen.natpis ? `<details class="natpis"><summary>${t('natpis')}</summary><p>${escapeHtml(spomen.natpis)}</p></details>` : ''}
+        <p><button id="dopuna">${t('prijavaDopuna')}</button></p>
       </div>
     `
     this.panel.querySelector('#zatvori').addEventListener('click', () => mapa.fire('izbor', {marker: null}))
+    this.panel.querySelector('#dopuna').addEventListener('click', () => {
+      location.href = prijavaUrl(spomen)
+    })
     this.panel.querySelector('#nazad')?.addEventListener('click', () => mapa.fire('otvoriRutu'))
     // ponovni dodir na izabranu oznaku je skida
     this.panel.querySelectorAll('[data-oznaka]').forEach(dugme => dugme.addEventListener('click', () =>

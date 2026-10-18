@@ -1,0 +1,1597 @@
+[
+ {
+  "odluka": "trijebac-naziv-mesto",
+  "datum": "2026-10-18",
+  "ishod": "dopuna-postojeceg",
+  "prethodniZapis": {
+   "id": "radevici",
+   "koordinate": {
+    "lat": 42.4745197,
+    "lng": 19.2595237
+   },
+   "googleCid": "11706559803888277479",
+   "mesto": "Radevići",
+   "slika": "slike/spomenici/radevici.webp",
+   "slikaOdnos": 0.75,
+   "slikaPotpis": "Google Maps",
+   "naziv": "Spomenik partizanima",
+   "godina": "1967",
+   "autor": "Dragan Marković",
+   "vrsta": "lokalni",
+   "drzava": "Montenegro"
+  },
+  "noviZapis": {
+   "id": "radevici",
+   "koordinate": {
+    "lat": 42.4745197,
+    "lng": 19.2595237
+   },
+   "googleCid": "11706559803888277479",
+   "mesto": "Rogami (Trijebač)",
+   "slika": "slike/spomenici/radevici.webp",
+   "slikaOdnos": 0.75,
+   "slikaPotpis": "Google Maps",
+   "naziv": "Spomenik palim Piperima",
+   "godina": "1967",
+   "autor": "Dragan Marković",
+   "vrsta": "lokalni",
+   "drzava": "Montenegro"
+  },
+  "izvorProvere": "https://www.spomenikdatabase.org/vranjske-njive",
+  "dokaz": "Izvor smešta Piperi War Memorial na brdo Trijebač u selu Rogami i potvrđuje 1967. i Dragana Markovića. Korisnikova fotografija izvori/cg/facebook/trijebac-129953088.jpg podudara se sa spomenikom postojećeg markera. Korisnik odobrio naziv Spomenik palim Piperima i mesto Rogami (Trijebač).",
+  "granice": "Promenjeni samo naziv i mesto; ID, koordinate, GoogleCID, fotografija i ostala polja sačuvani."
+ },
+ {
+  "odluka": "herceg-novi-autori",
+  "datum": "2026-10-18",
+  "ishod": "dopuna-postojeceg",
+  "prethodniZapis": {
+   "id": "herceg-novi",
+   "koordinate": {
+    "lat": 42.452809,
+    "lng": 18.5432355
+   },
+   "googleCid": "3089396308058301785",
+   "mesto": "Herceg Novi",
+   "slika": "slike/spomenici/herceg-novi.webp",
+   "slikaOdnos": 1.626,
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to Fallen Fighters",
+   "godina": "1954",
+   "autor": "Nikola Dobrović",
+   "vrsta": "statua",
+   "drzava": "Montenegro"
+  },
+  "noviZapis": {
+   "id": "herceg-novi",
+   "koordinate": {
+    "lat": 42.452809,
+    "lng": 18.5432355
+   },
+   "googleCid": "3089396308058301785",
+   "mesto": "Herceg Novi",
+   "izvor": "https://www.hercegnovi.me/downloads/Kultura/REGISTAR%20SPOMEN%20OB%20O%20HN.pdf",
+   "slika": "slike/spomenici/herceg-novi.webp",
+   "slikaOdnos": 1.626,
+   "naziv": "Spomenik palim borcima i žrtvama fašizma",
+   "nazivEn": "Monument to Fallen Fighters",
+   "godina": "1954",
+   "autor": "Luka Tomanović & Nikola Dobrović",
+   "vrsta": "statua",
+   "drzava": "Montenegro"
+  },
+  "dokaz": "Opštinski registar, redni broj 1, potvrđuje autore Luka Tomanović i Nikola Dobrović i 1954. godinu. Proširen naziv prema podacima koje je korisnik dostavio sa stranice Spomenici NOB u Crnoj Gori.",
+  "lokalniIzvor": "izvori/cg/herceg-novi-registar.pdf",
+  "granice": "Fotografija, koordinate, GoogleCID i godina nisu menjani; prazan izvor dopunjen opštinskim registrom."
+ },
+ {
+  "odluka": "krstac-golija",
+  "datum": "2026-10-18",
+  "ishod": "dopuna-postojeceg-markera",
+  "id": "gornje-caradje",
+  "prethodniZapis": {
+   "id": "gornje-caradje",
+   "koordinate": {
+    "lat": 43.00443,
+    "lng": 18.6956535
+   },
+   "googleCid": "11818934170270669043",
+   "mesto": "Gornje Čarađe",
+   "slika": "slike/spomenici/gornje-caradje.webp",
+   "slikaOdnos": 1.515,
+   "naziv": "Spomenik palim borcima",
+   "nazivEn": "Monument to Fallen Fighters",
+   "godina": "1970",
+   "vrsta": "spomenik",
+   "drzava": "Montenegro"
+  },
+  "noviZapis": {
+   "id": "gornje-caradje",
+   "koordinate": {
+    "lat": 43.00443,
+    "lng": 18.6956535
+   },
+   "googleCid": "11818934170270669043",
+   "mesto": "Krstac",
+   "izvor": "https://www.facebook.com/spomenicinobucrnojgori/",
+   "slika": "slike/spomenici/gornje-caradje.webp",
+   "slikaOdnos": 1.515,
+   "naziv": "Spomenik poginulim Golijanima u Prvom i Drugom svjetskom ratu",
+   "nazivEn": "Monument to Fallen Fighters",
+   "godina": "1976",
+   "vrsta": "spomenik",
+   "drzava": "Montenegro"
+  },
+  "dokaz": "Korisnik dostavio naziv, mesto Krstac (opština Nikšić), godinu 1976. i fotografiju sa Facebook stranice Spomenici NOB u Crnoj Gori. Poređenje potvrđuje isti karakteristični stub sa kružnim elementima, kameni plato i okolinu kao postojeća fotografija.",
+  "fotografijaKorisnika": "izvori/cg/facebook/krstac-129953742.jpg",
+  "granice": "Sačuvani ID, koordinate, GoogleCID i postojeća fotografija. Koordinate nisu ponovo merene; ranija razlika StoryMap tačke ostaje napomena o približnosti tog spoljnog izvora. Godina i pun naziv preuzeti iz korisnikovog podatka; fotografija sama ne pokazuje čitljiv datum. Autor i datum korisnikove fotografije nisu potvrđeni."
+ },
+ {
+  "odluka": "zabjelo",
+  "datum": "2026-10-18",
+  "ishod": "dopuna-postojeceg-markera",
+  "id": "podgorica-stara-varos",
+  "prethodniZapis": {
+   "id": "podgorica-stara-varos",
+   "koordinate": {
+    "lat": 42.4299442,
+    "lng": 19.255035
+   },
+   "googleCid": "17317737998112965781",
+   "mesto": "Podgorica (Stara varoš)",
+   "naziv": "Spomenik NOB",
+   "vrsta": "lokalni",
+   "drzava": "Montenegro"
+  },
+  "noviZapis": {
+   "id": "podgorica-stara-varos",
+   "koordinate": {
+    "lat": 42.4299442,
+    "lng": 19.255035
+   },
+   "googleCid": "17317737998112965781",
+   "mesto": "Podgorica (Zabjelo)",
+   "izvor": "https://www.portalanalitika.me/clanak/234281--vijenci-na-spomen-obiljezja-strijeljanih-rodoljuba-ispod-ljubovica-i-na-zabjelu",
+   "slika": "slike/spomenici/podgorica-stara-varos.webp",
+   "slikaOdnos": 0.75,
+   "slikaPotpis": "Spomenici NOB u Crnoj Gori, Facebook",
+   "naziv": "Spomenik strijeljanim rodoljubima",
+   "vrsta": "lokalni",
+   "drzava": "Montenegro"
+  },
+  "dokazIdentiteta": "Korisnikova fotografija pokazuje isti beli stepenasti spomenik, spomen-ploče, ogradu sa izduženim otvorima i drveće kao fotografija Google mesta CID 17317737998112965781. Na donjoj ploči su porodica Dedić i Arso Perić, kao u članku Portala Analitika iz 2016.",
+  "fotografija": "izvori/cg/facebook/zabjelo-131075001.jpg",
+  "porekloFotografije": "Korisnik poslao CDN fotografiju sa stranice Spomenici NOB u Crnoj Gori. Autor, licenca i datum snimanja nisu potvrđeni; original sačuvan lokalno.",
+  "kontrolnaFotografija": "izvori/cg/facebook/podgorica-stara-varos-provera.jpg",
+  "granice": "ID, koordinate i GoogleCID sačuvani. Nije dodat novi marker niti nova oznaka stanja. Prazan izvor dopunjen člankom koji navodi konkretnu posvetu i Zabjelo."
+ },
+ {
+  "odluka": "strazica-godina",
+  "datum": "2026-10-18",
+  "id": "pljevlja-fallen-fighters",
+  "polje": "godina",
+  "pre": "1958",
+  "posle": "1961",
+  "izvor": "https://pljevlja.me/polozeni-vijenci-na-spomen-obiljezju-na-strazici/",
+  "potvrda": "Opština Pljevlja navodi da je Memorijalni centar Stražica podignut 1961, na dvadesetu godišnjicu Pljevaljske bitke. Ostala polja sačuvana."
+ },
+ {
+  "odluka": "grahovo-godina",
+  "datum": "2026-10-18",
+  "id": "grahovo",
+  "polje": "godina",
+  "pre": "1987",
+  "posle": "1978",
+  "izvor": "https://www.czklazarevac.rs/program/moderna-galerija/retrospektivna-izlozba-skulptura-miodraga-zivkovica-20210913",
+  "dokaz": "Moderna galerija Centra za kulturu Lazarevac u spisku dela za retrospektivnu izložbu Miodraga Živkovića navodi Spomen park Ustanka i Revolucije, 1978, Grahovo, Crna Gora. Promenjena samo godina."
+ },
+ {
+  "odluka": "posvete-iz-razgovora",
+  "datum": "2026-10-18",
+  "odobrenje": "Korisnik odobrio upis svih korisnih posveta izdvojenih iz istorije razgovora.",
+  "dopunjeno": [
+   {
+    "id": "jastreb",
+    "posveta": "Za 52 omladinca strijeljana 23. jula 1944. na Lazinama."
+   },
+   {
+    "id": "velika-spomenik-zrtvama-pokolja",
+    "posveta": "Žrtvama pokolja u Velici i okolini 28. jula 1944."
+   },
+   {
+    "id": "podgorica-stara-varos",
+    "posveta": "Strijeljanim članovima porodice Dedić i Arsu Periću."
+   },
+   {
+    "id": "gornje-caradje",
+    "posveta": "Poginulim Golijanima u Prvom i Drugom svjetskom ratu."
+   },
+   {
+    "id": "utrg",
+    "posveta": "Borcima socijalističke revolucije iz Utrga."
+   },
+   {
+    "id": "bogatic-spomenik-miki-mitrovicu-i-macvanskom-odredu",
+    "posveta": "Miki Mitroviću i palim rukovodiocima Mačvanskog partizanskog odreda."
+   }
+  ],
+  "sacuvanaPovezanaPosveta": {
+   "id": "pljevlja-fallen-fighters",
+   "posveta": [
+    "Q4087316"
+   ]
+  },
+  "poreklo": "Korisnikovi opisi sa Facebook stranice Spomenici NOB u Crnoj Gori i fotografije pregledane u ovom razgovoru; za Bogatić ploče sa Commons fotografija Bogatić 003.jpg i 004.jpg. Za Lazine dodatno knjiga Danilovgrad 2017, PDF str. 12.",
+  "granice": "Promenjeno samo polje posveta u šest zapisa; postojeći izvori, nazivi, lokacije i ostala polja sačuvani. Opšti opisi bez konkretne posvete nisu dodavani."
+ },
+ {
+  "odluka": "momisici-dopuna",
+  "datum": "2026-10-18",
+  "ishod": "dopuna-postojeceg",
+  "prethodniZapis": {
+   "id": "podgorica-fallen-fighters",
+   "koordinate": {
+    "lat": 42.4468919,
+    "lng": 19.2543591
+   },
+   "googleCid": "5767540427522144243",
+   "mesto": "Podgorica (Momišići)",
+   "slika": "slike/spomenici/podgorica-fallen-fighters.webp",
+   "slikaOdnos": 1.569,
+   "naziv": "Palim borcima",
+   "nazivEn": "Monument to Fallen Fighters",
+   "godina": "1979",
+   "vrsta": "spomenik",
+   "drzava": "Montenegro"
+  },
+  "noviZapis": {
+   "id": "podgorica-fallen-fighters",
+   "koordinate": {
+    "lat": 42.4468919,
+    "lng": 19.2543591
+   },
+   "googleCid": "5767540427522144243",
+   "mesto": "Podgorica (Momišići)",
+   "izvor": "https://www.vijesti.me/amp/492483/spomenik-junacima-iz-momisica-jaci-i-od-zemljotresa",
+   "slika": "slike/spomenici/podgorica-fallen-fighters.webp",
+   "slikaOdnos": 1.569,
+   "naziv": "Spomenik borcima NOR-a",
+   "nazivEn": "Monument to Fallen Fighters",
+   "godina": "1979",
+   "autor": "Andrija Markuš",
+   "posveta": "Za 25 boraca iz Momišića poginulih u Narodnooslobodilačkom ratu 1941-1945.",
+   "vrsta": "spomenik",
+   "drzava": "Montenegro"
+  },
+  "izvorProvere": "https://www.vijesti.me/amp/492483/spomenik-junacima-iz-momisica-jaci-i-od-zemljotresa",
+  "dokaz": "Intervju sa arhitektom Andrijom Markušem potvrđuje autorstvo, posvetu 25 poginulih boraca iz Momišića i svečano otvaranje 1979. godine. Korisnik odobrio dopunu naziva, autora i posvete uz zadržavanje 1979.",
+  "neslaganje": "Korisnikov početni opis navodi 1976; ta godina nije preneta jer sam autor u intervjuu navodi otvaranje 1979.",
+  "granice": "Sačuvani ID, mesto, koordinate, GoogleCID, fotografija i godina. Prazan izvor dopunjen intervjuom. Opis nekadašnjeg plamena i osvetljenja nije posveta i nije prenet u to polje."
+ },
+ {
+  "odluka": "velika",
+  "datum": "2026-10-18",
+  "ishod": "nov-marker",
+  "zapis": {
+   "id": "velika-spomenik-zrtvama-pokolja",
+   "koordinate": {
+    "lat": 42.664462,
+    "lng": 19.954708
+   },
+   "mesto": "Velika",
+   "izvor": "https://www.facebook.com/spomenicinobucrnojgori/",
+   "slika": "slike/spomenici/velika-spomenik-zrtvama-pokolja.webp",
+   "slikaOdnos": 0.667,
+   "slikaPotpis": "Spomenici NOB u Crnoj Gori, Facebook",
+   "naziv": "Spomenik žrtvama pokolja 28. jula 1944.",
+   "godina": "1984",
+   "vrsta": "lokalni",
+   "drzava": "Montenegro"
+  },
+  "odobrenje": "Korisnik odobrio približnu lokaciju, zatim precizirao: stavi ga pored stare škole ako imaš taj info.",
+  "preciznostLokacije": "Približna tačka uz staru školu; tačna pozicija kamena nije potvrđena. Nije centar sela niti precizna koordinata spomenika.",
+  "porekloKoordinata": "Očitano na prostoru uz jugozapadni deo stare škole, prema satelitskoj karti. Škola Google 42.6645799,19.9549722 nalazi se naspram hrama Kirika i Julite.",
+  "izvoriLokacije": [
+   "https://rtcg.me/vijesti/drustvo/452287/istinske-zrtve-nikada-ne-umiru-.html",
+   "https://www.nspm.rs/hronika/mitropolit-amfilohije-zlocinci-koji-su-pocinili-pokolj-u-velici-1944.-godine-su-bili-prethodnica-onih-koji-su-1999.-bombardovali-murino.html?alphabet=l",
+   "https://www.google.com/maps/place/?q=place_id:ChIJyQQ0Hcf1UhMRr3J1YDM4M1c"
+  ],
+  "fotografija": {
+   "lokalno": "izvori/cg/facebook/velika-133549370.jpg",
+   "poreklo": "Fotografiju poslao korisnik sa Facebook stranice Spomenici NOB u Crnoj Gori; autor, licenca i datum snimanja nisu poznati.",
+   "sadrzaj": "Natpis o pokolju 28. jula 1944. i oznaka 1944-1984; fotografija potvrđuje identitet i 1984. godinu obeležja."
+  },
+  "mapaPre": 4623,
+  "mapaPosle": 4624,
+  "napomena": "Ne dodaje se oznaka stanja. Datum preuzimanja nije datum fotografije. Street View nije korišćen."
+ },
+ {
+  "odluka": "danilovgrad-uskladjivanje",
+  "datum": "2026-10-18",
+  "ishod": "dopuna-postojeceg",
+  "prethodniZapis": {
+   "id": "danilovgrad",
+   "koordinate": {
+    "lat": 42.5531875,
+    "lng": 19.1052859
+   },
+   "googleCid": "6386968180307484587",
+   "mesto": "Danilovgrad",
+   "slika": "slike/spomenici/danilovgrad.webp",
+   "slikaOdnos": 1.434,
+   "naziv": "Spomenik NOB",
+   "nazivEn": "Monument to Fallen Fighters",
+   "godina": "1959",
+   "autor": "Drago Đurović",
+   "vrsta": "spomenik",
+   "drzava": "Montenegro"
+  },
+  "noviZapis": {
+   "id": "danilovgrad",
+   "koordinate": {
+    "lat": 42.5531875,
+    "lng": 19.1052859
+   },
+   "googleCid": "6386968180307484587",
+   "mesto": "Danilovgrad",
+   "izvor": "https://www.spomenikdatabase.org/_files/ugd/e73a14_0bc2984a2f72446b9f40641ff26a558f.pdf",
+   "slika": "slike/spomenici/danilovgrad.webp",
+   "slikaOdnos": 1.434,
+   "naziv": "Spomenik palim borcima za slobodu protiv fašizma",
+   "nazivEn": "Monument to Fallen Fighters",
+   "godina": "1959",
+   "autor": "Drago Đurović & Mirko Đokić",
+   "vrsta": "spomenik",
+   "drzava": "Montenegro"
+  },
+  "dokazi": [
+   {
+    "izvor": "Korisnikov opis sa Facebook stranice Spomenici NOB u Crnoj Gori",
+    "nalaz": "Pun naziv, autori Drago Đurović i Mirko Đokić, godina 1963."
+   },
+   {
+    "izvor": "https://www.spomenikdatabase.org/_files/ugd/e73a14_0bc2984a2f72446b9f40641ff26a558f.pdf",
+    "lokalniIzvor": "izvori/cg/danilovgrad-2017.pdf",
+    "nalaz": "SUBNOR/UBNOR Danilovgrad 2017, štampana strana 8, Spomenik u Danilovgradu na Trgu 9. decembar: izričito podignut 1959, autor Drago Đurović."
+   },
+   {
+    "izvor": "https://www.spomenikdatabase.org/obadov-brijeg",
+    "nalaz": "Odeljak Monument to Fallen Fighters in Danilovgrad takođe navodi 1959. i arhitektu Mirka Đukića (drugačiji oblik prezimena); kalendarski podatak o 25. godišnjici u istom pasusu protivrečan je i nije preuzet."
+   }
+  ],
+  "odlukaGodina": "Zadržana postojeća 1959. na osnovu izričitog nalaza izdavača SUBNOR/UBNOR Danilovgrad; ranije prihvaćena pretpostavka 1963. nije upisana. Neslaganje Facebook opisa sačuvano ovde.",
+  "granice": "Sačuvani ID, lokacija, GoogleCID, fotografija i ostala polja. Prazan izvor dopunjen knjigom."
+ },
+ {
+  "odluka": "gorica-dopuna",
+  "datum": "2026-10-18",
+  "ishod": "dopuna-postojeceg",
+  "prethodniZapis": {
+   "id": "podgorica-mausoleum-partisans",
+   "koordinate": {
+    "lat": 42.4495966,
+    "lng": 19.2660353
+   },
+   "googleCid": "16279702127715273535",
+   "mesto": "Podgorica (Gorica)",
+   "izvor": "http://www.spomenikdatabase.org/podgorica",
+   "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%83-%D0%B1%D0%BE%D1%80%D1%86%D1%83",
+   "slika": "slike/spomenici/podgorica-mausoleum-partisans.webp",
+   "slikaOdnos": 1.099,
+   "naziv": "Partizanu borcu",
+   "nazivEn": "Memorial Mausoleum to Partisans",
+   "godina": "1957",
+   "autor": "Drago Đurović",
+   "vrsta": "istaknut",
+   "drzava": "Montenegro"
+  },
+  "noviZapis": {
+   "id": "podgorica-mausoleum-partisans",
+   "koordinate": {
+    "lat": 42.4495966,
+    "lng": 19.2660353
+   },
+   "googleCid": "16279702127715273535",
+   "mesto": "Podgorica (Gorica)",
+   "izvor": "http://www.spomenikdatabase.org/podgorica",
+   "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%83-%D0%B1%D0%BE%D1%80%D1%86%D1%83",
+   "slika": "slike/spomenici/podgorica-mausoleum-partisans.webp",
+   "slikaOdnos": 1.099,
+   "naziv": "Partizanu borcu",
+   "nazivEn": "Memorial Mausoleum to Partisans",
+   "godina": "1957",
+   "autor": "Drago Đurović & Vojislav Đokić",
+   "natpis": "Oni su voljeli slobodu više od života\n\nU Narodnooslobodilačkoj borbi od 1941 do 1945. godine palo je 6780 boraca i rukovodilaca iz Crne Gore\n\n... a 7479 sinova i kćeri crnogorskog naroda ubili su fašistički okupatori i domaći izdajnici",
+   "posveta": "Za 97 boraca i narodnih heroja Jugoslavije poginulih u Narodnooslobodilačkom ratu 1941-1945, čiji su posmrtni ostaci u kripti.",
+   "vrsta": "istaknut",
+   "drzava": "Montenegro"
+  },
+  "poreklo": "Opis i tri citirana natpisa koje je korisnik dostavio i izričito odobrio za upis u ovom razgovoru.",
+  "granice": "Sačuvani postojeći izvor, wiki veza, fotografija, godina 1957, ID i koordinate. Datum otvaranja 13. jul 1957. nije dodat u polje godina, koje čuva godinu; naveden ovde kao podatak iz opisa. Tekst o centralnom mestu komemoracija nije posveta i nije prenet u to polje."
+ },
+ {
+  "odluka": "bogatic-culjkovic",
+  "datum": "2026-10-18",
+  "povod": "Korisnik naveo spomenik kod opštine Bogatić i kod škole u Culjkoviću i izričito odobrio dodavanje na mapu.",
+  "dodato": 2,
+  "mapaPre": 4612,
+  "mapaPosle": 4614,
+  "radniSpisakMenjan": false,
+  "nalazi": [
+   {
+    "zapis": {
+     "id": "bogatic-spomenik-miki-mitrovicu-i-macvanskom-odredu",
+     "koordinate": {
+      "lat": 44.834383,
+      "lng": 19.479824
+     },
+     "mesto": "Bogatić",
+     "izvor": "https://commons.wikimedia.org/wiki/File:Bogati%C4%87_002.jpg",
+     "slika": "slike/spomenici/bogatic-spomenik-miki-mitrovicu-i-macvanskom-odredu.webp",
+     "slikaOdnos": 0.453,
+     "slikaPotpis": "Ванилица, CC BY-SA 4.0",
+     "naziv": "Spomenik Miki Mitroviću i palim borcima Mačvanskog odreda",
+     "vrsta": "lokalni",
+     "drzava": "Serbia"
+    },
+    "dokazi": [
+     "https://commons.wikimedia.org/wiki/File:Bogati%C4%87_003.jpg",
+     "https://commons.wikimedia.org/wiki/File:Bogati%C4%87_004.jpg",
+     "https://www.danas.rs/zivot/macva-3-put-do-termalne-rivijere/"
+    ],
+    "datumFotografije": "2016-06-30",
+    "dokazTacke": "Satelitski snimak: tačka na vidljivom postolju obeliska ispred zaobljenog ugla zgrade opštine, zapadno od nje. Poklapa se sa geotagom Commons fotografije (oko 1 m). Nije centroid opštine.",
+    "razlikovanje": "Postojeći bogatic-spomenik-miki-mitrovicu je bista ispred škole oko 164 m severnije; nov je obelisk ispred opštine.",
+    "naziv": "Posveta Miki Mitroviću sa ploče 003 i palim rukovodiocima Mačvanskog partizanskog odreda sa ploče 004. Datum ploče 7. VII 1949. nije automatski upisan kao godina izgradnje čitavog obeliska."
+   },
+   {
+    "zapis": {
+     "id": "culjkovic-spomenik-nob-u",
+     "koordinate": {
+      "lat": 44.664657,
+      "lng": 19.540567
+     },
+     "mesto": "Culjković",
+     "izvor": "https://commons.wikimedia.org/wiki/File:Culjkovi%C4%87_004.jpg",
+     "slika": "slike/spomenici/culjkovic-spomenik-nob-u.webp",
+     "slikaOdnos": 1.187,
+     "slikaPotpis": "Ванилица, CC BY-SA 4.0",
+     "naziv": "Spomenik NOB-u",
+     "vrsta": "lokalni",
+     "drzava": "Serbia"
+    },
+    "datumFotografije": "2016-07-09",
+    "dokazTacke": "Korisnik potvrđuje mesto kod škole. Fotografije Culjković 004 i 005 prikazuju kameni spomen-zid uz ogradu školskog dvorišta; položaj određen na prednjem jugoistočnom delu parcele pored puta, prema školskoj zgradi, ogradi i raskrsnici na satelitu.",
+    "preciznost": "Približno 10 m: deo platoa zaklanjaju krošnje. Nije prepisan centroid školske zgrade.",
+    "razlikovanje": "Desni kameni obelisk sa krstom je zaseban spomenik; za NOB je upotrebljen kadar kamenog spomen-zida levo."
+   }
+  ],
+  "ogranicenja": "Fotografije potvrđuju stanje na datume snimanja; datum satelitskog snimka nije potvrđen. Bez novih oznaka stanja, bez korišćenja Street View-a. Izvori i autor/licenca fotografija sačuvani u izvori/pretrage/bogatic-culjkovic-2026-10-18/."
+ },
+ {
+  "odluka": "vukovci",
+  "datumProvere": "2026-10-18",
+  "ishod": "nov-marker",
+  "zapis": {
+   "id": "vukovci-spomenik-niku-marasu-i-saborcima",
+   "koordinate": {
+    "lat": 42.3326981,
+    "lng": 19.2096167
+   },
+   "mesto": "Vukovci",
+   "izvor": "https://www.openstreetmap.org/node/6042730504",
+   "slika": "slike/spomenici/vukovci-spomenik-niku-marasu-i-saborcima.webp",
+   "slikaOdnos": 0.714,
+   "slikaPotpis": "Spomenici NOB u Crnoj Gori, Facebook",
+   "naziv": "Spomenik Niku Marašu i saborcima",
+   "godina": "1971",
+   "posveta": "Niku Marašu i šestorici saboraca poginulim januara 1942. na Morači i u okolini.",
+   "vrsta": "lokalni",
+   "drzava": "Montenegro"
+  },
+  "mapaPre": 5478,
+  "mapaPosle": 5479,
+  "radniSpisakMenjan": false,
+  "tacka": {
+   "izvor": "https://www.openstreetmap.org/node/6042730504",
+   "nalaz": "OSM memorial=stele uz istočni kraj Vukovačkog mosta. Satelitski snimak i fotografije iz članka potvrđuju prilaz mostu, obalu reke i neposrednu okolinu; nije preuzet centroid sela ili samog mosta.",
+   "lokalno": "izvori/osm/cg-spomen-obelezja.json"
+  },
+  "dokazi": [
+   {
+    "izvor": "https://www.vijesti.me/vijesti/drustvo/504045/komandant-niko-sa-sest-drugova-stradao-zbog-izdaje-cetnika",
+    "datumObjave": "2021-01-17",
+    "autorFotografija": "Boris Pejović",
+    "nalaz": "Fotografije prikazuju isto zidanje od oblutaka, ploču i položaj uz most; tekst smešta spomenik kod mosta u Vukovcima."
+   },
+   {
+    "izvor": "https://www.aktuelno.me/clanak/delegacije-obnor-a-podgorice-i-zete-polozile-vijence-na-spomenik-u-blizini-vukovackog-mosta",
+    "nalaz": "Izveštaj komemoracije navodi istih sedam ljudi i stradanje januara 1942."
+   },
+   {
+    "lokalno": "izvori/cg/facebook/moraca-128566054.jpg",
+    "poreklo": "Korisnikova fotografija sa Facebook stranice Spomenici NOB u Crnoj Gori; autor, licenca i datum snimanja nisu poznati.",
+    "nalaz": "Natpis potvrđuje Nika Maraša, Vojina Božovića, Milutina Markovića, Uroša Čakića, Vaska Terzića, Mira Maraša i Cufa B. Alibalića, stradanje januara 1942. i oznaku Decembra 1971."
+   }
+  ],
+  "granice": "Godina preuzeta iz datuma na ploči, ne iz datuma događaja. Fotografija sa Facebooka kopirana i umanjena uz potpis izvora. Bez novog podatka o autorstvu ili današnjem stanju; Street View nije korišćen.",
+  "najbliziPostojeci": [
+   [
+    1081.3202216810837,
+    "golubovci"
+   ],
+   [
+    5390.142309851265,
+    "mataguzi"
+   ]
+  ]
+ },
+ {
+  "odluka": "fb-godine-cg-nepreuzete",
+  "datum": "2026-10-18",
+  "ishod": "nije preuzeto",
+  "zapisi": [
+   {
+    "spomenik": "danilovgrad",
+    "fbGodina": "1963",
+    "zadrzano": "1959",
+    "razlog": "knjiga SUBNOR-a Danilovgrad (2017)"
+   },
+   {
+    "spomenik": "Momišići",
+    "fbGodina": "1976",
+    "zadrzano": "1979",
+    "razlog": "jači izvor, vidi odluku momisici-dopuna"
+   },
+   {
+    "spomenik": "berane (Jasikovac)",
+    "fbGodina": "1972",
+    "zadrzano": "1977",
+    "izvor": "https://berane.me/folic-spomen-kompleks-na-jasikovcu-bi-mogao-biti-proglasen-kulturnim-dobrom/?lang=cir"
+   }
+  ]
+ },
+ {
+  "odluka": "drazevitici-stanje",
+  "datum": "2026-10-18",
+  "id": "drazevitici",
+  "prethodnoStanje": "ostecen",
+  "prethodniStanjeIzvor": {
+   "naziv": "Hrženjak",
+   "godina": 2002,
+   "url": "https://znaci.org/00003/736.php?broj=260"
+  },
+  "novoStanje": null,
+  "dokaz": "Fotografija Branka Radonića sa Twittera pokazuje ceo, održavan spomenik; po izveštaju sa terena grafiti sa ranije fotografije bili su samo jedan dan.",
+  "fotografija": "izvori/fotografije/drazevitici-branko-radonic.jpg"
+ },
+ {
+  "odluka": "prepreke-sa-poznatim-objektom",
+  "datum": "2026-10-18",
+  "zapisi": [
+   {
+    "id": "cazin-kuca-nurije-pozderca",
+    "izvorniZapis": {
+     "naziv": "Kuća Nurije Pozderca",
+     "nazivEn": "House of Nurija Pozderac",
+     "mesto": "Cazin",
+     "adresa": "Ul. Nurije Pozderca",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "muzej",
+     "izvor": "https://www.spomenicinob.info/cazin",
+     "stanje": "ostecen",
+     "kandidati": [
+      {
+       "lat": 44.9642322,
+       "lng": 15.9387986,
+       "izvor": "https://www.openstreetmap.org/node/11936860650",
+       "opis": "Tačno identifikovana memorijalna kuća; zvanični izveštaj 22.1.2026. najavljuje otvaranje muzeja posle završetka uređenja dvorišta. Završeno otvaranje nije potvrđeno; ne predstavljati kao otvoren muzej."
+      }
+     ],
+     "proveraLokacije": {
+      "datum": "2026-10-16",
+      "izvor": "https://ckt.ba/nova-multimedijalna-oprema-za-potrebe-stalnih-muzejskih-zbirki-u-knp/",
+      "ishod": "tačka-poznata-otvaranje-nepotvrđeno"
+     }
+    },
+    "tacka": "OSM kandidat, identifikovana memorijalna kuća"
+   },
+   {
+    "id": "cazin-bista-nurije-pozderca",
+    "izvorniZapis": {
+     "naziv": "Bista Nurije Pozderca",
+     "nazivEn": "Bust of Nurija Pozderac",
+     "mesto": "Cazin",
+     "adresa": "Cazin I elementary school",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "bista",
+     "izvor": "https://www.spomenicinob.info/cazin"
+    },
+    "tacka": "OSM tačka škole Cazin I"
+   },
+   {
+    "id": "cazin-obelisk-u-spomen-na-zbor-i-govor-josipa-broz",
+    "izvorniZapis": {
+     "naziv": "Obelisk u spomen na zbor i govor Josipa Broza Tita 1942. godine",
+     "nazivEn": "Obelisk to commemorate meeting and speech by Josip Broz Tito in 1942",
+     "mesto": "Cazin",
+     "adresa": "Ul. Kulina Bana",
+     "drzava": "Bosnia and Herzegovina",
+     "godina": "1950",
+     "vrsta": "lokalni",
+     "izvor": "https://www.spomenicinob.info/cazin"
+    },
+    "tacka": "OSM tačka ulice Kulina bana"
+   },
+   {
+    "id": "zabljak-spomen-obiljezje-boravku-tita-i-vrhovnog-s",
+    "izvorniZapis": {
+     "mesto": "Žabljak",
+     "izvor": "https://znaci.org/00003/920.pdf#page=354",
+     "naziv": "Spomen-obilježje boravku Tita i Vrhovnog štaba",
+     "vrsta": "lokalni",
+     "drzava": "Montenegro",
+     "adresa": "Obala Crnog jezera, kod Titove pećine",
+     "proveraLokacije": {
+      "datum": "2026-10-16",
+      "izvor": "https://znaci.org/00003/920.pdf#page=354",
+      "ishod": "razdvojeni-objekti-tačka-nepotvrđena",
+      "napomena": "Knjiga odvojeno navodi ploču savjetovanju1942 i obeležje boravku/proboju1943. OSM4313154389 natpisom potvrđuje prvi objekat; sam čvor pećine2424037802 ne potvrđuje tačku obalskog obeležja iz1943. Nijedan nije proizvoljno dodeljen ovoj stavci."
+     }
+    },
+    "tacka": "OSM Titova pećina, obeležje je na obali kod nje"
+   },
+   {
+    "id": "zabljak-spomen-cesma-palim-borcima-pitomina-i-bosa",
+    "izvorniZapis": {
+     "mesto": "Žabljak",
+     "izvor": "https://znaci.org/00003/920.pdf#page=355",
+     "naziv": "Spomen-česma palim borcima Pitomina i Bosače",
+     "vrsta": "lokalni",
+     "drzava": "Montenegro",
+     "adresa": "Crno jezero",
+     "proveraLokacije": {
+      "datum": "2026-10-16",
+      "izvor": "https://www.openstreetmap.org/node/4313066493",
+      "ishod": "kandidat-bez-potvrde-posvete",
+      "napomena": "OSM prepoznaje javnu česmu kao historic=memorial, a knjiga i plan zaštite navode traženu NOB česmu. Natpis ili fotografija nisu potvrdili posvetu upravo ovog čvora; nije automatski prebačeno na mapu."
+     },
+     "kandidati": [
+      {
+       "lat": 43.1492719,
+       "lng": 19.0951306,
+       "izvor": "https://www.openstreetmap.org/node/4313066493",
+       "opis": "Memorijalna česma, bez upisane posvete; pre dodavanja proveriti natpis Pitomine/Bosača."
+      }
+     ]
+    },
+    "tacka": "OSM memorijalna česma bez upisane posvete"
+   }
+  ]
+ },
+ {
+  "odluka": "kuca-nurije-pozderca-stanje",
+  "datum": "2026-10-18",
+  "id": "cazin-kuca-nurije-pozderca",
+  "prethodnoStanje": "ostecen",
+  "novoStanje": null,
+  "dokaz": "Google fotografija prikazuje obnovljenu kuću; vest od 22.1.2026. o pripremi otvaranja memorijalne kuće.",
+  "fotografija": "izvori/fotografije/google-1500789480780310022.jpg"
+ },
+ {
+  "odluka": "hrzenjak-gradovi",
+  "datum": "2026-10-18",
+  "geokodiranje": [
+   {
+    "oznaka": "C-IDX-354-12",
+    "mesto": "Bjelovar",
+    "adresa": "dječji vrtić",
+    "lat": 45.8946334,
+    "lng": 16.8392221,
+    "nacin": "Nominatim: amenity/kindergarten Dječji vrtić Bjelovar, 8A, Trg Antuna Gustava Matoša, Vinkovićevo naselje, Centa"
+   },
+   {
+    "oznaka": "C-IDX-354-19",
+    "mesto": "Bjelovar",
+    "adresa": "OŠ \"Števe Šabi\"",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-354-22",
+    "mesto": "Bjelovar",
+    "adresa": "Sportska dvorana",
+    "lat": null,
+    "nacin": "odbačeno leisure/sports_hall"
+   },
+   {
+    "oznaka": "C-IDX-356-58",
+    "mesto": "Nova Gradiška",
+    "adresa": "centar",
+    "lat": 45.25992,
+    "lng": 17.38269,
+    "nacin": "centar grada po knjizi"
+   },
+   {
+    "oznaka": "C-IDX-357-01",
+    "mesto": "Nova Gradiška",
+    "adresa": "kod zgrade IM T",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-357-02",
+    "mesto": "Nova Gradiška",
+    "adresa": "OS \"Jos p Krajačić • P' kr",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-357-21",
+    "mesto": "Slavonski Brod",
+    "adresa": "centar",
+    "lat": 45.15843,
+    "lng": 18.01256,
+    "nacin": "centar grada po knjizi"
+   },
+   {
+    "oznaka": "C-IDX-357-22",
+    "mesto": "Slavonski Brod",
+    "adresa": "centar",
+    "lat": 45.15843,
+    "lng": 18.01256,
+    "nacin": "centar grada po knjizi"
+   },
+   {
+    "oznaka": "C-IDX-357-23",
+    "mesto": "Slavonski Brod",
+    "adresa": "centar",
+    "lat": 45.15843,
+    "lng": 18.01256,
+    "nacin": "centar grada po knjizi"
+   },
+   {
+    "oznaka": "C-IDX-357-24",
+    "mesto": "Slavonski Brod",
+    "adresa": "centar",
+    "lat": 45.15843,
+    "lng": 18.01256,
+    "nacin": "centar grada po knjizi"
+   },
+   {
+    "oznaka": "C-IDX-357-25",
+    "mesto": "Slavonski Brod",
+    "adresa": "Centar za obrazovanje",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-357-26",
+    "mesto": "Slavonski Brod",
+    "adresa": "dječji vrtić",
+    "lat": 45.1663987,
+    "lng": 18.0366227,
+    "nacin": "Nominatim: amenity/kindergarten Dječji vrtić Kosjenka, bb, Aleja Miroslava Krleže, Naselje Glogovica, Naselje Ma"
+   },
+   {
+    "oznaka": "C-IDX-357-27",
+    "mesto": "Slavonski Brod",
+    "adresa": "dom Đure Matanić",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-357-28",
+    "mesto": "Slavonski Brod",
+    "adresa": "gimnazija",
+    "lat": 45.160388,
+    "lng": 18.0148129,
+    "nacin": "Nominatim: amenity/school Gimnazija \"Matija Mesić\", 8, Naselje Slavonija I, Mjesni odbor Plavo polje, Slav"
+   },
+   {
+    "oznaka": "C-IDX-357-30",
+    "mesto": "Slavonski Brod",
+    "adresa": "novo naselje",
+    "lat": null,
+    "nacin": "odbačeno place/quarter"
+   },
+   {
+    "oznaka": "C-IDX-357-31",
+    "mesto": "Slavonski Brod",
+    "adresa": "OŠ \"ivo Lola Ribar\"",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-357-32",
+    "mesto": "Slavonski Brod",
+    "adresa": "park ispred mjesnog ureda",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-359-35",
+    "mesto": "Pazin",
+    "adresa": "krug vojarne",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-359-37",
+    "mesto": "Pazin",
+    "adresa": "Park Velikana",
+    "lat": 45.2407408,
+    "lng": 13.9370283,
+    "nacin": "Nominatim: leisure/park Park istarskih velikana, Žudeka, Pazin, Grad Pazin, Istarska županija, Hrvatska"
+   },
+   {
+    "oznaka": "C-IDX-359-38",
+    "mesto": "Pazin",
+    "adresa": "Park Velikana",
+    "lat": 45.2407408,
+    "lng": 13.9370283,
+    "nacin": "Nominatim: leisure/park Park istarskih velikana, Žudeka, Pazin, Grad Pazin, Istarska županija, Hrvatska"
+   },
+   {
+    "oznaka": "C-IDX-359-39",
+    "mesto": "Pazin",
+    "adresa": "Park Velikana",
+    "lat": 45.2407408,
+    "lng": 13.9370283,
+    "nacin": "Nominatim: leisure/park Park istarskih velikana, Žudeka, Pazin, Grad Pazin, Istarska županija, Hrvatska"
+   },
+   {
+    "oznaka": "C-IDX-359-41",
+    "mesto": "Pazin",
+    "adresa": "Spomen-dom",
+    "lat": 45.2401741,
+    "lng": 13.9391243,
+    "nacin": "Nominatim: amenity/theatre Spomen dom, Stepenice stražnji ulaz u Spomen dom, Žudeka, Pazin, Grad Pazin, Ist"
+   },
+   {
+    "oznaka": "C-IDX-359-55",
+    "mesto": "Pula",
+    "adresa": "ispred trikotaže \"Arena\"",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-359-56",
+    "mesto": "Pula",
+    "adresa": "Park Velikana",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-360-01",
+    "mesto": "Pula",
+    "adresa": "Veruda",
+    "lat": null,
+    "nacin": "odbačeno place/islet"
+   },
+   {
+    "oznaka": "C-IDX-360-54",
+    "mesto": "Karlovac",
+    "adresa": "bivša škola \"Dragojle Jarnević\"",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-360-55",
+    "mesto": "Karlovac",
+    "adresa": "Debela Kosa",
+    "lat": null,
+    "nacin": "odbačeno natural/peak"
+   },
+   {
+    "oznaka": "C-IDX-361-03",
+    "mesto": "Karlovac",
+    "adresa": "Kraševa ul.",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-361-05",
+    "mesto": "Karlovac",
+    "adresa": "Turanj",
+    "lat": null,
+    "nacin": "odbačeno place/suburb"
+   },
+   {
+    "oznaka": "C-IDX-361-14",
+    "mesto": "Ogulin",
+    "adresa": "Bukovnik",
+    "lat": null,
+    "nacin": "odbačeno waterway/dam"
+   },
+   {
+    "oznaka": "C-IDX-361-15",
+    "mesto": "Ogulin",
+    "adresa": "Galga",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-361-18",
+    "mesto": "Ogulin",
+    "adresa": "Tatina Jama",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-362-24",
+    "mesto": "Đurđevac",
+    "adresa": "park",
+    "lat": 46.0429786,
+    "lng": 17.0614204,
+    "nacin": "Nominatim: leisure/park Park narodnog heroja Slobodana Mitrova – Danka, Brvci, Novo Selo, Đurđevac, Grad"
+   },
+   {
+    "oznaka": "C-IDX-362-36",
+    "mesto": "Koprivnica",
+    "adresa": "kasarna",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-362-42",
+    "mesto": "Koprivnica",
+    "adresa": "logor Danica",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-363-54",
+    "mesto": "Gospić",
+    "adresa": "gimnazija",
+    "lat": 44.5501374,
+    "lng": 15.3773887,
+    "nacin": "Nominatim: amenity/school Gimnazija Gospić, 24, Budačka ulica, Linjaci, Balinovac, Gospić, Grad Gospić, Li"
+   },
+   {
+    "oznaka": "C-IDX-363-56",
+    "mesto": "Gospić",
+    "adresa": "mjesni park",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-363-57",
+    "mesto": "Gospić",
+    "adresa": "OŠ",
+    "lat": null,
+    "nacin": "odbačeno boundary/administrative"
+   },
+   {
+    "oznaka": "C-IDX-363-58",
+    "mesto": "Gospić",
+    "adresa": "OŠ",
+    "lat": null,
+    "nacin": "odbačeno boundary/administrative"
+   },
+   {
+    "oznaka": "C-IDX-364-01",
+    "mesto": "Gospić",
+    "adresa": "OS",
+    "lat": null,
+    "nacin": "odbačeno boundary/administrative"
+   },
+   {
+    "oznaka": "C-IDX-364-02",
+    "mesto": "Gospić",
+    "adresa": "Trg",
+    "lat": 44.5464807,
+    "lng": 15.3754533,
+    "nacin": "Nominatim: leisure/park Trg Alojzija Stepinca, Trupinovac, Gospić, Grad Gospić, Ličko-senjska županija, "
+   },
+   {
+    "oznaka": "C-IDX-365-46",
+    "mesto": "Belišće",
+    "adresa": "Bratstva i Jedinstva",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-366-27",
+    "mesto": "Đakovo",
+    "adresa": "Dom \"Mate Korodva\"",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-366-28",
+    "mesto": "Đakovo",
+    "adresa": "groblje",
+    "lat": null,
+    "nacin": "odbačeno place/suburb"
+   },
+   {
+    "oznaka": "C-IDX-366-29",
+    "mesto": "Đakovo",
+    "adresa": "OS \"Josip Broz Tito\"",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-366-30",
+    "mesto": "Đakovo",
+    "adresa": "spomen-park \"Pobjeda\"",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-367-19",
+    "mesto": "Osijek",
+    "adresa": "\"Sviiana\"",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-367-31",
+    "mesto": "Osijek",
+    "adresa": "gimnazija",
+    "lat": 45.5621175,
+    "lng": 18.6958345,
+    "nacin": "Nominatim: amenity/school Isusovačka klasična gimnazija Osijek, 1, Ulica Matije Petra Katančića, Gradska č"
+   },
+   {
+    "oznaka": "C-IDX-367-35",
+    "mesto": "Osijek",
+    "adresa": "ispred gimnazije",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-367-37",
+    "mesto": "Osijek",
+    "adresa": "kasarna",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-367-38",
+    "mesto": "Osijek",
+    "adresa": "kasarna",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-367-43",
+    "mesto": "Osijek",
+    "adresa": "MZ \"B. Kidrič\"",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-367-45",
+    "mesto": "Osijek",
+    "adresa": "OŠ \"M.Tomljenović\"",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-367-50",
+    "mesto": "Osijek",
+    "adresa": "Pedagoški fak.",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-367-57",
+    "mesto": "Osijek",
+    "adresa": "tvornica \"Mobilia\"",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-368-03",
+    "mesto": "Osijek",
+    "adresa": "ulaz u tvornicu",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-368-04",
+    "mesto": "Osijek",
+    "adresa": "uz Dravu",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-368-08",
+    "mesto": "Osijek",
+    "adresa": "Tenjska cesta",
+    "lat": 45.5293243,
+    "lng": 18.7208399,
+    "nacin": "Nominatim: highway/secondary 4091, Gradska četvrt Novi grad, Mjesni odbor Tenja, Osijek, Grad Osijek, Osječko"
+   },
+   {
+    "oznaka": "C-IDX-368-09",
+    "mesto": "Osijek",
+    "adresa": "Trg V. Nazora",
+    "lat": null,
+    "nacin": "odbačeno place/square"
+   },
+   {
+    "oznaka": "C-IDX-370-55",
+    "mesto": "Požega",
+    "adresa": "OŠ ”N. Demonja”",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-370-57",
+    "mesto": "Požega",
+    "adresa": "Senjak",
+    "lat": 45.3627205,
+    "lng": 17.6867348,
+    "nacin": "Nominatim: historic/prison_camp Logor Senjak, NC16, Mjesni odbor Ratarnica, Požega, Grad Požega, Požeško-slavons"
+   },
+   {
+    "oznaka": "C-IDX-371-03",
+    "mesto": "Požega",
+    "adresa": "tvornica \"R. Končar\"",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-375-09",
+    "mesto": "Sisak",
+    "adresa": "Aleja nar. heroja",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-375-10",
+    "mesto": "Sisak",
+    "adresa": "Moslavačka ul.",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-375-11",
+    "mesto": "Sisak",
+    "adresa": "stadion “Segeste1'",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-375-12",
+    "mesto": "Sisak",
+    "adresa": "Trg slobode",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-379-05",
+    "mesto": "Split",
+    "adresa": "OŠ \"Blatine Škrape”",
+    "lat": null,
+    "nacin": "odbačeno boundary/administrative"
+   },
+   {
+    "oznaka": "C-IDX-379-06",
+    "mesto": "Split",
+    "adresa": "OS “Manuš\"",
+    "lat": null,
+    "nacin": "odbačeno place/neighbourhood"
+   },
+   {
+    "oznaka": "C-IDX-379-07",
+    "mesto": "Split",
+    "adresa": "OŠ \"Marjan\"",
+    "lat": 43.5119279,
+    "lng": 16.4317358,
+    "nacin": "Nominatim: amenity/school Osnovna škola Marjan, 1, Ulica Ljudevita Gaja, Gradski kotar Spinut, Split, Grad"
+   },
+   {
+    "oznaka": "C-IDX-379-08",
+    "mesto": "Split",
+    "adresa": "OŠ \"Meje\"",
+    "lat": null,
+    "nacin": "odbačeno boundary/administrative"
+   },
+   {
+    "oznaka": "C-IDX-379-09",
+    "mesto": "Split",
+    "adresa": "OS \"Skalice\"",
+    "lat": null,
+    "nacin": "odbačeno place/neighbourhood"
+   },
+   {
+    "oznaka": "C-IDX-379-18",
+    "mesto": "Split",
+    "adresa": "tvornica alatnih strojeva",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-380-11",
+    "mesto": "Vrgorac",
+    "adresa": "Curevica - Kotezi",
+    "lat": null,
+    "nacin": "odbačeno place/hamlet"
+   },
+   {
+    "oznaka": "C-IDX-381-39",
+    "mesto": "Novi Marof",
+    "adresa": "Mađarevo",
+    "lat": 46.1628907,
+    "lng": 16.3057612,
+    "nacin": "Nominatim: highway/tertiary Mađarevo, Topolovci, Madžarevo, Grad Novi Marof, Varaždinska županija, 42220, Hr"
+   },
+   {
+    "oznaka": "C-IDX-385-01",
+    "mesto": "Vinkovci",
+    "adresa": "prilaz gradu",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-385-02",
+    "mesto": "Vinkovci",
+    "adresa": "Trg M. Romčevića",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-385-03",
+    "mesto": "Vinkovci",
+    "adresa": "ul. Đure Đakovića",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-385-16",
+    "mesto": "Vukovar",
+    "adresa": "OŠ \"Braća Đorđević\"",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-385-17",
+    "mesto": "Vukovar",
+    "adresa": "OŠ \"I. G. Kovačić\"",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-385-18",
+    "mesto": "Vukovar",
+    "adresa": "predvorje gimnazije",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-386-39",
+    "mesto": "Dugo Selo",
+    "adresa": "vrtić",
+    "lat": 45.7943518,
+    "lng": 16.2500375,
+    "nacin": "Nominatim: amenity/kindergarten Dječji vrtić Didi, područni objekt Suncokret, 67, Ulica Bože Huzanića, Puhovo, G"
+   },
+   {
+    "oznaka": "C-IDX-388-51",
+    "mesto": "Zagreb",
+    "adresa": "Badalićeva 24.",
+    "lat": 45.8028704,
+    "lng": 15.9583382,
+    "nacin": "Nominatim: amenity/kindergarten Dječji vrtić Trešnjevka, 24, Ulica Huga Badalića, Mjesni odbor \"Silvije Strahimi"
+   },
+   {
+    "oznaka": "C-IDX-388-52",
+    "mesto": "Zagreb",
+    "adresa": "Baruna Filipovića",
+    "lat": 45.8113612,
+    "lng": 15.9388712,
+    "nacin": "Nominatim: landuse/residential Prilaz baruna Filipovića - Cankareva - Gradišćanska, Mjesni odbor \"Bartol Kašić\""
+   },
+   {
+    "oznaka": "C-IDX-389-03",
+    "mesto": "Zagreb",
+    "adresa": "Drenovačka b. b.",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-389-13",
+    "mesto": "Zagreb",
+    "adresa": "Horvati",
+    "lat": null,
+    "nacin": "odbačeno boundary/administrative"
+   },
+   {
+    "oznaka": "C-IDX-389-17",
+    "mesto": "Zagreb",
+    "adresa": "Ivanićgradska 24.",
+    "lat": 45.8073006,
+    "lng": 16.0172526,
+    "nacin": "Nominatim: amenity/school Osnovna škola Frana Krste Frankopana, 24, Ivanićgradska ulica, Mjesni odbor Volo"
+   },
+   {
+    "oznaka": "C-IDX-389-29",
+    "mesto": "Zagreb",
+    "adresa": "krešimirov trg",
+    "lat": 45.8075437,
+    "lng": 15.9895543,
+    "nacin": "Nominatim: highway/residential Trg kralja Petra Krešimira IV., Mjesni odbor \"Petar Krešimir IV.\", Gradska četvr"
+   },
+   {
+    "oznaka": "C-IDX-389-30",
+    "mesto": "Zagreb",
+    "adresa": "Krešimirov trg",
+    "lat": 45.8075437,
+    "lng": 15.9895543,
+    "nacin": "Nominatim: highway/residential Trg kralja Petra Krešimira IV., Mjesni odbor \"Petar Krešimir IV.\", Gradska četvr"
+   },
+   {
+    "oznaka": "C-IDX-389-33",
+    "mesto": "Zagreb",
+    "adresa": "Krešimirov trg 2",
+    "lat": 45.8075437,
+    "lng": 15.9895543,
+    "nacin": "Nominatim: highway/residential Trg kralja Petra Krešimira IV., Mjesni odbor \"Petar Krešimir IV.\", Gradska četvr"
+   },
+   {
+    "oznaka": "C-IDX-389-34",
+    "mesto": "Zagreb",
+    "adresa": "Krešimirov trg 2",
+    "lat": 45.8075437,
+    "lng": 15.9895543,
+    "nacin": "Nominatim: highway/residential Trg kralja Petra Krešimira IV., Mjesni odbor \"Petar Krešimir IV.\", Gradska četvr"
+   },
+   {
+    "oznaka": "C-IDX-389-36",
+    "mesto": "Zagreb",
+    "adresa": "Križanovićeva 4",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-389-37",
+    "mesto": "Zagreb",
+    "adresa": "Kršnjavoga 2",
+    "lat": null,
+    "nacin": "odbačeno place/house"
+   },
+   {
+    "oznaka": "C-IDX-389-38",
+    "mesto": "Zagreb",
+    "adresa": "Kulušićeva 16",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-389-44",
+    "mesto": "Zagreb",
+    "adresa": "Laginjina 13",
+    "lat": 45.813031,
+    "lng": 15.9931132,
+    "nacin": "Nominatim: amenity/school Osnovna škola Matka Laginje, 13, Ulica Matka Laginje, Mjesni odbor \"Matko Laginj"
+   },
+   {
+    "oznaka": "C-IDX-389-45",
+    "mesto": "Zagreb",
+    "adresa": "Laščinska 32",
+    "lat": 45.8216073,
+    "lng": 15.9999917,
+    "nacin": "Nominatim: amenity/student_accommodation Studentsko naselje Lašćina, 32, Laščinska cesta, Laščina, Mjesni odbor \"Dinko Ši"
+   },
+   {
+    "oznaka": "C-IDX-389-46",
+    "mesto": "Zagreb",
+    "adresa": "Laurenčićeva b. b.",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-389-47",
+    "mesto": "Zagreb",
+    "adresa": "Lovinčićeva b. b.",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-389-48",
+    "mesto": "Zagreb",
+    "adresa": "Lučko",
+    "lat": null,
+    "nacin": "odbačeno boundary/administrative"
+   },
+   {
+    "oznaka": "C-IDX-389-49",
+    "mesto": "Zagreb",
+    "adresa": "Lučko",
+    "lat": null,
+    "nacin": "odbačeno boundary/administrative"
+   },
+   {
+    "oznaka": "C-IDX-390-03",
+    "mesto": "Zagreb",
+    "adresa": "Nova cesta 133.",
+    "lat": 45.7974018,
+    "lng": 15.9561117,
+    "nacin": "Nominatim: amenity/school Osnovna škola Julija Klovića, 133, Nova cesta, Stara Trešnjevka, Mjesni odbor St"
+   },
+   {
+    "oznaka": "C-IDX-390-07",
+    "mesto": "Zagreb",
+    "adresa": "Opatički trg b. b.",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-390-13",
+    "mesto": "Zagreb",
+    "adresa": "Prosinečkih žrtava 185",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-390-19",
+    "mesto": "Zagreb",
+    "adresa": "Bačkoga 4",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-390-24",
+    "mesto": "Zagreb",
+    "adresa": "Rapska 37",
+    "lat": null,
+    "nacin": "odbačeno place/house"
+   },
+   {
+    "oznaka": "C-IDX-390-25",
+    "mesto": "Zagreb",
+    "adresa": "Rudeška 71",
+    "lat": 45.7977002,
+    "lng": 15.9207439,
+    "nacin": "Nominatim: amenity/kindergarten Dječji vrtić Grigora Viteza, područni objekt Rudeška 71, 71, Rudeška cesta, Mjes"
+   },
+   {
+    "oznaka": "C-IDX-390-26",
+    "mesto": "Zagreb",
+    "adresa": "Runjaninova 4",
+    "lat": 45.8046725,
+    "lng": 15.9691085,
+    "nacin": "Nominatim: amenity/doctors Dom zdravlja Runjaninova, 4, Ulica Josipa Runjanina, Mjesni odbor \"Mimara\", Grad"
+   },
+   {
+    "oznaka": "C-IDX-390-37",
+    "mesto": "Zagreb",
+    "adresa": "frakošćanska 45",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-390-46",
+    "mesto": "Zagreb",
+    "adresa": "tvor. R. Končar",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-390-47",
+    "mesto": "Zagreb",
+    "adresa": "tvornica R. Končar",
+    "lat": null,
+    "nacin": "nije nađeno"
+   },
+   {
+    "oznaka": "C-IDX-390-49",
+    "mesto": "Zagreb",
+    "adresa": "Vinogradska 29",
+    "lat": 45.8160522,
+    "lng": 15.9518756,
+    "nacin": "Nominatim: amenity/hospital Klinički bolnički centar Sestre milosrdnice - Vinogradska, 29, Vinogradska cesta"
+   },
+   {
+    "oznaka": "C-IDX-390-52",
+    "mesto": "Zagreb",
+    "adresa": "Vrapčanska 188.",
+    "lat": 45.8326621,
+    "lng": 15.9046306,
+    "nacin": "Nominatim: amenity/school Osnovna škola Gornje Vrapče, 188, Vrapčanska ulica, Mjesni odbor Gornje Vrapče, "
+   },
+   {
+    "oznaka": "C-IDX-390-53",
+    "mesto": "Zagreb",
+    "adresa": "Vrapčanska 7.",
+    "lat": 45.8139889,
+    "lng": 15.9048852,
+    "nacin": "Nominatim: amenity/school Osnovna škola grofa Janka Draškovića, 7, Vrapčanska ulica, Vrapče, Mjesni odbor "
+   },
+   {
+    "oznaka": "C-IDX-390-55",
+    "mesto": "Zagreb",
+    "adresa": "Vukovarska 18.",
+    "lat": 45.7988296,
+    "lng": 15.9574859,
+    "nacin": "Nominatim: amenity/bicycle_repair_station 18, Ulica grada Vukovara, Mjesni odbor \"Antun Mihanović\", Gradska četvrt Trešnje"
+   },
+   {
+    "oznaka": "C-IDX-390-57",
+    "mesto": "Zagreb",
+    "adresa": "Zajčeva 19",
+    "lat": 45.8204282,
+    "lng": 15.9970433,
+    "nacin": "Nominatim: amenity/hospital Klinička bolnica Merkur, 19, Ulica Ivana Zajca, Laščina, Mjesni odbor \"Dinko Šim"
+   },
+   {
+    "oznaka": "C-IDX-391-03",
+    "mesto": "Zagreb",
+    "adresa": "ZET",
+    "lat": null,
+    "nacin": "odbačeno shop/ticket"
+   },
+   {
+    "oznaka": "C-IDX-391-04",
+    "mesto": "Zagreb",
+    "adresa": "ZET",
+    "lat": null,
+    "nacin": "odbačeno shop/ticket"
+   },
+   {
+    "oznaka": "C-IDX-391-05",
+    "mesto": "Zagreb",
+    "adresa": "ZET",
+    "lat": null,
+    "nacin": "odbačeno shop/ticket"
+   }
+  ],
+  "prebacenoIzSpiska": [
+   {
+    "id": "zagreb-crnomerec-bista-dr-mladena-stojanovica",
+    "izvorniZapis": {
+     "naziv": "Bista dr. Mladena Stojanovića",
+     "mesto": "Zagreb (Črnomerec)",
+     "drzava": "Croatia",
+     "izvor": "https://znaci.org/00003/679.pdf#page=283",
+     "autor": "Sreten Stojanović",
+     "vrsta": "bista",
+     "adresa": "Vinogradska cesta 29"
+    },
+    "tacka": "geokodirana adresa iz Hrženjaka: Vinogradska 29"
+   },
+   {
+    "id": "zagreb-maksimir-bista-dr-ozrena-novosela",
+    "izvorniZapis": {
+     "naziv": "Bista dr. Ozrena Novosela",
+     "mesto": "Zagreb (Maksimir)",
+     "drzava": "Croatia",
+     "izvor": "https://znaci.org/00003/679.pdf#page=289",
+     "godina": "1980",
+     "vrsta": "bista",
+     "adresa": "Zajčeva 19"
+    },
+    "tacka": "geokodirana adresa iz Hrženjaka: Zajčeva 19"
+   },
+   {
+    "id": "zagreb-maksimir-bista-ive-lole-ribara",
+    "izvorniZapis": {
+     "naziv": "Bista Ive Lole Ribara",
+     "mesto": "Zagreb (Maksimir)",
+     "drzava": "Croatia",
+     "izvor": "https://znaci.org/00003/679.pdf#page=291",
+     "godina": "1959",
+     "vrsta": "bista",
+     "adresa": "Laščinska cesta"
+    },
+    "tacka": "geokodirana adresa iz Hrženjaka: Laščinska 32"
+   },
+   {
+    "id": "zagreb-vrapce-bista-pavla-loncarica",
+    "izvorniZapis": {
+     "naziv": "Bista Pavla Lončarića",
+     "mesto": "Zagreb (Vrapče)",
+     "drzava": "Croatia",
+     "izvor": "https://znaci.org/00003/679.pdf#page=317",
+     "vrsta": "bista",
+     "adresa": "Vrapče"
+    },
+    "tacka": "geokodirana adresa iz Hrženjaka: Vrapčanska 7."
+   }
+  ]
+ }
+]

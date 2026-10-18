@@ -119,6 +119,37 @@ test('spomenik dodat u rutu daje Google link', async () => {
   assert.match(link, /^https:\/\/www\.google\.com\/maps\/dir\/\?api=1&destination=\d/)
 })
 
+test('prijava otvara pripremljen mejl, a dopuna uključuje postojeći spomenik', async () => {
+  await otvori()
+  const prijava = "document.querySelector('prijava-spomenika').shadowRoot"
+  await izvrsi(`${prijava}.querySelector('#dugme').click()`)
+  assert.equal(await izvrsi(`${prijava}.querySelector('#panel').hidden`), false)
+  assert.equal(await izvrsi(`${prijava}.querySelector('[href^="mailto:"]')`), null)
+  assert.doesNotMatch(await izvrsi(`${prijava}.innerHTML`), /[^\s]+@[^\s]+\.[a-z]{2,}/)
+  const link = new URL(await izvrsi(`import('./utils/prijava.js').then(m => m.prijavaUrl())`))
+  assert.equal(link.protocol, 'mailto:')
+  assert.match(link.pathname, /^[^@]+@gmail\.com$/)
+  assert.match(link.searchParams.get('body'), /Naziv spomenika \(obavezno\)/)
+  assert.match(link.searchParams.get('body'), /Lokacija.*\(obavezno\)/)
+  assert.match(link.searchParams.get('body'), /Opciono: fotografija, kategorija, opis/)
+  assert.equal(await izvrsi(`${prijava}.querySelector('details').open`), false)
+  await izvrsi(`${prijava}.querySelector('#kopiraj').click()`)
+  const status = await sacekaj(`${prijava}.querySelector('#status').textContent`, 'kopiranje adrese ili ručna zamena')
+  assert.ok(status === 'Adresa je kopirana.' || status === `Kopiraj adresu ručno: ${link.pathname}`)
+  await izvrsi(`${prijava}.querySelector('#zatvori').click()`)
+  assert.equal(await izvrsi(`${prijava}.querySelector('#panel').hidden`), true)
+  assert.equal(await izvrsi(`${prijava}.activeElement.id`), 'dugme')
+  await otvori('#banja-luka-maslesa')
+  const detalji = "document.querySelector('detalji-spomenika').shadowRoot"
+  await sacekaj(`${detalji}.querySelector('#dopuna')`, 'dugme za dopunu')
+  assert.equal(await izvrsi(`${detalji}.querySelector('[href^="mailto:"]')`), null)
+  assert.doesNotMatch(await izvrsi(`${detalji}.innerHTML`), /[^\s]+@gmail\.com/)
+  const dopuna = new URL(await izvrsi(`import('./utils/prijava.js').then(m => m.prijavaUrl(document.querySelector('detalji-spomenika').marker.spomen))`))
+  assert.equal(dopuna.pathname, link.pathname)
+  assert.match(dopuna.searchParams.get('subject'), /Dopuna podataka:.*Masle/)
+  assert.match(dopuna.searchParams.get('body'), /https:\/\/www.google.com\/maps\?q=\d/)
+})
+
 test('bez grešaka u aplikaciji', () => {
   assert.deepEqual(greske, [])
 })
