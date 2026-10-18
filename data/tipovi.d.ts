@@ -56,8 +56,30 @@ export interface Spomenik {
   stanjeIzvor?: {naziv: string, godina: number, url: string}
 }
 
-/** data/ture.json: stanice su ID-jevi iz spomeniks.json, redom obilaska. */
+/** Geografski obuhvat: drzave, gradski pravougaonik ili koridor putovanja. */
+export interface OblastTure {
+  drzave: Drzava[]
+  /** gradska naselja; deo u zagradi u polju mesto ne menja pripadnost gradu */
+  mesta?: string[]
+  /** jug, zapad, sever, istok */
+  granice?: [number, number, number, number]
+  /** putanja koridora, tacke [lat, lng] */
+  putanja?: [number, number][]
+  /** najveca udaljenost od putanje u kilometrima */
+  sirinaKm?: number
+}
+
+/** data/ture.json: definicije bez rucnog spiska stanica. */
+export interface DefinicijaTure {
+  id: string
+  naziv: {sh: string, en: string}
+  oblast: OblastTure
+  wiki?: string
+}
+
+/** Automatski izabrane stanice; prikaz ih rasporedjuje za obilazak. */
 export interface Tura {
+  id: string
   naziv: {sh: string, en: string}
   spomenici: string[]
   /** članak o temi ture, nezavisno od članaka pojedinačnih spomenika */

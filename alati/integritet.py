@@ -48,6 +48,12 @@ POZNATI_BLISKI_PAROVI = {frozenset(par) for par in [
     ('strojice-bista-dusana-rakite', 'strojice-bista-rade-marijanca'),
     ('orasje-bista-cedomira-mikica', 'orasje-spomenik-palim-borcima'),
     ('pazin-bista-joakima-rakovca', 'pazin-bista-save-vukelica'),
+    ('modrica-spomen-kosturnica-partizanskih-boraca', 'modrica-spomenik-oslobodiocima-modrice-1943-godine'),
+    ('lunovo-selo-spomen-cesma', 'lunovo-selo-spomenik-nb'),
+    ('prvic-sepurine-spomenik-minerima', 'prvic-sepurine-spomenik-palim-borcima-i-zrtvama-fa'),
+    ('jasenovac-museum', 'jasenovac-mrtvi-logoras'),
+    ('maoca-spomenik-na-mjestu-smrti-arifa-dervisevica', 'maoca-spomenik-zarobljavanju-768-pripadnika-divizi'),
+    ('srpski-krstur-spomenik-palim-borcima', 'srpski-krstur-spomenik-palim-crvenoarmejcima'),
     # Zasebne skulpture potvrđene fotografijama i OSM-om u žetvi Hronologije 18.10.2026.
     ('bajina-basta', 'bajina-basta-spomenik-palim-borcima'),
     ('uzice-national-museum', 'uzice-spomenik-poginulima-u-fabrici-oruzja'),
@@ -111,10 +117,26 @@ for x in range(len(d)):
         a, b = d[x]['koordinate'], d[y]['koordinate']
         if abs(a['lat'] - b['lat']) < 0.0005 and abs(a['lng'] - b['lng']) < 0.0007 and m(a, b) < 30:
             greske['manje od 30 m'].append((d[x]['id'], d[y]['id'], round(m(a, b))))
-svi = set(ids)
 for t in ture:
-    for i in t['spomenici']:
-        if i not in svi: greske['tura bez spomenika'].append((t['naziv'], i))
+    oblast = t.get('oblast', {})
+    drzave_ture = oblast.get('drzave')
+    if not t.get('id') or not isinstance(drzave_ture, list) or not drzave_ture or not all(x in DRZAVE for x in drzave_ture):
+        greske['tura bez oblasti'].append(t.get('naziv'))
+    if 'spomenici' in t: greske['tura sa rucnim stanicama'].append(t.get('naziv'))
+    mesta_ture = oblast.get('mesta')
+    if mesta_ture is not None and (not isinstance(mesta_ture, list) or not mesta_ture or not all(isinstance(x, str) and x.strip() for x in mesta_ture)):
+        greske['tura: los spisak mesta'].append(t.get('naziv'))
+    granice = oblast.get('granice')
+    if granice is not None and (not isinstance(granice, list) or len(granice) != 4 or not all(isinstance(x, (int, float)) for x in granice)
+                               or not (39 <= granice[0] < granice[2] <= 47.5 and 13 <= granice[1] < granice[3] <= 23.5)):
+        greske['tura: lose granice'].append(t.get('naziv'))
+    putanja = oblast.get('putanja')
+    if putanja is not None and (not isinstance(putanja, list) or len(putanja) < 2 or not all(isinstance(p, list) and len(p) == 2
+        and all(isinstance(x, (int, float)) for x in p) and 39 <= p[0] <= 47.5 and 13 <= p[1] <= 23.5 for p in putanja)
+        or not isinstance(oblast.get('sirinaKm'), (int, float)) or oblast['sirinaKm'] <= 0):
+        greske['tura: los koridor'].append(t.get('naziv'))
+for id, broj in collections.Counter(t.get('id') for t in ture).items():
+    if broj > 1: greske['isti id ture'].append(id)
 slike = {f'slike/spomenici/{f}' for f in os.listdir('slike/spomenici')}
 koriscene = {s.get('slika') for s in d}
 greske['slika koju niko ne koristi'] = sorted(slike - koriscene)

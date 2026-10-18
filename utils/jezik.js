@@ -24,6 +24,8 @@ const jednina = n => n % 10 === 1 && n % 100 !== 11
 const malo = n => [2, 3, 4].includes(n % 10) && ![12, 13, 14].includes(n % 100)
 
 const tekstovi = {
+  pragVaznosti: {sh: 'Prag važnosti', en: 'Importance threshold'},
+  praznaAutomatskaTura: {sh: 'Za ovaj prag važnosti nema spomenika u turi.', en: 'No monuments in this tour at this importance level.'},
   prijavaNaslov: {sh: 'Dodaj spomenik', en: 'Add a monument'},
   prijavaDopuna: {sh: 'Dopuna podataka', en: 'Monument update'},
   dopuniPodatke: {sh: 'Dopuni podatke', en: 'Update details'},

@@ -25,7 +25,7 @@ const sacuvaj = () => {
 export const promeneRute = new EventTarget()
 
 const zameni = nova => {
-  ruta = nova.spomenici.length ? nova : prazna
+  ruta = nova.spomenici.length || nova.turaId ? nova : prazna
   sacuvaj()
   promeneRute.dispatchEvent(new Event('promena'))
 }
@@ -35,17 +35,20 @@ export const dajRutu = () => ruta.spomenici
 export const dajNaziv = () => ruta.naziv
 
 export const dajWiki = () => ruta.wiki
+export const dajTuruId = () => ruta.turaId
 
 // izmena stanica zadrzava ime, jer je to i dalje ista ruta
-export const postaviRutu = spomenici => zameni({...ruta, spomenici})
+export const postaviRutu = spomenici => zameni(spomenici.length ? {...ruta, spomenici} : prazna)
 
-export const izaberiTuru = ({naziv, spomenici, wiki = ''}) => zameni({naziv, spomenici, wiki})
+export const izaberiTuru = ({id, naziv, spomenici, wiki = ''}) => zameni({turaId: id, naziv, spomenici, wiki})
 
 export const uRuti = id => ruta.spomenici.includes(id)
 
-export const dodajURutu = id => postaviRutu([...ruta.spomenici, id])
+const izmeniStanice = spomenici => zameni({...ruta, turaId: undefined, spomenici})
 
-export const ukloniIzRute = id => postaviRutu(ruta.spomenici.filter(x => x !== id))
+export const dodajURutu = id => izmeniStanice([...ruta.spomenici, id])
+
+export const ukloniIzRute = id => izmeniStanice(ruta.spomenici.filter(x => x !== id))
 
 // pomera stanicu za jedno mesto napred (-1) ili nazad (1)
 export const pomeri = (id, smer) => {
@@ -54,5 +57,5 @@ export const pomeri = (id, smer) => {
   if (i < 0 || j < 0 || j >= ruta.spomenici.length) return
   const nova = [...ruta.spomenici]
   ;[nova[i], nova[j]] = [nova[j], nova[i]]
-  postaviRutu(nova)
+  izmeniStanice(nova)
 }

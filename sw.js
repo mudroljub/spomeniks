@@ -38,6 +38,8 @@ const fajlovi = [
   'utils/prijava.js',
   'utils/oznake.js',
   'utils/ruta.js',
+  'utils/ture.js',
+  'utils/vaznost.js',
   'utils/raspored.js',
   'slike/obelisk.png',
   'slike/markeri/priblizno.svg',

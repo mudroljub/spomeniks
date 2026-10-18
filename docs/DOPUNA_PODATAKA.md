@@ -9,13 +9,13 @@ Po korisnikovom nalogu polje `mesto` usklađeno je sa makedonskom ćirilicom u *
 ## Autori
 
 - **Bez članka na Vikipediji** (ne tražiti ponovo bez novog izvora): Ante Kuduz, Belizar Bahorić, Lenko Pleština, Marijan Burger, Mirko Ostoja, Vuko Bombardelli i još desetak autora.
-- **Sporni parovi autor–delo:** Erzelj (Svetinino delo je 2 km od našeg), Repče/Trebnje, Domžale 1975, Kovor, Rečica ob Savinji, Topola, Jesenice 1960, Našice, Grobnica herojev u Ljubljani (Mihevc ili Ravnikar), Kragujevac („Otpora i slobode“, „Crvena zastava“), Raška, Opovo, Đurđevo, Božurnja, Podgradci i Križe.
+- **Sporni parovi autor–delo:** Erzelj (Svetinino delo je 2 km od našeg), Repče/Trebnje, Domžale 1975, Kovor, Rečica ob Savinji, Topola, Jesenice 1960, Našice, Grobnica herojev u Ljubljani (Mihevc ili Ravnikar), Kragujevac („Otpora i slobode“, „Crvena zastava“), Opovo, Đurđevo, Božurnja, Podgradci i Križe.
 - Wikidata dela poznatih autora (oko 150) već su pregledana; nisu dala nova NOB dela.
 
 ## Godine
 
 - Godine sa FB stranice za Danilovgrad (1963), Momišiće (1976) i Jasikovac (1972) nisu preuzete, jer jači izvori potvrđuju 1959, 1979 i 1977.
-- **Hronologija skulpture, 18.10.2026:** Kadinjača razdvojena na piramidu iz 1952. i prikazanu celinu iz 1979; Baljevac na nacrt 1951. i postavljanje 1956. Ispravljene godine Batine (1947), Simićevog salaša (1966), Melenaca (1954) i čuruških Taoca (1985). Zadržani Zlatibor 1967, Novi Kneževac 1964 i Prijepolje 1953 prema jačim izvorima. U Bajinoj Bašti razdvojeni Dušan Jerković (Oto Logo, 1987) i palim borcima NOVJ (Stevan Bodnarov, 1952). **Raška ostaje otvorena:** Hronologija navodi Glida/1955, postojeći zapis Živkovića/1953, a retrospektiva u Lazarevcu Živkovićevog Borca/1959; autor i godina nisu menjani. [Dokazi i promene](../data/provere/skulptura-hronologija-2026-10-18.json).
+- **Hronologija skulpture, 18.10.2026:** Kadinjača razdvojena na piramidu iz 1952. i prikazanu celinu iz 1979; Baljevac na nacrt 1951. i postavljanje 1956. Ispravljene godine Batine (1947), Simićevog salaša (1966), Melenaca (1954) i čuruških Taoca (1985). Po naknadnoj odluci korisnika akademski izvor ima prednost: Zlatibor usklađen na 1962, Novi Kneževac na 1965, Prijepolje na 1954, otkrivanje Janka Čmelika u Staroj Pazovi na 1949 (delo 1948) i postavljanje dedinjskog „Poziva na ustanak“ na 1949 (izvorno delo 1946). Naziv u Starim Banovcima usklađen u „Spomenik palim borcima i žrtvama fašističkog terora“. U Bajinoj Bašti razdvojeni Dušan Jerković (Oto Logo, 1987) i palim borcima NOVJ (Stevan Bodnarov, 1952). **Raška razrešena po izabranom prioritetu izvora:** Nandor Glid, 1955; raniji navodi Živković/1953 i Živković/1959 sačuvani su u istoriji izveštaja. [Dokazi i promene](../data/provere/skulptura-hronologija-2026-10-18.json).
 
 ## Spomen-parkovi
 

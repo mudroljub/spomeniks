@@ -3,10 +3,9 @@ import {mapa} from './mapa.js'
 import {dajOznaku} from '../utils/oznake.js'
 import {izgledMarkera, senka, pribliznaIkonica} from '../utils/ikonice.js'
 import {nazivSpomenika, escapeHtml} from '../utils/helpers.js'
+import {zumVrste} from '../utils/vaznost.js'
 
 const razmeraZuma = {6: 0.5, 7: 0.55, 8: 0.65, 9: 0.8} // ostali zumovi pun obelisk
-// najmanji zum na kome se vrsta vidi: svaki korak zuma dodaje nove vrste, od najvaznijih
-const zumVrste = {istaknut: 0, kompleks: 8, muzej: 8, groblje: 9, spomenik: 9, statua: 10, bista: 10, lokalni: 11, ploca: 12}
 // bista je umetnicko delo kao spomenik, samo je malo manja
 const razmeraVrste = {istaknut: 1.25, kompleks: 1.25, groblje: 1.25, bista: 0.8, lokalni: 0.6, ploca: 0.6}
 

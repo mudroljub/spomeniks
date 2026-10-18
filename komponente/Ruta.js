@@ -4,11 +4,19 @@ import {navigacijaIkonica} from '../utils/ikonice.js'
 import {stilZaglavlja} from '../utils/ui.js'
 import {naziviStanja, nazivSpomenika, malaSlika, navigacijaUrl} from '../utils/helpers.js'
 import {t, jezik} from '../utils/jezik.js'
-import {dajRutu, dajNaziv, dajWiki, postaviRutu, izaberiTuru, ukloniIzRute, pomeri, promeneRute} from '../utils/ruta.js'
+import {dajRutu, dajNaziv, dajWiki, dajTuruId, postaviRutu, izaberiTuru, ukloniIzRute, pomeri, promeneRute} from '../utils/ruta.js'
+import {sastaviTure} from '../utils/ture.js'
+import {vrstePoVaznosti, podrazumevaniPrag, razresiPrag} from '../utils/vaznost.js'
 
 const boja = '#822323'
-const najviseZaGoogle = 10 // odrediste i 9 usputnih tacaka
+const najviseZaGoogle = 10 // ogranicenje jednog Google linka, ne broja stanica u turi
 const siroko = matchMedia('(min-width: 600px)') // ruta i spomenik mogu da stoje jedno pored drugog
+const kljucPraga = 'spomenici-prag-tura'
+const ucitajPrag = () => {
+  try {
+    return razresiPrag(localStorage.getItem(kljucPraga))
+  } catch { return podrazumevaniPrag }
+}
 
 const style = document.createElement('style')
 style.textContent = `
@@ -274,6 +282,36 @@ style.textContent = `
     padding-bottom: var(--dno);
   }
 
+  #vaznost {
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+  }
+
+  #vaznost span {
+    font-size: 14px;
+    flex-shrink: 0;
+  }
+
+  #prag-vaznosti {
+    background: #fffdf8;
+    border: 1px solid #822323;
+    border-radius: 6px;
+    color: #333;
+    font: inherit;
+    min-height: 44px;
+    padding: 8px;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .tura:disabled {
+    color: #777;
+    cursor: default;
+  }
+
 `
 
 const tacka = ({lat, lng}) => `${lat},${lng}`
@@ -293,13 +331,20 @@ const najkraciRedosled = (polaziste, tacke) => {
   const d = (i, j) => j === undefined ? 0 : tacka(i).distanceTo(tacka(j)) // put je otvoren, posle kraja nema deonice
   const ostale = tacke.map((_, i) => i)
   const put = [-1]
+  const cos = Math.cos(polaziste.lat * Math.PI / 180)
+  const pozicije = [polaziste, ...tacke].map(p => [(p.lng - polaziste.lng) * cos, p.lat - polaziste.lat])
   while (ostale.length) {
-    const poslednja = put[put.length - 1]
-    const najbliza = ostale.reduce((a, b) => d(poslednja, b) < d(poslednja, a) ? b : a)
-    put.push(...ostale.splice(ostale.indexOf(najbliza), 1))
+    const [x, y] = pozicije[put[put.length - 1] + 1]
+    let najbliza = 0, najmanje = Infinity
+    for (let i = 0; i < ostale.length; i++) {
+      const [px, py] = pozicije[ostale[i] + 1]
+      const rastojanje = (px - x) ** 2 + (py - y) ** 2
+      if (rastojanje < najmanje) { najmanje = rastojanje; najbliza = i }
+    }
+    put.push(...ostale.splice(najbliza, 1))
   }
 
-  let popravljeno = true
+  let popravljeno = tacke.length <= 100 // velike ture ostaju cele, bez skupe 2-opt obrade
   while (popravljeno) {
     popravljeno = false
     for (let i = 1; i < put.length - 1; i++)
@@ -331,6 +376,7 @@ export default class Ruta extends HTMLElement {
   constructor() {
     super()
     this.stavke = new Map()
+    this.pragVaznosti = ucitajPrag()
     this.linija = L.polyline([], {color: boja, weight: 3, dashArray: '6 8', interactive: false})
     this.brojevi = L.layerGroup().addTo(mapa)
 
@@ -350,6 +396,12 @@ export default class Ruta extends HTMLElement {
         </div>
         <button id="zatvori" title="${t('zatvori')}">×</button>
       </header>
+      <label id="vaznost">
+        <span>${t('pragVaznosti')}</span>
+        <select id="prag-vaznosti">${vrstePoVaznosti.map(vrsta =>
+          `<option value="${vrsta}">${t(vrsta)}</option>`
+        ).join('')}</select>
+      </label>
       <div id="planer" role="tabpanel">
         <p class="uvod" id="prazna">${t('praznaRuta')}</p>
         <p class="alati">
@@ -369,6 +421,13 @@ export default class Ruta extends HTMLElement {
       </div>
     `
     this.lista = this.panel.querySelector('#stanice')
+    const prag = /** @type {HTMLSelectElement} */ (this.panel.querySelector('#prag-vaznosti'))
+    prag.value = String(this.pragVaznosti)
+    prag.addEventListener('change', () => {
+      this.pragVaznosti = prag.value
+      try { localStorage.setItem(kljucPraga, prag.value) } catch { /* izbor vazi dok je stranica otvorena */ }
+      this.osveziTure()
+    })
     this.panel.querySelector('#zatvori').addEventListener('click', () => this.panel.hidden = true)
     this.panel.querySelectorAll('[data-kartica]').forEach(kartica =>
       kartica.addEventListener('click', () => this.prikaziKarticu(kartica.dataset.kartica))
@@ -393,8 +452,16 @@ export default class Ruta extends HTMLElement {
 
   postavi(stavke, ture) {
     this.stavke = new Map(stavke.map(stavka => [stavka.spomenik.id, stavka]))
+    this.definicije = ture
+    this.osveziTure()
+  }
+
+  osveziTure() {
+    const ture = sastaviTure(this.definicije, [...this.stavke.values()].map(s => s.spomenik), this.pragVaznosti)
     const iskorisceneSlike = new Set()
     this.panel.querySelector('#spisak-tura').replaceChildren(...ture.map(tura => this.praviTuru(tura, iskorisceneSlike)))
+    const aktivna = ture.find(tura => tura.id === dajTuruId())
+    if (aktivna) izaberiTuru({...aktivna, spomenici: this.redosledTure(aktivna.spomenici)})
     this.prikazi()
   }
 
@@ -417,6 +484,7 @@ export default class Ruta extends HTMLElement {
   }
 
   osveziKartice() {
+    this.panel.querySelector('#vaznost').hidden = this.kartica === 'planer' && !dajTuruId()
     const broj = this.stanice().length
     this.panel.querySelectorAll('[data-kartica]').forEach(kartica => {
       const izabrana = kartica.dataset.kartica === this.kartica
@@ -445,6 +513,7 @@ export default class Ruta extends HTMLElement {
     ogranicenje.hidden = stanice.length <= najviseZaGoogle
     ogranicenje.textContent = t('ogranicenje', najviseZaGoogle)
     this.panel.querySelector('#prazna').hidden = stanice.length > 0
+    this.panel.querySelector('#prazna').innerHTML = t(dajTuruId() ? 'praznaAutomatskaTura' : 'praznaRuta')
     this.panel.querySelector('#ime-rute').textContent = prevedi(dajNaziv())
     this.panel.querySelector('#naslov-rute').hidden = !dajNaziv()
     const wiki = /** @type {HTMLAnchorElement} */ (this.panel.querySelector('#wiki-rute'))
@@ -484,23 +553,32 @@ export default class Ruta extends HTMLElement {
   }
 
   /** @param {import('../data/tipovi').Tura} tura */
-  praviTuru({naziv, spomenici, wiki}, iskorisceneSlike) {
+  praviTuru({id, naziv, spomenici, wiki}, iskorisceneSlike) {
     const red = document.createElement('li')
     red.innerHTML = '<button class="naziv tura"><span class="tekst"><span class="ime"></span><span class="opis"></span></span></button>'
     const clanovi = spomenici.map(id => this.stavke.get(id)?.spomenik).filter(Boolean)
-    const mesta = clanovi.map(s => s.mesto)
+    const mesta = [...new Set(clanovi.map(s => s.mesto))]
     // fotografija koju ranije ture nisu uzele, da se ture razlikuju na prvi pogled
     const slika = (clanovi.find(s => s.slika && !iskorisceneSlike.has(s.slika)) ?? clanovi.find(s => s.slika))?.slika
     iskorisceneSlike.add(slika)
     if (slika) red.querySelector('.tura').prepend(Object.assign(new Image(), {src: malaSlika(slika), alt: '', loading: 'lazy'}))
     red.querySelector('.ime').textContent = prevedi(naziv)
-    red.querySelector('.opis').textContent = `${t('stanice', mesta.length)}: ${mesta.join(', ')}`
-    red.querySelector('button').addEventListener('click', () => {
-      izaberiTuru({naziv, spomenici: this.usmeri(spomenici), wiki})
+    const opisMesta = mesta.slice(0, 4).join(', ') + (mesta.length > 4 ? '…' : '')
+    red.querySelector('.opis').textContent = t('stanice', clanovi.length) + (opisMesta ? `: ${opisMesta}` : '')
+    const dugme = /** @type {HTMLButtonElement} */ (red.querySelector('button'))
+    dugme.disabled = spomenici.length === 0
+    dugme.addEventListener('click', () => {
+      izaberiTuru({id, naziv, spomenici: this.redosledTure(spomenici), wiki})
       this.prikaziKarticu('planer')
       this.pokaziTuru()
     })
     return red
+  }
+
+  redosledTure(spomenici) {
+    if (spomenici.length < 2) return spomenici
+    const tacke = spomenici.map(id => this.stavke.get(id).marker.dajPoziciju())
+    return this.usmeri([spomenici[0], ...najkraciRedosled(tacke[0], tacke.slice(1)).map(i => spomenici[i + 1])])
   }
 
   // jedini izuzetak od pravila da mapa sama ne menja zum: izabrana tura je obicno van vidnog polja

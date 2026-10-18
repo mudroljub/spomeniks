@@ -14,16 +14,21 @@ live-server
 
 ## TODO
 
-- pri udaljenom zumu ima puno objekata bez tačne lokacije. nalaženje tačne lokacije za njih treba biti prioritet. Redosled po vrsti (u zagradi postojeći / nestali, od 1.060):
-  1. istaknuti (0) i kompleksi (2 / 0): Dom „Đuro Đaković“ u Lušci Palanci i „Omladinska pruga“ u Nemili; nijedan izvor nema tačku
-  2. spomenici (25 / 1) i statue (7 / 0)
-  3. muzeji i spomen-domovi (28 / 0)
-  4. biste (99 / 59)
-  5. groblja i kosturnice (247 / 5)
-  6. lokalni (507 / 80)
+Po prioritetu:
 
-  Unutar grupe prvo postojeći, pa oni sa autorom ili fotografijom; srušeni i uklonjeni na kraju. Partisan Memorials Wiki (`izvori/xiwl/`) je ceo uparen; ostala su 73 slaba para i 100 tačaka koje i wiki procenjuje (odluke.json, priblizno-xiwl-zbirno).
-  - biste: wiki ih vodi samo kao red na stranici sela, sa opisom mesta (škola, dom, groblje); 27 rešeno preko OSM-a i našeg zapisa groblja (odluke.json, priblizno-biste-xiwl-sela). Za ostale sa opisom traži pojedinačno na Google mapama
+1. traka sa slikama treba da se ažurira pri promeni mape i prikazuje samo spomenike sa vidljivog dela mape, po važnosti
+2. u rutama ostaviti mogućnost korisniku da uključi i lokalne spomenike u rutu
+3. umesto labela Pretraga, neka bude Pretraži xxxx spomenika NOB
 
-- traka sa slikama treba da se ažurira pri promeni mape i prikazuje samo spomenike sa vidljivog dela mape, po važnosti
-- po kom kriteriju se dodaju spomenici u ture? npr. u Beograd u NOB?
+## Traženje lokacije
+
+Po važnosti vrste na mapi (`utils/vaznost.js`):
+
+1. kompleksi (7)
+2. muzeji i spomen-domovi (28)
+3. groblja i kosturnice (303)
+4. spomenici (24): detaljna online pretraga za svaku stavku
+5. statue (5): detaljna online pretraga za svaku stavku
+6. biste (159): tražiti pojedinačno na Google mapama
+7. lokalni (912)
+8. ploče (1)

@@ -1,505 +1,1352 @@
 [
   {
+    "id": "belgrade-in-the-peoples-liberation-struggle",
     "naziv": {
       "sh": "Beograd u NOB",
       "en": "Belgrade in the People’s Liberation Struggle"
     },
     "wiki": "https://sh.wikipedia.org/wiki/Beograd_u_Narodnooslobodila%C4%8Dkoj_borbi",
-    "spomenici": [
-      "jajinci",
-      "banjica-concen-camp-museum",
-      "beograd-spomen-park-topovske-supe",
-      "beograd-terazije",
-      "belgrade",
-      "belgrade-cemetery",
-      "beograd-grobnica-narodnih-heroja",
-      "beograd-staro-sajmiste-spomen-ploca-zrtvama-logora"
-    ]
+    "oblast": {
+      "drzave": [
+        "Serbia"
+      ],
+      "granice": [
+        44.67,
+        20.25,
+        44.93,
+        20.63
+      ],
+      "mesta": [
+        "Avala",
+        "Batajnica",
+        "Beograd",
+        "Jajinci",
+        "Zemun"
+      ]
+    }
   },
   {
+    "id": "zagreb-in-the-peoples-liberation-struggle",
     "naziv": {
       "sh": "Zagreb u NOB",
       "en": "Zagreb in the People’s Liberation Struggle"
     },
     "wiki": "https://sh.wikipedia.org/wiki/Zagreb_u_Narodnooslobodila%C4%8Dkoj_borbi",
-    "spomenici": [
-      "zagreb-crnomerec-plamen-revolucije",
-      "park-of-the-righteous",
-      "zagreb-sestre-bakovic",
-      "zagreb-spomen-obiljezje-sabotazi-na-glavnoj-posti",
-      "mirogoj-cemetery-tomb-people-s",
-      "zagreb-spomen-park-dotrscina",
-      "zagreb-december-victims"
-    ]
+    "oblast": {
+      "drzave": [
+        "Croatia"
+      ],
+      "granice": [
+        45.72,
+        15.8,
+        45.91,
+        16.14
+      ],
+      "mesta": [
+        "Zagreb"
+      ]
+    }
   },
   {
+    "id": "banja-luka-in-the-peoples-liberation-struggle",
     "naziv": {
       "sh": "Banjaluka u NOB",
       "en": "Banja Luka in the People’s Liberation Struggle"
     },
     "wiki": "https://sh.wikipedia.org/wiki/Banjaluka_u_Narodnooslobodila%C4%8Dkoj_borbi",
-    "spomenici": [
-      "banja-luka",
-      "banja-luka-cemetery",
-      "banja-luka-cajavec",
-      "banja-luka-biste-heroja",
-      "banja-luka-maslesa"
-    ]
+    "oblast": {
+      "drzave": [
+        "Bosnia and Herzegovina"
+      ],
+      "granice": [
+        44.7,
+        17.12,
+        44.83,
+        17.25
+      ],
+      "mesta": [
+        "Banja Luka",
+        "Banjaluka"
+      ]
+    }
   },
   {
+    "id": "nis-in-the-peoples-liberation-struggle",
     "naziv": {
       "sh": "Niš u NOB",
       "en": "Niš in the People’s Liberation Struggle"
     },
     "wiki": "https://sh.wikipedia.org/wiki/Ni%C5%A1_u_Narodnooslobodila%C4%8Dkoj_borbi",
-    "spomenici": [
-      "nis",
-      "nis-marger",
-      "nis-spomenik-poginulim-crvenoarmejcima",
-      "nis-spomen-grobnica-na-sindjelicevom-trgu",
-      "nis-centar",
-      "red-cross-camp-museum"
-    ]
+    "oblast": {
+      "drzave": [
+        "Serbia"
+      ],
+      "granice": [
+        43.28,
+        21.84,
+        43.37,
+        21.97
+      ],
+      "mesta": [
+        "Niš"
+      ]
+    }
   },
   {
+    "id": "prilep-in-the-peoples-liberation-struggle",
     "naziv": {
       "sh": "Прилеп во НОБ",
       "en": "Prilep in the People’s Liberation Struggle"
     },
     "wiki": "https://sh.wikipedia.org/wiki/Prilep_u_Narodnooslobodila%C4%8Dkoj_borbi",
-    "spomenici": [
-      "prilep",
-      "prilep-bista-rampo-levkov",
-      "prilep-memorijalen-muzej-kuzman-josifoski-pitu",
-      "prilep-carsija-naroden-heroj-kire-gavriloski-jane",
-      "prilep-muzej-11-oktomvri",
-      "prilep-bista-mirce-acev"
-    ]
+    "oblast": {
+      "drzave": [
+        "Macedonia"
+      ],
+      "granice": [
+        41.32,
+        21.5,
+        41.38,
+        21.61
+      ],
+      "mesta": [
+        "Прилеп"
+      ]
+    }
   },
   {
+    "id": "kolasin-in-the-peoples-liberation-struggle",
     "naziv": {
       "sh": "Kolašin u NOB",
       "en": "Kolašin in the People’s Liberation Struggle"
     },
     "wiki": "https://sh.wikipedia.org/wiki/Kola%C5%A1in_u_Narodnooslobodila%C4%8Dkoj_borbi",
-    "spomenici": [
-      "kolasin",
-      "kolasin-spomenik-palim-borcima",
-      "kolasin-spomenik-veljku-vlahovicu"
-    ]
+    "oblast": {
+      "drzave": [
+        "Montenegro"
+      ],
+      "granice": [
+        42.81,
+        19.5,
+        42.84,
+        19.54
+      ],
+      "mesta": [
+        "Kolašin"
+      ]
+    }
   },
   {
+    "id": "foca-in-the-peoples-liberation-struggle",
     "naziv": {
       "sh": "Foča u NOB",
       "en": "Foča in the People’s Liberation Struggle"
     },
     "wiki": "https://sh.wikipedia.org/wiki/Fo%C4%8Da_u_Narodnooslobodila%C4%8Dkoj_borbi",
-    "spomenici": [
-      "musem-of-old-herzegovina",
-      "foca",
-      "foca-spomen-ploca-donosenju-focanskih-propisa"
-    ]
+    "oblast": {
+      "drzave": [
+        "Bosnia and Herzegovina"
+      ],
+      "granice": [
+        43.48,
+        18.75,
+        43.53,
+        18.81
+      ],
+      "mesta": [
+        "Foča"
+      ]
+    }
   },
   {
+    "id": "yugoslavia-the-great-monuments",
     "naziv": {
       "sh": "Jugoslavija: najveći spomenici",
       "en": "Yugoslavia: The great monuments"
     },
-    "spomenici": [
-      "petrova-gora",
-      "podgaric",
-      "jasenovac",
-      "kozara",
-      "jajce",
-      "mostar-partisan-cemetery",
-      "tjentiste",
-      "kadinjaca",
-      "kosmaj",
-      "krusevo-makedonium"
-    ]
+    "oblast": {
+      "drzave": [
+        "Slovenia",
+        "Croatia",
+        "Bosnia and Herzegovina",
+        "Serbia",
+        "Montenegro",
+        "Macedonia",
+        "Kosovo"
+      ]
+    }
   },
   {
+    "id": "yugoslavia-the-adriatic-coast",
     "naziv": {
       "sh": "Jugoslavija: jadranska obala",
       "en": "Yugoslavia: The Adriatic coast"
     },
-    "spomenici": [
-      "plovanija",
-      "crni-kal",
-      "podhum",
-      "vodice",
-      "split-lighthouse",
-      "makarska",
-      "podgora",
-      "zaostrog",
-      "ulcinj-freedom"
-    ]
+    "oblast": {
+      "drzave": [
+        "Croatia",
+        "Montenegro",
+        "Slovenia"
+      ],
+      "granice": [
+        41.8940193,
+        13.5952944,
+        45.5833031,
+        19.245786
+      ],
+      "putanja": [
+        [
+          45.4507512,
+          13.6352944
+        ],
+        [
+          45.5533031,
+          13.8725847
+        ],
+        [
+          45.3755102,
+          14.4971175
+        ],
+        [
+          43.7558913,
+          15.7738407
+        ],
+        [
+          43.5009476,
+          16.4431424
+        ],
+        [
+          43.2960122,
+          17.0162802
+        ],
+        [
+          43.2456812,
+          17.0706593
+        ],
+        [
+          43.1394507,
+          17.2783144
+        ],
+        [
+          41.9240193,
+          19.205786
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "croatia-and-bosnia-banija-jasenovac-and-kozara",
     "naziv": {
       "sh": "Hrvatska i Bosna: Banija, Jasenovac i Kozara",
       "en": "Croatia and Bosnia: Banija, Jasenovac and Kozara"
     },
-    "spomenici": [
-      "kozara",
-      "gornji-jelovac",
-      "gligino-brdo",
-      "slabinja",
-      "jasenovac",
-      "podgaric",
-      "sisak",
-      "petrova-gora"
-    ]
+    "oblast": {
+      "drzave": [
+        "Bosnia and Herzegovina",
+        "Croatia"
+      ],
+      "granice": [
+        44.983823,
+        15.7650141,
+        45.6708102,
+        16.9683735
+      ],
+      "putanja": [
+        [
+          45.013823,
+          16.9091588
+        ],
+        [
+          45.0636376,
+          16.7073138
+        ],
+        [
+          45.1422364,
+          16.496403
+        ],
+        [
+          45.2102187,
+          16.6693402
+        ],
+        [
+          45.2802822,
+          16.9283735
+        ],
+        [
+          45.6408102,
+          16.7777745
+        ],
+        [
+          45.5025796,
+          16.4583252
+        ],
+        [
+          45.3161205,
+          15.8050141
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "croatia-and-bosnia-kordun-lika-and-grmec",
     "naziv": {
       "sh": "Hrvatska i Bosna: Kordun, Lika i Grmeč",
       "en": "Croatia and Bosnia: Kordun, Lika and Grmeč"
     },
-    "spomenici": [
-      "petrova-gora",
-      "bihac-garavice-park",
-      "korenica",
-      "vrtoce",
-      "grmec",
-      "medeno-polje",
-      "drvar",
-      "knin"
-    ]
+    "oblast": {
+      "drzave": [
+        "Bosnia and Herzegovina",
+        "Croatia"
+      ],
+      "granice": [
+        44.0087415,
+        15.7650141,
+        45.3461205,
+        16.477622
+      ],
+      "putanja": [
+        [
+          45.3161205,
+          15.8050141
+        ],
+        [
+          44.8220488,
+          15.8400794
+        ],
+        [
+          44.6740039,
+          15.8485567
+        ],
+        [
+          44.6356077,
+          16.1783868
+        ],
+        [
+          44.6872816,
+          16.437622
+        ],
+        [
+          44.5718275,
+          16.2897159
+        ],
+        [
+          44.3741222,
+          16.3830429
+        ],
+        [
+          44.0387415,
+          16.1906677
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "croatia-and-serbia-slavonia-and-srem",
     "naziv": {
       "sh": "Hrvatska i Srbija: Slavonija i Srem",
       "en": "Croatia and Serbia: Slavonia and Srem"
     },
-    "spomenici": [
-      "donji-miholjac",
-      "batina",
-      "vukovar",
-      "sremska-mitrovitca",
-      "novi-sad",
-      "cenej"
-    ]
+    "oblast": {
+      "drzave": [
+        "Croatia",
+        "Serbia"
+      ],
+      "granice": [
+        44.9469577,
+        18.1216309,
+        45.8846197,
+        19.8958859
+      ],
+      "putanja": [
+        [
+          45.7619352,
+          18.1616309
+        ],
+        [
+          45.8546197,
+          18.8493765
+        ],
+        [
+          45.3302149,
+          19.0173497
+        ],
+        [
+          44.9769577,
+          19.6032793
+        ],
+        [
+          45.2522006,
+          19.8558859
+        ],
+        [
+          45.3231541,
+          19.8291041
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "serbia-and-bosnia-along-the-drina",
     "naziv": {
       "sh": "Srbija i Bosna: duž Drine",
       "en": "Serbia and Bosnia: Along the Drina"
     },
-    "spomenici": [
-      "zlatibor",
-      "kadinjaca",
-      "bratunac",
-      "brstica",
-      "bela-crkva-start-uprising",
-      "draginac"
-    ]
+    "oblast": {
+      "drzave": [
+        "Bosnia and Herzegovina",
+        "Serbia"
+      ],
+      "granice": [
+        43.6811887,
+        19.28149,
+        44.5347834,
+        19.7827949
+      ],
+      "putanja": [
+        [
+          43.7111887,
+          19.711964
+        ],
+        [
+          43.911978,
+          19.7427949
+        ],
+        [
+          44.1841135,
+          19.3286994
+        ],
+        [
+          44.4034215,
+          19.32149
+        ],
+        [
+          44.3938865,
+          19.4789676
+        ],
+        [
+          44.5047834,
+          19.4159389
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "bosnia-and-montenegro-sutjeska-and-niksic",
     "naziv": {
       "sh": "Bosna i Crna Gora: Sutjeska i Nikšić",
       "en": "Bosnia and Montenegro: Sutjeska and Nikšić"
     },
-    "spomenici": [
-      "tjentiste",
-      "dola",
-      "grahovo",
-      "niksic-fallen-fighters",
-      "zupa-niksicka",
-      "obadov-brijeg",
-      "podgorica-mausoleum-partisans",
-      "kolasin"
-    ]
+    "oblast": {
+      "drzave": [
+        "Bosnia and Herzegovina",
+        "Montenegro"
+      ],
+      "granice": [
+        42.4195966,
+        18.6321317,
+        43.376054,
+        19.5587545
+      ],
+      "putanja": [
+        [
+          43.346054,
+          18.6867949
+        ],
+        [
+          43.0584276,
+          18.8359526
+        ],
+        [
+          42.6508527,
+          18.6721317
+        ],
+        [
+          42.7630807,
+          18.9596103
+        ],
+        [
+          42.7322524,
+          19.0831447
+        ],
+        [
+          42.5804568,
+          19.0535186
+        ],
+        [
+          42.4495966,
+          19.2660353
+        ],
+        [
+          42.8242248,
+          19.5187545
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "serbia-kosovo-and-macedonia-nis-to-skopje",
     "naziv": {
       "sh": "Srbija, Kosovo i Makedonija: od Niša do Skoplja",
       "en": "Serbia, Kosovo and Macedonia: Niš to Skopje"
     },
-    "spomenici": [
-      "nis",
-      "vlasotince",
-      "leskovac",
-      "pristina-prishtine-brotherhood-unity",
-      "velanija-velanije",
-      "brezovica-brezovice",
-      "skopje-women-fighters"
-    ]
+    "oblast": {
+      "drzave": [
+        "Kosovo",
+        "Macedonia",
+        "Serbia"
+      ],
+      "granice": [
+        41.963656,
+        20.9571793,
+        43.3350082,
+        22.172786
+      ],
+      "putanja": [
+        [
+          43.3050082,
+          21.8727616
+        ],
+        [
+          42.9628693,
+          22.132786
+        ],
+        [
+          42.983052,
+          21.9428136
+        ],
+        [
+          42.6656729,
+          21.1642906
+        ],
+        [
+          42.6587886,
+          21.1754461
+        ],
+        [
+          42.220011,
+          20.9971793
+        ],
+        [
+          41.993656,
+          21.4340762
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "slovenia",
     "naziv": {
       "sh": "Slovenija",
       "en": "Slovenia"
     },
-    "spomenici": [
-      "maribor-maribor-liberation",
-      "tito-square-in-velenje",
-      "mirna",
-      "zuzemberk",
-      "crnomelj",
-      "ilirska-bistrica",
-      "crni-kal",
-      "ljubljana",
-      "drazgose",
-      "begunje"
-    ]
+    "oblast": {
+      "drzave": [
+        "Slovenia"
+      ]
+    }
   },
   {
+    "id": "croatia-zagreb-and-zagorje",
     "naziv": {
       "sh": "Hrvatska: Zagreb i Zagorje",
       "en": "Croatia: Zagreb and Zagorje"
     },
-    "spomenici": [
-      "pleso",
-      "zagreb-december-victims",
-      "dotrscina",
-      "kumrovec",
-      "lepoglava",
-      "koprivnica"
-    ]
+    "oblast": {
+      "drzave": [
+        "Croatia"
+      ],
+      "granice": [
+        45.7009966,
+        15.645623,
+        46.2468439,
+        16.8838964
+      ],
+      "putanja": [
+        [
+          45.7309966,
+          16.0648061
+        ],
+        [
+          45.8252805,
+          16.0380558
+        ],
+        [
+          45.8428194,
+          16.027771
+        ],
+        [
+          46.0771792,
+          15.685623
+        ],
+        [
+          46.2168439,
+          16.0294372
+        ],
+        [
+          46.1863511,
+          16.8438964
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "croatia-banija-kordun-and-moslavina",
     "naziv": {
       "sh": "Hrvatska: Banija, Kordun i Moslavina",
       "en": "Croatia: Banija, Kordun and Moslavina"
     },
-    "spomenici": [
-      "slabinja",
-      "jasenovac",
-      "podgaric",
-      "sisak",
-      "petrova-gora"
-    ]
+    "oblast": {
+      "drzave": [
+        "Croatia"
+      ],
+      "granice": [
+        45.1802187,
+        15.7650141,
+        45.6708102,
+        16.9683735
+      ],
+      "putanja": [
+        [
+          45.2102187,
+          16.6693402
+        ],
+        [
+          45.2802822,
+          16.9283735
+        ],
+        [
+          45.6408102,
+          16.7777745
+        ],
+        [
+          45.5025796,
+          16.4583252
+        ],
+        [
+          45.3161205,
+          15.8050141
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "croatia-istria-and-kvarner",
     "naziv": {
       "sh": "Hrvatska: Istra i Kvarner",
       "en": "Croatia: Istria and Kvarner"
     },
-    "spomenici": [
-      "plovanija",
-      "podhum",
-      "lukovdol"
-    ]
+    "oblast": {
+      "drzave": [
+        "Croatia"
+      ],
+      "granice": [
+        45.3455102,
+        13.5952944,
+        45.4807512,
+        15.1663432
+      ],
+      "putanja": [
+        [
+          45.4507512,
+          13.6352944
+        ],
+        [
+          45.3755102,
+          14.4971175
+        ],
+        [
+          45.4291658,
+          15.1263432
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "slavonia-in-the-peoples-liberation-struggle",
     "naziv": {
       "sh": "Slavonija u NOB",
       "en": "Slavonia in the People’s Liberation Struggle"
     },
     "wiki": "https://sh.wikipedia.org/wiki/Slavonija_u_Narodnooslobodila%C4%8Dkoj_borbi",
-    "spomenici": [
-      "pakrac",
-      "sirac-spomenik-borcima-nor-a",
-      "daruvar",
-      "virovitica",
-      "vocin-spomenik-palim-borcima",
-      "donji-miholjac",
-      "osijek-mother-with-child"
-    ]
+    "oblast": {
+      "drzave": [
+        "Croatia"
+      ],
+      "granice": [
+        45.4051503,
+        17.1543862,
+        45.8597,
+        18.7231902
+      ],
+      "putanja": [
+        [
+          45.4351503,
+          17.1943862
+        ],
+        [
+          45.5274388,
+          17.2575422
+        ],
+        [
+          45.5950318,
+          17.2203185
+        ],
+        [
+          45.8297,
+          17.3687433
+        ],
+        [
+          45.6189155,
+          17.5432428
+        ],
+        [
+          45.7619352,
+          18.1616309
+        ],
+        [
+          45.5577132,
+          18.6831902
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "croatia-dalmatia",
     "naziv": {
       "sh": "Hrvatska: Dalmacija",
       "en": "Croatia: Dalmatia"
     },
-    "spomenici": [
-      "vodice",
-      "knin",
-      "sinj",
-      "kosute",
-      "split-lighthouse",
-      "makarska",
-      "podgora",
-      "zaostrog"
-    ],
-    "wiki": "https://sh.wikipedia.org/wiki/Dalmacija_u_Narodnooslobodila%C4%8Dkoj_borbi"
+    "wiki": "https://sh.wikipedia.org/wiki/Dalmacija_u_Narodnooslobodila%C4%8Dkoj_borbi",
+    "oblast": {
+      "drzave": [
+        "Croatia"
+      ],
+      "granice": [
+        43.1094507,
+        15.7338407,
+        44.0687415,
+        17.3183144
+      ],
+      "putanja": [
+        [
+          43.7558913,
+          15.7738407
+        ],
+        [
+          44.0387415,
+          16.1906677
+        ],
+        [
+          43.6983654,
+          16.6253321
+        ],
+        [
+          43.6277876,
+          16.691653
+        ],
+        [
+          43.5009476,
+          16.4431424
+        ],
+        [
+          43.2960122,
+          17.0162802
+        ],
+        [
+          43.2456812,
+          17.0706593
+        ],
+        [
+          43.1394507,
+          17.2783144
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "bosnia-and-herzegovina-kozara-and-banja-luka",
     "naziv": {
       "sh": "Bosna i Hercegovina: Kozara i Banja Luka",
       "en": "Bosnia and Herzegovina: Kozara and Banja Luka"
     },
-    "spomenici": [
-      "gligino-brdo",
-      "gornji-jelovac",
-      "kozara",
-      "sanski-most",
-      "banja-luka",
-      "jajce"
-    ]
+    "oblast": {
+      "drzave": [
+        "Bosnia and Herzegovina"
+      ],
+      "granice": [
+        44.3082408,
+        16.456403,
+        45.1722364,
+        17.3080898
+      ],
+      "putanja": [
+        [
+          45.1422364,
+          16.496403
+        ],
+        [
+          45.0636376,
+          16.7073138
+        ],
+        [
+          45.013823,
+          16.9091588
+        ],
+        [
+          44.7622346,
+          16.6838434
+        ],
+        [
+          44.7439106,
+          17.1629749
+        ],
+        [
+          44.3382408,
+          17.2680898
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "bosnia-and-herzegovina-grmec-and-bihac",
     "naziv": {
       "sh": "Bosna i Hercegovina: Grmeč i Bihać",
       "en": "Bosnia and Herzegovina: Grmeč and Bihać"
     },
-    "spomenici": [
-      "glamoc",
-      "drvar",
-      "bravsko",
-      "grmec",
-      "medeno-polje",
-      "vodjenica",
-      "vrtoce",
-      "jasenica",
-      "bihac-garavice-park"
-    ]
+    "oblast": {
+      "drzave": [
+        "Bosnia and Herzegovina"
+      ],
+      "granice": [
+        44.0423075,
+        15.8000794,
+        44.8520488,
+        16.8605547
+      ],
+      "putanja": [
+        [
+          44.0723075,
+          16.8205547
+        ],
+        [
+          44.3741222,
+          16.3830429
+        ],
+        [
+          44.5489869,
+          16.5818221
+        ],
+        [
+          44.6872816,
+          16.437622
+        ],
+        [
+          44.5718275,
+          16.2897159
+        ],
+        [
+          44.63425,
+          16.2744444
+        ],
+        [
+          44.6356077,
+          16.1783868
+        ],
+        [
+          44.8031064,
+          16.2583129
+        ],
+        [
+          44.8220488,
+          15.8400794
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "bosnia-and-herzegovina-sarajevo-sutjeska-and-mostar",
     "naziv": {
       "sh": "Bosna i Hercegovina: Sarajevo, Sutjeska i Mostar",
       "en": "Bosnia and Herzegovina: Sarajevo, Sutjeska and Mostar"
     },
-    "spomenici": [
-      "tjentiste",
-      "sarajevo-vraca-park",
-      "vogosca",
-      "zenica",
-      "novi-travnik",
-      "makljen",
-      "mostar-partisan-cemetery"
-    ]
+    "oblast": {
+      "drzave": [
+        "Bosnia and Herzegovina"
+      ],
+      "granice": [
+        43.3112236,
+        17.5570958,
+        44.2747763,
+        18.7267949
+      ],
+      "putanja": [
+        [
+          43.346054,
+          18.6867949
+        ],
+        [
+          43.8445717,
+          18.3995365
+        ],
+        [
+          43.8994066,
+          18.3500198
+        ],
+        [
+          44.2447763,
+          17.9596922
+        ],
+        [
+          44.1963416,
+          17.6910167
+        ],
+        [
+          43.8426414,
+          17.5970958
+        ],
+        [
+          43.3412236,
+          17.7962794
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "serbia-vojvodina",
     "naziv": {
       "sh": "Srbija: Vojvodina",
       "en": "Serbia: Vojvodina"
     },
-    "spomenici": [
-      "sremska-mitrovitca",
-      "novi-sad",
-      "cenej",
-      "ada",
-      "kikinda-victims-fascism",
-      "zrenjanin",
-      "titel",
-      "jabuka"
-    ],
-    "wiki": "https://sh.wikipedia.org/wiki/Narodnooslobodila%C4%8Dka_borba_u_Vojvodini"
+    "wiki": "https://sh.wikipedia.org/wiki/Narodnooslobodila%C4%8Dka_borba_u_Vojvodini",
+    "oblast": {
+      "drzave": [
+        "Serbia"
+      ],
+      "granice": [
+        44.8986707,
+        19.5632793,
+        45.860997,
+        20.6737486
+      ],
+      "putanja": [
+        [
+          44.9769577,
+          19.6032793
+        ],
+        [
+          45.2522006,
+          19.8558859
+        ],
+        [
+          45.3231541,
+          19.8291041
+        ],
+        [
+          45.7964273,
+          20.1347197
+        ],
+        [
+          45.830997,
+          20.4652601
+        ],
+        [
+          45.3687109,
+          20.369073
+        ],
+        [
+          45.2051346,
+          20.3119151
+        ],
+        [
+          44.9286707,
+          20.6337486
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "serbia-belgrade-and-sumadija",
     "naziv": {
       "sh": "Srbija: Beograd i Šumadija",
       "en": "Serbia: Belgrade and Šumadija"
     },
-    "spomenici": [
-      "belgrade-cemetery",
-      "jajinci",
-      "avala",
-      "kosmaj",
-      "kragujevac-sumarice-park",
-      "ostra"
-    ]
+    "oblast": {
+      "drzave": [
+        "Serbia"
+      ],
+      "granice": [
+        43.8814755,
+        20.4454272,
+        44.8417759,
+        20.9259093
+      ],
+      "putanja": [
+        [
+          44.8117759,
+          20.4854272
+        ],
+        [
+          44.7312101,
+          20.4888712
+        ],
+        [
+          44.6887928,
+          20.5140309
+        ],
+        [
+          44.46785,
+          20.57176
+        ],
+        [
+          44.0159875,
+          20.8859093
+        ],
+        [
+          43.9114755,
+          20.5166155
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "serbia-western-serbia",
     "naziv": {
       "sh": "Srbija: zapadna Srbija",
       "en": "Serbia: Western Serbia"
     },
-    "spomenici": [
-      "draginac",
-      "brstica",
-      "bela-crkva-start-uprising",
-      "kadinjaca",
-      "zlatibor",
-      "cacak"
-    ]
+    "oblast": {
+      "drzave": [
+        "Serbia"
+      ],
+      "granice": [
+        43.6811887,
+        19.28149,
+        44.5347834,
+        20.3747961
+      ],
+      "putanja": [
+        [
+          44.5047834,
+          19.4159389
+        ],
+        [
+          44.4034215,
+          19.32149
+        ],
+        [
+          44.3938865,
+          19.4789676
+        ],
+        [
+          43.911978,
+          19.7427949
+        ],
+        [
+          43.7111887,
+          19.711964
+        ],
+        [
+          43.87632,
+          20.3347961
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "serbia-eastern-serbia",
     "naziv": {
       "sh": "Srbija: istočna Srbija",
       "en": "Serbia: Eastern Serbia"
     },
-    "spomenici": [
-      "pozarevac",
-      "majdanpek",
-      "zajecar"
-    ]
+    "oblast": {
+      "drzave": [
+        "Serbia"
+      ],
+      "granice": [
+        43.8592295,
+        21.1637306,
+        44.6436978,
+        22.3048425
+      ],
+      "putanja": [
+        [
+          44.6136978,
+          21.2037306
+        ],
+        [
+          44.428648,
+          21.9429198
+        ],
+        [
+          43.8892295,
+          22.2648425
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "serbia-central-and-southern-serbia",
     "naziv": {
       "sh": "Srbija: centralna i južna Srbija",
       "en": "Serbia: Central and Southern Serbia"
     },
-    "spomenici": [
-      "brzece",
-      "kraljevo-park-14th-october",
-      "popina",
-      "krusevac",
-      "nis",
-      "leskovac",
-      "vlasotince"
-    ]
+    "oblast": {
+      "drzave": [
+        "Serbia"
+      ],
+      "granice": [
+        42.9328693,
+        20.6518333,
+        43.7605096,
+        22.172786
+      ],
+      "putanja": [
+        [
+          43.2774711,
+          20.8753114
+        ],
+        [
+          43.7305096,
+          20.6918333
+        ],
+        [
+          43.6302335,
+          20.9581994
+        ],
+        [
+          43.5621255,
+          21.3295163
+        ],
+        [
+          43.3050082,
+          21.8727616
+        ],
+        [
+          42.983052,
+          21.9428136
+        ],
+        [
+          42.9628693,
+          22.132786
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "kosovo",
     "naziv": {
       "sh": "Kosovo",
       "en": "Kosovo"
     },
-    "spomenici": [
-      "mitrovica-mitrovice",
-      "pristina-prishtine-brotherhood-unity",
-      "velanija-velanije",
-      "brezovica-brezovice"
-    ],
-    "wiki": "https://sh.wikipedia.org/wiki/Kosovo_i_Metohija_u_Narodnooslobodila%C4%8Dkoj_borbi"
+    "wiki": "https://sh.wikipedia.org/wiki/Kosovo_i_Metohija_u_Narodnooslobodila%C4%8Dkoj_borbi",
+    "oblast": {
+      "drzave": [
+        "Kosovo"
+      ]
+    }
   },
   {
+    "id": "montenegro-north",
     "naziv": {
       "sh": "Crna Gora: sever",
       "en": "Montenegro: North"
     },
-    "spomenici": [
-      "dola",
-      "grahovo",
-      "niksic-fallen-fighters",
-      "zupa-niksicka",
-      "obadov-brijeg",
-      "kolasin",
-      "andrijevica",
-      "berane"
-    ]
+    "oblast": {
+      "drzave": [
+        "Montenegro"
+      ],
+      "granice": [
+        42.5504568,
+        18.6321317,
+        43.0884276,
+        19.920192
+      ],
+      "putanja": [
+        [
+          43.0584276,
+          18.8359526
+        ],
+        [
+          42.6508527,
+          18.6721317
+        ],
+        [
+          42.7630807,
+          18.9596103
+        ],
+        [
+          42.7322524,
+          19.0831447
+        ],
+        [
+          42.5804568,
+          19.0535186
+        ],
+        [
+          42.8242248,
+          19.5187545
+        ],
+        [
+          42.7375046,
+          19.787227
+        ],
+        [
+          42.8503457,
+          19.880192
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "montenegro-podgorica-and-the-coast",
     "naziv": {
       "sh": "Crna Gora: Podgorica i primorje",
       "en": "Montenegro: Podgorica and the coast"
     },
-    "spomenici": [
-      "vranjske-njive",
-      "podgorica-mausoleum-partisans",
-      "barutana",
-      "golubovci",
-      "ulcinj-freedom"
-    ]
+    "oblast": {
+      "drzave": [
+        "Montenegro"
+      ],
+      "granice": [
+        41.8940193,
+        19.101744,
+        42.5188721,
+        19.3060353
+      ],
+      "putanja": [
+        [
+          42.4888721,
+          19.2244337
+        ],
+        [
+          42.4495966,
+          19.2660353
+        ],
+        [
+          42.3938116,
+          19.141744
+        ],
+        [
+          42.3266653,
+          19.2199706
+        ],
+        [
+          41.9240193,
+          19.205786
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "macedonia-west",
     "naziv": {
       "sh": "Makedonija: zapad",
       "en": "Macedonia: West"
     },
-    "spomenici": [
-      "skopje-women-fighters",
-      "prilep",
-      "krusevo-makedonium",
-      "botun",
-      "struga",
-      "otesevo"
-    ]
+    "oblast": {
+      "drzave": [
+        "Macedonia"
+      ],
+      "granice": [
+        40.9466278,
+        20.6395784,
+        42.023656,
+        21.5945342
+      ],
+      "putanja": [
+        [
+          41.993656,
+          21.4340762
+        ],
+        [
+          41.3343038,
+          21.5545342
+        ],
+        [
+          41.3773707,
+          21.2483877
+        ],
+        [
+          41.2786512,
+          20.7836303
+        ],
+        [
+          41.1776435,
+          20.6795784
+        ],
+        [
+          40.9766278,
+          20.9130375
+        ]
+      ],
+      "sirinaKm": 20
+    }
   },
   {
+    "id": "macedonia-east",
     "naziv": {
       "sh": "Makedonija: istok",
       "en": "Macedonia: East"
     },
-    "spomenici": [
-      "mitrasinci",
-      "kocani",
-      "stip-partisan-s-necropolis",
-      "veles",
-      "kavadarci-ossuary-fallen-fighters",
-      "gevgelija"
-    ]
+    "oblast": {
+      "drzave": [
+        "Macedonia"
+      ],
+      "granice": [
+        41.128171,
+        21.7493221,
+        41.9488885,
+        22.7927013
+      ],
+      "putanja": [
+        [
+          41.7778388,
+          22.7527013
+        ],
+        [
+          41.9188885,
+          22.4070296
+        ],
+        [
+          41.7385003,
+          22.1987967
+        ],
+        [
+          41.7233705,
+          21.7893221
+        ],
+        [
+          41.4326187,
+          22.0228685
+        ],
+        [
+          41.158171,
+          22.5005876
+        ]
+      ],
+      "sirinaKm": 20
+    }
   }
 ]

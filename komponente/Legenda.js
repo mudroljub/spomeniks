@@ -2,6 +2,7 @@
 import {mapa} from '../klase/mapa.js'
 import {t} from '../utils/jezik.js'
 import {izgledMarkera, senka, pribliznaIkonica} from '../utils/ikonice.js'
+import {vrstePoVaznosti} from '../utils/vaznost.js'
 
 const boja = '#822323'
 
@@ -163,7 +164,7 @@ const visineIkona = {istaknut: 44, statua: 33, bista: 28, lokalni: 24, groblje: 
 
 const vrsta = type => stavka(izgledMarkera({vrsta: type}), visineIkona[type] || 34, t(type + 'Jednina'))
 
-const vrste = ['istaknut', 'spomenik', 'lokalni', 'kompleks', 'groblje', 'muzej', 'statua', 'bista', 'ploca'].map(vrsta).join('')
+const vrste = vrstePoVaznosti.map(vrsta).join('')
 
 const grupa = ([naslov, stavke]) => `<div><h3>${naslov}</h3><div class="stavke">${stavke}</div></div>`
 
