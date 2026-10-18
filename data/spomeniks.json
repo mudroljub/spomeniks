@@ -7661,11 +7661,13 @@
       "lng": 19.3356652
     },
     "mesto": "Bosanska Rača",
+    "izvor": "https://www.spomenicinob.info/bijeljina",
     "slika": "slike/spomenici/bosanska-raca.webp",
     "slikaOdnos": 1.278,
     "naziv": "Spomenik palim borcima NOR-a i Crvene armije u Rači",
     "nazivEn": "Memorial Ossuary (Spomen-Kosturnica)",
-    "vrsta": "spomenik",
+    "godina": "1952",
+    "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -7842,11 +7844,14 @@
     },
     "googleCid": "17967285053151777913",
     "mesto": "Smoljana",
+    "izvor": "https://www.spomenicinob.info/bosanskipetrovac",
     "slika": "slike/spomenici/smoljana.webp",
     "slikaOdnos": 1.404,
-    "naziv": "Spomenik palim borcima",
-    "nazivEn": "Monument to Fallen Fighters",
-    "vrsta": "spomenik",
+    "naziv": "Spomen-kosturnica",
+    "nazivEn": "Memorial ossuary",
+    "godina": "1974",
+    "autor": "Nebojša Latinović & Enver Kudić",
+    "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -8325,6 +8330,7 @@
     },
     "googleCid": "17506963166358228668",
     "mesto": "Veliko Palančište",
+    "izvor": "https://www.spomenicinob.info/prijedor",
     "slika": "slike/spomenici/veliko-palanciste.webp",
     "slikaOdnos": 1.325,
     "naziv": "Partizansko spomen-groblje",
@@ -8529,11 +8535,14 @@
     },
     "googleCid": "17242807736852452150",
     "mesto": "Selište",
+    "izvor": "https://www.spomenicinob.info/mostar",
     "slika": "slike/spomenici/seliste.webp",
     "slikaOdnos": 1.333,
-    "naziv": "Spomenik palim borcima",
-    "nazivEn": "Monument to Fallen Fighters",
-    "vrsta": "spomenik",
+    "naziv": "Kosturnica oslobodilaca Kruševa i Mostara",
+    "nazivEn": "Ossuary of the Liberators of Kruševo and Mostar",
+    "godina": "1972",
+    "autor": "Hasan Dizdarević",
+    "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -9144,13 +9153,15 @@
     },
     "googleCid": "4107954806294536358",
     "mesto": "Turbe",
+    "izvor": "https://www.spomenicinob.info/travnik",
     "slika": "slike/spomenici/turbe.webp",
     "slikaOdnos": 1.455,
     "naziv": "Spomenik palim herojima Drugog svjetskog rata",
     "nazivEn": "Turbe Memorial Park & Tomb",
     "godina": "1974",
-    "autor": "Petar Krstić",
-    "vrsta": "spomenik",
+    "autor": "Zlatko Ugljen & Petar Krstić",
+    "stanje": "ostecen",
+    "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -11367,6 +11378,7 @@
       "lng": 17.5852903
     },
     "mesto": "Gornji Vakuf",
+    "izvor": "https://www.spomenicinob.info/gornjivakuf",
     "slika": "slike/spomenici/gornji-vakuf.webp",
     "slikaOdnos": 1.399,
     "naziv": "Partizansko spomen-groblje",
@@ -11698,11 +11710,13 @@
       "lat": 43.7147783,
       "lng": 18.8736419
     },
-    "mesto": "Hadžići",
+    "mesto": "Hranjen (Goražde)",
+    "izvor": "https://www.spomenicinob.info/gorazde",
     "slika": "slike/spomenici/hadzici.webp",
     "slikaOdnos": 1.613,
     "naziv": "Partizansko spomen-groblje",
     "nazivEn": "Partisan Memorial Cemetery",
+    "godina": "1961",
     "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -16377,11 +16391,14 @@
     },
     "googleCid": "17816571075529549024",
     "mesto": "Brezičani",
+    "izvor": "https://www.spomenicinob.info/prijedor",
     "slika": "slike/spomenici/brezicani.webp",
     "slikaOdnos": 0.75,
     "slikaPotpis": "Google Maps",
-    "naziv": "Spomenik NOB",
-    "vrsta": "spomen-obelezje",
+    "naziv": "Partizansko groblje",
+    "nazivEn": "Partisans' cemetery",
+    "godina": "1954",
+    "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -20375,11 +20392,13 @@
     },
     "googleCid": "3274497422161802032",
     "mesto": "Blagaj Rijeka",
+    "izvor": "https://www.spomenicinob.info/novigrad",
     "slika": "slike/spomenici/blagaj-rijeka.webp",
     "slikaOdnos": 0.75,
     "slikaPotpis": "Google Maps",
     "naziv": "Spomenik žrtvama fašističkog terora i palim borcima NOB",
-    "vrsta": "spomen-obelezje",
+    "godina": "1970",
+    "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -24079,11 +24098,14 @@
     },
     "googleCid": "10392934586258040428",
     "mesto": "Podastinje",
+    "izvor": "https://www.spomenicinob.info/kiseljak",
     "slika": "slike/spomenici/podastinje.webp",
     "slikaOdnos": 0.562,
     "slikaPotpis": "Google Maps",
-    "naziv": "Spomenik borcima u narodnooslobodilačkoj borbi",
-    "vrsta": "spomen-obelezje",
+    "naziv": "Partizansko groblje sa 51 palim borcem",
+    "nazivEn": "Partisans' cemetery with 51 fallen fighters",
+    "godina": "1955",
+    "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -29349,11 +29371,13 @@
     },
     "googleCid": "4150168118361674494",
     "mesto": "Gakići",
+    "izvor": "https://www.spomenicinob.info/konjic",
     "slika": "slike/spomenici/gakici-partizanski-spomenik.webp",
     "slikaOdnos": 1.778,
     "slikaPotpis": "Google Maps",
-    "naziv": "Partizanski spomenik",
-    "vrsta": "spomen-obelezje",
+    "naziv": "Partizansko groblje",
+    "nazivEn": "Partisans' cemetery",
+    "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -59304,9 +59328,10 @@
   {
     "id": "tjentiste-savin-grob",
     "koordinate": {
-      "lat": 43.3515568,
-      "lng": 18.6783416
+      "lat": 43.3515558,
+      "lng": 18.678234
     },
+    "googleCid": "3538812546431426152",
     "mesto": "Tjentište",
     "izvor": "https://www.openstreetmap.org/node/7773550548",
     "slika": "slike/spomenici/tjentiste-savin-grob.webp",
@@ -72576,6 +72601,9 @@
     },
     "mesto": "Zlarin",
     "izvor": "https://registar.kulturnadobra.hr/",
+    "slika": "slike/spomenici/zlarin-povijesno-memorijalna-cjelina-bivseg-koncen.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Povijesno-memorijalna cjelina bivšeg koncentracijskog logora",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
@@ -72710,6 +72738,9 @@
     "mesto": "Bratmilovce",
     "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D1%83_%D0%91%D1%80%D0%B0%D1%82%D0%BC%D0%B8%D0%BB%D0%BE%D0%B2%D1%86%D1%83",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D1%83_%D0%91%D1%80%D0%B0%D1%82%D0%BC%D0%B8%D0%BB%D0%BE%D0%B2%D1%86%D1%83",
+    "slika": "slike/spomenici/bratmilovce-spomenik-u-bratmilovcu.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik u Bratmilovcu",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -73747,6 +73778,9 @@
     },
     "mesto": "Batković",
     "izvor": "https://www.spomenicinob.info/bijeljina",
+    "slika": "slike/spomenici/batkovic-spomenik-palim-borcima-i-zrtvama-fasistic.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
     "godina": "1981",
@@ -73790,6 +73824,9 @@
     },
     "mesto": "Balatun",
     "izvor": "https://www.spomenicinob.info/bijeljina",
+    "slika": "slike/spomenici/balatun-spomenik-53-pala-borca-i-58-zrtava-fasisti.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik 53 pala borca i 58 žrtava fašističkog terora",
     "nazivEn": "Monument to commemorate 53 fallen fighters & 58 Victims of Fascist Terror",
     "godina": "pre 1960",
@@ -74365,6 +74402,9 @@
     },
     "mesto": "Ljusina",
     "izvor": "https://www.spomenicinob.info/bosanskakrupa",
+    "slika": "slike/spomenici/ljusina-spomenik-palim-borcima-i-zrtvama-fasistick.webp",
+    "slikaOdnos": 0.838,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
     "godina": "1964",
@@ -74610,22 +74650,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "smoljana-spomen-kosturnica",
-    "koordinate": {
-      "lat": 44.60114,
-      "lng": 16.43213
-    },
-    "priblizno": true,
-    "mesto": "Smoljana",
-    "izvor": "https://www.spomenicinob.info/bosanskipetrovac",
-    "naziv": "Spomen-kosturnica",
-    "nazivEn": "Memorial ossuary",
-    "godina": "1974",
-    "autor": "Nebojša Latinović & Enver Kudić",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "krnjeusa-bista-radivoja-rodica",
     "koordinate": {
       "lat": 44.6877527,
@@ -74868,6 +74892,9 @@
     "priblizno": true,
     "mesto": "Kravica",
     "izvor": "https://www.spomenicinob.info/bratunac",
+    "slika": "slike/spomenici/kravica-spomen-cesma-bogomiru-karaklajicu.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "kulturasjecanja.org (arhivska fotografija)",
     "naziv": "Spomen-česma Bogomiru Karaklajiću",
     "nazivEn": "Fountain to commemorate Bogomir Karaklajić",
     "godina": "1950",
@@ -75485,6 +75512,9 @@
     "priblizno": true,
     "mesto": "Pećigrad",
     "izvor": "https://www.spomenicinob.info/cazin",
+    "slika": "slike/spomenici/pecigrad-spomenik-na-prvobitnom-mjestu-sahrane-nar.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik na prvobitnom mjestu sahrane narodnog heroja Ahmeta Fetahagića",
     "nazivEn": "Monument to mark the original place of burial of NH Ahmet Fetahagić",
     "godina": "pre 1978",
@@ -75811,6 +75841,9 @@
     },
     "mesto": "Pridjel Donji",
     "izvor": "https://www.spomenicinob.info/doboj",
+    "slika": "slike/spomenici/pridjel-donji-spomen-kosturnica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-kosturnica",
     "nazivEn": "Memorial ossuary",
     "godina": "1970",
@@ -75826,6 +75859,9 @@
     },
     "mesto": "Lipac",
     "izvor": "https://www.spomenicinob.info/doboj",
+    "slika": "slike/spomenici/lipac-partizansko-groblje-i-kosturnica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Partizansko groblje i kosturnica",
     "nazivEn": "Partisan cemetery and ossuary",
     "godina": "1950",
@@ -76878,6 +76914,9 @@
     },
     "mesto": "Vrbaška",
     "izvor": "https://www.spomenicinob.info/gradiska",
+    "slika": "slike/spomenici/vrbaska-spomenik-palim-borcima-i-zrtvama-fasistick.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
     "godina": "1987",
@@ -76902,12 +76941,14 @@
   {
     "id": "gornji-podgradci-spomen-grobnica-69-palih-boraca-n",
     "koordinate": {
-      "lat": 45.05654,
-      "lng": 17.04547
+      "lat": 45.069059,
+      "lng": 17.060376
     },
-    "priblizno": true,
     "mesto": "Gornji Podgradci",
     "izvor": "https://www.spomenicinob.info/gradiska",
+    "slika": "slike/spomenici/gornji-podgradci-spomen-grobnica-69-palih-boraca-n.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-grobnica 69 palih boraca NOR-a",
     "nazivEn": "Memorial grave of 69 fallen fighters of the NOR",
     "vrsta": "spomen-groblje",
@@ -76985,6 +77026,9 @@
     },
     "mesto": "Gornji Podgradci",
     "izvor": "https://www.spomenicinob.info/gradiska",
+    "slika": "slike/spomenici/gornji-podgradci-spomenik-bitka-na-kozari.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik „Bitka na Kozari“",
     "nazivEn": "'Battle of Kozara' monument",
     "godina": "1983",
@@ -78409,6 +78453,9 @@
     },
     "mesto": "Čelebić",
     "izvor": "https://www.spomenicinob.info/livno",
+    "slika": "slike/spomenici/celebic-groblje-preko-300-zrtava-fasistickog-teror.webp",
+    "slikaOdnos": 0.748,
+    "slikaPotpis": "Milos Damnjanovic, Partisan Memorials Wiki",
     "naziv": "Groblje preko 300 žrtava fašističkog terora",
     "nazivEn": "Cemetery of over 300 Victims of Fascist Terror",
     "godina": "1956",
@@ -79198,21 +79245,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "blagaj-rijeka-spomen-kosturnica-zrtava-fasistickog",
-    "koordinate": {
-      "lat": 45.04061,
-      "lng": 16.46866
-    },
-    "priblizno": true,
-    "mesto": "Blagaj Rijeka",
-    "izvor": "https://www.spomenicinob.info/novigrad",
-    "naziv": "Spomen-kosturnica žrtava fašističkog terora",
-    "nazivEn": "Memorial ossuary of Victims of Fascist Terror",
-    "godina": "1970",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "svodna-bista-dragana-vujanovica",
     "koordinate": {
       "lat": 45.0377366,
@@ -79404,12 +79436,14 @@
   {
     "id": "dobrljin-partizansko-groblje",
     "koordinate": {
-      "lat": 45.15034,
-      "lng": 16.47975
+      "lat": 45.149093,
+      "lng": 16.479044
     },
-    "priblizno": true,
     "mesto": "Dobrljin",
     "izvor": "https://www.spomenicinob.info/novigrad",
+    "slika": "slike/spomenici/dobrljin-partizansko-groblje.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Partizansko groblje",
     "nazivEn": "Partisans' cemetery",
     "godina": "1961",
@@ -79875,6 +79909,9 @@
     },
     "mesto": "Prača",
     "izvor": "https://www.spomenicinob.info/palepraca",
+    "slika": "slike/spomenici/praca-spomen-cesma-24-pala-partizana-i-zrtvama-fas.webp",
+    "slikaOdnos": 1.732,
+    "slikaPotpis": "Bosansko-podrinjski kanton Goražde",
     "naziv": "Spomen-česma 24 pala partizana i žrtvama fašističkog terora",
     "nazivEn": "Fountain to commemorate 24 fallen Partisans and Victims of Fascist Terror",
     "godina": "1970",
@@ -80138,6 +80175,9 @@
     },
     "mesto": "Niševići",
     "izvor": "https://www.spomenicinob.info/prijedor",
+    "slika": "slike/spomenici/nisevici-spomenik-ustanku.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Muzej Kozare",
     "naziv": "Spomenik ustanku",
     "nazivEn": "Monument to the Uprising",
     "godina": "1951",
@@ -80165,6 +80205,9 @@
     },
     "mesto": "Rakelići",
     "izvor": "https://www.spomenicinob.info/prijedor",
+    "slika": "slike/spomenici/rakelici-partizansko-groblje.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Muzej Kozare",
     "naziv": "Partizansko groblje",
     "nazivEn": "Partisans' cemetery",
     "godina": "1954",
@@ -80326,21 +80369,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "veliko-palanciste-groblje-partizanskih-boraca-i-zr",
-    "koordinate": {
-      "lat": 45.01955,
-      "lng": 16.73925
-    },
-    "priblizno": true,
-    "mesto": "Veliko Palančište",
-    "izvor": "https://www.spomenicinob.info/prijedor",
-    "naziv": "Groblje partizanskih boraca i žrtava fašističkog terora",
-    "nazivEn": "Cemetery of Partisan fighters and Victims of Fascist Terror",
-    "godina": "1951",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "gornji-jelovac-masovna-grobnica-zrtava-fasistickog",
     "koordinate": {
       "lat": 45.07212,
@@ -80469,6 +80497,9 @@
     },
     "mesto": "Gornji Garevci",
     "izvor": "https://www.spomenicinob.info/prijedor",
+    "slika": "slike/spomenici/gornji-garevci-zajednicka-grobnica-22-zrtve-fasist.webp",
+    "slikaOdnos": 1.471,
+    "slikaPotpis": "Muzej Kozare",
     "naziv": "Zajednička grobnica 22 žrtve fašističkog terora",
     "nazivEn": "Collective grave of 22 Victims of Fascist Terror",
     "godina": "1983",
@@ -81106,6 +81137,9 @@
     },
     "mesto": "Stjenice",
     "izvor": "https://www.spomenicinob.info/rogatica",
+    "slika": "slike/spomenici/stjenice-spomenik-palima-u-ustanku.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palima u ustanku",
     "nazivEn": "Monument to commemorate those who fell in the Uprising",
     "godina": "1950",
@@ -81598,6 +81632,9 @@
     },
     "mesto": "Lušci Palanka",
     "izvor": "https://www.spomenicinob.info/sanskimost",
+    "slika": "slike/spomenici/lusci-palanka-spomenik-improvizovanom-aerodromu-iz.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik improvizovanom aerodromu iz 1942. godine",
     "nazivEn": "Monument to commemorate makeshift airfield in 1942",
     "vrsta": "spomen-obelezje",
@@ -81626,6 +81663,9 @@
     },
     "mesto": "Lušci Palanka",
     "izvor": "https://www.spomenicinob.info/sanskimost",
+    "slika": "slike/spomenici/lusci-palanka-spomen-kosturnica-37-palih-boraca.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-kosturnica 37 palih boraca",
     "nazivEn": "Memorial ossuary of 37 fallen fighters",
     "godina": "1951",
@@ -82203,6 +82243,9 @@
     },
     "mesto": "Skelani",
     "izvor": "https://www.spomenicinob.info/srebrenica",
+    "slika": "slike/spomenici/skelani-spomenik-palim-borcima-i-zrtvama-fasistick.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
     "godina": "1958",
@@ -82599,23 +82642,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "turbe-spomen-grobnica-palih-boraca-nor-a",
-    "koordinate": {
-      "lat": 44.24111,
-      "lng": 17.57666
-    },
-    "priblizno": true,
-    "mesto": "Turbe",
-    "izvor": "https://www.spomenicinob.info/travnik",
-    "naziv": "Spomen-grobnica palih boraca NOR-a",
-    "nazivEn": "Memorial grave of fallen fighters of the NOR",
-    "godina": "1974",
-    "autor": "Zlatko Ugljen & Petar Krstić",
-    "stanje": "ostecen",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "turbe-spomenik-palim-borcima-novj",
     "koordinate": {
       "lat": 44.2418,
@@ -82623,6 +82649,9 @@
     },
     "mesto": "Turbe",
     "izvor": "https://www.spomenicinob.info/travnik",
+    "slika": "slike/spomenici/turbe-spomenik-palim-borcima-novj.webp",
+    "slikaOdnos": 0.782,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima NOVJ",
     "nazivEn": "Monument to fallen fighters of the NOVJ",
     "godina": "1948",
@@ -83513,6 +83542,9 @@
     },
     "mesto": "Krivoglavci",
     "izvor": "https://www.spomenicinob.info/vogosca",
+    "slika": "slike/spomenici/krivoglavci-spomenik-zrtvama-fasistickog-terora.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik žrtvama fašističkog terora",
     "nazivEn": "Monument to Victims of Fascist Terror",
     "godina": "1975",
@@ -86637,6 +86669,9 @@
     },
     "mesto": "Kostajnica",
     "izvor": "https://www.spomenicinob.info/doboj",
+    "slika": "slike/spomenici/kostajnica-partizansko-groblje.webp",
+    "slikaOdnos": 0.785,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Partizansko groblje",
     "nazivEn": "Partisans’ cemetery",
     "godina": "1950",
@@ -86667,6 +86702,9 @@
     },
     "mesto": "Majevac",
     "izvor": "https://www.spomenicinob.info/doboj",
+    "slika": "slike/spomenici/majevac-spomenik-palim-partizanskim-borcima-i-zrtv.webp",
+    "slikaOdnos": 0.807,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim partizanskim borcima i žrtvama fašističkog terora",
     "nazivEn": "Monument to fallen Partisan fighters and Victims of Fascist Terror",
     "godina": "1950",
@@ -86696,6 +86734,9 @@
     },
     "mesto": "Podovi",
     "izvor": "https://www.spomenicinob.info/drvar",
+    "slika": "slike/spomenici/podovi-spomen-kosturnica.webp",
+    "slikaOdnos": 1.394,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-kosturnica",
     "nazivEn": "Memorial ossuary",
     "godina": "1961",
@@ -88475,22 +88516,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "krusevo-kosturnica-oslobodilaca-kruseva-i-mostara",
-    "koordinate": {
-      "lat": 43.28543,
-      "lng": 17.7528
-    },
-    "priblizno": true,
-    "mesto": "Kruševo",
-    "izvor": "https://www.spomenicinob.info/mostar",
-    "naziv": "Kosturnica oslobodilaca Kruševa i Mostara",
-    "nazivEn": "Ossuary of the Liberators of Kruševo and Mostar",
-    "godina": "1972",
-    "autor": "Hasan Dizdarević",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "potoci-partizansko-groblje",
     "koordinate": {
       "lat": 43.40782,
@@ -88928,6 +88953,9 @@
     "priblizno": true,
     "mesto": "Babići",
     "izvor": "https://www.spomenicinob.info/prijedor",
+    "slika": "slike/spomenici/babici-spomenik-strijeljanim-zeljeznicarima-i-zrtv.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Muzej Kozare",
     "naziv": "Spomenik strijeljanim željezničarima i žrtvama fašističkog terora",
     "nazivEn": "Monument to executed railway workers and Victims of Fascist Terror",
     "godina": "1960",
@@ -89041,21 +89069,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "brezicani-partizansko-groblje",
-    "koordinate": {
-      "lat": 45.0094,
-      "lng": 16.65163
-    },
-    "priblizno": true,
-    "mesto": "Brezičani",
-    "izvor": "https://www.spomenicinob.info/prijedor",
-    "naziv": "Partizansko groblje",
-    "nazivEn": "Partisans' cemetery",
-    "godina": "1954",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "cikote-spomenik-palim-borcima-i-zrtvama-fasisticko",
     "koordinate": {
       "lat": 45.00729,
@@ -89078,6 +89091,9 @@
     },
     "mesto": "Brezičani",
     "izvor": "https://www.spomenicinob.info/prijedor",
+    "slika": "slike/spomenici/brezicani-spomenik-josipu-brozu-titu.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik Josipu Brozu Titu",
     "nazivEn": "Monument to Josip Broz Tito",
     "stanje": "ostecen",
@@ -89167,6 +89183,9 @@
     },
     "mesto": "Jaruge",
     "izvor": "https://www.spomenicinob.info/prijedor",
+    "slika": "slike/spomenici/jaruge-zajednicka-grobnica-15-zrtava-fasistickog-t.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Muzej Kozare",
     "naziv": "Zajednička grobnica 15 žrtava fašističkog terora",
     "nazivEn": "Collective grave of 15 Victims of Fascist Terror",
     "godina": "1951",
@@ -89181,6 +89200,9 @@
     },
     "mesto": "Brđani",
     "izvor": "https://www.spomenicinob.info/prijedor",
+    "slika": "slike/spomenici/brdjani-zajednicka-grobnica-zrtava-fasistickog-ter.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Muzej Kozare",
     "naziv": "Zajednička grobnica žrtava fašističkog terora",
     "nazivEn": "Collective grave of Victims of Fascist Terror",
     "godina": "1983",
@@ -89931,6 +89953,9 @@
     },
     "mesto": "Hum",
     "izvor": "https://www.spomenicinob.info/trebinje",
+    "slika": "slike/spomenici/hum-spomenik-palim-borcima-nor-a.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima NOR-a",
     "nazivEn": "Monument to fallen fighters of the NOR",
     "godina": "1964",
@@ -93923,6 +93948,9 @@
     "mesto": "Leskovac",
     "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D1%87%D0%B5%D1%81%D0%BC%D0%B0_%D1%83_%D0%9B%D0%B5%D1%81%D0%BA%D0%BE%D0%B2%D1%86%D1%83",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D1%87%D0%B5%D1%81%D0%BC%D0%B0_%D1%83_%D0%9B%D0%B5%D1%81%D0%BA%D0%BE%D0%B2%D1%86%D1%83",
+    "slika": "slike/spomenici/leskovac-spomen-cesma-u-leskovcu.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-česma u Leskovcu",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -94021,6 +94049,9 @@
     },
     "mesto": "Bihać",
     "izvor": "https://www.spomenicinob.info/bihac",
+    "slika": "slike/spomenici/bihac-spomenik-bihackoj-omladinskoj-ceti-i-narodno.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik Bihaćkoj omladinskoj četi i narodnom zboru",
     "nazivEn": "Monument to the Bihać Youth Company and people's meeting",
     "godina": "1949",
@@ -94852,6 +94883,9 @@
     },
     "mesto": "Ivan Sedlo",
     "izvor": "https://www.spomenicinob.info/hadzici",
+    "slika": "slike/spomenici/ivan-sedlo-spomen-cesma-pobjedi-i-proleterske-brig.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-česma pobjedi I proleterske brigade u februaru 1943",
     "nazivEn": "Fountain to commemorate victory of I Proletarian Brigade in February 1943",
     "godina": "1951",
@@ -94866,6 +94900,9 @@
     },
     "mesto": "Ivan Sedlo",
     "izvor": "https://www.spomenicinob.info/hadzici",
+    "slika": "slike/spomenici/ivan-sedlo-spomenik-na-ivan-sedlu.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik na Ivan-sedlu",
     "nazivEn": "Monument on Ivan Sedlo",
     "godina": "1977",
@@ -94911,6 +94948,9 @@
     },
     "mesto": "Ilijaš",
     "izvor": "https://www.spomenicinob.info/ilijas",
+    "slika": "slike/spomenici/ilijas-spomen-cesma-na-mjestu-prvog-partizanskog-n.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-česma na mjestu prvog partizanskog napada u sarajevskom kraju",
     "nazivEn": "Fountain to commemorate location of first Partisan attack in Sarajevo region",
     "godina": "1951",
@@ -94955,6 +94995,9 @@
     },
     "mesto": "Jablanica",
     "izvor": "https://www.spomenicinob.info/jablanica",
+    "slika": "slike/spomenici/jablanica-partizansko-groblje-sa-64-pala-borca.webp",
+    "slikaOdnos": 1.389,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Partizansko groblje sa 64 pala borca",
     "nazivEn": "Partisans' cemetery with 64 fallen fightrers",
     "godina": "pre 1960",
@@ -94984,6 +95027,9 @@
     },
     "mesto": "Jajce",
     "izvor": "https://www.spomenicinob.info/jajce",
+    "slika": "slike/spomenici/jajce-spomenik-oslobodjenju-jajca.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik oslobođenju Jajca",
     "nazivEn": "Monument to the Liberation of Jajce",
     "godina": "1972",
@@ -95013,6 +95059,9 @@
     },
     "mesto": "Kakanj",
     "izvor": "https://www.spomenicinob.info/kakanj",
+    "slika": "slike/spomenici/kakanj-spomenik-ivi-loli-ribaru.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik Ivi Loli Ribaru",
     "nazivEn": "Monument to Ivo Lola Ribar",
     "godina": "1953",
@@ -95027,6 +95076,9 @@
     },
     "mesto": "Kakanj",
     "izvor": "https://www.spomenicinob.info/kakanj",
+    "slika": "slike/spomenici/kakanj-spomenik-mehmedu-skopljaku.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik Mehmedu Skopljaku",
     "nazivEn": "Monument to commemorate Mehmed Skopljak",
     "godina": "1985",
@@ -95041,6 +95093,9 @@
     },
     "mesto": "Kakanj",
     "izvor": "https://www.spomenicinob.info/kakanj",
+    "slika": "slike/spomenici/kakanj-spomenik-bratstvu-i-jedinstvu.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik bratstvu i jedinstvu",
     "nazivEn": "Monument to Brotherhood and Unity",
     "godina": "pre 1952",
@@ -95623,6 +95678,9 @@
     },
     "mesto": "Modriča",
     "izvor": "https://www.spomenicinob.info/modrica",
+    "slika": "slike/spomenici/modrica-spomen-kosturnica-partizanskih-boraca.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-kosturnica partizanskih boraca",
     "nazivEn": "Memorial ossuary of Partisan fighters",
     "godina": "1952",
@@ -95637,6 +95695,9 @@
     },
     "mesto": "Modriča",
     "izvor": "https://www.spomenicinob.info/modrica",
+    "slika": "slike/spomenici/modrica-spomenik-oslobodiocima-modrice-1943-godine.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik oslobodiocima Modriče 1943. godine",
     "nazivEn": "Monument to the Liberators of Modriča in 1943",
     "godina": "1978",
@@ -95681,6 +95742,9 @@
     },
     "mesto": "Mostar",
     "izvor": "https://www.spomenicinob.info/mostar",
+    "slika": "slike/spomenici/mostar-spomenik-na-mjestu-vjesanja-alije-rizikala.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik na mjestu vješanja Alije Rizikala i Drage Palavestre",
     "nazivEn": "Monument to mark place of hanging of Alija Rizikalo and Drago Palavestra",
     "vrsta": "spomen-obelezje",
@@ -95752,6 +95816,9 @@
     },
     "mesto": "Nevesinje",
     "izvor": "https://www.spomenicinob.info/nevesinje",
+    "slika": "slike/spomenici/nevesinje-spomenik-dukici-grahovac.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik Dukici Grahovac",
     "nazivEn": "Monument to Dukica Grahovac",
     "godina": "pre 1965",
@@ -95783,6 +95850,9 @@
     "priblizno": true,
     "mesto": "Nevesinje",
     "izvor": "https://www.spomenicinob.info/nevesinje",
+    "slika": "slike/spomenici/nevesinje-zajednicka-grobnica-zrtava-fasistickog-t.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Zajednička grobnica žrtava fašističkog terora",
     "nazivEn": "Collective grave of Victims of Fascist Terror",
     "godina": "1961",
@@ -95885,6 +95955,9 @@
     },
     "mesto": "Olovo",
     "izvor": "https://www.spomenicinob.info/olovo",
+    "slika": "slike/spomenici/olovo-spomenik-kameni-cvijet.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik „Kameni cvijet“",
     "nazivEn": "'Stone Flower' monument",
     "godina": "1981",
@@ -96005,6 +96078,9 @@
     },
     "mesto": "Prijedor",
     "izvor": "https://www.spomenicinob.info/prijedor",
+    "slika": "slike/spomenici/prijedor-masovna-grobnica-zrtava-fasistickog-teror.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Masovna grobnica žrtava fašističkog terora, željezničara i građana Prijedora",
     "nazivEn": "Mass grave of Victims of Fascist Terror, railway workers, and citizens of Prijedor",
     "godina": "1963",
@@ -96035,6 +96111,9 @@
     },
     "mesto": "Prozor",
     "izvor": "https://www.spomenicinob.info/prozorrama",
+    "slika": "slike/spomenici/prozor-spomenik-oslobodjenju-prozora-u-julu-1942-g.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik oslobođenju Prozora u julu 1942. godine",
     "nazivEn": "Monument to commemorate the liberation of Prozor in July 1942",
     "godina": "1962",
@@ -96181,6 +96260,9 @@
     },
     "mesto": "Šamac",
     "izvor": "https://www.spomenicinob.info/samac",
+    "slika": "slike/spomenici/samac-spomenik-vi-istocnobosanskoj-brigadi.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik VI istočnobosanskoj brigadi",
     "nazivEn": "Monument to the VI Eastern Bosnian Brigade",
     "godina": "1952",
@@ -96584,6 +96666,9 @@
     },
     "mesto": "Dživar",
     "izvor": "https://www.spomenicinob.info/trebinje",
+    "slika": "slike/spomenici/dzivar-spomenik-palim-borcima-nor-a.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima NOR-a",
     "nazivEn": "Monument to fallen fighters of the NOR",
     "godina": "1961",
@@ -96796,6 +96881,9 @@
     },
     "mesto": "Vlasenica",
     "izvor": "https://www.spomenicinob.info/vlasenica",
+    "slika": "slike/spomenici/vlasenica-spomen-kosturnica-prvih-ucesnika-ustanka.webp",
+    "slikaOdnos": 0.845,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-kosturnica prvih učesnika ustanka",
     "nazivEn": "Memorial ossuary of first people involved in the Uprising",
     "godina": "1946",
@@ -97020,6 +97108,9 @@
     },
     "mesto": "Jošava",
     "izvor": "https://www.spomenicinob.info/doboj",
+    "slika": "slike/spomenici/josava-kosturnica-15-partizanskih-boraca.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Kosturnica 15 partizanskih boraca",
     "nazivEn": "Ossuary of 15 Partisan fighters",
     "godina": "1964",
@@ -97035,6 +97126,9 @@
     },
     "mesto": "Bukovica Mala",
     "izvor": "https://www.spomenicinob.info/doboj",
+    "slika": "slike/spomenici/bukovica-mala-partizansko-groblje.webp",
+    "slikaOdnos": 1.404,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Partizansko groblje",
     "nazivEn": "Partisans' cemetery",
     "godina": "1960",
@@ -97122,6 +97216,9 @@
     },
     "mesto": "Čaprazlije",
     "izvor": "https://www.spomenicinob.info/livno",
+    "slika": "slike/spomenici/caprazlije-zajednicka-grobnica-28-zrtava-fasistick.webp",
+    "slikaOdnos": 0.748,
+    "slikaPotpis": "Milos Damnjanovic, Partisan Memorials Wiki",
     "naziv": "Zajednička grobnica 28 žrtava fašističkog terora",
     "nazivEn": "Collective grave of 28 Victims of Fascist Terror",
     "godina": "1961",
@@ -97321,6 +97418,9 @@
     "priblizno": true,
     "mesto": "Aleksinački Rudnik",
     "izvor": "https://www.xiwl.com/w/index.php/Aleksina%C4%8Dki_Rudnik_-_Spomenik_NOB",
+    "slika": "slike/spomenici/aleksinacki-rudnik-spomenik-nob.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "godina": "1951",
     "vrsta": "spomen-obelezje",
@@ -97347,6 +97447,9 @@
     },
     "mesto": "Avala Mountain",
     "izvor": "https://www.xiwl.com/w/index.php/Avala_-_Spomenik_Sovjetskim_Ratnim_Veteranima",
+    "slika": "slike/spomenici/avala-mountain-spomenik-sovjetskim-ratnim-veterani.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik sovjetskim ratnim veteranima",
     "godina": "1965",
     "autor": "Jovan Kratohvil",
@@ -97435,6 +97538,9 @@
     },
     "mesto": "Babin Kal",
     "izvor": "https://www.xiwl.com/w/index.php/Babin_Kal_-_Spomenik_NOB",
+    "slika": "slike/spomenici/babin-kal-spomenik-nob.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomenik NOB",
     "godina": "1975",
     "vrsta": "spomen-obelezje",
@@ -97534,6 +97640,9 @@
     },
     "mesto": "Bajevac",
     "izvor": "https://www.xiwl.com/w/index.php/Bajevac_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/bajevac-spomenik-palim-borcima.webp",
+    "slikaOdnos": 1.626,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima",
     "godina": "1958",
     "vrsta": "spomen-obelezje",
@@ -97547,6 +97656,9 @@
     },
     "mesto": "Badovinci",
     "izvor": "https://www.xiwl.com/w/index.php/Badovinci_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/badovinci-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
     "naziv": "Spomenik palim borcima",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -97671,6 +97783,9 @@
     },
     "mesto": "Baluga",
     "izvor": "https://www.xiwl.com/w/index.php/Baluga_%E2%80%93_Spomenik_NOB",
+    "slika": "slike/spomenici/baluga-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "godina": "1975",
     "vrsta": "spomen-obelezje",
@@ -97738,6 +97853,9 @@
     "priblizno": true,
     "mesto": "Балинци",
     "izvor": "https://www.xiwl.com/w/index.php/Balinci_%28Valandovo%29_-_Monument_to_National_Hero",
+    "slika": "slike/spomenici/balinci-spomenik.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Споменик",
     "vrsta": "spomen-obelezje",
     "drzava": "Macedonia"
@@ -97859,6 +97977,9 @@
     },
     "mesto": "Banja Koviljaca",
     "izvor": "https://www.xiwl.com/w/index.php/Banja_Koviljaca_-_Spomen_Kosturnica",
+    "slika": "slike/spomenici/banja-koviljaca-spomen-kosturnica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-kosturnica",
     "godina": "1962",
     "vrsta": "spomen-groblje",
@@ -97994,6 +98115,9 @@
     },
     "mesto": "Barje Čiflik",
     "izvor": "https://www.xiwl.com/w/index.php/Barje_%C4%8Ciflik_-_Spomenik_Miloradu_Man%C4%8Di%C4%87u",
+    "slika": "slike/spomenici/barje-ciflik-spomenik-miloradu-mancicu.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomenik Miloradu Mančiću",
     "godina": "1950",
     "vrsta": "spomen-obelezje",
@@ -98095,6 +98219,9 @@
     },
     "mesto": "Baćina",
     "izvor": "https://www.xiwl.com/w/index.php/Ba%C4%87ina_-_Spomen_Grobnica",
+    "slika": "slike/spomenici/bacina-spomen-grobnica.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomen-grobnica",
     "vrsta": "spomen-groblje",
     "drzava": "Croatia"
@@ -98170,6 +98297,9 @@
     },
     "mesto": "Bačina",
     "izvor": "https://www.xiwl.com/w/index.php/Ba%C4%8Dina_%28Varvarin%29_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/bacina-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -98195,6 +98325,9 @@
     },
     "mesto": "Bačka Palanka",
     "izvor": "https://www.xiwl.com/w/index.php/Ba%C4%8Dka_Palanka_-_Spomen_Grobnica",
+    "slika": "slike/spomenici/backa-palanka-spomen-grobnica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-grobnica",
     "vrsta": "spomen-groblje",
     "drzava": "Serbia"
@@ -98406,6 +98539,9 @@
     },
     "mesto": "Belanovce",
     "izvor": "https://www.xiwl.com/w/index.php/Belanovce_%28Leskovac%29_-_Spomenik_NOB",
+    "slika": "slike/spomenici/belanovce-spomenik-nob.webp",
+    "slikaOdnos": 0.85,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "godina": "1969",
     "autor": "Stojan Cvetković",
@@ -98687,6 +98823,9 @@
     },
     "mesto": "Berbatovo",
     "izvor": "https://www.xiwl.com/w/index.php/Berbatovo_-_Spomenik_Palim_1941-1945",
+    "slika": "slike/spomenici/berbatovo-spomenik-palim-1941-1945.webp",
+    "slikaOdnos": 1.509,
+    "slikaPotpis": "Zblagojevic, CC BY-SA 4.0",
     "naziv": "Spomenik palim 1941-1945",
     "godina": "1979",
     "autor": "J. Feker",
@@ -98870,6 +99009,9 @@
     },
     "mesto": "Bikovec",
     "izvor": "https://www.xiwl.com/w/index.php/Bikovec_-_Spomenik_Antunu_Bla%C5%BEi%C4%87u",
+    "slika": "slike/spomenici/bikovec-spomenik-antunu-blazicu.webp",
+    "slikaOdnos": 0.8,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomenik Antunu Blažiću",
     "godina": "1961",
     "vrsta": "spomen-obelezje",
@@ -98962,6 +99104,9 @@
     "priblizno": true,
     "mesto": "Biogradska",
     "izvor": "https://www.xiwl.com/w/index.php/Biogradska_-_Unknown_Grave",
+    "slika": "slike/spomenici/biogradska-spomen-grobnica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-grobnica",
     "vrsta": "spomen-groblje",
     "drzava": "Montenegro"
@@ -98974,6 +99119,9 @@
     },
     "mesto": "Bioska",
     "izvor": "https://www.xiwl.com/w/index.php/Bioska_-_Spomenik_NOB",
+    "slika": "slike/spomenici/bioska-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -99103,6 +99251,9 @@
     },
     "mesto": "Blažuj",
     "izvor": "https://www.xiwl.com/w/index.php/Bla%C5%BEuj_%28Ilid%C5%BEa%29_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/blazuj-spomenik-zrtvama-fasistickog-terora.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik žrtvama fašističkog terora",
     "godina": "1955",
     "vrsta": "spomen-obelezje",
@@ -99128,6 +99279,9 @@
     },
     "mesto": "Bobište",
     "izvor": "https://www.xiwl.com/w/index.php/Bobi%C5%A1te_%28Leskovac%29_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/bobiste-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima",
     "godina": "1983",
     "autor": "Slobodan Popović",
@@ -99179,6 +99333,9 @@
     },
     "mesto": "Bogatić",
     "izvor": "https://www.xiwl.com/w/index.php/Bogati%C4%87_-_Spomenik_Borcima_Le%C5%A1ni%C4%8Dke_Partizanske_%C4%8Cete",
+    "slika": "slike/spomenici/bogatic-spomenik-borcima-lesnicke-partizanske-cete.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
     "naziv": "Spomenik borcima Lešničke partizanske čete",
     "godina": "1961",
     "autor": "Boško Kućanski",
@@ -99257,6 +99414,9 @@
     },
     "mesto": "Bogdanovac",
     "izvor": "https://www.xiwl.com/w/index.php/Bogdanovac_%28Babu%C5%A1nica%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/bogdanovac-spomenik-palim-borcima-i-zrtvama-fasist.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "godina": "1955",
     "vrsta": "spomen-obelezje",
@@ -99309,6 +99469,9 @@
     },
     "mesto": "Богомила",
     "izvor": "https://www.xiwl.com/w/index.php/Bogomila_-_Monument_for_Fallen_Fighters_and_Civilians",
+    "slika": "slike/spomenici/bogomila-spomenik-2.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Споменик",
     "vrsta": "spomen-obelezje",
     "drzava": "Macedonia"
@@ -99371,6 +99534,9 @@
     },
     "mesto": "Bojnik",
     "izvor": "https://www.xiwl.com/w/index.php/Bojnik_-_Spomenik_NOB",
+    "slika": "slike/spomenici/bojnik-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "godina": "1957",
     "autor": "Stojan Cvetković",
@@ -99418,6 +99584,9 @@
     },
     "mesto": "Bokordići",
     "izvor": "https://www.xiwl.com/w/index.php/Bokordi%C4%87i_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/bokordici-spomenik-zrtvama-fasistickog-terora.webp",
+    "slikaOdnos": 1.201,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomenik žrtvama fašističkog terora",
     "godina": "1950",
     "vrsta": "spomen-obelezje",
@@ -99561,6 +99730,9 @@
     "priblizno": true,
     "mesto": "Boričevac",
     "izvor": "https://www.xiwl.com/w/index.php/Bori%C4%8Devac_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/boricevac-spomenik-zrtvama-fasistickog-terora.webp",
+    "slikaOdnos": 1.46,
+    "slikaPotpis": "Antifašistički vjesnik (arhivska fotografija)",
     "naziv": "Spomenik žrtvama fašističkog terora",
     "stanje": "uklonjen",
     "stanjeIzvor": {
@@ -100328,6 +100500,9 @@
     },
     "mesto": "Brus",
     "izvor": "https://www.xiwl.com/w/index.php/Brus_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/brus-spomen-cesma.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-česma",
     "godina": "1947",
     "vrsta": "spomen-obelezje",
@@ -100439,6 +100614,9 @@
     },
     "mesto": "Brlog",
     "izvor": "https://www.xiwl.com/w/index.php/Brlog_%28Pirot%29_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/brlog-spomenik-palim-borcima.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomenik palim borcima",
     "godina": "1955",
     "vrsta": "spomen-obelezje",
@@ -101223,6 +101401,9 @@
     },
     "mesto": "Cerev Del",
     "izvor": "https://www.xiwl.com/w/index.php/Cerev_Del_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/cerev-del-spomen-cesma.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -101260,6 +101441,9 @@
     },
     "mesto": "Crna Bara",
     "izvor": "https://www.xiwl.com/w/index.php/Crna_Bara_%28Bogati%C4%87%29_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/crna-bara-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
     "naziv": "Spomenik palim borcima",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -101558,6 +101742,9 @@
     },
     "mesto": "Daljevića Gaj",
     "izvor": "https://www.xiwl.com/w/index.php/Daljevi%C4%87a_Gaj_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/daljevica-gaj-spomenik-zrtvama-fasistickog-terora.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Muzej Kozare",
     "naziv": "Spomenik žrtvama fašističkog terora",
     "godina": "1951",
     "vrsta": "spomen-obelezje",
@@ -101662,6 +101849,9 @@
     },
     "mesto": "Dedina",
     "izvor": "https://www.xiwl.com/w/index.php/Dedina_-_Spomenik_Partizanima_Rasinskog_Okruga",
+    "slika": "slike/spomenici/dedina-spomenik-partizanima-rasinskog-okruga.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik partizanima Rasinskog Okruga",
     "godina": "1971",
     "autor": "Predrag Vertovšek",
@@ -101676,6 +101866,9 @@
     },
     "mesto": "Derventa",
     "izvor": "https://www.xiwl.com/w/index.php/Derventa_-_Partizansko_Groblje",
+    "slika": "slike/spomenici/derventa-partizansko-groblje.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "partizansko groblje",
     "godina": "1950",
     "vrsta": "spomen-groblje",
@@ -101689,6 +101882,9 @@
     },
     "mesto": "Dera",
     "izvor": "https://www.xiwl.com/w/index.php/Dera_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/dera-spomenik-zrtvama-fasistickog-terora.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Muzej Kozare",
     "naziv": "Spomenik žrtvama fašističkog terora",
     "godina": "1979",
     "vrsta": "spomen-obelezje",
@@ -101882,6 +102078,9 @@
     "priblizno": true,
     "mesto": "Divoselo",
     "izvor": "https://www.xiwl.com/w/index.php/Divoselo_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/divoselo-spomenik-palim-borcima-i-zrtvama-fasistic.webp",
+    "slikaOdnos": 0.723,
+    "slikaPotpis": "Antifašistički vjesnik (arhivska fotografija)",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "godina": "1949",
     "autor": "Pavao Perić",
@@ -101915,6 +102114,9 @@
     },
     "mesto": "Djurdjevina",
     "izvor": "https://www.xiwl.com/w/index.php/Djurdjevina_-_Spomenik_Komskom_Partizanskom_Odredu",
+    "slika": "slike/spomenici/djurdjevina-spomenik-komskom-partizanskom-odredu.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik Komskom partizanskom odredu",
     "vrsta": "spomen-obelezje",
     "drzava": "Montenegro"
@@ -101986,6 +102188,9 @@
     },
     "mesto": "Dobanovci",
     "izvor": "https://www.xiwl.com/w/index.php/Dobanovci_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/dobanovci-spomenik-palim-borcima-i-zrtvama-fasisti.webp",
+    "slikaOdnos": 1.504,
+    "slikaPotpis": "Novosti",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -102221,6 +102426,9 @@
     },
     "mesto": "Dojkinci",
     "izvor": "https://www.xiwl.com/w/index.php/Dojkinci_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/dojkinci-spomenik-palim-borcima.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomenik palim borcima",
     "godina": "1952",
     "vrsta": "spomen-obelezje",
@@ -102400,6 +102608,9 @@
     },
     "mesto": "Donja Borina",
     "izvor": "https://www.xiwl.com/w/index.php/Donja_Borina_-_Spomenik_NOB",
+    "slika": "slike/spomenici/donja-borina-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -102538,6 +102749,9 @@
     "priblizno": true,
     "mesto": "Donja Poljana",
     "izvor": "https://www.xiwl.com/w/index.php/Donja_Poljana_-_Spomenik_NOB",
+    "slika": "slike/spomenici/donja-poljana-spomenik-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "varazdinske-vijesti.hr",
     "naziv": "Spomenik NOB",
     "godina": "1960",
     "vrsta": "spomen-obelezje",
@@ -102662,6 +102876,9 @@
     },
     "mesto": "Donja Nevlja",
     "izvor": "https://www.xiwl.com/w/index.php/Donja_Nevlja_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/donja-nevlja-spomen-cesma.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "1958",
     "vrsta": "spomen-obelezje",
@@ -102899,6 +103116,9 @@
     },
     "mesto": "Donja Trepca",
     "izvor": "https://www.xiwl.com/w/index.php/Donja_Trepca_%E2%80%93_Spomen_Kosturnica",
+    "slika": "slike/spomenici/donja-trepca-spomen-kosturnica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-kosturnica",
     "godina": "1961",
     "vrsta": "spomen-groblje",
@@ -103026,6 +103246,9 @@
     },
     "mesto": "Donje Krnjino",
     "izvor": "https://www.xiwl.com/w/index.php/Donje_Krnjino_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/donje-krnjino-spomen-cesma.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "1975",
     "vrsta": "spomen-obelezje",
@@ -103194,6 +103417,9 @@
     },
     "mesto": "Donji Dušnik",
     "izvor": "https://www.xiwl.com/w/index.php/Donji_Du%C5%A1nik_-_Spomenik_NOB",
+    "slika": "slike/spomenici/donji-dusnik-spomenik-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Sunce Niš, CC BY-SA 4.0",
     "naziv": "Spomenik NOB",
     "godina": "1974",
     "vrsta": "spomen-obelezje",
@@ -103281,6 +103507,9 @@
     },
     "mesto": "Donji Dolac",
     "izvor": "https://www.xiwl.com/w/index.php/Donji_Dolac_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/donji-dolac-spomenik-zrtvama-fasistickog-terora.webp",
+    "slikaOdnos": 1.173,
+    "slikaPotpis": "Antifašistički vjesnik (arhivska fotografija)",
     "naziv": "Spomenik žrtvama fašističkog terora",
     "godina": "1989",
     "vrsta": "spomen-obelezje",
@@ -103388,6 +103617,9 @@
     },
     "mesto": "Donji Krčin",
     "izvor": "https://www.xiwl.com/w/index.php/Donji_Kr%C4%8Din_-_Spomenik_NOB",
+    "slika": "slike/spomenici/donji-krcin-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -103558,6 +103790,9 @@
     "priblizno": true,
     "mesto": "Donji Rinj",
     "izvor": "https://www.xiwl.com/w/index.php/Donji_Rinj_-_Spomenik_Ustanka",
+    "slika": "slike/spomenici/donji-rinj-spomenik-ustanka.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomenik ustanka",
     "godina": "1981",
     "vrsta": "spomen-obelezje",
@@ -103641,6 +103876,9 @@
     },
     "mesto": "Dragljane",
     "izvor": "https://www.xiwl.com/w/index.php/Dragljane_-_Spomenik_NOB",
+    "slika": "slike/spomenici/dragljane-spomenik-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomenik NOB",
     "godina": "1969",
     "vrsta": "spomen-obelezje",
@@ -103874,6 +104112,9 @@
     },
     "mesto": "Drenovo",
     "izvor": "https://www.xiwl.com/w/index.php/Drenovo_%28Prijepolje%29_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/drenovo-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.74,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima",
     "godina": "1973",
     "vrsta": "spomen-obelezje",
@@ -103974,6 +104215,9 @@
     },
     "mesto": "Drniš",
     "izvor": "https://www.xiwl.com/w/index.php/Drni%C5%A1_-_Spomen_Kosturnica",
+    "slika": "slike/spomenici/drnis-spomen-kosturnica.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomen-kosturnica",
     "godina": "1962",
     "vrsta": "spomen-groblje",
@@ -103987,6 +104231,9 @@
     },
     "mesto": "Drijetanj",
     "izvor": "https://www.xiwl.com/w/index.php/Drijetanj_-_Spomenik_NOB",
+    "slika": "slike/spomenici/drijetanj-spomenik-nob.webp",
+    "slikaOdnos": 0.833,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "godina": "1959",
     "vrsta": "spomen-obelezje",
@@ -104119,6 +104366,9 @@
     },
     "mesto": "Dubravice Gornje",
     "izvor": "https://www.xiwl.com/w/index.php/Dubravice_Gornje_%28Br%C4%8Dko%29_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/dubravice-gornje-spomenik-zrtvama-fasistickog-tero.webp",
+    "slikaOdnos": 1.66,
+    "slikaPotpis": "radiobrcko.ba",
     "naziv": "Spomenik žrtvama fašističkog terora",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
@@ -104609,6 +104859,9 @@
     },
     "mesto": "Gacko",
     "izvor": "https://www.xiwl.com/w/index.php/Gacko_-_Partizansko_Groblje",
+    "slika": "slike/spomenici/gacko-partizansko-groblje.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "direkt-portal.com",
     "naziv": "partizansko groblje",
     "godina": "1962",
     "vrsta": "spomen-groblje",
@@ -104664,6 +104917,9 @@
     },
     "mesto": "Gabrovnica",
     "izvor": "https://www.xiwl.com/w/index.php/Gabrovnica_%28Knja%C5%BEevac%29_-_Spomenik_%C5%BDrtvama_Drugog_Svetskog_Rata",
+    "slika": "slike/spomenici/gabrovnica-spomenik-zrtvama-drugog-svetskog-rata.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomenik žrtvama Drugog svetskog rata",
     "godina": "1989",
     "vrsta": "spomen-obelezje",
@@ -104828,6 +105084,9 @@
     },
     "mesto": "Gajana",
     "izvor": "https://www.xiwl.com/w/index.php/Gajana_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/gajana-spomenik-zrtvama-fasizma.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomenik žrtvama fašizma",
     "godina": "1986",
     "vrsta": "spomen-obelezje",
@@ -105182,6 +105441,9 @@
     },
     "mesto": "Gnjilan",
     "izvor": "https://www.xiwl.com/w/index.php/Gnjilan_%28Pirot%29_-_Spomenik_NOB",
+    "slika": "slike/spomenici/gnjilan-spomenik-nob.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomenik NOB",
     "godina": "1951",
     "vrsta": "spomen-obelezje",
@@ -105250,6 +105512,9 @@
     },
     "mesto": "Goražde",
     "izvor": "https://www.xiwl.com/w/index.php/Gora%C5%BEde_-_Kolijevke_Partizansko_Groblje",
+    "slika": "slike/spomenici/gorazde-kolijevke-partizansko-groblje.webp",
+    "slikaOdnos": 1.504,
+    "slikaPotpis": "Bosansko-podrinjski kanton Goražde",
     "naziv": "Kolijevke partizansko groblje",
     "godina": "1985",
     "vrsta": "spomen-groblje",
@@ -105656,6 +105921,9 @@
     },
     "mesto": "Gornja Jajina",
     "izvor": "https://www.xiwl.com/w/index.php/Gornja_Jajina_%E2%80%93_Spomenik_NOB",
+    "slika": "slike/spomenici/gornja-jajina-spomenik-nob.webp",
+    "slikaOdnos": 0.855,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -105866,6 +106134,9 @@
     },
     "mesto": "Gornja Trepca",
     "izvor": "https://www.xiwl.com/w/index.php/Gornja_Trepca_%E2%80%93_Spomenik_NOB",
+    "slika": "slike/spomenici/gornja-trepca-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -106006,6 +106277,9 @@
     },
     "mesto": "Gornji Banjani",
     "izvor": "https://www.xiwl.com/w/index.php/Gornji_Banjani_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/gornji-banjani-spomen-cesma.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Dungodung, CC BY-SA 3.0",
     "naziv": "Spomen-česma",
     "godina": "1963",
     "vrsta": "spomen-obelezje",
@@ -106019,6 +106293,9 @@
     },
     "mesto": "Gornji Branetići",
     "izvor": "https://www.xiwl.com/w/index.php/Gornji_Braneti%C4%87i_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/gornji-branetici-spomen-cesma.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Dungodung, CC BY-SA 3.0",
     "naziv": "Spomen-česma",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -106252,6 +106529,9 @@
     },
     "mesto": "Gornji Branetići",
     "izvor": "https://www.xiwl.com/w/index.php/Gornji_Braneti%C4%87i_-_Spomenik_Streljanima",
+    "slika": "slike/spomenici/gornji-branetici-spomenik-streljanima.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "BrankaVV, CC BY-SA 4.0",
     "naziv": "Spomenik streljanima",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -106264,6 +106544,9 @@
     },
     "mesto": "Gornja Vrežina",
     "izvor": "https://www.xiwl.com/w/index.php/Gornja_Vre%C5%BEina_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/gornja-vrezina-spomenik-palim-borcima.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Sunce Niš, CC BY-SA 4.0",
     "naziv": "Spomenik palim borcima",
     "godina": "1974",
     "autor": "M. Medvedov",
@@ -106583,6 +106866,9 @@
     },
     "mesto": "Gornji Katun",
     "izvor": "https://www.xiwl.com/w/index.php/Gornji_Katun_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/gornji-katun-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima",
     "godina": "1977",
     "autor": "Predrag Vertovšek",
@@ -106770,6 +107056,9 @@
     },
     "mesto": "Gornji Rinj",
     "izvor": "https://www.xiwl.com/w/index.php/Gornji_Rinj_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/gornji-rinj-spomen-cesma.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "1972",
     "vrsta": "spomen-obelezje",
@@ -106795,6 +107084,9 @@
     },
     "mesto": "Gornji Stepoš",
     "izvor": "https://www.xiwl.com/w/index.php/Gornji_Stepo%C5%A1_-_Spomenik_NOB",
+    "slika": "slike/spomenici/gornji-stepos-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "autor": "Dušan Miljojković",
     "vrsta": "spomen-obelezje",
@@ -106933,6 +107225,9 @@
     },
     "mesto": "Grabovica",
     "izvor": "https://www.xiwl.com/w/index.php/Grabovica_%28Gornji_Milanovac%29_-_Spomenik_NOB_Rapaj_Brdo",
+    "slika": "slike/spomenici/grabovica-spomenik-nob-rapaj-brdo.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
     "naziv": "Spomenik NOB Rapaj Brdo",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -107148,6 +107443,9 @@
     },
     "mesto": "Gradac",
     "izvor": "https://www.xiwl.com/w/index.php/Gradac_%28%C5%A0avnik%29_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/gradac-spomen-cesma.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-česma",
     "godina": "1961",
     "vrsta": "spomen-obelezje",
@@ -107324,6 +107622,9 @@
     },
     "mesto": "Gređani",
     "izvor": "https://www.xiwl.com/w/index.php/Gre%C4%91ani_%28Stara_Gradi%C5%A1ka%29_-_Spomenik_NOB",
+    "slika": "slike/spomenici/gredjani-spomenik-nob-2.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "p-portal.net",
     "naziv": "Spomenik NOB",
     "godina": "1955",
     "vrsta": "spomen-obelezje",
@@ -107440,6 +107741,9 @@
     },
     "mesto": "Gruža",
     "izvor": "https://www.xiwl.com/w/index.php/Gru%C5%BEa_%28Kni%C4%87%29_-_Spomenik_NOB",
+    "slika": "slike/spomenici/gruza-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -107697,6 +108001,9 @@
     },
     "mesto": "Gudavac",
     "izvor": "https://www.xiwl.com/w/index.php/Gudavac_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/gudavac-spomenik-palim-borcima-i-zrtvama-fasistick.webp",
+    "slikaOdnos": 0.65,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "godina": "1961",
     "vrsta": "spomen-obelezje",
@@ -107950,6 +108257,9 @@
     },
     "mesto": "Hruševec Kupljenski",
     "izvor": "https://www.xiwl.com/w/index.php/Hru%C5%A1evec_Kupljenski_-_Spomenik_NOB",
+    "slika": "slike/spomenici/hrusevec-kupljenski-spomenik-nob.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomenik NOB",
     "godina": "1985",
     "vrsta": "spomen-obelezje",
@@ -107976,6 +108286,9 @@
     },
     "mesto": "Igman",
     "izvor": "https://www.xiwl.com/w/index.php/Igman_-_Spomenik_Prva_Proleterska_Brigada",
+    "slika": "slike/spomenici/igman-spomenik-prva-proleterska-brigada.webp",
+    "slikaOdnos": 1.351,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik Prva Proleterska brigada",
     "godina": "1984",
     "vrsta": "spomen-obelezje",
@@ -108317,6 +108630,9 @@
     },
     "mesto": "Izvor",
     "izvor": "https://www.xiwl.com/w/index.php/Izvor_%28Pirot%29_%E2%80%93_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/izvor-spomen-cesma.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-česma",
     "godina": "1977",
     "vrsta": "spomen-obelezje",
@@ -108356,6 +108672,9 @@
     },
     "mesto": "Donji Krčin",
     "izvor": "https://www.xiwl.com/w/index.php/Izbenica_-_Spomenik_NOB",
+    "slika": "slike/spomenici/donji-krcin-spomenik-nob-2.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "godina": "1981",
     "vrsta": "spomen-obelezje",
@@ -108486,6 +108805,9 @@
     },
     "mesto": "Jabukovik",
     "izvor": "https://www.xiwl.com/w/index.php/Jabukovik_%28Crna_Trava%29_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/jabukovik-spomen-cesma.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "1963",
     "vrsta": "spomen-obelezje",
@@ -108565,6 +108887,9 @@
     },
     "mesto": "Jajce",
     "izvor": "https://www.xiwl.com/w/index.php/Jajce_-_Partizansko_Groblje",
+    "slika": "slike/spomenici/jajce-partizansko-groblje.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Partizansko groblje",
     "godina": "1962",
     "vrsta": "spomen-groblje",
@@ -109413,9 +109738,10 @@
     },
     "mesto": "Kalenderovci",
     "izvor": "https://www.xiwl.com/w/index.php/Kalenderovci_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
-    "naziv": "Spomenik žrtvama fašističkog terora",
+    "naziv": "Zajednička grobnica žrtava fašističkog terora",
+    "nazivEn": "Collective grave of Victims of Fascist Terror",
     "godina": "1974",
-    "vrsta": "spomen-obelezje",
+    "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -109625,6 +109951,9 @@
     },
     "mesto": "Kamenica",
     "izvor": "https://www.xiwl.com/w/index.php/Kamenica_%28Ni%C5%A1%29_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/kamenica-spomenik-palim-borcima-2.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
     "naziv": "Spomenik palim borcima",
     "godina": "1948",
     "vrsta": "spomen-obelezje",
@@ -109716,6 +110045,9 @@
     },
     "mesto": "Karan",
     "izvor": "https://www.xiwl.com/w/index.php/Karan_%28U%C5%BEice%29_-_Spomenik_Palim_NOB-a",
+    "slika": "slike/spomenici/karan-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "godina": "1979",
     "vrsta": "spomen-obelezje",
@@ -110195,6 +110527,9 @@
     },
     "mesto": "Klis-Kosa",
     "izvor": "https://www.xiwl.com/w/index.php/Klis-Kosa_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/klis-kosa-spomenik-palim-borcima.webp",
+    "slikaOdnos": 1.418,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomenik palim borcima",
     "godina": "1973",
     "vrsta": "spomen-obelezje",
@@ -110861,6 +111196,9 @@
     },
     "mesto": "Koprivštica",
     "izvor": "https://www.xiwl.com/w/index.php/Kopriv%C5%A1tica_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/koprivstica-spomen-cesma.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "1955",
     "vrsta": "spomen-obelezje",
@@ -111061,6 +111399,9 @@
     },
     "mesto": "Kostajnik",
     "izvor": "https://www.xiwl.com/w/index.php/Kostajnik_%28Krupanj%29_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/kostajnik-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.755,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -111242,6 +111583,9 @@
     },
     "mesto": "Kozja",
     "izvor": "https://www.xiwl.com/w/index.php/Kozja_-_Spomenik_NOB",
+    "slika": "slike/spomenici/kozja-spomenik-nob.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomenik NOB",
     "godina": "1983",
     "vrsta": "spomen-obelezje",
@@ -111584,6 +111928,9 @@
     "priblizno": true,
     "mesto": "Krašić",
     "izvor": "https://www.xiwl.com/w/index.php/Kra%C5%A1i%C4%87_-_Spomenik_NOB",
+    "slika": "slike/spomenici/krasic-spomenik-nob.webp",
+    "slikaOdnos": 0.72,
+    "slikaPotpis": "Antifašistički vjesnik (arhivska fotografija)",
     "naziv": "Spomenik NOB",
     "godina": "1972",
     "stanje": "uklonjen",
@@ -111855,6 +112202,9 @@
     "priblizno": true,
     "mesto": "Krst",
     "izvor": "https://www.xiwl.com/w/index.php/Krst_%28Loznica%29_-_Spomenik_NOB",
+    "slika": "slike/spomenici/krst-spomenik-nob.webp",
+    "slikaOdnos": 0.74,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -112050,6 +112400,9 @@
     },
     "mesto": "Krčedin",
     "izvor": "https://www.xiwl.com/w/index.php/Kr%C4%8Dedin_-_Spomenik_NOB",
+    "slika": "slike/spomenici/krcedin-spomenik-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "nasledje.gov.rs",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -112644,6 +112997,9 @@
     },
     "mesto": "Kuštilj",
     "izvor": "https://www.xiwl.com/w/index.php/Ku%C5%A1tilj_-_Spomenik_Palim_NOB-a",
+    "slika": "slike/spomenici/kustilj-spomenik-nob.webp",
+    "slikaOdnos": 1.77,
+    "slikaPotpis": "Novosti",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -113067,6 +113423,9 @@
     },
     "mesto": "Linovo",
     "izvor": "https://www.xiwl.com/w/index.php/Linovo_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/linovo-spomenik-palim-borcima.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomenik palim borcima",
     "godina": "1955",
     "vrsta": "spomen-obelezje",
@@ -113080,6 +113439,9 @@
     },
     "mesto": "Leskovica",
     "izvor": "https://www.xiwl.com/w/index.php/Leskovica_%28Babu%C5%A1nica%29_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/leskovica-spomenik-zrtvama-fasistickog-terora.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomenik žrtvama fašističkog terora",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -113129,6 +113491,9 @@
     },
     "mesto": "Lipnički Šor",
     "izvor": "https://www.xiwl.com/w/index.php/Lipni%C4%8Dki_%C5%A0or_-_Spomenik_NOB-a",
+    "slika": "slike/spomenici/lipnicki-sor-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "godina": "1981",
     "autor": "Ostoja Gordanić Balkanski",
@@ -113381,6 +113746,9 @@
     },
     "mesto": "Lički Osik",
     "izvor": "https://www.xiwl.com/w/index.php/Li%C4%8Dki_Osik_-_Spomenik_Marku_Ore%C5%A1kovi%C4%87u",
+    "slika": "slike/spomenici/licki-osik-spomenik-marku-oreskovicu.webp",
+    "slikaOdnos": 1.128,
+    "slikaPotpis": "Antifašistički vjesnik (arhivska fotografija)",
     "naziv": "Spomenik Marku Oreškoviću",
     "autor": "Tomislav Ostoja",
     "stanje": "uklonjen",
@@ -113437,6 +113805,9 @@
     },
     "mesto": "Lištani",
     "izvor": "https://www.xiwl.com/w/index.php/Li%C5%A1tani_-_Spomen_Grobnica",
+    "slika": "slike/spomenici/listani-spomenik-zrtvama-fasistickog-terora.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Milos Damnjanovic, Partisan Memorials Wiki",
     "naziv": "Spomenik žrtvama fašističkog terora",
     "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
@@ -113463,6 +113834,9 @@
     "priblizno": true,
     "mesto": "Ljubatovica",
     "izvor": "https://www.xiwl.com/w/index.php/Ljubatovica_%28Bela_Palanka%29_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/ljubatovica-spomen-cesma.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "1950",
     "vrsta": "spomen-obelezje",
@@ -113604,6 +113978,9 @@
     },
     "mesto": "Ljubovija",
     "izvor": "https://www.xiwl.com/w/index.php/Ljubovija_-_Spomenik_NOB-a",
+    "slika": "slike/spomenici/ljubovija-spomenik-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
     "naziv": "Spomenik NOB",
     "godina": "1971",
     "autor": "Đ. Krstić",
@@ -113644,6 +114021,9 @@
     },
     "mesto": "Ljutovnica",
     "izvor": "https://www.xiwl.com/w/index.php/Ljutovnica_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/ljutovnica-spomen-cesma.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Dungodung, CC BY-SA 3.0",
     "naziv": "Spomen-česma",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -113801,6 +114181,9 @@
     },
     "mesto": "Loznica",
     "izvor": "https://www.xiwl.com/w/index.php/Loznica_-_Partizansko_Spomen_Groblje",
+    "slika": "slike/spomenici/loznica-partizansko-spomen-groblje.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "partizansko spomen groblje",
     "vrsta": "spomen-groblje",
     "drzava": "Serbia"
@@ -113825,6 +114208,9 @@
     },
     "mesto": "Lozanj",
     "izvor": "https://www.xiwl.com/w/index.php/Lozanj_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/lozanj-spomen-cesma.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Dungodung, CC BY-SA 3.0",
     "naziv": "Spomen-česma",
     "godina": "1952",
     "vrsta": "spomen-obelezje",
@@ -113929,6 +114315,9 @@
     "priblizno": true,
     "mesto": "Lozan",
     "izvor": "https://www.xiwl.com/w/index.php/Lozan_%28Svrljig%29_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/lozan-spomen-cesma.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "1954",
     "vrsta": "spomen-obelezje",
@@ -113969,6 +114358,9 @@
     },
     "mesto": "Lovča",
     "izvor": "https://www.xiwl.com/w/index.php/Lov%C4%8Da_%28Donji_Kukuruzari%29_-_Spomenik_NOB",
+    "slika": "slike/spomenici/lovca-spomenik-nob.webp",
+    "slikaOdnos": 1.527,
+    "slikaPotpis": "Novosti",
     "naziv": "Spomenik NOB",
     "godina": "1965",
     "vrsta": "spomen-obelezje",
@@ -114110,6 +114502,9 @@
     },
     "mesto": "Lunovo Selo",
     "izvor": "https://www.xiwl.com/w/index.php/Lunovo_Selo_-_Spomen-%C4%8Cesma",
+    "slika": "slike/spomenici/lunovo-selo-spomen-cesma.webp",
+    "slikaOdnos": 0.833,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-česma",
     "godina": "1973",
     "autor": "Oliver Vučić",
@@ -114349,6 +114744,9 @@
     },
     "mesto": "Majdanpek",
     "izvor": "https://www.xiwl.com/w/index.php/Majdanpek_-_Gradska_Fontana",
+    "slika": "slike/spomenici/majdanpek-spomen-cesma.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-česma",
     "godina": "1961",
     "vrsta": "spomen-obelezje",
@@ -114388,6 +114786,9 @@
     },
     "mesto": "Majur",
     "izvor": "https://www.xiwl.com/w/index.php/Majur_%28%C5%A0abac%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/majur-spomenik-palim-borcima-i-zrtvama-fasistickog.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "godina": "1981",
     "autor": "Stanko Đurić",
@@ -114553,6 +114954,9 @@
     },
     "mesto": "Makrešane",
     "izvor": "https://www.xiwl.com/w/index.php/Makre%C5%A1ane_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/makresane-spomenik-palim-borcima-i-zrtvama-fasisti.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "godina": "1974",
     "autor": "Predrag Vertovšek",
@@ -114670,6 +115074,9 @@
     },
     "mesto": "Mala Krsna",
     "izvor": "https://www.xiwl.com/w/index.php/Mala_Krsna_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/mala-krsna-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima",
     "godina": "1973",
     "autor": "Selimir Jovanović",
@@ -114721,6 +115128,9 @@
     },
     "mesto": "Mali Beograd",
     "izvor": "https://www.xiwl.com/w/index.php/Mali_Beograd_-_Spomenik_NOB",
+    "slika": "slike/spomenici/mali-beograd-spomenik-nob.webp",
+    "slikaOdnos": 0.825,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "godina": "1959",
     "vrsta": "spomen-obelezje",
@@ -115005,6 +115415,9 @@
     },
     "mesto": "Mandalina",
     "izvor": "https://www.xiwl.com/w/index.php/Mandalina_-_Spomenik_%C5%BDrtvama_Fa%C5%A1izma",
+    "slika": "slike/spomenici/mandalina-spomenik-zrtvama-fasizma.webp",
+    "slikaOdnos": 1.0,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomenik žrtvama fašizma",
     "godina": "1953",
     "vrsta": "spomen-obelezje",
@@ -115072,6 +115485,9 @@
     },
     "mesto": "Malo Crniće",
     "izvor": "https://www.xiwl.com/w/index.php/Malo_Crni%C4%87e_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/malo-crnice-spomenik-palim-borcima.webp",
+    "slikaOdnos": 1.504,
+    "slikaPotpis": "urbancityradio.org",
     "naziv": "Spomenik palim borcima",
     "godina": "1975",
     "autor": "Stojan Cvetković",
@@ -115479,6 +115895,9 @@
     },
     "mesto": "Masurovci",
     "izvor": "https://www.xiwl.com/w/index.php/Masurovci_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/masurovci-spomen-cesma.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "1989",
     "vrsta": "spomen-obelezje",
@@ -116219,6 +116638,9 @@
     },
     "mesto": "Milutovac",
     "izvor": "https://www.xiwl.com/w/index.php/Milutovac_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/milutovac-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -116231,6 +116653,9 @@
     },
     "mesto": "Miloševići",
     "izvor": "https://www.xiwl.com/w/index.php/Milo%C5%A1evi%C4%87i_%28%C5%A0avnik%29_-_Spomen_Grobnica",
+    "slika": "slike/spomenici/milosevici-spomen-grobnica.webp",
+    "slikaOdnos": 0.833,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-grobnica",
     "vrsta": "spomen-groblje",
     "drzava": "Montenegro"
@@ -116256,6 +116681,9 @@
     },
     "mesto": "Milutovac",
     "izvor": "https://www.xiwl.com/w/index.php/Milutovac_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/milutovac-spomenik-palim-borcima-2.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima",
     "godina": "1977",
     "autor": "Milivoje Mićić",
@@ -116307,6 +116735,9 @@
     },
     "mesto": "Miočić",
     "izvor": "https://www.xiwl.com/w/index.php/Mio%C4%8Di%C4%87_-_Spomen_Grobnica",
+    "slika": "slike/spomenici/miocic-spomen-grobnica.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomen-grobnica",
     "stanje": "rusevine",
     "stanjeIzvor": {
@@ -116458,6 +116889,9 @@
     },
     "mesto": "Modra Stena",
     "izvor": "https://www.xiwl.com/w/index.php/Modra_Stena_-_Spomenik_Palim_NOB-a",
+    "slika": "slike/spomenici/modra-stena-spomenik-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomenik NOB",
     "godina": "1956",
     "vrsta": "spomen-obelezje",
@@ -116527,6 +116961,9 @@
     },
     "mesto": "Modrica",
     "izvor": "https://www.xiwl.com/w/index.php/Modrica_%28Kru%C5%A1evac%29_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/modrica-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima",
     "godina": "1977",
     "autor": "Ž. Radojčić",
@@ -116541,6 +116978,9 @@
     },
     "mesto": "Mokra Gora",
     "izvor": "https://www.xiwl.com/w/index.php/Mokra_Gora_-_Spomenik_Palim_za_Slobodu",
+    "slika": "slike/spomenici/mokra-gora-spomenik-palim-za-slobodu.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim za slobodu",
     "godina": "1984",
     "vrsta": "spomen-obelezje",
@@ -116599,6 +117039,9 @@
     "priblizno": true,
     "mesto": "Molat",
     "izvor": "https://www.xiwl.com/w/index.php/Molat_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/molat-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.562,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomenik palim borcima",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
@@ -116624,6 +117067,9 @@
     },
     "mesto": "Mokra",
     "izvor": "https://www.xiwl.com/w/index.php/Mokra_%28Bela_Palanka%29_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/mokra-spomen-cesma.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "1956",
     "vrsta": "spomen-obelezje",
@@ -116739,6 +117185,9 @@
     },
     "mesto": "Mrtvice Canyon",
     "izvor": "https://www.xiwl.com/w/index.php/Mrtvice_-_Partizan_Grave",
+    "slika": "slike/spomenici/mrtvice-canyon-spomen-grobnica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-grobnica",
     "vrsta": "spomen-groblje",
     "drzava": "Montenegro"
@@ -116842,6 +117291,9 @@
     },
     "mesto": "Moštanica",
     "izvor": "https://www.xiwl.com/w/index.php/Mo%C5%A1tanica_%28Petrinja%29_-_Spomenik_NOB",
+    "slika": "slike/spomenici/mostanica-spomenik-nob-2.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "branitelji.gov.hr",
     "naziv": "Spomenik NOB",
     "godina": "1952",
     "vrsta": "spomen-obelezje",
@@ -116892,6 +117344,9 @@
     },
     "mesto": "Mramor",
     "izvor": "https://www.xiwl.com/w/index.php/Mramor_%28Ni%C5%A1%29_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/mramor-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Sunce Niš, CC BY 4.0",
     "naziv": "Spomenik palim borcima",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -116980,6 +117435,9 @@
     },
     "mesto": "Muo",
     "izvor": "https://www.xiwl.com/w/index.php/Muo_%28Kotor%29_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/muo-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.532,
+    "slikaPotpis": "radiokotor.info",
     "naziv": "Spomenik palim borcima",
     "godina": "1958",
     "vrsta": "spomen-obelezje",
@@ -117191,6 +117649,9 @@
     },
     "mesto": "Naupare",
     "izvor": "https://www.xiwl.com/w/index.php/Naupare_-_Spomen_Fontana",
+    "slika": "slike/spomenici/naupare-spomen-fontana.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen fontana",
     "godina": "1974",
     "autor": "Predrag Vertovšek",
@@ -117267,6 +117728,9 @@
     },
     "mesto": "Nesvrta",
     "izvor": "https://www.xiwl.com/w/index.php/Nesvrta_%28Vranje%29_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/nesvrta-spomen-cesma.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "okradio.rs",
     "naziv": "Spomen-česma",
     "godina": "1957",
     "vrsta": "spomen-obelezje",
@@ -117434,6 +117898,9 @@
     },
     "mesto": "Nišor",
     "izvor": "https://www.xiwl.com/w/index.php/Ni%C5%A1or_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/nisor-spomen-cesma.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "1959",
     "vrsta": "spomen-obelezje",
@@ -117472,6 +117939,9 @@
     },
     "mesto": "Novi Sad",
     "izvor": "https://www.xiwl.com/w/index.php/Novi_Sad_-_Staro_Groblje_-_Partizan_Graves",
+    "slika": "slike/spomenici/novi-sad-spomen-grobnica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-grobnica",
     "vrsta": "spomen-groblje",
     "drzava": "Serbia"
@@ -117497,6 +117967,9 @@
     },
     "mesto": "Sarajevo (Novi Grad)",
     "izvor": "https://www.xiwl.com/w/index.php/Novi_Grad_Sarajevo_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/novi-grad-sarajevo-spomenik-zrtvama-fasistickog-te.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik žrtvama fašističkog terora",
     "godina": "1984",
     "autor": "Pavle Mašić",
@@ -117633,6 +118106,9 @@
     },
     "mesto": "Novi Priboj",
     "izvor": "https://www.xiwl.com/w/index.php/Novi_Priboj_-_Spomen_Kosturnica",
+    "slika": "slike/spomenici/novi-priboj-spomen-kosturnica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-kosturnica",
     "godina": "1961",
     "vrsta": "spomen-groblje",
@@ -117659,6 +118135,9 @@
     },
     "mesto": "Novigrad Podravski",
     "izvor": "https://www.xiwl.com/w/index.php/Novigrad_Podravski_-_Spomen-Kosturnica",
+    "slika": "slike/spomenici/novigrad-podravski-spomen-kosturnica.webp",
+    "slikaOdnos": 2.222,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomen-kosturnica",
     "godina": "1946",
     "vrsta": "spomen-groblje",
@@ -117711,6 +118190,9 @@
     },
     "mesto": "Novo Orahovo",
     "izvor": "https://www.xiwl.com/w/index.php/Novo_Orahovo_-_Spomenik_Palim_NOB-a",
+    "slika": "slike/spomenici/novo-orahovo-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -117878,6 +118360,9 @@
     },
     "mesto": "Obrenovac",
     "izvor": "https://www.xiwl.com/w/index.php/Obrenovac_%28Pirot%29_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/obrenovac-spomen-cesma.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "2005",
     "vrsta": "spomen-obelezje",
@@ -118128,6 +118613,9 @@
     },
     "mesto": "Omiš",
     "izvor": "https://www.xiwl.com/w/index.php/Omi%C5%A1_-_Spomenik_Franji_Kluzu",
+    "slika": "slike/spomenici/omis-spomenik-franji-kluzu.webp",
+    "slikaOdnos": 0.688,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomenik Franji Kluzu",
     "godina": "1957",
     "vrsta": "spomen-obelezje",
@@ -118607,6 +119095,9 @@
     },
     "mesto": "Ostatovica",
     "izvor": "https://www.xiwl.com/w/index.php/Ostatovica_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/ostatovica-spomen-cesma.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "1958",
     "vrsta": "spomen-obelezje",
@@ -118893,6 +119384,9 @@
     },
     "mesto": "Pakleštica",
     "izvor": "https://www.xiwl.com/w/index.php/Pakle%C5%A1tica_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/paklestica-spomenik-palim-borcima.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomenik palim borcima",
     "godina": "1956",
     "vrsta": "spomen-obelezje",
@@ -118931,6 +119425,9 @@
     },
     "mesto": "Papratna",
     "izvor": "https://www.xiwl.com/w/index.php/Papratna_%28Knja%C5%BEevac%29_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/papratna-spomen-cesma.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "1981",
     "vrsta": "spomen-obelezje",
@@ -118944,6 +119441,9 @@
     },
     "mesto": "Paraćin",
     "izvor": "https://www.xiwl.com/w/index.php/Para%C4%87in_-_Spomen_Grobnica",
+    "slika": "slike/spomenici/paracin-spomen-grobnica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-grobnica",
     "vrsta": "spomen-groblje",
     "drzava": "Serbia"
@@ -118984,6 +119484,9 @@
     },
     "mesto": "Parcane",
     "izvor": "https://www.xiwl.com/w/index.php/Parcane_-_Spomenik_Mirku_Tomi%C4%87u",
+    "slika": "slike/spomenici/parcane-spomenik-mirku-tomicu.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik Mirku Tomiću",
     "godina": "1967",
     "autor": "Dimitrija Simić",
@@ -119091,6 +119594,9 @@
     "priblizno": true,
     "mesto": "Paskovac",
     "izvor": "https://www.xiwl.com/w/index.php/Paskovac_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/paskovac-spomen-cesma.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-česma",
     "godina": "1949",
     "vrsta": "spomen-obelezje",
@@ -119200,6 +119706,9 @@
     },
     "mesto": "Pelev Brijeg",
     "izvor": "https://www.xiwl.com/w/index.php/Pelev_Brijeg_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/pelev-brijeg-spomenik-palim-borcima-i-zrtvama-fasi.webp",
+    "slikaOdnos": 1.504,
+    "slikaPotpis": "Vijesti",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "godina": "1978",
     "autor": "Luka Tomanović",
@@ -119382,6 +119891,9 @@
     },
     "mesto": "Perušić",
     "izvor": "https://www.xiwl.com/w/index.php/Peru%C5%A1i%C4%87_-_Spomen_Kosturnica",
+    "slika": "slike/spomenici/perusic-spomen-kosturnica.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomen-kosturnica",
     "godina": "1980",
     "vrsta": "spomen-groblje",
@@ -119534,6 +120046,9 @@
     },
     "mesto": "Petrovac",
     "izvor": "https://www.xiwl.com/w/index.php/Petrovac_%28Pirot%29_-_Spomen_Obele%C5%BEje_Pade%C5%BE",
+    "slika": "slike/spomenici/petrovac-spomen-obelezje-padez.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-obeležje Padež",
     "godina": "1951",
     "vrsta": "spomen-obelezje",
@@ -119578,6 +120093,9 @@
     },
     "mesto": "Pirot",
     "izvor": "https://www.xiwl.com/w/index.php/Pirot_-_Partisan_Grave",
+    "slika": "slike/spomenici/pirot-spomen-grobnica.webp",
+    "slikaOdnos": 1.843,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-grobnica",
     "vrsta": "spomen-groblje",
     "drzava": "Serbia"
@@ -119642,6 +120160,9 @@
     },
     "mesto": "Pijavice",
     "izvor": "https://www.xiwl.com/w/index.php/Pijavice_%28Jajce%29_-_Spomenik_Prvoj_Dalmatinskoj_Brigadi",
+    "slika": "slike/spomenici/pijavice-spomenik-prvoj-dalmatinskoj-brigadi.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik Prvoj dalmatinskoj brigadi",
     "godina": "1980",
     "vrsta": "spomen-obelezje",
@@ -119669,6 +120190,9 @@
     },
     "mesto": "Pirot",
     "izvor": "https://www.xiwl.com/w/index.php/Pirot_-_Spomen_Grobnica",
+    "slika": "slike/spomenici/pirot-spomen-grobnica-2.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-grobnica",
     "vrsta": "spomen-groblje",
     "drzava": "Serbia"
@@ -119681,6 +120205,9 @@
     },
     "mesto": "Pirot",
     "izvor": "https://www.xiwl.com/w/index.php/Pirot_-_Spomenik_Dragoljubu_Milenkovi%C4%87u",
+    "slika": "slike/spomenici/pirot-spomenik-dragoljubu-milenkovicu.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomenik Dragoljubu Milenkoviću",
     "godina": "1950",
     "vrsta": "spomen-obelezje",
@@ -119847,6 +120374,9 @@
     },
     "mesto": "Pljevlja",
     "izvor": "https://www.xiwl.com/w/index.php/Pljevlja_-_Spomen_Kosturnica_Senjaku",
+    "slika": "slike/spomenici/pljevlja-spomen-kosturnica-senjaku.webp",
+    "slikaOdnos": 0.787,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-kosturnica Senjaku",
     "godina": "1985",
     "autor": "Milovan Stevović",
@@ -119861,6 +120391,9 @@
     },
     "mesto": "Pljevlja",
     "izvor": "https://www.xiwl.com/w/index.php/Pljevlja_-_Spomen_Grobnica_Bo%C5%A1ku_Buhi",
+    "slika": "slike/spomenici/pljevlja-spomen-grobnica-bosku-buhi.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-grobnica Bošku Buhi",
     "vrsta": "spomen-groblje",
     "drzava": "Montenegro"
@@ -119873,6 +120406,9 @@
     },
     "mesto": "Pljevlja",
     "izvor": "https://www.xiwl.com/w/index.php/Pljevlja_-_Spomen_%C4%8Cesma_Vuka_Kne%C5%BEevi%C4%87a",
+    "slika": "slike/spomenici/pljevlja-spomen-cesma-vuka-knezevica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-česma Vuka Kneževića",
     "godina": "1983",
     "autor": "Vasilije Knežević",
@@ -120403,6 +120939,9 @@
     },
     "mesto": "Poljna",
     "izvor": "https://www.xiwl.com/w/index.php/Poljna_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/poljna-spomenik-palim-borcima-i-zrtvama-fasisticko.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "godina": "1971",
     "autor": "Dimitrija Simić",
@@ -120841,6 +121380,9 @@
     },
     "mesto": "Potporanj",
     "izvor": "https://www.xiwl.com/w/index.php/Potporanj_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/potporanj-spomenik-palim-borcima.webp",
+    "slikaOdnos": 1.77,
+    "slikaPotpis": "Novosti",
     "naziv": "Spomenik palim borcima",
     "godina": "1953",
     "vrsta": "spomen-obelezje",
@@ -121092,6 +121634,9 @@
     },
     "mesto": "Pridvorica",
     "izvor": "https://www.xiwl.com/w/index.php/Pridvorica_%28Bojnik%29_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/pridvorica-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.76,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima",
     "godina": "1982",
     "vrsta": "spomen-obelezje",
@@ -121157,6 +121702,9 @@
     },
     "mesto": "Pridoli",
     "izvor": "https://www.xiwl.com/w/index.php/Pridoli_-_Spomenik_NOB",
+    "slika": "slike/spomenici/pridoli-spomenik-nob.webp",
+    "slikaOdnos": 0.77,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -121193,6 +121741,9 @@
     },
     "mesto": "Novi Priboj",
     "izvor": "https://www.xiwl.com/w/index.php/Priboj_-_Spomen_Grobnica_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/novi-priboj-spomen-grobnica-zrtvama-fasistickog-te.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-grobnica žrtvama fašističkog terora",
     "vrsta": "spomen-groblje",
     "drzava": "Serbia"
@@ -121243,6 +121794,9 @@
     },
     "mesto": "Prkos Lasinjski",
     "izvor": "https://www.xiwl.com/w/index.php/Prkos_Lasinjski_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/prkos-lasinjski-spomenik-zrtvama-fasistickog-teror.webp",
+    "slikaOdnos": 1.914,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomenik žrtvama fašističkog terora",
     "autor": "Aleksander Freidenreich",
     "vrsta": "spomen-obelezje",
@@ -121450,6 +122004,9 @@
     },
     "mesto": "Provaljenik",
     "izvor": "https://www.xiwl.com/w/index.php/Provaljenik_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/provaljenik-spomenik-palim-borcima.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomenik palim borcima",
     "godina": "1974",
     "vrsta": "spomen-obelezje",
@@ -121686,6 +122243,9 @@
     },
     "mesto": "Radosinj",
     "izvor": "https://www.xiwl.com/w/index.php/Radosinj_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/radosinj-spomen-cesma.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "1975",
     "vrsta": "spomen-obelezje",
@@ -121699,6 +122259,9 @@
     },
     "mesto": "Radojevo",
     "izvor": "https://www.xiwl.com/w/index.php/Radojevo_-_Stone_Marker",
+    "slika": "slike/spomenici/radojevo-stone-marker.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Stone Marker",
     "godina": "1959",
     "vrsta": "spomen-obelezje",
@@ -121851,6 +122414,9 @@
     },
     "mesto": "Rakovac BiH",
     "izvor": "https://www.xiwl.com/w/index.php/Rakovac_%28Krivodoli%29_-_Spomen_Kosturnica",
+    "slika": "slike/spomenici/rakovac-bih-spomen-kosturnica.webp",
+    "slikaOdnos": 1.471,
+    "slikaPotpis": "vecernjenovosti.ba",
     "naziv": "Spomen-kosturnica",
     "godina": "1958",
     "vrsta": "spomen-groblje",
@@ -121954,6 +122520,9 @@
     },
     "mesto": "Rakitje",
     "izvor": "https://www.xiwl.com/w/index.php/Rakitje_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/rakitje-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.76,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomenik palim borcima",
     "godina": "1966",
     "vrsta": "spomen-obelezje",
@@ -121967,6 +122536,9 @@
     },
     "mesto": "Rakov Dol",
     "izvor": "https://www.xiwl.com/w/index.php/Rakov_Dol_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/rakov-dol-spomenik-palim-borcima.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomenik palim borcima",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -122123,6 +122695,9 @@
     },
     "mesto": "Rakoš",
     "izvor": "https://www.xiwl.com/w/index.php/Rako%C5%A1_-_Spomenik_NOB",
+    "slika": "slike/spomenici/rakos-spomenik-nob.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomenik NOB",
     "godina": "1955",
     "vrsta": "spomen-obelezje",
@@ -122276,6 +122851,9 @@
     },
     "mesto": "Ratina",
     "izvor": "https://www.xiwl.com/w/index.php/Ratina_%28Kraljevo%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/ratina-spomenik-palim-borcima-i-zrtvama-fasisticko.webp",
+    "slikaOdnos": 0.795,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "godina": "1977",
     "vrsta": "spomen-obelezje",
@@ -122473,6 +123051,9 @@
     },
     "mesto": "Rašćane",
     "izvor": "https://www.xiwl.com/w/index.php/Ra%C5%A1%C4%87ane_-_Spomenik_%C5%BDrtvama_%C4%8Cetni%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/rascane-spomenik-zrtvama-cetnickog-terora.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomenik žrtvama četničkog terora",
     "godina": "2010",
     "vrsta": "spomen-obelezje",
@@ -122690,6 +123271,9 @@
     },
     "mesto": "Rgotina",
     "izvor": "https://www.xiwl.com/w/index.php/Rgotina_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/rgotina-spomenik-palim-borcima-i-zrtvama-fasistick.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "godina": "1983",
     "vrsta": "spomen-obelezje",
@@ -122839,6 +123423,9 @@
     },
     "mesto": "Rijeka",
     "izvor": "https://www.xiwl.com/w/index.php/Rijeka_%28Zamet%29_-_Spomen_Grobnica",
+    "slika": "slike/spomenici/rijeka-spomen-grobnica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-grobnica",
     "godina": "1986",
     "vrsta": "spomen-groblje",
@@ -122852,6 +123439,9 @@
     },
     "mesto": "Rijeka",
     "izvor": "https://www.xiwl.com/w/index.php/Rijeka_%28Zamet%29_-_Spomenik_SBOR_NF",
+    "slika": "slike/spomenici/rijeka-spomenik-sbor-nf.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik SBOR NF",
     "godina": "1952",
     "vrsta": "spomen-obelezje",
@@ -123040,6 +123630,9 @@
     },
     "mesto": "Rotimlja",
     "izvor": "https://www.xiwl.com/w/index.php/Rotimlja_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/rotimlja-spomenik-zrtvama-fasistickog-terora.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik žrtvama fašističkog terora",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
@@ -123078,6 +123671,9 @@
     },
     "mesto": "Rsovci",
     "izvor": "https://www.xiwl.com/w/index.php/Rsovci_-_Spomenik_Poginulima",
+    "slika": "slike/spomenici/rsovci-spomenik-poginulima.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik poginulima",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -123519,6 +124115,9 @@
     },
     "mesto": "Gubin",
     "izvor": "https://www.xiwl.com/w/index.php/Sajkovi%C4%87_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/gubin-spomenik-zrtvama-fasistickog-terora.webp",
+    "slikaOdnos": 1.338,
+    "slikaPotpis": "Milos Damnjanovic, Partisan Memorials Wiki",
     "naziv": "Spomenik žrtvama fašističkog terora",
     "godina": "1962",
     "vrsta": "spomen-obelezje",
@@ -123669,6 +124268,9 @@
     },
     "mesto": "Sarajevo (Centar)",
     "izvor": "https://www.xiwl.com/w/index.php/Sarajevo_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/centar-sarajevo-spomenik-zrtvama-fasistickog-teror.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik žrtvama fašističkog terora",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
@@ -123938,6 +124540,9 @@
     },
     "mesto": "Sevojno",
     "izvor": "https://www.xiwl.com/w/index.php/Sevojno_-_Spomenik_Partizanskom_Stra%C5%BEaru",
+    "slika": "slike/spomenici/sevojno-spomenik-partizanskom-strazaru.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik partizanskom Stražaru",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -123950,6 +124555,9 @@
     },
     "mesto": "Sevojno",
     "izvor": "https://www.xiwl.com/w/index.php/Sevojno_-_Spomenik_Borcima_Revolucije",
+    "slika": "slike/spomenici/sevojno-spomenik-borcima-revolucije.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik borcima revolucije",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -124028,6 +124636,9 @@
     },
     "mesto": "Senj",
     "izvor": "https://www.xiwl.com/w/index.php/Senj_-_Spomenik_Tri_Mornara",
+    "slika": "slike/spomenici/senj-spomenik-tri-mornara.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik Tri Mornara",
     "autor": "Ivan Vukušić",
     "vrsta": "spomen-obelezje",
@@ -124280,6 +124891,9 @@
     },
     "mesto": "Sisak",
     "izvor": "https://www.xiwl.com/w/index.php/Sisak_-_Camp_Sisak_Fountain",
+    "slika": "slike/spomenici/sisak-spomen-cesma.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-česma",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
@@ -124292,6 +124906,9 @@
     },
     "mesto": "Sisak",
     "izvor": "https://www.xiwl.com/w/index.php/Sisak_-_Monument_to_Fallen_Fighters",
+    "slika": "slike/spomenici/sisak-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima",
     "godina": "1949",
     "autor": "Marijan Kocković",
@@ -124409,6 +125026,9 @@
     },
     "mesto": "Sivac",
     "izvor": "https://www.xiwl.com/w/index.php/Sivac_-_Spomenik_NOB",
+    "slika": "slike/spomenici/sivac-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "godina": "1979",
     "autor": "S. Ćurić",
@@ -124442,6 +125062,9 @@
     },
     "mesto": "Sjenica",
     "izvor": "https://www.xiwl.com/w/index.php/Sjenica_-_Spomen_Kosturnica",
+    "slika": "slike/spomenici/sjenica-spomen-kosturnica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-kosturnica",
     "godina": "1976",
     "autor": "M. Tomić",
@@ -124792,6 +125415,9 @@
     },
     "mesto": "Slepčević",
     "izvor": "https://www.xiwl.com/w/index.php/Slep%C4%8Devi%C4%87_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/slepcevic-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.767,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -124865,6 +125491,9 @@
     },
     "mesto": "Smederevo",
     "izvor": "https://www.xiwl.com/w/index.php/Smederevo_-_Spomenik_5.junskoj_Tragediji",
+    "slika": "slike/spomenici/smederevo-spomenik-5-junskoj-tragediji.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik 5.junskoj Tragediji",
     "godina": "1973",
     "autor": "Selimir Jovanović",
@@ -125006,6 +125635,9 @@
     },
     "mesto": "Sopot",
     "izvor": "https://www.xiwl.com/w/index.php/Sopot_-_Spomenik_NOB-a",
+    "slika": "slike/spomenici/sopot-spomenik-nika.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik Nika",
     "godina": "1972",
     "autor": "Momčilo Krković",
@@ -125072,6 +125704,9 @@
     },
     "mesto": "Sovljak",
     "izvor": "https://www.xiwl.com/w/index.php/Sovljak_%28Bogati%C4%87%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/sovljak-spomenik-palim-borcima-i-zrtvama-fasistick.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "godina": "1977",
     "vrsta": "spomen-obelezje",
@@ -125371,6 +126006,9 @@
     },
     "mesto": "Srnje",
     "izvor": "https://www.xiwl.com/w/index.php/Srnje_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/srnje-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima",
     "godina": "1975",
     "autor": "Predrag Vertovšek",
@@ -125448,6 +126086,9 @@
     },
     "mesto": "Stalać",
     "izvor": "https://www.xiwl.com/w/index.php/Stala%C4%87_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/stalac-spomenik-palim-borcima-i-zrtvama-fasisticko.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "godina": "1974",
     "autor": "Predrag Vertovšek",
@@ -125966,6 +126607,9 @@
     },
     "mesto": "Stopanja",
     "izvor": "https://www.xiwl.com/w/index.php/Stopanja_%E2%80%93_Spomenik_NOB",
+    "slika": "slike/spomenici/stopanja-spomenik-nob.webp",
+    "slikaOdnos": 0.76,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -126003,6 +126647,9 @@
     },
     "mesto": "Stragari",
     "izvor": "https://www.xiwl.com/w/index.php/Stragari_%28Trstenik%29_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/stragari-spomen-cesma.webp",
+    "slikaOdnos": 0.69,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-česma",
     "godina": "1972",
     "autor": "Predrag Vertovšek",
@@ -126017,6 +126664,9 @@
     },
     "mesto": "Stol",
     "izvor": "https://www.xiwl.com/w/index.php/Stol_%28Babu%C5%A1nica%29_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/stol-spomen-cesma.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "1949",
     "vrsta": "spomen-obelezje",
@@ -126224,6 +126874,9 @@
     },
     "mesto": "Studena",
     "izvor": "https://www.xiwl.com/w/index.php/Studena_%28Babu%C5%A1nica%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/studena-spomenik-palim-borcima-i-zrtvama-fasistick.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "godina": "1954",
     "vrsta": "spomen-obelezje",
@@ -126237,6 +126890,9 @@
     },
     "mesto": "Studena",
     "izvor": "https://www.xiwl.com/w/index.php/Studena_%28Babu%C5%A1nica%29_-_Spomenik_Dragici_%C5%BDarkovi%C4%87",
+    "slika": "slike/spomenici/studena-spomenik-dragici-zarkovic.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomenik Dragici Žarković",
     "godina": "1955",
     "vrsta": "spomen-obelezje",
@@ -126250,6 +126906,9 @@
     },
     "mesto": "Subotica",
     "izvor": "https://www.xiwl.com/w/index.php/Subotica_-_Spomenik_Jevrejskim_%C5%BDrtvama_Fa%C5%A1izma",
+    "slika": "slike/spomenici/subotica-spomenik-jevrejskim-zrtvama-fasizma.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik jevrejskim žrtvama fašizma",
     "godina": "1948",
     "autor": "Lajčo Dajč",
@@ -126302,6 +126961,9 @@
     },
     "mesto": "Sukošan",
     "izvor": "https://www.xiwl.com/w/index.php/Suko%C5%A1an_-_Spomenik_Palim_Borcima_NOB-a_i_%C5%BDrtvama_Fa%C5%A1izma",
+    "slika": "slike/spomenici/sukosan-spomenik-palim-borcima-nob-i-zrtvama-fasiz.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomenik palim borcima NOB i žrtvama fašizma",
     "godina": "1987",
     "stanje": "rusevine",
@@ -126321,6 +126983,9 @@
     },
     "mesto": "Susek",
     "izvor": "https://www.xiwl.com/w/index.php/Susek_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Rata",
+    "slika": "slike/spomenici/susek-spomenik-palim-borcima-i-zrtvama-rata.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima i žrtvama rata",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -126561,6 +127226,9 @@
     },
     "mesto": "Sveti Ivan Zelina",
     "izvor": "https://www.xiwl.com/w/index.php/Sveti_Ivan_Zelina_-_Spomenik_NOB",
+    "slika": "slike/spomenici/sveti-ivan-zelina-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomenik NOB",
     "godina": "1957",
     "vrsta": "spomen-obelezje",
@@ -126611,6 +127279,9 @@
     },
     "mesto": "Sušica",
     "izvor": "https://www.xiwl.com/w/index.php/Su%C5%A1ica_%28Kru%C5%A1evac%29_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/susica-spomen-cesma.webp",
+    "slikaOdnos": 1.66,
+    "slikaPotpis": "krusevac.ls.gov.rs",
     "naziv": "Spomen-česma",
     "godina": "1974",
     "vrsta": "spomen-obelezje",
@@ -126761,6 +127432,9 @@
     },
     "mesto": "Sveti Stefan",
     "izvor": "https://www.xiwl.com/w/index.php/Sveti_Stefan_%28Budva%29_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/sveti-stefan-spomen-cesma.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Vijesti",
     "naziv": "Spomen-česma",
     "vrsta": "spomen-obelezje",
     "drzava": "Montenegro"
@@ -126843,6 +127517,9 @@
     },
     "mesto": "Talambas",
     "izvor": "https://www.xiwl.com/w/index.php/Talambas_-_Spomenik_NOB",
+    "slika": "slike/spomenici/talambas-spomenik-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomenik NOB",
     "godina": "1955",
     "vrsta": "spomen-obelezje",
@@ -127043,6 +127720,9 @@
     },
     "mesto": "Temska",
     "izvor": "https://www.xiwl.com/w/index.php/Temska_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/temska-spomen-cesma.webp",
+    "slikaOdnos": 1.32,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "1955",
     "vrsta": "spomen-obelezje",
@@ -127364,6 +128044,9 @@
     },
     "mesto": "Trnopolje",
     "izvor": "https://www.xiwl.com/w/index.php/Trnopolje_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/trnopolje-spomenik-zrtvama-fasistickog-terora.webp",
+    "slikaOdnos": 1.254,
+    "slikaPotpis": "Muzej Kozare",
     "naziv": "Spomenik žrtvama fašističkog terora",
     "godina": "1969",
     "vrsta": "spomen-obelezje",
@@ -127442,6 +128125,9 @@
     },
     "mesto": "Tribunj",
     "izvor": "https://www.xiwl.com/w/index.php/Tribunj_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/tribunj-spomenik-palim-borcima.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomenik palim borcima",
     "godina": "1961",
     "vrsta": "spomen-obelezje",
@@ -127655,6 +128341,9 @@
     },
     "mesto": "Tuk Vojni",
     "izvor": "https://www.xiwl.com/w/index.php/Tuk_Vojni_-_Mati%C4%87_Poljana",
+    "slika": "slike/spomenici/tuk-vojni-matic-poljana.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Matić Poljana",
     "godina": "1969",
     "autor": "Zdenko Sila",
@@ -127698,6 +128387,9 @@
     },
     "mesto": "Turčin",
     "izvor": "https://www.xiwl.com/w/index.php/Tur%C4%8Din_-_Spomenik_Ustanka",
+    "slika": "slike/spomenici/turcin-spomenik-ustanka.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomenik ustanka",
     "godina": "1975",
     "autor": "Pavle Vojković",
@@ -127726,6 +128418,9 @@
     },
     "mesto": "Tumba",
     "izvor": "https://www.xiwl.com/w/index.php/Tumba_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/tumba-spomen-cesma.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -127841,6 +128536,9 @@
     },
     "mesto": "Umka",
     "izvor": "https://www.xiwl.com/w/index.php/Umka_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/umka-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -128065,6 +128763,9 @@
     },
     "mesto": "Užice",
     "izvor": "https://www.xiwl.com/w/index.php/U%C5%BEice_-_Spomen_%C4%8Cesma_Rakijska_Pijaca",
+    "slika": "slike/spomenici/uzice-spomen-cesma-rakijska-pijaca.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-česma Rakijska Pijaca",
     "godina": "1966",
     "vrsta": "spomen-obelezje",
@@ -128147,6 +128848,9 @@
     },
     "mesto": "Valniš",
     "izvor": "https://www.xiwl.com/w/index.php/Valni%C5%A1_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/valnis-spomen-cesma.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "1972",
     "vrsta": "spomen-obelezje",
@@ -128160,6 +128864,9 @@
     },
     "mesto": "Varvarin Selo",
     "izvor": "https://www.xiwl.com/w/index.php/Varvarin_Selo_-_Spomenik_Borcima_za_Slobodu_1810-1945",
+    "slika": "slike/spomenici/varvarin-selo-spomenik.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik",
     "godina": "1986",
     "vrsta": "spomen-obelezje",
@@ -128548,6 +129255,9 @@
     },
     "mesto": "Velika Lukanja",
     "izvor": "https://www.xiwl.com/w/index.php/Velika_Lukanja_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/velika-lukanja-spomen-cesma.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "1959",
     "vrsta": "spomen-obelezje",
@@ -128803,6 +129513,9 @@
     },
     "mesto": "Veliko Selo",
     "izvor": "https://www.xiwl.com/w/index.php/Veliko_Selo_%28Pirot%29_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/veliko-selo-spomenik-palim-borcima.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomenik palim borcima",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -128815,6 +129528,9 @@
     },
     "mesto": "Veliko Selo",
     "izvor": "https://www.xiwl.com/w/index.php/Veliko_Selo_%28Pirot%29_-_Spomen_Grobnica",
+    "slika": "slike/spomenici/veliko-selo-spomen-grobnica.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-grobnica",
     "godina": "1956",
     "vrsta": "spomen-groblje",
@@ -128828,6 +129544,9 @@
     },
     "mesto": "Veliki Jovanovac",
     "izvor": "https://www.xiwl.com/w/index.php/Veliki_Jovanovac_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/veliki-jovanovac-spomen-cesma.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "1978",
     "autor": "M. Janjić",
@@ -128962,6 +129681,9 @@
     },
     "mesto": "Veljun",
     "izvor": "https://www.xiwl.com/w/index.php/Veljun_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/veljun-spomenik-zrtvama-fasistickog-terora.webp",
+    "slikaOdnos": 1.754,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomenik žrtvama fašističkog terora",
     "godina": "1975",
     "autor": "Mihael Kajfeš",
@@ -129095,6 +129817,9 @@
     },
     "mesto": "Vidrovan",
     "izvor": "https://www.xiwl.com/w/index.php/Vidrovan_-_Spomen_Grobnica_Gornje_Polje",
+    "slika": "slike/spomenici/vidrovan-spomen-grobnica-gornje-polje.webp",
+    "slikaOdnos": 0.562,
+    "slikaPotpis": "Vijesti",
     "naziv": "Spomen-grobnica Gornje Polje",
     "vrsta": "spomen-groblje",
     "drzava": "Montenegro"
@@ -129170,6 +129895,9 @@
     },
     "mesto": "Vir",
     "izvor": "https://www.xiwl.com/w/index.php/Vir_%28Nik%C5%A1i%C4%87%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/vir-spomenik-palim-borcima-i-zrtvama-fasistickog-t.webp",
+    "slikaOdnos": 0.345,
+    "slikaPotpis": "Vijesti",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "vrsta": "spomen-obelezje",
     "drzava": "Montenegro"
@@ -129252,6 +129980,9 @@
     },
     "mesto": "Вишни",
     "izvor": "https://www.xiwl.com/w/index.php/Vi%C5%A1ni_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/visni-spomen-cesma.webp",
+    "slikaOdnos": 0.562,
+    "slikaPotpis": "Ehrlich91, CC BY-SA 4.0",
     "naziv": "Спомен-чешма",
     "godina": "1983",
     "vrsta": "spomen-obelezje",
@@ -129302,6 +130033,9 @@
     },
     "mesto": "Višegrad",
     "izvor": "https://www.xiwl.com/w/index.php/Vi%C5%A1egrad_-_Memorial_Panel",
+    "slika": "slike/spomenici/visegrad-spomenik.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik",
     "godina": "1955",
     "vrsta": "spomen-obelezje",
@@ -129390,6 +130124,9 @@
     },
     "mesto": "Vladičin Han",
     "izvor": "https://www.xiwl.com/w/index.php/Vladi%C4%8Din_Han_-_Spomen_Grobnica",
+    "slika": "slike/spomenici/vladicin-han-spomen-grobnica.webp",
+    "slikaOdnos": 1.77,
+    "slikaPotpis": "Novosti",
     "naziv": "Spomen-grobnica",
     "vrsta": "spomen-groblje",
     "drzava": "Serbia"
@@ -129440,6 +130177,9 @@
     },
     "mesto": "Vlaka",
     "izvor": "https://www.xiwl.com/w/index.php/Vlaka_%28Vrgorac%29_-_Spomenik_NOB",
+    "slika": "slike/spomenici/vlaka-spomenik-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomenik NOB",
     "godina": "1985",
     "vrsta": "spomen-obelezje",
@@ -129632,6 +130372,9 @@
     },
     "mesto": "Vojnici",
     "izvor": "https://www.xiwl.com/w/index.php/Vojnici_%28Babu%C5%A1nica%29_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/vojnici-spomen-cesma.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "1966",
     "vrsta": "spomen-obelezje",
@@ -129672,6 +130415,9 @@
     },
     "mesto": "Voluja",
     "izvor": "https://www.xiwl.com/w/index.php/Voluja_-_Spomen_Obele%C5%BEje",
+    "slika": "slike/spomenici/voluja-spomen-obelezje.webp",
+    "slikaOdnos": 0.715,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-obeležje",
     "godina": "1971",
     "vrsta": "spomen-obelezje",
@@ -129685,6 +130431,9 @@
     },
     "mesto": "Volar",
     "izvor": "https://www.xiwl.com/w/index.php/Volar_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "slika": "slike/spomenici/volar-spomenik-palim-borcima-i-zrtvama-fasistickog.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Muzej Kozare",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "godina": "1958",
     "vrsta": "spomen-obelezje",
@@ -129711,6 +130460,9 @@
     },
     "mesto": "Voćnjak",
     "izvor": "https://www.xiwl.com/w/index.php/Vo%C4%87njak_-_Spomenik_NOB-a",
+    "slika": "slike/spomenici/vocnjak-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "autor": "Ostoja Gordanić Balkanski",
     "vrsta": "spomen-obelezje",
@@ -129775,6 +130527,9 @@
     },
     "mesto": "Vranište",
     "izvor": "https://www.xiwl.com/w/index.php/Vrani%C5%A1te_%28Pirot%29_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/vraniste-spomen-cesma.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "1959",
     "vrsta": "spomen-obelezje",
@@ -129891,6 +130646,9 @@
     },
     "mesto": "Vražogrnac",
     "izvor": "https://www.xiwl.com/w/index.php/Vra%C5%BEogrnac_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/vrazogrnac-spomen-cesma.webp",
+    "slikaOdnos": 0.845,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-česma",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -130353,6 +131111,9 @@
     },
     "mesto": "Vršac",
     "izvor": "https://www.xiwl.com/w/index.php/Vr%C5%A1ac_-_Spomen_Kosturnica",
+    "slika": "slike/spomenici/vrsac-spomen-kosturnica.webp",
+    "slikaOdnos": 1.072,
+    "slikaPotpis": "J. J. Baljak, Novosti",
     "naziv": "Spomen-kosturnica",
     "godina": "1955",
     "autor": "E. Ristivojev",
@@ -130542,6 +131303,9 @@
     },
     "mesto": "Zadar",
     "izvor": "https://www.xiwl.com/w/index.php/Zadar_%28Diklo%29_-_Spomenik_NOB",
+    "slika": "slike/spomenici/zadar-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
@@ -130567,6 +131331,9 @@
     },
     "mesto": "Zagorak",
     "izvor": "https://www.xiwl.com/w/index.php/Zagorak_-_Spomenik_Dalmatinske_Brigade",
+    "slika": "slike/spomenici/zagorak-spomenik-dalmatinske-brigade.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik dalmatinske brigade",
     "autor": "Ljubo Vojvodić",
     "vrsta": "spomen-obelezje",
@@ -130774,6 +131541,9 @@
     },
     "mesto": "Zajača",
     "izvor": "https://www.xiwl.com/w/index.php/Zaja%C4%8Da_-_Spomen_Grobnica_NOB-a",
+    "slika": "slike/spomenici/zajaca-spomen-grobnica-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-grobnica NOB",
     "godina": "1958",
     "vrsta": "spomen-groblje",
@@ -130842,6 +131612,9 @@
     },
     "mesto": "Zajača",
     "izvor": "https://www.xiwl.com/w/index.php/Zaja%C4%8Da_-_Spomenik_NOB-a_i_I_Svetskog_Rata",
+    "slika": "slike/spomenici/zajaca-spomenik-nob-i-i-svetskog-rata.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB i I svetskog rata",
     "godina": "1979",
     "vrsta": "spomen-obelezje",
@@ -130949,6 +131722,9 @@
     },
     "mesto": "Zavidince",
     "izvor": "https://www.xiwl.com/w/index.php/Zavidince_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/zavidince-spomen-cesma.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "1976",
     "vrsta": "spomen-obelezje",
@@ -131147,6 +131923,9 @@
     },
     "mesto": "Zlot",
     "izvor": "https://www.xiwl.com/w/index.php/Zlot_%28Bor%29_%E2%80%93_Spomen_Park",
+    "slika": "slike/spomenici/zlot-spomen-park.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-park",
     "godina": "1978",
     "autor": "Radomir Radović",
@@ -131407,6 +132186,9 @@
     },
     "mesto": "Zvezdan",
     "izvor": "https://www.xiwl.com/w/index.php/Zvezdan_%28Zaje%C4%8Dar%29_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/zvezdan-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -131482,6 +132264,9 @@
     },
     "mesto": "Čavaš",
     "izvor": "https://www.xiwl.com/w/index.php/%C4%8Cava%C5%A1_-_Spomenik_%C5%BDrtvama_Fa%C5%A1izma",
+    "slika": "slike/spomenici/cavas-spomenik-zrtvama-fasizma.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik žrtvama fašizma",
     "godina": "1953",
     "vrsta": "spomen-obelezje",
@@ -131610,6 +132395,9 @@
     },
     "mesto": "Činiglavci",
     "izvor": "https://www.xiwl.com/w/index.php/%C4%8Ciniglavci_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/ciniglavci-spomenik-palim-borcima.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomenik palim borcima",
     "godina": "1961",
     "autor": "V. Kostić",
@@ -131624,6 +132412,9 @@
     },
     "mesto": "Činiglavci",
     "izvor": "https://www.xiwl.com/w/index.php/%C4%8Ciniglavci_-_Spomen_%C4%8Cesma",
+    "slika": "slike/spomenici/ciniglavci-spomen-cesma.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Pirotski kraj",
     "naziv": "Spomen-česma",
     "godina": "1977",
     "vrsta": "spomen-obelezje",
@@ -131816,6 +132607,9 @@
     },
     "mesto": "Đinđuša",
     "izvor": "https://www.xiwl.com/w/index.php/%C4%90in%C4%91u%C5%A1a_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/djindjusa-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.777,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik palim borcima",
     "godina": "1970",
     "vrsta": "spomen-obelezje",
@@ -131968,6 +132762,9 @@
     },
     "mesto": "Đurđevića",
     "izvor": "https://www.xiwl.com/w/index.php/%C4%90ur%C4%91evi%C4%87a_-_Spomenik_Lazaru_Jaukovi%C4%87u",
+    "slika": "slike/spomenici/djurdjevica-spomenik-lazaru-jaukovicu.webp",
+    "slikaOdnos": 0.755,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik Lazaru Jaukoviću",
     "vrsta": "spomen-obelezje",
     "drzava": "Montenegro"
@@ -131994,6 +132791,9 @@
     },
     "mesto": "Šarani",
     "izvor": "https://www.xiwl.com/w/index.php/%C5%A0arani_%28Gornji_Milanovac%29_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/sarani-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
     "naziv": "Spomenik palim borcima",
     "godina": "1979",
     "vrsta": "spomen-obelezje",
@@ -132007,6 +132807,9 @@
     },
     "mesto": "Šajini",
     "izvor": "https://www.xiwl.com/w/index.php/%C5%A0ajini_-_Spomenik_NOB",
+    "slika": "slike/spomenici/sajini-spomenik-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
@@ -132360,6 +133163,9 @@
     },
     "mesto": "Šlivnjak",
     "izvor": "https://www.xiwl.com/w/index.php/%C5%A0livnjak_-_Spomenik_%C5%BDrtvama_Fa%C5%A1izma_i_Borcima_NOB-a",
+    "slika": "slike/spomenici/slivnjak-spomenik-zrtvama-fasizma-i-borcima-nob.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomenik žrtvama fašizma i borcima NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
@@ -132576,6 +133382,9 @@
     },
     "mesto": "Štrbac",
     "izvor": "https://www.xiwl.com/w/index.php/%C5%A0trbac_-_Spomenik_Oslobodiocima",
+    "slika": "slike/spomenici/strbac-spomenik-oslobodiocima.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik oslobodiocima",
     "godina": "1977",
     "vrsta": "spomen-obelezje",
@@ -132589,6 +133398,9 @@
     },
     "mesto": "Štavica",
     "izvor": "https://www.xiwl.com/w/index.php/%C5%A0tavica_%28Ljig%29_%E2%80%93_Spomenik_NOB",
+    "slika": "slike/spomenici/stavica-spomenik-nob.webp",
+    "slikaOdnos": 0.81,
+    "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik NOB",
     "godina": "1990",
     "vrsta": "spomen-obelezje",
@@ -132774,6 +133586,9 @@
     },
     "mesto": "Žamarija",
     "izvor": "https://www.xiwl.com/w/index.php/%C5%BDamarija_-_Spomenik_NOB",
+    "slika": "slike/spomenici/zamarija-spomenik-nob.webp",
+    "slikaOdnos": 1.6,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
@@ -133230,6 +134045,9 @@
     },
     "mesto": "Župa Biokovska",
     "izvor": "https://www.xiwl.com/w/index.php/%C5%BDupa_Biokovska_-_Spomenik_NOB",
+    "slika": "slike/spomenici/zupa-biokovska-spomenik-nob.webp",
+    "slikaOdnos": 1.942,
+    "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomenik NOB",
     "godina": "1964",
     "vrsta": "spomen-obelezje",
@@ -137022,6 +137840,2094 @@
     "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-kosturnica boraca Prve proleterske brigade",
     "autor": "Dragiša Trifković & Jusuf Begović & Mehmed Hrasnica",
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "badnjevac-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 44.130949,
+      "lng": 20.98125
+    },
+    "mesto": "Badnjevac",
+    "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A1%D1%80%D0%B1%D0%B8%D1%98%D0%B8",
+    "naziv": "Spomenik palim borcima",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "babanovac-spomen-obelisk",
+    "koordinate": {
+      "lat": 44.31162,
+      "lng": 17.570592
+    },
+    "mesto": "Babanovac",
+    "izvor": "https://www.spomenicinob.info/travnik",
+    "naziv": "Spomen-obelisk",
+    "nazivEn": "Memorial obelisk",
+    "stanje": "ostecen",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "bastasi-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "koordinate": {
+      "lat": 44.396646,
+      "lng": 16.322149
+    },
+    "mesto": "Bastasi",
+    "izvor": "https://www.spomenicinob.info/drvar",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+    "godina": "1966",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "bastasi-spomenik-palim-borcima-i-zrtvama-fasistick-2",
+    "koordinate": {
+      "lat": 44.067718,
+      "lng": 16.660832
+    },
+    "mesto": "Bastasi",
+    "izvor": "https://www.spomenicinob.info/bosanskograhovo",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+    "godina": "1977",
+    "stanje": "srusen",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "benakovac-spomenik-zrtvama-fasistickog-terora",
+    "koordinate": {
+      "lat": 44.799521,
+      "lng": 16.303085
+    },
+    "mesto": "Benakovac",
+    "izvor": "https://www.spomenicinob.info/bosanskakrupa",
+    "naziv": "Spomenik žrtvama fašističkog terora",
+    "nazivEn": "Monument to Victims of Fascist Terror",
+    "stanje": "ostecen",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "boboljusci-spomenik-nob",
+    "koordinate": {
+      "lat": 44.446806,
+      "lng": 16.198751
+    },
+    "mesto": "Boboljusci",
+    "izvor": "https://www.spomenicinob.info/drvar",
+    "naziv": "Spomenik NOB",
+    "nazivEn": "Monument to the NOB",
+    "stanje": "ostecen",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "borci-spomen-kosturnica",
+    "koordinate": {
+      "lat": 44.534704,
+      "lng": 17.54269
+    },
+    "mesto": "Borci",
+    "izvor": "https://www.spomenicinob.info/kotorvaros",
+    "naziv": "Spomen-kosturnica",
+    "nazivEn": "Memorial ossuary",
+    "godina": "1962",
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "crkveno-spomenik-palim-borcima-nob",
+    "koordinate": {
+      "lat": 44.454527,
+      "lng": 16.753267
+    },
+    "mesto": "Crkveno",
+    "izvor": "https://www.spomenicinob.info/ribnik",
+    "naziv": "Spomenik palim borcima NOB",
+    "nazivEn": "Monument to fallen fighters of the NOB",
+    "stanje": "srusen",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "crveno-brdo-spomenik-nob",
+    "koordinate": {
+      "lat": 44.627047,
+      "lng": 19.068208
+    },
+    "priblizno": true,
+    "mesto": "Crveno Brdo",
+    "izvor": "https://www.spomenicinob.info/ugljevik",
+    "naziv": "Spomenik NOB",
+    "nazivEn": "Monument to the NOB",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "crni-lug-spomen-zid-zrtvama-fasistickog-terora",
+    "koordinate": {
+      "lat": 44.084252,
+      "lng": 16.568704
+    },
+    "priblizno": true,
+    "mesto": "Crni Lug",
+    "izvor": "https://www.spomenicinob.info/bosanskograhovo",
+    "naziv": "Spomen-zid žrtvama fašističkog terora",
+    "nazivEn": "Memorial wall to commemorate Victims of Fascist Terror",
+    "godina": "1966",
+    "stanje": "ostecen",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "crni-kao-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 44.177417,
+      "lng": 21.036111
+    },
+    "mesto": "Crni Kao",
+    "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A1%D1%80%D0%B1%D0%B8%D1%98%D0%B8",
+    "naziv": "Spomenik palim borcima",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "do-spomenik-palim-borcima-nor-a-1941-1945",
+    "koordinate": {
+      "lat": 43.077999,
+      "lng": 18.020451
+    },
+    "priblizno": true,
+    "mesto": "Do",
+    "izvor": "https://www.spomenicinob.info/berkovici",
+    "naziv": "Spomenik palim borcima NOR-a 1941-1945",
+    "nazivEn": "Monument to fallen fighters of the NOR 1941-45",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "dobra-voda-spomen-cesma-na-mjestu-smrti-narodnog-h",
+    "koordinate": {
+      "lat": 43.730265,
+      "lng": 18.731949
+    },
+    "priblizno": true,
+    "mesto": "Dobra Voda",
+    "izvor": "https://www.spomenicinob.info/palepraca",
+    "naziv": "Spomen-česma na mjestu smrti narodnog heroja Mihajla Čvore",
+    "nazivEn": "Fountain to commemorate place of death of NH Mihajlo Čvoro",
+    "godina": "1952",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "doljani-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "koordinate": {
+      "lat": 44.681664,
+      "lng": 15.989844
+    },
+    "mesto": "Doljani",
+    "izvor": "https://www.spomenicinob.info/bihac",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+    "godina": "1981",
+    "autor": "Stanislav Mišić",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "drenovac-spomen-kosturnica-zrtava-fasistickog-tero",
+    "koordinate": {
+      "lat": 43.035667,
+      "lng": 17.933639
+    },
+    "priblizno": true,
+    "mesto": "Drenovac",
+    "izvor": "https://www.spomenicinob.info/stolac",
+    "naziv": "Spomen-kosturnica žrtava fašističkog terora",
+    "nazivEn": "Memorial ossuary of Victims of Fascist Terror",
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "gornji-busevic-spomenik-palim-borcima-i-zrtvama-fa",
+    "koordinate": {
+      "lat": 44.9275,
+      "lng": 16.243473
+    },
+    "mesto": "Gornji Bušević",
+    "izvor": "https://www.spomenicinob.info/krupanauni",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+    "godina": "1967",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "gornji-tiskovac-spomenik-nob",
+    "koordinate": {
+      "lat": 44.26574,
+      "lng": 16.194611
+    },
+    "priblizno": true,
+    "mesto": "Gornji Tiškovac",
+    "izvor": "https://www.spomenicinob.info/bihac",
+    "naziv": "Spomenik NOB",
+    "nazivEn": "Monument to the NOB",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "hum-spomen-cesma",
+    "koordinate": {
+      "lat": 44.037361,
+      "lng": 17.566889
+    },
+    "mesto": "Hum",
+    "izvor": "https://www.spomenicinob.info/bugojno",
+    "naziv": "Spomen-česma",
+    "nazivEn": "Memorial fountain",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "jelici-spomenik-palim-borcima-i-zrtvama-fasisticko",
+    "koordinate": {
+      "lat": 45.126524,
+      "lng": 17.115323
+    },
+    "priblizno": true,
+    "mesto": "Jelići",
+    "izvor": "https://www.spomenicinob.info/gradiska",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "klekovaca-spomenik-65-zrtava-fasistickog-terora-iz",
+    "koordinate": {
+      "lat": 44.44675,
+      "lng": 16.537556
+    },
+    "priblizno": true,
+    "mesto": "Klekovača",
+    "izvor": "https://www.spomenicinob.info/petrovac",
+    "naziv": "Spomenik 65 žrtava fašističkog terora iz Drinića i Bukovače",
+    "nazivEn": "Monument to 65 Victims of Fascist Terror from Drinić and Bukovača",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "koprivnica-spomen-obiljezje-zrtvama-fasistickog-te",
+    "koordinate": {
+      "lat": 44.0325,
+      "lng": 17.345652
+    },
+    "mesto": "Koprivnica",
+    "izvor": "https://www.spomenicinob.info/bugojno",
+    "naziv": "Spomen-obilježje žrtvama fašističkog terora",
+    "nazivEn": "Memorial to Victims of Fascist Terror",
+    "godina": "1961",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "krtova-spomen-cesma-nob",
+    "koordinate": {
+      "lat": 44.575581,
+      "lng": 18.436159
+    },
+    "priblizno": true,
+    "mesto": "Krtova",
+    "izvor": "https://www.spomenicinob.info/lukavac",
+    "naziv": "Spomen-česma NOB",
+    "nazivEn": "Fountain to commemorate the NOB",
+    "godina": "pre 1970",
+    "stanje": "uklonjen",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "krtova-spomen-cesma-palim-borcima-ozrenskog-partiz",
+    "koordinate": {
+      "lat": 44.583001,
+      "lng": 18.410528
+    },
+    "mesto": "Krtova",
+    "izvor": "https://www.spomenicinob.info/lukavac",
+    "naziv": "Spomen-česma palim borcima Ozrenskog partizanskog odreda",
+    "nazivEn": "Fountain to commemorate fallen fighters of the Ozren Partisan Detachment",
+    "godina": "1959",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "krvavec-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 46.041782,
+      "lng": 13.715658
+    },
+    "priblizno": true,
+    "mesto": "Krvavec",
+    "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%98%D0%B8",
+    "naziv": "Spomenik palim borcima",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "krusevo-spomen-grobnica-palih-boraca",
+    "koordinate": {
+      "lat": 43.28311,
+      "lng": 19.277476
+    },
+    "mesto": "Kruševo",
+    "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A6%D1%80%D0%BD%D0%BE%D1%98_%D0%93%D0%BE%D1%80%D0%B8",
+    "naziv": "Spomen-grobnica palih boraca",
+    "vrsta": "spomen-groblje",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "lipa-spomenik-ii-krajiskoj-brigadi",
+    "koordinate": {
+      "lat": 44.705167,
+      "lng": 16.06
+    },
+    "mesto": "Lipa",
+    "izvor": "https://www.spomenicinob.info/bihac",
+    "naziv": "Spomenik II krajiškoj brigadi",
+    "nazivEn": "Monument to the II Krajinan Brigade",
+    "godina": "1949",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "lipa-spomenik-napadu-vi-i-viii-krajiske-brigade",
+    "koordinate": {
+      "lat": 44.683391,
+      "lng": 16.075399
+    },
+    "priblizno": true,
+    "mesto": "Lipa",
+    "izvor": "https://www.spomenicinob.info/bihac",
+    "naziv": "Spomenik napadu VI i VIII krajiške brigade",
+    "nazivEn": "Monument to commemorate assault by VI & VIII Krajina Brigades",
+    "godina": "1951",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "meokrnje-spomenik-palim-borcima-travnicke-cete-i-z",
+    "koordinate": {
+      "lat": 44.379894,
+      "lng": 17.709603
+    },
+    "mesto": "Meokrnje",
+    "izvor": "https://www.spomenicinob.info/travnik",
+    "naziv": "Spomenik palim borcima Travničke čete i Zeničkog odreda",
+    "nazivEn": "Monument to fallen fighters of the Travnik Company and the Zenica Detachment",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "mlaka-spomenik-u-mlaki",
+    "koordinate": {
+      "lat": 45.236946,
+      "lng": 17.023023
+    },
+    "mesto": "Mlaka",
+    "izvor": "https://znaci.org/00003/920.pdf#page=147",
+    "naziv": "Spomenik u Mlaki",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "mliniste-spomenik-poginulima-1941-godine",
+    "koordinate": {
+      "lat": 44.262722,
+      "lng": 16.847889
+    },
+    "mesto": "Mlinište",
+    "izvor": "https://www.spomenicinob.info/mrkonjicgrad",
+    "naziv": "Spomenik poginulima 1941. godine",
+    "nazivEn": "Monument to those killed in 1941",
+    "godina": "1951",
+    "stanje": "ostecen",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "mosunj-spomenik-palim-borcima-nob",
+    "koordinate": {
+      "lat": 44.180972,
+      "lng": 17.751861
+    },
+    "priblizno": true,
+    "mesto": "Mošunj",
+    "izvor": "https://www.spomenicinob.info/vitez",
+    "naziv": "Spomenik palim borcima NOB",
+    "nazivEn": "Monument to fallen fighters of the NOB",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "njemanica-spomenik-41-zrtve-fasistickog-terora-str",
+    "koordinate": {
+      "lat": 43.885615,
+      "lng": 18.51807
+    },
+    "mesto": "Njemanica",
+    "izvor": "https://www.spomenicinob.info/istocnistarigrad",
+    "naziv": "Spomenik 41 žrtve fašističkog terora strijeljane u novembru 1941. godine",
+    "nazivEn": "Monument to commemorate 41 Victims of Fascist Terror executed in November 1941",
+    "godina": "1967",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "piskavica-spomen-kosturnica",
+    "koordinate": {
+      "lat": 44.72817,
+      "lng": 18.335384
+    },
+    "priblizno": true,
+    "mesto": "Piskavica",
+    "izvor": "https://www.spomenicinob.info/gracanica",
+    "naziv": "Spomen-kosturnica",
+    "nazivEn": "Memorial ossuary",
+    "godina": "1985",
+    "autor": "Branko Marušić",
+    "stanje": "uklonjen",
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "poljaci-spomenik-nob",
+    "koordinate": {
+      "lat": 44.855292,
+      "lng": 18.622732
+    },
+    "mesto": "Poljaci",
+    "izvor": "https://www.spomenicinob.info/brcko",
+    "naziv": "Spomenik NOB",
+    "nazivEn": "Monument to the NOB",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "potocani-grob-2-nepoznata-partizanska-borca",
+    "koordinate": {
+      "lat": 44.666889,
+      "lng": 18.097333
+    },
+    "priblizno": true,
+    "mesto": "Potočani",
+    "izvor": "https://www.spomenicinob.info/doboj",
+    "naziv": "Grob 2 nepoznata partizanska borca",
+    "nazivEn": "Grave of 2 unknown Partisan fighters",
+    "godina": "1982",
+    "autor": "Drago Handanović & Petar Vajdić",
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "rataj-mjesto-logorovanja-vrhovnog-staba",
+    "koordinate": {
+      "lat": 43.505232,
+      "lng": 18.641448
+    },
+    "priblizno": true,
+    "mesto": "Rataj",
+    "izvor": "https://www.spomenicinob.info/foca",
+    "naziv": "Mjesto logorovanja Vrhovnog štaba",
+    "nazivEn": "Encampment site of the Supreme Command",
+    "godina": "pre 1975",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "skocaj-zajednicka-grobnica-zrtava-fasistickog-tero",
+    "koordinate": {
+      "lat": 44.75027,
+      "lng": 15.883657
+    },
+    "mesto": "Skočaj",
+    "izvor": "https://www.spomenicinob.info/bihac",
+    "naziv": "Zajednička grobnica žrtava fašističkog terora",
+    "nazivEn": "Collective grave of Victims of Fascist Terror",
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "smoluca-spomenik-palim-borcima-nor-a",
+    "koordinate": {
+      "lat": 44.587611,
+      "lng": 18.518389
+    },
+    "mesto": "Smoluća",
+    "izvor": "https://www.spomenicinob.info/lukavac",
+    "naziv": "Spomenik palim borcima NOR-a",
+    "nazivEn": "Monument to Fallen Fighters of the NOR",
+    "stanje": "ostecen",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "srpski-milanovac-spomen-cesma",
+    "koordinate": {
+      "lat": 44.817801,
+      "lng": 17.197767
+    },
+    "mesto": "Srpski Milanovac",
+    "izvor": "https://www.spomenicinob.info/banjaluka",
+    "naziv": "Spomen-česma",
+    "nazivEn": "Memorial fountain",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "tisina-spomenik-palim-borcima-i-zrtvama-fasisticko",
+    "koordinate": {
+      "lat": 45.047016,
+      "lng": 18.481951
+    },
+    "mesto": "Tišina",
+    "izvor": "https://www.spomenicinob.info/samac",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+    "godina": "1964",
+    "autor": "Anto Golubičić",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "velika-brusnica-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.072833,
+      "lng": 18.164167
+    },
+    "mesto": "Velika Brusnica",
+    "izvor": "https://www.spomenicinob.info/brod",
+    "naziv": "Spomenik palim borcima",
+    "nazivEn": "Monument to fallen fighters",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "vitez-spomen-kosturnica-palih-boraca-iz-krajine",
+    "koordinate": {
+      "lat": 44.152046,
+      "lng": 17.793183
+    },
+    "mesto": "Vitez",
+    "izvor": "https://www.spomenicinob.info/vitez",
+    "naziv": "Spomen-kosturnica palih boraca iz Krajine",
+    "nazivEn": "Memorial ossuary of fallen fighters from Krajina",
+    "godina": "pre 1965",
+    "stanje": "uklonjen",
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "vlaka-spomenik-pobjedi-bobanske-partizanske-cete-1",
+    "koordinate": {
+      "lat": 42.734278,
+      "lng": 18.105395
+    },
+    "priblizno": true,
+    "mesto": "Vlaka",
+    "izvor": "https://www.spomenicinob.info/ravno",
+    "naziv": "Spomenik pobjedi Bobanske partizanske čete 1941. godine",
+    "nazivEn": "Monument to commemorate victory by the Bobani Partisan Company in 1941",
+    "godina": "1963",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "zalazje-spomenik-nob",
+    "koordinate": {
+      "lat": 44.125395,
+      "lng": 19.32435
+    },
+    "priblizno": true,
+    "mesto": "Zalazje",
+    "izvor": "https://www.spomenicinob.info/srebrenica",
+    "naziv": "Spomenik NOB",
+    "nazivEn": "Monument to the NOB",
+    "godina": "1963",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "citluk-spomenik-palim-borcima-2",
+    "koordinate": {
+      "lat": 43.220877,
+      "lng": 17.686662
+    },
+    "priblizno": true,
+    "mesto": "Čitluk",
+    "izvor": "https://www.spomenicinob.info/citluk",
+    "naziv": "Spomenik palim borcima",
+    "nazivEn": "Monument to fallen fighters",
+    "godina": "pre 1965",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "banja-luka-spomenik-esadu-midzicu",
+    "koordinate": {
+      "lat": 44.766449,
+      "lng": 17.214218
+    },
+    "mesto": "Banja Luka",
+    "izvor": "https://www.xiwl.com/w/index.php/Banja_Luka_-_Spomenik_Esadu_Mid%C5%BEi%C4%87u",
+    "naziv": "Spomenik Esadu Midžiću",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "beograd-spomenik-ilegalnoj-stampariji-kpj",
+    "koordinate": {
+      "lat": 44.787703,
+      "lng": 20.475742
+    },
+    "mesto": "Beograd",
+    "izvor": "https://www.xiwl.com/w/index.php/Beograd_-_Spomenik_Ilegalnoj_%C5%A0tampariji_KPJ",
+    "naziv": "Spomenik ilegalnoj štampariji KPJ",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-spomen-groblje-streljanih-1944",
+    "koordinate": {
+      "lat": 44.773977,
+      "lng": 20.494529
+    },
+    "mesto": "Beograd",
+    "izvor": "https://www.xiwl.com/w/index.php/Beograd_-_Centralno_Groblje",
+    "naziv": "Spomen-groblje streljanih 1944",
+    "godina": "1973",
+    "autor": "Momčilo Krković",
+    "vrsta": "spomen-groblje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-spomenik",
+    "koordinate": {
+      "lat": 44.819769,
+      "lng": 20.458525
+    },
+    "mesto": "Beograd",
+    "izvor": "https://www.xiwl.com/w/index.php/Beograd_-_Studentski_Trg",
+    "naziv": "Spomenik",
+    "autor": "Drago Tršar",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "berane-spomenik-barskim-logorasima",
+    "koordinate": {
+      "lat": 42.849732,
+      "lng": 19.863541
+    },
+    "mesto": "Berane",
+    "izvor": "https://www.xiwl.com/w/index.php/Berane_-_Spomenik_Barskim_Logora%C5%A1a",
+    "naziv": "Spomenik barskim logorašima",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "beograd-spomenik-palim-radnicima",
+    "koordinate": {
+      "lat": 44.747806,
+      "lng": 20.444667
+    },
+    "mesto": "Beograd",
+    "izvor": "https://www.xiwl.com/w/index.php/Beograd_-_Spomenik_Palim_Radnicima",
+    "naziv": "Spomenik palim radnicima",
+    "godina": "1945",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "bijeljina-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 44.75737,
+      "lng": 19.217697
+    },
+    "mesto": "Bijeljina",
+    "izvor": "https://www.xiwl.com/w/index.php/Bijeljina_-_Spomenik_Palim_Borcima_%28Trg_Kralja_Petra_I%29",
+    "naziv": "Spomenik palim borcima",
+    "godina": "1946",
+    "stanje": "uklonjen",
+    "stanjeIzvor": {
+      "naziv": "Partisan Memorials Wiki",
+      "godina": 2026,
+      "url": "https://www.xiwl.com/w/index.php/Bijeljina_-_Spomenik_Palim_Borcima_%28Trg_Kralja_Petra_I%29"
+    },
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "bijeljina-spomenik-palim-borcima-2",
+    "koordinate": {
+      "lat": 44.759434,
+      "lng": 19.226775
+    },
+    "mesto": "Bijeljina",
+    "izvor": "https://www.xiwl.com/w/index.php/Bijeljina_-_Spomenik_Palim_Borcima_%28Kasarna%29",
+    "naziv": "Spomenik palim borcima",
+    "godina": "1958",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "bijeljina-spomenik-palim-borcima-3",
+    "koordinate": {
+      "lat": 44.751144,
+      "lng": 19.213355
+    },
+    "mesto": "Bijeljina",
+    "izvor": "https://www.xiwl.com/w/index.php/Bijeljina_-_Spomenik_Palim_Borcima_%28Ul._Tife_Lipni%C4%8Devi%C4%87%29",
+    "naziv": "Spomenik palim borcima",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "bijeljina-spomenik-palim-borcima-i-zrtvama-fasisti",
+    "koordinate": {
+      "lat": 44.757944,
+      "lng": 19.204833
+    },
+    "mesto": "Bijeljina",
+    "izvor": "https://www.xiwl.com/w/index.php/Bijeljina_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora_%28Knez_Ivo_od_Semberije%29",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1984",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "blatna-partizansko-groblje",
+    "koordinate": {
+      "lat": 44.985241,
+      "lng": 16.26061
+    },
+    "mesto": "Blatna",
+    "izvor": "https://www.xiwl.com/w/index.php/Blatna_-_Partizansko_Groblje",
+    "naziv": "Partizansko groblje",
+    "godina": "1955",
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brcko-spomenik-braci-cuskic",
+    "koordinate": {
+      "lat": 44.857495,
+      "lng": 18.813232
+    },
+    "mesto": "Brčko",
+    "izvor": "https://www.xiwl.com/w/index.php/Br%C4%8Dko_%28Gr%C4%8Dica%29_-_Spomenik_Bra%C4%87i_%C4%86uski%C4%87",
+    "naziv": "Spomenik braći Ćuskić",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brcko-spomenik-zrtvama-holokausta",
+    "koordinate": {
+      "lat": 44.872778,
+      "lng": 18.8205
+    },
+    "mesto": "Brčko",
+    "izvor": "https://www.xiwl.com/w/index.php/Br%C4%8Dko_-_Spomenik_%C5%BDrtvama_Holokausta",
+    "naziv": "Spomenik žrtvama holokausta",
+    "godina": "1988",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brcko-spomenik-zrtvama-holokausta-2",
+    "koordinate": {
+      "lat": 44.864,
+      "lng": 18.810694
+    },
+    "mesto": "Brčko",
+    "izvor": "https://www.xiwl.com/w/index.php/Br%C4%8Dko_%28Gr%C4%8Dica%29_-_Spomenik_%C5%BDrtvama_Holokausta",
+    "naziv": "Spomenik žrtvama holokausta",
+    "godina": "1953",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brcko-spomen-kosturnica",
+    "koordinate": {
+      "lat": 44.871501,
+      "lng": 18.809333
+    },
+    "priblizno": true,
+    "mesto": "Brčko",
+    "izvor": "https://www.xiwl.com/w/index.php/Br%C4%8Dko_-_Spomen_Kosturnica",
+    "naziv": "Spomen-kosturnica",
+    "stanje": "uklonjen",
+    "stanjeIzvor": {
+      "naziv": "Partisan Memorials Wiki",
+      "godina": 2026,
+      "url": "https://www.xiwl.com/w/index.php/Br%C4%8Dko_-_Spomen_Kosturnica"
+    },
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "bugojno-partizansko-groblje",
+    "koordinate": {
+      "lat": 44.056474,
+      "lng": 17.448786
+    },
+    "mesto": "Bugojno",
+    "izvor": "https://www.xiwl.com/w/index.php/Bugojno_-_Partizansko_Groblje",
+    "naziv": "Partizansko groblje",
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "bugojno-spomenik-oslobodiocima",
+    "koordinate": {
+      "lat": 44.055241,
+      "lng": 17.447893
+    },
+    "mesto": "Bugojno",
+    "izvor": "https://www.xiwl.com/w/index.php/Bugojno_-_Spomenik_Oslobodiocima",
+    "naziv": "Spomenik oslobodiocima",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "danilovgrad-spomen-kosturnica-palim-borcima",
+    "koordinate": {
+      "lat": 42.551609,
+      "lng": 19.103374
+    },
+    "priblizno": true,
+    "mesto": "Danilovgrad",
+    "izvor": "https://www.xiwl.com/w/index.php/Danilovgrad_-_Spomen_Kosturnica_Palim_Borcima",
+    "naziv": "Spomen-kosturnica palim borcima",
+    "godina": "1966",
+    "vrsta": "spomen-groblje",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "danilovgrad-spomen-kosturnica-rodoljubima",
+    "koordinate": {
+      "lat": 42.552057,
+      "lng": 19.102845
+    },
+    "priblizno": true,
+    "mesto": "Danilovgrad",
+    "izvor": "https://www.xiwl.com/w/index.php/Danilovgrad_-_Spomen_Kosturnica_Rodoljubima",
+    "naziv": "Spomen-kosturnica rodoljubima",
+    "godina": "1974",
+    "vrsta": "spomen-groblje",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "daruvar-spomenik",
+    "koordinate": {
+      "lat": 45.596718,
+      "lng": 17.233909
+    },
+    "mesto": "Daruvar",
+    "izvor": "https://www.xiwl.com/w/index.php/Daruvar_-_Holocaust_Memorial",
+    "naziv": "Spomenik",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "derventa-spomenik-nob-2",
+    "koordinate": {
+      "lat": 44.986511,
+      "lng": 17.902321
+    },
+    "mesto": "Derventa",
+    "izvor": "https://www.xiwl.com/w/index.php/Derventa_-_Spomenik_NOB_Gimnazija",
+    "naziv": "Spomenik NOB",
+    "stanje": "rusevine",
+    "stanjeIzvor": {
+      "naziv": "Partisan Memorials Wiki",
+      "godina": 2026,
+      "url": "https://www.xiwl.com/w/index.php/Derventa_-_Spomenik_NOB_Gimnazija"
+    },
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "doboj-spomen-obelisk-nob",
+    "koordinate": {
+      "lat": 44.737231,
+      "lng": 18.087348
+    },
+    "priblizno": true,
+    "mesto": "Doboj",
+    "izvor": "https://www.xiwl.com/w/index.php/Doboj_-_Spomen_Obelisk_NOB",
+    "naziv": "Spomen-obelisk NOB",
+    "godina": "1947",
+    "stanje": "uklonjen",
+    "stanjeIzvor": {
+      "naziv": "Partisan Memorials Wiki",
+      "godina": 2026,
+      "url": "https://www.xiwl.com/w/index.php/Doboj_-_Spomen_Obelisk_NOB"
+    },
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "dramalj-spomen-grobnica",
+    "koordinate": {
+      "lat": 45.193877,
+      "lng": 14.670567
+    },
+    "mesto": "Dramalj",
+    "izvor": "https://www.xiwl.com/w/index.php/Dramalj_-_Spomen_Grobnica",
+    "naziv": "Spomen-grobnica",
+    "godina": "1951",
+    "vrsta": "spomen-groblje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "drvar-spomen-grobnica",
+    "koordinate": {
+      "lat": 44.377722,
+      "lng": 16.361389
+    },
+    "priblizno": true,
+    "mesto": "Drvar",
+    "izvor": "https://www.xiwl.com/w/index.php/Drvar_-_Spomen_Grobnica_Spasovina",
+    "naziv": "Spomen-grobnica",
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "ducina-spomenik-borcima",
+    "koordinate": {
+      "lat": 44.492028,
+      "lng": 20.508722
+    },
+    "mesto": "Dučina",
+    "izvor": "https://www.xiwl.com/w/index.php/Du%C4%8Dina_%28Sopot%29_%E2%80%93_Spomenik_Borcima",
+    "naziv": "Spomenik borcima",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "gornji-jelovac-spomenik-zrtvama-fasistickog-terora",
+    "koordinate": {
+      "lat": 45.075302,
+      "lng": 16.738443
+    },
+    "mesto": "Gornji Jelovac",
+    "izvor": "https://www.xiwl.com/w/index.php/Gornji_Jelovac_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora_Macure",
+    "naziv": "Spomenik žrtvama fašističkog terora",
+    "godina": "1960",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "gornji-hrastovac-spomenik-ustanku",
+    "koordinate": {
+      "lat": 45.311351,
+      "lng": 16.546645
+    },
+    "mesto": "Gornji Hrastovac",
+    "izvor": "https://www.xiwl.com/w/index.php/Gornji_Hrastovac_-_Spomenik_Ustanka",
+    "naziv": "Spomenik ustanku",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "gornji-jelovac-spomenik-zrtvama-fasistickog-terora-2",
+    "koordinate": {
+      "lat": 45.065889,
+      "lng": 16.718056
+    },
+    "mesto": "Gornji Jelovac",
+    "izvor": "https://www.xiwl.com/w/index.php/Gornji_Jelovac_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora_Lakin_Kuci%C5%A1te",
+    "naziv": "Spomenik žrtvama fašističkog terora",
+    "godina": "1965",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "gunja-spomenik-poginulim-borcima",
+    "koordinate": {
+      "lat": 44.887054,
+      "lng": 18.824441
+    },
+    "mesto": "Gunja",
+    "izvor": "https://www.xiwl.com/w/index.php/Gunja_-_Spomenik_Poginulih_Boraca",
+    "naziv": "Spomenik poginulim borcima",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "ilidza-spomen-obelisk",
+    "koordinate": {
+      "lat": 43.838386,
+      "lng": 18.276178
+    },
+    "priblizno": true,
+    "mesto": "Ilidža",
+    "izvor": "https://www.xiwl.com/w/index.php/Ilid%C5%BEa_-_Spomen-Obelisk_u_Osjeku",
+    "naziv": "Spomen-obelisk",
+    "godina": "1988",
+    "autor": "Munib Buljina",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "ilok-spomen-kosturnica",
+    "koordinate": {
+      "lat": 45.222206,
+      "lng": 19.363879
+    },
+    "priblizno": true,
+    "mesto": "Ilok",
+    "izvor": "https://www.xiwl.com/w/index.php/Ilok_-_Spomen_Kosturnica",
+    "naziv": "Spomen-kosturnica",
+    "autor": "Zdenko Kolacio",
+    "vrsta": "spomen-groblje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "izgori-spomenik-mirceti-golovicu",
+    "koordinate": {
+      "lat": 43.274647,
+      "lng": 18.619852
+    },
+    "mesto": "Izgori",
+    "izvor": "https://www.xiwl.com/w/index.php/Izgori_-_Spomenik_Mir%C4%8Deti_Golovi%C4%87u",
+    "naziv": "Spomenik Mirčeti Goloviću",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "javorovica-spomenik-ustanovitvi-gorjanskega-batalj",
+    "koordinate": {
+      "lat": 45.801274,
+      "lng": 15.347075
+    },
+    "priblizno": true,
+    "mesto": "Javorovica",
+    "izvor": "https://www.xiwl.com/w/index.php/Javorovica_-_Spomenik_Ustanovitvi_Gorjanskega_Bataljona",
+    "naziv": "Spomenik ustanovitvi Gorjanskega bataljona",
+    "godina": "1977",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kamenski-vucjak-spomenik-zrtvama-susnjarske-bitke",
+    "koordinate": {
+      "lat": 45.500243,
+      "lng": 17.537727
+    },
+    "mesto": "Kamenski Vučjak",
+    "izvor": "https://www.xiwl.com/w/index.php/Kamenski_Vu%C4%8Djak_-_Spomenik_%C5%BDrtvama_%C5%A0u%C5%A1njarska_Bitka",
+    "naziv": "Spomenik žrtvama Šušnjarske bitke",
+    "godina": "1963",
+    "autor": "Zdenko Kolacio",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kolasin-spomenik-nob",
+    "koordinate": {
+      "lat": 42.819002,
+      "lng": 19.519068
+    },
+    "mesto": "Kolašin",
+    "izvor": "https://www.xiwl.com/w/index.php/Kola%C5%A1in_-_Spomenik_NOB_Barutane",
+    "naziv": "Spomenik NOB",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "konjuh-spomenik-nob",
+    "koordinate": {
+      "lat": 44.301498,
+      "lng": 18.545757
+    },
+    "mesto": "Konjuh",
+    "izvor": "https://www.xiwl.com/w/index.php/Konjuh_-_Spomenik_NOB",
+    "naziv": "Spomenik NOB",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "koprivnica-spomenik-stradalim-zidovima",
+    "koordinate": {
+      "lat": 46.176448,
+      "lng": 16.80659
+    },
+    "mesto": "Koprivnica",
+    "izvor": "https://www.xiwl.com/w/index.php/Koprivnica_-_Spomenik_Stradalim_%C5%BDidovima",
+    "naziv": "Spomenik stradalim Židovima",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kriskovci-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 44.947309,
+      "lng": 17.418286
+    },
+    "mesto": "Kriškovci",
+    "izvor": "https://www.xiwl.com/w/index.php/Kri%C5%A1kovci_-_Spomenik_Palim_Borcima_Crkva",
+    "naziv": "Spomenik palim borcima",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "krusevac-spomen-piramida",
+    "koordinate": {
+      "lat": 43.585175,
+      "lng": 21.334396
+    },
+    "mesto": "Kruševac",
+    "izvor": "https://www.xiwl.com/w/index.php/Kru%C5%A1evac_-_Spomen_Pyramid",
+    "naziv": "Spomen-piramida",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "krusevac-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 43.581972,
+      "lng": 21.3085
+    },
+    "mesto": "Kruševac",
+    "izvor": "https://www.xiwl.com/w/index.php/Kru%C5%A1evac_-_Spomenik_Palim_Borcima_Lazarica",
+    "naziv": "Spomenik palim borcima",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "krusevac-spomenik-streljanima",
+    "koordinate": {
+      "lat": 43.582444,
+      "lng": 21.326333
+    },
+    "mesto": "Kruševac",
+    "izvor": "https://www.xiwl.com/w/index.php/Kru%C5%A1evac_-_Spomenik_Streljanima",
+    "naziv": "Spomenik streljanima",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "kupres-spomen-kosturnica",
+    "koordinate": {
+      "lat": 43.99725,
+      "lng": 17.279139
+    },
+    "priblizno": true,
+    "mesto": "Kupres",
+    "izvor": "https://www.xiwl.com/w/index.php/Kupres_-_Spomen_Kosturnica",
+    "naziv": "Spomen-kosturnica",
+    "stanje": "uklonjen",
+    "stanjeIzvor": {
+      "naziv": "Partisan Memorials Wiki",
+      "godina": 2026,
+      "url": "https://www.xiwl.com/w/index.php/Kupres_-_Spomen_Kosturnica"
+    },
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "leskovac-spomenik",
+    "koordinate": {
+      "lat": 43.0105,
+      "lng": 21.933417
+    },
+    "mesto": "Leskovac",
+    "izvor": "https://www.xiwl.com/w/index.php/Leskovac_-_Spomenik_Aerodrom",
+    "naziv": "Spomenik",
+    "godina": "1985",
+    "autor": "Miodrag Stevanović",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "leskovac-spomenik-pionirima",
+    "koordinate": {
+      "lat": 42.994959,
+      "lng": 21.946211
+    },
+    "mesto": "Leskovac",
+    "izvor": "https://www.xiwl.com/w/index.php/Leskovac_-_Spomenik_Pionira",
+    "naziv": "Spomenik pionirima",
+    "godina": "1962",
+    "autor": "Stojadin Cvetković",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "leskovac-spomenik-streljanima",
+    "koordinate": {
+      "lat": 43.012278,
+      "lng": 21.929028
+    },
+    "mesto": "Leskovac",
+    "izvor": "https://www.xiwl.com/w/index.php/Leskovac_-_Spomenik_Streljanima",
+    "naziv": "Spomenik streljanima",
+    "stanje": "rusevine",
+    "stanjeIzvor": {
+      "naziv": "Partisan Memorials Wiki",
+      "godina": 2026,
+      "url": "https://www.xiwl.com/w/index.php/Leskovac_-_Spomenik_Streljanima"
+    },
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "livno-spomen-ploca-palim-borcima",
+    "koordinate": {
+      "lat": 43.827357,
+      "lng": 17.015072
+    },
+    "priblizno": true,
+    "mesto": "Livno",
+    "izvor": "https://www.xiwl.com/w/index.php/Livno_-_Spomen_Plo%C4%8Da_Palim_Borcima",
+    "naziv": "Spomen-ploča palim borcima",
+    "vrsta": "spomen-ploca",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "ludbreg-spomenik-17-udarnoj-brigadi",
+    "koordinate": {
+      "lat": 46.249189,
+      "lng": 16.613398
+    },
+    "mesto": "Ludbreg",
+    "izvor": "https://www.xiwl.com/w/index.php/Ludbreg_-_Spomenik_17._Udarnoj_Brigadi",
+    "naziv": "Spomenik 17. udarnoj brigadi",
+    "godina": "1984",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "malesici-partizansko-groblje-2",
+    "koordinate": {
+      "lat": 44.734556,
+      "lng": 18.278389
+    },
+    "mesto": "Malešići",
+    "izvor": "https://www.xiwl.com/w/index.php/Male%C5%A1i%C4%87i_-_Partizansko_Groblje",
+    "naziv": "Partizansko groblje",
+    "godina": "1969",
+    "autor": "Ostoja Radić",
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "maribor-spomenik-milosu-zidansku",
+    "koordinate": {
+      "lat": 46.54925,
+      "lng": 15.644778
+    },
+    "mesto": "Maribor",
+    "izvor": "https://www.xiwl.com/w/index.php/Maribor_-_Spomenik_Milo%C5%A1u_Zidan%C5%A1ku",
+    "naziv": "Spomenik Milošu Zidanšku",
+    "godina": "1970",
+    "autor": "Vlasta Zorko",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "mostar-spomenik-nob",
+    "koordinate": {
+      "lat": 43.331488,
+      "lng": 17.795201
+    },
+    "priblizno": true,
+    "mesto": "Mostar",
+    "izvor": "https://www.xiwl.com/w/index.php/Mostar_-_Spomenik_NOB_Vukodol",
+    "naziv": "Spomenik NOB",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "mosna-spomenik-streljanima",
+    "koordinate": {
+      "lat": 44.439998,
+      "lng": 22.144113
+    },
+    "mesto": "Mosna",
+    "izvor": "https://www.xiwl.com/w/index.php/Mosna_%28Majdanpek%29_-_Spomenik_Streljanima",
+    "naziv": "Spomenik streljanima",
+    "godina": "1955",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "nis-spomenik-oslobodiocima",
+    "koordinate": {
+      "lat": 43.308859,
+      "lng": 21.966213
+    },
+    "mesto": "Niš",
+    "izvor": "https://www.xiwl.com/w/index.php/Ni%C5%A1_-_Spomenik_Oslobodicima_Brzi_Brod",
+    "naziv": "Spomenik oslobodiocima",
+    "godina": "1951",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "novi-pazar-spomenik-streljanima",
+    "koordinate": {
+      "lat": 43.130389,
+      "lng": 20.513444
+    },
+    "mesto": "Novi Pazar",
+    "izvor": "https://www.xiwl.com/w/index.php/Novi_Pazar_-_Spomenik_Streljanima",
+    "naziv": "Spomenik streljanima",
+    "godina": "1971",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "novo-selo-spomen-grobnica",
+    "koordinate": {
+      "lat": 45.071149,
+      "lng": 17.96748
+    },
+    "priblizno": true,
+    "mesto": "Novo Selo",
+    "izvor": "https://www.xiwl.com/w/index.php/Novo_Selo_%28Brod%29_-_Spomen_Grobnica",
+    "naziv": "Spomen-grobnica",
+    "stanje": "uklonjen",
+    "stanjeIzvor": {
+      "naziv": "Partisan Memorials Wiki",
+      "godina": 2026,
+      "url": "https://www.xiwl.com/w/index.php/Novo_Selo_%28Brod%29_-_Spomen_Grobnica"
+    },
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "ogulin-spomenik-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.249419,
+      "lng": 15.246048
+    },
+    "priblizno": true,
+    "mesto": "Ogulin",
+    "izvor": "https://www.xiwl.com/w/index.php/Ogulin_-_Spomenik_%C5%BDrtvama_Fa%C5%A1izma_-_Galge",
+    "naziv": "Spomenik žrtvama fašizma",
+    "autor": "Vjekoslav Rukljač",
+    "stanje": "uklonjen",
+    "stanjeIzvor": {
+      "naziv": "Partisan Memorials Wiki",
+      "godina": 2026,
+      "url": "https://www.xiwl.com/w/index.php/Ogulin_-_Spomenik_%C5%BDrtvama_Fa%C5%A1izma_-_Galge"
+    },
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "petrovac-na-moru-spomenik-strijeljanim-rodoljubima",
+    "koordinate": {
+      "lat": 42.201196,
+      "lng": 18.950155
+    },
+    "mesto": "Petrovac na Moru",
+    "izvor": "https://www.xiwl.com/w/index.php/Petrovac_na_Moru_-_Spomenik_Strijeljanim_Rodoljubima",
+    "naziv": "Spomenik strijeljanim rodoljubima",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "petrovac-na-moru-spomenik-ustanicima-petrovackog-k",
+    "koordinate": {
+      "lat": 42.199167,
+      "lng": 18.951306
+    },
+    "mesto": "Petrovac na Moru",
+    "izvor": "https://www.xiwl.com/w/index.php/Petrovac_na_Moru_-_Spomenik_Ustanicima_Petrova%C4%8Dkog_Kraja",
+    "naziv": "Spomenik ustanicima Petrovačkog kraja",
+    "godina": "1975",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "petrovac-na-moru-spomenik-milici-i-stani-medigovic",
+    "koordinate": {
+      "lat": 42.215234,
+      "lng": 18.947119
+    },
+    "mesto": "Petrovac na Moru",
+    "izvor": "https://www.xiwl.com/w/index.php/Petrovac_na_Moru_-_Spomenik_Milici_i_Stani_Medigovi%C4%87",
+    "naziv": "Spomenik Milici i Stani Medigović",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "plovanija-spomenik",
+    "koordinate": {
+      "lat": 45.43502,
+      "lng": 13.61366
+    },
+    "priblizno": true,
+    "mesto": "Plovanija",
+    "izvor": "https://www.xiwl.com/w/index.php/Plovanija_-_Spomenik_Hands",
+    "naziv": "Spomenik",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "prijedor-spomenik-logoru-ciglana",
+    "koordinate": {
+      "lat": 44.977597,
+      "lng": 16.7269
+    },
+    "mesto": "Prijedor",
+    "izvor": "https://www.xiwl.com/w/index.php/Prijedor_-_Spomenik_Logoru_Ciglana",
+    "naziv": "Spomenik logoru Ciglana",
+    "godina": "1985",
+    "autor": "Alija Rešić",
+    "stanje": "rusevine",
+    "stanjeIzvor": {
+      "naziv": "Partisan Memorials Wiki",
+      "godina": 2026,
+      "url": "https://www.xiwl.com/w/index.php/Prijedor_-_Spomenik_Logoru_Ciglana"
+    },
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "prijepolje-spomenik",
+    "koordinate": {
+      "lat": 43.388718,
+      "lng": 19.647607
+    },
+    "mesto": "Prijepolje",
+    "izvor": "https://www.xiwl.com/w/index.php/Prijepolje_-_memorial_panel",
+    "naziv": "Spomenik",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "prijepolje-spomenik-2",
+    "koordinate": {
+      "lat": 43.39042,
+      "lng": 19.654023
+    },
+    "mesto": "Prijepolje",
+    "izvor": "https://www.xiwl.com/w/index.php/Prijepolje_-_Memorial_to_National_Heroes",
+    "naziv": "Spomenik",
+    "godina": "1957",
+    "autor": "Milovan Krstić",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "pristina-spomenik",
+    "koordinate": {
+      "lat": 42.655472,
+      "lng": 21.163833
+    },
+    "mesto": "Priština",
+    "izvor": "https://www.xiwl.com/w/index.php/Pri%C5%A1tina_-_Execution_Memorial_1944",
+    "naziv": "Spomenik",
+    "autor": "M. Miketić",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Kosovo"
+  },
+  {
+    "id": "prkosi-spomenik-mariji-bursac",
+    "koordinate": {
+      "lat": 44.612022,
+      "lng": 16.125956
+    },
+    "mesto": "Prkosi",
+    "izvor": "https://www.xiwl.com/w/index.php/Prkosi_%28Bosanski_Petrovac%29_-_Spomenik_Marije_Bursa%C4%87",
+    "naziv": "Spomenik Mariji Bursać",
+    "godina": "2016",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "pula-spomenik-nob",
+    "koordinate": {
+      "lat": 44.876442,
+      "lng": 13.850737
+    },
+    "mesto": "Pula",
+    "izvor": "https://www.xiwl.com/w/index.php/Pula_-_Spomenik_NOB_v_Parku_%C5%BDrtvam_Fa%C5%A1izma",
+    "naziv": "Spomenik NOB",
+    "godina": "1949",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "prokuplje-spomen-kosturnica",
+    "koordinate": {
+      "lat": 43.230792,
+      "lng": 21.582489
+    },
+    "mesto": "Prokuplje",
+    "izvor": "https://www.xiwl.com/w/index.php/Prokuplje_-_Spomen_Kosturnica",
+    "naziv": "Spomen-kosturnica",
+    "vrsta": "spomen-groblje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "rujnica-groblje-zrtvama-fasistickog-terora",
+    "koordinate": {
+      "lat": 44.95175,
+      "lng": 15.806778
+    },
+    "mesto": "Rujnica",
+    "izvor": "https://www.xiwl.com/w/index.php/Rujnica_%28Cazin%29_-_Groblje_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "naziv": "Groblje žrtvama fašističkog terora",
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "sanski-most-spomenik-nob",
+    "koordinate": {
+      "lat": 44.762889,
+      "lng": 16.627667
+    },
+    "priblizno": true,
+    "mesto": "Sanski Most",
+    "izvor": "https://www.xiwl.com/w/index.php/Sanski_Most_-_Spomenik_Vrelo_Zdene",
+    "naziv": "Spomenik NOB",
+    "stanje": "uklonjen",
+    "stanjeIzvor": {
+      "naziv": "Partisan Memorials Wiki",
+      "godina": 2026,
+      "url": "https://www.xiwl.com/w/index.php/Sanski_Most_-_Spomenik_Vrelo_Zdene"
+    },
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "split-spomen-park-lovinac",
+    "koordinate": {
+      "lat": 43.512996,
+      "lng": 16.491223
+    },
+    "mesto": "Split",
+    "izvor": "https://www.xiwl.com/w/index.php/Split_-_Spomen_Park_Lovinac",
+    "naziv": "Spomen-park Lovinac",
+    "godina": "1983",
+    "autor": "Budimir Prvan",
+    "vrsta": "spomen-park",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "split-spomenik-palim-brodogradilisnim-radnicima",
+    "koordinate": {
+      "lat": 43.521959,
+      "lng": 16.443652
+    },
+    "priblizno": true,
+    "mesto": "Split",
+    "izvor": "https://www.xiwl.com/w/index.php/Split_-_Spomenik_Palim_Brodogradili%C5%A1nim_Radnicima",
+    "naziv": "Spomenik palim brodogradilišnim radnicima",
+    "godina": "1953",
+    "autor": "Valerije Michieli",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "stara-bila-spomen-park",
+    "koordinate": {
+      "lat": 44.173694,
+      "lng": 17.757611
+    },
+    "priblizno": true,
+    "mesto": "Stara Bila",
+    "izvor": "https://www.xiwl.com/w/index.php/Stara_Bila_-_Spomen_Park",
+    "naziv": "Spomen-park",
+    "stanje": "uklonjen",
+    "stanjeIzvor": {
+      "naziv": "Partisan Memorials Wiki",
+      "godina": 2026,
+      "url": "https://www.xiwl.com/w/index.php/Stara_Bila_-_Spomen_Park"
+    },
+    "vrsta": "spomen-park",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "subotica-spomenik-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 46.096354,
+      "lng": 19.678195
+    },
+    "mesto": "Subotica",
+    "izvor": "https://www.xiwl.com/w/index.php/Subotica_-_Spomenik_Trg_Jevrejskih_%C5%BDrtava",
+    "naziv": "Spomenik žrtvama fašizma",
+    "godina": "1994",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "subotica-spomenik-subotickom-partizanskom-odredu",
+    "koordinate": {
+      "lat": 46.099833,
+      "lng": 19.678389
+    },
+    "mesto": "Subotica",
+    "izvor": "https://www.xiwl.com/w/index.php/Subotica_-_Spomenik_Suboti%C4%8Dkom_Partizanskom_Odredu",
+    "naziv": "Spomenik Subotičkom partizanskom odredu",
+    "godina": "1954",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "subotica-spomenik-nob",
+    "koordinate": {
+      "lat": 46.088861,
+      "lng": 19.644306
+    },
+    "mesto": "Subotica",
+    "izvor": "https://www.xiwl.com/w/index.php/Subotica_-_Spomenik_NOB_Mali_Bajmok",
+    "naziv": "Spomenik NOB",
+    "godina": "1956",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "subotica-spomenik-nob-2",
+    "koordinate": {
+      "lat": 46.092556,
+      "lng": 19.655306
+    },
+    "mesto": "Subotica",
+    "izvor": "https://www.xiwl.com/w/index.php/Subotica_-_Spomenik_NOB_Gat",
+    "naziv": "Spomenik NOB",
+    "godina": "1984",
+    "autor": "Gabor Silađi",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "teslic-partizansko-groblje",
+    "koordinate": {
+      "lat": 44.605528,
+      "lng": 17.843778
+    },
+    "mesto": "Teslić",
+    "izvor": "https://www.xiwl.com/w/index.php/Tesli%C4%87_-_Partizansko_Groblje",
+    "naziv": "Partizansko groblje",
+    "godina": "1954",
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "travnik-spomenik-jevrejima",
+    "koordinate": {
+      "lat": 44.223622,
+      "lng": 17.653625
+    },
+    "mesto": "Travnik",
+    "izvor": "https://www.xiwl.com/w/index.php/Travnik_-_Spomenik_Jevrejima",
+    "naziv": "Spomenik Jevrejima",
+    "godina": "1979",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "tuzla-spomen-park-pasage-mandzica",
+    "koordinate": {
+      "lat": 44.545009,
+      "lng": 18.660115
+    },
+    "mesto": "Tuzla",
+    "izvor": "https://www.xiwl.com/w/index.php/Tuzla_%28Tu%C5%A1anj%29_-_Spomen_Park_Pa%C5%A1age_Mand%C5%BEi%C4%87u",
+    "naziv": "Spomen-park Pašage Mandžića",
+    "godina": "1949",
+    "autor": "Ismet Mujezinović",
+    "vrsta": "spomen-park",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "tuzla-spomenik-knjiga",
+    "koordinate": {
+      "lat": 44.531897,
+      "lng": 18.684652
+    },
+    "mesto": "Tuzla",
+    "izvor": "https://www.xiwl.com/w/index.php/Tuzla_-_Spomenik_Palim_Profesora",
+    "naziv": "Spomenik „Knjiga“",
+    "godina": "1974",
+    "autor": "Pero Jelisić",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "tuzla-spomenik-suza",
+    "koordinate": {
+      "lat": 44.535051,
+      "lng": 18.681379
+    },
+    "mesto": "Tuzla",
+    "izvor": "https://www.xiwl.com/w/index.php/Tuzla_-_Spomenik_Suza",
+    "naziv": "Spomenik „Suza“",
+    "autor": "Pero Jelisić",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "varazdin-spomenik-jalkoveckim-zrtvama",
+    "koordinate": {
+      "lat": 46.30114,
+      "lng": 16.327182
+    },
+    "mesto": "Varaždin",
+    "izvor": "https://www.xiwl.com/w/index.php/Vara%C5%BEdin_-_Spomenik_Jalkove%C4%8Dkim_%C5%BDrtvama",
+    "naziv": "Spomenik jalkovečkim žrtvama",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "vilesi-spomenik-zrtvama-fasistickog-terora",
+    "koordinate": {
+      "lat": 44.049891,
+      "lng": 17.504696
+    },
+    "mesto": "Vileši",
+    "izvor": "https://www.xiwl.com/w/index.php/Vile%C5%A1i_%28Bugojno%29_-_Spomen_Grobnica_%C5%BDrtvama",
+    "naziv": "Spomenik žrtvama fašističkog terora",
+    "godina": "1961",
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "viskovo-spomenik-streljanima",
+    "koordinate": {
+      "lat": 45.370685,
+      "lng": 14.391022
+    },
+    "mesto": "Viškovo",
+    "izvor": "https://www.xiwl.com/w/index.php/Vi%C5%A1kovo_-_Spomenik_Streljanima",
+    "naziv": "Spomenik streljanima",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "vlasotince-spomenik-neznanim-junacima",
+    "koordinate": {
+      "lat": 42.966806,
+      "lng": 22.119583
+    },
+    "mesto": "Vlasotince",
+    "izvor": "https://www.xiwl.com/w/index.php/Vlasotince_-_Spomenik_Neznanih_Junaka",
+    "naziv": "Spomenik neznanim junacima",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "vukovar-spomenik-nosenje-ranjenika",
+    "koordinate": {
+      "lat": 45.351103,
+      "lng": 19.003008
+    },
+    "mesto": "Vukovar",
+    "izvor": "https://www.xiwl.com/w/index.php/Vukovar_-_Spomenik_No%C5%A1enje_Ranjenika",
+    "naziv": "Spomenik „Nošenje ranjenika“",
+    "godina": "1955",
+    "autor": "Antun Augustinčić",
+    "stanje": "uklonjen",
+    "stanjeIzvor": {
+      "naziv": "Partisan Memorials Wiki",
+      "godina": 2026,
+      "url": "https://www.xiwl.com/w/index.php/Vukovar_-_Spomenik_No%C5%A1enje_Ranjenika"
+    },
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "vucja-luka-spomen-kosturnica",
+    "koordinate": {
+      "lat": 43.944139,
+      "lng": 18.53775
+    },
+    "priblizno": true,
+    "mesto": "Vučja Luka",
+    "izvor": "https://www.xiwl.com/w/index.php/Vu%C4%8Dja_Luka_-_Spomen_Kosturnica",
+    "naziv": "Spomen-kosturnica",
+    "godina": "1952",
+    "autor": "Ivan Vrlec",
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "zagreb-spomenik-marijanu-badelu",
+    "koordinate": {
+      "lat": 45.799671,
+      "lng": 16.034676
+    },
+    "mesto": "Zagreb",
+    "izvor": "https://www.xiwl.com/w/index.php/Zagreb_-_Spomenik_Marijana_Badela",
+    "naziv": "Spomenik Marijanu Badelu",
+    "autor": "Ćiril Mihanović",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zagreb-spomenik-objesenim-antifasistima",
+    "koordinate": {
+      "lat": 45.794954,
+      "lng": 16.022689
+    },
+    "priblizno": true,
+    "mesto": "Zagreb",
+    "izvor": "https://www.xiwl.com/w/index.php/Zagreb_-_Spomenik_Obje%C5%A1enih_Antifa%C5%A1ista",
+    "naziv": "Spomenik obješenim antifašistima",
+    "stanje": "uklonjen",
+    "stanjeIzvor": {
+      "naziv": "Partisan Memorials Wiki",
+      "godina": 2026,
+      "url": "https://www.xiwl.com/w/index.php/Zagreb_-_Spomenik_Obje%C5%A1enih_Antifa%C5%A1ista"
+    },
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zajecar-spomen-kosturnica-palim-borcima-nor-a",
+    "koordinate": {
+      "lat": 43.898383,
+      "lng": 22.287963
+    },
+    "mesto": "Zaječar",
+    "izvor": "https://www.xiwl.com/w/index.php/Zaje%C4%8Dar_-_Spomen-Kosturnica_Palim_Borcima_NOR-a",
+    "naziv": "Spomen-kosturnica palim borcima NOR-a",
+    "autor": "Radisav Živković",
+    "vrsta": "spomen-groblje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "zlatibor-spomenik-bici-na-palisadu",
+    "koordinate": {
+      "lat": 43.736611,
+      "lng": 19.707889
+    },
+    "mesto": "Zlatibor",
+    "izvor": "https://www.xiwl.com/w/index.php/Zlatibor_-_Spomenik_Bitka_na_Palisadu",
+    "naziv": "Spomenik bici na Palisadu",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "zlakusa-spomen-park-vesala",
+    "koordinate": {
+      "lat": 43.80608,
+      "lng": 19.954314
+    },
+    "mesto": "Zlakusa",
+    "izvor": "https://www.xiwl.com/w/index.php/Zlakusa_-_Spomen_Park_Ve%C5%A1ala",
+    "naziv": "Spomen-park „Vešala“",
+    "vrsta": "spomen-park",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "zenica-spomenik-streljanim-partizanima",
+    "koordinate": {
+      "lat": 44.194248,
+      "lng": 17.914035
+    },
+    "mesto": "Zenica",
+    "izvor": "https://www.xiwl.com/w/index.php/Zenica_-_Spomenik_Streljanim_Partizanima",
+    "naziv": "Spomenik streljanim partizanima",
+    "godina": "1954",
+    "autor": "Karlo Kužatko",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "capljina-spomen-cesma",
+    "koordinate": {
+      "lat": 43.114688,
+      "lng": 17.70759
+    },
+    "mesto": "Čapljina",
+    "izvor": "https://www.xiwl.com/w/index.php/%C4%8Capljina_-_Spomen_%C4%8Cesma",
+    "naziv": "Spomen-česma",
+    "autor": "Hasan Dizdarević",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "cacak-spomenik-streljanim-borcima-i-pripadnicima-n",
+    "koordinate": {
+      "lat": 43.880018,
+      "lng": 20.369099
+    },
+    "mesto": "Čačak",
+    "izvor": "https://www.xiwl.com/w/index.php/%C4%8Ca%C4%8Dak_-_Spomenik_Streljanim_Borcima_i_Pripadnicima_NOP-a",
+    "naziv": "Spomenik streljanim borcima i pripadnicima NOP-a",
+    "godina": "1955",
+    "autor": "Gradimir Aleksić",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "djakovo-spomen-park-podjede",
+    "koordinate": {
+      "lat": 45.313397,
+      "lng": 18.420784
+    },
+    "mesto": "Đakovo",
+    "izvor": "https://www.xiwl.com/w/index.php/%C4%90akovo_-_Spomen_Park_Podjede",
+    "naziv": "Spomen-park Podjede",
+    "godina": "1960",
+    "autor": "Kiril Halačev",
+    "stanje": "uklonjen",
+    "stanjeIzvor": {
+      "naziv": "Partisan Memorials Wiki",
+      "godina": 2026,
+      "url": "https://www.xiwl.com/w/index.php/%C4%90akovo_-_Spomen_Park_Podjede"
+    },
+    "vrsta": "spomen-park",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "sibosnica-spomen-park",
+    "koordinate": {
+      "lat": 44.663694,
+      "lng": 18.733917
+    },
+    "mesto": "Šibošnica",
+    "izvor": "https://www.xiwl.com/w/index.php/%C5%A0ibo%C5%A1nica_-_Spomen_Park",
+    "naziv": "Spomen-park",
+    "vrsta": "spomen-park",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "sije-spomen-cesma",
+    "koordinate": {
+      "lat": 44.650129,
+      "lng": 18.076826
+    },
+    "mesto": "Šije",
+    "izvor": "https://www.xiwl.com/w/index.php/%C5%A0ije_-_Spomen_%C4%8Cesma",
+    "naziv": "Spomen-česma",
+    "godina": "1968",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "sibenik-spomenik-nob",
+    "koordinate": {
+      "lat": 43.726056,
+      "lng": 15.934806
+    },
+    "mesto": "Šibenik",
+    "izvor": "https://www.xiwl.com/w/index.php/%C5%A0ibenik_-_Spomenik_NOB_Pisak_Brdo",
+    "naziv": "Spomenik NOB",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zabljak-spomenik-jakovu-ostojicu",
+    "koordinate": {
+      "lat": 43.157639,
+      "lng": 19.080361
+    },
+    "mesto": "Žabljak",
+    "izvor": "https://www.xiwl.com/w/index.php/%C5%BDabljak_-_Spomenik_Jakovu_Ostoji%C4%87u",
+    "naziv": "Spomenik Jakovu Ostojiću",
+    "godina": "1961",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "ilijas-alica-gaj-spomen-kosturnica",
+    "koordinate": {
+      "lat": 43.960984,
+      "lng": 18.270844
+    },
+    "mesto": "Ilijaš",
+    "izvor": "https://www.spomenicinob.info/ilijas",
+    "slika": "slike/spomenici/ilijas-alica-gaj-spomen-kosturnica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "naziv": "Kosturnica žrtava fašističkog terora",
+    "nazivEn": "Ossuary of Victims of Fascist Terror",
+    "godina": "1962",
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "beograd-vojni-muzej",
+    "koordinate": {
+      "lat": 44.8221116,
+      "lng": 20.4501226
+    },
+    "googleCid": "4997905690712979539",
+    "mesto": "Beograd",
+    "izvor": "https://www.google.com/maps?cid=4997905690712979539",
+    "slika": "slike/spomenici/beograd-vojni-muzej.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Google Maps",
+    "naziv": "Vojni muzej",
+    "vrsta": "muzej",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "samac-kosturnica-palih-boraca-1990",
+    "koordinate": {
+      "lat": 45.061625,
+      "lng": 18.469405
+    },
+    "mesto": "Šamac",
+    "izvor": "https://www.spomenicinob.info/samac",
+    "slika": "slike/spomenici/samac-kosturnica-palih-boraca-1990.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "naziv": "Spomen-kosturnica palih boraca i žrtava fašističkog terora",
+    "nazivEn": "Memorial ossuary of fallen fighters and Victims of Fascist Terror",
+    "godina": "1990",
+    "autor": "Zoran Jezdimirović & Slavko Kostić & Salko Grabovac",
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "prijedor-urije-grobnica-833-zrtve",
+    "koordinate": {
+      "lat": 44.986235,
+      "lng": 16.72966
+    },
+    "mesto": "Prijedor (Urije)",
+    "izvor": "https://www.spomenicinob.info/prijedor",
+    "slika": "slike/spomenici/prijedor-urije-grobnica-833-zrtve.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "naziv": "Masovna grobnica 833 žrtve fašističkog terora",
+    "nazivEn": "Mass grave of 833 Victims of Fascist Terror",
+    "godina": "1985",
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "fojnica-spomen-kosturnica",
+    "koordinate": {
+      "lat": 43.9629195,
+      "lng": 17.9026748
+    },
+    "googleCid": "13830366579307149412",
+    "mesto": "Fojnica",
+    "izvor": "https://www.spomenicinob.info/fojnica",
+    "slika": "slike/spomenici/fojnica-spomen-kosturnica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Alma la Douce (@DouceAlma), X",
+    "naziv": "Spomen-kosturnica palih boraca",
+    "nazivEn": "Memorial ossuary of fallen fighters",
+    "godina": "1974",
+    "autor": "Ranko Milanović (reljef)",
     "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
   }

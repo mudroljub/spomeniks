@@ -11753,5 +11753,755 @@
    "zaklopaca-spomenik-nob"
   ],
   "razlog": "Ponovni prolaz kroz lokalnu kopiju Partisan Memorials Wiki: 26 stranica bez nase veze, bez zapisa do 500 m i bez sela u bazi. Izostavljeni: Radonja (obrisana kao duplikat Petrove gore), Dolno Jabolciste x2 (vec postoji zapis na 27-68 m), Destrnik (spomenik oba svetska rata, 2000), Nova Kapela (zrtvama II. svjetskog rata, 1990?), Belleja (preimenovan za Balkanske ratove i rat 1990-ih), Hinjce (seoska straza), Zelinja Donja (verovatno isti kao spomenicinob zapis u bez_lokacije)."
+ },
+ {
+  "odluka": "xiwl-ponovni-prolaz-prebaceno-iz-bez-lokacije",
+  "datum": "2026-10-18",
+  "ishod": "prebaceno-po-odluci-korisnika",
+  "zapisi": [
+   {
+    "id": "badnjevac-spomenik-palim-borcima",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Badnjevac_-_Spomenik_Palim_Borcima_NOB",
+    "izvorniZapis": {
+     "naziv": "Spomenik palim borcima",
+     "mesto": "Badnjevac",
+     "drzava": "Serbia",
+     "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A1%D1%80%D0%B1%D0%B8%D1%98%D0%B8",
+     "slika": "Spomenik NOB u Badnjevcu.jpg",
+     "vrsta": "spomen-obelezje"
+    }
+   },
+   {
+    "id": "babanovac-spomen-obelisk",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Babanovac_-_Spomenik_NOB",
+    "izvorniZapis": {
+     "naziv": "Spomen-obelisk",
+     "nazivEn": "Memorial obelisk",
+     "mesto": "Babanovac",
+     "adresa": "Close to sports centre",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/travnik",
+     "stanje": "ostecen"
+    }
+   },
+   {
+    "id": "bastasi-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Bastasi_-_Spomenik_Palim_Borcima",
+    "izvorniZapis": {
+     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+     "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+     "mesto": "Bastasi",
+     "adresa": "In front of community hall",
+     "drzava": "Bosnia and Herzegovina",
+     "godina": "1966",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/drvar"
+    }
+   },
+   {
+    "id": "bastasi-spomenik-palim-borcima-i-zrtvama-fasistick-2",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Bastasi_%28Bosansko_Grahovo%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "izvorniZapis": {
+     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+     "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+     "mesto": "Bastasi",
+     "adresa": "Behind elementary school",
+     "drzava": "Bosnia and Herzegovina",
+     "godina": "1977",
+     "stanje": "srusen",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/bosanskograhovo"
+    }
+   },
+   {
+    "id": "benakovac-spomenik-zrtvama-fasistickog-terora",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Benakovac_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "izvorniZapis": {
+     "naziv": "Spomenik žrtvama fašističkog terora",
+     "nazivEn": "Monument to Victims of Fascist Terror",
+     "mesto": "Benakovac",
+     "adresa": "Clearing opposite church",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/bosanskakrupa",
+     "stanje": "ostecen"
+    }
+   },
+   {
+    "id": "boboljusci-spomenik-nob",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Boboljusci_-_Spomenik_NOB",
+    "izvorniZapis": {
+     "naziv": "Spomenik NOB",
+     "nazivEn": "Monument to the NOB",
+     "mesto": "Boboljusci",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/drvar",
+     "stanje": "ostecen"
+    }
+   },
+   {
+    "id": "borci-spomen-kosturnica",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Borci_-_Spomen_Kosturnica",
+    "izvorniZapis": {
+     "naziv": "Spomen-kosturnica",
+     "nazivEn": "Memorial ossuary",
+     "mesto": "Borci",
+     "drzava": "Bosnia and Herzegovina",
+     "godina": "1962",
+     "vrsta": "spomen-groblje",
+     "izvor": "https://www.spomenicinob.info/kotorvaros",
+     "kandidati": [
+      {
+       "lat": 44.534704,
+       "lng": 17.54269,
+       "izvor": "https://www.xiwl.com/w/index.php/Borci_-_Spomen_Kosturnica",
+       "opis": "Borci kod Kotor Varosa (ne Konjica), kosturnica iz 1962. sa fotografijom. Satelit nedovoljno jasan za potvrdu tacnog polozaja; kandidat, ne nova tacna lokacija."
+      }
+     ]
+    }
+   },
+   {
+    "id": "crkveno-spomenik-palim-borcima-nob",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Crkveno_-_Spomenik_Palim_Borcima",
+    "izvorniZapis": {
+     "naziv": "Spomenik palim borcima NOB",
+     "nazivEn": "Monument to fallen fighters of the NOB",
+     "mesto": "Crkveno",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/ribnik",
+     "stanje": "srusen"
+    }
+   },
+   {
+    "id": "crveno-brdo-spomenik-nob",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Crveno_Brdo_-_Spomenik_NOB",
+    "izvorniZapis": {
+     "naziv": "Spomenik NOB",
+     "nazivEn": "Monument to the NOB",
+     "mesto": "Crveno Brdo",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/ugljevik"
+    }
+   },
+   {
+    "id": "crni-lug-spomen-zid-zrtvama-fasistickog-terora",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Crni_Lug_%28Bosansko_Grahovo%29_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "izvorniZapis": {
+     "naziv": "Spomen-zid žrtvama fašističkog terora",
+     "nazivEn": "Memorial wall to commemorate Victims of Fascist Terror",
+     "mesto": "Crni Lug",
+     "adresa": "Elementary school",
+     "drzava": "Bosnia and Herzegovina",
+     "godina": "1966",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/bosanskograhovo",
+     "stanje": "ostecen"
+    }
+   },
+   {
+    "id": "crni-kao-spomenik-palim-borcima",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Crni_Kao_%28Bato%C4%8Dina%29_-_Spomenik_NOB",
+    "izvorniZapis": {
+     "naziv": "Spomenik palim borcima",
+     "mesto": "Crni Kao",
+     "drzava": "Serbia",
+     "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A1%D1%80%D0%B1%D0%B8%D1%98%D0%B8",
+     "slika": "Spomenik iz Drugog svetskog rata u Crnom Kalu.jpg",
+     "vrsta": "spomen-obelezje"
+    }
+   },
+   {
+    "id": "do-spomenik-palim-borcima-nor-a-1941-1945",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Do_%28Berkovi%C4%87i%29_-_Spomenik_Palim_Borcima",
+    "izvorniZapis": {
+     "naziv": "Spomenik palim borcima NOR-a 1941-1945",
+     "nazivEn": "Monument to fallen fighters of the NOR 1941-45",
+     "mesto": "Do",
+     "adresa": "Next to Bregava, on left side of Bileća-Stolac road",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/berkovici"
+    }
+   },
+   {
+    "id": "dobra-voda-spomen-cesma-na-mjestu-smrti-narodnog-h",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Dobra_Voda_-_Spomen_%C4%8Cesma",
+    "izvorniZapis": {
+     "naziv": "Spomen-česma na mjestu smrti narodnog heroja Mihajla Čvore",
+     "nazivEn": "Fountain to commemorate place of death of NH Mihajlo Čvoro",
+     "mesto": "Dobra Voda",
+     "drzava": "Bosnia and Herzegovina",
+     "godina": "1952",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/palepraca"
+    }
+   },
+   {
+    "id": "doljani-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Doljani_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "izvorniZapis": {
+     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+     "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+     "mesto": "Doljani",
+     "drzava": "Bosnia and Herzegovina",
+     "autor": "Stanislav Mišić",
+     "godina": "1981",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/bihac"
+    }
+   },
+   {
+    "id": "drenovac-spomen-kosturnica-zrtava-fasistickog-tero",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Drenovac_%28Stolac%29_-_Spomen_Kosturnica",
+    "izvorniZapis": {
+     "naziv": "Spomen-kosturnica žrtava fašističkog terora",
+     "nazivEn": "Memorial ossuary of Victims of Fascist Terror",
+     "mesto": "Drenovac",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "spomen-groblje",
+     "izvor": "https://www.spomenicinob.info/stolac"
+    }
+   },
+   {
+    "id": "gornji-busevic-spomenik-palim-borcima-i-zrtvama-fa",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Gornji_Bu%C5%A1evi%C4%87_-_Palim_Borcima_i_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "izvorniZapis": {
+     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+     "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+     "mesto": "Gornji Bušević",
+     "adresa": "Close to elementary school",
+     "drzava": "Bosnia and Herzegovina",
+     "godina": "1967",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/krupanauni"
+    }
+   },
+   {
+    "id": "gornji-tiskovac-spomenik-nob",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Gornji_Ti%C5%A1kovac_-_Spomenik_NOB",
+    "izvorniZapis": {
+     "naziv": "Spomenik NOB",
+     "nazivEn": "Monument to the NOB",
+     "mesto": "Gornji Tiškovac",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/bihac"
+    }
+   },
+   {
+    "id": "hum-spomen-cesma",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Hum_%28Bugojno%29_-_Spomen_%C4%8Cesma",
+    "izvorniZapis": {
+     "naziv": "Spomen-česma",
+     "nazivEn": "Memorial fountain",
+     "mesto": "Hum",
+     "adresa": "Village centre",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/bugojno"
+    }
+   },
+   {
+    "id": "jelici-spomenik-palim-borcima-i-zrtvama-fasisticko",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Jeli%C4%87i_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "izvorniZapis": {
+     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+     "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+     "mesto": "Jelići",
+     "adresa": "Courtyard of elementary school",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/gradiska"
+    }
+   },
+   {
+    "id": "klekovaca-spomenik-65-zrtava-fasistickog-terora-iz",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Klekova%C4%8Da_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "izvorniZapis": {
+     "naziv": "Spomenik 65 žrtava fašističkog terora iz Drinića i Bukovače",
+     "nazivEn": "Monument to 65 Victims of Fascist Terror from Drinić and Bukovača",
+     "mesto": "Klekovača",
+     "adresa": "Kuk",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/petrovac"
+    }
+   },
+   {
+    "id": "koprivnica-spomen-obiljezje-zrtvama-fasistickog-te",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Koprivnica_%28Bugojno%29_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "izvorniZapis": {
+     "naziv": "Spomen-obilježje žrtvama fašističkog terora",
+     "nazivEn": "Memorial to Victims of Fascist Terror",
+     "mesto": "Koprivnica",
+     "drzava": "Bosnia and Herzegovina",
+     "godina": "1961",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/bugojno"
+    }
+   },
+   {
+    "id": "krtova-spomen-cesma-nob",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Krtova_-_Spomen_%C4%8Cesma",
+    "izvorniZapis": {
+     "naziv": "Spomen-česma NOB",
+     "nazivEn": "Fountain to commemorate the NOB",
+     "mesto": "Krtova",
+     "adresa": "Krtova-Komari crossroads",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/lukavac",
+     "stanje": "uklonjen",
+     "godina": "pre 1970"
+    }
+   },
+   {
+    "id": "krtova-spomen-cesma-palim-borcima-ozrenskog-partiz",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Krtova_-_Spomen_%C4%8Cesma_Palim_Borcima",
+    "izvorniZapis": {
+     "naziv": "Spomen-česma palim borcima Ozrenskog partizanskog odreda",
+     "nazivEn": "Fountain to commemorate fallen fighters of the Ozren Partisan Detachment",
+     "mesto": "Krtova",
+     "adresa": "East of village centre",
+     "drzava": "Bosnia and Herzegovina",
+     "godina": "1959",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/lukavac"
+    }
+   },
+   {
+    "id": "krvavec-spomenik-palim-borcima",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Krvavec_-_Spomenik_Palim_Borcima",
+    "izvorniZapis": {
+     "naziv": "Spomenik palim borcima",
+     "mesto": "Krvavec",
+     "drzava": "Slovenia",
+     "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%98%D0%B8",
+     "slika": "Krvavec WW2 memorial.jpg",
+     "kandidati": [
+      {
+       "lat": 46.041782,
+       "lng": 13.715658,
+       "izvor": "https://commons.wikimedia.org/wiki/File:Krvavec_WW2_memorial.jpg",
+       "opis": "Objavljena GPS tačka fotografije udaljena je od Krvavca i ne potvrđuje položaj prikazanog groba boraca II grupe odredov i Kokrskog odreda. Fotografija prikazuje kamenu petokraku, ne već postojeću ploču na planinskom domu. Ne koristiti ove koordinate za unos."
+      }
+     ],
+     "vrsta": "spomen-obelezje"
+    }
+   },
+   {
+    "id": "krusevo-spomen-grobnica-palih-boraca",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Kru%C5%A1evo_%28Pljevlja%29_-_Spomen_Kosturnica",
+    "izvorniZapis": {
+     "naziv": "Spomen-grobnica palih boraca",
+     "mesto": "Kruševo",
+     "drzava": "Montenegro",
+     "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A6%D1%80%D0%BD%D0%BE%D1%98_%D0%93%D0%BE%D1%80%D0%B8",
+     "vrsta": "spomen-groblje"
+    }
+   },
+   {
+    "id": "lipa-spomenik-ii-krajiskoj-brigadi",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Lipa_%28Biha%C4%87%29_-_Spomenik_Drugoj_Kraji%C5%A1koj_Brigadi",
+    "izvorniZapis": {
+     "naziv": "Spomenik II krajiškoj brigadi",
+     "nazivEn": "Monument to the II Krajinan Brigade",
+     "mesto": "Lipa",
+     "adresa": "Tarkovac",
+     "drzava": "Bosnia and Herzegovina",
+     "godina": "1949",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/bihac"
+    }
+   },
+   {
+    "id": "lipa-spomenik-napadu-vi-i-viii-krajiske-brigade",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Lipa_%28Biha%C4%87%29_-_Spomenik_Kraji%C5%A1kim_Brigadama",
+    "izvorniZapis": {
+     "naziv": "Spomenik napadu VI i VIII krajiške brigade",
+     "nazivEn": "Monument to commemorate assault by VI & VIII Krajina Brigades",
+     "mesto": "Lipa",
+     "adresa": "Šljivovac, on Ripač - Lipa - Bosanski Petrovac road",
+     "drzava": "Bosnia and Herzegovina",
+     "godina": "1951",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/bihac"
+    }
+   },
+   {
+    "id": "meokrnje-spomenik-palim-borcima-travnicke-cete-i-z",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Meokrnje_-_Spomenik_Palim_Borcima",
+    "izvorniZapis": {
+     "naziv": "Spomenik palim borcima Travničke čete i Zeničkog odreda",
+     "nazivEn": "Monument to fallen fighters of the Travnik Company and the Zenica Detachment",
+     "mesto": "Meokrnje",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/travnik"
+    }
+   },
+   {
+    "id": "mlaka-spomenik-u-mlaki",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Mlaka_%28Jasenovac%29_-_Spomenik_NOB_i_Spomenik_%C5%BDrtvama_Fa%C5%A1izma",
+    "izvorniZapis": {
+     "mesto": "Mlaka",
+     "izvor": "https://znaci.org/00003/920.pdf#page=147",
+     "naziv": "Spomenik u Mlaki",
+     "vrsta": "spomenik",
+     "drzava": "Croatia"
+    }
+   },
+   {
+    "id": "mliniste-spomenik-poginulima-1941-godine",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Mlini%C5%A1te_-_Spomenik_Palim_Borcima",
+    "izvorniZapis": {
+     "naziv": "Spomenik poginulima 1941. godine",
+     "nazivEn": "Monument to those killed in 1941",
+     "mesto": "Mlinište",
+     "adresa": "Beside main road at northern entrance to village",
+     "drzava": "Bosnia and Herzegovina",
+     "godina": "1951",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/mrkonjicgrad",
+     "stanje": "ostecen"
+    }
+   },
+   {
+    "id": "mosunj-spomenik-palim-borcima-nob",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Mo%C5%A1unj_-_Spomenik_Palim_Borcima",
+    "izvorniZapis": {
+     "naziv": "Spomenik palim borcima NOB",
+     "nazivEn": "Monument to fallen fighters of the NOB",
+     "mesto": "Mošunj",
+     "adresa": "Along main road",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/vitez"
+    }
+   },
+   {
+    "id": "njemanica-spomenik-41-zrtve-fasistickog-terora-str",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Njemanica_-_Spomenik_NOB",
+    "izvorniZapis": {
+     "naziv": "Spomenik 41 žrtve fašističkog terora strijeljane u novembru 1941. godine",
+     "nazivEn": "Monument to commemorate 41 Victims of Fascist Terror executed in November 1941",
+     "mesto": "Njemanica",
+     "drzava": "Bosnia and Herzegovina",
+     "godina": "1967",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/istocnistarigrad"
+    }
+   },
+   {
+    "id": "piskavica-spomen-kosturnica",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Piskavica_%28Gra%C4%8Danica%29_-_Spomen_Kosturnica",
+    "izvorniZapis": {
+     "naziv": "Spomen-kosturnica",
+     "nazivEn": "Memorial ossuary",
+     "mesto": "Piskavica",
+     "adresa": "In front of elementary school",
+     "drzava": "Bosnia and Herzegovina",
+     "autor": "Branko Marušić",
+     "godina": "1985",
+     "stanje": "uklonjen",
+     "vrsta": "spomen-groblje",
+     "izvor": "https://www.spomenicinob.info/gracanica"
+    }
+   },
+   {
+    "id": "poljaci-spomenik-nob",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Poljaci_-_Spomenik_NOB",
+    "izvorniZapis": {
+     "naziv": "Spomenik NOB",
+     "nazivEn": "Monument to the NOB",
+     "mesto": "Poljaci",
+     "adresa": "Elementary school",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/brcko"
+    }
+   },
+   {
+    "id": "potocani-grob-2-nepoznata-partizanska-borca",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Poto%C4%8Dani_%28Doboj%29_-_Spomen_Groblje",
+    "izvorniZapis": {
+     "naziv": "Grob 2 nepoznata partizanska borca",
+     "nazivEn": "Grave of 2 unknown Partisan fighters",
+     "mesto": "Potočani",
+     "adresa": "South-eastern edge of village",
+     "drzava": "Bosnia and Herzegovina",
+     "autor": "Drago Handanović & Petar Vajdić",
+     "godina": "1982",
+     "vrsta": "spomen-groblje",
+     "izvor": "https://www.spomenicinob.info/doboj"
+    }
+   },
+   {
+    "id": "rataj-mjesto-logorovanja-vrhovnog-staba",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Rataj_-_Spomenik_Glavice_Brdo",
+    "izvorniZapis": {
+     "naziv": "Mjesto logorovanja Vrhovnog štaba",
+     "nazivEn": "Encampment site of the Supreme Command",
+     "mesto": "Rataj",
+     "adresa": "Glavice hill",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/foca",
+     "godina": "pre 1975"
+    }
+   },
+   {
+    "id": "skocaj-zajednicka-grobnica-zrtava-fasistickog-tero",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Sko%C4%8Daj_-_Grobnica_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "izvorniZapis": {
+     "naziv": "Zajednička grobnica žrtava fašističkog terora",
+     "nazivEn": "Collective grave of Victims of Fascist Terror",
+     "mesto": "Skočaj",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "spomen-groblje",
+     "izvor": "https://www.spomenicinob.info/bihac"
+    }
+   },
+   {
+    "id": "smoluca-spomenik-palim-borcima-nor-a",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Smolu%C4%87a_-_Spomenik_Palim_Borcima",
+    "izvorniZapis": {
+     "naziv": "Spomenik palim borcima NOR-a",
+     "nazivEn": "Monument to Fallen Fighters of the NOR",
+     "mesto": "Smoluća",
+     "adresa": "Elementary school",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/lukavac",
+     "stanje": "ostecen"
+    }
+   },
+   {
+    "id": "srpski-milanovac-spomen-cesma",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Srpski_Milanovac_-_Spomen_%C4%8Cesma",
+    "izvorniZapis": {
+     "naziv": "Spomen-česma",
+     "nazivEn": "Memorial fountain",
+     "mesto": "Srpski Milanovac",
+     "adresa": "Courtyard of Đura Jakšić elementary school",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/banjaluka"
+    }
+   },
+   {
+    "id": "tisina-spomenik-palim-borcima-i-zrtvama-fasisticko",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Ti%C5%A1ina_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "izvorniZapis": {
+     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+     "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+     "mesto": "Tišina",
+     "adresa": "Close to site of old monument",
+     "drzava": "Bosnia and Herzegovina",
+     "autor": "Anto Golubičić",
+     "godina": "1964",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/samac"
+    }
+   },
+   {
+    "id": "velika-brusnica-spomenik-palim-borcima",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Velika_Brusnica_-_Spomenik_Palim_Borcima",
+    "izvorniZapis": {
+     "naziv": "Spomenik palim borcima",
+     "nazivEn": "Monument to fallen fighters",
+     "mesto": "Velika Brusnica",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/brod"
+    }
+   },
+   {
+    "id": "vitez-spomen-kosturnica-palih-boraca-iz-krajine",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Vitez_-_Spomen_Kosturnica",
+    "izvorniZapis": {
+     "naziv": "Spomen-kosturnica palih boraca iz Krajine",
+     "nazivEn": "Memorial ossuary of fallen fighters from Krajina",
+     "mesto": "Vitez",
+     "adresa": "Town centre",
+     "drzava": "Bosnia and Herzegovina",
+     "stanje": "uklonjen",
+     "vrsta": "spomen-groblje",
+     "izvor": "https://www.spomenicinob.info/vitez",
+     "godina": "pre 1965"
+    }
+   },
+   {
+    "id": "vlaka-spomenik-pobjedi-bobanske-partizanske-cete-1",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Vlaka_%28Ravno%29_-_Spomenik_NOB",
+    "izvorniZapis": {
+     "naziv": "Spomenik pobjedi Bobanske partizanske čete 1941. godine",
+     "nazivEn": "Monument to commemorate victory by the Bobani Partisan Company in 1941",
+     "mesto": "Vlaka",
+     "drzava": "Bosnia and Herzegovina",
+     "godina": "1963",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/ravno"
+    }
+   },
+   {
+    "id": "zalazje-spomenik-nob",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/Zalazje_-_Spomenik_NOB",
+    "izvorniZapis": {
+     "naziv": "Spomenik NOB",
+     "nazivEn": "Monument to the NOB",
+     "mesto": "Zalazje",
+     "adresa": "Beside road leading from Obadi to Gostilj",
+     "drzava": "Bosnia and Herzegovina",
+     "godina": "1963",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/srebrenica"
+    }
+   },
+   {
+    "id": "citluk-spomenik-palim-borcima-2",
+    "tacka": "tacka sa Partisan Memorials Wiki: https://www.xiwl.com/w/index.php/%C4%8Citluk_-_Spomenik_Palim_Borcima",
+    "izvorniZapis": {
+     "naziv": "Spomenik palim borcima",
+     "nazivEn": "Monument to fallen fighters",
+     "mesto": "Čitluk",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "spomen-obelezje",
+     "izvor": "https://www.spomenicinob.info/citluk",
+     "godina": "pre 1965"
+    }
+   }
+  ],
+  "razlog": "Stranica wikija i jedini zapis iz bez_lokacije u istom selu i drzavi, kompatibilne vrste i bez sukoba godine. Preskoceni nejasni parovi: Budelj Gornji, Dubocac, Komiza, Skradin, Zvecevo x2, Guberevac x2, Zdeni Do x2, Pjesivac, Topolovo, Zajednice, Vaganj, Barake, Baraci; 27 stranica sa vise kandidata i 27 bez kandidata nisu obradjene."
+ },
+ {
+  "odluka": "xiwl-ponovni-prolaz-sela-sa-zapisom-dalje-od-500m",
+  "datum": "2026-10-18",
+  "ishod": "dodato-po-odluci-korisnika",
+  "id": [
+   "banja-luka-spomenik-esadu-midzicu",
+   "beograd-spomenik-ilegalnoj-stampariji-kpj",
+   "beograd-spomen-groblje-streljanih-1944",
+   "beograd-spomenik",
+   "berane-spomenik-barskim-logorasima",
+   "beograd-spomenik-palim-radnicima",
+   "bijeljina-spomenik-palim-borcima",
+   "bijeljina-spomenik-palim-borcima-2",
+   "bijeljina-spomenik-palim-borcima-3",
+   "bijeljina-spomenik-palim-borcima-i-zrtvama-fasisti",
+   "blatna-partizansko-groblje",
+   "brcko-spomenik-braci-cuskic",
+   "brcko-spomenik-zrtvama-holokausta",
+   "brcko-spomenik-zrtvama-holokausta-2",
+   "brcko-spomen-kosturnica",
+   "bugojno-partizansko-groblje",
+   "bugojno-spomenik-oslobodiocima",
+   "danilovgrad-spomen-kosturnica-palim-borcima",
+   "danilovgrad-spomen-kosturnica-rodoljubima",
+   "daruvar-spomenik",
+   "derventa-spomenik-nob-2",
+   "doboj-spomen-obelisk-nob",
+   "dramalj-spomen-grobnica",
+   "drvar-spomen-grobnica",
+   "ducina-spomenik-borcima",
+   "gornji-jelovac-spomenik-zrtvama-fasistickog-terora",
+   "gornji-hrastovac-spomenik-ustanku",
+   "gornji-jelovac-spomenik-zrtvama-fasistickog-terora-2",
+   "gunja-spomenik-poginulim-borcima",
+   "ilidza-spomen-obelisk",
+   "ilok-spomen-kosturnica",
+   "izgori-spomenik-mirceti-golovicu",
+   "javorovica-spomenik-ustanovitvi-gorjanskega-batalj",
+   "kamenski-vucjak-spomenik-zrtvama-susnjarske-bitke",
+   "kolasin-spomenik-nob",
+   "konjuh-spomenik-nob",
+   "koprivnica-spomenik-stradalim-zidovima",
+   "kriskovci-spomenik-palim-borcima",
+   "krusevac-spomen-piramida",
+   "krusevac-spomenik-palim-borcima",
+   "krusevac-spomenik-streljanima",
+   "kupres-spomen-kosturnica",
+   "leskovac-spomenik",
+   "leskovac-spomenik-pionirima",
+   "leskovac-spomenik-streljanima",
+   "livno-spomen-ploca-palim-borcima",
+   "ludbreg-spomenik-17-udarnoj-brigadi",
+   "malesici-partizansko-groblje-2",
+   "maribor-spomenik-milosu-zidansku",
+   "mostar-spomenik-nob",
+   "mosna-spomenik-streljanima",
+   "nis-spomenik-oslobodiocima",
+   "novi-pazar-spomenik-streljanima",
+   "novo-selo-spomen-grobnica",
+   "ogulin-spomenik-zrtvama-fasizma",
+   "petrovac-na-moru-spomenik-strijeljanim-rodoljubima",
+   "petrovac-na-moru-spomenik-ustanicima-petrovackog-k",
+   "petrovac-na-moru-spomenik-milici-i-stani-medigovic",
+   "plovanija-spomenik",
+   "prijedor-spomenik-logoru-ciglana",
+   "prijepolje-spomenik",
+   "prijepolje-spomenik-2",
+   "pristina-spomenik",
+   "prkosi-spomenik-mariji-bursac",
+   "pula-spomenik-nob",
+   "prokuplje-spomen-kosturnica",
+   "rujnica-groblje-zrtvama-fasistickog-terora",
+   "sanski-most-spomenik-nob",
+   "split-spomen-park-lovinac",
+   "split-spomenik-palim-brodogradilisnim-radnicima",
+   "stara-bila-spomen-park",
+   "subotica-spomenik-zrtvama-fasizma",
+   "subotica-spomenik-subotickom-partizanskom-odredu",
+   "subotica-spomenik-nob",
+   "subotica-spomenik-nob-2",
+   "teslic-partizansko-groblje",
+   "travnik-spomenik-jevrejima",
+   "tuzla-spomen-park-pasage-mandzica",
+   "tuzla-spomenik-knjiga",
+   "tuzla-spomenik-suza",
+   "varazdin-spomenik-jalkoveckim-zrtvama",
+   "vilesi-spomenik-zrtvama-fasistickog-terora",
+   "viskovo-spomenik-streljanima",
+   "vlasotince-spomenik-neznanim-junacima",
+   "vukovar-spomenik-nosenje-ranjenika",
+   "vucja-luka-spomen-kosturnica",
+   "zagreb-spomenik-marijanu-badelu",
+   "zagreb-spomenik-objesenim-antifasistima",
+   "zajecar-spomen-kosturnica-palim-borcima-nor-a",
+   "zlatibor-spomenik-bici-na-palisadu",
+   "zlakusa-spomen-park-vesala",
+   "zenica-spomenik-streljanim-partizanima",
+   "capljina-spomen-cesma",
+   "cacak-spomenik-streljanim-borcima-i-pripadnicima-n",
+   "djakovo-spomen-park-podjede",
+   "sibosnica-spomen-park",
+   "sije-spomen-cesma",
+   "sibenik-spomenik-nob",
+   "zabljak-spomenik-jakovu-ostojicu"
+  ],
+  "izbaceno": [
+   "Bajinci: Spomenik ratnicima Mlačišta i Bajinca",
+   "Bučka: Stražni Stolp",
+   "Crikvenica: Titov gaj",
+   "Darda: Spomenik poginulim u Drugom svjetskom ratu",
+   "Dugi Rat: Spomenik poginulim Nogometašima",
+   "Gunjevci: Spomenik Drugog svjetskog rata",
+   "Irig: Spomenik pilotima",
+   "Jablanica: Gradski park",
+   "Niš: Spomenik palim pilotima",
+   "Podgorica: Spomenik Američkom i Britanskom pilotu",
+   "Predoslje: Sculpture park Grad Brdo",
+   "Pula: Spomenik žrtvama poginulim od bombardiranja",
+   "Ruma: Spomenik Plavo Krilo",
+   "Trbovlje: Pokopališče",
+   "Vrata: Spomenik poginulima u Drugom svjetskom ratu",
+   "Vrata: Spomenik poginulim Sportašima",
+   "Zagreb: Spomenik skulptura Majka i Dijete"
+  ],
+  "razlog": "Stranice wikija bez nase veze i bez zapisa do 500 m, u mestu gde imamo druge zapise; nijedan nas zapis do 10 km nema slican naziv (osnove reci) niti istu godinu i vrstu. Izbaceni piloti, sportisti, spomenici svim poginulim u ratu, bombardovanja, posleratna groblja i skulpture bez veze sa NOB."
  }
 ]

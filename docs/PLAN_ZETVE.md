@@ -24,7 +24,9 @@ Napravljeno **2026-10-18**. Cilj: novi partizanski spomenici, spomen-groblja i s
 | 8 | Registar ratnih memorijala, Ministarstvo za rad, zapošljavanje, boračka i socijalna pitanja | Srbija | Vodi se po Zakonu o ratnim memorijalima, ali nije javno objavljen; moguć zahtev za pristup informacijama od javnog značaja. | odluka korisnika |
 | 9 | Sanja Horvatinčić, doktorska disertacija o spomenicima NOB u Hrvatskoj (Zagreb) | Hrvatska | Akademski katalog sa autorima i godinama; dopuna Hrženjaka. | nije provereno |
 | 10 | Znaci.org, spomeničke monografije opština | sve | Pored pet obrađenih knjiga ima još lokalnih izdanja „Spomenici revolucije …“; jedan pregled kataloga daje spisak. | nije provereno |
-| 11 | Otvoreni tragovi iz [IZVORI.md](IZVORI.md#literatura-za-spomen-groblja) | BiH | Mramorje evidencioni listovi (TLS greška), Bešlagić 1958 i Vojinović 1969 (Jajce), Hozić (Teslić), Bokan (Sanski Most). | tragovi postoje, nisu pročitani |
+| 11 | Saopštenja RZZSK X (1974), *Prilog evidenciji spomenika posvećenih 1941. u Srbiji* ([PDF](https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf)) | Srbija | Stručna evidencija Republičkog zavoda sa autorima; dopuna Popović-Žume za spomenike ustanka. | pronađen, nije pročitan |
+| 12 | Vulović, katalog NOR spomenika čačanskog kraja, *Zbornik radova Narodnog muzeja Čačak* ([PDF](https://zbornik.cacakmuzej.org.rs/files/zbornik/6/ZRNMC_06_16.pdf)) | Srbija | Katalog sa opisom i dimenzijama svakog spomenika; vidi i [drugi broj](https://zbornik.cacakmuzej.org.rs/files/zbornik/3/ZRNMC_03_13.pdf). | pronađen, nije pročitan |
+| 13 | Otvoreni tragovi iz [IZVORI.md](IZVORI.md#literatura-za-spomen-groblja) | BiH | Mramorje evidencioni listovi (TLS greška), Bešlagić 1958 i Vojinović 1969 (Jajce), Hozić (Teslić), Bokan (Sanski Most). | tragovi postoje, nisu pročitani |
 
 Crna Gora je zatvorena odlukom korisnika (vidi [IZVORI.md](IZVORI.md#crna-gora)); Slovenija je posle drugog prolaza kroz RNPD (2026-10-18, 201 nov) praktično iscrpljena zvaničnim izvorima.
 

@@ -166,22 +166,6 @@
   },
   {
     "naziv": "Spomenik palim borcima",
-    "mesto": "Krvavec",
-    "drzava": "Slovenia",
-    "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%98%D0%B8",
-    "slika": "Krvavec WW2 memorial.jpg",
-    "kandidati": [
-      {
-        "lat": 46.041782,
-        "lng": 13.715658,
-        "izvor": "https://commons.wikimedia.org/wiki/File:Krvavec_WW2_memorial.jpg",
-        "opis": "Objavljena GPS tačka fotografije udaljena je od Krvavca i ne potvrđuje položaj prikazanog groba boraca II grupe odredov i Kokrskog odreda. Fotografija prikazuje kamenu petokraku, ne već postojeću ploču na planinskom domu. Ne koristiti ove koordinate za unos."
-      }
-    ],
-    "vrsta": "spomen-obelezje"
-  },
-  {
-    "naziv": "Spomenik palim borcima",
     "mesto": "Škofja Loka",
     "drzava": "Slovenia",
     "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%98%D0%B8",
@@ -204,22 +188,6 @@
     "vrsta": "spomen-obelezje"
   },
   {
-    "naziv": "Spomenik palim borcima",
-    "mesto": "Badnjevac",
-    "drzava": "Serbia",
-    "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A1%D1%80%D0%B1%D0%B8%D1%98%D0%B8",
-    "slika": "Spomenik NOB u Badnjevcu.jpg",
-    "vrsta": "spomen-obelezje"
-  },
-  {
-    "naziv": "Spomenik palim borcima",
-    "mesto": "Crni Kao",
-    "drzava": "Serbia",
-    "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A1%D1%80%D0%B1%D0%B8%D1%98%D0%B8",
-    "slika": "Spomenik iz Drugog svetskog rata u Crnom Kalu.jpg",
-    "vrsta": "spomen-obelezje"
-  },
-  {
     "naziv": "Bista Života Valjarević",
     "mesto": "Vrnjačka Banja",
     "drzava": "Serbia",
@@ -238,13 +206,6 @@
   {
     "naziv": "Spomen-grobnica palih boraca",
     "mesto": "Bobovo",
-    "drzava": "Montenegro",
-    "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A6%D1%80%D0%BD%D0%BE%D1%98_%D0%93%D0%BE%D1%80%D0%B8",
-    "vrsta": "spomen-groblje"
-  },
-  {
-    "naziv": "Spomen-grobnica palih boraca",
-    "mesto": "Kruševo",
     "drzava": "Montenegro",
     "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A6%D1%80%D0%BD%D0%BE%D1%98_%D0%93%D0%BE%D1%80%D0%B8",
     "vrsta": "spomen-groblje"
@@ -584,15 +545,6 @@
     "drzava": "Bosnia and Herzegovina",
     "autor": "Antun Augustinčić",
     "godina": "1961",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/banjaluka"
-  },
-  {
-    "naziv": "Spomen-česma",
-    "nazivEn": "Memorial fountain",
-    "mesto": "Srpski Milanovac",
-    "adresa": "Courtyard of Đura Jakšić elementary school",
-    "drzava": "Bosnia and Herzegovina",
     "vrsta": "spomen-obelezje",
     "izvor": "https://www.spomenicinob.info/banjaluka"
   },
@@ -1616,15 +1568,6 @@
     "stanje": "srusen"
   },
   {
-    "naziv": "Spomenik palim borcima NOR-a 1941-1945",
-    "nazivEn": "Monument to fallen fighters of the NOR 1941-45",
-    "mesto": "Do",
-    "adresa": "Next to Bregava, on left side of Bileća-Stolac road",
-    "drzava": "Bosnia and Herzegovina",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/berkovici"
-  },
-  {
     "naziv": "Spomen-ploča žrtvama fašističkog terora ubijenim u decembru 1943. godine",
     "nazivEn": "Plaque to commemorate Victims of Fascist Terror killed in December 1943",
     "mesto": "Bitunja",
@@ -1792,14 +1735,6 @@
     "drzava": "Bosnia and Herzegovina",
     "autor": "Vladimir Herljević",
     "godina": "1960",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/bihac"
-  },
-  {
-    "naziv": "Spomenik NOB",
-    "nazivEn": "Monument to the NOB",
-    "mesto": "Gornji Tiškovac",
-    "drzava": "Bosnia and Herzegovina",
     "vrsta": "spomen-obelezje",
     "izvor": "https://www.spomenicinob.info/bihac"
   },
@@ -1982,16 +1917,6 @@
   {
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
-    "mesto": "Doljani",
-    "drzava": "Bosnia and Herzegovina",
-    "autor": "Stanislav Mišić",
-    "godina": "1981",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/bihac"
-  },
-  {
-    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
-    "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
     "mesto": "Bugar",
     "drzava": "Bosnia and Herzegovina",
     "autor": "Stanislav Mišić",
@@ -2055,16 +1980,6 @@
     "izvor": "https://www.spomenicinob.info/bihac"
   },
   {
-    "naziv": "Spomenik II krajiškoj brigadi",
-    "nazivEn": "Monument to the II Krajinan Brigade",
-    "mesto": "Lipa",
-    "adresa": "Tarkovac",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1949",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/bihac"
-  },
-  {
     "naziv": "Spomen-ploča napadu VIII krajiške brigade",
     "nazivEn": "Plaque to commemorate assault by VIII Krajina Brigade",
     "mesto": "Lipa",
@@ -2072,16 +1987,6 @@
     "drzava": "Bosnia and Herzegovina",
     "godina": "1951",
     "vrsta": "spomen-ploca",
-    "izvor": "https://www.spomenicinob.info/bihac"
-  },
-  {
-    "naziv": "Spomenik napadu VI i VIII krajiške brigade",
-    "nazivEn": "Monument to commemorate assault by VI & VIII Krajina Brigades",
-    "mesto": "Lipa",
-    "adresa": "Šljivovac, on Ripač - Lipa - Bosanski Petrovac road",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1951",
-    "vrsta": "spomen-obelezje",
     "izvor": "https://www.spomenicinob.info/bihac"
   },
   {
@@ -2128,14 +2033,6 @@
     "vrsta": "bista",
     "izvor": "https://www.spomenicinob.info/bihac",
     "stanje": "ostecen"
-  },
-  {
-    "naziv": "Zajednička grobnica žrtava fašističkog terora",
-    "nazivEn": "Collective grave of Victims of Fascist Terror",
-    "mesto": "Skočaj",
-    "drzava": "Bosnia and Herzegovina",
-    "vrsta": "spomen-groblje",
-    "izvor": "https://www.spomenicinob.info/bihac"
   },
   {
     "naziv": "Spomen-ploča palim borcima i žrtvama fašističkog terora",
@@ -2781,16 +2678,6 @@
     "drzava": "Bosnia and Herzegovina",
     "godina": "1977",
     "vrsta": "spomen-ploca",
-    "izvor": "https://www.spomenicinob.info/bijeljina"
-  },
-  {
-    "naziv": "Spomen-kosturnica palih boraca",
-    "nazivEn": "Memorial ossuary of fallen fighters",
-    "mesto": "Rača",
-    "drzava": "Bosnia and Herzegovina",
-    "autor": "Slobodan Lukić",
-    "godina": "1952",
-    "vrsta": "spomen-groblje",
     "izvor": "https://www.spomenicinob.info/bijeljina"
   },
   {
@@ -4171,16 +4058,6 @@
     "izvor": "https://www.spomenicinob.info/bosanskakrupa"
   },
   {
-    "naziv": "Spomenik žrtvama fašističkog terora",
-    "nazivEn": "Monument to Victims of Fascist Terror",
-    "mesto": "Benakovac",
-    "adresa": "Clearing opposite church",
-    "drzava": "Bosnia and Herzegovina",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/bosanskakrupa",
-    "stanje": "ostecen"
-  },
-  {
     "naziv": "Spomen-ploča na mjestu partizanske krojačke radionice",
     "nazivEn": "Plaque to commemorate location of Partisan tailors' workshop",
     "mesto": "Bosanska Krupa",
@@ -5056,17 +4933,6 @@
     "stanje": "ostecen"
   },
   {
-    "naziv": "Spomen-zid žrtvama fašističkog terora",
-    "nazivEn": "Memorial wall to commemorate Victims of Fascist Terror",
-    "mesto": "Crni Lug",
-    "adresa": "Elementary school",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1966",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/bosanskograhovo",
-    "stanje": "ostecen"
-  },
-  {
     "naziv": "Spomenik na mjestu formiranja IV krajiške brigade",
     "nazivEn": "Monument to mark the place of formation of IV Krajinan Brigade",
     "mesto": "Tičevo",
@@ -5158,17 +5024,6 @@
     "drzava": "Bosnia and Herzegovina",
     "godina": "1955",
     "vrsta": "spomen-ploca",
-    "izvor": "https://www.spomenicinob.info/bosanskograhovo"
-  },
-  {
-    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
-    "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
-    "mesto": "Bastasi",
-    "adresa": "Behind elementary school",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1977",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
     "izvor": "https://www.spomenicinob.info/bosanskograhovo"
   },
   {
@@ -5897,15 +5752,6 @@
     "izvor": "https://www.spomenicinob.info/brcko"
   },
   {
-    "naziv": "Spomenik NOB",
-    "nazivEn": "Monument to the NOB",
-    "mesto": "Poljaci",
-    "adresa": "Elementary school",
-    "drzava": "Bosnia and Herzegovina",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/brcko"
-  },
-  {
     "naziv": "Spomenik palim borcima",
     "nazivEn": "Monument to fallen fighters",
     "mesto": "Brčko",
@@ -6474,14 +6320,6 @@
     "godina": "posle 1971"
   },
   {
-    "naziv": "Spomenik palim borcima",
-    "nazivEn": "Monument to fallen fighters",
-    "mesto": "Velika Brusnica",
-    "drzava": "Bosnia and Herzegovina",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/brod"
-  },
-  {
     "naziv": "Partizansko groblje sa 52 partizanska borca",
     "nazivEn": "Partisans' cemetery with 52 Partisan fighters",
     "mesto": "Bugojno",
@@ -6550,15 +6388,6 @@
     "drzava": "Bosnia and Herzegovina",
     "godina": "1979",
     "vrsta": "spomen-ploca",
-    "izvor": "https://www.spomenicinob.info/bugojno"
-  },
-  {
-    "naziv": "Spomen-obilježje žrtvama fašističkog terora",
-    "nazivEn": "Memorial to Victims of Fascist Terror",
-    "mesto": "Koprivnica",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1961",
-    "vrsta": "spomen-obelezje",
     "izvor": "https://www.spomenicinob.info/bugojno"
   },
   {
@@ -6640,15 +6469,6 @@
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
     "mesto": "Gornji Mračaj",
-    "drzava": "Bosnia and Herzegovina",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/bugojno"
-  },
-  {
-    "naziv": "Spomen-česma",
-    "nazivEn": "Memorial fountain",
-    "mesto": "Hum",
-    "adresa": "Village centre",
     "drzava": "Bosnia and Herzegovina",
     "vrsta": "spomen-obelezje",
     "izvor": "https://www.spomenicinob.info/bugojno"
@@ -8091,15 +7911,6 @@
     "godina": "pre 1962"
   },
   {
-    "naziv": "Spomenik palim borcima",
-    "nazivEn": "Monument to fallen fighters",
-    "mesto": "Čitluk",
-    "drzava": "Bosnia and Herzegovina",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/citluk",
-    "godina": "pre 1965"
-  },
-  {
     "naziv": "Bista Ivana Krndelja",
     "nazivEn": "Bust of Ivan Krndelj",
     "mesto": "Čitluk",
@@ -8220,16 +8031,6 @@
     "vrsta": "spomen-ploca",
     "izvor": "https://www.spomenicinob.info/derventa",
     "godina": "pre 1960"
-  },
-  {
-    "naziv": "Zajednička grobnica žrtava fašističkog terora",
-    "nazivEn": "Collective grave of Victims of Fascist Terror",
-    "mesto": "Kalenderovci",
-    "adresa": "Local cemetery",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1974",
-    "vrsta": "spomen-groblje",
-    "izvor": "https://www.spomenicinob.info/derventa"
   },
   {
     "naziv": "Spomen-kosturnica",
@@ -8620,17 +8421,6 @@
     "drzava": "Bosnia and Herzegovina",
     "godina": "1985",
     "vrsta": "spomen-ploca",
-    "izvor": "https://www.spomenicinob.info/doboj"
-  },
-  {
-    "naziv": "Grob 2 nepoznata partizanska borca",
-    "nazivEn": "Grave of 2 unknown Partisan fighters",
-    "mesto": "Potočani",
-    "adresa": "South-eastern edge of village",
-    "drzava": "Bosnia and Herzegovina",
-    "autor": "Drago Handanović & Petar Vajdić",
-    "godina": "1982",
-    "vrsta": "spomen-groblje",
     "izvor": "https://www.spomenicinob.info/doboj"
   },
   {
@@ -9255,16 +9045,6 @@
     "izvor": "https://www.spomenicinob.info/drvar"
   },
   {
-    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
-    "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
-    "mesto": "Bastasi",
-    "adresa": "In front of community hall",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1966",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/drvar"
-  },
-  {
     "naziv": "Spomen-ploča boravku Josipa Broza Tita",
     "nazivEn": "Plaque to commemorate residence of Josip Broz Tito",
     "mesto": "Bastasi",
@@ -9303,15 +9083,6 @@
     "drzava": "Bosnia and Herzegovina",
     "vrsta": "spomen-ploca",
     "izvor": "https://www.spomenicinob.info/drvar"
-  },
-  {
-    "naziv": "Spomenik NOB",
-    "nazivEn": "Monument to the NOB",
-    "mesto": "Boboljusci",
-    "drzava": "Bosnia and Herzegovina",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/drvar",
-    "stanje": "ostecen"
   },
   {
     "naziv": "Bista Slavka Rodića",
@@ -9787,16 +9558,6 @@
     "stanje": "uklonjen"
   },
   {
-    "naziv": "Mjesto logorovanja Vrhovnog štaba",
-    "nazivEn": "Encampment site of the Supreme Command",
-    "mesto": "Rataj",
-    "adresa": "Glavice hill",
-    "drzava": "Bosnia and Herzegovina",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/foca",
-    "godina": "pre 1975"
-  },
-  {
     "naziv": "Grob narodnog heroja Nikole Marakovića Nine",
     "nazivEn": "Grave of NH Nikola Maraković Nina",
     "mesto": "Rataj",
@@ -10172,37 +9933,12 @@
     "izvor": "https://www.spomenicinob.info/fojnica"
   },
   {
-    "naziv": "Spomen-kosturnica palih boraca",
-    "nazivEn": "Memorial ossuary of fallen fighters",
-    "mesto": "Fojnica",
-    "adresa": "In front of Hotel Reumal",
-    "drzava": "Bosnia and Herzegovina",
-    "autor": "Ranko Milanović",
-    "godina": "1974",
-    "vrsta": "spomen-groblje",
-    "izvor": "https://www.spomenicinob.info/fojnica",
-    "slika": "slike/bez-lokacije/ba-fojnica-kosturnica.webp",
-    "slikaPotpis": "Alma la Douce (@DouceAlma), X",
-    "slikaOdnos": 0.75
-  },
-  {
     "naziv": "Spomen-ploča oslobođenju Fojnice 1942. godine",
     "nazivEn": "Plaque to commemorate the Liberation of Fojnica in 1942",
     "mesto": "Fojnica",
     "adresa": "Ul. Mehmeda Spahe 11",
     "drzava": "Bosnia and Herzegovina",
     "vrsta": "spomen-ploca",
-    "izvor": "https://www.spomenicinob.info/fojnica"
-  },
-  {
-    "naziv": "Partizansko groblje sa 29 palih boraca",
-    "nazivEn": "Partisans' cemetery with 29 fallen fighters",
-    "mesto": "Fojnica",
-    "adresa": "Luke",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1956",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-groblje",
     "izvor": "https://www.spomenicinob.info/fojnica"
   },
   {
@@ -10242,17 +9978,6 @@
     "drzava": "Bosnia and Herzegovina",
     "godina": "1951",
     "vrsta": "spomen-ploca",
-    "izvor": "https://www.spomenicinob.info/fojnica"
-  },
-  {
-    "naziv": "Partizansko groblje",
-    "nazivEn": "Partisans' cemetery",
-    "mesto": "Fojnica",
-    "adresa": "Town park",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1959",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-groblje",
     "izvor": "https://www.spomenicinob.info/fojnica"
   },
   {
@@ -10633,16 +10358,6 @@
     "godina": "pre 1985"
   },
   {
-    "naziv": "Partizansko groblje sa 36 palih boraca",
-    "nazivEn": "Partisans' cemetery with 36 fallen fighters",
-    "mesto": "Hranjen",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1961",
-    "vrsta": "spomen-groblje",
-    "izvor": "https://www.spomenicinob.info/gorazde",
-    "adresa": "Commemorative fountain in front"
-  },
-  {
     "naziv": "Spomenik oslobođenju Goražda",
     "nazivEn": "Monument to the Liberation of Goraže",
     "mesto": "Posestra",
@@ -10650,16 +10365,6 @@
     "drzava": "Bosnia and Herzegovina",
     "godina": "1974",
     "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/gorazde"
-  },
-  {
-    "naziv": "Zajednička grobnica palih boraca",
-    "nazivEn": "Collective grave of fallen fighters",
-    "mesto": "Kolijevke",
-    "adresa": "Town cemetery",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1985",
-    "vrsta": "spomen-groblje",
     "izvor": "https://www.spomenicinob.info/gorazde"
   },
   {
@@ -10753,16 +10458,6 @@
     "stanje": "uklonjen",
     "vrsta": "bista",
     "izvor": "https://www.spomenicinob.info/gorazde"
-  },
-  {
-    "naziv": "Partizansko groblje sa 101 palim borcem",
-    "nazivEn": "Partisans' cemetery with 101 fallen fighters",
-    "mesto": "Gornji Vakuf",
-    "adresa": "Brijeg Glavica",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1959",
-    "vrsta": "spomen-groblje",
-    "izvor": "https://www.spomenicinob.info/gornjivakuf"
   },
   {
     "naziv": "Bista Jure Mikulića",
@@ -10936,18 +10631,6 @@
     "godina": "1959",
     "stanje": "uklonjen",
     "vrsta": "spomen-ploca",
-    "izvor": "https://www.spomenicinob.info/gracanica"
-  },
-  {
-    "naziv": "Spomen-kosturnica",
-    "nazivEn": "Memorial ossuary",
-    "mesto": "Piskavica",
-    "adresa": "In front of elementary school",
-    "drzava": "Bosnia and Herzegovina",
-    "autor": "Branko Marušić",
-    "godina": "1985",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-groblje",
     "izvor": "https://www.spomenicinob.info/gracanica"
   },
   {
@@ -11910,17 +11593,6 @@
     "godina": "1947",
     "vrsta": "spomen-ploca",
     "izvor": "https://www.spomenicinob.info/ilidza"
-  },
-  {
-    "naziv": "Kosturnica žrtava fašističkog terora",
-    "nazivEn": "Ossuary of Victims of Fascist Terror",
-    "mesto": "Ilijaš",
-    "adresa": "Alića gaj",
-    "drzava": "Bosnia and Herzegovina",
-    "autor": "Milivoje Unković",
-    "godina": "1962",
-    "vrsta": "spomen-groblje",
-    "izvor": "https://www.spomenicinob.info/ilijas"
   },
   {
     "naziv": "Spomen-ploča generalnom štrajku 1913. godine",
@@ -13068,17 +12740,6 @@
     "godina": "pre 1969"
   },
   {
-    "naziv": "Partizansko groblje sa 51 palim borcem",
-    "nazivEn": "Partisans' cemetery with 51 fallen fighters",
-    "mesto": "Kiseljak",
-    "adresa": "Next to Kiseljak elementary school",
-    "drzava": "Bosnia and Herzegovina",
-    "autor": "Anton Šego & Ranko Milanović",
-    "godina": "1955",
-    "vrsta": "spomen-groblje",
-    "izvor": "https://www.spomenicinob.info/kiseljak"
-  },
-  {
     "naziv": "Spomenik Rudiju Čajavcu",
     "nazivEn": "Monument to commemorate Rudi Čajavec",
     "mesto": "Kiseljak",
@@ -13719,15 +13380,6 @@
     "izvor": "https://www.spomenicinob.info/konjic"
   },
   {
-    "naziv": "Partizansko groblje",
-    "nazivEn": "Partisans' cemetery",
-    "mesto": "Borci",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1955",
-    "vrsta": "spomen-groblje",
-    "izvor": "https://www.spomenicinob.info/konjic"
-  },
-  {
     "naziv": "Spomen-ploča borbama koje je vodio Mostarski bataljon na ovom području",
     "nazivEn": "Plaque to commemorate battles fought by the Mostar Battalion in the area",
     "mesto": "Prenj mountain",
@@ -13839,23 +13491,6 @@
     "drzava": "Bosnia and Herzegovina",
     "vrsta": "spomen-obelezje",
     "izvor": "https://www.spomenicinob.info/kotorvaros"
-  },
-  {
-    "naziv": "Spomen-kosturnica",
-    "nazivEn": "Memorial ossuary",
-    "mesto": "Borci",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1962",
-    "vrsta": "spomen-groblje",
-    "izvor": "https://www.spomenicinob.info/kotorvaros",
-    "kandidati": [
-      {
-        "lat": 44.534704,
-        "lng": 17.54269,
-        "izvor": "https://www.xiwl.com/w/index.php/Borci_-_Spomen_Kosturnica",
-        "opis": "Borci kod Kotor Varosa (ne Konjica), kosturnica iz 1962. sa fotografijom. Satelit nedovoljno jasan za potvrdu tacnog polozaja; kandidat, ne nova tacna lokacija."
-      }
-    ]
   },
   {
     "naziv": "Spomen-ploča oblasnim konferencijama AFŽ-a i USAOJ-a 1944. godine",
@@ -14239,16 +13874,6 @@
     "godina": "1948",
     "stanje": "uklonjen",
     "vrsta": "spomen-ploca",
-    "izvor": "https://www.spomenicinob.info/krupanauni"
-  },
-  {
-    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
-    "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
-    "mesto": "Gornji Bušević",
-    "adresa": "Close to elementary school",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1967",
-    "vrsta": "spomen-obelezje",
     "izvor": "https://www.spomenicinob.info/krupanauni"
   },
   {
@@ -15744,17 +15369,6 @@
     "godina": "posle 1970"
   },
   {
-    "naziv": "Spomen-česma NOB",
-    "nazivEn": "Fountain to commemorate the NOB",
-    "mesto": "Krtova",
-    "adresa": "Krtova-Komari crossroads",
-    "drzava": "Bosnia and Herzegovina",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/lukavac",
-    "stanje": "uklonjen",
-    "godina": "pre 1970"
-  },
-  {
     "naziv": "Spomen-ploča na bivšoj partizanskoj bolnici",
     "nazivEn": "Memorial plaque on former Partisans’ Hospital",
     "mesto": "Donja Dobošnica",
@@ -15809,16 +15423,6 @@
     "godina": "posle 1980"
   },
   {
-    "naziv": "Spomenik palim borcima NOR-a",
-    "nazivEn": "Monument to Fallen Fighters of the NOR",
-    "mesto": "Smoluća",
-    "adresa": "Elementary school",
-    "drzava": "Bosnia and Herzegovina",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/lukavac",
-    "stanje": "ostecen"
-  },
-  {
     "naziv": "Grob Osmana Akeljića",
     "nazivEn": "Grave of Osman Akeljić",
     "mesto": "Gornje Crveno Brdo",
@@ -15845,16 +15449,6 @@
     "drzava": "Bosnia and Herzegovina",
     "godina": "1953",
     "stanje": "uklonjen",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/lukavac"
-  },
-  {
-    "naziv": "Spomen-česma palim borcima Ozrenskog partizanskog odreda",
-    "nazivEn": "Fountain to commemorate fallen fighters of the Ozren Partisan Detachment",
-    "mesto": "Krtova",
-    "adresa": "East of village centre",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1959",
     "vrsta": "spomen-obelezje",
     "izvor": "https://www.spomenicinob.info/lukavac"
   },
@@ -17074,17 +16668,6 @@
     "godina": "1954",
     "vrsta": "spomen-obelezje",
     "izvor": "https://www.spomenicinob.info/mrkonjicgrad"
-  },
-  {
-    "naziv": "Spomenik poginulima 1941. godine",
-    "nazivEn": "Monument to those killed in 1941",
-    "mesto": "Mlinište",
-    "adresa": "Beside main road at northern entrance to village",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1951",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/mrkonjicgrad",
-    "stanje": "ostecen"
   },
   {
     "naziv": "Spomen-voz prve partizanske željezničke pruge",
@@ -18966,15 +18549,6 @@
     "izvor": "https://www.spomenicinob.info/palepraca"
   },
   {
-    "naziv": "Spomen-česma na mjestu smrti narodnog heroja Mihajla Čvore",
-    "nazivEn": "Fountain to commemorate place of death of NH Mihajlo Čvoro",
-    "mesto": "Dobra Voda",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1952",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/palepraca"
-  },
-  {
     "naziv": "Spomenik Stevi Heleti",
     "nazivEn": "Monument to Stevo Heleta",
     "mesto": "Kriva Draga",
@@ -19005,15 +18579,6 @@
     "naziv": "Spomenik bolnici Vrhovnog štaba",
     "nazivEn": "Monument to hospital of the Supreme Command",
     "mesto": "Slatina",
-    "drzava": "Bosnia and Herzegovina",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/petrovac"
-  },
-  {
-    "naziv": "Spomenik 65 žrtava fašističkog terora iz Drinića i Bukovače",
-    "nazivEn": "Monument to 65 Victims of Fascist Terror from Drinić and Bukovača",
-    "mesto": "Klekovača",
-    "adresa": "Kuk",
     "drzava": "Bosnia and Herzegovina",
     "vrsta": "spomen-obelezje",
     "izvor": "https://www.spomenicinob.info/petrovac"
@@ -19861,16 +19426,6 @@
     "autor": "Alija Rešić",
     "godina": "1982",
     "vrsta": "bista",
-    "izvor": "https://www.spomenicinob.info/prijedor"
-  },
-  {
-    "naziv": "Masovna grobnica 833 žrtve fašističkog terora",
-    "nazivEn": "Mass grave of 833 Victims of Fascist Terror",
-    "mesto": "Urije",
-    "adresa": "Catholic and Jewish cemetery, Ul. Rudi Čajaveca",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1985",
-    "vrsta": "spomen-groblje",
     "izvor": "https://www.spomenicinob.info/prijedor"
   },
   {
@@ -20835,15 +20390,6 @@
     "adresa": "Remnants at Tvrdoš monastery, Trebinje municipality"
   },
   {
-    "naziv": "Spomenik pobjedi Bobanske partizanske čete 1941. godine",
-    "nazivEn": "Monument to commemorate victory by the Bobani Partisan Company in 1941",
-    "mesto": "Vlaka",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1963",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/ravno"
-  },
-  {
     "naziv": "Spomen-ploča borbi u februaru 1942. godine",
     "nazivEn": "Plaque to commemorate battle in February 1942",
     "mesto": "Zagradinje",
@@ -20950,15 +20496,6 @@
         "opis": "Opis uz dom zdravlja; sam xiwl kaze da objekti na satelitu mozda predstavljaju ostatke groblja. Nema dovoljne potvrde same tacke."
       }
     ]
-  },
-  {
-    "naziv": "Spomenik palim borcima NOB",
-    "nazivEn": "Monument to fallen fighters of the NOB",
-    "mesto": "Crkveno",
-    "drzava": "Bosnia and Herzegovina",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/ribnik",
-    "stanje": "srusen"
   },
   {
     "naziv": "Spomen-kosturnica",
@@ -21265,28 +20802,6 @@
     "izvor": "https://www.spomenicinob.info/rudo"
   },
   {
-    "naziv": "Spomen-kosturnica",
-    "nazivEn": "Memorial ossuary",
-    "mesto": "Šamac",
-    "adresa": "Town park",
-    "drzava": "Bosnia and Herzegovina",
-    "autor": "Slavko Đojić (designer) & Marko Mašić (mason)",
-    "godina": "1950",
-    "vrsta": "spomen-groblje",
-    "izvor": "https://www.spomenicinob.info/samac"
-  },
-  {
-    "naziv": "Spomen-kosturnica palih boraca i žrtava fašističkog terora",
-    "nazivEn": "Memorial ossuary of fallen fighters and Victims of Fascist Terror",
-    "mesto": "Šamac",
-    "adresa": "Town park",
-    "drzava": "Bosnia and Herzegovina",
-    "autor": "Zoran Jezdimirović & Slavko Kostić & Salko Grabovac",
-    "godina": "1990",
-    "vrsta": "spomen-groblje",
-    "izvor": "https://www.spomenicinob.info/samac"
-  },
-  {
     "naziv": "Spomen-ploča prvom općinskom sastanku KPJ 1943. godine",
     "nazivEn": "Plaque to commemorate first municipal KPJ meeting in 1943",
     "mesto": "Šamac",
@@ -21359,17 +20874,6 @@
     "drzava": "Bosnia and Herzegovina",
     "godina": "1951",
     "stanje": "uklonjen",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/samac"
-  },
-  {
-    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
-    "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
-    "mesto": "Tišina",
-    "adresa": "Close to site of old monument",
-    "drzava": "Bosnia and Herzegovina",
-    "autor": "Anto Golubičić",
-    "godina": "1964",
     "vrsta": "spomen-obelezje",
     "izvor": "https://www.spomenicinob.info/samac"
   },
@@ -22621,16 +22125,6 @@
     "izvor": "https://www.spomenicinob.info/srebrenica"
   },
   {
-    "naziv": "Spomenik NOB",
-    "nazivEn": "Monument to the NOB",
-    "mesto": "Zalazje",
-    "adresa": "Beside road leading from Obadi to Gostilj",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1963",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/srebrenica"
-  },
-  {
     "naziv": "Spomen-ploča oblasnoj komandi za Posavinu i Trebavu",
     "nazivEn": "Plaque to commemorate regional command for Posavina & Trebava",
     "mesto": "Gornji Srebrenik",
@@ -23210,14 +22704,6 @@
     "drzava": "Bosnia and Herzegovina",
     "godina": "1951",
     "vrsta": "spomen-ploca",
-    "izvor": "https://www.spomenicinob.info/stolac"
-  },
-  {
-    "naziv": "Spomen-kosturnica žrtava fašističkog terora",
-    "nazivEn": "Memorial ossuary of Victims of Fascist Terror",
-    "mesto": "Drenovac",
-    "drzava": "Bosnia and Herzegovina",
-    "vrsta": "spomen-groblje",
     "izvor": "https://www.spomenicinob.info/stolac"
   },
   {
@@ -23938,24 +23424,6 @@
     "vrsta": "spomen-obelezje",
     "izvor": "https://www.spomenicinob.info/tomislavgrad",
     "autor": "Sabit"
-  },
-  {
-    "naziv": "Spomenik palim borcima Travničke čete i Zeničkog odreda",
-    "nazivEn": "Monument to fallen fighters of the Travnik Company and the Zenica Detachment",
-    "mesto": "Meokrnje",
-    "drzava": "Bosnia and Herzegovina",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/travnik"
-  },
-  {
-    "naziv": "Spomen-obelisk",
-    "nazivEn": "Memorial obelisk",
-    "mesto": "Babanovac",
-    "adresa": "Close to sports centre",
-    "drzava": "Bosnia and Herzegovina",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/travnik",
-    "stanje": "ostecen"
   },
   {
     "naziv": "Spomenik napadu na policijsku stanicu u maju 1942. godine",
@@ -25703,14 +25171,6 @@
     "izvor": "https://www.spomenicinob.info/tuzla"
   },
   {
-    "naziv": "Spomenik NOB",
-    "nazivEn": "Monument to the NOB",
-    "mesto": "Crveno Brdo",
-    "drzava": "Bosnia and Herzegovina",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/ugljevik"
-  },
-  {
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
     "mesto": "Donje Zabrđe",
@@ -26730,17 +26190,6 @@
     "izvor": "https://www.spomenicinob.info/visoko"
   },
   {
-    "naziv": "Spomen-kosturnica palih boraca iz Krajine",
-    "nazivEn": "Memorial ossuary of fallen fighters from Krajina",
-    "mesto": "Vitez",
-    "adresa": "Town centre",
-    "drzava": "Bosnia and Herzegovina",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-groblje",
-    "izvor": "https://www.spomenicinob.info/vitez",
-    "godina": "pre 1965"
-  },
-  {
     "naziv": "Spomenik žrtvama fašističkog terora",
     "nazivEn": "Monument to Victims of Fascist Terror",
     "mesto": "Vitez",
@@ -26759,15 +26208,6 @@
     "vrsta": "spomen-park",
     "izvor": "https://www.spomenicinob.info/vitez",
     "godina": "pre 1965"
-  },
-  {
-    "naziv": "Spomenik palim borcima NOB",
-    "nazivEn": "Monument to fallen fighters of the NOB",
-    "mesto": "Mošunj",
-    "adresa": "Along main road",
-    "drzava": "Bosnia and Herzegovina",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/vitez"
   },
   {
     "naziv": "Kosturnica palih boraca",
@@ -28494,13 +27934,6 @@
     "drzava": "Serbia"
   },
   {
-    "mesto": "Mlaka",
-    "izvor": "https://znaci.org/00003/920.pdf#page=147",
-    "naziv": "Spomenik u Mlaki",
-    "vrsta": "spomenik",
-    "drzava": "Croatia"
-  },
-  {
     "mesto": "Jastrebarsko",
     "izvor": "https://znaci.org/00003/920.pdf#page=153",
     "naziv": "Pionirski centar „Bratstvo-jedinstvo“",
@@ -29736,15 +29169,6 @@
     "izvor": "https://www.spomenicinob.info/glamoc"
   },
   {
-    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
-    "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
-    "mesto": "Jelići",
-    "adresa": "Courtyard of elementary school",
-    "drzava": "Bosnia and Herzegovina",
-    "vrsta": "spomen-obelezje",
-    "izvor": "https://www.spomenicinob.info/gradiska"
-  },
-  {
     "naziv": "Spomenik žrtvama fašističkog terora strijeljanim u novembru 1943. godine",
     "nazivEn": "Monument to commemorate Victims of Fascist Terror executed in November 1943",
     "mesto": "Njemanica",
@@ -29770,15 +29194,6 @@
     "adresa": "Orthodox cemetery",
     "drzava": "Bosnia and Herzegovina",
     "vrsta": "spomen-groblje",
-    "izvor": "https://www.spomenicinob.info/istocnistarigrad"
-  },
-  {
-    "naziv": "Spomenik 41 žrtve fašističkog terora strijeljane u novembru 1941. godine",
-    "nazivEn": "Monument to commemorate 41 Victims of Fascist Terror executed in November 1941",
-    "mesto": "Njemanica",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1967",
-    "vrsta": "spomen-obelezje",
     "izvor": "https://www.spomenicinob.info/istocnistarigrad"
   },
   {
@@ -29955,15 +29370,6 @@
     "godina": "1988",
     "vrsta": "spomen-obelezje",
     "izvor": "https://www.spomenicinob.info/kozarskadubica"
-  },
-  {
-    "naziv": "Partizansko groblje sa 40 palih boraca",
-    "nazivEn": "Partisans' cemetery with 40 fallen fighters",
-    "mesto": "Borići",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1959",
-    "vrsta": "spomen-groblje",
-    "izvor": "https://www.spomenicinob.info/kresevo"
   },
   {
     "naziv": "Zajednička grobnica 13 žrtava fašističkog terora",

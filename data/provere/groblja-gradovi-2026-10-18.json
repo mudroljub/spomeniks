@@ -188,12 +188,531 @@
   ],
   "posle": {
     "markeri": 9244,
-    "bezLokacije": 3008,
+    "bezLokacije": 3006,
     "grobljaBezLokacije": 212,
     "noviMarkeri": 1,
     "spojenDuplikat": 2,
     "noviKandidatiBezPotvrdjeneTacke": 2,
     "fotografijeMapa": 2,
     "fotografijeRadniSpisak": 2
+  },
+  "provere": {
+    "integritet": "prolaz, 9244 markera; nema novog nedozvoljenog bliskog para",
+    "testoviAplikacije": "23/23 pre zavrsnog prevezivanja Kreke na stabilan ID; kod aplikacije nije menjan",
+    "prikaz": "390 x 844: Kreka, Zvornik i Sokolac; fotografije ucitane, bez Runtime izuzetaka; pregledani snimci Zvornika i Sokoca",
+    "git": "pet konflikata razreseno uz ocuvanje dva nova muzejska cilja; rebase zavrsen u zajednickom folderu",
+    "ogranicenje": "Ranije numericke upareno veze van opsega radnog skupa nisu rekonstruisane ovim paketom."
+  },
+  "offlineUparivanje": {
+    "datum": "2026-10-18",
+    "metod": "Lokalno poredjenje 205 preostalih grobnih zapisa sa 13675 sacuvanih wiki stranica; 171 zapis ima tekstualnog kandidata, sto nije potvrda identiteta. Rucno proveren najizgledniji uzorak.",
+    "pre": {
+      "markeri": 9388,
+      "bezLokacije": 2961,
+      "grobljaBezLokacije": 205
+    },
+    "spojeno": [
+      {
+        "ciljniId": "bosanska-raca",
+        "radniIndeksPreOffline": 281,
+        "prethodniRadniZapis": {
+          "naziv": "Spomen-kosturnica palih boraca",
+          "nazivEn": "Memorial ossuary of fallen fighters",
+          "mesto": "Rača",
+          "drzava": "Bosnia and Herzegovina",
+          "autor": "Slobodan Lukić",
+          "godina": "1952",
+          "vrsta": "spomen-groblje",
+          "izvor": "https://www.spomenicinob.info/bijeljina"
+        },
+        "prethodniCilj": {
+          "id": "bosanska-raca",
+          "koordinate": {
+            "lat": 44.892447,
+            "lng": 19.3356652
+          },
+          "mesto": "Bosanska Rača",
+          "slika": "slike/spomenici/bosanska-raca.webp",
+          "slikaOdnos": 1.278,
+          "naziv": "Spomenik palim borcima NOR-a i Crvene armije u Rači",
+          "nazivEn": "Memorial Ossuary (Spomen-Kosturnica)",
+          "vrsta": "spomenik",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "wikiNaslov": "Bosanska Rača - Spomen Kosturnica",
+        "razlog": "Spomen-kosturnica u Raci sa istim obeliskom i grobovima; datum 1952 odnosi se na kompleks, obelisk dodat 1968."
+      },
+      {
+        "ciljniId": "hadzici",
+        "radniIndeksPreOffline": 1048,
+        "prethodniRadniZapis": {
+          "naziv": "Partizansko groblje sa 36 palih boraca",
+          "nazivEn": "Partisans' cemetery with 36 fallen fighters",
+          "mesto": "Hranjen",
+          "drzava": "Bosnia and Herzegovina",
+          "godina": "1961",
+          "vrsta": "spomen-groblje",
+          "izvor": "https://www.spomenicinob.info/gorazde",
+          "adresa": "Commemorative fountain in front"
+        },
+        "prethodniCilj": {
+          "id": "hadzici",
+          "koordinate": {
+            "lat": 43.7147783,
+            "lng": 18.8736419
+          },
+          "mesto": "Hadžići",
+          "slika": "slike/spomenici/hadzici.webp",
+          "slikaOdnos": 1.613,
+          "naziv": "Partizansko spomen-groblje",
+          "nazivEn": "Partisan Memorial Cemetery",
+          "vrsta": "spomen-groblje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "wikiNaslov": "Hranjen - Partizansko Groblje",
+        "razlog": "Isti redovi grobnih ploca, 36 boraca, izvor razlikuje naziv Hranjen od Google naziva Hadzica Brdo; ne opstina Hadzici."
+      },
+      {
+        "ciljniId": "gorazde-kolijevke-partizansko-groblje",
+        "radniIndeksPreOffline": 1050,
+        "prethodniRadniZapis": {
+          "naziv": "Zajednička grobnica palih boraca",
+          "nazivEn": "Collective grave of fallen fighters",
+          "mesto": "Kolijevke",
+          "adresa": "Town cemetery",
+          "drzava": "Bosnia and Herzegovina",
+          "godina": "1985",
+          "vrsta": "spomen-groblje",
+          "izvor": "https://www.spomenicinob.info/gorazde"
+        },
+        "prethodniCilj": {
+          "id": "gorazde-kolijevke-partizansko-groblje",
+          "koordinate": {
+            "lat": 43.658222,
+            "lng": 18.986444
+          },
+          "mesto": "Goražde",
+          "izvor": "https://www.xiwl.com/w/index.php/Gora%C5%BEde_-_Kolijevke_Partizansko_Groblje",
+          "naziv": "Kolijevke partizansko groblje",
+          "godina": "1985",
+          "vrsta": "spomen-groblje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "wikiNaslov": "Goražde - Kolijevke Partizansko Groblje",
+        "razlog": "Ista godina 1985, specificni dvodelni beli spomenik na starom delu groblja Kolijevke, tacna wiki koordinata."
+      },
+      {
+        "ciljniId": "gornji-vakuf",
+        "radniIndeksPreOffline": 1060,
+        "prethodniRadniZapis": {
+          "naziv": "Partizansko groblje sa 101 palim borcem",
+          "nazivEn": "Partisans' cemetery with 101 fallen fighters",
+          "mesto": "Gornji Vakuf",
+          "adresa": "Brijeg Glavica",
+          "drzava": "Bosnia and Herzegovina",
+          "godina": "1959",
+          "vrsta": "spomen-groblje",
+          "izvor": "https://www.spomenicinob.info/gornjivakuf"
+        },
+        "prethodniCilj": {
+          "id": "gornji-vakuf",
+          "koordinate": {
+            "lat": 43.936591,
+            "lng": 17.5852903
+          },
+          "mesto": "Gornji Vakuf",
+          "slika": "slike/spomenici/gornji-vakuf.webp",
+          "slikaOdnos": 1.399,
+          "naziv": "Partizansko spomen-groblje",
+          "nazivEn": "Partisan Memorial Cemetery",
+          "godina": "1959",
+          "vrsta": "spomen-groblje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "wikiNaslov": "Gornji Vakuf - Partisan Cemetery",
+        "razlog": "Isti obelisk i stepenasto groblje na Glavicama, 101 borac i godina 1959; razlika tacke oko 52m unutar kompleksa, postojeca tacka sacuvana."
+      },
+      {
+        "ciljniId": "podastinje",
+        "radniIndeksPreOffline": 1286,
+        "prethodniRadniZapis": {
+          "naziv": "Partizansko groblje sa 51 palim borcem",
+          "nazivEn": "Partisans' cemetery with 51 fallen fighters",
+          "mesto": "Kiseljak",
+          "adresa": "Next to Kiseljak elementary school",
+          "drzava": "Bosnia and Herzegovina",
+          "autor": "Anton Šego & Ranko Milanović",
+          "godina": "1955",
+          "vrsta": "spomen-groblje",
+          "izvor": "https://www.spomenicinob.info/kiseljak"
+        },
+        "prethodniCilj": {
+          "id": "podastinje",
+          "koordinate": {
+            "lat": 43.9465497,
+            "lng": 18.0762548
+          },
+          "googleCid": "10392934586258040428",
+          "mesto": "Podastinje",
+          "slika": "slike/spomenici/podastinje.webp",
+          "slikaOdnos": 0.562,
+          "slikaPotpis": "Google Maps",
+          "naziv": "Spomenik borcima u narodnooslobodilačkoj borbi",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "wikiNaslov": "Kiseljak - Partizansko Groblje",
+        "razlog": "Isti obelisk pored skole i stadiona u Kiseljaku, 51 borac; novija fotografija potvrdjuje memorijal, ishod planirane ekshumacije nije izmisljen."
+      },
+      {
+        "ciljniId": "gakici-partizanski-spomenik",
+        "radniIndeksPreOffline": 1353,
+        "prethodniRadniZapis": {
+          "naziv": "Partizansko groblje",
+          "nazivEn": "Partisans' cemetery",
+          "mesto": "Borci",
+          "drzava": "Bosnia and Herzegovina",
+          "godina": "1955",
+          "vrsta": "spomen-groblje",
+          "izvor": "https://www.spomenicinob.info/konjic"
+        },
+        "prethodniCilj": {
+          "id": "gakici-partizanski-spomenik",
+          "koordinate": {
+            "lat": 43.5787939,
+            "lng": 18.0168372
+          },
+          "googleCid": "4150168118361674494",
+          "mesto": "Gakići",
+          "slika": "slike/spomenici/gakici-partizanski-spomenik.webp",
+          "slikaOdnos": 1.778,
+          "slikaPotpis": "Google Maps",
+          "naziv": "Partizanski spomenik",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "wikiNaslov": "Borci (Konjic) - Partizansko Groblje",
+        "razlog": "Isti memorijalni zid sa plocom u Borcima kod Konjica uz grobove; opstiji uvezeni naziv Gakici ne oznacava zaseban objekat. Godina originala ne prenosi se na zamenu."
+      },
+      {
+        "ciljniId": "kalenderovci-spomenik-zrtvama-fasistickog-terora",
+        "radniIndeksPreOffline": 812,
+        "prethodniRadniZapis": {
+          "naziv": "Zajednička grobnica žrtava fašističkog terora",
+          "nazivEn": "Collective grave of Victims of Fascist Terror",
+          "mesto": "Kalenderovci",
+          "adresa": "Local cemetery",
+          "drzava": "Bosnia and Herzegovina",
+          "godina": "1974",
+          "vrsta": "spomen-groblje",
+          "izvor": "https://www.spomenicinob.info/derventa"
+        },
+        "prethodniCilj": {
+          "id": "kalenderovci-spomenik-zrtvama-fasistickog-terora",
+          "koordinate": {
+            "lat": 44.937256,
+            "lng": 17.815049
+          },
+          "mesto": "Kalenderovci",
+          "izvor": "https://www.xiwl.com/w/index.php/Kalenderovci_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+          "naziv": "Spomenik žrtvama fašističkog terora",
+          "godina": "1974",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "wikiNaslov": "Kalenderovci - Spomenik Žrtvama Fašističkog Terora",
+        "razlog": "Ista godina 1974 i grobnica na severnom kraju lokalnog groblja. Zasebna kosturnica iz 1953 kod skole ostaje nerazresena."
+      },
+      {
+        "ciljniId": "polje-partizansko-groblje-borici",
+        "radniIndeksPreOffline": 2937,
+        "prethodniRadniZapis": {
+          "naziv": "Partizansko groblje sa 40 palih boraca",
+          "nazivEn": "Partisans' cemetery with 40 fallen fighters",
+          "mesto": "Borići",
+          "drzava": "Bosnia and Herzegovina",
+          "godina": "1959",
+          "vrsta": "spomen-groblje",
+          "izvor": "https://www.spomenicinob.info/kresevo"
+        },
+        "prethodniCilj": {
+          "id": "polje-partizansko-groblje-borici",
+          "koordinate": {
+            "lat": 43.876387,
+            "lng": 18.066613
+          },
+          "mesto": "Polje",
+          "izvor": "https://www.xiwl.com/w/index.php/Polje_%28Kre%C5%A1evo%29_-_Partizansko_Groblje_Bori%C4%87i",
+          "naziv": "partizansko groblje Borići",
+          "godina": "1959",
+          "vrsta": "spomen-groblje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "wikiNaslov": "Polje (Kreševo) - Partizansko Groblje Borići",
+        "razlog": "Ista godina 1959, 40 boraca i mikrolokacija Borici na padini kod Polja/Stojcica u opstini Kresevo; naziv Borici nije drugi objekat."
+      }
+    ],
+    "novi": [
+      {
+        "id": "ilijas-alica-gaj-spomen-kosturnica",
+        "radniIndeksPreOffline": 1173,
+        "prethodniRadniZapis": {
+          "naziv": "Kosturnica žrtava fašističkog terora",
+          "nazivEn": "Ossuary of Victims of Fascist Terror",
+          "mesto": "Ilijaš",
+          "adresa": "Alića gaj",
+          "drzava": "Bosnia and Herzegovina",
+          "autor": "Milivoje Unković",
+          "godina": "1962",
+          "vrsta": "spomen-groblje",
+          "izvor": "https://www.spomenicinob.info/ilijas"
+        },
+        "wikiNaslov": "Ilijaš - Spomen Kosturnica",
+        "razlog": "Istovetni rascepljeni apstraktni memorijal na parceli u Alica gaju; fotografija i opis kosturnice, satelit pokazuje objekat na zadatoj tacki. Nema postojeceg markera u krugu 480m. Godina 1962 odnosi se na kosturnicu; Milivoje Unkovic autor je preuredjenja 1986, pa nije predstavljen kao autor originala.",
+        "fotografija": "izvori\\pretrage\\gradovi-groblja-2026-10-18\\ilijas-imageinfo.json",
+        "satelit": "izvori\\pretrage\\gradovi-groblja-2026-10-18\\ilijas-satelit.json",
+        "datumFotografije": "nije-utvrdjen"
+      }
+    ],
+    "preskoceno": [],
+    "odbijeneFotografije": [
+      "Kalenderovci Google: zgrada i okolina bez spomenika.",
+      "Borici Google: pogled na selo bez vidljivog spomenika.",
+      "Kalenderovci Radio Derventa 2018: ljudi u prvom planu, spomenik na rubu kadra.",
+      "Kolijevke stari Google URL: HTTP 400; prihvacena fotografija kantona iz 2009."
+    ],
+    "ogranicenje": "Nije proveren ceo skup 171 tekstualnog kandidata. Datum ucitavanja wiki fotografije Ilijasa nije datum snimanja. Ranije neispravne knjiske veze van opsega radnog spiska nisu rekonstruisane.",
+    "prevezaniFajlovi": [
+      {
+        "fajl": "data/knjige/hrzenjak-2002.json",
+        "pomereneVeze": 5
+      },
+      {
+        "fajl": "data/knjige/jokic-1986.json",
+        "pomereneVeze": 72
+      },
+      {
+        "fajl": "data/knjige/sibenik-1980.json",
+        "pomereneVeze": 50
+      },
+      {
+        "fajl": "data/provere/groblja-zbirni-pregled-2026-10-18.json",
+        "pomereneVeze": 202
+      },
+      {
+        "fajl": "data/provere/hrvatska-49-2026-10-16.json",
+        "pomereneVeze": 10
+      },
+      {
+        "fajl": "data/provere/hrvatska-ostali-2026-10-16.json",
+        "pomereneVeze": 2
+      },
+      {
+        "fajl": "data/provere/lociranje-groblja-2026-10-18.json",
+        "pomereneVeze": 1
+      },
+      {
+        "fajl": "data/provere/lociranje-groblja-drugi-2026-10-18.json",
+        "pomereneVeze": 3
+      }
+    ],
+    "posle": {
+      "markeri": 9389,
+      "bezLokacije": 2952,
+      "grobljaBezLokacije": 196,
+      "noviMarkeri": 1,
+      "spojeniDuplikati": 8,
+      "noveFotografije": 2
+    },
+    "provere": {
+      "integritet": "prolaz, 9389 markera, bez novih nedozvoljenih bliskih parova",
+      "aplikacija": "23/23 testova proslo",
+      "prikaz": "390x844: Ilijas i Kolijevke; obe fotografije ucitane, bez Runtime izuzetaka, snimci pregledani",
+      "ocuvanje": "postojeci ID, koordinate, CID i prethodno popunjeni izvori sacuvani; aktivne radne i validne knjiske veze pomerene prema obrisanim indeksima"
+    }
+  },
+  "offlineNastavak": {
+    "datum": "2026-10-18",
+    "obim": "Sledeci najizgledniji kandidati sa fotografijama: Samac 1990, Urije/Prijedor 1985, preseljena kosturnica Fojnica.",
+    "pre": {
+      "markeri": 9390,
+      "bezLokacije": 2952,
+      "grobljaBezLokacije": 196
+    },
+    "novi": [
+      {
+        "id": "samac-kosturnica-palih-boraca-1990",
+        "radniIndeksPreNastavak": 2081,
+        "prethodniRadniZapis": {
+          "naziv": "Spomen-kosturnica palih boraca i žrtava fašističkog terora",
+          "nazivEn": "Memorial ossuary of fallen fighters and Victims of Fascist Terror",
+          "mesto": "Šamac",
+          "adresa": "Town park",
+          "drzava": "Bosnia and Herzegovina",
+          "autor": "Zoran Jezdimirović & Slavko Kostić & Salko Grabovac",
+          "godina": "1990",
+          "vrsta": "spomen-groblje",
+          "izvor": "https://www.spomenicinob.info/samac"
+        },
+        "razlog": "Samac: isto cilindricno obelezje i park iz wiki fotografija; katalog potvrduje kosturnicu iz 1990. koja zamenjuje srusenu iz 1950. Bliska vec mapirana brigadna spomen-obelezja udaljena su preko 240m i nisu isto delo.",
+        "wikiIzvor": "https://www.xiwl.com/w/index.php/Šamac_-_Spomenik_Palim_Antifašistima",
+        "dodatniDokazi": [
+          "izvori/spomenicinob/spomenicinob/samac.html",
+          "izvori\\pretrage\\gradovi-groblja-2026-10-18\\samac-satelit-ceo.jpg"
+        ]
+      },
+      {
+        "id": "prijedor-urije-grobnica-833-zrtve",
+        "radniIndeksPreNastavak": 1943,
+        "prethodniRadniZapis": {
+          "naziv": "Masovna grobnica 833 žrtve fašističkog terora",
+          "nazivEn": "Mass grave of 833 Victims of Fascist Terror",
+          "mesto": "Urije",
+          "adresa": "Catholic and Jewish cemetery, Ul. Rudi Čajaveca",
+          "drzava": "Bosnia and Herzegovina",
+          "godina": "1985",
+          "vrsta": "spomen-groblje",
+          "izvor": "https://www.spomenicinob.info/prijedor"
+        },
+        "razlog": "Ploca sa brojem 833 u jevrejskom delu groblja Urije, zasebno od partizanskog groblja iz 1954. sa 102 borca preko puta. Identitet potvrdjuje Muzej Kozare, sa opisom sahrane i kartom parcele. Muzejska karta 44.986111,16.729444 nije preuzeta kao precizna tacka ploce.",
+        "wikiIzvor": "https://www.xiwl.com/w/index.php/Prijedor_-_Grobnica_Žrtvama_Fašističkog_Terora_Urije",
+        "dodatniDokazi": [
+          "https://muzejkozare.org/lokacija-urije/",
+          "izvori\\pretrage\\gradovi-groblja-2026-10-18\\urije-muzej.html",
+          "izvori\\pretrage\\gradovi-groblja-2026-10-18\\prijedor-urije-satelit.json"
+        ]
+      },
+      {
+        "id": "fojnica-spomen-kosturnica",
+        "radniIndeksPreNastavak": 1000,
+        "prethodniRadniZapis": {
+          "naziv": "Spomen-kosturnica palih boraca",
+          "nazivEn": "Memorial ossuary of fallen fighters",
+          "mesto": "Fojnica",
+          "adresa": "In front of Hotel Reumal",
+          "drzava": "Bosnia and Herzegovina",
+          "autor": "Ranko Milanović",
+          "godina": "1974",
+          "vrsta": "spomen-groblje",
+          "izvor": "https://www.spomenicinob.info/fojnica",
+          "slika": "slike/bez-lokacije/ba-fojnica-kosturnica.webp",
+          "slikaPotpis": "Alma la Douce (@DouceAlma), X",
+          "slikaOdnos": 0.75
+        },
+        "razlog": "Direktni Google CID i fotografija potvrduju oktogonalni spomenik sa petokrakom i kruznim reljefom na sadasnjoj tacki. Katalog i datirane fotografije potvrdjuju preseljenje sredinom 2009. Autor Ranko Milanovic odnosi se na reljef, ne automatski ceo novi objekat.",
+        "wikiIzvor": "https://www.xiwl.com/w/index.php/Fojnica_-_Spomen_Kosturnica",
+        "dodatniDokazi": [
+          "izvori\\pretrage\\gradovi-groblja-2026-10-18\\fojnica-cid.json",
+          "https://smsfojnica.com/novosti/324-aktivnosti-sa-udruzenjem-antifasista-i-boraca-nor-a-fojnica-2018.html",
+          "izvori\\pretrage\\gradovi-groblja-2026-10-18\\fojnica-2018.jpg",
+          "izvori\\pretrage\\gradovi-groblja-2026-10-18\\fojnica-satelit.json"
+        ]
+      }
+    ],
+    "istorijskiPrethodnici": [
+      {
+        "ciljniId": "samac-kosturnica-palih-boraca-1990",
+        "radniIndeksPreNastavak": 2080,
+        "prethodniRadniZapis": {
+          "naziv": "Spomen-kosturnica",
+          "nazivEn": "Memorial ossuary",
+          "mesto": "Šamac",
+          "adresa": "Town park",
+          "drzava": "Bosnia and Herzegovina",
+          "autor": "Slavko Đojić (designer) & Marko Mašić (mason)",
+          "godina": "1950",
+          "vrsta": "spomen-groblje",
+          "izvor": "https://www.spomenicinob.info/samac"
+        },
+        "razlog": "Prethodna kosturnica srusena 1989, naslednik otvoren 1990. Sacuvan stari zapis i autori ovde; godina i autori prethodnika nisu preneti na sadasnji marker."
+      },
+      {
+        "ciljniId": "fojnica-spomen-kosturnica",
+        "radniIndeksPreNastavak": 1002,
+        "prethodniRadniZapis": {
+          "naziv": "Partizansko groblje sa 29 palih boraca",
+          "nazivEn": "Partisans' cemetery with 29 fallen fighters",
+          "mesto": "Fojnica",
+          "adresa": "Luke",
+          "drzava": "Bosnia and Herzegovina",
+          "godina": "1956",
+          "stanje": "uklonjen",
+          "vrsta": "spomen-groblje",
+          "izvor": "https://www.spomenicinob.info/fojnica"
+        },
+        "razlog": "Iz Luke ostaci 29 boraca preneti u Fojnicu 1959; potom u spomen-kosturnicu. Izvorni lokalitet nema potvrdenu tacku, pa nije izmisljena stara lokacija niti poseban pin na novom mestu."
+      },
+      {
+        "ciljniId": "fojnica-spomen-kosturnica",
+        "radniIndeksPreNastavak": 1007,
+        "prethodniRadniZapis": {
+          "naziv": "Partizansko groblje",
+          "nazivEn": "Partisans' cemetery",
+          "mesto": "Fojnica",
+          "adresa": "Town park",
+          "drzava": "Bosnia and Herzegovina",
+          "godina": "1959",
+          "stanje": "uklonjen",
+          "vrsta": "spomen-groblje",
+          "izvor": "https://www.spomenicinob.info/fojnica"
+        },
+        "razlog": "Ostaci sa starog gradskog partizanskog groblja kasnije preneti u kosturnicu; stari zapis cuva se kao prethodnik sadasnjeg kompleksa, bez predstavljanja kao nova lokacija."
+      }
+    ],
+    "kandidatiNisuReseni": [
+      "Rilic 1963: odnos sa vec mapiranim zapisom iz 1951. i odstupanje oko 1.2km zahtevaju proveru; nije otvoren drugi marker.",
+      "Koricani 1961: ne prenosi se tacka novijeg kompleksa na prethodnika uz zadruznu prodavnicu.",
+      "Ilijas 1969: wiki navodi moguci objekat kod crkve, ne sigurnu identifikaciju grobne ploce."
+    ],
+    "ogranicenja": "Datumi ucitavanja wiki fotografija nisu datumi snimanja. Urije: muzejska karta potvrdjuje grobnu parcelu, ne zasebnu GPS tacku same ploce; tacka ploce preuzeta iz namenski mapiranog wiki zapisa i terenskih fotografija. Google pretrage po nazivu Samca i Fojnice vratile su nepovezane objekte, od kojih nijedan nije upisan; Fojnica proverena direktnim sacuvanim CID-om.",
+    "prevezaniFajlovi": [
+      {
+        "fajl": "data/knjige/hrzenjak-2002.json",
+        "pomereneVeze": 5
+      },
+      {
+        "fajl": "data/knjige/jokic-1986.json",
+        "pomereneVeze": 59
+      },
+      {
+        "fajl": "data/knjige/sibenik-1980.json",
+        "pomereneVeze": 50
+      },
+      {
+        "fajl": "data/provere/groblja-zbirni-pregled-2026-10-18.json",
+        "pomereneVeze": 161
+      },
+      {
+        "fajl": "data/provere/hrvatska-49-2026-10-16.json",
+        "pomereneVeze": 10
+      },
+      {
+        "fajl": "data/provere/hrvatska-ostali-2026-10-16.json",
+        "pomereneVeze": 2
+      },
+      {
+        "fajl": "data/provere/lociranje-groblja-2026-10-18.json",
+        "pomereneVeze": 1
+      },
+      {
+        "fajl": "data/provere/lociranje-groblja-drugi-2026-10-18.json",
+        "pomereneVeze": 3
+      }
+    ],
+    "posle": {
+      "markeri": 9393,
+      "bezLokacije": 2946,
+      "grobljaBezLokacije": 190,
+      "noviMarkeri": 3,
+      "povezaniPrethodnici": 3,
+      "fotografijeNove": 2,
+      "fotografijePreuzeteIzRadnogSkupa": 1
+    },
+    "provere": {
+      "integritet": "prolaz, 9393 markera; bez novih nedozvoljenih bliskih parova",
+      "aplikacija": "23/23 testova proslo",
+      "prikaz": "390x844: Samac, Prijedor/Urije i Fojnica; fotografije ucitane, bez Runtime izuzetaka, sva tri snimka pregledana",
+      "ocuvanje": "postojeci markeri u celosti sacuvani; aktivne radne i validne knjiske veze prevezane; istorijski prethodnici sacuvani u ovom izvestaju"
+    }
   }
 }
