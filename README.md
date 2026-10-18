@@ -24,7 +24,6 @@ POTPUNOST PODATKA:
 - popunjavati druge atribute na osnovu dostupnih izvora ([dopuna podataka](docs/DOPUNA_PODATAKA.md))
 
 KVALITET PODATAKA (`data/spomeniks.json`):
-- nedosledan oblik `mesta` za delove gradova („Beograd (Zemun)“ pored „Zemun“): ujednačiti
 - 693 slike su fotografije korisnika Google mapa, koje nemaju licencu za ponovnu objavu: naći zamenu sa slobodnom licencom, pa ukloniti Google slike
 
 UI:
