@@ -10,7 +10,6 @@
     "izbor": "upareno",
     "napomena": "Fotografski potpis; glavni opis je u drugom delu knjige.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kumrovec"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomen-dom boraca NOB i omladine Jugoslavije ↔ Spomen-dom boraca NOB-a i omladine."
@@ -30,7 +29,6 @@
       48
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "tito-s-birthplace-museum"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Rodna kuća Josipa Broza Tita ↔ Muzej Staro selo Kumrovec."
@@ -46,7 +44,6 @@
     "izbor": "upareno",
     "napomena": "Fotografski potpis; glavni opis je u drugom delu knjige.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "jajce"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Muzej Drugog zasjedanja AVNOJ-a ↔ Muzej AVNOJ-a u Jajcu."
@@ -74,7 +71,6 @@
     "izbor": "upareno",
     "napomena": "Fotografski potpis; glavni opis je u drugom delu knjige.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "vukovar"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Memorijalni park Dudik ↔ Spomen-park Dudik."
@@ -90,7 +86,6 @@
     "izbor": "upareno",
     "napomena": "Fotografski potpis; glavni opis je u drugom delu knjige.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "tjentiste"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomenik u Dolini heroja ↔ Spomenik Bitka na Sutjesci."
@@ -106,7 +101,6 @@
     "izbor": "upareno",
     "napomena": "Fotografski potpis; glavni opis je u drugom delu knjige.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "tjentiste-spomen-kuca-bitke-na-sutjesci"
     },
     "razlogObrade": "Spomen-kuća bitke na Sutjesci = spomen-dom s freskama Ranka Radovića i Krste Hegedušića, postojeći radni zapis; ponovo raw B-0335."
@@ -122,7 +116,6 @@
     "izbor": "upareno",
     "napomena": "Fotografski potpis; glavni opis je u drugom delu knjige.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "tito-s-cave-museum-at-drvar"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Titova pećina na Gradini ↔ Titova pećina."
@@ -138,7 +131,6 @@
     "izbor": "upareno",
     "napomena": "Fotografski potpis; glavni opis je u drugom delu knjige.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "podgora"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Galebova krila ↔ Galebova krila."
@@ -154,7 +146,6 @@
     "izbor": "upareno",
     "napomena": "Makljen kod Prozora; fotografski potpis; glavni opis je u drugom delu knjige.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "makljen"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomenik Bitke na Neretvi ↔ Spomenik bitke za ranjenike."
@@ -182,7 +173,6 @@
     "izbor": "upareno",
     "napomena": "Fotografski potpis; glavni opis je u drugom delu knjige.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "mostar-partisan-cemetery"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Partizanski spomenik ↔ Partizansko groblje u Mostaru."
@@ -198,7 +188,6 @@
     "izbor": "upareno",
     "napomena": "Fotografski potpis; glavni opis je u drugom delu knjige.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "rudo"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomenik Prvoj proleterskoj brigadi ↔ Spomenik Prve proleterske brigade."
@@ -214,7 +203,6 @@
     "izbor": "upareno",
     "napomena": "Fotografski potpis; glavni opis je u drugom delu knjige.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "zabljak"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomenik palim borcima i ŽFT ↔ Spomenik borcima NOB-a."
@@ -230,7 +218,6 @@
     "izbor": "upareno",
     "napomena": "Fotografski potpis; glavni opis je u drugom delu knjige.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "sarajevo-vraca-park"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomen-park Vraca ↔ Spomen-park Vraca."
@@ -254,7 +241,6 @@
       38
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "bela-crkva-start-uprising"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomenički kompleks devet granitnih figura ↔ Simbolika u kamenu."
@@ -272,8 +258,9 @@
     "autor": "Stevan Bodnarov",
     "napomena": "Na mestu sa koga se govornik obratio narodu 7. jula 1941, u memorijalnom kompleksu.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4288
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4288
     }
   },
   {
@@ -289,8 +276,9 @@
     "autor": "Stevan Bodnarov",
     "napomena": "Na mestu sa koga se govornik obratio narodu 7. jula 1941, u memorijalnom kompleksu.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4289
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4289
     }
   },
   {
@@ -306,8 +294,9 @@
     "autor": "Stevan Bodnarov",
     "napomena": "Na mestu sa koga se govornik obratio narodu 7. jula 1941, u memorijalnom kompleksu.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4290
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4290
     }
   },
   {
@@ -328,7 +317,6 @@
       38
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "brstica"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Memorijalni spomenik Stolice ↔ Spomen-kompleks Stolice."
@@ -347,8 +335,7 @@
     "godina": "1954",
     "adresa": "Pored Istorijske kuće",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2756
+      "cilj": "stolice-partizanski-kurir"
     }
   },
   {
@@ -365,8 +352,7 @@
     "godina": "1981",
     "napomena": "Postavljen povodom 40-godišnjice Savjetovanja iz 1941; ispred Istorijske kuće, prema spomen-česmi.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2757
+      "cilj": "stolice-spomenik-titu-vrhovnom-komandantu"
     }
   },
   {
@@ -411,7 +397,6 @@
       44
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "jajinci-spomen-park"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomenik u Jajincima ↔ Spomen-park Jajinci."
@@ -428,7 +413,6 @@
     "izbor": "upareno",
     "adresa": "Makedonska ulica",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "beograd-spomenik-mosi-pijade"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomenik Moše Pijade ↔ Spomenik Moši Pijade."
@@ -445,7 +429,6 @@
     "izbor": "upareno",
     "adresa": "Karađorđeva ulica, kod putničkog pristaništa na Savi",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "beograd-spomenik-obalskim-radnicima-palim-u-nob-u"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomenik palim obalskim radnicima u NOB 1941–1944 ↔ Spomenik obalskim radnicima palim u NOB-u."
@@ -462,7 +445,6 @@
     "izbor": "upareno",
     "adresa": "Jevrejsko groblje, Ruzveltova ulica",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "belgrade-cemetery"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomenik Jevrejima palim kao borci NOR i žrtve fašističkog terora ↔ Spomenik jevrejskim žrtvama fašizma."
@@ -493,7 +475,6 @@
     "napomena": "Pet partizana obešenih 17. avgusta 1941.",
     "adresa": "Terazije",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "beograd-terazije"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomen-obelisk na Terazijama ↔ Spomenik obešenima na Terazijama."
@@ -515,7 +496,6 @@
       105
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "beograd-grobnica-narodnih-heroja"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Grobnica narodnih heroja ↔ Grobnica narodnih heroja."
@@ -532,7 +512,6 @@
     "izbor": "upareno",
     "adresa": "Ruzveltova ulica",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "belgrade"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomen-groblje oslobodiocima Beograda 1944. godine ↔ Groblje oslobodilaca Beograda."
@@ -550,8 +529,7 @@
     "napomena": "Zajednička grobnica palih, ubijenih i streljanih tokom okupacije.",
     "adresa": "Novo groblje, Ruzveltova ulica",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2758
+      "cilj": "beograd-spomen-groblje-palim-borcima-u-beogradu-19"
     }
   },
   {
@@ -579,8 +557,8 @@
     "izbor": "bez-lokacije",
     "adresa": "Banjički venac 12",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2810
+      "cilj": "banjevci-kasic-spomenik-palim-borcima",
+      "ciljNepouzdan": true
     }
   },
   {
@@ -595,7 +573,6 @@
     "izbor": "upareno",
     "adresa": "Veljka Lukića Kurjaka 33",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "banjica-concen-camp-museum"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Muzej banjičkog logora ↔ Muzej Banjičkog logora."
@@ -626,8 +603,7 @@
     "izbor": "bez-lokacije",
     "adresa": "Studentski trg, mesto nekadašnjeg zatvora Glavnjača",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2759
+      "cilj": "beograd-spomen-obiljezje-na-mjestu-glavnjace"
     }
   },
   {
@@ -717,7 +693,6 @@
       49
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "beograd-kuca-cveca"
     },
     "razlogObrade": "Lokacija potvrđena 2026-10-16: Kuća cveća i Lomača na tačno imenovanim OSM objektima; detalji i izvori provere u beleškama."
@@ -842,7 +817,6 @@
       52
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "museum-of-july-4th"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Muzej 4. jul 1941. g. ↔ Muzej 4. juli."
@@ -864,7 +838,6 @@
       58
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "1st-avnoj-session-museum"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Muzej Prvog zasjedanja AVNOJ-a ↔ Muzej I. zasjedanja AVNOJ-a u Bihaću."
@@ -882,7 +855,6 @@
     "autor": "Bogdan Bogdanović",
     "napomena": "Trinaest figuralnih kompozicija i Aleja uspomena; 3 km od centra.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "bihac-garavice-park"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomen-park žrtava fašističkog terora Garavice ↔ Spomen-park Garavice."
@@ -899,7 +871,6 @@
     "izbor": "upareno",
     "napomena": "Spomenik i 907 nadgrobnih ploča palim borcima.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "bihac-partisan-cemetery"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Partizansko groblje u Borićima ↔ Partizansko spomen-groblje."
@@ -1000,7 +971,6 @@
     "izbor": "upareno",
     "napomena": "Uz spomenik kosturnica narodnih heroja Marka Oreškovića, Staniše Opsenice i Vladimira Ćetkovića i Petra Končara.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "korenica-center"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomenik Marku Oreškoviću-Krntiji ↔ Spomenik Marku Oreškoviću."
@@ -1017,8 +987,9 @@
     "izbor": "bez-lokacije",
     "napomena": "18 km od Titove Korenice; OCR Tmavac.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4296
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4296
     }
   },
   {
@@ -1033,8 +1004,9 @@
     "izbor": "bez-lokacije",
     "napomena": "U rodnoj kući, kod Plitvičkih jezera.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4297
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4297
     }
   },
   {
@@ -1048,7 +1020,6 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=66",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "plitvice-lakes"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomen-dom Šeste ličke divizije „Nikola Tesla“ ↔ Spomen-dom 6. ličke proleterske divizije."
@@ -1064,7 +1035,6 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=66",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "srb-croatian-people-s"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomenik ustanku u Srbu ↔ Spomenik ustanku naroda Hrvatske."
@@ -1080,7 +1050,6 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=66",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "donji-lapac-fallen-fighters"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomenik palim borcima ↔ Spomenik palim borcima."
@@ -1097,8 +1066,7 @@
     "izbor": "bez-lokacije",
     "napomena": "12 km od Donjeg Lapca prema Kulen Vakufu, na mestu ubistva 12 devojaka u julu 1941.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2760
+      "cilj": "bubanj-spomenik-12-srpskih-cura"
     }
   },
   {
@@ -1121,7 +1089,6 @@
       75
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "samac"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomen-dom „Mitar Trifunović Učo“ ↔ Spomen-dom „Mitar Trifunović Učo”."
@@ -1152,8 +1119,7 @@
     "izbor": "bez-lokacije",
     "adresa": "Ulica 27. jula",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2761
+      "cilj": "bosanski-samac-bista-mitra-trifunovica-uce"
     }
   },
   {
@@ -1168,8 +1134,8 @@
     "izbor": "upareno",
     "adresa": "Titova ulica",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 3269
+      "cilj": "grmovo-kameni-beleg",
+      "ciljNepouzdan": true
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Bista Pere Bosića ↔ Bista Pere Bosića."
   },
@@ -1185,8 +1151,8 @@
     "izbor": "upareno",
     "adresa": "Pred Osnovnom školom",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 3285
+      "cilj": "pones-spomenik-na-grobu-musi-zajmiju",
+      "ciljNepouzdan": true
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Bista Pere Bosića ↔ Bista Pere Bosića."
   },
@@ -1214,8 +1180,8 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=74",
     "izbor": "upareno",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 3297
+      "cilj": "djakovica-bista-emina-durakua",
+      "ciljNepouzdan": true
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomenik borcima Posavskog partizanskog odreda ↔ Spomenik Posavskom partizanskom odredu."
   },
@@ -1260,8 +1226,9 @@
       80
     ],
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4300
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4300
     }
   },
   {
@@ -1299,7 +1266,6 @@
       81
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "tito-museum-on-brijuni"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Izložba „Tito na Brionima“ ↔ Izložba „Josip Broz Tito na Brijunima”."
@@ -1363,7 +1329,6 @@
       86
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "franja-partisan-hospital"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Partizanska bolnica Franja ↔ Slovenska vojna partizanska bolnica Franja.",
@@ -1382,7 +1347,6 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=87",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "trebence"
     },
     "razlogObrade": "Cilj potvrđen 2026-10-16: Kragujevac i Veles novi na mapi; Cerkno i Tacen već postoje pod drugim nazivom mesta ili spomenika. Koordinate i izvori provere u beleškama."
@@ -1399,7 +1363,6 @@
     "izbor": "upareno",
     "napomena": "Sahranjeni 731 partizan/talac/žrtva terora, 89 garibaldijaca i 176 neznanih boraca, prema izvoru.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "cerkno-partizanska-grobnica-s-spomenikom-pri-pokop"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomenik i grobnica partizana, talaca i žrtava terora ↔ Partizanska grobnica s spomenikom pri pokopališču."
@@ -1416,7 +1379,6 @@
     "izbor": "upareno",
     "napomena": "Žrtvama napada 27. januara 1944. na partijsku školu.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "cerkno-spomenik-47-padlim-gojencem-partijske-sole"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomenik 47-morici na Brdcu ↔ Spomenik 47 padlim gojencem partijske šole."
@@ -1492,7 +1454,6 @@
     "autor": "Ante Kostović",
     "adresa": "Ispred Osnovne škole „Ivan Goran Kovačić“",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "foca"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomenik Fočanskoj omladinskoj četi ↔ Spomenik Fočanskoj omladinskoj četi."
@@ -1511,8 +1472,8 @@
     "napomena": "Nepoznati autor. Portret s parolom i petokrakom, prekrečen posle povlačenja partizana, otkriven posle rata.",
     "adresa": "Zgrada kod gornjeg mosta na Čehotini",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 1420
+      "cilj": "livno-spomenik-na-mjestu-osnivanja-prve-partizansk",
+      "ciljNepouzdan": true
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Titov ratni fresko-portret ↔ Grafit s Titovim portretom."
   },
@@ -1618,8 +1579,7 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=100",
     "izbor": "upareno",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 942
+      "cilj": "foca-bista-serifa-loje"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Bista Šerifa Loje ↔ Bista Šerifa Loje."
   },
@@ -1716,7 +1676,6 @@
       116
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "grmec"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomenik u Korčanici ↔ Spomen-područje Korčanica."
@@ -1742,7 +1701,6 @@
       118
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "jasenica"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Muzej Podgrmeč u NOB ↔ Muzej Podgrmeča i spomen-česma."
@@ -1760,7 +1718,6 @@
     "autor": "Marijan Kocković",
     "napomena": "U obliku raspolovljene jabuke, ispred muzeja Podgrmeč u NOB.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "jasenica"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomen-fontana ↔ Muzej Podgrmeča i spomen-česma."
@@ -1777,8 +1734,7 @@
     "izbor": "upareno",
     "napomena": "Jedna od osam bista narodnih heroja Podgrmeča uz spomen-fontanu; autor nije naveden.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 368
+      "cilj": "jasenica-bista-dusana-gavrana"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Bista Dušana Gavrana ↔ Bista Dušana Gavrana."
   },
@@ -1794,8 +1750,7 @@
     "izbor": "upareno",
     "napomena": "Jedna od osam bista narodnih heroja Podgrmeča uz spomen-fontanu; autor nije naveden.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 369
+      "cilj": "jasenica-bista-dusana-kosutica"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Bista Dušana Košutića ↔ Bista Dušana Košutića."
   },
@@ -1811,8 +1766,7 @@
     "izbor": "upareno",
     "napomena": "Jedna od osam bista narodnih heroja Podgrmeča uz spomen-fontanu; autor nije naveden.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 370
+      "cilj": "jasenica-bista-cvije-kukolja"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Bista Cvije Kukolja ↔ Bista Cvije Kukolja."
   },
@@ -1828,8 +1782,7 @@
     "izbor": "upareno",
     "napomena": "Jedna od osam bista narodnih heroja Podgrmeča uz spomen-fontanu; autor nije naveden.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 371
+      "cilj": "jasenica-bista-milana-licine"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Bista Milana Ličine ↔ Bista Milana Ličine."
   },
@@ -1845,8 +1798,7 @@
     "izbor": "upareno",
     "napomena": "Jedna od osam bista narodnih heroja Podgrmeča uz spomen-fontanu; autor nije naveden.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 372
+      "cilj": "jasenica-bista-veljka-miljevica"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Bista Veljka Miljevića ↔ Bista Veljka Miljevića."
   },
@@ -1862,8 +1814,7 @@
     "izbor": "upareno",
     "napomena": "Jedna od osam bista narodnih heroja Podgrmeča uz spomen-fontanu; autor nije naveden.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 373
+      "cilj": "jasenica-bista-davida-pajica"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Bista Davida Pajića ↔ Bista Davida Pajića."
   },
@@ -1879,8 +1830,7 @@
     "izbor": "upareno",
     "napomena": "Jedna od osam bista narodnih heroja Podgrmeča uz spomen-fontanu; autor nije naveden.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 374
+      "cilj": "jasenica-bista-petra-skundrica"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Bista Petra Škundrića ↔ Bista Petra Škundrića."
   },
@@ -1896,8 +1846,7 @@
     "izbor": "upareno",
     "napomena": "Jedna od osam bista narodnih heroja Podgrmeča uz spomen-fontanu; autor nije naveden.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 375
+      "cilj": "jasenica-bista-mirka-vejinovica"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Bista Mirka Vejinovića ↔ Bista Mirka Vejinovića."
   },
@@ -1941,8 +1890,8 @@
     "izbor": "upareno",
     "napomena": "Zgrada Drugog zasjedanja ZAVNOBiH-a 30. juna i 1. jula 1944.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 3311
+      "cilj": "kacanik-spomenik-blagoju-milidragovicu",
+      "ciljNepouzdan": true
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Dom ZAVNOBiH-a ↔ Sala II zasjedanja ZAVNOBiH-a sa muzejem."
   },
@@ -1971,7 +1920,6 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=116",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "sanski-most"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomenik žrtvama fašističkog terora na Šušnjaru ↔ Spomenik žrtvama fašizma."
@@ -1988,8 +1936,8 @@
     "izbor": "upareno",
     "napomena": "Rodna kuća uređena kao muzej.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 3321
+      "cilj": "kosovska-mitrovica-bista-mete-barjaktarija",
+      "ciljNepouzdan": true
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomen-kuća Sime Miljuša ↔ Rodno mjesto Sime Miljuša."
   },
@@ -2018,8 +1966,9 @@
     "izbor": "bez-lokacije",
     "napomena": "Podignut u znak sećanja na 537 palih boraca sa područja Lušci Palanke.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4301
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4301
     }
   },
   {
@@ -2060,7 +2009,6 @@
     "izbor": "upareno",
     "napomena": "Pet kilometara od Sanskog Mosta; sahranjeno 840 boraca i žrtava.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "milin-birt"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Spomen-obilježje borcima i žrtvama fašističkog terora ↔ Spomenik palim borcima."
@@ -2077,8 +2025,7 @@
     "izbor": "upareno",
     "napomena": "114 boraca umrlih u bolnici Petog korpusa 1943–1945; 34 km od Sanskog Mosta.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2092
+      "cilj": "kozin-partizansko-groblje"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Partizansko groblje ↔ Partizansko groblje."
   },
@@ -2094,7 +2041,6 @@
     "izbor": "upareno",
     "adresa": "Brdo Grad",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "bosanska-krupa"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Partizansko spomen-groblje ↔ Partizansko spomen-groblje."
@@ -2110,8 +2056,7 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=117",
     "izbor": "upareno",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 377
+      "cilj": "bosanska-krupa-bista-dusana-kosutica"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Bista Dušana Košutića ↔ Bista Dušana Košutića."
   },
@@ -2126,8 +2071,7 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=117",
     "izbor": "upareno",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 378
+      "cilj": "bosanska-krupa-bista-salka-terzica"
     },
     "razlogObrade": "Isto mesto/područje i jedinstveno obeležje: Bista Salka Terzića ↔ Bista Salka Terzića."
   },
@@ -2213,7 +2157,6 @@
       126
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "battle-of-neretva-museum"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomen-park sa muzejom Bitka na Neretvi / Memorijalni kompleks „Bitka na Neretvi“.",
@@ -2234,8 +2177,8 @@
     "izbor": "upareno",
     "napomena": "Autentični ostaci željezničkog mosta u sklopu spomen-parka; datum ratnog prelaska nije godina spomenika.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 1841
+      "cilj": "vitez-zajednicka-grobnica-palih-boraca-i-zrtava-fa",
+      "ciljNepouzdan": true
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Most na Neretvi / Ostaci mosta na Neretvi."
   },
@@ -2253,7 +2196,6 @@
     "godina": "1978",
     "napomena": "Otkriven 12. novembra; vrh Makljena iznad puta Jablanica–Prozor–Bugojno.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "makljen"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomenik bici na Neretvi / Spomenik bitke za ranjenike."
@@ -2276,7 +2218,6 @@
       132
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "bosko-buha-memorial-site"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Memorijalni prostor „Boško Buha“ / Memorijalni kompleks Boško Buha."
@@ -2294,7 +2235,6 @@
     "autor": "Mira Letica",
     "napomena": "Na Vidikovcu; prema ideji učenice Jadranke Berić.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "jabuka-buha"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomenik Bošku Buhi / Spomenik Bošku Buhi.",
@@ -2328,8 +2268,7 @@
     "izbor": "bez-lokacije",
     "napomena": "Kameni stub visok tri metra; 135 imena.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2764
+      "cilj": "jabuka-spomenik-palim-borcima-i-zrtvama-u-dva-svje"
     }
   },
   {
@@ -2344,8 +2283,7 @@
     "izbor": "bez-lokacije",
     "napomena": "Borci pali u posljednje dvije godine rata; u blizini memorijalnog prostora.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2765
+      "cilj": "jabuka-spomen-grobnica-17-boraca"
     }
   },
   {
@@ -2372,8 +2310,8 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=131",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2815
+      "cilj": "cvrljevo-konjevrate-spomenik-palim-borcima-i-zrtva",
+      "ciljNepouzdan": true
     }
   },
   {
@@ -2388,8 +2326,7 @@
     "izbor": "bez-lokacije",
     "napomena": "Pred muzejom; kćerka partizanske ljekarke Saše Božović.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2763
+      "cilj": "jabuka-bista-dolores"
     }
   },
   {
@@ -2420,7 +2357,6 @@
       132
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "prijepolje"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomenik 4. decembar / Spomenik Prijepoljskoj bici."
@@ -2450,7 +2386,6 @@
     "izbor": "upareno",
     "napomena": "Brdo Stražica; bitka 1. decembra 1941, datum događaja nije godina spomenika.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "pljevlja-fallen-fighters"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomenik palim borcima u bici za Pljevlja / Spomenik palim borcima Pljevaljske bitke."
@@ -2468,7 +2403,6 @@
     "godina": "1983",
     "napomena": "Otkrili Sandro Pertini i Mika Špiljak.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "pljevlja-garibaldi-division"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomenik italijanskoj partizanskoj diviziji Garibaldi / Spomenik diviziji Garibaldi."
@@ -2489,7 +2423,6 @@
       138
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "jajce"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Muzej Drugog zasjedanja AVNOJ-a / Muzej AVNOJ-a u Jajcu."
@@ -2595,7 +2528,6 @@
       146
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "jasenovac"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Cvijet života / Kameni cvijet."
@@ -2611,7 +2543,6 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=147",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "jasenovac-museum"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Memorijalni muzej Jasenovac / Muzej Spomen-područja Jasenovac."
@@ -2629,8 +2560,9 @@
     "autor": "Stanko Jančić",
     "napomena": "Skulptura uz muzejsku zgradu.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4306
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4306
     }
   },
   {
@@ -2645,7 +2577,6 @@
     "izbor": "upareno",
     "napomena": "Gubilište jasenovačkog logora na desnoj obali Save; iz istorijskog izvora ne prenosi se procjena broja žrtava.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "donja-gradina-spomen-podrucje"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Groblja na Gradini / Spomen-područje Donja Gradina."
@@ -2663,8 +2594,9 @@
     "autor": "Radoslav Janković",
     "napomena": "Podigli pripadnici JNA.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4307
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4307
     }
   },
   {
@@ -2705,8 +2637,8 @@
     "izbor": "bez-lokacije",
     "napomena": "Knjiga navodi spomenik i stihove; posveta nije potpuno navedena.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2819
+      "cilj": "zut-kornati-spomenik-zrtvama-fasistickog-terora",
+      "ciljNepouzdan": true
     }
   },
   {
@@ -2736,8 +2668,7 @@
     "izbor": "bez-lokacije",
     "napomena": "Spomen-dom sa memorijalnim muzejom i spomen-parkom.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2766
+      "cilj": "jastrebarsko-pionirski-centar-bratstvo-jedinstvo"
     }
   },
   {
@@ -2767,7 +2698,6 @@
     "godina": "1943-1944",
     "napomena": "Izvorna izgradnja: prva baraka april 1943, završni oblik do jula 1944; 26 baraka očuvano.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "baza-20-secret-partisan-base"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Baza 20 / Baza 20.",
@@ -2792,7 +2722,6 @@
       159
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "komarna-vas"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Bolnica Zgornji Hrastnik / Partizanska bolnišnica Zgornji Hrastnik."
@@ -2814,7 +2743,6 @@
       159
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "jelendol"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Bolnica Jelendol / Partizanska bolnišnica Jelendol.",
@@ -2867,7 +2795,6 @@
     "izbor": "upareno",
     "napomena": "Glavni trg; datum vješanja 30. decembra 1943 nije godina spomenika.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "novo-mesto-spomenik-obesenima-na-glavnem-trgu"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomen-stub dvojici partizana / Spomenik obešenima na Glavnem trgu."
@@ -2883,8 +2810,9 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=160",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4310
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4310
     }
   },
   {
@@ -2898,8 +2826,9 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=160",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4311
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4311
     }
   },
   {
@@ -2920,7 +2849,6 @@
       164
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kolasin"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomen-dom Prvog zasjedanja ZAVNO Crne Gore i Boke / Spomen-dom u Kolašinu."
@@ -2938,7 +2866,6 @@
     "autor": "Momo Vujisić",
     "napomena": "Na nekadašnjem stratištu; godine 1942–1943 odnose se na zločin.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "breza"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomen-groblje na Brezi / Partizansko spomen-groblje Breza.",
@@ -2975,7 +2902,6 @@
     "godina": "1972",
     "napomena": "Spomenik otkriven 10. septembra 1972; memorijalni zid i muzej dio kompleksa. Pred spomen-kućom biste Mladena Stojanovića, Josipa Mažara Šoše i Esada Midžića; autor tih bista nije naveden.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kozara"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Memorijalni kompleks Kozara / Spomenik Revoluciji."
@@ -2992,8 +2918,7 @@
     "izbor": "upareno",
     "napomena": "Pjesničko zborište; uz Drvored pjesnika.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 1893
+      "cilj": "mrakovica-bista-skendera-kulenovica"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Bista Skendera Kulenovića / Bista Skendera Kulenovića."
   },
@@ -3014,7 +2939,6 @@
       178
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kragujevac-spomen-park-kragujevacki-oktobar"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomen-park Kragujevački oktobar / Spomen-park Kragujevački oktobar."
@@ -3032,7 +2956,6 @@
     "autor": "Ante Gržetić",
     "godina": "1959",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kragujevac-spomenik-bola-i-prkosa"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomenik bola i prkosa / Spomenik Bola i Prkosa."
@@ -3050,7 +2973,6 @@
     "autor": "Miodrag Živković",
     "godina": "1963",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kragujevac-sumarice-park"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomenik streljanim đacima i profesorima / Spomenik streljanim đacima i profesorima."
@@ -3084,7 +3006,6 @@
     "autor": "Nebojša Delja",
     "godina": "1968",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kragujevac-spomenik-kristalni-cvet"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Kristalni cvet / Spomenik „Kristalni cvet“."
@@ -3102,7 +3023,6 @@
     "autor": "Jelica Bosnić; Gradimir Bosnić",
     "godina": "1970",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kragujevac-spomenik-kameni-spavac"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Kameni spavač / Spomenik „Kameni spavač“."
@@ -3120,7 +3040,6 @@
     "autor": "Nandor Glid",
     "godina": "1980",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kragujevac-spomenik-sto-za-jednog"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Sto za jednoga / Spomenik „Sto za jednog“."
@@ -3138,7 +3057,6 @@
     "autor": "Vojin Bakić; Josip Sajsl; Silvana Sajsl",
     "godina": "1981",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kragujevac-spomen-obelezje-naroda-hrvatske"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomen-obeležje naroda SR Hrvatske / Spomen-obeležje naroda Hrvatske."
@@ -3156,7 +3074,6 @@
     "autor": "Jovan Soldatović",
     "napomena": "Skulptura u memorijalnom prostoru Šumarica.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kragujevac-spomenik-sudjaje"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Suđaje / Spomenik „Suđaje“.",
@@ -3177,8 +3094,7 @@
     "autor": "Jovan Soldatović",
     "napomena": "Skulptura u memorijalnom prostoru Šumarica.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2768
+      "cilj": "kragujevac-srne"
     }
   },
   {
@@ -3194,7 +3110,6 @@
     "autor": "Jovan Soldatović",
     "napomena": "Skulptura u memorijalnom prostoru Šumarica.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kragujevac-spomenik-covek-bez-iluzija"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Čovjek bez iluzija / Spomenik „Čovek bez iluzija“.",
@@ -3249,7 +3164,6 @@
       179
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "october-21st-museum"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomen-muzej 21. oktobar / Spomen-muzej 21. oktobar."
@@ -3268,7 +3182,6 @@
     "godina": "1977",
     "napomena": "Otkriven 22. maja; u centru grada.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kragujevac-spomenik-prvoj-titovoj-stafeti"
     },
     "razlogObrade": "Cilj potvrđen 2026-10-16: Kragujevac i Veles novi na mapi; Cerkno i Tacen već postoje pod drugim nazivom mesta ili spomenika. Koordinate i izvori provere u beleškama."
@@ -3346,7 +3259,6 @@
       186
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kraljevo-park-14th-october"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomen-park Kraljevo / Spomen-park Kraljevački oktobar."
@@ -3364,7 +3276,6 @@
     "autor": "Lojze Dolinar",
     "napomena": "U parku kod Željezničke stanice.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kraljevo-resistance-torment"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomenik otpora i pobede / Spomenik otpora i pobede."
@@ -3381,8 +3292,9 @@
     "izbor": "bez-lokacije",
     "napomena": "U parku ispred Doma JNA.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4313
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4313
     }
   },
   {
@@ -3398,8 +3310,9 @@
     "autor": "Oto Logo",
     "napomena": "U krugu Fabrike vagona.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4314
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4314
     }
   },
   {
@@ -3414,8 +3327,9 @@
     "izbor": "bez-lokacije",
     "napomena": "Dragoslav Bogavac, Rade Vilotijević, Olga Jovičić; autori i godine nisu navedeni.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4315
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4315
     }
   },
   {
@@ -3431,7 +3345,6 @@
     "autor": "Aleksandar Vasiljević",
     "napomena": "Kod Ibarskog mosta.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kraljevo-spomenik-oslobodiocima-kraljeva"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomenik oslobodiocima Kraljeva / Spomenik oslobodiocima Kraljeva.",
@@ -3468,7 +3381,6 @@
       195
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "krusevo-makedonium"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomenik Ilindenskom ustanku i NOB / Македониум."
@@ -3579,7 +3491,6 @@
       200
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kumrovec-spomenik-josipu-brozu-titu"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Skulptura Tita ratnika i vojskovođe / Spomenik Josipu Brozu Titu."
@@ -3615,7 +3526,6 @@
       204
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "tito-s-birthplace-museum"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Staro selo / Muzej Staro selo Kumrovec."
@@ -3680,7 +3590,6 @@
       204
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kumrovec"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Dom boraca NOR i omladine Jugoslavije / Spomen-dom boraca NOB-a i omladine.",
@@ -3701,7 +3610,6 @@
     "izbor": "upareno",
     "napomena": "Muzej na spratu stare kuće Titove majke; imanje u upotrebi porodice.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "podsreda-javerskova-domacija"
     },
     "razlogObrade": "Cilj potvrđen 2026-10-16: Podsreda i Celje novi na mapi; Selca je postojeći spomenik na Bukovškem polju (dolenja-vas). Koordinate i izvori provere u beleškama."
@@ -3722,8 +3630,9 @@
       203
     ],
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4316
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4316
     }
   },
   {
@@ -3737,8 +3646,9 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=203",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4317
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4317
     }
   },
   {
@@ -3788,7 +3698,6 @@
       206
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "landovica"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomenik narodnim herojima Bori Vukmiroviću i Ramizu Sadiku / Spomenik bratstvu i jedinstvu.",
@@ -3815,7 +3724,6 @@
       217
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "ljubljana-grobnica-narodnih-herojev"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Grobnica narodnih heroja / Grobnica narodnih herojev.",
@@ -3852,7 +3760,6 @@
     "autor": "Boris Kobe; Karel Putrih; Zdenko Kalin",
     "napomena": "Grobnica sa spomenikom prema zamisli Borisa Kobea, skulpture Karela Putriha i Zdenka Kalina; spomen-muzej u sklopu cjeline.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "st-ulrich-s-hill"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Stratište na Sv. Urhu / Spomenik padlim na Urhu."
@@ -3886,8 +3793,8 @@
     "napomena": "Stalna muzejska izložba u ilegalnoj štampariji; ratni rad 1941–1942 nije datum današnjeg muzeja.",
     "adresa": "Cesta na pod brdo 95",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2823
+      "cilj": "burnji-primosten-spomenik-juri-bogdanu",
+      "ciljNepouzdan": true
     }
   },
   {
@@ -3907,7 +3814,6 @@
       218
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "nat-l-museum-of-contemp-hist"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Muzej ljudske revolucije Slovenije / Muzej novejše in sodobne zgodovine Slovenije."
@@ -3925,7 +3831,6 @@
     "autor": "Drago Tršar; Edo Ravnikar",
     "adresa": "Trg revolucije",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "ljubljana"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomenik revolucije / Spomenik revolucije."
@@ -3957,7 +3862,6 @@
     "autor": "Frančišek Smerdu",
     "adresa": "Kidričeva ulica",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "ljubljana-spomenik-ilegalcem"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomenik ilegalcima / Spomenik ilegalcem.",
@@ -4028,7 +3932,6 @@
       225
     ],
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "podgora"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomenik JRM i pomorstva „Galebova krila“ / Galebova krila."
@@ -4047,7 +3950,6 @@
     "godina": "1974",
     "napomena": "Otkriven 21. novembra; kamene knjige s imenima palih boraca i žrtava.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "makarska"
     },
     "razlogObrade": "Isto mjesto i saglasan objekat: Spomenik revolucije / Spomenik revolucije."
@@ -4064,8 +3966,7 @@
     "izbor": "bez-lokacije",
     "adresa": "Titova obala 17/II",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2769
+      "cilj": "makarska-muzej-revolucije"
     }
   },
   {
@@ -4086,8 +3987,7 @@
       225
     ],
     "upareno": {
-      "skup": "spomeniks",
-      "cilj": 2840
+      "cilj": "makarska-vila-irena-party-school-museum"
     },
     "razlogObrade": "Spomenički muzejski centar potvrđuje Vilu Irenu kao Partijsku školu i kasniji memorijalni muzej. Službena adresa vile je Šetalište sv. Petra 4; Gradski muzej Makarska je 2026. koristi za izložbe. Tačka vile potvrđena je fotografskom dokumentacijom i koordinatom."
   },
@@ -4107,8 +4007,7 @@
       225
     ],
     "upareno": {
-      "skup": "spomeniks",
-      "cilj": 2841
+      "cilj": "podgora-muzej-prvog-mornarickog-odreda"
     },
     "razlogObrade": "Isti muzej i Spomen-dom u Podgori; muzejsko osnivanje potvrđeno zapisnikom Muzejskog savjeta Hrvatske iz 1977, a tačka je dokumentovana na zgradi Spomen-doma."
   },
@@ -4142,7 +4041,6 @@
     ],
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "mostar-partisan-cemetery"
     },
     "razlogObrade": "Mostar, partizansko groblje Bijeli brijeg; isti autor Bogdanović i godina 1965."
@@ -4159,7 +4057,6 @@
     "adresa": "Bajatova ulica, Brankovac",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "mostar-spomen-kuca-dzemala-bijedica"
     },
     "razlogObrade": "Lokacija ovjerena 2026-10-16: imenovani OSM muzej i nezavisan savremeni izvor; Brestanica je postojeći rajhenburg-castle, ostali su novi zapisi na mapi."
@@ -4232,7 +4129,6 @@
     ],
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "mrkonjic-grad"
     },
     "razlogObrade": "Isti grad i autentični Muzej prvog zasjedanja ZAVNOBiH-a; knjiga razlikuje ovaj muzej od novog Doma."
@@ -4267,8 +4163,8 @@
     "napomena": "Spomenik i 41 ploča; sahranjena 43 borca i 143 žrtve fašističkog terora.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2565
+      "cilj": "donje-mostre-spomen-ploca-visocko-fojnickom-partiz",
+      "ciljNepouzdan": true
     },
     "razlogObrade": "Isto partizansko groblje na Kasimovcu uz Mrkonjić Grad; snapshot je vodi pod nazivom naselja Kasimovac, ne grada."
   },
@@ -4314,7 +4210,6 @@
     ],
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "red-cross-camp-museum"
     },
     "razlogObrade": "Niš, logor Crveni krst odnosno 12. februar, ista muzejska vrsta."
@@ -4333,7 +4228,6 @@
     "napomena": "Otkriven 13. oktobra 1963; memorijalna staza, bareljef i tri pesnice čine celinu.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "nis-spomen-park-bubanj"
     },
     "razlogObrade": "Isto mesto i tačno imenovan Spomen-park Bubanj; izvor opisuje cjelinu staze, reljefa i pesnica.",
@@ -4356,7 +4250,6 @@
     "adresa": "Sinđelićev trg",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "nis-spomen-grobnica-na-sindjelicevom-trgu"
     },
     "razlogObrade": "Isti Sinđelićev trg u Nišu i zajednička spomen-grobnica."
@@ -4373,7 +4266,6 @@
     "adresa": "Trg 14. oktobra",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "nis-marger"
     },
     "razlogObrade": "Niš, isti spomenik palim vazduhoplovcima, Trg 14. oktobra / Marger."
@@ -4446,8 +4338,7 @@
     ],
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2770
+      "cilj": "nis-spomenik-palim-1941-1945-u-krugu-lozionice"
     }
   },
   {
@@ -4466,8 +4357,7 @@
     ],
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2771
+      "cilj": "nis-spomenik-palim-1941-1945-u-krugu-pogona-na-crv"
     }
   },
   {
@@ -4578,7 +4468,6 @@
     "napomena": "538 imena, 60 parcela i Staza revolucije.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "novi-sad-cemetery"
     },
     "razlogObrade": "Jedinstveno spomen-groblje boraca NOR-a u Novom Sadu; naslov i vrsta potvrđuju par. Baza navodi 1987 iako knjiga1986 već opisuje objekat: zadržati neslaganje, ne mijenjati postojeću godinu; autor Sava Halugin može dopuniti prazno autor."
@@ -4597,7 +4486,6 @@
     "adresa": "Kej Moše Pijade",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "novi-sad"
     },
     "razlogObrade": "Novi Sad, žrtve racije 1942. na keju; isti autor Jovan Soldatović."
@@ -4632,7 +4520,6 @@
     ],
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "novi-sad-muzej-vojvodine-dunavska-37"
     }
   },
@@ -4649,8 +4536,8 @@
     "adresa": "Ulica Vojislava Ilića 15",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2829
+      "cilj": "slivno-spomenik-palim-borcima-i-zrtvama-fasisticko",
+      "ciljNepouzdan": true
     }
   },
   {
@@ -4672,7 +4559,6 @@
     ],
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "petrova-gora"
     },
     "razlogObrade": "Isti Petrovac na Petrovoj gori; Vojin Bakić, 1981."
@@ -4695,7 +4581,6 @@
     ],
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "petrova-gora-partisan-hospital"
     },
     "razlogObrade": "Ista Centralna partizanska bolnica na Petrovoj gori."
@@ -4712,7 +4597,6 @@
     "napomena": "U šumi kod Vrginmosta; okrugli sto, sastanak 19. jula 1941.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "abez-forest"
     },
     "razlogObrade": "Ista šuma Abez i spomenik sastanku rukovodilaca KPH kojim je dogovoren ustanak."
@@ -4794,8 +4678,9 @@
     "napomena": "Preko hiljadu imena; selo između Vrginmosta i Gline.",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4325
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4325
     }
   },
   {
@@ -4809,8 +4694,9 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=261",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4326
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4326
     }
   },
   {
@@ -4838,8 +4724,7 @@
     "napomena": "Šuma nedaleko od Krnjaka; mesto formiranja odreda.",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2772
+      "cilj": "debela-kosa-spomenik-palim-borcima"
     }
   },
   {
@@ -4853,8 +4738,7 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=261",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2773
+      "cilj": "debela-kosa-spomen-dom-bratstvo-jedinstvo"
     }
   },
   {
@@ -4869,8 +4753,9 @@
     "napomena": "Šuma kod Debele kose i Trupinjaka.",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4329
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4329
     }
   },
   {
@@ -4885,8 +4770,7 @@
     "napomena": "Kod Kestenovca; mesto formiranja brigade 16. septembra 1942.",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2774
+      "cilj": "petrova-poljana-spomen-park-5-kordunaskoj-udarnoj"
     }
   },
   {
@@ -4913,8 +4797,8 @@
     "napomena": "350 ubijenih 29. jula 1941.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 53
+      "cilj": "banja-luka-spomenik-na-mjestu-strijeljanja",
+      "ciljNepouzdan": true
     },
     "razlogObrade": "Ivanović-jarak je vlastito ime istog spomeničkog mjesta koje snapshot vodi pod matičnim naseljem Donji Budački."
   },
@@ -4955,7 +4839,6 @@
     "napomena": "Oko 1.060 partizana; simbolična zajednička grobnica u sredini.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "petrova-gora-partisan-hospital"
     },
     "razlogObrade": "PDF262–263 groblje je stanica u istom obilasku Centralne partizanske bolnice, bez zasebne autorske/godinske identifikacije; obuhvatiti postojećom bolnicom, ne nova tačka."
@@ -4973,7 +4856,6 @@
     "napomena": "U Parku revolucije, posvećena 650 palih boraca prilepskog kraja.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "prilep"
     },
     "razlogObrade": "Prilep, Mogila nepobijeđenih / Могила на непобедените; isti autor Bogdan Bogdanović."
@@ -5002,7 +4884,6 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=267",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "prilep-memorijalen-muzej-kuzman-josifoski-pitu"
     },
     "razlogObrade": "Lokacija potvrđena 2026-10-16 imenovanim OSM muzejom i nezavisnim opisom/adresom; prebačeno iz radnog spiska na mapu."
@@ -5033,7 +4914,6 @@
     "adresa": "Centar grada",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "pristina-prishtine-brotherhood-unity"
     },
     "razlogObrade": "Priština, isti Spomenik bratstvu i jedinstvu i autor Miodrag Živković."
@@ -5051,8 +4931,7 @@
     "napomena": "Zajednička grobnica 220 palih boraca i žrtava fašističkog terora.",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2775
+      "cilj": "pristina-spomen-kosturnica-na-maticarskom-brdu"
     }
   },
   {
@@ -5067,8 +4946,7 @@
     "adresa": "Ulica R. Sadiku",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2776
+      "cilj": "pristina-spomenik-strijeljanim-albanskim-rodoljubi"
     }
   },
   {
@@ -5099,7 +4977,6 @@
     ],
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "museum-to-1st-prolet-brigade"
     },
     "razlogObrade": "Rudo, isti Muzej Prve proleterske brigade."
@@ -5117,8 +4994,8 @@
     "napomena": "Na ulazu u Muzej Prve proleterske brigade. Samostalna skulptura sa izričito navedenim autorom.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 3245
+      "cilj": "surduk-spomenik-jevrejskim-zrtvama-fasizma",
+      "ciljNepouzdan": true
     },
     "razlogObrade": "Rudo, Titova statua kod Muzeja Prve proleterske; autor A. odnosno Antun Augustinčić."
   },
@@ -5135,7 +5012,6 @@
     "napomena": "Na mestu formiranja brigade 21. decembra 1941; godina događaja nije godina spomenika.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "rudo"
     },
     "razlogObrade": "Rudo, spomenik formiranju Prve proleterske; oba autora Kurpjel i Subotić."
@@ -5152,7 +5028,6 @@
     "napomena": "Borci Prve proleterske pali na Gaočićima 23. decembra 1941. i borci drugih jedinica.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "rudo-partizansko-groblje"
     },
     "razlogObrade": "Rudo, isto partizansko groblje boraca Prve proleterske i drugih brigada."
@@ -5207,8 +5082,7 @@
     "napomena": "Poginuo 1942; nije godina biste.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2054
+      "cilj": "rudo-bista-jusufa-dorica"
     },
     "razlogObrade": "Rudo, bista istog Jusufa Dorića."
   },
@@ -5269,7 +5143,6 @@
     ],
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "sarajevo-vraca-park"
     },
     "razlogObrade": "Sarajevo, tačno isti park Vraca sa projektantima Dobrovićem i Maltarićem i godinom 1981."
@@ -5287,7 +5160,6 @@
     "adresa": "Ugao Titove ulice i Ulice V. Miskina",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "sarajevo-vjecna-vatra"
     },
     "razlogObrade": "Sarajevo, vječni plamen ispred zahvalnosti oslobodiocima na uglu Titove i V. Miskina."
@@ -5369,8 +5241,8 @@
     "napomena": "U parku na Ilidži, sa spomenikom.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 1770
+      "cilj": "sarajevo-grbavica-bista-hasana-brkica-2",
+      "ciljNepouzdan": true
     },
     "razlogObrade": "Ilidža, ista spomen-kosturnica u parku."
   },
@@ -5386,8 +5258,8 @@
     "napomena": "Kamena gromada sa uklesanim tekstom; prolazak proletera 27. januara 1942.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 1776
+      "cilj": "sarajevo-pofalici-spomen-ploca-bivsim-ucenicima-po",
+      "ciljNepouzdan": true
     },
     "razlogObrade": "Vrelo Bosne, isti spomenik Igmanskom maršu."
   },
@@ -5403,7 +5275,6 @@
     "napomena": "62 borca; uz kosturnicu je veći spomenik.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "vogosca"
     },
     "razlogObrade": "Vogošća, ista spomen-kosturnica sa spomenikom palim borcima."
@@ -5421,7 +5292,6 @@
     "adresa": "Ulica vojvode Putnika 9",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "history-museum-of-bih"
     },
     "razlogObrade": "Sarajevo, istorijski naziv Historijskog muzeja je Muzej revolucije Bosne i Hercegovine; isti muzejski predmet i grad."
@@ -5464,8 +5334,9 @@
     "napomena": "U zgradi savjetovanja od 7. i 8. januara 1942; 33 km od Sarajeva prema Tuzli.",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4333
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4333
     }
   },
   {
@@ -5481,7 +5352,6 @@
     "napomena": "Dve gromade visoke po 19 metara.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "tjentiste"
     },
     "razlogObrade": "Tjentište, monumentalni spomenik bitke na Sutjesci; isti autor Miodrag Živković."
@@ -5512,7 +5382,6 @@
     "napomena": "Radović projektant zgrade, Hegedušić autor 13 fresaka; imena 7.376 poginulih boraca.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "tjentiste-spomen-kuca-bitke-na-sutjesci"
     },
     "razlogObrade": "Tjentište, ista Spomen-kuća sa freskama, isti autori Ranko Radović i Krsto Hegedušić."
@@ -5541,7 +5410,6 @@
     "napomena": "9. juna 1943; obeležen lokalitet, put 12 km od Tjentišta.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "tjentiste-mjesto-ranjavanja-tita"
     },
     "razlogObrade": "Sutjeska, obeleženo mesto Titovog ranjavanja, padina Ozrena; identičan jedinstven događaj."
@@ -5558,7 +5426,6 @@
     "napomena": "Ispod Krekova na padini Ozrena, mesto pogibije komandanta Treće divizije.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "tjentiste-savin-grob"
     },
     "razlogObrade": "Sutjeska, isti grob Save Kovačevića na Ozrenu."
@@ -5574,7 +5441,6 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=294",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "tjentiste-grob-nurije-pozderca"
     },
     "razlogObrade": "Dragoš sedlo u području Sutjeske, isti grob Nurije Pozderca."
@@ -5609,7 +5475,6 @@
     ],
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "lovnica-monastery"
     },
     "razlogObrade": "Kanjon Lovnice, partizansko spomen-groblje uz manastir, izričito potvrđeno u izvoru PDF302."
@@ -5631,8 +5496,9 @@
     ],
     "izbor": "upareno",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 3380
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 3380
     },
     "razlogObrade": "Lovnica / Šekovići, Muzej Birač u NOB u starom Konaku manastira, izričito PDF302."
   },
@@ -5648,8 +5514,9 @@
     "napomena": "8 km od Šekovića; posvećena borbi 6–9. decembra 1943.",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4334
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4334
     }
   },
   {
@@ -5704,7 +5571,6 @@
     "napomena": "Brigada formirana 2. avgusta 1942; nije godina obilježja.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "sekovici-spomenik-6-proleterskoj-istocnobosanskoj"
     },
     "razlogObrade": "Lovničko polje kraj Šekovića, isto obeležje formiranju Šeste proleterske istočnobosanske brigade."
@@ -5721,8 +5587,9 @@
     "napomena": "9 km od Šekovića; mesto formiranja divizije 20. septembra 1943.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 3383
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 3383
     },
     "razlogObrade": "Krsta je adresa Krsta Hill u radnom3430, naselje Brajinci; ista Birčanska pionirska divizija i mjesto formiranja."
   },
@@ -5743,8 +5610,8 @@
     ],
     "izbor": "upareno",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 1340
+      "cilj": "kalenderi-spomen-ploca-konferenciji-koju-je-odrzao",
+      "ciljNepouzdan": true
     },
     "razlogObrade": "Drvar, isti kompleks Muzeja 25. maj, sa ratnim objektima."
   },
@@ -5761,8 +5628,8 @@
     "napomena": "Desno od ulaza u park Spomen-muzeja 25. maj 1944; izvor daje samo inicijal autora.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 1344
+      "cilj": "vrbanjci-spomen-ploca-partizanskom-napadu-1943-god",
+      "ciljNepouzdan": true
     },
     "razlogObrade": "Drvar, zasebna skulptura sloma desanta u muzejskom parku; A. Kučukalić odgovara Aliji Kučukaliću."
   },
@@ -5815,7 +5682,6 @@
     "napomena": "Pod Gradinom; baraka, galerija i označena staza povlačenja. Deo memorijala 25. maj 1944.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "tito-s-cave-museum-at-drvar"
     },
     "razlogObrade": "Drvar, ista Titova pećina pod Gradinom sa barakom."
@@ -5834,7 +5700,6 @@
     "napomena": "1.274 imena palih boraca i 777 žrtava fašističkog terora.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "drvar"
     },
     "razlogObrade": "Drvar, Šobića glavica, isti monumentalni Kockovićev spomenik NOB-u, 1967."
@@ -6109,8 +5974,7 @@
     "adresa": "Centar grada",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2778
+      "cilj": "drvar-spomen-dom-sdb"
     }
   },
   {
@@ -6147,7 +6011,6 @@
     ],
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kadinjaca"
     },
     "razlogObrade": "Kadinjača, novi kompleks Miodraga Živkovića; knjiga razdvaja novu celinu 1979. od piramide 1952. Postojeća kombinacija autora i godine ostavljena za pregled."
@@ -6176,8 +6039,7 @@
     "napomena": "Na bojištu pored puta.",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2779
+      "cilj": "kadinjaca-spomen-cesma-palim-borcima"
     }
   },
   {
@@ -6194,7 +6056,6 @@
     "adresa": "Trg partizana",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "uzice-spomenik-josipu-brozu-titu"
     },
     "razlogObrade": "Užice, ista Titova skulptura Frana Kršinića, izvor navodi Trg partizana u 1986."
@@ -6213,8 +6074,7 @@
     "adresa": "Narodno pozorište, Trg partizana",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2780
+      "cilj": "uzice-mozaik-spomenica-1941"
     }
   },
   {
@@ -6235,7 +6095,6 @@
     ],
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "uzice-national-museum"
     },
     "razlogObrade": "Užice, Muzej ustanka 1941 u istorijskim zgradama i trezorima Narodnog muzeja; deo istog muzeja, bez novog geografskog unosa."
@@ -6267,11 +6126,11 @@
     "napomena": "Ispred ulaza Muzeja ustanka 1941.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4338
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4338
     },
     "uparivanje": {
-      "skup": "spomeniks",
       "cilj": "uzice-spomenik-poginulima-u-fabrici-oruzja"
     },
     "razlogObrade": "Spomenik Borisa Anastasijevića ispred muzeja; OSM 6813081968 i fotografija galerije potvrđuju zasebno delo iz 1961."
@@ -6288,7 +6147,6 @@
     "napomena": "176 upisanih imena, ostaci 54 nepoznata borca i pet narodnih heroja.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "uzice-dovarje"
     },
     "razlogObrade": "Isto partizansko spomen-groblje Dovarje u Užicu."
@@ -6306,7 +6164,6 @@
     "napomena": "Na padinama Dovarja, mesto spaljivanja tela Dušana Jerkovića i Vukole Dabića krajem 1941.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "uzice-spomenik-lomaca"
     },
     "razlogObrade": "Lokacija potvrđena 2026-10-16: Kuća cveća i Lomača na tačno imenovanim OSM objektima; detalji i izvori provere u beleškama."
@@ -6327,7 +6184,6 @@
     ],
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "vis-memorijalni-muzej-batarija"
     },
     "razlogObrade": "Zvanična istorija muzeja potvrđuje da je na Gospinoj Batariji 1964. osnovan Memorijalni muzej Vrhovnog štaba i NKOJ-a, kao deo Muzeja revolucije naroda Hrvatske. Današnji Zavičajni muzej Grada Visa radi na istoj adresi i obnavlja predmete bivše memorijalne zbirke; tačka je u okviru utvrđene Gospine Batarije."
@@ -6345,7 +6201,6 @@
     "adresa": "Viška luka",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "vis-island"
     },
     "razlogObrade": "Vis, isti spomenik Tuđe nećemo svoje ne damo u luci."
@@ -6362,7 +6217,6 @@
     "adresa": "Brdo Hum, iznad sela Borovik",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "tito-s-cave-at-vis"
     },
     "razlogObrade": "Titova pećina na brdu Hum iznad Borovika je jedinstvena Titova špilja na Visu, postojeći zapis koristi ime same špilje kao mesto."
@@ -6380,8 +6234,7 @@
     "napomena": "Mesto Titovog iskrcavanja na ostrvo 7. juna 1944.",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2781
+      "cilj": "komiza-spomenik-zajednistva"
     }
   },
   {
@@ -6537,7 +6390,6 @@
     ],
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "vukovar"
     },
     "razlogObrade": "Vukovar, park Dudik; isti autor Bogdan Bogdanović i godina 1980."
@@ -6572,7 +6424,6 @@
     ],
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "sarengrad"
     },
     "razlogObrade": "Šarengrad, isto partizansko spomen-groblje boraca Sremskog fronta."
@@ -6589,7 +6440,6 @@
     "napomena": "Sahranjena 1.044 borca Crvene armije.",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "ilok-spomen-grobnica-boraca-crvene-armije"
     },
     "razlogObrade": "Ilok, ista spomen-kosturnica / grobnica boraca Crvene armije."
@@ -6606,8 +6456,7 @@
     "napomena": "Sahranjeno 1.027 boraca Bugarske armije.",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2782
+      "cilj": "vukovar-spomen-kosturnica-boraca-bugarske-armije"
     }
   },
   {
@@ -6640,8 +6489,7 @@
     ],
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2783
+      "cilj": "vukovar-spomen-muzej-drugog-kongresa-kpj"
     }
   },
   {
@@ -6669,7 +6517,6 @@
     "autor": "Đuka Kavurić",
     "adresa": "Mirogoj",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "mirogoj-cemetery-tomb-people-s"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Grobnica narodnih heroja ↔ Grobnica narodnih heroja u Zagrebu."
@@ -6700,8 +6547,9 @@
     "izbor": "upareno",
     "adresa": "Mirogoj, uz grobnice boraca oslobođenja Zagreba",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4242
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4242
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Nadgrobni spomenik palim borcima brigade „Italia“ ↔ Grobnica boraca „Brigata Italia“."
   },
@@ -6719,8 +6567,9 @@
     "adresa": "Mirogoj",
     "napomena": "U knjizi autor naveden kao Stevo Luketić.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4243
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4243
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik djeci Kozare ↔ Spomenik kozaračkoj djeci."
   },
@@ -6737,8 +6586,9 @@
     "autor": "Antun Augustinčić",
     "adresa": "Mirogoj",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4244
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4244
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik ubijenim Židovima ↔ Spomenik Židovima - žrtvama logora Jasenovac."
   },
@@ -6755,7 +6605,6 @@
     "adresa": "U blizini Maksimira",
     "napomena": "Knjiga razlikuje projektante parka Josipa Seissela i dr Antu Martinovića Uzelca (tako u OCR-u) od autora skulpture Vojina Bakića; ne pripisivati sve objekte parka jednom autoru.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "zagreb-spomen-park-dotrscina"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-groblje i Park revolucije Dotrščina ↔ Spomen-park Dotrščina."
@@ -6772,7 +6621,6 @@
     "izbor": "upareno",
     "adresa": "Šuma Stupnički lug",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "rakov-potok"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-groblje ↔ Spomen-park Rakov Potok."
@@ -6791,7 +6639,6 @@
     "adresa": "Ulica 8. maja 1945. (istorijski naziv ulice)",
     "napomena": "Reljef posvećen žrtvama fašizma.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "zagreb-executed-hostages"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Strijeljanje talaca ↔ Strijeljanje talaca."
@@ -6810,7 +6657,6 @@
     "adresa": "Park na uglu Selske ceste i Zagorske ulice",
     "napomena": "Nastavak opisa na štampanoj strani 342; obeležava 75 palih članova društva Ciglenica.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "park-of-the-righteous"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik palim borcima Ciglenice ↔ Spomenik palim borcima iz Ciglenice."
@@ -6828,7 +6674,6 @@
     "adresa": "Ispred tvornice Rade Končar, raniji Siemens",
     "napomena": "Životne godine 1911–1942 nisu godina spomenika.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "zagreb-koncar"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik Radi Končaru ↔ Rade Končar."
@@ -6846,7 +6691,6 @@
     "autor": "Stjepan Gračan",
     "adresa": "Tuškanac",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "zagreb-vladimir-nazor"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik Vladimiru Nazoru ↔ Bista Vladimira Nazora."
@@ -6864,7 +6708,6 @@
     "autor": "Vojin Bakić",
     "adresa": "Park Ribnjak",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "zagreb-ribnjak-ivan-goran-kovacic"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik Ivanu Goranu Kovačiću ↔ Spomenik Ivanu Goranu Kovačiću."
@@ -6896,8 +6739,9 @@
     "adresa": "Pantovčak 178a",
     "napomena": "Konferencija održana 25/26. II 1928; nije godina muzeja.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4235
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4235
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Memorijalni muzej Osme konferencije zagrebačke organizacije KPJ ↔ Muzej VIII. konferencije zagrebačkih komunista."
   },
@@ -6914,8 +6758,7 @@
     "adresa": "Ulica Prosinačkih žrtava 205 (istorijska adresa)",
     "napomena": "Konferencija održana 25. VIII 1940; u kući ratna veza, odatle Nazor i Kovačić otišli u partizane 1942.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2784
+      "cilj": "zagreb-memorijalni-muzej-prve-konferencije-kp-hrva"
     }
   },
   {
@@ -6930,8 +6773,9 @@
     "izbor": "upareno",
     "adresa": "Ulica Pete zemaljske konferencije KPJ 20 (istorijska adresa)",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4236
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4236
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Memorijalni muzej Pete zemaljske konferencije KPJ ↔ Muzej V. zemaljske konferencije."
   },
@@ -6949,7 +6793,6 @@
     "godina": "1963",
     "napomena": "Otkriven 13. VII 1963; Bon arhitekta, Stanković autor unutrašnjeg reljefa.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "zabljak"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik palim borcima i žrtvama fašističkog terora durmitorskog kraja ↔ Spomenik borcima NOB-a."
@@ -6979,8 +6822,9 @@
     "izbor": "bez-lokacije",
     "adresa": "Obala Crnog jezera, kod Titove pećine",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4344
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4344
     }
   },
   {
@@ -7058,8 +6902,7 @@
     "izbor": "bez-lokacije",
     "napomena": "Obnovljena u autentičnom izgledu 1978; to nije godina prvobitne gradnje.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2785
+      "cilj": "crna-gora-zabljak-rodna-kuca-radoja-dakica"
     }
   },
   {
@@ -7100,8 +6943,9 @@
     "izbor": "bez-lokacije",
     "adresa": "Crno jezero",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4346
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4346
     }
   },
   {
@@ -7129,8 +6973,9 @@
     "izbor": "bez-lokacije",
     "adresa": "Kod mosta na Tari",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4347
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4347
     }
   },
   {
@@ -7145,7 +6990,6 @@
     "izbor": "upareno",
     "autor": "Vojislav Vujisić",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "andrijevica"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik palim borcima i žrtvama fašističkog terora ↔ Spomenik NOB-u u parku Knjaževac."
@@ -7164,7 +7008,6 @@
     "godina": "1961",
     "adresa": "Šehitluci, brdo iznad grada",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "banja-luka"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik palim borcima Bosanske krajine ↔ Spomenik palim Krajišnicima u NOB-u."
@@ -7182,7 +7025,6 @@
     "adresa": "Kod Kaštela",
     "napomena": "Biste navedene zbirno, bez individualnih imena ili autora.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "banja-luka-biste-heroja"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-park sa bistama revolucionara i narodnih heroja ↔ Biste narodnih heroja (Boško Karalić, Osman Karabegović, Ranko Šipka, Đuro Pucar, Branko Popović, Josip Mažar Šoša, Rada Vranješević, Drago Mažar, Milančić Miljević)."
@@ -7198,7 +7040,6 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=375",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "banja-luka-cemetery"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Partizansko groblje sa spomenikom ↔ Partizansko spomen-groblje u Banjaluci."
@@ -7218,7 +7059,6 @@
     "adresa": "Izdignuti plato desne obale Dunava",
     "napomena": "Otkriven 9. XI 1947. Kripta i figure sastavni su delovi spomenika, ne dodatne tačke.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "batina"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik pobjede ↔ Spomenik Batinskoj bitci."
@@ -7236,7 +7076,6 @@
     "godina": "1979",
     "napomena": "Otvoren 4. VII 1979; zasebna zgrada doma u sklopu područja.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "batina-spomen-dom-batinske-bitke"
     },
     "razlogObrade": "Lokacija ovjerena 2026-10-16: imenovani OSM muzej i nezavisan savremeni izvor; Brestanica je postojeći rajhenburg-castle, ostali su novi zapisi na mapi."
@@ -7256,7 +7095,6 @@
     "autorIzvorno": "M. Berbakov",
     "napomena": "Sagrađena muzejska zgrada otvorena novembra 1981. Inicijal arhitekte nije proširen bez potvrde. Skulptura kameni cvijet opisana kao deo prostora muzeja.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "bezdan-muzej-batinske-bitke"
     },
     "razlogObrade": "Lokacija ovjerena 2026-10-16: imenovani OSM muzej i nezavisan savremeni izvor; Brestanica je postojeći rajhenburg-castle, ostali su novi zapisi na mapi."
@@ -7287,7 +7125,6 @@
     "izbor": "upareno",
     "napomena": "U mestu; knjiga odvojeno navodi i spomenik na raskrsnici.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "bolman"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik palim borcima Bolmanske bitke ↔ Spomenik palim borcima u Bolmanskoj bici."
@@ -7317,7 +7154,6 @@
     "izbor": "upareno",
     "adresa": "Srednjovekovni zamak",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "hostages-museum-park"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-muzej palim rodoljubima logora Begunje ↔ Muzej talcev."
@@ -7334,7 +7170,6 @@
     "izbor": "upareno",
     "adresa": "Dvorište zamka, bivšeg gestapovskog logora",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "begunje-grobisce-talcev"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Groblje ubijenih sa spomenikom ↔ Grobišče talcev."
@@ -7351,7 +7186,6 @@
     "izbor": "upareno",
     "napomena": "17. X 1944. datum formiranja divizije, nije godina spomenika.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "mitrasinci"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik Pedesetoj makedonskoj diviziji ↔ Споменик на 50. Македонска партизанска дивизија."
@@ -7368,7 +7202,6 @@
     "izbor": "upareno",
     "napomena": "1920–1942 su životne godine.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "bitola-stefan-naumov"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik Stivu Naumovu ↔ Споменик на Стефан Наумов."
@@ -7384,7 +7217,6 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=379",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "bitola-deported-jews"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik deportovanim Jevrejima ↔ Споменик на депортираните Евреи."
@@ -7401,8 +7233,9 @@
     "izbor": "bez-lokacije",
     "adresa": "Kuća u kojoj je živeo 1921–1925; 7 km od Bjelovara",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4348
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4348
     }
   },
   {
@@ -7418,7 +7251,6 @@
     "adresa": "Kuća Tomaša Godca",
     "napomena": "Spomen-soba sastanka CK KPJ je deo muzeja, nije zaseban objekat.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "bohinjska-bistrica-muzej-tomaza-godca"
     },
     "razlogObrade": "Lokacija potvrđena 2026-10-16 imenovanim OSM muzejom i nezavisnim opisom/adresom; prebačeno iz radnog spiska na mapu."
@@ -7435,8 +7267,9 @@
     "izbor": "bez-lokacije",
     "napomena": "Kuća boravka 28. XI – 20. XII 1942; nastavak opisa na PDF382.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4349
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4349
     }
   },
   {
@@ -7491,8 +7324,8 @@
     "autor": "Sreten Stojanović",
     "adresa": "Gradina",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 779
+      "cilj": "sarajevo-trg-oslobodjenja-spomen-ploca-radnickom-s-2",
+      "ciljNepouzdan": true
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Poziv na ustanak ↔ Spomenik „Poziv na ustanak“."
   },
@@ -7508,7 +7341,6 @@
     "izbor": "upareno",
     "adresa": "Bivši trapistički samostan nad levom obalom Save",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "rajhenburg-castle"
     },
     "razlogObrade": "Lokacija ovjerena 2026-10-16: imenovani OSM muzej i nezavisan savremeni izvor; Brestanica je postojeći rajhenburg-castle, ostali su novi zapisi na mapi."
@@ -7525,7 +7357,6 @@
     "izbor": "upareno",
     "autor": "Svetomir Arsić & Miodrag Pecić",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "brezovica-brezovice"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik šarplaninskim odredima ↔ Spomenik Šarplaninskom partizanskom odredu."
@@ -7542,8 +7373,8 @@
     "izbor": "bez-lokacije",
     "adresa": "Vila Gorica",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2845
+      "cilj": "zaton-spomen-kosturnica-na-jelovaci",
+      "ciljNepouzdan": true
     }
   },
   {
@@ -7560,7 +7391,6 @@
     "adresa": "Šlandrov trg",
     "napomena": "U knjizi Jaka Savinšek; u sklopu je grobnica narodnih heroja.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "gledaliski-square"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Rat i mir ↔ Spomenik vojni in miru."
@@ -7578,7 +7408,6 @@
     "autor": "Dušan Samec & Peter Černe",
     "adresa": "Dvorište zatvora Stari pisker",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "celje-spominski-relief-ustreljenim-talcem"
     },
     "razlogObrade": "Cilj potvrđen 2026-10-16: Podsreda i Celje novi na mapi; Selca je postojeći spomenik na Bukovškem polju (dolenja-vas). Koordinate i izvori provere u beleškama."
@@ -7596,7 +7425,6 @@
     "autor": "Milenko Stojanović",
     "adresa": "Pavlova gromada, severno od Vlasinskog jezera",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "bajinci"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik palim borcima 1941–1945 ↔ Spomenik Pavlova gramada.",
@@ -7617,7 +7445,6 @@
     "autor": "Bogdan Bogdanović",
     "adresa": "Spomen-park borbe i pobede, padine Jelice",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "cacak"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Mauzolej borbe i pobede ↔ Mauzolej borbe i pobede."
@@ -7633,8 +7460,7 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=387",
     "izbor": "upareno",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 659
+      "cilj": "cajnice-spomen-dom-druge-proleterske-brigade"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-dom Druge proleterske brigade ↔ Spomen-dom Druge proleterske brigade."
   },
@@ -7650,8 +7476,8 @@
     "izbor": "upareno",
     "adresa": "Selo Blizanci kod Čitluka, 21 km od Mostara",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 1193
+      "cilj": "jablanica-spomenik-palim-borcima",
+      "ciljNepouzdan": true
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Memorijalni muzej u rodnoj kući Ivana Krndelja ↔ Spomen-kuća Ivana Krndelja."
   },
@@ -7667,7 +7493,6 @@
     "izbor": "upareno",
     "autor": "Drago Đurović",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "danilovgrad"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik palim borcima ↔ Spomenik NOB-u."
@@ -7684,7 +7509,6 @@
     "izbor": "upareno",
     "autor": "Drago Đurović & Vojislav Đokić",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "jastreb"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik strijeljanim omladincima ↔ Strijeljanim omladincima."
@@ -7700,8 +7524,9 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=389",
     "izbor": "upareno",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 3905
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 3905
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-kuća lista „Oslobođenje“ ↔ Zgrada u kojoj je prvi put objavljen list „Oslobođenje“."
   },
@@ -7717,7 +7542,6 @@
     "izbor": "upareno",
     "autor": "Ostoja Gordanić",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "draginac"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik žrtvama njemačke kaznene ekspedicije ↔ Spomen-kosturnica.",
@@ -7738,8 +7562,8 @@
     "izbor": "upareno",
     "adresa": "Uz ruševine pravoslavne crkve",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2113
+      "cilj": "sanski-most-spomenik-5-500-zrtava-fasistickog-tero",
+      "ciljNepouzdan": true
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-groblje ↔ Groblje partizanskih boraca i žrtava fašističkog terora."
   },
@@ -7755,7 +7579,6 @@
     "izbor": "upareno",
     "autor": "Stojan Batič & Boris Kobe & Ive Šubic",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "drazgose"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik borbi Cankarevog bataljona ↔ Spomenik dražgoške bitke."
@@ -7773,7 +7596,6 @@
     "adresa": "Između Selca i Bukovice, 10 km od Škofje Loke",
     "napomena": "Natpis sadrži imena 19 talaca i 307 palih; nije prepisan spisak imena.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "dolenja-vas"
     },
     "razlogObrade": "Cilj potvrđen 2026-10-16: Podsreda i Celje novi na mapi; Selca je postojeći spomenik na Bukovškem polju (dolenja-vas). Koordinate i izvori provere u beleškama."
@@ -7791,7 +7613,6 @@
     "autor": "Lojze Dolinar",
     "adresa": "Gradski park",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "djakovica-gjakova-brotherhood-unity"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik bratstva i jedinstva ↔ Spomenik bratstvu i jedinstvu.",
@@ -7838,7 +7659,6 @@
     "izbor": "upareno",
     "autor": "Jordan Grabuloski",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "gevgelija"
     },
     "razlogObrade": "Isto mesto i naziv Spomenik slobode; Jordan Grabul/Grabuloski isti autor naveden u postojećem zapisu."
@@ -7856,7 +7676,6 @@
     "autor": "Radomir Stojanović",
     "adresa": "Centar grada",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "gornji-milanovac-spomenik-borbe"
     }
   },
@@ -7915,7 +7734,6 @@
     "autor": "Aleksandar Đokić",
     "napomena": "U vreme knjige izgradnja je u toku; ne upisivati godinu otvaranja iz pretpostavke.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "the-norwegian-house"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Kuća jugoslovensko-norveškog prijateljstva ↔ Norveška kuća.",
@@ -7961,7 +7779,6 @@
     "izbor": "upareno",
     "autor": "Vanja Radauš",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "gospic"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik žrtvama Jadovna ↔ Spomenik koncentracijskom logoru Jadovno."
@@ -7979,7 +7796,6 @@
     "autor": "Dimo Todorovski",
     "napomena": "U knjizi Dimo Todoroski.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "trnica"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik palim borcima ↔ Масакр во Беличица."
@@ -7996,7 +7812,6 @@
     "izbor": "upareno",
     "autor": "Tome Serafimovski",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "leunovo-strelanje"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik palim borcima i žrtvama fašističkog terora ↔ Стрелање."
@@ -8013,7 +7828,6 @@
     "izbor": "upareno",
     "autor": "Tome Serafimovski",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "novo-selo"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik Partizanskom odredu Korab ↔ Споменик на Корапскиот партизански одред."
@@ -8032,7 +7846,6 @@
     "adresa": "Umac",
     "napomena": "Glavna skulptura Save Kovačevića; navedene i biste Luke Vujačića, Gojka Samardžića, Nikole Kovačevića i Ilije Milovanovića, kao sastavni delovi kompozicije.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "grahovo"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-park ustanka i revolucije ↔ Spomen-park Ustanka i Revolucije."
@@ -8049,8 +7862,7 @@
     "izbor": "bez-lokacije",
     "napomena": "Životne godine Nikole Kovačevića 1890–1964 nisu godina muzeja; nije precizirano da li je u Nudolu.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2787
+      "cilj": "grahovo-memorijalni-muzej-nikole-kovacevica"
     }
   },
   {
@@ -8065,7 +7877,6 @@
     "izbor": "upareno",
     "adresa": "Stara tvrđava na ostrvu Mamula, preko puta Herceg-Novog",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "mamula-island-prison"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-obilježje zatočenicima ↔ Tvrđava Mamula."
@@ -8094,7 +7905,6 @@
     "izbor": "upareno",
     "napomena": "Obeležje na mestu bolnice; 954 lečena partizana, a ne neobeležena bolnica.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "hudo-polje-spomenik-partizanski-bolnisnici-pavla"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-obilježje Partizanskoj bolnici Pavla ↔ Spomenik partizanski bolnišnici Pavla."
@@ -8112,7 +7922,6 @@
     "adresa": "12 km od Idrije",
     "napomena": "Autentičan spomen-muzej u barakama štamparije, a ne neobeležena tehnika.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "vojsko-partizanska-tiskarna-slovenija"
     },
     "razlogObrade": "Lokacija potvrđena 2026-10-16 imenovanim OSM muzejom i nezavisnim opisom/adresom; prebačeno iz radnog spiska na mapu."
@@ -8130,7 +7939,6 @@
     "autor": "Sreten Stojanović",
     "adresa": "Iriški venac, Fruška gora",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "iriski-venac"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik borbi Vojvođana u oslobodilačkom ratu i socijalističkoj revoluciji ↔ Spomenik Sloboda."
@@ -8149,7 +7957,6 @@
     "adresa": "Jasikovac",
     "napomena": "U knjizi grad Ivangrad.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "berane"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik palim za slobodu ↔ Spomenik slobode."
@@ -8179,8 +7986,9 @@
     "izbor": "bez-lokacije",
     "adresa": "Kod dvorca, bivšeg logora",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4353
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4353
     }
   },
   {
@@ -8197,7 +8005,6 @@
     "adresa": "Raskrsnica Slavonska Požega–Pakrac–Voćin",
     "napomena": "Knjiga opisuje stanje 1986; ne tretirati kao dokaz današnjeg postojanja.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kamenska"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik pobjedi revolucije naroda Slavonije ↔ Spomenik pobjedi naroda Slavonije."
@@ -8227,7 +8034,6 @@
     "izbor": "upareno",
     "autor": "Petar Palavičini",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kavadarci-revolution"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik slobode ↔ Споменик на Револуцијата."
@@ -8245,7 +8051,6 @@
     "autor": "Petar Miličkoski",
     "napomena": "Knjiga navodi 270 palih; nominativ prezimena proveriti prema skenu pre upisa.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kavadarci-ossuary-fallen-fighters"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-kosturnica ↔ Спомен-костурница."
@@ -8263,7 +8068,6 @@
     "autor": "Jordan Grabuloski",
     "adresa": "Park mladosti",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "vatasa-spomenik-na-strelanite-mladinci"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik strijeljanim omladincima ↔ Споменик на стреланите ваташки младинци."
@@ -8280,7 +8084,6 @@
     "izbor": "upareno",
     "autor": "Jordan Grabuloski",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kicevo-ossuary"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-kosturnica ↔ Спомен-костурница во Кичево."
@@ -8297,7 +8100,6 @@
     "izbor": "upareno",
     "autor": "Rudolf Matutinović",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "simic-s-farm"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik Kikindskom partizanskom odredu ↔ Spomenik Kikindskom partizanskom odredu."
@@ -8316,7 +8118,6 @@
     "adresa": "Gradski park",
     "napomena": "Obuhvata ratove 1804, 1912–1918 i 1941–1945.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "knjazevac"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik palim u oslobodilačkim ratovima ↔ Spomen-park palim borcima u oslobodilačkim ratovima 1804–1945."
@@ -8334,7 +8135,6 @@
     "autor": "Vojin Stojić & Gradimir Medaković",
     "adresa": "Vrh planine Kosmaj",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kosmaj"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik Kosmajskom partizanskom odredu ↔ Spomenik Kosmajskom partizanskom odredu."
@@ -8353,7 +8153,6 @@
     "adresa": "Brdo Bagdala",
     "napomena": "Humke, kapija, kamene ptice i vatre su opisani kao delovi celine.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "krusevac"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-park Slobodište ↔ Spomen-park Slobodište."
@@ -8371,8 +8170,8 @@
     "adresa": "Manastirski konak Prohora Pčinjskog",
     "napomena": "U knjizi svrstan pod Kumanovo; fizički je u Srbiji. Datumi 1944. pripadaju zasedanju, a ne muzeju.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2848
+      "cilj": "tajcari-spomenik-prvom-zboru-za-odlazak-u-partizan",
+      "ciljNepouzdan": true
     }
   },
   {
@@ -8387,7 +8186,6 @@
     "izbor": "upareno",
     "autor": "Kosta Angeli Radovani",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kumanovo-revolution"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik revoluciji ↔ Споменик на Револуцијата."
@@ -8404,7 +8202,6 @@
     "izbor": "upareno",
     "autor": "Sreten Stojanović",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kumanovo-ossuary"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-kosturnica ↔ Спомен-костурница."
@@ -8434,7 +8231,6 @@
     "izbor": "upareno",
     "autor": "Bogdan Bogdanović",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "leskovac"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik palim 1941–1945 ↔ Spomen-park Revolucije."
@@ -8504,7 +8300,6 @@
     "autor": "Boris Kobe",
     "adresa": "Jugoslovensko-austrijska granica, 9 km od Tržiča",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "podljubelj"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik na mjestu koncentracionog logora Ljubelj ↔ Spomenik NOB."
@@ -8522,7 +8317,6 @@
     "adresa": "Rodna kuća pesnika",
     "napomena": "Opis u poglavlju Matić Poljana; Lukovdol je kod Vrbovskog, zaseban lokalitet.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "lukovdol-memorijalni-muzej-ivana-gorana-kovacica"
     },
     "razlogObrade": "Lokacija potvrđena 2026-10-16 imenovanim OSM muzejom i nezavisnim opisom/adresom; prebačeno iz radnog spiska na mapu."
@@ -8539,7 +8333,6 @@
     "izbor": "upareno",
     "autor": "Vojin Bakić",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "lukovdol"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik Ivanu Goranu Kovačiću ↔ Spomenik Ivanu Goranu Kovačiću."
@@ -8557,7 +8350,6 @@
     "autor": "Slavko Tihec",
     "adresa": "Trg slobode",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "maribor-maribor-liberation"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik narodnooslobodilačkoj borbi ↔ Spomenik narodnoosvobodilnega boja."
@@ -8575,7 +8367,6 @@
     "autorIzvorno": "Z. Sila",
     "napomena": "26 kamenih stubova obeležava 26 smrznutih boraca; materijalni spomenik, a ne neobeležena staza.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "matic-poljana"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Historijska staza ↔ Spomenik 26 smrznutih partizana."
@@ -8591,7 +8382,6 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=407",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "national-liberation-museum"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Muzej narodne osvoboditve ↔ Muzej narodne osvoboditve Maribor."
@@ -8624,8 +8414,9 @@
     "autorIzvorno": "R. Stojanović & M. Mitrović",
     "napomena": "Autori sa inicijalima, ne proširivati bez provere punog teksta/skana.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4355
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4355
     }
   },
   {
@@ -8640,7 +8431,6 @@
     "izbor": "upareno",
     "napomena": "Sjećanje na 156 palih boraca.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "negotino-ossuary-fallen-fighters"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-kosturnica ↔ Костурница."
@@ -8660,7 +8450,6 @@
     "dodatniIzvor": "https://ucg.ac.me/skladiste/blog_1277/objava_153302/fajlovi/Miodrag%20%C4%86etkovi%C4%87-KULTURNO%20NASLE%C4%90E%20NIK%C5%A0I%C4%86A.pdf",
     "napomena": "Postojeći niksic-aerodrom ima fotografiju pet betonskih stubova sa spojenim vrhovima; dodatni univerzitetski izvor potvrđuje Kapino polje i Slobodana Vukajlovića. Godina 1969/1971 je neusaglašena, postojeća godina nije menjana.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "niksic-aerodrom"
     },
     "razlogObrade": "Fotografija postojećeg spomenika odgovara pet stubova opisanih u univerzitetskoj monografiji o Kapinom polju; nije spomenik na Trebjesi.",
@@ -8694,7 +8483,6 @@
     "autor": "Sava Strezovski",
     "napomena": "Kod Ohrida; izričito spomenik bolnici, a ne sama bolnica.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "slatino"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik partizanskoj bolnici ↔ Споменик на партизанската болница.",
@@ -8715,7 +8503,6 @@
     "autorIzvorno": "M. Vuca i S. Gračana (izvorni genitiv)",
     "napomena": "Sa spomen-parkom; inicijal ne proširivati automatski. Ne dokazuje današnje postojanje.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "opuzen"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik Stjepanu Filipoviću ↔ Spomenik Stjepanu Filipoviću."
@@ -8732,7 +8519,6 @@
     "izbor": "upareno",
     "napomena": "2. VIII 1943 je datum savetovanja, ne spomenika.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "otesevo"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik Prespanskom savjetovanju ↔ Преспанско советување."
@@ -8750,7 +8536,6 @@
     "autor": "Nebojša Delja",
     "adresa": "Između Pančeva i Jabuke, rit između puta i Tamiša",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "jabuka"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik na Stratištu ↔ Spomen-kompleks Stratište.",
@@ -8783,8 +8568,7 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=410",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2788
+      "cilj": "zvecevo-spomen-dom-trece-operativne-zone-slavonije"
     }
   },
   {
@@ -8838,8 +8622,7 @@
     "izbor": "bez-lokacije",
     "napomena": "U OCR-u Javomica; proveriti naziv pre konačnog upisa.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2789
+      "cilj": "javornica-dreznica-spomen-obiljezje-vojno-partizan"
     }
   },
   {
@@ -8894,7 +8677,6 @@
     "adresa": "Karagač",
     "napomena": "Puno prezime/inicijal arhitekte proveriti u celom tekstu; ne pripisivati bez provere.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "peje-pec"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik revolucije ↔ Spomenik revoluciji."
@@ -8911,8 +8693,7 @@
     "izbor": "bez-lokacije",
     "adresa": "Kuća narodnog heroja Miladina Popovića",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2790
+      "cilj": "pec-muzej-narodnooslobodilacke-borbe"
     }
   },
   {
@@ -8928,7 +8709,6 @@
     "autor": "Radoslav Miketić",
     "adresa": "6 km od Peći",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "vitomirica"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-obelisk ↔ Spomenik palim borcima.",
@@ -8948,7 +8728,6 @@
     "izbor": "upareno",
     "napomena": "U centralnoj zoni nacionalnog parka; Muzej Šeste divizije i eksponati su delovi doma.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "plitvice-lakes"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-dom Šeste ličke proleterske divizije „Nikola Tesla“ ↔ Spomen-dom 6. ličke proleterske divizije."
@@ -8978,7 +8757,6 @@
     "autor": "Luka Tomanović & Aleksandar Prijić",
     "napomena": "Tomanović vajar, Prijić slikar.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "dola"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-kosturnica ↔ Spomen-kompleks Dola.",
@@ -9000,7 +8778,6 @@
     "autor": "Drago Đurović & Vojislav Đokić",
     "adresa": "Stražica",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "pljevlja-fallen-fighters"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik palim borcima ↔ Spomenik palim borcima Pljevaljske bitke."
@@ -9017,7 +8794,6 @@
     "izbor": "upareno",
     "autor": "Dušan Džamonja",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "podgaric"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik revolucije naroda Moslavine ↔ Spomenik revolucije naroda Moslavine."
@@ -9048,7 +8824,6 @@
     "izbor": "upareno",
     "autor": "Slavko Tihec",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "osankarica"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik Pohorskom bataljonu ↔ Taborišče Pohorskega bataljona."
@@ -9065,7 +8840,6 @@
     "izbor": "upareno",
     "napomena": "Spomen-izložba o pogibiji bataljona u domu; zasebna zgrada od lokaliteta spomenika.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "pohorje-battalion-museum"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Dom Pohorskog bataljona ↔ Koča na Osankarici."
@@ -9082,7 +8856,6 @@
     "izbor": "upareno",
     "adresa": "Pokljuka, temelji spaljenog hotela Šport",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "goreljek"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik borcima Trećeg bataljona Prešernove brigade ↔ Tretji bataljon Prešernove brigade."
@@ -9112,7 +8885,6 @@
     "izbor": "upareno",
     "adresa": "Putno raskršće zapadno od Prevalja; u knjizi Poljana pri Mežici",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "poljana-freedom-peace"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik posljednjoj bici za oslobođenje ↔ Spomenik svobodi in miru."
@@ -9130,7 +8902,6 @@
     "autor": "Bogdan Bogdanović",
     "adresa": "10 km od Trstenika",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "popina"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-park Popina ↔ Spomen-park Popina."
@@ -9149,7 +8920,6 @@
     "adresa": "Brdo Čačalica",
     "napomena": "Obuhvata grobnice rodoljuba i kosturnicu 441 crvenoarmejca; ne spajati sa kasnijim spomenikom Plava ptica.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "pozarevac-spomen-park-cacalica"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Memorijalni kompleks i spomen-grobnica Čačalica ↔ Spomen-park Čačalica."
@@ -9166,7 +8936,6 @@
     "izbor": "upareno",
     "autorIzvorno": "S. Bićić",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "prokuplje"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik palim borcima u NOB ↔ Spomenik palim borcima."
@@ -9184,8 +8953,7 @@
     "adresa": "Hisar",
     "napomena": "Ploča sa 144 imena; ne poistovećivati sa spomenikom 130 Prokupčana.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2791
+      "cilj": "prokuplje-zajednicka-grobnica-palih-boraca"
     }
   },
   {
@@ -9200,7 +8968,6 @@
     "izbor": "upareno",
     "adresa": "Tvrđava Kaštel",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "pula-povijesni-i-pomorski-muzej-istre"
     },
     "razlogObrade": "Lokacija potvrđena na Kaštelu: Muzej revolucije osnovan 1955. i kasnije nazvan Muzej narodne revolucije Istre ista je ustanova čiji je naslednik današnji Povijesni i pomorski muzej Istre; zvanična adresa Gradinski uspon 6, imenovana OSM tačka."
@@ -9217,7 +8984,6 @@
     "izbor": "upareno",
     "napomena": "Spomenik i uređeno groblje u sklopu logora Kampor; ratni datum logora nije godina memorijala.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "kampor-rab-island"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-groblje žrtava logora ↔ Spomenik koncentracijskom logoru Rab."
@@ -9234,8 +9000,9 @@
     "izbor": "bez-lokacije",
     "napomena": "Izvor u ovom pasusu ima očigledan poremećaj redosleda rečenica; ne prepisivati nedovršene delove kao činjenice.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4361
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4361
     }
   },
   {
@@ -9264,7 +9031,6 @@
     "izbor": "upareno",
     "napomena": "Deset bista: Slaviša Vajner, Pavle Goranin, Danilo Đokić, Vitomir Milanko, Jovo Janković, Milan Šarac, Marko Ečimović, Mihajlo Bjelaković, Pero Kosorić, Grujo Novaković. Autori/godine pojedinačnih bista nisu navedeni.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "sokolac-park-boraca-romanije"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Park heroja ↔ Park narodnih heroja."
@@ -9280,8 +9046,7 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=423",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2792
+      "cilj": "slavonski-brod-brodski-varos-rodna-kuca-djure-djak"
     }
   },
   {
@@ -9296,7 +9061,6 @@
     "izbor": "upareno",
     "adresa": "Glavni trg",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "slovenj-gradec-muzej"
     },
     "razlogObrade": "Muzej NOB osnovan 1951. preselio je sa Trga svobode 4 u zgradu na Glavnem trgu, gde je i sadašnji Muzej Slovenj Gradec; naziv Muzej ljudske revolucije koristio se od 1959. Zvanična stranica muzeja potvrđuje adresu Glavni trg 24, a kulturna baština potvrđuje tu kuću i tačku."
@@ -9327,7 +9091,6 @@
     "izbor": "upareno",
     "autor": "Dušan Pecoski & Jordan Grabuloski",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "butel-cemetery-graveyard-fallen-fighters"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Memorijalni kompleks i partizansko groblje ↔ Меморијален комплекс Бутел."
@@ -9344,8 +9107,7 @@
     "izbor": "bez-lokacije",
     "adresa": "Ulica Ivana Lučića Lavčevića 15; zgrada bivše Gradske bolnice",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2793
+      "cilj": "split-muzej-narodne-revolucije"
     }
   },
   {
@@ -9359,8 +9121,7 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=427",
     "izbor": "bez-lokacije",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2794
+      "cilj": "split-spomen-kosturnica"
     }
   },
   {
@@ -9374,7 +9135,6 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=427",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "split-fallen-split-harbor"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik palim lučkim radnicima ↔ Spomenik palim lučkim i obalnim radnicima Splita."
@@ -9402,7 +9162,6 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=427",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "split-prisoners-internees"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik političkim zatvorenicima, internircima i deportircima ↔ Spomenik političkim zatvorenicima, interniranima i deportiranima."
@@ -9419,7 +9178,6 @@
     "izbor": "upareno",
     "napomena": "Visok 54 m; nije godina podizanja.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "split-lighthouse"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-svjetionik ↔ Spomenik palim pomorcima."
@@ -9462,7 +9220,6 @@
     "izbor": "upareno",
     "autor": "Vanja Radauš",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "srb-croatian-people-s"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Ustanak ↔ Spomenik ustanku naroda Hrvatske."
@@ -9479,8 +9236,9 @@
     "izbor": "bez-lokacije",
     "napomena": "Muzej i prostor za društvene aktivnosti; ne pripisivati Vanju Radauša zgradi.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4366
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4366
     }
   },
   {
@@ -9496,7 +9254,6 @@
     "autor": "Bogdan Bogdanović",
     "adresa": "Nekadašnje pravoslavno groblje",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "sremska-mitrovitca"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-groblje ↔ Spomen-groblje."
@@ -9513,7 +9270,6 @@
     "izbor": "upareno",
     "autor": "Nandor Glid",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "subotica-courthouse"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Balada o vešanima ↔ Balada obešenih."
@@ -9544,7 +9300,6 @@
     "adresa": "Čavića brdo, 615 m",
     "napomena": "Biste Tita, Vasilija Gaćeše i Vlade Janića Cape deo su muzejske postavke, nisu samostalne spoljne tačke.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "cavic-hill"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-dom Bratstvo-jedinstvo ↔ Spomen-dom Šamarica."
@@ -9562,7 +9317,6 @@
     "autor": "Zdenko Kolacio",
     "napomena": "Polukružna kompozicija na mestu prve zakletve boraca 28. IX 1941; nije godina izrade.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "zrinska-gora"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Zakletva ↔ Spomenik partizanskom logoru Gaćešin."
@@ -9593,7 +9347,6 @@
     "autorIzvorno": "K. A. Radovani & Z. Kolacio",
     "adresa": "Šubićevac",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "sibenik-spomen-park-subicevac"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Park strijeljanih ↔ Spomen-park Šubićevac."
@@ -9611,7 +9364,6 @@
     "adresa": "104. km puta Beograd–Zagreb, kod mosta na Bosutu",
     "napomena": "Radovi počeli aprila 1985. U izvoru još u izgradnji; ne koristiti 1985 kao godinu završenog memorijala.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "adasevci"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-park Sremskom frontu ↔ Spomen-obeležje Sremski front."
@@ -9628,7 +9380,6 @@
     "izbor": "upareno",
     "napomena": "Posvećena 814 palih boraca i žrtava terora.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "stip-partisan-s-necropolis"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-kosturnica ↔ Меморијален комплекс на паднатите борци на Револуцијата."
@@ -9646,7 +9397,6 @@
     "adresa": "Pašnik ispod Šmartne gore, Ljubljana–Šiška",
     "autor": "Jože Valentinčič & Franc Čizman",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "ljubljana-spomenik-vstaje-proti-okupatorju"
     },
     "razlogObrade": "Cilj potvrđen 2026-10-16: Kragujevac i Veles novi na mapi; Cerkno i Tacen već postoje pod drugim nazivom mesta ili spomenika. Koordinate i izvori provere u beleškama."
@@ -9679,7 +9429,6 @@
     "adresa": "Brdo Gorica",
     "napomena": "U knjizi Titograd; otkriven 13. VII 1957. Prezime arhitekte proveriti zbog razlike Đokić/Đukić u drugim poglavljima.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "podgorica-mausoleum-partisans"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomen-mauzolej Partizanu borcu ↔ Partizanu borcu."
@@ -9697,7 +9446,6 @@
     "autor": "Bogdan Bogdanović",
     "adresa": "Partizansko brdo",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "mitrovica-mitrovice"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik revoluciji i spomen-grobnica ↔ Spomenik palim rudarima."
@@ -9725,7 +9473,6 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=435",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "veles-spomen-kukja-na-koco-racin"
     },
     "razlogObrade": "Cilj potvrđen 2026-10-16: Kragujevac i Veles novi na mapi; Cerkno i Tacen već postoje pod drugim nazivom mesta ili spomenika. Koordinate i izvori provere u beleškama."
@@ -9742,8 +9489,9 @@
     "izbor": "bez-lokacije",
     "napomena": "Kod Velesa; obeležava marš brigade 1944, ne daje godinu podizanja.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4367
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4367
     }
   },
   {
@@ -9772,7 +9520,6 @@
     "izbor": "upareno",
     "napomena": "Zgrada Trećeg zasedanja. Freska Zlatka Price i saradnika je umetnički rad u zgradi, ne autorstvo zgrade.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "topusko-3rd-session-zavnoh"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Dom ZAVNOH-a ↔ Muzej Trećeg zasjedanja ZAVNOH-a."
@@ -9790,7 +9537,6 @@
     "autor": "Vanja Radauš",
     "adresa": "Park",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "topusko-3rd-session-zavnoh-2"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik palim borcima i Trećem zasjedanju ZAVNOH-a ↔ Spomenik Trećem zasjedanju ZAVNOH-a.",
@@ -9811,7 +9557,6 @@
     "adresa": "Šuma Abez, nedaleko od Vrginmosta",
     "napomena": "Datum 19. VII 1941 je datum savetovanja; ne godina obeležja.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "abez-forest"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik savjetovanju u šumi Abez ↔ Spomenik ustanku naroda Banije i Korduna."
@@ -9827,7 +9572,6 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=437",
     "izbor": "upareno",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "museum-of-the-revolution"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Revirski muzej ljudske revolucije ↔ Zasavski muzej Trbovlje."
@@ -9844,7 +9588,6 @@
     "izbor": "upareno",
     "adresa": "Kod Radničkog doma u Kreki",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "tuzla-husino-miner-s"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik rudarima ↔ Spomenik Husinskom rudaru."
@@ -9873,7 +9616,6 @@
     "izbor": "upareno",
     "adresa": "Gradski trg",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "ferizaj-urosevac"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik bratstva i jedinstva ↔ Spomenik bratstvu i jedinstvu."
@@ -9892,8 +9634,7 @@
     "autorIzvorno": "Seoski majstori",
     "napomena": "Datum 27. IX 1942 se odnosi na formiranje odreda, ne na podizanje.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2796
+      "cilj": "ramljane-spomenik-odredu-zejnel-ajdini"
     }
   },
   {
@@ -9908,8 +9649,7 @@
     "izbor": "bez-lokacije",
     "adresa": "Crnoljevska klisura, 20 km od Uroševca prema Prizrenu",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4369
+      "cilj": "crnoljevo-spomen-cesma-2"
     }
   },
   {
@@ -9924,7 +9664,6 @@
     "izbor": "upareno",
     "autor": "Vojin Bakić",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "valjevo-stjepan-filipovic"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik Stjepanu Filipoviću ↔ Spomenik borcima revolucije."
@@ -9941,7 +9680,6 @@
     "izbor": "upareno",
     "autor": "Mirko Ostoja",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "virpazar"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik palim borcima ↔ Spomenik revolucije.",
@@ -9961,8 +9699,9 @@
     "izbor": "bez-lokacije",
     "adresa": "Rodna kuća dr Ivana Ribara",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4370
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4370
     }
   },
   {
@@ -9977,8 +9716,9 @@
     "izbor": "bez-lokacije",
     "napomena": "Muzej i monumentalni spomenik nisu isto; autor skulpture nije upisan zgradi muzeja.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4371
+      "cilj": null,
+      "ciljNepouzdan": true,
+      "ciljPreMigracije": 4371
     }
   },
   {
@@ -9994,7 +9734,6 @@
     "autor": "Drago Tršar",
     "napomena": "Na podnožju 765 imena; kosturnica sa ostacima narodnih heroja deo je kompleksa.",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "vukosavci"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik i spomen-kosturnica Prvog majevičkog partizanskog odreda ↔ Spomenik revoluciji."
@@ -10012,7 +9751,6 @@
     "autorIzvorno": "V. Veličković",
     "adresa": "Kraljevica",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "zajecar"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik na Kraljevici ↔ Spomenik Vešala."
@@ -10030,8 +9768,7 @@
     "adresa": "Groblje",
     "napomena": "Dve kripte obeležene zajedničkim spomenikom.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 2797
+      "cilj": "zajecar-spomenik-i-grobnice-boraca-novj-i-crvene-a"
     }
   },
   {
@@ -10060,7 +9797,6 @@
     "autor": "Jovan Soldatović",
     "adresa": "Pored puta Žabalj–Zrenjanin",
     "upareno": {
-      "skup": "spomeniks",
       "cilj": "zabalj"
     },
     "razlogObrade": "Mesto/lokalitet i prepoznatljivo obeležje: Spomenik palim borcima i žrtvama fašističkog terora ↔ Spomenik borbi naroda Šajkaške."

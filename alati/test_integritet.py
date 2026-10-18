@@ -78,16 +78,26 @@ class IntegritetTest(unittest.TestCase):
         self.assertIn('novi parovi manje od 30 m: 2', r.stdout)
 
     def test_veza_knjige(self):
-        stavka = {'naziv': 'Spomenik', 'mesto': 'Test', 'vrsta': 'spomen-obelezje', 'drzava': 'Serbia'}
-        dobre = [{'oznaka': 'A', 'uparivanje': {'skup': 'spomeniks', 'cilj': 'test'}},
-                 {'oznaka': 'B', 'uparivanje': {'skup': 'bez_lokacije', 'cilj': 0}}]
+        stavka = {'id': 'test-bez', 'naziv': 'Spomenik', 'mesto': 'Test', 'vrsta': 'spomen-obelezje', 'drzava': 'Serbia'}
+        dobre = [{'oznaka': 'A', 'uparivanje': {'cilj': 'test'}},
+                 {'oznaka': 'B', 'upareno': {'cilj': 'test-bez'}},
+                 {'oznaka': 'C', 'uparivanje': {'cilj': None, 'ciljNepouzdan': True}}]
         r = self.proveri([spomenik('test')], bez_lokacije=[stavka], knjiga=dobre)
         self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
-        for los in [{'skup': 'spomeniks', 'cilj': 'nema'}, {'skup': 'bez_lokacije', 'cilj': 1}]:
+        for polje, los in [('uparivanje', {'cilj': 'nema'}), ('upareno', {'cilj': 0}), ('uparivanje', {'cilj': None})]:
             with self.subTest(veza=los):
-                r = self.proveri([spomenik('test')], bez_lokacije=[stavka], knjiga=[{'oznaka': 'C', 'uparivanje': los}])
+                r = self.proveri([spomenik('test')], bez_lokacije=[stavka], knjiga=[{'oznaka': 'D', polje: los}])
                 self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
                 self.assertIn('knjiga: veza bez cilja', r.stdout)
+
+    def test_id_bez_lokacije(self):
+        stavka = {'naziv': 'Spomenik', 'mesto': 'Test', 'vrsta': 'spomen-obelezje', 'drzava': 'Serbia'}
+        for bez, poruka in [([stavka], 'bez lokacije: bez id'), ([{**stavka, 'id': 'test'}], 'bez lokacije: isti id'),
+                            ([{**stavka, 'id': 'x'}, {**stavka, 'id': 'x'}], 'bez lokacije: isti id')]:
+            with self.subTest(poruka=poruka, bez=bez):
+                r = self.proveri([spomenik('test')], bez_lokacije=bez)
+                self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
+                self.assertIn(poruka, r.stdout)
 
     def test_nekoriscena_slika(self):
         r = self.proveri([spomenik('test')], visak_slike=True)

@@ -45,7 +45,7 @@ Prvi alat menja slike u `slike/spomenici/` i `slike/bez-lokacije/` bez ponovnog 
 
 ### Veze radnih zapisa i knjiga
 
-Kad brišeš, spajaš ili prebacuješ stavke iz `data/bez_lokacije.json`, proveri `uparivanje` u svim `data/knjige/*.json` i aktivne `radniIndeks` pokazivače u `data/provere/`. Numeričke indekse pomeri tako da i dalje označavaju isti objekat; istorijske pokazivače poput `radniIndeksPre` sačuvaj. Ciljevi ka ID-jevima moraju i dalje postojati ili biti dokumentovano prevezani na postojeći unos.
+Svaka stavka u `data/bez_lokacije.json` ima trajan `id`, jedinstven zajedno sa ID-jevima mape, i zadržava ga kad pređe na mapu (`python -I alati/prebaci.py <ulaz.json>`). Veze iz knjiga (`uparivanje`, `upareno`: `{"cilj": id}`) i izveštaja (`radniId`) zato ne treba pomerati pri prebacivanju ni brisanju drugih stavki. Kad stavku brišeš ili spajaš sa drugom, preusmeri veze na preživeli ID. Veza koja se pri prelasku sa rednih brojeva nije mogla potvrditi nosi `ciljNepouzdan: true`; ne briši tu oznaku bez novog dokaza. Istorijska polja poput `radniIndeksPre` ostaju kakva jesu, a redni brojevi se više ne upisuju.
 
 Uporedi rezultat sa snimkom pre promene: broj dodatih i uklonjenih stavki, ID-jeve, koordinate, GoogleCID, izvore i stanja. Promene moraju odgovarati odobrenom obimu i izveštaju. Integritet i testovi aplikacije ne potvrđuju identitet ili današnji opstanak spomenika; za to proveri pojedinačni dokaz i njegov datum po [postupku žetve](../spomenici-zetva/references/lociranje-i-stanje.md).
 

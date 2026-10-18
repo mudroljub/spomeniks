@@ -153,8 +153,14 @@ greske['slika koju niko ne koristi'] = sorted(slike - koriscene)
 
 # spisak bez lokacije: obavezna polja i lokalne slike; starije stavke imaju samo ime fajla na Vikipediji
 bez = json.load(open('data/bez_lokacije.json', encoding='utf8'))
+# ID stavke bez lokacije je trajan i ostaje isti kad stavka pređe na mapu, pa mora biti jedinstven u oba spiska
+bez_ids = collections.Counter(s.get('id') for s in bez)
+for i, n in bez_ids.items():
+    if not i: greske['bez lokacije: bez id'].append(n)
+    elif n > 1 or i in ids: greske['bez lokacije: isti id'].append(i)
+svi_ids = set(ids) | set(bez_ids)
 for j, s in enumerate(bez):
-    oznaka = (j, s.get('naziv'), s.get('mesto'))
+    oznaka = (s.get('id'), s.get('naziv'), s.get('mesto'))
     if not s.get('naziv') or not s.get('mesto'): greske['bez lokacije: bez naziva ili mesta'].append(oznaka)
     if s.get('vrsta') not in VRSTE: greske['bez lokacije: nepoznata vrsta'].append((oznaka, s.get('vrsta')))
     if 'istaknut' in s and type(s['istaknut']) is not bool: greske['bez lokacije: neispravno istaknut'].append(oznaka)
@@ -166,25 +172,28 @@ for j, s in enumerate(bez):
     for kand in s.get('kandidati', []):
         if not isinstance(kand.get('lat'), (int, float)) or not isinstance(kand.get('lng'), (int, float)) or not kand.get('izvor'):
             greske['bez lokacije: los kandidat'].append(oznaka)
-# veze knjiga i radni pokazivaci izvestaja moraju ukazivati na postojecu stavku; redni broj u spisku
-# bez lokacije se menja pri svakom prebacivanju, pa ih treba pomeriti zajedno sa stavkom
-def cilj_postoji(skup, cilj):
-    return cilj in ids if skup == 'spomeniks' else isinstance(cilj, int) and 0 <= cilj < len(bez)
+# veze knjiga (cilj) i radni pokazivaci izvestaja (radniId) pokazuju na ID u bilo kom od dva spiska;
+# cilj koji se nije mogao potvrditi pri prelasku sa rednih brojeva nosi ciljNepouzdan i moze biti prazan
+def veza_u_redu(u):
+    return u.get('cilj') in svi_ids or (u.get('ciljNepouzdan') is True and u.get('cilj') is None)
 for put in sorted(f for f in os.listdir('data/knjige') if f.endswith('.json')):
     for z in json.load(open(f'data/knjige/{put}', encoding='utf8')):
-        u = z.get('uparivanje') if isinstance(z, dict) else None
-        if isinstance(u, dict) and not cilj_postoji(u.get('skup'), u.get('cilj')):
-            greske['knjiga: veza bez cilja'].append((put, z.get('oznaka'), u.get('skup'), u.get('cilj')))
+        for polje in ('uparivanje', 'upareno'):
+            u = z.get(polje) if isinstance(z, dict) else None
+            if isinstance(u, dict) and not veza_u_redu(u):
+                greske['knjiga: veza bez cilja'].append((put, z.get('oznaka'), u.get('cilj')))
 def pokazivaci(o):
     if isinstance(o, dict):
-        if 'radniIndeks' in o or 'prebacenoNaMapu' in o: yield o
+        if 'radniId' in o or 'radniIndeks' in o or 'prebacenoNaMapu' in o: yield o
         for v in o.values(): yield from pokazivaci(v)
     elif isinstance(o, list):
         for v in o: yield from pokazivaci(v)
 for put in sorted(f for f in os.listdir('data/provere') if f.endswith('.json')):
     for o in pokazivaci(json.load(open(f'data/provere/{put}', encoding='utf8'))):
-        if 'radniIndeks' in o and not cilj_postoji('bez_lokacije', o['radniIndeks']):
-            greske['izvestaj: radniIndeks van spiska'].append((put, o['radniIndeks']))
+        if 'radniIndeks' in o:
+            greske['izvestaj: redni broj umesto radniId'].append((put, o['radniIndeks']))
+        if 'radniId' in o and o['radniId'] not in svi_ids:
+            greske['izvestaj: radniId bez cilja'].append((put, o['radniId']))
         if 'prebacenoNaMapu' in o and o['prebacenoNaMapu'] not in ids:
             greske['izvestaj: prebaceno na nepostojeci id'].append((put, o['prebacenoNaMapu']))
 for k, v in greske.items():

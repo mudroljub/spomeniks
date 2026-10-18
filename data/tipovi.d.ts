@@ -97,10 +97,11 @@ export interface Kandidat extends Koordinate {
 }
 
 /** data/bez_lokacije.json: poznat spomenik koji još ne možemo da smestimo na mapu.
- * Ista polja kao Spomenik, bez id-a i koordinata, uz podatke koji pomažu da se spomenik pronađe.
+ * Ista polja kao Spomenik, bez koordinata, uz podatke koji pomažu da se spomenik pronađe. `id` je trajan i ostaje isti
+ * kad stavka pređe na mapu, pa ga koriste veze iz knjiga (`cilj`) i izveštaja (`radniId`).
  * `slika` je kopija u "slike/bez-lokacije/<ime>.webp" (400 px, uz `slikaPotpis` i `slikaOdnos`); pri prebacivanju u bazu prelazi u slike/spomenici/<id>.webp.
  * Izuzetak: u 54 starije stavke `slika` je ime fajla na Vikipediji, koji treba preuzeti. */
-export interface SpomenikBezLokacije extends Omit<Spomenik, 'id' | 'koordinate'> {
+export interface SpomenikBezLokacije extends Omit<Spomenik, 'koordinate'> {
   /** adresa ili opis položaja, na jeziku izvora */
   adresa?: string
   /** moguće, nepotvrđene lokacije */

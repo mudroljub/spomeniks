@@ -2,7 +2,7 @@
 
 Obavezno za svaki novi ili izmenjen spomenik.
 
-- **Redosled polja:** `id, koordinate{lat,lng}, priblizno, googleCid, mesto, izvor, wiki, wikiEn, clanak, slika, slikaOdnos, slikaPotpis, naziv, nazivEn, godina, autor, natpis, posveta, stanje, stanjeIzvor, vrsta, istaknut, drzava`. Prazna polja se izostavljaju.
+- **Redosled polja:** `id, koordinate{lat,lng}, priblizno, googleCid, mesto, izvor, wiki, wikiEn, clanak, slika, slikaOdnos, slikaPotpis, naziv, nazivEn, godina, autor, natpis, posveta, stanje, stanjeIzvor, vrsta, istaknut, drzava`. Prazna polja se izostavljaju. Stavka u `data/bez_lokacije.json` počinje istim trajnim `id`, napravljenim jednom iz mesta i naziva, i zadržava ga pri prelasku na mapu.
 - **Fajl:** UTF-8, CRLF, uvlačenje 2, `ensure_ascii=False`, sa CRLF na kraju. Upis uvek ovako:
   `open(P,'w',encoding='utf8',newline='').write(json.dumps(d,ensure_ascii=False,indent=2).replace('\n','\r\n')+'\r\n')`
 - **id:** mala ASCII slova, cifre i crtice, jedinstven, najviše oko 50 znakova (npr. `slug(mesto + naziv)`).
