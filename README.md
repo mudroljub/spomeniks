@@ -33,6 +33,7 @@ REFAKTOR
 
 OPTIMIZACIJA
 - od poslednje optimizacije količina podataka se više nego udvostručila. optimizovati sa stare mobilne uređaje sa sporim internetom (merenje: `alati/merenje.mjs`, [alati](docs/ALATI.md))
+- cilj je na svakom zumu prikazati približno sličan, najmanji mogući, broj ikona na ekranu
 
 MOBILNA APLIKACIJA
 - napraviti android aplikaciju nakon završetka obrade podataka ([plan](docs/ANDROID_APLIKACIJA.md))

@@ -140001,13 +140001,12 @@
   {
     "id": "beograd-skulptura-podignuta-1971",
     "koordinate": {
-      "lat": 44.81781,
-      "lng": 20.4569
+      "lat": 44.7420579,
+      "lng": 20.4404565
     },
-    "priblizno": true,
     "mesto": "Beograd",
     "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=14",
-    "naziv": "Skulptura podignuta",
+    "naziv": "Skulptura",
     "godina": "1971",
     "autor": "M. Četnik",
     "vrsta": "spomen-obelezje",
@@ -140496,10 +140495,9 @@
   {
     "id": "obrenovac-bista-vlade-aksentijevica",
     "koordinate": {
-      "lat": 44.65483,
-      "lng": 20.20143
+      "lat": 44.6544495,
+      "lng": 20.2012177
     },
-    "priblizno": true,
     "mesto": "Obrenovac",
     "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=21",
     "naziv": "Bista Vlade Aksentijevića",
@@ -140554,7 +140552,7 @@
     "priblizno": true,
     "mesto": "Draževac",
     "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=22",
-    "naziv": "Spomenik podignut u neposrednoj blizini mesta zločina",
+    "naziv": "Spomenik",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -140780,16 +140778,18 @@
   {
     "id": "slatina-spomenik",
     "koordinate": {
-      "lat": 44.50168,
-      "lng": 20.44758
+      "lat": 44.489795,
+      "lng": 20.443085
     },
-    "priblizno": true,
-    "mesto": "Slatina",
+    "mesto": "Slatina (Sopot)",
     "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=23",
-    "naziv": "Spomenik",
+    "slika": "slike/spomenici/slatina-spomenik.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "naziv": "Spomenik Đorđu Jovanoviću i kosmajskim partizanima",
     "godina": "1972",
-    "autor": "M. Krković",
-    "vrsta": "spomen-obelezje",
+    "autor": "Momčilo Krković",
+    "vrsta": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -141767,10 +141767,9 @@
   {
     "id": "sokobanja-bista-alekse-markisica-pavla",
     "koordinate": {
-      "lat": 43.64442,
-      "lng": 21.87302
+      "lat": 43.6442049,
+      "lng": 21.8740663
     },
-    "priblizno": true,
     "mesto": "Sokobanja",
     "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=32",
     "naziv": "Bista Alekse Markišića-Pavla",
@@ -142633,10 +142632,9 @@
   {
     "id": "presevo-bista-abdule-krasnice",
     "koordinate": {
-      "lat": 42.31014,
-      "lng": 21.64743
+      "lat": 42.3098395,
+      "lng": 21.6475658
     },
-    "priblizno": true,
     "mesto": "Preševo",
     "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=42",
     "naziv": "Bista Abdule Krašnice",
@@ -143159,7 +143157,7 @@
     "priblizno": true,
     "mesto": "Brzeće",
     "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=48",
-    "naziv": "Spomenik otkriven",
+    "naziv": "Spomenik",
     "godina": "1969",
     "autor": "Ž. Radojčić",
     "vrsta": "spomen-obelezje",
@@ -143264,15 +143262,17 @@
   {
     "id": "gornji-milanovac-spomenik-borbe",
     "koordinate": {
-      "lat": 44.02432,
-      "lng": 20.46004
+      "lat": 44.0236718,
+      "lng": 20.4589797
     },
-    "priblizno": true,
     "mesto": "Gornji Milanovac",
     "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=49",
-    "naziv": "Spomenik borbe",
+    "slika": "slike/spomenici/gornji-milanovac-spomenik-borbe.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "naziv": "Spomenik borbe, stradanja i pobede",
     "autor": "R. Stojadinović",
-    "vrsta": "spomen-obelezje",
+    "vrsta": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -144792,10 +144792,9 @@
   {
     "id": "cacak-bista-milana-bate-jankovica",
     "koordinate": {
-      "lat": 43.89143,
-      "lng": 20.34916
+      "lat": 43.8929946,
+      "lng": 20.3480386
     },
-    "priblizno": true,
     "mesto": "Čačak",
     "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=58",
     "naziv": "Bista Milana-Bate Jankovića",
@@ -145316,10 +145315,9 @@
   {
     "id": "aleksinac-bista-momcila-popovica-ozrena",
     "koordinate": {
-      "lat": 43.54052,
-      "lng": 21.70884
+      "lat": 43.5402255,
+      "lng": 21.7083393
     },
-    "priblizno": true,
     "mesto": "Aleksinac",
     "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=65",
     "naziv": "Bista Momčila Popovića-Ozrena",
@@ -146474,7 +146472,7 @@
     "priblizno": true,
     "mesto": "Gorić",
     "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=80",
-    "naziv": "Kameni beleg otkriven septembra",
+    "naziv": "Kameni beleg",
     "godina": "1975",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -146681,10 +146679,9 @@
   {
     "id": "divcibare-bista-dr-dimitrija-pitovica",
     "koordinate": {
-      "lat": 44.10476,
-      "lng": 19.99164
+      "lat": 44.1056342,
+      "lng": 19.9917617
     },
-    "priblizno": true,
     "mesto": "Divčibare",
     "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=80",
     "naziv": "Bista dr Dimitrija Pitovića",
@@ -146743,7 +146740,7 @@
     "priblizno": true,
     "mesto": "Krnić",
     "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=81",
-    "naziv": "Spomenik „Palim borcima NOB 1941-1945.“ Otkriven",
+    "naziv": "Spomenik „Palim borcima NOB 1941-1945.“",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -146982,15 +146979,17 @@
   {
     "id": "novo-selo-spomenik-borcima-nor-a-1941-1945",
     "koordinate": {
-      "lat": 44.67444,
-      "lng": 19.34417
+      "lat": 44.670647,
+      "lng": 19.343387
     },
-    "priblizno": true,
-    "mesto": "Novo Selo",
+    "mesto": "Novo Selo (Loznica)",
     "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=84",
+    "slika": "slike/spomenici/novo-selo-spomenik-borcima-nor-a-1941-1945.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
     "naziv": "Spomenik borcima NOR-a 1941-1945",
     "godina": "1978",
-    "vrsta": "spomen-obelezje",
+    "vrsta": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -147771,7 +147770,7 @@
     "priblizno": true,
     "mesto": "Petrijevo",
     "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=89",
-    "naziv": "Kameni beleg podignut",
+    "naziv": "Kameni beleg",
     "godina": "1963",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -149293,10 +149292,9 @@
   {
     "id": "pozega-bista-petra-lekovica",
     "koordinate": {
-      "lat": 43.84598,
-      "lng": 20.03569
+      "lat": 43.8487037,
+      "lng": 20.0378666
     },
-    "priblizno": true,
     "mesto": "Požega",
     "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=104",
     "naziv": "Bista Petra Lekovića",
@@ -151051,10 +151049,9 @@
   {
     "id": "svilajnac-bista-laze-stojanovica",
     "koordinate": {
-      "lat": 44.23362,
-      "lng": 21.19594
+      "lat": 44.2297893,
+      "lng": 21.1985005
     },
-    "priblizno": true,
     "mesto": "Svilajnac",
     "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=119",
     "naziv": "Bista Laze Stojanovića",
@@ -151436,10 +151433,9 @@
   {
     "id": "novi-sad-bista-zarka-zrenjanina",
     "koordinate": {
-      "lat": 45.25513,
-      "lng": 19.84518
+      "lat": 45.254107,
+      "lng": 19.8480088
     },
-    "priblizno": true,
     "mesto": "Novi Sad",
     "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=122",
     "naziv": "Bista Žarka Zrenjanina",
@@ -153077,15 +153073,17 @@
   {
     "id": "opovo-spomenik-palim-1941-1945",
     "koordinate": {
-      "lat": 45.05185,
-      "lng": 20.42545
+      "lat": 45.052397,
+      "lng": 20.423855
     },
-    "priblizno": true,
     "mesto": "Opovo",
     "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=137",
+    "slika": "slike/spomenici/opovo-spomenik-palim-1941-1945.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Spomenik palim 1941-1945",
     "autor": "R. Stanković, B. Bon",
-    "vrsta": "spomen-obelezje",
+    "vrsta": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -153453,14 +153451,17 @@
   {
     "id": "ruma-spomen-obelezje",
     "koordinate": {
-      "lat": 45.00783,
-      "lng": 19.81878
+      "lat": 44.984119,
+      "lng": 19.819333
     },
-    "priblizno": true,
     "mesto": "Ruma",
     "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=139",
-    "naziv": "Spomen-obeležje",
-    "vrsta": "spomen-obelezje",
+    "slika": "slike/spomenici/ruma-spomen-obelezje.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "naziv": "Plavo krilo",
+    "posveta": "Na mestu letelišta 113. lovačkog i 423. jurišnog puka, korišćenog u borbama na Sremskom frontu 1944-1945.",
+    "vrsta": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -154385,5 +154386,308 @@
     "naziv": "Spomenik porodici Stojković",
     "vrsta": "spomen-obelezje",
     "drzava": "Kosovo"
+  },
+  {
+    "id": "zemun-grobnica-zrtava-logora-sajmiste",
+    "koordinate": {
+      "lat": 44.84878,
+      "lng": 20.405797
+    },
+    "mesto": "Beograd (Zemun)",
+    "izvor": "https://www.xiwl.com/w/index.php/Beograd_-_Zemunsko_Groblje",
+    "slika": "slike/spomenici/zemun-grobnica-zrtava-logora-sajmiste.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "naziv": "Spomen-grobnica žrtava fašističkog terora",
+    "godina": "1957",
+    "posveta": "Žrtvama logora Sajmište sahranjenim u masovnoj grobnici na Zemunskom groblju.",
+    "vrsta": "spomen-groblje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-vaznesenska-crkva-zrtve-bombardovanja",
+    "koordinate": {
+      "lat": 44.807636,
+      "lng": 20.461785
+    },
+    "mesto": "Beograd (Savski venac)",
+    "izvor": "https://www.xiwl.com/w/index.php/Beograd_-_Spomenik_%C5%BDrtvama_Bombardovanja",
+    "slika": "slike/spomenici/beograd-vaznesenska-crkva-zrtve-bombardovanja.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "naziv": "Spomenik žrtvama bombardovanja 6. aprila 1941",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "konarevo-spomenik-deci-izbeglicama",
+    "koordinate": {
+      "lat": 43.6965732,
+      "lng": 20.6043951
+    },
+    "mesto": "Konarevo",
+    "izvor": "https://www.xiwl.com/w/index.php/Konarevo_-_Orphans_Memorial",
+    "clanak": "https://www.krug.rs/tajna-piramide-u-konarevu/",
+    "slika": "slike/spomenici/konarevo-spomenik-deci-izbeglicama.webp",
+    "slikaOdnos": 1.533,
+    "slikaPotpis": "KRUG",
+    "naziv": "Spomenik deci izbeglicama",
+    "autor": "Spasoje Krunić",
+    "posveta": "Deci izbeglicama koja su tokom Drugog svetskog rata umrla u domovima u Mataruškoj Banji i okolini.",
+    "vrsta": "spomen-groblje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "kraljevo-aleja-nosilaca-spomenice-1941",
+    "koordinate": {
+      "lat": 43.728573,
+      "lng": 20.683527
+    },
+    "mesto": "Kraljevo",
+    "izvor": "https://www.xiwl.com/w/index.php/Kraljevo_-_Stari_Groblje",
+    "clanak": "https://www.krug.rs/1690-sanacija-posle-vise-od-40-godina/",
+    "slika": "slike/spomenici/kraljevo-aleja-nosilaca-spomenice-1941.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "naziv": "Aleja nosilaca Partizanske spomenice 1941",
+    "godina": "1976",
+    "autor": "Mihajlo Dimitrić",
+    "vrsta": "spomen-groblje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "kranj-spominski-park-strazisce",
+    "koordinate": {
+      "lat": 46.232232,
+      "lng": 14.347634
+    },
+    "mesto": "Kranj (Stražišče)",
+    "izvor": "https://www.xiwl.com/w/index.php/Kranj_-_Spominski_Park_Stra%C5%BEi%C5%A1%C4%8De",
+    "slika": "slike/spomenici/kranj-spominski-park-strazisce.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "naziv": "Spominski park pri cerkvi sv. Martina v Stražišču",
+    "godina": "1980",
+    "autor": "Klemen Kobal & Miha Ogorevc",
+    "posveta": "135 žrtvam druge svetovne vojne; osrednji del parka temelji na grobišču 60 žrtev fašizma.",
+    "vrsta": "spomen-groblje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kraljevo-dositejeva-spomenik-nob",
+    "koordinate": {
+      "lat": 43.725613,
+      "lng": 20.715276
+    },
+    "mesto": "Kraljevo",
+    "izvor": "https://www.xiwl.com/w/index.php/Kraljevo_-_Spomenik_NOB",
+    "slika": "slike/spomenici/kraljevo-dositejeva-spomenik-nob.webp",
+    "slikaOdnos": 1.465,
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "naziv": "Spomenik NOB",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "ljubljana-spomenik-kulturnim-delavcem-padlim-nob",
+    "koordinate": {
+      "lat": 46.061702,
+      "lng": 14.512341
+    },
+    "mesto": "Ljubljana",
+    "izvor": "https://www.xiwl.com/w/index.php/Ljubljana_-_Spomenik_Kulturnim_Delavcem%2C_Padlim_v_NOB",
+    "slika": "slike/spomenici/ljubljana-spomenik-kulturnim-delavcem-padlim-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "naziv": "Spomenik kulturnim delavcem, padlim v NOB",
+    "godina": "2011",
+    "autor": "Janez Pirnat",
+    "vrsta": "statua",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "lunjevac-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 44.547275,
+      "lng": 20.890509
+    },
+    "mesto": "Lunjevac",
+    "izvor": "https://www.xiwl.com/w/index.php/Lunjevac_-_Spomenik_Palim_Borcima",
+    "slika": "slike/spomenici/lunjevac-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "naziv": "Spomenik palim borcima",
+    "autor": "Z. Đukić",
+    "posveta": "Za 350 boraca poginulih u Drugom svetskom ratu.",
+    "vrsta": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "rijeka-spomenik-palim-zeljeznicarima",
+    "koordinate": {
+      "lat": 45.329445,
+      "lng": 14.433876
+    },
+    "mesto": "Rijeka",
+    "izvor": "https://www.xiwl.com/w/index.php/Rijeka_-_Spomenik_Palim_Borcima_NOVJ",
+    "slika": "slike/spomenici/rijeka-spomenik-palim-zeljeznicarima.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "naziv": "Spomenik palim željezničarima",
+    "godina": "1954",
+    "autor": "Vinko Matković",
+    "vrsta": "statua",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "rijeka-susak-vidikovac-spomenik-nob",
+    "koordinate": {
+      "lat": 45.327875,
+      "lng": 14.452345
+    },
+    "mesto": "Rijeka (Sušak, Vidikovac)",
+    "izvor": "https://www.xiwl.com/w/index.php/Rijeka_(Su%C5%A1ak)_-_Spomenik_NOB_Vidikovac",
+    "slika": "slike/spomenici/rijeka-susak-vidikovac-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "rijeka-susak-spomenik-palim-gimnazijalcima",
+    "koordinate": {
+      "lat": 45.325703,
+      "lng": 14.454863
+    },
+    "mesto": "Rijeka (Sušak)",
+    "izvor": "https://www.xiwl.com/w/index.php/Rijeka_(Su%C5%A1ak)_-_Spomenik_NOB",
+    "slika": "slike/spomenici/rijeka-susak-spomenik-palim-gimnazijalcima.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "naziv": "Spomenik palim gimnazijalcima",
+    "autor": "Barbara Kolar",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "temerin-staro-djurdjevo-spomenik-nob",
+    "koordinate": {
+      "lat": 45.391354,
+      "lng": 19.881236
+    },
+    "mesto": "Temerin (Staro Đurđevo)",
+    "izvor": "https://www.xiwl.com/w/index.php/Temerin_-_Spomenik_NOB",
+    "slika": "slike/spomenici/temerin-staro-djurdjevo-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "godina": "1987",
+    "vrsta": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "velenje-pesje-spomenik-nob",
+    "koordinate": {
+      "lat": 46.36744,
+      "lng": 15.082311
+    },
+    "mesto": "Velenje (Pesje)",
+    "izvor": "https://www.xiwl.com/w/index.php/Velenje_(Pesje)_-_Spomenik_NOB",
+    "slika": "slike/spomenici/velenje-pesje-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "naziv": "Spomenik NOB pri gasilskem domu v Pesju",
+    "godina": "1986",
+    "vrsta": "spomenik",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "sabac-kurir",
+    "koordinate": {
+      "lat": 44.758694,
+      "lng": 19.691389
+    },
+    "mesto": "Šabac",
+    "izvor": "https://www.xiwl.com/w/index.php/%C5%A0abac_-_Spomenik_Kurir",
+    "slika": "slike/spomenici/sabac-kurir.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "naziv": "Kurir",
+    "autor": "Stevan Bodnarov",
+    "vrsta": "statua",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-zemun-spomenik-mladima-gornje-varosi-izgin",
+    "koordinate": {
+      "lat": 44.8511847,
+      "lng": 20.3968086
+    },
+    "mesto": "Beograd (Zemun)",
+    "izvor": "https://www.openstreetmap.org/node/3251642498",
+    "naziv": "Spomenik mladima Gornje Varoši izginulim u NOB i revoluciji",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "uzice-kapetanovina-bista-slobodana-sekulica",
+    "koordinate": {
+      "lat": 43.8540932,
+      "lng": 19.8590095
+    },
+    "mesto": "Užice (Kapetanovina)",
+    "izvor": "https://www.openstreetmap.org/node/5665646775",
+    "naziv": "Bista Slobodana Sekulića",
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-novi-beograd-biste-sedam-sekretara-skoj-a",
+    "koordinate": {
+      "lat": 44.807587,
+      "lng": 20.4245321
+    },
+    "mesto": "Beograd (Novi Beograd)",
+    "izvor": "https://www.openstreetmap.org/node/7123466886",
+    "naziv": "Biste sedam sekretara SKOJ-a",
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "srbobran-spomenik-boris-mihajlovic-korotkov",
+    "koordinate": {
+      "lat": 45.5424341,
+      "lng": 19.7901584
+    },
+    "mesto": "Srbobran",
+    "izvor": "https://www.openstreetmap.org/node/8394479210",
+    "naziv": "Spomenik „Boris Mihajlović Korotkov“",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "irig-tursko-brdo-spomenik-iriskoj-ceti-podunavskog",
+    "koordinate": {
+      "lat": 45.1389025,
+      "lng": 19.8692844
+    },
+    "mesto": "Irig (Tursko brdo)",
+    "izvor": "https://www.openstreetmap.org/node/8650726941",
+    "naziv": "Spomenik Iriškoj četi Podunavskog odreda",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-stara-cukarica-spomenik-palim-borcima-u-st",
+    "koordinate": {
+      "lat": 44.7883933,
+      "lng": 20.4212759
+    },
+    "mesto": "Beograd (Stara Čukarica)",
+    "izvor": "https://www.openstreetmap.org/node/9997969402",
+    "naziv": "Spomenik palim borcima u štrajku 1907. i palim borcima NOR-a 1941-1945",
+    "vrsta": "spomenik",
+    "drzava": "Serbia"
   }
 ]

@@ -14,8 +14,8 @@ Napravljeno **2026-10-18**. Cilj: novi partizanski spomenici, spomen-groblja i s
 
 | # | Izvor | Republika | Zašto | Stanje provere |
 |---|---|---|---|---|
-| 1 | Partisan Memorials Wiki, ponovni prolaz | sve | Lokalna kopija već postoji (`izvori/xiwl/`); poznat propust (Brod, Crna Trava). Oko 490 stranica sa našim zapisom iste vrste u istom selu nije uvezeno. Bez mrežnih zahteva. | spreman |
-| 3 | OSM, ponovni prolaz po državi | Srbija, S. Makedonija, Kosovo, Slovenija | Za BiH, Hrvatsku i Crnu Goru postoje izvozi u `izvori/osm/`; ostale države nisu prošle isti postupak (`historic=memorial`, dalje od 250 m od naših tačaka). | nije počelo |
+| 1 | Partisan Memorials Wiki, preostali propusti | sve | Raniji ponovni prolaz već je doneo 18 + 99 novih markera i 45 prenosa; stara procena od oko 490 preskočenih nije današnji preostali obim. Novi uzorak od 20 dao je 14 novih lokacija i 5 preciziranih tačaka. | delimično; [odluke i uzorak](../data/provere/wiki-propusti-2026-10-18.json), ne ponavljati pregledane |
+| 3 | OSM, ponovni prolaz po državi | S. Makedonija, Kosovo, Slovenija (Srbija urađena 2026-10-18) | Za BiH, Hrvatsku i Crnu Goru postoje izvozi u `izvori/osm/`; ostale države nisu prošle isti postupak (`historic=memorial`, dalje od 250 m od naših tačaka). | nije počelo |
 | 4 | Kosovo, spisak kulturne baštine pod zaštitom (Ministarstvo kulture) | Kosovo | Zvanični spisak sa memorijalnim spomenicima; imamo malo kosovskih zapisa. | nije provereno |
 | 5 | S. Makedonija, Nacionalni registar kulturnog nasleđa (Uprava za zaštitu kulturnog nasleđa) | S. Makedonija | Zvanični registar; Trajkovski 1986 je pregledan samo uzorkom i nema tekstualni sloj. | nije provereno |
 | 6 | Zavod za zaštitu spomenika kulture Republike Srpske i Zavod FBiH | BiH | Registri entitetskih zavoda; Tihićeva evidencija 1966–1973 (476 grobalja i grobnica) je kod Zavoda FBiH. | nije provereno; kartoni verovatno samo na zahtev |
@@ -31,4 +31,4 @@ Crna Gora je zatvorena odlukom korisnika (vidi [IZVORI.md](IZVORI.md#crna-gora))
 
 ## Prvi korak
 
-Stavka 1: ponovo upariti lokalnu kopiju wikija sa bazom i spiskom bez lokacije, posebno stranice koje je prvi uvoz upario sa stavkom iz bez_lokacije ili sa drugim zapisom u istom selu, i korisniku predložiti spisak propusta pre upisa.
+Stavka 1: nastavak od preostalih kandidata u `izvori/pretrage/wiki-propusti-2026-10-18/kandidati.json`, uz preskakanje pregledanog uzorka i ponovno poređenje sa trenutnom bazom. Prednost imaju fotografisani objekti sa konkretnim opisom tačke; isti objekat iz knjige najpre precizirati, umesto novog markera. Lista kandidata sadrži i sadržaje van obuhvata i duplikate; njen broj nije broj novih spomenika.

@@ -4,6 +4,8 @@ Ažurirano **2026-10-18**, posle završetka žetve za Crnu Goru i FB pregleda. D
 
 ## Status i završen obuhvat
 
+**Preostali wiki propusti — uzorak 20, 18.10.2026:** dodato **14 novih lokacija**, precizirano **5 približnih markera** (Gornji Milanovac, Novo Selo kod Loznice, Opovo, Ruma/Plavo krilo i Slatina kod Sopota), spojen jedan radni duplikat i dodato **19 fotografija**. Niški spomenik prvim avijatičarima izostavljen zbog nepotvrđene veze sa NOB. Nova grobna mesta su Zemun, Konarevo, Aleja nosilaca Partizanske spomenice u Kraljevu i Stražišče; nisu poistovećena sa već postojećim grobljima u tim gradovima. Izvorne veze postojećih markera sačuvane; knjiške i aktivne radne veze pomerene nakon spajanja. [Dokazi, raniji zapisi i pregledan uzorak](../data/provere/wiki-propusti-2026-10-18.json). Ovo nije obrada svih preostalih wiki stranica.
+
 **Ciljani prolaz najizglednijih lokacija završen je 2026-10-16 i uklonjen iz aktivnog TODO-a.** To ne znači da je svaka stavka radnog spiska proverena ili da više nema lokacija koje se mogu naći. Ne otvara se novi masovni prolaz samim čitanjem ovog dokumenta.
 
 Pri zatvaranju je zabeleženo **4.588 markera / 4.506 radnih stavki**. To su brojevi iz tog trenutka, ne automatski današnji brojevi. Završni paket: **1 nova lokacija, 4 razrešena radna duplikata i 2 dopune postojećih markera**; [potpun izveštaj](../data/provere/lociranje-zavrsni-prolaz-2026-10-16.json).

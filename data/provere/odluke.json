@@ -13641,5 +13641,86 @@
    "lociranje-groblja-2026-10-18.json": 1,
    "lociranje-groblja-drugi-2026-10-18.json": 4
   }
+ },
+ {
+  "odluka": "popovic-zuma-1981-adrese",
+  "datum": "2026-10-18",
+  "ishod": "tacka-po-adresi",
+  "zapisi": [
+   {
+    "id": "beograd-skulptura-podignuta-1971",
+    "adresa": "Патријарха Димитрија 12, Београд, Србија",
+    "lat": 44.7420579,
+    "lng": 20.4404565
+   }
+  ],
+  "razlog": "Adresa iz kataloga (1981) geokodirana Nominatimom do kućnog broja; upisano samo kad je pogodak kuća ili zgrada i kad je zapis jednoznačan."
+ },
+ {
+  "odluka": "osm-srbija-precizne-tacke",
+  "datum": "2026-10-18",
+  "ishod": "tacna-tacka",
+  "zapisi": [
+   {
+    "id": "obrenovac-bista-vlade-aksentijevica",
+    "osm": "https://www.openstreetmap.org/node/10713698341",
+    "osmNaziv": "Споменик народном хероју Влади Аксентијевићу"
+   },
+   {
+    "id": "sokobanja-bista-alekse-markisica-pavla",
+    "osm": "https://www.openstreetmap.org/node/6383657639",
+    "osmNaziv": "Aleksa Markišić"
+   },
+   {
+    "id": "presevo-bista-abdule-krasnice",
+    "osm": "https://www.openstreetmap.org/node/13948380258",
+    "osmNaziv": "Abdula Krašnica"
+   },
+   {
+    "id": "cacak-bista-milana-bate-jankovica",
+    "osm": "https://www.openstreetmap.org/node/9125050411",
+    "osmNaziv": "Споменик Милану Бати Јанковићу"
+   },
+   {
+    "id": "aleksinac-bista-momcila-popovica-ozrena",
+    "osm": "https://www.openstreetmap.org/node/12991964583",
+    "osmNaziv": "Момчило Поповић"
+   },
+   {
+    "id": "divcibare-bista-dr-dimitrija-pitovica",
+    "osm": "https://www.openstreetmap.org/node/8810921563",
+    "osmNaziv": "Dr Dimitrije Pitović"
+   },
+   {
+    "id": "pozega-bista-petra-lekovica",
+    "osm": "https://www.openstreetmap.org/node/8147272638",
+    "osmNaziv": "Петар Лековић 1893 - 1942"
+   },
+   {
+    "id": "svilajnac-bista-laze-stojanovica",
+    "osm": "https://www.openstreetmap.org/node/4001581523",
+    "osmNaziv": "Bista Lazaru Stojanoviću"
+   },
+   {
+    "id": "novi-sad-bista-zarka-zrenjanina",
+    "osm": "https://www.openstreetmap.org/node/13452771931",
+    "osmNaziv": "Žarko Zrenjanin Uča"
+   }
+  ],
+  "razlog": "Jedini OSM spomen-objekat do 3 km od približne tačke sa zajedničkom osnovom reči u nazivu (biste samo sa bistom); OSM objekat nije par nijednom drugom zapisu."
+ },
+ {
+  "odluka": "osm-srbija-novi",
+  "datum": "2026-10-18",
+  "ishod": "dodato",
+  "id": [
+   "beograd-zemun-spomenik-mladima-gornje-varosi-izgin",
+   "uzice-kapetanovina-bista-slobodana-sekulica",
+   "beograd-novi-beograd-biste-sedam-sekretara-skoj-a",
+   "srbobran-spomenik-boris-mihajlovic-korotkov",
+   "irig-tursko-brdo-spomenik-iriskoj-ceti-podunavskog",
+   "beograd-stara-cukarica-spomenik-palim-borcima-u-st"
+  ],
+  "razlog": "OSM historic=memorial|monument u Srbiji, dalje od 250 m od naših zapisa, sa pomenom NOB; ručno pregledano 57 kandidata. Izostavljeni: NATO 1999, ratovi 1990-ih, Prvi svetski rat i Timočka buna, Draža Mihailović, žrtve komunizma, mađarske i nemačke žrtve, nejasni natpisi, ploče i ulice; OSM čvor Spomenika streljanim partizanima na Zlatiboru je 2,7 km od tačke Vikidate i našeg zapisa."
  }
 ]
