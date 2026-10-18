@@ -135794,12 +135794,17 @@
   {
     "id": "cantavir-spomenik-palim-1941-1945",
     "koordinate": {
-      "lat": 45.92187,
-      "lng": 19.7627
+      "lat": 45.920278,
+      "lng": 19.762806
     },
-    "priblizno": true,
     "mesto": "Čantavir",
-    "naziv": "Spomenik palim 1941-1945",
+    "slika": "slike/spomenici/cantavir-spomenik-palim-1941-1945.webp",
+    "slikaOdnos": 0.714,
+    "slikaPotpis": "Google Maps",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "godina": "1954",
+    "godinaOd": 1954,
+    "godinaDo": 1954,
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -137238,5 +137243,162 @@
     "godina": "1965",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
+  },
+  {
+    "id": "visocka-rzana-spomenik-zrtvama-bugarskog-terora",
+    "koordinate": {
+      "lat": 43.154021,
+      "lng": 22.809378
+    },
+    "mesto": "Visočka Ržana",
+    "slika": "slike/spomenici/visocka-rzana-spomenik-zrtvama-bugarskog-terora.webp",
+    "slikaOdnos": 0.853,
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "naziv": "Spomenik žrtvama bugarskog terora",
+    "godina": "1991",
+    "godinaOd": 1991,
+    "godinaDo": 1991,
+    "posveta": "Meštanima mučenim i ubijenim početkom jula 1944. godine tokom potere bugarske vojne kaznene jedinice za borcima Pirotskog partizanskog odreda.",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "batocina-spomenik-crvenoarmejcima",
+    "koordinate": {
+      "lat": 44.153424,
+      "lng": 21.077065
+    },
+    "mesto": "Batočina",
+    "slika": "slike/spomenici/batocina-spomenik-crvenoarmejcima.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Sima90 at Serbian Wikipedia, Public domain",
+    "naziv": "Spomenik crvenoarmejcima",
+    "godina": "1947",
+    "godinaOd": 1947,
+    "godinaDo": 1947,
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "pecinci-suvaca-spomenik-streljanim-rodoljubima",
+    "koordinate": {
+      "lat": 44.907694,
+      "lng": 19.972667
+    },
+    "mesto": "Pećinci",
+    "naziv": "Spomenik streljanim rodoljubima na Suvači",
+    "posveta": "Šesnaestorici rodoljuba streljanih na Suvači 15. jula 1942. godine.",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "sikole-spomenik-palim-borcima-i-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 44.175667,
+      "lng": 22.304361
+    },
+    "mesto": "Sikole",
+    "slika": "slike/spomenici/sikole-spomenik-palim-borcima-i-zrtvama-fasizma.webp",
+    "slikaOdnos": 1.105,
+    "slikaPotpis": "NG Portal",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "slatina-sabac-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 44.652265,
+      "lng": 19.647675
+    },
+    "priblizno": true,
+    "mesto": "Slatina (Šabac)",
+    "slika": "slike/spomenici/slatina-sabac-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "udovo-spomen-kosturnica",
+    "koordinate": {
+      "lat": 41.3433056,
+      "lng": 22.44325
+    },
+    "mesto": "Удово",
+    "naziv": "Спомен-костурница",
+    "vrsta": "spomen-groblje",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "veles-partizanski-grobista",
+    "koordinate": {
+      "lat": 41.7156,
+      "lng": 21.7756
+    },
+    "priblizno": true,
+    "mesto": "Велес",
+    "naziv": "Партизански гробишта",
+    "vrsta": "spomen-groblje",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "gostivar-spomen-kosturnica",
+    "koordinate": {
+      "lat": 41.7958,
+      "lng": 20.9083
+    },
+    "priblizno": true,
+    "mesto": "Гостивар",
+    "naziv": "Спомен-костурница",
+    "vrsta": "spomen-groblje",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "skopje-kozle-spomen-grobnica-na-kuzman-josifovski-pitu",
+    "koordinate": {
+      "lat": 41.9945,
+      "lng": 21.3906
+    },
+    "priblizno": true,
+    "mesto": "Скопје (Козле)",
+    "naziv": "Спомен-гробница на Кузман Јосифовски-Питу",
+    "vrsta": "spomen-groblje",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "kicevo-kukja-na-nob",
+    "koordinate": {
+      "lat": 41.5127,
+      "lng": 20.9586
+    },
+    "priblizno": true,
+    "mesto": "Кичево",
+    "naziv": "Куќа на НОБ",
+    "vrsta": "muzej",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "krusevo-partizanski-grobovi",
+    "koordinate": {
+      "lat": 41.374882,
+      "lng": 21.248411
+    },
+    "mesto": "Крушево",
+    "naziv": "Партизански гробови",
+    "vrsta": "spomen-groblje",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "krusevo-bista-na-naum-naumoski-borce",
+    "koordinate": {
+      "lat": 41.365386,
+      "lng": 21.248441
+    },
+    "mesto": "Крушево",
+    "naziv": "Биста на Наум Наумоски-Борче",
+    "vrsta": "bista",
+    "drzava": "Macedonia"
   }
 ]

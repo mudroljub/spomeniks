@@ -13765,5 +13765,40 @@
    "preljina-spomenik-palim-borcima-za-slobodu-1941-19": "vrsta spomen-groblje: spomen-kosturnica sa kriptom, natpis „Palim borcima za slobodu 1941-1945“"
   },
   "razlog": "M. Vulović, Spomenici i spomen-obeležja NO rata čačanskog kraja, Zbornik radova Narodnog muzeja Čačak (OCR u izvori/knjige/vulovic-cacak/): 42 obeležja, 24 ploče; od 18 ostalih 12 već postoji. Izostavljeni: česma Milanu Krdžinu (umro 1953), spomenik na mestu četničkog zločina 1943 u Donjoj Gorevnici (verovatno postojeća spomen-grobnica iz 1951), česma u Međuvršju (postoji, 1962). Ljubić: tačka kompleksa, spomenik je u neposrednoj blizini spomenika Tanasku Rajiću."
+ },
+ {
+  "odluka": "putovima-revolucije-1979",
+  "datum": "2026-10-19",
+  "ishod": "bez-novih",
+  "razlog": "Vodič Putovima revolucije – Hrvatska (1979), OCR u izvori/knjige/putovima-revolucije-1979/: pomenuti spomenici već postoje ili ih Hrženjak vodi kao srušene/bez potvrde (Pogledić, Leštat, Moravice, Polom kod Kapelne). Spomenik „Živku Bronziću“ u Svinjici (S. Mišić) nije dodat: ime heroja i današnje stanje nepotvrđeni; „Kreevo“ iz istog pomena je Krčevo, gde je bista Anke Butorac uklonjena (Hrženjak)."
+ },
+ {
+  "odluka": "uzkn-registar-makedonija",
+  "datum": "2026-10-19",
+  "ishod": "dodato",
+  "id": [
+   "udovo-spomen-kosturnica",
+   "bituse-kukja-na-partizanskata-pecatnica-goce-delcev",
+   "tetovo-spomen-kukja-na-gjoce-stojcevski",
+   "veles-partizanski-grobista",
+   "gostivar-spomen-kosturnica",
+   "skopje-kozle-spomen-grobnica-na-kuzman-josifovski-pitu",
+   "krusevo-zgrada-na-muzejot-na-nov",
+   "kicevo-kukja-na-nob"
+  ],
+  "razlog": "Nacionalni registar kulturnog nasleđa UZKN (nov. 2024, preko spiska na mk.wikipedia): od 73 zaštićena dobra vezana za NOB i spomen-obeležja, 10 nije bilo kod nas. Tačne tačke: Udovo i Bituše (koordinate članaka mk.wikipedia), Tetovo (Google mesto Memorial House of Gjoce Stojchevski); ostali približno (grad, groblje Butel, groblje Glumovo). Izostavljeni ne-NOB objekti (Ilinden, Goce Delčev, preporod, verski), džamija u Gornjim Vranovcima, i mogući parovi: zajednička grobnica u Ohridu, grobnica u Kuratici, Spomenik na revolucijata u Negotinu. Partizanski grobišta u Butelu već postoje kao butel-cemetery-graveyard-fallen-fighters (9 m), pa je dodati duplikat uklonjen. Spomen-grobnica u Glumovu je verovatno postojeći glumovo-spomen-obelezje-od-nob (jedino NOB obeležje u selu, tačna tačka i fotografija), pa dodati približni zapis nije zadržan."
+ },
+ {
+  "odluka": "uzkn-makedonija-preciziranje",
+  "datum": "2026-10-19",
+  "ishod": "tacne-tacke-i-novi",
+  "tacno": {
+   "krusevo-zgrada-na-muzejot-na-nov": "OSM way 217561610 Музеј на НОВ"
+  },
+  "dodato": [
+   "krusevo-partizanski-grobovi",
+   "krusevo-bista-na-naum-naumoski-borce"
+  ],
+  "razlog": "OSM (lokalni MK izvoz + jedan Overpass upit za groblja i muzeje) i Commons oko 7 približnih tačaka. Veles, Gostivar, Kozle, Glumovo i Kičevo ostaju približni: nema imenovanog objekta ni fotografije sa GPS-om. Usput dodati Partizanski grobovi u Kruševu (cemetery=war_cemetery) i bista narodnog heroja Nauma Naumoskog-Borčeta."
  }
 ]

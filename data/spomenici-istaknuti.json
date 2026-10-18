@@ -10806,12 +10806,14 @@
   {
     "id": "golubac",
     "koordinate": {
-      "lat": 44.6537784,
-      "lng": 21.6283861
+      "lat": 44.653889,
+      "lng": 21.630778
     },
     "mesto": "Golubac",
+    "clanak": "https://recnaroda.co.rs/golubac-spomenik-palim-borcima-na-novoj-lokaciji/",
     "slika": "slike/spomenici/golubac.webp",
-    "slikaOdnos": 1.613,
+    "slikaOdnos": 1.223,
+    "slikaPotpis": "Lj. Nastasijević, Reč naroda",
     "naziv": "Spomenik palim borcima",
     "nazivEn": "Monument to Fallen Fighters",
     "godina": "1967",
@@ -13901,11 +13903,11 @@
   {
     "id": "beocin",
     "koordinate": {
-      "lat": 45.201744,
-      "lng": 19.720869
+      "lat": 45.197612,
+      "lng": 19.724244
     },
     "googleCid": "700648612267689417",
-    "mesto": "Beočin",
+    "mesto": "Beočin (Beočin Selo)",
     "slika": "slike/spomenici/beocin.webp",
     "slikaOdnos": 0.75,
     "slikaPotpis": "Micki, CC BY-SA 3.0",
@@ -14517,16 +14519,20 @@
   {
     "id": "negrisori",
     "koordinate": {
-      "lat": 43.835585,
-      "lng": 20.20619
+      "lat": 43.844667,
+      "lng": 20.187833
     },
     "mesto": "Negrišori",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D1%83_%D0%9D%D0%B5%D0%B3%D1%80%D0%B8%D1%88%D0%BE%D1%80%D0%B8%D0%BC%D0%B0",
+    "clanak": "https://rts.rs/vesti/srbija-danas/5546055/u-selu-negrisori-ponovo-postavljen-spomenik-stradalima-u-prvom-i-drugom-svetskom-ratu.html",
     "slika": "slike/spomenici/negrisori.webp",
     "slikaOdnos": 0.667,
     "slikaPotpis": "BrankaVV, CC BY-SA 4.0",
     "naziv": "Spomenik u Negrišorima",
-    "stanje": "uklonjen",
+    "godina": "1980",
+    "godinaOd": 1980,
+    "godinaDo": 1980,
+    "autor": "Rade Jovančević",
     "vrsta": "spomenik",
     "drzava": "Serbia"
   },
@@ -18253,8 +18259,8 @@
   {
     "id": "lalic-spomenik-palim-borcima",
     "koordinate": {
-      "lat": 45.518666,
-      "lng": 19.358166
+      "lat": 45.521233,
+      "lng": 19.368276
     },
     "mesto": "Lalić",
     "slika": "slike/spomenici/lalic-spomenik-palim-borcima.webp",
@@ -21071,5 +21077,94 @@
     "godina": "1981",
     "vrsta": "spomenik",
     "drzava": "Serbia"
+  },
+  {
+    "id": "backi-petrovac-spomenik-ljubomira-denkovica",
+    "koordinate": {
+      "lat": 45.359694,
+      "lng": 19.592212
+    },
+    "mesto": "Bački Petrovac",
+    "slika": "slike/spomenici/backi-petrovac-spomenik-ljubomira-denkovica.webp",
+    "slikaOdnos": 0.976,
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "naziv": "Spomenik palim borcima",
+    "godina": "1981",
+    "godinaOd": 1981,
+    "godinaDo": 1981,
+    "autor": "Ljubomir Denković",
+    "vrsta": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "pancevo-decak-i-lane",
+    "koordinate": {
+      "lat": 44.8693302,
+      "lng": 20.6412727
+    },
+    "googleCid": "2332574123247821168",
+    "mesto": "Pančevo",
+    "clanak": "https://pancevac-online.rs/314289/decak-i-lane-skluptura-ispred-postanske-stedionice-koja-tu-stoji-od-1962/",
+    "slika": "slike/spomenici/pancevo-decak-i-lane.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
+    "naziv": "Dečak i lane",
+    "godina": "1962",
+    "godinaOd": 1962,
+    "godinaDo": 1962,
+    "autor": "Božidar Jovović",
+    "posveta": "Partizanskim kuririma, prikazanim kroz lik dečaka sa porukom o slobodi.",
+    "vrsta": "statua",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "stejanovci-spomenik-palim-borcima-u-centru",
+    "koordinate": {
+      "lat": 45.057488,
+      "lng": 19.723192
+    },
+    "mesto": "Stejanovci",
+    "slika": "slike/spomenici/stejanovci-spomenik-palim-borcima-u-centru.webp",
+    "slikaOdnos": 1.216,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1959",
+    "godinaOd": 1959,
+    "godinaDo": 1959,
+    "vrsta": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "krusevo-zgrada-na-muzejot-na-nov",
+    "koordinate": {
+      "lat": 41.375585,
+      "lng": 21.245749
+    },
+    "mesto": "Крушево",
+    "naziv": "Зграда на Музејот на НОВ",
+    "vrsta": "muzej",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "bituse-kukja-na-partizanskata-pecatnica-goce-delcev",
+    "koordinate": {
+      "lat": 41.6175556,
+      "lng": 20.5896111
+    },
+    "mesto": "Битуше",
+    "naziv": "Куќа на партизанската печатница „Гоце Делчев“",
+    "vrsta": "muzej",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "tetovo-spomen-kukja-na-gjoce-stojcevski",
+    "koordinate": {
+      "lat": 42.0105022,
+      "lng": 20.9638661
+    },
+    "mesto": "Тетово",
+    "naziv": "Спомен-куќа на Ѓоце Стојчевски",
+    "vrsta": "muzej",
+    "drzava": "Macedonia"
   }
 ]

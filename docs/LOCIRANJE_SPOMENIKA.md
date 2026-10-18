@@ -1,5 +1,7 @@
 # Lociranje spomenika
 
+**Četvrti paket wiki propusta — 19.10.2026:** obrađeno **20 kandidata: 8 novih spomenika (7 precizno, 1 približno), 4 ispravke ranijih tačaka, 1 preciziranje i 9 fotografija**. Novi su Denkovićev spomenik u Bačkom Petrovcu, žrtve bugarskog terora u Visočkoj Ržani, „Dečak i lane“ u Pančevu, crvenoarmejci u Batočini, Suvača u Pećincima, spomenik u centru Sikola, Slatina kod Šapca i celina u centru Stejanovaca. Ispravljeni Golubac, Beočin, Lalić i Negrišori; Čantavir preciziran. Negrišori su obnovljeni 2024, zato je uklonjena zastarela oznaka „uklonjen“. Slatina ostaje približna; pet nejasnih slučajeva odloženo, spomenik Prvom svetskom ratu u Staroj Moravici nije dodat, dobra tačka Jabuke ostaje. [Dokazi četvrtog paketa](../data/provere/wiki-propusti-paket4-2026-10-19.json).
+
 Ažurirano **2026-10-18**, posle završetka žetve za Crnu Goru i FB pregleda. Dokument služi da pronađemo već provereni trag, izbegnemo ponavljanje i vidimo koji bi novi dokaz omogućio pouzdan unos.
 
 ## Status i završen obuhvat
