@@ -10311,5 +10311,44 @@
    "drzava": "Montenegro"
   },
   "razlog": "Njegosev mauzolej na Lovcenu (Mestrovic, 1974) nije spomenik NOB."
+ },
+ {
+  "odluka": "lociranje-dva-muzeja-2026-10-18",
+  "datum": "2026-10-18",
+  "ishod": "adrese-i-dokazi-dopunjeni-bez-nepotvrđenih-koordinata",
+  "nalazi": [
+   {
+    "naziv": "Muzej štampe NOB Vojvodine",
+    "mesto": "Novi Sad",
+    "adresa": "Ulica Vojislava Ilića 15",
+    "postojećiMarker": "novi-sad-pervazovo-naselje-partizanska-baza",
+    "koordinate": {
+     "lat": 45.267868,
+     "lng": 19.831089
+    },
+    "izvori": [
+     "https://www.021.rs/novi-sad/novosadske-price/289567/novosadska-kuca-koja-cuva-secanje-na-otpor-zlu-i-u-kojoj-se-rodila-slobodna-vojvodina-i-jedan-muzej",
+     "https://www.cidom.org/wp-content/uploads/2023/10/Gojko-Joki%C4%87-Spomenici-revolucije-turisti%C4%8Dki-vodi%C4%8D-1986.pdf#page=254",
+     "https://commons.wikimedia.org/wiki/File%3A%D0%92%D0%BE%D1%98%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%B0_%D0%98%D0%BB%D0%B8%D1%9B%D0%B0_15_%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B0_%D0%B1%D0%B0%D0%B7%D0%B0.JPG"
+    ],
+    "zakljucak": "Zgrada muzeja poklapa se sa postojećim markerom Partizanska baza; duplikat nije dodat. Današnji status muzeja nije potvrđen."
+   },
+   {
+    "naziv": "Muzej V. zemaljske konferencije",
+    "mesto": "Zagreb (Dubrava)",
+    "adresa": "Kapucinska 20",
+    "istorijskeAdrese": [
+     "Bihaćka 20",
+     "Ulica V zemaljske konferencije 20"
+    ],
+    "izvori": [
+     "https://min-kulture.gov.hr/izdvojeno/kulturna-bastina/hrvatsko-vijece-za-kulturna-dobra/biljeske-sa-sjednica-21998/21998",
+     "https://www.kartografija-otpora.org/hr/punktovi/?marker_id=126&proj=4",
+     "https://znaci.org/00003/679.pdf#page=151",
+     "https://plusportal.hr/media/images/old_sb/Files/180319164051354/popis%20uklonjenih%20bisti%20i%20spomenika%20iz%20NOB-a.pdf"
+    ],
+    "zakljucak": "Adresa potvrđena, muzej je prestao s radom; koordinate nisu potvrđene pa zapis ostaje u radnom spisku."
+   }
+  ]
  }
 ]
