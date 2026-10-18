@@ -27,7 +27,6 @@ STRUKTURA PODATAKA:
 - trenutno su svi podaci u jednom ogromnom nizu. često je potrebno pronalaziti i porediti spomenike, npr. iz hrvatske knjige sa hrvatskim spomenicima. pronaći koja je struktura podataka optimalna za to. možda neka vrsta hijerarhije organizovane po državama i opštinama?
 
 KVALITET PODATAKA (`data/spomeniks.json`):
-- 25 `nazivEn` sadrži HTML link: link prebaciti u `wikiEn`, a u nazivu ostaviti čist tekst
 - `godina` je slobodan tekst („pre 1971“, „1950-ih“, raspon): razdvojiti broj i odrednicu zbog filtriranja i sortiranja
 - nedosledan oblik `mesta` za delove gradova („Beograd (Zemun)“ pored „Zemun“): ujednačiti
 - 693 slike su fotografije korisnika Google mapa, koje nemaju licencu za ponovnu objavu: naći zamenu sa slobodnom licencom, pa ukloniti Google slike
