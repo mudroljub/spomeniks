@@ -10019,16 +10019,6 @@
     "izvor": "https://www.spomenicinob.info/foca"
   },
   {
-    "naziv": "Grob Nurije Pozderca",
-    "nazivEn": "Grave of Nurija Pozderac",
-    "mesto": "Dragoš Sedlo",
-    "drzava": "Bosnia and Herzegovina",
-    "autor": "Miodrag Živković",
-    "godina": "1987",
-    "vrsta": "spomen-groblje",
-    "izvor": "https://www.spomenicinob.info/foca"
-  },
-  {
     "naziv": "Spomenik na mjestu Partizanske bolnice",
     "nazivEn": "Monument to mark site of Partisans' Hospital",
     "mesto": "Dragoš Sedlo",
@@ -10047,16 +10037,6 @@
     "vrsta": "spomen-obelezje",
     "izvor": "https://www.spomenicinob.info/foca",
     "godina": "pre 1975"
-  },
-  {
-    "naziv": "Grob boraca Fočanske omladinske čete",
-    "nazivEn": "Grave of fighters from the Foča Youth Company",
-    "mesto": "Borovno",
-    "drzava": "Bosnia and Herzegovina",
-    "autor": "Miodrag Živković",
-    "godina": "1989",
-    "vrsta": "spomen-groblje",
-    "izvor": "https://www.spomenicinob.info/foca"
   },
   {
     "naziv": "Spomen-ploča na mjestu gdje su poginuli narodni heroj Šerif Lojo i 12 pripadnika Fočanske omladinske čete",
@@ -22370,17 +22350,6 @@
     "izvor": "https://www.spomenicinob.info/sirokibrijeg"
   },
   {
-    "naziv": "Spomen-kosturnica palih boraca",
-    "nazivEn": "Memorial ossuary of fallen fighters",
-    "mesto": "Sokolac",
-    "adresa": "Park of National Heroes",
-    "drzava": "Bosnia and Herzegovina",
-    "autor": "Kapetanović (design) & Kratović (sculptor)",
-    "godina": "1951",
-    "vrsta": "spomen-groblje",
-    "izvor": "https://www.spomenicinob.info/sokolac"
-  },
-  {
     "naziv": "Bista Slaviše Vajnera Čiče",
     "nazivEn": "Bust of NH Slaviša Vajner Čiča",
     "mesto": "Sokolac",
@@ -25481,16 +25450,6 @@
     "izvor": "https://www.spomenicinob.info/tuzla"
   },
   {
-    "naziv": "Spomen-grobnica strijeljanih revolucionara Kreke",
-    "nazivEn": "Memorial grave of the executed Revolutionaries of Kreka",
-    "mesto": "Kreka",
-    "adresa": "Ul. Mitra Trifunovića Uče 65",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1946",
-    "vrsta": "spomen-groblje",
-    "izvor": "https://www.spomenicinob.info/tuzla"
-  },
-  {
     "naziv": "Bista Franje Rezača",
     "nazivEn": "Bust of Franjo Rezač",
     "mesto": "Kreka",
@@ -26501,7 +26460,18 @@
     "autor": "Božidar Videc & Dragoslav Stanković",
     "godina": "1954",
     "vrsta": "spomen-groblje",
-    "izvor": "https://www.spomenicinob.info/visoko"
+    "izvor": "https://www.spomenicinob.info/visoko",
+    "kandidati": [
+      {
+        "lat": 43.990539,
+        "lng": 18.186802,
+        "izvor": "https://www.xiwl.com/w/index.php/Visoko_-_Spomen_Kosturnica",
+        "opis": "Tačka iz lokalnog wikija u bivšoj kasarni Ahmet Fetahagić; sedam šina/ploča potvrđuju identitet. Krošnje zaklanjaju podlogu i tačka objekta nije nezavisno potvrđena; centar kasarne nije zamena."
+      }
+    ],
+    "slika": "slike/bez-lokacije/visoko-kosturnica-sedmorice-boraca.webp",
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "slikaOdnos": 1.481
   },
   {
     "naziv": "Spomen-ploča završetku pruge Šamac - Sarajevo",
@@ -28017,16 +27987,6 @@
     "izvor": "https://www.spomenicinob.info/zivinice"
   },
   {
-    "naziv": "Spomen-kosturnica 75 boraca Prve proleterske brigade",
-    "nazivEn": "Memorial ossuary of 75 fighters of First Proletarian Brigade",
-    "mesto": "Zvornik",
-    "adresa": "Ul. Svetog Save",
-    "drzava": "Bosnia and Herzegovina",
-    "autor": "Dragiša Trifković & Jusuf Begović & Mehmed Hrasnica",
-    "vrsta": "spomen-groblje",
-    "izvor": "https://www.spomenicinob.info/zvornik"
-  },
-  {
     "naziv": "Grob Filipa „Fiće“ Kljajića",
     "nazivEn": "Grave of Filip \"Fića\" Kljajić",
     "mesto": "Zvornik",
@@ -28035,7 +27995,18 @@
     "autor": "Jusuf Begović",
     "godina": "1961",
     "vrsta": "spomen-groblje",
-    "izvor": "https://www.spomenicinob.info/zvornik"
+    "izvor": "https://www.spomenicinob.info/zvornik",
+    "kandidati": [
+      {
+        "lat": 44.384613,
+        "lng": 19.102863,
+        "izvor": "https://www.xiwl.com/w/index.php/Zvornik_-_Spomen_Kosturnica",
+        "opis": "Potvrđeno da se grob nalazi u istom kompleksu kao kosturnica; navedena tačka je kompleks, ne grobna ploča. Potreban zaseban položaj ploče, a ne isti pin kao kosturnica."
+      }
+    ],
+    "slika": "slike/bez-lokacije/zvornik-grob-filipa-kljajica.webp",
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "slikaOdnos": 0.75
   },
   {
     "naziv": "Skulptura narodnog heroja Filipa Kljajića",
@@ -29936,16 +29907,6 @@
     "godina": "1988",
     "vrsta": "spomen-obelezje",
     "izvor": "https://www.spomenicinob.info/brcko"
-  },
-  {
-    "naziv": "Grob narodnog heroja Save Kovačevića",
-    "nazivEn": "Grave of NH Sava Kovačević",
-    "mesto": "Krekovi",
-    "drzava": "Bosnia and Herzegovina",
-    "autor": "Miodrag Živković",
-    "godina": "1951",
-    "vrsta": "spomen-groblje",
-    "izvor": "https://www.spomenicinob.info/foca"
   },
   {
     "naziv": "Zajednička grobnica boraca i civila poginulih u Četvrtoj neprijateljskoj ofanzivi",
