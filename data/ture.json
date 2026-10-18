@@ -1,6 +1,107 @@
 [
   {
     "naziv": {
+      "sh": "Beograd u NOB",
+      "en": "Belgrade in the People’s Liberation Struggle"
+    },
+    "wiki": "https://sh.wikipedia.org/wiki/Beograd_u_Narodnooslobodila%C4%8Dkoj_borbi",
+    "spomenici": [
+      "jajinci",
+      "banjica-concen-camp-museum",
+      "beograd-spomen-park-topovske-supe",
+      "beograd-terazije",
+      "belgrade",
+      "belgrade-cemetery",
+      "beograd-grobnica-narodnih-heroja",
+      "beograd-staro-sajmiste-spomen-ploca-zrtvama-logora"
+    ]
+  },
+  {
+    "naziv": {
+      "sh": "Zagreb u NOB",
+      "en": "Zagreb in the People’s Liberation Struggle"
+    },
+    "wiki": "https://sh.wikipedia.org/wiki/Zagreb_u_Narodnooslobodila%C4%8Dkoj_borbi",
+    "spomenici": [
+      "zagreb-crnomerec-plamen-revolucije",
+      "park-of-the-righteous",
+      "zagreb-sestre-bakovic",
+      "zagreb-spomen-obiljezje-sabotazi-na-glavnoj-posti",
+      "mirogoj-cemetery-tomb-people-s",
+      "zagreb-spomen-park-dotrscina",
+      "zagreb-december-victims"
+    ]
+  },
+  {
+    "naziv": {
+      "sh": "Banjaluka u NOB",
+      "en": "Banja Luka in the People’s Liberation Struggle"
+    },
+    "wiki": "https://sh.wikipedia.org/wiki/Banjaluka_u_Narodnooslobodila%C4%8Dkoj_borbi",
+    "spomenici": [
+      "banja-luka",
+      "banja-luka-cemetery",
+      "banja-luka-cajavec",
+      "banja-luka-biste-heroja",
+      "banja-luka-maslesa"
+    ]
+  },
+  {
+    "naziv": {
+      "sh": "Niš u NOB",
+      "en": "Niš in the People’s Liberation Struggle"
+    },
+    "wiki": "https://sh.wikipedia.org/wiki/Ni%C5%A1_u_Narodnooslobodila%C4%8Dkoj_borbi",
+    "spomenici": [
+      "nis",
+      "nis-marger",
+      "nis-spomenik-poginulim-crvenoarmejcima",
+      "nis-spomen-grobnica-na-sindjelicevom-trgu",
+      "nis-centar",
+      "red-cross-camp-museum"
+    ]
+  },
+  {
+    "naziv": {
+      "sh": "Прилеп во НОБ",
+      "en": "Prilep in the People’s Liberation Struggle"
+    },
+    "wiki": "https://sh.wikipedia.org/wiki/Prilep_u_Narodnooslobodila%C4%8Dkoj_borbi",
+    "spomenici": [
+      "prilep",
+      "prilep-bista-rampo-levkov",
+      "prilep-memorijalen-muzej-kuzman-josifoski-pitu",
+      "prilep-carsija-naroden-heroj-kire-gavriloski-jane",
+      "prilep-muzej-11-oktomvri",
+      "prilep-bista-mirce-acev"
+    ]
+  },
+  {
+    "naziv": {
+      "sh": "Kolašin u NOB",
+      "en": "Kolašin in the People’s Liberation Struggle"
+    },
+    "wiki": "https://sh.wikipedia.org/wiki/Kola%C5%A1in_u_Narodnooslobodila%C4%8Dkoj_borbi",
+    "spomenici": [
+      "kolasin",
+      "kolasin-spomenik-palim-borcima",
+      "kolasin-spomenik-veljku-vlahovicu"
+    ]
+  },
+  {
+    "naziv": {
+      "sh": "Foča u NOB",
+      "en": "Foča in the People’s Liberation Struggle"
+    },
+    "wiki": "https://sh.wikipedia.org/wiki/Fo%C4%8Da_u_Narodnooslobodila%C4%8Dkoj_borbi",
+    "spomenici": [
+      "musem-of-old-herzegovina",
+      "foca",
+      "foca-spomen-ploca-donosenju-focanskih-propisa"
+    ]
+  },
+  {
+    "naziv": {
       "sh": "Jugoslavija: najveći spomenici",
       "en": "Yugoslavia: The great monuments"
     },
@@ -183,13 +284,18 @@
   },
   {
     "naziv": {
-      "sh": "Hrvatska: Slavonija",
-      "en": "Croatia: Slavonia"
+      "sh": "Slavonija u NOB",
+      "en": "Slavonia in the People’s Liberation Struggle"
     },
+    "wiki": "https://sh.wikipedia.org/wiki/Slavonija_u_Narodnooslobodila%C4%8Dkoj_borbi",
     "spomenici": [
+      "pakrac",
+      "sirac-spomenik-borcima-nor-a",
+      "daruvar",
+      "virovitica",
+      "vocin-spomenik-palim-borcima",
       "donji-miholjac",
-      "batina",
-      "vukovar"
+      "osijek-mother-with-child"
     ]
   },
   {
@@ -206,7 +312,8 @@
       "makarska",
       "podgora",
       "zaostrog"
-    ]
+    ],
+    "wiki": "https://sh.wikipedia.org/wiki/Dalmacija_u_Narodnooslobodila%C4%8Dkoj_borbi"
   },
   {
     "naziv": {
@@ -268,7 +375,8 @@
       "zrenjanin",
       "titel",
       "jabuka"
-    ]
+    ],
+    "wiki": "https://sh.wikipedia.org/wiki/Narodnooslobodila%C4%8Dka_borba_u_Vojvodini"
   },
   {
     "naziv": {
@@ -334,7 +442,8 @@
       "pristina-prishtine-brotherhood-unity",
       "velanija-velanije",
       "brezovica-brezovice"
-    ]
+    ],
+    "wiki": "https://sh.wikipedia.org/wiki/Kosovo_i_Metohija_u_Narodnooslobodila%C4%8Dkoj_borbi"
   },
   {
     "naziv": {

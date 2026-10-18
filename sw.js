@@ -34,6 +34,7 @@ const fajlovi = [
   'utils/helpers.js',
   'utils/ikonice.js',
   'utils/jezik.js',
+  'utils/ui.js',
   'utils/prijava.js',
   'utils/oznake.js',
   'utils/ruta.js',

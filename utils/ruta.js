@@ -34,10 +34,12 @@ export const dajRutu = () => ruta.spomenici
 
 export const dajNaziv = () => ruta.naziv
 
+export const dajWiki = () => ruta.wiki
+
 // izmena stanica zadrzava ime, jer je to i dalje ista ruta
 export const postaviRutu = spomenici => zameni({...ruta, spomenici})
 
-export const izaberiTuru = ({naziv, spomenici}) => zameni({naziv, spomenici})
+export const izaberiTuru = ({naziv, spomenici, wiki = ''}) => zameni({naziv, spomenici, wiki})
 
 export const uRuti = id => ruta.spomenici.includes(id)
 

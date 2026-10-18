@@ -26,6 +26,7 @@ const malo = n => [2, 3, 4].includes(n % 10) && ![12, 13, 14].includes(n % 100)
 const tekstovi = {
   prijavaNaslov: {sh: 'Dodaj spomenik', en: 'Add a monument'},
   prijavaDopuna: {sh: 'Dopuna podataka', en: 'Monument update'},
+  dopuniPodatke: {sh: 'Dopuni podatke', en: 'Update details'},
   prijavaNaziv: {sh: 'Naziv spomenika (obavezno)', en: 'Monument name (required)'},
   prijavaLokacija: {sh: 'Lokacija — link iz mape (obavezno)', en: 'Location — map link (required)'},
   prijavaUputstvo: {
@@ -47,6 +48,7 @@ const tekstovi = {
   dodajURutu: {sh: 'U rutu', en: 'To route'},
   vecURuti: {sh: 'U ruti', en: 'In route'},
   trenutnaRuta: {sh: 'Trenutna ruta', en: 'Current route'},
+  izaberiTuru: {sh: 'Izaberi turu', en: 'Choose a tour'},
   lista: {sh: 'Želim da posetim', en: 'Want to visit'},
   posetio: {sh: 'Posećeno', en: 'Visited'},
   mojaPoseta: {sh: 'Moja poseta', en: 'My visit'},

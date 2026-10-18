@@ -1,8 +1,10 @@
 // @ts-check
 import {mapa} from '../klase/mapa.js'
-import {naziviStanja, nazivSpomenika, malaSlika} from '../utils/helpers.js'
+import {navigacijaIkonica} from '../utils/ikonice.js'
+import {stilZaglavlja} from '../utils/ui.js'
+import {naziviStanja, nazivSpomenika, malaSlika, navigacijaUrl} from '../utils/helpers.js'
 import {t, jezik} from '../utils/jezik.js'
-import {dajRutu, dajNaziv, postaviRutu, izaberiTuru, ukloniIzRute, pomeri, promeneRute} from '../utils/ruta.js'
+import {dajRutu, dajNaziv, dajWiki, postaviRutu, izaberiTuru, ukloniIzRute, pomeri, promeneRute} from '../utils/ruta.js'
 
 const boja = '#822323'
 const najviseZaGoogle = 10 // odrediste i 9 usputnih tacaka
@@ -10,6 +12,7 @@ const siroko = matchMedia('(min-width: 600px)') // ruta i spomenik mogu da stoje
 
 const style = document.createElement('style')
 style.textContent = `
+  ${stilZaglavlja}
   :host {
     font: 16px system-ui, sans-serif;
   }
@@ -127,6 +130,26 @@ style.textContent = `
     opacity: 0.25;
   }
 
+  .navigacija {
+    align-items: center;
+    color: ${boja};
+    display: inline-flex;
+    flex: none;
+    height: 44px;
+    justify-content: center;
+    width: 44px;
+  }
+
+  .navigacija svg {
+    height: 22px;
+    width: 22px;
+  }
+
+  .navigacija:focus-visible {
+    outline: 2px solid ${boja};
+    outline-offset: -3px;
+  }
+
   .broj {
     color: ${boja};
     flex: none;
@@ -207,8 +230,7 @@ style.textContent = `
     text-decoration: none;
   }
 
-  #ime-rute {
-    font-size: 18px;
+  #naslov-rute {
     margin: 0;
     padding: 0 16px 12px;
   }
@@ -250,6 +272,14 @@ style.textContent = `
 
   #ture {
     padding-bottom: var(--dno);
+  }
+
+  .wiki {
+    align-items: center;
+    color: ${boja};
+    display: inline-flex;
+    min-height: 44px;
+    padding: 0 16px;
   }
 `
 
@@ -334,7 +364,7 @@ export default class Ruta extends HTMLElement {
           <button id="redosled">${t('redosled')}</button>
           <button id="isprazni">${t('ukloniRutu')}</button>
         </p>
-        <h2 id="ime-rute"></h2>
+        <h2 id="naslov-rute"><span id="ime-rute"></span> <a id="wiki-rute" class="vise" target="_blank" rel="noopener" hidden>${t('vise')} ›</a></h2>
         <ol id="stanice"></ol>
         <footer>
           <a id="google" target="_blank" class="glavna">${t('googleMape')}</a>
@@ -406,7 +436,7 @@ export default class Ruta extends HTMLElement {
   prikazi() {
     const stanice = this.stanice()
     this.dugme.hidden = false
-    this.dugme.textContent = stanice.length ? `${t('trenutnaRuta')} · ${stanice.length}` : t('trenutnaRuta')
+    this.dugme.textContent = stanice.length ? `${t('trenutnaRuta')} · ${stanice.length}` : t('izaberiTuru')
     this.osveziKartice()
 
     this.linija.setLatLngs(stanice.map(({marker}) => marker.dajPoziciju()))
@@ -423,7 +453,11 @@ export default class Ruta extends HTMLElement {
     ogranicenje.textContent = t('ogranicenje', najviseZaGoogle)
     this.panel.querySelector('#prazna').hidden = stanice.length > 0
     this.panel.querySelector('#ime-rute').textContent = prevedi(dajNaziv())
-    this.panel.querySelector('#ime-rute').hidden = !dajNaziv()
+    this.panel.querySelector('#naslov-rute').hidden = !dajNaziv()
+    const wiki = /** @type {HTMLAnchorElement} */ (this.panel.querySelector('#wiki-rute'))
+    wiki.hidden = !dajWiki()
+    if (dajWiki()) wiki.href = dajWiki()
+    else wiki.removeAttribute('href')
     this.panel.querySelector('#nazad').hidden = !dajNaziv()
     this.panel.querySelector('.alati').hidden = !stanice.length
     this.panel.querySelector('footer').hidden = !stanice.length
@@ -436,11 +470,16 @@ export default class Ruta extends HTMLElement {
     red.innerHTML = `
       <span class="broj"></span>
       <button class="naziv"><span class="ime"></span><span class="opis"></span></button>
+      <a class="navigacija" target="_blank" rel="noopener">${navigacijaIkonica}</a>
       <button class="gore" title="${t('gore')}" ${i === 0 ? 'disabled' : ''}>↑</button>
       <button class="dole" title="${t('dole')}" ${i === ukupno - 1 ? 'disabled' : ''}>↓</button>
       <button class="ukloni" title="${t('ukloni')}">×</button>
     `
     const naziv = nazivSpomenika(spomenik)
+    const navigacija = /** @type {HTMLAnchorElement} */ (red.querySelector('.navigacija'))
+    navigacija.href = navigacijaUrl(spomenik.koordinate)
+    navigacija.title = `${t('navigacija')}: ${naziv || spomenik.mesto}`
+    navigacija.setAttribute('aria-label', navigacija.title)
     red.querySelector('.broj').textContent = i + 1
     red.querySelector('.ime').textContent = naziv || spomenik.mesto
     red.querySelector('.opis').textContent = [naziv && spomenik.mesto, naziviStanja[spomenik.stanje]].filter(Boolean).join(' · ')
@@ -451,7 +490,8 @@ export default class Ruta extends HTMLElement {
     return red
   }
 
-  praviTuru({naziv, spomenici}, iskorisceneSlike) {
+  /** @param {import('../data/tipovi').Tura} tura */
+  praviTuru({naziv, spomenici, wiki}, iskorisceneSlike) {
     const red = document.createElement('li')
     red.innerHTML = '<button class="naziv tura"><span class="tekst"><span class="ime"></span><span class="opis"></span></span></button>'
     const clanovi = spomenici.map(id => this.stavke.get(id)?.spomenik).filter(Boolean)
@@ -463,10 +503,20 @@ export default class Ruta extends HTMLElement {
     red.querySelector('.ime').textContent = prevedi(naziv)
     red.querySelector('.opis').textContent = `${t('stanice', mesta.length)}: ${mesta.join(', ')}`
     red.querySelector('button').addEventListener('click', () => {
-      izaberiTuru({naziv, spomenici: this.usmeri(spomenici)})
+      izaberiTuru({naziv, spomenici: this.usmeri(spomenici), wiki})
       this.prikaziKarticu('planer')
       this.pokaziTuru()
     })
+    if (wiki) {
+      const link = document.createElement('a')
+      link.className = 'wiki'
+      link.textContent = t('vise')
+      link.setAttribute('aria-label', `${t('vise')}: ${prevedi(naziv)}`)
+      link.href = wiki
+      link.target = '_blank'
+      link.rel = 'noopener'
+      red.appendChild(link)
+    }
     return red
   }
 
@@ -479,7 +529,7 @@ export default class Ruta extends HTMLElement {
     mapa.fitBounds(this.linija.getBounds(), {
       paddingTopLeft: [30, 80],
       paddingBottomRight: [desno + 30, dole + 20],
-      maxZoom: 11,
+      maxZoom: 16,
     })
   }
 

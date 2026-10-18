@@ -22,6 +22,13 @@ Pre nove mrežne pretrage pogledaj [obrađene izvore](../../../../docs/IZVORI.md
 - Prihvati samo potvrđen identitet i tačku. Isti EŠD, naziv i izgled mogu razrešiti postojeći unos; nesaglasna tačka nije razlog da se postojeća koordinata zameni bez novog dokaza. Hrvatski objekat prolazi i proveru opstanka.
 - Sačuvaj odluku i razlog za svaki pregledani kandidat. Preuzeti, ali još nepročitani odgovori ostaju neobrađeni; sledeća tura prvo proverava njih i ranije odluke, umesto ponovnog preuzimanja.
 
+## Partisan Memorials Wiki: lokalna kopija, uparivanje offline
+
+- Kopija celog wikija je u `izvori/xiwl/deo-*.json` (MediaWiki API, `generator=allpages` sa sadržajem, 50 stranica po zahtevu); dopunjava se sa `python -I izvori/xiwl/preuzmi.py`, koji nastavlja od poslednjeg dela i preskače zaključane stranice (jedna zaključana obara ceo deo). Pre mrežnog upita traži u kopiji.
+- Šablon `{{Spomenik` ili `{{Man-Made POI` daje `Name`, `Location` (selo), `Coords`, `Built`, `Reference` (često spomenicinob.info), a `Gmap Notes` i `Directions` kažu odakle je tačka: satelit, Street View, stara karta ili procena („Nothing indicated“, „roughly estimated“, „not traceable“).
+- Par sa našim zapisom važi samo uz isto selo, istu vrstu (bista, groblje, česma, ploča, zgrada, spomenik), godinu koja se ne razlikuje i stranicu koja pripada samo jednom zapisu. Jak par: ista godina ili posebna reč naziva (osoba, jedinica, događaj). Opšti nazivi („Spomenik NOB“, „palim borcima“) bez godine nisu dovoljni ako u selu ima više takvih.
+- Utvrđena tačka briše `priblizno`; procenjena tačka samo pomera zapis, a `priblizno` ostaje.
+
 ## Proveri knjigu, ne samo opis kataloga
 
 Pre obrade PDF-a proveri `pdfinfo`, `pdftotext -layout`, naslovnicu, impresum i poslednju dostupnu stranu. Sadržaj koji navodi 60 strana ne dokazuje da javni PDF ima svih 60. Razlikuj sken, štampanu stranu i godinu samog dokumenta od datuma u URL-u ili rezultatu pretrage.

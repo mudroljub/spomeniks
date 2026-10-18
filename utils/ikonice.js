@@ -1,6 +1,8 @@
 // @ts-check
 import {nestao, ruine} from './helpers.js'
 
+export const navigacijaIkonica = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2.6 21.4 12 12 21.4 2.6 12Z" stroke-linejoin="round"/><path d="M9.6 14.6v-2.8c0-.8.6-1.4 1.4-1.4h4.4M13.2 8.2l2.2 2.2-2.2 2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>`
+
 // senka je ucrtana u slike markera, jer css senka na stotinama markera koci telefon pri pomeranju mape;
 // zato je slika veca od znaka za mesto senke levo, desno i dole, u pikselima pri punoj velicini (velicine su bez senke)
 export const senka = {levo: 2, desno: 8, dole: 10}

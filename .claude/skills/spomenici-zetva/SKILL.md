@@ -32,6 +32,7 @@ Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i ot
 ## Postupci koji rade
 
 - **Pre izveštaja „nema dovoljno podataka“ prvo traži na mreži** (korisnik, 2026-10-18): članak na Vikipediji, vesti, sajt opštine ili muzeja, Google mape, OSM i Commons. Korisniku se javlja nalaz, ili tek posle te pretrage šta je traženo i nije nađeno, uz linkove pregledanih izvora.
+- **Izvor koji ima tačke odmah se meri i preuzima zbirno** (korisnik, 2026-10-18): kad izvor da tačnu tačku makar jednom spomeniku, odmah proveri koliko je velik (npr. MediaWiki `meta=siteinfo&siprop=statistics`) i da li se može preuzeti ceo (API, izvoz, sloj mape). Ne koristi ga samo za mesto zbog kog je nađen. Tako je Partisan Memorials Wiki (xiwl.com, oko 8.300 članaka sa tačkama, uglavnom BiH) ostao neiskorišćen posle žetve za Danilovgrad.
 - **Komentari sa Twittera (X) imaju prednost** (korisnik, 2026-10-18): to su zapažanja i fotografije ljudi sa terena. Njihov podatak (mesto, stanje, autor, godina, fotografija) ima prednost nad starijim katalogom ili bazom; tvit se čita preko `https://cdn.syndication.twimg.com/tweet-result?id=<id>&token=a`, a fotografija ide uz potpis „Ime (@nalog), X“.
 - **Google link od korisnika:**
   - `alati/proveri.py` iz linka čita ime, koordinate i id (heksadecimalni CID posle `0x…:0x`) i nalazi najbliže naše spomenike;
@@ -42,10 +43,12 @@ Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i ot
   - kad pretraga vodi pravo na `/maps/place/`, koordinate su posle `!3d` i `!4d`;
   - glavna fotografija je prva `img` sa `googleusercontent.com/(gps-cs-s|grass-cs|p)/` šira od 200 px, a pun oblik se dobija sa `=w800-k-no` na kraju adrese;
   - potpis je „Google Maps“; Street View se ne koristi;
-  - primer je `alati/google_slike.mjs`. Istoimena mesta su česta (Trg mladih u Ćićevcu i u drugom mestu), pa proveri koordinate.
+  - primer je `alati/google_slike.mjs`. Istoimena mesta su česta (Trg mladih u Ćićevcu i u drugom mestu), pa proveri koordinate;
+  - NOB spomenik koji pretraga usput vrati, a nemamo ga, dodaje se odmah (korisnik, 2026-10-18), i kad nije onaj koji se traži; ostali pogoci iz pretrage proveravaju se protiv približnih zapisa u istom selu.
 - **Commons:**
   - GPS fotografije dolaze preko `prop=coordinates`, `coprimary=all` i `imageinfo` (autor, licenca, `iiurlwidth=640`);
-  - `alati/commons_dodaj.py` traži naslove sa prefiksom `File:`.
+  - `alati/commons_dodaj.py` traži naslove sa prefiksom `File:`;
+  - GPS fotografije je tačka snimka, ne objekta; kategorija fajla (npr. „AVNOJ Museum, Jajce“) i adresa iz izvora potvrđuju mesto.
 - **Wikipedija i Wikidata:**
   - Q-id članka daje `prop=pageprops` (`wikibase_item`);
   - nazive i linkove daje `wbgetentities` sa `props=labels|sitelinks/urls`, po 50 id-ova;
@@ -56,7 +59,7 @@ Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i ot
   - Hrženjakov nalaz o rušenju ili uklanjanju ima prednost nad starijim opisom; promeniti ga može samo konkretan kasniji dokaz obnove ili premeštanja (šta, kada, gde). Izostanak iz Hrženjaka ne znači da spomenik stoji;
   - nedatirana fotografija, aktivan marker na karti i OSM objekat ne potvrđuju da spomenik danas postoji;
   - izvorni `izvor` zapisa se čuva; kasniji dokaz opstanka ne zamenjuje ga.
-- **Približna tačka** (korisnik, 2026-10-18): kad znamo samo selo, spomenik ide na mapu u centar sela iz `alati/naselja_osm.json`, sa `priblizno: true`; aplikacija ga prikazuje sa isprekidanim krugom i piše „Bez tačne lokacije“. Važi samo za sela, ne za gradove, gde je centar predaleko; ploče dolaze poslednje. Isto ime sela nije dokaz: selo mora biti u opštini iz izvora (npr. „Dubica“ na spomenicinob.info je Kozarska Dubica, a ne istoimeno selo 75 km dalje), a imena se upoređuju samo unutar iste države. Kad se nađe prava tačka, `priblizno` se briše.
+- **Približna tačka** (korisnik, 2026-10-18): kad znamo samo selo, spomenik ide na mapu u centar sela iz `alati/naselja_osm.json`, sa `priblizno: true`. Važi samo za sela, ne za gradove, gde je centar predaleko; ploče dolaze poslednje. Isto ime sela nije dokaz: selo mora biti u opštini iz izvora (npr. „Dubica“ na spomenicinob.info je Kozarska Dubica, a ne istoimeno selo 75 km dalje), a imena se upoređuju samo unutar iste države. Kad se nađe prava tačka, `priblizno` se briše. Za približne tačke prvo se uparuju sačuvani zbirni izvori offline (Partisan Memorials Wiki, OSM), pa tek onda Google, i to po opštini ili po spomeniku iz grupe najvišeg prioriteta (redosled je u README TODO), nikad pretraga po svakom zapisu. Pravila prikaza su u [proveri aplikacije](../spomenici-provera/SKILL.md#prikaz-i-prijave-korisnika).
 - **Lokacija bez Google id-a**, redom:
   1. GPS fotografije na Commons-u;
   2. jedan Overpass upit `nwr(around:2000,lat,lon)[historic~"memorial|monument"]` oko sela iz `alati/naselja_osm.json`;

@@ -1628,5 +1628,4443 @@
     "razlog": "OSM naziv „Rodna kuca Rade Koncara“"
    }
   ]
+ },
+ {
+  "odluka": "priblizno-kompleksi-xiwl",
+  "datum": "2026-10-18",
+  "postupak": "Tačke kompleksa bez tačne lokacije preuzete sa Partisan Memorials Wiki (xiwl.com), gde je autor stranice tačku utvrdio i opisao.",
+  "prebaceno": [
+   {
+    "id": "doborovci-spomen-podrucje-na-brdu-monj",
+    "pre": {
+     "lat": 44.7636111,
+     "lng": 18.3908333
+    },
+    "izvor": "https://www.xiwl.com/w/index.php/Doborovci_-_Brdo_Monj_Spomen_Park",
+    "razlog": "vrh brda Monj; spomen-ploče su u stenama na vrhu"
+   },
+   {
+    "id": "podoska-spomen-kompleks-komanda-baljske-cete",
+    "pre": {
+     "lat": 45.16175,
+     "lng": 16.60945
+    },
+    "izvor": "https://www.xiwl.com/w/index.php/Podoška_-_Spomenik_Komanda_Baljske_Čete",
+    "razlog": "kompleks i lovačka kuća vidljivi na satelitskom snimku (Bing)"
+   },
+   {
+    "id": "gornji-garevci-spomen-kompleks-partizanske-bolnice",
+    "pre": {
+     "lat": 44.99164,
+     "lng": 16.78997
+    },
+    "izvor": "https://www.xiwl.com/w/index.php/Gornji_Garevci_-_Spomen-Kompleks_Partizanske_Bolnice",
+    "razlog": "Vitlovska kosa; obeleženo na topografskoj karti iz 1977, pod gustom šumom"
+   },
+   {
+    "id": "gornji-garevci-zajednicka-grobnica-22-zrtve-fasist",
+    "pre": {
+     "lat": 44.99164,
+     "lng": 16.78997
+    },
+    "izvor": "https://www.xiwl.com/w/index.php/Gornji_Garevci_-_Spomen_Grobnica",
+    "razlog": "pravoslavno groblje, tačka po muzejkozare.org"
+   },
+   {
+    "id": "lusci-palanka-spomenik-improvizovanom-aerodromu-iz",
+    "pre": {
+     "lat": 44.74617,
+     "lng": 16.43104
+    },
+    "izvor": "https://www.xiwl.com/w/index.php/Lušci_Palanka_-_Spomenik_Prvom_Avionu",
+    "razlog": "raskrsnica u polju jugoistočno od sela; senka na satelitskom snimku i zgrade sa fotografije"
+   },
+   {
+    "id": "lusci-palanka-spomen-kosturnica-37-palih-boraca",
+    "pre": {
+     "lat": 44.74617,
+     "lng": 16.43104
+    },
+    "izvor": "https://www.xiwl.com/w/index.php/Lušci_Palanka_-_Spomen_Grobnica",
+    "razlog": "školsko dvorište u centru sela, vidljivo na Street View"
+   }
+  ]
+ },
+ {
+  "odluka": "jajce-lokomotiva-na-mapu",
+  "datum": "2026-10-18",
+  "izvor": "https://commons.wikimedia.org/wiki/File:Jajce_-_partizanska_lokomotiva.jpg",
+  "razlog": "Fotografija je u Commons kategoriji AVNOJ Museum, Jajce; tačka snimka je oko 30 m od muzeja, a spomenicinob daje adresu Drugog zasjedanja AVNOJ-a.",
+  "prebaceno": [
+   {
+    "id": "jajce-lokomotiva-partizanka",
+    "izvorniZapis": {
+     "naziv": "Lokomotiva „Partizanka“",
+     "nazivEn": "'Partizanka' locomotive",
+     "mesto": "Jajce",
+     "adresa": "Drugog zasjedanja AVNOJ-a",
+     "drzava": "Bosnia and Herzegovina",
+     "vrsta": "lokalni",
+     "izvor": "https://www.spomenicinob.info/jajce"
+    },
+    "tacka": "Commons fotografija lokomotive (Zavičajac, 2018) u kategoriji AVNOJ Museum, Jajce; tačka snimka"
+   }
+  ]
+ },
+ {
+  "odluka": "priblizno-xiwl-zbirno",
+  "datum": "2026-10-18",
+  "postupak": "Približne tačke uparene offline sa preuzetim Partisan Memorials Wiki (izvori/xiwl/): isto selo do 15 km, ista vrsta, godina se ne razlikuje, stranica pripada samo jednom zapisu; jak par = ista godina ili posebna reč naziva (osoba, jedinica). Tačka utvrđena na wikiju (satelit, Street View, stara karta) briše priblizno; procenjena tačka pomera zapis, a priblizno ostaje. Slabi parovi (56) nisu upisani. Drugi prolaz (Rekovac–Z) posle dovršenog preuzimanja; par Zlakusa – Spomen park Vešala odbačen (drveni spomenik iz 1990-ih, nije spomenik na Gradini).",
+  "ishod": {
+   "tacno": 295,
+   "i dalje priblizno": 100
+  },
+  "prebaceno": [
+   {
+    "id": "noskovacka-dubrava-skupna-grobnica-i-spomenik-djec",
+    "pre": {
+     "lat": 45.77526,
+     "lng": 17.83025
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Noskova%C4%8Dka_Dubrava_-_Spomen_Kosturnica",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "masurica-spomen-park-u-masurici",
+    "pre": {
+     "lat": 42.67083,
+     "lng": 22.16167
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Masurica_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "bunuski-cifluk-spomenik-u-bunuskom-cifluku",
+    "pre": {
+     "lat": 42.88472,
+     "lng": 21.88246
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Bunu%C5%A1ki_%C4%8Cifluk_-_Spomenik_Palim_Borcima",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "bratmilovce-spomenik-u-bratmilovcu",
+    "pre": {
+     "lat": 43.00218,
+     "lng": 21.97759
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Bratmilovce_-_Spomenik_Palim_Borcima",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "kuna-peljeska-spomenik-palim-borcima-novj-i-zrtvam",
+    "pre": {
+     "lat": 42.96737,
+     "lng": 17.34563
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Kuna_Pelje%C5%A1ka_-_Spomenik_Palim_Borcima_NOVJ_i_%C5%BDrtvama_Fa%C5%A1izma",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "ilovik-spomenik-palim-borcima-novj",
+    "pre": {
+     "lat": 44.46204,
+     "lng": 14.54761
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ilovik_-_Spomenik_Palim_Borcima_NOVJ",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "banovici-selo-grobno-mjesto-5-partizanskih-boraca",
+    "pre": {
+     "lat": 44.40543,
+     "lng": 18.44452
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Banovi%C4%87i_Selo_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1975",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "omazici-spomen-kosturnica-palih-boraca",
+    "pre": {
+     "lat": 44.42606,
+     "lng": 18.55145
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Omazi%C4%87i_-_Spomen_Kosturnica",
+    "nacin": "jedini te vrste",
+    "godina": "1974",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gornji-bucik-partizansko-groblje",
+    "pre": {
+     "lat": 44.43898,
+     "lng": 18.5257
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gornji_Bu%C4%8Dik_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1980",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "izacic-spomenik-strijeljanim-odbornicima-izacica",
+    "pre": {
+     "lat": 44.87465,
+     "lng": 15.78293
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Iza%C4%8Di%C4%87_-_Spomenik_Streljanim_Narodnim_Odbornicima_Iza%C4%8Di%C4%87a",
+    "nacin": "posebna rec",
+    "godina": "1951",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "grabez-spomenik-palim-borcima-i-zrtvama-fasisticko",
+    "pre": {
+     "lat": 44.82609,
+     "lng": 15.95979
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Grabe%C5%BE_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1973",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "racic-spomenik-palim-borcima",
+    "pre": {
+     "lat": 44.74632,
+     "lng": 15.94018
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ra%C4%8Di%C4%87_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1983",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "obrijez-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "pre": {
+     "lat": 44.64883,
+     "lng": 19.19877
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Obrije%C5%BE_-_Spomenik_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1966",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "bjelosevac-spomenik-palim-borcima-i-zrtvama-fasist",
+    "pre": {
+     "lat": 44.60751,
+     "lng": 19.15105
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Bjelo%C5%A1evac_-_Spomenik_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1965",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "pucile-partizansko-groblje",
+    "pre": {
+     "lat": 44.72628,
+     "lng": 19.20716
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Pu%C4%8Dile_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1968",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "dragaljevac-donji-spomenik-na-mjestu-smrti-vlade-k",
+    "pre": {
+     "lat": 44.80998,
+     "lng": 19.06685
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Dragaljevac_Donji_-_Spomenik_Vladu_Karanovi%C4%87u",
+    "nacin": "posebna rec",
+    "godina": "1980",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "dragaljevac-donji-spomenik-napadu-koji-je-predvodi",
+    "pre": {
+     "lat": 44.80998,
+     "lng": 19.06685
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Dragaljevac_Donji_-_Spomenik_Fadilu_Jahi%C4%87u",
+    "nacin": "posebna rec",
+    "godina": "1982",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "crnjelovo-gornje-spomenik-palim-borcima-i-zrtvama",
+    "pre": {
+     "lat": 44.84179,
+     "lng": 19.12463
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Crnjelovo_Gornje_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1951",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "batkovic-spomenik-palim-borcima-i-zrtvama-fasistic",
+    "pre": {
+     "lat": 44.83321,
+     "lng": 19.21079
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Batkovi%C4%87_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1981",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "brodac-donji-spomenik-48-palih-boraca-i-zrtava-fas",
+    "pre": {
+     "lat": 44.86437,
+     "lng": 19.28093
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Brodac_Donji_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "posebna rec",
+    "godina": "1957",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "balatun-spomenik-53-pala-borca-i-58-zrtava-fasisti",
+    "pre": {
+     "lat": 44.86317,
+     "lng": 19.33837
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Balatun_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "posebna rec",
+    "godina": "1960",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "balatun-spomen-cesma-6-partijskih-aktivista-koje-s",
+    "pre": {
+     "lat": 44.86317,
+     "lng": 19.33837
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Balatun_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1960",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "medjasi-spomenik-macvanskom-partizanskom-odredu",
+    "pre": {
+     "lat": 44.82593,
+     "lng": 19.30553
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Me%C4%91a%C5%A1i_-_Spomenik_Ma%C4%8Dvanskom_Partizanskom_Odredu",
+    "nacin": "posebna rec",
+    "godina": "1983",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "popovi-spomenik-organizacijama-za-ustanak",
+    "pre": {
+     "lat": 44.7658,
+     "lng": 19.28745
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Popovi_-_Spomenik_Ustanku",
+    "nacin": "posebna rec",
+    "godina": "1960",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "balatun-spomenik-na-mjestu-smrti-srbe-sekulica-u-d",
+    "pre": {
+     "lat": 44.86317,
+     "lng": 19.33837
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Balatun_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1982",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "fatnica-partizansko-groblje",
+    "pre": {
+     "lat": 43.02831,
+     "lng": 18.32302
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Fatnica_-_Partizansko_Groblje",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "divin-spomenik-palim-borcima-nor-a",
+    "pre": {
+     "lat": 43.04121,
+     "lng": 18.29291
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Divin_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "ljusina-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "pre": {
+     "lat": 44.94166,
+     "lng": 16.15091
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ljusina_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1964",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "kolunic-spomen-kosturnica-zrtava-fasistickog-teror",
+    "pre": {
+     "lat": 44.51454,
+     "lng": 16.34149
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Koluni%C4%87_-_Spomen_Kosturnica",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "kolunic-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "pre": {
+     "lat": 44.51454,
+     "lng": 16.34149
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Koluni%C4%87_-_Spomenik_NOB",
+    "nacin": "jedini te vrste",
+    "godina": "1960",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "nuglasica-spomenik-palim-borcima-i-zrtvama-fasisti",
+    "pre": {
+     "lat": 44.1021,
+     "lng": 16.59724
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Nugla%C5%A1ica_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1976",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "fakovici-zajednicka-grobnica-palih-pripadnika-sreb",
+    "pre": {
+     "lat": 44.07803,
+     "lng": 19.51674
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Fakovi%C4%87i_-_Spomen_Groblje",
+    "nacin": "posebna rec",
+    "godina": "1953",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "kravica-spomen-cesma-bogomiru-karaklajicu",
+    "pre": {
+     "lat": 44.21249,
+     "lng": 19.20012
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Kravica_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1950",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "razljevo-partizansko-groblje",
+    "pre": {
+     "lat": 44.79253,
+     "lng": 18.90788
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ra%C5%BEljevo_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1973",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "donja-barica-spomenik-zrtvama-fasistickog-terora",
+    "pre": {
+     "lat": 45.04574,
+     "lng": 17.96913
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Donja_Barica_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1954",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "prebilovci-spomen-kosturnica-zrtava-fasistickog-te",
+    "pre": {
+     "lat": 43.09421,
+     "lng": 17.75301
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Prebilovci_-_Spomen_Kosturnica",
+    "nacin": "posebna rec",
+    "godina": "1960",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "klepci-spomenik-palim-borcima-i-zrtvama-fasisticko",
+    "pre": {
+     "lat": 43.09334,
+     "lng": 17.72035
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Klepci_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1951",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "prebilovci-spomenik-slobodi",
+    "pre": {
+     "lat": 43.09421,
+     "lng": 17.75301
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Prebilovci_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1962",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "brezova-kosa-zajednicka-grobnica-9-zrtava-fasistic",
+    "pre": {
+     "lat": 45.01233,
+     "lng": 15.92709
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Brezova_Kosa_-_Groblje_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1979",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "mutnik-spomenik-na-mjestu-strijeljanja-143-zrtve-f",
+    "pre": {
+     "lat": 44.96554,
+     "lng": 15.86086
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Mutnik_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "posebna rec",
+    "godina": "1982",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "pecigrad-spomenik-na-prvobitnom-mjestu-sahrane-nar",
+    "pre": {
+     "lat": 45.0543,
+     "lng": 15.89639
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Pe%C4%87igrad_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1978",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "brnjik-spomen-cesma-satki-nukic",
+    "pre": {
+     "lat": 44.7281,
+     "lng": 18.76668
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Brnjik_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1985",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "luzani-bosanski-spomenik-palim-borcima",
+    "pre": {
+     "lat": 45.02168,
+     "lng": 17.99391
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Lu%C5%BEani_Bosanski_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1953",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "pridjel-donji-spomen-kosturnica",
+    "pre": {
+     "lat": 44.70892,
+     "lng": 18.09018
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Pridjel_Donji_-_Spomen_Kosturnica",
+    "nacin": "jedini te vrste",
+    "godina": "1970",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "lipac-partizansko-groblje-i-kosturnica",
+    "pre": {
+     "lat": 44.71769,
+     "lng": 18.1121
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Lipac_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1950",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "boljanic-partizansko-groblje",
+    "pre": {
+     "lat": 44.68901,
+     "lng": 18.22119
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Boljani%C4%87_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1959",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "boljanic-spomenik-pripremama-za-ustanak",
+    "pre": {
+     "lat": 44.68901,
+     "lng": 18.22119
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Boljani%C4%87_-_Spomenik_Ustanku",
+    "nacin": "posebna rec",
+    "godina": "1950",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "busletic-spomenik-partizanskim-borcima-i-zrtvama-f",
+    "pre": {
+     "lat": 44.80522,
+     "lng": 18.0834
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Bu%C5%A1leti%C4%87_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1980",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "kozuhe-spomenik-ustanku",
+    "pre": {
+     "lat": 44.86056,
+     "lng": 18.11146
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ko%C5%BEuhe_-_Spomenik_Ustanku",
+    "nacin": "posebna rec",
+    "godina": "1966",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "kozuhe-partizansko-groblje",
+    "pre": {
+     "lat": 44.86056,
+     "lng": 18.11146
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ko%C5%BEuhe_-_Partizansko_Groblje",
+    "nacin": "posebna rec",
+    "godina": "1986",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "opsine-spomenik-organizovanju-ustanka",
+    "pre": {
+     "lat": 44.78985,
+     "lng": 18.01699
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Opsine_-_Spomenik_Ustanku",
+    "nacin": "posebna rec",
+    "godina": "1953",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "kotorsko-spomenik-palim-partizanskim-borcima",
+    "pre": {
+     "lat": 44.83438,
+     "lng": 18.05903
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Kotorsko_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1967",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "podnovlje-spomenik-palim-partizanskim-borcima-i-zr",
+    "pre": {
+     "lat": 44.93498,
+     "lng": 18.11208
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Podnovlje_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1983",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "ljeskove-vode-spomenik-partizanskim-borcima",
+    "pre": {
+     "lat": 44.77198,
+     "lng": 17.93582
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ljeskove_Vode_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1951",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "donji-zabar-spomenik-formiranju-prve-posavske-jedi",
+    "pre": {
+     "lat": 44.94812,
+     "lng": 18.64222
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Donji_%C5%BDabar_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1973",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "drvar-selo-partizansko-groblje",
+    "pre": {
+     "lat": 44.36171,
+     "lng": 16.36891
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Drvar_Selo_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1957",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "prekaja-partizansko-groblje-sa-19-palih-boraca",
+    "pre": {
+     "lat": 44.31844,
+     "lng": 16.53934
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Prekaja_%28Drvar%29_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "miljevina-mjesto-gdje-su-tito-i-vrhovni-stab-presl",
+    "pre": {
+     "lat": 43.51096,
+     "lng": 18.64218
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Miljevina_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1975",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "ljeskov-dub-spomenik-zrtvama-fasistickog-terora",
+    "pre": {
+     "lat": 43.22641,
+     "lng": 18.35787
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ljeskov_Dub_-_Spomenik_%C5%BDrtvama_Fa%C5%A1izma",
+    "nacin": "jedini te vrste",
+    "godina": "1959",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "izgori-spomenik-na-mjestu-formiranja-iv-i-v-crnogo",
+    "pre": {
+     "lat": 43.24659,
+     "lng": 18.64575
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Izgori_-_Spomenik_Crnogorskoj_Brigadi",
+    "nacin": "posebna rec",
+    "godina": "1963",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "gornja-bodezista-spomenik-palim-borcima",
+    "pre": {
+     "lat": 43.25678,
+     "lng": 18.50799
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gornja_Bode%C5%BEi%C5%A1ta_-_Spomenik_Palim_Borcima",
+    "nacin": "posebna rec",
+    "godina": "1950",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "novi-dulici-spomenik-palim-borcima",
+    "pre": {
+     "lat": 43.05556,
+     "lng": 18.60045
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Novi_Duli%C4%87i_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1963",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "radaslije-partizansko-groblje-sa-120-palih-boraca",
+    "pre": {
+     "lat": 44.05142,
+     "lng": 16.83064
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Radaslije_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1969",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "halapic-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "pre": {
+     "lat": 44.07173,
+     "lng": 16.79298
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Halapi%C4%87_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1969",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "potrkusa-spomenik-brigadama-koje-su-ucestvovale-u",
+    "pre": {
+     "lat": 43.61979,
+     "lng": 18.92732
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Potrku%C5%A1a_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1974",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "ilovaca-spomenik-na-mjestu-strijeljanja-medicinski",
+    "pre": {
+     "lat": 43.63758,
+     "lng": 18.81667
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ilova%C4%8Da_-_Spomenik_Palim_Borcima",
+    "nacin": "posebna rec",
+    "godina": "1982",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "donja-lohinja-spomen-kosturnica-boraca-xiv-srpske",
+    "pre": {
+     "lat": 44.67061,
+     "lng": 18.33877
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Donja_Lohinja_-_Spomen_Kosturnica",
+    "nacin": "posebna rec",
+    "godina": "1983",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gornja-lohinja-spomen-cesma-58-zrtava-fasistickog",
+    "pre": {
+     "lat": 44.69827,
+     "lng": 18.35795
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gornja_Lohinja_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1959",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "brestovcina-partizansko-groblje",
+    "pre": {
+     "lat": 45.12633,
+     "lng": 17.2822
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Brestov%C4%8Dina_%28Gradi%C5%A1ka%29_-_Spomen_Grobnica",
+    "nacin": "jedini te vrste",
+    "godina": "1962",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "laminci-sredjani-spomenik-palim-borcima-i-zrtvama",
+    "pre": {
+     "lat": 45.10028,
+     "lng": 17.3392
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Laminci_Sre%C4%91ani_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1959",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "kocicevo-spomenik-palim-borcima-i-zrtvama-fasistic",
+    "pre": {
+     "lat": 45.06446,
+     "lng": 17.39381
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ko%C4%8Di%C4%87evo_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1984",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "donji-karajzovci-spomenik-palim-borcima-i-zrtvama",
+    "pre": {
+     "lat": 45.01434,
+     "lng": 17.36211
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Donji_Karajzovci_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1978",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gornji-karajzovci-spomenik-palim-borcima-i-zrtvama",
+    "pre": {
+     "lat": 45.03713,
+     "lng": 17.35617
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gornji_Karajzovci_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1977",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "elezagici-spomenik-palim-borcima-i-zrtvama-fasisti",
+    "pre": {
+     "lat": 45.04906,
+     "lng": 17.26513
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Elezagi%C4%87i_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1977",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gornja-jurkovica-spomenik-palim-borcima-i-zrtvama",
+    "pre": {
+     "lat": 44.95522,
+     "lng": 17.16302
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gornja_Jurkovica_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1973",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "donji-podgradci-spomenik-palim-borcima-i-zrtvama-f",
+    "pre": {
+     "lat": 45.08476,
+     "lng": 17.08201
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Donji_Podgradci_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1989",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gornji-podgradci-spomenik-bitka-na-kozari",
+    "pre": {
+     "lat": 45.05654,
+     "lng": 17.04547
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gornji_Podgradci_-_Spomen_Park",
+    "nacin": "posebna rec",
+    "godina": "1983",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "milosevo-brdo-spomenik-palim-borcima-i-zrtvama-fas",
+    "pre": {
+     "lat": 45.10701,
+     "lng": 17.06961
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Milo%C5%A1evo_Brdo_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1967",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "milosevo-brdo-groblje-sa-9-zajednickih-grobnica-zr",
+    "pre": {
+     "lat": 45.10701,
+     "lng": 17.06961
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Milo%C5%A1evo_Brdo_-_Spomen_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1967",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gornji-podgradci-spomenik-formiranju-xi-krajiske-u",
+    "pre": {
+     "lat": 45.05654,
+     "lng": 17.04547
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gornji_Podgradci_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1978",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gasnica-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "pre": {
+     "lat": 45.17533,
+     "lng": 17.09201
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ga%C5%A1nica_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1987",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "donji-mamici-spomenik-na-mjestu-strijeljanja-grge",
+    "pre": {
+     "lat": 43.34727,
+     "lng": 17.48703
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Donji_Mami%C4%87i_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1961",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "pazaric-spomen-kosturnica",
+    "pre": {
+     "lat": 43.78751,
+     "lng": 18.15117
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Pazari%C4%87_-_Spomen_Kosturnica",
+    "nacin": "jedini te vrste",
+    "godina": "1954",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "drozgometva-spomen-kosturnica-74-zrtve-fasistickog",
+    "pre": {
+     "lat": 43.84069,
+     "lng": 18.16993
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Drozgometva_-_Spomen_Kosturnica",
+    "nacin": "jedini te vrste",
+    "godina": "1955",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "pjenovac-spomenik-na-mjestu-smrti-milana-ilica-cic",
+    "pre": {
+     "lat": 44.09384,
+     "lng": 18.8347
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Pjenovac_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1959",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "podlugovi-grob-17-zrtava-fasistickog-terora-ubijen",
+    "pre": {
+     "lat": 43.9696,
+     "lng": 18.26041
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Podlugovi_-_Groblje_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "posebna rec",
+    "godina": "1951",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "divicani-partizansko-groblje",
+    "pre": {
+     "lat": 44.36682,
+     "lng": 17.32666
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Divi%C4%8Dani_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1965",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "kikaci-spomenik-iliji-strugaru",
+    "pre": {
+     "lat": 44.49769,
+     "lng": 18.80295
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Kika%C4%8Di_-_Spomenik_Iliji_Strugaru",
+    "nacin": "posebna rec",
+    "godina": "1946",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "han-ploca-partizansko-groblje",
+    "pre": {
+     "lat": 43.89275,
+     "lng": 18.15775
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Han_Plo%C4%8Da_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1953",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gojakovac-spomenik-visocko-fojnickom-partizanskom",
+    "pre": {
+     "lat": 43.9758,
+     "lng": 18.04898
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gojakovac_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1963",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "imljani-spomenik-formiranju-imljanskog-partizansko",
+    "pre": {
+     "lat": 44.4004,
+     "lng": 17.49022
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Imljani_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1986",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "podorasac-spomenik-strijeljanju-24-clana-porodice",
+    "pre": {
+     "lat": 43.70167,
+     "lng": 17.99417
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Podora%C5%A1ac_%28Konjic%29_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "posebna rec",
+    "godina": "1973",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "mrazovci-spomenik-nikoli-luketicu",
+    "pre": {
+     "lat": 45.17,
+     "lng": 16.74678
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Mrazovci_-_Spomenik_Nikoli_Luketi%C4%87u",
+    "nacin": "posebna rec",
+    "godina": "1954",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "aginci-partizansko-groblje",
+    "pre": {
+     "lat": 45.14404,
+     "lng": 16.78146
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Aginci_-_Partizansko_Groblje",
+    "nacin": "posebna rec",
+    "godina": "1954",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "aginci-spomen-cesma-dragoju-miljatovicu-svarcu",
+    "pre": {
+     "lat": 45.14404,
+     "lng": 16.78146
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Aginci_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1951",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "draksenic-zajednicka-grobnica-100-zena-zrtava-fasi",
+    "pre": {
+     "lat": 45.20739,
+     "lng": 16.89948
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Drakseni%C4%87_-_Partizansko_Groblje",
+    "nacin": "posebna rec",
+    "godina": "1957",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "hasani-spomenik-palim-borcima",
+    "pre": {
+     "lat": 44.8318,
+     "lng": 16.35072
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ha%C5%A1ani_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1965",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "begovo-selo-spomenik-zrtvama-fasistickog-terora",
+    "pre": {
+     "lat": 43.9892,
+     "lng": 17.29079
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Begovo_Selo_%28Kupres%29_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1982",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "begovo-selo-zajednicka-grobnica-clanova-porodice-s",
+    "pre": {
+     "lat": 43.9892,
+     "lng": 17.29079
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Begovo_Selo_%28Kupres%29_-_Spomen_Grobnica",
+    "nacin": "posebna rec",
+    "godina": "1963",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "jakupovci-spomenik-palim-borcima-i-zrtvama-fasisti",
+    "pre": {
+     "lat": 44.89127,
+     "lng": 17.26723
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Jakupovci_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1980",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "mrcevci-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "pre": {
+     "lat": 44.97837,
+     "lng": 17.35193
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Mr%C4%8Devci_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1975",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "drugovici-spomen-kosturnica-palih-boraca",
+    "pre": {
+     "lat": 44.88536,
+     "lng": 17.41182
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Drugovi%C4%87i_-_Spomen_Kosturnica",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "kadinjani-spomenik-na-mjestu-smrti-narodnog-heroja",
+    "pre": {
+     "lat": 44.84054,
+     "lng": 17.36248
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Kadinjani_-_Spomenik_Rudiju_%C4%8Cajavecu",
+    "nacin": "posebna rec",
+    "godina": "1966",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "drugovici-spomenik-palim-borcima-i-zrtvama-fasisti",
+    "pre": {
+     "lat": 44.88536,
+     "lng": 17.41182
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Drugovi%C4%87i_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1983",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "bancici-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "pre": {
+     "lat": 42.97159,
+     "lng": 18.00468
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ban%C4%8Di%C4%87i_%28Ljubinje%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1966",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "cerno-spomenik-zrtvama-fasistickog-terora",
+    "pre": {
+     "lat": 43.20418,
+     "lng": 17.62133
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Cerno_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "hrasljani-spomenik-zrtvama-fasistickog-terora",
+    "pre": {
+     "lat": 43.16786,
+     "lng": 17.56506
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Hra%C5%A1ljani_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "labucka-spomen-cesma-prvom-citanju-zakletve-prvog",
+    "pre": {
+     "lat": 44.6126,
+     "lng": 18.86158
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Labucka_-_Spomen_%C4%8Cesma_Kurja%C4%8Da",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "pirkovci-spomenik-na-mjestu-strijeljanja-jove-mitr",
+    "pre": {
+     "lat": 44.65828,
+     "lng": 18.83467
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Pirkovci_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1985",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "bikodze-spomen-cesma-stanovnicima-sela-koji-su-pal",
+    "pre": {
+     "lat": 44.51827,
+     "lng": 18.4801
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Bikod%C5%BEe_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1960",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gnojnica-spomen-cesma-palim-borcima",
+    "pre": {
+     "lat": 44.60815,
+     "lng": 18.44203
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gnojnica_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1978",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "dobosnica-spomenik-palim-borcima-nor-a",
+    "pre": {
+     "lat": 44.58516,
+     "lng": 18.45009
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Dobo%C5%A1nica_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1953",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "novi-seher-spomenik-16-palih-boraca",
+    "pre": {
+     "lat": 44.50957,
+     "lng": 18.02593
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Novi_%C5%A0eher_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1978",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "osve-spomenik-zrtvama-fasistickog-terora",
+    "pre": {
+     "lat": 44.55384,
+     "lng": 18.05281
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/O%C5%A1ve_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1975",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "babesnica-spomenik-zrtvama-nor-a",
+    "pre": {
+     "lat": 44.93228,
+     "lng": 18.24717
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Babe%C5%A1nica_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1984",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "garevac-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "pre": {
+     "lat": 44.96763,
+     "lng": 18.35594
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Garevac_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1984",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "goranci-spomen-kosturnica-partizanskih-boraca-iz-d",
+    "pre": {
+     "lat": 43.41373,
+     "lng": 17.7409
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Goranci_%28Mostar%29_-_Spomen_Kosturnica",
+    "nacin": "posebna rec",
+    "godina": "1962",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "bacevici-spomenik-palim-borcima-i-zrtvama-fasistic",
+    "pre": {
+     "lat": 43.26504,
+     "lng": 17.82171
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ba%C4%8Devi%C4%87i_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1971",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "kifino-selo-partizansko-groblje",
+    "pre": {
+     "lat": 43.2818,
+     "lng": 18.20726
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Kifino_Selo_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1953",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "bratac-spomenik-borcima-bratackog-odreda-poginulim",
+    "pre": {
+     "lat": 43.26873,
+     "lng": 18.22451
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Brata%C4%8D_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1954",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "donji-drezanj-partizansko-groblje",
+    "pre": {
+     "lat": 43.19083,
+     "lng": 18.22737
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Donji_Dre%C5%BEanj_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "radomirovac-partizansko-groblje",
+    "pre": {
+     "lat": 45.00743,
+     "lng": 16.49955
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Radomirovac_-_Partizansko_Groblje",
+    "nacin": "posebna rec",
+    "godina": "1957",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "rasce-spomenik-palim-borcima-i-zrtvama-fasistickog",
+    "pre": {
+     "lat": 44.92672,
+     "lng": 16.27622
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ra%C5%A1%C4%87e_%28Novi_Grad%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1985",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "donji-svilaj-spomenik-palim-borcima",
+    "pre": {
+     "lat": 45.1107,
+     "lng": 18.27317
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Donji_Svilaj_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1959",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "osmaci-grob-narodnog-heroja-svetozara-vukovica-zar",
+    "pre": {
+     "lat": 44.39483,
+     "lng": 18.90656
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Osmaci_-_Spomen_Grobnica",
+    "nacin": "posebna rec",
+    "godina": "1951",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "osmaci-spomenik-prvom-saveznickom-vazdusnom-mostu",
+    "pre": {
+     "lat": 44.39483,
+     "lng": 18.90656
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Osmaci_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1952",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "hotocina-spomen-cesma-palim-vojnicima-i-narodnom-h",
+    "pre": {
+     "lat": 43.82356,
+     "lng": 18.67396
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Hoto%C4%8Dina_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1953",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "praca-spomen-cesma-24-pala-partizana-i-zrtvama-fas",
+    "pre": {
+     "lat": 43.76549,
+     "lng": 18.76392
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Pra%C4%8Da_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1970",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "pelagicevo-statua-vase-pelagica",
+    "pre": {
+     "lat": 44.90642,
+     "lng": 18.61191
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Pelagi%C4%87evo_-_Spomenik_Vasu_Pelagi%C4%87u",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "blazevac-spomenik-na-mjestu-smrti-hamida-berbica",
+    "pre": {
+     "lat": 44.85608,
+     "lng": 18.59125
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Bla%C5%BEevac_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1955",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "pelagicevo-partizansko-groblje",
+    "pre": {
+     "lat": 44.90642,
+     "lng": 18.61191
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Pelagi%C4%87evo_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1952",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "porjecina-spomenik-palim-borcima-i-zrtvama-fasisti",
+    "pre": {
+     "lat": 44.59836,
+     "lng": 18.39415
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Porje%C4%8Dina_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "posebna rec",
+    "godina": "1974",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "porjecina-spomen-cesma-partizanskim-borcima",
+    "pre": {
+     "lat": 44.59836,
+     "lng": 18.39415
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Porje%C4%8Dina_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1985",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "nisevici-spomenik-ustanku",
+    "pre": {
+     "lat": 44.88016,
+     "lng": 16.92192
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ni%C5%A1evi%C4%87i_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1951",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "nisevici-spomen-cesma-na-mjestu-smrti-mileve-mijat",
+    "pre": {
+     "lat": 44.88016,
+     "lng": 16.92192
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ni%C5%A1evi%C4%87i_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "rakelici-partizansko-groblje",
+    "pre": {
+     "lat": 44.90131,
+     "lng": 16.76966
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Rakeli%C4%87i_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1954",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gornja-dragotinja-partizansko-groblje",
+    "pre": {
+     "lat": 45.04214,
+     "lng": 16.62186
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gornja_Dragotinja_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1953",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "ljeskare-spomenik-zrtvama-fasistickog-terora",
+    "pre": {
+     "lat": 44.95151,
+     "lng": 16.62797
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ljeskare_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1951",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "okolica-spomenik-formiranju-xiv-srednjobosanske-no",
+    "pre": {
+     "lat": 44.85357,
+     "lng": 17.65397
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Okolica_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "kulasi-zajednicka-grobnica-5-nepoznatih-boraca",
+    "pre": {
+     "lat": 44.76865,
+     "lng": 17.74239
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Kula%C5%A1i_-_Grobnica_Palim_Borcima",
+    "nacin": "posebna rec",
+    "godina": "1952",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gornja-mravica-spomenik-palim-borcima-i-zrtvama-fa",
+    "pre": {
+     "lat": 44.85249,
+     "lng": 17.62115
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gornja_Mravica_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1976",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "naseobina-lisnja-partizansko-groblje",
+    "pre": {
+     "lat": 44.88682,
+     "lng": 17.56116
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Naseobina_Li%C5%A1nja_-_Partizansko_Groblje",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "lisnja-spomenik-palim-borcima-i-zrtvama-fasisticko",
+    "pre": {
+     "lat": 44.87338,
+     "lng": 17.55295
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Li%C5%A1nja_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1983",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "prosjek-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "pre": {
+     "lat": 44.8946,
+     "lng": 17.46726
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Prosjek_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1984",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gornja-mravica-spomen-cesma-palim-borcima-i-zrtvam",
+    "pre": {
+     "lat": 44.85249,
+     "lng": 17.62115
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gornja_Mravica_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1984",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gucevo-spomenik-gucevskom-partizanskom-odredu",
+    "pre": {
+     "lat": 43.84226,
+     "lng": 18.96306
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gu%C4%8Devo_-_Spomenik_Gu%C4%8Deva%C4%8Dkom_Partizanskom_Odredu",
+    "nacin": "posebna rec",
+    "godina": "1972",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "mesici-spomenik-palim-borcima",
+    "pre": {
+     "lat": 43.7537,
+     "lng": 18.98639
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Mesi%C4%87i_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1980",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gaocici-zajednicka-grobnica-palih-boraca-bivsa",
+    "pre": {
+     "lat": 43.6658,
+     "lng": 19.33517
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gao%C4%8Di%C4%87i_-_Spomen_Grobnica",
+    "nacin": "jedini te vrste",
+    "godina": "1969",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gaocici-partizanska-cesma",
+    "pre": {
+     "lat": 43.6658,
+     "lng": 19.33517
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gao%C4%8Di%C4%87i_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1966",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "pisari-spomenik-palim-borcima-i-zrtvama-fasisticko",
+    "pre": {
+     "lat": 45.04207,
+     "lng": 18.44431
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Pisari_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1985",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "kruskovo-polje-spomenik-palim-borcima-i-zrtvama-fa",
+    "pre": {
+     "lat": 45.00181,
+     "lng": 18.42551
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Kru%C5%A1kovo_Polje_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1986",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "batkusa-spomen-cesma-palim-borcima-i-zrtvama-fasis",
+    "pre": {
+     "lat": 44.9833,
+     "lng": 18.55346
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Batku%C5%A1a_-_Spomen_%C4%8Cesma",
+    "nacin": "jedini te vrste",
+    "godina": "1978",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "obudovac-spomenik-posavskom-partizanskom-odredu",
+    "pre": {
+     "lat": 44.96868,
+     "lng": 18.60104
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Obudovac_-_Spomenik_Posavskom_Partizanskom_Odredu",
+    "nacin": "posebna rec",
+    "godina": "1963",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "obudovac-spomenik-niki-pejicu",
+    "pre": {
+     "lat": 44.96868,
+     "lng": 18.60104
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Obudovac_-_Spomenik_Niku_Peji%C4%87u",
+    "nacin": "posebna rec",
+    "godina": "1963",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "lukavice-partizansko-groblje",
+    "pre": {
+     "lat": 44.81801,
+     "lng": 16.49111
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Lukavice_%28Sanski_Most%29_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "jelasinovci-spomenik-partizanskom-mlinu-i-radio-re",
+    "pre": {
+     "lat": 44.68949,
+     "lng": 16.53546
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Jela%C5%A1inovci_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "papraca-spomenik-palim-borcima",
+    "pre": {
+     "lat": 44.33545,
+     "lng": 18.94745
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Papra%C4%87a_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1953",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "betanj-spomen-cesma-partizanskoj-pobjedi-nad-njema",
+    "pre": {
+     "lat": 44.22803,
+     "lng": 18.86566
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Betanj_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1952",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "kozila-partizansko-groblje",
+    "pre": {
+     "lat": 44.22247,
+     "lng": 17.07017
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Kozila_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1954",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "natpolje-partizansko-groblje",
+    "pre": {
+     "lat": 44.24252,
+     "lng": 17.20243
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Natpolje_-_Partizansko_Groblje",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "kocerin-zajednicka-grobnica-palih-boraca",
+    "pre": {
+     "lat": 43.39004,
+     "lng": 17.48584
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ko%C4%8Derin_-_Spomen_Grobnica",
+    "nacin": "jedini te vrste",
+    "godina": "1974",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "podromanija-kosturnica-13-palih-boraca-prvog-prole",
+    "pre": {
+     "lat": 43.91862,
+     "lng": 18.76977
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Podromanija_-_Spomen_Kosturnica",
+    "nacin": "posebna rec",
+    "godina": "1951",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "kaoci-spomenik-palim-borcima",
+    "pre": {
+     "lat": 45.10321,
+     "lng": 17.60218
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Kaoci_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1984",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "korovi-spomenik-palim-borcima-i-zrtvama-fasisticko",
+    "pre": {
+     "lat": 45.07548,
+     "lng": 17.77136
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Korovi_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1986",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gornja-lepenica-spomenik-xii-slavonskoj-udarnoj-br",
+    "pre": {
+     "lat": 45.01911,
+     "lng": 17.65446
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gornja_Lepenica_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1981",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "povelic-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "pre": {
+     "lat": 45.07237,
+     "lng": 17.50088
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Poveli%C4%8D_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1979",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "prijebljezi-spomenik-palim-borcima-i-zrtvama-fasis",
+    "pre": {
+     "lat": 45.04782,
+     "lng": 17.46445
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Prijebljezi_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1978",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "razboj-ljevcanski-spomenik-zrtvama-fasistickog-ter",
+    "pre": {
+     "lat": 45.04357,
+     "lng": 17.42192
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Razboj_Ljev%C4%8Danski_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "posebna rec",
+    "godina": "1987",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gornji-kladari-spomenik-palim-borcima-i-zrtvama-fa",
+    "pre": {
+     "lat": 45.05917,
+     "lng": 17.42506
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gornji_Kladari_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1978",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "banja-vrucica-spomenik-ratku-jovanovicu",
+    "pre": {
+     "lat": 44.59141,
+     "lng": 17.87569
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Banja_Vru%C4%87ica_-_Spomenik_Ratku_Jovanovi%C4%87u",
+    "nacin": "posebna rec",
+    "godina": "1957",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "pribinic-partizansko-groblje",
+    "pre": {
+     "lat": 44.6104,
+     "lng": 17.69068
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Pribini%C4%87_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1958",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "cebara-zajednicka-grobnica-zrtava-fasistickog-tero",
+    "pre": {
+     "lat": 43.64858,
+     "lng": 17.22321
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Cebara_-_Groblje_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "posebna rec",
+    "godina": "1966",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "lastva-spomen-cesma-vukosavu-sakoticu-i-aliji-ceri",
+    "pre": {
+     "lat": 42.70084,
+     "lng": 18.47531
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Lastva_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1960",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "bukinje-spomenik-borcima-17-divizije-palim-u-odbra",
+    "pre": {
+     "lat": 44.52642,
+     "lng": 18.6061
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Bukinje_-_Spomenik_Palim_Borcima",
+    "nacin": "posebna rec",
+    "godina": "1952",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "breske-spomenik-palim-borcima-nor-a",
+    "pre": {
+     "lat": 44.61075,
+     "lng": 18.65338
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Bre%C5%A1ke_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1957",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gornja-tuzla-spomenik-palim-borcima-nor-a",
+    "pre": {
+     "lat": 44.55748,
+     "lng": 18.76228
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gornja_Tuzla_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1951",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "dabravine-partizansko-groblje",
+    "pre": {
+     "lat": 44.05482,
+     "lng": 18.2977
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Dabravine_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1954",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "bosanska-bojna-spomenik-palim-borcima",
+    "pre": {
+     "lat": 45.19028,
+     "lng": 16.00849
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Bosanska_Bojna_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1962",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "podzvizd-zajednicka-grobnica-palih-boraca",
+    "pre": {
+     "lat": 45.17944,
+     "lng": 15.86114
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Podzvizd_-_Groblje_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1972",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "bosanska-bojna-zajednicka-grobnica-9-palih-boraca",
+    "pre": {
+     "lat": 45.19028,
+     "lng": 16.00849
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Bosanska_Bojna_-_Groblje_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "posebna rec",
+    "godina": "1972",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "crvarevac-zajednicka-grobnica-zrtava-fasistickog-t",
+    "pre": {
+     "lat": 45.13498,
+     "lng": 15.99382
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Crvarevac_%28Velika_Kladu%C5%A1a%29_-_Spomen_Grobnica",
+    "nacin": "jedini te vrste",
+    "godina": "1972",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "krivoglavci-spomenik-zrtvama-fasistickog-terora",
+    "pre": {
+     "lat": 43.90316,
+     "lng": 18.32284
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Krivoglavci_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1975",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "hajderovici-spomen-kosturnica-7-palih-boraca",
+    "pre": {
+     "lat": 44.45853,
+     "lng": 18.25677
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Hajderovi%C4%87i_-_Spomen_Kosturnica",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "begov-han-spomen-kosturnica-palih-boraca",
+    "pre": {
+     "lat": 44.35513,
+     "lng": 17.99464
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Begov_Han_-_Spomen_Kosturnica",
+    "nacin": "jedini te vrste",
+    "godina": "1960",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "kuljan-spomen-cesma-zrtvama-fasistickog-terora",
+    "pre": {
+     "lat": 44.35641,
+     "lng": 18.73396
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Kuljan_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1974",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "divic-spomen-cesma-palim-borcima-i-zrtvama-fasisti",
+    "pre": {
+     "lat": 44.36553,
+     "lng": 19.11321
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Divi%C4%8D_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1957",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "drinjaca-spomen-kosturnica",
+    "pre": {
+     "lat": 44.28246,
+     "lng": 19.15206
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Drinja%C4%8Da_-_Spomen_Kosturnica",
+    "nacin": "jedini te vrste",
+    "godina": "1966",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "lijesanj-spomen-kosturnica",
+    "pre": {
+     "lat": 44.29699,
+     "lng": 19.09722
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Lije%C5%A1anj_-_Spomen_Kosturnica",
+    "nacin": "jedini te vrste",
+    "godina": "1983",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "petkovci-spomen-kosturnica",
+    "pre": {
+     "lat": 44.46154,
+     "lng": 19.08166
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Petkovci_-_Spomen_Kosturnica",
+    "nacin": "jedini te vrste",
+    "godina": "1964",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "kozluk-spomen-kosturnica",
+    "pre": {
+     "lat": 44.49789,
+     "lng": 19.11136
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Kozluk_-_Spomen_Kosturnica",
+    "nacin": "jedini te vrste",
+    "godina": "1966",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "desinic-spomenik-palim-borcima-desinica-i-vinagore",
+    "pre": {
+     "lat": 46.14793,
+     "lng": 15.66884
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Desini%C4%87_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1964",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "jezera-spomenik-palim-borcima-i-zrtvama-fasisticko",
+    "pre": {
+     "lat": 43.78585,
+     "lng": 15.64183
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Jezera_-_Spomenik_NOB",
+    "nacin": "jedini te vrste",
+    "godina": "1978",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "pirovac-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "pre": {
+     "lat": 43.81694,
+     "lng": 15.66787
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Pirovac_-_Spomenik_NOB",
+    "nacin": "jedini te vrste",
+    "godina": "1977",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "pazici-spomen-obiljezje",
+    "pre": {
+     "lat": 42.55871,
+     "lng": 19.10578
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Pa%C5%BEi%C4%87i_-_Spomenik_Streljanima",
+    "nacin": "jedini te vrste",
+    "godina": "1981",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "modran-spomenik-na-mjestu-partizanske-radionice",
+    "pre": {
+     "lat": 44.6768,
+     "lng": 19.17704
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Modran_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "banjica-spomenik-formiranju-i-i-ii-vojvodjanske-br",
+    "pre": {
+     "lat": 44.6259,
+     "lng": 19.10347
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Banjica_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1983",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "bukovica-donja-partizansko-groblje-sa-18-palih-bor",
+    "pre": {
+     "lat": 44.81034,
+     "lng": 18.96532
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Bukovica_Donja_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1966",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "bukovica-gornja-spomenik-palim-borcima-zrtvama-fas",
+    "pre": {
+     "lat": 44.77067,
+     "lng": 18.97767
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Bukovica_Gornja_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1985",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gradac-spomenik-ustanku",
+    "pre": {
+     "lat": 44.81645,
+     "lng": 19.10502
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gradac_%28Bijeljina%29_-_Spomenik_Ustanka",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "novo-selo-spomenik-vodjstvu-vi-istocnobosanske-bri",
+    "pre": {
+     "lat": 44.77123,
+     "lng": 19.25403
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Novo_Selo_%28Bijeljina%29_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1954",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "bukovica-donja-spomenik-palim-borcima-i-zrtvama-fa",
+    "pre": {
+     "lat": 44.81034,
+     "lng": 18.96532
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Bukovica_Donja_-_Spomenik_NOB",
+    "nacin": "jedini te vrste",
+    "godina": "1963",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "korita-spomenik-zrtvama-fasistickog-terora",
+    "pre": {
+     "lat": 43.04026,
+     "lng": 18.48422
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Korita_-_Korita_Jama",
+    "nacin": "jedini te vrste",
+    "godina": "1991",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "jasenica-partizansko-groblje-sa-85-palih-boraca",
+    "pre": {
+     "lat": 44.80385,
+     "lng": 16.25814
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Jasenica_%28Bosanska_Krupa%29_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gornja-suvaja-kosturnica-119-zrtava-fasistickog-te",
+    "pre": {
+     "lat": 44.8011,
+     "lng": 16.17803
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gornja_Suvaja_-_Spomen_Kosturnica",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "klenovac-spomenik-strijeljanim-partizanima",
+    "pre": {
+     "lat": 44.54734,
+     "lng": 16.61302
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Klenovac_%28Bosanski_Petrovac%29_-_Spomenik_Streljanja_Rodoljuba",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "jasenovac-spomenik-strijeljanim-partizanima",
+    "pre": {
+     "lat": 44.55653,
+     "lng": 16.56155
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Jasenovac_%28Bosanski_Petrovac%29_-_Spomenik_Streljanima",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "peci-spomen-cesma-palim-borcima",
+    "pre": {
+     "lat": 44.24343,
+     "lng": 16.30452
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Pe%C4%87i_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1950",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "maoca-spomenik-arifu-dervisevicu",
+    "pre": {
+     "lat": 44.76894,
+     "lng": 18.65669
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Mao%C4%8Da_-_Spomenik_Arifu_Dervi%C5%A1evi%C4%87u",
+    "nacin": "posebna rec",
+    "godina": "1968",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "maoca-spomenik-na-mjestu-smrti-arifa-dervisevica",
+    "pre": {
+     "lat": 44.76894,
+     "lng": 18.65669
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Mao%C4%8Da_-_Spomen_Obilje%C5%BEje_Arif_Dervi%C5%A1evi%C4%87",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "maoca-spomenik-zarobljavanju-768-pripadnika-divizi",
+    "pre": {
+     "lat": 44.76894,
+     "lng": 18.65669
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Mao%C4%8Da_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1983",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "palanka-spomen-cesma-palim-borcima",
+    "pre": {
+     "lat": 44.79795,
+     "lng": 18.72992
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Palanka_%28Br%C4%8Dko%29_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1978",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "potocari-spomenik-na-mjestu-strijeljanja-milorada",
+    "pre": {
+     "lat": 44.82583,
+     "lng": 18.81731
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Poto%C4%8Dari_%28Br%C4%8Dko%29_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1981",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "katici-spomenik-na-mjestu-strijeljanja-u-novembru",
+    "pre": {
+     "lat": 44.13327,
+     "lng": 17.9008
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Kati%C4%87i_%28Busova%C4%8Da%29_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1987",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "lipovac-spomenik-borbi-izmedju-partizanskih-i-cetn",
+    "pre": {
+     "lat": 44.6769,
+     "lng": 17.30667
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Lipovac_%28%C4%8Celinac%29_-_Spomenik_Palim_Borcima",
+    "nacin": "posebna rec",
+    "godina": "1988",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "milosevo-spomen-cesma-narodnom-heroju-milosu-dujic",
+    "pre": {
+     "lat": 44.71903,
+     "lng": 17.28807
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Milo%C5%A1evo_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1984",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "crni-vrh-spomenik-palim-borcima",
+    "pre": {
+     "lat": 44.7766,
+     "lng": 17.39873
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Crni_Vrh_%28%C4%8Celinac%29_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1966",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "brezici-spomenik-palim-borcima-poginulim-u-borbi-s",
+    "pre": {
+     "lat": 44.89401,
+     "lng": 18.02134
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Brezici_%28Derventa%29_-_Spomenik_Palim_Borcima",
+    "nacin": "posebna rec",
+    "godina": "1952",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "agici-spomenik-palim-borcima-i-zrtvama-fasistickog",
+    "pre": {
+     "lat": 44.99916,
+     "lng": 17.85328
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Agi%C4%87i_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1970",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "kostajnica-partizansko-groblje",
+    "pre": {
+     "lat": 44.76356,
+     "lng": 18.07428
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Kostajnica_%28Doboj%29_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1950",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "johovac-kosturnica-14-nepoznatih-partizanskih-bora",
+    "pre": {
+     "lat": 44.81516,
+     "lng": 18.04902
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Johovac_-_Spomen_Kosturnica",
+    "nacin": "posebna rec",
+    "godina": "1951",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "majevac-spomenik-palim-partizanskim-borcima-i-zrtv",
+    "pre": {
+     "lat": 44.8882,
+     "lng": 18.09345
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Majevac_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1950",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "podovi-spomen-kosturnica",
+    "pre": {
+     "lat": 44.41538,
+     "lng": 16.39902
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Podovi_%28Drvar%29_-_Spomen_Kosturnica",
+    "nacin": "posebna rec",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "orahovice-groblje-61-palog-borca",
+    "pre": {
+     "lat": 43.70483,
+     "lng": 18.75363
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Orahovice_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "mionica-spomenik-formiranju-mionicke-cete",
+    "pre": {
+     "lat": 44.86707,
+     "lng": 18.47251
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Mionica_%28Grada%C4%8Dac%29_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1986",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "miljevici-spomenik-palim-borcima-i-zrtvama-fasisti",
+    "pre": {
+     "lat": 44.96926,
+     "lng": 17.21053
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Miljevi%C4%87i_%28Gradi%C5%A1ka%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1984",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "kijevci-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "pre": {
+     "lat": 45.04432,
+     "lng": 17.16293
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Kijevci_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1975",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "grbavci-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "pre": {
+     "lat": 45.04577,
+     "lng": 17.11078
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Grbavci_%28Gradi%C5%A1ka%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1959",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "orahova-spomenik-partizanskoj-avijaciji",
+    "pre": {
+     "lat": 45.19795,
+     "lng": 17.03175
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Orahova_%28Gradi%C5%A1ka%29_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1972",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "rakovica-spomenik-napadu-na-aerodrom-rajlovac",
+    "pre": {
+     "lat": 43.87747,
+     "lng": 18.20567
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Rakovica_%28Ilid%C5%BEa%29_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1959",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "pepici-spomenik-formiranju-kladanjskog-nop-odreda",
+    "pre": {
+     "lat": 44.25304,
+     "lng": 18.75489
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Pepi%C4%87i_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1961",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "petrinja-partizansko-groblje",
+    "pre": {
+     "lat": 45.2205,
+     "lng": 16.59955
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Petrinja_%28Kostajnica%29_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1957",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "liplje-spomenik-na-mjestu-smrti-12-vojnika-xii-sla",
+    "pre": {
+     "lat": 44.63719,
+     "lng": 17.53991
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Liplje_-_Spomenik_Palim_Borcima",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "maslovare-spomen-cesma-palim-borcima",
+    "pre": {
+     "lat": 44.56342,
+     "lng": 17.53412
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Maslovare_%28Kotor_Varo%C5%A1%29_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1958",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "maslovare-spomenik-josipu-brozu-titu",
+    "pre": {
+     "lat": 44.56342,
+     "lng": 17.53412
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Maslovare_%28Kotor_Varo%C5%A1%29_-_Monument_to_Josip_Broz_Tito",
+    "nacin": "posebna rec",
+    "godina": "1956",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "medjedja-spomenik-palim-borcima-i-zrtvama-fasistic",
+    "pre": {
+     "lat": 45.20733,
+     "lng": 16.95593
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Me%C4%91e%C4%91a_%28Dubica%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1986",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "mirkovac-spomenik-heroju-sovjetskog-saveza-zoji-ko",
+    "pre": {
+     "lat": 45.11604,
+     "lng": 16.7253
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Mirkovac_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1973",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "knezica-partizansko-groblje",
+    "pre": {
+     "lat": 45.10311,
+     "lng": 16.6763
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Kne%C5%BEica_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1953",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "babinac-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "pre": {
+     "lat": 45.20105,
+     "lng": 16.62075
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Babinac_%28Dubica%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "humac-spomenik-zrtvama-fasistickog-terora",
+    "pre": {
+     "lat": 43.18785,
+     "lng": 17.52965
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Humac_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "priboj-spomenik-na-mjestu-rodjenja-veselina-i-bran",
+    "pre": {
+     "lat": 44.60156,
+     "lng": 18.93008
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Priboj_-_Spomenik_Veselinu_i_Branu_Gavri%C4%87u",
+    "nacin": "posebna rec",
+    "godina": "1982",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "priboj-spomenik-braci-gligorovic",
+    "pre": {
+     "lat": 44.60156,
+     "lng": 18.93008
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Priboj_-_Spomenik_Bra%C4%87i_Gligorevi%C4%87",
+    "nacin": "posebna rec",
+    "godina": "1983",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "mackovac-spomenik-jovi-mitrasevicu",
+    "pre": {
+     "lat": 44.6553,
+     "lng": 18.81068
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ma%C4%8Dkovac_-_Spomenik_Jovu_Mitra%C5%A1evi%C4%87u",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "jablanica-spomenik-sastanku-kpj-u-februaru-1942-go",
+    "pre": {
+     "lat": 44.63868,
+     "lng": 18.77424
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Jablanica_%28Lopare%29_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "piperi-spomenik-na-mjestu-smrti-narodnog-heroja-kr",
+    "pre": {
+     "lat": 44.66203,
+     "lng": 18.75778
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Piperi_%28Lopare%29_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "brusnica-spomenik-na-mjestu-strijeljanja-36-zrtava",
+    "pre": {
+     "lat": 44.68876,
+     "lng": 18.78517
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Brusnica_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "mackovac-spomenik-jovi-i-cvitanu-jovicu",
+    "pre": {
+     "lat": 44.6553,
+     "lng": 18.81068
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ma%C4%8Dkovac_-_Spomenik_Jovu_i_Cvitanu_Jovi%C4%87u",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "osojnica-partizansko-groblje-sa-60-palih-boraca",
+    "pre": {
+     "lat": 44.64181,
+     "lng": 18.11897
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Osojnica_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "milosevac-partizansko-groblje",
+    "pre": {
+     "lat": 44.99272,
+     "lng": 18.39614
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Milo%C5%A1evac_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "dugo-polje-spomenik-gavrilu-vukmanovicu",
+    "pre": {
+     "lat": 44.93259,
+     "lng": 18.19108
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Dugo_Polje_-_Spomenik_Gavrilu_Vukmanovi%C4%87u",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "koprivna-spomenik-palim-borcima-i-zrtvama-fasistic",
+    "pre": {
+     "lat": 44.91448,
+     "lng": 18.14902
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Koprivna_%28Modri%C4%8Da%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1987",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "pridvorci-partizansko-groblje",
+    "pre": {
+     "lat": 43.34972,
+     "lng": 18.10925
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Pridvorci_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1959",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "cerovica-zajednicka-grobnica-palih-boraca-i-zrtava",
+    "pre": {
+     "lat": 45.10253,
+     "lng": 16.43794
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Cerovica_-_Groblje_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1962",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "novi-grad-spomen-kosturnica-37-palih-boraca",
+    "pre": {
+     "lat": 45.09021,
+     "lng": 18.31777
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Novi_Grad_%28Od%C5%BEak%29_-_Spomen_Kosturnica",
+    "nacin": "jedini te vrste",
+    "godina": "1953",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "caparde-spomenik-pobjedi-vi-istocnobosanske-brigad",
+    "pre": {
+     "lat": 44.39577,
+     "lng": 18.96739
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Caparde_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1953",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "mokro-spomen-kosturnica-47-palih-boraca",
+    "pre": {
+     "lat": 43.89299,
+     "lng": 18.63593
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Mokro_-_Spomen_Kosturnica",
+    "nacin": "posebna rec",
+    "godina": "1960",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "petrovo-spomen-cesma-milovanu-gajicu",
+    "pre": {
+     "lat": 44.6326,
+     "lng": 18.36098
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Petrovo_-_Spomen_%C4%8Cesma_Milovanu_Gaji%C4%87u",
+    "nacin": "posebna rec",
+    "godina": "1957",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "karanovac-partizansko-groblje",
+    "pre": {
+     "lat": 44.68916,
+     "lng": 18.27067
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Karanovac_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1959",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "kozarac-partizansko-groblje",
+    "pre": {
+     "lat": 44.97446,
+     "lng": 16.83962
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Kozarac_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1952",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "babici-spomenik-strijeljanim-zeljeznicarima-i-zrtv",
+    "pre": {
+     "lat": 44.9473,
+     "lng": 16.90336
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Babi%C4%87i_%28Prijedor%29_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "posebna rec",
+    "godina": "1960",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "ljubija-spomenik-rudarima-poginulim-u-nob-i-20-god",
+    "pre": {
+     "lat": 44.91434,
+     "lng": 16.60759
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ljubija_-_Spomen_Park",
+    "nacin": "posebna rec",
+    "godina": "1960",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "cikote-masovna-grobnica-zrtava-fasistickog-terora",
+    "pre": {
+     "lat": 45.00729,
+     "lng": 16.6174
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Cikote_%28Prijedor%29_-_Spomen_Grobnica",
+    "nacin": "jedini te vrste",
+    "godina": "1958",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "brezicani-spomenik-josipu-brozu-titu",
+    "pre": {
+     "lat": 45.0094,
+     "lng": 16.65163
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Brezi%C4%8Dani_%28Prijedor%29_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "jaruge-zajednicka-grobnica-15-zrtava-fasistickog-t",
+    "pre": {
+     "lat": 44.99765,
+     "lng": 16.82464
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Jaruge_%28Prijedor%29_-_Spomen_Grobnica",
+    "nacin": "jedini te vrste",
+    "godina": "1951",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "brdjani-zajednicka-grobnica-zrtava-fasistickog-ter",
+    "pre": {
+     "lat": 44.96781,
+     "lng": 16.86975
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Br%C4%91ani_%28Prijedor%29_-_Spomen_Grobnica",
+    "nacin": "jedini te vrste",
+    "godina": "1983",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "kremna-spomenik-na-mjestu-smrti-trivuna-bojanovica",
+    "pre": {
+     "lat": 44.82162,
+     "lng": 17.69616
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Kremna_%28Prnjavor%29_-_Spomenik_Trivunu_Bojanovi%C4%87u",
+    "nacin": "posebna rec",
+    "godina": "1983",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "hrvacani-spomenik-palim-borcima-i-zrtvama-fasistic",
+    "pre": {
+     "lat": 44.85305,
+     "lng": 17.44246
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Hrva%C4%87ani_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1982",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "drobnici-spomenik-palim-borcima-i-zrtvama-fasistic",
+    "pre": {
+     "lat": 43.7741,
+     "lng": 19.02943
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Drobni%C4%87i_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1988",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "donja-slatina-spomenik-palim-borcima-i-zrtvama-fas",
+    "pre": {
+     "lat": 44.97998,
+     "lng": 18.52719
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Donja_Slatina_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1986",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "kosutica-zajednicka-grobnica-zrtava-fasistickog-te",
+    "pre": {
+     "lat": 43.96983,
+     "lng": 18.84777
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ko%C5%A1utica_-_Spomen_Groblje",
+    "nacin": "posebna rec",
+    "godina": "1963",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "lug-zajednicka-grobnica-82-zrtve-fasistickog-teror",
+    "pre": {
+     "lat": 43.75976,
+     "lng": 17.24038
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Lug_%28Tomislavgrad%29_-_Groblje_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "posebna rec",
+    "godina": "1967",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "klobuk-spomenik-borbi-1941-godine",
+    "pre": {
+     "lat": 42.71155,
+     "lng": 18.53153
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Klobuk_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "donji-orahovac-spomen-cesma",
+    "pre": {
+     "lat": 42.67549,
+     "lng": 18.4964
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Donji_Orahovac_-_Spomen_%C4%8Cesma",
+    "nacin": "jedini te vrste",
+    "godina": "1958",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "hum-spomenik-palim-borcima-nor-a",
+    "pre": {
+     "lat": 42.72849,
+     "lng": 18.19466
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Hum_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1964",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "dobrnja-spomenik-palim-borcima-nor-a",
+    "pre": {
+     "lat": 44.57949,
+     "lng": 18.58499
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Dobrnja_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1953",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "malesevci-spomen-obelisk-na-mjestu-partizanske-pob",
+    "pre": {
+     "lat": 44.68274,
+     "lng": 18.93791
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Male%C5%A1evci_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1952",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "okruglica-spomen-cesma-na-mjestu-formiranja-partiz",
+    "pre": {
+     "lat": 44.08011,
+     "lng": 18.40097
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Okruglica_%28Vare%C5%A1%29_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1951",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "okruglica-zajednicka-grobnica-boraca-istocnobosans",
+    "pre": {
+     "lat": 44.08011,
+     "lng": 18.40097
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Okruglica_%28Vare%C5%A1%29_-_Spomen_Kosturnica",
+    "nacin": "posebna rec",
+    "godina": "1953",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "dragovici-spomen-cesma-formiranju-seoskog-narodnoo",
+    "pre": {
+     "lat": 44.14826,
+     "lng": 18.23945
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Dragovi%C4%87i_%28Vare%C5%A1%29_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1951",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "mijakovici-spomen-cesma-redzi-golicu-i-avdi-ibrisi",
+    "pre": {
+     "lat": 44.14381,
+     "lng": 18.25428
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Mijakovi%C4%87i_%28Vare%C5%A1%29_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1952",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "planinica-spomen-cesma-akcijama-partizanskog-odred",
+    "pre": {
+     "lat": 44.11957,
+     "lng": 18.28053
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Planinica_%28Vare%C5%A1%29_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1951",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "mijakovici-spomen-cesma-muji-jusicu-rahmanu",
+    "pre": {
+     "lat": 44.14381,
+     "lng": 18.25428
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Mijakovi%C4%87i_%28Vare%C5%A1%29_-_Spomen_%C4%8Cesma_Juse",
+    "nacin": "posebna rec",
+    "godina": "1979",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "polje-spomenik-zuhdiji-zalicu",
+    "pre": {
+     "lat": 45.16514,
+     "lng": 15.82916
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Polje_%28Velika_Kladu%C5%A1a%29_-_Spomenik_Zuhdiji_%C5%BDali%C4%87u",
+    "nacin": "posebna rec",
+    "godina": "1970",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gradina-zajednicka-grobnica-19-partizanskih-boraca",
+    "pre": {
+     "lat": 45.16656,
+     "lng": 16.01571
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gradina_%28Velika_Kladu%C5%A1a%29_-_Groblje_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1972",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "ponikve-zajednicka-grobnica-zrtava-fasistickog-ter",
+    "pre": {
+     "lat": 45.21211,
+     "lng": 15.84864
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ponikve_%28Velika_Kladu%C5%A1a%29_-_Spomen_Grobnica",
+    "nacin": "jedini te vrste",
+    "godina": "1972",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gostovici-spomenik-zrtvama-fasistickog-terora",
+    "pre": {
+     "lat": 44.41677,
+     "lng": 18.16864
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gostovi%C4%87i_%28Zavidovi%C4%87i%29_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "gare-spomenik-zrtvama-fasistickog-terora",
+    "pre": {
+     "lat": 44.39562,
+     "lng": 18.34203
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gare_%28Zavidovi%C4%87i%29_-_Spomenik_NOB",
+    "nacin": "jedini te vrste",
+    "godina": "1963",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "gracanica-spomenik-palim-borcima-tuzlanskog-nop-od",
+    "pre": {
+     "lat": 44.39245,
+     "lng": 18.76426
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Gra%C4%8Danica_%28%C5%BDivinice%29_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1990",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "cazin-obelisk-u-spomen-na-zbor-i-govor-josipa-broz",
+    "pre": {
+     "lat": 44.9684233,
+     "lng": 15.9417246
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Cazin_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1950",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "crevarska-strana-spomen-obiljezje-na-mjestu-ustask",
+    "pre": {
+     "lat": 45.35172,
+     "lng": 15.82186
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Crevarska_Strana_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "zlarin-povijesno-memorijalna-cjelina-bivseg-koncen",
+    "pre": {
+     "lat": 43.69653,
+     "lng": 15.83536
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Zlarin_-_Spomenik_Logora",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "vlasina-rid-spomen-kompleks-na-igralistu",
+    "pre": {
+     "lat": 42.72529,
+     "lng": 22.32596
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Vlasina_Rid_-_Spomen_Kompleks",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "trpinja-spomenik-palim-borcima-novj",
+    "pre": {
+     "lat": 45.41917,
+     "lng": 18.89968
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Trpinja_-_Spomenik_Palim_Borcima_NOVJ",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "ston-spomenik-palim-borcima-novj",
+    "pre": {
+     "lat": 42.83835,
+     "lng": 17.69627
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ston_-_Spomenik_Palim_Borcima_NOVJ",
+    "nacin": "posebna rec",
+    "godina": "1955",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "zeljova-spomen-kosturnica-palih-boraca",
+    "pre": {
+     "lat": 44.37572,
+     "lng": 18.45945
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/%C5%BDeljova_-_Spomen_Kosturnica",
+    "nacin": "jedini te vrste",
+    "godina": "1958",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "trestenica-donja-spomenik-nob",
+    "pre": {
+     "lat": 44.43759,
+     "lng": 18.45815
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Tre%C5%A1tenica_Donja_-_Spomenik_NOB",
+    "nacin": "jedini te vrste",
+    "godina": "1956",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "ripac-spomenik-mihailu-popovicu-kaji",
+    "pre": {
+     "lat": 44.76535,
+     "lng": 15.95411
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ripa%C4%8D_-_Spomenik_Mihailu_Popovi%C4%87u",
+    "nacin": "posebna rec",
+    "godina": "1949",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "ripac-spomenik-na-mjestu-strijeljanja-50-zrtava-fa",
+    "pre": {
+     "lat": 44.76535,
+     "lng": 15.95411
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ripa%C4%8D_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "posebna rec",
+    "godina": "1951",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "velika-obarska-spomenik-borbi-1944-godine",
+    "pre": {
+     "lat": 44.80171,
+     "lng": 19.17129
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Velika_Obarska_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1960",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "veliki-radic-partizansko-groblje",
+    "pre": {
+     "lat": 44.8395,
+     "lng": 16.04817
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Veliki_Radi%C4%87_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "resanovci-spomenik-narodnom-heroju-simi-bajicu-pal",
+    "pre": {
+     "lat": 44.29531,
+     "lng": 16.30297
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Resanovci_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "posebna rec",
+    "godina": "1954",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "zlijebac-spomen-cesma-palim-borcima-i-zrtvama-fasi",
+    "pre": {
+     "lat": 44.06425,
+     "lng": 19.58785
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/%C5%BDlijebac_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1983",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "surmanci-spomenik-zrtvama-fasistickog-terora",
+    "pre": {
+     "lat": 43.15916,
+     "lng": 17.75065
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/%C5%A0urmanci_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "stijena-zajednicka-grobnica-zrtava-fasistickog-ter",
+    "pre": {
+     "lat": 44.94154,
+     "lng": 16.02035
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Stijena_-_Spomen_Grobnica",
+    "nacin": "posebna rec",
+    "godina": "1970",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "snjegotina-donja-spomenik-palim-borcima",
+    "pre": {
+     "lat": 44.70228,
+     "lng": 17.48166
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/%C5%A0njegotina_Donja_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1955",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "trbuk-partizansko-groblje",
+    "pre": {
+     "lat": 44.65035,
+     "lng": 18.08989
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Trbuk_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "svjetlica-spomen-cesma-na-mjestu-zarobljavanja-3-p",
+    "pre": {
+     "lat": 44.74202,
+     "lng": 18.11467
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Svjetli%C4%8Da_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1957",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "ritesic-partizansko-groblje",
+    "pre": {
+     "lat": 44.86988,
+     "lng": 18.05763
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Rite%C5%A1i%C4%87_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "vidovo-selo-spomenik-palim-borcima-i-zrtvama-fasis",
+    "pre": {
+     "lat": 44.31396,
+     "lng": 16.45747
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Vidovo_Selo_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "ilovaca-spomenik-na-mjestu-gdje-su-cetnicke-snage",
+    "pre": {
+     "lat": 43.63758,
+     "lng": 18.81667
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ilova%C4%8Da_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "zeravica-spomenik-romskim-zrtvama-fasistickog-tero",
+    "pre": {
+     "lat": 45.12313,
+     "lng": 17.24672
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/%C5%BDeravica_-_Spomenik_Romskim_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "posebna rec",
+    "godina": "1970",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "troselji-spomenik-palim-borcima-i-zrtvama-fasistic",
+    "pre": {
+     "lat": 45.06699,
+     "lng": 17.36099
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Tro%C5%A1elji_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1987",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "romanovci-spomenik-palim-borcima-i-zrtvama-fasisti",
+    "pre": {
+     "lat": 44.97643,
+     "lng": 17.26739
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Romanovci_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1976",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "vrbaska-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "pre": {
+     "lat": 45.11569,
+     "lng": 17.17891
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Vrba%C5%A1ka_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1987",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "trebovljani-spomenik-palim-borcima-i-zrtvama-fasis",
+    "pre": {
+     "lat": 45.09776,
+     "lng": 17.1267
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Trebovljani_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1987",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "tihaljina-kosturnica-palih-boraca-dalmatinskih-i-c",
+    "pre": {
+     "lat": 43.31424,
+     "lng": 17.3895
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Tihaljina_-_Spomen_Kosturnica",
+    "nacin": "posebna rec",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "tarcin-spomen-kosturnica",
+    "pre": {
+     "lat": 43.79441,
+     "lng": 18.09357
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Tar%C4%8Din_-_Spomen_Kosturnica",
+    "nacin": "jedini te vrste",
+    "godina": "1953",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "sovrle-spomen-cesma-7-partizana-i-17-zrtava-fasist",
+    "pre": {
+     "lat": 43.98123,
+     "lng": 18.26082
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Sovrle_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "staric-spomenik-palim-borcima-i-zrtvama-fasisticko",
+    "pre": {
+     "lat": 44.23294,
+     "lng": 18.7509
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Stari%C4%87_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1951",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "tuholj-zajednicka-grobnica-zrtava-fasistickog-tero",
+    "pre": {
+     "lat": 44.26015,
+     "lng": 18.62523
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Tuholj_-_Spomen_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1978",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "tavija-spomenik-zastava",
+    "pre": {
+     "lat": 45.20393,
+     "lng": 16.55409
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Tavija_-_Spomenik_Zastava",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "tovladic-spomen-kosturnica-9-palih-boraca-i-11-zrt",
+    "pre": {
+     "lat": 44.65999,
+     "lng": 17.31675
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Tovladi%C4%87_-_Spomen_Kosturnica",
+    "nacin": "posebna rec",
+    "godina": "1982",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "vrbanjci-partizansko-groblje-sa-39-palih-boraca",
+    "pre": {
+     "lat": 44.58784,
+     "lng": 17.42954
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Vrbanjci_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "stopan-spomenik-37-palih-boraca-v-kozarske-brigade",
+    "pre": {
+     "lat": 44.48417,
+     "lng": 17.56473
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Stopan_-_Spomenik_Palim_Borcima",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "siprage-partizansko-groblje-sa-185-palih-boraca",
+    "pre": {
+     "lat": 44.46666,
+     "lng": 17.56564
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/%C5%A0iprage_-_Partizansko_Groblje",
+    "nacin": "posebna rec",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "sreflije-partizansko-groblje",
+    "pre": {
+     "lat": 45.13249,
+     "lng": 16.88605
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Sreflije_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1954",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "vlaskovci-spomen-cesma-jovanu-skrobicu",
+    "pre": {
+     "lat": 45.12609,
+     "lng": 16.79151
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Vla%C5%A1kovci_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1958",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "vojskova-spomenik-palim-borcima-i-zrtvama-fasistic",
+    "pre": {
+     "lat": 45.09534,
+     "lng": 16.9059
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Vojskova_%28Dubica%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1985",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "cardacani-spomenik-palim-borcima-i-zrtvama-fasisti",
+    "pre": {
+     "lat": 44.87928,
+     "lng": 17.32059
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/%C4%8Carda%C4%8Dani_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1985",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "veliko-blasko-spomenik-palim-borcima-i-zrtvama-fas",
+    "pre": {
+     "lat": 44.8681,
+     "lng": 17.30295
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Veliko_Bla%C5%A1ko_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1987",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "cetojevici-spomenik-palim-borcima",
+    "pre": {
+     "lat": 44.8185,
+     "lng": 17.3803
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/%C4%86etojevi%C4%87i_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1981",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "celebic-groblje-preko-300-zrtava-fasistickog-teror",
+    "pre": {
+     "lat": 43.94676,
+     "lng": 16.75406
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/%C4%8Celebi%C4%87_-_Groblje_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1956",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "vidosi-spomenik-palim-borcima",
+    "pre": {
+     "lat": 43.76978,
+     "lng": 17.0276
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Vido%C5%A1i_-_Spomenik_Palim_Borcima",
+    "nacin": "posebna rec",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "zrvanj-spomenik-mirku-sikimicu",
+    "pre": {
+     "lat": 42.93711,
+     "lng": 18.1882
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/%C5%BDrvanj_%28Ljubinje%29_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1959",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "tumare-spomenik-predragu-markovicu-alimpiju",
+    "pre": {
+     "lat": 44.53373,
+     "lng": 18.35876
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Tumare_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "sizje-spomenik-palim-borcima-i-zrtvama-fasistickog",
+    "pre": {
+     "lat": 44.56909,
+     "lng": 18.43782
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Si%C5%BEje_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1984",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "tarevci-spomenik-palim-borcima",
+    "pre": {
+     "lat": 44.95494,
+     "lng": 18.27404
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Tarevci_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1951",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "zovi-do-partizansko-groblje",
+    "pre": {
+     "lat": 43.15743,
+     "lng": 18.21225
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Zovi_Do_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1956",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "zuberin-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "pre": {
+     "lat": 43.21147,
+     "lng": 17.9893
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/%C5%BDuberin_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1izma",
+    "nacin": "posebna rec",
+    "godina": "1970",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "svodna-partizansko-groblje",
+    "pre": {
+     "lat": 45.03697,
+     "lng": 16.53671
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Svodna_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1958",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "velika-zuljevica-zajednicka-grobnica-palih-boraca",
+    "pre": {
+     "lat": 45.09534,
+     "lng": 16.46774
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Velika_%C5%BDuljevica_-_Groblje_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1960",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "sokoliste-spomenik-zrtvama-fasistickog-terora",
+    "pre": {
+     "lat": 44.99836,
+     "lng": 16.4716
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Sokoli%C5%A1te_%28Novi_Grad%29_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "2008",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "sinokos-spomen-cesma-palim-borcima",
+    "pre": {
+     "lat": 44.14536,
+     "lng": 17.59966
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Sinokos_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1953",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "sockovac-partizansko-groblje",
+    "pre": {
+     "lat": 44.66425,
+     "lng": 18.29164
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/So%C4%8Dkovac_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1959",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "sibovska-spomenik-palim-borcima-i-zrtvama-fasistic",
+    "pre": {
+     "lat": 44.92244,
+     "lng": 17.70527
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/%C5%A0ibovska_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "2004",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "velika-ilova-spomenik-palim-borcima",
+    "pre": {
+     "lat": 44.96009,
+     "lng": 17.65207
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Velika_Ilova_%28Prnjador%29_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1952",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "corle-spomenik-palim-borcima-i-zrtvama-fasistickog",
+    "pre": {
+     "lat": 44.90641,
+     "lng": 17.57992
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/%C4%8Corle_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "2001",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "rumboci-spomen-cesma-bici-za-ranjenike",
+    "pre": {
+     "lat": 43.82977,
+     "lng": 17.50229
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Rumboci_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1963",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "stjenice-spomenik-palima-u-ustanku",
+    "pre": {
+     "lat": 43.84221,
+     "lng": 18.87775
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Stjenice_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1950",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "ribioc-spomenik-zrtvama-fasistickog-terora",
+    "pre": {
+     "lat": 43.93577,
+     "lng": 19.15106
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ribioc_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1989",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "rozanj-kosturnica-zrtava-fasistickog-terora",
+    "pre": {
+     "lat": 44.53467,
+     "lng": 18.93546
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ro%C5%BEanj_-_Spomen_Kosturnica",
+    "nacin": "posebna rec",
+    "godina": "1967",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "vitinica-spomen-cesma-palim-borcima",
+    "pre": {
+     "lat": 44.51102,
+     "lng": 19.00892
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Vitinica_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1982",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "strojice-groblje-sa-16-partizanskih-boraca-i-165-z",
+    "pre": {
+     "lat": 44.18326,
+     "lng": 17.14808
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Todori%C4%87i_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1959",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "sitnesi-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "pre": {
+     "lat": 45.04246,
+     "lng": 17.56727
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Sitne%C5%A1i_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1979",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "stari-martinac-spomenik-palim-borcima",
+    "pre": {
+     "lat": 44.99246,
+     "lng": 17.45061
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Stari_Martinac_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1955",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "razboj-ljevcanski-spomenik-palim-borcima-i-zrtvama",
+    "pre": {
+     "lat": 45.04357,
+     "lng": 17.42192
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Mali_Razboj_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1967",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "skelani-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "pre": {
+     "lat": 43.9722,
+     "lng": 19.53174
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Skelani_-_Spomenik_NOB",
+    "nacin": "jedini te vrste",
+    "godina": "1958",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "cecava-partizansko-groblje",
+    "pre": {
+     "lat": 44.68625,
+     "lng": 17.7699
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/%C4%8Ce%C4%8Dava_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1962",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "turbe-spomenik-palim-borcima-novj",
+    "pre": {
+     "lat": 44.24111,
+     "lng": 17.57666
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Turbe_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1948",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "vrpolje-ljubomir-spomen-cesma-195-palih-boraca-i-z",
+    "pre": {
+     "lat": 42.77218,
+     "lng": 18.35353
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Vrpolje_Ljubomir_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "simin-han-spomenik-borcima-vojvodjanske-nou-brigad",
+    "pre": {
+     "lat": 44.52716,
+     "lng": 18.7381
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Simin_Han_-_Spomenik_Palim_Borcima",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "tisovci-spomenik-branku-jelicu-i-alojzu-mircicu",
+    "pre": {
+     "lat": 44.14136,
+     "lng": 18.34953
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Tisovci_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1956",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "vares-majdan-spomenik-palim-borcima-nor-a",
+    "pre": {
+     "lat": 44.13549,
+     "lng": 18.31589
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Vare%C5%A1_Majdan_-_Spomenik_Palim_Borcima",
+    "nacin": "jedini te vrste",
+    "godina": "1951",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "slavin-spomen-cesma-palim-borcima",
+    "pre": {
+     "lat": 44.12197,
+     "lng": 18.26388
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Slavin_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "vrnograc-spomenik-na-mjestu-strijeljanja-oko-2000",
+    "pre": {
+     "lat": 45.1628,
+     "lng": 15.95365
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Vrnogra%C4%8D_%28Poljice%29_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "posebna rec",
+    "godina": "1955",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "vrnograc-spomenik-prvim-palim-borcima-s-podrucja-v",
+    "pre": {
+     "lat": 45.1628,
+     "lng": 15.95365
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Vrnogra%C4%8D_-_Spomenik_Palim_Borcima",
+    "nacin": "posebna rec",
+    "godina": "1954",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "stranjani-spomen-kosturnica",
+    "pre": {
+     "lat": 44.23113,
+     "lng": 17.83826
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Stranjani_-_Spomen_Kosturnica",
+    "nacin": "posebna rec",
+    "godina": "1988",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "robaje-spomen-muzej-u-kuci-sekule-i-desanke-bojino",
+    "pre": {
+     "lat": 44.21558,
+     "lng": 19.97903
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Robaje_-_Spomen-Ku%C4%87a",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "sokoli-spomenik-formiranju-prve-istarske-partizans",
+    "pre": {
+     "lat": 45.5496279,
+     "lng": 14.6216056
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Sokoli_%28%C4%8Cabar%29_-_Spomenik_NOB",
+    "nacin": "jedini te vrste",
+    "godina": "1982",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "suvo-polje-kosturnica-57-palih-boraca-xvii-udarne",
+    "pre": {
+     "lat": 44.69285,
+     "lng": 19.09614
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Suvo_Polje_-_Spomen_Kosturnica",
+    "nacin": "posebna rec",
+    "godina": "1956",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "cadjavica-gornja-spomenik-narodnom-heroju-miji-ker",
+    "pre": {
+     "lat": 44.7175,
+     "lng": 19.01637
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/%C4%8Ca%C4%91avica_Gornja_-_Spomenik_Miji_Kero%C5%A1evi%C4%87u_-_Guji",
+    "nacin": "posebna rec",
+    "godina": "1980",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "cadjavica-donja-spomenik-preko-200-boraca-poginuli",
+    "pre": {
+     "lat": 44.78483,
+     "lng": 19.09019
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/%C4%8Ca%C4%91avica_Donja_-_Spomenik_Palim_Borcima",
+    "nacin": "posebna rec",
+    "godina": "1966",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "cadjavica-donja-partizansko-groblje",
+    "pre": {
+     "lat": 44.78483,
+     "lng": 19.09019
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/%C4%8Ca%C4%91avica_Donja_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1966",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "zagoni-spomenik-na-mjestu-partizanske-radionice",
+    "pre": {
+     "lat": 44.71505,
+     "lng": 19.11019
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Zagoni_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1963",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "cadjavica-donja-spomenik-pobjedi-majevickog-odreda",
+    "pre": {
+     "lat": 44.78483,
+     "lng": 19.09019
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/%C4%8Ca%C4%91avica_Donja_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "trnjaci-spomenik-nizu-dogadjaja-u-trnjacima-tokom",
+    "pre": {
+     "lat": 44.84428,
+     "lng": 19.29782
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Trnjaci_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1982",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "malesevci-spomenik-palim-borcima-i-zrtvama-fasisti",
+    "pre": {
+     "lat": 44.21457,
+     "lng": 16.41693
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Male%C5%A1evci_%28Bosansko_Grahovo%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1964",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "vrazici-spomen-obiljezje-palim-borcima-nor-a-i-zrt",
+    "pre": {
+     "lat": 44.74044,
+     "lng": 18.74811
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Vra%C5%BEi%C4%87i_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1973",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "stanovi-spomenik-palim-partizanskim-borcima-i-zrtv",
+    "pre": {
+     "lat": 44.74987,
+     "lng": 18.00546
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Stanovi_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1951",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "rogolji-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "pre": {
+     "lat": 45.06846,
+     "lng": 17.26489
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Rogolji_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1960",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "orahova-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "pre": {
+     "lat": 45.19795,
+     "lng": 17.03175
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Orahova_%28Gradi%C5%A1ka%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1987",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "ruzici-zajednicka-grobnica-23-borca-iii-dalmatinsk",
+    "pre": {
+     "lat": 43.34598,
+     "lng": 17.3993
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Ru%C5%BEi%C4%87i_-_Spomen_Kosturnica",
+    "nacin": "posebna rec",
+    "godina": "1951",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "citluk-spomenik-zrtvama-fasistickog-terora",
+    "pre": {
+     "lat": 45.13644,
+     "lng": 16.62374
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/%C4%8Citluk_%28Dubica%29_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1958",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "vukosavci-spomen-cesma-na-mjestu-smrti-dr-rose-had",
+    "pre": {
+     "lat": 44.63773,
+     "lng": 18.87478
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Vukosavci_-_Spomen_%C4%8Cesma",
+    "nacin": "posebna rec",
+    "godina": "1978",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "vakuf-spomenik-pocetku-ustanka-na-majevici",
+    "pre": {
+     "lat": 44.67372,
+     "lng": 18.77735
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Vakuf_-_Spomenik_Ustanka",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "turija-spomenik-na-mjestu-smrti-mehe-tubica",
+    "pre": {
+     "lat": 44.51513,
+     "lng": 18.4488
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Turija_-_Spomenik_Mehu_Tubi%C4%87u",
+    "nacin": "posebna rec",
+    "godina": "1980",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "turija-spomenik-17-palih-boraca-ozrenskog-partizan",
+    "pre": {
+     "lat": 44.51513,
+     "lng": 18.4488
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Turija_-_Spomenik_Palim_Borcima",
+    "nacin": "posebna rec",
+    "godina": "1980",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "vrtoce-spomenik-ustanku",
+    "pre": {
+     "lat": 44.17746,
+     "lng": 19.05509
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Vrto%C4%8De_%28Mili%C4%87i%29_-_Spomenik_NOB",
+    "nacin": "posebna rec",
+    "godina": "1987",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "rudice-zajednicka-grobnica-zrtava-fasistickog-tero",
+    "pre": {
+     "lat": 44.99951,
+     "lng": 16.34845
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Rudice_-_Grobnica_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1952",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "seljani-spomen-cesma-vesu-rackovicu",
+    "pre": {
+     "lat": 43.8128,
+     "lng": 19.03107
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Seljani_-_Spomen_%C4%8Cesma_Vesu_Rackovi%C4%87u",
+    "nacin": "posebna rec",
+    "godina": "1954",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "podovi-partizansko-groblje",
+    "pre": {
+     "lat": 44.66411,
+     "lng": 16.77399
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Podovi_%28Sanski_Most%29_-_Partizansko_Groblje",
+    "nacin": "jedini te vrste",
+    "godina": "1961",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "zboriste-zajednicka-grobnica-zrtava-fasistickog-te",
+    "pre": {
+     "lat": 45.15039,
+     "lng": 16.02059
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Zbori%C5%A1te_%28Velika_Kladu%C5%A1a%29_-_Spomen_Grobnica",
+    "nacin": "jedini te vrste",
+    "godina": "1972",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "siljkovaca-zajednicka-grobnica-zrtava-fasistickog",
+    "pre": {
+     "lat": 45.14559,
+     "lng": 15.79232
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/%C5%A0iljkova%C4%8Da_%28Velika_Kladu%C5%A1a%29_-_Spomen_Grobnica",
+    "nacin": "jedini te vrste",
+    "godina": "1972",
+    "tacka": "utvrdjena na wikiju"
+   },
+   {
+    "id": "zbilje-spomenik-zrtvama-fasistickog-terora",
+    "pre": {
+     "lat": 43.96998,
+     "lng": 18.19119
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Zbilje_%28Visoko%29_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "nacin": "jedini te vrste",
+    "godina": "1979",
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "zabljak-spomen-cesma-palim-borcima-pitomina-i-bosa",
+    "pre": {
+     "lat": 43.1492719,
+     "lng": 19.0951306
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/%C5%BDabljak_-_Spomen_%C4%8Cesma_Borcima_Pitomine_i_Bosa%C4%8De",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "procena na wikiju"
+   },
+   {
+    "id": "zagreb-spomenik-marku-oreskovicu",
+    "pre": {
+     "lat": 45.8073006,
+     "lng": 16.0172526
+    },
+    "stranica": "https://www.xiwl.com/w/index.php/Zagreb_-_Spomenik_Marku_Ore%C5%A1kovi%C4%87u",
+    "nacin": "posebna rec",
+    "godina": null,
+    "tacka": "utvrdjena na wikiju"
+   }
+  ]
  }
 ]

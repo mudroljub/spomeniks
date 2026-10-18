@@ -32,6 +32,8 @@ POZNATI_BLISKI_PAROVI = {frozenset(par) for par in [
     ('alaginci-spomen-ploca-zrtvama-fasizma-na-senjaku', 'pozega-senjak-spomen-grobnica-logorasa'),
     ('budva-mitrovic', 'sveti-stefan-bista-nika-andusa'),
     ('mojkovac-bista-ljubomira-bakoca', 'mojkovac-spomenik-palim-borcima-u-nor-u'),
+    ('jajce', 'jajce-lokomotiva-partizanka'),
+    ('cadjavica-donja-spomenik-preko-200-boraca-poginuli', 'cadjavica-donja-partizansko-groblje'),
 ]}
 cir = re.compile('[Ѐ-ӿ]')
 ids = collections.Counter(s.get('id') for s in d)

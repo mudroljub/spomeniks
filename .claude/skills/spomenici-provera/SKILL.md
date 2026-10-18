@@ -69,7 +69,7 @@ node --test alati/test.mjs
 
 Kad dodaješ novu funkciju aplikacije, dodaj i njen tok u `alati/test.mjs`. Zajednički kod za upravljanje pregledačem je u `alati/pregledac.mjs`.
 
-Zatim pogledaj izmenu. Aplikacija se koristi samo na telefonu, pa se gleda na ekranu telefona (390 × 844, dodir):
+Zatim pogledaj izmenu na ekranu telefona (390 × 844, dodir). Kad izmena dotiče raspored na širem ekranu, proveri i desktop (npr. 1440 × 900), uključujući preklapanje dugmadi i naslova:
 
 ```
 bash .claude/skills/spomenici-provera/scripts/aplikacija.sh <scratchpad>/proba.png "<JS izraz>" [čekanje ms]
@@ -83,6 +83,12 @@ Za izraz:
 - tooltip na prelazak mišem ne postoji uz dodir; za njega treba Chrome bez emulacije dodira i `Input.dispatchMouseEvent`.
 
 Emulacija ne zamenjuje pravi telefon: za izmene izgleda reci korisniku da ih proveri na svom.
+
+### Prikaz i prijave korisnika
+
+- **Približne lokacije:** zadrži ikonicu spomenika, sa malim upitnikom preko sredine, malo spuštenim; bez isprekidanog kruga i bleđenja. Uz mesto, pre godine, piše „(bez tačne lokacije)“. Mapa i legenda koriste zajednički prikaz iz `utils/ikonice.js`, ne odvojene kopije oznake.
+- **Preklapanja:** približne ikonice odmakni od preciznih kada ima prostora; pomeraj samo prikaz, ne sačuvane koordinate ili odredište navigacije. Za proveru koristi Belu Crkvu (Mačva), gde uz precizni kompleks postoje tri približno locirane biste; proveri više zumova i otvaranje pravog zapisa.
+- **Prijava spomenika:** dovoljni su naziv i lokacija; fotografija, kategorija, opis i ostalo su opcioni, a dodavanje na Google mapu je bonus. Na ekranu je kratko uputstvo „Pošalji lokaciju i naziv spomenika“, a dodatna polja ostaju u pripremljenom mejlu. Adresu sastavljaj tek na klik za slanje ili kopiranje; ne ispisuj je unapred u stranici, stalnim `mailto:` linkovima ili dokumentaciji i ne predstavljaj ovo kao potpunu zaštitu od botova.
 
 ## 4. Brzina
 

@@ -196,6 +196,72 @@ test('približne lokacije u Beloj Crkvi ne prekrivaju precizni spomenik', async 
   }
 })
 
+test('tematske ture imaju wiki članak, stanice i vezu posle ponovnog otvaranja', async () => {
+  for (const [naziv, broj, clanak] of [
+    ['Beograd u NOB', 8, 'Beograd_u_Narodnooslobodila'],
+    ['Slavonija u NOB', 7, 'Slavonija_u_Narodnooslobodila'],
+  ]) {
+    await otvori()
+    const ruta = "document.querySelector('planer-rute').shadowRoot"
+    await izvrsi(`${ruta}.querySelector('#dugme').click()`)
+    await izvrsi(`${ruta}.querySelector('[data-kartica="ture"]').click()`)
+    const red = `[...${ruta}.querySelectorAll('#spisak-tura li')].find(li => li.querySelector('.ime').textContent === ${JSON.stringify(naziv)})`
+    assert.match(await izvrsi(`${red}.querySelector('a.wiki').href`), new RegExp(clanak))
+    await izvrsi(`${red}.querySelector('button').click()`)
+    assert.equal(await izvrsi(`${ruta}.querySelectorAll('#stanice li').length`), broj)
+    assert.match(await izvrsi(`${ruta}.querySelector('#wiki-rute').href`), new RegExp(clanak))
+    assert.equal(await izvrsi(`${ruta}.querySelector('#wiki-rute').hidden`), false)
+    await otvori()
+    assert.equal(await izvrsi(`${ruta}.querySelector('#ime-rute').textContent`), naziv)
+    assert.match(await izvrsi(`${ruta}.querySelector('#wiki-rute').href`), new RegExp(clanak))
+  }
+  await izvrsi("import('./utils/ruta.js').then(m => m.postaviRutu([]))")
+})
+
+test('gradska tura Niša se približava uz sve stanice na vidljivom delu mape', async () => {
+  await otvori()
+  const ruta = "document.querySelector('planer-rute').shadowRoot"
+  await izvrsi(`${ruta}.querySelector('#dugme').click();${ruta}.querySelector('[data-kartica="ture"]').click()`)
+  await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura li')].find(li => li.querySelector('.ime').textContent === 'Niš u NOB').querySelector('button').click()`)
+  await sacekaj("import('./klase/mapa.js').then(({mapa}) => mapa.getZoom() > 11)", 'bliži prikaz gradske ture')
+  await sleep(400)
+  const provera = await izvrsi(`Promise.all([import('./klase/mapa.js'), fetch('data/spomeniks.json').then(r => r.json()), import('./utils/ruta.js')]).then(([{mapa}, spomenici, {dajRutu}]) => {
+    const dno = ${ruta}.querySelector('#dugme').getBoundingClientRect().top - 20
+    return spomenici.filter(s => dajRutu().includes(s.id)).map(s => {
+      const p = mapa.latLngToContainerPoint(s.koordinate)
+      return p.x >= 29 && p.x <= innerWidth - 29 && p.y >= 79 && p.y <= dno + 1
+    })
+  })`)
+  assert.equal(provera.length, 6)
+  assert.ok(provera.every(Boolean))
+})
+
+test('svaka stanica ima direktnu navigaciju nezavisnu od cele ture', async () => {
+  await otvori()
+  const ruta = "document.querySelector('planer-rute').shadowRoot"
+  await izvrsi(`${ruta}.querySelector('#dugme').click();${ruta}.querySelector('[data-kartica="ture"]').click()`)
+  await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura li')].find(li => li.querySelector('.ime').textContent === 'Niš u NOB').querySelector('button').click()`)
+  const podaci = await izvrsi(`Promise.all([fetch('data/spomeniks.json').then(r => r.json()), import('./utils/ruta.js')]).then(([spomenici, {dajRutu}]) => {
+    const ids = dajRutu()
+    return ids.map(id => spomenici.find(s => s.id === id))
+  })`)
+  const linkovi = await izvrsi(`[...${ruta}.querySelectorAll('#stanice .navigacija')].map(a => ({href:a.href, label:a.getAttribute('aria-label'),target:a.target}))`)
+  assert.ok(linkovi.length > 3)
+  assert.equal(linkovi.length, podaci.length)
+  linkovi.forEach((link, i) => {
+    const url = new URL(link.href)
+    assert.equal(url.searchParams.get('destination'), `${podaci[i].koordinate.lat},${podaci[i].koordinate.lng}`)
+    assert.equal(url.searchParams.get('waypoints'), null)
+    assert.match(link.label, /^Navigacija:/)
+    assert.equal(link.target, '_blank')
+  })
+  const prva = linkovi[0].href
+  await izvrsi(`${ruta}.querySelector('#stanice li:last-child .gore').click()`)
+  assert.equal(await izvrsi(`${ruta}.querySelector('#stanice li:first-child .navigacija').href`), prva)
+  const poslednji = new URL(await izvrsi(`${ruta}.querySelector('#stanice li:last-child .navigacija').href`))
+  assert.equal(poslednji.searchParams.get('destination'), `${podaci.at(-2).koordinate.lat},${podaci.at(-2).koordinate.lng}`)
+})
+
 test('bez grešaka u aplikaciji', () => {
   assert.deepEqual(greske, [])
 })

@@ -56,6 +56,14 @@ export interface Spomenik {
   stanjeIzvor?: {naziv: string, godina: number, url: string}
 }
 
+/** data/ture.json: stanice su ID-jevi iz spomeniks.json, redom obilaska. */
+export interface Tura {
+  naziv: {sh: string, en: string}
+  spomenici: string[]
+  /** članak o temi ture, nezavisno od članaka pojedinačnih spomenika */
+  wiki?: string
+}
+
 /** moguća, nepotvrđena lokacija spomenika bez lokacije */
 export interface Kandidat extends Koordinate {
   izvor: string
