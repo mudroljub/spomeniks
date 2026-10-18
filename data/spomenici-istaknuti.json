@@ -8319,6 +8319,7 @@
     "godina": "1981",
     "godinaOd": 1981,
     "godinaDo": 1981,
+    "autor": "Dinko Vranković",
     "vrsta": "spomenik",
     "drzava": "Croatia"
   },
@@ -9748,6 +9749,10 @@
     "slikaOdnos": 1.282,
     "naziv": "Spomenik palim borcima",
     "nazivEn": "Monument to Fallen Fighters",
+    "godina": "1954",
+    "godinaOd": 1954,
+    "godinaDo": 1954,
+    "autor": "Kosta Angeli Radovani",
     "vrsta": "statua",
     "drzava": "Croatia"
   },
@@ -21181,6 +21186,24 @@
     "naziv": "Palim borcima NOR-a",
     "autor": "Ljubo de Karina",
     "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "vrbanj",
+    "koordinate": {
+      "lat": 43.1690726,
+      "lng": 16.6423734
+    },
+    "googleCid": "3900765723398910875",
+    "mesto": "Vrbanj",
+    "slika": "slike/spomenici/vrbanj.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "godina": "1949",
+    "godinaOd": 1949,
+    "godinaDo": 1949,
+    "vrsta": "statua",
     "drzava": "Croatia"
   }
 ]
