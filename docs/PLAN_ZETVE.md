@@ -15,7 +15,6 @@ Napravljeno **2026-10-18**. Cilj: novi partizanski spomenici, spomen-groblja i s
 | # | Izvor | Republika | Zašto | Stanje provere |
 |---|---|---|---|---|
 | 1 | Partisan Memorials Wiki, ponovni prolaz | sve | Lokalna kopija već postoji (`izvori/xiwl/`); poznat propust (Brod, Crna Trava). Oko 490 stranica sa našim zapisom iste vrste u istom selu nije uvezeno. Bez mrežnih zahteva. | spreman |
-| 2 | Popović-Žuma, *Spomenici NOB i revolucije SR Srbije 1941–45* ([PDF, afterart](https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf)) | Srbija | Celovit katalog za Srbiju, koji do sada nismo koristili; citira ga i wiki. | dostupan, 214 MB; sadržaj i tekstualni sloj nisu provereni |
 | 3 | OSM, ponovni prolaz po državi | Srbija, S. Makedonija, Kosovo, Slovenija | Za BiH, Hrvatsku i Crnu Goru postoje izvozi u `izvori/osm/`; ostale države nisu prošle isti postupak (`historic=memorial`, dalje od 250 m od naših tačaka). | nije počelo |
 | 4 | Kosovo, spisak kulturne baštine pod zaštitom (Ministarstvo kulture) | Kosovo | Zvanični spisak sa memorijalnim spomenicima; imamo malo kosovskih zapisa. | nije provereno |
 | 5 | S. Makedonija, Nacionalni registar kulturnog nasleđa (Uprava za zaštitu kulturnog nasleđa) | S. Makedonija | Zvanični registar; Trajkovski 1986 je pregledan samo uzorkom i nema tekstualni sloj. | nije provereno |
