@@ -274,13 +274,6 @@ style.textContent = `
     padding-bottom: var(--dno);
   }
 
-  .wiki {
-    align-items: center;
-    color: ${boja};
-    display: inline-flex;
-    min-height: 44px;
-    padding: 0 16px;
-  }
 `
 
 const tacka = ({lat, lng}) => `${lat},${lng}`
@@ -507,16 +500,6 @@ export default class Ruta extends HTMLElement {
       this.prikaziKarticu('planer')
       this.pokaziTuru()
     })
-    if (wiki) {
-      const link = document.createElement('a')
-      link.className = 'wiki'
-      link.textContent = t('vise')
-      link.setAttribute('aria-label', `${t('vise')}: ${prevedi(naziv)}`)
-      link.href = wiki
-      link.target = '_blank'
-      link.rel = 'noopener'
-      red.appendChild(link)
-    }
     return red
   }
 

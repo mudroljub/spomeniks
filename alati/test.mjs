@@ -206,7 +206,7 @@ test('tematske ture imaju wiki članak, stanice i vezu posle ponovnog otvaranja'
     await izvrsi(`${ruta}.querySelector('#dugme').click()`)
     await izvrsi(`${ruta}.querySelector('[data-kartica="ture"]').click()`)
     const red = `[...${ruta}.querySelectorAll('#spisak-tura li')].find(li => li.querySelector('.ime').textContent === ${JSON.stringify(naziv)})`
-    assert.match(await izvrsi(`${red}.querySelector('a.wiki').href`), new RegExp(clanak))
+    assert.equal(await izvrsi(`${red}.querySelector('a')`), null)
     await izvrsi(`${red}.querySelector('button').click()`)
     assert.equal(await izvrsi(`${ruta}.querySelectorAll('#stanice li').length`), broj)
     assert.match(await izvrsi(`${ruta}.querySelector('#wiki-rute').href`), new RegExp(clanak))

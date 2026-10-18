@@ -6066,5 +6066,237 @@
     "tacka": "utvrdjena na wikiju"
    }
   ]
+ },
+ {
+  "odluka": "priblizno-biste-xiwl-sela",
+  "datum": "2026-10-18",
+  "postupak": "Biste nemaju svoje stranice na Partisan Memorials Wiki, nego red na stranici sela sa opisom mesta (škola, dom, groblje, park). Opis je pretvoren u tačku preko jedinog odgovarajućeg OSM objekta u selu, našeg tačnog zapisa groblja, ili linka (Google, Commons) iz istog reda.",
+  "duplikat": "dobrljin-bista-mihailo-djuric (iz sr.wikipedia) obrisan kao duplikat dobrljin-bista-mihaila-djurica; fotografija (Commons, CC BY-SA 3.0) prebačena na zadržani zapis.",
+  "prebaceno": [
+   {
+    "id": "dobrljin-bista-mihaila-djurica",
+    "pre": {
+     "lat": 45.15034,
+     "lng": 16.47975
+    },
+    "razlog": "OSM škola u selu; wiki: ispred OŠ „Mihailo Đurić“"
+   },
+   {
+    "id": "dvorovi-bista-dimitrija-lopandica-dika",
+    "pre": {
+     "lat": 44.80768,
+     "lng": 19.26224
+    },
+    "razlog": "OSM dom (community_centre) 79 m; wiki: Dom kulture"
+   },
+   {
+    "id": "krnjeusa-bista-radivoja-rodica",
+    "pre": {
+     "lat": 44.6901,
+     "lng": 16.22671
+    },
+    "razlog": "jedina OSM škola u selu; wiki: osnovna škola"
+   },
+   {
+    "id": "gornji-rahic-bista-hamida-berbica",
+    "pre": {
+     "lat": 44.78148,
+     "lng": 18.69295
+    },
+    "razlog": "OSM „VII Osnovna škola G. Rahić“; wiki: VII osnovna škola"
+   },
+   {
+    "id": "miricina-bista-saliha-zilica",
+    "pre": {
+     "lat": 44.61811,
+     "lng": 18.40555
+    },
+    "razlog": "OSM „Osnovna škola Miričina“; wiki: osnovna škola"
+   },
+   {
+    "id": "svodna-bista-dragana-vujanovica",
+    "pre": {
+     "lat": 45.03697,
+     "lng": 16.53671
+    },
+    "razlog": "Google mesto OŠ „Dragan Vujanović“ sa wiki stranice sela"
+   },
+   {
+    "id": "donji-vijacani-bista-novaka-pivasevica",
+    "pre": {
+     "lat": 44.80841,
+     "lng": 17.60271
+    },
+    "razlog": "jedina OSM škola u selu; wiki: osnovna škola"
+   },
+   {
+    "id": "donji-vijacani-bista-vida-njezica",
+    "pre": {
+     "lat": 44.80841,
+     "lng": 17.60271
+    },
+    "razlog": "jedina OSM škola u selu; wiki: osnovna škola"
+   },
+   {
+    "id": "donji-vijacani-bista-zivojina-preradovica",
+    "pre": {
+     "lat": 44.80841,
+     "lng": 17.60271
+    },
+    "razlog": "jedina OSM škola u selu; wiki: osnovna škola"
+   },
+   {
+    "id": "obudovac-bista-sime-petrovica",
+    "pre": {
+     "lat": 44.96868,
+     "lng": 18.60104
+    },
+    "razlog": "OSM OŠ „Simo Petrović“; wiki: osnovna škola"
+   },
+   {
+    "id": "breske-bista-ivana-markovica-irca",
+    "pre": {
+     "lat": 44.61075,
+     "lng": 18.65338
+    },
+    "razlog": "OSM škola 42 m; wiki: OŠ Breške"
+   },
+   {
+    "id": "donja-trnova-bista-vase-jovica-popca",
+    "pre": {
+     "lat": 44.65429,
+     "lng": 19.09528
+    },
+    "razlog": "OSM OŠ „Filip Višnjić“; wiki: ista škola"
+   },
+   {
+    "id": "vrazici-bista-fadila-jahica-spanca",
+    "pre": {
+     "lat": 44.74044,
+     "lng": 18.74811
+    },
+    "razlog": "OSM „Osnovna škola Vražići“; wiki: ista škola"
+   },
+   {
+    "id": "popovac-bista-petra-gajica",
+    "pre": {
+     "lat": 44.67116,
+     "lng": 17.27971
+    },
+    "razlog": "OSM „Osnovna Škola Popovac“; wiki: osnovna škola"
+   },
+   {
+    "id": "maslovare-bista-dragana-bubica",
+    "pre": {
+     "lat": 44.56342,
+     "lng": 17.53412
+    },
+    "razlog": "jedina OSM škola u selu; wiki: osnovna škola"
+   },
+   {
+    "id": "priboj-bista-veljka-cubrilovica",
+    "pre": {
+     "lat": 44.60156,
+     "lng": 18.93008
+    },
+    "razlog": "OSM OŠ „Veljko Čubrilović“; wiki: u školi"
+   },
+   {
+    "id": "gornja-slatina-bista-pere-bosica",
+    "pre": {
+     "lat": 44.96546,
+     "lng": 18.4724
+    },
+    "razlog": "OSM „Osnovna škola Gornja Slatina“; wiki: osnovna škola"
+   },
+   {
+    "id": "kastel-novi-bista-ante-beretina",
+    "pre": {
+     "lat": 43.55005,
+     "lng": 16.33926
+    },
+    "razlog": "OSM „Osnovna škola Bijaći“; wiki: ispred OŠ „Bijaći“ (uklonjena)"
+   },
+   {
+    "id": "kastel-sucurac-bista-silvestra-batine",
+    "pre": {
+     "lat": 43.54713,
+     "lng": 16.42692
+    },
+    "razlog": "OSM OŠ kneza Mislava, jedina osnovna u mestu; wiki: ispred osnovne škole (uklonjena)"
+   },
+   {
+    "id": "mesici-bista-slavise-vajnera-cice",
+    "pre": {
+     "lat": 43.7537,
+     "lng": 18.98639
+    },
+    "razlog": "wiki: park ispred HE Mesići, koordinate sa stranice sela"
+   },
+   {
+    "id": "orasje-bista-cedomira-mikica",
+    "pre": {
+     "lat": 44.89984,
+     "lng": 17.51075
+    },
+    "razlog": "wiki: na spomeniku palim borcima; tačka Google fotografije spomenika"
+   },
+   {
+    "id": "orasje-spomenik-palim-borcima",
+    "pre": {
+     "lat": 44.89984,
+     "lng": 17.51075
+    },
+    "razlog": "tačka Google fotografije spomenika sa wiki stranice sela"
+   },
+   {
+    "id": "pazin-bista-save-vukelica",
+    "pre": {
+     "lat": 45.2407408,
+     "lng": 13.9370283
+    },
+    "razlog": "Commons File:Pazin Park Savo Vukelic.jpg"
+   },
+   {
+    "id": "pazin-bista-joakima-rakovca",
+    "pre": {
+     "lat": 45.2407408,
+     "lng": 13.9370283
+    },
+    "razlog": "Commons File:Pazin Park Joakim Rakovac.jpg"
+   },
+   {
+    "id": "verici-bista-branka-popovica",
+    "pre": {
+     "lat": 44.92749,
+     "lng": 16.98891
+    },
+    "razlog": "wiki: na partizanskom groblju; tačka našeg zapisa verici"
+   },
+   {
+    "id": "donji-drezanj-bista-obrena-ivkovica",
+    "pre": {
+     "lat": 43.19083,
+     "lng": 18.22737
+    },
+    "razlog": "wiki: na partizanskom groblju; tačka našeg zapisa donji-drezanj-partizansko-groblje"
+   },
+   {
+    "id": "strojice-bista-rade-marijanca",
+    "pre": {
+     "lat": 44.18326,
+     "lng": 17.14808
+    },
+    "razlog": "wiki: na partizanskom groblju; tačka našeg zapisa strojice-groblje-sa-16-partizanskih-boraca-i-165-z"
+   },
+   {
+    "id": "strojice-bista-dusana-rakite",
+    "pre": {
+     "lat": 44.18326,
+     "lng": 17.14808
+    },
+    "razlog": "wiki: na partizanskom groblju; tačka našeg zapisa strojice-groblje-sa-16-partizanskih-boraca-i-165-z"
+   }
+  ]
  }
 ]

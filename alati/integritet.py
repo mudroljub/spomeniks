@@ -34,6 +34,20 @@ POZNATI_BLISKI_PAROVI = {frozenset(par) for par in [
     ('mojkovac-bista-ljubomira-bakoca', 'mojkovac-spomenik-palim-borcima-u-nor-u'),
     ('jajce', 'jajce-lokomotiva-partizanka'),
     ('cadjavica-donja-spomenik-preko-200-boraca-poginuli', 'cadjavica-donja-partizansko-groblje'),
+    # biste na groblju, kod spomenika ili skole imaju tacku tog objekta
+    ('verici', 'verici-bista-branka-popovica'),
+    ('donji-drezanj-bista-obrena-ivkovica', 'donji-drezanj-partizansko-groblje'),
+    ('donji-vijacani', 'donji-vijacani-bista-novaka-pivasevica'),
+    ('donji-vijacani', 'donji-vijacani-bista-vida-njezica'),
+    ('donji-vijacani', 'donji-vijacani-bista-zivojina-preradovica'),
+    ('donji-vijacani-bista-novaka-pivasevica', 'donji-vijacani-bista-vida-njezica'),
+    ('donji-vijacani-bista-novaka-pivasevica', 'donji-vijacani-bista-zivojina-preradovica'),
+    ('donji-vijacani-bista-vida-njezica', 'donji-vijacani-bista-zivojina-preradovica'),
+    ('strojice-bista-rade-marijanca', 'strojice-groblje-sa-16-partizanskih-boraca-i-165-z'),
+    ('strojice-bista-dusana-rakite', 'strojice-groblje-sa-16-partizanskih-boraca-i-165-z'),
+    ('strojice-bista-dusana-rakite', 'strojice-bista-rade-marijanca'),
+    ('orasje-bista-cedomira-mikica', 'orasje-spomenik-palim-borcima'),
+    ('pazin-bista-joakima-rakovca', 'pazin-bista-save-vukelica'),
 ]}
 cir = re.compile('[Ѐ-ӿ]')
 ids = collections.Counter(s.get('id') for s in d)
