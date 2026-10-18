@@ -48,11 +48,9 @@ export default class Prijava extends HTMLElement {
       <button id="dugme" aria-expanded="false" aria-controls="panel">${t('prijavaNaslov')}</button>
       <section id="panel" aria-labelledby="naslov" hidden>
         <header><h2 id="naslov">${t('prijavaNaslov')}</h2><button id="zatvori" aria-label="${t('zatvori')}">×</button></header>
-        <p><strong>${t('prijavaObavezno')}</strong></p>
         <p>${t('prijavaUputstvo')}</p>
         <button id="mejl">${t('prijavaOtvoriMejl')}</button>
         <p class="adresa"><button id="kopiraj">${t('prijavaKopiraj')}</button><span id="status" role="status"></span></p>
-        <p>${t('prijavaOpciono')}</p>
         <details><summary>${t('prijavaBonus')}</summary><p>${t('prijavaGoogle')}</p></details>
       </section>
     `

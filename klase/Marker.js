@@ -1,7 +1,7 @@
 // @ts-check
 import {mapa} from './mapa.js'
 import {dajOznaku} from '../utils/oznake.js'
-import {izgledMarkera, senka} from '../utils/ikonice.js'
+import {izgledMarkera, senka, pribliznaIkonica} from '../utils/ikonice.js'
 import {nazivSpomenika, escapeHtml} from '../utils/helpers.js'
 
 const razmeraZuma = {6: 0.5, 7: 0.55, 8: 0.65, 9: 0.8} // ostali zumovi pun obelisk
@@ -13,15 +13,18 @@ const razmeraVrste = {istaknut: 1.25, kompleks: 1.25, groblje: 1.25, bista: 0.8,
 // ruine i uklonjeni imaju sliku iste velicine, da se razlikuju po obliku, a ne samo po boji:
 // prelomljen obelisk i isprekidan obris onoga cega vise nema
 const ikonice = {}
-const dajIkonicu = ({slika, sirina, visina}, razmera, klasa, [dx, dy] = [0, 0]) => {
+const dajIkonicu = ({slika, sirina, visina}, razmera, klasa, [dx, dy] = [0, 0], priblizno = false) => {
   const px = vrednost => Math.round(vrednost * razmera)
-  return ikonice[[slika, razmera, klasa, dx, dy].join()] ??= L.icon({
+  const opcije = {
     iconUrl: slika,
     iconSize: [px(sirina + senka.levo + senka.desno), px(visina + senka.dole)],
     iconAnchor: [px(senka.levo + sirina / 2 - dx), px(visina - dy)],
-    tooltipAnchor: [0, -px(visina)],
-    className: klasa,
-  })
+    tooltipAnchor: [px(dx), px(dy - visina)],
+    className: `${klasa}${priblizno ? ' priblizna-lokacija' : ''}`,
+  }
+  return ikonice[[slika, razmera, klasa, dx, dy, priblizno].join()] ??= priblizno
+    ? L.divIcon({...opcije, html: pribliznaIkonica({slika, sirina, visina}, razmera)})
+    : L.icon(opcije)
 }
 
 // na dodirnom ekranu nema prelaska misem, a dodir odmah otvara spomenik
@@ -65,20 +68,17 @@ export default class Marker {
     this.razmera = razmeraVrste[spomen.vrsta] || 1
     this.izgled = izgledMarkera(spomen)
     this.element = L
-      .marker([spomen.koordinate.lat, spomen.koordinate.lng], {icon: dajIkonicu(this.izgled, 1, '', pomak), zIndexOffset: (12 - this.najmanjiZum) * 1000})
+      .marker([spomen.koordinate.lat, spomen.koordinate.lng], {
+        icon: dajIkonicu(this.izgled, 1, '', pomak, spomen.priblizno),
+        zIndexOffset: spomen.priblizno ? -10000 : (12 - this.najmanjiZum) * 1000,
+      })
       .on('click', () => this.otvoriProzor())
-    // priblizna tacka (npr. centar sela) ima isprekidan krug: spomenik je negde u blizini;
-    // grupa razmaknutih ima jedan krug oko svih, koji crta prvi (gornji) u grupi
-    const poluprecnik = 18 + Math.hypot(...pomak || [0, 0])
-    this.krug = spomen.priblizno && (!pomak || (pomak[0] === 0 && pomak[1] < 0))
-      ? L.circleMarker([spomen.koordinate.lat, spomen.koordinate.lng], {radius: poluprecnik, color: '#822323', weight: 1.5, dashArray: '4 4', fill: false, interactive: false})
-      : null
-    this.slojevi = [this.krug, this.element].filter(Boolean)
+    this.slojevi = [this.element]
     if (imaMis) this.element.bindTooltip(() => opis(spomen), {direction: 'top', className: 'naziv-spomenika'})
   }
 
   // velicina zavisi od zuma, a izgled od oznaka
-  osvezi(zum, izabran) {
+  osvezi(zum, izabran, pomakSudara = [0, 0]) {
     const razmera = (razmeraZuma[zum] || 1) * this.razmera
     const oznaka = dajOznaku(this.spomen.id)
     const klasa = [
@@ -86,9 +86,24 @@ export default class Marker {
       oznaka === 'posetio' && 'posecen',
       oznaka === 'lista' && 'na-listi',
     ].filter(Boolean).join(' ')
-    const ikonica = dajIkonicu(this.izgled, razmera, klasa, this.pomak)
+    const pomak = /** @type {[number, number]} */ ([(this.pomak?.[0] || 0) + pomakSudara[0] / razmera, (this.pomak?.[1] || 0) + pomakSudara[1] / razmera])
+    const ikonica = dajIkonicu(this.izgled, razmera, klasa, pomak, this.spomen.priblizno)
     // nova ikonica pravi novu sliku u DOM-u, pa samo kad se promeni
     if (ikonica !== this.element.options.icon) this.element.setIcon(ikonica)
+  }
+
+  okvirNaEkranu(zum) {
+    const razmera = (razmeraZuma[zum] || 1) * this.razmera
+    const {x, y} = mapa.latLngToContainerPoint(this.dajPoziciju())
+    const dx = (this.pomak?.[0] || 0) * razmera
+    const dy = (this.pomak?.[1] || 0) * razmera
+    const sirina = this.izgled.sirina * razmera
+    return {
+      levo: x + dx - sirina / 2 - senka.levo * razmera - 4,
+      desno: x + dx + sirina / 2 + senka.desno * razmera + 4,
+      gore: y + dy - this.izgled.visina * razmera - 4,
+      dole: y + dy + Math.max(senka.dole * razmera, this.spomen.priblizno ? 14 : 0) + 4,
+    }
   }
 
   dajPoziciju() {

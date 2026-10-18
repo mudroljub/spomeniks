@@ -37,7 +37,9 @@ const fajlovi = [
   'utils/prijava.js',
   'utils/oznake.js',
   'utils/ruta.js',
+  'utils/raspored.js',
   'slike/obelisk.png',
+  'slike/markeri/priblizno.svg',
   'slike/obelisk-rusevina.png',
   'slike/obelisk-uklonjen.png',
   ...['kompleks', 'lokalni', 'groblje', 'muzej', 'ploca', 'bista', 'statua'].flatMap(tip =>

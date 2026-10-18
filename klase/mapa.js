@@ -1,5 +1,6 @@
 // @ts-check
 import {dajOznaku, promene} from '../utils/oznake.js'
+import Raspored from '../utils/raspored.js'
 
 const konfigMape = {
   zoom: 8,
@@ -48,9 +49,17 @@ const vidljiv = marker => suzeno || mapa.getZoom() >= marker.najmanjiZum || mark
 // izdaleka su obelisci manji, da se manje preklapaju; ikonica pokazuje i oznake
 const osvezi = () => {
   const granice = mapa.getBounds().pad(0.5)
+  const zum = mapa.getZoom()
+  const naEkranu = []
+  const raspored = new Raspored()
   markeri.forEach(marker => {
     if (!vidljiv(marker) || !granice.contains(marker.dajPoziciju())) return ukloni(marker)
-    marker.osvezi(mapa.getZoom(), izabran)
+    naEkranu.push(marker)
+    if (!marker.spomen.priblizno) raspored.dodaj(marker.okvirNaEkranu(zum))
+  })
+  naEkranu.forEach(marker => {
+    const pomak = marker.spomen.priblizno ? raspored.pomeri(marker.okvirNaEkranu(zum)) : [0, 0]
+    marker.osvezi(zum, izabran, pomak)
     marker.slojevi.forEach(s => sloj.addLayer(s))
   })
 }

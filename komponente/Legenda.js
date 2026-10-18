@@ -1,7 +1,7 @@
 // @ts-check
 import {mapa} from '../klase/mapa.js'
 import {t} from '../utils/jezik.js'
-import {izgledMarkera, senka} from '../utils/ikonice.js'
+import {izgledMarkera, senka, pribliznaIkonica} from '../utils/ikonice.js'
 
 const boja = '#822323'
 
@@ -145,13 +145,14 @@ style.textContent = `
 `
 
 // senka iz slike ne zauzima mesto, da znakovi ostanu poravnati
-const stavka = ({slika, sirina, visina}, visinaIkone, naziv, stil = '') => {
+const stavka = ({slika, sirina, visina}, visinaIkone, naziv, stil = '', priblizno = false) => {
   const px = vrednost => Math.round(vrednost * visinaIkone / visina)
   const margine = `margin: 0 -${px(senka.desno)}px -${px(senka.dole)}px -${px(senka.levo)}px`
   return `
   <div class="stavka">
-    <span class="ikona"><img src="${slika}" width="${px(sirina + senka.levo + senka.desno)}" height="${px(visina + senka.dole)}" alt=""
-      style="${margine}${stil ? `; ${stil}` : ''}"></span>
+    <span class="ikona">${priblizno
+      ? `<span style="position: relative; ${margine}">${pribliznaIkonica({slika, sirina, visina}, visinaIkone / visina)}</span>`
+      : `<img src="${slika}" width="${px(sirina + senka.levo + senka.desno)}" height="${px(visina + senka.dole)}" alt="" style="${margine}${stil ? `; ${stil}` : ''}">`}</span>
     <span>${naziv}</span>
   </div>`
 }
@@ -172,7 +173,7 @@ const maleGrupe = [
   [t('grupaPosetaJednina'), stavka(obelisk(), 34, t('lista'), 'filter: drop-shadow(0 0 3px #f2b705) drop-shadow(0 0 2px #f2b705)')
     + stavka(obelisk(), 34, t('posetio'), 'opacity: 0.5')],
   [t('grupaStanje'), stavka(obelisk('rusevine'), 34, t('ruineJednina')) + stavka(obelisk('uklonjen'), 34, t('nestao'))
-    + stavka(obelisk(), 34, t('priblizno'), 'border: 1.5px dashed #822323; border-radius: 50%')],
+    + stavka(obelisk(), 34, t('priblizno'), '', true)],
 ]
 
 // legenda je u donjem levom uglu mape i otvara se samo na zahtev, da ne zaklanja spomenike

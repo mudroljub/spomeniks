@@ -24,14 +24,13 @@ const jednina = n => n % 10 === 1 && n % 100 !== 11
 const malo = n => [2, 3, 4].includes(n % 10) && ![12, 13, 14].includes(n % 100)
 
 const tekstovi = {
-  prijavaNaslov: {sh: 'Pošalji spomenik', en: 'Suggest a monument'},
+  prijavaNaslov: {sh: 'Dodaj spomenik', en: 'Add a monument'},
   prijavaDopuna: {sh: 'Dopuna podataka', en: 'Monument update'},
   prijavaNaziv: {sh: 'Naziv spomenika (obavezno)', en: 'Monument name (required)'},
   prijavaLokacija: {sh: 'Lokacija — link iz mape (obavezno)', en: 'Location — map link (required)'},
-  prijavaObavezno: {sh: 'Potrebni su samo naziv spomenika i lokacija.', en: 'Only the monument name and location are required.'},
   prijavaUputstvo: {
-    sh: 'Kopiraj link lokacije iz mape, otvori mejl i dodaj naziv spomenika. Možeš i da kopiraš našu adresu, pa u mapi izabereš „Podeli“ i pošalješ lokaciju mejlom.',
-    en: 'Copy the location link from your map, open the email and add the monument name. You can also copy our email address, then select “Share” in your map and email the location.',
+    sh: 'Pošalji lokaciju i naziv spomenika.',
+    en: 'Send the location and name of the monument.',
   },
   prijavaOtvoriMejl: {sh: 'Otvori mejl', en: 'Open email'},
   prijavaKopiraj: {sh: 'Kopiraj mejl adresu', en: 'Copy email address'},

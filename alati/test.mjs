@@ -150,6 +150,46 @@ test('prijava otvara pripremljen mejl, a dopuna uključuje postojeći spomenik',
   assert.match(dopuna.searchParams.get('body'), /https:\/\/www.google.com\/maps\?q=\d/)
 })
 
+test('približna lokacija zadržava ikonicu sa upitnikom ispod i istu oznaku u legendi', async () => {
+  await otvori('#kikinda-sumica-spomenik-nob')
+  const detalji = "document.querySelector('detalji-spomenika').shadowRoot"
+  await sacekaj(`${detalji}.querySelector('.mesto')?.textContent.includes('(bez tačne lokacije)')`, 'napomena o približnoj lokaciji')
+  assert.ok(await izvrsi("document.querySelector('.priblizna-lokacija.izabran img').getBoundingClientRect().height") > 20)
+  const slika = await izvrsi("document.querySelector('.priblizna-lokacija.izabran .oznaka-priblizno').getAttribute('src')")
+  assert.equal(await izvrsi("document.querySelector('.priblizna-lokacija.izabran .oznaka-priblizno').getBoundingClientRect().width"), 8)
+  await izvrsi(`${detalji}.querySelector('#zatvori').click()`)
+  await izvrsi("document.querySelector('.priblizna-lokacija').click()")
+  await sacekaj(`${detalji}.querySelector('.mesto')?.textContent.includes('(bez tačne lokacije)') && !${detalji}.querySelector('#panel').hidden`, 'otvaranje tačke')
+  await izvrsi(`${detalji}.querySelector('#zatvori').click()`)
+  const legenda = "document.querySelector('dugme-legenda').shadowRoot"
+  await izvrsi(`${legenda}.querySelector('#dugme').click()`)
+  assert.ok(await izvrsi(`[...${legenda}.querySelectorAll('img')].some(img => img.getAttribute('src') === ${JSON.stringify(slika)})`))
+})
+
+test('približne lokacije u Beloj Crkvi ne prekrivaju precizni spomenik', async () => {
+  await otvori('#bela-crkva-start-uprising')
+  await sacekaj("document.querySelector('detalji-spomenika').marker?.spomen.id === 'bela-crkva-start-uprising'", 'Bela Crkva')
+  for (const zum of [11, 10, 12]) {
+    const rezultat = await izvrsi(`import('./klase/mapa.js').then(({mapa}) => {
+      mapa.setZoom(${zum}, {animate: false})
+      const marker = document.querySelector('detalji-spomenika').marker
+      const tacni = marker.element.getElement().getBoundingClientRect()
+      const priblizni = [...document.querySelectorAll('.priblizna-lokacija')]
+      return {
+        broj: priblizni.length,
+        preklapanja: priblizni.filter(el => {
+          const r = el.getBoundingClientRect(), oznaka = el.querySelector('.oznaka-priblizno').getBoundingClientRect()
+          return r.left < tacni.right && r.right > tacni.left && r.top < tacni.bottom && Math.max(r.bottom, oznaka.bottom) > tacni.top
+        }).length,
+        pozicija: marker.dajPoziciju(), koordinate: marker.spomen.koordinate,
+      }
+    })`)
+    assert.ok(rezultat.broj >= 3)
+    assert.equal(rezultat.preklapanja, 0, `preklapanje na zumu ${zum}`)
+    assert.deepEqual(rezultat.pozicija, rezultat.koordinate)
+  }
+})
+
 test('bez grešaka u aplikaciji', () => {
   assert.deepEqual(greske, [])
 })

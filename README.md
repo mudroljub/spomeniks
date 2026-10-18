@@ -14,8 +14,15 @@ live-server
 
 ## TODO
 
-Nema aktivnih stavki.
+- stil za spomenike bez tačne lokacije čini da su oni upadljiviji od spomenika sa lokacijom, što je loše. za travel app mora biti obrnuto.
+- pri udaljenom zumu ima puno objekata bez tačne lokacije. nalaženje tačne lokacije za njih treba biti prioritet. Redosled po vrsti (u zagradi postojeći / nestali, od 1.395):
+  1. istaknuti (0) i kompleksi (8 / 0)
+  2. spomenici (27 / 1) i statue (7 / 0)
+  3. muzeji i spomen-domovi (29 / 0)
+  4. biste (123 / 63)
+  5. groblja i kosturnice (344 / 5)
+  6. lokalni (706 / 82)
 
-## Predlozi korisnika
-
-Dugme „Pošalji spomenik“ otvara uputstvo i pripremljen mejl za održavaoca. Obavezni su naziv i lokacija (podeljeni link iz mape); fotografija, kategorija, opis i ostalo su opcioni. Dodavanje na Google mapu je bonus. U detaljima postojećeg spomenika „Dopuna podataka“ priprema mejl sa nazivom i lokacijom; prijave se pregledaju pre unošenja u bazu. Adresa se sastavlja tek na zahtev za otvaranje mejla ili kopiranje, radi otežavanja automatskog prikupljanja; ovo nije potpuna zaštita od botova koji izvršavaju JavaScript.
+  Unutar grupe prvo postojeći, pa oni sa autorom ili fotografijom; srušeni i uklonjeni na kraju.
+- ne treba odvojeno ažurirati ikonice za mapu i za legendu. oba mesta treba da koriste iste ikonice
+- umesto Dopuna podataka -> Dopuni podatke

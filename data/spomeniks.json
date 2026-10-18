@@ -71297,9 +71297,10 @@
   {
     "id": "husino-spomen-dom-husinske-bune",
     "koordinate": {
-      "lat": 44.5142315,
-      "lng": 18.6108737
+      "lat": 44.5142625,
+      "lng": 18.6109844
     },
+    "googleCid": "2950139378572358062",
     "mesto": "Husino",
     "izvor": "https://www.spomenicinob.info/tuzla",
     "naziv": "Spomen-dom Husinske bune",
@@ -73306,10 +73307,9 @@
   {
     "id": "piperci-spomenik-zasjedi-partizanskih-snaga-u-sept",
     "koordinate": {
-      "lat": 44.77739,
-      "lng": 18.94559
+      "lat": 44.7730642,
+      "lng": 18.9512765
     },
-    "priblizno": true,
     "mesto": "Piperci",
     "izvor": "https://www.spomenicinob.info/bijeljina",
     "naziv": "Spomenik zasjedi partizanskih snaga u septembru 1941. godine",
@@ -82837,10 +82837,9 @@
   {
     "id": "gornja-tuzla-spomenik-na-mjestu-smrti-narodnog-her",
     "koordinate": {
-      "lat": 44.55748,
-      "lng": 18.76228
+      "lat": 44.5647888,
+      "lng": 18.751914
     },
-    "priblizno": true,
     "mesto": "Gornja Tuzla",
     "izvor": "https://www.spomenicinob.info/tuzla",
     "naziv": "Spomenik na mjestu smrti narodnog heroja Mahmuta Bušatlije Buša",
@@ -82914,12 +82913,15 @@
   {
     "id": "husino-spomenik-husinskoj-buni",
     "koordinate": {
-      "lat": 44.51419,
-      "lng": 18.6145
+      "lat": 44.514895,
+      "lng": 18.6122668
     },
-    "priblizno": true,
+    "googleCid": "12924795787426970876",
     "mesto": "Husino",
     "izvor": "https://www.spomenicinob.info/tuzla",
+    "slika": "slike/spomenici/husino-spomenik-husinskoj-buni.webp",
+    "slikaOdnos": 0.749,
+    "slikaPotpis": "Google Maps",
     "naziv": "Spomenik Husinskoj buni",
     "nazivEn": "Monument to the Husino Rebellion",
     "godina": "1956",
@@ -83879,10 +83881,9 @@
   {
     "id": "koncarev-kraj-memorijalni-muzej-rade-koncara",
     "koordinate": {
-      "lat": 44.82878,
-      "lng": 15.5672
+      "lat": 44.8296119,
+      "lng": 15.5626062
     },
-    "priblizno": true,
     "mesto": "Končarev Kraj",
     "izvor": "https://znaci.org/00003/920.pdf#page=66",
     "naziv": "Memorijalni muzej Rade Končara",

@@ -1593,5 +1593,40 @@
     "tacka": "geokodirana adresa iz Hrženjaka: Vrapčanska 7."
    }
   ]
+ },
+ {
+  "odluka": "priblizno-osm-uparivanje",
+  "datum": "2026-10-18",
+  "postupak": "Približne tačke u BiH i Hrvatskoj upoređene offline sa OSM spomen-obeležjima (izvori/osm/BA- i HR-spomen-obelezja.json) do 2,5 km, koja nisu zauzeta tačnim zapisom; prihvaćeni samo parovi sa istim imenom ili natpisom.",
+  "ishod": "3 tačke prebačene od ~1.360; ostali OSM kandidati su drugi ratovi, druge ličnosti ili opšti nazivi bez potvrde identiteta.",
+  "prebaceno": [
+   {
+    "id": "piperci-spomenik-zasjedi-partizanskih-snaga-u-sept",
+    "osm": "https://www.openstreetmap.org/node/11381380448",
+    "pre": {
+     "lat": 44.77739,
+     "lng": 18.94559
+    },
+    "razlog": "natpis o zasedi 16. septembra 1941. i borcima NOR-a iz sela Piperci"
+   },
+   {
+    "id": "gornja-tuzla-spomenik-na-mjestu-smrti-narodnog-her",
+    "osm": "https://www.openstreetmap.org/node/11646434659",
+    "pre": {
+     "lat": 44.55748,
+     "lng": 18.76228
+    },
+    "razlog": "OSM naziv „Spomenik Mahmuta Bušatlije“"
+   },
+   {
+    "id": "koncarev-kraj-memorijalni-muzej-rade-koncara",
+    "osm": "https://www.openstreetmap.org/node/11160813005",
+    "pre": {
+     "lat": 44.82878,
+     "lng": 15.5672
+    },
+    "razlog": "OSM naziv „Rodna kuca Rade Koncara“"
+   }
+  ]
  }
 ]
