@@ -11,6 +11,28 @@ VRSTE = {'istaknut', 'kompleks', 'spomenik', 'statua', 'bista', 'lokalni', 'ploc
 STANJA = {'rusevine', 'srusen', 'uklonjen', 'ostecen', 'zatvoren'}
 DRZAVE = {'Slovenia', 'Croatia', 'Bosnia and Herzegovina', 'Serbia', 'Montenegro', 'Macedonia', 'Kosovo', 'Italy'}
 POZNATA = set(REDOSLED)
+# Ranije proverene celine i pojedinacna obelezja na istoj lokaciji.
+POZNATI_BLISKI_PAROVI = {frozenset(par) for par in [
+    ('nis', 'nis-spomen-park-bubanj'),
+    ('sisak', 'sisak-spomen-park-brezovica'),
+    ('dotrscina', 'zagreb-spomen-park-dotrscina'),
+    ('bela-crkva-start-uprising', 'bela-crkva-spomenicki-kompleks'),
+    ('aleksinac', 'aleksinac-spomen-park-nob'),
+    ('sibenik', 'sibenik-spomen-park-subicevac'),
+    ('zabalj', 'zabalj-spomen-kompleks-crna-cuprija'),
+    ('october-21st-museum', 'kragujevac-spomenik-covek-bez-iluzija'),
+    ('rudo', 'museum-to-1st-prolet-brigade'),
+    ('koprivnica', 'koprivnica-spomen-podrucje-danica'),
+    ('koprivnica', 'koprivnica-izvidnica'),
+    ('koprivnica-spomen-podrucje-danica', 'koprivnica-izvidnica'),
+    ('pula-istrian-uprising', 'pula-biste-narodnih-heroja'),
+    ('foca', 'musem-of-old-herzegovina'),
+    ('donja-trnova', 'donja-trnova-spomen-groblje'),
+    ('gajevci', 'gajevci-2'),
+    ('alaginci-spomen-ploca-zrtvama-fasizma-na-senjaku', 'pozega-senjak-spomen-grobnica-logorasa'),
+    ('budva-mitrovic', 'sveti-stefan-bista-nika-andusa'),
+    ('mojkovac-bista-ljubomira-bakoca', 'mojkovac-spomenik-palim-borcima-u-nor-u'),
+]}
 cir = re.compile('[Ѐ-ӿ]')
 ids = collections.Counter(s.get('id') for s in d)
 for i, n in ids.items():
@@ -69,3 +91,7 @@ greske['slika koju niko ne koristi'] = sorted(slike - koriscene)
 for k, v in greske.items():
     if v: print(f'{k}: {len(v)}', v[:8])
 print('spomenika', len(d))
+novi_bliski = [par for par in greske['manje od 30 m'] if frozenset(par[:2]) not in POZNATI_BLISKI_PAROVI]
+if novi_bliski:
+    print(f'novi parovi manje od 30 m: {len(novi_bliski)}', novi_bliski[:8])
+sys.exit(1 if novi_bliski or any(v for k, v in greske.items() if k != 'manje od 30 m') else 0)

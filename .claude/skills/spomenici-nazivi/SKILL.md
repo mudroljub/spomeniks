@@ -1,6 +1,6 @@
 ---
 name: spomenici-nazivi
-description: Određuje, prevodi i ujednačava domaće nazive spomenika u projektu Spomenici (polje `naziv` u data/spomeniks.json i data/bez_lokacije.json) — izvor naziva, jezik i pismo po državi, „Spomenik NOB-u“, biste u genitivu („Bista Ive Lole Ribara“), padeži skraćenica (NOB-a, ali „članovima KPJ“), partijski komiteti i jedinice, prevod engleskih opisa sa spomenicinob.info. Koristi ga uvek kad dodaješ spomenik, menjaš ili prevodiš naziv, pregledaš nazive na greške ili mešavinu engleskog, ili korisnik pita kako nešto treba da se zove, čak i kad pominje samo jedan spomenik.
+description: Određuje, prevodi i ujednačava domaće nazive spomenika u projektu Spomenici (polje `naziv` u data/spomeniks.json i data/bez_lokacije.json) — izvor naziva, jezik i pismo po državi, „Spomenik NOB“, biste u genitivu („Bista Ive Lole Ribara“), padeži skraćenica (NOB bez nastavka, SKOJ-a, ali „članovima KPJ“), partijski komiteti i jedinice, prevod engleskih opisa sa spomenicinob.info. Koristi ga uvek kad dodaješ spomenik, menjaš ili prevodiš naziv, pregledaš nazive na greške ili mešavinu engleskog, ili korisnik pita kako nešto treba da se zove, čak i kad pominje samo jedan spomenik.
 ---
 
 # Nazivi spomenika
@@ -11,7 +11,7 @@ Jezik po državi: Srbija, Hrvatska, BiH, Crna Gora i Kosovo pišu sh latinicom (
 
 ## Odakle naziv, redom
 
-1. **Autoritet**: naziv potvrđenog Google mesta, članka na Vikipediji ili natpisa na spomeniku. Upiši ga i kad zamenjuje raniji prevod. Konkretniji naziv ima prednost nad opštim („Spomen-kompleks Ljutotuk“, a ne „Spomenik NOB-u“). Kad se dva autoriteta ne slažu, pitaj korisnika i daj mu link.
+1. **Autoritet**: naziv potvrđenog Google mesta, članka na Vikipediji ili natpisa na spomeniku. Upiši ga i kad zamenjuje raniji prevod. Konkretniji naziv ima prednost nad opštim („Spomen-kompleks Ljutotuk“, a ne „Spomenik NOB“). Kad se dva autoriteta ne slažu, pitaj korisnika i daj mu link.
 2. **Doslovan prevod** jasnog engleskog opisa iz izvora. Za spomenicinob.info prvo pogledaj gotove prevode u `references/formule.json` (43 opisa koji se ponavljaju); ostale prevedi po `references/prevod.md`.
 3. **Samo vrsta**, kad nema ni autoriteta ni jasnog opisa: „Spomenik“, „Spomen-ploča“, „Bista“; makedonski „Споменик“; slovenački „Spomenik“, „Spominska plošča“, „Pokopališče“.
 
@@ -19,8 +19,8 @@ Dvosmislen engleski se ne tumači: „Martyrs Monument“ nije ni „palim borci
 
 ## Oblici
 
-- **Opšti naziv**: „Spomenik NOB-u“; makedonski „Споменик на НОБ“.
-- **Skraćenice**: muški rod se menja sa crticom (NOB-a, NOR-u, SKOJ-a, AVNOJ-u); ženski rod se ne menja (KPJ, KPH, NOV, NOVJ: „članovima KPJ“, „borcima NOV“).
+- **Opšti naziv**: „Spomenik NOB“; makedonski „Споменик на НОБ“.
+- **Skraćenice**: NOB se nikad ne menja („palim borcima NOB“, „poginulima u NOB“; odluka korisnika 2026-10-18); ostale muškog roda menjaju se sa crticom (NOR-u, SKOJ-a, AVNOJ-u); ženski rod se ne menja (KPJ, KPH, NOV, NOVJ: „članovima KPJ“, „borcima NOV“).
 - **Bista**: „Bista“ i ime u genitivu, bez „NH“: „Bista Ive Lole Ribara“, „Bista dr Mladena Stojanovića“, „Bista Larise Šugić“. Žensko prezime na suglasnik se ne menja. Za genitiv koristi `scripts/genitiv.py`:
 
   ```python

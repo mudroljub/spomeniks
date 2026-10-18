@@ -23,4 +23,7 @@ live-server
   3. Ispraviti referencu na `autori_wiki.py` u [autorima i posvetama](.claude/skills/spomenici-zetva/references/autori-i-posvete.md): skripta nije pronađena ni u projektu ni u navedenom starom direktorijumu `nazivi-alati`. Sačuvati postupak kao opis ili obezbediti postojeću skriptu i tačnu putanju.
   4. Ograničiti gašenje servera u [aplikacija.sh](.claude/skills/spomenici-provera/scripts/aplikacija.sh) na proces koji je sama skripta pokrenula. Rezervno gašenje trenutno prekida svaki proces koji sluša na portu 8765, čak i kada pokretanje sopstvenog servera nije uspelo zbog već zauzetog porta.
 
-  Proverena su sva tri projektna skila i osam pratećih fajlova: osnovni format zaglavlja, nazivi i dužine opisa, lokalne Markdown veze i sidra, JSON sa 43 formule, Python sintaksa i tri primera genitiva, kao i Bash sintaksa (`bash -n`). Sve ove provere prolaze. Puna YAML validacija alatom `quick_validate.py` nije pokrenuta jer nedostaje PyYAML; zaglavlja su proverena kao jednostavna polja `name` i `description`. Mrežni postupci i pokretanje aplikacije nisu deo ove statičke provere. Tokom same provere skilovi nisu menjani.
+- [Procena celog projekta, 2026-10-17](docs/PROCENA_PROJEKTA.md) — novi nalazi, po važnosti:
+  1. Dopuniti `integritet.py` kontrolom radnog spiska i njegovih knjiških veza; uskladiti tip radnih zapisa sa postojećim poljima provera.
+  2. Sprečiti ponavljanje istog novog Google CID-a u jednoj turi `dodaj_google.py` i uskladiti pauzu sa pravilom žetve.
+  3. Uskladiti datirani uvodni status i brojke u `docs/ZETVA_CRNA_GORA.md` sa završenim prolazima; sačuvati jasno označene istorijske brojke.

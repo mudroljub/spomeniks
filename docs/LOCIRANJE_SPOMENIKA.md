@@ -1,6 +1,6 @@
 # Lociranje spomenika
 
-Ažurirano **2026-10-17**, prema ranijim nalazima i trajnim izveštajima; bez nove pretrage ili promene mape. Dokument služi da pronađemo već provereni trag, izbegnemo ponavljanje i vidimo koji bi novi dokaz omogućio pouzdan unos.
+Ažurirano **2026-10-18**, posle odobrenog kratkog probnog prolaza. Dokument služi da pronađemo već provereni trag, izbegnemo ponavljanje i vidimo koji bi novi dokaz omogućio pouzdan unos.
 
 ## Status i završen obuhvat
 
@@ -11,6 +11,16 @@ Pri zatvaranju je zabeleženo **4.588 markera / 4.506 radnih stavki**. To su bro
 `data/bez_lokacije.json` je radni skup za nepotvrđene tačke i identitete; aplikacija ga ne učitava. Novi marker, povezivanje sa već postojećim i odbačen pogrešan kandidat su različiti rezultati. Uklanjanje radnog duplikata ne računa se kao nova lokacija.
 
 ## Gde nastaviti čitanje
+
+**Probni prolaz 18.10.2026:** po konkretnim školskim adresama pronađena je opštinska studija iz 2018. sa fotografijama i GPS tačkama samih bista. Na mapu prebačene biste Daša Pavičića (Topla) i Ilije Kišića (Zelenika), obe sa fotografijom; za Milana Vukovića precizirani hol škole i kandidat, ali bez markera zbog nerazjašnjenog odnosa bronzane biste i restauriranog originala u gipsu. Moravac ostaje nepotvrđen. Mapa **4.593 → 4.595**, radni spisak **4.520 → 4.518**; [pojedinačni dokazi i prethodni zapisi](../data/provere/lociranje-probni-2026-10-18.json). Dopune radnog spiska služe nalaženju lokacije; ovaj paket ne otvara neograničen prolaz.
+
+**Danilovgrad, 18.10.2026:** 1 nova lokacija (Spomen-dom Dabovići) i 1 razrešen radni duplikat (Ostrog, isti natpis i tačka postojećeg markera). Od 19 stavki iz knjige ostaje 17; završen je početni pregled svih 19 (dve gradske kosturnice zajedničkom pretragom), ne iscrpno istraživanje svih izvora. U nastavku nema novih markera; sužena je pretraga za Topolovo/Mosore, Podvraće/Šobajiće, Klikovače–Komunicu i planinu Siljevicu. Mapa **4.597 → 4.598**, radni spisak **4.538 → 4.536**; [dokazi, prethodni zapisi i odbačeni pogoci](../data/provere/lociranje-danilovgrad-2026-10-18.json).
+
+**Dodatne potvrde 18.10.2026:** Grlić potvrđen konkretnim Google mestom i fotografijom istog reljefa i natpisa; Dolovi Kovačevića i Gostilj potvrđeni poređenjem karakterističnih postolja i položaja na satelitu sa knjigom i terenskim katalogom. Očitane su tačke samih vidljivih postolja. **3 nove lokacije**, mapa **4.607 → 4.610**, radni spisak **4.538 → 4.535**; od prvobitnih 19 preostaje 14. Procenjene kataloške tačke ostalih objekata nisu automatski preuzete ([izveštaj, `potvrdeXiwl`](../data/provere/lociranje-danilovgrad-2026-10-18.json)).
+
+**Viš, dodatna potvrda 18.10.2026:** kameni spomenik iz knjige prepoznat na [snimku prolaska, 2:40](https://www.youtube.com/watch?v=ByV0IDj354o&t=160s), snimljenom 10.08.2019. prema opisu i GPS ispisu (katalog pogrešno navodi 2020). Kataloška tačka proverena prema položaju spomenika zapadno od puta i GPS-u automobila; GPS automobila nije tačka spomenika. **1 nova lokacija**, od prvobitnih 19 ostaje **13**; dokaz u [izveštaju, `potvrdaVis`](../data/provere/lociranje-danilovgrad-2026-10-18.json).
+
+**Bogatić i Culjković, 18.10.2026:** po korisnikovim lokacijama dodata dva spomenika sa Commons fotografijama: obelisk ispred opštine Bogatić (zaseban od postojeće biste ispred škole) i spomenik NOB-u uz školsku ogradu u Culjkoviću. Bogatić ima vidljivo postolje i saglasan geotag; položaj Culjkovića određen uz školsku ogradu, približno 10 m zbog krošanja ([dokazi i zapisi](../data/provere/bogatic-culjkovic-2026-10-18.json)).
 
 | Potreba | Evidencija koju prvo otvoriti | Šta sadrži |
 |---|---|---|

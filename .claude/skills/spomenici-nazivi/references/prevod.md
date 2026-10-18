@@ -34,7 +34,7 @@ Izlaz: JSON objekat `{"engleski opis": "domaći naziv"}`, sa tačno istim ključ
 | fallen fighters | palim borcima (dativ), palih boraca (genitiv) |
 | Victims of Fascist Terror | žrtvama fašističkog terora (dativ), žrtava fašističkog terora (genitiv) |
 | NH (narodni heroj) | narodni heroj, u padežu („Spomenik narodnom heroju Ivi Loli Ribaru“, „Bista narodnog heroja …“ — **kod bista izostavi „NH“**: „Bista Ive Lole Ribara“) |
-| the NOB / the NOR | NOB-u / NOR-u (dativ), NOB-a / NOR-a (genitiv) — muška skraćenica se menja sa crticom |
+| the NOB / the NOR | NOB bez nastavka; NOR-u (dativ), NOR-a (genitiv) — ostale muške skraćenice se menjaju sa crticom |
 | the Uprising | ustanak („Spomenik ustanku“) |
 | People's Liberation Committee | narodnooslobodilački odbor |
 | Supreme Command / Supreme Headquarters | Vrhovni štab |

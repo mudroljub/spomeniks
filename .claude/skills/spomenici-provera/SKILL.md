@@ -20,7 +20,7 @@ Korisnik komituje sam i oslanja se na to da je izmena proverena kad kažeš da j
 python -I alati/integritet.py
 ```
 
-Prolazi kad ispiše samo 17 poznatih parova „manje od 30 m“ (park i spomenik u njemu, grobnica i ploča na Senjaku) i `spomenika N`. Svaka druga kategorija je nova greška koju si uneo.
+Prolazi kad vrati izlazni status 0; stvarne greške i novi parovi na manje od 30 m vraćaju status 1. Poznati parovi (park i spomenik u njemu, grobnica i ploča na Senjaku) ostaju u ispisu, ali ne obaraju proveru: izuzeci su navedeni po tačnim ID-jevima u `POZNATI_BLISKI_PAROVI`, ne samo po ukupnom broju. Ako provera prijavi grešku, utvrdi da li je nastala tvojom izmenom; nemoj je automatski proglasiti poznatim izuzetkom.
 
 JSON se upisuje u formatu koji čuva čiste razlike u gitu (UTF-8, CRLF, uvlačenje 2):
 

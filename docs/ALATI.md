@@ -5,6 +5,7 @@ Pokreću se iz korena repozitorijuma: Python sa `python -I alati/<alat>.py`, a N
 | Alat | Namena |
 |---|---|
 | `integritet.py` | Provera celog `data/spomeniks.json`: polja, pismo, slike, duplikati na manje od 30 m. Pokreće se posle svake izmene podataka. |
+| `test_integritet.py` | `python -I alati/test_integritet.py`: izolovana provera izlaznog statusa; stvarne greške vraćaju 1, ispravni podaci i tačno navedeni poznati bliski parovi vraćaju 0. |
 | `zapis.py` | Redosled polja zapisa (`poredaj`), zajednički za sve alate koji pišu u `data/spomeniks.json`. |
 | `commons_dodaj.py <spisak.json> <fajlovi.json>` | Dodaje spomenike ili fotografije sa Commons-a: preuzima sliku, pravi webp, potpis i mesto iz najbližeg naselja. |
 | `proveri.py <link>` | Iz Google linka čita ime, koordinate i id i nalazi najbliže spomenike u bazi. |

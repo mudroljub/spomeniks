@@ -1,0 +1,128 @@
+{
+  "datum": "2026-10-18",
+  "obim": "Kratak probni prolaz po verovatnoći uspeha; tri školske biste i kontrolni kandidat Moravac. Dopune služe potvrđivanju lokacije.",
+  "dodato": 2,
+  "preciziraniKandidati": 1,
+  "mapaPre": 4593,
+  "mapaPosle": 4595,
+  "radniPre": 4520,
+  "radniPosle": 4518,
+  "prevezaniFajlovi": [],
+  "nalazi": [
+    {
+      "ishod": "nov-marker",
+      "id": "herceg-novi-bista-dasa-pavicica",
+      "radniIndeksPre": 4516,
+      "prethodniZapis": {
+        "naziv": "Bista Daša Pavičića",
+        "mesto": "Herceg Novi (Topla)",
+        "drzava": "Montenegro",
+        "izvor": "https://www.hercegnovi.me/downloads/Kultura/REGISTAR%20SPOMEN%20OB%20O%20HN.pdf",
+        "godina": "1971",
+        "vrsta": "bista",
+        "adresa": "Topla, dvorište OŠ „Dašo Pavičić“"
+      },
+      "noviZapis": {
+        "id": "herceg-novi-bista-dasa-pavicica",
+        "koordinate": {
+          "lat": 42.4573444,
+          "lng": 18.5260306
+        },
+        "mesto": "Herceg Novi (Topla)",
+        "izvor": "https://www.hercegnovi.me/downloads/Kultura/REGISTAR%20SPOMEN%20OB%20O%20HN.pdf",
+        "slika": "slike/spomenici/herceg-novi-bista-dasa-pavicica.webp",
+        "slikaOdnos": 1.487,
+        "slikaPotpis": "Studija zaštite kulturnih dobara Opštine Herceg Novi, 2018",
+        "naziv": "Bista Daša Pavičića",
+        "godina": "1971",
+        "autor": "Đorđe Angelovski",
+        "vrsta": "bista",
+        "drzava": "Montenegro"
+      },
+      "dokaz": "https://www.hercegnovi.me/files/plans/studija%20KD%20OHN_mape%20POTPISANO20192019%20%281%29.pdf#page=116",
+      "stampanaStrana": 115,
+      "pdfStrana": 116,
+      "datumIzvora": 2018,
+      "obrazlozenje": "Studija navodi GPS same biste, mikrolokaciju i fotografiju; Google potvrđuje školu u blizini, nije izvor tačke biste. Nema novog podatka o današnjem stanju.",
+      "napomenaAutor": "Autor potvrđen uz fotografiju u studiji."
+    },
+    {
+      "ishod": "nov-marker",
+      "id": "zelenika-bista-ilije-kisica",
+      "radniIndeksPre": 4514,
+      "prethodniZapis": {
+        "naziv": "Bista Ilije Kišića",
+        "mesto": "Zelenika",
+        "drzava": "Montenegro",
+        "izvor": "https://www.hercegnovi.me/downloads/Kultura/REGISTAR%20SPOMEN%20OB%20O%20HN.pdf",
+        "godina": "1971",
+        "autor": "Luka Tomanović",
+        "vrsta": "bista",
+        "adresa": "Zelenika, OŠ „Ilija Kišić“"
+      },
+      "noviZapis": {
+        "id": "zelenika-bista-ilije-kisica",
+        "koordinate": {
+          "lat": 42.4486056,
+          "lng": 18.5751222
+        },
+        "mesto": "Zelenika",
+        "izvor": "https://www.hercegnovi.me/downloads/Kultura/REGISTAR%20SPOMEN%20OB%20O%20HN.pdf",
+        "slika": "slike/spomenici/zelenika-bista-ilije-kisica.webp",
+        "slikaOdnos": 1.493,
+        "slikaPotpis": "Studija zaštite kulturnih dobara Opštine Herceg Novi, 2018",
+        "naziv": "Bista Ilije Kišića",
+        "godina": "1971",
+        "autor": "Antun Lukateli",
+        "vrsta": "bista",
+        "drzava": "Montenegro"
+      },
+      "dokaz": "https://www.hercegnovi.me/files/plans/studija%20KD%20OHN_mape%20POTPISANO20192019%20%281%29.pdf#page=117",
+      "stampanaStrana": 116,
+      "pdfStrana": 117,
+      "datumIzvora": 2018,
+      "obrazlozenje": "Studija navodi GPS same biste, mikrolokaciju i fotografiju; Google potvrđuje školu u blizini, nije izvor tačke biste. Nema novog podatka o današnjem stanju.",
+      "napomenaAutor": "Za Kišića školska istorija i studija potvrđuju Lukatelija; raniji zapis sa Tomanovićem sačuvan je u prethodniZapis."
+    },
+    {
+      "ishod": "preciziran-kandidat",
+      "prethodniZapis": {
+        "naziv": "Bista Milana Vukovića",
+        "mesto": "Herceg Novi (Savina)",
+        "drzava": "Montenegro",
+        "izvor": "https://www.hercegnovi.me/downloads/Kultura/REGISTAR%20SPOMEN%20OB%20O%20HN.pdf",
+        "godina": "1971",
+        "autor": "Luka Tomanović",
+        "vrsta": "bista",
+        "adresa": "Savina, dvorište OŠ „Milan Vuković“"
+      },
+      "noviZapis": {
+        "naziv": "Bista Milana Vukovića",
+        "mesto": "Herceg Novi (Savina)",
+        "drzava": "Montenegro",
+        "izvor": "https://www.hercegnovi.me/downloads/Kultura/REGISTAR%20SPOMEN%20OB%20O%20HN.pdf",
+        "godina": "1971",
+        "autor": "Luka Tomanović",
+        "vrsta": "bista",
+        "adresa": "OŠ „Milan Vuković“, Branka Ćopića 20, Savina; prema studiji 2018. bista je u holu škole, ne u dvorištu.",
+        "kandidati": [
+          {
+            "lat": 42.4512944,
+            "lng": 18.551575,
+            "izvor": "https://www.hercegnovi.me/files/plans/studija%20KD%20OHN_mape%20POTPISANO20192019%20%281%29.pdf#page=116",
+            "opis": "GPS biste iz studije 2018, štampana str. 115: bronzano poprsje u holu škole. Vest iz oktobra 2026. o restauriranom originalu u gipsu ne potvrđuje istovetnost te izvedbe; proveriti da li je bronzana bista i dalje na istom mestu."
+          }
+        ]
+      },
+      "dokaz": "https://www.hercegnovi.me/files/plans/studija%20KD%20OHN_mape%20POTPISANO20192019%20%281%29.pdf#page=116",
+      "dopunskiIzvor": "https://zuns.me/os-milan-vukovic-proslavila-dan-skole-tradicija-umjetnost-i-sjecanje/",
+      "napomena": "Ne dodaje se novi marker dok se ne razjasni odnos bronzane biste iz 2018. i originala u gipsu pomenutog 2026."
+    }
+  ],
+  "preskoceno": [
+    {
+      "mesto": "Moravac",
+      "razlog": "Google pretraga nije potvrdila identitet neimenovane OSM tačke; raniji kandidat ostaje nepromenjen."
+    }
+  ]
+}
