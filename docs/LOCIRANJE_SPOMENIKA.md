@@ -207,3 +207,5 @@ Muzejsku stavku sam povezao sa postoje?om oznakom Tiskarne Podmornica na istoj k
 **Banja Luka — bista Šefketa Maglajlića (2026-10-18):** povezana je sa grupnim markerom bisti; svedok i evidencija potvrđuju mesto, ali nema pouzdane zasebne tačke. [Odluka i izvori](../data/provere/odluke.json).
 
 **Banja Luka — bista Vahide Maglajlića (2026-10-18):** povezana je sa grupnim markerom 21 biste narodnih heroja na Trgu palih boraca; stari podatak o oštećenju nije potvrđen kao aktuelan. [Odluka i izvori](../data/provere/odluke.json).
+
+**Banja Luka ? bista Danka Mitrova (2026-10-18):** povezana je sa grupnim markerom bisti na Trgu palih boraca; katalog bele?i i zasebnu bistu istog imena u Vrbanji. [Odluka i izvori](../data/provere/odluke.json).

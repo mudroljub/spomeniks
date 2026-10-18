@@ -11753,5 +11753,74 @@
    "zaklopaca-spomenik-nob"
   ],
   "razlog": "Ponovni prolaz kroz lokalnu kopiju Partisan Memorials Wiki: 26 stranica bez nase veze, bez zapisa do 500 m i bez sela u bazi. Izostavljeni: Radonja (obrisana kao duplikat Petrove gore), Dolno Jabolciste x2 (vec postoji zapis na 27-68 m), Destrnik (spomenik oba svetska rata, 2000), Nova Kapela (zrtvama II. svjetskog rata, 1990?), Belleja (preimenovan za Balkanske ratove i rat 1990-ih), Hinjce (seoska straza), Zelinja Donja (verovatno isti kao spomenicinob zapis u bez_lokacije)."
+ },
+ {
+  "odluka": "spajanje-bista-danka-mitrova-banja-luka-2026-10-18",
+  "datum": "2026-10-18",
+  "ishod": "povezano-sa-postojecim-grupnim-markerom",
+  "id": "banja-luka-biste-heroja",
+  "radniIndeksPre": 53,
+  "prethodniZapis": {
+   "naziv": "Bista Danka Mitrova",
+   "nazivEn": "Bust of NH Danko Mitrov",
+   "mesto": "Banja Luka",
+   "adresa": "Trg Palih Boraca",
+   "drzava": "Bosnia and Herzegovina",
+   "autor": "Ahmed Bešić",
+   "godina": "1967",
+   "vrsta": "bista",
+   "izvor": "https://www.spomenicinob.info/banjaluka"
+  },
+  "zapisMapePre": {
+   "id": "banja-luka-biste-heroja",
+   "koordinate": {
+    "lat": 44.7732157,
+    "lng": 17.1913393
+   },
+   "mesto": "Banja Luka",
+   "izvor": "https://www.openstreetmap.org/node/9123358583",
+   "slika": "slike/spomenici/banja-luka-biste-heroja.webp",
+   "slikaOdnos": 1.333,
+   "slikaPotpis": "Dans, CC BY-SA 4.0",
+   "naziv": "Biste narodnih heroja (Boško Karalić, Osman Karabegović, Ranko Šipka, Đuro Pucar, Branko Popović, Josip Mažar Šoša, Rada Vranješević, Drago Mažar, Milančić Miljević, Jovo Bijelić Joja, Ante Jakić, Rade Ličina, Šefket Maglajlić, Vahida Maglajlić)",
+   "nazivEn": "Busts of People's Heroes (Boško Karalić, Osman Karabegović, Ranko Šipka, Đuro Pucar, Branko Popović, Josip Mažar Šoša, Rada Vranješević, Drago Mažar, Milančić Miljević, Jovo Bijelić Joja, Ante Jakić, Rade Ličina, Šefket Maglajlić, Vahida Maglajlić)",
+   "vrsta": "bista",
+   "drzava": "Bosnia and Herzegovina"
+  },
+  "zapisMape": {
+   "id": "banja-luka-biste-heroja",
+   "koordinate": {
+    "lat": 44.7732157,
+    "lng": 17.1913393
+   },
+   "mesto": "Banja Luka",
+   "izvor": "https://www.openstreetmap.org/node/9123358583",
+   "slika": "slike/spomenici/banja-luka-biste-heroja.webp",
+   "slikaOdnos": 1.333,
+   "slikaPotpis": "Dans, CC BY-SA 4.0",
+   "naziv": "Biste narodnih heroja (Boško Karalić, Osman Karabegović, Ranko Šipka, Đuro Pucar, Branko Popović, Josip Mažar Šoša, Rada Vranješević, Drago Mažar, Milančić Miljević, Jovo Bijelić Joja, Ante Jakić, Rade Ličina, Šefket Maglajlić, Vahida Maglajlić, Danko Mitrov)",
+   "nazivEn": "Busts of People's Heroes (Boško Karalić, Osman Karabegović, Ranko Šipka, Đuro Pucar, Branko Popović, Josip Mažar Šoša, Rada Vranješević, Drago Mažar, Milančić Miljević, Jovo Bijelić Joja, Ante Jakić, Rade Ličina, Šefket Maglajlić, Vahida Maglajlić, Danko Mitrov)",
+   "vrsta": "bista",
+   "drzava": "Bosnia and Herzegovina"
+  },
+  "adresa": "Trg Palih Boraca, Banja Luka",
+  "izvori": [
+   "https://www.spomenicinob.info/spomenicinob/public/banjaluka",
+   "https://en.wikipedia.org/wiki/List_of_People%27s_Heroes_of_Yugoslavia_monuments_in_Bosnia_and_Herzegovina",
+   "https://spomeniki.blogspot.com/2015/04/banja-luka-spomenik-padlim-in-doprsni.html"
+  ],
+  "zakljucak": "Radni zapis navodi bistu Danka Mitrova na Trgu palih boraca, a popis spomenika narodnih heroja ubraja ga medju biste oko centralnog spomenika. Povezan je sa grupnim markerom za ovu lokaciju. Katalog Spomenicinob u banjaluckom popisu navodi i bistu istog imena u Vrbanji, ispred KUD-a Danko Mitrov, sa godinom 1968; to je odvojena lokacija i ne menja ovu vezu. Razlika izmedju godine 1967. u radnom zapisu i 1968. u katalogu ostavljena je kao nepomirena razlika izvora.",
+  "pomereneKnjiskeReference": {
+   "hrzenjak-2002.json": 5,
+   "jokic-1986.json": 119,
+   "sibenik-1980.json": 50
+  },
+  "pomereneReferenceProvera": {
+   "groblja-zbirni-pregled-2026-10-18.json": 209,
+   "hrvatska-49-2026-10-16.json": 10,
+   "hrvatska-ostali-2026-10-16.json": 2,
+   "lociranje-groblja-2026-10-18.json": 1,
+   "lociranje-groblja-drugi-2026-10-18.json": 4
+  }
  }
 ]
