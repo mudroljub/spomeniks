@@ -145,3 +145,11 @@ Arhiva pojedinačnih tura je uklonjena 2026-10-18 da bi dokument ostao pregledan
 ## Pula: Muzej narodne revolucije Istre
 
 Muzej iz kataloga 1986. prebačen je na mapu kao današnji Povijesni i pomorski muzej Istre: ustanova je osnovana 1955. kao Muzej revolucije, smeštena je na Kaštelu, a lokacija je potvrđena imenovanom OSM tačkom. [Dokazi i pomerene reference](../data/provere/lociranje-muzej-pula-2026-10-18.json).
+
+## Slovenj Gradec: Muzej ljudske revolucije
+
+Muzej je prebačen na mapu kao današnji Muzej Slovenj Gradec na Glavnem trgu 24. Ustanova je počela kao muzej NOB 1951. na Trgu svobode 4, a zatim prešla u zgradu na Glavnem trgu; naziv Muzej ljudske revolucije koristila je od 1959. [Dokazi i pomerene reference](../data/provere/lociranje-muzej-slovenj-gradec-2026-10-18.json).
+
+## Vis: Muzej narodne revolucije
+
+Zapis je prebačen na mapu na lokaciju tvrđave Gospina Baterija, gde je 1964. osnovan memorijalni muzej. Današnji Zavičajni muzej radi na istoj adresi i čuva/restaurira predmete bivše memorijalne zbirke; tačka označava tvrđavu, ne određenu prostoriju. [Dokazi i pomerene reference](../data/provere/lociranje-muzej-vis-2026-10-18.json).

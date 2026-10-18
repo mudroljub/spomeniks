@@ -1,0 +1,313 @@
+{
+  "datum": "2026-10-18",
+  "nalaz": {
+    "id": "vis-memorijalni-muzej-batarija",
+    "radniIndeksPre": 2860,
+    "prethodniZapis": {
+      "mesto": "Vis",
+      "izvor": "https://znaci.org/00003/920.pdf#page=328",
+      "naziv": "Muzej narodne revolucije",
+      "vrsta": "muzej",
+      "drzava": "Croatia"
+    },
+    "zapisMape": {
+      "id": "vis-memorijalni-muzej-batarija",
+      "koordinate": {
+        "lat": 43.05726,
+        "lng": 16.19315
+      },
+      "mesto": "Vis",
+      "izvor": "https://znaci.org/00003/920.pdf#page=328",
+      "naziv": "Memorijalni muzej Vrhovnog ?taba NOV i POJ i NKOJ",
+      "nazivEn": "Memorial Museum of the Supreme Headquarters and National Committee for Liberation",
+      "godina": "1964",
+      "vrsta": "muzej",
+      "drzava": "Croatia"
+    },
+    "adresa": "Šetalište Viški boj 12",
+    "izvorLokacije": "https://www.openstreetmap.org/way/1369148676",
+    "izvorIstorije": "https://www.zmgv.hr/muzej/o-muzeju/",
+    "zakljucak": "Službena istorija Zavičajnog muzeja navodi da je 1964. u Gospinoj Bateriji osnovan Memorijalni muzej Vrhovnog štaba NOV i POJ i NKOJ, kao deo Muzeja revolucije naroda Hrvatske. Od 1983. tamo je bila i Arheološka zbirka Issa; od 2005. prostor i građa predati su Arheološkom muzeju u Splitu. Današnji Zavičajni muzej Grada Visa osnovan je 2023, radi od 2025. na istoj adresi i konzervira predmete bivše memorijalne zbirke. Tačka je centar OSM poligona tvrđave Gospina Baterija, ne ulaz u pojedinačnu prostoriju.",
+    "izvori": [
+      "https://znaci.org/00003/920.pdf#page=328",
+      "https://www.zmgv.hr/muzej/o-muzeju/",
+      "https://www.zmgv.hr/kontakt/",
+      "https://www.openstreetmap.org/way/1369148676"
+    ]
+  },
+  "pomereneKnjiskeReference": {
+    "jokic-1986.json": 100
+  },
+  "pomereneReferenceProvera": [
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[209].radniIndeks",
+      "pre": 2862,
+      "posle": 2861
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[210].radniIndeks",
+      "pre": 2874,
+      "posle": 2873
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[211].radniIndeks",
+      "pre": 2877,
+      "posle": 2876
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[212].radniIndeks",
+      "pre": 2880,
+      "posle": 2879
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[213].radniIndeks",
+      "pre": 2885,
+      "posle": 2884
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[214].radniIndeks",
+      "pre": 2886,
+      "posle": 2885
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[215].radniIndeks",
+      "pre": 2900,
+      "posle": 2899
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[216].radniIndeks",
+      "pre": 2904,
+      "posle": 2903
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[217].radniIndeks",
+      "pre": 2912,
+      "posle": 2911
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[218].radniIndeks",
+      "pre": 2921,
+      "posle": 2920
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[219].radniIndeks",
+      "pre": 2925,
+      "posle": 2924
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[220].radniIndeks",
+      "pre": 2929,
+      "posle": 2928
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[221].radniIndeks",
+      "pre": 2930,
+      "posle": 2929
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[222].radniIndeks",
+      "pre": 2951,
+      "posle": 2950
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[223].radniIndeks",
+      "pre": 2952,
+      "posle": 2951
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[224].radniIndeks",
+      "pre": 2953,
+      "posle": 2952
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[226].radniIndeks",
+      "pre": 2962,
+      "posle": 2961
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[227].radniIndeks",
+      "pre": 2966,
+      "posle": 2965
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[228].radniIndeks",
+      "pre": 2967,
+      "posle": 2966
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[229].radniIndeks",
+      "pre": 2970,
+      "posle": 2969
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[230].radniIndeks",
+      "pre": 2971,
+      "posle": 2970
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[231].radniIndeks",
+      "pre": 2973,
+      "posle": 2972
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[232].radniIndeks",
+      "pre": 2974,
+      "posle": 2973
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[233].radniIndeks",
+      "pre": 2983,
+      "posle": 2982
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[234].radniIndeks",
+      "pre": 2986,
+      "posle": 2985
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[235].radniIndeks",
+      "pre": 2990,
+      "posle": 2989
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[236].radniIndeks",
+      "pre": 2991,
+      "posle": 2990
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[237].radniIndeks",
+      "pre": 2994,
+      "posle": 2993
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[238].radniIndeks",
+      "pre": 2995,
+      "posle": 2994
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[239].radniIndeks",
+      "pre": 2997,
+      "posle": 2996
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[240].radniIndeks",
+      "pre": 3011,
+      "posle": 3010
+    },
+    {
+      "fajl": "groblja-zbirni-pregled-2026-10-18.json",
+      "putanja": "$.zapisi[241].radniIndeks",
+      "pre": 3012,
+      "posle": 3011
+    },
+    {
+      "fajl": "hrvatska-49-2026-10-16.json",
+      "putanja": "$.zapisi[25].radniIndeks",
+      "pre": 2931,
+      "posle": 2930
+    },
+    {
+      "fajl": "hrvatska-49-2026-10-16.json",
+      "putanja": "$.zapisi[27].radniIndeks",
+      "pre": 2932,
+      "posle": 2931
+    },
+    {
+      "fajl": "hrvatska-49-2026-10-16.json",
+      "putanja": "$.zapisi[28].radniIndeks",
+      "pre": 2933,
+      "posle": 2932
+    },
+    {
+      "fajl": "hrvatska-49-2026-10-16.json",
+      "putanja": "$.zapisi[29].radniIndeks",
+      "pre": 2934,
+      "posle": 2933
+    },
+    {
+      "fajl": "hrvatska-49-2026-10-16.json",
+      "putanja": "$.zapisi[30].radniIndeks",
+      "pre": 2935,
+      "posle": 2934
+    },
+    {
+      "fajl": "hrvatska-49-2026-10-16.json",
+      "putanja": "$.zapisi[31].radniIndeks",
+      "pre": 2936,
+      "posle": 2935
+    },
+    {
+      "fajl": "hrvatska-49-2026-10-16.json",
+      "putanja": "$.zapisi[33].radniIndeks",
+      "pre": 2937,
+      "posle": 2936
+    },
+    {
+      "fajl": "hrvatska-49-2026-10-16.json",
+      "putanja": "$.zapisi[46].radniIndeks",
+      "pre": 2938,
+      "posle": 2937
+    },
+    {
+      "fajl": "hrvatska-49-2026-10-16.json",
+      "putanja": "$.zapisi[47].radniIndeks",
+      "pre": 2939,
+      "posle": 2938
+    },
+    {
+      "fajl": "hrvatska-49-2026-10-16.json",
+      "putanja": "$.zapisi[48].radniIndeks",
+      "pre": 2940,
+      "posle": 2939
+    },
+    {
+      "fajl": "hrvatska-ostali-2026-10-16.json",
+      "putanja": "$.nalazi[1].radniIndeks",
+      "pre": 2941,
+      "posle": 2940
+    },
+    {
+      "fajl": "hrvatska-ostali-2026-10-16.json",
+      "putanja": "$.nalazi[23].radniIndeks",
+      "pre": 2942,
+      "posle": 2941
+    },
+    {
+      "fajl": "lociranje-groblja-drugi-2026-10-18.json",
+      "putanja": "$.odlozeno[3].radniIndeks",
+      "pre": 2962,
+      "posle": 2961
+    }
+  ]
+}

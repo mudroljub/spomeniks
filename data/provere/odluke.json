@@ -10368,5 +10368,46 @@
     "zakljucak": "Muzej narodne revolucije Istre osnovan 1955. ista je ustanova koja se danas zove Povijesni i pomorski muzej Istre; izvorna lokacija i današnja ustanova potvrđene su na Kaštelu, Gradinski uspon 6. Koordinate su imenovana OSM tačka muzeja."
    }
   ]
+ },
+ {
+  "odluka": "lociranje-muzej-slovenj-gradec",
+  "datum": "2026-10-18",
+  "ishod": "prebaceno-na-mapu",
+  "id": "slovenj-gradec-muzej",
+  "koordinate": {
+   "lat": 46.50937,
+   "lng": 15.0788
+  },
+  "adresa": "Glavni trg 24",
+  "izvori": [
+   "https://www.kpm.si/o-muzeju/zgodovina-muzeja/",
+   "https://www.kpm.si/vas-obisk/muzej-slovenj-gradec/",
+   "https://www.mojaobcina.si/e_izdaje/slovenj-gradec/SGLASNIK-MAJ-2016-sm.pdf#page=8",
+   "https://znaci.org/00003/920.pdf#page=424",
+   "https://javnipodatki.si/kulturna-dediscina/enota/slovenj-gradec-hisa-glavni-trg-24"
+  ],
+  "dokaz": "Okrajni muzej NOB, osnovan 1951, zapoceo je u Želežnikarjevoj kući na Trgu svobode 4, a potom preselio u zgradu na Glavnem trgu, gde je i današnji Muzej Slovenj Gradec. Muzej ljudske revolucije bio je naziv od 1959; kontinuitet ustanove i Glavni trg 24 potvrđeni su. Tačka je koordinata kuće u evidenciji kulturne ba?tine.",
+  "pomereneKnjiskeReference": {
+   "jokic-1986.json": 101
+  },
+  "pomereneAktivneRadneReference": 43,
+  "izvestaj": "data/provere/lociranje-muzej-slovenj-gradec-2026-10-18.json"
+ },
+ {
+  "odluka": "lociranje-muzej-narodne-revolucije-vis-2026-10-18",
+  "datum": "2026-10-18",
+  "ishod": "tacka-potvrdjena-prebaceno-na-mapu",
+  "id": "vis-memorijalni-muzej-batarija",
+  "adresa": "Šetalište Viški boj 12",
+  "koordinate": {
+   "lat": 43.05726,
+   "lng": 16.19315
+  },
+  "izvori": [
+   "https://znaci.org/00003/920.pdf#page=328",
+   "https://www.zmgv.hr/muzej/o-muzeju/",
+   "https://www.openstreetmap.org/way/1369148676"
+  ],
+  "zakljucak": "Službena istorija Zavičajnog muzeja navodi da je 1964. u Gospinoj Bateriji osnovan Memorijalni muzej Vrhovnog štaba NOV i POJ i NKOJ, kao deo Muzeja revolucije naroda Hrvatske. Od 1983. tamo je bila i Arheološka zbirka Issa; od 2005. prostor i građa predati su Arheološkom muzeju u Splitu. Današnji Zavičajni muzej Grada Visa osnovan je 2023, radi od 2025. na istoj adresi i konzervira predmete bivše memorijalne zbirke. Tačka je centar OSM poligona tvrđave Gospina Baterija, ne ulaz u pojedinačnu prostoriju."
  }
 ]
