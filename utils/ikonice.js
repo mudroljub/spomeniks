@@ -7,10 +7,10 @@ export const senka = {levo: 2, desno: 8, dole: 10}
 
 export const pribliznaOznaka = 'slike/markeri/priblizno.svg'
 
-// I mapa i legenda koriste istu ikonicu sa upitnikom ispod podnozja.
+// I mapa i legenda koriste istu ikonicu sa upitnikom preko sredine.
 export const pribliznaIkonica = ({slika, sirina, visina}, razmera) => {
   const px = vrednost => Math.round(vrednost * razmera)
-  return `<img src="${slika}" width="${px(sirina + senka.levo + senka.desno)}" height="${px(visina + senka.dole)}" alt="" style="display: block"><img class="oznaka-priblizno" src="${pribliznaOznaka}" width="8" height="12" alt="" style="position: absolute; left: ${px(senka.levo + sirina / 2) - 4}px; top: ${px(visina) + 2}px">`
+  return `<img src="${slika}" width="${px(sirina + senka.levo + senka.desno)}" height="${px(visina + senka.dole)}" alt="" style="display: block"><img class="oznaka-priblizno" src="${pribliznaOznaka}" width="8" height="12" alt="" style="position: absolute; left: ${Math.max(0, px(senka.levo + sirina / 2) - 4)}px; top: ${Math.max(0, px(visina / 2) - 3)}px">`
 }
 
 const velicine = {kompleks: [34, 50], groblje: [29, 32], lokalni: [20, 28], muzej: [34, 38], ploca: [22, 16], bista: [22, 35], statua: [24, 48]}

@@ -150,13 +150,19 @@ test('prijava otvara pripremljen mejl, a dopuna uključuje postojeći spomenik',
   assert.match(dopuna.searchParams.get('body'), /https:\/\/www.google.com\/maps\?q=\d/)
 })
 
-test('približna lokacija zadržava ikonicu sa upitnikom ispod i istu oznaku u legendi', async () => {
+test('približna lokacija ima upitnik preko ikonice i istu oznaku u legendi', async () => {
   await otvori('#kikinda-sumica-spomenik-nob')
   const detalji = "document.querySelector('detalji-spomenika').shadowRoot"
   await sacekaj(`${detalji}.querySelector('.mesto')?.textContent.includes('(bez tačne lokacije)')`, 'napomena o približnoj lokaciji')
   assert.ok(await izvrsi("document.querySelector('.priblizna-lokacija.izabran img').getBoundingClientRect().height") > 20)
   const slika = await izvrsi("document.querySelector('.priblizna-lokacija.izabran .oznaka-priblizno').getAttribute('src')")
   assert.equal(await izvrsi("document.querySelector('.priblizna-lokacija.izabran .oznaka-priblizno').getBoundingClientRect().width"), 8)
+  assert.ok(await izvrsi(`(() => {
+    const el = document.querySelector('.priblizna-lokacija.izabran')
+    const ikonica = el.querySelector('img').getBoundingClientRect()
+    const oznaka = el.querySelector('.oznaka-priblizno').getBoundingClientRect()
+    return oznaka.top < ikonica.bottom && oznaka.bottom <= ikonica.bottom && oznaka.left >= ikonica.left && oznaka.right <= ikonica.right
+  })()`))
   await izvrsi(`${detalji}.querySelector('#zatvori').click()`)
   await izvrsi("document.querySelector('.priblizna-lokacija').click()")
   await sacekaj(`${detalji}.querySelector('.mesto')?.textContent.includes('(bez tačne lokacije)') && !${detalji}.querySelector('#panel').hidden`, 'otvaranje tačke')

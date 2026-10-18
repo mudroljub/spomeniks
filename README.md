@@ -26,3 +26,4 @@ live-server
   Unutar grupe prvo postojeći, pa oni sa autorom ili fotografijom; srušeni i uklonjeni na kraju.
 - ne treba odvojeno ažurirati ikonice za mapu i za legendu. oba mesta treba da koriste iste ikonice
 - umesto Dopuna podataka -> Dopuni podatke
+- osmisliti nove ture, npr. Beograd u NOB, Slavonija u NOB, itd. i povezati ih sa wiki člancima.
