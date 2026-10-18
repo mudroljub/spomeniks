@@ -5,7 +5,18 @@ description: Dobavljanje podataka za projekat Spomenici iz spoljnih izvora — n
 
 # Žetva podataka
 
-Standard zapisa (polja, nazivi, vrste, obuhvat) je u `references/standard.md`. Nazive određuje skil `spomenici-nazivi`, a posle svake izmene proveru radi skil `spomenici-provera`. Zapis se upisuje preko `poredaj` iz `alati/zapis.py`. Obrađeni izvori i nalazi se zapisuju u beleške projekta, da se posao ne ponavlja.
+Standard zapisa (polja, nazivi, vrste, obuhvat) je u `references/standard.md`. Nazive određuje skil `spomenici-nazivi`, a posle svake izmene proveru radi skil `spomenici-provera`. Obrađeni izvori i nalazi se zapisuju u beleške projekta, da se posao ne ponavlja.
+
+## Rad sa podacima
+
+Na istim fajlovima istovremeno radi više agenata, pa se podaci čitaju i upisuju samo zajedničkim funkcijama iz `alati/zapis.py`, nikad ručnim `json.dump` u fajlove podataka:
+
+- **Spomenici na mapi** su u `data/spomenici-istaknuti.json` (tačno locirani, vidljivi do zuma 9) i `data/spomenici-ostali.json`; `data/spomeniks.json` više ne postoji. Ceo spisak daje `ucitaj_bazu()`, a `sacuvaj_bazu(spisak)` sam stavlja svaki zapis u pravi fajl. U Node-u čita `ucitajBazu()` iz `alati/baza.mjs`.
+- **Spisak bez lokacije** (`data/bez_lokacije.json`) upisuje `sacuvaj_bez_lokacije(spisak)`. Svaka stavka ima trajan `id`, jedinstven zajedno sa mapom, koji zadržava kad pređe na mapu (`alati/prebaci.py`); veze iz knjiga i izveštaja (`cilj`, `radniId`) pokazuju na taj ID i ne pomeraju se.
+- **Izvor** zapisa se ne čuva u zapisu: alati ga upišu u polje `izvor`, a funkcije za upis ga premeste u `data/izvori.json` (ID → URL).
+- **Kratko čitanje i upis:** učitaj podatke neposredno pre izmene i upiši ih odmah posle, u istom koraku. Spisak učitan ranije, pre dužeg posla ili pretrage na mreži, učitaj ponovo; inače se prepisuju izmene drugog agenta.
+- **Posle upisa** proveri da su sopstveni dodati i izmenjeni zapisi i dalje tu, pa pokreni integritet. Nestanak bez odluke znači da je neko upisao stariju kopiju; vrati zapise i javi korisniku.
+- **Poređenje sa našim zapisima** (da li već postoji, šta je blizu) radi `alati/pretraga.py`, za oba spiska odjednom, umesto novog skripta. Pre dodavanja proveri i blizinu tačke, ne samo naziv i mesto: isti spomenik često ima drugačiji ID, naziv ili oblik mesta.
 
 Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i otvoreni tragovi u [LOCIRANJE_SPOMENIKA.md](../../../docs/LOCIRANJE_SPOMENIKA.md), [PROVERA_RUSENJA_HRVATSKA.md](../../../docs/PROVERA_RUSENJA_HRVATSKA.md) i [DOPUNA_PODATAKA.md](../../../docs/DOPUNA_PODATAKA.md). Preuzeti izvori (knjige, registri, skenovi) čuvaju se u `izvori/` u korenu repozitorijuma, koja je u `.gitignore` (ne objavljuje se): `izvori/knjige/` (Zagreb 1981, Krapina 1966, Jokić 1986, Šibenik 1980, Hrženjak 2002 sa skenovima strana i indeks NOB) i `izvori/cg/`; tu idu i svi novi preuzeti izvori. U gitu je samo opis fascikle (`izvori/README.md`); na računaru gde fajlova nema ne preuzimaj sve ponovo, nego pitaj korisnika. Ranije jednokratne skripte su u `~/.claude/projects/<putanja repozitorijuma>/nazivi-alati`; otvori samo temu potrebnu za zadatak. Naziv dokumentacionog Markdown fajla prati naslov; pri promeni naslova preimenuj fajl i ažuriraj veze. Ponovljive postupke čitaj po potrebi:
 
