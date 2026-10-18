@@ -1,0 +1,43 @@
+{
+  "datum": "2026-10-18",
+  "ishod": "dopuna-postojeceg",
+  "prethodniZapis": {
+    "id": "podgorica-fallen-fighters",
+    "koordinate": {
+      "lat": 42.4468919,
+      "lng": 19.2543591
+    },
+    "googleCid": "5767540427522144243",
+    "mesto": "Podgorica (Momišići)",
+    "slika": "slike/spomenici/podgorica-fallen-fighters.webp",
+    "slikaOdnos": 1.569,
+    "naziv": "Palim borcima",
+    "nazivEn": "Monument to Fallen Fighters",
+    "godina": "1979",
+    "vrsta": "spomenik",
+    "drzava": "Montenegro"
+  },
+  "noviZapis": {
+    "id": "podgorica-fallen-fighters",
+    "koordinate": {
+      "lat": 42.4468919,
+      "lng": 19.2543591
+    },
+    "googleCid": "5767540427522144243",
+    "mesto": "Podgorica (Momišići)",
+    "izvor": "https://www.vijesti.me/amp/492483/spomenik-junacima-iz-momisica-jaci-i-od-zemljotresa",
+    "slika": "slike/spomenici/podgorica-fallen-fighters.webp",
+    "slikaOdnos": 1.569,
+    "naziv": "Spomenik borcima NOR-a",
+    "nazivEn": "Monument to Fallen Fighters",
+    "godina": "1979",
+    "autor": "Andrija Markuš",
+    "posveta": "Za 25 boraca iz Momišića poginulih u Narodnooslobodilačkom ratu 1941-1945.",
+    "vrsta": "spomenik",
+    "drzava": "Montenegro"
+  },
+  "izvorProvere": "https://www.vijesti.me/amp/492483/spomenik-junacima-iz-momisica-jaci-i-od-zemljotresa",
+  "dokaz": "Intervju sa arhitektom Andrijom Markušem potvrđuje autorstvo, posvetu 25 poginulih boraca iz Momišića i svečano otvaranje 1979. godine. Korisnik odobrio dopunu naziva, autora i posvete uz zadržavanje 1979.",
+  "neslaganje": "Korisnikov početni opis navodi 1976; ta godina nije preneta jer sam autor u intervjuu navodi otvaranje 1979.",
+  "granice": "Sačuvani ID, mesto, koordinate, GoogleCID, fotografija i godina. Prazan izvor dopunjen intervjuom. Opis nekadašnjeg plamena i osvetljenja nije posveta i nije prenet u to polje."
+}

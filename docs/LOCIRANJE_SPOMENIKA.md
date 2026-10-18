@@ -22,8 +22,11 @@ Pri zatvaranju je zabeleženo **4.588 markera / 4.506 radnih stavki**. To su bro
 
 **Bogatić i Culjković, 18.10.2026:** po korisnikovim lokacijama dodata dva spomenika sa Commons fotografijama: obelisk ispred opštine Bogatić (zaseban od postojeće biste ispred škole) i spomenik NOB-u uz školsku ogradu u Culjkoviću. Bogatić ima vidljivo postolje i saglasan geotag; položaj Culjkovića određen uz školsku ogradu, približno 10 m zbog krošanja ([dokazi i zapisi](../data/provere/bogatic-culjkovic-2026-10-18.json)).
 
+**Velika, 18.10.2026:** dodat spomenik žrtvama pokolja 28. jula 1944. (1984) sa korisnikovom Facebook fotografijom. Po izričitom korisnikovom nalogu postavljen **približno uz staru školu**, gde ga smešta izvor; tačna pozicija kamena nije potvrđena ([evidencija](../data/provere/velika-2026-10-18.json)).
+
 | Potreba | Evidencija koju prvo otvoriti | Šta sadrži |
 |---|---|---|
+| Približne tačke u centru sela (2026-10-18) | [Prebačeni u centar sela](../data/provere/priblizno-sela-2026-10-18.json) | 851 stavka sa jedinstvenim imenom sela prebačena na mapu sa `priblizno: true`; izvorni zapisi, sa adresom, sačuvani u izveštaju. 69 vraćeno u spisak bez lokacije: više od 25 km od centra opštine iz izvora ili nepoznata opština (npr. „Dubica“ je Kozarska Dubica, ne selo kod Banje Luke). |
 | Poslednja odluka i zatvaranje | [Završni izveštaj](../data/provere/lociranje-zavrsni-prolaz-2026-10-16.json) | Novi Sad, 4 radna duplikata, dopune i odbačena uparivanja Dragočaja, Dervente i Dugog Polja. |
 | Sokolac, Bileća, Cazin | [Prioritetni prolaz](../data/provere/lociranje-prioritet-2026-10-16.json) | 2 nova markera, 2 duplikata; kandidat kuće Nurije Pozderca i nejasni objekti Zenice/Tušnja. |
 | Oštrelj, Tjentište, Mrakovica | [Muzeji](../data/provere/lociranje-muzeji-2026-10-16.json) | 3 nove lokacije; sačuvani izvorni zapisi, geometrije i knjiške veze. |

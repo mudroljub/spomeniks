@@ -4,7 +4,7 @@ Plan i ishod prikupljanja spomenika NOB-a u Crnoj Gori. Pravila su u skilu `spom
 
 ## Stanje
 
-Na mapi je 118 crnogorskih spomenika, a u `data/bez_lokacije.json` još 39 (2026-10-18). SUBNOR procenjuje oko 1.700 spomenika i spomen-obeležja ([Istorijski zapisi](https://istorijskizapisi.me/wp-content/uploads/2022/04/31-D-Vlahovic-387-394.pdf)), pa je pokrivenost mala. Otvoren državni registar sa koordinatama ne postoji.
+Na mapi su 133 crnogorska spomenika (od toga 7 približno, u centru sela), a u `data/bez_lokacije.json` još 30 (2026-10-18). SUBNOR procenjuje oko 1.700 spomenika i spomen-obeležja ([Istorijski zapisi](https://istorijskizapisi.me/wp-content/uploads/2022/04/31-D-Vlahovic-387-394.pdf)), pa je pokrivenost mala. Otvoren državni registar sa koordinatama ne postoji.
 
 ## Obrađeno
 
@@ -19,14 +19,21 @@ Na mapi je 118 crnogorskih spomenika, a u `data/bez_lokacije.json` još 39 (2026
 | [Katalog Narodni heroji](https://www.narodniheroji.me/index.php/istrazi/spomenici) | 18.10. | 8 | 2 | 115 zapisa; tačke su centri opština, osim 10 ručno postavljenih u Mojkovcu. |
 | Commons, kategorije spomenika | 18.10. | 1 | — | 230 fajlova, 187 bez GPS-a. |
 | [Tragovima maršala](https://tragovimamarsala.rs/crna-gora/) i [CdM forum](https://forum.cdm.me/showthread.php?203141-Spomenici-Narodnooslobodila%C4%8Dke-borbe/page2) | 18.10. | 5 dopuna | — | Samo veći spomenici, koje već imamo; dopunjeni autori i godine. |
+| Google mape, 32 mesta × 5 upita | 18.10. | 5 | — | 246 mesta, skoro sve već imamo. Na mapu: Bakićev spomenik u Kolašinu i kosturnica u Kamenom (iz spiska bez lokacije, potvrđeni natpisom na fotografiji), bista Tempa u Utrgu, spomenik bratstvu Koprivica u Crnom Kuku, spomenik u Šuli. |
 
 Probni prolaz po školskim adresama prebacio je na mapu biste Daša Pavičića i Ilije Kišića ([izveštaj](../data/provere/lociranje-probni-2026-10-18.json)).
 
+Korisnik je dostavio fotografije sa Facebook stranice: Risan je postojeći marker, a Velika je dodata sa fotografijom i približnom tačkom uz staru školu, po njegovom nalogu ([evidencija](../data/provere/velika-2026-10-18.json)).
+
+Zabjelo: postojeći `podgorica-stara-varos` dobio fotografiju, naziv „Spomenik strijeljanim rodoljubima“, mesto Podgorica (Zabjelo) i izvor sa imenima porodice Dedić i Arsa Perića; bez novog markera ili promene koordinata ([evidencija](../data/provere/zabjelo-2026-10-18.json)).
+
+Krstac na Goliji: korisnikova fotografija potvrđuje postojeći `gornje-caradje`; mesto promenjeno u Krstac, naziv proširen na poginule Golijane u Prvom i Drugom svjetskom ratu, godina 1970 → 1976 prema dostavljenim podacima. Bez novog markera ili promene koordinata ([evidencija](../data/provere/krstac-golija-2026-10-18.json)).
+
 ## Otvoreno
 
-- **Herceg Novi:** Kameno i Baošići imaju po dva objekta u registru, a mi po jedan zapis; Bezmetković u registru ima i Luku Tomanovića kao autora; Đurkovićev zapis je vrste `spomenik`, a to je bista.
+- **Herceg Novi:** Baošići imaju dva objekta u registru, a mi jedan zapis; Đurkovićev zapis je vrste `spomenik`, a to je bista.
 - **OSM:** „Spomenik Lovćenski odred“ (n5519788722), jer Google na tom mestu daje „Lovćenska vila“; bista Jakuba Kubura kod Boljanića (n8991363785), identitet nepotvrđen; 12 neimenovanih `war_memorial` tačaka.
-- **StoryMap:** Krstac na Goliji (1,1 km od našeg u Gornjem Čarađu), „Voda Partizanka“ u Stravču; Stražica je verovatno naš `pljevlja-fallen-fighters`.
+- **StoryMap:** „Voda Partizanka“ u Stravču; Stražica je verovatno naš `pljevlja-fallen-fighters`.
 - **Danilovgrad:** 13 stavki bez potvrđene tačke. Terenski katalog ima i procenjene lokacije; ne uvoziti ih automatski, posebno dve gradske kosturnice (rodoljubima iz 1974. autor nije našao tokom obilaska 2025). Knjiga beleži i ukradene ili pohranjene biste (Miladin Pavličić, Vasilije-Žarko Đurović): ne mapirati ih na starom mestu.
 - **Ulcinj:** „Spomenik palim borcima“ iz kataloga je verovatno naš Spomenik Pobjede.
 

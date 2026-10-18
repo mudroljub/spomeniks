@@ -1,0 +1,41 @@
+{
+  "datum": "2026-10-18",
+  "ishod": "dopuna-postojeceg",
+  "prethodniZapis": {
+    "id": "radevici",
+    "koordinate": {
+      "lat": 42.4745197,
+      "lng": 19.2595237
+    },
+    "googleCid": "11706559803888277479",
+    "mesto": "Radevići",
+    "slika": "slike/spomenici/radevici.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Google Maps",
+    "naziv": "Spomenik partizanima",
+    "godina": "1967",
+    "autor": "Dragan Marković",
+    "vrsta": "lokalni",
+    "drzava": "Montenegro"
+  },
+  "noviZapis": {
+    "id": "radevici",
+    "koordinate": {
+      "lat": 42.4745197,
+      "lng": 19.2595237
+    },
+    "googleCid": "11706559803888277479",
+    "mesto": "Rogami (Trijebač)",
+    "slika": "slike/spomenici/radevici.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Google Maps",
+    "naziv": "Spomenik palim Piperima",
+    "godina": "1967",
+    "autor": "Dragan Marković",
+    "vrsta": "lokalni",
+    "drzava": "Montenegro"
+  },
+  "izvorProvere": "https://www.spomenikdatabase.org/vranjske-njive",
+  "dokaz": "Izvor smešta Piperi War Memorial na brdo Trijebač u selu Rogami i potvrđuje 1967. i Dragana Markovića. Korisnikova fotografija izvori/cg/facebook/trijebac-129953088.jpg podudara se sa spomenikom postojećeg markera. Korisnik odobrio naziv Spomenik palim Piperima i mesto Rogami (Trijebač).",
+  "granice": "Promenjeni samo naziv i mesto; ID, koordinate, GoogleCID, fotografija i ostala polja sačuvani."
+}

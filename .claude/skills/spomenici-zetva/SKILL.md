@@ -48,12 +48,13 @@ Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i ot
   - Q-id članka daje `prop=pageprops` (`wikibase_item`);
   - nazive i linkove daje `wbgetentities` sa `props=labels|sitelinks/urls`, po 50 id-ova;
   - `P31 = Q5` znači da je članak o osobi.
-- **Prolaz kroz `data/bez_lokacije.json`:** obavezno po verovatnoći uspeha, ne redom. Prednost imaju konkretni objekti (muzej, škola, dom), savremene adrese i precizne tačke; uklonjeni spomenici se preskaču.
+- **Prolaz kroz `data/bez_lokacije.json`:** obavezno po verovatnoći uspeha, ne redom. Prednost imaju konkretni objekti (muzej, škola, dom), savremene adrese i precizne tačke; uklonjeni i srušeni dolaze poslednji.
 - **Opstanak, posebno u Hrvatskoj** (mnogo je srušeno i uklonjeno 1990–2000):
   - razlikuj godinu podizanja, datum opisanog stanja, datum fotografije ili obilaska i godinu izdanja izvora; noviji sajt koji prenosi vodič iz 1978. nije noviji dokaz od Hrženjaka (2002, `data/knjige/hrzenjak-2002.json`);
   - Hrženjakov nalaz o rušenju ili uklanjanju ima prednost nad starijim opisom; promeniti ga može samo konkretan kasniji dokaz obnove ili premeštanja (šta, kada, gde). Izostanak iz Hrženjaka ne znači da spomenik stoji;
   - nedatirana fotografija, aktivan marker na karti i OSM objekat ne potvrđuju da spomenik danas postoji;
   - izvorni `izvor` zapisa se čuva; kasniji dokaz opstanka ne zamenjuje ga.
+- **Približna tačka** (korisnik, 2026-10-18): kad znamo samo selo, spomenik ide na mapu u centar sela iz `alati/naselja_osm.json`, sa `priblizno: true`; aplikacija ga prikazuje sivo i piše „Približna lokacija“. Važi samo za sela, ne za gradove, gde je centar predaleko; ploče dolaze poslednje. Isto ime sela nije dokaz: selo mora biti u opštini iz izvora (npr. „Dubica“ na spomenicinob.info je Kozarska Dubica, a ne istoimeno selo 75 km dalje), a imena se upoređuju samo unutar iste države. Kad se nađe prava tačka, `priblizno` se briše.
 - **Lokacija bez Google id-a**, redom:
   1. GPS fotografije na Commons-u;
   2. jedan Overpass upit `nwr(around:2000,lat,lon)[historic~"memorial|monument"]` oko sela iz `alati/naselja_osm.json`;
@@ -82,8 +83,8 @@ Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i ot
   - `naziv` je naslov sh članka;
   - `name` je engleski naziv sa Wikidate, kad se razlikuje;
   - `wiki` i `wikiEn` su linkovi.
-- Bez članka na Vikipediji nema posvete; tada samo izvor u `izvor`.
-- Posveta koju više nijedan spomenik ne koristi briše se iz `posvete.json`.
+- Bez odgovarajućeg članka u isto polje `posveta` upiši kratak tekst o tome kome je spomenik posvećen, prema potvrđenom opisu ili natpisu. Tekst je običan string, bez HTML-a i bez novog unosa u `posvete.json`; povezane posvete ostaju spisak Q-id oznaka. Ne mešaj opis i Q-id oznake u istom spisku.
+- Stavka iz `posvete.json` koju više nijedan spomenik ne koristi kao povezanu posvetu briše se iz tog spiska.
 - Opšte posvete („palim borcima“, Drugi svetski rat) se ne upisuju.
 
 ## Obuhvat u praksi
@@ -94,4 +95,5 @@ Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i ot
   - železničke nesreće;
   - manastiri, iako su nekad mesto događaja (Prohor Pčinjski; tu važi Memorijalni centar ASNOM-a u Pelincu).
 - Spomenik posvećen svim ratovima, sa delom za NOB, ostaje (Trubjela).
+- **Srušeni, uklonjeni i deponovani spomenici idu na mapu kad im je poznata tačka**, sa `stanje` i `stanjeIzvor` (korisnik, 2026-10-18); bez tačke ostaju u `data/bez_lokacije.json`, takođe sa stanjem.
 - Mesto u polju `mesto` uzima se iz samog izvora ili iz OSM-a, a ne iz najbližeg sela u alatu: tako je česma u Rakovici bila upisana kao Pinosava.

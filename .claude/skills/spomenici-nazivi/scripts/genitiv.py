@@ -50,6 +50,7 @@ def genitiv(ime):
 # ručno pregledani izuzeci: ceo naziv osobe -> genitiv
 IZUZECI = {
     'Branko Bane Šurbat': 'Branka Baneta Šurbata',
+    'Svetozar Vukmanović Tempo': 'Svetozara Vukmanovića Tempa',
     'Oto Levi-Plavi': 'Ota Levija Plavog',
     'Danilo Soldatić': 'Danila Soldatića', 'Danilo Đokić': 'Danila Đokića', 'Danilo Šarenac': 'Danila Šarenca',
     'Dr. Rosa Hadživuković': 'dr Rose Hadživuković',

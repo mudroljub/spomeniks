@@ -2,7 +2,7 @@
 
 Obavezno za svaki novi ili izmenjen spomenik.
 
-- **Redosled polja:** `id, koordinate{lat,lng}, googleCid, mesto, izvor, wiki, wikiEn, slika, slikaOdnos, slikaPotpis, naziv, nazivEn, godina, autor, natpis, posveta, stanje, vrsta, drzava`. Prazna polja se izostavljaju.
+- **Redosled polja:** `id, koordinate{lat,lng}, priblizno, googleCid, mesto, izvor, wiki, wikiEn, slika, slikaOdnos, slikaPotpis, naziv, nazivEn, godina, autor, natpis, posveta, stanje, vrsta, drzava`. Prazna polja se izostavljaju.
 - **Fajl:** UTF-8, CRLF, uvlačenje 2, `ensure_ascii=False`, sa CRLF na kraju. Upis uvek ovako:
   `open(P,'w',encoding='utf8',newline='').write(json.dumps(d,ensure_ascii=False,indent=2).replace('\n','\r\n')+'\r\n')`
 - **id:** mala ASCII slova, cifre i crtice, jedinstven, najviše oko 50 znakova (npr. `slug(mesto + naziv)`).
@@ -18,5 +18,5 @@ Obavezno za svaki novi ili izmenjen spomenik.
 - **godina:** godina podizanja („1961“), raspon („1958-1960“) ili, kad izvor ne zna tačno, „pre 1960“, „posle 1960“, „oko 1960“, „1960-ih“.
 - **autor:** više autora se spaja sa „ & “. Park dobija autora samo ako su sva dela u njemu jednog autora.
 - **natpis:** tekst natpisa sa spomenika, doslovno, iz pouzdanog izvora (fotografija, knjiga); novi red samo gde ima smisla (potpis, datum, ime i godine, stih), prazan red između ploča. U JSON stringu novi red se zapisuje kao `\n`, a prazan red kao `\n\n`.
-- **posveta:** spisak Wikidata stavki (ličnost, jedinica, događaj) kojima je spomenik posvećen, npr. `["Q9161"]`; svaka mora postojati u `data/posvete.json` (`naziv`, `name`, `wiki`, `wikiEn`). Opšte posvete („palim borcima“, „žrtvama fašizma“, Drugi svetski rat, NOVJ) se ne upisuju.
+- **posveta:** spisak Wikidata stavki (ličnost, jedinica, događaj), npr. `["Q9161"]`, ili kratak tekst kad nema odgovarajućeg članka, npr. `"Za 52 omladinca strijeljana 23. jula 1944. na Lazinama."`. Svaki Q-id mora postojati u `data/posvete.json` (`naziv`, `name`, `wiki`, `wikiEn`); običan tekst tamo se ne dodaje. Opis se zasniva na izvoru, bez HTML-a, i ne meša se sa Q-id oznakama u istom spisku. Opšte posvete („palim borcima“, „žrtvama fašizma“, Drugi svetski rat, NOVJ) bez konkretnijih podataka ne upisuju se.
 - **Obuhvat:** samo spomenici NOB-a i Drugog svetskog rata iz jugoslovenske perspektive. **Ne dodaju se:** Prvi svetski i stariji ratovi, ratovi 1991–1999 (branitelji, VRS, ARBiH, HVO, šehidi, „otadžbinski rat“), četnici i domobranci, „žrtve komunizma“ i posleratnih pokolja (Bleiburg, Križni put, „zamolčane žrtve“), NATO bombardovanje, Holokaust-obeležja postavljena posle 1990, partizanske bolnice, tehnike, staze, domovi i bunkeri bez spomenika, ulice i obeležja van Jugoslavije.

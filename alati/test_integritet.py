@@ -16,13 +16,13 @@ def spomenik(sid, lat=44, lng=20):
 
 
 class IntegritetTest(unittest.TestCase):
-    def proveri(self, zapisi, visak_slike=False):
+    def proveri(self, zapisi, visak_slike=False, posvete=None):
         with tempfile.TemporaryDirectory(prefix='spomenici-integritet-') as folder:
             koren = Path(folder)
             (koren / 'data').mkdir()
             slike = koren / 'slike/spomenici'
             slike.mkdir(parents=True)
-            for ime, podaci in [('spomeniks', zapisi), ('ture', []), ('autori', {}), ('posvete', {})]:
+            for ime, podaci in [('spomeniks', zapisi), ('ture', []), ('autori', {}), ('posvete', posvete or {})]:
                 (koren / f'data/{ime}.json').write_text(json.dumps(podaci), encoding='utf8')
             if visak_slike:
                 (slike / 'visak.webp').write_bytes(b'')
@@ -37,6 +37,21 @@ class IntegritetTest(unittest.TestCase):
         r = self.proveri([{**spomenik('test'), 'vrsta': 'greska'}])
         self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
         self.assertIn('nepoznata vrsta', r.stdout)
+
+    def test_tekstualna_posveta(self):
+        r = self.proveri([{**spomenik('test'), 'posveta': 'Omladincima strijeljanim 23. jula 1944.'}])
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+
+    def test_povezana_posveta(self):
+        r = self.proveri([{**spomenik('test'), 'posveta': ['Q9161']}], posvete={'Q9161': {'naziv': 'Josip Broz Tito'}})
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+
+    def test_neispravne_posvete(self):
+        for vrednost in ['', '  ', [], ['Q999999'], [None], {}, None, 42]:
+            with self.subTest(posveta=vrednost):
+                r = self.proveri([{**spomenik('test'), 'posveta': vrednost}])
+                self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
+                self.assertNotIn('Traceback', r.stderr)
 
     def test_poznati_par_u_obrnutom_redosledu(self):
         r = self.proveri([spomenik('nis-spomen-park-bubanj'), spomenik('nis')])

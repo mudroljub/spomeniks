@@ -19,6 +19,8 @@ export interface Spomenik {
   id: string
   /** 7 decimala */
   koordinate: Koordinate
+  /** tačka je približna (npr. centar sela), a ne potvrđeno mesto spomenika */
+  priblizno?: boolean
   /** mesto, „Grad (deo grada)“, npr. "Beograd (Banjica)" */
   mesto: string
   /** domaći naziv, na jeziku i pismu države; bez poznatog imena samo vrsta („Spomenik“, „Spomen-ploča“) */
@@ -47,8 +49,8 @@ export interface Spomenik {
   autor?: string
   /** tekst natpisa sa spomenika, doslovno; novi red samo gde ima smisla (potpis, datum, ime i godine, stih), prazan red između ploča */
   natpis?: string
-  /** Wikidata stavke iz data/posvete.json, npr. ["Q82914"] */
-  posveta?: string[]
+  /** Wikidata stavke iz data/posvete.json, npr. ["Q82914"], ili kratak opis posvete bez odgovarajućeg članka. */
+  posveta?: string[] | string
   stanje?: Stanje
   /** Izvor prenetog stanja; godina označava izdanje izvora, ne terenski pregled. */
   stanjeIzvor?: {naziv: string, godina: number, url: string}

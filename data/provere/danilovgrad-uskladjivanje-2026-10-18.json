@@ -1,0 +1,56 @@
+{
+  "datum": "2026-10-18",
+  "ishod": "dopuna-postojeceg",
+  "prethodniZapis": {
+    "id": "danilovgrad",
+    "koordinate": {
+      "lat": 42.5531875,
+      "lng": 19.1052859
+    },
+    "googleCid": "6386968180307484587",
+    "mesto": "Danilovgrad",
+    "slika": "slike/spomenici/danilovgrad.webp",
+    "slikaOdnos": 1.434,
+    "naziv": "Spomenik NOB",
+    "nazivEn": "Monument to Fallen Fighters",
+    "godina": "1959",
+    "autor": "Drago Đurović",
+    "vrsta": "spomenik",
+    "drzava": "Montenegro"
+  },
+  "noviZapis": {
+    "id": "danilovgrad",
+    "koordinate": {
+      "lat": 42.5531875,
+      "lng": 19.1052859
+    },
+    "googleCid": "6386968180307484587",
+    "mesto": "Danilovgrad",
+    "izvor": "https://www.spomenikdatabase.org/_files/ugd/e73a14_0bc2984a2f72446b9f40641ff26a558f.pdf",
+    "slika": "slike/spomenici/danilovgrad.webp",
+    "slikaOdnos": 1.434,
+    "naziv": "Spomenik palim borcima za slobodu protiv fašizma",
+    "nazivEn": "Monument to Fallen Fighters",
+    "godina": "1959",
+    "autor": "Drago Đurović & Mirko Đokić",
+    "vrsta": "spomenik",
+    "drzava": "Montenegro"
+  },
+  "dokazi": [
+    {
+      "izvor": "Korisnikov opis sa Facebook stranice Spomenici NOB u Crnoj Gori",
+      "nalaz": "Pun naziv, autori Drago Đurović i Mirko Đokić, godina 1963."
+    },
+    {
+      "izvor": "https://www.spomenikdatabase.org/_files/ugd/e73a14_0bc2984a2f72446b9f40641ff26a558f.pdf",
+      "lokalniIzvor": "izvori/cg/danilovgrad-2017.pdf",
+      "nalaz": "SUBNOR/UBNOR Danilovgrad 2017, štampana strana 8, Spomenik u Danilovgradu na Trgu 9. decembar: izričito podignut 1959, autor Drago Đurović."
+    },
+    {
+      "izvor": "https://www.spomenikdatabase.org/obadov-brijeg",
+      "nalaz": "Odeljak Monument to Fallen Fighters in Danilovgrad takođe navodi 1959. i arhitektu Mirka Đukića (drugačiji oblik prezimena); kalendarski podatak o 25. godišnjici u istom pasusu protivrečan je i nije preuzet."
+    }
+  ],
+  "odlukaGodina": "Zadržana postojeća 1959. na osnovu izričitog nalaza izdavača SUBNOR/UBNOR Danilovgrad; ranije prihvaćena pretpostavka 1963. nije upisana. Neslaganje Facebook opisa sačuvano ovde.",
+  "granice": "Sačuvani ID, lokacija, GoogleCID, fotografija i ostala polja. Prazan izvor dopunjen knjigom."
+}

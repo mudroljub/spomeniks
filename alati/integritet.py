@@ -69,15 +69,25 @@ for s in d:
             greske['neispravan izvor stanja'].append(i)
     if s.get('googleCid') and not re.fullmatch(r'\d+', str(s['googleCid'])): greske['los googleCid'].append((i, s['googleCid']))
     if s.get('godina') and not re.fullmatch(r'\d{4}(\s*[-–/]\s*\d{2,4})?|(pre|posle|oko) \d{4}|\d{3}0-ih', str(s['godina'])): greske['cudna godina'].append((i, s['godina']))
+    if 'priblizno' in s and s['priblizno'] is not True: greske['priblizno nije true'].append((i, s['priblizno']))
     n = s.get('naziv') or ''
     if n and s.get('drzava') != 'Macedonia' and cir.search(n): greske['cirilica van Makedonije'].append((i, n))
     if n and s.get('drzava') == 'Macedonia' and not cir.search(n): greske['latinica u Makedoniji'].append((i, n))
-    if 'posveta' in s and (not s['posveta'] or not all(q in posvete for q in s['posveta'])): greske['posveta van posvete.json'].append((i, s['posveta']))
-# isto mesto dvaput
+    if 'posveta' in s:
+        posveta = s['posveta']
+        if isinstance(posveta, str):
+            if not posveta.strip(): greske['prazna posveta'].append(i)
+        elif isinstance(posveta, list):
+            if not posveta or not all(isinstance(q, str) and q in posvete for q in posveta):
+                greske['posveta van posvete.json'].append((i, posveta))
+        else:
+            greske['neispravan oblik posvete'].append((i, posveta))
+# isto mesto dvaput; priblizne tacke (centar sela) namerno dele isto mesto
 def m(a, b):
     return 6371000 * math.acos(min(1, math.sin(math.radians(a['lat'])) * math.sin(math.radians(b['lat'])) + math.cos(math.radians(a['lat'])) * math.cos(math.radians(b['lat'])) * math.cos(math.radians(b['lng'] - a['lng']))))
 for x in range(len(d)):
     for y in range(x + 1, len(d)):
+        if d[x].get('priblizno') or d[y].get('priblizno'): continue
         a, b = d[x]['koordinate'], d[y]['koordinate']
         if abs(a['lat'] - b['lat']) < 0.0005 and abs(a['lng'] - b['lng']) < 0.0007 and m(a, b) < 30:
             greske['manje od 30 m'].append((d[x]['id'], d[y]['id'], round(m(a, b))))

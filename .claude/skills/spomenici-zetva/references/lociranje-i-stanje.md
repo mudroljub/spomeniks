@@ -8,7 +8,7 @@ Pre upisa uporedi oba skupa, `data/spomeniks.json` i `data/bez_lokacije.json`. N
 
 Za staru muzejsku adresu proveri današnju ustanovu i postavku. Ime zgrade ili njen centroid ne potvrđuju da je u njoj i dalje muzej NOB-a. Razlikuj raniji objekat od zamene: godina, autor, slika i lokacija ne prenose se automatski na novo delo.
 
-Ako tačka nije potvrđena, sačuvaj kandidata i razlog u radnom zapisu. Uklonjene objekte preskoči pri traženju novih lokacija. Hrvatske kandidate proveri po postupku opstanka ispod; istorija odluka i dozvoljenog obima je u [hrvatskim beleškama](../../../../docs/PROVERA_RUSENJA_HRVATSKA.md).
+Ako tačka nije potvrđena, sačuvaj kandidata i razlog u radnom zapisu. Uklonjene objekte traži poslednje; i oni se upisuju kad je tačka poznata. Hrvatske kandidate proveri po postupku opstanka ispod; istorija odluka i dozvoljenog obima je u [hrvatskim beleškama](../../../../docs/PROVERA_RUSENJA_HRVATSKA.md).
 
 ## Staro oštećenje i kasniji dokaz
 
@@ -27,7 +27,7 @@ Razlikuj fizičko oštećenje od promene simbola ili opšte oznake oskvrnuća. P
 | očuvano ili obnovljeno, na tačnoj tački | zadržati; dokaz i njegov datum u evidenciji |
 | oštećeno, ali stoji | zadržati; `stanje: ostecen` samo uz dokaz o tom stanju |
 | premešteno | potvrđena današnja tačka; stara samo u evidenciji, bez drugog markera |
-| srušeno, uklonjeno ili u depou, bez dokaza povratka | povući sa mape; ID, izvor i razlog u evidenciji |
+| srušeno, uklonjeno ili u depou, bez dokaza povratka | ostaviti na mapi na poznatoj tački, sa `stanje` (`srusen`, `uklonjen`) i `stanjeIzvor`; bez tačke u `data/bez_lokacije.json` |
 | nedovoljno dokaza | vratiti u `data/bez_lokacije.json`; ne označavati kao srušeno |
 | drugi objekat ili duplikat | razdvojiti ili spojiti, uz očuvanje porekla |
 

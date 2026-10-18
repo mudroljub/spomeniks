@@ -39,6 +39,8 @@ let markeri = []
 let suzeno = false
 let izabran = null
 
+const ukloni = marker => marker.slojevi.forEach(s => sloj.removeLayer(s))
+
 const vidljiv = marker => suzeno || mapa.getZoom() >= marker.najmanjiZum || marker === izabran
   || Boolean(dajOznaku(marker.spomen.id))
 
@@ -47,9 +49,9 @@ const vidljiv = marker => suzeno || mapa.getZoom() >= marker.najmanjiZum || mark
 const osvezi = () => {
   const granice = mapa.getBounds().pad(0.5)
   markeri.forEach(marker => {
-    if (!vidljiv(marker) || !granice.contains(marker.dajPoziciju())) return sloj.removeLayer(marker.element)
+    if (!vidljiv(marker) || !granice.contains(marker.dajPoziciju())) return ukloni(marker)
     marker.osvezi(mapa.getZoom(), izabran)
-    sloj.addLayer(marker.element)
+    marker.slojevi.forEach(s => sloj.addLayer(s))
   })
 }
 
@@ -65,7 +67,7 @@ mapa.on('izbor', ({marker}) => {
 // uklanjaju se samo oni kojih vise nema, da se zajednicki ne crtaju iznova
 export const postaviMarkere = (noviMarkeri, jeSuzeno) => {
   const ostaju = new Set(noviMarkeri)
-  markeri.forEach(marker => ostaju.has(marker) || sloj.removeLayer(marker.element))
+  markeri.forEach(marker => ostaju.has(marker) || ukloni(marker))
   markeri = noviMarkeri
   suzeno = jeSuzeno
   osvezi()

@@ -5,7 +5,7 @@ import Slajder from './komponente/Slajder.js'
 import Najblizi from './komponente/Najblizi.js'
 import Detalji from './komponente/Detalji.js'
 import Ruta from './komponente/Ruta.js'
-import Marker from './klase/Marker.js'
+import Marker, {pomaciPribliznih} from './klase/Marker.js'
 import './komponente/PunEkran.js'
 import './komponente/Jezik.js'
 import './komponente/Legenda.js'
@@ -23,9 +23,12 @@ const detalji = document.body.appendChild(new Detalji())
 
 /* FUNKCIJE */
 
-/** @param {import('./data/tipovi').Spomenik} spomenik */
-const praviStavku = spomenik => {
-  const marker = new Marker(spomenik)
+/**
+ * @param {import('./data/tipovi').Spomenik} spomenik
+ * @param {[number, number]} [pomak]
+ */
+const praviStavku = (spomenik, pomak) => {
+  const marker = new Marker(spomenik, pomak)
   let slika
   // traka pravi sliku tek kad dodje na red, jer ih je hiljade
   const dajSliku = spomenik.slika && (() => slika ??= new Slika(spomenik, marker))
@@ -60,7 +63,8 @@ Promise.all([ucitaj('data/spomeniks.json'), ucitaj('data/autori.json'), ucitaj('
   .then(([spomenici, autori, posvete, ture]) => {
     detalji.postaviAutore(autori)
     detalji.postaviPosvete(posvete)
-    const stavke = spomenici.map(praviStavku)
+    const pomaci = pomaciPribliznih(spomenici)
+    const stavke = spomenici.map(spomenik => praviStavku(spomenik, pomaci.get(spomenik)))
     ruta.postavi(stavke, ture)
     document.body.appendChild(new Pretraga(stavke, render))
     otvoriIzLinka(stavke)

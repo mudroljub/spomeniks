@@ -390,7 +390,7 @@ export default class Detalji extends HTMLElement {
         <button id="zatvori" title="${t('zatvori')}">×</button>
       </header>
       <div class="sadrzaj">
-        <p class="mesto"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 11.5 12 4.5l8.5 7M6 9.5V19.5h12V9.5M10 19.5v-5h4v5"/></svg>${[naziv ? escapeHtml(spomen.mesto) : '', escapeHtml(nazivDrzave(spomen.drzava || ''))].filter(Boolean).join(', ')}${spomen.godina ? ` · ${escapeHtml(spomen.godina)}` : ''}</p>
+        <p class="mesto"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 11.5 12 4.5l8.5 7M6 9.5V19.5h12V9.5M10 19.5v-5h4v5"/></svg>${[naziv ? escapeHtml(spomen.mesto) : '', escapeHtml(nazivDrzave(spomen.drzava || ''))].filter(Boolean).join(', ')}${spomen.godina ? ` · ${escapeHtml(spomen.godina)}` : ''}${spomen.priblizno ? ` · ${t('priblizno')}` : ''}</p>
         ${podaci.map(red => `<p class="podaci">${red}</p>`).join('')}
         <p class="akcije">
           <a href="${escapeHtml(navigacijaUrl(spomen.koordinate))}" target="_blank" class="glavna ikona"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2.6 21.4 12 12 21.4 2.6 12Z" stroke-linejoin="round"/><path d="M9.6 14.6v-2.8c0-.8.6-1.4 1.4-1.4h4.4M13.2 8.2l2.2 2.2-2.2 2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>${t('navigacija')}</a>
@@ -450,7 +450,11 @@ export default class Detalji extends HTMLElement {
     this.posvete = posvete
   }
 
+  /** @param {Pick<import('../data/tipovi').Spomenik, 'posveta'>} spomen */
   praviPosvetu({posveta = []}) {
+    if (typeof posveta === 'string') {
+      return posveta.trim() ? `${t('posveta')}: ${escapeHtml(posveta)}` : ''
+    }
     const stavke = posveta.map(q => this.posvete[q]).filter(Boolean)
     if (!stavke.length) return ''
     const linkovi = stavke.map(p => {

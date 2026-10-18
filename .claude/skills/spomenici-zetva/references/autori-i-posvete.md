@@ -14,7 +14,7 @@ Istorijski rezultati i pojedinačni izuzeci su u [beleškama o autorima i posvet
 
 ## Posvete
 
-- Polje `posveta` u `data/spomeniks.json` je spisak Wikidata stavki, a nazivi i linkovi su u `data/posvete.json` (jedan zapis po ličnosti, jedinici ili događaju, kao `autori.json`). Info prozor prikazuje red „Posvećeno: …“ sa linkom na članak (sh, hr, bs, sr, sl, mk; na engleskom en), a bez članka na Wikidatu.
+- Polje `posveta` je spisak Wikidata stavki sa nazivima i linkovima u `data/posvete.json`, ili kratak običan tekst kada nema odgovarajućeg članka. Prozor prikazuje „Posvećeno: …“ sa linkovima za Q-id spisak, odnosno bez linka za tekst. Oblik i primeri su u [standardu zapisa](standard.md).
 
 - Kandidate traži preko OSM `subject:wikidata` i Wikidata P547. Uparivanje po OSM ID-ju ili blizini potvrdi nazivom, vrstom i posvetom: susedno obeležje može biti posvećeno drugoj osobi.
 - Za narodne heroje koristi P166 = Q1262166 (Orden narodnog heroja), dopunjeno kategorijama na sr i sh Wikipediji. Za ostale ličnosti koriste se jezička stabla kategorija partizana; pripadnost kategoriji i slična osnova prezimena nisu dovoljan dokaz identiteta.
@@ -22,4 +22,4 @@ Istorijski rezultati i pojedinačni izuzeci su u [beleškama o autorima i posvet
 - Osnivanje jedinice upućuje na tu jedinicu. Kod ustanka potvrdi konkretan događaj i članak; „Poziv na ustanak“ kao naziv skulpture sam ne potvrđuje posvetu određenom ustanku.
   - U ranijem prolazu korišćeni su članci „Ustanak u Srbiji 1941.“, „Ustanak u Crnoj Gori 1941.“, „Ustanak u NDH“ za Hrvatsku/BiH i makedonski članak o ustanku 1941; za slovenačku „vstaju“ i opšte jugoslovenske godišnjice „Ustanak u okupiranoj Jugoslaviji“. Potvrdi da se konkretan natpis odnosi na taj događaj pre ponavljanja veze.
   - Ploče odborima i aktivistima Osvobodilne fronte poveži sa OF kada to potvrđuje posveta; razlikuj OF, VOS i osnivanje KPH kao zasebne organizacije/događaje.
-- Bez odgovarajućeg članka ne dodaj posvetu. Ne dodaj opšte pojmove poput NOB-a, NOVJ, Drugog svetskog rata ili bratstva i jedinstva; članak o samom spomeniku nije njegova posveta.
+- Bez odgovarajućeg članka prenesi konkretne podatke o posveti kao kratak tekst, prema potvrđenom izvoru. Ne dodaj samo opšte pojmove poput NOB-a, NOVJ, Drugog svetskog rata ili bratstva i jedinstva; članak o samom spomeniku nije njegova posveta.

@@ -69,6 +69,25 @@ test('stanje iz stare knjige prikazuje godinu i zaseban izvor', async () => {
   assert.equal(await izvrsi(`${prozor}.querySelector('.stanje a')?.textContent || ''`), '')
 })
 
+test('posveta prikazuje tekst bez HTML-a i zadržava postojeće wiki linkove', async () => {
+  await otvori('#podgorica-tito')
+  const detalji = "document.querySelector('detalji-spomenika')"
+  const prozor = `${detalji}.shadowRoot`
+  const red = `[...${prozor}.querySelectorAll('.podaci')].find(p => p.textContent.startsWith('Posvećeno:'))`
+  const link = await sacekaj(`${red}?.querySelector('a')?.href`, 'wiki posveta')
+  assert.match(link, /wikipedia\.org/)
+  const opis = 'Za 52 omladinca strijeljana 23. jula 1944. <b>bez oznaka</b> & drugove.'
+  await izvrsi(`(() => {
+    const d = ${detalji}
+    d.marker.spomen.posveta = ${JSON.stringify(opis)}
+    d.prikazi(d.marker)
+  })()`)
+  assert.equal(await izvrsi(`${red}.textContent`), `Posvećeno: ${opis}`)
+  assert.equal(await izvrsi(`${red}.querySelector('a, b')`), null)
+  await otvori('#podgorica-tito')
+  assert.equal(await sacekaj(`${red}?.querySelector('a')?.href`, 'wiki posveta posle opisa'), link)
+})
+
 test('pretraga suzi spomenike', async () => {
   await otvori()
   await izvrsi(`(() => { const p = document.querySelector('polje-pretraga input'); p.value = 'Tjentište'; p.dispatchEvent(new Event('input', {bubbles: true})) })()`)

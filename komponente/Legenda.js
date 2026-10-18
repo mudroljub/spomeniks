@@ -171,7 +171,8 @@ const obelisk = stanje => izgledMarkera({vrsta: 'spomenik', stanje})
 const maleGrupe = [
   [t('grupaPosetaJednina'), stavka(obelisk(), 34, t('lista'), 'filter: drop-shadow(0 0 3px #f2b705) drop-shadow(0 0 2px #f2b705)')
     + stavka(obelisk(), 34, t('posetio'), 'opacity: 0.5')],
-  [t('grupaStanje'), stavka(obelisk('rusevine'), 34, t('ruineJednina')) + stavka(obelisk('uklonjen'), 34, t('nestao'))],
+  [t('grupaStanje'), stavka(obelisk('rusevine'), 34, t('ruineJednina')) + stavka(obelisk('uklonjen'), 34, t('nestao'))
+    + stavka(obelisk(), 34, t('priblizno'), 'border: 1.5px dashed #822323; border-radius: 50%')],
 ]
 
 // legenda je u donjem levom uglu mape i otvara se samo na zahtev, da ne zaklanja spomenike
