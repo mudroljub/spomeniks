@@ -1,5 +1,7 @@
 # Lociranje spomenika
 
+**Peti paket wiki propusta — 19.10.2026:** ciljano proverene četiri lokacije: ispravljena tačka postojećeg spomenika u Vranjskoj Banji i precizirana piramida u Kamenici kod Aleksinca; novih markera nema. Kamenicu potvrđuje fotogrametrijski model rađen za studiju ZZSK Niš, a oštećenje je zabeleženo uz godinu objave dokaza 2021. Niška Banja izostavljena jer natpis opisuje pogibiju 1946; Lipovac odložen jer nije potvrđeno da je objekat iznad manastira knjiški beleg na Obloj glavi. [Dokazi i ograničenja](../data/provere/wiki-propusti-paket5-2026-10-19.json).
+
 **Četvrti paket wiki propusta — 19.10.2026:** obrađeno **20 kandidata: 8 novih spomenika (7 precizno, 1 približno), 4 ispravke ranijih tačaka, 1 preciziranje i 9 fotografija**. Novi su Denkovićev spomenik u Bačkom Petrovcu, žrtve bugarskog terora u Visočkoj Ržani, „Dečak i lane“ u Pančevu, crvenoarmejci u Batočini, Suvača u Pećincima, spomenik u centru Sikola, Slatina kod Šapca i celina u centru Stejanovaca. Ispravljeni Golubac, Beočin, Lalić i Negrišori; Čantavir preciziran. Negrišori su obnovljeni 2024, zato je uklonjena zastarela oznaka „uklonjen“. Slatina ostaje približna; pet nejasnih slučajeva odloženo, spomenik Prvom svetskom ratu u Staroj Moravici nije dodat, dobra tačka Jabuke ostaje. [Dokazi četvrtog paketa](../data/provere/wiki-propusti-paket4-2026-10-19.json).
 
 Ažurirano **2026-10-18**, posle završetka žetve za Crnu Goru i FB pregleda. Dokument služi da pronađemo već provereni trag, izbegnemo ponavljanje i vidimo koji bi novi dokaz omogućio pouzdan unos.

@@ -12221,8 +12221,8 @@
   {
     "id": "vranjska-banja",
     "koordinate": {
-      "lat": 42.5475383,
-      "lng": 22.0077271
+      "lat": 42.546887,
+      "lng": 22.00588
     },
     "mesto": "Vranjska Banja",
     "slika": "slike/spomenici/vranjska-banja.webp",
@@ -15328,7 +15328,11 @@
     "slika": "slike/spomenici/tomici.webp",
     "slikaOdnos": 1.778,
     "slikaPotpis": "Google Maps",
-    "naziv": "Spomenik NOB",
+    "naziv": "Spomenik palim borcima NOB-a i žrtvama fašizma 1941-1945",
+    "godina": "1951",
+    "godinaOd": 1951,
+    "godinaDo": 1951,
+    "autor": "Velibor Macukatin",
     "vrsta": "statua",
     "drzava": "Croatia"
   },
@@ -21166,5 +21170,17 @@
     "naziv": "Спомен-куќа на Ѓоце Стојчевски",
     "vrsta": "muzej",
     "drzava": "Macedonia"
+  },
+  {
+    "id": "rijeka-trsat-palim-borcima-nor-a",
+    "koordinate": {
+      "lat": 45.3304495,
+      "lng": 14.4587398
+    },
+    "mesto": "Rijeka (Trsat)",
+    "naziv": "Palim borcima NOR-a",
+    "autor": "Ljubo de Karina",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
   }
 ]

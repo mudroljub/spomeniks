@@ -16,7 +16,6 @@ live-server
 
 UNOS PODATAKA:
 - žetva izvora po [planu](docs/PLAN_ZETVE.md)
-- obraditi izdvojene akademske izvore ([nalazi i dostupnost](docs/IZVORI.md#akademski-portali--pregled-18102026), [prioriteti](docs/PLAN_ZETVE.md))
 
 POTPUNOST PODATKA:
 - locirati spomenike bez lokacije i bez tačne lokacije ([lociranje](docs/LOCIRANJE_SPOMENIKA.md))

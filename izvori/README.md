@@ -13,6 +13,8 @@ Svi preuzeti izvori i njihove tekstualne/stranične izvedenice čuvaju se ovde. 
 
 ## Važne putanje
 
+- `pretrage/foto-paket50-2026-10-19/` — izbor 50 postojećih spomenika bez fotografije, 51 izvorni snimak sa zamenom Zrenjanina, pregled i EXIF, 47 konačnih WebP slika i snimak baze pre upisa; rezultati u `data/provere/fotografije-paket50-2026-10-19.json`.
+
 - `knjige/zagreb-1981.pdf`, `knjige/krapina-1966.pdf`, `knjige/jokic-1986.pdf`, `knjige/sibenik-1980.pdf`
 - `knjige/hrzenjak-indeks-nob.pdf`, `knjige/hrzenjak-2002/strane/` i `knjige/hrzenjak-2002/ocr/`
 - `knjige/jokic-1986/tekst.txt`, `knjige/jokic-1986/strane/`; isto za Šibenik, dok je Krapina u `knjige/krapina-1966/`
