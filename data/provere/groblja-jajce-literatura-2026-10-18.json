@@ -1,0 +1,155 @@
+{
+  "datum": "2026-10-18",
+  "obim": "Probni pregled literature o grobljima Jajca i okoline; bez tvrdnje da je pregledana sva literatura ili potvrđena nova tačka.",
+  "izvori": [
+    {
+      "naslov": "Šefik Bešlagić: Spomenici narodnooslobodilačke borbe u Jajcu i njihova zaštita",
+      "godina": 1958,
+      "url": "https://fmks.gov.ba/download/zzs/1958/7-1958.pdf",
+      "lokalno": "izvori/knjige/groblja-literatura/jajce-beslagic-1958.pdf",
+      "dostupanObim": "26 PDF listova, štampane strane 69–94; početak i kraj provereni",
+      "obrada": "Pregledana struktura i svi pogoci za grobna obeležja; odnosi se prvenstveno na gradske objekte, ne daje tražene seoske grobne mikrolokacije."
+    },
+    {
+      "naslov": "Elvir Duranović i Hikmet Karčić: Memorijalizacija zločina nad Bošnjacima Jajca, Jezera i Šipova; II deo knjige Zločini nad Bošnjacima Jajca, Jezera i Šipova 1992–1995",
+      "godina": 2017,
+      "url": "https://www.iitb.ba/wp-content/uploads/2017/09/MEMORIJALIZACIJA-ZLO%C4%8CINA-NAD-BO%C5%A0NJACIMA-JAJCA-JEZERA-I-%C5%A0IPOVA.pdf",
+      "lokalno": "izvori/knjige/groblja-literatura/jajce-jezero-sipovo-memorijalizacija.pdf",
+      "dostupanObim": "102 PDF lista; izdvojeni deo knjige, ne cela knjiga od 410 strana",
+      "procitano": "Ciljano str.341–342 (PDF31–32),381 (PDF71), bibliografija i impresum; pregledani relevantni tekstualni pogoci.",
+      "nalazi": [
+        {
+          "mesto": "Divičani",
+          "strane": [
+            341,
+            342
+          ],
+          "opis": "52 groba na 500 m², kamena ograda i zajednički spomenik; fotografija sa petokrakom na str.342.",
+          "datumFotografije": "nije-naveden",
+          "rezultat": "Objavljena fotografija; postojeća tačka ostaje približna."
+        },
+        {
+          "mesto": "Vinac",
+          "strane": [
+            381
+          ],
+          "opis": "Groblje 23 × 16 m sa 16 grobova, uz spomenik ratu 1992–1995; opis ekshumacije iz 2006.",
+          "rezultat": "Mikrolokacijski trag sačuvan; nema potvrđene tačke, ne prepisivati koordinate drugog groblja."
+        }
+      ]
+    },
+    {
+      "naslov": "Perko Vojinović: Spomen ploče iz NOB-e i partizanska groblja u Jajcu i okolini",
+      "dostupnost": "Pun original nije pronađen u ovoj pretrazi; citiran preko studije i kataloga, nije pročitan.",
+      "bibliografskaRazlika": "Studija navodi 1968, SpomeniciNOB 1969; original potreban za razrešenje.",
+      "straneCitiraneUStudiji": {
+        "Divicani": 226,
+        "Vinac": 224
+      }
+    }
+  ],
+  "spojeno": [
+    {
+      "radniIndeksPreSpajanja": 894,
+      "prethodniRadniZapis": {
+        "naziv": "Partizansko groblje sa 37 palih boraca",
+        "nazivEn": "Partisans' cemetery with 37 fallen fighters",
+        "mesto": "Donji Vakuf",
+        "adresa": "707. slavne brdske brigade bb.",
+        "drzava": "Bosnia and Herzegovina",
+        "autor": "Pavle Perić",
+        "godina": "1958",
+        "vrsta": "spomen-groblje",
+        "izvor": "https://www.spomenicinob.info/donjivakuf"
+      },
+      "ciljniId": "donji-vakuf",
+      "prethodniCilj": {
+        "id": "donji-vakuf",
+        "koordinate": {
+          "lat": 44.1419533,
+          "lng": 17.39252
+        },
+        "googleCid": "3005064772614213759",
+        "mesto": "Donji Vakuf",
+        "slika": "slike/spomenici/donji-vakuf.webp",
+        "slikaOdnos": 1.413,
+        "naziv": "Partizansko spomen-groblje",
+        "nazivEn": "Partisan Memorial Cemetery",
+        "vrsta": "spomen-groblje",
+        "drzava": "Bosnia and Herzegovina"
+      },
+      "izvor": "https://www.spomenicinob.info/donjivakuf",
+      "googleCid": "3005064772614213759",
+      "dokaz": "Imenovano Google mesto ima isti CID kao postojeći marker; vrsta i lokacija preko mosta uz autobusku stanicu odgovaraju opisu, godina 1958. dopunjena iz kataloga.",
+      "napomenaAutora": "Pavle Perić autor je reljefa unutar groblja; nije prenet kao autor cele celine."
+    }
+  ],
+  "dopunjeno": [
+    {
+      "id": "divicani-partizansko-groblje",
+      "prethodniZapis": {
+        "id": "divicani-partizansko-groblje",
+        "koordinate": {
+          "lat": 44.362421,
+          "lng": 17.326397
+        },
+        "priblizno": true,
+        "mesto": "Divičani",
+        "izvor": "https://www.spomenicinob.info/jajce",
+        "naziv": "Partizansko groblje",
+        "nazivEn": "Partisans' cemetery",
+        "godina": "pre 1965",
+        "stanje": "ostecen",
+        "vrsta": "spomen-groblje",
+        "drzava": "Bosnia and Herzegovina"
+      },
+      "fotografija": "Knjiga 2017, štampana str.342 / PDF32; autor fotografije nije zasebno potpisan.",
+      "tacka": "Neizmenjena; priblizno:true ostaje.",
+      "stanje": "Postojeće stanje nije menjano; fotografija ne potvrđuje današnje stanje."
+    }
+  ],
+  "prevezaniFajlovi": [
+    {
+      "fajl": "data/knjige/hrzenjak-2002.json",
+      "pomereneVeze": 5
+    },
+    {
+      "fajl": "data/knjige/jokic-1986.json",
+      "pomereneVeze": 113
+    },
+    {
+      "fajl": "data/knjige/sibenik-1980.json",
+      "pomereneVeze": 50
+    },
+    {
+      "fajl": "data/provere/groblja-zbirni-pregled-2026-10-18.json",
+      "pomereneVeze": 185
+    },
+    {
+      "fajl": "data/provere/hrvatska-49-2026-10-16.json",
+      "pomereneVeze": 10
+    },
+    {
+      "fajl": "data/provere/hrvatska-ostali-2026-10-16.json",
+      "pomereneVeze": 2
+    },
+    {
+      "fajl": "data/provere/lociranje-groblja-2026-10-18.json",
+      "pomereneVeze": 1
+    },
+    {
+      "fajl": "data/provere/lociranje-groblja-drugi-2026-10-18.json",
+      "pomereneVeze": 4
+    }
+  ],
+  "rezultat": {
+    "noviMarkeri": 0,
+    "novePrecizneTacke": 0,
+    "spojeniRadniDuplikati": 1,
+    "noveFotografije": 1,
+    "bezLokacijePre": 3016,
+    "bezLokacijePosle": 3015,
+    "grobljaBezLokacijePosle": 218
+  },
+  "sledeciDokaz": "Za Divičane treba geolocirati prepoznatljiv spomenik sa fotografije; za Vinac identifikovati groblje uz zasebni spomenik 1992–1995. Šipovske ratne grobnice iz novije studije ne mešati sa NOB grobnicama."
+}

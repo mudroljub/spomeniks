@@ -14,6 +14,10 @@ POZNATA = set(REDOSLED)
 # Ranije proverene celine i pojedinacna obelezja na istoj lokaciji.
 POZNATI_BLISKI_PAROVI = {frozenset(par) for par in [
     ('nis', 'nis-spomen-park-bubanj'),
+    ('senturska-gora-grob-franca-dobovska', 'senturska-gora-druzinski-grob-avzvakarjevih'),
+    ('senturska-gora-grob-franca-dobovska', 'senturska-gora-grob-franca-anzica'),
+    ('senturska-gora-druzinski-grob-avzvakarjevih', 'senturska-gora-grob-franca-anzica'),
+    ('veliko-mlacevo-grob-bratov-miklic', 'veliko-mlacevo-grob-jozeta-polajnarja'),
     ('sisak', 'sisak-spomen-park-brezovica'),
     ('dotrscina', 'zagreb-spomen-park-dotrscina'),
     ('bela-crkva-start-uprising', 'bela-crkva-spomenicki-kompleks'),

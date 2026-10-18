@@ -6714,6 +6714,7 @@
     },
     "googleCid": "15426723501272657636",
     "mesto": "Pećigrad",
+    "izvor": "https://www.spomenicinob.info/cazin",
     "slika": "slike/spomenici/pecigrad.webp",
     "slikaOdnos": 1.342,
     "naziv": "Spomen-groblje na brdu Trube",
@@ -11353,6 +11354,7 @@
     },
     "googleCid": "1574814322196921337",
     "mesto": "Buturović Polje",
+    "izvor": "https://www.spomenicinob.info/konjic",
     "slika": "slike/spomenici/buturovic-polje.webp",
     "slikaOdnos": 1.46,
     "naziv": "Partizansko spomen-groblje",
@@ -11386,10 +11388,12 @@
     },
     "googleCid": "3005064772614213759",
     "mesto": "Donji Vakuf",
+    "izvor": "https://www.spomenicinob.info/donjivakuf",
     "slika": "slike/spomenici/donji-vakuf.webp",
     "slikaOdnos": 1.413,
     "naziv": "Partizansko spomen-groblje",
     "nazivEn": "Partisan Memorial Cemetery",
+    "godina": "1958",
     "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -11400,6 +11404,7 @@
       "lng": 17.0449569
     },
     "mesto": "Potkozarje",
+    "izvor": "https://www.spomenicinob.info/banjaluka",
     "slika": "slike/spomenici/potkozarje.webp",
     "slikaOdnos": 1.375,
     "naziv": "Partizansko spomen-groblje",
@@ -11817,7 +11822,9 @@
       "lat": 44.1210382,
       "lng": 18.2016071
     },
+    "googleCid": "5279510719200045155",
     "mesto": "Kraljeva Sutjeska",
+    "izvor": "https://www.spomenicinob.info/kakanj",
     "slika": "slike/spomenici/kraljeva-sutjeska.webp",
     "slikaOdnos": 1.418,
     "naziv": "Partizansko spomen-groblje",
@@ -13546,11 +13553,13 @@
     },
     "googleCid": "16449944083018367622",
     "mesto": "Petrovo",
+    "izvor": "https://www.spomenicinob.info/petrovo",
     "slika": "slike/spomenici/petrovo.webp",
     "slikaOdnos": 1.476,
     "naziv": "Partizansko spomen-groblje",
     "nazivEn": "Partisan Memorial Cemetery",
     "godina": "1970",
+    "autor": "Dragiša Trifković & Nurudin Škapurović",
     "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -72752,22 +72761,6 @@
     "drzava": "Croatia"
   },
   {
-    "id": "drakulic-spomen-kosturnica-zrtava-fasistickog-tero",
-    "koordinate": {
-      "lat": 44.80732,
-      "lng": 17.17594
-    },
-    "priblizno": true,
-    "mesto": "Drakulić",
-    "izvor": "https://www.spomenicinob.info/banjaluka",
-    "naziv": "Spomen-kosturnica žrtava fašističkog terora",
-    "nazivEn": "Memorial ossuary of Victims of Fascist Terror",
-    "godina": "1965",
-    "autor": "Irfan Maglajlić",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "zaluzani-bista-rudija-cajavca",
     "koordinate": {
       "lat": 44.83607,
@@ -72843,21 +72836,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "potkozarje-groblje-partizanskih-boraca-i-zrtava-fa",
-    "koordinate": {
-      "lat": 44.91613,
-      "lng": 17.06847
-    },
-    "priblizno": true,
-    "mesto": "Potkozarje",
-    "izvor": "https://www.spomenicinob.info/banjaluka",
-    "naziv": "Groblje partizanskih boraca i žrtava fašističkog terora",
-    "nazivEn": "Cemetery of Partisan fighters and Victims of Fascist Terror",
-    "godina": "1977",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "potkozarje-bista-boska-karalica",
     "koordinate": {
       "lat": 44.91613,
@@ -72919,10 +72897,10 @@
   {
     "id": "bronzani-majdan-partizansko-groblje",
     "koordinate": {
-      "lat": 44.78685,
-      "lng": 16.93218
+      "lat": 44.7846467,
+      "lng": 16.9304433
     },
-    "priblizno": true,
+    "googleCid": "9630443257864748437",
     "mesto": "Bronzani Majdan",
     "izvor": "https://www.spomenicinob.info/banjaluka",
     "naziv": "Partizansko groblje",
@@ -75377,21 +75355,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "pecigrad-partizansko-groblje",
-    "koordinate": {
-      "lat": 45.0543,
-      "lng": 15.89639
-    },
-    "priblizno": true,
-    "mesto": "Pećigrad",
-    "izvor": "https://www.spomenicinob.info/cazin",
-    "naziv": "Partizansko groblje",
-    "nazivEn": "Partisans' cemetery",
-    "godina": "1978",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "mutnik-spomenik-na-mjestu-strijeljanja-143-zrtve-f",
     "koordinate": {
       "lat": 44.973147,
@@ -77282,6 +77245,9 @@
     "priblizno": true,
     "mesto": "Divičani",
     "izvor": "https://www.spomenicinob.info/jajce",
+    "slika": "slike/spomenici/divicani-partizansko-groblje.webp",
+    "slikaOdnos": 0.651,
+    "slikaPotpis": "Zločini nad Bošnjacima Jajca, Jezera i Šipova, 2017",
     "naziv": "Partizansko groblje",
     "nazivEn": "Partisans' cemetery",
     "godina": "pre 1965",
@@ -77301,21 +77267,6 @@
     "naziv": "Partizansko groblje",
     "nazivEn": "Partisans' cemetery",
     "godina": "1961",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "kraljeva-sutjeska-partizansko-groblje",
-    "koordinate": {
-      "lat": 44.11975,
-      "lng": 18.20091
-    },
-    "priblizno": true,
-    "mesto": "Kraljeva Sutjeska",
-    "izvor": "https://www.spomenicinob.info/kakanj",
-    "naziv": "Partizansko groblje",
-    "nazivEn": "Partisans' cemetery",
-    "godina": "1956",
     "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -77578,21 +77529,6 @@
     "izvor": "https://www.spomenicinob.info/konjic",
     "naziv": "Partizansko groblje sa 215 palih boraca",
     "nazivEn": "Partisan cemetery with 215 fallen fighters",
-    "godina": "1955",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "buturovic-polje-partizansko-groblje",
-    "koordinate": {
-      "lat": 43.72903,
-      "lng": 17.81855
-    },
-    "priblizno": true,
-    "mesto": "Buturović Polje",
-    "izvor": "https://www.spomenicinob.info/konjic",
-    "naziv": "Partizansko groblje",
-    "nazivEn": "Partisans' cemetery",
     "godina": "1955",
     "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
@@ -80175,12 +80111,15 @@
   {
     "id": "ljeskare-partizansko-groblje",
     "koordinate": {
-      "lat": 44.95151,
-      "lng": 16.62797
+      "lat": 44.9489485,
+      "lng": 16.6327094
     },
-    "priblizno": true,
+    "googleCid": "2925574262587651535",
     "mesto": "Ljeskare",
     "izvor": "https://www.spomenicinob.info/prijedor",
+    "slika": "slike/spomenici/ljeskare-partizansko-groblje.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Google Maps",
     "naziv": "Partizansko groblje",
     "nazivEn": "Partisans' cemetery",
     "godina": "1954",
@@ -85979,12 +85918,15 @@
   {
     "id": "brezovo-polje-spomenik-i-kosturnica-palih-boraca-i",
     "koordinate": {
-      "lat": 44.84531,
-      "lng": 18.95506
+      "lat": 44.8470189,
+      "lng": 18.95521
     },
-    "priblizno": true,
+    "googleCid": "13472471064524225221",
     "mesto": "Brezovo Polje",
     "izvor": "https://www.spomenicinob.info/brcko",
+    "slika": "slike/spomenici/brezovo-polje-spomenik-i-kosturnica-palih-boraca-i.webp",
+    "slikaOdnos": 0.562,
+    "slikaPotpis": "Google Maps",
     "naziv": "Spomenik i kosturnica palih boraca i žrtava fašističkog terora",
     "nazivEn": "Monument and ossuary of fallen fighters and Victims of Fascist Terror",
     "godina": "1972",
@@ -86014,20 +85956,6 @@
     },
     "priblizno": true,
     "mesto": "Potočari",
-    "izvor": "https://www.spomenicinob.info/brcko",
-    "naziv": "Partizansko groblje",
-    "nazivEn": "Partisans' cemetery",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "brezovo-polje-partizansko-groblje",
-    "koordinate": {
-      "lat": 44.84531,
-      "lng": 18.95506
-    },
-    "priblizno": true,
-    "mesto": "Brezovo Polje",
     "izvor": "https://www.spomenicinob.info/brcko",
     "naziv": "Partizansko groblje",
     "nazivEn": "Partisans' cemetery",
@@ -87524,21 +87452,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "jezero-groblje-partizanskih-boraca-i-zrtava-fasist",
-    "koordinate": {
-      "lat": 45.00275,
-      "lng": 18.30596
-    },
-    "priblizno": true,
-    "mesto": "Jezero",
-    "izvor": "https://www.spomenicinob.info/jezero",
-    "naziv": "Groblje partizanskih boraca i žrtava fašističkog terora",
-    "nazivEn": "Cemetery of Partisan fighters and Victims of Fascist Terror",
-    "godina": "1983",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "poljani-spomen-cesma-stjepanu-kovacevicu",
     "koordinate": {
       "lat": 44.11455,
@@ -88181,12 +88094,15 @@
   {
     "id": "priboj-partizansko-groblje",
     "koordinate": {
-      "lat": 44.60156,
-      "lng": 18.93008
+      "lat": 44.6008679,
+      "lng": 18.9296699
     },
-    "priblizno": true,
+    "googleCid": "15461918322739685908",
     "mesto": "Priboj",
     "izvor": "https://www.spomenicinob.info/lopare",
+    "slika": "slike/spomenici/priboj-partizansko-groblje.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Google Maps",
     "naziv": "Partizansko groblje",
     "nazivEn": "Partisans' cemetery",
     "vrsta": "spomen-groblje",
@@ -88819,22 +88735,6 @@
     "nazivEn": "Fountain to commemorate stay of Supreme Command",
     "godina": "1954",
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "petrovo-partizansko-groblje-i-kosturnica",
-    "koordinate": {
-      "lat": 44.6326,
-      "lng": 18.36098
-    },
-    "priblizno": true,
-    "mesto": "Petrovo",
-    "izvor": "https://www.spomenicinob.info/petrovo",
-    "naziv": "Partizansko groblje i kosturnica",
-    "nazivEn": "Partisan cemetery and ossuary",
-    "godina": "1970",
-    "autor": "Dragiša Trifković & Nurudin Škapurović",
-    "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -97798,9 +97698,14 @@
       "lat": 44.804089,
       "lng": 17.183009
     },
+    "googleCid": "11506355032137430269",
     "mesto": "Banja Luka",
     "izvor": "https://www.xiwl.com/w/index.php/Banja_Luka_%28Drakuli%C4%87%29_-_Spomen_Kosturnica",
+    "slika": "slike/spomenici/banja-luka-spomen-kosturnica.webp",
+    "slikaOdnos": 0.445,
+    "slikaPotpis": "Google Maps",
     "naziv": "Spomen-kosturnica",
+    "nazivEn": "Memorial ossuary of Victims of Fascist Terror",
     "godina": "1965",
     "autor": "Irfan Maglajlić",
     "vrsta": "spomen-groblje",
@@ -109068,7 +108973,7 @@
     },
     "mesto": "Jezero",
     "izvor": "https://www.xiwl.com/w/index.php/Jezero_-_Partizansko_Groblje",
-    "naziv": "partizansko groblje",
+    "naziv": "Partizansko groblje",
     "godina": "1983",
     "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
@@ -133503,5 +133408,3167 @@
     "autor": "Stanko Jančić",
     "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "legen-bolnisnica-trska-gora",
+    "koordinate": {
+      "lat": 46.500736,
+      "lng": 15.17013
+    },
+    "mesto": "Legen",
+    "izvor": "https://eid.gov.si/S/312",
+    "slika": "slike/spomenici/legen-bolnisnica-trska-gora.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Dean Damjanović, CC BY 4.0",
+    "naziv": "Bolnišnica Trška gora",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ljubljana-tiskarna-podmornica",
+    "koordinate": {
+      "lat": 46.047181,
+      "lng": 14.464347
+    },
+    "mesto": "Ljubljana",
+    "izvor": "https://eid.gov.si/S/394",
+    "slika": "slike/spomenici/ljubljana-tiskarna-podmornica.webp",
+    "slikaOdnos": 1.493,
+    "slikaPotpis": "Aleksandra Renčelj Škedelj, CC BY 4.0",
+    "naziv": "Tiskarna Podmornica",
+    "godina": "1941",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "gorenje-pri-postojni-spominska-tabla-pozigu-vasi",
+    "koordinate": {
+      "lat": 45.828288,
+      "lng": 14.140768
+    },
+    "mesto": "Gorenje pri Postojni",
+    "izvor": "https://eid.gov.si/S/19391",
+    "slika": "slike/spomenici/gorenje-pri-postojni-spominska-tabla-pozigu-vasi.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska tabla požigu vasi",
+    "godina": "1975",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "brezno-grob-partizana-petra",
+    "koordinate": {
+      "lat": 46.157468,
+      "lng": 15.148273
+    },
+    "mesto": "Brezno",
+    "izvor": "https://eid.gov.si/S/26353",
+    "slika": "slike/spomenici/brezno-grob-partizana-petra.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob partizana Petra",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "travnik-spominska-plosca-kurirski-postaji",
+    "koordinate": {
+      "lat": 45.683785,
+      "lng": 14.59233
+    },
+    "mesto": "Travnik",
+    "izvor": "https://eid.gov.si/S/22500",
+    "slika": "slike/spomenici/travnik-spominska-plosca-kurirski-postaji.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča kurirski postaji",
+    "godina": "1978",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "stari-kot-grob-dveh-partizanov",
+    "koordinate": {
+      "lat": 45.617107,
+      "lng": 14.631946
+    },
+    "mesto": "Stari Kot",
+    "izvor": "https://eid.gov.si/S/22546",
+    "slika": "slike/spomenici/stari-kot-grob-dveh-partizanov.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob dveh partizanov",
+    "godina": "1966",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "trava-grob-dveh-partizanov",
+    "koordinate": {
+      "lat": 45.602129,
+      "lng": 14.671859
+    },
+    "mesto": "Trava",
+    "izvor": "https://eid.gov.si/S/22547",
+    "slika": "slike/spomenici/trava-grob-dveh-partizanov.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob dveh partizanov",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "idrija-spominska-plosca-padlemu-topilnicarju",
+    "koordinate": {
+      "lat": 46.00726,
+      "lng": 14.029657
+    },
+    "mesto": "Idrija",
+    "izvor": "https://eid.gov.si/S/19470",
+    "slika": "slike/spomenici/idrija-spominska-plosca-padlemu-topilnicarju.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča padlemu topilničarju",
+    "godina": "1951",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "vojsko-pri-idriji-spominska-plosca-mirku-percu-mak",
+    "koordinate": {
+      "lat": 46.028727,
+      "lng": 13.876039
+    },
+    "mesto": "Vojsko pri Idriji",
+    "izvor": "https://eid.gov.si/S/19487",
+    "slika": "slike/spomenici/vojsko-pri-idriji-spominska-plosca-mirku-percu-mak.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča Mirku Percu-Maksu",
+    "godina": "1974",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "labor-frenkov-bunker-v-hrpeljcih",
+    "koordinate": {
+      "lat": 45.47574,
+      "lng": 13.790302
+    },
+    "mesto": "Labor",
+    "izvor": "https://eid.gov.si/S/1428",
+    "slika": "slike/spomenici/labor-frenkov-bunker-v-hrpeljcih.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Frenkov bunker v Hrpeljcih",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "osp-bunker-partizanske-tehnike-sneznik",
+    "koordinate": {
+      "lat": 45.573815,
+      "lng": 13.854057
+    },
+    "mesto": "Osp",
+    "izvor": "https://eid.gov.si/S/1432",
+    "slika": "slike/spomenici/osp-bunker-partizanske-tehnike-sneznik.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Bunker partizanske tehnike Snežnik",
+    "godina": "1944",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kocevski-rog-prvotni-grob-franca-rozmana-staneta",
+    "koordinate": {
+      "lat": 45.609985,
+      "lng": 15.077736
+    },
+    "mesto": "Kočevski Rog",
+    "izvor": "https://eid.gov.si/S/30669",
+    "slika": "slike/spomenici/kocevski-rog-prvotni-grob-franca-rozmana-staneta.webp",
+    "slikaOdnos": 0.665,
+    "slikaPotpis": "Marko Pršina, CC BY 4.0",
+    "naziv": "Prvotni grob Franca Rozmana-Staneta",
+    "godina": "1949",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "srednja-kanomlja-spomenik-zrtvam-fasizma-v-zlicnik",
+    "koordinate": {
+      "lat": 46.01803,
+      "lng": 13.992156
+    },
+    "mesto": "Srednja Kanomlja",
+    "izvor": "https://eid.gov.si/S/4931",
+    "slika": "slike/spomenici/srednja-kanomlja-spomenik-zrtvam-fasizma-v-zlicnik.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik žrtvam fašizma v Žličniku",
+    "godina": "1968",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "srednja-kanomlja-partizansko-taborisce-v-zirovckov",
+    "koordinate": {
+      "lat": 46.029239,
+      "lng": 13.975624
+    },
+    "mesto": "Srednja Kanomlja",
+    "izvor": "https://eid.gov.si/S/4934",
+    "slika": "slike/spomenici/srednja-kanomlja-partizansko-taborisce-v-zirovckov.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Partizansko taborišče v Žirovčkovi planini",
+    "godina": "1962",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "planina-pod-sumikom-partizanska-bolnisnica-jesen",
+    "koordinate": {
+      "lat": 46.457062,
+      "lng": 15.461826
+    },
+    "mesto": "Planina pod Šumikom",
+    "izvor": "https://eid.gov.si/S/7064",
+    "slika": "slike/spomenici/planina-pod-sumikom-partizanska-bolnisnica-jesen.webp",
+    "slikaOdnos": 1.509,
+    "slikaPotpis": "Srečko Štajnbaher, CC BY 4.0",
+    "naziv": "Partizanska bolnišnica Jesen",
+    "godina": "1944",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "udin-borst-spominsko-znamenje-6-padlim-borcem-na-t",
+    "koordinate": {
+      "lat": 46.300251,
+      "lng": 14.317997
+    },
+    "mesto": "Udin boršt",
+    "izvor": "https://eid.gov.si/S/5156",
+    "slika": "slike/spomenici/udin-borst-spominsko-znamenje-6-padlim-borcem-na-t.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominsko znamenje 6 padlim borcem na Težičevem hribu",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "udin-borst-grob-ivana-sparovca-na-pecicah",
+    "koordinate": {
+      "lat": 46.268759,
+      "lng": 14.328454
+    },
+    "mesto": "Udin boršt",
+    "izvor": "https://eid.gov.si/S/5160",
+    "slika": "slike/spomenici/udin-borst-grob-ivana-sparovca-na-pecicah.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Bernarda Jesenko Filipič, CC BY 4.0",
+    "naziv": "Grob Ivana Šparovca na Pečicah",
+    "godina": "1985",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "jesenice-partizanska-bolnisnica-na-mezakli",
+    "koordinate": {
+      "lat": 46.426719,
+      "lng": 14.039649
+    },
+    "mesto": "Jesenice",
+    "izvor": "https://eid.gov.si/S/5306",
+    "slika": "slike/spomenici/jesenice-partizanska-bolnisnica-na-mezakli.webp",
+    "slikaOdnos": 1.465,
+    "slikaPotpis": "Renata Pamić, CC BY 4.0",
+    "naziv": "Partizanska bolnišnica na Mežakli",
+    "godina": "1942",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "planina-belca-grob-benjamina-hrovata",
+    "koordinate": {
+      "lat": 46.494507,
+      "lng": 13.932231
+    },
+    "mesto": "Planina Belca",
+    "izvor": "https://eid.gov.si/S/5320",
+    "slika": "slike/spomenici/planina-belca-grob-benjamina-hrovata.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob Benjamina Hrovata",
+    "godina": "1945",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "dovje-spominsko-znamenje-nad-seducnikom",
+    "koordinate": {
+      "lat": 46.476999,
+      "lng": 13.925566
+    },
+    "mesto": "Dovje",
+    "izvor": "https://eid.gov.si/S/5330",
+    "slika": "slike/spomenici/dovje-spominsko-znamenje-nad-seducnikom.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominsko znamenje nad Sedučnikom",
+    "godina": "1958",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "dovje-partizansko-taborisce-orlovo-gnezdo",
+    "koordinate": {
+      "lat": 46.476736,
+      "lng": 13.963456
+    },
+    "mesto": "Dovje",
+    "izvor": "https://eid.gov.si/S/5331",
+    "slika": "slike/spomenici/dovje-partizansko-taborisce-orlovo-gnezdo.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Partizansko taborišče Orlovo gnezdo",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "hrusica-grob-neznanega-borca-na-vznozju-mezakle",
+    "koordinate": {
+      "lat": 46.446716,
+      "lng": 14.004453
+    },
+    "mesto": "Hrušica",
+    "izvor": "https://eid.gov.si/S/5340",
+    "slika": "slike/spomenici/hrusica-grob-neznanega-borca-na-vznozju-mezakle.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob neznanega borca na vznožju Mežakle",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kumen-partizanska-bolnisnica-kosuta",
+    "koordinate": {
+      "lat": 46.487762,
+      "lng": 15.332038
+    },
+    "mesto": "Kumen",
+    "izvor": "https://eid.gov.si/S/6394",
+    "slika": "slike/spomenici/kumen-partizanska-bolnisnica-kosuta.webp",
+    "slikaOdnos": 1.521,
+    "slikaPotpis": "Srečko Štajnbaher, CC BY 4.0",
+    "naziv": "Partizanska bolnišnica Košuta",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "moste-partizansko-taborisce-titova-vas",
+    "koordinate": {
+      "lat": 46.399975,
+      "lng": 14.18169
+    },
+    "mesto": "Moste",
+    "izvor": "https://eid.gov.si/S/5410",
+    "slika": "slike/spomenici/moste-partizansko-taborisce-titova-vas.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Bernarda Jesenko Filipič, CC BY 4.0",
+    "naziv": "Partizansko taborišče Titova vas",
+    "godina": "1977",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "spodnja-kapla-partizanska-bolnisnica-pri-drulku",
+    "koordinate": {
+      "lat": 46.633806,
+      "lng": 15.421946
+    },
+    "mesto": "Spodnja Kapla",
+    "izvor": "https://eid.gov.si/S/8229",
+    "slika": "slike/spomenici/spodnja-kapla-partizanska-bolnisnica-pri-drulku.webp",
+    "slikaOdnos": 1.413,
+    "slikaPotpis": "Srečko Štajnbaher, CC BY 4.0",
+    "naziv": "Partizanska bolnišnica pri Drulku",
+    "godina": "1944",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "hudi-kot-partizanska-bolnisnica-svoboda",
+    "koordinate": {
+      "lat": 46.521814,
+      "lng": 15.193033
+    },
+    "mesto": "Hudi Kot",
+    "izvor": "https://eid.gov.si/S/8230",
+    "slika": "slike/spomenici/hudi-kot-partizanska-bolnisnica-svoboda.webp",
+    "slikaOdnos": 1.413,
+    "slikaPotpis": "Srečko Štajnbaher, CC BY 4.0",
+    "naziv": "Partizanska bolnišnica Svoboda",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ljubljana-spominska-plosca-glavnemu-poveljstvu-nov",
+    "koordinate": {
+      "lat": 46.064528,
+      "lng": 14.49197
+    },
+    "mesto": "Ljubljana",
+    "izvor": "https://eid.gov.si/S/5671",
+    "slika": "slike/spomenici/ljubljana-spominska-plosca-glavnemu-poveljstvu-nov.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča Glavnemu poveljstvu NOV in POS",
+    "godina": "1953",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ljubljana-spominska-plosca-protestom-med-nob",
+    "koordinate": {
+      "lat": 46.060895,
+      "lng": 14.500612
+    },
+    "mesto": "Ljubljana",
+    "izvor": "https://eid.gov.si/S/5685",
+    "slika": "slike/spomenici/ljubljana-spominska-plosca-protestom-med-nob.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča protestom med NOB",
+    "godina": "1983",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ljubljana-spominska-plosca-pri-hisi-podutiska-cest",
+    "koordinate": {
+      "lat": 46.072434,
+      "lng": 14.424559
+    },
+    "mesto": "Ljubljana",
+    "izvor": "https://eid.gov.si/S/5689",
+    "slika": "slike/spomenici/ljubljana-spominska-plosca-pri-hisi-podutiska-cest.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Alenka Možina, CC BY 4.0",
+    "naziv": "Spominska plošča pri hiši Podutiška cesta 270",
+    "godina": "1951",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ljubljana-spominska-plosca-zbirnemu-taboriscu-za-i",
+    "koordinate": {
+      "lat": 46.096843,
+      "lng": 14.471059
+    },
+    "mesto": "Ljubljana",
+    "izvor": "https://eid.gov.si/S/5694",
+    "slika": "slike/spomenici/ljubljana-spominska-plosca-zbirnemu-taboriscu-za-i.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča zbirnemu taborišču za izgnance v Šentvidu",
+    "godina": "1973",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ljubljana-spominska-plosca-stirim-padlim-med-nob-v",
+    "koordinate": {
+      "lat": 46.105591,
+      "lng": 14.461973
+    },
+    "mesto": "Ljubljana",
+    "izvor": "https://eid.gov.si/S/5701",
+    "slika": "slike/spomenici/ljubljana-spominska-plosca-stirim-padlim-med-nob-v.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča štirim padlim med NOB v Vižmarjih",
+    "godina": "1956",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "vodice-pri-ljubljani-skupni-grob-padlih-v-nob-na-p",
+    "koordinate": {
+      "lat": 46.185192,
+      "lng": 14.48953
+    },
+    "mesto": "Vodice pri Ljubljani",
+    "izvor": "https://eid.gov.si/S/5702",
+    "slika": "slike/spomenici/vodice-pri-ljubljani-skupni-grob-padlih-v-nob-na-p.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Skupni grob padlih v NOB na pokopališču",
+    "godina": "1956",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "cresnjevci-spomenik-mariji-rozman",
+    "koordinate": {
+      "lat": 46.66377,
+      "lng": 16.000445
+    },
+    "mesto": "Črešnjevci",
+    "izvor": "https://eid.gov.si/S/6738",
+    "slika": "slike/spomenici/cresnjevci-spomenik-mariji-rozman.webp",
+    "slikaOdnos": 1.527,
+    "slikaPotpis": "Srečko Štajnbaher, CC BY 4.0",
+    "naziv": "Spomenik Mariji Rožman",
+    "godina": "1957",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zikarce-spomenik-padlim-v-prvi-in-drugi-svetovni-v",
+    "koordinate": {
+      "lat": 46.520243,
+      "lng": 15.782073
+    },
+    "mesto": "Žikarce",
+    "izvor": "https://eid.gov.si/S/9020",
+    "slika": "slike/spomenici/zikarce-spomenik-padlim-v-prvi-in-drugi-svetovni-v.webp",
+    "slikaOdnos": 1.413,
+    "slikaPotpis": "Srečko Štajnbaher, CC BY 4.0",
+    "naziv": "Spomenik padlim v prvi in drugi svetovni vojni",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ljubljana-spomenik-zrtvam-nob-v-sneberju",
+    "koordinate": {
+      "lat": 46.083264,
+      "lng": 14.581974
+    },
+    "mesto": "Ljubljana",
+    "izvor": "https://eid.gov.si/S/5717",
+    "slika": "slike/spomenici/ljubljana-spomenik-zrtvam-nob-v-sneberju.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik žrtvam NOB v Sneberju",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "iski-vintgar-bolnisnica-krvavice",
+    "koordinate": {
+      "lat": 45.905053,
+      "lng": 14.484246
+    },
+    "mesto": "Iški Vintgar",
+    "izvor": "https://eid.gov.si/S/5722",
+    "slika": "slike/spomenici/iski-vintgar-bolnisnica-krvavice.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Bolnišnica Krvavice",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "gornji-ig-spomenik-zrtvam-nob-v-lapusni-dolini",
+    "koordinate": {
+      "lat": 45.930742,
+      "lng": 14.508766
+    },
+    "mesto": "Gornji Ig",
+    "izvor": "https://eid.gov.si/S/5724",
+    "slika": "slike/spomenici/gornji-ig-spomenik-zrtvam-nob-v-lapusni-dolini.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik žrtvam NOB v Lapušni dolini",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "hrastenice-spomenik-nob-pri-gavgarju",
+    "koordinate": {
+      "lat": 46.080337,
+      "lng": 14.380349
+    },
+    "mesto": "Hrastenice",
+    "izvor": "https://eid.gov.si/S/5729",
+    "slika": "slike/spomenici/hrastenice-spomenik-nob-pri-gavgarju.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik NOB pri Gavgarju",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "velike-lasce-spominske-plosce-zrtvam-nob-na-pokopa",
+    "koordinate": {
+      "lat": 45.836333,
+      "lng": 14.636482
+    },
+    "mesto": "Velike Lašče",
+    "izvor": "https://eid.gov.si/S/5734",
+    "slika": "slike/spomenici/velike-lasce-spominske-plosce-zrtvam-nob-na-pokopa.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominske plošče žrtvam NOB na pokopališkem zidu",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "bela-pec-partizanska-bolnisnica-b-11-pepca",
+    "koordinate": {
+      "lat": 46.429169,
+      "lng": 14.805285
+    },
+    "mesto": "Bela Peč",
+    "izvor": "https://eid.gov.si/S/7719",
+    "slika": "slike/spomenici/bela-pec-partizanska-bolnisnica-b-11-pepca.webp",
+    "slikaOdnos": 1.521,
+    "slikaPotpis": "Srečko Štajnbaher, CC BY 4.0",
+    "naziv": "Partizanska bolnišnica B-11 Pepca",
+    "godina": "1943",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "podgora-pri-kotljah-partizanska-bolnisnica-mirta",
+    "koordinate": {
+      "lat": 46.502733,
+      "lng": 14.964831
+    },
+    "mesto": "Podgora pri Kotljah",
+    "izvor": "https://eid.gov.si/S/7730",
+    "slika": "slike/spomenici/podgora-pri-kotljah-partizanska-bolnisnica-mirta.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Srečko Štajnbaher, CC BY 4.0",
+    "naziv": "Partizanska bolnišnica Mirta",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "mojstrana-spomenik-padlim-borcem-na-planini-mezakl",
+    "koordinate": {
+      "lat": 46.447748,
+      "lng": 13.949817
+    },
+    "mesto": "Mojstrana",
+    "izvor": "https://eid.gov.si/S/5394",
+    "slika": "slike/spomenici/mojstrana-spomenik-padlim-borcem-na-planini-mezakl.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik padlim borcem na planini Mežakla",
+    "godina": "1974",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "bohor-partizanska-bolnisnica-v-travnem-lazu",
+    "koordinate": {
+      "lat": 46.065597,
+      "lng": 15.436945
+    },
+    "mesto": "Bohor",
+    "izvor": "https://eid.gov.si/S/5762",
+    "slika": "slike/spomenici/bohor-partizanska-bolnisnica-v-travnem-lazu.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Martin Pungerčar, CC BY 4.0",
+    "naziv": "Partizanska bolnišnica v Travnem Lazu",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "gacnik-spominska-plosca",
+    "koordinate": {
+      "lat": 46.641734,
+      "lng": 15.680058
+    },
+    "mesto": "Gačnik",
+    "izvor": "https://eid.gov.si/S/7826",
+    "slika": "slike/spomenici/gacnik-spominska-plosca.webp",
+    "slikaOdnos": 1.413,
+    "slikaPotpis": "Srečko Štajnbaher, CC BY 4.0",
+    "naziv": "Spominska plošča",
+    "godina": "1976",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "suhor-grob-partizanke-z-nagrobno-plosco",
+    "koordinate": {
+      "lat": 45.820031,
+      "lng": 15.094302
+    },
+    "mesto": "Suhor",
+    "izvor": "https://eid.gov.si/S/4234",
+    "slika": "slike/spomenici/suhor-grob-partizanke-z-nagrobno-plosco.webp",
+    "slikaOdnos": 1.504,
+    "slikaPotpis": "Judita Podgornik Zaletelj, CC BY 4.0",
+    "naziv": "Grob partizanke z nagrobno ploščo",
+    "godina": "1960",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "javornik-spominsko-obmocje-slemene-javornik",
+    "koordinate": {
+      "lat": 46.18507,
+      "lng": 15.34144
+    },
+    "mesto": "Javornik",
+    "izvor": "https://eid.gov.si/S/4250",
+    "slika": "slike/spomenici/javornik-spominsko-obmocje-slemene-javornik.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominsko območje Slemene-Javornik",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "vrhe-grob-partizanov-pri-cerkvi-sv-neze",
+    "koordinate": {
+      "lat": 46.54262,
+      "lng": 15.012935
+    },
+    "mesto": "Vrhe",
+    "izvor": "https://eid.gov.si/S/4185",
+    "slika": "slike/spomenici/vrhe-grob-partizanov-pri-cerkvi-sv-neze.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Srečko Štajnbaher, CC BY 4.0",
+    "naziv": "Grob partizanov pri cerkvi sv. Neže",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "rogaska-slatina-grob-bratov-simoncic",
+    "koordinate": {
+      "lat": 46.221102,
+      "lng": 15.632347
+    },
+    "mesto": "Rogaška Slatina",
+    "izvor": "https://eid.gov.si/S/4726",
+    "slika": "slike/spomenici/rogaska-slatina-grob-bratov-simoncic.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob bratov Simončič",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "cezarji-spominsko-znamenje-aktivistoma-of",
+    "koordinate": {
+      "lat": 45.536091,
+      "lng": 13.8081
+    },
+    "mesto": "Čežarji",
+    "izvor": "https://eid.gov.si/S/1369",
+    "slika": "slike/spomenici/cezarji-spominsko-znamenje-aktivistoma-of.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominsko znamenje aktivistoma OF",
+    "godina": "1948",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "rizana-spominsko-znamenje-v-bertosih",
+    "koordinate": {
+      "lat": 45.54689,
+      "lng": 13.836994
+    },
+    "mesto": "Rižana",
+    "izvor": "https://eid.gov.si/S/1436",
+    "slika": "slike/spomenici/rizana-spominsko-znamenje-v-bertosih.webp",
+    "slikaOdnos": 1.509,
+    "slikaPotpis": "Mateja Makovec, CC BY 4.0",
+    "naziv": "Spominsko znamenje v Bertoših",
+    "godina": "1968",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "marezige-spomenik-padlima-borcema-v-sabadinih",
+    "koordinate": {
+      "lat": 45.512824,
+      "lng": 13.795549
+    },
+    "mesto": "Marezige",
+    "izvor": "https://eid.gov.si/S/1442",
+    "slika": "slike/spomenici/marezige-spomenik-padlima-borcema-v-sabadinih.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik padlima borcema v Sabadinih",
+    "godina": "1954",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "maribor-hisa-s-spominsko-plosco-cankarjeva-22",
+    "koordinate": {
+      "lat": 46.563502,
+      "lng": 15.653328
+    },
+    "mesto": "Maribor",
+    "izvor": "https://eid.gov.si/S/6264",
+    "slika": "slike/spomenici/maribor-hisa-s-spominsko-plosco-cankarjeva-22.webp",
+    "slikaOdnos": 1.521,
+    "slikaPotpis": "Srečko Štajnbaher, CC BY 4.0",
+    "naziv": "Hiša s spominsko ploščo Cankarjeva 22",
+    "godina": "1896",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "makole-spomenik-padlim-v-nob-na-pokopaliscu",
+    "koordinate": {
+      "lat": 46.318251,
+      "lng": 15.666231
+    },
+    "mesto": "Makole",
+    "izvor": "https://eid.gov.si/S/4190",
+    "slika": "slike/spomenici/makole-spomenik-padlim-v-nob-na-pokopaliscu.webp",
+    "slikaOdnos": 1.521,
+    "slikaPotpis": "Srečko Štajnbaher, CC BY 4.0",
+    "naziv": "Spomenik padlim v NOB na pokopališču",
+    "godina": "1954",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "groblje-pri-prekopi-grobnica-padlim-med-nob",
+    "koordinate": {
+      "lat": 45.851668,
+      "lng": 15.359714
+    },
+    "mesto": "Groblje pri Prekopi",
+    "izvor": "https://eid.gov.si/S/4206",
+    "slika": "slike/spomenici/groblje-pri-prekopi-grobnica-padlim-med-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Martin Pungerčar, CC BY 4.0",
+    "naziv": "Grobnica padlim med NOB",
+    "godina": "1958",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "hrib-pri-hinjah-grob-s-spomenikom-padlim",
+    "koordinate": {
+      "lat": 45.768774,
+      "lng": 14.888599
+    },
+    "mesto": "Hrib pri Hinjah",
+    "izvor": "https://eid.gov.si/S/4207",
+    "slika": "slike/spomenici/hrib-pri-hinjah-grob-s-spomenikom-padlim.webp",
+    "slikaOdnos": 1.504,
+    "slikaPotpis": "Judita Podgornik Zaletelj, CC BY 4.0",
+    "naziv": "Grob s spomenikom padlim",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kuzarjev-kal-grob-danila-podobnika-in-slavka-petri",
+    "koordinate": {
+      "lat": 45.828065,
+      "lng": 15.122606
+    },
+    "mesto": "Kuzarjev Kal",
+    "izvor": "https://eid.gov.si/S/4212",
+    "slika": "slike/spomenici/kuzarjev-kal-grob-danila-podobnika-in-slavka-petri.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Martin Pungerčar, CC BY 4.0",
+    "naziv": "Grob Danila Podobnika in Slavka Petriča",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "novo-mesto-grob-petih-partizanov-v-dolenjih-kamenc",
+    "koordinate": {
+      "lat": 45.829043,
+      "lng": 15.147823
+    },
+    "mesto": "Novo mesto",
+    "izvor": "https://eid.gov.si/S/4214",
+    "slika": "slike/spomenici/novo-mesto-grob-petih-partizanov-v-dolenjih-kamenc.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Judita Podgornik Zaletelj, CC BY 4.0",
+    "naziv": "Grob petih partizanov v Dolenjih Kamencah",
+    "godina": "1984",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "novo-mesto-grob-borcev-cankarjeve-brigade-na-marof",
+    "koordinate": {
+      "lat": 45.812391,
+      "lng": 15.158561
+    },
+    "mesto": "Novo mesto",
+    "izvor": "https://eid.gov.si/S/4215",
+    "slika": "slike/spomenici/novo-mesto-grob-borcev-cankarjeve-brigade-na-marof.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Judita Podgornik Zaletelj, CC BY 4.0",
+    "naziv": "Grob borcev Cankarjeve brigade na Marofu",
+    "godina": "1954",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "tomazja-vas-grob-neznanega-borca-gubceve-brigade",
+    "koordinate": {
+      "lat": 45.880791,
+      "lng": 15.298502
+    },
+    "mesto": "Tomažja vas",
+    "izvor": "https://eid.gov.si/S/4239",
+    "slika": "slike/spomenici/tomazja-vas-grob-neznanega-borca-gubceve-brigade.webp",
+    "slikaOdnos": 1.509,
+    "slikaPotpis": "Judita Podgornik Zaletelj, CC BY 4.0",
+    "naziv": "Grob neznanega borca Gubčeve brigade",
+    "godina": "1987",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "topolsica-grob-antona-novaka",
+    "koordinate": {
+      "lat": 46.398991,
+      "lng": 15.011123
+    },
+    "mesto": "Topolšica",
+    "izvor": "https://eid.gov.si/S/4377",
+    "slika": "slike/spomenici/topolsica-grob-antona-novaka.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob Antona Novaka",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "topolsica-zdraviliska-stavba-s-spominsko-sobo",
+    "koordinate": {
+      "lat": 46.403273,
+      "lng": 15.017627
+    },
+    "mesto": "Topolšica",
+    "izvor": "https://eid.gov.si/S/4378",
+    "slika": "slike/spomenici/topolsica-zdraviliska-stavba-s-spominsko-sobo.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Zdraviliška stavba s spominsko sobo",
+    "godina": "1958",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "skale-grob-neznanega-borca-nob",
+    "koordinate": {
+      "lat": 46.385012,
+      "lng": 15.098283
+    },
+    "mesto": "Škale",
+    "izvor": "https://eid.gov.si/S/4393",
+    "slika": "slike/spomenici/skale-grob-neznanega-borca-nob.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob neznanega borca NOB",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "paka-pri-velenju-grob-ludvika-blagotinska",
+    "koordinate": {
+      "lat": 46.383171,
+      "lng": 15.158226
+    },
+    "mesto": "Paka pri Velenju",
+    "izvor": "https://eid.gov.si/S/4409",
+    "slika": "slike/spomenici/paka-pri-velenju-grob-ludvika-blagotinska.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob Ludvika Blagotinška",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "smartno-v-rozni-dolini-grob-na-pokopaliscu",
+    "koordinate": {
+      "lat": 46.296053,
+      "lng": 15.243328
+    },
+    "mesto": "Šmartno v Rožni dolini",
+    "izvor": "https://eid.gov.si/S/4429",
+    "slika": "slike/spomenici/smartno-v-rozni-dolini-grob-na-pokopaliscu.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob na pokopališču",
+    "godina": "1967",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "sentvid-pri-grobelnem-grob-padlih-partizanov",
+    "koordinate": {
+      "lat": 46.227753,
+      "lng": 15.465759
+    },
+    "mesto": "Šentvid pri Grobelnem",
+    "izvor": "https://eid.gov.si/S/4728",
+    "slika": "slike/spomenici/sentvid-pri-grobelnem-grob-padlih-partizanov.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob padlih partizanov",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "smarje-pri-jelsah-grob-padlega-partizana",
+    "koordinate": {
+      "lat": 46.230764,
+      "lng": 15.518512
+    },
+    "mesto": "Šmarje pri Jelšah",
+    "izvor": "https://eid.gov.si/S/4729",
+    "slika": "slike/spomenici/smarje-pri-jelsah-grob-padlega-partizana.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Lucija Čakš Orač, CC BY 4.0",
+    "naziv": "Grob padlega partizana",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ljubno-ob-savinji-spomenik-zrtvam-in-grobnica-borc",
+    "koordinate": {
+      "lat": 46.343973,
+      "lng": 14.832946
+    },
+    "mesto": "Ljubno ob Savinji",
+    "izvor": "https://eid.gov.si/S/4560",
+    "slika": "slike/spomenici/ljubno-ob-savinji-spomenik-zrtvam-in-grobnica-borc.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik žrtvam in grobnica borcev",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "robanov-kot-partizanska-bolnisnica",
+    "koordinate": {
+      "lat": 46.387808,
+      "lng": 14.689871
+    },
+    "mesto": "Robanov Kot",
+    "izvor": "https://eid.gov.si/S/4574",
+    "slika": "slike/spomenici/robanov-kot-partizanska-bolnisnica.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Partizanska bolnišnica",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "drevenik-partizanska-bolnisnica",
+    "koordinate": {
+      "lat": 46.284299,
+      "lng": 15.625809
+    },
+    "mesto": "Drevenik",
+    "izvor": "https://eid.gov.si/S/4713",
+    "slika": "slike/spomenici/drevenik-partizanska-bolnisnica.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Partizanska bolnišnica",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zgornja-volicina-partizanska-bolnisnica-cafa",
+    "koordinate": {
+      "lat": 46.544808,
+      "lng": 15.785491
+    },
+    "mesto": "Zgornja Voličina",
+    "izvor": "https://eid.gov.si/S/1101",
+    "slika": "slike/spomenici/zgornja-volicina-partizanska-bolnisnica-cafa.webp",
+    "slikaOdnos": 1.413,
+    "slikaPotpis": "Srečko Štajnbaher, CC BY 4.0",
+    "naziv": "Partizanska bolnišnica Cafa",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "cerovec-pri-dramljah-partizanska-bolnisnica-zima",
+    "koordinate": {
+      "lat": 46.257623,
+      "lng": 15.362322
+    },
+    "mesto": "Cerovec pri Dramljah",
+    "izvor": "https://eid.gov.si/S/15615",
+    "slika": "slike/spomenici/cerovec-pri-dramljah-partizanska-bolnisnica-zima.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Nataša Podkrižnik, CC BY 4.0",
+    "naziv": "Partizanska bolnišnica Zima",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "javorsica-partizanska-bolnisnica-r6",
+    "koordinate": {
+      "lat": 46.137943,
+      "lng": 15.521156
+    },
+    "mesto": "Javoršica",
+    "izvor": "https://eid.gov.si/S/15616",
+    "slika": "slike/spomenici/javorsica-partizanska-bolnisnica-r6.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Nataša Podkrižnik, CC BY 4.0",
+    "naziv": "Partizanska bolnišnica R6",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "travnik-skrivni-bunker-v-jami-ogenca",
+    "koordinate": {
+      "lat": 45.698796,
+      "lng": 14.641467
+    },
+    "mesto": "Travnik",
+    "izvor": "https://eid.gov.si/S/12714",
+    "slika": "slike/spomenici/travnik-skrivni-bunker-v-jami-ogenca.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Skrivni bunker v jami Ogenca",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "predoslje-spominska-plosca-povojnim-zrtvam",
+    "koordinate": {
+      "lat": 46.269219,
+      "lng": 14.38486
+    },
+    "mesto": "Predoslje",
+    "izvor": "https://eid.gov.si/S/14697",
+    "slika": "slike/spomenici/predoslje-spominska-plosca-povojnim-zrtvam.webp",
+    "slikaOdnos": 0.665,
+    "slikaPotpis": "Bernarda Jesenko Filipič, CC BY 4.0",
+    "naziv": "Spominska plošča povojnim žrtvam",
+    "godina": "1997",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "gorjusa-spomenik-imenovanju-ceste",
+    "koordinate": {
+      "lat": 46.141119,
+      "lng": 14.634556
+    },
+    "mesto": "Gorjuša",
+    "izvor": "https://eid.gov.si/S/15850",
+    "slika": "slike/spomenici/gorjusa-spomenik-imenovanju-ceste.webp",
+    "slikaOdnos": 1.504,
+    "slikaPotpis": "Nataša Koruza, CC BY 4.0",
+    "naziv": "Spomenik imenovanju ceste",
+    "godina": "1980",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "dol-pri-hrastovljah-spominska-plosca-3-bataljonu-i",
+    "koordinate": {
+      "lat": 45.501566,
+      "lng": 13.912147
+    },
+    "mesto": "Dol pri Hrastovljah",
+    "izvor": "https://eid.gov.si/S/14015",
+    "slika": "slike/spomenici/dol-pri-hrastovljah-spominska-plosca-3-bataljonu-i.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča 3. bataljonu Istrskega odreda",
+    "godina": "1972",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "baselj-spominska-plosca-na-planinskem-domu-na-kali",
+    "koordinate": {
+      "lat": 46.337036,
+      "lng": 14.416966
+    },
+    "mesto": "Bašelj",
+    "izvor": "https://eid.gov.si/S/15822",
+    "slika": "slike/spomenici/baselj-spominska-plosca-na-planinskem-domu-na-kali.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Janez Polajnar, CC BY 4.0",
+    "naziv": "Spominska plošča na Planinskem domu na Kališču",
+    "godina": "1959",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "srednji-lipovec-spomenik-stojanu-borstniku",
+    "koordinate": {
+      "lat": 45.823382,
+      "lng": 15.001272
+    },
+    "mesto": "Srednji Lipovec",
+    "izvor": "https://eid.gov.si/S/14125",
+    "slika": "slike/spomenici/srednji-lipovec-spomenik-stojanu-borstniku.webp",
+    "slikaOdnos": 1.509,
+    "slikaPotpis": "Judita Podgornik Zaletelj, CC BY 4.0",
+    "naziv": "Spomenik Stojanu Borštniku",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zelimlje-skupni-grob-talcev-na-pokopaliscu",
+    "koordinate": {
+      "lat": 45.920629,
+      "lng": 14.571834
+    },
+    "mesto": "Želimlje",
+    "izvor": "https://eid.gov.si/S/15937",
+    "slika": "slike/spomenici/zelimlje-skupni-grob-talcev-na-pokopaliscu.webp",
+    "slikaOdnos": 1.504,
+    "slikaPotpis": "Andreja Bahar Muršič, CC BY 4.0",
+    "naziv": "Skupni grob talcev na pokopališču",
+    "godina": "1965",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "senozece-spominska-plosca-francu-gerzelju",
+    "koordinate": {
+      "lat": 45.721932,
+      "lng": 14.042513
+    },
+    "mesto": "Senožeče",
+    "izvor": "https://eid.gov.si/S/13474",
+    "slika": "slike/spomenici/senozece-spominska-plosca-francu-gerzelju.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča Francu Gerželju",
+    "godina": "1982",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "gornja-radgona-grob-padlih-v-drugi-svetovni-vojni",
+    "koordinate": {
+      "lat": 46.675233,
+      "lng": 15.989011
+    },
+    "mesto": "Gornja Radgona",
+    "izvor": "https://eid.gov.si/S/15291",
+    "slika": "slike/spomenici/gornja-radgona-grob-padlih-v-drugi-svetovni-vojni.webp",
+    "slikaOdnos": 1.527,
+    "slikaPotpis": "Srečko Štajnbaher, CC BY 4.0",
+    "naziv": "Grob padlih v drugi svetovni vojni",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "baselj-spominska-plosca-f-vodopivcu-b-rucigaju-in",
+    "koordinate": {
+      "lat": 46.346285,
+      "lng": 14.413321
+    },
+    "mesto": "Bašelj",
+    "izvor": "https://eid.gov.si/S/15817",
+    "slika": "slike/spomenici/baselj-spominska-plosca-f-vodopivcu-b-rucigaju-in.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča F. Vodopivcu, B. Ručigaju in M. Bizjaku",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kranj-grob-franca-trojarja-slovena",
+    "koordinate": {
+      "lat": 46.236662,
+      "lng": 14.340332
+    },
+    "mesto": "Kranj",
+    "izvor": "https://eid.gov.si/S/13411",
+    "slika": "slike/spomenici/kranj-grob-franca-trojarja-slovena.webp",
+    "slikaOdnos": 1.504,
+    "slikaPotpis": "Bernarda Jesenko Filipič, CC BY 4.0",
+    "naziv": "Grob Franca Trojarja-Slovena",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "laze-spominsko-znamenje-karavli-p-3",
+    "koordinate": {
+      "lat": 45.723084,
+      "lng": 14.08995
+    },
+    "mesto": "Laže",
+    "izvor": "https://eid.gov.si/S/13463",
+    "slika": "slike/spomenici/laze-spominsko-znamenje-karavli-p-3.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominsko znamenje karavli P-3",
+    "godina": "1963",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "goricane-spominska-plosca-trem-aktivistom",
+    "koordinate": {
+      "lat": 46.142035,
+      "lng": 14.39589
+    },
+    "mesto": "Goričane",
+    "izvor": "https://eid.gov.si/S/16243",
+    "slika": "slike/spomenici/goricane-spominska-plosca-trem-aktivistom.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča trem aktivistom",
+    "godina": "1960",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "studencice-pri-medvodah-spominsko-obelezje-kurirje",
+    "koordinate": {
+      "lat": 46.12298,
+      "lng": 14.372794
+    },
+    "mesto": "Studenčice pri Medvodah",
+    "izvor": "https://eid.gov.si/S/16252",
+    "slika": "slike/spomenici/studencice-pri-medvodah-spominsko-obelezje-kurirje.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominsko obeležje kurirjem postaje TV G-25",
+    "godina": "1980",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "grabrovec-spomenik-borcema-belokranjskega-odreda",
+    "koordinate": {
+      "lat": 45.679445,
+      "lng": 15.301644
+    },
+    "mesto": "Grabrovec",
+    "izvor": "https://eid.gov.si/S/11030",
+    "slika": "slike/spomenici/grabrovec-spomenik-borcema-belokranjskega-odreda.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Martin Pungerčar, CC BY 4.0",
+    "naziv": "Spomenik borcema Belokranjskega odreda",
+    "godina": "1982",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "senturska-gora-grob-franca-dobovska",
+    "koordinate": {
+      "lat": 46.257562,
+      "lng": 14.543665
+    },
+    "mesto": "Šenturška Gora",
+    "izvor": "https://eid.gov.si/S/10164",
+    "slika": "slike/spomenici/senturska-gora-grob-franca-dobovska.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob Franca Dobovška",
+    "godina": "1942",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "stefanja-gora-grob-miroslava-snajdra",
+    "koordinate": {
+      "lat": 46.276524,
+      "lng": 14.489245
+    },
+    "mesto": "Štefanja Gora",
+    "izvor": "https://eid.gov.si/S/10166",
+    "slika": "slike/spomenici/stefanja-gora-grob-miroslava-snajdra.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob Miroslava Šnajdra",
+    "godina": "1959",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "jugorje-pri-metliki-spomenik-nob",
+    "koordinate": {
+      "lat": 45.709909,
+      "lng": 15.238297
+    },
+    "mesto": "Jugorje pri Metliki",
+    "izvor": "https://eid.gov.si/S/11219",
+    "slika": "slike/spomenici/jugorje-pri-metliki-spomenik-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Martin Pungerčar, CC BY 4.0",
+    "naziv": "Spomenik NOB",
+    "godina": "1975",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "metlika-grob-s-spomenikom-nob",
+    "koordinate": {
+      "lat": 45.649657,
+      "lng": 15.313108
+    },
+    "mesto": "Metlika",
+    "izvor": "https://eid.gov.si/S/11222",
+    "slika": "slike/spomenici/metlika-grob-s-spomenikom-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Martin Pungerčar, CC BY 4.0",
+    "naziv": "Grob s spomenikom NOB",
+    "godina": "1956",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "gorenja-stara-vas-spominska-plosca-gasilcem",
+    "koordinate": {
+      "lat": 45.822474,
+      "lng": 15.306322
+    },
+    "mesto": "Gorenja Stara vas",
+    "izvor": "https://eid.gov.si/S/11995",
+    "slika": "slike/spomenici/gorenja-stara-vas-spominska-plosca-gasilcem.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Martin Pungerčar, CC BY 4.0",
+    "naziv": "Spominska plošča gasilcem",
+    "godina": "1958",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "jesenice-na-dolenjskem-partizanski-grob",
+    "koordinate": {
+      "lat": 45.854629,
+      "lng": 15.692654
+    },
+    "mesto": "Jesenice na Dolenjskem",
+    "izvor": "https://eid.gov.si/S/10493",
+    "slika": "slike/spomenici/jesenice-na-dolenjskem-partizanski-grob.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Partizanski grob",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "pavlova-vas-grob-ivana-kerina",
+    "koordinate": {
+      "lat": 46.015335,
+      "lng": 15.62481
+    },
+    "mesto": "Pavlova vas",
+    "izvor": "https://eid.gov.si/S/10498",
+    "slika": "slike/spomenici/pavlova-vas-grob-ivana-kerina.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Martin Pungerčar, CC BY 4.0",
+    "naziv": "Grob Ivana Kerina",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "blatno-spomenik-padlemu-borcu",
+    "koordinate": {
+      "lat": 45.971521,
+      "lng": 15.627077
+    },
+    "mesto": "Blatno",
+    "izvor": "https://eid.gov.si/S/10478",
+    "slika": "slike/spomenici/blatno-spomenik-padlemu-borcu.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Martin Pungerčar, CC BY 4.0",
+    "naziv": "Spomenik padlemu borcu",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "menges-grob-matije-blejca",
+    "koordinate": {
+      "lat": 46.163861,
+      "lng": 14.568716
+    },
+    "mesto": "Mengeš",
+    "izvor": "https://eid.gov.si/S/10691",
+    "slika": "slike/spomenici/menges-grob-matije-blejca.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob Matije Blejca",
+    "godina": "1964",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "notranje-gorice-skupni-grob-padlim-v-nob",
+    "koordinate": {
+      "lat": 45.986944,
+      "lng": 14.39791
+    },
+    "mesto": "Notranje Gorice",
+    "izvor": "https://eid.gov.si/S/11582",
+    "slika": "slike/spomenici/notranje-gorice-skupni-grob-padlim-v-nob.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Skupni grob padlim v NOB",
+    "godina": "1954",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "novo-mesto-bunker-na-drski",
+    "koordinate": {
+      "lat": 45.799492,
+      "lng": 15.156234
+    },
+    "mesto": "Novo mesto",
+    "izvor": "https://eid.gov.si/S/8708",
+    "slika": "slike/spomenici/novo-mesto-bunker-na-drski.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Judita Podgornik Zaletelj, CC BY 4.0",
+    "naziv": "Bunker na Drski",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "podstenice-spomenik-ustanovitvi-gio-zsm",
+    "koordinate": {
+      "lat": 45.712726,
+      "lng": 15.009998
+    },
+    "mesto": "Podstenice",
+    "izvor": "https://eid.gov.si/S/8731",
+    "slika": "slike/spomenici/podstenice-spomenik-ustanovitvi-gio-zsm.webp",
+    "slikaOdnos": 0.665,
+    "slikaPotpis": "Judita Podgornik Zaletelj, CC BY 4.0",
+    "naziv": "Spomenik ustanovitvi GIO ZSM",
+    "godina": "1959",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "sentjost-spomenik-zrtvam-belogardisticnega-nasilja",
+    "koordinate": {
+      "lat": 45.785075,
+      "lng": 15.212601
+    },
+    "mesto": "Šentjošt",
+    "izvor": "https://eid.gov.si/S/8736",
+    "slika": "slike/spomenici/sentjost-spomenik-zrtvam-belogardisticnega-nasilja.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Judita Podgornik Zaletelj, CC BY 4.0",
+    "naziv": "Spomenik žrtvam belogardističnega nasilja",
+    "godina": "1965",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "drage-grob-s-spomenikom-nob",
+    "koordinate": {
+      "lat": 45.69707,
+      "lng": 15.262627
+    },
+    "mesto": "Drage",
+    "izvor": "https://eid.gov.si/S/11027",
+    "slika": "slike/spomenici/drage-grob-s-spomenikom-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Martin Pungerčar, CC BY 4.0",
+    "naziv": "Grob s spomenikom NOB",
+    "godina": "1977",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "sora-spomenik-padlim-med-prvo-svetovno-vojno",
+    "koordinate": {
+      "lat": 46.141843,
+      "lng": 14.370199
+    },
+    "mesto": "Sora",
+    "izvor": "https://eid.gov.si/S/8782",
+    "slika": "slike/spomenici/sora-spomenik-padlim-med-prvo-svetovno-vojno.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik padlim med prvo svetovno vojno",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "stari-trg-ob-kolpi-pomembnejsi-grobovi-na-pokopali",
+    "koordinate": {
+      "lat": 45.4917,
+      "lng": 15.077137
+    },
+    "mesto": "Stari trg ob Kolpi",
+    "izvor": "https://eid.gov.si/S/10110",
+    "slika": "slike/spomenici/stari-trg-ob-kolpi-pomembnejsi-grobovi-na-pokopali.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Judita Podgornik Zaletelj, CC BY 4.0",
+    "naziv": "Pomembnejši grobovi na pokopališču",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "velika-ligojna-spominsko-znamenje-zamolcanim-zrtva",
+    "koordinate": {
+      "lat": 45.994266,
+      "lng": 14.300933
+    },
+    "mesto": "Velika Ligojna",
+    "izvor": "https://eid.gov.si/S/11748",
+    "slika": "slike/spomenici/velika-ligojna-spominsko-znamenje-zamolcanim-zrtva.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominsko znamenje zamolčanim žrtvam",
+    "godina": "1993",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "vnanje-gorice-skupni-grob-padlim-v-nob",
+    "koordinate": {
+      "lat": 46.004644,
+      "lng": 14.415627
+    },
+    "mesto": "Vnanje Gorice",
+    "izvor": "https://eid.gov.si/S/11753",
+    "slika": "slike/spomenici/vnanje-gorice-skupni-grob-padlim-v-nob.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Skupni grob padlim v NOB",
+    "godina": "1965",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "vrhnika-spominska-plosca-kurirski-postaji-tv-17",
+    "koordinate": {
+      "lat": 45.955765,
+      "lng": 14.287818
+    },
+    "mesto": "Vrhnika",
+    "izvor": "https://eid.gov.si/S/11757",
+    "slika": "slike/spomenici/vrhnika-spominska-plosca-kurirski-postaji-tv-17.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča kurirski postaji TV 17",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "senturska-gora-druzinski-grob-avzvakarjevih",
+    "koordinate": {
+      "lat": 46.257562,
+      "lng": 14.543691
+    },
+    "mesto": "Šenturška Gora",
+    "izvor": "https://eid.gov.si/S/10161",
+    "slika": "slike/spomenici/senturska-gora-druzinski-grob-avzvakarjevih.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Družinski grob Avžvakarjevih",
+    "godina": "1944",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "senturska-gora-grob-franca-anzica",
+    "koordinate": {
+      "lat": 46.257571,
+      "lng": 14.54373
+    },
+    "mesto": "Šenturška Gora",
+    "izvor": "https://eid.gov.si/S/10162",
+    "slika": "slike/spomenici/senturska-gora-grob-franca-anzica.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob Franca Anžiča",
+    "godina": "1943",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "preloka-partizanski-grob",
+    "koordinate": {
+      "lat": 45.469886,
+      "lng": 15.345104
+    },
+    "mesto": "Preloka",
+    "izvor": "https://eid.gov.si/S/10102",
+    "slika": "slike/spomenici/preloka-partizanski-grob.webp",
+    "slikaOdnos": 1.509,
+    "slikaPotpis": "Judita Podgornik Zaletelj, CC BY 4.0",
+    "naziv": "Partizanski grob",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "srednji-radenci-grob-zdravka-madronica",
+    "koordinate": {
+      "lat": 45.467321,
+      "lng": 15.091619
+    },
+    "mesto": "Srednji Radenci",
+    "izvor": "https://eid.gov.si/S/10105",
+    "slika": "slike/spomenici/srednji-radenci-grob-zdravka-madronica.webp",
+    "slikaOdnos": 1.509,
+    "slikaPotpis": "Judita Podgornik Zaletelj, CC BY 4.0",
+    "naziv": "Grob Zdravka Madroniča",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "rovte-pri-logatcu-spomenik-zamolcanim-zrtvam",
+    "koordinate": {
+      "lat": 45.986096,
+      "lng": 14.177767
+    },
+    "mesto": "Rovte pri Logatcu",
+    "izvor": "https://eid.gov.si/S/21542",
+    "slika": "slike/spomenici/rovte-pri-logatcu-spomenik-zamolcanim-zrtvam.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik zamolčanim žrtvam",
+    "godina": "1993",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "baske-spominska-plosca-padlemu-kurirju",
+    "koordinate": {
+      "lat": 46.025665,
+      "lng": 13.651839
+    },
+    "mesto": "Baske",
+    "izvor": "https://eid.gov.si/S/21704",
+    "slika": "slike/spomenici/baske-spominska-plosca-padlemu-kurirju.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča padlemu kurirju",
+    "godina": "1980",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "cepovan-spominska-plosca-ustanovitvi-odbora-of",
+    "koordinate": {
+      "lat": 46.056776,
+      "lng": 13.793338
+    },
+    "mesto": "Čepovan",
+    "izvor": "https://eid.gov.si/S/21724",
+    "slika": "slike/spomenici/cepovan-spominska-plosca-ustanovitvi-odbora-of.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča ustanovitvi odbora OF",
+    "godina": "1965",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "lokve-spomenik-stojanu-drascku",
+    "koordinate": {
+      "lat": 46.014741,
+      "lng": 13.790196
+    },
+    "mesto": "Lokve",
+    "izvor": "https://eid.gov.si/S/21766",
+    "slika": "slike/spomenici/lokve-spomenik-stojanu-drascku.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik Stojanu Draščku",
+    "godina": "1949",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "nova-gorica-spominska-plosca-jozetu-primozicu",
+    "koordinate": {
+      "lat": 45.952785,
+      "lng": 13.647465
+    },
+    "mesto": "Nova Gorica",
+    "izvor": "https://eid.gov.si/S/21773",
+    "slika": "slike/spomenici/nova-gorica-spominska-plosca-jozetu-primozicu.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča Jožetu Primožiču",
+    "godina": "1979",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "nova-vas-nad-dragonjo-spominska-plosca-padlim-za-s",
+    "koordinate": {
+      "lat": 45.478706,
+      "lng": 13.693497
+    },
+    "mesto": "Nova vas nad Dragonjo",
+    "izvor": "https://eid.gov.si/S/22714",
+    "slika": "slike/spomenici/nova-vas-nad-dragonjo-spominska-plosca-padlim-za-s.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča padlim za svobodo",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "spodnja-sorica-skupni-grob-padlih-partizanov",
+    "koordinate": {
+      "lat": 46.216189,
+      "lng": 14.02989
+    },
+    "mesto": "Spodnja Sorica",
+    "izvor": "https://eid.gov.si/S/21072",
+    "slika": "slike/spomenici/spodnja-sorica-skupni-grob-padlih-partizanov.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Skupni grob padlih partizanov",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "branik-spominska-plosca-adolfu-rojcu",
+    "koordinate": {
+      "lat": 45.854958,
+      "lng": 13.789631
+    },
+    "mesto": "Branik",
+    "izvor": "https://eid.gov.si/S/21711",
+    "slika": "slike/spomenici/branik-spominska-plosca-adolfu-rojcu.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča Adolfu Rojcu",
+    "godina": "1983",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "lokovec-spominska-plosca-xiv-brigadi-garibaldi",
+    "koordinate": {
+      "lat": 46.052285,
+      "lng": 13.753801
+    },
+    "mesto": "Lokovec",
+    "izvor": "https://eid.gov.si/S/21751",
+    "slika": "slike/spomenici/lokovec-spominska-plosca-xiv-brigadi-garibaldi.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča XIV. brigadi Garibaldi",
+    "godina": "1969",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "logatec-spominsko-znamenje-zrtvama-crne-roke-pri-j",
+    "koordinate": {
+      "lat": 45.916443,
+      "lng": 14.233196
+    },
+    "mesto": "Logatec",
+    "izvor": "https://eid.gov.si/S/21519",
+    "slika": "slike/spomenici/logatec-spominsko-znamenje-zrtvama-crne-roke-pri-j.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominsko znamenje žrtvama črne roke pri Jački",
+    "godina": "1957",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "logatec-spominsko-znamenje-jozetu-friskovcu",
+    "koordinate": {
+      "lat": 45.911809,
+      "lng": 14.277603
+    },
+    "mesto": "Logatec",
+    "izvor": "https://eid.gov.si/S/21511",
+    "slika": "slike/spomenici/logatec-spominsko-znamenje-jozetu-friskovcu.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominsko znamenje Jožetu Friškovcu",
+    "godina": "1977",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "grm-spomenik-nob",
+    "koordinate": {
+      "lat": 45.897343,
+      "lng": 15.046638
+    },
+    "mesto": "Grm",
+    "izvor": "https://eid.gov.si/S/20810",
+    "slika": "slike/spomenici/grm-spomenik-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Martin Pungerčar, CC BY 4.0",
+    "naziv": "Spomenik NOB",
+    "godina": "1966",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "korenitka-grob-padlih-partizanov",
+    "koordinate": {
+      "lat": 45.917255,
+      "lng": 14.947932
+    },
+    "mesto": "Korenitka",
+    "izvor": "https://eid.gov.si/S/20812",
+    "slika": "slike/spomenici/korenitka-grob-padlih-partizanov.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Martin Pungerčar, CC BY 4.0",
+    "naziv": "Grob padlih partizanov",
+    "godina": "1968",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "veliki-gaber-grob-petra-drzaja",
+    "koordinate": {
+      "lat": 45.937935,
+      "lng": 14.908283
+    },
+    "mesto": "Veliki Gaber",
+    "izvor": "https://eid.gov.si/S/20816",
+    "slika": "slike/spomenici/veliki-gaber-grob-petra-drzaja.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Martin Pungerčar, CC BY 4.0",
+    "naziv": "Grob Petra Držaja",
+    "godina": "1966",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "lokve-spomenik-ivanu-tursicu-iztoku",
+    "koordinate": {
+      "lat": 46.010481,
+      "lng": 13.783045
+    },
+    "mesto": "Lokve",
+    "izvor": "https://eid.gov.si/S/21937",
+    "slika": "slike/spomenici/lokve-spomenik-ivanu-tursicu-iztoku.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik Ivanu Turšiču-Iztoku",
+    "godina": "1959",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "planica-pri-cepuljah-grob-neznanega-borca-na-vrheh",
+    "koordinate": {
+      "lat": 46.210857,
+      "lng": 14.277732
+    },
+    "mesto": "Planica pri Čepuljah",
+    "izvor": "https://eid.gov.si/S/21275",
+    "slika": "slike/spomenici/planica-pri-cepuljah-grob-neznanega-borca-na-vrheh.webp",
+    "slikaOdnos": 0.665,
+    "slikaPotpis": "Bernarda Jesenko Filipič, CC BY 4.0",
+    "naziv": "Grob neznanega borca na Vrheh",
+    "godina": "1981",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "selca-skupni-grob-zrtev-nob",
+    "koordinate": {
+      "lat": 46.22161,
+      "lng": 14.207061
+    },
+    "mesto": "Selca",
+    "izvor": "https://eid.gov.si/S/21264",
+    "slika": "slike/spomenici/selca-skupni-grob-zrtev-nob.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Skupni grob žrtev NOB",
+    "godina": "1970",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "drazgose-spominsko-znamenje-drazgoski-bitki",
+    "koordinate": {
+      "lat": 46.253494,
+      "lng": 14.172205
+    },
+    "mesto": "Dražgoše",
+    "izvor": "https://eid.gov.si/S/21199",
+    "slika": "slike/spomenici/drazgose-spominsko-znamenje-drazgoski-bitki.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominsko znamenje dražgoški bitki",
+    "godina": "1947",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "drazgose-skupni-grob-dveh-borcev-selske-cete",
+    "koordinate": {
+      "lat": 46.272486,
+      "lng": 14.155999
+    },
+    "mesto": "Dražgoše",
+    "izvor": "https://eid.gov.si/S/21200",
+    "slika": "slike/spomenici/drazgose-skupni-grob-dveh-borcev-selske-cete.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Skupni grob dveh borcev Selške čete",
+    "godina": "1947",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "bela-pec-partizanska-bolnisnica-pod-bukvijo",
+    "koordinate": {
+      "lat": 46.24703,
+      "lng": 14.722498
+    },
+    "mesto": "Bela Peč",
+    "izvor": "https://eid.gov.si/S/21093",
+    "slika": "slike/spomenici/bela-pec-partizanska-bolnisnica-pod-bukvijo.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Partizanska bolnišnica Pod bukvijo",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "menina-planina-partizanska-bolnisnica-pod-lipo-v-b",
+    "koordinate": {
+      "lat": 46.243729,
+      "lng": 14.767318
+    },
+    "mesto": "Menina planina",
+    "izvor": "https://eid.gov.si/S/21105",
+    "slika": "slike/spomenici/menina-planina-partizanska-bolnisnica-pod-lipo-v-b.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Tjaša Rotar, CC BY 4.0",
+    "naziv": "Partizanska bolnišnica Pod lipo v Brodeh",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "dole-pri-idriji-spominska-plosca-vos",
+    "koordinate": {
+      "lat": 45.996648,
+      "lng": 14.068173
+    },
+    "mesto": "Dole pri Idriji",
+    "izvor": "https://eid.gov.si/S/21162",
+    "slika": "slike/spomenici/dole-pri-idriji-spominska-plosca-vos.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča VOS",
+    "godina": "1986",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "srednja-kanomlja-spominska-plosca-druzini-rejc",
+    "koordinate": {
+      "lat": 46.016939,
+      "lng": 13.955755
+    },
+    "mesto": "Srednja Kanomlja",
+    "izvor": "https://eid.gov.si/S/21171",
+    "slika": "slike/spomenici/srednja-kanomlja-spominska-plosca-druzini-rejc.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča družini Rejc",
+    "godina": "1960",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "rakitna-skupni-grob-padlih-borcev",
+    "koordinate": {
+      "lat": 45.890438,
+      "lng": 14.439797
+    },
+    "mesto": "Rakitna",
+    "izvor": "https://eid.gov.si/S/21386",
+    "slika": "slike/spomenici/rakitna-skupni-grob-padlih-borcev.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Skupni grob padlih borcev",
+    "godina": "1960",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "idrija-spomenik-sanitetni-postaji",
+    "koordinate": {
+      "lat": 45.987197,
+      "lng": 14.01617
+    },
+    "mesto": "Idrija",
+    "izvor": "https://eid.gov.si/S/21145",
+    "slika": "slike/spomenici/idrija-spomenik-sanitetni-postaji.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik sanitetni postaji",
+    "godina": "1966",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "dolnji-ajdovec-spominska-plosca-ubitim-clanom-of",
+    "koordinate": {
+      "lat": 45.828609,
+      "lng": 15.010372
+    },
+    "mesto": "Dolnji Ajdovec",
+    "izvor": "https://eid.gov.si/S/21409",
+    "slika": "slike/spomenici/dolnji-ajdovec-spominska-plosca-ubitim-clanom-of.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča ubitim članom OF",
+    "godina": "1981",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "skrlatica-spominski-kriz-zrtvam-planin-in-padlim-p",
+    "koordinate": {
+      "lat": 46.432953,
+      "lng": 13.820947
+    },
+    "mesto": "Škrlatica",
+    "izvor": "https://eid.gov.si/S/22696",
+    "slika": "slike/spomenici/skrlatica-spominski-kriz-zrtvam-planin-in-padlim-p.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominski križ žrtvam planin in padlim planincem v NOB",
+    "godina": "1996",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "olsevek-spominska-plosca-kurirski-postaji-g-20",
+    "koordinate": {
+      "lat": 46.278172,
+      "lng": 14.433887
+    },
+    "mesto": "Olševek",
+    "izvor": "https://eid.gov.si/S/21570",
+    "slika": "slike/spomenici/olsevek-spominska-plosca-kurirski-postaji-g-20.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča kurirski postaji G-20",
+    "godina": "1981",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kalce-pri-logatcu-grob-stanislava-gostise",
+    "koordinate": {
+      "lat": 45.891349,
+      "lng": 14.193029
+    },
+    "mesto": "Kalce pri Logatcu",
+    "izvor": "https://eid.gov.si/S/21525",
+    "slika": "slike/spomenici/kalce-pri-logatcu-grob-stanislava-gostise.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob Stanislava Gostiše",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "vrhnika-bunker-v-blatnem-dolu",
+    "koordinate": {
+      "lat": 45.962459,
+      "lng": 14.262186
+    },
+    "mesto": "Vrhnika",
+    "izvor": "https://eid.gov.si/S/23365",
+    "slika": "slike/spomenici/vrhnika-bunker-v-blatnem-dolu.webp",
+    "slikaOdnos": 1.429,
+    "slikaPotpis": "Andreja Bahar Muršič, CC BY 4.0",
+    "naziv": "Bunker v Blatnem dolu",
+    "godina": "1979",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "mirke-spominska-plosca-aktivistu-francu-rodetu",
+    "koordinate": {
+      "lat": 45.946458,
+      "lng": 14.301816
+    },
+    "mesto": "Mirke",
+    "izvor": "https://eid.gov.si/S/23370",
+    "slika": "slike/spomenici/mirke-spominska-plosca-aktivistu-francu-rodetu.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča aktivistu Francu Rodetu",
+    "godina": "1976",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "trckov-gric-grob-dveh-partizanov-na-zlovskem-vrhu",
+    "koordinate": {
+      "lat": 45.987303,
+      "lng": 14.234931
+    },
+    "mesto": "Trčkov grič",
+    "izvor": "https://eid.gov.si/S/23380",
+    "slika": "slike/spomenici/trckov-gric-grob-dveh-partizanov-na-zlovskem-vrhu.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob dveh partizanov na Zlovškem vrhu",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "logatec-spominska-plosca-fani-smole-rihar",
+    "koordinate": {
+      "lat": 45.912911,
+      "lng": 14.207541
+    },
+    "mesto": "Logatec",
+    "izvor": "https://eid.gov.si/S/21504",
+    "slika": "slike/spomenici/logatec-spominska-plosca-fani-smole-rihar.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča Fani Smole-Rihar",
+    "godina": "1959",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "logatec-spominska-plosca-francki-in-anici-meze",
+    "koordinate": {
+      "lat": 45.914872,
+      "lng": 14.211303
+    },
+    "mesto": "Logatec",
+    "izvor": "https://eid.gov.si/S/21505",
+    "slika": "slike/spomenici/logatec-spominska-plosca-francki-in-anici-meze.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča Francki in Anici Meze",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "lokovec-spominsko-znamenje-druzini-kralj",
+    "koordinate": {
+      "lat": 46.055344,
+      "lng": 13.767083
+    },
+    "mesto": "Lokovec",
+    "izvor": "https://eid.gov.si/S/21748",
+    "slika": "slike/spomenici/lokovec-spominsko-znamenje-druzini-kralj.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominsko znamenje družini Kralj",
+    "godina": "1971",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "vodice-pri-ljubljani-spomenik-zamolcanim-zrtvam",
+    "koordinate": {
+      "lat": 46.187571,
+      "lng": 14.492202
+    },
+    "mesto": "Vodice pri Ljubljani",
+    "izvor": "https://eid.gov.si/S/19578",
+    "slika": "slike/spomenici/vodice-pri-ljubljani-spomenik-zamolcanim-zrtvam.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik zamolčanim žrtvam",
+    "godina": "1994",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "portoroz-spomenik-padlim-za-svobodo-narodov",
+    "koordinate": {
+      "lat": 45.515757,
+      "lng": 13.583511
+    },
+    "mesto": "Portorož",
+    "izvor": "https://eid.gov.si/S/16604",
+    "slika": "slike/spomenici/portoroz-spomenik-padlim-za-svobodo-narodov.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik padlim za svobodo narodov",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "polica-spomenik-zamolcanim-zrtvam-na-pokopaliscu",
+    "koordinate": {
+      "lat": 45.982273,
+      "lng": 14.702995
+    },
+    "mesto": "Polica",
+    "izvor": "https://eid.gov.si/S/17670",
+    "slika": "slike/spomenici/polica-spomenik-zamolcanim-zrtvam-na-pokopaliscu.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik zamolčanim žrtvam na pokopališču",
+    "godina": "1992",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "semic-grob-padlih-partizanov",
+    "koordinate": {
+      "lat": 45.652863,
+      "lng": 15.189912
+    },
+    "mesto": "Semič",
+    "izvor": "https://eid.gov.si/S/19301",
+    "slika": "slike/spomenici/semic-grob-padlih-partizanov.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Martin Pungerčar, CC BY 4.0",
+    "naziv": "Grob padlih partizanov",
+    "godina": "1961",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "cerkljanska-dobrava-grob-neznanega-partizana",
+    "koordinate": {
+      "lat": 46.236281,
+      "lng": 14.536307
+    },
+    "mesto": "Cerkljanska Dobrava",
+    "izvor": "https://eid.gov.si/S/20378",
+    "slika": "slike/spomenici/cerkljanska-dobrava-grob-neznanega-partizana.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob neznanega partizana",
+    "godina": "1959",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "pirsevo-bunker",
+    "koordinate": {
+      "lat": 46.224695,
+      "lng": 14.709957
+    },
+    "mesto": "Pirševo",
+    "izvor": "https://eid.gov.si/S/16915",
+    "slika": "slike/spomenici/pirsevo-bunker.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Bunker",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "gatina-grob-zrtev-fasisticnega-nasilja",
+    "koordinate": {
+      "lat": 45.949774,
+      "lng": 14.686669
+    },
+    "mesto": "Gatina",
+    "izvor": "https://eid.gov.si/S/17255",
+    "slika": "slike/spomenici/gatina-grob-zrtev-fasisticnega-nasilja.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob žrtev fašističnega nasilja",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "nanos-spomenik-vojaskemu-spopadu-na-bobnu",
+    "koordinate": {
+      "lat": 45.816484,
+      "lng": 14.004621
+    },
+    "mesto": "Nanos",
+    "izvor": "https://eid.gov.si/S/19208",
+    "slika": "slike/spomenici/nanos-spomenik-vojaskemu-spopadu-na-bobnu.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik vojaškemu spopadu na Bobnu",
+    "godina": "1948",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "grosuplje-spominska-plosca-ustanovitvi-grosupeljsk",
+    "koordinate": {
+      "lat": 45.958294,
+      "lng": 14.663915
+    },
+    "mesto": "Grosuplje",
+    "izvor": "https://eid.gov.si/S/17263",
+    "slika": "slike/spomenici/grosuplje-spominska-plosca-ustanovitvi-grosupeljsk.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča ustanovitvi grosupeljske čete",
+    "godina": "1977",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "spodnje-blato-spominsko-znamenje-zamolcanim-zrtvam",
+    "koordinate": {
+      "lat": 45.954253,
+      "lng": 14.702989
+    },
+    "mesto": "Spodnje Blato",
+    "izvor": "https://eid.gov.si/S/17265",
+    "slika": "slike/spomenici/spodnje-blato-spominsko-znamenje-zamolcanim-zrtvam.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominsko znamenje zamolčanim žrtvam v Stehanu",
+    "godina": "1996",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kopanj-spomenik-zamolcanim-zrtvam-1941-1945",
+    "koordinate": {
+      "lat": 45.907706,
+      "lng": 14.688979
+    },
+    "mesto": "Kopanj",
+    "izvor": "https://eid.gov.si/S/17267",
+    "slika": "slike/spomenici/kopanj-spomenik-zamolcanim-zrtvam-1941-1945.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik zamolčanim žrtvam 1941-1945",
+    "godina": "1993",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "vrhnika-pri-lozu-spominsko-znamenje-ustanovitvi-ra",
+    "koordinate": {
+      "lat": 45.70487,
+      "lng": 14.538739
+    },
+    "mesto": "Vrhnika pri Ložu",
+    "izvor": "https://eid.gov.si/S/17146",
+    "slika": "slike/spomenici/vrhnika-pri-lozu-spominsko-znamenje-ustanovitvi-ra.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominsko znamenje ustanovitvi Rakovške čete",
+    "godina": "1982",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "sentgotard-grob-treh-partizanov",
+    "koordinate": {
+      "lat": 46.187708,
+      "lng": 14.907024
+    },
+    "mesto": "Šentgotard",
+    "izvor": "https://eid.gov.si/S/19261",
+    "slika": "slike/spomenici/sentgotard-grob-treh-partizanov.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob treh partizanov",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "bojanci-spomenik-nob",
+    "koordinate": {
+      "lat": 45.504393,
+      "lng": 15.249134
+    },
+    "mesto": "Bojanci",
+    "izvor": "https://eid.gov.si/S/18311",
+    "slika": "slike/spomenici/bojanci-spomenik-nob.webp",
+    "slikaOdnos": 1.509,
+    "slikaPotpis": "Judita Podgornik Zaletelj, CC BY 4.0",
+    "naziv": "Spomenik NOB",
+    "godina": "1978",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ravne-pri-mlinsah-grob-partizana-ceha",
+    "koordinate": {
+      "lat": 46.142293,
+      "lng": 14.900963
+    },
+    "mesto": "Ravne pri Mlinšah",
+    "izvor": "https://eid.gov.si/S/19289",
+    "slika": "slike/spomenici/ravne-pri-mlinsah-grob-partizana-ceha.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob partizana Čeha",
+    "godina": "1955",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "tirna-spominska-plosca-prvoborcu-ivanu-beji-beli",
+    "koordinate": {
+      "lat": 46.105217,
+      "lng": 14.914713
+    },
+    "mesto": "Tirna",
+    "izvor": "https://eid.gov.si/S/19290",
+    "slika": "slike/spomenici/tirna-spominska-plosca-prvoborcu-ivanu-beji-beli.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča prvoborcu Ivanu Beji-Beli",
+    "godina": "1965",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kolovrat-grob-sedmih-partizanov",
+    "koordinate": {
+      "lat": 46.166471,
+      "lng": 14.874736
+    },
+    "mesto": "Kolovrat",
+    "izvor": "https://eid.gov.si/S/19277",
+    "slika": "slike/spomenici/kolovrat-grob-sedmih-partizanov.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob sedmih partizanov",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "velika-stanga-grob-stirih-padlih-partizanov",
+    "koordinate": {
+      "lat": 46.047218,
+      "lng": 14.765049
+    },
+    "mesto": "Velika Štanga",
+    "izvor": "https://eid.gov.si/S/20270",
+    "slika": "slike/spomenici/velika-stanga-grob-stirih-padlih-partizanov.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob štirih padlih partizanov",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "velike-lipljene-spomenik-padlima-aktivistoma-of",
+    "koordinate": {
+      "lat": 45.900392,
+      "lng": 14.634287
+    },
+    "mesto": "Velike Lipljene",
+    "izvor": "https://eid.gov.si/S/17286",
+    "slika": "slike/spomenici/velike-lipljene-spomenik-padlima-aktivistoma-of.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik padlima aktivistoma OF",
+    "godina": "1968",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "veliko-mlacevo-grob-bratov-miklic",
+    "koordinate": {
+      "lat": 45.934268,
+      "lng": 14.67582
+    },
+    "mesto": "Veliko Mlačevo",
+    "izvor": "https://eid.gov.si/S/17287",
+    "slika": "slike/spomenici/veliko-mlacevo-grob-bratov-miklic.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob bratov Miklič",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "veliko-mlacevo-grob-jozeta-polajnarja",
+    "koordinate": {
+      "lat": 45.93425,
+      "lng": 14.675808
+    },
+    "mesto": "Veliko Mlačevo",
+    "izvor": "https://eid.gov.si/S/17288",
+    "slika": "slike/spomenici/veliko-mlacevo-grob-jozeta-polajnarja.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob Jožeta Polajnarja",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zagradec-pri-grosupljem-spominsko-znamenje-trem-ku",
+    "koordinate": {
+      "lat": 45.929777,
+      "lng": 14.685092
+    },
+    "mesto": "Zagradec pri Grosupljem",
+    "izvor": "https://eid.gov.si/S/17294",
+    "slika": "slike/spomenici/zagradec-pri-grosupljem-spominsko-znamenje-trem-ku.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominsko znamenje trem kurirjem",
+    "godina": "1981",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "planina-spomenik-tomsicevi-brigadi",
+    "koordinate": {
+      "lat": 45.799613,
+      "lng": 14.255317
+    },
+    "mesto": "Planina",
+    "izvor": "https://eid.gov.si/S/19414",
+    "slika": "slike/spomenici/planina-spomenik-tomsicevi-brigadi.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik Tomšičevi brigadi",
+    "godina": "1951",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "bovec-spomenik-odporniskemu-gibanju",
+    "koordinate": {
+      "lat": 46.334953,
+      "lng": 13.546842
+    },
+    "mesto": "Bovec",
+    "izvor": "https://eid.gov.si/S/20370",
+    "slika": "slike/spomenici/bovec-spomenik-odporniskemu-gibanju.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik odporniškemu gibanju",
+    "godina": "1999",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ribno-grob-staneta-surka-jake",
+    "koordinate": {
+      "lat": 46.339574,
+      "lng": 14.13716
+    },
+    "mesto": "Ribno",
+    "izvor": "https://eid.gov.si/S/17392",
+    "slika": "slike/spomenici/ribno-grob-staneta-surka-jake.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob Staneta Šurka-Jake",
+    "godina": "1961",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "idrija-spominska-plosca-stanislavu-scozieru",
+    "koordinate": {
+      "lat": 46.001962,
+      "lng": 14.029814
+    },
+    "mesto": "Idrija",
+    "izvor": "https://eid.gov.si/S/17451",
+    "slika": "slike/spomenici/idrija-spominska-plosca-stanislavu-scozieru.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča Stanislavu Scozieru",
+    "godina": "1951",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "logatec-spomenik-zamolcanim-zrtvam-v-gorenji-vasi",
+    "koordinate": {
+      "lat": 45.907366,
+      "lng": 14.199422
+    },
+    "mesto": "Logatec",
+    "izvor": "https://eid.gov.si/S/18616",
+    "slika": "slike/spomenici/logatec-spomenik-zamolcanim-zrtvam-v-gorenji-vasi.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik zamolčanim žrtvam v Gorenji vasi",
+    "godina": "1955",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "beli-gric-grob-neznanega-partizana",
+    "koordinate": {
+      "lat": 45.941804,
+      "lng": 15.12575
+    },
+    "mesto": "Beli Grič",
+    "izvor": "https://eid.gov.si/S/19504",
+    "slika": "slike/spomenici/beli-gric-grob-neznanega-partizana.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Martin Pungerčar, CC BY 4.0",
+    "naziv": "Grob neznanega partizana",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "psajnovica-spominsko-znamenje-2-grupi-odredov",
+    "koordinate": {
+      "lat": 46.202819,
+      "lng": 14.738528
+    },
+    "mesto": "Pšajnovica",
+    "izvor": "https://eid.gov.si/S/16941",
+    "slika": "slike/spomenici/psajnovica-spominsko-znamenje-2-grupi-odredov.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominsko znamenje 2. grupi odredov",
+    "godina": "1988",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "rudnik-pri-radomljah-bunker-iz-2-svetovne-vojne",
+    "koordinate": {
+      "lat": 46.199543,
+      "lng": 14.630064
+    },
+    "mesto": "Rudnik pri Radomljah",
+    "izvor": "https://eid.gov.si/S/16942",
+    "slika": "slike/spomenici/rudnik-pri-radomljah-bunker-iz-2-svetovne-vojne.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Bunker iz 2. svetovne vojne",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "sveti-vrh-spomenik-nob",
+    "koordinate": {
+      "lat": 45.943181,
+      "lng": 15.178505
+    },
+    "mesto": "Sveti Vrh",
+    "izvor": "https://eid.gov.si/S/19652",
+    "slika": "slike/spomenici/sveti-vrh-spomenik-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Martin Pungerčar, CC BY 4.0",
+    "naziv": "Spomenik NOB",
+    "godina": "1977",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "smarje-sap-spomenik-zamolcanim-zrtvam",
+    "koordinate": {
+      "lat": 45.97616,
+      "lng": 14.611412
+    },
+    "mesto": "Šmarje-Sap",
+    "izvor": "https://eid.gov.si/S/17673",
+    "slika": "slike/spomenici/smarje-sap-spomenik-zamolcanim-zrtvam.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Andrejka Ščukovt, CC BY 4.0",
+    "naziv": "Spomenik zamolčanim žrtvam",
+    "godina": "1994",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "veliko-mlacevo-spomenik-zamolcanim-zrtvam",
+    "koordinate": {
+      "lat": 45.934545,
+      "lng": 14.675393
+    },
+    "mesto": "Veliko Mlačevo",
+    "izvor": "https://eid.gov.si/S/17674",
+    "slika": "slike/spomenici/veliko-mlacevo-spomenik-zamolcanim-zrtvam.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik zamolčanim žrtvam",
+    "godina": "1993",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "predole-spominsko-znamenje-padlim-aktivistom-of-na",
+    "koordinate": {
+      "lat": 45.893483,
+      "lng": 14.66732
+    },
+    "mesto": "Predole",
+    "izvor": "https://eid.gov.si/S/17676",
+    "slika": "slike/spomenici/predole-spominsko-znamenje-padlim-aktivistom-of-na.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominsko znamenje padlim aktivistom OF na Jelovcu",
+    "godina": "1957",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "senovo-spomenik-bojem-xiv-divizije",
+    "koordinate": {
+      "lat": 46.019554,
+      "lng": 15.475868
+    },
+    "mesto": "Senovo",
+    "izvor": "https://eid.gov.si/S/28711",
+    "slika": "slike/spomenici/senovo-spomenik-bojem-xiv-divizije.webp",
+    "slikaOdnos": 0.718,
+    "slikaPotpis": "Alenka Možina, CC BY 4.0",
+    "naziv": "Spomenik bojem XIV. divizije",
+    "godina": "1951",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "rovtarske-zibrse-spominska-kapelica-zrtvam-1-in-2",
+    "koordinate": {
+      "lat": 45.963719,
+      "lng": 14.166602
+    },
+    "mesto": "Rovtarske Žibrše",
+    "izvor": "https://eid.gov.si/S/21536",
+    "slika": "slike/spomenici/rovtarske-zibrse-spominska-kapelica-zrtvam-1-in-2.webp",
+    "slikaOdnos": 0.662,
+    "slikaPotpis": "Grega Žorž, CC BY 4.0",
+    "naziv": "Spominska kapelica žrtvam 1. in 2. svetovne vojne",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "dolenji-globodol-spomenik-nob",
+    "koordinate": {
+      "lat": 45.836897,
+      "lng": 15.045013
+    },
+    "mesto": "Dolenji Globodol",
+    "izvor": "https://eid.gov.si/S/4196",
+    "slika": "slike/spomenici/dolenji-globodol-spomenik-nob.webp",
+    "slikaOdnos": 1.504,
+    "slikaPotpis": "Martin Pungerčar, CC BY 4.0",
+    "naziv": "Spomenik NOB",
+    "godina": "1971",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "gumnisce-spomenik-zbiraliscu-borcev",
+    "koordinate": {
+      "lat": 45.966155,
+      "lng": 14.57845
+    },
+    "mesto": "Gumnišče",
+    "izvor": "https://eid.gov.si/S/28409",
+    "slika": "slike/spomenici/gumnisce-spomenik-zbiraliscu-borcev.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik zbirališču borcev",
+    "godina": "1957",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "topol-pri-begunjah-grob-neznanega-partizana-na-sli",
+    "koordinate": {
+      "lat": 45.790561,
+      "lng": 14.418544
+    },
+    "mesto": "Topol pri Begunjah",
+    "izvor": "https://eid.gov.si/S/24638",
+    "slika": "slike/spomenici/topol-pri-begunjah-grob-neznanega-partizana-na-sli.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob neznanega partizana na Slivnici",
+    "godina": "1953",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "celje-spomenik-padlim-postarjem",
+    "koordinate": {
+      "lat": 46.229257,
+      "lng": 15.267455
+    },
+    "mesto": "Celje",
+    "izvor": "https://eid.gov.si/S/28355",
+    "slika": "slike/spomenici/celje-spomenik-padlim-postarjem.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik padlim poštarjem",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "bonini-spominsko-znamenje-padlemu-borcu",
+    "koordinate": {
+      "lat": 45.533935,
+      "lng": 13.781962
+    },
+    "mesto": "Bonini",
+    "izvor": "https://eid.gov.si/S/28420",
+    "slika": "slike/spomenici/bonini-spominsko-znamenje-padlemu-borcu.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominsko znamenje padlemu borcu",
+    "godina": "1976",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "prebold-spominska-plosca-na-tekstilni-tovarni-preb",
+    "koordinate": {
+      "lat": 46.235027,
+      "lng": 15.086521
+    },
+    "mesto": "Prebold",
+    "izvor": "https://eid.gov.si/S/24735",
+    "slika": "slike/spomenici/prebold-spominska-plosca-na-tekstilni-tovarni-preb.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominska plošča na Tekstilni tovarni Prebold",
+    "godina": "1955",
+    "vrsta": "spomen-ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "panece-spominsko-znamenje-tiskarni-antona-askerca",
+    "koordinate": {
+      "lat": 46.097486,
+      "lng": 15.297013
+    },
+    "mesto": "Paneče",
+    "izvor": "https://eid.gov.si/S/25909",
+    "slika": "slike/spomenici/panece-spominsko-znamenje-tiskarni-antona-askerca.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominsko znamenje tiskarni Antona Aškerca",
+    "godina": "1954",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "dobrova-pri-senovem-grob-padlih-partizanov",
+    "koordinate": {
+      "lat": 46.049031,
+      "lng": 15.439656
+    },
+    "mesto": "Dobrova pri Senovem",
+    "izvor": "https://eid.gov.si/S/26789",
+    "slika": "slike/spomenici/dobrova-pri-senovem-grob-padlih-partizanov.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Martin Pungerčar, CC BY 4.0",
+    "naziv": "Grob padlih partizanov",
+    "godina": "1969",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "spodnji-log-pri-litiji-spominsko-znamenje-ilegalne",
+    "koordinate": {
+      "lat": 46.082883,
+      "lng": 14.881425
+    },
+    "mesto": "Spodnji Log pri Litiji",
+    "izvor": "https://eid.gov.si/S/26027",
+    "slika": "slike/spomenici/spodnji-log-pri-litiji-spominsko-znamenje-ilegalne.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominsko znamenje ilegalnemu prehodu",
+    "godina": "1973",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "hrib-pri-koprivniku-grob-padlih-partizanov",
+    "koordinate": {
+      "lat": 45.593331,
+      "lng": 15.040146
+    },
+    "mesto": "Hrib pri Koprivniku",
+    "izvor": "https://eid.gov.si/S/24270",
+    "slika": "slike/spomenici/hrib-pri-koprivniku-grob-padlih-partizanov.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Grob padlih partizanov",
+    "godina": "1979",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "sentvid-pri-sticni-spomenik-kurirjem",
+    "koordinate": {
+      "lat": 45.953087,
+      "lng": 14.835219
+    },
+    "mesto": "Šentvid pri Stični",
+    "izvor": "https://eid.gov.si/S/24325",
+    "slika": "slike/spomenici/sentvid-pri-sticni-spomenik-kurirjem.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spomenik kurirjem",
+    "godina": "1973",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zgornje-jezersko-partizanska-bolnisnica-krtina",
+    "koordinate": {
+      "lat": 46.410499,
+      "lng": 14.455558
+    },
+    "mesto": "Zgornje Jezersko",
+    "izvor": "https://eid.gov.si/S/25278",
+    "slika": "slike/spomenici/zgornje-jezersko-partizanska-bolnisnica-krtina.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Partizanska bolnišnica Krtina",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kal-spominsko-znamenje-ustanovitvi-1-tomsicevega-b",
+    "koordinate": {
+      "lat": 45.824293,
+      "lng": 14.791798
+    },
+    "mesto": "Kal",
+    "izvor": "https://eid.gov.si/S/24328",
+    "slika": "slike/spomenici/kal-spominsko-znamenje-ustanovitvi-1-tomsicevega-b.webp",
+    "slikaOdnos": 1.556,
+    "slikaPotpis": "Register kulturne dediščine, CC BY 4.0",
+    "naziv": "Spominsko znamenje ustanovitvi 1. Tomšičevega bataljona",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "sela-pri-sumberku-spomenik-nob-na-kremenjeku",
+    "koordinate": {
+      "lat": 45.891508,
+      "lng": 14.881311
+    },
+    "mesto": "Sela pri Šumberku",
+    "izvor": "https://eid.gov.si/S/25419",
+    "slika": "slike/spomenici/sela-pri-sumberku-spomenik-nob-na-kremenjeku.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Martin Pungerčar, CC BY 4.0",
+    "naziv": "Spomenik NOB na Kremenjeku",
+    "godina": "1969",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ljubljana-ivanciceva-hisa-z-bunkerjem",
+    "koordinate": {
+      "lat": 46.041247,
+      "lng": 14.493036
+    },
+    "mesto": "Ljubljana",
+    "izvor": "https://eid.gov.si/S/5725",
+    "slika": "slike/spomenici/ljubljana-ivanciceva-hisa-z-bunkerjem.webp",
+    "slikaOdnos": 1.509,
+    "slikaPotpis": "Hana Brus, CC BY 4.0",
+    "naziv": "Ivančičeva hiša z bunkerjem",
+    "godina": "1954",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "planica-nad-framom-grob-zakoncev-uranjek",
+    "koordinate": {
+      "lat": 46.468316,
+      "lng": 15.583642
+    },
+    "mesto": "Planica nad Framom",
+    "izvor": "https://eid.gov.si/S/9016",
+    "slika": "slike/spomenici/planica-nad-framom-grob-zakoncev-uranjek.webp",
+    "slikaOdnos": 1.521,
+    "slikaPotpis": "Srečko Štajnbaher, CC BY 4.0",
+    "naziv": "Grob zakoncev Uranjek",
+    "godina": "1968",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "doslovce-spominsko-znamenje-antonu-dolarju-misku",
+    "koordinate": {
+      "lat": 46.39289,
+      "lng": 14.159938
+    },
+    "mesto": "Doslovče",
+    "izvor": "https://eid.gov.si/S/5335",
+    "slika": "slike/spomenici/doslovce-spominsko-znamenje-antonu-dolarju-misku.webp",
+    "slikaOdnos": 1.504,
+    "slikaPotpis": "Bernarda Jesenko Filipič, CC BY 4.0",
+    "naziv": "Spominsko znamenje Antonu Dolarju-Mišku",
+    "godina": "1958",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "rakov-skocjan-skupni-grob-neznanih-partizanov",
+    "koordinate": {
+      "lat": 45.800538,
+      "lng": 14.284765
+    },
+    "mesto": "Rakov Škocjan",
+    "izvor": "https://eid.gov.si/S/24651",
+    "slika": "slike/spomenici/rakov-skocjan-skupni-grob-neznanih-partizanov.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Grega Žorž, CC BY 4.0",
+    "naziv": "Skupni grob neznanih partizanov",
+    "godina": "1955",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ljubljana-ilegalni-prehod-v-bolnisnico-na-studencu",
+    "koordinate": {
+      "lat": 46.051018,
+      "lng": 14.575703
+    },
+    "mesto": "Ljubljana",
+    "izvor": "https://eid.gov.si/S/5713",
+    "slika": "slike/spomenici/ljubljana-ilegalni-prehod-v-bolnisnico-na-studencu.webp",
+    "slikaOdnos": 1.0,
+    "slikaPotpis": "Katarina Richter, CC BY 4.0",
+    "naziv": "Ilegalni prehod v bolnišnico na Studencu",
+    "godina": "1957",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "gazon-spomenik-padlim-za-svobodo",
+    "koordinate": {
+      "lat": 45.515764,
+      "lng": 13.699988
+    },
+    "mesto": "Gažon",
+    "izvor": "https://eid.gov.si/S/17083",
+    "slika": "slike/spomenici/gazon-spomenik-padlim-za-svobodo.webp",
+    "slikaOdnos": 1.0,
+    "slikaPotpis": "Katarina Richter, CC BY 4.0",
+    "naziv": "Spomenik padlim za svobodo",
+    "godina": "1954",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "brod-spomenik-nob",
+    "koordinate": {
+      "lat": 42.839251,
+      "lng": 22.262222
+    },
+    "priblizno": true,
+    "mesto": "Brod",
+    "izvor": "https://www.xiwl.com/w/index.php/Brod_(Crna_Trava)_-_Spomenik_NOB",
+    "naziv": "Spomenik NOB",
+    "godina": "1950",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
   }
 ]
