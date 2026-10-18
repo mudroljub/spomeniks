@@ -1,9 +1,9 @@
 ---
 name: spomenici-nazivi
-description: Određuje, prevodi i ujednačava domaće nazive spomenika u projektu Spomenici (polje `naziv` u data/spomeniks.json i data/bez_lokacije.json) — izvor naziva, jezik i pismo po državi, „Spomenik NOB“, biste u genitivu („Bista Ive Lole Ribara“), padeži skraćenica (NOB bez nastavka, SKOJ-a, ali „članovima KPJ“), partijski komiteti i jedinice, prevod engleskih opisa sa spomenicinob.info. Koristi ga uvek kad dodaješ spomenik, menjaš ili prevodiš naziv, pregledaš nazive na greške ili mešavinu engleskog, ili korisnik pita kako nešto treba da se zove, čak i kad pominje samo jedan spomenik.
+description: Određuje, prevodi i ujednačava domaće nazive spomenika i nazive tura u projektu Spomenici (polje `naziv` u data/spomeniks.json i data/bez_lokacije.json) — izvor naziva, jezik i pismo po državi, „Spomenik NOB“, biste u genitivu („Bista Ive Lole Ribara“), padeži skraćenica (NOB bez nastavka, SKOJ-a, ali „članovima KPJ“), partijski komiteti i jedinice, prevod engleskih opisa sa spomenicinob.info. Koristi ga uvek kad dodaješ spomenik, menjaš ili prevodiš naziv, pregledaš nazive na greške ili mešavinu engleskog, ili korisnik traži nazive tura (naselje/oblast u NOB, engleski in WW2), ili pita kako nešto treba da se zove, čak i kad pominje samo jedan spomenik.
 ---
 
-# Nazivi spomenika
+# Nazivi spomenika i tura
 
 Naziv je naslov prozora spomenika i ono što putnik traži u pretrazi, pa mora biti tačan i ujednačen. Korisnik ne želi pretpostavke u podacima: bolje je kratak opšti naziv nego lep naziv koji niko nije potvrdio.
 
@@ -38,6 +38,10 @@ Dvosmislen engleski se ne tumači: „Martyrs Monument“ nije ni „palim borci
   - navodnici su „…“;
   - naziv počinje velikim slovom i nema tačku na kraju;
   - ime mesta ne ide na kraj naziva kad ostatak sam kaže o čemu je reč (osoba, jedinica, ustanova, tema), jer se mesto prikazuje posebno: „Spomenik Podunavskom partizanskom odredu“, ne „… u Inđiji“; „Bista Stojana Ljubića“, ne „… u Leskovcu“. Mesto ostaje kad bi bez njega naziv bio opšti, jer je to uobičajen naziv („Partizansko groblje u Mostaru“, „Spomen-kosturnica u Varaždinu“), kad je deo vlastitog imena („Spomen-područje Jasenovac“) i kad je deo onoga čemu je spomenik posvećen („Spomenik žrtvama prinudnog rada u Borskom rudniku“, bitke, pokolji).
+
+## Nazivi tura
+
+U `data/ture.json` koristi oblik „Naselje ili oblast u NOB“ za `naziv.sh`, npr. „Beograd u NOB“ i „Istočna Srbija u NOB“; za makedonski naziv zadrži izvorni oblik „Прилеп во НОБ“. Engleski `naziv.en` ima oblik „Place or region in WW2“, npr. „Belgrade in WW2“ i „Eastern Serbia in WW2“, bez dugog prevoda skraćenice NOB. Izostavi prefikse država sa dvotačkom i ponavljanja poput „Srbija: istočna Srbija“. Pravilo važi za sve ture, nezavisno od toga imaju li viki članak; promena prikaznog naziva ne menja ID, obuhvat ni stanice ture.
 
 ## Kad se menja mnogo naziva
 

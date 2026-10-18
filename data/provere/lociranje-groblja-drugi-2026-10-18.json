@@ -1,0 +1,229 @@
+{
+  "datum": "2026-10-18",
+  "obim": "Drugi paket spomen-grobalja, po verovatnoci uspeha; bez menjanja tacke na centar naselja.",
+  "pre": {
+    "mapa": 9023,
+    "radniSkup": 3046,
+    "spomenGroblja": 249
+  },
+  "posle": {
+    "mapa": 9029,
+    "radniSkup": 3039,
+    "spomenGroblja": 242
+  },
+  "rezultati": [
+    {
+      "ishod": "nova-lokacija",
+      "radniIndeksPre": 2596,
+      "prebacenoNaMapu": "vares-spomen-kosturnica",
+      "prethodniRadniZapis": {
+        "naziv": "Spomen-kosturnica partizanskih boraca",
+        "nazivEn": "Memorial ossuary of Partisan fighters",
+        "mesto": "Vareš",
+        "adresa": "In front of elementary school",
+        "drzava": "Bosnia and Herzegovina",
+        "autor": "Zlatko Ugljen",
+        "godina": "1977",
+        "vrsta": "spomen-groblje",
+        "izvor": "https://www.spomenicinob.info/vares"
+      },
+      "razlog": "Zlatko Ugljen, 1977, skulptura sa zvezdom levo od ulaza osnovne skole. Izgled i polozaj potvrdjeni fotografijom skole i satelitskim snimkom; tacka nije centroid skole.",
+      "dokazi": [
+        "https://www.spomenicinob.info/vares",
+        "https://www.xiwl.com/w/index.php/Vare%C5%A1_-_Spomen_Kosturnica"
+      ],
+      "fotografija": {
+        "url": "https://lh5.googleusercontent.com/p/AF1QipNmLw6N7zhWZ621F44MVm5ci3FrQHVqE9Vjn5V5=w1100",
+        "potpis": "Google Maps",
+        "datumSnimanja": null,
+        "licenca": null,
+        "napomena": "Za Travnik koriscena fotografija nakon obnove iz 2018; datumi samih Google snimaka nisu nezavisno utvrdjeni."
+      }
+    },
+    {
+      "ishod": "nova-lokacija",
+      "radniIndeksPre": 1934,
+      "prebacenoNaMapu": "posusje-partizansko-groblje",
+      "prethodniRadniZapis": {
+        "naziv": "Partizansko groblje sa 80 palih boraca",
+        "nazivEn": "Partisans' cemetery with 80 fallen fighters",
+        "mesto": "Posušje",
+        "adresa": "Corner of Fra Grge Martića and Klesarska",
+        "drzava": "Bosnia and Herzegovina",
+        "autor": "Ante Šimičić",
+        "godina": "1953",
+        "vrsta": "spomen-groblje",
+        "izvor": "https://www.spomenicinob.info/posusje",
+        "stanje": "ostecen"
+      },
+      "razlog": "Groblje iz 1953. sa 80 boraca na uglu Fra Grge Martica i Klesarske. Street View pokazuje zarasli ogradjeni prostor i centralnu kamenu piramidu; nije kosturnica u Gaju. Ranije stanje ostecen sacuvano, bez izmisljenog datuma nalaza.",
+      "dokazi": [
+        "https://www.spomenicinob.info/posusje",
+        "https://www.xiwl.com/w/index.php/Posu%C5%A1je_-_Partizansko_Groblje"
+      ],
+      "fotografija": {
+        "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?cb_client=maps_sv.tactile&w=1000&h=700&panoid=Px6MeXaKRjZPc9fdrBcBpg&yaw=314.66&pitch=1.61&thumbfov=50",
+        "potpis": "Google Maps / Street View",
+        "datumSnimanja": null,
+        "licenca": null,
+        "napomena": "Za Travnik koriscena fotografija nakon obnove iz 2018; datumi samih Google snimaka nisu nezavisno utvrdjeni."
+      }
+    },
+    {
+      "ishod": "nova-lokacija",
+      "radniIndeksPre": 2992,
+      "prebacenoNaMapu": "ljubljenica-masovna-grobnica",
+      "prethodniRadniZapis": {
+        "naziv": "Masovna grobnica žrtava fašističkog terora",
+        "nazivEn": "Mass grave of Victims of Fascist Terror",
+        "mesto": "Ljubljenica",
+        "adresa": "Stećak necropolis",
+        "drzava": "Bosnia and Herzegovina",
+        "godina": "1988",
+        "vrsta": "spomen-groblje",
+        "izvor": "https://www.spomenicinob.info/berkovici"
+      },
+      "razlog": "Grobnica iz 1988. u nekropoli stecaka. Fotografija pokazuje dve ploce sa imenima i krst, grobne okvire i stecke; sa koordinatom i opisom podudara se konkretno malo groblje. Starija kosturnica iz 1961. mozda je prethodnik, ali nije mapirana ni spojena bez dokaza.",
+      "dokazi": [
+        "https://www.spomenicinob.info/berkovici",
+        "https://www.xiwl.com/w/index.php/Ljubljenica_-_Grobnica_%C5%BDrtava_Fa%C5%A1isti%C4%8Dkog_Terora"
+      ],
+      "fotografija": {
+        "url": "https://lh5.googleusercontent.com/p/AF1QipNyIw9_3hDodw7yyZmx3GlC9iwJJlaymg0noQyA=w1100",
+        "potpis": "Google Maps",
+        "datumSnimanja": null,
+        "licenca": null,
+        "napomena": "Za Travnik koriscena fotografija nakon obnove iz 2018; datumi samih Google snimaka nisu nezavisno utvrdjeni."
+      }
+    },
+    {
+      "ishod": "nova-lokacija",
+      "radniIndeksPre": 2781,
+      "prebacenoNaMapu": "zepce-spomen-kosturnica",
+      "prethodniRadniZapis": {
+        "naziv": "Spomen-kosturnica palih boraca i žrtava fašističkog terora",
+        "nazivEn": "Memorial ossuary of fallen fighters and Victims of Fascist Terror",
+        "mesto": "Žepče",
+        "adresa": "Exit of town in direction of Zavidovići",
+        "drzava": "Bosnia and Herzegovina",
+        "autor": "Hazim Handžić",
+        "godina": "1974",
+        "vrsta": "spomen-groblje",
+        "izvor": "https://www.spomenicinob.info/zepce"
+      },
+      "razlog": "Kosturnica Hazima Handzica iz 1974. na izlazu prema Zavidovicima, preko mosta. Fotografija istog belog spomenika i stepenista; precizna tacka xiwl slaze se sa imenovanim Google mestom na nekoliko metara. Nije postojeci marker zepce udaljen oko 12 km.",
+      "dokazi": [
+        "https://www.spomenicinob.info/zepce",
+        "https://www.xiwl.com/w/index.php/%C5%BDep%C4%8De_-_Spomen_Kosturnica"
+      ],
+      "fotografija": {
+        "url": "https://lh5.googleusercontent.com/p/AF1QipO6tqKrzMxkSidqyXseUrkh8JVl4mbYKGXDEsmr=w1100",
+        "potpis": "Google Maps",
+        "datumSnimanja": null,
+        "licenca": null,
+        "napomena": "Za Travnik koriscena fotografija nakon obnove iz 2018; datumi samih Google snimaka nisu nezavisno utvrdjeni."
+      }
+    },
+    {
+      "ishod": "nova-lokacija",
+      "radniIndeksPre": 2414,
+      "prebacenoNaMapu": "travnik-kalibunar-spomen-grobnica",
+      "prethodniRadniZapis": {
+        "naziv": "Spomen-grobnica palih boraca",
+        "nazivEn": "Memorial grave of fallen fighters",
+        "mesto": "Travnik",
+        "adresa": "Kalibunar, behind International University of Travnik",
+        "drzava": "Bosnia and Herzegovina",
+        "vrsta": "spomen-groblje",
+        "izvor": "https://www.spomenicinob.info/travnik",
+        "godina": "pre 1979"
+      },
+      "razlog": "Kalibunar, iza Internacionalnog univerziteta: ogradjena grobnica sa natpisom 22-X-1944 i reljefom. Fotografije pre i posle obnove iz 2018. i mala ogradjena parcela na satelitu potvrdjuju lokaciju. Nije kosturnica Majka iz 1961.",
+      "dokazi": [
+        "https://www.spomenicinob.info/travnik",
+        "https://www.xiwl.com/w/index.php/Travnik_-_Spomen-Groblje_Palim_Borcima"
+      ],
+      "fotografija": {
+        "url": "https://tntportal.ba/wp-content/uploads/2018/11/2-8-1024x768.jpg",
+        "potpis": "TNT Portal",
+        "datumSnimanja": null,
+        "licenca": null,
+        "napomena": "Za Travnik koriscena fotografija nakon obnove iz 2018; datumi samih Google snimaka nisu nezavisno utvrdjeni."
+      }
+    },
+    {
+      "ishod": "nova-lokacija",
+      "radniIndeksPre": 3014,
+      "prebacenoNaMapu": "dubica-urije-spomen-kosturnica",
+      "prethodniRadniZapis": {
+        "naziv": "Spomen-kosturnica",
+        "nazivEn": "Memorial ossuary",
+        "mesto": "Dubica",
+        "adresa": "Urije Orthodox cemetery",
+        "drzava": "Bosnia and Herzegovina",
+        "autor": "Stanko Jančić",
+        "godina": "1953",
+        "vrsta": "spomen-groblje",
+        "izvor": "https://www.spomenicinob.info/kozarskadubica"
+      },
+      "razlog": "Kosturnica iz 1953. Stanka Jancica na severoistoku pravoslavnog groblja Urije, sa skulpturom Stojanke i niskim memorijalnim zidom. Fotografija prikazuje istu celinu i okolno groblje. Nije druga dubicka kosturnica na muslimanskom groblju; godine skulpture i kosturnice nisu izjednacene.",
+      "dokazi": [
+        "https://www.spomenicinob.info/kozarskadubica",
+        "https://www.xiwl.com/w/index.php/Dubica_-_Spomen_Kosturnica_i_Spomenik_Stojanka_Majka_Kne%C5%BEopoljka"
+      ],
+      "fotografija": {
+        "url": "https://lh5.googleusercontent.com/p/AF1QipMQkNAR4Ea41d7j8G1s5bdZn4qJtwvhXDtTebZa=w1100",
+        "potpis": "Google Maps",
+        "datumSnimanja": null,
+        "licenca": null,
+        "napomena": "Za Travnik koriscena fotografija nakon obnove iz 2018; datumi samih Google snimaka nisu nezavisno utvrdjeni."
+      }
+    },
+    {
+      "ishod": "spojen-duplikat",
+      "radniIndeksPre": 2413,
+      "prebacenoNaMapu": "travnik",
+      "prethodniRadniZapis": {
+        "naziv": "Spomen-grobnica palih boraca NOR-a",
+        "nazivEn": "Memorial grave of fallen fighters of the NOR",
+        "mesto": "Travnik",
+        "drzava": "Bosnia and Herzegovina",
+        "autor": "Juraj Neidhart & Zdenko Grgić",
+        "godina": "1961",
+        "vrsta": "spomen-groblje",
+        "izvor": "https://www.spomenicinob.info/travnik"
+      },
+      "razlog": "Spomen-grobnica iz 1961. odgovara postojecoj kosturnici Majka: xiwl Travnik - Spomen Kosturnica daje 44.225889,17.659778 i skulpturu klecece zene na kripti, istu kao postojeca fotografija. Sacuvani ID, CID, godina i tacka; dopunjen nedostajuci izvor. Autori nisu prepisani bez zasebne provere.",
+      "dokazi": [
+        "https://www.spomenicinob.info/travnik",
+        "https://www.xiwl.com/w/index.php/Travnik_-_Spomen_Kosturnica"
+      ]
+    }
+  ],
+  "odlozeno": [
+    {
+      "radniIndeks": 1405,
+      "razlog": "Borci kod Kotor Varosa (ne Konjica), kosturnica iz 1962. sa fotografijom. Satelit nedovoljno jasan za potvrdu tacnog polozaja; kandidat, ne nova tacna lokacija."
+    },
+    {
+      "radniIndeks": 2109,
+      "razlog": "Opis uz dom zdravlja; sam xiwl kaze da objekti na satelitu mozda predstavljaju ostatke groblja. Nema dovoljne potvrde same tacke."
+    },
+    {
+      "radniIndeks": 2054,
+      "razlog": "Segment gradskog groblja skriven drvecem, opisan kao desno u sredini; koordinata nije potvrda tacnog segmenta."
+    },
+    {
+      "radniIndeks": 2987,
+      "razlog": "Ljubljenica 1961: izvor navodi da je mozda zamenjena kasnijom grobnicom; ne proglasavati ni zasebnim danasnjim objektom ni sigurnim duplikatom."
+    }
+  ],
+  "dokaziLokalno": "izvori/pretrage/groblja-drugi-2026-10-18/",
+  "prevezaniFajlovi": [
+    "data\\knjige\\hrzenjak-2002.json",
+    "data\\knjige\\sibenik-1980.json",
+    "data\\provere\\hrvatska-49-2026-10-16.json",
+    "data\\provere\\hrvatska-ostali-2026-10-16.json",
+    "data\\provere\\lociranje-groblja-2026-10-18.json"
+  ]
+}

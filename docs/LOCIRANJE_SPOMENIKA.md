@@ -10,7 +10,15 @@ Pri zatvaranju je zabeleženo **4.588 markera / 4.506 radnih stavki**. To su bro
 
 `data/bez_lokacije.json` je radni skup za nepotvrđene tačke i identitete; aplikacija ga ne učitava. Novi marker, povezivanje sa već postojećim i odbačen pogrešan kandidat su različiti rezultati. Uklanjanje radnog duplikata ne računa se kao nova lokacija.
 
+**Dodatna provera kandidata 18.10.2026:** Majstori su dobili potvrđenu tačku i fotografiju; Blato, Horvati i Županja povezani su sa već postojećim unosima i uklonjeni iz radnog spiska kao duplikati. Blatu je dodata fotografija, a Županji sačuvani približna tačka i stanje „uklonjen“. Rezultat ovog paketa: **1 nova lokacija i 3 duplikata**, mapa 9.018 → 9.019, radni spisak 3.057 → 3.053; [dokazi i prethodni zapisi](../data/provere/lociranje-kandidati-2026-10-18.json). Doli i Krvavec ostaju nerešeni: skulptura u kompleksu nije njegov centroid, a preuzet pogrešan GPS nije nezavisan dokaz.
+
 **Crna Gora: paket završen 18.10.2026. po korisnikovoj odluci.** Završno stanje je 134 markera i 30 stavki bez lokacije; sedam markera je približno u centru sela, a Velika približno uz staru školu. Naknadno dodat spomenik Niku Marašu i saborcima kod Vukovačkog mosta, sa OSM tačkom, fotografijom i posvetom ([dokaz](../data/provere/odluke.json)). Ostali FB unosi dopunjuju postojeće markere; istorijske brojke pojedinačnih prolaza ispod ostaju sačuvane. [Izvori CG](IZVORI.md#crna-gora) i nepotvrđeni tragovi ispod ne otvaraju novi zadatak.
+
+## Spomen-groblja: prvi paket (2026-10-18)
+
+Od 256 preostalih radnih zapisa razrešeno je sedam: nove precizne lokacije u Bojištima i Kostajnici i kosturnica u gradskom parku u Tesliću, približna lokacija u Dabru i tri duplikata (Lovnica, Rogatica, Donja Dobošnica). Ostaje 249; raniji broj 301 bio je zastareo. Zasebno teslićko groblje u Ulici Svetog Save ostaje kandidat, jer prilaz nije potvrda tačke grobova. [Dokazi, prethodni zapisi i odloženi tragovi](../data/provere/lociranje-groblja-2026-10-18.json).
+
+**Drugi paket:** šest novih lokacija sa fotografijama — Vareš, Posušje, Ljubljenica (grobnica iz 1988), Žepče, Travnik (Kalibunar) i Dubica (kosturnica na Urijama). Zapis travničke kosturnice iz 1961. spojen je sa postojećom „Majkom“; Kalibunar je zasebno obeležje. Ostaje 242 radnih zapisa. Borci kod Kotor Varoša, Prnjavor i Gornji Ribnik dobili su kandidate, bez tvrdnje o potvrđenoj tački; odnos ljubljeničkih zapisa iz 1961. i 1988. ostaje otvoren. [Pojedinačni dokazi i prethodni zapisi](../data/provere/lociranje-groblja-drugi-2026-10-18.json).
 
 ## Hronologija skulpture: završeni prolaz (2026-10-18)
 

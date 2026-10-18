@@ -14,14 +14,16 @@ live-server
 
 ## TODO
 
+- Spomen-groblja (242 preostalih): traženje lokacija, po verovatnoći uspeha.
+
 ## Traženje lokacije
 
 Po važnosti vrste na mapi (`utils/vaznost.js`):
 
 1. Muzeji (21)
 2. Spomenici (21): detaljna online pretraga za svaku stavku
-3. Spomen-groblja (301)
-4. Statue (2): detaljna online pretraga za svaku stavku
+3. Statue (2): detaljna online pretraga za svaku stavku
+4. Spomen-groblja (242)
 5. Biste (159): tražiti pojedinačno na Google mapama
 6. Spomen-obeležja (909)
 7. Spomen-ploče (2)

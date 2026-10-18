@@ -10186,5 +10186,106 @@
    "kupinec-spomen-muzej-u-kuci-franje-i-marije-broz"
   ],
   "razlog": "Google mape po nazivu i mestu ne vracaju to mesto."
+ },
+ {
+  "odluka": "lociranje-muzeji-google",
+  "datum": "2026-10-18",
+  "ishod": "nije-nadjeno",
+  "id": [
+   "dolenjske-toplice-krajevna-zbirka-nob",
+   "vukmanic-muzej-porodice-ribar",
+   "jelec-boraviste-josipa-broza-tita",
+   "ivancici-spomen-muzej-savjetovanja-pokrajinskog-ko",
+   "srb-spomen-dom-boraca"
+  ],
+  "razlog": "Google mape po nazivu i mestu vracaju samo druga mesta (opstina, Turanj, Jelec kod Novog Pazara, Vranic, zavicajni muzej 31 km dalje)."
+ },
+ {
+  "odluka": "lociranje-spomenici-google",
+  "datum": "2026-10-18",
+  "ishod": "nije-nadjeno",
+  "id": [
+   "lozovac-spomenik-palim-radnicima-tvornice-aluminij",
+   "srima-spomenik-osnivanju-prvih-organizacija-kpj-i",
+   "zirje-spomenik-strateskoj-bazi-narodnooslobodilack",
+   "zecevo-spomenik-partizanskoj-obalskoj-artiljeriji",
+   "jadrtovac-spomenik-palim-borcima-i-zrtvama-fasisti"
+  ],
+  "razlog": "Google mape (spomenik + mesto) vracaju samo druge spomenike; OSM nema imenovana mesta iz adresa knjige (Srimska lokva, Kuraliste, Vrh Brine) osim zaseoka Sariceva Kotelja, koji nije tacka raskrsca."
+ },
+ {
+  "odluka": "lociranje-spomen-groblja-osm",
+  "datum": "2026-10-18",
+  "ishod": "nije-nadjeno",
+  "obim": "258 priblizno spomen-groblja u BiH",
+  "razlog": "Svih 1799 imenovanih groblja iz OSM za BiH upareno u krugu 4 km po ratnom nazivu: 6 kandidata, svi vec zauzeti drugim zapisima (Kalinovik, Prijedor, Blatnica) ili su groblja drugog rata i daleko."
+ },
+ {
+  "odluka": "lociranje-spomen-groblja-google-gradiska",
+  "datum": "2026-10-18",
+  "ishod": "nije-nadjeno",
+  "obim": "10 priblizno spomen-groblja opstine Gradiska",
+  "razlog": "Google mape vracaju samo opsta seoska groblja (Laminci, Vrbaska pravoslavno, Turjak, Sovjak) ili pogresno mesto (Grbavci u Crnoj Gori); spomenicinob ne kaze da je grobnica u tim grobljima (Vrbaska: raskrsce Gradiska-Podgradci-Dubica, Nova Topola: kod AD Ratarstvo, Gornji Podgradci: park). Masovna grobnica Masici (45.0133,17.2688) nije potvrdjena kao grobnica iz NOB."
+ },
+ {
+  "odluka": "istaknuta-spomen-groblja",
+  "datum": "2026-10-18",
+  "ishod": "istaknut-po-odluci-korisnika",
+  "id": [
+   "novi-travnik",
+   "stip-partisan-s-necropolis",
+   "begunje",
+   "velanija-velanije",
+   "prilep",
+   "sremska-mitrovitca",
+   "lepoglava"
+  ],
+  "razlog": "Korisnik: sva vazna spomen-groblja dobijaju istaknut; kriterijum je zasebna stranica na spomenikdatabase.org."
+ },
+ {
+  "odluka": "istaknuti-spomenikdatabase",
+  "datum": "2026-10-18",
+  "ishod": "istaknut-po-odluci-korisnika",
+  "id": [
+   "bihac-garavice-park",
+   "novi-travnik",
+   "popina",
+   "krusevac",
+   "stip-partisan-s-necropolis",
+   "begunje",
+   "kraljevo-park-14th-october",
+   "velanija-velanije",
+   "leskovac",
+   "jasenica",
+   "prilep",
+   "sarajevo-vraca-park",
+   "sremska-mitrovitca",
+   "brstica",
+   "lepoglava",
+   "grahovo",
+   "peje-pec",
+   "jajce"
+  ],
+  "razlog": "Korisnik: svaka stranica sa spomenikdatabase.org daje istaknut. Zapisi sa clankom na spomenikdatabase; zapisi kojima je spomenikdatabase samo izvor sa tudje stranice (grad, autor, PDF) ne dobijaju istaknut."
+ },
+ {
+  "odluka": "istaknuti-spomenikdatabase-mapa-sajta",
+  "datum": "2026-10-18",
+  "ishod": "istaknut-po-odluci-korisnika",
+  "id": [
+   "dola",
+   "jabuka",
+   "october-21st-museum",
+   "vukovar",
+   "tjentiste-spomen-kuca-bitke-na-sutjesci"
+  ],
+  "clanci": [
+   "https://www.spomenikdatabase.org/dola",
+   "https://www.spomenikdatabase.org/jabuka",
+   "https://www.spomenikdatabase.org/oct21museum",
+   "https://www.spomenikdatabase.org/vukovar",
+   "https://www.spomenikdatabase.org/spomen-dom1"
+  ],
+  "razlog": "Stranice iz pages-sitemap.xml bez veze sa nasim zapisom, upareno po naslovu stranice (Dola, Stratiste Jabuka, Muzej 21. oktobar, Dudik Vukovar, Spomen-dom Tjentiste). Ostale stranice mape sajta su autori, karte i tekstovi; Kumrovec, Landovica, Draginac, Vodice, Sisak i Korenica su vec istaknuti."
  }
 ]

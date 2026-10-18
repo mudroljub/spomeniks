@@ -82,6 +82,15 @@ export const postaviMarkere = (noviMarkeri, jeSuzeno) => {
   osvezi()
 }
 
+// pri radu na lokalnom serveru desno od dugmadi za zum pise trenutni zum; ne menja visinu dugmadi, ispod kojih je dugme jezika
+if (['localhost', '127.0.0.1'].includes(location.hostname)) {
+  const prikaz = L.DomUtil.create('div', '', mapa.zoomControl.getContainer())
+  prikaz.style.cssText = 'position: absolute; left: calc(100% + 4px); top: 50%; transform: translateY(-50%); background: #fff; padding: 1px 5px; border-radius: 4px; font: bold 12px sans-serif'
+  const pisi = () => { prikaz.textContent = String(mapa.getZoom()) }
+  mapa.on('zoomend', pisi)
+  pisi()
+}
+
 // spomenici default
 // L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 //   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'

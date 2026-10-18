@@ -400,7 +400,7 @@ test('podrazumevani prag je statua i svaka vrsta je zasebna opcija', async () =>
   const prag = `${ruta}.querySelector('#prag-vaznosti')`
   assert.equal(await izvrsi(`${prag}.value`), 'statua')
   const opcije = await izvrsi(`[...${prag}.options].map(o=>({value:o.value,label:o.textContent}))`)
-  assert.deepEqual(opcije.map(o=>o.value), ['istaknut','spomen-park','muzej','spomenik','spomen-groblje','statua','bista','spomen-obelezje','spomen-ploca'])
+  assert.deepEqual(opcije.map(o=>o.value), ['istaknut','spomen-park','muzej','spomenik','statua','spomen-groblje','bista','spomen-obelezje','spomen-ploca'])
   assert.ok(opcije.every(o=>!o.label.includes('/')))
   await izvrsi(`${ruta}.querySelector('#dugme').click()`)
   await izvrsi(`${ruta}.querySelector('[data-kartica="ture"]').click()`)
