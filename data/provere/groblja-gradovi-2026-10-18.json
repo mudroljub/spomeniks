@@ -1,0 +1,199 @@
+{
+  "datum": "2026-10-18",
+  "obim": "Ciljana provera kosturnica u Kreki, Zvorniku, Visokom i Sokocu.",
+  "pre": {
+    "markeri": 9241,
+    "bezLokacije": 3011,
+    "grobljaBezLokacije": 215
+  },
+  "novi": [
+    {
+      "id": "zvornik-spomen-kosturnica",
+      "radniIndeksPreGradovi": 2769,
+      "prethodniRadniZapis": {
+        "naziv": "Spomen-kosturnica 75 boraca Prve proleterske brigade",
+        "nazivEn": "Memorial ossuary of 75 fighters of First Proletarian Brigade",
+        "mesto": "Zvornik",
+        "adresa": "Ul. Svetog Save",
+        "drzava": "Bosnia and Herzegovina",
+        "autor": "Dragiša Trifković & Jusuf Begović & Mehmed Hrasnica",
+        "vrsta": "spomen-groblje",
+        "izvor": "https://www.spomenicinob.info/zvornik"
+      },
+      "izvor": "https://www.spomenicinob.info/zvornik",
+      "wikiCache": "izvori/xiwl/deo-0260.json",
+      "razlog": "Polukružni memorijalni zid sa bronzanim reljefom i pločama na zapadnoj strani Ul. Svetog Save; fotografija iz posete 2023. i regionalni opis potvrđuju kompleks. Tačka označava kompleks kosturnice, ne pojedinačan grob Filipa Kljajića ili noviji spomenik drugom ratu. Turistički izvor navodi 40, katalog 75 boraca; broj nije ugrađen u novi naziv. GoogleCID iz starog izvora više ne otvara validno mesto i nije prepisan.",
+      "fotografija": "izvori/pretrage/gradovi-groblja-2026-10-18/Zvornik_Spomenik05.jpg",
+      "satelit": "izvori/pretrage/gradovi-groblja-2026-10-18/zvornik-satelit.json",
+      "datumFotografije": "nije-utvrdjen"
+    }
+  ],
+  "spojeno": [
+    {
+      "ciljniId": "sokolac",
+      "radniIndeksPreGradovi": 2220,
+      "prethodniRadniZapis": {
+        "naziv": "Spomen-kosturnica palih boraca",
+        "nazivEn": "Memorial ossuary of fallen fighters",
+        "mesto": "Sokolac",
+        "adresa": "Park of National Heroes",
+        "drzava": "Bosnia and Herzegovina",
+        "autor": "Kapetanović (design) & Kratović (sculptor)",
+        "godina": "1951",
+        "vrsta": "spomen-groblje",
+        "izvor": "https://www.spomenicinob.info/sokolac"
+      },
+      "prethodniCilj": {
+        "id": "sokolac",
+        "koordinate": {
+          "lat": 43.9329271,
+          "lng": 18.7944133
+        },
+        "googleCid": "17898595529569052956",
+        "mesto": "Sokolac",
+        "slika": "slike/spomenici/sokolac.webp",
+        "slikaOdnos": 1.389,
+        "naziv": "Spomenik palim rumunskim borcima",
+        "nazivEn": "Monument to Fallen Romanian Fighters",
+        "godina": "1978",
+        "vrsta": "spomenik",
+        "drzava": "Bosnia and Herzegovina"
+      },
+      "dokazi": [
+        "https://www.spomenicinob.info/sokolac",
+        "https://gdeputovati.rs/sokolac/sta-videti/park-boraca-romanije/",
+        "https://www.glassrpske.com/lat/novosti/drustvo/omiljeno-mjesto-mladih/8086"
+      ],
+      "razlog": "Postojeća fotografija prikazuje kosturnicu sa spomenikom i imenskim pločama u Parku boraca Romanije. Rumunski je pogrešan prevod Romanije. Godina parka 1978. nije datum kosturnice; katalog navodi 1951. i rekonstrukciju 1969. Sačuvani ID, tačka, CID i fotografija. Zapadniji Google park nije preuzet kao tačka groba."
+    },
+    {
+      "ciljniId": "tuzla-spomen-grob",
+      "prethodniCilj": {
+        "id": "tuzla-spomen-grob",
+        "koordinate": {
+          "lat": 44.530488,
+          "lng": 18.646117
+        },
+        "mesto": "Tuzla",
+        "izvor": "https://www.xiwl.com/w/index.php/Tuzla_%28Kreka%29_-_Spomen_Grob",
+        "naziv": "Spomen grob",
+        "godina": "1946",
+        "vrsta": "spomen-groblje",
+        "drzava": "Bosnia and Herzegovina"
+      },
+      "prethodniRadniZapis": {
+        "naziv": "Spomen-grobnica strijeljanih revolucionara Kreke",
+        "nazivEn": "Memorial grave of the executed Revolutionaries of Kreka",
+        "mesto": "Kreka",
+        "adresa": "Ul. Mitra Trifunovića Uče 65",
+        "drzava": "Bosnia and Herzegovina",
+        "godina": "1946",
+        "vrsta": "spomen-groblje",
+        "izvor": "https://www.spomenicinob.info/tuzla"
+      },
+      "radniIndeksPreGradovi": 2525,
+      "dokaz": {
+        "id": "tuzla-kreka-spomen-grobnica",
+        "radniIndeksPreGradovi": 2525,
+        "prethodniRadniZapis": {
+          "naziv": "Spomen-grobnica strijeljanih revolucionara Kreke",
+          "nazivEn": "Memorial grave of the executed Revolutionaries of Kreka",
+          "mesto": "Kreka",
+          "adresa": "Ul. Mitra Trifunovića Uče 65",
+          "drzava": "Bosnia and Herzegovina",
+          "godina": "1946",
+          "vrsta": "spomen-groblje",
+          "izvor": "https://www.spomenicinob.info/tuzla"
+        },
+        "izvor": "https://www.spomenicinob.info/tuzla",
+        "wikiCache": "izvori/xiwl/deo-0232.json",
+        "razlog": "Potvrđen identitet obeliska sa petokrakom i grobnim pločama; adresa Mitra Trifunovića Uče 65 odgovara parceli uz ulicu i sportsku halu, wiki navodi terensku posetu. Satelit pokazuje parcelu pod krošnjom, ne sam obelisk; OSM kućni broj i fotografija služe za proveru opisa, a ne kao dva nezavisna GPS dokaza.",
+        "fotografija": "izvori/pretrage/gradovi-groblja-2026-10-18/TuzlaKreka_SpomenGroblje01.jpg",
+        "satelit": "izvori/pretrage/gradovi-groblja-2026-10-18/kreka-satelit.json",
+        "datumFotografije": "nije-utvrdjen"
+      },
+      "razlog": "Postojeći tuzla-spomen-grob ima potpuno istu koordinatu i isti obelisk u Kreki. Sačuvani stabilan ID i izvor; dodata fotografija i precizniji naziv mesta. Privremeni novi ID uklonjen pre završetka paketa."
+    }
+  ],
+  "kandidati": [
+    {
+      "mesto": "Visoko",
+      "naziv": "Spomen-kosturnica 7 palih partizana",
+      "prethodniRadniZapis": {
+        "naziv": "Spomen-kosturnica 7 palih partizana",
+        "nazivEn": "Memorial ossuary of 7 fallen Partisans",
+        "mesto": "Visoko",
+        "adresa": "Former Ahmet Fetahagić barracks",
+        "drzava": "Bosnia and Herzegovina",
+        "autor": "Božidar Videc & Dragoslav Stanković",
+        "godina": "1954",
+        "vrsta": "spomen-groblje",
+        "izvor": "https://www.spomenicinob.info/visoko"
+      },
+      "napomena": "Tačka iz lokalnog wikija u bivšoj kasarni Ahmet Fetahagić; sedam šina/ploča potvrđuju identitet. Krošnje zaklanjaju podlogu i tačka objekta nije nezavisno potvrđena; centar kasarne nije zamena.",
+      "izvor": "https://visokoin.com/prica-o-zaboravljenom-spomeniku-poginulim-partizanima-u-visokom/"
+    },
+    {
+      "mesto": "Zvornik",
+      "naziv": "Grob Filipa „Fiće“ Kljajića",
+      "prethodniRadniZapis": {
+        "naziv": "Grob Filipa „Fiće“ Kljajića",
+        "nazivEn": "Grave of Filip \"Fića\" Kljajić",
+        "mesto": "Zvornik",
+        "adresa": "Ul. Svetog Save",
+        "drzava": "Bosnia and Herzegovina",
+        "autor": "Jusuf Begović",
+        "godina": "1961",
+        "vrsta": "spomen-groblje",
+        "izvor": "https://www.spomenicinob.info/zvornik"
+      },
+      "napomena": "Potvrđeno da se grob nalazi u istom kompleksu kao kosturnica; navedena tačka je kompleks, ne grobna ploča. Potreban zaseban položaj ploče, a ne isti pin kao kosturnica.",
+      "izvor": "https://zvornikturizam.org/v2/bs/rooms/ostale-znamenitosti/"
+    }
+  ],
+  "ogranicenjaFotografija": "Izvorni fajlovi nose šablon Self; javni metapodaci ne navode autora/licencu, šablon nije dostupan za čitanje. Potpisan je izvor, bez izmišljene licence. Datum učitavanja nije datum fotografije.",
+  "prevezaniFajlovi": [
+    {
+      "fajl": "data\\knjige\\hrzenjak-2002.json",
+      "pomereneVeze": 5
+    },
+    {
+      "fajl": "data\\knjige\\jokic-1986.json",
+      "pomereneVeze": 102
+    },
+    {
+      "fajl": "data\\knjige\\sibenik-1980.json",
+      "pomereneVeze": 50
+    },
+    {
+      "fajl": "data\\provere\\groblja-zbirni-pregled-2026-10-18.json",
+      "pomereneVeze": 84
+    },
+    {
+      "fajl": "data\\provere\\hrvatska-49-2026-10-16.json",
+      "pomereneVeze": 10
+    },
+    {
+      "fajl": "data\\provere\\hrvatska-ostali-2026-10-16.json",
+      "pomereneVeze": 2
+    },
+    {
+      "fajl": "data\\provere\\lociranje-groblja-2026-10-18.json",
+      "pomereneVeze": 1
+    },
+    {
+      "fajl": "data\\provere\\lociranje-groblja-drugi-2026-10-18.json",
+      "pomereneVeze": 1
+    }
+  ],
+  "posle": {
+    "markeri": 9244,
+    "bezLokacije": 3008,
+    "grobljaBezLokacije": 212,
+    "noviMarkeri": 1,
+    "spojenDuplikat": 2,
+    "noviKandidatiBezPotvrdjeneTacke": 2,
+    "fotografijeMapa": 2,
+    "fotografijeRadniSpisak": 2
+  }
+}

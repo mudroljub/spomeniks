@@ -1,0 +1,207 @@
+{
+  "datum": "2026-10-18",
+  "obim": "Sedam nerešenih grobnih zapisa opštine Foča; tri potvrđena para sa postojećim markerima.",
+  "izvori": [
+    {
+      "url": "https://www.spomenicinob.info/foca",
+      "obrada": "Ciljano pročitano svih sedam relevantnih grobnih redova; nije nova terenska potvrda."
+    },
+    {
+      "url": "https://www.spomenikdatabase.org/sutjeska-monuments",
+      "obrada": "Ciljano pročitani odeljci o Savinom grobu, Nuriji Pozdercu i Borovnu; fotografije i opisi upoređeni sa identitetom i postojećim OSM tačkama.",
+      "cache": "izvori\\pretrage\\foca-2026-10-18\\sutjeska-monuments.html",
+      "ogranicenje": "Datumi fotografija nisu utvrđeni. Tačke parkinga iz vodiča nisu tačke grobova; koordinate postojećih markera sačuvane."
+    }
+  ],
+  "pre": {
+    "markeri": 9223,
+    "bezLokacije": 3014,
+    "grobljaBezLokacije": 218
+  },
+  "spojeno": [
+    {
+      "radniIndeksPreSpajanjaFoca": 1001,
+      "prethodniRadniZapis": {
+        "naziv": "Grob Nurije Pozderca",
+        "nazivEn": "Grave of Nurija Pozderac",
+        "mesto": "Dragoš Sedlo",
+        "drzava": "Bosnia and Herzegovina",
+        "autor": "Miodrag Živković",
+        "godina": "1987",
+        "vrsta": "spomen-groblje",
+        "izvor": "https://www.spomenicinob.info/foca"
+      },
+      "ciljniId": "tjentiste-grob-nurije-pozderca",
+      "prethodniCilj": {
+        "id": "tjentiste-grob-nurije-pozderca",
+        "koordinate": {
+          "lat": 43.321427,
+          "lng": 18.7076858
+        },
+        "mesto": "Tjentište",
+        "izvor": "https://www.openstreetmap.org/node/10693539671",
+        "naziv": "Grob Nurije Pozderca",
+        "posveta": [
+          "Q12756368"
+        ],
+        "vrsta": "spomen-obelezje",
+        "drzava": "Bosnia and Herzegovina"
+      },
+      "razlog": "Isti grob Nurije Pozderca na Dragoš-sedlu; poseban je od obližnjeg spomenika bolnici. Godina 1987. odnosi se na sadašnje obeležje.",
+      "dokaz": {
+        "katalog": "https://www.spomenicinob.info/foca",
+        "opisIFotografija": "https://www.spomenikdatabase.org/sutjeska-monuments",
+        "slikaUrl": "https://static.wixstatic.com/media/e73a14_e9585e3f7a394760bc8c386d218743a3~mv2.jpg",
+        "lokalniOriginal": "izvori\\pretrage\\foca-2026-10-18\\foto-4.jpg",
+        "datumFotografije": "nije-utvrdjen",
+        "porekloKoordinata": "https://www.openstreetmap.org/node/10693539671"
+      }
+    },
+    {
+      "radniIndeksPreSpajanjaFoca": 1004,
+      "prethodniRadniZapis": {
+        "naziv": "Grob boraca Fočanske omladinske čete",
+        "nazivEn": "Grave of fighters from the Foča Youth Company",
+        "mesto": "Borovno",
+        "drzava": "Bosnia and Herzegovina",
+        "autor": "Miodrag Živković",
+        "godina": "1989",
+        "vrsta": "spomen-groblje",
+        "izvor": "https://www.spomenicinob.info/foca"
+      },
+      "ciljniId": "tjentiste-spomenik-kragujevackom-bataljonu",
+      "prethodniCilj": {
+        "id": "tjentiste-spomenik-kragujevackom-bataljonu",
+        "koordinate": {
+          "lat": 43.3532566,
+          "lng": 18.7022455
+        },
+        "mesto": "Tjentište",
+        "izvor": "https://www.openstreetmap.org/node/12073244619",
+        "naziv": "Spomenik Kragujevačkom bataljonu",
+        "posveta": [
+          "Q1419973"
+        ],
+        "vrsta": "spomen-obelezje",
+        "drzava": "Bosnia and Herzegovina"
+      },
+      "razlog": "Kataloški grob Fočanske omladinske čete odgovara kompleksu Kragujevačkog bataljona na Borovnu; vodič opisuje sahranjivanje boraca i sadašnje obeležje iz 1989.",
+      "dokaz": {
+        "katalog": "https://www.spomenicinob.info/foca",
+        "opisIFotografija": "https://www.spomenikdatabase.org/sutjeska-monuments",
+        "slikaUrl": "https://static.wixstatic.com/media/e73a14_e156cba5fd034aa8ab548f46a12d23ab~mv2_d_2400_1600_s_2.jpg",
+        "lokalniOriginal": "izvori\\pretrage\\foca-2026-10-18\\foto-6.jpg",
+        "datumFotografije": "nije-utvrdjen",
+        "porekloKoordinata": "https://www.openstreetmap.org/node/12073244619"
+      }
+    },
+    {
+      "radniIndeksPreSpajanjaFoca": 2966,
+      "prethodniRadniZapis": {
+        "naziv": "Grob narodnog heroja Save Kovačevića",
+        "nazivEn": "Grave of NH Sava Kovačević",
+        "mesto": "Krekovi",
+        "drzava": "Bosnia and Herzegovina",
+        "autor": "Miodrag Živković",
+        "godina": "1951",
+        "vrsta": "spomen-groblje",
+        "izvor": "https://www.spomenicinob.info/foca"
+      },
+      "ciljniId": "tjentiste-savin-grob",
+      "prethodniCilj": {
+        "id": "tjentiste-savin-grob",
+        "koordinate": {
+          "lat": 43.3515568,
+          "lng": 18.6783416
+        },
+        "mesto": "Tjentište",
+        "izvor": "https://www.openstreetmap.org/node/7773550548",
+        "naziv": "Savin grob",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Bosnia and Herzegovina"
+      },
+      "razlog": "Savin grob na Krekovima: prvi spomenik 1951, sadašnje delo 1987. Autorstvo Živkovića ne pripada automatski spomeniku iz 1951.",
+      "dokaz": {
+        "katalog": "https://www.spomenicinob.info/foca",
+        "opisIFotografija": "https://www.spomenikdatabase.org/sutjeska-monuments",
+        "slikaUrl": "https://static.wixstatic.com/media/e73a14_7105d35bc71b4b1faa2760b690714eff~mv2.jpg",
+        "lokalniOriginal": "izvori\\pretrage\\foca-2026-10-18\\foto-2.jpg",
+        "datumFotografije": "nije-utvrdjen",
+        "porekloKoordinata": "https://www.openstreetmap.org/node/7773550548"
+      }
+    }
+  ],
+  "odlozeno": [
+    {
+      "mesto": "Rataj",
+      "naziv": "Grob narodnog heroja Nikole Marakovića Nine",
+      "razlog": "Posmrtni ostaci preneti u Hrvatsku Kostajnicu; lokacija ranijeg groba i eventualni preostali spomenik nisu potvrđeni. Ne spajati geografski različite objekte."
+    },
+    {
+      "mesto": "Ocrkavlje",
+      "naziv": "Zajednička grobnica boraca I proleterske brigade",
+      "razlog": "Tačka spomenika brigadi procenjena je u wikiju iz fotografije; nije dokaz da je to i zasebno katalogizovana zajednička grobnica. Arheološke grobnice istog imena nisu NOB objekti."
+    },
+    {
+      "mesto": "Zavait",
+      "naziv": "Partizansko groblje",
+      "razlog": "Humić je mikrotoponim; opšti rezultat za planinu nije tačka groblja. Potreban dokaz grobne parcele sa obeležjem Takovske čete."
+    },
+    {
+      "mesto": "Tjentište",
+      "naziv": "Zajednička grobnica palih boraca",
+      "razlog": "Grobnica 1949. uklonjena 1958; opis preko puta Hotela Sutjeska nije potvrđena istorijska tačka. Ne spajati automatski sa današnjom kosturnicom."
+    }
+  ],
+  "prevezaniFajlovi": [
+    {
+      "fajl": "data\\knjige\\hrzenjak-2002.json",
+      "pomereneVeze": 5
+    },
+    {
+      "fajl": "data\\knjige\\jokic-1986.json",
+      "pomereneVeze": 112
+    },
+    {
+      "fajl": "data\\knjige\\sibenik-1980.json",
+      "pomereneVeze": 50
+    },
+    {
+      "fajl": "data\\provere\\groblja-zbirni-pregled-2026-10-18.json",
+      "pomereneVeze": 179
+    },
+    {
+      "fajl": "data\\provere\\hrvatska-49-2026-10-16.json",
+      "pomereneVeze": 10
+    },
+    {
+      "fajl": "data\\provere\\hrvatska-ostali-2026-10-16.json",
+      "pomereneVeze": 2
+    },
+    {
+      "fajl": "data\\provere\\lociranje-groblja-2026-10-18.json",
+      "pomereneVeze": 1
+    },
+    {
+      "fajl": "data\\provere\\lociranje-groblja-drugi-2026-10-18.json",
+      "pomereneVeze": 4
+    }
+  ],
+  "posle": {
+    "markeri": 9223,
+    "bezLokacije": 3011,
+    "grobljaBezLokacije": 215,
+    "focanskiGrobniZapisiBezLokacije": 4,
+    "noviMarkeri": 0,
+    "novePrecizneTacke": 0,
+    "spojeniDuplikati": 3,
+    "ispravljeneVrste": 3,
+    "noveFotografije": 3
+  },
+  "provera": {
+    "integritet": "prolazi",
+    "testoviAplikacije": "23/23 prolaze",
+    "mobilniPrikaz": "390x844: sva tri markera i fotografije provereni; bez runtime gresaka.",
+    "sacuvano": "Sve koordinate, ID-jevi, GoogleCID, izvorni izvori i stanja ostali nepromenjeni. Regionalni vodic ostaje dokaz u izvestaju, bez novog dugmeta Vise."
+  }
+}
