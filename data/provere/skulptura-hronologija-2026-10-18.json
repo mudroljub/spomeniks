@@ -1,0 +1,1920 @@
+{
+  "datum": "2026-10-18",
+  "izvor": "https://skulptura-hronologijaizlaganja.rs/category/spomenicka-skulptura/",
+  "obuhvat": {
+    "stranicaKategorije": 7,
+    "objava": 83,
+    "tacakaMapeIzvora": 80,
+    "galerija": 81,
+    "referenciFotografija": 423,
+    "fotografijeZaPregled": 28,
+    "novihNaMapi": 5,
+    "dopunjenihPostojecih": 18,
+    "novihFotografijaUMapi": 7,
+    "prebacenoIzBezLokacije": 1
+  },
+  "metod": "Javni infinite scroll koristi ?paged=2 do 7. Pročitane sve 83 objave; izdvojeni tekstovi, autori, godine, galerije i tačke. Cela izvorna građa i 423 URL-a sa potpisima sačuvani lokalno, postojeće fotografije nisu automatski menjane.",
+  "lokalneKopije": "izvori/skulptura-hronologija/; objave.json, mapa.json, index.json, HTML stranice, fotografije i odgovori provera.",
+  "promene": [
+    {
+      "id": "kosmaj",
+      "odluka": "dopunjeno",
+      "polja": {
+        "autor": {
+          "pre": "Vojin Stojić",
+          "posle": "Vojin Stojić & Gradimir Medaković"
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://skulptura-hronologijaizlaganja.rs/spomenik-kosmajskom-partizanskom-odredu-sopot/",
+          "razlog": "Dopunjen arhitekta istog spomenika.",
+          "potvrde": []
+        }
+      ]
+    },
+    {
+      "id": "kadinjaca",
+      "odluka": "dopunjeno",
+      "polja": {
+        "autor": {
+          "pre": "Miodrag Živković",
+          "posle": "Miodrag Živković & Aleksandar Đokić"
+        },
+        "godina": {
+          "pre": "1952",
+          "posle": "1979"
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://skulptura-hronologijaizlaganja.rs/spomen-kompleks-kadinjaca/",
+          "razlog": "Nova celina otvorena 23.9.1979; piramida Stevana Živanovića iz 1952. ostaje istorijska faza, nije Živkovićev rad iz 1952.",
+          "potvrde": [
+            "https://nmuzice.org.rs/en/memorial-complex-kadinjaca/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ostra",
+      "odluka": "dopunjeno",
+      "polja": {
+        "autor": {
+          "pre": "Miodrag Živković",
+          "posle": "Miodrag Živković & Svetislav Ličina"
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://skulptura-hronologijaizlaganja.rs/spomenik-hrabrosti-u-ostri-kod-cacka/",
+          "razlog": "Dopunjen arhitekta istog spomenika.",
+          "potvrde": []
+        }
+      ]
+    },
+    {
+      "id": "zlatibor",
+      "odluka": "dopunjeno",
+      "polja": {
+        "autor": {
+          "pre": "Ana Bešlić",
+          "posle": "Ana Bešlić & Jovanka Jeftanović"
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://skulptura-hronologijaizlaganja.rs/spomenik-streljanim-partizanima-zlatibor/",
+          "razlog": "Dopunjena arhitektkinja; sačuvana potvrđena godina obeliska 1967, a ne 1962 iz kategorije.",
+          "potvrde": [
+            "https://www.zlatibor.org.rs/sr/sta-videti/spomenici-i-spomen-cesme/spomenik-na-sumatnom-brdu/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "simic-s-farm",
+      "odluka": "dopunjeno",
+      "polja": {
+        "godina": {
+          "pre": "1964",
+          "posle": "1966"
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://skulptura-hronologijaizlaganja.rs/spomen-park-simicev-salas-kod-kikinde/",
+          "razlog": "Izričito navedeno otvaranje oktobra 1966, potvrđeno nezavisnim opisom.",
+          "potvrde": [
+            "https://www.spomenikdatabase.org/kikinda",
+            "https://www.politika.rs/sr/clanak/146177/sramota-u-spomen-sumi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "batina",
+      "odluka": "dopunjeno",
+      "polja": {
+        "godina": {
+          "pre": "1946",
+          "posle": "1947"
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://skulptura-hronologijaizlaganja.rs/spomenik-zahvalnosti-crvenoj-armiji-batinska-skela-hr/",
+          "razlog": "Godina otkrivanja centralnog spomenika; sačuvani postojeći koautori, a ne godine kasnijeg kompleksa i muzeja.",
+          "potvrde": [
+            "https://www.gaa.mhz.hr/storage/upload/calendar_activities/anali_37-za_web_13247.pdf",
+            "https://www.ugm.si/razstave/nasi-heroji-314/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curug",
+      "odluka": "dopunjeno",
+      "polja": {
+        "godina": {
+          "pre": "1970",
+          "posle": "1985"
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://visitzabalj.org/spomenici/",
+          "razlog": "Turistička organizacija opštine potvrđuje godinu Taoca na Trećoj rampi; to nije Materinstvo iz 1967.",
+          "potvrde": []
+        }
+      ]
+    },
+    {
+      "id": "melenci-fallen-fighters",
+      "odluka": "dopunjeno",
+      "polja": {
+        "godina": {
+          "pre": "1953",
+          "posle": "1954"
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-borcima-nor-a-melenci/",
+          "razlog": "Izvor izričito navodi otkrivanje jula 1954; ranija godina 1953 bez pratećeg izvora.",
+          "potvrde": []
+        }
+      ]
+    },
+    {
+      "id": "tara-national-park",
+      "odluka": "dopunjeno",
+      "polja": {
+        "posveta": {
+          "pre": null,
+          "posle": "Formiranju Prve račanske partizanske čete 3. avgusta 1941."
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://skulptura-hronologijaizlaganja.rs/memorijalni-spomenik-borovo-brdo-tara/",
+          "razlog": "Konkretan događaj iz opisa Borovog brda.",
+          "potvrde": []
+        }
+      ]
+    },
+    {
+      "id": "obrenovac",
+      "odluka": "dopunjeno",
+      "polja": {
+        "posveta": {
+          "pre": null,
+          "posle": "Za 27 poginulih boraca Posavskog partizanskog odreda, sahranjenih u kripti."
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://skulptura-hronologijaizlaganja.rs/spomen-kosturnica-palim-borcima-i-zrtvama-fasizma-obrenovac/",
+          "razlog": "Konkretna posveta iz opisa kosturnice.",
+          "potvrde": []
+        }
+      ]
+    },
+    {
+      "id": "baljevac",
+      "odluka": "dopunjeno",
+      "polja": {
+        "godina": {
+          "pre": "1951",
+          "posle": "1956"
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-rudarima-1941-1945-raska/",
+          "razlog": "Razdvojeni nacrt 1951. i postavljanje 1956; postojeće koordinate ostaju.",
+          "potvrde": []
+        }
+      ]
+    },
+    {
+      "id": "bajina-basta",
+      "odluka": "dopunjeno",
+      "polja": {
+        "autor": {
+          "pre": null,
+          "posle": "Oto Logo"
+        },
+        "godina": {
+          "pre": null,
+          "posle": "1987"
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%BC_%D1%85%D0%B5%D1%80%D0%BE%D1%98%D1%83_%D0%94%D1%83%D1%88%D0%B0%D0%BD%D1%83_%D0%88%D0%B5%D1%80%D0%BA%D0%BE%D0%B2%D0%B8%D1%9B%D1%83",
+          "razlog": "Postojeća fotografija i članak prikazuju Dušana Jerkovića (1987, Oto Logo), različitog od Bodnarovljevog spomenika iz 1952.",
+          "potvrde": []
+        }
+      ]
+    },
+    {
+      "id": "beograd-grobnica-narodnih-heroja",
+      "odluka": "dopunjeno",
+      "polja": {
+        "autor": {
+          "pre": null,
+          "posle": "Bogdan Ignjatović"
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://skulptura-hronologijaizlaganja.rs/svecano-otkrivena-grobnica-narodnih-heroja-na-kalemegdanu/",
+          "razlog": "Autor arhitektonskog rešenja grobnice; Bodnarov i Stanković su autori pojedinačnih bista, nisu prepisani kao jedini autori celine.",
+          "potvrde": []
+        }
+      ]
+    },
+    {
+      "id": "backa-palanka",
+      "odluka": "dopunjeno",
+      "polja": {
+        "posveta": {
+          "pre": null,
+          "posle": "Mestu ilegalnog prelaza preko Dunava između Čelareva i Bačke Palanke."
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://skulptura-hronologijaizlaganja.rs/spomenik-nob-a-backa-palanka/",
+          "razlog": "Konkretno mesto ratnog prelaza navedeno u opisu.",
+          "potvrde": []
+        }
+      ]
+    },
+    {
+      "id": "grgurevci",
+      "odluka": "dopunjeno",
+      "polja": {
+        "slikaPotpis": {
+          "pre": null,
+          "posle": "Svetlana Subašić, Hronologija izlaganja skulpture u Srbiji"
+        },
+        "izvor": {
+          "pre": null,
+          "posle": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-zrtvama-fasistickog-terora-grgurevci/"
+        },
+        "slikaOdnos": {
+          "pre": null,
+          "posle": 0.485
+        },
+        "slika": {
+          "pre": null,
+          "posle": "slike/spomenici/grgurevci.webp"
+        },
+        "posveta": {
+          "pre": null,
+          "posle": "Meštanima Grgurevaca streljanim 5. juna 1942."
+        },
+        "vrsta": {
+          "pre": "lokalni",
+          "posle": "statua"
+        },
+        "naziv": {
+          "pre": "Spomenik NOB",
+          "posle": "Spomenik palim žrtvama fašističkog terora"
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-zrtvama-fasistickog-terora-grgurevci/",
+          "razlog": "Naziv i godina iz potpisa galerije; posveta iz teksta kategorije. Autor nije poznat.",
+          "potvrde": []
+        }
+      ]
+    },
+    {
+      "id": "stari-banovci-slobodan-savkovic",
+      "odluka": "dopunjeno",
+      "polja": {
+        "autor": {
+          "pre": null,
+          "posle": "Ljubinka Savić Grasi"
+        },
+        "godina": {
+          "pre": null,
+          "posle": "1953"
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-borcima-i-zrtvama-fasistickog-terora-stari-banovci/",
+          "razlog": "Galerija koristi isti Commons fajl kao naš zapis. Dopunjeni autor i godina; naziv Google mesta i potpis originalne fotografije sačuvani.",
+          "potvrde": []
+        }
+      ]
+    },
+    {
+      "id": "kolasin-spomenik-veljku-vlahovicu",
+      "odluka": "dopunjeno",
+      "polja": {
+        "slikaPotpis": {
+          "pre": null,
+          "posle": "Tatjana Panić, Hronologija izlaganja skulpture u Srbiji"
+        },
+        "slikaOdnos": {
+          "pre": null,
+          "posle": 0.46
+        },
+        "slika": {
+          "pre": null,
+          "posle": "slike/spomenici/kolasin-spomenik-veljku-vlahovicu.webp"
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://skulptura-hronologijaizlaganja.rs/spomenik-veljku-vlahovicu-kolasin/",
+          "razlog": "Fotografija istog spomenika, april 2025; postojeći izvor i podaci sačuvani."
+        }
+      ]
+    },
+    {
+      "id": "uzice-spomenik-josipu-brozu-titu",
+      "odluka": "dopunjeno",
+      "polja": {
+        "koordinate": {
+          "pre": {
+            "lat": 43.8565416,
+            "lng": 19.8401931
+          },
+          "posle": {
+            "lat": 43.8544791,
+            "lng": 19.8466763
+          }
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://skulptura-hronologijaizlaganja.rs/spomenik-josipu-brozu-titu-uzice/",
+          "razlog": "Izvor izričito navodi preseljenje 1991. u dvorište muzeja; sadašnja tačka potvrđena imenovanim OSM čvorom. Stara tačka bila je na Trgu partizana.",
+          "potvrde": [
+            "https://www.openstreetmap.org/node/6778006878"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kikinda-spomenik-internircima",
+      "odluka": "novo",
+      "polja": {
+        "slikaPotpis": {
+          "pre": null,
+          "posle": "Tatjana Panić, Hronologija izlaganja skulpture u Srbiji"
+        },
+        "drzava": {
+          "pre": null,
+          "posle": "Serbia"
+        },
+        "id": {
+          "pre": null,
+          "posle": "kikinda-spomenik-internircima"
+        },
+        "naziv": {
+          "pre": null,
+          "posle": "Spomenik kikindskim internircima"
+        },
+        "autor": {
+          "pre": null,
+          "posle": "Slobodan Kojić"
+        },
+        "koordinate": {
+          "pre": null,
+          "posle": {
+            "lat": 45.8314021,
+            "lng": 20.4657168
+          }
+        },
+        "slikaOdnos": {
+          "pre": null,
+          "posle": 0.75
+        },
+        "posveta": {
+          "pre": null,
+          "posle": "Za 46 Kikinđana deportovanih 6. maja 1942. u koncentracione logore u Norveškoj."
+        },
+        "googleCid": {
+          "pre": null,
+          "posle": "8393018289707648275"
+        },
+        "vrsta": {
+          "pre": null,
+          "posle": "spomenik"
+        },
+        "slika": {
+          "pre": null,
+          "posle": "slike/spomenici/kikinda-spomenik-internircima.webp"
+        },
+        "izvor": {
+          "pre": null,
+          "posle": "https://skulptura-hronologijaizlaganja.rs/spomenik-kikindskim-internircima-kikinda/"
+        },
+        "mesto": {
+          "pre": null,
+          "posle": "Kikinda"
+        },
+        "godina": {
+          "pre": null,
+          "posle": "1975"
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://skulptura-hronologijaizlaganja.rs/spomenik-kikindskim-internircima-kikinda/",
+          "potvrde": [
+            "https://www.openstreetmap.org/way/1081625957",
+            "https://gradski.online/spomenik-upristoj%D0%B5n-odata-pocast-kikindskim-internircima-neka-im-je-vecna-slava/"
+          ],
+          "razlog": "Tačka imenovanog objekta u OSM-u."
+        }
+      ]
+    },
+    {
+      "id": "curug-majka-i-dete",
+      "odluka": "novo",
+      "polja": {
+        "slikaPotpis": {
+          "pre": null,
+          "posle": "Tatjana Panić, Hronologija izlaganja skulpture u Srbiji"
+        },
+        "drzava": {
+          "pre": null,
+          "posle": "Serbia"
+        },
+        "id": {
+          "pre": null,
+          "posle": "curug-majka-i-dete"
+        },
+        "naziv": {
+          "pre": null,
+          "posle": "Spomenik „Majka i dete“"
+        },
+        "autor": {
+          "pre": null,
+          "posle": "Jovan Soldatović"
+        },
+        "koordinate": {
+          "pre": null,
+          "posle": {
+            "lat": 45.4731875,
+            "lng": 20.0704375
+          }
+        },
+        "slikaOdnos": {
+          "pre": null,
+          "posle": 0.75
+        },
+        "posveta": {
+          "pre": null,
+          "posle": "Deci žrtvama racije u Čurugu 1942."
+        },
+        "vrsta": {
+          "pre": null,
+          "posle": "statua"
+        },
+        "slika": {
+          "pre": null,
+          "posle": "slike/spomenici/curug-majka-i-dete.webp"
+        },
+        "izvor": {
+          "pre": null,
+          "posle": "https://skulptura-hronologijaizlaganja.rs/spomenik-majka-i-dete-materinstvo-curug/"
+        },
+        "mesto": {
+          "pre": null,
+          "posle": "Čurug"
+        },
+        "godina": {
+          "pre": null,
+          "posle": "1967"
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://skulptura-hronologijaizlaganja.rs/spomenik-majka-i-dete-materinstvo-curug/",
+          "potvrde": [
+            "https://visitzabalj.org/spomenici/",
+            "https://www.openstreetmap.org/way/764211366"
+          ],
+          "razlog": "Tačka iz mape izvora; nezavisni turistički opis i OSM škole potvrđuju prednji park, bez GoogleCID-a jer pretraga vraća drugi spomenik."
+        }
+      ]
+    },
+    {
+      "id": "beograd-poziv-na-ustanak",
+      "odluka": "novo",
+      "polja": {
+        "slikaPotpis": {
+          "pre": null,
+          "posle": "Pavle Marjanović, CC BY-SA 3.0"
+        },
+        "drzava": {
+          "pre": null,
+          "posle": "Serbia"
+        },
+        "id": {
+          "pre": null,
+          "posle": "beograd-poziv-na-ustanak"
+        },
+        "naziv": {
+          "pre": null,
+          "posle": "Poziv na ustanak"
+        },
+        "autor": {
+          "pre": null,
+          "posle": "Vojin Bakić"
+        },
+        "koordinate": {
+          "pre": null,
+          "posle": {
+            "lat": 44.7877831,
+            "lng": 20.4542653
+          }
+        },
+        "wiki": {
+          "pre": null,
+          "posle": "https://sr.wikipedia.org/wiki/Скулптура_Позив_на_устанак"
+        },
+        "slikaOdnos": {
+          "pre": null,
+          "posle": 0.586
+        },
+        "vrsta": {
+          "pre": null,
+          "posle": "statua"
+        },
+        "slika": {
+          "pre": null,
+          "posle": "slike/spomenici/beograd-poziv-na-ustanak.webp"
+        },
+        "izvor": {
+          "pre": null,
+          "posle": "https://skulptura-hronologijaizlaganja.rs/spomenik-streljanima-poziv-na-ustanak-postavljen-u-beogradu/"
+        },
+        "mesto": {
+          "pre": null,
+          "posle": "Beograd (Dedinje)"
+        },
+        "godina": {
+          "pre": null,
+          "posle": "1950"
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://skulptura-hronologijaizlaganja.rs/spomenik-streljanima-poziv-na-ustanak-postavljen-u-beogradu/",
+          "potvrde": [
+            "https://www.openstreetmap.org/node/6278512210",
+            "https://sr.wikipedia.org/wiki/Скулптура_Позив_на_устанак"
+          ],
+          "razlog": "Tačka imenovanog objekta u OSM-u."
+        }
+      ]
+    },
+    {
+      "id": "bajina-basta-spomenik-palim-borcima",
+      "odluka": "novo",
+      "polja": {
+        "slikaPotpis": {
+          "pre": null,
+          "posle": "Hronologija izlaganja skulpture u Srbiji"
+        },
+        "drzava": {
+          "pre": null,
+          "posle": "Serbia"
+        },
+        "id": {
+          "pre": null,
+          "posle": "bajina-basta-spomenik-palim-borcima"
+        },
+        "naziv": {
+          "pre": null,
+          "posle": "Spomenik palim borcima NOVJ"
+        },
+        "autor": {
+          "pre": null,
+          "posle": "Stevan Bodnarov"
+        },
+        "koordinate": {
+          "pre": null,
+          "posle": {
+            "lat": 43.9700696,
+            "lng": 19.5687031
+          }
+        },
+        "slikaOdnos": {
+          "pre": null,
+          "posle": 0.749
+        },
+        "vrsta": {
+          "pre": null,
+          "posle": "statua"
+        },
+        "slika": {
+          "pre": null,
+          "posle": "slike/spomenici/bajina-basta-spomenik-palim-borcima.webp"
+        },
+        "izvor": {
+          "pre": null,
+          "posle": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-borcima-narodnooslobodilacke-vojske-jugoslavije-delo-stevana-bodnarova/"
+        },
+        "mesto": {
+          "pre": null,
+          "posle": "Bajina Bašta"
+        },
+        "godina": {
+          "pre": null,
+          "posle": "1952"
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-borcima-narodnooslobodilacke-vojske-jugoslavije-delo-stevana-bodnarova/",
+          "potvrde": [
+            "https://www.openstreetmap.org/node/14131291086",
+            "https://commons.wikimedia.org/wiki/File:BajinaBastaWWIIMonument.jpg"
+          ],
+          "razlog": "Zasebna statua potvrđena poređenjem fotografija; tačka izvora i OSM ratnog spomenika, različita od Dušana Jerkovića."
+        }
+      ]
+    },
+    {
+      "id": "uzice-spomenik-poginulima-u-fabrici-oruzja",
+      "odluka": "novo",
+      "polja": {
+        "slikaPotpis": {
+          "pre": null,
+          "posle": "Baština Užica / Narodni muzej Užice, Hronologija izlaganja skulpture u Srbiji"
+        },
+        "drzava": {
+          "pre": null,
+          "posle": "Serbia"
+        },
+        "id": {
+          "pre": null,
+          "posle": "uzice-spomenik-poginulima-u-fabrici-oruzja"
+        },
+        "naziv": {
+          "pre": null,
+          "posle": "Spomenik poginulim u eksploziji partizanske fabrike oružja"
+        },
+        "autor": {
+          "pre": null,
+          "posle": "Boris Anastasijević"
+        },
+        "koordinate": {
+          "pre": null,
+          "posle": {
+            "lat": 43.854111,
+            "lng": 19.8465839
+          }
+        },
+        "slikaOdnos": {
+          "pre": null,
+          "posle": 0.664
+        },
+        "posveta": {
+          "pre": null,
+          "posle": "Radnicima i građanima poginulim u eksploziji partizanske fabrike oružja 22. novembra 1941."
+        },
+        "vrsta": {
+          "pre": null,
+          "posle": "spomenik"
+        },
+        "slika": {
+          "pre": null,
+          "posle": "slike/spomenici/uzice-spomenik-poginulima-u-fabrici-oruzja.webp"
+        },
+        "izvor": {
+          "pre": null,
+          "posle": "https://znaci.org/00003/920.pdf#page=320"
+        },
+        "mesto": {
+          "pre": null,
+          "posle": "Užice"
+        },
+        "godina": {
+          "pre": null,
+          "posle": "1961"
+        }
+      },
+      "dokazi": [
+        {
+          "izvor": "https://skulptura-hronologijaizlaganja.rs/dva-spomenika-poginulim-radnicima-fabrike-oruzja-uzice/",
+          "potvrde": [
+            "https://www.openstreetmap.org/node/6813081968",
+            "https://bastinauzica.weebly.com/10571087108610841077108510801082-1087108610751080108510911083108010841072-1091-1092107210731088108010941080-108610881091107811121072.html"
+          ],
+          "razlog": "Tačka imenovanog objekta u OSM-u."
+        }
+      ]
+    }
+  ],
+  "prebacivanje": {
+    "radniIndeksPre": 3100,
+    "prebacenoNaMapu": "uzice-spomenik-poginulima-u-fabrici-oruzja",
+    "izvorniZapis": {
+      "mesto": "Užice",
+      "izvor": "https://znaci.org/00003/920.pdf#page=320",
+      "naziv": "Spomenik poginulim u eksploziji partizanske fabrike oružja",
+      "autor": "Boris Anastasijević",
+      "vrsta": "spomenik",
+      "drzava": "Serbia"
+    },
+    "azuriraneVeze": [
+      "data\\knjige\\hrzenjak-2002.json",
+      "data\\knjige\\jokic-1986.json",
+      "data\\knjige\\sibenik-1980.json",
+      "data\\provere\\hrvatska-49-2026-10-16.json",
+      "data\\provere\\hrvatska-ostali-2026-10-16.json"
+    ]
+  },
+  "otvoreniKandidati": [
+    {
+      "objava": 7669,
+      "nalaz": "Borba i Obnova ispred opštine Voždovac: dva različita dela, captions i zajednička tačka ne izdvajaju pojedinačne položaje. Nisu dodati kao jedna skulptura.",
+      "potvrde": [
+        "https://www.blic.rs/vesti/beograd/vojvode-ili-partizani-o-tome-koji-ce-spomenici-stajati-ispred-zgrade-opstine-na/jr0x53s"
+      ]
+    },
+    {
+      "objava": 7735,
+      "nalaz": "Nebojša Mitrić, 1961: zasebni unutrašnji spomenik od delova oružja na kraju desnog tunela. Nije dodeljen autorstvu spoljnog dela Borisa Anastasijevića niti postavljen na centroid muzeja.",
+      "fotografija": {
+        "url": "https://skulptura-hronologijaizlaganja.rs/h-content/uploads/1961/07/https-skulptura-hronologijaizlaganja-rs-dva-spomenika-poginulim-radnicima-fabrike-oruzja-uzice-hronologijaizlaganja.jpg",
+        "potpis": "Nebojša Mitrić, Spomenik poginulim radnicima u Partizanskoj fabrici oružja i municije , 1961, Užice (foto: link )",
+        "izvorniLinkovi": [
+          {
+            "url": "https://bastinauzica.weebly.com/10571087108610841077108510801082-1087108610751080108510911083108010841072-1091-1092107210731088108010941080-108610881091107811121072.html",
+            "tekst": "link"
+          }
+        ]
+      },
+      "potvrde": [
+        "https://bastinauzica.weebly.com/10571087108610841077108510801082-1087108610751080108510911083108010841072-1091-1092107210731088108010941080-108610881091107811121072.html"
+      ]
+    }
+  ],
+  "objave": [
+    {
+      "objava": 17345,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-nadezdi-petrovic-novi-sad/",
+      "nazivIzvora": "Spomenik Nadeždi Petrović, Novi Sad",
+      "godinaIzvora": "1995",
+      "umetniciIzvora": [
+        "Mihajlo Tomić",
+        "Dragan Perović"
+      ],
+      "brojFotografija": 1,
+      "cilj": null,
+      "odluka": "Nadežda Petrović: van vremenskog obuhvata NOB."
+    },
+    {
+      "objava": 23961,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-veljku-vlahovicu-kolasin/",
+      "nazivIzvora": "Spomenik Veljku Vlahoviću, Kolašin",
+      "godinaIzvora": "1989",
+      "umetniciIzvora": [
+        "Oto Logo"
+      ],
+      "brojFotografija": 7,
+      "cilj": "kolasin-spomenik-veljku-vlahovicu",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 17362,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-duri-jaksicu-novi-sad/",
+      "nazivIzvora": "Spomenik Đuri Jakšiću, Novi Sad",
+      "godinaIzvora": "1982",
+      "umetniciIzvora": [
+        "Jovan Soldatović"
+      ],
+      "brojFotografija": 1,
+      "cilj": null,
+      "odluka": "Đura Jakšić: van obuhvata NOB."
+    },
+    {
+      "objava": 7979,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomen-obelezje-naroda-hrvatske-krugovi-spomen-park-kragujevacki-oktobar-kragujevac/",
+      "nazivIzvora": "Spomen-obeležje naroda Hrvatske (Krugovi), Spomen-park „Kragujevački oktobar”, Kragujevac",
+      "godinaIzvora": "1981",
+      "umetniciIzvora": [
+        "Vojin Bakić"
+      ],
+      "brojFotografija": 6,
+      "cilj": "kragujevac-spomen-obelezje-naroda-hrvatske",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 19508,
+      "url": "https://skulptura-hronologijaizlaganja.rs/memorijalni-park-popina-stulac-kod-vrnjacke-banje/",
+      "nazivIzvora": "Spomen-park Popina, Štulac, kod Vrnjačke Banje",
+      "godinaIzvora": "1981",
+      "umetniciIzvora": [
+        "Bogdan Bogdanović"
+      ],
+      "brojFotografija": 18,
+      "cilj": "popina",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 19098,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-sto-za-jednog-spomen-park-kragujevacki-oktobar-kragujevac/",
+      "nazivIzvora": "Spomenik Sto za jednog, Spomen-park „Kragujevački oktobar”, Kragujevac",
+      "godinaIzvora": "1980",
+      "umetniciIzvora": [
+        "Nandor Glid"
+      ],
+      "brojFotografija": 5,
+      "cilj": "kragujevac-spomenik-sto-za-jednog",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 19495,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomen-kompleks-kadinjaca/",
+      "nazivIzvora": "Spomen-kompleks Kadinjača, Volujac kod Užica",
+      "godinaIzvora": "1979",
+      "umetniciIzvora": [
+        "Miodrag Živković"
+      ],
+      "brojFotografija": 16,
+      "cilj": "kadinjaca",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7701,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-1941-1945-vlasotince/",
+      "nazivIzvora": "Spomenik Revolucije (Staro groblje), Vlasotince",
+      "godinaIzvora": "1975",
+      "umetniciIzvora": [
+        "Bogdan Bogdanović"
+      ],
+      "brojFotografija": 1,
+      "cilj": "vlasotince",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 23901,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-kikindskim-internircima-kikinda/",
+      "nazivIzvora": "Spomenik kikindskim internircima, Kikinda",
+      "godinaIzvora": "1975",
+      "umetniciIzvora": [
+        "Slobodan Kojić"
+      ],
+      "brojFotografija": 7,
+      "cilj": "kikinda-spomenik-internircima",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 23782,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-borcima-beoci/",
+      "nazivIzvora": "Spomenik palim borcima, Beoci",
+      "godinaIzvora": "1973",
+      "umetniciIzvora": [
+        "Ante Gržetić"
+      ],
+      "brojFotografija": 7,
+      "cilj": "beoci",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7707,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-rudarima-junacima-nob-a-kosovska-mitrovica/",
+      "nazivIzvora": "Spomenik Revolucije (Svetilište Revolucije), Kosovska Mitrovica",
+      "godinaIzvora": "1973",
+      "umetniciIzvora": [
+        "Bogdan Bogdanović"
+      ],
+      "brojFotografija": 1,
+      "cilj": "mitrovica-mitrovice",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 23985,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-borcima-i-zrtvama-fasizma-nestin/",
+      "nazivIzvora": "Spomenik palim borcima i žrtvama fašizma, Neštin",
+      "godinaIzvora": "1972",
+      "umetniciIzvora": [
+        "Jovan Soldatović"
+      ],
+      "brojFotografija": 7,
+      "cilj": "nestin",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7922,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-revolucije-pec/",
+      "nazivIzvora": "Spomenik Revolucije, Peć",
+      "godinaIzvora": "1972",
+      "umetniciIzvora": [
+        "Ante Gržetić"
+      ],
+      "brojFotografija": 4,
+      "cilj": "peje-pec",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7635,
+      "url": "https://skulptura-hronologijaizlaganja.rs/jovan-soldatovic-porodica-spomenik-zrtvama-fasizma-novi-sad/",
+      "nazivIzvora": "Spomenik žrtvama fašizma (Porodica), Novi Sad",
+      "godinaIzvora": "1971",
+      "umetniciIzvora": [
+        "Jovan Soldatović"
+      ],
+      "brojFotografija": 17,
+      "cilj": "novi-sad",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7640,
+      "url": "https://skulptura-hronologijaizlaganja.rs/ana-beslic-spomenik-baklja-secanja-bajmok/",
+      "nazivIzvora": "Spomenik Baklja sećanja u Bajmoku",
+      "godinaIzvora": "1971",
+      "umetniciIzvora": [
+        "Ana Bešlić"
+      ],
+      "brojFotografija": 1,
+      "cilj": "bajmok",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7690,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-vesala-zajecar/",
+      "nazivIzvora": "Spomenik Vešala, Zaječar",
+      "godinaIzvora": "1971",
+      "umetniciIzvora": [
+        "Vladimir Veličković"
+      ],
+      "brojFotografija": 4,
+      "cilj": "zajecar",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7688,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-novosadskom-partizanskom-odredu-cenej-novi-sad/",
+      "nazivIzvora": "Spomenik Novosadskom partizanskom odredu, Čenej",
+      "godinaIzvora": "1971",
+      "umetniciIzvora": [
+        "Pavle Paja Radovanović"
+      ],
+      "brojFotografija": 1,
+      "cilj": "cenej",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7700,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-borcima-leskovac/",
+      "nazivIzvora": "Spomen–park Revolucije (Šumska boginja), Leskovac",
+      "godinaIzvora": "1971",
+      "umetniciIzvora": [
+        "Bogdan Bogdanović"
+      ],
+      "brojFotografija": 1,
+      "cilj": "leskovac",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7699,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-kosmajskom-partizanskom-odredu-sopot/",
+      "nazivIzvora": "Spomenik Kosmajskom partizanskom odredu, Sopot",
+      "godinaIzvora": "1971",
+      "umetniciIzvora": [
+        "Vojin Stojić",
+        "Gradimir Medaković"
+      ],
+      "brojFotografija": 1,
+      "cilj": "kosmaj",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 19086,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-kameni-spavac-spomen-park-kragujevacki-oktobar-kragujevac/",
+      "nazivIzvora": "Spomenik Kameni spavač, Spomen-park „Kragujevački oktobar”, Kragujevac",
+      "godinaIzvora": "1970",
+      "umetniciIzvora": [
+        "Gradimir Bosnić",
+        "Jelica Bosnić"
+      ],
+      "brojFotografija": 6,
+      "cilj": "kragujevac-spomenik-kameni-spavac",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 23925,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomen-obelezje-xiii-vojvodanskoj-brigadi/",
+      "nazivIzvora": "Spomen-obeležje XIII vojvođanskoj brigadi",
+      "godinaIzvora": "1969",
+      "umetniciIzvora": [],
+      "brojFotografija": 1,
+      "cilj": "kikinda-spomenik-xiii-vojvodjanskoj-brigadi",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7738,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-hrabrosti-u-ostri-kod-cacka/",
+      "nazivIzvora": "Spomenik hrabrosti u Ostri kod Čačka",
+      "godinaIzvora": "1969",
+      "umetniciIzvora": [
+        "Miodrag Živković",
+        "Svetislav Ličina"
+      ],
+      "brojFotografija": 15,
+      "cilj": "ostra",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7736,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-mosi-pijade-u-beogradu/",
+      "nazivIzvora": "Spomenik Moši Pijade u Beogradu",
+      "godinaIzvora": "1969",
+      "umetniciIzvora": [
+        "Branko Ružić"
+      ],
+      "brojFotografija": 1,
+      "cilj": "beograd-spomenik-mosi-pijade",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 23835,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-nob-a-backa-palanka/",
+      "nazivIzvora": "Spomenik NOB-a, Bačka Palanka",
+      "godinaIzvora": "1969",
+      "umetniciIzvora": [
+        "Milan Pališaški"
+      ],
+      "brojFotografija": 7,
+      "cilj": "backa-palanka",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7814,
+      "url": "https://skulptura-hronologijaizlaganja.rs/memorijalna-arhitektura-bogdana-bogdanovica-galerija-kulturnog-centra-beograda/",
+      "nazivIzvora": "Memorijalna arhitektura Bogdana Bogdanovića",
+      "godinaIzvora": "1969",
+      "umetniciIzvora": [
+        "Bogdan Bogdanović"
+      ],
+      "brojFotografija": 0,
+      "cilj": null,
+      "odluka": "Pregledna objava o arhitekturi, nije jedan novi lokalitet."
+    },
+    {
+      "objava": 19067,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-kristalni-cvet-spomen-park-kragujevacki-oktobar-kragujevac/",
+      "nazivIzvora": "Spomenik Kristalni cvet, Spomen-park „Kragujevački oktobar”, Kragujevac",
+      "godinaIzvora": "1968",
+      "umetniciIzvora": [
+        "Nebojša Delja"
+      ],
+      "brojFotografija": 4,
+      "cilj": "kragujevac-spomenik-kristalni-cvet",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7625,
+      "url": "https://skulptura-hronologijaizlaganja.rs/nandor-glid-medunarodni-spomenik-1933-1945-dahau/",
+      "nazivIzvora": "Međunarodni spomenik 1933–1945, Memorijalni centar Dahau, Nemačka",
+      "godinaIzvora": "1968",
+      "umetniciIzvora": [
+        "Nandor Glid"
+      ],
+      "brojFotografija": 2,
+      "cilj": null,
+      "odluka": "Dahau: van geografskog obuhvata."
+    },
+    {
+      "objava": 7687,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-balada-vesanih-subotica/",
+      "nazivIzvora": "Spomenik Balada obešenih (Balada o vešanima), Subotica",
+      "godinaIzvora": "1967",
+      "umetniciIzvora": [
+        "Nandor Glid"
+      ],
+      "brojFotografija": 3,
+      "cilj": "subotica-courthouse",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 23854,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-majka-i-dete-materinstvo-curug/",
+      "nazivIzvora": "Spomenik Majka i dete (Materinstvo), Čurug",
+      "godinaIzvora": "1967",
+      "umetniciIzvora": [
+        "Jovan Soldatović"
+      ],
+      "brojFotografija": 5,
+      "cilj": "curug-majka-i-dete",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 23862,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-narodnooslobodilackoj-borbi-basaid/",
+      "nazivIzvora": "Spomenik Narodnooslobodilačkoj borbi, Bašaid",
+      "godinaIzvora": "1967",
+      "umetniciIzvora": [
+        "Radeta Stanković"
+      ],
+      "brojFotografija": 7,
+      "cilj": "basaid",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 23950,
+      "url": "https://skulptura-hronologijaizlaganja.rs/memorijalni-spomenik-borovo-brdo-tara/",
+      "nazivIzvora": "Memorijalni spomenik „Borovo brdo”, Tara",
+      "godinaIzvora": "1967",
+      "umetniciIzvora": [],
+      "brojFotografija": 6,
+      "cilj": "tara-national-park",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 23888,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomen-park-simicev-salas-kod-kikinde/",
+      "nazivIzvora": "Spomen-park Simićev salaš kod Kikinde",
+      "godinaIzvora": "1966",
+      "umetniciIzvora": [
+        "Rudolf Matutinović"
+      ],
+      "brojFotografija": 10,
+      "cilj": "simic-s-farm",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 19035,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-otpora-i-slobode-spomen-park-kragujevacki-oktobar-kragujevac/",
+      "nazivIzvora": "Spomenik otpora i slobode, Spomen-park „Kragujevački oktobar”, Kragujevac",
+      "godinaIzvora": "1966",
+      "umetniciIzvora": [
+        "Ante Gržetić"
+      ],
+      "brojFotografija": 5,
+      "cilj": "kragujevac-spomenik-otpora-i-slobode",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7737,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-sovjetskim-ratnim-veteranima-na-avali/",
+      "nazivIzvora": "Spomenik sovjetskim ratnim veteranima na Avali",
+      "godinaIzvora": "1965",
+      "umetniciIzvora": [
+        "Jovan Kratohvil"
+      ],
+      "brojFotografija": 1,
+      "cilj": "avala",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 23513,
+      "url": "https://skulptura-hronologijaizlaganja.rs/partizansko-spomen-groblje-mostar/",
+      "nazivIzvora": "Partizansko spomen-groblje, Mostar",
+      "godinaIzvora": "1965",
+      "umetniciIzvora": [
+        "Bogdan Bogdanović"
+      ],
+      "brojFotografija": 14,
+      "cilj": "mostar-partisan-cemetery",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 19981,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-zdravku-celaru-i-palim-borcima-1941-1945-celarevo/",
+      "nazivIzvora": "Spomenik Zdravku Čelaru i palim borcima 1941–1945, Čelarevo",
+      "godinaIzvora": "1965",
+      "umetniciIzvora": [
+        "Aleksandar Zarin"
+      ],
+      "brojFotografija": 12,
+      "cilj": "celarevo",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7709,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-borcima-novi-knezevac/",
+      "nazivIzvora": "Spomenik palim borcima, Novi Kneževac",
+      "godinaIzvora": "1965",
+      "umetniciIzvora": [
+        "Aleksandar Zarin"
+      ],
+      "brojFotografija": 2,
+      "cilj": "novi-knezevac",
+      "odluka": "upareno",
+      "ogranicenje": "Zadržano 1964 prema Zarinovom katalogu iz 1974, ne 1965 iz kategorije."
+    },
+    {
+      "objava": 7711,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomen-park-slobodiste-krusevac/",
+      "nazivIzvora": "Spomen–park „Slobodište”, Kruševac",
+      "godinaIzvora": "1965",
+      "umetniciIzvora": [
+        "Bogdan Bogdanović"
+      ],
+      "brojFotografija": 11,
+      "cilj": "krusevac",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7704,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-streljanim-dacima-i-profesorima-spomen-park-kragujevacki-oktobar-kragujevac/",
+      "nazivIzvora": "Spomenik streljanim đacima i profesorima, Spomen–park „Kragujevački oktobar”, Kragujevac",
+      "godinaIzvora": "1963",
+      "umetniciIzvora": [
+        "Miodrag Živković"
+      ],
+      "brojFotografija": 7,
+      "cilj": "kragujevac-sumarice-park",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7706,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-nosenje-ranjenika-gnjilane/",
+      "nazivIzvora": "Spomenik Nošenje ranjenika, Gnjilane",
+      "godinaIzvora": "1963",
+      "umetniciIzvora": [
+        "Ante Gržetić"
+      ],
+      "brojFotografija": 1,
+      "cilj": "gjilan-gnjilane",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7702,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomen-park-bubanj-nis/",
+      "nazivIzvora": "Spomen–park „Bubanj”, Niš",
+      "godinaIzvora": "1963",
+      "umetniciIzvora": [
+        "Ivan Sabolić"
+      ],
+      "brojFotografija": 8,
+      "cilj": "nis",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7739,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-nikoli-tesli-begrad/",
+      "nazivIzvora": "Spomenik Nikoli Tesli, Beograd",
+      "godinaIzvora": "1963",
+      "umetniciIzvora": [
+        "Frano Kršinić"
+      ],
+      "brojFotografija": 1,
+      "cilj": null,
+      "odluka": "Nikola Tesla: nema konkretne NOB posvete."
+    },
+    {
+      "objava": 7598,
+      "url": "https://skulptura-hronologijaizlaganja.rs/jovan-soldatovic-spomenik-borcima-sajkaskog-odreda/",
+      "nazivIzvora": "Spomenik borcima Šajkaškog odreda, Žabalj",
+      "godinaIzvora": "1962",
+      "umetniciIzvora": [
+        "Jovan Soldatović"
+      ],
+      "brojFotografija": 7,
+      "cilj": "zabalj",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7708,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-streljanim-partizanima-zlatibor/",
+      "nazivIzvora": "Spomenik žrtvama fašizma (Spomenik streljanim partizanima), Zlatibor",
+      "godinaIzvora": "1962",
+      "umetniciIzvora": [
+        "Ana Bešlić"
+      ],
+      "brojFotografija": 2,
+      "cilj": "zlatibor",
+      "odluka": "upareno",
+      "ogranicenje": "Zadržano 1967 prema TO Zlatibor: kosturnica 1961, obelisk 1967; nije 1962."
+    },
+    {
+      "objava": 7703,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-josipu-brozu-titu-uzice/",
+      "nazivIzvora": "Spomenik Josipu Brozu Titu, Užice",
+      "godinaIzvora": "1962",
+      "umetniciIzvora": [
+        "Frano Kršinić"
+      ],
+      "brojFotografija": 15,
+      "cilj": "uzice-spomenik-josipu-brozu-titu",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7735,
+      "url": "https://skulptura-hronologijaizlaganja.rs/dva-spomenika-poginulim-radnicima-fabrike-oruzja-uzice/",
+      "nazivIzvora": "Dva spomenika poginulim radnicima u Partizanskoj fabrici oružja i municije, Užice",
+      "godinaIzvora": "1961",
+      "umetniciIzvora": [
+        "Nebojša Mitrić",
+        "Boris Anastasijević"
+      ],
+      "brojFotografija": 2,
+      "cilj": "uzice-spomenik-poginulima-u-fabrici-oruzja",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 23815,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-radnoj-akciji-seca-drva-1945-crni-vrh-kod-bora/",
+      "nazivIzvora": "Spomenik Radnoj akciji – seča drva 1945, Crni vrh kod Bora",
+      "godinaIzvora": "1961",
+      "umetniciIzvora": [
+        "Milica Ribnikar"
+      ],
+      "brojFotografija": 7,
+      "cilj": "crni-vrh",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7705,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-bratstva-i-jedinstva-pristina/",
+      "nazivIzvora": "Spomenik bratstva i jedinstva (Spomenik NOB-u Naroda Kosova i Metohije), Priština",
+      "godinaIzvora": "1961",
+      "umetniciIzvora": [
+        "Miodrag Živković"
+      ],
+      "brojFotografija": 4,
+      "cilj": "pristina-prishtine-brotherhood-unity",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7710,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-otporu-ada/",
+      "nazivIzvora": "Spomenik otporu, Ada",
+      "godinaIzvora": "1961",
+      "umetniciIzvora": [
+        "Aleksandar Zarin"
+      ],
+      "brojFotografija": 2,
+      "cilj": "ada",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7689,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-borcima-kikinda/",
+      "nazivIzvora": "Spomenik palim borcima, Kikinda",
+      "godinaIzvora": "1961",
+      "umetniciIzvora": [
+        "Aleksandar Zarin"
+      ],
+      "brojFotografija": 12,
+      "cilj": "kikinda-victims-fascism",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7715,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-stjepanu-filipovicu-valjevo/",
+      "nazivIzvora": "Spomenik Stjepanu Filipoviću, Valjevo",
+      "godinaIzvora": "1960",
+      "umetniciIzvora": [
+        "Vojin Bakić"
+      ],
+      "brojFotografija": 4,
+      "cilj": "valjevo-stjepan-filipovic",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7584,
+      "url": "https://skulptura-hronologijaizlaganja.rs/bogdan-bogdanovic-spomen-groblje-zrtvama-fasizma/",
+      "nazivIzvora": "Spomen-groblje žrtvama fašizma, Sremska Mitrovica",
+      "godinaIzvora": "1960",
+      "umetniciIzvora": [
+        "Bogdan Bogdanović"
+      ],
+      "brojFotografija": 22,
+      "cilj": "sremska-mitrovitca",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7725,
+      "url": "https://skulptura-hronologijaizlaganja.rs/umjetnost-u-revoluciji-moderna-galerija-jazu-zagreb-27-decembar/",
+      "nazivIzvora": "Umjetnost u revoluciji",
+      "godinaIzvora": "1959",
+      "umetniciIzvora": [
+        "Kosta Angeli Radovani",
+        "Antun Augustinčić",
+        "Vojin Bakić",
+        "Stojan Batič",
+        "Dušan Džamonja",
+        "Nandor Glid",
+        "Olga Jančić",
+        "Olga Jevrić",
+        "Vida Jocić",
+        "Boris Kalin",
+        "Milena Lah",
+        "Vanja Radauš",
+        "Ivan Sabolić",
+        "Sreten Stojanović",
+        "Drago Tršar",
+        "Aleksandar Zarin"
+      ],
+      "brojFotografija": 0,
+      "cilj": null,
+      "odluka": "Izložba, nije jedan novi lokalitet."
+    },
+    {
+      "objava": 7685,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-bola-i-prkosa-spomen-park-kragujevacki-oktobar-kragujevac/",
+      "nazivIzvora": "Spomenik bola i prkosa, Spomen-park „Kragujevački oktobar”, Kragujevac",
+      "godinaIzvora": "1959",
+      "umetniciIzvora": [
+        "Ante Gržetić"
+      ],
+      "brojFotografija": 7,
+      "cilj": "kragujevac-spomenik-bola-i-prkosa",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7732,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-zrtvama-fasistickog-terora-pecinci/",
+      "nazivIzvora": "Spomenik žrtvama fašističkog terora, Pećinci",
+      "godinaIzvora": "1957",
+      "umetniciIzvora": [
+        "Aleksandar Zarin"
+      ],
+      "brojFotografija": 1,
+      "cilj": "pecinci",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7713,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-rudarima-1941-1945-raska/",
+      "nazivIzvora": "Spomenik palim rudarima 1941–1945, Baljevac (Raška)",
+      "godinaIzvora": "1956",
+      "umetniciIzvora": [
+        "Nandor Glid"
+      ],
+      "brojFotografija": 1,
+      "cilj": "baljevac",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7733,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-borcima-u-narodnooslobodilackom-ratu-1941-1945-raska/",
+      "nazivIzvora": "Spomenik palim borcima u Narodnooslobodilačkom ratu 1941–1945, Raška",
+      "godinaIzvora": "1955",
+      "umetniciIzvora": [
+        "Nandor Glid"
+      ],
+      "brojFotografija": 2,
+      "cilj": "raska",
+      "odluka": "upareno",
+      "ogranicenje": "Neusaglašeno: izvor Nandor Glid/1955, naš zapis Miodrag Živković/1953, retrospektiva Moderne galerije Lazarevac navodi Živkovićevog Borca u Raškoj 1959. Ista fotografisana figura; bez dodatnog dokaza autor i godina nisu menjani."
+    },
+    {
+      "objava": 7714,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-otpora-i-pobede-kraljevo/",
+      "nazivIzvora": "Spomenik otpora i pobede, Kraljevo",
+      "godinaIzvora": "1955",
+      "umetniciIzvora": [
+        "Lojze Dolinar"
+      ],
+      "brojFotografija": 2,
+      "cilj": "kraljevo-resistance-torment",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7682,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-zrtvama-fasizma-majka-i-dete-aleksandrovo-kod-subotice/",
+      "nazivIzvora": "Spomenik žrtvama fašizma – Majka i dete, Aleksandrovo kod Subotice",
+      "godinaIzvora": "1955",
+      "umetniciIzvora": [
+        "Ana Bešlić"
+      ],
+      "brojFotografija": 3,
+      "cilj": "subotica-aleksandrovo-spomenik-palim-borcima-i-zrt",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 23761,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomen-kosturnica-palim-borcima-i-zrtvama-fasizma-obrenovac/",
+      "nazivIzvora": "Spomen-kosturnica palim borcima i žrtvama fašizma, Obrenovac",
+      "godinaIzvora": "1954",
+      "umetniciIzvora": [
+        "Milovan Krstić"
+      ],
+      "brojFotografija": 4,
+      "cilj": "obrenovac",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7544,
+      "url": "https://skulptura-hronologijaizlaganja.rs/otvoren-memorijalni-kompleks-spomen-groblje-oslobodilaca-beograda/",
+      "nazivIzvora": "Memorijalni kompleks spomen-groblje oslobodilaca Beograda 1944.",
+      "godinaIzvora": "1954",
+      "umetniciIzvora": [
+        "Radeta Stanković",
+        "Antun Augustinčić"
+      ],
+      "brojFotografija": 5,
+      "cilj": "belgrade",
+      "odluka": "upareno",
+      "ogranicenje": "Zadržan Branko Bon kao arhitekta celine; autori reljefa i pojedinačne statue nisu zamena za njega."
+    },
+    {
+      "objava": 7677,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-borcima-u-narodnoj-revoluciji-1941-1945-delo-jovana-kratohvila/",
+      "nazivIzvora": "Spomenik palim borcima u narodnoj revoluciji 1941–1945, Zemun",
+      "godinaIzvora": "1954",
+      "umetniciIzvora": [
+        "Jovan Kratohvil"
+      ],
+      "brojFotografija": 3,
+      "cilj": "zemun-fallen-fighters",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7678,
+      "url": "https://skulptura-hronologijaizlaganja.rs/skulptura-partizanski-kurir-delo-stevana-bodnarova/",
+      "nazivIzvora": "Spomenik partizanskom kuriru, Stolice kod Krupnja",
+      "godinaIzvora": "1954",
+      "umetniciIzvora": [
+        "Stevan Bodnarov"
+      ],
+      "brojFotografija": 4,
+      "cilj": "brstica",
+      "odluka": "upareno",
+      "ogranicenje": "Pojedinačni Partizanski kurir 1954 nije cela savremena celina Stolice 1981; autor i godina parka nisu prepisani."
+    },
+    {
+      "objava": 18802,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-borcima-za-slobodu-1941-1945-batajnica/",
+      "nazivIzvora": "Spomenik palim borcima za slobodu 1941—1945, Batajnica",
+      "godinaIzvora": "1954",
+      "umetniciIzvora": [
+        "Ljubinka Savić Grasi (Grassi)"
+      ],
+      "brojFotografija": 2,
+      "cilj": "beograd-batajnica",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 23871,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-borcima-nor-a-melenci/",
+      "nazivIzvora": "Spomenik palim borcima NOR-a, Melenci",
+      "godinaIzvora": "1954",
+      "umetniciIzvora": [
+        "Miodrag Miša Popović"
+      ],
+      "brojFotografija": 8,
+      "cilj": "melenci-fallen-fighters",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7864,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-prvoborcu-bela-crkva/",
+      "nazivIzvora": "Spomenik Prvoborcu, Bela Crkva",
+      "godinaIzvora": "1954",
+      "umetniciIzvora": [
+        "Sreten Stojanović"
+      ],
+      "brojFotografija": 12,
+      "cilj": "bela-crkva-victory",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7676,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-prijepoljskoj-bici-delo-lojze-dolinara/",
+      "nazivIzvora": "Spomenik Prijepoljskoj bici, Prijepolje",
+      "godinaIzvora": "1954",
+      "umetniciIzvora": [
+        "Lojze Dolinar"
+      ],
+      "brojFotografija": 2,
+      "cilj": "prijepolje",
+      "odluka": "upareno",
+      "ogranicenje": "Zadržano 1953 prema Slovenskoj biografiji i katalogu iz 1968 (1952–53), ne 1954 iz kategorije."
+    },
+    {
+      "objava": 19958,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-borcima-i-zrtvama-fasistickog-terora-stari-banovci/",
+      "nazivIzvora": "Spomenik palim borcima i žrtvama fašističkog terora, Stari Banovci",
+      "godinaIzvora": "1953",
+      "umetniciIzvora": [
+        "Ljubinka Savić Grasi (Grassi)"
+      ],
+      "brojFotografija": 1,
+      "cilj": "stari-banovci-slobodan-savkovic",
+      "odluka": "upareno",
+      "ogranicenje": "Zadržan postojeći naziv Slobodanu Savkoviću; širi naziv posvete iz kataloga sačuvan u ovom izveštaju."
+    },
+    {
+      "objava": 7674,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-borcima-i-zrtvama-fasizma-u-subotici-delo-tome-rosandica/",
+      "nazivIzvora": "Spomenik palim borcima i žrtvama fašizma, Subotica",
+      "godinaIzvora": "1952",
+      "umetniciIzvora": [
+        "Toma Rosandić"
+      ],
+      "brojFotografija": 12,
+      "cilj": "victims-of-fascism-square",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7537,
+      "url": "https://skulptura-hronologijaizlaganja.rs/otkriven-spomenik-jevrejskim-zrtvama-fasizma-i-palim-borcima-na-jevrejskom-groblju-u-beogradu-bogdana-bogdanovica/",
+      "nazivIzvora": "Spomenik jevrejskim žrtvama fašizma na Sefardskom groblju, Beograd",
+      "godinaIzvora": "1952",
+      "umetniciIzvora": [
+        "Bogdan Bogdanović"
+      ],
+      "brojFotografija": 3,
+      "cilj": "belgrade-cemetery",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7675,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-borcima-narodnooslobodilacke-vojske-jugoslavije-delo-stevana-bodnarova/",
+      "nazivIzvora": "Spomenik palim borcima Narodnooslobodilačke vojske Jugoslavije, Bajina Bašta",
+      "godinaIzvora": "1952",
+      "umetniciIzvora": [
+        "Stevan Bodnarov"
+      ],
+      "brojFotografija": 1,
+      "cilj": "bajina-basta-spomenik-palim-borcima",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 24021,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-zrtvama-fasistickog-terora-grgurevci/",
+      "nazivIzvora": "Spomenik palim žrtvama fašističkog terora, Grgurevci",
+      "godinaIzvora": "1952",
+      "umetniciIzvora": [],
+      "brojFotografija": 1,
+      "cilj": "grgurevci",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7673,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-obalskim-radnicima-delo-radete-stankovica/",
+      "nazivIzvora": "Spomenik palim obalskim radnicima, Beograd",
+      "godinaIzvora": "1952",
+      "umetniciIzvora": [
+        "Radeta Stanković"
+      ],
+      "brojFotografija": 1,
+      "cilj": "beograd-spomenik-obalskim-radnicima-palim-u-nob-u",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7535,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-sloboda-na-fruskoj-gori-sretena-stojanovica/",
+      "nazivIzvora": "Spomenik Sloboda, Iriški venac",
+      "godinaIzvora": "1951",
+      "umetniciIzvora": [
+        "Sreten Stojanović"
+      ],
+      "brojFotografija": 12,
+      "cilj": "iriski-venac",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7672,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-vasi-carapicu-delo-radete-stankovica/",
+      "nazivIzvora": "Spomenik Vasi Čarapiću, Beograd",
+      "godinaIzvora": "1951",
+      "umetniciIzvora": [
+        "Radeta Stanković"
+      ],
+      "brojFotografija": 1,
+      "cilj": null,
+      "odluka": "Vasa Čarapić: Prvi srpski ustanak."
+    },
+    {
+      "objava": 23929,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-jovanu-popovicu/",
+      "nazivIzvora": "Spomenik Jovanu Popoviću",
+      "godinaIzvora": "1950",
+      "umetniciIzvora": [
+        "Aleksandar Zarin"
+      ],
+      "brojFotografija": 6,
+      "cilj": null,
+      "odluka": "Jovan Popović: spomenik književniku, bez potvrđene konkretne NOB posvete."
+    },
+    {
+      "objava": 7669,
+      "url": "https://skulptura-hronologijaizlaganja.rs/skulpture-obnova-delo-vajara-lojze-dolinara-i-borba-delo-vajara-sretena-stojanovica/",
+      "nazivIzvora": "Skulpture „Obnova” i „Borba”, Beograd",
+      "godinaIzvora": "1949",
+      "umetniciIzvora": [
+        "Lojze Dolinar",
+        "Sreten Stojanović"
+      ],
+      "brojFotografija": 3,
+      "cilj": null,
+      "odluka": "sačuvani odvojeni kandidati"
+    },
+    {
+      "objava": 7531,
+      "url": "https://skulptura-hronologijaizlaganja.rs/otkrivanje-spomenika-narodnom-heroju-janku-cmeliku-1948-stevana-bodnarova-gradski-park-u-staroj-pazovi/",
+      "nazivIzvora": "Spomenik narodnom heroju Janku Čmeliku u Staroj Pazovi",
+      "godinaIzvora": "1949",
+      "umetniciIzvora": [
+        "Stevan Bodnarov"
+      ],
+      "brojFotografija": 3,
+      "cilj": "stara-pazova",
+      "odluka": "upareno",
+      "ogranicenje": "Zadržano 1948: i sam opis izvora navodi 1948, hronološka rubrika je 1949."
+    },
+    {
+      "objava": 7530,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-streljanima-poziv-na-ustanak-postavljen-u-beogradu/",
+      "nazivIzvora": "Spomenik streljanima (Poziv na ustanak), Beograd",
+      "godinaIzvora": "1949",
+      "umetniciIzvora": [
+        "Vojin Bakić"
+      ],
+      "brojFotografija": 2,
+      "cilj": "beograd-poziv-na-ustanak",
+      "odluka": "upareno",
+      "ogranicenje": "Dedinje nije vojnomuzejski odlivak. Godina 1950 i tačka iz OSM-a/Vikipedije; istorijska tačka izvora udaljena oko 150 m nije preuzeta."
+    },
+    {
+      "objava": 7660,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-dimitriju-tucovicu-na-beogradskom-trgu-slavija-stevana-bodnarova/",
+      "nazivIzvora": "Spomenik Dimitriju Tucoviću, Beograd",
+      "godinaIzvora": "1949",
+      "umetniciIzvora": [
+        "Stevan Bodnarov"
+      ],
+      "brojFotografija": 2,
+      "cilj": null,
+      "odluka": "Dimitrije Tucović: Prvi svetski rat."
+    },
+    {
+      "objava": 7527,
+      "url": "https://skulptura-hronologijaizlaganja.rs/svecano-otkrivena-grobnica-narodnih-heroja-na-kalemegdanu/",
+      "nazivIzvora": "Grobnica narodnih heroja u Beogradu",
+      "godinaIzvora": "1948",
+      "umetniciIzvora": [
+        "Stevan Bodnarov",
+        "Slavoljub Vava Stanković"
+      ],
+      "brojFotografija": 3,
+      "cilj": "beograd-grobnica-narodnih-heroja",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7734,
+      "url": "https://skulptura-hronologijaizlaganja.rs/spomenik-zahvalnosti-crvenoj-armiji-batinska-skela-hr/",
+      "nazivIzvora": "Spomenik zahvalnosti Crvenoj armiji, Batina (HR)",
+      "godinaIzvora": "1947",
+      "umetniciIzvora": [
+        "Antun Augustinčić"
+      ],
+      "brojFotografija": 2,
+      "cilj": "batina",
+      "odluka": "upareno"
+    },
+    {
+      "objava": 7526,
+      "url": "https://skulptura-hronologijaizlaganja.rs/skulpture-bombas-vanje-radausa-i-talac-borisa-kalina-postavljene-u-gradskom-parku-u-zemunu/",
+      "nazivIzvora": "Spomenik partizanskom borcu i Spomenik kožarskom radniku, Zemun",
+      "godinaIzvora": "1946",
+      "umetniciIzvora": [
+        "Vanja Radauš",
+        "Boris Kalin"
+      ],
+      "brojFotografija": 2,
+      "cilj": "zemun-bombas",
+      "odluka": "upareno",
+      "ogranicenje": "Vanja Radauš je autor Bombaša; Boris Kalin drugog dela Talac/Kožarski radnik. Nije dodat kao koautor Bombaša."
+    }
+  ],
+  "fotografijeUpisane": [
+    {
+      "id": "kolasin-spomenik-veljku-vlahovicu",
+      "putanja": "slike/spomenici/kolasin-spomenik-veljku-vlahovicu.webp",
+      "potpis": "Tatjana Panić, Hronologija izlaganja skulpture u Srbiji",
+      "izvorniPodaci": {
+        "url": "https://skulptura-hronologijaizlaganja.rs/h-content/uploads/2026/04/IMG_20250430_103344-hronologijaizlaganja.jpg",
+        "potpis": "Oto Logo, Spomenik Veljku Vlahoviću , 1989, Kolašin (foto: Tatjana Panić, april 2025)",
+        "izvorniLinkovi": []
+      }
+    },
+    {
+      "id": "grgurevci",
+      "putanja": "slike/spomenici/grgurevci.webp",
+      "potpis": "Svetlana Subašić, Hronologija izlaganja skulpture u Srbiji",
+      "izvorniPodaci": {
+        "url": "https://skulptura-hronologijaizlaganja.rs/h-content/uploads/1952/06/spomenik-palim-zrtvama-fasistickog-terora-grgurevci-hronologijaizlaganja.jpg",
+        "potpis": "Nepoznati autor, Spomenik palim žrtvama fašističkog terora , Grgurevci, 1952. (foto: Svetlana Subašić, 2020.)",
+        "izvorniLinkovi": []
+      }
+    },
+    {
+      "id": "kikinda-spomenik-internircima",
+      "putanja": "slike/spomenici/kikinda-spomenik-internircima.webp",
+      "potpis": "Tatjana Panić, Hronologija izlaganja skulpture u Srbiji",
+      "izvorniPodaci": {
+        "url": "https://skulptura-hronologijaizlaganja.rs/h-content/uploads/2025/06/IMG_20210605_135026-hronologijaizlaganja.jpg",
+        "potpis": "Slobodan Kojić, Spomenik kikindskim internircima , 1975, Kikinda (foto: Tatjana Panić, jun 2021)",
+        "izvorniLinkovi": []
+      }
+    },
+    {
+      "id": "curug-majka-i-dete",
+      "putanja": "slike/spomenici/curug-majka-i-dete.webp",
+      "potpis": "Tatjana Panić, Hronologija izlaganja skulpture u Srbiji",
+      "izvorniPodaci": {
+        "url": "https://skulptura-hronologijaizlaganja.rs/h-content/uploads/2025/06/IMG_20210425_135617-hronologijaizlaganja.jpg",
+        "potpis": "Jovan Soldatović, Majka i dete (Materinstvo) , 1967, Čurug (foto: Tatjana Panić, april 2021)",
+        "izvorniLinkovi": []
+      }
+    },
+    {
+      "id": "bajina-basta-spomenik-palim-borcima",
+      "putanja": "slike/spomenici/bajina-basta-spomenik-palim-borcima.webp",
+      "potpis": "Hronologija izlaganja skulpture u Srbiji",
+      "izvorniPodaci": {
+        "url": "https://skulptura-hronologijaizlaganja.rs/h-content/uploads/1952/09/https-skulptura-hronologijaizlaganja-rs-spomenik-palim-borcima-narodnooslobodilacke-vojske-jugoslavije-delo-stevana-bodnarova-hronologijaizlaganja.jpg",
+        "potpis": "Stevan Bodnarov, Spomenik palim borcima Narodnooslobodilačke vojske Jugoslavije, 1952, Bajina Bašta (foto: link )",
+        "izvorniLinkovi": [
+          {
+            "url": "https://sr.wikipedia.org/wiki/%D0%91%D0%B0%D1%98%D0%B8%D0%BD%D0%B0_%D0%91%D0%B0%D1%88%D1%82%D0%B0#/media/%D0%94%D0%B0%D1%82%D0%BE%D1%82%D0%B5%D0%BA%D0%B0:BajinaBastaWWIIMonument.jpg",
+            "tekst": "link"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uzice-spomenik-poginulima-u-fabrici-oruzja",
+      "putanja": "slike/spomenici/uzice-spomenik-poginulima-u-fabrici-oruzja.webp",
+      "potpis": "Baština Užica / Narodni muzej Užice, Hronologija izlaganja skulpture u Srbiji",
+      "izvorniPodaci": {
+        "url": "https://skulptura-hronologijaizlaganja.rs/h-content/uploads/1961/07/https-skulptura-hronologijaizlaganja-rs-dva-spomenika-poginulim-radnicima-fabrike-oruzja-uzice-hronologijaizlaganja-1.jpg",
+        "potpis": "Boris Anastasijević, Spomenik poginulim radnicima u Partizanskoj fabrici oružja i municije , 1961, Užice (foto: link )",
+        "izvorniLinkovi": [
+          {
+            "url": "https://bastinauzica.weebly.com/10571087108610841077108510801082-1087108610751080108510911083108010841072-1091-1092107210731088108010941080-108610881091107811121072.html",
+            "tekst": "link"
+          }
+        ]
+      }
+    }
+  ],
+  "fotografijaCommons": {
+    "id": "beograd-poziv-na-ustanak",
+    "url": "https://commons.wikimedia.org/wiki/File:Skulptura_Poziv_na_ustanak.jpg",
+    "autor": "Pavle Marjanović",
+    "licenca": "CC BY-SA 3.0",
+    "datumSnimka": "2018-05-03"
+  },
+  "datumiSnimaka": {
+    "23961": "april 2025",
+    "24021": "2020",
+    "23901": "jun 2021",
+    "23854": "april 2021"
+  },
+  "ogranicenja": [
+    "Datum objave i datum upload-a nisu dokaz novog obilaska. Ne tvrdi se savremeni opstanak na osnovu nedatirane slike ili samog OSM markera.",
+    "Za već fotografisane spomenike zadržane postojeće slike i njihove licence. Nepoznata licenca sa sajta nije predstavljena kao CC.",
+    "Raška ostaje otvoren sukob izvora o autoru i godini; Borba/Obnova i unutrašnje delo u Užicu ostaju dokumentovani kandidati."
+  ],
+  "provera": {
+    "integritet": "prošao; tri nova bliska para proverene su zasebne skulpture uz muzej ili drugi spomenik",
+    "nezavisneIstovremenePromene": [
+      "becmen-spomenik-palim-borcima",
+      "dobric-spomenik-palim-borcima",
+      "kornic-spomenik-palim-borcima-i-zrtvama-fasizma",
+      "kraljevo-spomenik-oslobodiocima-kraljeva",
+      "krapina-spomenik-palim-borcima-i-zrtvama-fasizma",
+      "perna-spomenik-palim-borcima-i-civilnim-zrtvama",
+      "sibenik-spomenik-palim-borcima-i-zrtvama-fasistick"
+    ],
+    "testoviAplikacije": "15/15",
+    "testoviIntegriteta": "9/9",
+    "obradaSlika": "400 px WebP, metapodaci očišćeni, male slike i odnosi pripremljeni",
+    "telefon": "390 × 844: Kolašin, kikindski internirci, Užice; fotografije učitane i snimci vizuelno pregledani",
+    "audit": "Pet dodatih, nijedan uklonjen marker; tačka promenjena samo Titu u Užicu. Postojeći CID-ovi, izvori, stanja i ostale tačke sačuvani. Jedan radni zapis prebačen; aktivne veze preindeksirane."
+  }
+}

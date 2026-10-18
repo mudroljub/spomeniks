@@ -18,6 +18,7 @@ Svi preuzeti izvori i njihove tekstualne/stranične izvedenice čuvaju se ovde. 
 - `knjige/jokic-1986/tekst.txt`, `knjige/jokic-1986/strane/`; isto za Šibenik, dok je Krapina u `knjige/krapina-1966/`
 - `cg/` zadržava ranija imena datoteka
 - `pretrage/<raniji-naziv-temp-foldera>/` zadržava nazive preuzetih odgovora
+- `skulptura-hronologija/` — svih 83 objave kategorije Spomenička skulptura (7 stranica), mapa 80 tačaka, izdvojeni podaci i 423 reference na galerijske fotografije sa potpisima; 28 fotografija preuzeto za pregled, OSM/Commons/Google provere i snimci pre upisa. Rezultati su u `data/provere/skulptura-hronologija-2026-10-18.json`.
 
 `KONSOLIDACIJA.json` beleži izvornu i novu putanju, SHA-256, veličinu i ishod za svaku premeštenu ili uklonjenu kopiju. Datoteke su uklanjane sa stare lokacije tek nakon provere identičnog sadržaja na novoj. Numerisane strane i OCR ostaju na svojim logičkim putanjama i kada dve strane imaju isti sadržaj.
 

@@ -33,7 +33,7 @@
     "naziv": "Spomenik Kosmajskom partizanskom odredu",
     "nazivEn": "Monument to the Kosmaj Detachment",
     "godina": "1971",
-    "autor": "Vojin Stojić",
+    "autor": "Vojin Stojić & Gradimir Medaković",
     "posveta": [
       "Q11117229"
     ],
@@ -113,8 +113,8 @@
     "slikaOdnos": 1.778,
     "naziv": "Spomenik borcima Radničkog bataljona Kadinjača",
     "nazivEn": "Kadinjača Memorial Complex",
-    "godina": "1952",
-    "autor": "Miodrag Živković",
+    "godina": "1979",
+    "autor": "Miodrag Živković & Aleksandar Đokić",
     "posveta": [
       "Q12956415"
     ],
@@ -280,7 +280,7 @@
     "naziv": "Spomenik hrabrosti",
     "nazivEn": "Monument to Courage",
     "godina": "1969",
-    "autor": "Miodrag Živković",
+    "autor": "Miodrag Živković & Svetislav Ličina",
     "vrsta": "istaknut",
     "drzava": "Serbia"
   },
@@ -2052,7 +2052,7 @@
     "naziv": "Spomenik streljanim partizanima",
     "nazivEn": "Monument on Šumatno Hill",
     "godina": "1967",
-    "autor": "Ana Bešlić",
+    "autor": "Ana Bešlić & Jovanka Jeftanović",
     "vrsta": "istaknut",
     "drzava": "Serbia"
   },
@@ -3048,7 +3048,7 @@
     "slikaOdnos": 1.333,
     "naziv": "Spomenik Kikindskom partizanskom odredu",
     "nazivEn": "Monument to the Kikinda Detachment",
-    "godina": "1964",
+    "godina": "1966",
     "autor": "Rudolf Matutinović",
     "vrsta": "spomenik",
     "drzava": "Serbia"
@@ -6332,7 +6332,7 @@
     "slikaOdnos": 1.067,
     "naziv": "Spomenik Batinskoj bitci",
     "nazivEn": "Battle of Batina Monument",
-    "godina": "1946",
+    "godina": "1947",
     "autor": "Antun Augustinčić & Srećko Lončarević",
     "posveta": [
       "Q2338734"
@@ -7889,7 +7889,7 @@
     "slikaOdnos": 1.504,
     "naziv": "Spomenik žrtvama racije",
     "nazivEn": "Memorial to 1942 Raid Victims",
-    "godina": "1970",
+    "godina": "1985",
     "autor": "Jovan Soldatović",
     "vrsta": "statua",
     "drzava": "Serbia"
@@ -10276,7 +10276,7 @@
     "slikaOdnos": 1.329,
     "naziv": "Spomenik palim borcima",
     "nazivEn": "Monument to Fallen Fighters",
-    "godina": "1953",
+    "godina": "1954",
     "autor": "Miodrag Miša Popović",
     "vrsta": "statua",
     "drzava": "Serbia"
@@ -10409,6 +10409,7 @@
     "naziv": "Spomenik NOR-a „Borovo brdo”",
     "nazivEn": "Monument to the First Rača Partisan Comp.",
     "godina": "1967",
+    "posveta": "Formiranju Prve račanske partizanske čete 3. avgusta 1941.",
     "vrsta": "spomenik",
     "drzava": "Serbia"
   },
@@ -10898,6 +10899,7 @@
     "nazivEn": "Mem. Crypt to Fallen Fighters & Victims",
     "godina": "1954",
     "autor": "Milovan Krstić & Bratislav Stojanović",
+    "posveta": "Za 27 poginulih boraca Posavskog partizanskog odreda, sahranjenih u kripti.",
     "vrsta": "spomenik",
     "drzava": "Serbia"
   },
@@ -12520,7 +12522,7 @@
     "slikaOdnos": 1.429,
     "naziv": "Spomenik palim rudarima",
     "nazivEn": "Monument to Fallen Miners",
-    "godina": "1951",
+    "godina": "1956",
     "autor": "Nandor Glid",
     "vrsta": "statua",
     "drzava": "Serbia"
@@ -13615,6 +13617,8 @@
     "slikaOdnos": 0.667,
     "slikaPotpis": "Ванилица, CC BY-SA 4.0",
     "naziv": "Spomenik Dušanu Jerkoviću",
+    "godina": "1987",
+    "autor": "Oto Logo",
     "posveta": [
       "Q12751323"
     ],
@@ -14028,6 +14032,7 @@
     "slikaPotpis": "Pinki, Public domain",
     "naziv": "Grobnica narodnih heroja",
     "godina": "1948",
+    "autor": "Bogdan Ignjatović",
     "posveta": [
       "Q1265884",
       "Q1267791",
@@ -19970,6 +19975,7 @@
     "naziv": "Spomenik NOB",
     "godina": "1969",
     "autor": "Milan Pališaški",
+    "posveta": "Mestu ilegalnog prelaza preko Dunava između Čelareva i Bačke Palanke.",
     "vrsta": "lokalni",
     "drzava": "Serbia"
   },
@@ -22090,9 +22096,14 @@
     },
     "googleCid": "8630590346234385102",
     "mesto": "Grgurevci",
-    "naziv": "Spomenik NOB",
+    "izvor": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-zrtvama-fasistickog-terora-grgurevci/",
+    "slika": "slike/spomenici/grgurevci.webp",
+    "slikaOdnos": 0.485,
+    "slikaPotpis": "Svetlana Subašić, Hronologija izlaganja skulpture u Srbiji",
+    "naziv": "Spomenik palim žrtvama fašističkog terora",
     "godina": "1952",
-    "vrsta": "lokalni",
+    "posveta": "Meštanima Grgurevaca streljanim 5. juna 1942.",
+    "vrsta": "statua",
     "drzava": "Serbia"
   },
   {
@@ -28737,9 +28748,10 @@
   {
     "id": "kraljevo-spomenik-oslobodiocima-kraljeva",
     "koordinate": {
-      "lat": 43.7203016,
-      "lng": 20.690744
+      "lat": 43.7200661,
+      "lng": 20.6906908
     },
+    "googleCid": "8037233627310111975",
     "mesto": "Kraljevo",
     "izvor": "https://znaci.org/00003/920.pdf#page=186",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BE%D1%81%D0%BB%D0%BE%D0%B1%D0%BE%D0%B4%D0%B8%D0%BE%D1%86%D0%B8%D0%BC%D0%B0_%D0%9A%D1%80%D0%B0%D1%99%D0%B5%D0%B2%D0%B0",
@@ -28919,6 +28931,8 @@
     "slikaPotpis": "Andrija1234567, GFDL 1.2+",
     "naziv": "Spomenik Slobodanu Savkoviću",
     "nazivEn": "Monument to Slobodan Savković",
+    "godina": "1953",
+    "autor": "Ljubinka Savić Grasi",
     "vrsta": "spomenik",
     "drzava": "Serbia"
   },
@@ -69042,6 +69056,9 @@
     },
     "mesto": "Kolašin",
     "izvor": "https://skulptura-hronologijaizlaganja.rs/spomenik-veljku-vlahovicu-kolasin/",
+    "slika": "slike/spomenici/kolasin-spomenik-veljku-vlahovicu.webp",
+    "slikaOdnos": 0.46,
+    "slikaPotpis": "Tatjana Panić, Hronologija izlaganja skulpture u Srbiji",
     "naziv": "Spomenik Veljku Vlahoviću",
     "godina": "1989",
     "autor": "Oto Logo",
@@ -69074,8 +69091,8 @@
   {
     "id": "uzice-spomenik-josipu-brozu-titu",
     "koordinate": {
-      "lat": 43.8565416,
-      "lng": 19.8401931
+      "lat": 43.8544791,
+      "lng": 19.8466763
     },
     "mesto": "Užice",
     "izvor": "https://skulptura-hronologijaizlaganja.rs/spomenik-josipu-brozu-titu-uzice/",
@@ -90728,12 +90745,15 @@
   {
     "id": "perna-spomenik-palim-borcima-i-civilnim-zrtvama",
     "koordinate": {
-      "lat": 45.28427,
-      "lng": 15.87634
+      "lat": 45.2878607,
+      "lng": 15.8685953
     },
-    "priblizno": true,
+    "googleCid": "7571802725779143848",
     "mesto": "Perna",
     "izvor": "https://znaci.org/00003/736.php?broj=384",
+    "slika": "slike/spomenici/perna-spomenik-palim-borcima-i-civilnim-zrtvama.webp",
+    "slikaOdnos": 2.222,
+    "slikaPotpis": "Google Maps",
     "naziv": "Spomenik palim borcima i civilnim žrtvama",
     "stanje": "srusen",
     "stanjeIzvor": {
@@ -93480,5 +93500,178 @@
     "natpis": "Ai caduti nella lotta antifascista e nella guerra di liberazione / Padlim v antifašistični borbi in v osvobodilni vojni / Muggia 25. 4. 1965 Milje",
     "vrsta": "spomenik",
     "drzava": "Italy"
+  },
+  {
+    "id": "kikinda-spomenik-internircima",
+    "koordinate": {
+      "lat": 45.8314021,
+      "lng": 20.4657168
+    },
+    "googleCid": "8393018289707648275",
+    "mesto": "Kikinda",
+    "izvor": "https://skulptura-hronologijaizlaganja.rs/spomenik-kikindskim-internircima-kikinda/",
+    "slika": "slike/spomenici/kikinda-spomenik-internircima.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Tatjana Panić, Hronologija izlaganja skulpture u Srbiji",
+    "naziv": "Spomenik kikindskim internircima",
+    "godina": "1975",
+    "autor": "Slobodan Kojić",
+    "posveta": "Za 46 Kikinđana deportovanih 6. maja 1942. u koncentracione logore u Norveškoj.",
+    "vrsta": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "curug-majka-i-dete",
+    "koordinate": {
+      "lat": 45.4731875,
+      "lng": 20.0704375
+    },
+    "mesto": "Čurug",
+    "izvor": "https://skulptura-hronologijaizlaganja.rs/spomenik-majka-i-dete-materinstvo-curug/",
+    "slika": "slike/spomenici/curug-majka-i-dete.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Tatjana Panić, Hronologija izlaganja skulpture u Srbiji",
+    "naziv": "Spomenik „Majka i dete“",
+    "godina": "1967",
+    "autor": "Jovan Soldatović",
+    "posveta": "Deci žrtvama racije u Čurugu 1942.",
+    "vrsta": "statua",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-poziv-na-ustanak",
+    "koordinate": {
+      "lat": 44.7877831,
+      "lng": 20.4542653
+    },
+    "mesto": "Beograd (Dedinje)",
+    "izvor": "https://skulptura-hronologijaizlaganja.rs/spomenik-streljanima-poziv-na-ustanak-postavljen-u-beogradu/",
+    "wiki": "https://sr.wikipedia.org/wiki/Скулптура_Позив_на_устанак",
+    "slika": "slike/spomenici/beograd-poziv-na-ustanak.webp",
+    "slikaOdnos": 0.586,
+    "slikaPotpis": "Pavle Marjanović, CC BY-SA 3.0",
+    "naziv": "Poziv na ustanak",
+    "godina": "1950",
+    "autor": "Vojin Bakić",
+    "vrsta": "statua",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "bajina-basta-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 43.9700696,
+      "lng": 19.5687031
+    },
+    "mesto": "Bajina Bašta",
+    "izvor": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-borcima-narodnooslobodilacke-vojske-jugoslavije-delo-stevana-bodnarova/",
+    "slika": "slike/spomenici/bajina-basta-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.749,
+    "slikaPotpis": "Hronologija izlaganja skulpture u Srbiji",
+    "naziv": "Spomenik palim borcima NOVJ",
+    "godina": "1952",
+    "autor": "Stevan Bodnarov",
+    "vrsta": "statua",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "uzice-spomenik-poginulima-u-fabrici-oruzja",
+    "koordinate": {
+      "lat": 43.854111,
+      "lng": 19.8465839
+    },
+    "mesto": "Užice",
+    "izvor": "https://znaci.org/00003/920.pdf#page=320",
+    "slika": "slike/spomenici/uzice-spomenik-poginulima-u-fabrici-oruzja.webp",
+    "slikaOdnos": 0.664,
+    "slikaPotpis": "Baština Užica / Narodni muzej Užice, Hronologija izlaganja skulpture u Srbiji",
+    "naziv": "Spomenik poginulim u eksploziji partizanske fabrike oružja",
+    "godina": "1961",
+    "autor": "Boris Anastasijević",
+    "posveta": "Radnicima i građanima poginulim u eksploziji partizanske fabrike oružja 22. novembra 1941.",
+    "vrsta": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "krapina-spomenik-palim-borcima-i-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 46.160808,
+      "lng": 15.87333
+    },
+    "googleCid": "16375221206292765229",
+    "mesto": "Krapina",
+    "slika": "slike/spomenici/krapina-spomenik-palim-borcima-i-zrtvama-fasizma.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Google Maps",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "dobric-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 44.7004467,
+      "lng": 19.5808171
+    },
+    "googleCid": "1360377303594047807",
+    "mesto": "Dobrić",
+    "slika": "slike/spomenici/dobric-spomenik-palim-borcima.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "vrsta": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "becmen-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 44.7806299,
+      "lng": 20.2024482
+    },
+    "googleCid": "1402627146074159453",
+    "mesto": "Bečmen",
+    "slika": "slike/spomenici/becmen-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "vrsta": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "sibenik-spomenik-palim-borcima-i-zrtvama-fasistick",
+    "koordinate": {
+      "lat": 43.7343485,
+      "lng": 15.8966931
+    },
+    "googleCid": "133229283120995494",
+    "mesto": "Šibenik",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kornic-spomenik-palim-borcima-i-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.0460516,
+      "lng": 14.6126814
+    },
+    "googleCid": "2788874141693814607",
+    "mesto": "Kornić",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "petlovaca-spomenik-palim-borcima-i-zrtvama-fasistic",
+    "koordinate": {
+      "lat": 44.7271661,
+      "lng": 19.4512746
+    },
+    "googleCid": "14791364554927203947",
+    "mesto": "Petlovača",
+    "izvor": "https://www.xiwl.com/w/index.php/Petlova%C4%8Da_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1962",
+    "vrsta": "lokalni",
+    "drzava": "Serbia"
   }
 ]

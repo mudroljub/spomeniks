@@ -48,6 +48,10 @@ POZNATI_BLISKI_PAROVI = {frozenset(par) for par in [
     ('strojice-bista-dusana-rakite', 'strojice-bista-rade-marijanca'),
     ('orasje-bista-cedomira-mikica', 'orasje-spomenik-palim-borcima'),
     ('pazin-bista-joakima-rakovca', 'pazin-bista-save-vukelica'),
+    # Zasebne skulpture potvrđene fotografijama i OSM-om u žetvi Hronologije 18.10.2026.
+    ('bajina-basta', 'bajina-basta-spomenik-palim-borcima'),
+    ('uzice-national-museum', 'uzice-spomenik-poginulima-u-fabrici-oruzja'),
+    ('museum-of-july-4th', 'beograd-poziv-na-ustanak'),
 ]}
 cir = re.compile('[Ѐ-ӿ]')
 ids = collections.Counter(s.get('id') for s in d)

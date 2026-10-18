@@ -12,6 +12,10 @@ Pri zatvaranju je zabeleženo **4.588 markera / 4.506 radnih stavki**. To su bro
 
 **Crna Gora: paket završen 18.10.2026. po korisnikovoj odluci.** Završno stanje je 134 markera i 30 stavki bez lokacije; sedam markera je približno u centru sela, a Velika približno uz staru školu. Naknadno dodat spomenik Niku Marašu i saborcima kod Vukovačkog mosta, sa OSM tačkom, fotografijom i posvetom ([dokaz](../data/provere/odluke.json)). Ostali FB unosi dopunjuju postojeće markere; istorijske brojke pojedinačnih prolaza ispod ostaju sačuvane. [Izvori CG](IZVORI.md#crna-gora) i nepotvrđeni tragovi ispod ne otvaraju novi zadatak.
 
+## Hronologija skulpture: završeni prolaz (2026-10-18)
+
+Dodati kikindski internirci, čuruško „Majka i dete“, „Poziv na ustanak“ na Dedinju i zasebni Bodnarovljev spomenik u Bajinoj Bašti. Boris Anastasijević u Užicu prebačen iz radnog spiska na tačku ispred muzeja; unutrašnje delo Nebojše Mitrića nije isti objekat. Titov spomenik u Užicu pomeren sa starog trga u muzejsko dvorište prema opisu preseljenja i imenovanom OSM čvoru. Izvorne tačke nisu prepisivane zbirno: neke označavaju muzej ili odstupaju stotinama metara. Preostali kandidati Borba/Obnova i unutrašnje delo u Užicu sačuvani su sa fotografijama, opisima i dokazima u [izveštaju svih 83 objave](../data/provere/skulptura-hronologija-2026-10-18.json); to nisu novi aktivni TODO zadaci.
+
 ## Makedonija: probni pregled kataloga 1986 (2026-10-18)
 
 Od 20 izabranih zapisa početno je bilo 12 bez para, 5 nejasnih i 3 već na mapi. U odobrenim nastavcima dodato je **8 novih markera sa fotografijama**: Miravci, Gari, Zlatari, Elšani, Brodec (Gostivar), Čelopek (Kumanovo), Vera Jocić u Sasi i zasebna česma u Karbunici. Postojeći objekti u Kaninu i Prždevu ispravljeni su u spomen-česme, sa fotografijama celih objekata; ID-jevi, tačke i izvori sačuvani. Prždevo je siguran knjiški par; Karbunica nije postojeća skulptura, već česma oko 87 m zapadnije, podignuta 1950.
