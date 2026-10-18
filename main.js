@@ -74,10 +74,10 @@ if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js')
 
 const ucitaj = putanja => fetch(putanja).then(res => res.json())
 
-// prvo stizu spomenici vidljivi na pocetnim zumovima, da se mapa nacrta odmah, a ostali posle (alati/razdeli.mjs);
+// prvo stizu spomenici vidljivi na pocetnim zumovima, da se mapa nacrta odmah, a ostali posle (alati/zapis.py);
 // priblizni su svi u drugom delu, pa im se pomaci racunaju zajedno
-const ostalo = ucitaj('data/mapa-ostalo.json')
-Promise.all([ucitaj('data/mapa-prvo.json'), ucitaj('data/autori.json'), ucitaj('data/posvete.json'), ucitaj('data/ture.json')])
+const ostalo = ucitaj('data/spomenici-ostali.json')
+Promise.all([ucitaj('data/spomenici-istaknuti.json'), ucitaj('data/autori.json'), ucitaj('data/posvete.json'), ucitaj('data/ture.json')])
   .then(([spomenici, autori, posvete, ture]) => {
     detalji.postaviAutore(autori)
     detalji.postaviPosvete(posvete)

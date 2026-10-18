@@ -1,8 +1,9 @@
-import json, math, os, re, subprocess, sys, collections
+import json, math, os, re, sys, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # zapis.py je pored alata
-from zapis import REDOSLED
+from zapis import REDOSLED, ISTAKNUTI, OSTALI, u_istaknutima
 sys.stdout.reconfigure(encoding='utf-8')
-d = json.load(open('data/spomeniks.json', encoding='utf8'))
+istaknuti, ostali = (json.load(open(f, encoding='utf8')) for f in (ISTAKNUTI, OSTALI))
+d = istaknuti + ostali
 ture = json.load(open('data/ture.json', encoding='utf8'))
 autori = json.load(open('data/autori.json', encoding='utf8'))
 posvete = json.load(open('data/posvete.json', encoding='utf8'))
@@ -210,9 +211,11 @@ for put in sorted(f for f in os.listdir('data/provere') if f.endswith('.json')):
             greske['izvestaj: radniId bez cilja'].append((put, o['radniId']))
         if 'prebacenoNaMapu' in o and o['prebacenoNaMapu'] not in ids:
             greske['izvestaj: prebaceno na nepostojeci id'].append((put, o['prebacenoNaMapu']))
-# aplikacija ucitava fajlove izvedene iz baze (alati/razdeli.mjs); moraju biti napravljeni od trenutne baze
-razdeli = subprocess.run(['node', os.path.join(os.path.dirname(os.path.abspath(__file__)), 'razdeli.mjs'), '--provera'], capture_output=True, text=True)
-if razdeli.returncode: greske['fajlovi aplikacije zastareli'].append(razdeli.stdout.strip())
+# aplikacija prvo ucitava istaknute (vidljive do zuma 9, tacne lokacije), pa ostale; zapis mora biti u pravom fajlu
+for s in istaknuti:
+    if not u_istaknutima(s): greske['u istaknutim, a pripada ostalima (sacuvaj_bazu)'].append(s.get('id'))
+for s in ostali:
+    if u_istaknutima(s): greske['u ostalima, a pripada istaknutim (sacuvaj_bazu)'].append(s.get('id'))
 for k, v in greske.items():
     if v: print(f'{k}: {len(v)}', v[:8])
 print('spomenika', len(d))

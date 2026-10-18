@@ -8,6 +8,8 @@ import unittest
 
 
 ALAT = Path(__file__).with_name('integritet.py')
+sys.path.insert(0, str(ALAT.parent))
+from zapis import u_istaknutima  # noqa: E402
 
 
 def spomenik(sid, lat=44, lng=20):
@@ -16,22 +18,23 @@ def spomenik(sid, lat=44, lng=20):
 
 
 class IntegritetTest(unittest.TestCase):
-    def proveri(self, zapisi, visak_slike=False, posvete=None, bez_lokacije=None, knjiga=None, razdeli=True):
+    def proveri(self, zapisi, visak_slike=False, posvete=None, bez_lokacije=None, knjiga=None, razvrstaj=True):
         with tempfile.TemporaryDirectory(prefix='spomenici-integritet-') as folder:
             koren = Path(folder)
             for f in ('data/knjige', 'data/provere'):
                 (koren / f).mkdir(parents=True)
             slike = koren / 'slike/spomenici'
             slike.mkdir(parents=True)
-            for ime, podaci in [('spomeniks', zapisi), ('ture', []), ('autori', {}), ('posvete', posvete or {}),
+            # zapis ide u fajl po pravilu iz zapis.py; bez razvrstavanja svi idu u istaknute, da se proveri greska
+            istaknuti = [s for s in zapisi if u_istaknutima(s) or not razvrstaj]
+            ostali = [s for s in zapisi if s not in istaknuti]
+            for ime, podaci in [('spomenici-istaknuti', istaknuti), ('spomenici-ostali', ostali), ('ture', []), ('autori', {}), ('posvete', posvete or {}),
                                 ('bez_lokacije', bez_lokacije or [])]:
                 (koren / f'data/{ime}.json').write_text(json.dumps(podaci), encoding='utf8')
             if knjiga is not None:
                 (koren / 'data/knjige/test.json').write_text(json.dumps(knjiga), encoding='utf8')
             if visak_slike:
                 (slike / 'visak.webp').write_bytes(b'')
-            if razdeli:
-                subprocess.run(['node', str(ALAT.with_name('razdeli.mjs'))], cwd=koren, check=True, capture_output=True)
             return subprocess.run([sys.executable, '-I', str(ALAT)], cwd=koren,
                                   capture_output=True, text=True, encoding='utf8')
 
@@ -101,10 +104,10 @@ class IntegritetTest(unittest.TestCase):
                 self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
                 self.assertIn(poruka, r.stdout)
 
-    def test_zastareli_fajlovi_aplikacije(self):
-        r = self.proveri([spomenik('test')], razdeli=False)
+    def test_zapis_u_pogresnom_fajlu(self):
+        r = self.proveri([spomenik('test')], razvrstaj=False)
         self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
-        self.assertIn('fajlovi aplikacije zastareli', r.stdout)
+        self.assertIn('u istaknutim, a pripada ostalima', r.stdout)
 
     def test_izvori_odvojeno(self):
         r = self.proveri([{**spomenik('test'), 'izvor': 'https://example.com'}])

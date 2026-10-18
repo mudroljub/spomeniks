@@ -2,6 +2,7 @@ import {test} from 'node:test'
 import assert from 'node:assert/strict'
 import {readFileSync} from 'node:fs'
 import {jeClanak, clanakSpomenika} from '../utils/clanci.js'
+import {ucitajBazu} from './baza.mjs'
 
 test('izvor podataka nikada nije rezervni članak', () => {
   for (const izvor of ['https://www.openstreetmap.org/way/683348683', 'https://example.com/clanak-o-spomeniku'])
@@ -34,7 +35,7 @@ test('članak zadržava jezički prioritet bez zavisnosti od izvora', () => {
 })
 
 test('svi izabrani linkovi prolaze proveru, a Topovske šupe imaju članak iz novina', () => {
-  const data = JSON.parse(readFileSync(new URL('../data/spomeniks.json', import.meta.url), 'utf8'))
+  const data = ucitajBazu()
   for (const s of data) {
     for (const polje of ['wiki', 'wikiEn', 'clanak'])
       if (s[polje]) assert.ok(jeClanak(s[polje]), `${s.id}: ${s[polje]}`)

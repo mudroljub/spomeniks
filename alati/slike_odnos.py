@@ -3,11 +3,11 @@
 # pokretanje iz korena repozitorijuma: python <putanja>/slike_odnos.py
 import glob, json, os, subprocess, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # zapis.py je pored alata
-from zapis import poredaj
+from zapis import ISTAKNUTI, OSTALI, poredaj, upisi_json
 
 # spisak bez lokacije nema stalan redosled polja, pa se ne preuredjuje; slika koja nije lokalna
 # (stariji zapisi sa imenom fajla na Vikipediji) ostaje kakva jeste
-SKUPOVI = [('data/spomeniks.json', 'slike/spomenici', True), ('data/bez_lokacije.json', 'slike/bez-lokacije', False)]
+SKUPOVI = [(ISTAKNUTI, 'slike/spomenici', True), (OSTALI, 'slike/spomenici', True), ('data/bez_lokacije.json', 'slike/bez-lokacije', False)]
 
 for put, folder, preuredi in SKUPOVI:
     d = json.load(open(put, encoding='utf8'))
@@ -27,6 +27,5 @@ for put, folder, preuredi in SKUPOVI:
             s['slikaOdnos'] = odnos
         if odnos is None: s.pop('slikaOdnos', None)
         if preuredi: d[i] = poredaj(s)
-    tekst = json.dumps(d, ensure_ascii=False, indent=2).replace('\n', '\r\n') + '\r\n'
-    open(put, 'w', encoding='utf8', newline='').write(tekst)
+    upisi_json(put, d)
     print(put, 'promenjeno', promena)

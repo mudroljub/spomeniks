@@ -7,7 +7,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 SPISAK, FAJLOVI = sys.argv[1:]
 A = os.path.dirname(os.path.abspath(__file__))  # naselja_osm.json i zapis.py su pored alata
 sys.path.insert(0, A)
-from zapis import sacuvaj_bazu
+from zapis import sacuvaj_bazu, ucitaj_bazu
 UA = {'User-Agent': 'spomenici-wiki/1.0 (https://mudroljub.github.io/spomeniks)'}
 LAT = dict(zip('абвгдђежзијклљмнњопрстћуфхцчџшѓќѕ', ['a', 'b', 'v', 'g', 'd', 'đ', 'e', 'ž', 'z', 'i', 'j', 'k', 'l', 'lj', 'm', 'n', 'nj', 'o', 'p', 'r', 's', 't', 'ć', 'u', 'f', 'h', 'c', 'č', 'dž', 'š', 'gj', 'kj', 'dz']))
 def latinica(t):
@@ -44,7 +44,7 @@ for k in range(0, len(naslovi), 50):
         autor = re.sub(r'<[^>]+>', '', m.get('Artist', {}).get('value', '')).strip() or ii['user']
         info[p['title']] = (ii['thumburl'], f"{autor[:60]}, {m.get('LicenseShortName', {}).get('value', '')}")
 
-d = json.load(open('data/spomeniks.json', encoding='utf8'))
+d = ucitaj_bazu()
 po_id = {s['id']: s for s in d}
 for br, s in enumerate(spisak):
     url, potpis = info[s['fajl']]

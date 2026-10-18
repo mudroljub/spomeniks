@@ -6,11 +6,12 @@ import {spawn} from 'node:child_process'
 import {existsSync, mkdtempSync, readFileSync, writeFileSync} from 'node:fs'
 import {tmpdir} from 'node:os'
 import {join} from 'node:path'
+import {ucitajBazu} from './baza.mjs'
 
 const izlaz = process.argv[2]
 const pauza = 8000
 const rezultat = existsSync(izlaz) ? JSON.parse(readFileSync(izlaz, 'utf8')) : {}
-const posao = JSON.parse(readFileSync('data/spomeniks.json', 'utf8'))
+const posao = ucitajBazu()
   .filter(s => !s.slika && s.googleCid && !(s.id in rezultat))
 console.log('za obradu', posao.length)
 

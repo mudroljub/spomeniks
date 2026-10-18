@@ -34,12 +34,11 @@ def razresi(url):
 
 if __name__ == '__main__':
     sys.path.insert(0, A)
-    from zapis import sacuvaj_bazu
+    from zapis import sacuvaj_bazu, ucitaj_bazu
     sys.stdout.reconfigure(encoding='utf-8')
     vrsta = sys.argv[1]
     parovi = list(zip(sys.argv[2::2], sys.argv[3::2]))
-    p = 'data/spomeniks.json'
-    d = json.load(open(p, encoding='utf8'))
+    d = ucitaj_bazu()
     postojeci = {s['id'] for s in d}
     cidovi = {s.get('googleCid') for s in d}
     for link, naziv in parovi:

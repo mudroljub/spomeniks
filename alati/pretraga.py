@@ -11,7 +11,9 @@ Iz komandne linije:
     python -I alati/pretraga.py mesto <naziv mesta> [država]
     python -I alati/pretraga.py naziv <tekst>
 Svaki zapis nosi 'skup': 'mapa' ili 'bez_lokacije'."""
-import collections, json, math, re, sys, unicodedata
+import collections, json, math, os, re, sys, unicodedata
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # zapis.py je pored alata
+from zapis import BEZ_LOKACIJE, ucitaj_bazu
 
 LATINICA = dict(zip('абвгдђежзијклљмнњопрстћуфхцчџшѓќѕ',
                     ['a', 'b', 'v', 'g', 'd', 'dj', 'e', 'z', 'z', 'i', 'j', 'k', 'l', 'lj', 'm', 'n', 'nj', 'o', 'p', 'r', 's', 't',
@@ -44,9 +46,9 @@ def udaljenost(a, b, c, d):
 
 
 class Zapisi:
-    def __init__(self, baza='data/spomeniks.json', bez_lokacije='data/bez_lokacije.json'):
-        self.svi = [{**s, 'skup': 'mapa'} for s in json.load(open(baza, encoding='utf-8'))] + \
-                   [{**s, 'skup': 'bez_lokacije'} for s in json.load(open(bez_lokacije, encoding='utf-8'))]
+    def __init__(self):
+        self.svi = [{**s, 'skup': 'mapa'} for s in ucitaj_bazu()] + \
+                   [{**s, 'skup': 'bez_lokacije'} for s in json.load(open(BEZ_LOKACIJE, encoding='utf-8'))]
         self.po_id = {s['id']: s for s in self.svi}
         self.mreza = collections.defaultdict(list)  # ćelije od 0,01° (oko 1 km), za brzu pretragu po blizini
         for s in self.svi:

@@ -14,7 +14,7 @@ export interface Koordinate {
   lng: number
 }
 
-/** data/spomeniks.json */
+/** data/spomenici-istaknuti.json i data/spomenici-ostali.json (alati/zapis.py) */
 export interface Spomenik {
   /** jedinstven ključ: mala ASCII slova, cifre i crtice, npr. "banja-luka-maslesa" */
   id: string

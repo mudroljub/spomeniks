@@ -23,7 +23,7 @@ POTPUNOST PODATKA:
 - dodavati fotografije gde nedostaju ([obrađeni izvori fotografija](docs/IZVORI.md#commons-i-fotografije))
 - popunjavati druge atribute na osnovu dostupnih izvora ([dopuna podataka](docs/DOPUNA_PODATAKA.md))
 
-KVALITET PODATAKA (`data/spomeniks.json`):
+KVALITET PODATAKA:
 - 693 slike su fotografije korisnika Google mapa, koje nemaju licencu za ponovnu objavu: naći zamenu sa slobodnom licencom, pa ukloniti Google slike
 
 UI:

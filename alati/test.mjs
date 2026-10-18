@@ -357,7 +357,7 @@ test('gradska tura Niša se približava uz sve stanice na vidljivom delu mape', 
   await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura li')].find(li => li.querySelector('.ime').textContent === 'Niš u NOB').querySelector('button').click()`)
   await sacekaj("import('./klase/mapa.js').then(({mapa}) => mapa.getZoom() > 11)", 'bliži prikaz gradske ture')
   await sleep(400)
-  const provera = await izvrsi(`Promise.all([import('./klase/mapa.js'), fetch('data/spomeniks.json').then(r => r.json()), import('./utils/ruta.js')]).then(([{mapa}, spomenici, {dajRutu}]) => {
+  const provera = await izvrsi(`Promise.all([import('./klase/mapa.js'), Promise.all(['data/spomenici-istaknuti.json', 'data/spomenici-ostali.json'].map(f => fetch(f).then(r => r.json()))).then(d => d.flat()), import('./utils/ruta.js')]).then(([{mapa}, spomenici, {dajRutu}]) => {
     const dno = ${ruta}.querySelector('#dugme').getBoundingClientRect().top - 20
     return spomenici.filter(s => dajRutu().includes(s.id)).map(s => {
       const p = mapa.latLngToContainerPoint(s.koordinate)
@@ -373,7 +373,7 @@ test('svaka stanica ima direktnu navigaciju nezavisnu od cele ture', async () =>
   const ruta = "document.querySelector('planer-rute').shadowRoot"
   await izvrsi(`${ruta}.querySelector('#dugme').click();${ruta}.querySelector('[data-kartica="ture"]').click()`)
   await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura li')].find(li => li.querySelector('.ime').textContent === 'Niš u NOB').querySelector('button').click()`)
-  const podaci = await izvrsi(`Promise.all([fetch('data/spomeniks.json').then(r => r.json()), import('./utils/ruta.js')]).then(([spomenici, {dajRutu}]) => {
+  const podaci = await izvrsi(`Promise.all([Promise.all(['data/spomenici-istaknuti.json', 'data/spomenici-ostali.json'].map(f => fetch(f).then(r => r.json()))).then(d => d.flat()), import('./utils/ruta.js')]).then(([spomenici, {dajRutu}]) => {
     const ids = dajRutu()
     return ids.map(id => spomenici.find(s => s.id === id))
   })`)

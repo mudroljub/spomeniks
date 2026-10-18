@@ -1,6 +1,6 @@
 ---
 name: spomenici-provera
-description: Proverava projekat Spomenici posle izmene, pre nego što se izmena javi kao gotova — integritet podataka (alati/integritet.py), tipove (tsc preko jsconfig.json), izgled i rad aplikacije na ekranu telefona (snimak u Chrome-u bez prozora) i, kad je bitno, brzinu (alati/merenje.mjs). Koristi ga uvek kad menjaš data/spomeniks.json, data/bez_lokacije.json, slike, JS ili CSS aplikacije, ili alate koji upisuju podatke, i kad korisnik pita „radi li“, „proveri“ ili „jel sve u redu“, čak i ako ne pominje proveru izričito.
+description: Proverava projekat Spomenici posle izmene, pre nego što se izmena javi kao gotova — integritet podataka (alati/integritet.py), tipove (tsc preko jsconfig.json), izgled i rad aplikacije na ekranu telefona (snimak u Chrome-u bez prozora) i, kad je bitno, brzinu (alati/merenje.mjs). Koristi ga uvek kad menjaš data/spomenici-istaknuti.json, data/spomenici-ostali.json, data/bez_lokacije.json, slike, JS ili CSS aplikacije, ili alate koji upisuju podatke, i kad korisnik pita „radi li“, „proveri“ ili „jel sve u redu“, čak i ako ne pominje proveru izričito.
 ---
 
 # Provera posle izmene
@@ -17,11 +17,10 @@ Korisnik komituje sam i oslanja se na to da je izmena proverena kad kažeš da j
 ## 1. Podaci
 
 ```
-node alati/razdeli.mjs
 python -I alati/integritet.py
 ```
 
-Aplikacija ne učitava `data/spomeniks.json`, nego dva fajla izvedena iz njega: `data/mapa-prvo.json` (spomenici vidljivi do zuma 9, crtaju se odmah) i `data/mapa-ostalo.json` (ostali, stižu posle). Posle svake izmene baze ih napravi ponovo; integritet prijavljuje zastarele fajlove.
+Spomenici na mapi su u dva fajla: `data/spomenici-istaknuti.json` (tačno locirani, vidljivi do zuma 9; aplikacija ih crta odmah) i `data/spomenici-ostali.json`. Čitaj i upisuj ih samo preko `ucitaj_bazu` i `sacuvaj_bazu` iz `alati/zapis.py` (u Node-u `ucitajBazu` iz `alati/baza.mjs`), koje same raspoređuju zapise; integritet prijavljuje zapis u pogrešnom fajlu.
 
 Prolazi kad vrati izlazni status 0; stvarne greške i novi parovi na manje od 30 m vraćaju status 1. Poznati parovi (park i spomenik u njemu, grobnica i ploča na Senjaku) ostaju u ispisu, ali ne obaraju proveru: izuzeci su navedeni po tačnim ID-jevima u `POZNATI_BLISKI_PAROVI`, ne samo po ukupnom broju. Ako provera prijavi grešku, utvrdi da li je nastala tvojom izmenom; nemoj je automatski proglasiti poznatim izuzetkom.
 

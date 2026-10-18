@@ -1,13 +1,13 @@
-# python -I alati/prebaci.py <ulaz.json>: prebacuje stavke iz data/bez_lokacije.json na mapu (data/spomeniks.json)
+# python -I alati/prebaci.py <ulaz.json>: prebacuje stavke iz data/bez_lokacije.json na mapu
 # ulaz: [{"id": ..., "lat": ..., "lng": ..., "priblizno": true|false}]; stavka zadržava svoj ID, pa veze iz knjiga
 # i izveštaja (cilj, radniId) ostaju tačne bez prepravke; lokalna slika prelazi u slike/spomenici/<id>.webp
 import json, os, shutil, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # zapis.py je pored alata
-from zapis import BEZ_LOKACIJE, REDOSLED, poredaj, sacuvaj_bazu, sacuvaj_spisak
+from zapis import REDOSLED, poredaj, sacuvaj_bazu, sacuvaj_bez_lokacije, ucitaj_bazu
 
 ulaz = {u['id']: u for u in json.load(open(sys.argv[1], encoding='utf-8'))}
 bez = json.load(open('data/bez_lokacije.json', encoding='utf-8'))
-mapa = json.load(open('data/spomeniks.json', encoding='utf-8'))
+mapa = ucitaj_bazu()
 nepoznati = set(ulaz) - {s['id'] for s in bez}
 if nepoznati:
     sys.exit(f'nema u spisku bez lokacije: {sorted(nepoznati)}')
@@ -29,4 +29,4 @@ for s in bez:
     mapa.append(poredaj(z))
     print('prebaceno', s['id'])
 sacuvaj_bazu(mapa)
-sacuvaj_spisak(BEZ_LOKACIJE, ostaju)
+sacuvaj_bez_lokacije(ostaju)

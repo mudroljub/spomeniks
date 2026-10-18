@@ -2,7 +2,7 @@
 # upisuje Google id i lokaciju sa Google mapa kad se razlikuje za vise od 5 m
 import json, math, os, re, sys, urllib.error, urllib.request
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # zapis.py je pored alata
-from zapis import poredaj, sacuvaj_bazu
+from zapis import poredaj, sacuvaj_bazu, ucitaj_bazu
 sys.stdout.reconfigure(encoding='utf-8')
 sid, url = sys.argv[1:3]
 if 'goo.gl' in url:
@@ -15,8 +15,7 @@ if 'goo.gl' in url:
         url = e.headers['Location']
 heks = re.search(r'!1s0x[0-9a-f]+:0x([0-9a-f]+)', url).group(1)
 lat, lng = map(float, re.search(r'!3d(-?[\d.]+)!4d(-?[\d.]+)', url).groups())
-p = 'data/spomeniks.json'
-d = json.load(open(p, encoding='utf8'))
+d = ucitaj_bazu()
 def m(a, b, c, e):
     return 6371000 * math.acos(min(1, math.sin(math.radians(a)) * math.sin(math.radians(c)) + math.cos(math.radians(a)) * math.cos(math.radians(c)) * math.cos(math.radians(e - b))))
 n = 0

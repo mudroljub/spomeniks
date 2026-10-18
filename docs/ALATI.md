@@ -4,12 +4,11 @@ Pokreću se iz korena repozitorijuma: Python sa `python -I alati/<alat>.py`, a N
 
 | Alat | Namena |
 |---|---|
-| `integritet.py` | Provera celog `data/spomeniks.json`: polja, pismo, slike, duplikati na manje od 30 m; i spiska bez lokacije: jedinstveni ID-jevi u oba spiska i veze iz knjiga i izveštaja koje se razrešavaju. Pokreće se posle svake izmene podataka. |
+| `integritet.py` | Provera spomenika na mapi (oba fajla, i da je svaki zapis u pravom): polja, pismo, slike, duplikati na manje od 30 m; i spiska bez lokacije: jedinstveni ID-jevi u oba spiska i veze iz knjiga i izveštaja koje se razrešavaju. Pokreće se posle svake izmene podataka. |
 | `test_integritet.py` | `python -I alati/test_integritet.py`: izolovana provera izlaznog statusa; stvarne greške vraćaju 1, ispravni podaci i tačno navedeni poznati bliski parovi vraćaju 0. |
 | `prebaci.py <ulaz.json>` | Prebacuje stavke iz `data/bez_lokacije.json` na mapu po ID-ju (`[{id, lat, lng, priblizno}]`); stavka zadržava ID, pa veze iz knjiga i izveštaja ostaju tačne. |
 | `pretraga.py` | Pronalaženje naših zapisa iz oba spiska: po blizini tačke, po mestu i po zajedničkim osnovama reči u nazivu (ćirilica, latinica i OCR tekst se porede posle normalizacije). Modul za skripte uparivanja i komanda: `python -I alati/pretraga.py blizu <lat> <lng> [m]`, `mesto <mesto> [država]`, `naziv <tekst>`. |
-| `razdeli.mjs [--provera]` | Iz `data/spomeniks.json` pravi fajlove koje učitava aplikacija: `mapa-prvo.json` (vidljivi do zuma 9, tačna lokacija) i `mapa-ostalo.json`. Pokreće se posle svake izmene baze; `--provera` samo javlja zastarelost (koristi je `integritet.py`). |
-| `zapis.py` | Redosled polja zapisa (`poredaj`) i upis oba spiska (`sacuvaj_bazu`, `sacuvaj_spisak`), zajednički za sve alate koji pišu u `data/spomeniks.json` i `data/bez_lokacije.json`; polje `izvor` premeštaju u `data/izvori.json`. |
+| `zapis.py` | Čitanje i upis podataka, zajednički za sve alate: `ucitaj_bazu` i `sacuvaj_bazu` za spomenike na mapi (raspoređuje ih u `data/spomenici-istaknuti.json` i `data/spomenici-ostali.json`), `sacuvaj_bez_lokacije`, redosled polja (`poredaj`); polje `izvor` premeštaju u `data/izvori.json`. U Node-u isto čita `baza.mjs`. |
 | `commons_dodaj.py <spisak.json> <fajlovi.json>` | Dodaje spomenike ili fotografije sa Commons-a: preuzima sliku, pravi webp, potpis i mesto iz najbližeg naselja. |
 | `proveri.py <link>` | Iz Google linka čita ime, koordinate i id i nalazi najbliže spomenike u bazi. |
 | `upisi_cid.py <id> <link>` | Upisuje Google id i lokaciju postojećem spomeniku. |
