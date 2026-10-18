@@ -22,3 +22,7 @@ Svi preuzeti izvori i njihove tekstualne/stranične izvedenice čuvaju se ovde. 
 `KONSOLIDACIJA.json` beleži izvornu i novu putanju, SHA-256, veličinu i ishod za svaku premeštenu ili uklonjenu kopiju. Datoteke su uklanjane sa stare lokacije tek nakon provere identičnog sadržaja na novoj. Numerisane strane i OCR ostaju na svojim logičkim putanjama i kada dve strane imaju isti sadržaj.
 
 Aplikacioni podaci u `data/`, rezervni snimci stanja, snimci aplikacije i jednokratne skripte nisu duplikati preuzetih izvora i nisu brisani ovom konsolidacijom. Stare skripte koje imaju ugrađenu temp putanju prilagoditi pre ponovnog pokretanja; ulaz tražiti ovde, ne ponovo na mreži.
+
+## Makedonija 1986
+
+`knjige/makedonija-1986.pdf` — preuzet 2026-10-18 sa AfterArt; 681.106.563 bajta, 129 PDF listova (dvostrani skenovi), izdanje navodi 260 strana. Tekstualni sloj ne postoji; `makedonija-1986.txt` sadrži samo razdelnike. `knjige/makedonija-1986/strane/` čuva odabrane izvedene slike, a `postojece-fotografije.jpg` pregled već unetih objekata za poređenje. Probni pregled 20 zapisa i obrađenost su u `docs/IZVORI.md` i `data/provere/makedonija-pilot-2026-10-18.json`; preuzimanje ne znači da je cela knjiga obrađena.

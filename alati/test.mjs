@@ -94,6 +94,12 @@ test('pretraga suzi spomenike', async () => {
   assert.ok(Number(await sacekaj(BROJ, 'broj pronađenih')) > 0)
 })
 
+test('pretraga nalazi i uklonjen spomenik, koji je bez pretrage sakriven', async () => {
+  await otvori()
+  await izvrsi(`(() => { const p = document.querySelector('polje-pretraga input'); p.value = 'prvom partizanskom tenku'; p.dispatchEvent(new Event('input', {bubbles: true})) })()`)
+  assert.equal(Number(await sacekaj(BROJ, 'broj pronađenih')), 1)
+})
+
 test('filter po vrsti suzi spomenike', async () => {
   await otvori()
   await izvrsi(`${SVI}.find(e => e.tagName === 'BUTTON' && /Filteri|Filters/.test(e.textContent)).click()`)

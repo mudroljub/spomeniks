@@ -41,7 +41,7 @@ python -I alati/slike_odnos.py
 python -I alati/integritet.py
 ```
 
-Prvi alat menja velike slike bez ponovnog sažimanja; čuva ICC profil i EXIF potreban za orijentaciju. Drugi pravi male slike iz konačnih velikih slika i prati njihovo vreme izmene, pa ide posle čišćenja. Treći upisuje `slikaOdnos` iz dimenzija velikih slika; integritet proverava konačne podatke. Ovo je zajednički redosled za žetvu, standard i dokumentaciju alata; ne održavati različite redoslede na drugim mestima.
+Prvi alat menja slike u `slike/spomenici/` i `slike/bez-lokacije/` bez ponovnog sažimanja; čuva ICC profil i EXIF potreban za orijentaciju. Drugi pravi male slike iz konačnih velikih slika i prati njihovo vreme izmene, pa ide posle čišćenja; spisak bez lokacije male slike ne treba, jer se ne prikazuje u traci. Treći upisuje `slikaOdnos` iz dimenzija slika i u bazu i u spisak bez lokacije, gde ne menja redosled polja; integritet proverava konačne podatke. Ovo je zajednički redosled za žetvu, standard i dokumentaciju alata; ne održavati različite redoslede na drugim mestima.
 
 ### Veze radnih zapisa i knjiga
 

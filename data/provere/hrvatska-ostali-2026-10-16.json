@@ -76,11 +76,12 @@
       "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Razrešen je opisani rizik; ovo nije terenska potvrda stanja 16.10.2026.",
-      "radniIndeks": 4497,
+      "radniIndeks": 3586,
       "arhiviraneSlike": [
         "data/provere/slike/vinkovci.webp",
         "data/provere/slike/vinkovci-mala.webp"
-      ]
+      ],
+      "radniIndeksPre": 4497
     },
     {
       "id": "djurdjevac",
@@ -941,7 +942,8 @@
       "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Današnji ostaci, zamena i tačna lokacija nisu potvrđeni. Administrativni popis stare zaštite nije dokaz sadašnjeg opstanka.",
-      "radniIndeks": 4498
+      "radniIndeks": 3587,
+      "radniIndeksPre": 4498
     },
     {
       "id": "djeletovci-spomenik-nob",
@@ -978,7 +980,7 @@
       ],
       "datumKasnijegDokaza": "2021-04-10",
       "ogranicenje": "GPS u EXIF-u i isti GPS prenet na Commons nisu dva nezavisna izvora. Pre vraćanja potvrditi tačku u Borovu naselju i identitet objekta; ne preimenovati samim verovanjem GPS-u.",
-      "radniIndeks": 4499,
+      "radniIndeks": 3588,
       "arhiviraneSlike": [
         "data/provere/slike/djeletovci-spomenik-nob.webp",
         "data/provere/slike/djeletovci-spomenik-nob-mala.webp"
@@ -998,7 +1000,8 @@
             "napomena": "OSM tačka u pravom parku; nije još prihvaćena kao tačka samog postolja."
           }
         }
-      ]
+      ],
+      "radniIndeksPre": 4499
     },
     {
       "id": "podgora",
@@ -1885,7 +1888,8 @@
         "scanBroj": 176,
         "izvor": "https://znaci.org/00003/736.php?broj=176"
       },
-      "radniIndeks": 4500
+      "radniIndeksPre": 4500,
+      "prebacenoNaMapu": "badljevina-spomenik-nob"
     },
     {
       "id": "jaksic-spomenik-nob",
@@ -1920,7 +1924,8 @@
         "scanBroj": 188,
         "izvor": "https://znaci.org/00003/736.php?broj=188"
       },
-      "radniIndeks": 4501
+      "radniIndeksPre": 4501,
+      "prebacenoNaMapu": "jaksic-spomenik-nob"
     },
     {
       "id": "susine-spomenik-palim-borcima-nob-a",
@@ -1957,7 +1962,8 @@
         "scanBroj": 160,
         "izvor": "https://znaci.org/00003/736.php?broj=160"
       },
-      "radniIndeks": 4502
+      "radniIndeksPre": 4502,
+      "prebacenoNaMapu": "susine-spomenik-palim-borcima-nob"
     },
     {
       "id": "scitarjevo-spomenik-palim-borcima",
@@ -1992,7 +1998,8 @@
         "scanBroj": 334,
         "izvor": "https://znaci.org/00003/736.php?broj=334"
       },
-      "radniIndeks": 4503
+      "radniIndeksPre": 4503,
+      "prebacenoNaMapu": "scitarjevo-spomenik-palim-borcima"
     },
     {
       "id": "novi-pavljani-spomenik-nob-ostecen",
@@ -2028,7 +2035,8 @@
         "scanBroj": 28,
         "izvor": "https://znaci.org/00003/736.php?broj=28"
       },
-      "radniIndeks": 4504
+      "radniIndeksPre": 4504,
+      "prebacenoNaMapu": "novi-pavljani-osteceni-spomenik-nob"
     },
     {
       "id": "slobostina",
@@ -2068,7 +2076,8 @@
         "scanBroj": 196,
         "izvor": "https://znaci.org/00003/736.php?broj=196"
       },
-      "radniIndeks": 4505
+      "radniIndeksPre": 4505,
+      "prebacenoNaMapu": "slobostina-spomenik-zrtvama-fasizma"
     },
     {
       "id": "kupinecki-kraljevec",

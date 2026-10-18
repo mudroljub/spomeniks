@@ -453,3 +453,5 @@ Provera: `slike_odnos.py` upisao je odnos jedino novoj fotografiji; `integritet.
 Registar i geoportal kulturnih dobara pregledani su ciljano, bez masovnog preuzimanja: javni detalj Z-7324 potvrđuje Novsku, ali njegov odgovor za geometriju vraća `null`. Ne pretvarati adresu škole, groblja ili ceo trg u koordinate spomenika. spomenicinob.info nije preuziman.
 
 </details>
+
+- Draževitići (2026-10-18): oznaka „oštećen“ po Hrženjaku 2002 skinuta; fotografija Branka Radonića sa Twittera pokazuje ceo, održavan spomenik, a grafiti sa ranije slike bili su samo jedan dan (po korisniku).

@@ -2,7 +2,7 @@
 
 Obavezno za svaki novi ili izmenjen spomenik.
 
-- **Redosled polja:** `id, koordinate{lat,lng}, priblizno, googleCid, mesto, izvor, wiki, wikiEn, slika, slikaOdnos, slikaPotpis, naziv, nazivEn, godina, autor, natpis, posveta, stanje, vrsta, drzava`. Prazna polja se izostavljaju.
+- **Redosled polja:** `id, koordinate{lat,lng}, priblizno, googleCid, mesto, izvor, wiki, wikiEn, slika, slikaOdnos, slikaPotpis, naziv, nazivEn, godina, autor, natpis, posveta, stanje, stanjeIzvor, vrsta, drzava`. Prazna polja se izostavljaju.
 - **Fajl:** UTF-8, CRLF, uvlačenje 2, `ensure_ascii=False`, sa CRLF na kraju. Upis uvek ovako:
   `open(P,'w',encoding='utf8',newline='').write(json.dumps(d,ensure_ascii=False,indent=2).replace('\n','\r\n')+'\r\n')`
 - **id:** mala ASCII slova, cifre i crtice, jedinstven, najviše oko 50 znakova (npr. `slug(mesto + naziv)`).
@@ -12,6 +12,7 @@ Obavezno za svaki novi ili izmenjen spomenik.
 - **nazivEn:** engleski, samo kad se razlikuje od naziva.
 - **vrsta:** `istaknut` (samo kad postoji stranica na spomenikdatabase), `spomenik` (umetničko delo poznatog autora ili veći spomenik), `lokalni` (spomen-obeležje, podrazumevano za nove), `kompleks` (spomen-park), `groblje`, `muzej` (i spomen-kuća), `statua` (cela figura čoveka ili grupa figura), `bista`, `ploca`.
 - **stanje:** samo `rusevine`, `uklonjen`, `ostecen`, `zatvoren`, `srusen`; kad je spomenik očuvan ili se to ne zna, polje se izostavlja.
+- **stanjeIzvor:** izvor upisanog stanja, `{naziv, godina, url}` (npr. `{"naziv": "Hrženjak", "godina": 2002, "url": "https://znaci.org/..."}`); `godina` je godina izdanja izvora, ne terenskog obilaska. Upisuje se uz svako `stanje` preuzeto iz izvora; postojeći `izvor` zapisa se ne menja.
 - **drzava:** `Slovenia, Croatia, Bosnia and Herzegovina, Serbia, Montenegro, Macedonia, Kosovo, Italy`.
 - **izvor:** URL izvora (OSM link `https://www.openstreetmap.org/node/…`, Commons fajl, registar). **wiki:** domaći članak (redom sh, sr, hr, bs, pa jezik države). **wikiEn:** engleski članak.
 - **slika:** 400 px širine, webp kvaliteta 75 (`magick - -resize 400x -quality 75 out.webp`, nakon pravilne orijentacije i isecanja). **slikaPotpis:** „Autor, licenca“, a kad licenca nije poznata „Autor, izvor“ (fotografija se uzima uvek, uz navođenje izvora). **slikaOdnos** i male slike pripremi po [zajedničkom postupku provere](../../spomenici-provera/SKILL.md#obrada-novih-slika).

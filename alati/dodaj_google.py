@@ -1,9 +1,7 @@
 # python -I alati/dodaj_google.py <vrsta> <link> <naziv> [<link> <naziv> ...]
 # dodaje nove spomenike sa Google mapa: Google id, tacna lokacija i najblize naselje kao naslov
+# slug, latinica i mesto mogu da se uvezu iz drugih alata; u bazu upisuje samo pokretanje
 import json, math, os, re, sys, time, unicodedata, urllib.error, urllib.request
-sys.stdout.reconfigure(encoding='utf-8')
-vrsta = sys.argv[1]
-parovi = list(zip(sys.argv[2::2], sys.argv[3::2]))
 A = os.path.dirname(os.path.abspath(__file__))  # naselja_osm.json je pored alata
 DRZAVE = {'SI': 'Slovenia', 'HR': 'Croatia', 'BA': 'Bosnia and Herzegovina', 'RS': 'Serbia', 'ME': 'Montenegro', 'MK': 'Macedonia', 'XK': 'Kosovo'}
 SLOVA = dict(zip('абвгдђежзијклљмнњопрстћуфхцчџш', ['a','b','v','g','d','đ','e','ž','z','i','j','k','l','lj','m','n','nj','o','p','r','s','t','ć','u','f','h','c','č','dž','š']))
@@ -34,22 +32,29 @@ def razresi(url):
     except urllib.error.HTTPError as e:
         return e.headers['Location']
 
-p = 'data/spomeniks.json'
-d = json.load(open(p, encoding='utf8'))
-postojeci = {s['id'] for s in d}
-cidovi = {s.get('googleCid') for s in d}
-for link, naziv in parovi:
-    u = razresi(link)
-    time.sleep(2)
-    lat, lng = map(float, re.search(r'!3d(-?[\d.]+)!4d(-?[\d.]+)', u).groups())
-    cid = str(int(re.search(r'!1s0x[0-9a-f]+:0x([0-9a-f]+)', u).group(1), 16))
-    assert cid not in cidovi, (naziv, cid)
-    naslov, zemlja = mesto(lat, lng)
-    sid = slug(f'{naslov}-{naziv}')
-    while sid in postojeci:
-        sid += '-2'
-    postojeci.add(sid)
-    d.append({'id': sid, 'koordinate': {'lat': lat, 'lng': lng}, 'googleCid': cid, 'mesto': naslov, 'naziv': naziv, 'vrsta': vrsta, 'drzava': zemlja})
-    print(sid, '|', naslov, '|', naziv)
-open(p, 'w', encoding='utf8', newline='').write(json.dumps(d, indent=2, ensure_ascii=False).replace('\n', '\r\n') + '\r\n')
-print('ukupno', len(d))
+if __name__ == '__main__':
+    sys.stdout.reconfigure(encoding='utf-8')
+    vrsta = sys.argv[1]
+    parovi = list(zip(sys.argv[2::2], sys.argv[3::2]))
+    p = 'data/spomeniks.json'
+    d = json.load(open(p, encoding='utf8'))
+    postojeci = {s['id'] for s in d}
+    cidovi = {s.get('googleCid') for s in d}
+    for link, naziv in parovi:
+        u = razresi(link)
+        time.sleep(8)  # pauza za Google mape iz pravila zetve
+        lat, lng = map(float, re.search(r'!3d(-?[\d.]+)!4d(-?[\d.]+)', u).groups())
+        cid = str(int(re.search(r'!1s0x[0-9a-f]+:0x([0-9a-f]+)', u).group(1), 16))
+        # isti link dvaput u jednoj turi ne sme da napravi dva spomenika
+        assert cid not in cidovi, (naziv, cid)
+        cidovi.add(cid)
+        naslov, zemlja = mesto(lat, lng)
+        osnova = sid = slug(f'{naslov}-{naziv}')
+        k = 2
+        while sid in postojeci:
+            sid, k = f'{osnova}-{k}', k + 1
+        postojeci.add(sid)
+        d.append({'id': sid, 'koordinate': {'lat': lat, 'lng': lng}, 'googleCid': cid, 'mesto': naslov, 'naziv': naziv, 'vrsta': vrsta, 'drzava': zemlja})
+        print(sid, '|', naslov, '|', naziv)
+    open(p, 'w', encoding='utf8', newline='').write(json.dumps(d, indent=2, ensure_ascii=False).replace('\n', '\r\n') + '\r\n')
+    print('ukupno', len(d))

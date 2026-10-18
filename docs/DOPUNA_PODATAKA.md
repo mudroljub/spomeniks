@@ -1,6 +1,15 @@
 # Dopuna podataka
 
-Rezultati i otvoreni slučajevi iz 2026-10-13–15, skraćeno 2026-10-16. Brojevi i nedoumice opisuju tadašnje stanje, nisu ponovo provereni. [Postupci u skilu](../.claude/skills/spomenici-zetva/references/autori-i-posvete.md).
+Arhivski rezultati iz 2026-10-13–15, skraćeni 2026-10-16, i završne FB dopune iz 2026-10-18. Starije brojke i nedoumice ostaju istorijski snimci. [Postupci u skilu](../.claude/skills/spomenici-zetva/references/autori-i-posvete.md).
+
+## Završne dopune iz FB pregleda CG (2026-10-18)
+
+Žetva i pregled dostavljenih FB objava zatvoreni su po korisnikovoj odluci; [obrađenost izvora](IZVORI.md#crna-gora).
+
+- **Autori:** dopunjeni Herceg Novi (Luka Tomanović), Danilovgrad (Mirko Đokić), Momišići (Andrija Markuš), Ulcinj (Đorđe Zloković) i Gorica (Vojislav Đokić).
+- **Godine:** Stražica 1958 → 1961, Krstac 1970 → 1976, Grahovo 1987 → 1978. FB godine za Danilovgrad (1963), Momišiće (1976) i Jasikovac (1972) nisu preuzete: jači izvori potvrđuju 1959, 1979 i 1977 ([Danilovgrad](../data/provere/danilovgrad-uskladjivanje-2026-10-18.json), [Momišići](../data/provere/momisici-dopuna-2026-10-18.json), [Opština Berane](https://berane.me/folic-spomen-kompleks-na-jasikovcu-bi-mogao-biti-proglasen-kulturnim-dobrom/?lang=cir)).
+- `posveta` sada prihvata wiki veze kao Q-id spisak ili konkretan tekst bez odgovarajućeg članka. Upisani opisi za Lazine, Veliku, Zabjelo, Krstac, Utrg, Momišiće, Trebjesu, Goricu i Vukovce; zasebno dopunjen Bogatić u Srbiji. Postojeće povezane posvete nisu zamenjene tekstom ([prvi paket](../data/provere/posvete-iz-razgovora-2026-10-18.json), [Gorica](../data/provere/gorica-dopuna-2026-10-18.json), [Momišići](../data/provere/momisici-dopuna-2026-10-18.json), [Vukovci](../data/provere/vukovci-2026-10-18.json)).
+- Gorica je dobila i tri dostavljena natpisa. Broj kamenih blokova, arhitektonski oblik i nekadašnje osvetljenje nisu upisivani kao posveta. Format i pravila su u [standardu](../.claude/skills/spomenici-zetva/references/standard.md).
 
 ## Autori
 

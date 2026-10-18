@@ -1,6 +1,6 @@
 # Lociranje spomenika
 
-Ažurirano **2026-10-18**, posle odobrenog kratkog probnog prolaza. Dokument služi da pronađemo već provereni trag, izbegnemo ponavljanje i vidimo koji bi novi dokaz omogućio pouzdan unos.
+Ažurirano **2026-10-18**, posle završetka žetve za Crnu Goru i FB pregleda. Dokument služi da pronađemo već provereni trag, izbegnemo ponavljanje i vidimo koji bi novi dokaz omogućio pouzdan unos.
 
 ## Status i završen obuhvat
 
@@ -9,6 +9,43 @@ Ažurirano **2026-10-18**, posle odobrenog kratkog probnog prolaza. Dokument slu
 Pri zatvaranju je zabeleženo **4.588 markera / 4.506 radnih stavki**. To su brojevi iz tog trenutka, ne automatski današnji brojevi. Završni paket: **1 nova lokacija, 4 razrešena radna duplikata i 2 dopune postojećih markera**; [potpun izveštaj](../data/provere/lociranje-zavrsni-prolaz-2026-10-16.json).
 
 `data/bez_lokacije.json` je radni skup za nepotvrđene tačke i identitete; aplikacija ga ne učitava. Novi marker, povezivanje sa već postojećim i odbačen pogrešan kandidat su različiti rezultati. Uklanjanje radnog duplikata ne računa se kao nova lokacija.
+
+**Crna Gora: paket završen 18.10.2026. po korisnikovoj odluci.** Završno stanje je 134 markera i 30 stavki bez lokacije; sedam markera je približno u centru sela, a Velika približno uz staru školu. Naknadno dodat spomenik Niku Marašu i saborcima kod Vukovačkog mosta, sa OSM tačkom, fotografijom i posvetom ([dokaz](../data/provere/vukovci-2026-10-18.json)). Ostali FB unosi dopunjuju postojeće markere; istorijske brojke pojedinačnih prolaza ispod ostaju sačuvane. [Izvori CG](IZVORI.md#crna-gora) i nepotvrđeni tragovi ispod ne otvaraju novi zadatak.
+
+## Makedonija: probni pregled kataloga 1986 (2026-10-18)
+
+Pregledano je 20 izabranih zapisa prema skenovima, uz poređenje oba naša skupa i relevantnih postojećih fotografija: **12 bez jasnog para, 5 nejasnih uparivanja i 3 već na mapi**. To su kandidati za dalju proveru, **0 novih markera u ovom probnom pregledu**; nove tačke i današnje stanje nisu potvrđeni. [Pojedinačni zapisi, knjiški brojevi i razlozi](../data/provere/makedonija-pilot-2026-10-18.json).
+
+**Naknadni odobreni pokušaj tih pet mesta, 18.10.2026, završen:** **4 nove lokacije sa fotografijama** — Miravci, Gari, Zlatari i Elšani; **Labuništa nije potvrđena**. Početni rezultat 12/5/3 iznad je istorijski snimak pre ovog nastavka; ovo nije završen pregled cele knjige. [Dokazi i novi zapisi, `nastavakPetKandidata`](../data/provere/makedonija-pilot-2026-10-18.json).
+
+- **Miravci:** konkretno Google mesto i satelit potvrđuju obnovljenu česmu sa istim imenima i godinom 1954 kao na ranijoj Flickr fotografiji; grubi geotag Flickr-a nije tačka markera. Nova fotografija sa Google mapa.
+- **Gari:** česma na ulazu, fotografija iz 2015. sa zvezdom i čitljivom NOB posvetom; koordinate iz geotaga, mogući pomak nekoliko metara od kamere.
+- **Zlatari:** OSM česma uz crkvu i geotagovana fotografija iz 2022, isti Dimitri J. Trajčeski kao na ploči; knjiga i registar koriste oblik Trajčevski. Zaseban objekat od postojeće spomen-kuće.
+- **Elšani:** spomen-česma „Klajnec“ identifikovana opisom planinarske ture; GPX početak/završetak poklapaju se sa bazenima sa dve Commons fotografije iz 2019. Imena boraca nisu vidljiva na odabranoj fotografiji; NOB posvetu potvrđuju knjiga i opis ture. Istočni OSM izvor nije korišćen kao njena tačka.
+- **Labuništa:** nema potvrđenog para; Google rezultati za Strugu i Commons spomenik balkanskom ratu odbačeni. Ne ponavljati iste pretrage bez novog traga.
+
+| Prioritet | Mesto i objekat | Knjiga: strana / broj | Ishod i prepreka |
+|---|---|---|---|
+| 1 | Miravci: Spomen-česma palim borcima | 119 / 6/493 | Naknadno locirano i dodato na mapu. Provera i ograničenja su navedeni iznad; početna napomena: Tražiti česmu, ne spomenik kralju Aleksandru u istom mestu. |
+| 2 | Gari (Debar): Spomen-česma palim borcima | 119 / 7/216 | Naknadno locirano i dodato na mapu. Provera i ograničenja su navedeni iznad; početna napomena: Commons kategorija Gari, Debar nema jasno imenovanu fotografiju memoriala; akademski rezultat sa slikom 61g prikazuje Tresonče, ne Gari. |
+| 3 | Podvis (Kičevo): Spomen-česma Prvom okolijskom komitetu KPM | 120 / 16/116 | Bez jasnog para. Razlikovati česmu od stare škole i naknadno premeštene ploče; položaj nije potvrđen. |
+| 4 | Zlatari (Resen): Spomen-česma Dimitru J. Trajčevskom | 121 / 24/401 | Naknadno locirano i dodato na mapu. Provera i ograničenja su navedeni iznad; početna napomena: Postojeći zapis je spomen-kuća odreda Dame Gruev, ne potvrđen par sa česmom. |
+| 5 | Brodec (Gostivar): Spomen-česma palim borcima | 120 / 9/68 | Bez jasnog para. Ne mešati sa istoimenim selom kod Skoplja i fotografijom česme JNA bez potvrde NOB posvete. |
+| 6 | Čelopek (Kumanovo): Spomen-česma palim borcima | 120 / 18/889 | Bez jasnog para. Opština iz knjige je kumanovski kraj; ne istoimeni Čelopek kod Tetova. |
+| 7 | Elšani (Ohrid): Spomen-česma palim borcima | 121 / 21/439 | Naknadno locirano i dodato na mapu. Provera i ograničenja su navedeni iznad; početna napomena: Selo i strana sela poznati; tačka objekta nije potvrđena. |
+| 8 | Labuništa (Struga): Spomen-česma palim borcima i žrtvama fašizma | 121 / 26/241 | Bez jasnog para. Nije Ljubaništa kod Ohrida; knjiga već beleži da česma ne služi kao vodovodni objekat. |
+| 9 | Staro Selo (Tetovo): Spomen-česma palim vojnicima i borcima | 121 / 27/245 | Bez jasnog para. Mešovita posveta obuhvata NOB; nije samo Prvi svetski rat. |
+| 10 | Debrešte (prilepski kraj): Spomen-česma palim borcima | 121 / 23/563 | Bez jasnog para. Postojeći debriste je zaseban spomenik borcima Drenovske klisure kod Kavadaraca; ne spajati po sličnom imenu. |
+| 11 | Sasa (Sredni Rid): Spomenik Veri Jocić | 38 / 33/814 | Bez jasnog para. Postojeći spomenik istoj osobi u Makedonskoj Kamenici nije potvrđen par sa piramidom u Sasi. |
+| 12 | Makedonski Brod (Ključ): Obelisk palim borcima | 38 / 36/332 | Bez jasnog para. Razlikovati obelisk na visu od spomenika kod mosta i radnog zapisa iz 1981. |
+| 13 | Kanino (centar): Spomen-česma palim borcima | 119 / 1/194 | Nejasno uparivanje. Fotografija postojećeg markera je obelisk bez vidljive česme; nije dovoljno za potvrdu niti novi unos. |
+| 14 | Kanino (zadruga): Druga spomen-česma palim borcima | 119 / 2/195 | Nejasno uparivanje. Postojeća ploča je fotografisana uz objekat; odnos sa knjiškom česmom nije potvrđen. |
+| 15 | Prždevo (centar): Spomen-česma borcima i žrtvama | 120 / 12/513 | Nejasno uparivanje. Postojeća fotografija prikazuje samo ploče; bez celog objekta ne potvrđuje česmu. |
+| 16 | Karbunica: Spomen-česma šestorici streljanih | 120 / 15/115 | Nejasno uparivanje. Postojeći generički spomenik zahteva poređenje natpisa/izgleda; isto selo nije dovoljan dokaz. |
+| 17 | Makedonski Brod (most): Spomenik borcima i žrtvama fašizma | 38 / 35/329 | Nejasno uparivanje. Radni spisak ima spomenik palim borcima u gradu iz 1981. sa Commons fotografijom; tek treba potvrditi da li je to ovaj objekat. |
+| 18 | Slivovo: Spomen-česma sa mozaikom | 121 / 20/267 | Već na mapi. Poklapaju se vrsta, dve mozaičke površine i autor; nije novi kandidat. |
+| 19 | Besvica: Spomen-česma borcima i žrtvama | 120 / 11/508 | Već na mapi. Postojeći namenski zapis i fotografija kamene česme sa pločom; nije novi kandidat. |
+| 20 | Demir Hisar: Statua palim borcima | 38 / 34/391 | Već na mapi. Fotografija ovog markera prikazuje opisanu stojeću figuru; drugi marker demir-hisar je zasebna kompozicija. |
 
 ## Gde nastaviti čitanje
 
@@ -35,6 +72,19 @@ Pri zatvaranju je zabeleženo **4.588 markera / 4.506 radnih stavki**. To su bro
 | Ranije hrvatske/slovenačke ture i ostali muzeji | [Pregled tura](#pregled-tura) i odgovarajući izveštaj u arhivi | Pojedinačni nazivi, tačke, dokazi i neuspešni pokušaji. |
 | Opstanak u Hrvatskoj | [Provera rušenja](PROVERA_RUSENJA_HRVATSKA.md) | Odvojene odluke o istorijskom rušenju, kasnijim dokazima i obustavljenom obimu provere. |
 | Obrađenost spoljnog izvora | [Izvori](IZVORI.md) | Koji skup i koja vrsta obrade su završeni, šta je delimično i šta još nije pregledano. |
+
+## Crna Gora: identiteti i sačuvani tragovi
+
+- **Nazivi, mesta i fotografije:** Zabjelo dobilo fotografiju i posvetu porodici Dedić i Arsu Periću; Krstac na Goliji potvrđen kao postojeći `gornje-caradje`; Trijebač potvrđen kao postojeći `radevici`, mesto ispravljeno u Rogami (Trijebač). Dopunjeni i nazivi Žabljaka, Golubovaca i Danilovgrada.
+- **Već postoje i podaci se poklapaju:** Risan, Knjaževac, Rijeka Crnojevića, Barutana, Kolašin i Virpazar. Lazine su potvrđene kao postojeći `jastreb`; nije dodat drugi marker. Fotografije sa FB čuvaju se u `izvori/cg/facebook/`, provere u `data/provere/`.
+
+Ovo su ograničenja i nepotvrđeni slučajevi, ne aktivni TODO niti nalog za nastavak. Knjige bez punog teksta i obim obrađenosti ostaju u [IZVORI.md](IZVORI.md).
+
+- **Herceg Novi:** Baošići imaju dva objekta u registru, a mi jedan zapis; Đurkovićev zapis je vrste `spomenik`, a to je bista.
+- **OSM:** „Spomenik Lovćenski odred“ (n5519788722), jer Google na tom mestu daje „Lovćenska vila“; bista Jakuba Kubura kod Boljanića (n8991363785), identitet nepotvrđen; 12 neimenovanih `war_memorial` tačaka.
+- **StoryMap:** „Voda Partizanka“ u Stravču; proveru njene tačke nismo završili.
+- **Danilovgrad:** pri zatvaranju 12 stavki bez lokacije; Pažići su u zasebnom prolazu prebačeni približno u centar sela ([evidencija](../data/provere/priblizno-sela-2026-10-18.json)). Ranijih 13 u knjiškom paketu je istorijski rezultat, pre približnog lociranja Pažića. Terenski katalog ima i procenjene lokacije; ne uvoziti ih automatski, posebno dve gradske kosturnice (rodoljubima iz 1974. autor nije našao tokom obilaska 2025). Knjiga beleži i ukradene ili pohranjene biste (Miladin Pavličić, Vasilije-Žarko Đurović): ne mapirati ih na starom mestu.
+- **Ulcinj:** „Spomenik palim borcima“ iz kataloga je verovatno naš Spomenik Pobjede.
 
 ## Preostale prepreke i koristan novi dokaz
 
@@ -210,7 +260,7 @@ Proveravani su kandidati sa imenovanim delom, prepoznatljivom zgradom ili jasnim
 | Veliko Trojstvo | [HRT, 2026.](https://magazin.hrt.hr/kultura/etno-muzej-velikog-trojstva-dobiva-digitalno-ruho-12614989) potvrđuje prenamenu nekadašnjeg Titovog muzeja u etno-muzej; stari naziv i namena nisu prepisani kao današnji. |
 | Robaje, Prohor Pčinjski, Vukosavci | Knjiški ili opšti opis nije razrešio tačnu zasebnu muzejsku zgradu; koordinate sela, manastira ili susednog spomenika nisu uzete kao zamena. |
 | Gornji Milanovac, spomenik borbe, stradanja i pobede | U pregledanom OSM centru nema pouzdanog imenovanog para; Mišićev spomenik i obeležje osnivanju grada odbačeni. |
-| Kraljevo, prvi partizanski tenk | [Skupštinske beleške iz 2018.](https://www.parlament.gov.rs/upload/archive/files/lat/doc/stenografske_beleske/26.%20jun%202018.%20LAT.pdf) navode ranije premeštanje u vojnu poštu Jarčujak. Istorijska parkovska tačka nije upisana. |
+| Kraljevo, prvi partizanski tenk | [Skupštinske beleške iz 2018.](https://www.parlament.gov.rs/upload/archive/files/lat/doc/stenografske_beleske/26.%20jun%202018.%20LAT.pdf) navode ranije premeštanje u vojnu poštu Jarčujak. Istorijska parkovska tačka nije upisana. Po [komentaru sa terena](https://x.com/strojkontrolj/status/2111140703204221241) 2026. tenka nema ni tamo, pa je stavka označena kao uklonjena. |
 | Gornja Rijeka | [Prilog iz 2013.](https://www.krizevci.info/2013/08/14/spomenik-djeci-zrtvama-rata-sele-na-groblje/) navodi preseljenje dečjeg spomenika prema groblju; lokacija kod dvorca iz knjige nije iskorišćena. |
 | Bogomila i obeležje Lazaru Jaukoviću kod mosta na Tari | Nema potvrđene tačke odgovarajućeg objekta. Jaukovićeva fotografija nema koordinate; obližnja Božidareva bista i neimenovana OSM ploča nisu poistovećene sa njim. |
 

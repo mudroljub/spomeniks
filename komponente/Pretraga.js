@@ -126,7 +126,10 @@ export default class Pretraga extends HTMLElement {
     const fraza = normalizuj(this.polje.value)
     const pronadjeno = this.stavke.filter(stavka => this.tekstovi.get(stavka).includes(fraza))
     this.filteri.postaviOsnovu(pronadjeno)
-    this.filtrirano = pronadjeno.filter(({spomenik}) => this.filteri.odgovara(spomenik))
+    // trazeni spomenik se nalazi i kad je uklonjen: podrazumevani filter stanja samo rasterecuje praznu mapu,
+    // a stanje koje je korisnik sam izabrao vazi i u pretrazi
+    const osim = fraza && this.filteri.naPocetku('stanje') ? 'stanje' : undefined
+    this.filtrirano = pronadjeno.filter(({spomenik}) => this.filteri.odgovara(spomenik, osim))
     const suzeno = this.filtrirano.length < this.pocetnih
     this.osveziPrikaz(suzeno)
     this.callback(this.filtrirano, suzeno)

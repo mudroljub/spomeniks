@@ -35,7 +35,7 @@ Alat ne proverava ceo `bez_lokacije.json`, knjiška uparivanja i radne pokaziva�
 
 ### Aktuelnost dokumentacije
 
-Početak `ZETVA_CRNA_GORA.md` još navodi 96 markera i 12 radnih stavki, dok je u snimku provere bilo 97 i 17; isti dokument već beleži završen StoryMap prolaz od 17. oktobra. Uvodni status treba datirati i uskladiti sa rezultatima. Istorijske brojke u jasno označenim arhivama drugih dokumenata treba sačuvati.
+**Rešeno 2026-10-18:** status i brojke u [evidenciji izvora CG](IZVORI.md#crna-gora) usklađeni sa zatvaranjem žetve i FB pregleda po korisnikovoj odluci: 134 markera, 30 stavki bez lokacije. Raniji nalaz razlike 96/12 prema 97/17 odnosio se na stari snimak; istorijske brojke datiranih prolaza sačuvane su. Završena žetva uklonjena je iz aktivnog TODO-a.
 
 Četiri ranija nalaza o skilovima ostaju u jedinstvenom [TODO spisku](../README.md#todo): `stanjeIzvor` u standardu, obrada radnih fotografija, nedostajući `autori_wiki.py` i gašenje tuđeg procesa na portu 8765. Nisu ponovo otvarani kao zasebni zadaci.
 

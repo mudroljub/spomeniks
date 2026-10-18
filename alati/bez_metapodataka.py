@@ -3,7 +3,7 @@
 # pokretanje iz korena repozitorijuma: python -I alati/bez_metapodataka.py [--upisi]  (bez --upisi samo prebroji)
 import os, struct, sys
 
-FOLDER = 'slike/spomenici'
+FOLDERI = ['slike/spomenici', 'slike/bez-lokacije']
 VISAK = {b'EXIF', b'XMP '}
 ZASTAVICE = {b'EXIF': 0x08, b'XMP ': 0x04}  # bitovi u VP8X zaglavlju
 
@@ -31,8 +31,7 @@ def okrenuta(exif):
 
 upisi = '--upisi' in sys.argv
 izmenjeno, usteda, okrenutih = 0, 0, 0
-for ime in sorted(os.listdir(FOLDER)):
-    putanja = f'{FOLDER}/{ime}'
+for putanja in [f'{f}/{ime}' for f in FOLDERI for ime in sorted(os.listdir(f))]:
     b = open(putanja, 'rb').read()
     ostaje, izbaceno = [], set()
     for tip, deo in delovi(b):

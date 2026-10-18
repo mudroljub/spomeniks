@@ -7,12 +7,18 @@ set -u
 koren="$(git -C "$(dirname "$0")" rev-parse --show-toplevel)"
 cd "$koren" || exit 1
 
+# tudji server na istom portu se ne koristi i ne gasi
+if curl -s -o /dev/null http://localhost:8765/; then
+  echo "port 8765 je zauzet; skripta pokrece i gasi samo svoj server" >&2
+  exit 1
+fi
 python -m http.server 8765 >/dev/null 2>&1 &
 server=$!
+# na Windowsu kill ne gasi uvek python koji je pokrenuo bash, pa se gasi i po Windows id-u bas tog procesa
+winpid=$(cat "/proc/$server/winpid" 2>/dev/null)
 ugasi() {
   kill "$server" 2>/dev/null
-  # na Windowsu kill ne gasi uvek python koji je pokrenuo bash
-  powershell -NoProfile -Command 'Get-NetTCPConnection -LocalPort 8765 -State Listen -ErrorAction SilentlyContinue | ForEach-Object { Stop-Process -Id $_.OwningProcess -Force }' >/dev/null 2>&1
+  if [ -n "$winpid" ]; then taskkill //PID "$winpid" //F >/dev/null 2>&1; fi
 }
 trap ugasi EXIT
 

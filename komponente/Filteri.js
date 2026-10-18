@@ -308,6 +308,13 @@ export default class Filteri extends HTMLElement {
       [...this.izbor[g.kljuc]].some(o => g.uslov(spomenik, o)))
   }
 
+  // grupa koju korisnik nije menjao
+  naPocetku(kljuc) {
+    const pocetno = podrazumevano[kljuc] || []
+    const izabrano = this.izbor[kljuc]
+    return izabrano.size === pocetno.length && pocetno.every(o => izabrano.has(o))
+  }
+
   // broje se izmene u odnosu na pocetni izbor
   brojAktivnih() {
     return this.grupe.reduce((zbir, {kljuc}) => {

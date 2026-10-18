@@ -16,14 +16,18 @@ def spomenik(sid, lat=44, lng=20):
 
 
 class IntegritetTest(unittest.TestCase):
-    def proveri(self, zapisi, visak_slike=False, posvete=None):
+    def proveri(self, zapisi, visak_slike=False, posvete=None, bez_lokacije=None, knjiga=None):
         with tempfile.TemporaryDirectory(prefix='spomenici-integritet-') as folder:
             koren = Path(folder)
-            (koren / 'data').mkdir()
+            for f in ('data/knjige', 'data/provere'):
+                (koren / f).mkdir(parents=True)
             slike = koren / 'slike/spomenici'
             slike.mkdir(parents=True)
-            for ime, podaci in [('spomeniks', zapisi), ('ture', []), ('autori', {}), ('posvete', posvete or {})]:
+            for ime, podaci in [('spomeniks', zapisi), ('ture', []), ('autori', {}), ('posvete', posvete or {}),
+                                ('bez_lokacije', bez_lokacije or [])]:
                 (koren / f'data/{ime}.json').write_text(json.dumps(podaci), encoding='utf8')
+            if knjiga is not None:
+                (koren / 'data/knjige/test.json').write_text(json.dumps(knjiga), encoding='utf8')
             if visak_slike:
                 (slike / 'visak.webp').write_bytes(b'')
             return subprocess.run([sys.executable, '-I', str(ALAT)], cwd=koren,
@@ -62,6 +66,18 @@ class IntegritetTest(unittest.TestCase):
         r = self.proveri([spomenik('nis'), spomenik('nis-spomen-park-bubanj'), spomenik('novi')])
         self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
         self.assertIn('novi parovi manje od 30 m: 2', r.stdout)
+
+    def test_veza_knjige(self):
+        stavka = {'naziv': 'Spomenik', 'mesto': 'Test', 'vrsta': 'lokalni', 'drzava': 'Serbia'}
+        dobre = [{'oznaka': 'A', 'uparivanje': {'skup': 'spomeniks', 'cilj': 'test'}},
+                 {'oznaka': 'B', 'uparivanje': {'skup': 'bez_lokacije', 'cilj': 0}}]
+        r = self.proveri([spomenik('test')], bez_lokacije=[stavka], knjiga=dobre)
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        for los in [{'skup': 'spomeniks', 'cilj': 'nema'}, {'skup': 'bez_lokacije', 'cilj': 1}]:
+            with self.subTest(veza=los):
+                r = self.proveri([spomenik('test')], bez_lokacije=[stavka], knjiga=[{'oznaka': 'C', 'uparivanje': los}])
+                self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
+                self.assertIn('knjiga: veza bez cilja', r.stdout)
 
     def test_nekoriscena_slika(self):
         r = self.proveri([spomenik('test')], visak_slike=True)

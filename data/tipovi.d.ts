@@ -71,4 +71,8 @@ export interface SpomenikBezLokacije extends Omit<Spomenik, 'id' | 'koordinate'>
   adresa?: string
   /** moguće, nepotvrđene lokacije */
   kandidati?: Kandidat[]
+  /** ishod pokušaja lociranja koji nije dao tačku: kada, iz kog izvora i šta je utvrđeno */
+  proveraLokacije?: {datum: string, izvor: string, ishod: string, napomena?: string}
+  /** ishod provere opstanka zapisa koji je povučen sa mape; prethodniId je njegov raniji id u bazi */
+  proveraOpstanka?: {datum: string, prethodniId: string, ishod: string, razlog: string, izvestaj: string}
 }

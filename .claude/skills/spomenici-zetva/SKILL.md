@@ -31,6 +31,8 @@ Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i ot
 
 ## Postupci koji rade
 
+- **Pre izveštaja „nema dovoljno podataka“ prvo traži na mreži** (korisnik, 2026-10-18): članak na Vikipediji, vesti, sajt opštine ili muzeja, Google mape, OSM i Commons. Korisniku se javlja nalaz, ili tek posle te pretrage šta je traženo i nije nađeno, uz linkove pregledanih izvora.
+- **Komentari sa Twittera (X) imaju prednost** (korisnik, 2026-10-18): to su zapažanja i fotografije ljudi sa terena. Njihov podatak (mesto, stanje, autor, godina, fotografija) ima prednost nad starijim katalogom ili bazom; tvit se čita preko `https://cdn.syndication.twimg.com/tweet-result?id=<id>&token=a`, a fotografija ide uz potpis „Ime (@nalog), X“.
 - **Google link od korisnika:**
   - `alati/proveri.py` iz linka čita ime, koordinate i id (heksadecimalni CID posle `0x…:0x`) i nalazi najbliže naše spomenike;
   - `alati/upisi_cid.py` i `alati/dodaj_google.py` upisuju podatke.
