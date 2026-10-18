@@ -10315,7 +10315,7 @@
  {
   "odluka": "lociranje-dva-muzeja-2026-10-18",
   "datum": "2026-10-18",
-  "ishod": "adrese-i-dokazi-dopunjeni-bez-nepotvrđenih-koordinata",
+  "ishod": "dva-adresna-nalaza-i-jedna-tačna-lokacija-prebačena-na-mapu",
   "nalazi": [
    {
     "naziv": "Muzej štampe NOB Vojvodine",
@@ -10348,6 +10348,24 @@
      "https://plusportal.hr/media/images/old_sb/Files/180319164051354/popis%20uklonjenih%20bisti%20i%20spomenika%20iz%20NOB-a.pdf"
     ],
     "zakljucak": "Adresa potvrđena, muzej je prestao s radom; koordinate nisu potvrđene pa zapis ostaje u radnom spisku."
+   },
+   {
+    "naziv": "Muzej narodne revolucije Istre",
+    "mesto": "Pula",
+    "ishod": "prebačeno-na-mapu",
+    "id": "pula-povijesni-i-pomorski-muzej-istre",
+    "koordinate": {
+     "lat": 44.87025,
+     "lng": 13.84575
+    },
+    "adresa": "Gradinski uspon 6",
+    "izvori": [
+     "https://pulainfo.hr/hr/where/pomorski-i-povijesni-muzej-istre/",
+     "https://www.ppmi.hr/hr/kontakt/",
+     "https://znaci.org/00003/920.pdf#page=419",
+     "https://www.openstreetmap.org/node/1301920901"
+    ],
+    "zakljucak": "Muzej narodne revolucije Istre osnovan 1955. ista je ustanova koja se danas zove Povijesni i pomorski muzej Istre; izvorna lokacija i današnja ustanova potvrđene su na Kaštelu, Gradinski uspon 6. Koordinate su imenovana OSM tačka muzeja."
    }
   ]
  }

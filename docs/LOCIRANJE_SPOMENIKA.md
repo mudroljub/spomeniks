@@ -141,3 +141,7 @@ U narednom odobrenom poslu prvo naći zapis po nazivu, mestu i izvornom linku; s
 ## Arhiva
 
 Arhiva pojedinačnih tura je uklonjena 2026-10-18 da bi dokument ostao pregledan; cela je u istoriji gita: `git show a938432:docs/LOCIRANJE_SPOMENIKA.md`. Dokazi po objektu su u JSON izveštajima u `data/provere/`.
+
+## Pula: Muzej narodne revolucije Istre
+
+Muzej iz kataloga 1986. prebačen je na mapu kao današnji Povijesni i pomorski muzej Istre: ustanova je osnovana 1955. kao Muzej revolucije, smeštena je na Kaštelu, a lokacija je potvrđena imenovanom OSM tačkom. [Dokazi i pomerene reference](../data/provere/lociranje-muzej-pula-2026-10-18.json).
