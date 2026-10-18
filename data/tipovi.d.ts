@@ -46,8 +46,13 @@ export interface Spomenik {
   slikaPotpis?: string
   /** engleski naziv, samo kad se razlikuje od domaćeg */
   nazivEn?: string
-  /** godina podizanja: "1961", raspon "1958-1960", ili približno "pre 1960", "posle 1960", "oko 1960", "1960-ih" */
+  /** godina podizanja za prikaz, npr. "1961", "1958-1960" ili "pre 1960" */
   godina?: string
+  /** brojčane granice godine; kod "pre Y" postoji samo godinaDo, kod "posle Y" samo godinaOd */
+  godinaOd?: number
+  godinaDo?: number
+  /** oznaka nesigurnosti ili decenije; nedostaje za tačnu godinu i raspon */
+  godinaOdrednica?: 'pre' | 'posle' | 'oko' | 'decenija'
   /** autori spojeni sa „ & “ */
   autor?: string
   /** uloge koje izvor izričito pripisuje autorima; imena su ista kao u polju `autor` */
