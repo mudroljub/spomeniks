@@ -70024,11 +70024,17 @@
   {
     "id": "indjija-spomen-obelezje-palim-borcima-i-zrtvama-fa",
     "koordinate": {
-      "lat": 45.052575,
-      "lng": 20.07082
+      "lat": 45.064955,
+      "lng": 20.074652
     },
     "mesto": "Inđija",
+    "clanak": "https://indjijatravel.rs/spomen-obelezje-palim-borcima-i-zrtvama-fasistickog-terora/?script=lat",
+    "slika": "slike/spomenici/indjija-spomen-obelezje-palim-borcima-i-zrtvama-fa.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Nasleđe",
     "naziv": "Spomen-obeležje palim borcima i žrtvama fašističkog terora",
+    "godina": "1984",
+    "autor": "Miloš Vojinović",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -143157,12 +143163,14 @@
   {
     "id": "krusevica-obelisk",
     "koordinate": {
-      "lat": 44.34808,
-      "lng": 20.39647
+      "lat": 44.336083,
+      "lng": 20.384139
     },
-    "priblizno": true,
-    "mesto": "Kruševica",
-    "naziv": "Obelisk",
+    "mesto": "Kruševica (Lazarevac)",
+    "slika": "slike/spomenici/krusevica-obelisk.webp",
+    "slikaOdnos": 1.0,
+    "slikaPotpis": "Planine.net",
+    "naziv": "Spomenik palim borcima",
     "godina": "1945",
     "godinaOd": 1945,
     "godinaDo": 1945,
@@ -143603,11 +143611,13 @@
   {
     "id": "ralja-spomenik-milosavu-vlajicu",
     "koordinate": {
-      "lat": 44.57177,
-      "lng": 20.56124
+      "lat": 44.568333,
+      "lng": 20.5615
     },
-    "priblizno": true,
-    "mesto": "Ralja",
+    "mesto": "Ralja (Sopot)",
+    "slika": "slike/spomenici/ralja-spomenik-milosavu-vlajicu.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
     "naziv": "Spomenik Milosavu Vlajiću",
     "godina": "1953",
     "godinaOd": 1953,
@@ -147847,7 +147857,7 @@
     },
     "priblizno": true,
     "mesto": "Gornja Gorevnica",
-    "naziv": "Spomenik",
+    "naziv": "Spomenik Grozdani Toroman-Sretenović",
     "godina": "1969",
     "godinaOd": 1969,
     "godinaDo": 1969,
@@ -148006,7 +148016,7 @@
     "godinaOd": 1958,
     "godinaDo": 1958,
     "autor": "M. Lukić",
-    "vrsta": "spomen-obelezje",
+    "vrsta": "spomen-groblje",
     "drzava": "Serbia"
   },
   {
@@ -152148,12 +152158,11 @@
   {
     "id": "visibaba-spomenik",
     "koordinate": {
-      "lat": 43.83118,
-      "lng": 20.00484
+      "lat": 43.819917,
+      "lng": 20.016917
     },
-    "priblizno": true,
     "mesto": "Visibaba",
-    "naziv": "Spomenik",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -154968,14 +154977,18 @@
   {
     "id": "botos-skulptura",
     "koordinate": {
-      "lat": 45.30956,
-      "lng": 20.63827
+      "lat": 45.310755,
+      "lng": 20.639636
     },
     "priblizno": true,
     "mesto": "Botoš",
-    "naziv": "Skulptura",
+    "slika": "slike/spomenici/botos-skulptura.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "podaci.com",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1959",
     "autor": "S. Dukić",
-    "vrsta": "spomen-obelezje",
+    "vrsta": "statua",
     "drzava": "Serbia"
   },
   {
@@ -155626,12 +155639,15 @@
   {
     "id": "novo-milosevo-piramida-u-ataru-naselja-obele-zava",
     "koordinate": {
-      "lat": 45.72131,
-      "lng": 20.30175
+      "lat": 45.713833,
+      "lng": 20.287417
     },
-    "priblizno": true,
     "mesto": "Novo Miloševo",
-    "naziv": "Piramida u ataru naselja obele žava mesto borbe u kojoj su poginula dva skojevca",
+    "slika": "slike/spomenici/novo-milosevo-piramida-u-ataru-naselja-obele-zava.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Novo Miloševo",
+    "naziv": "Spomenik prvoj borbi Dragutinovačkog odreda",
+    "godina": "1964",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -158108,6 +158124,186 @@
     "godinaDo": 1959,
     "autor": "Dušan Nikolić",
     "vrsta": "statua",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "ozrem-spomenik",
+    "koordinate": {
+      "lat": 44.08895,
+      "lng": 20.32141
+    },
+    "priblizno": true,
+    "mesto": "Ozrem",
+    "naziv": "Spomenik",
+    "autor": "Boža Prodanović",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "cacak-ljubic-spomenik-palim-zeleznicarima",
+    "koordinate": {
+      "lat": 43.915701,
+      "lng": 20.372566
+    },
+    "priblizno": true,
+    "mesto": "Čačak (Ljubić)",
+    "naziv": "Spomenik palim železničarima",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "azanja-spomenik-prvoj-frontalnoj-borbi",
+    "koordinate": {
+      "lat": 44.440194,
+      "lng": 20.863361
+    },
+    "mesto": "Azanja",
+    "naziv": "Spomenik prvoj frontalnoj borbi kod Azanje",
+    "godina": "1977",
+    "posveta": "Prvoj frontalnoj borbi tri čete Drugog šumadijskog odreda sa nemačkim okupatorom 28. septembra 1941. godine.",
+    "vrsta": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "bajinci-spomenik-ratnicima-mlacista-i-bajinca",
+    "koordinate": {
+      "lat": 42.795076,
+      "lng": 22.238026
+    },
+    "mesto": "Bajinci",
+    "slika": "slike/spomenici/bajinci-spomenik-ratnicima-mlacista-i-bajinca.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Радосав Стојановић at Serbian Wikipedia, Public domain",
+    "naziv": "Spomenik ratnicima Mlačišta i Bajinca",
+    "godina": "1979",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "belosavci-spomenik-crvenoarmejcima",
+    "koordinate": {
+      "lat": 44.328512,
+      "lng": 20.689025
+    },
+    "googleCid": "16103976324430792292",
+    "mesto": "Belosavci",
+    "naziv": "Spomenik crvenoarmejcima",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "dolovo-spomenik-palim-borcima-u-dolini",
+    "koordinate": {
+      "lat": 44.903028,
+      "lng": 20.880056
+    },
+    "mesto": "Dolovo",
+    "slika": "slike/spomenici/dolovo-spomenik-palim-borcima-u-dolini.webp",
+    "slikaOdnos": 2.198,
+    "slikaPotpis": "podaci.com",
+    "naziv": "Spomenik palim borcima",
+    "godina": "1961",
+    "autor": "Stevan Bodnarov",
+    "vrsta": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "gornjane-kameni-beleg-partizanskim-borbama",
+    "koordinate": {
+      "lat": 44.238917,
+      "lng": 22.058556
+    },
+    "mesto": "Gornjane",
+    "naziv": "Kameni beleg partizanskim borbama",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "guca-spomen-obelezje-palim-borcima-kod-skole",
+    "koordinate": {
+      "lat": 43.777028,
+      "lng": 20.224444
+    },
+    "mesto": "Guča",
+    "slika": "slike/spomenici/guca-spomen-obelezje-palim-borcima-kod-skole.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "BrankaVV, CC BY-SA 4.0",
+    "naziv": "Spomen-obeležje palim borcima i žrtvama fašizma",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "kovacica-spomen-park-novi-park",
+    "koordinate": {
+      "lat": 45.112832,
+      "lng": 20.618835
+    },
+    "mesto": "Kovačica",
+    "slika": "slike/spomenici/kovacica-spomen-park-novi-park.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Telepapatija",
+    "naziv": "Spomen-park",
+    "godina": "1975",
+    "vrsta": "spomen-park",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "novo-selo-vrnjacka-banja-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 43.650819,
+      "lng": 20.881477
+    },
+    "mesto": "Novo Selo (Vrnjačka Banja)",
+    "slika": "slike/spomenici/novo-selo-vrnjacka-banja-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Ivan Veličković biblioteka, CC BY-SA 3.0",
+    "naziv": "Spomenik borcima u oslobodilačkim ratovima",
+    "godina": "1989",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "progar-spomen-ploca-partizanskom-bivaku",
+    "koordinate": {
+      "lat": 44.731803,
+      "lng": 20.155728
+    },
+    "priblizno": true,
+    "mesto": "Beograd (Progar)",
+    "slika": "slike/spomenici/progar-spomen-ploca-partizanskom-bivaku.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Тајга, CC BY-SA 3.0",
+    "naziv": "Spomen-ploča partizanskom bivaku u Bojčinskoj šumi",
+    "godina": "1963",
+    "posveta": "Partizanskom bivaku, bazama i osmatračnicama Prvog sremskog odreda u Bojčinskoj šumi od 1942. do oslobođenja.",
+    "vrsta": "spomen-ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "zabrdje-spomenik-palim-borcima-od-1941-1945",
+    "koordinate": {
+      "lat": 44.385278,
+      "lng": 21.371889
+    },
+    "mesto": "Zabrđe (Petrovac na Mlavi)",
+    "slika": "slike/spomenici/zabrdje-spomenik-palim-borcima-od-1941-1945.webp",
+    "slikaOdnos": 0.672,
+    "slikaPotpis": "Poportal",
+    "naziv": "Spomenik palim borcima",
+    "godina": "1965",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "popovici-kraljevo-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 43.783306,
+      "lng": 20.663917
+    },
+    "mesto": "Popovići (Kraljevo)",
+    "naziv": "Spomenik palim borcima",
+    "godina": "1981",
+    "vrsta": "spomenik",
     "drzava": "Serbia"
   }
 ]
