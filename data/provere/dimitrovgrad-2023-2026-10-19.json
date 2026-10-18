@@ -1,0 +1,381 @@
+{
+  "izvor": {
+    "naziv": "Miša Anđelković, Spomeničko nasleđe dimitrovgradskog kraja iz Drugog svetskog rata i perioda Informbiroa",
+    "godina": 2023,
+    "casopis": "Pirotski zbornik 48, 73–92",
+    "url": "https://scindeks-clanci.ceon.rs/data/pdf/0554-1956/2023/0554-19562348073A.pdf",
+    "doi": "10.5937/pirotzbor2348073A",
+    "lokalno": "izvori/knjige/dimitrovgrad-2023/",
+    "datum": "2026-10-19"
+  },
+  "obim": "Pročitano svih 20 strana. Upareno svih 16 WWII obeležja: 8 postojećih, 7 novih mapiranih i jedna nova nestala ploča bez tačke. Nije tvrdnja o opstanku 2026; terenski opisi rada potiču pretežno iz 2022–2023.",
+  "rezultat": {
+    "novihMapa": 7,
+    "novihMapaPrecizno": 1,
+    "novihMapaPriblizno": 6,
+    "novihBezLokacije": 1,
+    "dopunjenoPostojecih": 8,
+    "novihFotografija": 2,
+    "spojenihRadnihDuplikata": 1,
+    "preciziranaPostojecaTacka": 0,
+    "ispravljenaPribliznaTacka": 1
+  },
+  "stavke": [
+    {
+      "id": "poganovo",
+      "radnja": "dopuna",
+      "strane": [
+        80
+      ],
+      "pre": {
+        "id": "poganovo",
+        "koordinate": {
+          "lat": 42.970325,
+          "lng": 22.666403
+        },
+        "googleCid": "9684265620060863088",
+        "mesto": "Poganovo",
+        "slika": "slike/spomenici/poganovo.webp",
+        "slikaOdnos": 0.45,
+        "slikaPotpis": "Google Maps",
+        "naziv": "Spomen-česma",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izmena": {
+        "naziv": "Spomen-česma palim borcima",
+        "godina": "1954",
+        "posveta": "Trojici boraca iz Poganova poginulih 1944-1945. i Dimitru Mišiću, žrtvi fašističkog terora iz 1943. godine."
+      },
+      "dokaz": "Česma iz 1954, obnovljena opštinskim sredstvima 2014; postojeći Google položaj i fotografija ostaju."
+    },
+    {
+      "id": "donja-nevlja-spomen-cesma",
+      "radnja": "dopuna",
+      "strane": [
+        80,
+        81
+      ],
+      "pre": {
+        "id": "donja-nevlja-spomen-cesma",
+        "koordinate": {
+          "lat": 42.927611,
+          "lng": 22.761583
+        },
+        "mesto": "Donja Nevlja",
+        "slika": "slike/spomenici/donja-nevlja-spomen-cesma.webp",
+        "slikaOdnos": 1.333,
+        "slikaPotpis": "Pirotski kraj",
+        "naziv": "Spomen-česma",
+        "godina": "1958",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izmena": {
+        "godina": "1950",
+        "posveta": "Četrnaestorici palih boraca iz Donje Nevlje, Gornje Nevlje, Skrvenice i Borova."
+      },
+      "dokaz": "Otkrivena 4. jula 1950; ispravka ranije godine 1958 iz Wiki. Nema dokaza da je 1958. posebna obnova."
+    },
+    {
+      "id": "smilovci-spomenik-palim-borcima",
+      "radnja": "dopuna",
+      "strane": [
+        81,
+        82
+      ],
+      "pre": {
+        "id": "smilovci-spomenik-palim-borcima",
+        "koordinate": {
+          "lat": 43.0848748,
+          "lng": 22.8501708
+        },
+        "mesto": "Smilovci",
+        "naziv": "Spomenik palim borcima",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izmena": {
+        "slika": "slike/spomenici/smilovci-spomenik-palim-borcima.webp",
+        "slikaOdnos": 0.731,
+        "slikaPotpis": "Google Maps",
+        "godina": "1956",
+        "posveta": "Petorici boraca iz Smilovaca poginulih 1944-1945. u Bosni i na Sremskom frontu."
+      },
+      "dokaz": "Otkriven 4. jula 1956. uz crkvu. Ne zaključivati obnovu samo iz nove fotografije."
+    },
+    {
+      "id": "izatovci-spomenik-palim-borcima",
+      "radnja": "dopuna",
+      "strane": [
+        84,
+        85
+      ],
+      "pre": {
+        "id": "izatovci-spomenik-palim-borcima",
+        "koordinate": {
+          "lat": 43.120333,
+          "lng": 22.883111
+        },
+        "mesto": "Izatovci",
+        "naziv": "Spomenik palim borcima",
+        "godina": "1954",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izmena": {
+        "autor": "Asen Apostolov",
+        "posveta": "Palim borcima i žrtvama fašističkog terora iz Izatovaca, Slavinje, Kamenice, Gornjeg i Donjeg Krivodola, Vlkovije, Braćevaca i Senokosa."
+      },
+      "dokaz": "Arhivski upitnik izričito navodi Asena Apostolova, geodetu, kao autora. Rad kaže 14 imena, ali ih nabraja 15, pa se taj broj ne prepisuje."
+    },
+    {
+      "id": "senokos-spomen-cesma-odredu",
+      "radnja": "dopuna",
+      "strane": [
+        85
+      ],
+      "pre": {
+        "id": "senokos-spomen-cesma-odredu",
+        "koordinate": {
+          "lat": 43.176083,
+          "lng": 22.943583
+        },
+        "mesto": "Senokos",
+        "naziv": "Spomen-česma odredu",
+        "godina": "1975",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izmena": {
+        "naziv": "Spomen-česma Caribrodskom partizanskom odredu",
+        "posveta": "U spomen na osnivanje Caribrodskog partizanskog odreda „Momčil vojvoda“ 2. juna 1944. godine."
+      },
+      "dokaz": "Izvorište: odred formiran 2. juna, ne 2. jula 1944. Rad razdvaja položaj česme od stvarnog mesta formiranja, oko 2 km dalje. Tačka iz Wiki nije novo nezavisno merenje."
+    },
+    {
+      "id": "senokos-spomen-cesma",
+      "radnja": "dopuna",
+      "strane": [
+        85,
+        86
+      ],
+      "pre": {
+        "id": "senokos-spomen-cesma",
+        "koordinate": {
+          "lat": 43.144444,
+          "lng": 22.925861
+        },
+        "priblizno": true,
+        "mesto": "Senokos",
+        "naziv": "Spomen-česma",
+        "godina": "1975",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izmena": {
+        "naziv": "Spomen-česma pomoći Caribrodskom partizanskom odredu",
+        "posveta": "Meštanima Senokosa za pomoć borcima Caribrodskog partizanskog odreda „Momčil vojvoda“."
+      },
+      "dokaz": "Druga česma, u centru sela, zahvalnost stanovnicima Senokosa za pomoć odredu. Izvor razlikuje natpis 7. jul od otvaranja 6. jula 1975. Približna tačka ostaje."
+    },
+    {
+      "id": "dimitrovgrad-bista-vasila-ivanova",
+      "radnja": "dopuna",
+      "strane": [
+        76,
+        77
+      ],
+      "pre": {
+        "id": "dimitrovgrad-bista-vasila-ivanova",
+        "koordinate": {
+          "lat": 43.01574,
+          "lng": 22.7782
+        },
+        "priblizno": true,
+        "mesto": "Dimitrovgrad",
+        "naziv": "Bista Vasila Ivanova",
+        "autor": "D. Donkov",
+        "vrsta": "bista",
+        "drzava": "Serbia"
+      },
+      "izmena": {
+        "koordinate": {
+          "lat": 43.0149377,
+          "lng": 22.7796248
+        },
+        "godina": "1966",
+        "autor": "Dušan Donkov",
+        "posveta": "Vasilu Ivanovu Ciletu (1908-1942), članu KPJ, smrtno ranjenom prilikom pokušaja bekstva od policije u Beogradu."
+      },
+      "dokaz": "U školskom dvorištu desno od ulaza. Stara približna tačka bila je oko 150 m od sadašnjeg Google položaja škole Hristo Botev 3; nova označava školu, ne tačno postolje biste. Ne mešati sa bistama Hrista Boteva i Vasila Levskog u OSM-u."
+    },
+    {
+      "id": "dimitrovgrad-spomenik-revolucije",
+      "radnja": "dopuna",
+      "strane": [
+        77,
+        78
+      ],
+      "pre": {
+        "id": "dimitrovgrad-spomenik-revolucije",
+        "koordinate": {
+          "lat": 43.011139,
+          "lng": 22.764861
+        },
+        "priblizno": true,
+        "mesto": "Dimitrovgrad",
+        "naziv": "Spomenik revolucije",
+        "godina": "1951",
+        "stanje": "uklonjen",
+        "stanjeIzvor": {
+          "naziv": "Partisan Memorials Wiki",
+          "godina": 2026,
+          "url": "https://www.xiwl.com/w/index.php/Dimitrovgrad_%28Serbia%29_-_Spomenik_Revolucije"
+        },
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izmena": {
+        "slika": "slike/spomenici/dimitrovgrad-spomenik-revolucije.webp",
+        "slikaOdnos": 1.688,
+        "slikaPotpis": "Istorijska fotografija, Miša Anđelković, Pirotski zbornik 48 (2023)",
+        "posveta": "Desetogodišnjici narodne revolucije 1941-1951."
+      },
+      "dokaz": "Istorijska fotografija slika 1, PDF list 5. Rad potvrđuje uklanjanje sa perona; nije utvrđeno da li je uništen ili sačuvan drugde. Sačuvani stari izvor i stanje, bez izmišljanja godine rušenja."
+    },
+    {
+      "id": "dimitrovgrad-ploca-palim-borcima",
+      "radnja": "novi-mapa",
+      "strane": [
+        75,
+        76
+      ],
+      "dokaz": "Na fasadi OŠ Hristo Botev, ranije Moša Pijade; Google položaj konkretne škole, Hristo Botev 3, samo približan položaj ploče. Ne gradski centar."
+    },
+    {
+      "id": "dimitrovgrad-ploca-caribrodskoj-brigadi",
+      "radnja": "novi-mapa",
+      "strane": [
+        76
+      ],
+      "dokaz": "Na zgradi Skupštine opštine, Balkanska 2. OSM node 11978682166 je ploča WWII na toj zgradi; Google potvrđuje adresu. Položaj ploče u OSM-u poklapa se sa opisanom fasadom. Prvobitna bela ploča 1966. zamenjena crnom 1987, nije drugi spomenik."
+    },
+    {
+      "id": "gojin-dol-ploca-borisu-ivanovu",
+      "radnja": "novi-mapa",
+      "strane": [
+        78,
+        79
+      ],
+      "dokaz": "Na zidu bivše zemljoradničke zadruge. Samo centar sela iz naselja_osm.json. Godina 1972. protivreči evidenciji iz 1966, zato izostavljena."
+    },
+    {
+      "id": "petrlas-ploca-palim-borcima",
+      "radnja": "novi-mapa",
+      "strane": [
+        79,
+        80
+      ],
+      "dokaz": "Fasada bivšeg zadružnog doma; selo potvrđeno u opštini Dimitrovgrad. Nema čvora u lokalnom kešu, korišćena približna tačka sela iz GeoNames 787086. Ploča ima i ime stradalog 1947, ne zasebni posleratni marker."
+    },
+    {
+      "id": "radejna-ploca-palim-borcima",
+      "radnja": "novi-mapa",
+      "strane": [
+        82
+      ],
+      "dokaz": "Na zgradi osnovne škole. Približna tačka sela iz članka Radejna, potvrđena opština Dimitrovgrad; položaj školske fasade nije utvrđen."
+    },
+    {
+      "id": "visocki-odorovci-ploca-palim-borcima",
+      "radnja": "novi-mapa",
+      "strane": [
+        82,
+        83
+      ],
+      "dokaz": "Na zgradi bivše zemljoradničke zadruge; samo centar sela iz naselja_osm.json."
+    },
+    {
+      "id": "trnski-odorovci-ploca-palim-borcima",
+      "radnja": "novi-mapa",
+      "strane": [
+        86
+      ],
+      "dokaz": "Na fasadi škole, ranije Ivan Karaivanov, sada Hristo Botev; samo centar sela iz naselja_osm.json. Nije istoimena gradska škola."
+    },
+    {
+      "id": "kamenica-dimitrovgrad-ploca-akciji-odreda",
+      "radnja": "novi-bez-lokacije",
+      "strane": [
+        83,
+        84
+      ],
+      "dokaz": "Nestala/po kazivanju meštana ukradena sa stare opštine, kasnije škole; škola se urušava. Bez tačke ostaje radni unos, ne centar sela. U zaključku rada omaškom se spominju Izatovci, dok je puni opis nestale ploče u Kamenici."
+    }
+  ],
+  "spajanje": {
+    "pre": {
+      "id": "senokos-spomen-cesma-2",
+      "mesto": "Senokos",
+      "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=70",
+      "naziv": "Spomen-česma",
+      "vrsta": "spomen-obelezje",
+      "drzava": "Serbia",
+      "adresa": "Spomen-česma na mestu zvanom Izvorište gde je 2. juna 1944. godine obrazovan Caribrodski partizanski odred „ omčilo vojvoda”, koji je oktobra 1944. prerastao u "
+    },
+    "cilj": "senokos-spomen-cesma-odredu",
+    "dokaz": "Ista česma Izvorište, isti odred i datum formiranja. Druga česma u centru posebno opisana. Nema referenci na uklonjeni ID u data/knjige."
+  },
+  "fotografije": [
+    {
+      "id": "dimitrovgrad-spomenik-revolucije",
+      "dokaz": "Slika 1, štampana 77 / PDF list 5 / img-000.jpg; istorijski snimak, autor i datum snimanja nisu navedeni. Izgled i natpis provereni na celoj strani."
+    },
+    {
+      "id": "smilovci-spomenik-palim-borcima",
+      "url": "https://lh5.googleusercontent.com/p/AF1QipPnwfbYi4zpcv8MknkK2rWVmb3mBYBiVvui2Xwi=w1600-k-no",
+      "dokaz": "Fotografija korisnika Google mapa, nije Street View. Isti spomenik sa bakljom i belom pločom pod crkvom. Isečen višak prizora; datum snimka nepoznat."
+    }
+  ],
+  "dopunskiIzvori": [
+    {
+      "url": "https://www.openstreetmap.org/node/11978682166",
+      "namena": "Tačka WWII ploče na fasadi opštine, identifikovana uz adresu i opis iz rada."
+    },
+    {
+      "url": "https://www.geonames.org/787086",
+      "namena": "Tačka sela Petrlaš; javno indeksiran skup GeoNames https://www.geonames.org/search.html?country=RS&q=&startRow=1800."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Radejna",
+      "namena": "Selo Radejna, opština Dimitrovgrad, 43.0500, 22.8317; samo približna tačka."
+    },
+    {
+      "url": "https://rtcaribrod.rs/sr/subnor-obelezio-7-jul/",
+      "datum": "2025-07-08",
+      "namena": "Potvrđuje obilazak Izatovaca i Izvorišta; Milan Ilijev autor. Grupna fotografija bez vidljivog spomenika odbačena."
+    }
+  ],
+  "izostavljeno": [
+    "Tri memorijala iz perioda Informbiroa, bez zasebne NOB posvete: graničari u Nevlji i Slivnici i milicioner u Kamenici.",
+    "Predratni memorijal nije predmet rada; spomen-kosturnica Pametnik iz 1885. nije NOB.",
+    "Privatni grobovi i biografski pomeni bez potvrđenog memorijalnog objekta."
+  ],
+  "preostalo": [
+    "Šest novih približnih markera traži tačku same ploče; škola i bista ostaju približno na konkretnoj školi, ne tačnim postoljima.",
+    "Radni Senokos – Spomenik palim 1941-1945 nije pouzdano isti kao dve česme; sačuvan bez spajanja napamet.",
+    "Gojin Dol: godina postavljanja protivrečna (1972. naspram dokumentacije iz 1966); polje godina izostavljeno.",
+    "Izatovci: neslaganje ukupnog broja imena (14 naspram nabrojanih 15) ne prenositi kao pouzdan broj.",
+    "Kamenica: pronaći tačku stare škole ili kasnije mesto nestale ploče. Ne mešati s posleratnom pločom milicioneru."
+  ],
+  "provera": {
+    "integritet": "Prošao, status 0; 52 ranije poznata bliska para, bez novih.",
+    "testoviAplikacije": "23/23 prošlo.",
+    "telefon": "390 × 844: približna školska ploča, precizna opštinska ploča, Smilovci i uklonjeni Spomenik revolucije; ispravne kartice i slike, bez JS izuzetaka.",
+    "noviID": "Tačno 7 novih na mapi, bez uklonjenih ranijih markera; u radnom spisku jedna nova nestala ploča i jedan potvrđen duplikat manje.",
+    "izvori": "Izvorni izvori postojećih zapisa sačuvani; tokom paralelnog refaktora izdvojeni u data/izvori.json preko sacuvaj_bazu. Radni zapisi zadržavaju polje izvor.",
+    "slike": "Obe fotografije vizuelno pregledane, očišćeni metapodaci, pripremljene male slike i proporcije. Grupna novinska fotografija odbačena.",
+    "izvedeniPodaci": "node alati/razdeli.mjs i --provera prolaze."
+  }
+}

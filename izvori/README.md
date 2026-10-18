@@ -17,6 +17,7 @@ Svi preuzeti izvori i njihove tekstualne/stranične izvedenice čuvaju se ovde. 
 - `knjige/hrzenjak-indeks-nob.pdf`, `knjige/hrzenjak-2002/strane/` i `knjige/hrzenjak-2002/ocr/`
 - `knjige/jokic-1986/tekst.txt`, `knjige/jokic-1986/strane/`; isto za Šibenik, dok je Krapina u `knjige/krapina-1966/`
 - `knjige/baranja-2022/` — katalog Jovana Nedića (2022), PDF od 45 listova, tekst, 105 izdvojenih slika i vizuelne provere; završen prolaz relevantnih jedinica, 29 novih markera i jedan radni unos ukupno. Prvi uzorak i nastavak u `data/provere/baranja-2022-*.json`; nerešeni položaji i stanja ostaju navedeni u nastavku. Dodatno sačuvani članak i fotografija Spomen-sobe Bolmanske bitke iz 2023.
+- `knjige/dimitrovgrad-2023/` — Miša Anđelković, *Pirotski zbornik* 48 (2023), 73–92; ceo PDF od 20 strana, tekst, dve izdvojene fotografije, dopunski Google/OSM i lokalni novinski dokazi, snimak baze pre unosa i provere telefona. Obrađeno svih 16 obeležja Drugog svetskog rata; rezultati i otvoreni slučajevi u `data/provere/dimitrovgrad-2023-2026-10-19.json`.
 - `cg/` zadržava ranija imena datoteka
 - `pretrage/<raniji-naziv-temp-foldera>/` zadržava nazive preuzetih odgovora
 - `skulptura-hronologija/` — svih 83 objave kategorije Spomenička skulptura (7 stranica), mapa 80 tačaka, izdvojeni podaci i 423 reference na galerijske fotografije sa potpisima; 28 fotografija preuzeto za pregled, OSM/Commons/Google provere i snimci pre upisa. Rezultati su u `data/provere/skulptura-hronologija-2026-10-18.json`.

@@ -3,12 +3,7 @@
 # i izveštaja (cilj, radniId) ostaju tačne bez prepravke; lokalna slika prelazi u slike/spomenici/<id>.webp
 import json, os, shutil, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # zapis.py je pored alata
-from zapis import poredaj, REDOSLED
-
-
-def sacuvaj(putanja, podaci):
-    open(putanja, 'w', encoding='utf-8', newline='').write(json.dumps(podaci, ensure_ascii=False, indent=2).replace('\n', '\r\n') + '\r\n')
-
+from zapis import BEZ_LOKACIJE, REDOSLED, poredaj, sacuvaj_bazu, sacuvaj_spisak
 
 ulaz = {u['id']: u for u in json.load(open(sys.argv[1], encoding='utf-8'))}
 bez = json.load(open('data/bez_lokacije.json', encoding='utf-8'))
@@ -33,5 +28,5 @@ for s in bez:
         z['slika'] = nova
     mapa.append(poredaj(z))
     print('prebaceno', s['id'])
-sacuvaj('data/spomeniks.json', mapa)
-sacuvaj('data/bez_lokacije.json', ostaju)
+sacuvaj_bazu(mapa)
+sacuvaj_spisak(BEZ_LOKACIJE, ostaju)

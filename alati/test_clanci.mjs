@@ -42,7 +42,8 @@ test('svi izabrani linkovi prolaze proveru, a Topovske šupe imaju članak iz no
   }
   const topovske = data.find(s => s.id === 'beograd-spomen-park-topovske-supe')
   assert.equal(clanakSpomenika(topovske), 'https://www.danubeogradu.rs/2021/01/kultura-secanja-info-tabla-o-logoru-topovske-supe/')
-  assert.match(topovske.izvor, /openstreetmap/)
+  const izvori = JSON.parse(readFileSync(new URL('../data/izvori.json', import.meta.url), 'utf8'))
+  assert.match(izvori[topovske.id], /openstreetmap/)
   const biografija = data.find(s => s.id === 'boris-kidric-square')
   assert.equal(clanakSpomenika(biografija), undefined)
 })

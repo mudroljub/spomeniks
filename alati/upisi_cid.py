@@ -2,7 +2,7 @@
 # upisuje Google id i lokaciju sa Google mapa kad se razlikuje za vise od 5 m
 import json, math, os, re, sys, urllib.error, urllib.request
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # zapis.py je pored alata
-from zapis import poredaj
+from zapis import poredaj, sacuvaj_bazu
 sys.stdout.reconfigure(encoding='utf-8')
 sid, url = sys.argv[1:3]
 if 'goo.gl' in url:
@@ -29,4 +29,4 @@ for i, s in enumerate(d):
         print(sid, 'id', s['googleCid'], 'pomereno', round(razlika), 'm')
         d[i] = poredaj(s)
 assert n == 1
-open(p, 'w', encoding='utf8', newline='').write(json.dumps(d, indent=2, ensure_ascii=False).replace('\n', '\r\n') + '\r\n')
+sacuvaj_bazu(d)

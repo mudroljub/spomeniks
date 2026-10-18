@@ -104,7 +104,8 @@ for s in d:
         if mala != s['slika'] and not os.path.exists(mala): greske['nema male slike (pokreni male_slike.py)'].append((i, mala))
     if s.get('slikaPotpis') and not s.get('slika'): greske['potpis bez slike'].append(i)
     if bool(s.get('slika')) != bool(s.get('slikaOdnos')): greske['slika bez odnosa (pokreni slike_odnos.py)'].append(i)
-    for polje in ('izvor', 'wiki', 'wikiEn', 'clanak'):
+    if 'izvor' in s: greske['izvor u bazi (pripada data/izvori.json)'].append(i)
+    for polje in ('wiki', 'wikiEn', 'clanak'):
         if polje in s and (not isinstance(s[polje], str) or not re.match(r'https?://', s[polje])): greske['los link'].append((i, polje, s[polje]))
     if 'stanjeIzvor' in s:
         izvor_stanja = s['stanjeIzvor']
@@ -173,6 +174,7 @@ svi_ids = set(ids) | set(bez_ids)
 for j, s in enumerate(bez):
     oznaka = (s.get('id'), s.get('naziv'), s.get('mesto'))
     if not s.get('naziv') or not s.get('mesto'): greske['bez lokacije: bez naziva ili mesta'].append(oznaka)
+    if 'izvor' in s: greske['izvor u spisku bez lokacije (pripada data/izvori.json)'].append(oznaka)
     if s.get('vrsta') not in VRSTE: greske['bez lokacije: nepoznata vrsta'].append((oznaka, s.get('vrsta')))
     if 'istaknut' in s and type(s['istaknut']) is not bool: greske['bez lokacije: neispravno istaknut'].append(oznaka)
     if s.get('drzava') not in DRZAVE: greske['bez lokacije: nepoznata drzava'].append((oznaka, s.get('drzava')))

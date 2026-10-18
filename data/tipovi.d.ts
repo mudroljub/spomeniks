@@ -32,8 +32,6 @@ export interface Spomenik {
   drzava: Drzava
   /** ID Google mesta, samo cifre */
   googleCid?: string
-  /** URL izvora podataka: OSM, Commons, registar, spomenicinob.info */
-  izvor?: string
   /** domaći članak na Vikipediji o konkretnom spomeniku; ne o posveti, mestu ili autoru */
   wiki?: string
   /** engleski članak na Vikipediji o konkretnom spomeniku */

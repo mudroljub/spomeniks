@@ -33,6 +33,8 @@ def razresi(url):
         return e.headers['Location']
 
 if __name__ == '__main__':
+    sys.path.insert(0, A)
+    from zapis import sacuvaj_bazu
     sys.stdout.reconfigure(encoding='utf-8')
     vrsta = sys.argv[1]
     parovi = list(zip(sys.argv[2::2], sys.argv[3::2]))
@@ -56,5 +58,5 @@ if __name__ == '__main__':
         postojeci.add(sid)
         d.append({'id': sid, 'koordinate': {'lat': lat, 'lng': lng}, 'googleCid': cid, 'mesto': naslov, 'naziv': naziv, 'vrsta': vrsta, 'drzava': zemlja})
         print(sid, '|', naslov, '|', naziv)
-    open(p, 'w', encoding='utf8', newline='').write(json.dumps(d, indent=2, ensure_ascii=False).replace('\n', '\r\n') + '\r\n')
+    sacuvaj_bazu(d)
     print('ukupno', len(d))

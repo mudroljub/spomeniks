@@ -106,6 +106,15 @@ class IntegritetTest(unittest.TestCase):
         self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
         self.assertIn('fajlovi aplikacije zastareli', r.stdout)
 
+    def test_izvori_odvojeno(self):
+        r = self.proveri([{**spomenik('test'), 'izvor': 'https://example.com'}])
+        self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
+        self.assertIn('izvor u bazi', r.stdout)
+        stavka = {'id': 'bez', 'naziv': 'Spomenik', 'mesto': 'Test', 'vrsta': 'spomen-obelezje', 'drzava': 'Serbia', 'izvor': 'https://example.com'}
+        r = self.proveri([spomenik('test')], bez_lokacije=[stavka])
+        self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
+        self.assertIn('izvor u spisku bez lokacije', r.stdout)
+
     def test_nekoriscena_slika(self):
         r = self.proveri([spomenik('test')], visak_slike=True)
         self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
