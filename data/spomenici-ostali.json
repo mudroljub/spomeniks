@@ -7930,6 +7930,9 @@
     "googleCid": "2647074215761134216",
     "mesto": "Šodolovci",
     "naziv": "Spomenik NOB",
+    "godina": "1954",
+    "godinaOd": 1954,
+    "godinaDo": 1954,
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
   },
@@ -74196,6 +74199,10 @@
     "priblizno": true,
     "mesto": "Čepin",
     "naziv": "Bista Ignje Batrneka",
+    "godina": "1976",
+    "godinaOd": 1976,
+    "godinaDo": 1976,
+    "autor": "Antun Babić",
     "stanje": "uklonjen",
     "stanjeIzvor": {
       "naziv": "Hrženjak",
@@ -74598,6 +74605,10 @@
     "priblizno": true,
     "mesto": "Vladislavci",
     "naziv": "Bista Milice Križan",
+    "godina": "1980",
+    "godinaOd": 1980,
+    "godinaDo": 1980,
+    "autor": "Miroslav Acić",
     "stanje": "uklonjen",
     "stanjeIzvor": {
       "naziv": "Hrženjak",
@@ -82486,6 +82497,9 @@
     },
     "priblizno": true,
     "mesto": "Bosut",
+    "slika": "slike/spomenici/bosut-spomenik-streljanima.webp",
+    "slikaOdnos": 0.722,
+    "slikaPotpis": "Selo Bosut u Sremu",
     "naziv": "Spomenik streljanima",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -88041,6 +88055,9 @@
     },
     "priblizno": true,
     "mesto": "Gložan",
+    "slika": "slike/spomenici/glozan-spomen-grobnica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Rade Vesović, podaci.com",
     "naziv": "Spomen-grobnica",
     "vrsta": "spomen-groblje",
     "drzava": "Serbia"
@@ -95487,6 +95504,9 @@
     },
     "priblizno": true,
     "mesto": "Kunovica",
+    "slika": "slike/spomenici/kunovica-spomen-cesma.webp",
+    "slikaOdnos": 0.823,
+    "slikaPotpis": "Suva i Svrljiske planine",
     "naziv": "Spomen-česma",
     "godina": "1974",
     "godinaOd": 1974,
@@ -96431,6 +96451,9 @@
     },
     "priblizno": true,
     "mesto": "Ljimljani",
+    "slika": "slike/spomenici/ljimljani-spomenik-nob.webp",
+    "slikaOdnos": 0.714,
+    "slikaPotpis": "SUBNOR Crne Gore",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Montenegro"
@@ -97197,6 +97220,9 @@
     },
     "priblizno": true,
     "mesto": "Lunjevica",
+    "slika": "slike/spomenici/lunjevica-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "podaci.com",
     "naziv": "Spomenik NOB",
     "godina": "1977",
     "godinaOd": 1977,
@@ -101471,6 +101497,9 @@
     },
     "priblizno": true,
     "mesto": "Orahovo",
+    "slika": "slike/spomenici/orahovo-spomenik-palim-borcima.webp",
+    "slikaOdnos": 1.509,
+    "slikaPotpis": "SUBNOR Crne Gore",
     "naziv": "Spomenik palim borcima",
     "vrsta": "spomen-obelezje",
     "drzava": "Montenegro"
@@ -103170,6 +103199,9 @@
       "lng": 15.20186
     },
     "mesto": "Podgrad pod Mehovim",
+    "slika": "slike/spomenici/podgrad-pod-mehovim-grob-s-spomenikom-padlim.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Grob s spomenikom padlim",
     "godina": "1963",
     "godinaOd": 1963,
@@ -103320,6 +103352,9 @@
       "lng": 14.346286
     },
     "mesto": "Podskrajnik",
+    "slika": "slike/spomenici/podskrajnik-spomenik-prvoborcu-ludviku-lovku-bogna.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spomenik prvoborcu Ludviku Lovku-Bognarju",
     "godina": "1959",
     "godinaOd": 1959,
@@ -103421,6 +103456,9 @@
       "lng": 14.644662
     },
     "mesto": "Polje",
+    "slika": "slike/spomenici/polje-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
@@ -104646,6 +104684,9 @@
       "lng": 14.628236
     },
     "mesto": "Punat",
+    "slika": "slike/spomenici/punat-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spomenik NOB",
     "godina": "1979",
     "godinaOd": 1979,
@@ -104737,6 +104778,9 @@
       "lng": 15.169385
     },
     "mesto": "Radeče",
+    "slika": "slike/spomenici/radece-spomenik-kurirski-postaji-tv-5a.webp",
+    "slikaOdnos": 0.714,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spomenik kurirski postaji TV 5a",
     "godina": "1968",
     "godinaOd": 1968,
@@ -105893,6 +105937,9 @@
       "lng": 20.939361
     },
     "mesto": "Resnik",
+    "slika": "slike/spomenici/resnik-spomen-cesma-2.webp",
+    "slikaOdnos": 0.6,
+    "slikaPotpis": "SUBNOR Srbije",
     "naziv": "Spomen-česma",
     "godina": "1980",
     "godinaOd": 1980,
@@ -106110,6 +106157,9 @@
       "lng": 14.644299
     },
     "mesto": "Risika",
+    "slika": "slike/spomenici/risika-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
@@ -106186,6 +106236,9 @@
       "lng": 15.142278
     },
     "mesto": "Rožič Vrh",
+    "slika": "slike/spomenici/rozic-vrh-spomenik-kurirski-postaji-tv-8.webp",
+    "slikaOdnos": 0.959,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spomenik kurirski postaji TV 8",
     "godina": "1960",
     "godinaOd": 1960,
@@ -106537,6 +106590,9 @@
       "lng": 20.576534
     },
     "mesto": "Rusko Selo",
+    "slika": "slike/spomenici/rusko-selo-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Telepapatija",
     "naziv": "Spomenik NOB",
     "godina": "1961",
     "godinaOd": 1961,
@@ -106709,6 +106765,9 @@
       "lng": 20.481966
     },
     "mesto": "Sakule",
+    "slika": "slike/spomenici/sakule-spomenik-palim-borcima.webp",
+    "slikaOdnos": 1.09,
+    "slikaPotpis": "Telepapatija",
     "naziv": "Spomenik palim borcima",
     "godina": "1947",
     "godinaOd": 1947,
@@ -106953,6 +107012,9 @@
       "lng": 20.622867
     },
     "mesto": "Селци",
+    "slika": "slike/spomenici/selci-spomenik-na-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Tourismus in Mazedonien, Blogspot",
     "naziv": "Споменик на НОБ",
     "vrsta": "spomen-obelezje",
     "drzava": "Macedonia"
@@ -107885,6 +107947,9 @@
       "lng": 22.163111
     },
     "mesto": "Slatina",
+    "slika": "slike/spomenici/slatina-spomen-cesma.webp",
+    "slikaOdnos": 0.893,
+    "slikaPotpis": "Slatina Bor, WordPress",
     "naziv": "Spomen-česma",
     "godina": "1958",
     "godinaOd": 1958,
@@ -107920,6 +107985,9 @@
       "lng": 14.815598
     },
     "mesto": "Slivna",
+    "slika": "slike/spomenici/slivna-spomenik-kamnisko-zasavskemu-odredu.webp",
+    "slikaOdnos": 1.0,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spomenik Kamniško-Zasavskemu odredu",
     "godina": "1979",
     "godinaOd": 1979,
@@ -108166,6 +108234,9 @@
       "lng": 13.904518
     },
     "mesto": "Sočerga",
+    "slika": "slike/spomenici/socerga-grobisce-zrtev-fasisticnega-nasilja.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Grobišče žrtev fašističnega nasilja",
     "vrsta": "spomen-groblje",
     "drzava": "Slovenia"
@@ -108177,6 +108248,9 @@
       "lng": 15.024074
     },
     "mesto": "Soteska",
+    "slika": "slike/spomenici/soteska-spomenik-nob.webp",
+    "slikaOdnos": 1.124,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spomenik NOB",
     "godina": "1959",
     "godinaOd": 1959,
@@ -108192,6 +108266,9 @@
       "lng": 13.650482
     },
     "mesto": "Solkan",
+    "slika": "slike/spomenici/solkan-spominska-plosca-zrtvam-druge-svetovne-vojn.webp",
+    "slikaOdnos": 1.356,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spominska plošča žrtvam druge svetovne vojne",
     "godina": "1995",
     "godinaOd": 1995,
@@ -108357,6 +108434,9 @@
     },
     "priblizno": true,
     "mesto": "Sredgora",
+    "slika": "slike/spomenici/sredgora-spomenik-nob.webp",
+    "slikaOdnos": 1.802,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spomenik NOB",
     "godina": "1975",
     "godinaOd": 1975,
@@ -108986,6 +109066,9 @@
       "lng": 20.620778
     },
     "mesto": "Stojnik",
+    "slika": "slike/spomenici/stojnik-spomenik-palim-borcima.webp",
+    "slikaOdnos": 1.201,
+    "slikaPotpis": "SUBNOR Srbije",
     "naziv": "Spomenik palim borcima",
     "godina": "1979",
     "godinaOd": 1979,
@@ -109001,6 +109084,9 @@
       "lng": 15.150809
     },
     "mesto": "Stranska Vas pri Novem Mestu",
+    "slika": "slike/spomenici/stranska-vas-pri-novem-mestu-grob-s-spomenikom-pad.webp",
+    "slikaOdnos": 1.067,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Grob s spomenikom padlim",
     "godina": "1957",
     "godinaOd": 1957,
@@ -109015,6 +109101,9 @@
       "lng": 15.208992
     },
     "mesto": "Stopiče",
+    "slika": "slike/spomenici/stopice-grob-s-spomenikom-padlim-borcem-in-zrtvam.webp",
+    "slikaOdnos": 0.766,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Grob s spomenikom padlim borcem in žrtvam NOB",
     "vrsta": "spomen-groblje",
     "drzava": "Slovenia"
@@ -109583,6 +109672,9 @@
       "lng": 16.021912
     },
     "mesto": "Sveti Jurij ob Ščavnici",
+    "slika": "slike/spomenici/sveti-jurij-ob-scavnici-spomenik-nob.webp",
+    "slikaOdnos": 1.124,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Slovenia"
@@ -109880,6 +109972,9 @@
       "lng": 15.254222
     },
     "mesto": "Telče",
+    "slika": "slike/spomenici/telce-spomenik-na-meji-med-italijo-in-nemcijo.webp",
+    "slikaOdnos": 0.6,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spomenik na meji med Italijo in Nemčijo",
     "godina": "2002",
     "godinaOd": 2002,
@@ -110072,6 +110167,9 @@
       "lng": 15.644217
     },
     "mesto": "Tisno",
+    "slika": "slike/spomenici/tisno-spomenik-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
@@ -110600,6 +110698,9 @@
       "lng": 15.195167
     },
     "mesto": "Tržišče",
+    "slika": "slike/spomenici/trzisce-spomenik-padlim-borcem-in-zrtvam-okupatorj.webp",
+    "slikaOdnos": 1.153,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spomenik padlim borcem in žrtvam okupatorjevega nasilja",
     "godina": "1977",
     "godinaOd": 1977,
@@ -111078,6 +111179,9 @@
       "lng": 20.621167
     },
     "mesto": "Uzdin",
+    "slika": "slike/spomenici/uzdin-spomen-cesma.webp",
+    "slikaOdnos": 0.833,
+    "slikaPotpis": "Telepapatija",
     "naziv": "Spomen-česma",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -111381,6 +111485,9 @@
       "lng": 15.077732
     },
     "mesto": "Vavta Vas",
+    "slika": "slike/spomenici/vavta-vas-spomenik-talcem.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spomenik talcem",
     "godina": "1946",
     "godinaOd": 1946,
@@ -111751,6 +111858,9 @@
       "lng": 14.769306
     },
     "mesto": "Velike Vrhe",
+    "slika": "slike/spomenici/velike-vrhe-spomenik-poveljnikoma-tomsiceve-brigad.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spomenik poveljnikoma Tomšičeve brigade",
     "godina": "1980",
     "godinaOd": 1980,
@@ -111766,6 +111876,9 @@
       "lng": 15.256502
     },
     "mesto": "Velike Brusnice",
+    "slika": "slike/spomenici/velike-brusnice-spomenik-nob.webp",
+    "slikaOdnos": 0.962,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Slovenia"
@@ -112819,6 +112932,9 @@
       "lng": 15.582473
     },
     "mesto": "Volčje pri Sromljah",
+    "slika": "slike/spomenici/volcje-pri-sromljah-spomenik-kurirjem-tv-28.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spomenik kurirjem TV 28",
     "godina": "1981",
     "godinaOd": 1981,
@@ -113146,6 +113262,9 @@
       "lng": 14.530016
     },
     "mesto": "Vrh",
+    "slika": "slike/spomenici/vrh-spomenik-padlim-v-obeh-svetovnih-vojnah.webp",
+    "slikaOdnos": 0.932,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spomenik padlim v Obeh Svetovnih Vojnah",
     "godina": "1964",
     "godinaOd": 1964,
@@ -113221,6 +113340,9 @@
       "lng": 14.674034
     },
     "mesto": "Vrbnik",
+    "slika": "slike/spomenici/vrbnik-spomenik.webp",
+    "slikaOdnos": 0.928,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spomenik",
     "godina": "2003",
     "godinaOd": 2003,
@@ -114217,6 +114339,9 @@
       "lng": 21.747917
     },
     "mesto": "Zeletovo",
+    "slika": "slike/spomenici/zeletovo-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "podaci.com",
     "naziv": "Spomenik palim borcima",
     "godina": "1970",
     "godinaOd": 1970,
@@ -115339,6 +115464,9 @@
       "lng": 13.636026
     },
     "mesto": "Šempeter pri Gorici",
+    "slika": "slike/spomenici/sempeter-pri-gorici-grobisce-nob-na-pokopaliscu.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Grobišče NOB na pokopališču",
     "godina": "1968",
     "godinaOd": 1968,
@@ -115447,6 +115575,9 @@
       "lng": 14.663024
     },
     "mesto": "Šilo",
+    "slika": "slike/spomenici/silo-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
@@ -115625,6 +115756,9 @@
       "lng": 15.343215
     },
     "mesto": "Šmarje pri Šentjerneju",
+    "slika": "slike/spomenici/smarje-pri-sentjerneju-grob-s-spomenikom-padlim-bo.webp",
+    "slikaOdnos": 0.666,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Grob s spomenikom padlim borcem in žrtvam",
     "vrsta": "spomen-groblje",
     "drzava": "Slovenia"
@@ -115636,6 +115770,9 @@
       "lng": 15.290139
     },
     "mesto": "Škocjan",
+    "slika": "slike/spomenici/skocjan-grob-s-spomenikom-padlim-borcem-in-zrtvam.webp",
+    "slikaOdnos": 0.531,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Grob s spomenikom padlim borcem in žrtvam NOB",
     "godina": "1964",
     "godinaOd": 1964,
@@ -115978,6 +116115,9 @@
       "lng": 20.062914
     },
     "mesto": "Žabalj",
+    "slika": "slike/spomenici/zabalj-spomenik-sonji-marinkovic.webp",
+    "slikaOdnos": 0.612,
+    "slikaPotpis": "Telepapatija",
     "naziv": "Spomenik Sonji Marinković",
     "godina": "1952",
     "godinaOd": 1952,
@@ -116420,6 +116560,9 @@
       "lng": 14.53049
     },
     "mesto": "Županov Laz",
+    "slika": "slike/spomenici/zupanov-laz-grobnica.webp",
+    "slikaOdnos": 1.688,
+    "slikaPotpis": "Obeležja, WordPress",
     "naziv": "Grobnica",
     "vrsta": "spomen-groblje",
     "drzava": "Slovenia"
@@ -121380,6 +121523,9 @@
     },
     "priblizno": true,
     "mesto": "Javorovica",
+    "slika": "slike/spomenici/javorovica-spomenik-ustanovitvi-gorjanskega-batalj.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spomenik ustanovitvi Gorjanskega bataljona",
     "godina": "1977",
     "godinaOd": 1977,
@@ -121825,6 +121971,9 @@
       "lng": 13.850737
     },
     "mesto": "Pula",
+    "slika": "slike/spomenici/pula-spomenik-nob.webp",
+    "slikaOdnos": 0.857,
+    "slikaPotpis": "Spomeniki, Blogspot",
     "naziv": "Spomenik NOB",
     "godina": "1949",
     "godinaOd": 1949,
@@ -122221,6 +122370,9 @@
       "lng": 15.934806
     },
     "mesto": "Šibenik",
+    "slika": "slike/spomenici/sibenik-spomenik-nob.webp",
+    "slikaOdnos": 0.719,
+    "slikaPotpis": "Vekonije, Blogspot",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
@@ -137994,6 +138146,345 @@
     "godinaDo": 1961,
     "autor": "Petar Kos",
     "vrsta": "bista",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "osijek-spomenik-palim-borcima-park-kulture",
+    "koordinate": {
+      "lat": 45.555,
+      "lng": 18.6955
+    },
+    "priblizno": true,
+    "mesto": "Osijek (Park kulture)",
+    "naziv": "Spomenik palim borcima NOR-a i žrtvama fašističkog terora",
+    "godina": "1952",
+    "godinaOd": 1952,
+    "godinaDo": 1952,
+    "autor": "Nikola Kečanin",
+    "vrsta": "statua",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "osijek-spomenik-titu-memorijalni-park",
+    "koordinate": {
+      "lat": 45.555,
+      "lng": 18.6955
+    },
+    "priblizno": true,
+    "mesto": "Osijek (Donji grad)",
+    "naziv": "Spomenik Josipu Brozu Titu",
+    "godina": "1981",
+    "godinaOd": 1981,
+    "godinaDo": 1981,
+    "autor": "Dušan Nikolić",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "osijek-spomenik-sloboda-tvornica-secera",
+    "koordinate": {
+      "lat": 45.555,
+      "lng": 18.6955
+    },
+    "priblizno": true,
+    "mesto": "Osijek (Tvornica šećera)",
+    "naziv": "Spomenik „Sloboda“",
+    "godina": "1980",
+    "godinaOd": 1980,
+    "godinaDo": 1980,
+    "autor": "Marijan Sušac",
+    "vrsta": "statua",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "osijek-obelisk-zrtvama-tvornica-secera",
+    "koordinate": {
+      "lat": 45.555,
+      "lng": 18.6955
+    },
+    "priblizno": true,
+    "mesto": "Osijek (Tvornica šećera)",
+    "naziv": "Spomen-obilježje žrtvama fašističkog terora",
+    "godina": "1946",
+    "godinaOd": 1946,
+    "godinaDo": 1946,
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "osijek-spomenik-veljku-vlahovicu",
+    "koordinate": {
+      "lat": 45.555,
+      "lng": 18.6955
+    },
+    "priblizno": true,
+    "mesto": "Osijek",
+    "naziv": "Spomenik Veljku Vlahoviću",
+    "autor": "Miro Vuco",
+    "vrsta": "statua",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "osijek-bista-ive-lole-ribara",
+    "koordinate": {
+      "lat": 45.555,
+      "lng": 18.6955
+    },
+    "priblizno": true,
+    "mesto": "Osijek (Tvrđa)",
+    "naziv": "Bista Ive Lole Ribara",
+    "godina": "1956",
+    "godinaOd": 1956,
+    "godinaDo": 1956,
+    "autor": "Stjepan Brlošić",
+    "vrsta": "bista",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "osijek-bista-bozidara-maslarica",
+    "koordinate": {
+      "lat": 45.555,
+      "lng": 18.6955
+    },
+    "priblizno": true,
+    "mesto": "Osijek",
+    "naziv": "Bista Božidara Maslarića",
+    "autor": "Stjepan Brlošić",
+    "vrsta": "bista",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "osijek-bista-josipa-hauka",
+    "koordinate": {
+      "lat": 45.555,
+      "lng": 18.6955
+    },
+    "priblizno": true,
+    "mesto": "Osijek (Donji grad)",
+    "naziv": "Bista Josipa Hauka",
+    "autor": "Stjepan Brlošić",
+    "vrsta": "bista",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "osijek-bista-milana-stanivukovica",
+    "koordinate": {
+      "lat": 45.555,
+      "lng": 18.6955
+    },
+    "priblizno": true,
+    "mesto": "Osijek (Donji grad)",
+    "naziv": "Bista Milana Stanivukovića",
+    "autor": "Antun Babić",
+    "vrsta": "bista",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "osijek-bista-sare-bertic",
+    "koordinate": {
+      "lat": 45.555,
+      "lng": 18.6955
+    },
+    "priblizno": true,
+    "mesto": "Osijek (Donji grad)",
+    "naziv": "Bista Sare Bertić",
+    "autor": "Vladimir Jokanović",
+    "vrsta": "bista",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "osijek-bista-borisa-kidrica",
+    "koordinate": {
+      "lat": 45.555,
+      "lng": 18.6955
+    },
+    "priblizno": true,
+    "mesto": "Osijek",
+    "naziv": "Bista Borisa Kidriča",
+    "godina": "1976",
+    "godinaOd": 1976,
+    "godinaDo": 1976,
+    "autor": "Vladimir Jokanović",
+    "vrsta": "bista",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "osijek-bista-blagoja-stojakovica",
+    "koordinate": {
+      "lat": 45.555,
+      "lng": 18.6955
+    },
+    "priblizno": true,
+    "mesto": "Osijek (Gornjogradsko groblje)",
+    "naziv": "Bista Blagoja Stojakovića",
+    "godina": "1947",
+    "godinaOd": 1947,
+    "godinaDo": 1947,
+    "vrsta": "bista",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "antunovac-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.48736,
+      "lng": 18.67335
+    },
+    "priblizno": true,
+    "mesto": "Antunovac",
+    "naziv": "Spomenik palim borcima NOR-a i žrtvama fašističkog terora",
+    "godina": "1960",
+    "godinaOd": 1960,
+    "godinaDo": 1960,
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "beketinci-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.45704,
+      "lng": 18.48108
+    },
+    "priblizno": true,
+    "mesto": "Beketinci",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1977",
+    "godinaOd": 1977,
+    "godinaDo": 1977,
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "brijesce-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.52477,
+      "lng": 18.62716
+    },
+    "priblizno": true,
+    "mesto": "Briješće",
+    "naziv": "Spomenik palim borcima NOR-a i žrtvama fašističkog terora",
+    "godina": "1957",
+    "godinaOd": 1957,
+    "godinaDo": 1957,
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "cepinski-martinci-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.51355,
+      "lng": 18.4723
+    },
+    "priblizno": true,
+    "mesto": "Čepinski Martinci",
+    "naziv": "Spomenik palim borcima NOR-a i žrtvama fašističkog terora",
+    "godina": "1977",
+    "godinaOd": 1977,
+    "godinaDo": 1977,
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "cokadinci-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.50075,
+      "lng": 18.44194
+    },
+    "priblizno": true,
+    "mesto": "Čokadinci",
+    "naziv": "Spomenik palim borcima NOR-a i žrtvama fašističkog terora",
+    "godina": "1977",
+    "godinaOd": 1977,
+    "godinaDo": 1977,
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "dalj-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.48448,
+      "lng": 18.98618
+    },
+    "priblizno": true,
+    "mesto": "Dalj",
+    "naziv": "Spomenik palim borcima NOR-a i žrtvama fašističkog terora",
+    "godina": "1984",
+    "godinaOd": 1984,
+    "godinaDo": 1984,
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "dalj-bista-bozidara-maslarica",
+    "koordinate": {
+      "lat": 45.48448,
+      "lng": 18.98618
+    },
+    "priblizno": true,
+    "mesto": "Dalj",
+    "naziv": "Bista Božidara Maslarića",
+    "godina": "1986",
+    "godinaOd": 1986,
+    "godinaDo": 1986,
+    "autor": "Marijan Sušac",
+    "vrsta": "bista",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "dalj-spomen-cesma-palim-borcima",
+    "koordinate": {
+      "lat": 45.48448,
+      "lng": 18.98618
+    },
+    "priblizno": true,
+    "mesto": "Dalj",
+    "naziv": "Spomen-česma palim borcima NOR-a",
+    "godina": "1962",
+    "godinaOd": 1962,
+    "godinaDo": 1962,
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "erdut-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.52493,
+      "lng": 19.06126
+    },
+    "priblizno": true,
+    "mesto": "Erdut",
+    "naziv": "Spomenik palim borcima NOR-a i žrtvama fašističkog terora",
+    "godina": "1962",
+    "godinaOd": 1962,
+    "godinaDo": 1962,
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "josipovac-spomenik-pobjedi-osjeckog-odreda",
+    "koordinate": {
+      "lat": 45.57855,
+      "lng": 18.58658
+    },
+    "priblizno": true,
+    "mesto": "Josipovac",
+    "naziv": "Spomenik pobjedi boraca Osječkog odreda",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "koprivna-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.40521,
+      "lng": 18.61554
+    },
+    "priblizno": true,
+    "mesto": "Koprivna",
+    "naziv": "Spomenik palim borcima NOR-a i žrtvama fašističkog terora",
+    "godina": "1961",
+    "godinaOd": 1961,
+    "godinaDo": 1961,
+    "autor": "Nikola Kečanin",
+    "vrsta": "spomenik",
     "drzava": "Croatia"
   }
 ]
