@@ -50,7 +50,7 @@ Dodati kikindski internirci, čuruško „Majka i dete“, „Poziv na ustanak�
 
 Od 20 izabranih zapisa početno je bilo 12 bez para, 5 nejasnih i 3 već na mapi. U odobrenim nastavcima dodato je **8 novih markera sa fotografijama**: Miravci, Gari, Zlatari, Elšani, Brodec (Gostivar), Čelopek (Kumanovo), Vera Jocić u Sasi i zasebna česma u Karbunici. Postojeći objekti u Kaninu i Prždevu ispravljeni su u spomen-česme, sa fotografijama celih objekata; ID-jevi, tačke i izvori sačuvani. Prždevo je siguran knjiški par; Karbunica nije postojeća skulptura, već česma oko 87 m zapadnije, podignuta 1950.
 
-U Kaninu je potvrđeno da je zadruga „Светлост“ iz Породина imala prodavnicu u selu (Службени весник, 1970), a ranije se u nju pripojila kaninska zadruga „Коле Канински“ (1965). To čini postojeću fotografisanu česmu uz današnju prodavnicu mogućim parom za knjišku stavku 2/195, ali objave ne daju adresu prodavnice ni potvrdu da je to bilo zadružno dvorište; veza nije sigurna. Stavka 1/194 — kamena piramida sa belom mermernom pločom u centru sela — i dalje nema potvrđen par. Zasebni kaninski obelisk nije proglašen česmom. Za kompleks iz 1981. u Makedonskom Brodu izdvojen je kandidat u parku zapadno od mosta preko Treske, ali sama tačka nije potvrđena kroz krošnje; radni zapis nije prebačen na centar parka. Labuništa, Staro Selo i Debrešte ostaju nepotvrđeni; Podvis i obelisk na Ključu nisu locirani. Ovo nije pregled cele knjige. [Pojedinačni dokazi i prethodni zapisi](../data/provere/makedonija-pilot-2026-10-18.json), uključujući `proveraPetUparivanja`.
+U Kaninu je potvrđeno da je zadruga „Светлост“ iz Породинa imala prodavnicu u selu (Службени весник, 1970), a ranije se u nju pripojila kaninska zadruga „Коле Кaнински“ (1965). To čini postojeću fotografisanu česmu uz današnju prodavnicu mogućim parom za knjišku stavku 2/195, ali objave ne daju adresu prodavnice ni potvrdu da je to bilo zadružno dvorište; veza nije sigurna. Stavka 1/194 — kamena piramida sa belom mermernom pločom u centru sela — i dalje nema potvrđen par. Zasebni kaninski obelisk nije proglašen česmom. Za kompleks iz 1981. u Makedonskom Brodu izdvojen je kandidat u parku zapadno od mosta preko Treske, ali sama tačka nije potvrđena kroz krošnje; radni zapis nije prebačen na centar parka. Labuništa, Staro Selo i Debrešte ostaju nepotvrđeni; Podvis i obelisk na Ključu nisu locirani. Ovo nije pregled cele knjige. [Pojedinačni dokazi i prethodni zapisi](../data/provere/makedonija-pilot-2026-10-18.json), uključujući `proveraPetUparivanja`.
 
 ## Gde nastaviti čitanje
 
@@ -157,3 +157,49 @@ Muzej je prebačen na mapu kao današnji Muzej Slovenj Gradec na Glavnem trgu 24
 ## Vis: Muzej narodne revolucije
 
 Zapis je prebačen na mapu na lokaciju tvrđave Gospina Baterija, gde je 1964. osnovan memorijalni muzej. Današnji Zavičajni muzej radi na istoj adresi i čuva/restaurira predmete bivše memorijalne zbirke; tačka označava tvrđavu, ne određenu prostoriju. [Dokazi i pomerene reference](../data/provere/lociranje-muzej-vis-2026-10-18.json).
+
+## Makarska: Muzej Partijske škole CK KPJ
+
+Zapis je prebačen na lokaciju Vile Irene, današnjeg izložbenog prostora Gradskog muzeja Makarska. Istorija muzeja i tačna adresa potvrđene su; kontinuitet stare memorijalne zbirke nije utvrđen. [Odluka i izvori u evidenciji](../data/provere/odluke.json).
+
+## Podgora: Muzej Prvog mornaričkog odreda
+
+Muzej je prebačen na tačku Spomen-doma u centru Podgore. Vodič iz 1986. potvrđuje muzej u zgradi, a zapisnik Muzejskog savjeta iz 1977. saglasnost za osnivanje; zgrada je 2012. prenamenjena u turistički ured i kino, pa zapis označava istorijsku lokaciju. Odluka i izvori su u [evidenciji](../data/provere/odluke.json).
+
+## Novi Sad: Muzej štampe NOB Vojvodine
+
+Muzej je povezan sa postojećom oznakom Partizanske baze na istoj kući, Vojislava Ilića 15; dupli marker nije dodat. Naziv oznake sada beleži i istorijski muzej, bez tvrdnje da danas radi. [Dokazi i pomerene reference](../data/provere/odluke.json).
+
+## Beograd: Muzej ilegalnih partijskih štamparija
+
+Muzej je prebačen na tačku zgrade na Banjičkom vencu 12 (danas Rajka Mitića 12). Muzej je zatvoren 2000, a zbirka premeštena u depo Muzeja grada Beograda, pa oznaka predstavlja istorijsku lokaciju. [Dokazi i pomerene reference](../data/provere/odluke.json).
+
+## Ljubljana: Tiskarna Podmornica
+
+Muzejsku stavku sam povezao sa postoje?om oznakom Tiskarne Podmornica na istoj ku?i, Cesta na Brdo 95; dupli marker nije dodat. Registar ba?tine potvr?uje ta?ku, ali nije potvr?eno da li muzejska zbirka/spominska soba jo? radi. [Dokazi i pomerene reference](../data/provere/odluke.json).
+
+**Bugojno — Muzej „Tito u ovom kraju“ (2026-10-18):** dodat je istorijski marker za vilu Gorica (44.04038, 17.4425), gde je muzej bio uređen prema vodiču iz 1986. Vila je danas ruševina; izveštaj iz 2017. opisuje betonske ostatke, a N1/Beta je zabeležio novi požar 2026. [Odluka, prethodni zapis i izvori](../data/provere/odluke.json).
+
+**Prohor Pčinjski — spomen-muzej ASNOM-a (2026-10-18, dopuna):** muzej je bio u konaku, a ploče su uklonjene 1990. godine; list „Borba“ navodi da je Šešelj čekićem odvalio tri, pri čemu je jednu oštetio. Originalna ploča je kasnije izgubljena, soba je izgorela 2014, a privremena ploča iz 2022. uklonjena je nakon posete; marker je označen kao uklonjen. [Dokazi i dopuna odluke](../data/provere/odluke.json).
+
+**Jabuka kod Prijepolja — Muzej pionira i omladine Jugoslavije (2026-10-18):** muzej je otvoren 1981. u memorijalnom kompleksu Boško Buha, a zatvoren je početkom devedesetih; zbirka je sačuvana u Muzeju u Prijepolju. Dopunjen je postojeći marker kompleksa bez dodavanja duplikata. [Odluka i izvori](../data/provere/odluke.json).
+
+**Mliniste ? Muzej partizanske pruge (2026-10-18):** dodat je pribli?an marker za muzej iz 1974. u biv?oj ?elezni?koj stanici, ?ija je zgrada danas u ru?evinama. Ta?ka izvora ozna?ava stanicu, ali ne i ta?an obris zgrade. [Odluka i izvori](../data/provere/odluke.json).
+
+**Manastir Lovnica ? Muzej NOB Birač (2026-10-18):** turistički katalog navodi muzej u obnovljenom konaku; katalog spomenika status danas ocenjuje kao nepoznat. Dopunjen je postojeći marker spomen-groblja za isti manastirski kompleks, bez tvrdnje da muzej još radi. [Odluka i izvori](../data/provere/odluke.json).
+
+**Trnovski gozd ? Partizanska bolnica Pavla (2026-10-18):** radni zapis je povezan sa postoje?im markerom spomenika na Hudem polju; zvani?ni registar i evidencija Partizanstvo potvr?uju istu lokaciju. Duplikat je uklonjen sa spiska. [Odluka i izvori](../data/provere/odluke.json).
+
+**Banja Luka — Spomenik palim borcima (2026-10-18):** dodat je zaseban marker za spomenik na Trgu palih boraca, na GPS tački fotografije iz 2024. Slika je CC0; postojeći marker u blizini odnosi se na grupu bisti. [Odluka i izvori](../data/provere/odluke.json).
+
+**Banja Luka — bista Jove Bijelića (2026-10-18):** OSM potvrđuje bistu na Trgu palih boraca, uz postojeći grupni marker bisti; zapis je povezan sa njim, bez novog markera. [Odluka i izvori](../data/provere/odluke.json).
+
+**Banja Luka — bista Kasima Hadžića (2026-10-18):** dodata je zasebna oznaka na imenovanu OSM tačku; izvor potvrđuje preseljenje na Trg palih boraca. [Odluka i izvori](../data/provere/odluke.json).
+
+**Banja Luka — bista Ante Jakića (2026-10-18):** OSM tačka potvrđuje bistu na trgu; zapis je pridružen grupnom markeru, a zastareli podatak o oštećenju nije prenet kao današnje stanje. [Odluka i izvori](../data/provere/odluke.json).
+
+**Banja Luka — bista Rade Ličine (2026-10-18):** povezana je sa grupnim markerom bisti na Trgu palih boraca; izvor ne daje pouzdanu zasebnu tačku. [Odluka i izvori](../data/provere/odluke.json).
+
+**Banja Luka — bista Šefketa Maglajlića (2026-10-18):** povezana je sa grupnim markerom bisti; svedok i evidencija potvrđuju mesto, ali nema pouzdane zasebne tačke. [Odluka i izvori](../data/provere/odluke.json).
+
+**Banja Luka — bista Vahide Maglajlića (2026-10-18):** povezana je sa grupnim markerom 21 biste narodnih heroja na Trgu palih boraca; stari podatak o oštećenju nije potvrđen kao aktuelan. [Odluka i izvori](../data/provere/odluke.json).

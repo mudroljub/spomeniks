@@ -23,6 +23,7 @@ POZNATI_BLISKI_PAROVI = {frozenset(par) for par in [
     ('bela-crkva-start-uprising', 'bela-crkva-spomenicki-kompleks'),
     ('aleksinac', 'aleksinac-spomen-park-nob'),
     ('sibenik', 'sibenik-spomen-park-subicevac'),
+    ('banja-luka-spomenik-palim-borcima', 'banja-luka-bista-kasim-hadzic'),
     ('zabalj', 'zabalj-spomen-kompleks-crna-cuprija'),
     ('october-21st-museum', 'kragujevac-spomenik-covek-bez-iluzija'),
     ('rudo', 'museum-to-1st-prolet-brigade'),

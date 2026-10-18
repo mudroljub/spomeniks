@@ -1692,6 +1692,20 @@
     "drzava": "Croatia"
   },
   {
+    "id": "makarska-vila-irena-party-school-museum",
+    "koordinate": {
+      "lat": 43.2948889,
+      "lng": 17.0108889
+    },
+    "mesto": "Makarska",
+    "izvor": "https://znaci.org/00003/920.pdf#page=225",
+    "naziv": "Muzej Partijske škole CK KPJ (Vila Irena)",
+    "nazivEn": "Memorial Museum of the KPJ Party School (Villa Irena)",
+    "godina": "1980",
+    "vrsta": "muzej",
+    "drzava": "Croatia"
+  },
+  {
     "id": "veles",
     "koordinate": {
       "lat": 41.7233705,
@@ -6468,8 +6482,8 @@
     "wiki": "https://sr.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D1%98%D0%B0%D0%BB%D0%BD%D0%B8_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%91%D0%BE%D1%88%D0%BA%D0%BE_%D0%91%D1%83%D1%85%D0%B0",
     "slika": "slike/spomenici/bosko-buha-memorial-site.webp",
     "slikaOdnos": 1.333,
-    "naziv": "Memorijalni kompleks Boško Buha",
-    "nazivEn": "Monument to Boško Buha",
+    "naziv": "Memorijalni kompleks Boško Buha (nekadašnji Muzej pionira i omladine Jugoslavije)",
+    "nazivEn": "Boško Buha Memorial Complex (former Museum of Yugoslav Pioneers and Youth)",
     "godina": "1964",
     "posveta": [
       "Q1280823"
@@ -11555,8 +11569,8 @@
     "izvor": "https://www.spomenicinob.info/sekovici",
     "slika": "slike/spomenici/lovnica-monastery.webp",
     "slikaOdnos": 1.504,
-    "naziv": "Partizansko spomen-groblje",
-    "nazivEn": "Partisan Memorial Cemetery",
+    "naziv": "Manastir Lovnica: partizansko spomen-groblje i nekadašnji Muzej NOB Birač",
+    "nazivEn": "Lovnica Monastery: Partisan Memorial Cemetery and former Birač NOB Museum",
     "godina": "1961",
     "autor": "Dragiša Trifković",
     "vrsta": "spomen-groblje",
@@ -27623,8 +27637,8 @@
     "slika": "slike/spomenici/banja-luka-biste-heroja.webp",
     "slikaOdnos": 1.333,
     "slikaPotpis": "Dans, CC BY-SA 4.0",
-    "naziv": "Biste narodnih heroja (Boško Karalić, Osman Karabegović, Ranko Šipka, Đuro Pucar, Branko Popović, Josip Mažar Šoša, Rada Vranješević, Drago Mažar, Milančić Miljević)",
-    "nazivEn": "Busts of People's Heroes (Boško Karalić, Osman Karabegović, Ranko Šipka, Đuro Pucar, Branko Popović, Josip Mažar Šoša, Rada Vranješević, Drago Mažar, Milančić Miljević)",
+    "naziv": "Biste narodnih heroja (Boško Karalić, Osman Karabegović, Ranko Šipka, Đuro Pucar, Branko Popović, Josip Mažar Šoša, Rada Vranješević, Drago Mažar, Milančić Miljević, Jovo Bijelić Joja, Ante Jakić, Rade Ličina, Šefket Maglajlić, Vahida Maglajlić)",
+    "nazivEn": "Busts of People's Heroes (Boško Karalić, Osman Karabegović, Ranko Šipka, Đuro Pucar, Branko Popović, Josip Mažar Šoša, Rada Vranješević, Drago Mažar, Milančić Miljević, Jovo Bijelić Joja, Ante Jakić, Rade Ličina, Šefket Maglajlić, Vahida Maglajlić)",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -68430,7 +68444,8 @@
     "slika": "slike/spomenici/novi-sad-pervazovo-naselje-partizanska-baza.webp",
     "slikaOdnos": 1.493,
     "slikaPotpis": "Saskafoto, CC BY-SA 3.0",
-    "naziv": "Partizanska baza",
+    "naziv": "Partizanska baza (nekadašnji Muzej štampe NOB Vojvodine)",
+    "nazivEn": "Partisan Base (former Museum of Vojvodina's National Liberation War Press)",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -133463,7 +133478,8 @@
     "slika": "slike/spomenici/ljubljana-tiskarna-podmornica.webp",
     "slikaOdnos": 1.493,
     "slikaPotpis": "Aleksandra Renčelj Škedelj, CC BY 4.0",
-    "naziv": "Tiskarna Podmornica",
+    "naziv": "Tiskarna Podmornica (nekdanji Muzej ilegalnih ?tamparij NOB)",
+    "nazivEn": "Podmornica Printing Press (former National Liberation War Printing Museum)",
     "godina": "1941",
     "vrsta": "spomen-obelezje",
     "drzava": "Slovenia"
@@ -136598,5 +136614,123 @@
     "godina": "1950",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
+  },
+  {
+    "id": "podgora-muzej-prvog-mornarickog-odreda",
+    "koordinate": {
+      "lat": 43.2411667,
+      "lng": 17.0767222
+    },
+    "mesto": "Podgora",
+    "izvor": "https://znaci.org/00003/920.pdf#page=225",
+    "naziv": "Muzej Prvog mornaričkog odreda (Spomen-dom)",
+    "nazivEn": "Museum of the 1st Naval Detachment (Memorial House)",
+    "vrsta": "muzej",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "beograd-muzej-ilegalnih-partijskih-stamparija",
+    "koordinate": {
+      "lat": 44.78103,
+      "lng": 20.46397
+    },
+    "mesto": "Beograd",
+    "izvor": "https://znaci.org/00003/920.pdf#page=45",
+    "naziv": "Muzej ilegalnih partijskih štamparija (istorijska lokacija)",
+    "nazivEn": "Museum of Illegal Party Printing Presses (historic site)",
+    "vrsta": "muzej",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "bugojno-vila-gorica-muzej-tito-u-ovom-kraju",
+    "koordinate": {
+      "lat": 44.04038,
+      "lng": 17.4425
+    },
+    "mesto": "Bugojno",
+    "izvor": "https://znaci.org/00003/920.pdf#page=385",
+    "naziv": "Vila Gorica (nekadašnji Muzej „Tito u ovom kraju“)",
+    "nazivEn": "Villa Gorica (former “Tito in This Region” Museum)",
+    "stanje": "rusevine",
+    "stanjeIzvor": {
+      "naziv": "Požar zahvatio Titovu vilu u Bugojnu — N1/Beta",
+      "godina": 2026,
+      "url": "https://n1info.rs/region/pozar-zahvatio-titovu-vilu-u-bugojnu/"
+    },
+    "vrsta": "muzej",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "prohor-pcinjski-memorijalni-muzej-asnom",
+    "koordinate": {
+      "lat": 42.3297222,
+      "lng": 21.8958056
+    },
+    "priblizno": true,
+    "mesto": "Prohor Pčinjski",
+    "izvor": "https://znaci.org/00003/920.pdf#page=401",
+    "naziv": "Spomen-muzej ASNOM-a (uklonjen sa lokacije)",
+    "nazivEn": "ASNOM Memorial Museum (removed from site)",
+    "stanje": "uklonjen",
+    "stanjeIzvor": {
+      "naziv": "Izveštaj lista Borba o uklanjanju spomen-ploča u konaku",
+      "godina": 1990,
+      "url": "https://xn--80aafkgm9bibt.xn--90a3ac/%D0%BF%D1%80%D0%B8%D0%BA%D0%B0%D0%B7/%D0%B1%D0%BE%D1%80%D0%B1%D0%B0/1990-08-11/14"
+    },
+    "vrsta": "muzej",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "mliniste-muzej-partizanske-pruge",
+    "koordinate": {
+      "lat": 44.26667,
+      "lng": 16.85
+    },
+    "priblizno": true,
+    "mesto": "Mlinište",
+    "izvor": "https://www.spomenicinob.info/mrkonjicgrad",
+    "naziv": "Muzej partizanske pruge (ruševine bivše železničke stanice)",
+    "nazivEn": "Museum of the Partisan Railway (ruins of the former railway station)",
+    "godina": "1974",
+    "stanje": "rusevine",
+    "stanjeIzvor": {
+      "naziv": "Spomenicinob: Mrkonjić Grad, zapis o muzeju na stanici",
+      "godina": 2026,
+      "url": "https://www.spomenicinob.info/mrkonjicgrad"
+    },
+    "vrsta": "muzej",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "banja-luka-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 44.773066,
+      "lng": 17.191883
+    },
+    "mesto": "Banja Luka",
+    "izvor": "https://www.spomenicinob.info/banjaluka",
+    "slika": "slike/spomenici/banja-luka-spomenik-palim-borcima.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "ArhistefoBL, CC0",
+    "naziv": "Spomenik palim borcima",
+    "nazivEn": "Monument to fallen fighters of the National Liberation War",
+    "godina": "1946",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "banja-luka-bista-kasim-hadzic",
+    "koordinate": {
+      "lat": 44.77328,
+      "lng": 17.19178
+    },
+    "mesto": "Banja Luka",
+    "izvor": "https://www.spomenicinob.info/banjaluka",
+    "naziv": "Bista Kasima Hadžića",
+    "nazivEn": "Bust of NH Kasim Hadžić",
+    "godina": "1967",
+    "autor": "Ahmed Bešić",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
   }
 ]
