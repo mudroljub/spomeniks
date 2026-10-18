@@ -17,7 +17,7 @@ Ažurirano 2026-10-16. Spomeniks je veb aplikacija sa manifestom i service worke
 
 ## Pločice mape
 
-Sada: Esri NatGeo do zuma 12, a OSM od zuma 13. Pravila OSM-a zabranjuju aplikaciju koja pločice vuče direktno sa njihovih servera bez dozvole, a takvu mogu i da blokiraju bez najave. Esri podloga ima svoje uslove korišćenja, a za aplikacije sve češće traži ključ.
+Sada: Esri NatGeo do zuma 12, a OSM od zuma 13. OSM dozvoljava interaktivno korišćenje javnog servera pločica uz poštovanje [pravila korišćenja](https://operations.osmfoundation.org/policies/tiles/), uključujući atribuciju, keširanje prema zaglavljima (ili najmanje 7 dana) i zabranu offline korišćenja. Esri podloga ima svoje uslove korišćenja.
 
 | Rešenje | Izgled | Posao | Ograničenje |
 |---|---|---|---|
@@ -27,6 +27,8 @@ Sada: Esri NatGeo do zuma 12, a OSM od zuma 13. Pravila OSM-a zabranjuju aplikac
 | **Sopstvene pločice** (Protomaps, jedan PMTiles fajl za region) | po želji, vektorska karta | velik: izrada isečka, stil, prelazak na MapLibre ili dodatak za Leaflet | nema kvote ni ključa; fajl od nekoliko stotina MB mora na hosting van GitHub-a (npr. Cloudflare R2) |
 
 Bliski zum (13–18) je potreban, proveren na telefonu 2026-10-16, pa ograničenje mape na zum 12 ne dolazi u obzir. Odluka (2026-10-16): **Stadia umesto OSM-a samo za bliski zum (13–18)**, a Esri atlas ostaje do zuma 12. Besplatni plan Stadie ima 200.000 pločica mesečno, samo za nekomercijalnu upotrebu; sledeći je 20 USD mesečno za milion ([cenovnik](https://stadiamaps.com/pricing/)). Ovlašćenje po domenu radi i u TWA, jer aplikacija učitava isti domen.
+
+**Stanje implementacije (2026-10-18):** `klase/mapa.js` i dalje koristi OSM od zuma 13, iako je odluka bila da pređe na Stadia. Pored toga, `sw.js` kešira OSM pločice bez isteka i vraća ih i bez mreže. Pre objave treba uskladiti izvor sa odlukom i proveriti ponašanje keša prema OSM pravilima; konkretno, offline vraćanje OSM pločica nije dozvoljeno.
 
 ## TWA ili Capacitor
 

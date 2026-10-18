@@ -23038,7 +23038,11 @@
     "mesto": "Brvnik",
     "adresa": "In front of community hall",
     "drzava": "Bosnia and Herzegovina",
-    "autor": "Slavko Đojić (designer) & Marko Mašić (mason)",
+    "autor": "Slavko Đojić & Marko Mašić",
+    "ulogeAutora": {
+      "Slavko Đojić": "designer",
+      "Marko Mašić": "mason"
+    },
     "godina": "1951",
     "vrsta": "spomen-obelezje",
     "izvor": "https://www.spomenicinob.info/samac"

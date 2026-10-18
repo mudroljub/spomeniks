@@ -9610,7 +9610,11 @@
     "naziv": "Spomen-kosturnica boraca Romanije",
     "nazivEn": "Memorial Ossuary of the Romanija Fighters",
     "godina": "1951",
-    "autor": "Kapetanović (design) & Kratović (sculptor)",
+    "autor": "Kapetanović & Kratović",
+    "ulogeAutora": {
+      "Kapetanović": "designer",
+      "Kratović": "sculptor"
+    },
     "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -73812,7 +73816,10 @@
     "naziv": "Spomenik 48 palih boraca i žrtava fašističkog terora",
     "nazivEn": "Monument to commemorate 48 fallen fighters and Victims of Fascist Terror",
     "godina": "1957",
-    "autor": "Dragutin Berić (mason)",
+    "autor": "Dragutin Berić",
+    "ulogeAutora": {
+      "Dragutin Berić": "mason"
+    },
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -81365,7 +81372,11 @@
     "naziv": "Spomenik palim borcima",
     "nazivEn": "Monument to fallen fighters",
     "godina": "1953",
-    "autor": "Slavko Đojić (designer) & Marko Mašić (mason)",
+    "autor": "Slavko Đojić & Marko Mašić",
+    "ulogeAutora": {
+      "Slavko Đojić": "designer",
+      "Marko Mašić": "mason"
+    },
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -96266,7 +96277,11 @@
     "naziv": "Spomenik VI istočnobosanskoj brigadi",
     "nazivEn": "Monument to the VI Eastern Bosnian Brigade",
     "godina": "1952",
-    "autor": "Slavko Đojić (designer) & Marko Mašić (mason)",
+    "autor": "Slavko Đojić & Marko Mašić",
+    "ulogeAutora": {
+      "Slavko Đojić": "designer",
+      "Marko Mašić": "mason"
+    },
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -96281,7 +96296,11 @@
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
     "godina": "1951",
-    "autor": "Slavko Đojić (designer) & Marko Mašić (mason)",
+    "autor": "Slavko Đojić & Marko Mašić",
+    "ulogeAutora": {
+      "Slavko Đojić": "designer",
+      "Marko Mašić": "mason"
+    },
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
   },

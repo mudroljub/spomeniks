@@ -2,7 +2,7 @@
 Tip polja je u data/tipovi.d.ts; novo polje se dodaje i ovde, inace ga alati pri upisu izbace."""
 
 REDOSLED = ['id', 'koordinate', 'priblizno', 'googleCid', 'mesto', 'izvor', 'wiki', 'wikiEn', 'clanak', 'slika', 'slikaOdnos', 'slikaPotpis',
-            'naziv', 'nazivEn', 'godina', 'autor', 'natpis', 'posveta', 'stanje', 'stanjeIzvor', 'vrsta', 'istaknut', 'drzava']
+            'naziv', 'nazivEn', 'godina', 'autor', 'ulogeAutora', 'natpis', 'posveta', 'stanje', 'stanjeIzvor', 'vrsta', 'istaknut', 'drzava']
 
 
 def poredaj(zapis):

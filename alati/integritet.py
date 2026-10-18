@@ -9,6 +9,7 @@ posvete = json.load(open('data/posvete.json', encoding='utf8'))
 greske = collections.defaultdict(list)
 VRSTE = {'spomen-park', 'spomenik', 'statua', 'bista', 'spomen-obelezje', 'spomen-ploca', 'spomen-groblje', 'muzej'}
 STANJA = {'rusevine', 'srusen', 'uklonjen', 'ostecen', 'zatvoren'}
+ULOGE_AUTORA = {'designer', 'mason', 'sculptor'}
 DRZAVE = {'Slovenia', 'Croatia', 'Bosnia and Herzegovina', 'Serbia', 'Montenegro', 'Macedonia', 'Kosovo', 'Italy'}
 POZNATA = set(REDOSLED)
 # Ranije proverene celine i pojedinacna obelezja na istoj lokaciji.
@@ -69,6 +70,15 @@ POZNATI_BLISKI_PAROVI = {frozenset(par) for par in [
     ('museum-of-july-4th', 'beograd-poziv-na-ustanak'),
 ]}
 cir = re.compile('[Ѐ-ӿ]')
+
+def ispravne_uloge_autora(s):
+    uloge = s.get('ulogeAutora')
+    if uloge is None: return True
+    autori = s.get('autor')
+    return (isinstance(uloge, dict) and bool(uloge) and isinstance(autori, str)
+            and set(uloge).issubset(autori.split(' & '))
+            and all(isinstance(uloga, str) and uloga in ULOGE_AUTORA for uloga in uloge.values()))
+
 ids = collections.Counter(s.get('id') for s in d)
 for i, n in ids.items():
     if n > 1: greske['isti id'].append(i)
@@ -85,6 +95,7 @@ for s in d:
     if 'stanje' in s and s['stanje'] not in STANJA: greske['nepoznato stanje'].append((i, s['stanje']))
     if s.get('drzava') not in DRZAVE: greske['nepoznata drzava'].append((i, s.get('drzava')))
     if set(s) - POZNATA: greske['nepoznato polje'].append((i, set(s) - POZNATA))
+    if not ispravne_uloge_autora(s): greske['neispravne uloge autora'].append(i)
     for polje, v in s.items():
         if isinstance(v, str) and (not v.strip() or v != v.strip()): greske['prazno ili razmak'].append((i, polje, v))
     if s.get('slika'):
@@ -166,6 +177,7 @@ for j, s in enumerate(bez):
     if 'istaknut' in s and type(s['istaknut']) is not bool: greske['bez lokacije: neispravno istaknut'].append(oznaka)
     if s.get('drzava') not in DRZAVE: greske['bez lokacije: nepoznata drzava'].append((oznaka, s.get('drzava')))
     if 'stanje' in s and s['stanje'] not in STANJA: greske['bez lokacije: nepoznato stanje'].append((oznaka, s['stanje']))
+    if not ispravne_uloge_autora(s): greske['bez lokacije: neispravne uloge autora'].append(oznaka)
     if str(s.get('slika', '')).startswith('slike/'):
         if not os.path.exists(s['slika']): greske['bez lokacije: nema slike'].append((oznaka, s['slika']))
         if not s.get('slikaPotpis') or not s.get('slikaOdnos'): greske['bez lokacije: slika bez potpisa ili odnosa'].append(oznaka)

@@ -449,10 +449,13 @@ export default class Detalji extends HTMLElement {
   praviAutore(spomen) {
     const autori = autoriSpomenika(spomen)
     if (!autori.length) return ''
-    const imena = autori.map(ime => this.autori[ime]
-      ? `<a href="${escapeHtml(this.autori[ime])}" target="_blank">${escapeHtml(ime)}</a>`
-      : escapeHtml(ime)
-    ).join(' & ')
+    const imena = autori.map(ime => {
+      const imeLink = this.autori[ime]
+        ? `<a href="${escapeHtml(this.autori[ime])}" target="_blank">${escapeHtml(ime)}</a>`
+        : escapeHtml(ime)
+      const uloga = spomen.ulogeAutora?.[ime]
+      return uloga ? `${imeLink} — ${t(uloga)}` : imeLink
+    }).join(' & ')
     return `${t(autori.length > 1 ? 'autori' : 'grupaAutor')}: ${imena}`
   }
 

@@ -24,7 +24,6 @@ POTPUNOST PODATKA:
 - popunjavati druge atribute na osnovu dostupnih izvora ([dopuna podataka](docs/DOPUNA_PODATAKA.md))
 
 UI:
-- Slavko Đojić (designer) nije validan prikaz imena autora
 - iz perspektive turiste koji obilazi ww2 spomenike bivše Jugoslavije (domaći i stranci): preispitati UI, prikazivanje po važnost podataka, prioritet vrsti spomenika, ponuđene ture i tome slično.
 
 REFAKTOR
@@ -37,3 +36,4 @@ OPTIMIZACIJA
 
 MOBILNA APLIKACIJA
 - napraviti android aplikaciju nakon završetka obrade podataka ([plan](docs/ANDROID_APLIKACIJA.md))
+- pre objave uskladiti izbor i keširanje pločica: planirana zamena OSM-a za bliske zumove nije sprovedena, a servisni radnik vraća keširane OSM pločice bez roka ([nalaz](docs/ANDROID_APLIKACIJA.md))

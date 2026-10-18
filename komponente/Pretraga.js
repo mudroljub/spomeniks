@@ -81,7 +81,11 @@ style.textContent = `
 
 const polja = ['mesto', 'naziv', 'nazivEn', 'autor', 'godina', 'drzava']
 
-const praviTekst = spomenik => normalizuj([...polja.map(polje => spomenik[polje] || ''), nazivDrzave(spomenik.drzava)]
+const praviTekst = spomenik => normalizuj([
+  ...polja.map(polje => spomenik[polje] || ''),
+  ...Object.values(spomenik.ulogeAutora || {}).map(uloga => t(uloga)),
+  nazivDrzave(spomenik.drzava),
+]
   .join(' ')
   .replace(/<[^>]*>/g, ''))
 
