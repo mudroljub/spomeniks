@@ -151,5 +151,11 @@
     "bezLokacijePosle": 3015,
     "grobljaBezLokacijePosle": 218
   },
-  "sledeciDokaz": "Za Divičane treba geolocirati prepoznatljiv spomenik sa fotografije; za Vinac identifikovati groblje uz zasebni spomenik 1992–1995. Šipovske ratne grobnice iz novije studije ne mešati sa NOB grobnicama."
+  "sledeciDokaz": "Za Divičane treba geolocirati prepoznatljiv spomenik sa fotografije; za Vinac identifikovati groblje uz zasebni spomenik 1992–1995. Šipovske ratne grobnice iz novije studije ne mešati sa NOB grobnicama.",
+  "provera": {
+    "testoviAplikacije": "23/23 prolaze",
+    "mobilniPrikaz": "Divičani, 390×844: fotografija učitana, bez runtime grešaka; vizuelno provereno.",
+    "integritet": "Izlaz 1 zbog četiri nova bliska para u Šenturškoj Gori i Velikom Mlačevu iz paralelnih izmena; ovaj paket nije menjao njihove zapise ni koordinate. Ostale provere integriteta nisu prijavile greške.",
+    "pomeranjePokazivaca": "Aktivni radni indeksi i knjiški ciljevi pomereni posle uklanjanja indeksa 894; istorijski pokazivači sačuvani."
+  }
 }
