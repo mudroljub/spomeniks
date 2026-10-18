@@ -54,7 +54,7 @@ Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i ot
   - Hrženjakov nalaz o rušenju ili uklanjanju ima prednost nad starijim opisom; promeniti ga može samo konkretan kasniji dokaz obnove ili premeštanja (šta, kada, gde). Izostanak iz Hrženjaka ne znači da spomenik stoji;
   - nedatirana fotografija, aktivan marker na karti i OSM objekat ne potvrđuju da spomenik danas postoji;
   - izvorni `izvor` zapisa se čuva; kasniji dokaz opstanka ne zamenjuje ga.
-- **Približna tačka** (korisnik, 2026-10-18): kad znamo samo selo, spomenik ide na mapu u centar sela iz `alati/naselja_osm.json`, sa `priblizno: true`; aplikacija ga prikazuje sivo i piše „Približna lokacija“. Važi samo za sela, ne za gradove, gde je centar predaleko; ploče dolaze poslednje. Isto ime sela nije dokaz: selo mora biti u opštini iz izvora (npr. „Dubica“ na spomenicinob.info je Kozarska Dubica, a ne istoimeno selo 75 km dalje), a imena se upoređuju samo unutar iste države. Kad se nađe prava tačka, `priblizno` se briše.
+- **Približna tačka** (korisnik, 2026-10-18): kad znamo samo selo, spomenik ide na mapu u centar sela iz `alati/naselja_osm.json`, sa `priblizno: true`; aplikacija ga prikazuje sa isprekidanim krugom i piše „Bez tačne lokacije“. Važi samo za sela, ne za gradove, gde je centar predaleko; ploče dolaze poslednje. Isto ime sela nije dokaz: selo mora biti u opštini iz izvora (npr. „Dubica“ na spomenicinob.info je Kozarska Dubica, a ne istoimeno selo 75 km dalje), a imena se upoređuju samo unutar iste države. Kad se nađe prava tačka, `priblizno` se briše.
 - **Lokacija bez Google id-a**, redom:
   1. GPS fotografije na Commons-u;
   2. jedan Overpass upit `nwr(around:2000,lat,lon)[historic~"memorial|monument"]` oko sela iz `alati/naselja_osm.json`;

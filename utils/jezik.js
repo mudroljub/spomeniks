@@ -59,7 +59,7 @@ const tekstovi = {
   grupaStanje: {sh: 'Stanje', en: 'Condition'},
   postoji: {sh: 'Očuvan', en: 'Standing'},
   ruine: {sh: 'Ruševine', en: 'Ruins'},
-  priblizno: {sh: 'Približna lokacija', en: 'Approximate location'},
+  priblizno: {sh: 'Bez tačne lokacije', en: 'No exact location'},
   grupaPoseta: {sh: 'Moje posete', en: 'My visits'},
   neposecen: {sh: 'Još neposećeno', en: 'Not visited yet'},
   grupaDrzava: {sh: 'Država', en: 'Country'},

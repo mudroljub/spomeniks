@@ -29,6 +29,8 @@ Zabjelo: postojeći `podgorica-stara-varos` dobio fotografiju, naziv „Spomenik
 
 Krstac na Goliji: korisnikova fotografija potvrđuje postojeći `gornje-caradje`; mesto promenjeno u Krstac, naziv proširen na poginule Golijane u Prvom i Drugom svjetskom ratu, godina 1970 → 1976 prema dostavljenim podacima. Bez novog markera ili promene koordinata ([evidencija](../data/provere/krstac-golija-2026-10-18.json)).
 
+Vukovci: dodat spomenik Niku Marašu i šestorici saboraca uz Vukovački most (1971), sa korisnikovom fotografijom i tekstualnom posvetom. Tačka OSM stele povezana sa istim spomenikom preko fotografija i izveštaja komemoracije ([evidencija](../data/provere/vukovci-2026-10-18.json)).
+
 ## Otvoreno
 
 - **Herceg Novi:** Baošići imaju dva objekta u registru, a mi jedan zapis; Đurkovićev zapis je vrste `spomenik`, a to je bista.

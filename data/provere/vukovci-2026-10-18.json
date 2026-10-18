@@ -1,0 +1,57 @@
+{
+  "datumProvere": "2026-10-18",
+  "ishod": "nov-marker",
+  "zapis": {
+    "id": "vukovci-spomenik-niku-marasu-i-saborcima",
+    "koordinate": {
+      "lat": 42.3326981,
+      "lng": 19.2096167
+    },
+    "mesto": "Vukovci",
+    "izvor": "https://www.openstreetmap.org/node/6042730504",
+    "slika": "slike/spomenici/vukovci-spomenik-niku-marasu-i-saborcima.webp",
+    "slikaOdnos": 0.714,
+    "slikaPotpis": "Spomenici NOB u Crnoj Gori, Facebook",
+    "naziv": "Spomenik Niku Marašu i saborcima",
+    "godina": "1971",
+    "posveta": "Niku Marašu i šestorici saboraca poginulim januara 1942. na Morači i u okolini.",
+    "vrsta": "lokalni",
+    "drzava": "Montenegro"
+  },
+  "mapaPre": 5478,
+  "mapaPosle": 5479,
+  "radniSpisakMenjan": false,
+  "tacka": {
+    "izvor": "https://www.openstreetmap.org/node/6042730504",
+    "nalaz": "OSM memorial=stele uz istočni kraj Vukovačkog mosta. Satelitski snimak i fotografije iz članka potvrđuju prilaz mostu, obalu reke i neposrednu okolinu; nije preuzet centroid sela ili samog mosta.",
+    "lokalno": "izvori/osm/cg-spomen-obelezja.json"
+  },
+  "dokazi": [
+    {
+      "izvor": "https://www.vijesti.me/vijesti/drustvo/504045/komandant-niko-sa-sest-drugova-stradao-zbog-izdaje-cetnika",
+      "datumObjave": "2021-01-17",
+      "autorFotografija": "Boris Pejović",
+      "nalaz": "Fotografije prikazuju isto zidanje od oblutaka, ploču i položaj uz most; tekst smešta spomenik kod mosta u Vukovcima."
+    },
+    {
+      "izvor": "https://www.aktuelno.me/clanak/delegacije-obnor-a-podgorice-i-zete-polozile-vijence-na-spomenik-u-blizini-vukovackog-mosta",
+      "nalaz": "Izveštaj komemoracije navodi istih sedam ljudi i stradanje januara 1942."
+    },
+    {
+      "lokalno": "izvori/cg/facebook/moraca-128566054.jpg",
+      "poreklo": "Korisnikova fotografija sa Facebook stranice Spomenici NOB u Crnoj Gori; autor, licenca i datum snimanja nisu poznati.",
+      "nalaz": "Natpis potvrđuje Nika Maraša, Vojina Božovića, Milutina Markovića, Uroša Čakića, Vaska Terzića, Mira Maraša i Cufa B. Alibalića, stradanje januara 1942. i oznaku Decembra 1971."
+    }
+  ],
+  "granice": "Godina preuzeta iz datuma na ploči, ne iz datuma događaja. Fotografija sa Facebooka kopirana i umanjena uz potpis izvora. Bez novog podatka o autorstvu ili današnjem stanju; Street View nije korišćen.",
+  "najbliziPostojeci": [
+    [
+      1081.3202216810837,
+      "golubovci"
+    ],
+    [
+      5390.142309851265,
+      "mataguzi"
+    ]
+  ]
+}
