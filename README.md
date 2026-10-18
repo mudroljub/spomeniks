@@ -23,9 +23,6 @@ POTPUNOST PODATKA:
 - dodavati fotografije gde nedostaju ([obrađeni izvori fotografija](docs/IZVORI.md#commons-i-fotografije))
 - popunjavati druge atribute na osnovu dostupnih izvora ([dopuna podataka](docs/DOPUNA_PODATAKA.md))
 
-STRUKTURA PODATAKA:
-- trenutno su svi podaci u jednom ogromnom nizu. često je potrebno pronalaziti i porediti spomenike, npr. iz hrvatske knjige sa hrvatskim spomenicima. pronaći koja je struktura podataka optimalna za to. možda neka vrsta hijerarhije organizovane po državama i opštinama?
-
 KVALITET PODATAKA (`data/spomeniks.json`):
 - `godina` je slobodan tekst („pre 1971“, „1950-ih“, raspon): razdvojiti broj i odrednicu zbog filtriranja i sortiranja
 - nedosledan oblik `mesta` za delove gradova („Beograd (Zemun)“ pored „Zemun“): ujednačiti

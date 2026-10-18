@@ -14,7 +14,7 @@ Napravljeno **2026-10-18**. Cilj: novi partizanski spomenici, spomen-groblja i s
 
 | # | Izvor | Republika | Zašto | Stanje provere |
 |---|---|---|---|---|
-| 1 | Partisan Memorials Wiki, preostali propusti | sve | Raniji ponovni prolaz već je doneo 18 + 99 novih markera i 45 prenosa; stara procena od oko 490 preskočenih nije današnji preostali obim. Novi uzorak od 20 dao je 14 novih lokacija i 5 preciziranih tačaka. | delimično; [odluke i uzorak](../data/provere/wiki-propusti-2026-10-18.json), ne ponavljati pregledane |
+| 1 | Partisan Memorials Wiki, preostali propusti | sve | Raniji ponovni prolaz već je doneo 18 + 99 novih markera i 45 prenosa; stara procena od oko 490 preskočenih nije današnji preostali obim. Novi uzorak od 20 dao je 14 novih lokacija i 5 preciziranih tačaka. Nastavak 19.10: 3 nova + 5 prenosa, 8 preciziranih, 1 popravljena približna i 9 fotografija. | delimično; [prvi uzorak](../data/provere/wiki-propusti-2026-10-18.json) i [nastavak](../data/provere/wiki-propusti-nastavak-2026-10-19.json), preskočiti oba |
 | 3 | OSM, ponovni prolaz po državi | Slovenija (Srbija, Kosovo i S. Makedonija urađeni 2026-10-18) | Za BiH, Hrvatsku i Crnu Goru postoje izvozi u `izvori/osm/`; ostale države nisu prošle isti postupak (`historic=memorial`, dalje od 250 m od naših tačaka). | nije počelo |
 | 4 | Kosovo, spisak kulturne baštine pod zaštitom (Ministarstvo kulture) | Kosovo | Zvanični spisak sa memorijalnim spomenicima; imamo malo kosovskih zapisa. | nije provereno |
 | 5 | S. Makedonija, Nacionalni registar kulturnog nasleđa (Uprava za zaštitu kulturnog nasleđa) | S. Makedonija | Zvanični registar; Trajkovski 1986 je pregledan samo uzorkom i nema tekstualni sloj. | nije provereno |
@@ -41,4 +41,4 @@ Crna Gora je zatvorena odlukom korisnika (vidi [IZVORI.md](IZVORI.md#crna-gora))
 
 ## Prvi korak
 
-Stavka 1: nastavak od preostalih kandidata u `izvori/pretrage/wiki-propusti-2026-10-18/kandidati.json`, uz preskakanje pregledanog uzorka i ponovno poređenje sa trenutnom bazom. Prednost imaju fotografisani objekti sa konkretnim opisom tačke; isti objekat iz knjige najpre precizirati, umesto novog markera. Lista kandidata sadrži i sadržaje van obuhvata i duplikate; njen broj nije broj novih spomenika.
+Stavka 1: nastavak od preostalih kandidata u `izvori/pretrage/wiki-propusti-2026-10-18/kandidati.json`, uz preskakanje oba pregledana uzorka (18. i 19.10) i ponovno poređenje sa trenutnom bazom. `nastavak-pregled.py` čita oba izveštaja; istorijski redni broj kandidata nije radni ID. Prednost imaju fotografisani objekti sa konkretnim opisom tačke; isti objekat iz knjige najpre precizirati, umesto novog markera. Lista kandidata sadrži i sadržaje van obuhvata i duplikate; njen broj nije broj novih spomenika.

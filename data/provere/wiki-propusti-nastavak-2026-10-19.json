@@ -1,0 +1,1255 @@
+{
+  "datum": "2026-10-19",
+  "obim": "20 kandidata iz već preuzetog izvora, po verovatnoći. Ponovo poređeni oba skupa, izvori i blizina; nije automatski uvoz.",
+  "pre": {
+    "markeri": 10511,
+    "bezLokacije": 3376
+  },
+  "rezultat": {
+    "novihSpomenika": 3,
+    "prenetoBezLokacije": 5,
+    "dodatnihMarkeraUkupno": 8,
+    "preciziranoPostojecih": 8,
+    "popravljenoPribliznih": 1,
+    "prenetoPriblizno": 1,
+    "novihFotografija": 9,
+    "odlozeno": 2,
+    "vanObuhvata": 1
+  },
+  "stavke": [
+    {
+      "rangKandidata": 22,
+      "wikiStranica": "Trstenik - Spomenik Partizanima",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Trstenik_-_Spomenik_Partizanima",
+      "id": "trstenik-spomenik-palim-1941-1945",
+      "radnja": "precizirana",
+      "dokaz": "Jedinstven spomenik iz 1951, D. Nikolić, na obali kod starog mosta. Isti zapis, ne novi marker. Podudaranje autora, godine, posvete i fizičkog oblika.",
+      "polozaj": "In a park just N of the old bridge, E river bank, NW of the center",
+      "porekloTacke": "Marked on a 1969 map. Clearly visible and marked with several pics on gmaps, visible with a 360 view",
+      "koordinateWiki": "43.622213,20.998539",
+      "najbliziPre": [
+        [
+          223,
+          "trstenik-spomenik-palim-1941-1945"
+        ],
+        [
+          223,
+          "trstenik-bista-miodraga-cajetinca"
+        ],
+        [
+          223,
+          "trstenik-bista-zivadina-apostolovica"
+        ]
+      ],
+      "kandidatiIstogMestaPre": [
+        "trstenik-spomenik-palim-1941-1945",
+        "trstenik-bista-miodraga-cajetinca",
+        "trstenik-bista-zivadina-apostolovica",
+        "trstenik-spomenik-palim-borcima",
+        "trstenik-spomenik-palim-borcima-u-trsteniku"
+      ],
+      "pre": {
+        "id": "trstenik-spomenik-palim-1941-1945",
+        "koordinate": {
+          "lat": 43.62021,
+          "lng": 20.99844
+        },
+        "priblizno": true,
+        "mesto": "Trstenik",
+        "naziv": "Spomenik palim 1941-1945",
+        "godina": "1951",
+        "autor": "D. Nikolić",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=57",
+      "foto": {
+        "lokalno": "C:/Users/d_pavlica/OneDrive - Wargaming.net/Documents/GitHub/spomenici/izvori/pretrage/wiki-propusti-2026-10-18/nastavak-2026-10-19/22.jpg",
+        "potpis": "Partisan Memorials Wiki",
+        "url": "https://www.xiwl.com/w/img_auth.php/thumb/3/39/Trstenik_SpomenikPartizanima08.jpg/800px-Trstenik_SpomenikPartizanima08.jpg"
+      },
+      "posle": {
+        "id": "trstenik-spomenik-palim-1941-1945",
+        "koordinate": {
+          "lat": 43.622213,
+          "lng": 20.998539
+        },
+        "mesto": "Trstenik",
+        "slika": "slike/spomenici/trstenik-spomenik-palim-1941-1945.webp",
+        "slikaOdnos": 0.749,
+        "slikaPotpis": "Partisan Memorials Wiki",
+        "naziv": "Spomenik palim 1941-1945",
+        "godina": "1951",
+        "autor": "Dušan Nikolić",
+        "vrsta": "statua",
+        "drzava": "Serbia"
+      }
+    },
+    {
+      "rangKandidata": 86,
+      "wikiStranica": "Velika Drenova - Spomenik Palim Crvenoarmejcima",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Velika_Drenova_-_Spomenik_Palim_Crvenoarmejcima",
+      "id": "velika-drenova-spomenik-palim-crvenoarmejcima",
+      "radnja": "precizirana",
+      "dokaz": "Ista spomen-piramida iz 1946, na velikom stepeništu ispred crkve; upareno i po knjizi i fotografiji.",
+      "polozaj": "Center of the village, in the middle of the huge stairway in the park N of the main road, close to the church",
+      "porekloTacke": "Marked on a 1969 map. Visible with streetview. The park is marked on gmaps but without pics, the memorial visible if you know what to look for",
+      "koordinateWiki": "43.627528,21.129194",
+      "najbliziPre": [
+        [
+          102,
+          "velika-drenova-spomenik-palim-1941-1945"
+        ],
+        [
+          102,
+          "velika-drenova-spomenik-palim-crvenoarmejcima"
+        ],
+        [
+          102,
+          "velika-drenova-spomen-dom-posvecen-borivoju-stefan"
+        ]
+      ],
+      "kandidatiIstogMestaPre": [
+        "velika-drenova",
+        "velika-drenova-spomenik-palim-1941-1945",
+        "velika-drenova-spomenik-palim-crvenoarmejcima",
+        "velika-drenova-spomen-dom-posvecen-borivoju-stefan",
+        "velika-drenova-bista-radmile-cosic"
+      ],
+      "pre": {
+        "id": "velika-drenova-spomenik-palim-crvenoarmejcima",
+        "koordinate": {
+          "lat": 43.62738,
+          "lng": 21.13045
+        },
+        "priblizno": true,
+        "mesto": "Velika Drenova",
+        "naziv": "Spomenik palim crvenoarmejcima",
+        "godina": "1946",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=57",
+      "foto": {
+        "lokalno": "C:/Users/d_pavlica/OneDrive - Wargaming.net/Documents/GitHub/spomenici/izvori/pretrage/wiki-propusti-2026-10-18/nastavak-2026-10-19/86.jpg",
+        "potpis": "Partisan Memorials Wiki",
+        "url": "https://www.xiwl.com/w/img_auth.php/thumb/5/50/VelikaDrenova_SpomenikCrvenoarmejcima02.jpg/800px-VelikaDrenova_SpomenikCrvenoarmejcima02.jpg"
+      },
+      "posle": {
+        "id": "velika-drenova-spomenik-palim-crvenoarmejcima",
+        "koordinate": {
+          "lat": 43.627528,
+          "lng": 21.129194
+        },
+        "mesto": "Velika Drenova",
+        "slika": "slike/spomenici/velika-drenova-spomenik-palim-crvenoarmejcima.webp",
+        "slikaOdnos": 0.749,
+        "slikaPotpis": "Partisan Memorials Wiki",
+        "naziv": "Spomenik palim crvenoarmejcima",
+        "godina": "1946",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      }
+    },
+    {
+      "rangKandidata": 99,
+      "wikiStranica": "Beograd - Jevrejsko Groblje Trostruki Surduk",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Beograd_-_Jevrejsko_Groblje_Trostruki_Surduk",
+      "id": "beograd-ledine-trostruki-surduk",
+      "radnja": "novi",
+      "dokaz": "Posebno stratište/grobni prostor Trostruki surduk, 1964; nije istoimeno selo Ledine u Sloveniji. Upotrebljena tačka sa Wiki, koji upozorava na pogrešan Google marker i navodi kartu Killing Sites kao poreklo; ta karta nije nezavisno očitana u ovom prolazu. Zavodska fotografija potvrđuje izgled. Brojevi žrtava i datumi izvora su protivrečni, ne prepisuju se.",
+      "polozaj": "in a small valley called Trostruki surduk, in the neigbourhood of Ledine, between Bežanija and Surčin",
+      "porekloTacke": "Clearly visible and marked on gmaps, though the entry in gmaps is way off. The right coords are provided by a map on [http://killingsites.org/ledine/ this site], and the memorial is visible with streetview",
+      "koordinateWiki": "44.799972,20.351727",
+      "najbliziPre": [
+        [
+          1971,
+          "beograd-bezanijska-kosa"
+        ],
+        [
+          3426,
+          "makis-spomenik-palim-radnicima"
+        ],
+        [
+          5486,
+          "beograd-paviljoni-bista-zikice-jovanovica-spanca"
+        ]
+      ],
+      "kandidatiIstogMestaPre": [
+        "jajinci",
+        "jajinci-spomen-park",
+        "belgrade-cemetery",
+        "dorcol",
+        "sajmiste",
+        "new-belgrade",
+        "museum-of-yugoslavia",
+        "zemun-bombas",
+        "banjica-concen-camp-museum",
+        "museum-of-july-4th",
+        "belgrade-port",
+        "zemun-fallen-fighters",
+        "belgrade-s-new-cemetery",
+        "belgrade",
+        "beograd-banovo-brdo",
+        "beograd-grobnica-narodnih-heroja",
+        "beograd-sesta-gimnazija",
+        "beograd-crvenoarmejac",
+        "zarkovo",
+        "beograd-terazije",
+        "beograd-resnik",
+        "beograd-kosutnjak",
+        "beograd-batajnica",
+        "beograd-knezevac",
+        "beograd-banjica",
+        "beograd-petlovo-brdo",
+        "beograd-bezanijska-kosa",
+        "beograd-jerkovic",
+        "beograd-vlahovic",
+        "beograd-oreskovic",
+        "beograd-filipovic",
+        "beograd-kidric",
+        "beograd-cetkovic",
+        "beograd-bursac",
+        "beograd-maslesa",
+        "beograd-milutinovic",
+        "beograd-jovanovic",
+        "beograd-nikolis",
+        "beograd-biste-heroja",
+        "beograd-spomen-park-topovske-supe",
+        "beograd-spomenik-internacionalnim-brigadama",
+        "beograd-spomen-bista-nadi-puric-u-beogradu",
+        "beograd-spomen-bista-blagoja-parovica",
+        "beograd-spomenik-crvenoarmejcima",
+        "beograd-aleja-narodnih-heroja",
+        "beograd-partizan-na-vecnoj-strazi",
+        "beograd-bista-sretena-mladenovica",
+        "beograd-spomenik-marijani-gregoran",
+        "beograd-bista-stevana-dukica",
+        "beograd-bista-zage-malivuk",
+        "beograd-spomenik-obalskim-radnicima-palim-u-nob-u",
+        "beograd-savamala-ovde-je-ziveo-ucitelj-miladin-zar",
+        "beograd-skadarlija-iz-ove-bolnice-oslobodjen-je-30",
+        "beograd-staro-sajmiste-spomen-ploca-zrtvama-logora",
+        "borca-sutjeska-spomenik-streljanim-rodoljubima",
+        "beograd-rakovica-spomen-cesma-palim-borcima",
+        "beograd-paviljoni-bista-zikice-jovanovica-spanca",
+        "beograd-spomenik-mosi-pijade",
+        "beograd-kuca-cveca",
+        "beograd-dragica-pravica",
+        "beograd-poziv-na-ustanak",
+        "borca-spomenik-palim-borcima-kosutnjak",
+        "kumodraz-spomenik-palim-borcima-i-zrtvama-fasizma",
+        "makis-spomenik-palim-radnicima",
+        "rakovica-spomen-cesma",
+        "beograd-muzej-ilegalnih-partijskih-stamparija",
+        "beograd-spomenik-ilegalnoj-stampariji-kpj",
+        "beograd-spomen-groblje-streljanih-1944",
+        "beograd-spomenik",
+        "beograd-spomenik-palim-radnicima",
+        "beograd-vojni-muzej",
+        "beograd-komeni-beleg",
+        "beograd-skulptura-podignuta-1971",
+        "zemun-grobnica-zrtava-logora-sajmiste",
+        "beograd-vaznesenska-crkva-zrtve-bombardovanja",
+        "beograd-zemun-spomenik-mladima-gornje-varosi-izgin",
+        "beograd-novi-beograd-biste-sedam-sekretara-skoj-a",
+        "beograd-stara-cukarica-spomenik-palim-borcima-u-st",
+        "beograd-spomen-groblje-palim-borcima-u-beogradu-19",
+        "beograd-spomen-obiljezje-na-mjestu-glavnjace"
+      ],
+      "foto": {
+        "lokalno": "C:/Users/d_pavlica/OneDrive - Wargaming.net/Documents/GitHub/spomenici/izvori/pretrage/wiki-propusti-2026-10-18/nastavak-2026-10-19/99.jpg",
+        "potpis": "Zavod za zaštitu spomenika kulture grada Beograda",
+        "url": "https://nasledje.gov.rs/media/foto_dokumentacija/Jevrejsko%20groblje%20na%20Ledinama,%20Beograd.jpg"
+      },
+      "posle": {
+        "id": "beograd-ledine-trostruki-surduk",
+        "koordinate": {
+          "lat": 44.799972,
+          "lng": 20.351727
+        },
+        "mesto": "Beograd (Ledine)",
+        "wiki": "https://sr.wikipedia.org/wiki/Јеврејско_гробље_на_Лединама",
+        "wikiEn": "https://en.wikipedia.org/wiki/Trostruki_surduk",
+        "slika": "slike/spomenici/beograd-ledine-trostruki-surduk.webp",
+        "slikaOdnos": 1.493,
+        "slikaPotpis": "Zavod za zaštitu spomenika kulture grada Beograda",
+        "naziv": "Jevrejsko groblje na Ledinama",
+        "godina": "1964",
+        "vrsta": "spomen-groblje",
+        "drzava": "Serbia"
+      }
+    },
+    {
+      "rangKandidata": 101,
+      "wikiStranica": "Guberevac (Leskovac) - Spomenik NOB",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Guberevac_%28Leskovac%29_-_Spomenik_NOB",
+      "id": "guberevac-spomenik-palim-borcima-u-nor-u-u-guberev",
+      "radnja": "preneto-na-mapu",
+      "dokaz": "Radna Commons fotografija pripada Guberevcu kod Leskovca: istovetan profil spomenika kao u wiki/3D modelu, nije obelisk Guberevca kod Sopota. Na fotografiji jasno 1980; wiki navodi 1989, pa godina ostaje izostavljena dok se ne razjasni odnos ploče i celine.",
+      "polozaj": "Center of the villages, opposite the school",
+      "porekloTacke": "Visible with a 360 drone view, visible if you know what to look for. The school is marked",
+      "koordinateWiki": "42.957806,22.025583",
+      "najbliziPre": [
+        [
+          3728,
+          "velika-grabovnica-spomenik-palim-borcima-i-zrtvama"
+        ],
+        [
+          4640,
+          "batulovce-spomen-cesma"
+        ],
+        [
+          5125,
+          "mala-kopasnica-spomenik-nob"
+        ]
+      ],
+      "kandidatiIstogMestaPre": [
+        "guberevac-spomenik-palim-1941-1945",
+        "guberevac-spomenik-palim-borcima-u-nor-u-u-guberev"
+      ],
+      "pre": {
+        "id": "guberevac-spomenik-palim-borcima-u-nor-u-u-guberev",
+        "mesto": "Guberevac",
+        "slika": "Ploca_spomenika_u_Guberevcu.jpg",
+        "naziv": "Spomenik palim borcima u NOR-u u Guberevcu",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BF%D0%B0%D0%BB%D0%B8%D0%BC_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D1%83_%D0%9D%D0%9E%D0%A0-%D1%83_%D1%83_%D0%93%D1%83%D0%B1%D0%B5%D1%80%D0%B5%D0%B2%D1%86%D1%83",
+      "foto": {
+        "lokalno": "C:/Users/d_pavlica/OneDrive - Wargaming.net/Documents/GitHub/spomenici/izvori/pretrage/wiki-propusti-2026-10-18/nastavak-2026-10-19/101.jpg",
+        "potpis": "Nikola289, CC0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Ploca_spomenika_u_Guberevcu.jpg/960px-Ploca_spomenika_u_Guberevcu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "posle": {
+        "id": "guberevac-spomenik-palim-borcima-u-nor-u-u-guberev",
+        "koordinate": {
+          "lat": 42.957806,
+          "lng": 22.025583
+        },
+        "mesto": "Guberevac (Leskovac)",
+        "slika": "slike/spomenici/guberevac-spomenik-palim-borcima-u-nor-u-u-guberev.webp",
+        "slikaOdnos": 0.75,
+        "slikaPotpis": "Nikola289, CC0",
+        "naziv": "Spomenik palim borcima",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      }
+    },
+    {
+      "rangKandidata": 102,
+      "wikiStranica": "Guberevac (Sopot) - Spomenik Palim Borcima i Žrtvama Fašističkog Terora",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Guberevac_%28Sopot%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+      "id": "guberevac-spomenik-palim-1941-1945",
+      "radnja": "precizirana",
+      "dokaz": "Obelisk iz 1950. na Glavici uz dom kulture; nije Guberevac kod Leskovca. Fotografija i 27 imena odgovaraju opisu Popović-Žume.",
+      "polozaj": "At the location \"Glavica\", center of the settlement, next to the Dom Kulture, just N of the main road through the village",
+      "porekloTacke": "Marked as a memorial on a 1989 map. Marked on gmaps but without pics, visible with streetview",
+      "koordinateWiki": "44.539917,20.467861",
+      "najbliziPre": [
+        [
+          336,
+          "guberevac-spomenik-palim-1941-1945"
+        ],
+        [
+          2991,
+          "lisovic-partizansko-groblje"
+        ],
+        [
+          3404,
+          "stojnik-spomenik-palim-borcima-i-zrtvama-fasistick"
+        ]
+      ],
+      "kandidatiIstogMestaPre": [
+        "guberevac-spomenik-palim-1941-1945",
+        "guberevac-spomenik-palim-borcima-u-nor-u-u-guberev"
+      ],
+      "pre": {
+        "id": "guberevac-spomenik-palim-1941-1945",
+        "koordinate": {
+          "lat": 44.53776,
+          "lng": 20.46489
+        },
+        "priblizno": true,
+        "mesto": "Guberevac",
+        "naziv": "Spomenik palim 1941-1945",
+        "godina": "1950",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=23",
+      "foto": {
+        "lokalno": "C:/Users/d_pavlica/OneDrive - Wargaming.net/Documents/GitHub/spomenici/izvori/pretrage/wiki-propusti-2026-10-18/nastavak-2026-10-19/102.jpg",
+        "potpis": "Јелена Продановић, CC BY-SA 4.0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Guberevac_Monument1.JPG/960px-Guberevac_Monument1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "posle": {
+        "id": "guberevac-spomenik-palim-1941-1945",
+        "koordinate": {
+          "lat": 44.539917,
+          "lng": 20.467861
+        },
+        "mesto": "Guberevac (Sopot)",
+        "slika": "slike/spomenici/guberevac-spomenik-palim-1941-1945.webp",
+        "slikaOdnos": 0.75,
+        "slikaPotpis": "Јелена Продановић, CC BY-SA 4.0",
+        "naziv": "Spomenik palim 1941-1945",
+        "godina": "1950",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      }
+    },
+    {
+      "rangKandidata": 107,
+      "wikiStranica": "Leskovac (Zaječar) - Spomenik Palim Borcima",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Leskovac_%28Zaje%C4%8Dar%29_-_Spomenik_Palim_Borcima",
+      "id": "leskovac-spomenik-palim-u-oslobodilackim-ratovima",
+      "radnja": "precizirana",
+      "dokaz": "Isti spomenik za 34 poginula u dva rata, ulaz u Leskovac kod Zaječara uz most; nije Leskovac kod Knića ili Petrovca.",
+      "polozaj": "NW entrance to the village, directly SW of the bridge",
+      "porekloTacke": "Marked on a 1969 map, consistently visible on satellite views",
+      "koordinateWiki": "43.812472,22.197833",
+      "najbliziPre": [
+        [
+          270,
+          "leskovac-spomenik-palim-u-oslobodilackim-ratovima"
+        ],
+        [
+          270,
+          "leskovac-kameni-beleg-na-bratujevackoj-kosi"
+        ],
+        [
+          270,
+          "leskovac-spomenik-zivku-milutinovicu"
+        ]
+      ],
+      "kandidatiIstogMestaPre": [
+        "leskovac",
+        "leskovac-dubocica",
+        "leskovac-kuca-koste-stamenkovica",
+        "leskovac-bista-blagoja-kostica",
+        "leskovac-bista-milice-pavlovic",
+        "leskovac-bista-trajka-stamenkovica",
+        "leskovac-bista-stanimira-veljkovica-zeleta",
+        "leskovac-spomen-cesma-u-leskovcu",
+        "leskovac-spomenik",
+        "leskovac-spomenik-pionirima",
+        "leskovac-spomenik-streljanima",
+        "leskovac-spomenik-palim-u-oslobodilackim-ratovima",
+        "leskovac-kameni-beleg-na-bratujevackoj-kosi",
+        "leskovac-spomenik-zivku-milutinovicu",
+        "leskovac-spomenik-palim-1941-1945",
+        "leskovac-bista-stojana-ljubica",
+        "leskovac-bista-vlade-djordjevica",
+        "leskovac-hisar-bista-blagoja-nikolica",
+        "leskovac-spomenik-kosti-stamenkovicu",
+        "leskovac-spomenik-palim-1941-1945-2"
+      ],
+      "pre": {
+        "id": "leskovac-spomenik-palim-u-oslobodilackim-ratovima",
+        "koordinate": {
+          "lat": 43.8113,
+          "lng": 22.20078
+        },
+        "priblizno": true,
+        "mesto": "Leskovac",
+        "naziv": "Spomenik palim u oslobodilačkim ratovima 1912-1918 i 1941-1945",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=25",
+      "posle": {
+        "id": "leskovac-spomenik-palim-u-oslobodilackim-ratovima",
+        "koordinate": {
+          "lat": 43.812472,
+          "lng": 22.197833
+        },
+        "mesto": "Leskovac (Zaječar)",
+        "naziv": "Spomenik palim u oslobodilačkim ratovima 1912-1918 i 1941-1945",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      }
+    },
+    {
+      "rangKandidata": 108,
+      "wikiStranica": "Leskovac (Zaječar) - Spomenik NOB",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Leskovac_%28Zaje%C4%8Dar%29_-_Spomenik_NOB",
+      "id": "leskovac-kameni-beleg-na-bratujevackoj-kosi",
+      "radnja": "precizirana",
+      "dokaz": "Isti beleg na Bratujevačkoj kosi, bitka 1. oktobra 1943. Opis topografije i imena događaja poklapaju se; Wiki navodi i OSM marker na tom mestu, koji nije zasebno pregledan u ovom prolazu. Fotografija sa ljudima ispred odbačena.",
+      "polozaj": "At Bratujevac Kosa, directly S of the road between Šljivar and Lenovac, close to the turn to Leskovac and the lake",
+      "porekloTacke": "Marked as a memorial on a 1969 map. OSM marks a memorial here. Bratujevac (Brdo) is known to this 1969 map, [https://mapcarta.com/13930366 mapcarta] and gmaps. Location corresponds with available imagery",
+      "koordinateWiki": "43.834444,22.199194",
+      "najbliziPre": [
+        [
+          2577,
+          "leskovac-spomenik-palim-u-oslobodilackim-ratovima"
+        ],
+        [
+          2577,
+          "leskovac-kameni-beleg-na-bratujevackoj-kosi"
+        ],
+        [
+          2577,
+          "leskovac-spomenik-zivku-milutinovicu"
+        ]
+      ],
+      "kandidatiIstogMestaPre": [
+        "leskovac",
+        "leskovac-dubocica",
+        "leskovac-kuca-koste-stamenkovica",
+        "leskovac-bista-blagoja-kostica",
+        "leskovac-bista-milice-pavlovic",
+        "leskovac-bista-trajka-stamenkovica",
+        "leskovac-bista-stanimira-veljkovica-zeleta",
+        "leskovac-spomen-cesma-u-leskovcu",
+        "leskovac-spomenik",
+        "leskovac-spomenik-pionirima",
+        "leskovac-spomenik-streljanima",
+        "leskovac-spomenik-palim-u-oslobodilackim-ratovima",
+        "leskovac-kameni-beleg-na-bratujevackoj-kosi",
+        "leskovac-spomenik-zivku-milutinovicu",
+        "leskovac-spomenik-palim-1941-1945",
+        "leskovac-bista-stojana-ljubica",
+        "leskovac-bista-vlade-djordjevica",
+        "leskovac-hisar-bista-blagoja-nikolica",
+        "leskovac-spomenik-kosti-stamenkovicu",
+        "leskovac-spomenik-palim-1941-1945-2"
+      ],
+      "pre": {
+        "id": "leskovac-kameni-beleg-na-bratujevackoj-kosi",
+        "koordinate": {
+          "lat": 43.8113,
+          "lng": 22.20078
+        },
+        "priblizno": true,
+        "mesto": "Leskovac",
+        "naziv": "Kameni beleg na Bratujevačkoj kosi",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=25",
+      "posle": {
+        "id": "leskovac-kameni-beleg-na-bratujevackoj-kosi",
+        "koordinate": {
+          "lat": 43.834444,
+          "lng": 22.199194
+        },
+        "mesto": "Leskovac (Zaječar)",
+        "naziv": "Kameni beleg na Bratujevačkoj kosi",
+        "posveta": "Borbi partizana protiv nemačkih, bugarskih i četničkih snaga na Bratujevcu 1. oktobra 1943. godine.",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      }
+    },
+    {
+      "rangKandidata": 109,
+      "wikiStranica": "Leskovac (Zaječar) - Spomenik Živku Milutinoviću",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Leskovac_%28Zaje%C4%8Dar%29_-_Spomenik_%C5%BDivku_Milutinovi%C4%87u",
+      "id": "leskovac-spomenik-zivku-milutinovicu",
+      "radnja": "precizirana",
+      "dokaz": "Zaseban spomenik Živku Milutinoviću, oko 490 m zapadno od belega bitke. Podudaranje imena, mikroopisa i slike. Grupna novinska fotografija nije za karticu.",
+      "polozaj": "S of the road between Šljivar and Lenovac, at location Bratujevac, close to a field for yearly events",
+      "porekloTacke": "Marked as a memorial on a 1969 map. Visible on 09/2020 and 08/2019 satellite views, shadow visible on 10/2022 and 03/2017 winter satellite views. Location Bratujevac (Brdo) known to a 1969 map, [https://mapcarta.com/13930366 mapcarta] and gmaps. Location corresponds with available imagery.",
+      "koordinateWiki": "43.834139,22.193083",
+      "najbliziPre": [
+        [
+          2614,
+          "leskovac-spomenik-palim-u-oslobodilackim-ratovima"
+        ],
+        [
+          2614,
+          "leskovac-kameni-beleg-na-bratujevackoj-kosi"
+        ],
+        [
+          2614,
+          "leskovac-spomenik-zivku-milutinovicu"
+        ]
+      ],
+      "kandidatiIstogMestaPre": [
+        "leskovac",
+        "leskovac-dubocica",
+        "leskovac-kuca-koste-stamenkovica",
+        "leskovac-bista-blagoja-kostica",
+        "leskovac-bista-milice-pavlovic",
+        "leskovac-bista-trajka-stamenkovica",
+        "leskovac-bista-stanimira-veljkovica-zeleta",
+        "leskovac-spomen-cesma-u-leskovcu",
+        "leskovac-spomenik",
+        "leskovac-spomenik-pionirima",
+        "leskovac-spomenik-streljanima",
+        "leskovac-spomenik-palim-u-oslobodilackim-ratovima",
+        "leskovac-kameni-beleg-na-bratujevackoj-kosi",
+        "leskovac-spomenik-zivku-milutinovicu",
+        "leskovac-spomenik-palim-1941-1945",
+        "leskovac-bista-stojana-ljubica",
+        "leskovac-bista-vlade-djordjevica",
+        "leskovac-hisar-bista-blagoja-nikolica",
+        "leskovac-spomenik-kosti-stamenkovicu",
+        "leskovac-spomenik-palim-1941-1945-2"
+      ],
+      "pre": {
+        "id": "leskovac-spomenik-zivku-milutinovicu",
+        "koordinate": {
+          "lat": 43.8113,
+          "lng": 22.20078
+        },
+        "priblizno": true,
+        "mesto": "Leskovac",
+        "naziv": "Spomenik Živku Milutinoviću",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=25",
+      "posle": {
+        "id": "leskovac-spomenik-zivku-milutinovicu",
+        "koordinate": {
+          "lat": 43.834139,
+          "lng": 22.193083
+        },
+        "mesto": "Leskovac (Zaječar)",
+        "naziv": "Spomenik Živku Milutinoviću",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      }
+    },
+    {
+      "rangKandidata": 110,
+      "wikiStranica": "Leskovac (Petrovac na Mlavi) - Spomenik Palim Borcima i Žrtvama Fašističkog Terora",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Leskovac_%28Petrovac_na_Mlavi%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+      "id": "leskovac-spomenik-palim-1941-1945-2",
+      "radnja": "preneto-na-mapu",
+      "dokaz": "Potpuno poklapanje radnog opisa: 1958, 11 boraca i jedna civilna žrtva. Tačka ispred doma kulture u Leskovcu kod Petrovca; ne istoimena mesta.",
+      "polozaj": "Center of the village, in front of the Dom Kulture, directly N of the regional road",
+      "porekloTacke": "The Dom is marked but without pics. Location corresponds with available imagery",
+      "koordinateWiki": "44.360333,21.437194",
+      "najbliziPre": [
+        [
+          2325,
+          "petrovac-na-mlavi-spomenik-borcima-nob-a"
+        ],
+        [
+          2333,
+          "klokocar-spomenik-nob"
+        ],
+        [
+          3018,
+          "stamnica-spomen-cesma"
+        ]
+      ],
+      "kandidatiIstogMestaPre": [
+        "leskovac",
+        "leskovac-dubocica",
+        "leskovac-kuca-koste-stamenkovica",
+        "leskovac-bista-blagoja-kostica",
+        "leskovac-bista-milice-pavlovic",
+        "leskovac-bista-trajka-stamenkovica",
+        "leskovac-bista-stanimira-veljkovica-zeleta",
+        "leskovac-spomen-cesma-u-leskovcu",
+        "leskovac-spomenik",
+        "leskovac-spomenik-pionirima",
+        "leskovac-spomenik-streljanima",
+        "leskovac-spomenik-palim-u-oslobodilackim-ratovima",
+        "leskovac-kameni-beleg-na-bratujevackoj-kosi",
+        "leskovac-spomenik-zivku-milutinovicu",
+        "leskovac-spomenik-palim-1941-1945",
+        "leskovac-bista-stojana-ljubica",
+        "leskovac-bista-vlade-djordjevica",
+        "leskovac-hisar-bista-blagoja-nikolica",
+        "leskovac-spomenik-kosti-stamenkovicu",
+        "leskovac-spomenik-palim-1941-1945-2"
+      ],
+      "pre": {
+        "id": "leskovac-spomenik-palim-1941-1945-2",
+        "mesto": "Leskovac",
+        "naziv": "Spomenik palim 1941-1945",
+        "godina": "1958",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia",
+        "adresa": "Spomenik palim 1941-1945. Podignut 1958. godine. U borbi je poginulo jedanaest boraca, jedan meštanin je pao pod fašističkim terorom."
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=94",
+      "posle": {
+        "id": "leskovac-spomenik-palim-1941-1945-2",
+        "koordinate": {
+          "lat": 44.360333,
+          "lng": 21.437194
+        },
+        "mesto": "Leskovac (Petrovac na Mlavi)",
+        "naziv": "Spomenik palim 1941-1945",
+        "godina": "1958",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      }
+    },
+    {
+      "rangKandidata": 111,
+      "wikiStranica": "Odžaci (SRB) - Spomen Grobnica",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Od%C5%BEaci_%28SRB%29_-_Spomen_Grobnica",
+      "id": "odzaci-spomenik-i-zajednicka-grobnica",
+      "radnja": "preneto-na-mapu",
+      "dokaz": "Katoličko groblje na južnoj periferiji Odžaka u Srbiji; sedam boraca iz oktobarskih borbi odgovara radnom zapisu. Ne uparivati sa dva istoimena bosanska unosa. Kasniji novinski podaci o 3+13 boraca nisu dovoljno razjašnjeni za novu posvetu. Fotografija obnove 2024. nedostupna; stara grupna slika odbačena.",
+      "polozaj": "At the catholic cemetery, S outskirts",
+      "porekloTacke": "The cemetery is marked on gmaps but without pics of the memorial, memorial visible on apple maps, location corresponds with available pics",
+      "koordinateWiki": "45.499083,19.264500",
+      "najbliziPre": [
+        [
+          5338,
+          "karavukovo-spomenik-na-grobu-nepoznatog-komandira"
+        ]
+      ],
+      "kandidatiIstogMestaPre": [
+        "odzaci-spomenik-palim-borcima",
+        "odzaci-spomenik-i-zajednicka-grobnica",
+        "odzaci-bista-ive-lole-ribara"
+      ],
+      "pre": {
+        "id": "odzaci-spomenik-i-zajednicka-grobnica",
+        "mesto": "Odžaci",
+        "naziv": "Spomenik i zajednička grobnica",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia",
+        "adresa": "Spomenik i zajednička grobnica. U borbama oktobra 1944. godine poginulo je na tlu naselja sedam boraca novj."
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=137",
+      "posle": {
+        "id": "odzaci-spomenik-i-zajednicka-grobnica",
+        "koordinate": {
+          "lat": 45.499083,
+          "lng": 19.2645
+        },
+        "mesto": "Odžaci",
+        "naziv": "Spomenik i zajednička grobnica",
+        "vrsta": "spomen-groblje",
+        "drzava": "Serbia"
+      }
+    },
+    {
+      "rangKandidata": 113,
+      "wikiStranica": "Pančevo - Spomenik Crvenoarmejcima Vojlovica",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Pan%C4%8Devo_-_Spomenik_Crvenoarmejcima_Vojlovica",
+      "id": "pancevo-spomenik-crvenoarmejcima-vojlovica",
+      "radnja": "novi",
+      "dokaz": "Wiki tačka potvrđena nezavisnim OSM node 8472314051 (44.8580972,20.6546777), sa nazivom na srpskom. Kod stanice Vojlovica, različit od postojećeg spomenika u samom naselju Vojlovica i novog na Trgu Margelova. Bez upotrebljive fotografije; Street View nije preuzet.",
+      "polozaj": "S of the railway tracks, a bit SW of the train station Pančevo Vojlovica",
+      "porekloTacke": "Marked on gmaps but without pics, marked on openstreetmaps, visible with streetview.",
+      "koordinateWiki": "44.858111,20.654694",
+      "najbliziPre": [
+        [
+          1663,
+          "pancevo-spomenik-crvenoarmejcima-na-trgu-margelova"
+        ],
+        [
+          1808,
+          "pancevo-bista-stevice-jovanovica"
+        ],
+        [
+          1808,
+          "pancevo-bista-stevice-jovanovica-2"
+        ]
+      ],
+      "kandidatiIstogMestaPre": [
+        "pancevo",
+        "pancevo-spomenik-crvenoarmejcima-na-trgu-margelova",
+        "pancevo-kotez-spomenik-crvenoarmejcima",
+        "pancevo-spomenik-streljanim-rodoljubima-iz-borce",
+        "pancevo-spomen-ploca-streljanim-gradjanima-panceva",
+        "pancevo-vojlovica-spomenik-palim-borcima-nob-a-iz",
+        "pancevo-bista-stevice-jovanovica",
+        "pancevo-bista-stevice-jovanovica-2",
+        "pancevo-bista-borislava-petrova",
+        "pancevo-spomen-cesma",
+        "pancevo-skulptura-umiruci-borac-na-humki-spomen-ob",
+        "pancevo-logor-svilara"
+      ],
+      "posle": {
+        "id": "pancevo-spomenik-crvenoarmejcima-vojlovica",
+        "koordinate": {
+          "lat": 44.858111,
+          "lng": 20.654694
+        },
+        "mesto": "Pančevo",
+        "naziv": "Spomenik palim borcima Crvene armije",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      }
+    },
+    {
+      "rangKandidata": 117,
+      "wikiStranica": "Starčevo (Pančevo) - Spomenik Palim Borcima",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Star%C4%8Devo_%28Pan%C4%8Devo%29_-_Spomenik_Palim_Borcima",
+      "id": "starcevo-spomenik-palim-borcima-od-1941-1945",
+      "radnja": "preneto-na-mapu",
+      "dokaz": "Isti park ispred doma kulture; radni opis 1966, 35 boraca i šest žrtava. Proverena fotografija metalnog spomenika sa licima; početna novinska sa čovekom odbačena, zamenjena čistom fotografijom korisnika Google mapa.",
+      "polozaj": "Center of the village, in the park in front of the Dom",
+      "porekloTacke": "The park is marked on gmaps with one pic of the memorial",
+      "koordinateWiki": "44.805917,20.705556",
+      "najbliziPre": [
+        [
+          2034,
+          "starcevo-spomenik-crvenoarmejcima"
+        ],
+        [
+          5021,
+          "pancevo-vojlovica-spomenik-palim-borcima-nob-a-iz"
+        ],
+        [
+          5236,
+          "vojlovica-spomenik-palim-1941-1945"
+        ]
+      ],
+      "kandidatiIstogMestaPre": [
+        "starcevo",
+        "starcevo-spomenik-crvenoarmejcima",
+        "starcevo-spomenik-palim-borcima-od-1941-1945"
+      ],
+      "pre": {
+        "id": "starcevo-spomenik-palim-borcima-od-1941-1945",
+        "mesto": "Starčevo",
+        "naziv": "Spomenik „Palim borcima od 1941-1945“",
+        "godina": "1966",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia",
+        "adresa": "Spomenik „Palim borcima od 1941-1945. godine“. Izgrađen 1966. U borbi je poginulo trideset pet boraca, pod terorom fašista palo je šest meštana."
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=95",
+      "foto": {
+        "lokalno": "C:/Users/d_pavlica/OneDrive - Wargaming.net/Documents/GitHub/spomenici/izvori/pretrage/wiki-propusti-2026-10-18/nastavak-2026-10-19/117-zamena.jpg",
+        "potpis": "Google Maps",
+        "url": "https://lh5.googleusercontent.com/p/AF1QipNWIF-3mLNboIwpJ7ZXMXK1R0NRp4uwL7K8vYDd=w800-k-no"
+      },
+      "posle": {
+        "id": "starcevo-spomenik-palim-borcima-od-1941-1945",
+        "koordinate": {
+          "lat": 44.805917,
+          "lng": 20.705556
+        },
+        "mesto": "Starčevo",
+        "slika": "slike/spomenici/starcevo-spomenik-palim-borcima-od-1941-1945.webp",
+        "slikaOdnos": 1.498,
+        "slikaPotpis": "Google Maps",
+        "naziv": "Spomenik palim borcima",
+        "godina": "1966",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      }
+    },
+    {
+      "rangKandidata": 119,
+      "wikiStranica": "Vučje - Spomen Česma",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Vu%C4%8Dje_-_Spomen_%C4%8Cesma",
+      "id": "vucje-spomen-cesma-u-vucju",
+      "radnja": "preneto-na-mapu",
+      "dokaz": "Piramidalna česma iz 1951. uz most preko puta doma kulture. Članak i natpis potvrđuju identitet. Wiki tačka potiče sa Mapio fotografije i samo deluje podudarna, pa priblizno ostaje dok se ne potvrdi sama česma. Commons fotografija pokazuje grafite, zato nije korišćena.",
+      "polozaj": "Close to a bridge and the Dom Kulture, on the other side of the river",
+      "porekloTacke": "Too small to be visible on satellite view. Coords according to mapio pic, seems to correspond with available imagery",
+      "koordinateWiki": "42.866266,21.911426",
+      "najbliziPre": [
+        [
+          130,
+          "vucje-spomenik-slavku-todorovicu"
+        ],
+        [
+          3135,
+          "bunuski-cifluk-spomenik-u-bunuskom-cifluku"
+        ],
+        [
+          3241,
+          "nakrivanj-spomenik-nob"
+        ]
+      ],
+      "kandidatiIstogMestaPre": [
+        "vucje-spomenik-slavku-todorovicu",
+        "vucje-spomen-cesma-u-vucju"
+      ],
+      "pre": {
+        "id": "vucje-spomen-cesma-u-vucju",
+        "mesto": "Vučje",
+        "slika": "Спомен_чесма_Вучје.jpg",
+        "naziv": "Spomen-česma u Vučju",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D1%87%D0%B5%D1%81%D0%BC%D0%B0_%D1%83_%D0%92%D1%83%D1%87%D1%98%D1%83",
+      "posle": {
+        "id": "vucje-spomen-cesma-u-vucju",
+        "koordinate": {
+          "lat": 42.866266,
+          "lng": 21.911426
+        },
+        "priblizno": true,
+        "mesto": "Vučje",
+        "wiki": "https://sr.wikipedia.org/wiki/Спомен-чесма_у_Вучју",
+        "naziv": "Spomen-česma u Vučju",
+        "godina": "1951",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      }
+    },
+    {
+      "rangKandidata": 120,
+      "wikiStranica": "Vučje - Spomenik Poziv na Ustanak",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Vu%C4%8Dje_-_Spomenik_Poziv_na_Ustanak",
+      "id": "vucje-poziv-na-ustanak",
+      "radnja": "novi",
+      "dokaz": "Statua Dušana Nikolića iz 1959. pored doma kulture/restorana. Zasebna od česme i od spomenika Slavku Todoroviću. Oblik na Commons fotografiji poklapa se sa opisom.",
+      "polozaj": "In front of a restaurant, next to the Dom Kulture",
+      "porekloTacke": "Too small to be visible on satellite view. The Dom Kulture has its own entry, and one pic shows the memorial. A [https://www.google.com/maps/place/Bistro/@42.8667083,21.9117732,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipMKDkHjq9Ki-2sFBDEyi8VLcDxa-3XAYyz_UYmq!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMKDkHjq9Ki-2sFBDEyi8VLcDxa-3XAYyz_UYmq%3Dw203-h152-k-no!7i4032!8i3024!4m7!3m6!1s0x47557fcceaf4219d:0x6ea31d57f43ee4e2!8m2!3d42.8667083!4d21.9117732!14m1!1BCgIgAQ?hl=en pic from the nearby restaurant] shows the back of the statue",
+      "koordinateWiki": "42.866558,21.911752",
+      "najbliziPre": [
+        [
+          167,
+          "vucje-spomenik-slavku-todorovicu"
+        ],
+        [
+          3134,
+          "bunuski-cifluk-spomenik-u-bunuskom-cifluku"
+        ],
+        [
+          3200,
+          "nakrivanj-spomenik-nob"
+        ]
+      ],
+      "kandidatiIstogMestaPre": [
+        "vucje-spomenik-slavku-todorovicu",
+        "vucje-spomen-cesma-u-vucju"
+      ],
+      "foto": {
+        "lokalno": "C:/Users/d_pavlica/OneDrive - Wargaming.net/Documents/GitHub/spomenici/izvori/pretrage/wiki-propusti-2026-10-18/nastavak-2026-10-19/120.jpg",
+        "potpis": "Omladinskiklubanciki, CC BY-SA 4.0",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/%D0%A1%D0%BA%D0%BB%D1%83%D0%BF%D1%82%D1%83%D1%80%D0%B0_%E2%80%9E%D0%9F%D0%BE%D0%B7%D0%B8%D0%B2_%D0%BD%D0%B0_%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%B0%D0%BA%E2%80%9C_%D1%83_%D0%92%D1%83%D1%87%D1%98%D1%83.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      },
+      "posle": {
+        "id": "vucje-poziv-na-ustanak",
+        "koordinate": {
+          "lat": 42.866558,
+          "lng": 21.911752
+        },
+        "mesto": "Vučje",
+        "wiki": "https://sr.wikipedia.org/wiki/Споменик_Позив_на_устанак_у_Вучју",
+        "slika": "slike/spomenici/vucje-poziv-na-ustanak.webp",
+        "slikaOdnos": 0.667,
+        "slikaPotpis": "Omladinskiklubanciki, CC BY-SA 4.0",
+        "naziv": "Poziv na ustanak",
+        "godina": "1959",
+        "autor": "Dušan Nikolić",
+        "vrsta": "statua",
+        "drzava": "Serbia"
+      }
+    },
+    {
+      "rangKandidata": 183,
+      "wikiStranica": "Hum (Niš) - Spomen Česma",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Hum_%28Ni%C5%A1%29_-_Spomen_%C4%8Cesma",
+      "id": "hum-spomen-cesma-borcima-palim-u-nor-u",
+      "radnja": "precizirana",
+      "dokaz": "Ista česma 1961. u centru Huma kod Niša, ispred doma, sa reljefom. Fotografija potvrđuje raspored elemenata.",
+      "polozaj": "Center of the village in a park in front of the community building",
+      "porekloTacke": "Visible if you know what to look for, marked on gmaps but without pics",
+      "koordinateWiki": "43.372972,21.900528",
+      "najbliziPre": [
+        [
+          214,
+          "hum-spomen-cesma-borcima-palim-u-nor-u"
+        ],
+        [
+          3284,
+          "kamenica-spomenik-palim-borcima-2"
+        ],
+        [
+          4858,
+          "red-cross-camp-museum"
+        ]
+      ],
+      "kandidatiIstogMestaPre": [
+        "hum-spomen-cesma-borcima-palim-u-nor-u"
+      ],
+      "pre": {
+        "id": "hum-spomen-cesma-borcima-palim-u-nor-u",
+        "koordinate": {
+          "lat": 43.37483,
+          "lng": 21.89985
+        },
+        "priblizno": true,
+        "mesto": "Hum",
+        "naziv": "Spomen-česma borcima palim u NOR-u",
+        "godina": "1961",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=65",
+      "foto": {
+        "lokalno": "C:/Users/d_pavlica/OneDrive - Wargaming.net/Documents/GitHub/spomenici/izvori/pretrage/wiki-propusti-2026-10-18/nastavak-2026-10-19/183.jpg",
+        "potpis": "Google Maps",
+        "url": "https://lh5.googleusercontent.com/p/AF1QipOZsVYqLZE_y23Q9Zl7D2DDsTA6m1me1NLgIsVQ=w800-k-no"
+      },
+      "posle": {
+        "id": "hum-spomen-cesma-borcima-palim-u-nor-u",
+        "koordinate": {
+          "lat": 43.372972,
+          "lng": 21.900528
+        },
+        "mesto": "Hum (Niš)",
+        "slika": "slike/spomenici/hum-spomen-cesma-borcima-palim-u-nor-u.webp",
+        "slikaOdnos": 0.749,
+        "slikaPotpis": "Google Maps",
+        "naziv": "Spomen-česma borcima palim u NOR-u",
+        "godina": "1961",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      }
+    },
+    {
+      "rangKandidata": 338,
+      "wikiStranica": "Jablanica (Kruševac) - Spomenik Palim Borcima i Žrtvama Fašističkog Terora",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Jablanica_%28Kru%C5%A1evac%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+      "id": "jablanica-spomenik-palim-1941-1945",
+      "radnja": "popravljena-priblizna",
+      "dokaz": "Ista posveta za 25 boraca Jablanice, Vitanovca i Šoglja i 71 žrtvu. Fotografija potvrđuje objekat, ali izvor kaže samo da školska zgrada i okolina izgledaju podudarno, zato zadržana približnost. Tačka pomerena sa centra sela ka opisanoj školi.",
+      "polozaj": "In the schoolyard",
+      "porekloTacke": "Nothing really indicated on any map tool on school or memorial. The building and its surroundings seem to correspond with the available pics",
+      "koordinateWiki": "43.464222,21.265139",
+      "najbliziPre": [
+        [
+          432,
+          "mali-kupci-spomen-kompleks"
+        ],
+        [
+          1285,
+          "jablanica-spomenik-palim-1941-1945"
+        ],
+        [
+          2697,
+          "mali-kupci-memorijalni-prostor-partizana"
+        ]
+      ],
+      "kandidatiIstogMestaPre": [
+        "jablanica-spomen-cesma-2",
+        "jablanica-spomen-cesma-3",
+        "jablanica-kameni-beleg",
+        "jablanica-spomenik-palim-1941-1945"
+      ],
+      "pre": {
+        "id": "jablanica-spomenik-palim-1941-1945",
+        "koordinate": {
+          "lat": 43.45298,
+          "lng": 21.26884
+        },
+        "priblizno": true,
+        "mesto": "Jablanica",
+        "naziv": "Spomenik palim 1941-1945",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=53",
+      "foto": {
+        "lokalno": "C:/Users/d_pavlica/OneDrive - Wargaming.net/Documents/GitHub/spomenici/izvori/pretrage/wiki-propusti-2026-10-18/nastavak-2026-10-19/338.jpg",
+        "potpis": "Partisan Memorials Wiki",
+        "url": "https://www.xiwl.com/w/img_auth.php/thumb/e/ea/Jablanica_Kru%C5%A1evac_SpomenikPalimBorcima%C5%BDFT01.jpg/800px-Jablanica_Kru%C5%A1evac_SpomenikPalimBorcima%C5%BDFT01.jpg"
+      },
+      "posle": {
+        "id": "jablanica-spomenik-palim-1941-1945",
+        "koordinate": {
+          "lat": 43.464222,
+          "lng": 21.265139
+        },
+        "priblizno": true,
+        "mesto": "Jablanica",
+        "slika": "slike/spomenici/jablanica-spomenik-palim-1941-1945.webp",
+        "slikaOdnos": 0.749,
+        "slikaPotpis": "Partisan Memorials Wiki",
+        "naziv": "Spomenik palim 1941-1945",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      }
+    },
+    {
+      "rangKandidata": 345,
+      "wikiStranica": "Leskovac (Knić) - Spomenik Palim Borcima i Žrtvama Fašističkog Terora",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Leskovac_%28Kni%C4%87%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+      "id": "leskovac-spomenik-palim-1941-1945",
+      "radnja": "precizirana",
+      "dokaz": "Zapis za sedam boraca i pet žrtava odgovara Leskovcu kod Knića, štampana 227, PDF 115. Tačka uz školu i put; ne Leskovac kod Zaječara.",
+      "polozaj": "Center of the village, next to the school, S of the main road through the village",
+      "porekloTacke": "Marked as a memorial on a 1969 map. Visible with streetview, hidden by trees so not visible on satellite view.",
+      "koordinateWiki": "43.845972,20.752389",
+      "najbliziPre": [
+        [
+          531,
+          "leskovac-spomenik-palim-1941-1945"
+        ],
+        [
+          2067,
+          "balosave"
+        ],
+        [
+          4888,
+          "zakuta-spomen-cesma-palim-borcima-nor-a-1941-1945"
+        ]
+      ],
+      "kandidatiIstogMestaPre": [
+        "leskovac",
+        "leskovac-dubocica",
+        "leskovac-kuca-koste-stamenkovica",
+        "leskovac-bista-blagoja-kostica",
+        "leskovac-bista-milice-pavlovic",
+        "leskovac-bista-trajka-stamenkovica",
+        "leskovac-bista-stanimira-veljkovica-zeleta",
+        "leskovac-spomen-cesma-u-leskovcu",
+        "leskovac-spomenik",
+        "leskovac-spomenik-pionirima",
+        "leskovac-spomenik-streljanima",
+        "leskovac-spomenik-palim-u-oslobodilackim-ratovima",
+        "leskovac-kameni-beleg-na-bratujevackoj-kosi",
+        "leskovac-spomenik-zivku-milutinovicu",
+        "leskovac-spomenik-palim-1941-1945",
+        "leskovac-bista-stojana-ljubica",
+        "leskovac-bista-vlade-djordjevica",
+        "leskovac-hisar-bista-blagoja-nikolica",
+        "leskovac-spomenik-kosti-stamenkovicu",
+        "leskovac-spomenik-palim-1941-1945-2"
+      ],
+      "pre": {
+        "id": "leskovac-spomenik-palim-1941-1945",
+        "koordinate": {
+          "lat": 43.84636,
+          "lng": 20.74579
+        },
+        "priblizno": true,
+        "mesto": "Leskovac",
+        "naziv": "Spomenik palim 1941-1945",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=115",
+      "posle": {
+        "id": "leskovac-spomenik-palim-1941-1945",
+        "koordinate": {
+          "lat": 43.845972,
+          "lng": 20.752389
+        },
+        "mesto": "Leskovac (Knić)",
+        "naziv": "Spomenik palim 1941-1945",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      }
+    },
+    {
+      "rangKandidata": 54,
+      "wikiStranica": "Kruševac - Spomenik Bivši Aerodrom",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Kru%C5%A1evac_-_Spomenik_Biv%C5%A1i_Aerodrom",
+      "id": null,
+      "radnja": "van-obuhvata",
+      "dokaz": "Avion na bivšem aerodromu, bez potvrđene NOB posvete; van obuhvata.",
+      "polozaj": "Near the (former) airport, S outskirt of the city",
+      "porekloTacke": "Clearly visible, but not marked, on gmaps. No streetview, but a 360 view clearly shows the memorial",
+      "koordinateWiki": "43.57051,21.33866",
+      "najbliziPre": [
+        [
+          940,
+          "krusevac-zrtava-fasizma"
+        ],
+        [
+          1188,
+          "krusevac"
+        ],
+        [
+          1365,
+          "malo-golovode-spomen-kuca-u-kojoj-je-1912"
+        ]
+      ],
+      "kandidatiIstogMestaPre": [
+        "krusevac",
+        "krusevac-kolonija",
+        "krusevac-zrtava-fasizma",
+        "krusevac-spomen-piramida",
+        "krusevac-spomenik-palim-borcima",
+        "krusevac-spomenik-streljanima",
+        "krusevac-bista-mirka-tomica",
+        "krusevac-bista-miloja-zakica-blihera",
+        "krusevac-bista-branka-perisica-badze",
+        "krusevac-bista-veselina-nikolica",
+        "krusevac-bista-dragomira-markovica-u-skoli",
+        "krusevac-bista-nade-popovic",
+        "krusevac-bista-nade-markovic"
+      ]
+    },
+    {
+      "rangKandidata": 106,
+      "wikiStranica": "Kula (Malo Crniće) - Spomenik Palim Borcima",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Kula_%28Malo_Crni%C4%87e%29_-_Spomenik_Palim_Borcima",
+      "id": null,
+      "radnja": "odloženo",
+      "dokaz": "Naslov Kula (Malo Crniće), polje Location Batuša; tačka kod Kule i opis 23 borca nisu dovoljni za razrešenje. Ne povezivati sa spomenikom Isi Sekickom.",
+      "polozaj": "Center of the village, S of the main road, opposite the Dom and church",
+      "porekloTacke": "Visible if you know what to look for",
+      "koordinateWiki": "44.511000,21.379528",
+      "najbliziPre": [
+        [
+          129,
+          "kula-spomenik-na-mestu-pogibije-ise-sekickog-u-bli"
+        ],
+        [
+          2302,
+          "crljenac-spomenik-palim-drug-ovima-u-nob-1941-1945"
+        ],
+        [
+          2302,
+          "crljenac-kameni-beleg-s-natpisom-na-ovom-mestu-4"
+        ]
+      ],
+      "kandidatiIstogMestaPre": [
+        "batusa-spomenik-nob",
+        "batusa-spomenik-palim-u-oslobodilackim-ratovima-19"
+      ]
+    },
+    {
+      "rangKandidata": 293,
+      "wikiStranica": "Bačko Gradište - Spomenik NOB",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Ba%C4%8Dko_Gradi%C5%A1te_-_Spomenik_NOB",
+      "id": null,
+      "radnja": "odloženo",
+      "dokaz": "Nejasna identifikacija ruševina uz put severno od Bačkog Gradišta: sam izvor kaže verovatno SKOJ memorijal. Fotografija kroz prozor je zamućena; ne prepisivati godinu 1969, autora S. Subakova i posvetu bez potvrde.",
+      "polozaj": "N outskirts of the village, close to the fishing ground, just E of the main road towards Bečej",
+      "porekloTacke": "Visible with streetview, too small & overgrown to be recognizable on satellite view.",
+      "koordinateWiki": "45.554741,20.013188",
+      "najbliziPre": [
+        [
+          2462,
+          "backo-gradiste"
+        ]
+      ],
+      "kandidatiIstogMestaPre": [
+        "backo-gradiste"
+      ]
+    }
+  ],
+  "ogranicenja": [
+    "Nove tačke Wiki predstavljaju proverene opise položaja, ne novo nezavisno terensko merenje. Pančevo potvrđeno nezavisnim OSM čvorom.",
+    "Vučje česma i školski spomenik Jablanica ostaju približni zbog izričite nesigurnosti porekla tačaka.",
+    "Ne prepisivati nesigurne godine ili ukupan broj sahranjenih u Odžacima; poslednje dve različite brojke nisu automatski različiti grobovi.",
+    "Guberevac: na fotografiji 1980, u Wiki 1989, a pominje se i ranija ploča iz 1962. Godina celine nije upisana.",
+    "Zapaženi stari mogući propusti u imenima mesta u radnom spisku Surduk nisu menjani u ovom obimu."
+  ],
+  "fotografijeOdbijene": {
+    "108": "ljudi ispred spomenika",
+    "109": "ljudi u prvom planu",
+    "111": "nova 404, stara grupna fotografija i veliki vodeni žig",
+    "117": "prva ima osobu ispred; prihvaćena druga Google fotografija",
+    "119": "grafiti na samom spomeniku",
+    "293": "mutna fotografija iz prolaza, objekat nečitljiv"
+  },
+  "posle": {
+    "markeri": 10519,
+    "bezLokacije": 3371
+  },
+  "provere": {
+    "integritet": "Status 0, 52 ranije poznata bliska para; bez novih parova i grešaka.",
+    "aplikacija": "23/23 testova prolazi.",
+    "telefon": "390 × 844, Ledine, Starčevo, Hum i približna česma Vučje: odgovarajuće slike i kartice, bez JS izuzetaka. Snimci vizuelno pregledani.",
+    "promene": "Tačno 8 dodatnih markera, od toga pet sa sačuvanim radnim ID; devet postojećih izmenjeno; nema obrisanih mapiranih spomenika. Izvorne reference ostale iste u data/izvori.json.",
+    "slike": "Devet prihvaćenih slika: očišćeni metapodaci, napravljene male slike, upisane proporcije. Sve konvertovane slike vizuelno pregledane.",
+    "izvedeniPodaci": "node alati/razdeli.mjs i --provera prolaze."
+  }
+}
