@@ -3,7 +3,7 @@
 
 export type Drzava = 'Slovenia' | 'Croatia' | 'Bosnia and Herzegovina' | 'Serbia' | 'Montenegro' | 'Macedonia' | 'Kosovo' | 'Italy'
 
-export type Vrsta = 'istaknut' | 'spomenik' | 'lokalni' | 'kompleks' | 'groblje' | 'muzej' | 'statua' | 'bista' | 'ploca'
+export type Vrsta = 'spomenik' | 'spomen-obelezje' | 'spomen-park' | 'spomen-groblje' | 'muzej' | 'statua' | 'bista' | 'spomen-ploca'
 
 /** prazno: nema podatka da spomenik nije očuvan (može biti i nepoznato) */
 export type Stanje = 'rusevine' | 'uklonjen' | 'ostecen' | 'zatvoren' | 'srusen'
@@ -26,15 +26,19 @@ export interface Spomenik {
   /** domaći naziv, na jeziku i pismu države; bez poznatog imena samo vrsta („Spomenik“, „Spomen-ploča“) */
   naziv: string
   vrsta: Vrsta
+  /** prednost na mapi i u turama, nezavisno od vrste i ikonice */
+  istaknut?: boolean
   drzava: Drzava
   /** ID Google mesta, samo cifre */
   googleCid?: string
   /** URL izvora podataka: OSM, Commons, registar, spomenicinob.info */
   izvor?: string
-  /** domaći članak na Vikipediji */
+  /** domaći članak na Vikipediji o konkretnom spomeniku; ne o posveti, mestu ili autoru */
   wiki?: string
-  /** engleski članak na Vikipediji */
+  /** engleski članak na Vikipediji o konkretnom spomeniku */
   wikiEn?: string
+  /** proveren članak o konkretnom spomeniku van Vikipedije; izvor podataka sam po sebi nije članak */
+  clanak?: string
   /** "slike/spomenici/<id>.webp" */
   slika?: string
   /** širina / visina slike; postoji uvek uz `slika` */

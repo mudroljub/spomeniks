@@ -32,6 +32,7 @@ const fajlovi = [
   'komponente/Slajder.js',
   'komponente/Slika.js',
   'utils/helpers.js',
+  'utils/clanci.js',
   'utils/ikonice.js',
   'utils/jezik.js',
   'utils/ui.js',
@@ -45,7 +46,7 @@ const fajlovi = [
   'slike/markeri/priblizno.svg',
   'slike/obelisk-rusevina.png',
   'slike/obelisk-uklonjen.png',
-  ...['kompleks', 'lokalni', 'groblje', 'muzej', 'ploca', 'bista', 'statua'].flatMap(tip =>
+  ...['spomen-park', 'spomen-obelezje', 'spomen-groblje', 'muzej', 'spomen-ploca', 'bista', 'statua'].flatMap(tip =>
     ['postoji', 'rusevina', 'uklonjen'].map(stanje => `slike/markeri/${tip}-${stanje}.svg`)),
   'slike/ui/lokator.svg',
   'slike/ui/punekran.svg',

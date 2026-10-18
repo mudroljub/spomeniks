@@ -32,7 +32,7 @@ style.textContent = `
   }
 
   polje-pretraga input {
-    flex: 1;
+    flex: 1 1 280px;
     min-width: 0;
   }
 
@@ -97,7 +97,8 @@ export default class Pretraga extends HTMLElement {
     this.polje.id = 'pretraga'
     this.polje.type = 'search'
     this.polje.enterKeyHint = 'search'
-    this.polje.placeholder = `🔍 ${t('pretraga')}`
+    this.polje.placeholder = `🔍 ${t('pretraga', stavke.length)}`
+    this.polje.setAttribute('aria-label', t('pretraga', stavke.length))
 
     this.dugme = document.createElement('button')
     this.dugme.className = 'dugme-filteri'

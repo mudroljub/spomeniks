@@ -59,6 +59,7 @@ style.textContent = `
   nav-slika {
     flex: none;
     height: var(--visina-slajdera);
+    min-width: 96px;
     position: relative;
     cursor: pointer;
   }
@@ -66,6 +67,8 @@ style.textContent = `
   div img {
     display: block;
     height: calc(var(--visina-slajdera) - 24px);
+    min-width: 96px;
+    object-fit: cover;
     width: auto;
     cursor: pointer;
   }
@@ -115,6 +118,22 @@ export default class Slajder extends HTMLElement {
   }
 
   connectedCallback() {
+    this.dodajSlikeAkoTreba()
+  }
+
+  postavi(slike, zum = 0) {
+    this.zum = zum
+    if (slike.length === this.slike.length && slike.every((slika, i) => slika === this.slike[i])) {
+      this.slike.slice(0, this.traka.children.length).forEach(dajSliku => dajSliku().prikaziNatpis(zum))
+      return
+    }
+    this.slike = slike
+    this.vucenje = null
+    this.prevuceno = false
+    this.traka.classList.remove('vucenje')
+    this.traka.replaceChildren()
+    this.traka.scrollLeft = 0
+    this.style.display = slike.length ? 'flex' : 'none'
     this.dodajSlikeAkoTreba()
   }
 
@@ -168,7 +187,11 @@ export default class Slajder extends HTMLElement {
   dodajSlikeAkoTreba() {
     const brojUnetihSlika = this.traka.children.length
     this.slike.slice(brojUnetihSlika, brojUnetihSlika + inicijalnoSlika)
-      .forEach(dajSliku => this.traka.appendChild(dajSliku()))
+      .forEach(dajSliku => {
+        const slika = dajSliku()
+        slika.prikaziNatpis(this.zum)
+        this.traka.appendChild(slika)
+      })
   }
 
   mrdaj(jelDesno) {

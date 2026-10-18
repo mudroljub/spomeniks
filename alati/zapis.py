@@ -1,8 +1,8 @@
 """Redosled polja zapisa u data/spomeniks.json, zajednicki za sve alate koji pisu u fajl.
 Tip polja je u data/tipovi.d.ts; novo polje se dodaje i ovde, inace ga alati pri upisu izbace."""
 
-REDOSLED = ['id', 'koordinate', 'priblizno', 'googleCid', 'mesto', 'izvor', 'wiki', 'wikiEn', 'slika', 'slikaOdnos', 'slikaPotpis',
-            'naziv', 'nazivEn', 'godina', 'autor', 'natpis', 'posveta', 'stanje', 'stanjeIzvor', 'vrsta', 'drzava']
+REDOSLED = ['id', 'koordinate', 'priblizno', 'googleCid', 'mesto', 'izvor', 'wiki', 'wikiEn', 'clanak', 'slika', 'slikaOdnos', 'slikaPotpis',
+            'naziv', 'nazivEn', 'godina', 'autor', 'natpis', 'posveta', 'stanje', 'stanjeIzvor', 'vrsta', 'istaknut', 'drzava']
 
 
 def poredaj(zapis):

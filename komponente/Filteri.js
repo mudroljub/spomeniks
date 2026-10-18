@@ -3,6 +3,7 @@ import {mapa} from '../klase/mapa.js'
 import {nestao, ruine, autoriSpomenika, normalizuj} from '../utils/helpers.js'
 import {dajOznaku, promene} from '../utils/oznake.js'
 import {t, nazivDrzave} from '../utils/jezik.js'
+import {nivoiVaznosti, pripadaVrsti} from '../utils/vaznost.js'
 
 const boja = '#822323'
 
@@ -13,8 +14,8 @@ const pocetniIzbor = grupe => Object.fromEntries(grupe.map(g => [g.kljuc, new Se
 
 // unutar grupe vazi bilo koja izabrana opcija (ili), a izmedju grupa sve (i)
 const praviGrupe = (drzave, autori) => [
-  {kljuc: 'tip', naziv: t('grupaVrste'), opcije: Object.fromEntries(['istaknut', 'spomenik', 'lokalni', 'kompleks', 'groblje', 'muzej', 'statua', 'bista', 'ploca'].map(o => [o, t(o)])),
-    uslov: (s, o) => (s.vrsta || 'spomenik') === o},
+  {kljuc: 'tip', naziv: t('grupaVrste'), opcije: Object.fromEntries(nivoiVaznosti.map(o => [o, t(o)])),
+    uslov: pripadaVrsti},
   {kljuc: 'autor', naziv: t('grupaAutor'), opcije: Object.fromEntries(autori.map(a => [a, a])), padajuci: true,
     uslov: (s, o) => autoriSpomenika(s).includes(o)},
   {kljuc: 'stanje', naziv: t('grupaStanje'), opcije: {postoji: t('postoji'), rusevine: t('ruine'), nestao: t('uklonjen')},

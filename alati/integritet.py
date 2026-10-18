@@ -7,7 +7,7 @@ ture = json.load(open('data/ture.json', encoding='utf8'))
 autori = json.load(open('data/autori.json', encoding='utf8'))
 posvete = json.load(open('data/posvete.json', encoding='utf8'))
 greske = collections.defaultdict(list)
-VRSTE = {'istaknut', 'kompleks', 'spomenik', 'statua', 'bista', 'lokalni', 'ploca', 'groblje', 'muzej'}
+VRSTE = {'spomen-park', 'spomenik', 'statua', 'bista', 'spomen-obelezje', 'spomen-ploca', 'spomen-groblje', 'muzej'}
 STANJA = {'rusevine', 'srusen', 'uklonjen', 'ostecen', 'zatvoren'}
 DRZAVE = {'Slovenia', 'Croatia', 'Bosnia and Herzegovina', 'Serbia', 'Montenegro', 'Macedonia', 'Kosovo', 'Italy'}
 POZNATA = set(REDOSLED)
@@ -51,9 +51,13 @@ POZNATI_BLISKI_PAROVI = {frozenset(par) for par in [
     ('modrica-spomen-kosturnica-partizanskih-boraca', 'modrica-spomenik-oslobodiocima-modrice-1943-godine'),
     ('lunovo-selo-spomen-cesma', 'lunovo-selo-spomenik-nb'),
     ('prvic-sepurine-spomenik-minerima', 'prvic-sepurine-spomenik-palim-borcima-i-zrtvama-fa'),
+    ('prvic-sepurine-spomenik-minerima', 'prvic-sepurine-bista-frane-kursara'),
+    ('prvic-sepurine-spomenik-palim-borcima-i-zrtvama-fa', 'prvic-sepurine-bista-frane-kursara'),
     ('jasenovac-museum', 'jasenovac-mrtvi-logoras'),
     ('maoca-spomenik-na-mjestu-smrti-arifa-dervisevica', 'maoca-spomenik-zarobljavanju-768-pripadnika-divizi'),
     ('srpski-krstur-spomenik-palim-borcima', 'srpski-krstur-spomenik-palim-crvenoarmejcima'),
+    ('drinjaca-spomen-kosturnica', 'drinjaca-spomen-dom-drugog-majevickog-udarnog-bata'),
+    ('plane-spomen-dom', 'plane-spomenik-palim-borcima-nor-a'),
     # Zasebne skulpture potvrđene fotografijama i OSM-om u žetvi Hronologije 18.10.2026.
     ('bajina-basta', 'bajina-basta-spomenik-palim-borcima'),
     ('uzice-national-museum', 'uzice-spomenik-poginulima-u-fabrici-oruzja'),
@@ -72,6 +76,7 @@ for s in d:
     if not s.get('mesto'): greske['bez mesta'].append(i)
     if not s.get('naziv'): greske['bez naziva'].append(i)
     if s.get('vrsta') not in VRSTE: greske['nepoznata vrsta'].append((i, s.get('vrsta')))
+    if 'istaknut' in s and type(s['istaknut']) is not bool: greske['neispravno istaknut'].append(i)
     if 'stanje' in s and s['stanje'] not in STANJA: greske['nepoznato stanje'].append((i, s['stanje']))
     if s.get('drzava') not in DRZAVE: greske['nepoznata drzava'].append((i, s.get('drzava')))
     if set(s) - POZNATA: greske['nepoznato polje'].append((i, set(s) - POZNATA))
@@ -83,8 +88,8 @@ for s in d:
         if mala != s['slika'] and not os.path.exists(mala): greske['nema male slike (pokreni male_slike.py)'].append((i, mala))
     if s.get('slikaPotpis') and not s.get('slika'): greske['potpis bez slike'].append(i)
     if bool(s.get('slika')) != bool(s.get('slikaOdnos')): greske['slika bez odnosa (pokreni slike_odnos.py)'].append(i)
-    for polje in ('izvor', 'wiki', 'wikiEn'):
-        if s.get(polje) and not re.match(r'https?://', s[polje]): greske['los link'].append((i, polje, s[polje]))
+    for polje in ('izvor', 'wiki', 'wikiEn', 'clanak'):
+        if polje in s and (not isinstance(s[polje], str) or not re.match(r'https?://', s[polje])): greske['los link'].append((i, polje, s[polje]))
     if 'stanjeIzvor' in s:
         izvor_stanja = s['stanjeIzvor']
         if (not s.get('stanje') or not isinstance(izvor_stanja, dict)
@@ -147,6 +152,7 @@ for j, s in enumerate(bez):
     oznaka = (j, s.get('naziv'), s.get('mesto'))
     if not s.get('naziv') or not s.get('mesto'): greske['bez lokacije: bez naziva ili mesta'].append(oznaka)
     if s.get('vrsta') not in VRSTE: greske['bez lokacije: nepoznata vrsta'].append((oznaka, s.get('vrsta')))
+    if 'istaknut' in s and type(s['istaknut']) is not bool: greske['bez lokacije: neispravno istaknut'].append(oznaka)
     if s.get('drzava') not in DRZAVE: greske['bez lokacije: nepoznata drzava'].append((oznaka, s.get('drzava')))
     if 'stanje' in s and s['stanje'] not in STANJA: greske['bez lokacije: nepoznato stanje'].append((oznaka, s['stanje']))
     if str(s.get('slika', '')).startswith('slike/'):

@@ -2,7 +2,7 @@
 import {mapa} from '../klase/mapa.js'
 import {t} from '../utils/jezik.js'
 import {izgledMarkera, senka, pribliznaIkonica} from '../utils/ikonice.js'
-import {vrstePoVaznosti} from '../utils/vaznost.js'
+import {nivoiVaznosti} from '../utils/vaznost.js'
 
 const boja = '#822323'
 
@@ -160,11 +160,11 @@ const stavka = ({slika, sirina, visina}, visinaIkone, naziv, stil = '', priblizn
 
 // istaknuti i obican spomenik razlikuju se samo velicinom znaka, a bista je malo manja od spomenika, kao na mapi;
 // muzej i ploca su siroki, pa bi na visini ostalih znakova izgledali preveliki
-const visineIkona = {istaknut: 44, statua: 33, bista: 28, lokalni: 24, groblje: 29, muzej: 26, ploca: 17}
+const visineIkona = {istaknut: 44, statua: 33, bista: 28, 'spomen-obelezje': 24, 'spomen-groblje': 29, muzej: 26, 'spomen-ploca': 17}
 
-const vrsta = type => stavka(izgledMarkera({vrsta: type}), visineIkona[type] || 34, t(type + 'Jednina'))
+const vrsta = type => stavka(izgledMarkera({vrsta: type === 'istaknut' ? 'spomenik' : type}), visineIkona[type] || 34, t(type === 'istaknut' ? type : type + 'Jednina'))
 
-const vrste = vrstePoVaznosti.map(vrsta).join('')
+const vrste = nivoiVaznosti.map(vrsta).join('')
 
 const grupa = ([naslov, stavke]) => `<div><h3>${naslov}</h3><div class="stavke">${stavke}</div></div>`
 

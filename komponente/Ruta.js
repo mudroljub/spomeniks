@@ -6,7 +6,7 @@ import {naziviStanja, nazivSpomenika, malaSlika, navigacijaUrl} from '../utils/h
 import {t, jezik} from '../utils/jezik.js'
 import {dajRutu, dajNaziv, dajWiki, dajTuruId, postaviRutu, izaberiTuru, ukloniIzRute, pomeri, promeneRute} from '../utils/ruta.js'
 import {sastaviTure} from '../utils/ture.js'
-import {vrstePoVaznosti, podrazumevaniPrag, razresiPrag} from '../utils/vaznost.js'
+import {nivoiVaznosti, podrazumevaniPrag, razresiPrag} from '../utils/vaznost.js'
 
 const boja = '#822323'
 const najviseZaGoogle = 10 // ogranicenje jednog Google linka, ne broja stanica u turi
@@ -398,7 +398,7 @@ export default class Ruta extends HTMLElement {
       </header>
       <label id="vaznost">
         <span>${t('pragVaznosti')}</span>
-        <select id="prag-vaznosti">${vrstePoVaznosti.map(vrsta =>
+        <select id="prag-vaznosti">${nivoiVaznosti.map(vrsta =>
           `<option value="${vrsta}">${t(vrsta)}</option>`
         ).join('')}</select>
       </label>

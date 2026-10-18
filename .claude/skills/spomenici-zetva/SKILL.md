@@ -62,7 +62,7 @@ Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i ot
   - izvorni `izvor` zapisa se čuva; kasniji dokaz opstanka ne zamenjuje ga.
 - **Približna tačka** (korisnik, 2026-10-18): kad znamo samo selo, spomenik ide na mapu u centar sela iz `alati/naselja_osm.json`, sa `priblizno: true`. Važi samo za sela, ne za gradove, gde je centar predaleko; ploče dolaze poslednje. Isto ime sela nije dokaz: selo mora biti u opštini iz izvora (npr. „Dubica“ na spomenicinob.info je Kozarska Dubica, a ne istoimeno selo 75 km dalje), a imena se upoređuju samo unutar iste države. Kad se nađe prava tačka, `priblizno` se briše. Za približne tačke prvo se uparuju sačuvani zbirni izvori offline (Partisan Memorials Wiki, OSM), pa tek onda Google, i to po opštini ili po spomeniku iz grupe najvišeg prioriteta (redosled je u README TODO), nikad pretraga po svakom zapisu. Pravila prikaza su u [proveri aplikacije](../spomenici-provera/SKILL.md#prikaz-i-prijave-korisnika).
 - **Lokacija bez Google id-a**, redom:
-  1. GPS fotografije na Commons-u;
+  1. GPS fotografije na Commons-u, ili iz metapodataka bilo koje fotografije spomenika (preuzeti original: `magick identify -format '%[EXIF:GPSLatitude]'`; MediaWiki fajl: `prop=imageinfo&iiprop=metadata`, bez preuzimanja);
   2. jedan Overpass upit `nwr(around:2000,lat,lon)[historic~"memorial|monument"]` oko sela iz `alati/naselja_osm.json`;
   3. uparivanje po imenu;
   4. sajt opštine ili lokalne vesti često imaju godinu, autora i tačno mesto („ispred biblioteke“).

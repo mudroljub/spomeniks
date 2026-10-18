@@ -14,6 +14,7 @@ import './komponente/Lokator.js'
 import {$} from './utils/helpers.js'
 import {jezik} from './utils/jezik.js'
 import {mapa, postaviMarkere} from './klase/mapa.js'
+import {vaznostSpomenika} from './utils/vaznost.js'
 
 document.documentElement.lang = jezik
 
@@ -21,6 +22,9 @@ const najblizi = new Najblizi()
 const ruta = new Ruta()
 $('dugme-legenda').after(ruta, najblizi)
 const detalji = document.body.appendChild(new Detalji())
+const slajder = new Slajder([])
+$('#slajder-okvir').appendChild(slajder)
+let filtriraneStavke = []
 
 /* FUNKCIJE */
 
@@ -45,11 +49,20 @@ const otvoriIzLinka = stavke => {
   stavka.marker.otvoriProzor()
 }
 
+const osveziSlajder = () => {
+  const granice = mapa.getBounds()
+  const stavke = filtriraneStavke
+    .filter(({marker, dajSliku}) => dajSliku && granice.contains(marker.dajPoziciju()))
+    .sort((a, b) => vaznostSpomenika(a.spomenik) - vaznostSpomenika(b.spomenik) || a.spomenik.id.localeCompare(b.spomenik.id))
+  slajder.postavi(stavke.map(({dajSliku}) => dajSliku), mapa.getZoom())
+}
+
+mapa.on('moveend', osveziSlajder)
+
 const render = (stavke, suzeno) => {
-  $('#slajder-okvir').innerHTML = ''
+  filtriraneStavke = stavke
   postaviMarkere(stavke.map(({marker}) => marker), suzeno)
-  const slike = stavke.map(({dajSliku}) => dajSliku).filter(Boolean)
-  $('#slajder-okvir').appendChild(new Slajder(slike))
+  osveziSlajder()
   najblizi.postavi(stavke)
 }
 

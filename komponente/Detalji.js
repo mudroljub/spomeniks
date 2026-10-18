@@ -7,6 +7,7 @@ import {dajOznaku, postaviOznaku, promene} from '../utils/oznake.js'
 import {uRuti, dodajURutu, ukloniIzRute, promeneRute} from '../utils/ruta.js'
 import {jezik, t, nazivDrzave} from '../utils/jezik.js'
 import {prijavaUrl} from '../utils/prijava.js'
+import {clanakSpomenika} from '../utils/clanci.js'
 
 const boja = '#822323'
 
@@ -381,8 +382,7 @@ export default class Detalji extends HTMLElement {
     const spomen = marker.spomen
     const podaci = [this.praviAutore(spomen), this.praviPosvetu(spomen)].filter(Boolean)
 
-    // jedan link za vise: clanak na Wikipediji na jeziku aplikacije, pa na drugom, a bez njih drugi izvor
-    const vise = (jezik === 'en' ? spomen.wikiEn || spomen.wiki : spomen.wiki || spomen.wikiEn) || spomen.izvor
+    const vise = clanakSpomenika(spomen, jezik)
 
     // naslov je naziv spomenika, a mesto stoji ispod; nazivEn namerno sadrzi HTML linkove, pa se ne escape-uje
     const naziv = jezik === 'en' && spomen.nazivEn ? spomen.nazivEn : spomen.naziv ? escapeHtml(spomen.naziv) : spomen.nazivEn || ''

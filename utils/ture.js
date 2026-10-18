@@ -1,5 +1,5 @@
 // @ts-check
-import {vaznostVrste} from './vaznost.js'
+import {vaznostVrste, vaznostSpomenika} from './vaznost.js'
 
 const kmPoStepenu = 111.195
 
@@ -39,8 +39,8 @@ const proveriOblast = oblast => {
 export const izaberiStanice = (spomenici, oblast, prag) => {
   const uOblasti = proveriOblast(oblast)
   return spomenici
-    .filter(s => vaznostVrste[s.vrsta] <= vaznostVrste[prag] && uOblasti(s))
-    .sort((a, b) => vaznostVrste[a.vrsta] - vaznostVrste[b.vrsta] || a.id.localeCompare(b.id))
+    .filter(s => vaznostSpomenika(s) <= vaznostVrste[prag] && uOblasti(s))
+    .sort((a, b) => vaznostSpomenika(a) - vaznostSpomenika(b) || a.id.localeCompare(b.id))
 }
 
 /**

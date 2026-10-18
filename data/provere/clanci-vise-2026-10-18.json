@@ -1,0 +1,1121 @@
+{
+  "datum": "2026-10-18",
+  "pravilo": "Vise vodi samo na clanak o konkretnom spomeniku. Izvor podataka nije rezervni link.",
+  "obuhvat": {
+    "naMapi": 9019,
+    "bezLokacije": 3057,
+    "pregledanihWikiLinkova": 294
+  },
+  "metod": "Popis svih URL polja i domena; pregled naslova svih postojecih wiki linkova i podudarnosti sa objektom. Izvorne mape, registri, knjige, drustvene mreze, slike i regionalni spiskovi ostaju poreklo podataka; ne koriste se za Vise. Za zasebne clanke izdvojeno polje clanak. Ne predstavlja HTTP proveru dostupnosti svake spoljne adrese.",
+  "izvoriPre": {
+    "www.spomenikdatabase.org": 134,
+    "znaci.org": 275,
+    "www.openstreetmap.org": 601,
+    "www.predsjednik.hr": 1,
+    "srbi.hr": 1,
+    "bez-izvora": 1555,
+    "www.sopot.org.rs": 1,
+    "www.vijesti.me": 2,
+    "www.facebook.com": 2,
+    "bljesak.info": 1,
+    "www.muzej-jugoslavije.org": 1,
+    "www.turizamuzica.org.rs": 1,
+    "www.mnmuseum.org": 1,
+    "www.parkvojaskezgodovine.si": 1,
+    "muzej.ba": 1,
+    "www.tripadvisor.com": 2,
+    "www.spomenpark.rs": 1,
+    "www.kumrovec.hr": 1,
+    "logorcrvenikrst.wikidot.com": 1,
+    "www.muzej-nz.si": 1,
+    "arhiva.zaum.mk": 1,
+    "www.jusp-jasenovac.hr": 1,
+    "www.np-brijuni.hr": 1,
+    "infovrsar.com": 1,
+    "snv.hr": 1,
+    "skulptura-hronologijaizlaganja.rs": 13,
+    "www.hercegnovi.me": 7,
+    "koprivnica.hr": 1,
+    "www.culture.si": 2,
+    "donjilapac.hr": 1,
+    "skupstina.zagreb.hr": 1,
+    "www.muzejkozare.org": 1,
+    "muzejfoca.com": 1,
+    "commons.wikimedia.org": 358,
+    "www.sarajevotimes.com": 1,
+    "www.rtvslo.si": 1,
+    "www.gradrajhenburg.si": 1,
+    "www.antifasisticki-vjesnik.org": 1,
+    "srbibbz.hr": 1,
+    "visitdjakovo.com": 1,
+    "spomeniki.blogspot.rs": 1,
+    "partizanstvo.si": 93,
+    "zagrebacki-kutak.hr": 1,
+    "www.topohvar.at": 1,
+    "www.portalanalitika.me": 1,
+    "eid.gov.si": 1730,
+    "lipik.hr": 1,
+    "sr.wikipedia.org": 30,
+    "hr-cro.com": 1,
+    "registar.kulturnadobra.hr": 10,
+    "frontline.mk": 1,
+    "skopje2014.prizma.mk": 1,
+    "maps.app.goo.gl": 1,
+    "www.spomenicinob.info": 1384,
+    "www.wikidata.org": 1,
+    "podaci.com": 3,
+    "www.cicevac.rs": 1,
+    "www.narodniheroji.me": 9,
+    "www.google.com": 2,
+    "x.com": 6,
+    "weristwalter.eu": 1,
+    "hr.wikipedia.org": 7,
+    "uploads.knightlab.com": 2,
+    "afterart.org": 8,
+    "www.xiwl.com": 2743
+  },
+  "preVise": 7641,
+  "posleVise": 330,
+  "nepouzdaniRezervniLinkoviUklonjeniIzUI": 7281,
+  "bezLokacije": {
+    "clanci": 0,
+    "izvorOstajeSamoPorekloPodataka": true
+  },
+  "promene": [
+    {
+      "id": "podgaric",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/podgarica"
+    },
+    {
+      "id": "kosmaj",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/kosmaj"
+    },
+    {
+      "id": "tjentiste",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/tjentiste"
+    },
+    {
+      "id": "nis",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/nis"
+    },
+    {
+      "id": "kadinjaca",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/kadinjaca"
+    },
+    {
+      "id": "petrova-gora",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/petrova-gora"
+    },
+    {
+      "id": "kozara",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/kozara"
+    },
+    {
+      "id": "mitrovica-mitrovice",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/mitrovica"
+    },
+    {
+      "id": "sanski-most",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/sanski"
+    },
+    {
+      "id": "jasenovac",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/jasenovec"
+    },
+    {
+      "id": "krusevo-makedonium",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/krusevo"
+    },
+    {
+      "id": "ostra",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/ostra"
+    },
+    {
+      "id": "zenica",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/zenica"
+    },
+    {
+      "id": "ilirska-bistrica",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/ilirska-bistrica"
+    },
+    {
+      "id": "knin",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/knin"
+    },
+    {
+      "id": "pozarevac",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/pozarevac"
+    },
+    {
+      "id": "kosute",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/kosute"
+    },
+    {
+      "id": "mostar-partisan-cemetery",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/mostar"
+    },
+    {
+      "id": "cacak",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/cacak"
+    },
+    {
+      "id": "bihac-garavice-park",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/bihac"
+    },
+    {
+      "id": "kavadarci-ossuary-fallen-fighters",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/kavadarci"
+    },
+    {
+      "id": "kragujevac-sumarice-park",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/kragujevac"
+    },
+    {
+      "id": "vogosca",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/vogosca"
+    },
+    {
+      "id": "drazgose",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/drazgose"
+    },
+    {
+      "id": "podgora",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/podgora"
+    },
+    {
+      "id": "gornji-jelovac",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/gornji-jelovac"
+    },
+    {
+      "id": "novi-travnik",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/novi-travnik"
+    },
+    {
+      "id": "maribor-maribor-liberation",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/maribor"
+    },
+    {
+      "id": "niksic-fallen-fighters",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/niksic"
+    },
+    {
+      "id": "sinj",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/sinj"
+    },
+    {
+      "id": "avala",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/avala"
+    },
+    {
+      "id": "popina",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/popina"
+    },
+    {
+      "id": "krusevac",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/krusevac"
+    },
+    {
+      "id": "pristina-prishtine-brotherhood-unity",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/pristina"
+    },
+    {
+      "id": "stip-partisan-s-necropolis",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/stip"
+    },
+    {
+      "id": "gevgelija",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/gevgelija"
+    },
+    {
+      "id": "botun",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/botun"
+    },
+    {
+      "id": "podhum",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/podhum"
+    },
+    {
+      "id": "ulcinj-freedom",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/ulcinj"
+    },
+    {
+      "id": "pleso",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/pleso"
+    },
+    {
+      "id": "begunje",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "clanak o dolini i naselju",
+      "prethodniLinkovi": {
+        "wiki": "https://sl.wikipedia.org/wiki/Draga%2C_Begunje_na_Gorenjskem"
+      }
+    },
+    {
+      "id": "begunje",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/begunje"
+    },
+    {
+      "id": "zuzemberk",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/zuzemberk"
+    },
+    {
+      "id": "plovanija",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/plovanija"
+    },
+    {
+      "id": "dotrscina",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/dotrscina"
+    },
+    {
+      "id": "kamenska",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/kamenska"
+    },
+    {
+      "id": "donji-miholjac",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/donji-miholjac"
+    },
+    {
+      "id": "korenica",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/korenica"
+    },
+    {
+      "id": "medeno-polje",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/medeno-polje"
+    },
+    {
+      "id": "bravsko",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/bravsko"
+    },
+    {
+      "id": "drvar",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/drvar"
+    },
+    {
+      "id": "grmec",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/grmec"
+    },
+    {
+      "id": "zaostrog",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/zaostrog"
+    },
+    {
+      "id": "bela-crkva-start-uprising",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/bela-crkva"
+    },
+    {
+      "id": "bratunac",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/bratunac"
+    },
+    {
+      "id": "kraljevo-park-14th-october",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/kraljevo"
+    },
+    {
+      "id": "majdanpek",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/majdanpek"
+    },
+    {
+      "id": "kolasin",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/kolasin"
+    },
+    {
+      "id": "berane",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/berane"
+    },
+    {
+      "id": "barutana",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/barutana"
+    },
+    {
+      "id": "golubovci",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/golubovci"
+    },
+    {
+      "id": "velanija-velanije",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/velanija"
+    },
+    {
+      "id": "leskovac",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/leskovac"
+    },
+    {
+      "id": "vlasotince",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/vlasotince"
+    },
+    {
+      "id": "kocani",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/kocani"
+    },
+    {
+      "id": "struga",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/struga"
+    },
+    {
+      "id": "jajinci",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/jajinci"
+    },
+    {
+      "id": "makarska",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/makarska"
+    },
+    {
+      "id": "veles",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/veles"
+    },
+    {
+      "id": "slabinja",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/slabinja"
+    },
+    {
+      "id": "mirna",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/mirna"
+    },
+    {
+      "id": "andrijevica",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/andrijevica"
+    },
+    {
+      "id": "vodjenica",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/vodjenica"
+    },
+    {
+      "id": "vrtoce",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/vrtoce"
+    },
+    {
+      "id": "jasenica",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/jasenica"
+    },
+    {
+      "id": "prilep",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/prilep"
+    },
+    {
+      "id": "glamoc",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/glamoc"
+    },
+    {
+      "id": "crni-kal",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/crni-kal"
+    },
+    {
+      "id": "sarajevo-vraca-park",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/sarajevo"
+    },
+    {
+      "id": "sremska-mitrovitca",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/sremska-mitrovica"
+    },
+    {
+      "id": "cenej",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/cenej"
+    },
+    {
+      "id": "brezovica-brezovice",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/brezovica"
+    },
+    {
+      "id": "brzece",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/brzece"
+    },
+    {
+      "id": "zajecar",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/zajecar"
+    },
+    {
+      "id": "vranjske-njive",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/vranjske-njive"
+    },
+    {
+      "id": "gligino-brdo",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/gligino-brdo"
+    },
+    {
+      "id": "zagreb-december-victims",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/zagreb"
+    },
+    {
+      "id": "ada",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/ada"
+    },
+    {
+      "id": "brstica",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "clanak o skulpturi, zapis predstavlja ceo kompleks",
+      "prethodniLinkovi": {
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BA%D1%83%D0%BB%D0%BF%D1%82%D1%83%D1%80%D0%B0_%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B8_%D0%BA%D1%83%D1%80%D0%B8%D1%80"
+      }
+    },
+    {
+      "id": "brstica",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/brstica"
+    },
+    {
+      "id": "makljen",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/makljen"
+    },
+    {
+      "id": "zlatibor",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/zlatibor"
+    },
+    {
+      "id": "ljubljana",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/ljubljana"
+    },
+    {
+      "id": "lepoglava",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/lepoglava"
+    },
+    {
+      "id": "mitrasinci",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/mitrasinci"
+    },
+    {
+      "id": "otesevo",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/otesevo"
+    },
+    {
+      "id": "podsreda",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "clanak o jedinici",
+      "prethodniLinkovi": {
+        "wiki": "https://sl.wikipedia.org/wiki/Kozjanski_partizanski_bataljon"
+      }
+    },
+    {
+      "id": "split-lighthouse",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/split"
+    },
+    {
+      "id": "zrenjanin",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/zrenjanin"
+    },
+    {
+      "id": "titel",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/titel"
+    },
+    {
+      "id": "lukovdol",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/lukovdol"
+    },
+    {
+      "id": "grahovo",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/grahovo"
+    },
+    {
+      "id": "vukosavci",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "clanak o ratnom dogadjaju",
+      "prethodniLinkovi": {
+        "wiki": "https://sh.wikipedia.org/wiki/Napad_na_%C5%A0tab_Majevi%C4%8Dkog_partizanskog_odreda"
+      }
+    },
+    {
+      "id": "banja-luka",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/banja-luka"
+    },
+    {
+      "id": "kampor-rab-island",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "istorija logora, ne clanak o spomeniku",
+      "prethodniLinkovi": {
+        "wiki": "https://sh.wikipedia.org/wiki/Koncentracijski_logor_Rab",
+        "wikiEn": "https://en.wikipedia.org/wiki/Rab_concentration_camp"
+      }
+    },
+    {
+      "id": "osankarica",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "clanak o jedinici",
+      "prethodniLinkovi": {
+        "wiki": "https://sl.wikipedia.org/wiki/Pohorski_bataljon"
+      }
+    },
+    {
+      "id": "belgrade-cemetery",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/belgrade"
+    },
+    {
+      "id": "sajmiste",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "istorija logora, ne clanak o spomeniku",
+      "prethodniLinkovi": {
+        "wiki": "https://sh.wikipedia.org/wiki/Koncentracijski_logor_Sajmi%C5%A1te"
+      }
+    },
+    {
+      "id": "obadov-brijeg",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/obadov-brijeg"
+    },
+    {
+      "id": "samac",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "biografija",
+      "prethodniLinkovi": {
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%9C%D0%B8%D1%82%D0%B0%D1%80_%D0%A2%D1%80%D0%B8%D1%84%D1%83%D0%BD%D0%BE%D0%B2%D0%B8%D1%9B_%D0%A3%D1%87%D0%BE"
+      }
+    },
+    {
+      "id": "boris-kidric-square",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "biografija",
+      "prethodniLinkovi": {
+        "wiki": "https://sh.wikipedia.org/wiki/Boris_Kidri%C4%8D",
+        "wikiEn": "https://en.wikipedia.org/wiki/Boris_Kidri%C4%8D"
+      }
+    },
+    {
+      "id": "kumanovo-revolution",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/kumanovo"
+    },
+    {
+      "id": "zupa-niksicka",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/zupa"
+    },
+    {
+      "id": "crnomelj",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/crnomelj"
+    },
+    {
+      "id": "delcevo",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "clanak o instituciji kojoj je objekat posvecen",
+      "prethodniLinkovi": {
+        "wiki": "https://sh.wikipedia.org/wiki/Antifa%C5%A1isti%C4%8Dko_sobranje_narodnog_oslobo%C4%91enja_Makedonije",
+        "wikiEn": "https://en.wikipedia.org/wiki/Anti-fascist_Assembly_for_the_National_Liberation_of_Macedonia"
+      }
+    },
+    {
+      "id": "valjevo-stjepan-filipovic",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "biografija",
+      "prethodniLinkovi": {
+        "wiki": "https://sh.wikipedia.org/wiki/Stjepan_Filipovi%C4%87",
+        "wikiEn": "https://en.wikipedia.org/wiki/Stjepan_Filipovi%C4%87"
+      }
+    },
+    {
+      "id": "novi-sad",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/novi-sad"
+    },
+    {
+      "id": "peje-pec",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/peje-pec"
+    },
+    {
+      "id": "butel-cemetery-1963-skopje-earthquake",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "clanak o zemljotresu",
+      "prethodniLinkovi": {
+        "wiki": "https://sh.wikipedia.org/wiki/Potres_u_Skoplju_1963.",
+        "wikiEn": "https://en.wikipedia.org/wiki/1963_Skopje_earthquake"
+      }
+    },
+    {
+      "id": "opuzen",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "biografija",
+      "prethodniLinkovi": {
+        "wiki": "https://sh.wikipedia.org/wiki/Stjepan_Filipovi%C4%87",
+        "wikiEn": "https://en.wikipedia.org/wiki/Stjepan_Filipovi%C4%87"
+      }
+    },
+    {
+      "id": "podgorica-mausoleum-partisans",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/podgorica"
+    },
+    {
+      "id": "gospic",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "istorija logora, ne clanak o spomeniku",
+      "prethodniLinkovi": {
+        "wiki": "https://sh.wikipedia.org/wiki/Koncentracijski_logor_Jadovno",
+        "wikiEn": "https://en.wikipedia.org/wiki/Jadovno_concentration_camp"
+      }
+    },
+    {
+      "id": "lovcen-national-park",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "biografija",
+      "prethodniLinkovi": {
+        "wiki": "https://sh.wikipedia.org/wiki/Petar_II_Petrovi%C4%87_Njego%C5%A1",
+        "wikiEn": "https://en.wikipedia.org/wiki/Petar_II_Petrovi%C4%87-Njego%C5%A1"
+      }
+    },
+    {
+      "id": "jajce",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/jajce"
+    },
+    {
+      "id": "sisak-caprag",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "biografija",
+      "prethodniLinkovi": {
+        "wiki": "https://sh.wikipedia.org/wiki/Edvard_Kardelj",
+        "wikiEn": "https://en.wikipedia.org/wiki/Edvard_Kardelj"
+      }
+    },
+    {
+      "id": "mamula-island-prison",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "clanak o ostrvu",
+      "prethodniLinkovi": {
+        "wiki": "https://sh.wikipedia.org/wiki/Mamula",
+        "wikiEn": "https://en.wikipedia.org/wiki/Mamula_(island)"
+      }
+    },
+    {
+      "id": "prijepolje",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://skulptura-hronologijaizlaganja.rs/spomenik-prijepoljskoj-bici-delo-lojze-dolinara/"
+    },
+    {
+      "id": "koprivnica",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/koprivnica"
+    },
+    {
+      "id": "koprivnica-spomen-podrucje-danica",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "istorija logora, ne clanak o spomeniku",
+      "prethodniLinkovi": {
+        "wiki": "https://hr.wikipedia.org/wiki/Sabirni_logor_Danica"
+      }
+    },
+    {
+      "id": "batina",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/battle-of-batina"
+    },
+    {
+      "id": "tito-square-in-velenje",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/velenje"
+    },
+    {
+      "id": "petnjica",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "biografija",
+      "prethodniLinkovi": {
+        "wiki": "https://sh.wikipedia.org/wiki/Vuk_Stefanovi%C4%87_Karad%C5%BEi%C4%87",
+        "wikiEn": "https://en.wikipedia.org/wiki/Vuk_Karad%C5%BEi%C4%87"
+      }
+    },
+    {
+      "id": "zemun-bombas",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "clanak o borcima, ne o skulpturi",
+      "prethodniLinkovi": {
+        "wiki": "https://sh.wikipedia.org/wiki/Bomba%C5%A1i_u_Narodnooslobodila%C4%8Dkom_ratu",
+        "wikiEn": "https://en.wikipedia.org/wiki/Bomba%c5%a1i_(Yugoslav_Partisans)"
+      }
+    },
+    {
+      "id": "sarajevo-djuro-djakovic",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "biografija",
+      "prethodniLinkovi": {
+        "wiki": "https://sh.wikipedia.org/wiki/%C4%90uro_%C4%90akovi%C4%87",
+        "wikiEn": "https://en.wikipedia.org/wiki/%C4%90uro_%C4%90akovi%C4%87"
+      }
+    },
+    {
+      "id": "bitola-stefan-naumov",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "biografija",
+      "prethodniLinkovi": {
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D0%B2%D0%B0%D0%BD_%D0%9D%D0%B0%D1%83%D0%BC%D0%BE%D0%B2_%D0%A1%D1%82%D0%B8%D0%B2",
+        "wikiEn": "https://en.wikipedia.org/wiki/Stefan_Naumov"
+      }
+    },
+    {
+      "id": "krusevo-at-meckin-kamen",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "clanak o bici",
+      "prethodniLinkovi": {
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%91%D0%B8%D1%82%D0%BA%D0%B0_%D0%BA%D0%BE%D0%B4_%D0%9C%D0%B5%D1%87%D0%BA%D0%B8%D0%BD%D0%BE%D0%B3_%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D0%B0",
+        "wikiEn": "https://en.wikipedia.org/wiki/Battle_of_Me%C4%8Dkin_Kamen"
+      }
+    },
+    {
+      "id": "jadovno",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "istorija logora, ne clanak o spomeniku",
+      "prethodniLinkovi": {
+        "wiki": "https://sh.wikipedia.org/wiki/Koncentracijski_logor_Jadovno",
+        "wikiEn": "https://en.wikipedia.org/wiki/Jadovno_concentration_camp"
+      }
+    },
+    {
+      "id": "slavonski-brod",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/brod"
+    },
+    {
+      "id": "utrg",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "biografija",
+      "prethodniLinkovi": {
+        "wiki": "https://sh.wikipedia.org/wiki/Svetozar_Vukmanovi%C4%87",
+        "wikiEn": "https://en.wikipedia.org/wiki/Svetozar_Vukmanovi%C4%87"
+      }
+    },
+    {
+      "id": "nova-gorica",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "biografija",
+      "prethodniLinkovi": {
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%95%D0%B4%D0%B2%D0%B0%D1%80%D0%B4_%D0%A0%D1%83%D1%81%D1%98%D0%B0%D0%BD",
+        "wikiEn": "https://en.wikipedia.org/wiki/Edvard_Rusjan"
+      }
+    },
+    {
+      "id": "prijedor-mladen-stojanovic",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "biografija",
+      "prethodniLinkovi": {
+        "wiki": "https://sh.wikipedia.org/wiki/Mladen_Stojanovi%C4%87",
+        "wikiEn": "https://en.wikipedia.org/wiki/Mladen_Stojanovi%C4%87"
+      }
+    },
+    {
+      "id": "pula-vladimir-gortan",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "biografija",
+      "prethodniLinkovi": {
+        "wiki": "https://hr.wikipedia.org/wiki/Vladimir_Gortan"
+      }
+    },
+    {
+      "id": "kikinda-victims-fascism",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.spomenikdatabase.org/kikinda"
+    },
+    {
+      "id": "novi-knezevac",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-borcima-novi-knezevac/"
+    },
+    {
+      "id": "raska",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-borcima-u-narodnooslobodilackom-ratu-1941-1945-raska/"
+    },
+    {
+      "id": "topusko-3rd-session-zavnoh",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "clanak o zasedanju",
+      "prethodniLinkovi": {
+        "wiki": "https://hr.wikipedia.org/wiki/Tre%C4%87e_zasjedanje_ZAVNOH-a"
+      }
+    },
+    {
+      "id": "stara-pazova",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://skulptura-hronologijaizlaganja.rs/otkrivanje-spomenika-narodnom-heroju-janku-cmeliku-1948-stevana-bodnarova-gradski-park-u-staroj-pazovi/"
+    },
+    {
+      "id": "raspor",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "clanak o organizaciji",
+      "prethodniLinkovi": {
+        "wiki": "https://sh.wikipedia.org/wiki/Antifa%C5%A1isti%C4%8Dki_front_%C5%BEena",
+        "wikiEn": "https://en.wikipedia.org/wiki/Women%27s_Antifascist_Front_of_Yugoslavia"
+      }
+    },
+    {
+      "id": "otocac",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "clanak o organizaciji",
+      "prethodniLinkovi": {
+        "wiki": "https://sh.wikipedia.org/wiki/Zemaljsko_antifa%C5%A1isti%C4%8Dko_vije%C4%87e_narodnog_oslobo%C4%91enja_Hrvatske",
+        "wikiEn": "https://en.wikipedia.org/wiki/State_Anti-Fascist_Council_for_the_National_Liberation_of_Croatia"
+      }
+    },
+    {
+      "id": "kruscica-camp-museum",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "istorija logora, ne clanak o muzeju",
+      "prethodniLinkovi": {
+        "wiki": "https://sh.wikipedia.org/wiki/Koncentracijski_logor_Kru%C5%A1%C4%8Dica"
+      }
+    },
+    {
+      "id": "vrbas",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "stranica fotografije",
+      "prethodniLinkovi": {
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%94%D0%B0%D1%82%D0%BE%D1%82%D0%B5%D0%BA%D0%B0:Spomenik_Savi_Kovacevicu_u_Vrbasu.jpg"
+      }
+    },
+    {
+      "id": "grgurevci",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-zrtvama-fasistickog-terora-grgurevci/"
+    },
+    {
+      "id": "beograd-spomen-park-topovske-supe",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.danubeogradu.rs/2021/01/kultura-secanja-info-tabla-o-logoru-topovske-supe/"
+    },
+    {
+      "id": "molat-memorijalna-cjelina-bivseg-logora",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "istorija logora, ne clanak o memorijalnoj celini",
+      "prethodniLinkovi": {
+        "wikiEn": "https://en.wikipedia.org/wiki/Molat_concentration_camp"
+      }
+    },
+    {
+      "id": "kolasin-spomenik-veljku-vlahovicu",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://skulptura-hronologijaizlaganja.rs/spomenik-veljku-vlahovicu-kolasin/"
+    },
+    {
+      "id": "beograd-spomenik-mosi-pijade",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://skulptura-hronologijaizlaganja.rs/spomenik-mosi-pijade-u-beogradu/"
+    },
+    {
+      "id": "uzice-spomenik-josipu-brozu-titu",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://skulptura-hronologijaizlaganja.rs/spomenik-josipu-brozu-titu-uzice/"
+    },
+    {
+      "id": "kragujevac-spomenik-otpora-i-slobode",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://skulptura-hronologijaizlaganja.rs/spomenik-otpora-i-slobode-spomen-park-kragujevacki-oktobar-kragujevac/"
+    },
+    {
+      "id": "kraljevo-spomenik-prvom-partizanskom-tenku",
+      "odluka": "nije-clanak-o-spomeniku",
+      "razlog": "clanak o trgu",
+      "prethodniLinkovi": {
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A2%D1%80%D0%B3_%D0%A1%D0%B2%D0%B5%D1%82%D0%BE%D0%B3_%D0%A1%D0%B0%D0%B2%D0%B5_(%D0%9A%D1%80%D0%B0%D1%99%D0%B5%D0%B2%D0%BE)"
+      }
+    },
+    {
+      "id": "kikinda-spomenik-internircima",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://skulptura-hronologijaizlaganja.rs/spomenik-kikindskim-internircima-kikinda/"
+    },
+    {
+      "id": "curug-majka-i-dete",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://skulptura-hronologijaizlaganja.rs/spomenik-majka-i-dete-materinstvo-curug/"
+    },
+    {
+      "id": "beograd-poziv-na-ustanak",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://skulptura-hronologijaizlaganja.rs/spomenik-streljanima-poziv-na-ustanak-postavljen-u-beogradu/"
+    },
+    {
+      "id": "bajina-basta-spomenik-palim-borcima",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://skulptura-hronologijaizlaganja.rs/spomenik-palim-borcima-narodnooslobodilacke-vojske-jugoslavije-delo-stevana-bodnarova/"
+    },
+    {
+      "id": "cijevna-spomen-groblje-u-cijevni",
+      "odluka": "clanak-na-vikipediji-izdvojen-iz-izvora",
+      "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B5%20%D1%83%20%D0%A6%D0%B8%D1%98%D0%B5%D0%B2%D0%BD%D0%B8"
+    },
+    {
+      "id": "mirosevce-bista-borislava-stankovica-culavka-1919",
+      "odluka": "clanak-na-vikipediji-izdvojen-iz-izvora",
+      "wiki": "https://sr.wikipedia.org/wiki/%D0%91%D0%B8%D1%81%D1%82%D0%B0_%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%B0_%D0%A1%D1%82%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D0%B8%D1%9B%D0%B0_%D0%8B%D1%83%D0%BB%D0%B0%D0%B2%D0%BA%D0%B0_1919-1944"
+    },
+    {
+      "id": "vlasina-rid-spomen-kompleks-na-igralistu",
+      "odluka": "clanak-na-vikipediji-izdvojen-iz-izvora",
+      "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%BD%D0%B0_%D0%98%D0%B3%D1%80%D0%B0%D0%BB%D0%B8%D1%88%D1%82%D1%83"
+    },
+    {
+      "id": "masurica-spomen-park-u-masurici",
+      "odluka": "clanak-na-vikipediji-izdvojen-iz-izvora",
+      "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D1%83_%D0%9C%D0%B0%D1%81%D1%83%D1%80%D0%B8%D1%86%D0%B8"
+    },
+    {
+      "id": "lunjevac-spomenik-seljaku-partizanskom-saradniku",
+      "odluka": "clanak-na-vikipediji-izdvojen-iz-izvora",
+      "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D1%81%D0%B5%D1%99%D0%B0%D0%BA%D1%83_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%BC_%D1%81%D0%B0%D1%80%D0%B0%D0%B4%D0%BD%D0%B8%D0%BA%D1%83"
+    },
+    {
+      "id": "zlakusa-spomenik-na-gradini",
+      "odluka": "clanak-na-vikipediji-izdvojen-iz-izvora",
+      "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%93%D1%80%D0%B0%D0%B4%D0%B8%D0%BD%D0%B8"
+    },
+    {
+      "id": "calma-spomenik-nob-u-calmi",
+      "odluka": "clanak-na-vikipediji-izdvojen-iz-izvora",
+      "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%9D%D0%9E%D0%91-%D1%83_%D1%83_%D0%A7%D0%B0%D0%BB%D0%BC%D0%B8"
+    },
+    {
+      "id": "bunuski-cifluk-spomenik-u-bunuskom-cifluku",
+      "odluka": "clanak-na-vikipediji-izdvojen-iz-izvora",
+      "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D1%83_%D0%91%D1%83%D0%BD%D1%83%D1%88%D0%BA%D0%BE%D0%BC_%D0%A7%D0%B8%D1%84%D0%BB%D1%83%D0%BA%D1%83"
+    },
+    {
+      "id": "bratmilovce-spomenik-u-bratmilovcu",
+      "odluka": "clanak-na-vikipediji-izdvojen-iz-izvora",
+      "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D1%83_%D0%91%D1%80%D0%B0%D1%82%D0%BC%D0%B8%D0%BB%D0%BE%D0%B2%D1%86%D1%83"
+    },
+    {
+      "id": "bogojevce-spomenik-u-bogojevcu",
+      "odluka": "clanak-na-vikipediji-izdvojen-iz-izvora",
+      "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D1%83_%D0%91%D0%BE%D0%B3%D0%BE%D1%98%D0%B5%D0%B2%D1%86%D1%83"
+    },
+    {
+      "id": "kula-spomenik-na-mestu-pogibije-ise-sekickog-u-bli",
+      "odluka": "clanak-na-vikipediji-izdvojen-iz-izvora",
+      "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%BC%D0%B5%D1%81%D1%82%D1%83_%D0%BF%D0%BE%D0%B3%D0%B8%D0%B1%D0%B8%D1%98%D0%B5_%D0%98%D1%81%D0%B5_%D0%A1%D0%B5%D0%BA%D0%B8%D1%86%D0%BA%D0%BE%D0%B3_%D1%83_%D0%B1%D0%BB%D0%B8%D0%B7%D0%B8%D0%BD%D0%B8_%D0%9A%D1%83%D0%BB%D0%B5"
+    },
+    {
+      "id": "leskovac-spomen-cesma-u-leskovcu",
+      "odluka": "clanak-na-vikipediji-izdvojen-iz-izvora",
+      "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D1%87%D0%B5%D1%81%D0%BC%D0%B0_%D1%83_%D0%9B%D0%B5%D1%81%D0%BA%D0%BE%D0%B2%D1%86%D1%83"
+    },
+    {
+      "id": "medvedja-spomenik-oslobodiocima-u-medvedji",
+      "odluka": "clanak-na-vikipediji-izdvojen-iz-izvora",
+      "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BE%D1%81%D0%BB%D0%BE%D0%B1%D0%BE%D0%B4%D0%B8%D0%BE%D1%86%D0%B8%D0%BC%D0%B0_%D1%83_%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D1%92%D0%B8"
+    },
+    {
+      "id": "vucje-spomenik-slavku-todorovicu",
+      "odluka": "clanak-na-vikipediji-izdvojen-iz-izvora",
+      "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%A1%D0%BB%D0%B0%D0%B2%D0%BA%D1%83_%D0%A2%D0%BE%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%9B%D1%83_%D1%83_%D0%92%D1%83%D1%87%D1%98%D1%83"
+    },
+    {
+      "id": "podgorica-fallen-fighters",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.vijesti.me/vijesti/drustvo/492483/spomenik-junacima-iz-momisica-jaci-i-od-zemljotresa",
+      "provera": "procitan clanak sa izvornog sajta"
+    },
+    {
+      "id": "trubjela",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://www.vijesti.me/vijesti/drustvo/525333/naprijed-u-pobjede-za-bolje-dane",
+      "provera": "procitan clanak sa izvornog sajta"
+    },
+    {
+      "id": "zagreb-tresnjevka",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://zagrebacki-kutak.hr/ulica-bozidara-adzije-spomenik-palim-borcima-1941-1945/",
+      "provera": "procitan clanak sa izvornog sajta"
+    },
+    {
+      "id": "bitola-partizanski-grobishta",
+      "odluka": "odvojen-clanak",
+      "clanak": "https://frontline.mk/2024/01/23/vo-bitola-se-obnovuva-spomen-obelezh-eto-na-partizanskite-grobishta/",
+      "provera": "procitan clanak sa izvornog sajta"
+    }
+  ]
+}

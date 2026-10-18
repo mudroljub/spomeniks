@@ -15,7 +15,7 @@ export const pribliznaIkonica = ({slika, sirina, visina}, razmera) => {
   return `<img src="${slika}" width="${px(sirina + senka.levo + senka.desno)}" height="${px(visina + senka.dole)}" alt="" style="display: block"><img class="oznaka-priblizno" src="${pribliznaOznaka}" width="8" height="12" alt="" style="position: absolute; left: ${Math.max(0, px(senka.levo + sirina / 2) - 4)}px; top: ${Math.max(0, px(visina / 2) - 3)}px">`
 }
 
-const velicine = {kompleks: [34, 50], groblje: [29, 32], lokalni: [20, 28], muzej: [34, 38], ploca: [22, 16], bista: [22, 35], statua: [24, 48]}
+const velicine = {'spomen-park': [34, 50], 'spomen-groblje': [29, 32], 'spomen-obelezje': [20, 28], muzej: [34, 38], 'spomen-ploca': [22, 16], bista: [22, 35], statua: [24, 48]}
 
 /** @param {Pick<import('../data/tipovi').Spomenik, 'vrsta' | 'stanje'>} spomenik */
 export const izgledMarkera = ({vrsta, stanje}) => {

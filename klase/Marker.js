@@ -3,11 +3,11 @@ import {mapa} from './mapa.js'
 import {dajOznaku} from '../utils/oznake.js'
 import {izgledMarkera, senka, pribliznaIkonica} from '../utils/ikonice.js'
 import {nazivSpomenika, escapeHtml} from '../utils/helpers.js'
-import {zumVrste} from '../utils/vaznost.js'
+import {najmanjiZum} from '../utils/vaznost.js'
 
 const razmeraZuma = {6: 0.5, 7: 0.55, 8: 0.65, 9: 0.8} // ostali zumovi pun obelisk
 // bista je umetnicko delo kao spomenik, samo je malo manja
-const razmeraVrste = {istaknut: 1.25, kompleks: 1.25, groblje: 1.25, bista: 0.8, lokalni: 0.6, ploca: 0.6}
+const razmeraVrste = {'spomen-park': 1.25, 'spomen-groblje': 1.25, bista: 0.8, 'spomen-obelezje': 0.6, 'spomen-ploca': 0.6}
 
 // ruine i uklonjeni imaju sliku iste velicine, da se razlikuju po obliku, a ne samo po boji:
 // prelomljen obelisk i isprekidan obris onoga cega vise nema
@@ -63,8 +63,8 @@ export default class Marker {
   constructor(spomen, pomak) {
     this.spomen = spomen
     this.pomak = pomak
-    this.najmanjiZum = zumVrste[spomen.vrsta || 'spomenik']
-    this.razmera = razmeraVrste[spomen.vrsta] || 1
+    this.najmanjiZum = najmanjiZum(spomen)
+    this.razmera = spomen.istaknut ? 1.25 : razmeraVrste[spomen.vrsta] || 1
     this.izgled = izgledMarkera(spomen)
     this.element = L
       .marker([spomen.koordinate.lat, spomen.koordinate.lng], {

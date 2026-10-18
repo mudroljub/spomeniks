@@ -12,7 +12,7 @@ ALAT = Path(__file__).with_name('integritet.py')
 
 def spomenik(sid, lat=44, lng=20):
     return {'id': sid, 'koordinate': {'lat': lat, 'lng': lng}, 'mesto': 'Test',
-            'naziv': 'Spomenik', 'vrsta': 'lokalni', 'drzava': 'Serbia'}
+            'naziv': 'Spomenik', 'vrsta': 'spomen-obelezje', 'drzava': 'Serbia'}
 
 
 class IntegritetTest(unittest.TestCase):
@@ -42,6 +42,16 @@ class IntegritetTest(unittest.TestCase):
         self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
         self.assertIn('nepoznata vrsta', r.stdout)
 
+    def test_clanak(self):
+        r = self.proveri([{**spomenik('test'), 'clanak': 'https://example.com/spomenik'}])
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        for link in [42, '', 'javascript:alert(1)']:
+            with self.subTest(link=link):
+                r = self.proveri([{**spomenik('test'), 'clanak': link}])
+                self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
+                self.assertIn('los link', r.stdout)
+                self.assertNotIn('Traceback', r.stderr)
+
     def test_tekstualna_posveta(self):
         r = self.proveri([{**spomenik('test'), 'posveta': 'Omladincima strijeljanim 23. jula 1944.'}])
         self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
@@ -68,7 +78,7 @@ class IntegritetTest(unittest.TestCase):
         self.assertIn('novi parovi manje od 30 m: 2', r.stdout)
 
     def test_veza_knjige(self):
-        stavka = {'naziv': 'Spomenik', 'mesto': 'Test', 'vrsta': 'lokalni', 'drzava': 'Serbia'}
+        stavka = {'naziv': 'Spomenik', 'mesto': 'Test', 'vrsta': 'spomen-obelezje', 'drzava': 'Serbia'}
         dobre = [{'oznaka': 'A', 'uparivanje': {'skup': 'spomeniks', 'cilj': 'test'}},
                  {'oznaka': 'B', 'uparivanje': {'skup': 'bez_lokacije', 'cilj': 0}}]
         r = self.proveri([spomenik('test')], bez_lokacije=[stavka], knjiga=dobre)
