@@ -474,5 +474,312 @@
     },
     "knjiskeVeze": "Uklonjeni ID-jevi nisu kori??eni u data/knjige; istorijski priblizno-sela zapis sa?uvan, prevezivanje dokumentovano u spojeno.",
     "radniSpisak": "data/bez_lokacije.json nije menjan ovim paketom."
+  },
+  "nastavak": {
+    "datum": "2026-10-18",
+    "pre": {
+      "markeri": 9393,
+      "pribliznaGroblja": 301
+    },
+    "precizirano": [
+      {
+        "id": "gornji-podgradci-spomen-grobnica-69-palih-boraca-n",
+        "prethodniZapis": {
+          "id": "gornji-podgradci-spomen-grobnica-69-palih-boraca-n",
+          "koordinate": {
+            "lat": 45.05654,
+            "lng": 17.04547
+          },
+          "priblizno": true,
+          "mesto": "Gornji Podgradci",
+          "izvor": "https://www.spomenicinob.info/gradiska",
+          "naziv": "Spomen-grobnica 69 palih boraca NOR-a",
+          "nazivEn": "Memorial grave of 69 fallen fighters of the NOR",
+          "vrsta": "spomen-groblje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "pomerenoMetara": 1816,
+        "wikiNaslov": "Gornji Podgradci - Spomen Grobnica",
+        "dokaz": "Fotografija prepoznatljivog memorijala i grobnog prostora uporedjena sa satelitskim rasporedom uz put/skolu; oznacena tacka je objekat, ne centar sela ili susedna bista.",
+        "fotoMetapodaci": "izvori\\pretrage\\gradovi-groblja-2026-10-18\\preciziranje-imageinfo.json",
+        "satelit": "izvori\\pretrage\\gradovi-groblja-2026-10-18\\gornji-podgradci-groblje-satelit-ceo.jpg"
+      },
+      {
+        "id": "dobrljin-partizansko-groblje",
+        "prethodniZapis": {
+          "id": "dobrljin-partizansko-groblje",
+          "koordinate": {
+            "lat": 45.15034,
+            "lng": 16.47975
+          },
+          "priblizno": true,
+          "mesto": "Dobrljin",
+          "izvor": "https://www.spomenicinob.info/novigrad",
+          "naziv": "Partizansko groblje",
+          "nazivEn": "Partisans' cemetery",
+          "godina": "1961",
+          "vrsta": "spomen-groblje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "pomerenoMetara": 149,
+        "wikiNaslov": "Dobrljin - Partizansko Groblje",
+        "dokaz": "Fotografija prepoznatljivog memorijala i grobnog prostora uporedjena sa satelitskim rasporedom uz put/skolu; oznacena tacka je objekat, ne centar sela ili susedna bista.",
+        "fotoMetapodaci": "izvori\\pretrage\\gradovi-groblja-2026-10-18\\preciziranje-imageinfo.json",
+        "satelit": "izvori\\pretrage\\gradovi-groblja-2026-10-18\\dobrljin-groblje-satelit-ceo.jpg"
+      }
+    ],
+    "spojeno": [
+      {
+        "uklonjenId": "smoljana-spomen-kosturnica",
+        "ciljniId": "smoljana",
+        "prethodniZapis": {
+          "id": "smoljana-spomen-kosturnica",
+          "koordinate": {
+            "lat": 44.60114,
+            "lng": 16.43213
+          },
+          "priblizno": true,
+          "mesto": "Smoljana",
+          "izvor": "https://www.spomenicinob.info/bosanskipetrovac",
+          "naziv": "Spomen-kosturnica",
+          "nazivEn": "Memorial ossuary",
+          "godina": "1974",
+          "autor": "Nebojša Latinović & Enver Kudić",
+          "vrsta": "spomen-groblje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "prethodniCilj": {
+          "id": "smoljana",
+          "koordinate": {
+            "lat": 44.6103857,
+            "lng": 16.4145707
+          },
+          "googleCid": "17967285053151777913",
+          "mesto": "Smoljana",
+          "slika": "slike/spomenici/smoljana.webp",
+          "slikaOdnos": 1.404,
+          "naziv": "Spomenik palim borcima",
+          "nazivEn": "Monument to Fallen Fighters",
+          "vrsta": "spomenik",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "wikiNaslov": "Smoljana - Spomen Kosturnica Palim Borcima",
+        "razlog": "Istovetan izgled memorijala i grobnog kompleksa, ista mikrolokacija. Postojeca precizna tacka, CID, fotografija i ranije popunjeni izvor sacuvani. Priblizni marker uklonjen kao duplikat.",
+        "napomena": "Kosturnica iz 1974. nije zasebna starija cesma iz 1957."
+      },
+      {
+        "uklonjenId": "veliko-palanciste-groblje-partizanskih-boraca-i-zr",
+        "ciljniId": "veliko-palanciste",
+        "prethodniZapis": {
+          "id": "veliko-palanciste-groblje-partizanskih-boraca-i-zr",
+          "koordinate": {
+            "lat": 45.01955,
+            "lng": 16.73925
+          },
+          "priblizno": true,
+          "mesto": "Veliko Palančište",
+          "izvor": "https://www.spomenicinob.info/prijedor",
+          "naziv": "Groblje partizanskih boraca i žrtava fašističkog terora",
+          "nazivEn": "Cemetery of Partisan fighters and Victims of Fascist Terror",
+          "godina": "1951",
+          "vrsta": "spomen-groblje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "prethodniCilj": {
+          "id": "veliko-palanciste",
+          "koordinate": {
+            "lat": 45.0365045,
+            "lng": 16.7369337
+          },
+          "googleCid": "17506963166358228668",
+          "mesto": "Veliko Palančište",
+          "slika": "slike/spomenici/veliko-palanciste.webp",
+          "slikaOdnos": 1.325,
+          "naziv": "Partizansko spomen-groblje",
+          "nazivEn": "Partisan Memorial Graveyard",
+          "godina": "1963",
+          "vrsta": "spomen-groblje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "wikiNaslov": "Veliko Palančište - Puharina Groblje Žrtvama Fašističkog Terora",
+        "razlog": "Istovetan izgled memorijala i grobnog kompleksa, ista mikrolokacija. Postojeca precizna tacka, CID, fotografija i ranije popunjeni izvor sacuvani. Priblizni marker uklonjen kao duplikat.",
+        "napomena": "Groblje u Puharini, ne zasebni spomenik masakru na drugom mestu."
+      },
+      {
+        "uklonjenId": "brezicani-partizansko-groblje",
+        "ciljniId": "brezicani",
+        "prethodniZapis": {
+          "id": "brezicani-partizansko-groblje",
+          "koordinate": {
+            "lat": 45.0094,
+            "lng": 16.65163
+          },
+          "priblizno": true,
+          "mesto": "Brezičani",
+          "izvor": "https://www.spomenicinob.info/prijedor",
+          "naziv": "Partizansko groblje",
+          "nazivEn": "Partisans' cemetery",
+          "godina": "1954",
+          "vrsta": "spomen-groblje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "prethodniCilj": {
+          "id": "brezicani",
+          "koordinate": {
+            "lat": 45.010321,
+            "lng": 16.6502055
+          },
+          "googleCid": "17816571075529549024",
+          "mesto": "Brezičani",
+          "slika": "slike/spomenici/brezicani.webp",
+          "slikaOdnos": 0.75,
+          "slikaPotpis": "Google Maps",
+          "naziv": "Spomenik NOB",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "wikiNaslov": "Brezičani (Prijedor) - Partizansko Groblje",
+        "razlog": "Istovetan izgled memorijala i grobnog kompleksa, ista mikrolokacija. Postojeca precizna tacka, CID, fotografija i ranije popunjeni izvor sacuvani. Priblizni marker uklonjen kao duplikat.",
+        "napomena": "Ista ploca sa petokrakom i grobni raspored, odvojeno od obliznjeg Titovog spomenika."
+      },
+      {
+        "uklonjenId": "turbe-spomen-grobnica-palih-boraca-nor-a",
+        "ciljniId": "turbe",
+        "prethodniZapis": {
+          "id": "turbe-spomen-grobnica-palih-boraca-nor-a",
+          "koordinate": {
+            "lat": 44.24111,
+            "lng": 17.57666
+          },
+          "priblizno": true,
+          "mesto": "Turbe",
+          "izvor": "https://www.spomenicinob.info/travnik",
+          "naziv": "Spomen-grobnica palih boraca NOR-a",
+          "nazivEn": "Memorial grave of fallen fighters of the NOR",
+          "godina": "1974",
+          "autor": "Zlatko Ugljen & Petar Krstić",
+          "stanje": "ostecen",
+          "vrsta": "spomen-groblje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "prethodniCilj": {
+          "id": "turbe",
+          "koordinate": {
+            "lat": 44.2412118,
+            "lng": 17.5769204
+          },
+          "googleCid": "4107954806294536358",
+          "mesto": "Turbe",
+          "slika": "slike/spomenici/turbe.webp",
+          "slikaOdnos": 1.455,
+          "naziv": "Spomenik palim herojima Drugog svjetskog rata",
+          "nazivEn": "Turbe Memorial Park & Tomb",
+          "godina": "1974",
+          "autor": "Petar Krstić",
+          "vrsta": "spomenik",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "wikiNaslov": "Turbe - Spomen Kosturnica Palim Borcima",
+        "razlog": "Istovetan izgled memorijala i grobnog kompleksa, ista mikrolokacija. Postojeca precizna tacka, CID, fotografija i ranije popunjeni izvor sacuvani. Priblizni marker uklonjen kao duplikat.",
+        "napomena": "Isti kompleks grobnice oko 400 boraca, ne spomenik novijem ratu u drugom delu parka."
+      },
+      {
+        "uklonjenId": "krusevo-kosturnica-oslobodilaca-kruseva-i-mostara",
+        "ciljniId": "seliste",
+        "prethodniZapis": {
+          "id": "krusevo-kosturnica-oslobodilaca-kruseva-i-mostara",
+          "koordinate": {
+            "lat": 43.28543,
+            "lng": 17.7528
+          },
+          "priblizno": true,
+          "mesto": "Kruševo",
+          "izvor": "https://www.spomenicinob.info/mostar",
+          "naziv": "Kosturnica oslobodilaca Kruševa i Mostara",
+          "nazivEn": "Ossuary of the Liberators of Kruševo and Mostar",
+          "godina": "1972",
+          "autor": "Hasan Dizdarević",
+          "vrsta": "spomen-groblje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "prethodniCilj": {
+          "id": "seliste",
+          "koordinate": {
+            "lat": 43.285571,
+            "lng": 17.7530993
+          },
+          "googleCid": "17242807736852452150",
+          "mesto": "Selište",
+          "slika": "slike/spomenici/seliste.webp",
+          "slikaOdnos": 1.333,
+          "naziv": "Spomenik palim borcima",
+          "nazivEn": "Monument to Fallen Fighters",
+          "vrsta": "spomenik",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "wikiNaslov": "Kruševo (Mostar) - Spomen Kosturnica",
+        "razlog": "Istovetan izgled memorijala i grobnog kompleksa, ista mikrolokacija. Postojeca precizna tacka, CID, fotografija i ranije popunjeni izvor sacuvani. Priblizni marker uklonjen kao duplikat.",
+        "napomena": "Ista konstrukcija Hasana Dizdarevica u Krusevu/Selistu, ne susedni memorijal ratu 1992-1995."
+      },
+      {
+        "uklonjenId": "blagaj-rijeka-spomen-kosturnica-zrtava-fasistickog",
+        "ciljniId": "blagaj-rijeka",
+        "prethodniZapis": {
+          "id": "blagaj-rijeka-spomen-kosturnica-zrtava-fasistickog",
+          "koordinate": {
+            "lat": 45.04061,
+            "lng": 16.46866
+          },
+          "priblizno": true,
+          "mesto": "Blagaj Rijeka",
+          "izvor": "https://www.spomenicinob.info/novigrad",
+          "naziv": "Spomen-kosturnica žrtava fašističkog terora",
+          "nazivEn": "Memorial ossuary of Victims of Fascist Terror",
+          "godina": "1970",
+          "vrsta": "spomen-groblje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "prethodniCilj": {
+          "id": "blagaj-rijeka",
+          "koordinate": {
+            "lat": 45.0413429,
+            "lng": 16.4601629
+          },
+          "googleCid": "3274497422161802032",
+          "mesto": "Blagaj Rijeka",
+          "slika": "slike/spomenici/blagaj-rijeka.webp",
+          "slikaOdnos": 0.75,
+          "slikaPotpis": "Google Maps",
+          "naziv": "Spomenik žrtvama fašističkog terora i palim borcima NOB",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "wikiNaslov": "Blagaj Rijeka - Spomen Kosturnica Žrtvama Fašističkog Terora",
+        "razlog": "Istovetan izgled memorijala i grobnog kompleksa, ista mikrolokacija. Postojeca precizna tacka, CID, fotografija i ranije popunjeni izvor sacuvani. Priblizni marker uklonjen kao duplikat.",
+        "napomena": "Isti stepenasti zid sa petokrakom i srpom i cekicem; natpis potvrdjuje kosturnicu."
+      }
+    ],
+    "ogranicenja": [
+      "Izbor je raden medju 301 pribliznim grobnim markerom; 200 tekstualnih kandidata nije 200 potvrdjenih parova.",
+      "Godine 1951/1963 za Veliko Palanciste ostaju u dokazima; sacuvana godina postojeceg preciznog zapisa bez pretpostavke da se svaka odnosi na isti deo.",
+      "Jelasinovci: veza kosturnice i sireg kompleksa u Bojistu ostaje za proveru. Husino: groblje nije spojeno sa zasebnom skulpturom Husinske bune iz 1920.",
+      "Dobrljin: novi spomenik ratu 1992-1995 nije upisan kao NOB objekat; ostala priblizna grobna i memorijalna obelezja iz 1961. nisu automatski spojena samo po godini.",
+      "Datumi ucitavanja fotografija nisu datumi snimanja; savremeni metalni omotac gornjopodgradackog spomenika nije dokumentovan preuzetom starijom fotografijom."
+    ],
+    "prevezaniFajlovi": [],
+    "posle": {
+      "markeri": 9387,
+      "pribliznaGroblja": 293,
+      "preciziraneTacke": 2,
+      "spojeniDuplikati": 6,
+      "noveFotografije": 2,
+      "noviMarkeri": 0
+    },
+    "provere": {
+      "integritet": "prolaz, 9387 markera, bez novih nedozvoljenih bliskih parova",
+      "aplikacija": "23/23 testova proslo",
+      "prikaz": "390x844: Gornji Podgradci, Dobrljin i Smoljana; fotografije ucitane, bez Runtime izuzetaka, snimci pregledani",
+      "ocuvanje": "sacuvani prethodni zapisi, izvori, postojeci CID i precizne tacke; data/bez_lokacije.json nije menjan ovim paketom"
+    }
   }
 }

@@ -82,7 +82,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 27,
+      "radniIndeks": 24,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -120,7 +120,6 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 28,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka.",
       "odbijeniTragoviKoordinata": [
@@ -152,7 +151,8 @@
           },
           "razlog": "Istoimeno mesto u drugoj drzavi; ne koristiti."
         }
-      ]
+      ],
+      "prebacenoNaMapu": "krusevo-spomen-grobnica-palih-boraca"
     },
     {
       "radniIndeksPre": 31,
@@ -177,7 +177,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 30,
+      "radniIndeks": 26,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -215,7 +215,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 48,
+      "radniIndeks": 44,
       "prioritet": "razresiti-identitet-pre-lociranja",
       "nedostaje": "Blizak glavni marker nije dokaz istog objekta: razlikovati celinu, skulpturu, raniju i novu verziju.",
       "bliskiUnos": {
@@ -334,9 +334,9 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 218,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
-      "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
+      "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka.",
+      "prebacenoNaMapu": "skocaj-zajednicka-grobnica-zrtava-fasistickog-tero"
     },
     {
       "radniIndeksPre": 275,
@@ -382,7 +382,7 @@
         }
       ],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 265,
+      "radniIndeks": 255,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -421,10 +421,12 @@
       "napomenaDatuma": "Datum mapiranja je katalogizacija, ne datum fotografije ni nova potvrda opstanka.",
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
-      "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 283,
+      "ishod": "razreseno-offline-uparivanjem",
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
-      "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
+      "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka.",
+      "radniIndeksPreOffline": 281,
+      "prebacenoNaMapu": "bosanska-raca",
+      "razlogOffline": "Dokaz u groblja-gradovi-2026-10-18.json / offlineUparivanje"
     },
     {
       "radniIndeksPre": 330,
@@ -475,7 +477,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 320,
+      "radniIndeks": 309,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Izvor navodi postojanje; trag koordinata nije dovoljno povezan sa konkretnim objektom."
     },
@@ -515,7 +517,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 344,
+      "radniIndeks": 333,
       "prioritet": "razresiti-zamenu-ili-preseljenje",
       "nedostaje": "Povezati prethodnika i danasnji objekat; potvrditi novu lokaciju i razlike u izgledu/godini."
     },
@@ -554,7 +556,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 400,
+      "radniIndeks": 389,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -593,7 +595,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 425,
+      "radniIndeks": 413,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -686,7 +688,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 441,
+      "radniIndeks": 429,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -724,7 +726,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 442,
+      "radniIndeks": 430,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -785,7 +787,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 494,
+      "radniIndeks": 482,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Izvor navodi postojanje; trag koordinata nije dovoljno povezan sa konkretnim objektom."
     },
@@ -892,7 +894,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 534,
+      "radniIndeks": 520,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -945,7 +947,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 538,
+      "radniIndeks": 524,
       "prioritet": "istorijska-lokacija-ili-obnova",
       "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
     },
@@ -985,7 +987,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 570,
+      "radniIndeks": 556,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -1024,7 +1026,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 572,
+      "radniIndeks": 558,
       "prioritet": "razresiti-zamenu-ili-preseljenje",
       "nedostaje": "Povezati prethodnika i danasnji objekat; potvrditi novu lokaciju i razlike u izgledu/godini."
     },
@@ -1064,7 +1066,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 573,
+      "radniIndeks": 605,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -1127,7 +1129,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 575,
+      "radniIndeks": 561,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -1191,7 +1193,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 593,
+      "radniIndeks": 578,
       "prioritet": "istorijska-lokacija-ili-obnova",
       "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
     },
@@ -1230,7 +1232,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 612,
+      "radniIndeks": 605,
       "prioritet": "razresiti-zamenu-ili-preseljenje",
       "nedostaje": "Povezati prethodnika i danasnji objekat; potvrditi novu lokaciju i razlike u izgledu/godini."
     },
@@ -1268,7 +1270,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 613,
+      "radniIndeks": 598,
       "prioritet": "razresiti-zamenu-ili-preseljenje",
       "nedostaje": "Povezati prethodnika i danasnji objekat; potvrditi novu lokaciju i razlike u izgledu/godini."
     },
@@ -1397,7 +1399,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 631,
+      "radniIndeks": 616,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Izvor navodi postojanje; trag koordinata nije dovoljno povezan sa konkretnim objektom."
     },
@@ -1461,7 +1463,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 649,
+      "radniIndeks": 633,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Izvor navodi postojanje; trag koordinata nije dovoljno povezan sa konkretnim objektom."
     },
@@ -1523,7 +1525,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 657,
+      "radniIndeks": 640,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -1561,7 +1563,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 682,
+      "radniIndeks": 664,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -1599,7 +1601,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 706,
+      "radniIndeks": 688,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -1650,7 +1652,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 754,
+      "radniIndeks": 736,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -1703,7 +1705,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 792,
+      "radniIndeks": 774,
       "prioritet": "razresiti-identitet-pre-lociranja",
       "nedostaje": "Blizak glavni marker nije dokaz istog objekta: razlikovati celinu, skulpturu, raniju i novu verziju.",
       "bliskiUnos": {
@@ -1771,7 +1773,7 @@
         }
       ],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 813,
+      "radniIndeks": 794,
       "prioritet": "razresiti-identitet-pre-lociranja",
       "nedostaje": "Blizak glavni marker nije dokaz istog objekta: razlikovati celinu, skulpturu, raniju i novu verziju.",
       "bliskiUnos": {
@@ -1838,10 +1840,12 @@
           "izvor": "https://www.xiwl.com/w/index.php/Kalenderovci_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora"
         }
       ],
-      "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 822,
+      "ishod": "razreseno-offline-uparivanjem",
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
-      "nedostaje": "Izvor navodi postojanje; trag koordinata nije dovoljno povezan sa konkretnim objektom."
+      "nedostaje": "Izvor navodi postojanje; trag koordinata nije dovoljno povezan sa konkretnim objektom.",
+      "radniIndeksPreOffline": 812,
+      "prebacenoNaMapu": "kalenderovci-spomenik-zrtvama-fasistickog-terora",
+      "razlogOffline": "Dokaz u groblja-gradovi-2026-10-18.json / offlineUparivanje"
     },
     {
       "radniIndeksPre": 836,
@@ -1892,7 +1896,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 823,
+      "radniIndeks": 803,
       "prioritet": "proveriti-konkretnu-tacku",
       "nedostaje": "Potvrditi identitet i mikrolokaciju konkretnog objekta iz traga; zatim prebaciti na mapu."
     },
@@ -2038,9 +2042,9 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 861,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
-      "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
+      "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka.",
+      "prebacenoNaMapu": "potocani-grob-2-nepoznata-partizanska-borca"
     },
     {
       "radniIndeksPre": 900,
@@ -2134,7 +2138,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 898,
+      "radniIndeks": 877,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -2174,7 +2178,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 932,
+      "radniIndeks": 909,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -2226,7 +2230,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 941,
+      "radniIndeks": 918,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -2265,7 +2269,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 977,
+      "radniIndeks": 953,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -2304,7 +2308,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 979,
+      "radniIndeks": 955,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -2427,7 +2431,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1000,
+      "radniIndeks": 976,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -2468,7 +2472,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1008,
+      "radniIndeks": 984,
       "prioritet": "istorijska-lokacija-ili-obnova",
       "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
     },
@@ -2523,10 +2527,12 @@
         }
       ],
       "moguciDuplikati": [],
-      "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1016,
+      "ishod": "povezano-sa-sadasnjim-kompleksom",
       "prioritet": "razresiti-zamenu-ili-preseljenje",
-      "nedostaje": "Povezati prethodnika i danasnji objekat; potvrditi novu lokaciju i razlike u izgledu/godini."
+      "nedostaje": "Povezati prethodnika i danasnji objekat; potvrditi novu lokaciju i razlike u izgledu/godini.",
+      "radniIndeksPreNastavak": 1000,
+      "prebacenoNaMapu": "fojnica-spomen-kosturnica",
+      "razlogNastavak": "groblja-gradovi-2026-10-18.json / offlineNastavak"
     },
     {
       "radniIndeksPre": 1036,
@@ -2576,10 +2582,12 @@
         }
       ],
       "moguciDuplikati": [],
-      "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1018,
+      "ishod": "povezano-sa-sadasnjim-kompleksom",
       "prioritet": "istorijska-lokacija-ili-obnova",
-      "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
+      "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja.",
+      "radniIndeksPreNastavak": 1002,
+      "prebacenoNaMapu": "fojnica-spomen-kosturnica",
+      "razlogNastavak": "groblja-gradovi-2026-10-18.json / offlineNastavak"
     },
     {
       "radniIndeksPre": 1041,
@@ -2629,10 +2637,12 @@
         }
       ],
       "moguciDuplikati": [],
-      "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1023,
+      "ishod": "povezano-sa-sadasnjim-kompleksom",
       "prioritet": "istorijska-lokacija-ili-obnova",
-      "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
+      "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja.",
+      "radniIndeksPreNastavak": 1007,
+      "prebacenoNaMapu": "fojnica-spomen-kosturnica",
+      "razlogNastavak": "groblja-gradovi-2026-10-18.json / offlineNastavak"
     },
     {
       "radniIndeksPre": 1055,
@@ -2700,7 +2710,7 @@
         }
       ],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1037,
+      "radniIndeks": 1010,
       "prioritet": "razresiti-identitet-pre-lociranja",
       "nedostaje": "Blizak glavni marker nije dokaz istog objekta: razlikovati celinu, skulpturu, raniju i novu verziju.",
       "bliskiUnos": {
@@ -2759,8 +2769,7 @@
         }
       ],
       "moguciDuplikati": [],
-      "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1062,
+      "ishod": "razreseno-offline-uparivanjem",
       "prioritet": "razresiti-identitet-pre-lociranja",
       "nedostaje": "Blizak glavni marker nije dokaz istog objekta: razlikovati celinu, skulpturu, raniju i novu verziju.",
       "bliskiUnos": {
@@ -2770,7 +2779,10 @@
         "godina": null,
         "vrsta": "spomen-groblje",
         "mesto": "Hadžići"
-      }
+      },
+      "radniIndeksPreOffline": 1048,
+      "prebacenoNaMapu": "hadzici",
+      "razlogOffline": "Dokaz u groblja-gradovi-2026-10-18.json / offlineUparivanje"
     },
     {
       "radniIndeksPre": 1082,
@@ -2807,10 +2819,12 @@
       "napomenaDatuma": "Datum mapiranja je katalogizacija, ne datum fotografije ni nova potvrda opstanka.",
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
-      "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1064,
+      "ishod": "razreseno-offline-uparivanjem",
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
-      "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
+      "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka.",
+      "radniIndeksPreOffline": 1050,
+      "prebacenoNaMapu": "gorazde-kolijevke-partizansko-groblje",
+      "razlogOffline": "Dokaz u groblja-gradovi-2026-10-18.json / offlineUparivanje"
     },
     {
       "radniIndeksPre": 1089,
@@ -2872,7 +2886,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1071,
+      "radniIndeks": 1042,
       "prioritet": "istorijska-lokacija-ili-obnova",
       "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
     },
@@ -2911,10 +2925,12 @@
       "napomenaDatuma": "Datum mapiranja je katalogizacija, ne datum fotografije ni nova potvrda opstanka.",
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
-      "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1074,
+      "ishod": "razreseno-offline-uparivanjem",
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
-      "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
+      "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka.",
+      "radniIndeksPreOffline": 1060,
+      "prebacenoNaMapu": "gornji-vakuf",
+      "razlogOffline": "Dokaz u groblja-gradovi-2026-10-18.json / offlineUparivanje"
     },
     {
       "radniIndeksPre": 1107,
@@ -2965,7 +2981,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1089,
+      "radniIndeks": 1059,
       "prioritet": "razresiti-zamenu-ili-preseljenje",
       "nedostaje": "Povezati prethodnika i danasnji objekat; potvrditi novu lokaciju i razlike u izgledu/godini."
     },
@@ -3019,9 +3035,9 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1091,
       "prioritet": "istorijska-lokacija-ili-obnova",
-      "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
+      "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja.",
+      "prebacenoNaMapu": "piskavica-spomen-kosturnica"
     },
     {
       "radniIndeksPre": 1118,
@@ -3060,7 +3076,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1100,
+      "radniIndeks": 1069,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -3099,7 +3115,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1107,
+      "radniIndeks": 1076,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -3138,7 +3154,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1114,
+      "radniIndeks": 1083,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -3178,7 +3194,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1155,
+      "radniIndeks": 1124,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -3270,7 +3286,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1175,
+      "radniIndeks": 1144,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -3370,7 +3386,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1179,
+      "radniIndeks": 1148,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -3410,7 +3426,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1180,
+      "radniIndeks": 1149,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -3473,10 +3489,12 @@
         }
       ],
       "moguciDuplikati": [],
-      "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1188,
+      "ishod": "razreseno-offline-uparivanjem",
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
-      "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
+      "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka.",
+      "radniIndeksPreOffline": 1173,
+      "prebacenoNaMapu": "ilijas-alica-gaj-spomen-kosturnica",
+      "razlogOffline": "Dokaz u groblja-gradovi-2026-10-18.json / offlineUparivanje"
     },
     {
       "radniIndeksPre": 1214,
@@ -3537,7 +3555,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1194,
+      "radniIndeks": 1162,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -3577,7 +3595,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1206,
+      "radniIndeks": 1174,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -3615,7 +3633,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1234,
+      "radniIndeks": 1202,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -3716,7 +3734,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1273,
+      "radniIndeks": 1241,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -3781,7 +3799,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1288,
+      "radniIndeks": 1256,
       "prioritet": "istorijska-lokacija-ili-obnova",
       "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
     },
@@ -3833,7 +3851,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1298,
+      "radniIndeks": 1266,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -3885,8 +3903,7 @@
         }
       ],
       "moguciDuplikati": [],
-      "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1301,
+      "ishod": "razreseno-offline-uparivanjem",
       "prioritet": "razresiti-identitet-pre-lociranja",
       "nedostaje": "Blizak glavni marker nije dokaz istog objekta: razlikovati celinu, skulpturu, raniju i novu verziju.",
       "bliskiUnos": {
@@ -3896,7 +3913,10 @@
         "godina": null,
         "vrsta": "spomen-obelezje",
         "mesto": "Podastinje"
-      }
+      },
+      "radniIndeksPreOffline": 1286,
+      "prebacenoNaMapu": "podastinje",
+      "razlogOffline": "Dokaz u groblja-gradovi-2026-10-18.json / offlineUparivanje"
     },
     {
       "radniIndeksPre": 1335,
@@ -3942,7 +3962,7 @@
         }
       ],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1314,
+      "radniIndeks": 1281,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -3994,7 +4014,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1318,
+      "radniIndeks": 1285,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -4046,7 +4066,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1319,
+      "radniIndeks": 1286,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -4086,7 +4106,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1320,
+      "radniIndeks": 1287,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -4185,7 +4205,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1347,
+      "radniIndeks": 1314,
       "prioritet": "razresiti-zamenu-ili-preseljenje",
       "nedostaje": "Povezati prethodnika i danasnji objekat; potvrditi novu lokaciju i razlike u izgledu/godini."
     },
@@ -4277,7 +4297,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1353,
+      "radniIndeks": 1320,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka.",
       "odbijeniTragoviKoordinata": [
@@ -4333,7 +4353,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1354,
+      "radniIndeks": 1321,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka.",
       "odbijeniTragoviKoordinata": [
@@ -4387,7 +4407,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1361,
+      "radniIndeks": 1328,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -4437,8 +4457,7 @@
         }
       ],
       "moguciDuplikati": [],
-      "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1368,
+      "ishod": "razreseno-offline-uparivanjem",
       "prioritet": "razresiti-identitet-pre-lociranja",
       "nedostaje": "Blizak glavni marker nije dokaz istog objekta: razlikovati celinu, skulpturu, raniju i novu verziju.",
       "bliskiUnos": {
@@ -4448,7 +4467,10 @@
         "godina": null,
         "vrsta": "spomen-obelezje",
         "mesto": "Gakići"
-      }
+      },
+      "radniIndeksPreOffline": 1353,
+      "prebacenoNaMapu": "gakici-partizanski-spomenik",
+      "razlogOffline": "Dokaz u groblja-gradovi-2026-10-18.json / offlineUparivanje"
     },
     {
       "radniIndeksPre": 1396,
@@ -4520,7 +4542,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1373,
+      "radniIndeks": 1339,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -4594,7 +4616,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1374,
+      "radniIndeks": 1340,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -4714,9 +4736,9 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1381,
       "prioritet": "potreban-novi-dokaz-za-raniji-trag",
-      "nedostaje": "Ranije vec proveravan kandidat nije potvrdjen; potreban nov nezavisan dokaz, ne ponovljena ista pretraga."
+      "nedostaje": "Ranije vec proveravan kandidat nije potvrdjen; potreban nov nezavisan dokaz, ne ponovljena ista pretraga.",
+      "prebacenoNaMapu": "borci-spomen-kosturnica"
     },
     {
       "radniIndeksPre": 1439,
@@ -4753,7 +4775,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1415,
+      "radniIndeks": 1380,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -4793,7 +4815,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1422,
+      "radniIndeks": 1386,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -4846,7 +4868,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1423,
+      "radniIndeks": 1387,
       "prioritet": "istorijska-lokacija-ili-obnova",
       "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
     },
@@ -4899,7 +4921,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1425,
+      "radniIndeks": 1389,
       "prioritet": "istorijska-lokacija-ili-obnova",
       "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
     },
@@ -4950,7 +4972,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1431,
+      "radniIndeks": 1395,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -5065,7 +5087,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1474,
+      "radniIndeks": 1438,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -5126,7 +5148,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1477,
+      "radniIndeks": 1441,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -5166,7 +5188,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1487,
+      "radniIndeks": 1451,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -5204,7 +5226,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1512,
+      "radniIndeks": 1476,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -5242,7 +5264,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1513,
+      "radniIndeks": 1477,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -5296,7 +5318,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1517,
+      "radniIndeks": 1481,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Izvor navodi postojanje; trag koordinata nije dovoljno povezan sa konkretnim objektom."
     },
@@ -5334,7 +5356,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1553,
+      "radniIndeks": 1517,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -5434,7 +5456,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1578,
+      "radniIndeks": 1540,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -5472,7 +5494,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1596,
+      "radniIndeks": 1557,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -5512,7 +5534,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1610,
+      "radniIndeks": 1571,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -5601,7 +5623,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1677,
+      "radniIndeks": 1638,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -5641,7 +5663,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1678,
+      "radniIndeks": 1639,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -5693,7 +5715,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1688,
+      "radniIndeks": 1649,
       "prioritet": "razresiti-identitet-pre-lociranja",
       "nedostaje": "Blizak glavni marker nije dokaz istog objekta: razlikovati celinu, skulpturu, raniju i novu verziju.",
       "bliskiUnos": {
@@ -5740,7 +5762,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1707,
+      "radniIndeks": 1667,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -5790,7 +5812,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1708,
+      "radniIndeks": 1668,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Izvor navodi postojanje; trag koordinata nije dovoljno povezan sa konkretnim objektom."
     },
@@ -5841,7 +5863,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1756,
+      "radniIndeks": 1716,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -5881,7 +5903,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1758,
+      "radniIndeks": 1718,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -5921,7 +5943,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1785,
+      "radniIndeks": 1745,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -5960,7 +5982,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1796,
+      "radniIndeks": 1756,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -6001,7 +6023,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1803,
+      "radniIndeks": 1763,
       "prioritet": "razresiti-zamenu-ili-preseljenje",
       "nedostaje": "Povezati prethodnika i danasnji objekat; potvrditi novu lokaciju i razlike u izgledu/godini."
     },
@@ -6041,7 +6063,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1837,
+      "radniIndeks": 1797,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -6082,7 +6104,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1856,
+      "radniIndeks": 1816,
       "prioritet": "istorijska-lokacija-ili-obnova",
       "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
     },
@@ -6121,7 +6143,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1860,
+      "radniIndeks": 1820,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -6161,7 +6183,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1862,
+      "radniIndeks": 1822,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -6201,7 +6223,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1870,
+      "radniIndeks": 1830,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Izvor navodi postojanje; trag koordinata nije dovoljno povezan sa konkretnim objektom.",
       "odbijeniTragoviKoordinata": [
@@ -6269,7 +6291,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1874,
+      "radniIndeks": 1834,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -6308,7 +6330,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1882,
+      "radniIndeks": 1842,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -6347,7 +6369,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1887,
+      "radniIndeks": 1846,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -6387,7 +6409,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1905,
+      "radniIndeks": 1863,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -6437,7 +6459,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1908,
+      "radniIndeks": 1866,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -6477,7 +6499,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1923,
+      "radniIndeks": 1881,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -6516,10 +6538,12 @@
       "napomenaDatuma": "Datum mapiranja je katalogizacija, ne datum fotografije ni nova potvrda opstanka.",
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
-      "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 1973,
+      "ishod": "povezano-sa-sadasnjim-kompleksom",
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
-      "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
+      "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka.",
+      "radniIndeksPreNastavak": 1943,
+      "prebacenoNaMapu": "prijedor-urije-grobnica-833-zrtve",
+      "razlogNastavak": "groblja-gradovi-2026-10-18.json / offlineNastavak"
     },
     {
       "radniIndeksPre": 2054,
@@ -6576,7 +6600,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2026,
+      "radniIndeks": 1983,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -6628,7 +6652,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2037,
+      "radniIndeks": 1994,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -6731,7 +6755,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2053,
+      "radniIndeks": 2010,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -6782,7 +6806,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2054,
+      "radniIndeks": 2011,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -6853,7 +6877,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2080,
+      "radniIndeks": 2036,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -6892,7 +6916,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2082,
+      "radniIndeks": 2037,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -6931,7 +6955,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2087,
+      "radniIndeks": 2042,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -6971,10 +6995,12 @@
       "napomenaDatuma": "Datum mapiranja je katalogizacija, ne datum fotografije ni nova potvrda opstanka.",
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
-      "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2112,
+      "ishod": "povezano-sa-sadasnjim-kompleksom",
       "prioritet": "razresiti-zamenu-ili-preseljenje",
-      "nedostaje": "Povezati prethodnika i danasnji objekat; potvrditi novu lokaciju i razlike u izgledu/godini."
+      "nedostaje": "Povezati prethodnika i danasnji objekat; potvrditi novu lokaciju i razlike u izgledu/godini.",
+      "radniIndeksPreNastavak": 2080,
+      "prebacenoNaMapu": "samac-kosturnica-palih-boraca-1990",
+      "razlogNastavak": "groblja-gradovi-2026-10-18.json / offlineNastavak"
     },
     {
       "radniIndeksPre": 2142,
@@ -7012,10 +7038,12 @@
       "napomenaDatuma": "Datum mapiranja je katalogizacija, ne datum fotografije ni nova potvrda opstanka.",
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
-      "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2113,
+      "ishod": "povezano-sa-sadasnjim-kompleksom",
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
-      "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
+      "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka.",
+      "radniIndeksPreNastavak": 2081,
+      "prebacenoNaMapu": "samac-kosturnica-palih-boraca-1990",
+      "razlogNastavak": "groblja-gradovi-2026-10-18.json / offlineNastavak"
     },
     {
       "radniIndeksPre": 2163,
@@ -7054,7 +7082,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2134,
+      "radniIndeks": 2086,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -7093,7 +7121,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2140,
+      "radniIndeks": 2092,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -7145,7 +7173,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2150,
+      "radniIndeks": 2102,
       "prioritet": "istorijska-lokacija-ili-obnova",
       "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
     },
@@ -7184,7 +7212,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2151,
+      "radniIndeks": 2103,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -7224,7 +7252,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2188,
+      "radniIndeks": 2140,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -7277,7 +7305,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2200,
+      "radniIndeks": 2152,
       "prioritet": "istorijska-lokacija-ili-obnova",
       "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
     },
@@ -7327,7 +7355,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2206,
+      "radniIndeks": 2158,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -7378,7 +7406,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2208,
+      "radniIndeks": 2160,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Izvor navodi postojanje; trag koordinata nije dovoljno povezan sa konkretnim objektom."
     },
@@ -7473,7 +7501,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2237,
+      "radniIndeks": 2189,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -7523,7 +7551,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2238,
+      "radniIndeks": 2190,
       "prioritet": "razresiti-zamenu-ili-preseljenje",
       "nedostaje": "Povezati prethodnika i danasnji objekat; potvrditi novu lokaciju i razlike u izgledu/godini."
     },
@@ -7564,7 +7592,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2241,
+      "radniIndeks": 2193,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -7708,7 +7736,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2263,
+      "radniIndeks": 2214,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -7759,7 +7787,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2264,
+      "radniIndeks": 2215,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -7798,7 +7826,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2265,
+      "radniIndeks": 2216,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -7913,7 +7941,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2292,
+      "radniIndeks": 2243,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -7975,7 +8003,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2293,
+      "radniIndeks": 2244,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -8017,7 +8045,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2297,
+      "radniIndeks": 2248,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -8067,9 +8095,9 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2305,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
-      "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
+      "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka.",
+      "prebacenoNaMapu": "drenovac-spomen-kosturnica-zrtava-fasistickog-tero"
     },
     {
       "radniIndeksPre": 2350,
@@ -8107,7 +8135,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2316,
+      "radniIndeks": 2266,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -8147,7 +8175,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2318,
+      "radniIndeks": 2268,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -8186,7 +8214,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2324,
+      "radniIndeks": 2274,
       "prioritet": "istorijska-lokacija-ili-obnova",
       "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
     },
@@ -8226,7 +8254,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2327,
+      "radniIndeks": 2277,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -8297,7 +8325,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2330,
+      "radniIndeks": 2280,
       "prioritet": "potreban-novi-dokaz-za-raniji-trag",
       "nedostaje": "Ranije vec proveravan kandidat nije potvrdjen; potreban nov nezavisan dokaz, ne ponovljena ista pretraga."
     },
@@ -8349,7 +8377,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2356,
+      "radniIndeks": 2306,
       "prioritet": "istorijska-lokacija-ili-obnova",
       "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
     },
@@ -8421,7 +8449,7 @@
         }
       ],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2401,
+      "radniIndeks": 2349,
       "prioritet": "istorijska-lokacija-ili-obnova",
       "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
     },
@@ -8504,7 +8532,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2547,
+      "radniIndeks": 2495,
       "prioritet": "istorijska-lokacija-ili-obnova",
       "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
     },
@@ -8596,7 +8624,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2558,
+      "radniIndeks": 2505,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -8648,7 +8676,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2565,
+      "radniIndeks": 2512,
       "prioritet": "razresiti-zamenu-ili-preseljenje",
       "nedostaje": "Povezati prethodnika i danasnji objekat; potvrditi novu lokaciju i razlike u izgledu/godini."
     },
@@ -8689,7 +8717,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2567,
+      "radniIndeks": 2514,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -8728,7 +8756,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2584,
+      "radniIndeks": 2531,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -8767,7 +8795,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2598,
+      "radniIndeks": 2545,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -8806,7 +8834,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2599,
+      "radniIndeks": 2546,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -8857,7 +8885,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2602,
+      "radniIndeks": 2549,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -8909,7 +8937,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2605,
+      "radniIndeks": 2552,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -9045,7 +9073,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2612,
+      "radniIndeks": 2559,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Izvor navodi postojanje; trag koordinata nije dovoljno povezan sa konkretnim objektom."
     },
@@ -9098,9 +9126,9 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2645,
       "prioritet": "istorijska-lokacija-ili-obnova",
-      "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
+      "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja.",
+      "prebacenoNaMapu": "vitez-spomen-kosturnica-palih-boraca-iz-krajine"
     },
     {
       "radniIndeksPre": 2686,
@@ -9138,7 +9166,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2649,
+      "radniIndeks": 2594,
       "prioritet": "istorijska-lokacija-ili-obnova",
       "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
     },
@@ -9251,7 +9279,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2672,
+      "radniIndeks": 2617,
       "prioritet": "istorijska-lokacija-ili-obnova",
       "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
     },
@@ -9303,7 +9331,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2675,
+      "radniIndeks": 2620,
       "prioritet": "razresiti-zamenu-ili-preseljenje",
       "nedostaje": "Povezati prethodnika i danasnji objekat; potvrditi novu lokaciju i razlike u izgledu/godini."
     },
@@ -9343,7 +9371,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2678,
+      "radniIndeks": 2623,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -9396,7 +9424,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2686,
+      "radniIndeks": 2631,
       "prioritet": "razresiti-identitet-pre-lociranja",
       "nedostaje": "Blizak glavni marker nije dokaz istog objekta: razlikovati celinu, skulpturu, raniju i novu verziju.",
       "bliskiUnos": {
@@ -9444,7 +9472,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2707,
+      "radniIndeks": 2652,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -9483,7 +9511,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2735,
+      "radniIndeks": 2680,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -9523,7 +9551,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2739,
+      "radniIndeks": 2684,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -9576,7 +9604,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2742,
+      "radniIndeks": 2687,
       "prioritet": "razresiti-identitet-pre-lociranja",
       "nedostaje": "Blizak glavni marker nije dokaz istog objekta: razlikovati celinu, skulpturu, raniju i novu verziju.",
       "bliskiUnos": {
@@ -9713,7 +9741,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2756,
+      "radniIndeks": 2701,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Izvor navodi postojanje; trag koordinata nije dovoljno povezan sa konkretnim objektom."
     },
@@ -9777,7 +9805,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2759,
+      "radniIndeks": 2704,
       "prioritet": "istorijska-lokacija-ili-obnova",
       "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
     },
@@ -9828,7 +9856,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2777,
+      "radniIndeks": 2722,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -9878,7 +9906,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2780,
+      "radniIndeks": 2725,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -9937,7 +9965,7 @@
         }
       ],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2781,
+      "radniIndeks": 2736,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -9988,7 +10016,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2782,
+      "radniIndeks": 2727,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -10039,7 +10067,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2804,
+      "radniIndeks": 2749,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -10067,7 +10095,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2808,
+      "radniIndeks": 2753,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -10096,7 +10124,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2810,
+      "radniIndeks": 2755,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -10157,7 +10185,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2813,
+      "radniIndeks": 2758,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -10195,7 +10223,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2820,
+      "radniIndeks": 2765,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -10222,7 +10250,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2831,
+      "radniIndeks": 2775,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -10248,7 +10276,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2838,
+      "radniIndeks": 2782,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -10287,7 +10315,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2848,
+      "radniIndeks": 2792,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -10313,7 +10341,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2851,
+      "radniIndeks": 2795,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -10352,7 +10380,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2854,
+      "radniIndeks": 2798,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -10391,7 +10419,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2859,
+      "radniIndeks": 2803,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -10418,7 +10446,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2860,
+      "radniIndeks": 2804,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -10446,7 +10474,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2874,
+      "radniIndeks": 2818,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -10473,7 +10501,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2878,
+      "radniIndeks": 2822,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -10500,7 +10528,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2886,
+      "radniIndeks": 2830,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -10527,7 +10555,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2895,
+      "radniIndeks": 2839,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -10554,7 +10582,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2899,
+      "radniIndeks": 2843,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -10582,7 +10610,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2903,
+      "radniIndeks": 2847,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka.",
       "odbijeniTragoviKoordinata": [
@@ -10626,7 +10654,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2904,
+      "radniIndeks": 2848,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka.",
       "odbijeniTragoviKoordinata": [
@@ -10696,7 +10724,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2925,
+      "radniIndeks": 2869,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -10750,7 +10778,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2926,
+      "radniIndeks": 2870,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -10781,7 +10809,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2927,
+      "radniIndeks": 2871,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -10871,7 +10899,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2936,
+      "radniIndeks": 2880,
       "prioritet": "razresiti-identitet-pre-lociranja",
       "nedostaje": "Blizak glavni marker nije dokaz istog objekta: razlikovati celinu, skulpturu, raniju i novu verziju.",
       "bliskiUnos": {
@@ -10919,7 +10947,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2940,
+      "radniIndeks": 2902,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -10959,7 +10987,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2940,
+      "radniIndeks": 2884,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -11010,7 +11038,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2943,
+      "radniIndeks": 2886,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -11061,7 +11089,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2944,
+      "radniIndeks": 2887,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -11125,7 +11153,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2946,
+      "radniIndeks": 2888,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -11187,7 +11215,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2947,
+      "radniIndeks": 2889,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -11258,7 +11286,7 @@
         }
       ],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2956,
+      "radniIndeks": 2898,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -11321,7 +11349,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2959,
+      "radniIndeks": 2901,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -11359,10 +11387,12 @@
       "napomenaDatuma": "Datum mapiranja je katalogizacija, ne datum fotografije ni nova potvrda opstanka.",
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
-      "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2963,
+      "ishod": "razreseno-offline-uparivanjem",
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
-      "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
+      "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka.",
+      "radniIndeksPreOffline": 2937,
+      "prebacenoNaMapu": "polje-partizansko-groblje-borici",
+      "razlogOffline": "Dokaz u groblja-gradovi-2026-10-18.json / offlineUparivanje"
     },
     {
       "radniIndeksPre": 3016,
@@ -11408,7 +11438,7 @@
         }
       ],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2964,
+      "radniIndeks": 2905,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -11456,7 +11486,7 @@
         }
       ],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2967,
+      "radniIndeks": 2908,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -11496,7 +11526,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2968,
+      "radniIndeks": 2909,
       "prioritet": "prvo-dokaz-identiteta-i-postojanja",
       "nedostaje": "Opis ili datirana fotografija pravog objekta i podatak gde se nalazi; ne pripisivati rusenje zbog manjka podataka."
     },
@@ -11536,7 +11566,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2970,
+      "radniIndeks": 2911,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     },
@@ -11589,7 +11619,7 @@
       ],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2984,
+      "radniIndeks": 2925,
       "prioritet": "razresiti-zamenu-ili-preseljenje",
       "nedostaje": "Povezati prethodnika i danasnji objekat; potvrditi novu lokaciju i razlike u izgledu/godini."
     },
@@ -11629,7 +11659,7 @@
       "tragoviKoordinata": [],
       "moguciDuplikati": [],
       "ishod": "ostaje-za-razresavanje",
-      "radniIndeks": 2985,
+      "radniIndeks": 2926,
       "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
       "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
     }
