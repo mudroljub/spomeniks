@@ -42,8 +42,6 @@ const otvori = async (hash = '') => {
   await sacekaj("document.documentElement.dataset.podaci === 'svi'", 'svi podaci')
 }
 
-// prozori su web komponente, pa se elementi traze i u njihovom shadow DOM-u
-const SVI = `[...document.querySelectorAll('*')].flatMap(e => e.shadowRoot ? [e, ...e.shadowRoot.querySelectorAll('*')] : [e])`
 const BROJ = `document.body.innerText.match(/(\\d+) od \\d+/)?.[1]`
 
 test('mapa prikazuje obeliske', async () => {
@@ -234,7 +232,7 @@ test('pretraga nalazi i uklonjen spomenik, koji je bez pretrage sakriven', async
 
 test('filter po vrsti suzi spomenike', async () => {
   await otvori()
-  await izvrsi(`${SVI}.find(e => e.tagName === 'BUTTON' && /Filteri|Filters/.test(e.textContent)).click()`)
+  await izvrsi("document.querySelector('polje-pretraga .dugme-filteri').click()")
   const filteri = "[...document.querySelectorAll('*')].find(e => e.shadowRoot?.querySelector('.grupe')).shadowRoot"
   await sacekaj(`${filteri}.querySelector('button.cip')`, 'čipovi filtera')
   await izvrsi(`${filteri}.querySelector('button.cip').click()`)

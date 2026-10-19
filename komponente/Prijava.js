@@ -14,9 +14,10 @@ export default class Prijava extends HTMLElement {
         button, a { -webkit-tap-highlight-color: transparent; }
         button { cursor: pointer; font: inherit; }
         #dugme {
-          background: white; border: none; border-radius: 22px;
-          box-shadow: 0 1px 4px #0006; min-height: 44px; padding: 0 16px;
+          align-items: center; background: white; border: none; border-radius: 50%; box-shadow: 0 1px 4px #0006;
+          display: flex; height: 44px; justify-content: center; padding: 0; width: 44px;
         }
+        #dugme svg { height: 26px; width: 26px; }
         #panel {
           background: #fffdf8; border-radius: 12px 12px 0 0;
           bottom: 0; box-shadow: 0 -2px 8px #0005; box-sizing: border-box;
@@ -45,7 +46,7 @@ export default class Prijava extends HTMLElement {
           }
         }
       </style>
-      <button id="dugme" aria-expanded="false" aria-controls="panel">${t('prijavaNaslov')}</button>
+      <button id="dugme" aria-expanded="false" aria-controls="panel" aria-label="${t('prijavaNaslov')}" title="${t('prijavaNaslov')}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M12 21s-6.5-5.8-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 15.2 12 21 12 21Z" stroke-linejoin="round"/><path d="M12 7v5.6M9.2 9.8h5.6"/></svg></button>
       <section id="panel" aria-labelledby="naslov" hidden>
         <header><h2 id="naslov">${t('prijavaNaslov')}</h2><button id="zatvori" aria-label="${t('zatvori')}">×</button></header>
         <p>${t('prijavaUputstvo')}</p>

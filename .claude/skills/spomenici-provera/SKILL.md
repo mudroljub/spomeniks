@@ -81,7 +81,7 @@ Skripta pokreće lokalni server, otvara aplikaciju, izvršava izraz, snima ekran
 
 Za izraz:
 - prozori su web komponente sa shadow DOM-om, npr. `document.querySelector('detalji-spomenika').shadowRoot`;
-- filteri se iscrtavaju tek kad se otvore, pa ih prvo otvori dugmetom „Filteri“;
+- filteri se iscrtavaju tek kad se otvore, pa ih prvo otvori ikonicom filtera u polju za pretragu;
 - tooltip na prelazak mišem ne postoji uz dodir; za njega treba Chrome bez emulacije dodira i `Input.dispatchMouseEvent`.
 
 Emulacija ne zamenjuje pravi telefon: za izmene izgleda reci korisniku da ih proveri na svom.
