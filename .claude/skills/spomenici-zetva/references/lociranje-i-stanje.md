@@ -25,7 +25,7 @@ Naslovi, dostupnost i obrađenost ostaju u `docs/IZVORI.md`, a trenutni priorite
 
 ## Staro oštećenje i kasniji dokaz
 
-**Hrvatska, trajna napomena korisnika (19.10.2026):** korisnik je od konzervatorke spomenika iz Hrvatske dobio podatak da je približno pola spomenika NOB u Hrvatskoj uništeno. Pri žetvi izvora nastalih pre 1991. sačuvaj korisne istorijske podatke, ali proveri kasnije izvore, posebno Hrženjaka (2002), pre zaključka o opstanku. Stari opis ili fotografija nisu potvrda današnjeg postojanja; podatak o ukupnim razmerama uništavanja nije dokaz rušenja pojedinačnog spomenika.
+**Hrvatska:** približno pola spomenika NOB u Hrvatskoj je uništeno. Pri žetvi izvora nastalih pre 1991. sačuvaj korisne istorijske podatke, ali proveri kasnije izvore, posebno Hrženjaka (2002), pre zaključka o opstanku. Stari opis ili fotografija nisu potvrda današnjeg postojanja; podatak o ukupnim razmerama uništavanja nije dokaz rušenja pojedinačnog spomenika.
 
 Pročitaj odlučujući knjiški nalaz na originalnom skenu, sa štampanom stranom i brojem skena. Koristi već preuzete strane. Indeks i opis istog objekta računaj kao jedan dokaz. Proveri legendu oznaka i dodatke sa ispravkama; indeks, osnovni tekst i dodatak mogu opisivati različita stanja ili različite objekte.
 
