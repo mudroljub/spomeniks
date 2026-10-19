@@ -449,6 +449,26 @@ test('prag važnosti menja celu automatsku turu i pamti izbor bez ograničenja b
   await izvrsi("import('./utils/ruta.js').then(m=>m.postaviRutu([]))")
 })
 
+test('stranac dobija engleski, a izabran jezik ostaje', async () => {
+  const userAgent = await izvrsi('navigator.userAgent')
+  const jezikPregledaca = acceptLanguage => pregledac.send('Emulation.setUserAgentOverride', {userAgent, acceptLanguage})
+  try {
+    await jezikPregledaca('de-DE,de')
+    await otvori()
+    assert.equal(await izvrsi('document.documentElement.lang'), 'en')
+    await izvrsi("localStorage.setItem('spomenici-jezik', 'sh')")
+    await otvori()
+    assert.equal(await izvrsi('document.documentElement.lang'), 'sh')
+    await izvrsi("localStorage.removeItem('spomenici-jezik')")
+    await jezikPregledaca('en-US,hr')
+    await otvori()
+    assert.equal(await izvrsi('document.documentElement.lang'), 'sh')
+  } finally {
+    await jezikPregledaca('sr')
+    await izvrsi("localStorage.removeItem('spomenici-jezik')")
+  }
+})
+
 test('bez grešaka u aplikaciji', () => {
   assert.deepEqual(greske, [])
 })

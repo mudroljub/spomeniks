@@ -9,7 +9,11 @@ const sacuvan = () => {
   }
 }
 
-export const jezik = sacuvan() === 'en' ? 'en' : 'sh'
+const domaci = ['sh', 'sr', 'hr', 'bs', 'cnr', 'sl', 'mk']
+const izPregledaca = () => navigator.languages.some(j => domaci.includes(j.split('-')[0].toLowerCase())) ? 'sh' : 'en'
+
+const izbor = sacuvan()
+export const jezik = izbor === 'sh' || izbor === 'en' ? izbor : izPregledaca()
 
 export const promeniJezik = novi => {
   try {

@@ -13,7 +13,7 @@ const CHROME = 'C:/Program Files/Google/Chrome/Application/chrome.exe'
 export const otvoriPregledac = async () => {
   const port = 9300 + Math.floor(Math.random() * 500)
   const chrome = spawn(CHROME, [
-    '--headless=new', `--remote-debugging-port=${port}`, '--disable-gpu', '--hide-scrollbars',
+    '--headless=new', `--remote-debugging-port=${port}`, '--disable-gpu', '--hide-scrollbars', '--lang=sr',
     `--user-data-dir=${mkdtempSync(join(tmpdir(), 'cdp-'))}`, 'about:blank',
   ], {stdio: 'ignore'})
 
