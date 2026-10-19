@@ -66,12 +66,34 @@ const osveziSlajder = () => {
   slajder.postavi(stavke.map(({dajSliku}) => dajSliku), mapa.getZoom())
 }
 
-mapa.on('moveend', osveziSlajder)
+let mapaSePomera = false
+let cekanjeSlajdera
+const otkaziSlajder = () => {
+  clearTimeout(cekanjeSlajdera)
+  cekanjeSlajdera = undefined
+}
+
+mapa.on('movestart', () => {
+  mapaSePomera = true
+  otkaziSlajder()
+})
+// Touchpad salje moveend za svaki wheel korak; traka se menja tek kad se pokret zavrsi.
+mapa.on('moveend', () => {
+  mapaSePomera = false
+  otkaziSlajder()
+  cekanjeSlajdera = setTimeout(() => {
+    cekanjeSlajdera = undefined
+    osveziSlajder()
+  }, 150)
+})
 
 const render = (stavke, suzeno) => {
   filtriraneStavke = stavke
   postaviMarkere(stavke.map(({marker}) => marker), suzeno)
-  osveziSlajder()
+  if (!mapaSePomera) {
+    otkaziSlajder()
+    osveziSlajder()
+  }
   najblizi.postavi(stavke)
 }
 

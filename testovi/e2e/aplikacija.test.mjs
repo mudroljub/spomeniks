@@ -50,6 +50,13 @@ const otvori = async (hash = '') => {
 
 const BROJ = `document.body.innerText.match(/(\\d+) od \\d+/)?.[1]`
 
+const sacekajTraku = () => sacekaj(`import('./klase/mapa.js').then(({mapa}) => {
+  const s=document.querySelector('nav-slajder')
+  const slike=new Set(document.querySelector('polje-pretraga').filtrirano
+    .filter(x=>x.dajSliku && mapa.getBounds().contains(x.marker.dajPoziciju())).map(x=>x.dajSliku))
+  return s.zum===mapa.getZoom() && s.slike.length===slike.size && s.slike.every(f=>slike.has(f))
+})`, 'traka prati zavrseno pomeranje mape')
+
 test('alat za pregledač prijavljuje grešku izraza i komande', async () => {
   await assert.rejects(izvrsi("throw new Error('proba')"), /proba/)
   await assert.rejects(pregledac.send('Nepostojeci.metod'), /Nepostojeci\.metod/)
@@ -170,6 +177,50 @@ test('pretraga suzi spomenike', async () => {
   assert.ok(Number(await sacekaj(BROJ, 'broj pronađenih')) > 0)
 })
 
+test('traka se osvezi jednom posle touchpad pokreta i ceka zavrsetak prevlacenja', async () => {
+  await otvori()
+  await sacekajTraku()
+  await izvrsi(`(()=>{
+    const s=document.querySelector('nav-slajder')
+    window.proveraTrake={broj:0,original:s.postavi}
+    s.postavi=function(...args){proveraTrake.broj++;return proveraTrake.original.apply(this,args)}
+  })()`)
+  let dodirUToku = false
+  const dodir = async (type, x = 195, y = 350) => {
+    await pregledac.send('Input.dispatchTouchEvent', {type, touchPoints: type === 'touchEnd' ? [] : [{x, y}]})
+    if (type === 'touchStart') dodirUToku = true
+    if (type === 'touchEnd') dodirUToku = false
+  }
+  try {
+    assert.equal(await izvrsi(`(async()=>{
+      const {mapa}=await import('./klase/mapa.js')
+      for(let i=0;i<8;i++){
+        mapa.getContainer().dispatchEvent(new WheelEvent('wheel',{deltaX:8,cancelable:true}))
+        await new Promise(r=>setTimeout(r,25))
+      }
+      return proveraTrake.broj
+    })()`), 0)
+    await sacekaj('proveraTrake.broj===1', 'jedno osvezavanje posle touchpada')
+    await izvrsi(`import('./klase/mapa.js').then(({mapa})=>{
+      proveraTrake.broj=0
+      mapa.getContainer().dispatchEvent(new WheelEvent('wheel',{deltaX:8,cancelable:true}))
+    })`)
+    await dodir('touchStart')
+    for (let i=1; i<=4; i++) {
+      await dodir('touchMove',195-i*12)
+      await sleep(25)
+    }
+    await sleep(200)
+    assert.equal(await izvrsi('proveraTrake.broj'), 0, 'nema osvezavanja dok se mapa drzi')
+    await dodir('touchEnd')
+    await sacekaj('proveraTrake.broj===1', 'jedno osvezavanje posle otpustanja')
+    await sacekajTraku()
+  } finally {
+    if (dodirUToku) await dodir('touchEnd')
+    await izvrsi(`document.querySelector('nav-slajder').postavi=proveraTrake.original;delete window.proveraTrake`)
+  }
+})
+
 test('traka prati mapu, važnost i filtere, a prazan predeo je sakriva', async () => {
   await otvori()
   const proveri = async () => izvrsi(`(async () => {
@@ -186,6 +237,7 @@ test('traka prati mapu, važnost i filtere, a prazan predeo je sakriva', async (
       ids: prikazane.map(x => x.spomenik.id)}
   })()`)
   await izvrsi("import('./klase/mapa.js').then(({mapa}) => void mapa.setView([44.81,20.46],11,{animate:false}))")
+  await sacekajTraku()
   const beograd = await proveri()
   assert.ok(beograd.broj > 0 && beograd.sveUOkviru && beograd.potpune && beograd.poredjane)
   await izvrsi("window.prvaSlika=document.querySelector('nav-slajder').traka.firstChild; import('./klase/mapa.js').then(({mapa}) => void mapa.fire('moveend'))")
@@ -195,11 +247,13 @@ test('traka prati mapu, važnost i filtere, a prazan predeo je sakriva', async (
   assert.ok(statue.broj > 0 && statue.sveUOkviru && statue.potpune)
   assert.deepEqual(statue.vrste, ['statua'])
   await izvrsi("document.querySelector('polje-pretraga').ponisti(); import('./klase/mapa.js').then(({mapa}) => void mapa.setView([43.34,17.8],12,{animate:false}))")
+  await sacekajTraku()
   const mostar = await proveri()
   assert.ok(mostar.broj > 0 && mostar.sveUOkviru && mostar.potpune && mostar.poredjane)
   assert.ok(mostar.ids.includes('mostar-partisan-cemetery'))
   assert.ok(!mostar.ids.some(id => beograd.ids.includes(id)))
   await izvrsi("import('./klase/mapa.js').then(({mapa}) => void mapa.setView([40,14],15,{animate:false}))")
+  await sacekajTraku()
   const prazno = await proveri()
   assert.equal(prazno.broj, 0)
   assert.ok(prazno.skrivene)
@@ -214,10 +268,13 @@ test('traka prikazuje mesto do zuma 11, a naziv spomenika od zuma 12', async () 
     return slika && {tekst:slika.naziv.textContent,title:slika.naziv.title,alt:slika.slika.alt}
   })()`)
   await izvrsi("import('./klase/mapa.js').then(({mapa}) => void mapa.setView([44.8304596,20.4574169],15,{animate:false}))")
+  await sacekajTraku()
   assert.deepEqual(await natpis(), {tekst:'Menora u plamenu',title:'Menora u plamenu',alt:'Spomenik Beograd (Dorćol)'})
   await izvrsi("import('./klase/mapa.js').then(({mapa}) => void mapa.setZoom(11,{animate:false}))")
+  await sacekajTraku()
   assert.equal((await natpis()).tekst, 'Beograd (Dorćol)')
   await izvrsi("import('./klase/mapa.js').then(({mapa}) => void mapa.setZoom(12,{animate:false}))")
+  await sacekajTraku()
   assert.equal((await natpis()).tekst, 'Menora u plamenu')
   assert.equal(await izvrsi("document.querySelector('planer-rute').stavke.get('dorcol').spomenik.mesto"), 'Beograd (Dorćol)')
 })
@@ -226,14 +283,17 @@ test('desktop traka prikazuje nazive spomenika i kada obuhvata više naselja', a
   await pregledac.send('Emulation.setDeviceMetricsOverride', {width:1440,height:900,deviceScaleFactor:1,mobile:false})
   try {
     await otvori()
-    const natpis = async zoom => izvrsi(`import('./klase/mapa.js').then(({mapa})=>{
-      mapa.setView([44.7802301,20.4169938],${zoom},{animate:false})
+    const natpis = async zoom => {
+      await izvrsi(`import('./klase/mapa.js').then(({mapa})=>void mapa.setView([44.7802301,20.4169938],${zoom},{animate:false}))`)
+      await sacekajTraku()
+      return izvrsi(`(()=>{
       const s=document.querySelector('nav-slajder')
       while(s.traka.children.length<s.slike.length) s.dodajSlikeAkoTreba()
       const natpisi=[...s.traka.children].map(x=>({tekst:x.naziv.textContent,mesto:x.mesto}))
       return {banovo:natpisi.find(x=>x.mesto==='Beograd (Banovo Brdo)')?.tekst,
         zarkovo:natpisi.find(x=>x.mesto==='Beograd (Žarkovo)')?.tekst}
-    })`)
+    })()`)
+    }
     assert.deepEqual(await natpis(14), {banovo:'Spomenik palim borcima Čukarice',zarkovo:'Spomenik palim borcima NOB'})
     assert.equal((await natpis(11)).banovo, 'Beograd (Banovo Brdo)')
   } finally {
@@ -654,6 +714,56 @@ test('lokator, pun ekran, strelice i fotografije trake su dugmad sa nazivom, dos
   ].map(d => d && {dugme: d.tagName === 'BUTTON', naziv: Boolean(d.getAttribute('aria-label') || d.textContent.trim() || d.querySelector('img')?.alt)})`)
   assert.equal(dugmad.length, 5)
   assert.deepEqual(dugmad, Array(5).fill({dugme: true, naziv: true}))
+})
+
+test('brzo kucanje pretražuje jednom posle zastoja, a Enter odmah', async () => {
+  await otvori()
+  const kucaj = `(tekst => { const p = document.querySelector('polje-pretraga input'); p.value = tekst; p.dispatchEvent(new Event('input', {bubbles: true})) })`
+  const brojac = await izvrsi(`(() => {
+    const p = document.querySelector('polje-pretraga'), pretrazi = p.pretrazi
+    window.pretraga = 0
+    p.pretrazi = () => { window.pretraga++; pretrazi.call(p) }
+    for (const tekst of ['T', 'Tj', 'Tje', 'Tjentište']) ${kucaj}(tekst)
+    return window.pretraga
+  })()`)
+  assert.equal(brojac, 0, 'bez pretrage dok se kuca')
+  assert.ok(Number(await sacekaj(BROJ, 'broj posle zastoja')) > 0)
+  assert.equal(await izvrsi('window.pretraga'), 1)
+  await izvrsi(`${kucaj}('Kozara'); document.querySelector('polje-pretraga input').dispatchEvent(new KeyboardEvent('keydown', {key: 'Enter'}))`)
+  assert.equal(await izvrsi('window.pretraga'), 2, 'Enter pretražuje odmah')
+  assert.ok(await izvrsi("document.querySelector('polje-pretraga').filtrirano.every(({spomenik}) => JSON.stringify(spomenik).includes('Kozar'))"))
+  await sleep(400)
+  assert.equal(await izvrsi('window.pretraga'), 2, 'odložena pretraga se ne ponavlja posle Enter-a')
+})
+
+test('Prikazi odmah obradi poslednji unos i pomeri mapu na nove rezultate', async () => {
+  await otvori()
+  const rezultat = await izvrsi(`(async()=>{
+    const p=document.querySelector('polje-pretraga'),{mapa}=await import('./klase/mapa.js')
+    p.polje.value='Tjentište';p.pretrazi();p.filteri.otvori()
+    p.polje.value='Kozara';p.polje.dispatchEvent(new Event('input',{bubbles:true}))
+    const original=mapa.fitBounds
+    let pozvano=0,poklapanje=false
+    mapa.fitBounds=function(granice,...opcije){
+      pozvano++
+      const kozara=document.querySelector('planer-rute').stavke.get('kozara').marker.dajPoziciju()
+      poklapanje=granice.contains(kozara)
+      return original.call(this,granice,...opcije)
+    }
+    try {
+      p.filteri.panel.querySelector('#prikazi').click()
+      const odmah={pozvano,poklapanje,ids:p.filtrirano.map(s=>s.spomenik.id),odlozena:p.odlozena!==undefined}
+      await new Promise(r=>setTimeout(r,400))
+      return {odmah,pozvanoKasnije:pozvano,idsKasnije:p.filtrirano.map(s=>s.spomenik.id)}
+    }finally{mapa.fitBounds=original}
+  })()`)
+  assert.equal(rezultat.odmah.pozvano,1)
+  assert.equal(rezultat.odmah.poklapanje,true,'mapa obuhvata Kozaru')
+  assert.ok(rezultat.odmah.ids.includes('kozara'))
+  assert.ok(!rezultat.odmah.ids.includes('tjentiste'))
+  assert.equal(rezultat.odmah.odlozena,false)
+  assert.equal(rezultat.pozvanoKasnije,1)
+  assert.deepEqual(rezultat.idsKasnije,rezultat.odmah.ids)
 })
 
 test('fotografija sa sajta se čuva za rad bez signala', async () => {

@@ -37,10 +37,7 @@ REFAKTOR
 - uklanjanje tehničkog duga
 
 OPTIMIZACIJA
-- donja traka se trenutno pomera na svako pomeranje mape i koči. uraditi da se osveži samo na drag end. ili bar dodati defer. 
-- koristiti klasične tehnike optimizacije pretrage, poput defer
 - od poslednje optimizacije količina podataka se više nego udvostručila. optimizovati sa stare mobilne uređaje sa sporim internetom (merenje: `alati/merenje.mjs`, [alati](docs/ALATI.md))
-- cilj je na svakom zumu prikazati približno sličan, najmanji mogući, broj ikona na ekranu
 
 MOBILNA APLIKACIJA
 - napraviti android aplikaciju nakon završetka obrade podataka ([plan](docs/ANDROID_APLIKACIJA.md))
