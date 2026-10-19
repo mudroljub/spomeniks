@@ -1,5 +1,7 @@
 // @ts-check
 // TODO: proslediti visina-slajdera kao props
+import {t} from '../utils/jezik.js'
+
 const style = document.createElement('style')
 
 const inicijalnoSlika = Math.max(1, Math.round(window.innerWidth / 70))
@@ -14,9 +16,11 @@ style.textContent = `
   }
 
   /* svg umesto znaka iz fonta, jer veliki font strci ispod ekrana i pravi belu traku */
-  span {
+  .strelica {
     -moz-user-select: none;
     align-items: center;
+    background: none;
+    border: none;
     color: #fff;
     cursor: pointer;
     display: flex;
@@ -29,7 +33,7 @@ style.textContent = `
     z-index: 1;
   }
 
-  span svg {
+  .strelica svg {
     height: calc(var(--visina-slajdera) * 0.7);
     width: calc(var(--visina-slajdera) * 0.32);
   }
@@ -73,6 +77,19 @@ style.textContent = `
     cursor: pointer;
   }
 
+  nav-slika button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    padding: 0;
+  }
+
+  nav-slika button:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: -2px;
+  }
+
   nav-slika small {
     background: #29241e;
     bottom: 0;
@@ -91,8 +108,13 @@ style.textContent = `
 
 `
 
-const praviStrelicu = tacke =>
-  `<svg viewBox="0 0 24 48" preserveAspectRatio="none"><polygon points="${tacke}" fill="currentColor"/></svg>`
+const praviStrelicu = (tacke, naziv) => {
+  const strelica = document.createElement('button')
+  strelica.className = 'strelica'
+  strelica.setAttribute('aria-label', naziv)
+  strelica.innerHTML = `<svg viewBox="0 0 24 48" preserveAspectRatio="none" aria-hidden="true"><polygon points="${tacke}" fill="currentColor"/></svg>`
+  return strelica
+}
 
 export default class Slajder extends HTMLElement {
   // slike su funkcije koje prave sliku, da se prave tek kad dodju na red
@@ -101,10 +123,8 @@ export default class Slajder extends HTMLElement {
     this.slike = slike
     this.style.display = slike.length ? 'flex' : 'none'
 
-    this.strelicaLeva = document.createElement('span')
-    this.strelicaLeva.innerHTML = praviStrelicu('0,24 17,0 24,0 9,24 24,48 17,48')
-    this.strelicaDesna = document.createElement('span')
-    this.strelicaDesna.innerHTML = praviStrelicu('24,24 7,0 0,0 15,24 0,48 7,48')
+    this.strelicaLeva = praviStrelicu('0,24 17,0 24,0 9,24 24,48 17,48', t('ranijeSlike'))
+    this.strelicaDesna = praviStrelicu('24,24 7,0 0,0 15,24 0,48 7,48', t('sledeceSlike'))
     this.strelicaDesna.id = 'strelica-desna'
     this.traka = document.createElement('div')
 

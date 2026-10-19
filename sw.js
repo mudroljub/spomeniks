@@ -1,5 +1,7 @@
 // rad bez signala: aplikacija i podaci se cuvaju odmah, a delovi mape i slike kad se jednom pogledaju
-const APLIKACIJA = 'spomenici-aplikacija'
+// Promeni pri objavi izmena koda ili JSON podataka (docs/ALATI.md).
+const VERZIJA = '2026-10-19-1'
+const APLIKACIJA = `spomenici-aplikacija-${VERZIJA}`
 const MAPA = 'spomenici-mapa'
 const SLIKE = 'spomenici-slike'
 
@@ -59,10 +61,13 @@ const fajlovi = [
 ]
 
 self.addEventListener('install', e => {
-  e.waitUntil(caches.open(APLIKACIJA).then(kes => kes.addAll(fajlovi)).then(() => self.skipWaiting()))
+  // Nova verzija ceka zatvaranje starih kartica; njihov worker i kes ostaju netaknuti.
+  e.waitUntil(caches.open(APLIKACIJA).then(kes => kes.addAll(fajlovi)))
 })
 
-self.addEventListener('activate', e => e.waitUntil(self.clients.claim()))
+self.addEventListener('activate', e => e.waitUntil(caches.keys().then(imena => Promise.all(
+  imena.filter(ime => ime.startsWith('spomenici-aplikacija') && ime !== APLIKACIJA).map(ime => caches.delete(ime))
+))))
 
 const jeMapa = url => /tile\.openstreetmap\.org|server\.arcgisonline\.com/.test(url.hostname)
 const jeSlika = url => url.origin === location.origin && /\/slike\/(spomenici|male)\//.test(url.pathname)
@@ -77,58 +82,46 @@ const skrati = async ime => {
 
 let dodato = 0
 
-// mapa i slike se ne menjaju, pa prvo iz kesa
-const prvoKes = async (zahtev, ime) => {
-  const sacuvano = await caches.match(zahtev.url)
-  if (sacuvano) return sacuvano
+// neuspeo upis (npr. pun disk) ne sme da pokvari odgovor koji je vec stigao
+const sacuvaj = (e, ime, kljuc, odgovor) => {
+  const kopija = odgovor.clone()
+  e.waitUntil(caches.open(ime)
+    .then(kes => kes.put(kljuc, kopija))
+    .then(() => { if (ime !== APLIKACIJA && ++dodato % 100 === 0) return skrati(ime) })
+    .catch(() => {}))
+}
+
+// Mapa se uzima iz kesa; fotografija se u pozadini proverava jer se menja pod istim URL-om.
+const prvoKes = async (e, ime) => {
+  const zahtev = e.request
+  const kes = await caches.open(ime)
+  const sacuvano = await kes.match(zahtev.url)
+  if (sacuvano && ime === MAPA) return sacuvano
   // cors umesto no-cors, da bi odgovor mogao da se sacuva bez preteranog zauzimanja prostora
-  const odgovor = await fetch(zahtev.url, {
+  const mreza = fetch(zahtev.url, {
     mode: 'cors',
+    cache: ime === SLIKE ? 'no-cache' : 'default',
     credentials: 'omit',
     referrer: zahtev.referrer,
     referrerPolicy: zahtev.referrerPolicy,
-  }).catch(() => fetch(zahtev))
-  if (odgovor.ok && odgovor.type === 'cors') {
-    const kes = await caches.open(ime)
-    await kes.put(zahtev.url, odgovor.clone())
-    if (++dodato % 100 === 0) skrati(ime)
-  }
-  return odgovor
-}
-
-const rokMreze = 3000
-
-// stranice otvorene iz kesa uzimaju iz kesa i sve ostalo, da se ne pomesaju fajlovi stare i nove verzije
-const otvoreneIzKesa = new Set()
-
-const izKesa = zahtev => caches.match(zahtev, {ignoreSearch: true})
-  .then(sacuvano => sacuvano || Promise.reject(new Error('nema u kesu')))
-
-// aplikacija prvo sa mreze, da izmene stignu odmah; bez signala, ili kad mreza ne odgovori u roku, iz kesa,
-// a odgovor mreze ipak osvezi kes za sledece otvaranje
-const prvoMreza = e => {
-  const mreza = fetch(e.request).then(async odgovor => {
-    if (odgovor.ok) await (await caches.open(APLIKACIJA)).put(e.request, odgovor.clone())
+  }).catch(() => fetch(zahtev)).then(odgovor => {
+    if (odgovor.ok) sacuvaj(e, ime, zahtev.url, odgovor)
     return odgovor
   })
   e.waitUntil(mreza.catch(() => {}))
-  if (otvoreneIzKesa.has(e.clientId)) return izKesa(e.request).catch(() => mreza)
+  return sacuvano || mreza
+}
 
-  let stiglo = false
-  mreza.then(() => stiglo = true, () => {})
-  const umestoMreze = () => izKesa(e.request).then(sacuvano => {
-    if (e.resultingClientId) otvoreneIzKesa.add(e.resultingClientId)
-    return sacuvano
-  })
-  const posleRoka = new Promise(r => setTimeout(r, rokMreze))
-    .then(() => stiglo ? Promise.reject(new Error('mreza je stigla')) : umestoMreze())
-  return Promise.any([mreza.catch(umestoMreze), posleRoka])
+// Instalirani resursi se nikada ne prepisuju pojedinacnim zahtevima drugih kartica.
+const izIzdanja = async e => {
+  const kes = await caches.open(APLIKACIJA)
+  return await kes.match(e.request, {ignoreSearch: true}) || fetch(e.request)
 }
 
 self.addEventListener('fetch', e => {
   if (e.request.method !== 'GET') return
   const url = new URL(e.request.url)
-  if (jeMapa(url)) e.respondWith(prvoKes(e.request, MAPA))
-  else if (jeSlika(url)) e.respondWith(prvoKes(e.request, SLIKE))
-  else if (url.origin === location.origin) e.respondWith(prvoMreza(e))
+  if (jeMapa(url)) e.respondWith(prvoKes(e, MAPA))
+  else if (jeSlika(url)) e.respondWith(prvoKes(e, SLIKE))
+  else if (url.origin === location.origin) e.respondWith(izIzdanja(e))
 })

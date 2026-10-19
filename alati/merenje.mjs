@@ -78,5 +78,5 @@ for (const [zahtev, url] of Object.entries(adrese)) {
   grupe[grupa].kb += (bajtovi[zahtev] || 0) / 1024
 }
 console.log('preneto:', Object.entries(grupe).map(([g, {zahteva, kb}]) => `${g} ${zahteva}/${Math.round(kb)} KB`).join(', '))
-zatvori()
+await zatvori()
 process.exit(0)

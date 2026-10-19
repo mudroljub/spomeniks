@@ -25,5 +25,5 @@ if (skript) {
 await sleep(Number(cekanje))
 const {result} = await send('Page.captureScreenshot', {format: 'png'})
 writeFileSync(izlaz, Buffer.from(result.data, 'base64'))
-zatvori()
+await zatvori()
 process.exit(0)

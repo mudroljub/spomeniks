@@ -76288,6 +76288,9 @@
       "lng": 21.656361
     },
     "mesto": "Bobovište",
+    "slika": "slike/spomenici/boboviste-spomen-cesma.webp",
+    "slikaOdnos": 1.481,
+    "slikaPotpis": "HeritagePhotogrammetry, CC BY 4.0",
     "naziv": "Spomen-česma",
     "godina": "1953",
     "vrsta": "spomen-obelezje",
@@ -118617,11 +118620,13 @@
   {
     "id": "lipovac-kameni-beleg-na-obloj-glavi-obelezava-mest",
     "koordinate": {
-      "lat": 43.55173,
-      "lng": 21.81447
+      "lat": 43.562824,
+      "lng": 21.837502
     },
-    "priblizno": true,
     "mesto": "Lipovac",
+    "slika": "slike/spomenici/lipovac-kameni-beleg-na-obloj-glavi-obelezava-mest.webp",
+    "slikaOdnos": 0.988,
+    "slikaPotpis": "HeritagePhotogrammetry, CC BY 4.0",
     "naziv": "Kameni beleg na Obloj glavi obeležava mesto na kome je obrazovan Ozrenski partizanski odred",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -130251,5 +130256,125 @@
     ],
     "vrsta": "bista",
     "drzava": "Croatia"
+  },
+  {
+    "id": "donja-jajina-bista-dimitrija-jovanovica",
+    "koordinate": {
+      "lat": 42.968648,
+      "lng": 21.939833
+    },
+    "mesto": "Donja Jajina",
+    "slika": "slike/spomenici/donja-jajina-bista-dimitrija-jovanovica.webp",
+    "slikaOdnos": 0.741,
+    "slikaPotpis": "HeritagePhotogrammetry, CC BY 4.0",
+    "naziv": "Bista Dimitrija Jovanovića",
+    "nazivEn": "Bust of Dimitrije Jovanović",
+    "godina": "1973",
+    "autor": "S. Cvetković",
+    "posveta": "Dimitrija Jovanovića, političkog komesara bataljona poginulog 1944.",
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "turekovac-bista-mose-pijade",
+    "koordinate": {
+      "lat": 42.984223,
+      "lng": 21.882246
+    },
+    "mesto": "Turekovac",
+    "slika": "slike/spomenici/turekovac-bista-mose-pijade.webp",
+    "slikaOdnos": 0.741,
+    "slikaPotpis": "HeritagePhotogrammetry, CC BY 4.0",
+    "naziv": "Bista Moše Pijade",
+    "nazivEn": "Bust of Moša Pijade",
+    "posveta": [
+      "Q453472"
+    ],
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "leskovac-bista-stojana-ljubica",
+    "koordinate": {
+      "lat": 42.994969,
+      "lng": 21.946255
+    },
+    "mesto": "Leskovac",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%91%D0%B8%D1%81%D1%82%D0%B0_%D0%A1%D1%82%D0%BE%D1%98%D0%B0%D0%BD%D0%B0_%D0%89%D1%83%D0%B1%D0%B8%D1%9B%D0%B0_%D1%83_%D0%9B%D0%B5%D1%81%D0%BA%D0%BE%D0%B2%D1%86%D1%83",
+    "slika": "slike/spomenici/leskovac-bista-stojana-ljubica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Omladinskiklubanciki, CC BY-SA 4.0",
+    "naziv": "Bista Stojana Ljubića",
+    "godina": "1953",
+    "autor": "Dušan Nikolić",
+    "posveta": "Stojana Ljubića",
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "leskovac-bista-vlade-djordjevica",
+    "koordinate": {
+      "lat": 42.993715,
+      "lng": 21.936797
+    },
+    "mesto": "Leskovac",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%91%D0%B8%D1%81%D1%82%D0%B0_%D0%92%D0%BB%D0%B0%D0%B4%D0%B5_%D0%82%D0%BE%D1%80%D1%92%D0%B5%D0%B2%D0%B8%D1%9B%D0%B0_%D1%83_%D0%9B%D0%B5%D1%81%D0%BA%D0%BE%D0%B2%D1%86%D1%83",
+    "slika": "slike/spomenici/leskovac-bista-vlade-djordjevica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Omladinskiklubanciki, CC BY-SA 4.0",
+    "naziv": "Bista Vlade Đorđevića",
+    "posveta": "Vlade Đorđevića",
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "leskovac-hisar-bista-blagoja-nikolica",
+    "koordinate": {
+      "lat": 42.993438,
+      "lng": 21.937042
+    },
+    "mesto": "Leskovac (Hisar)",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%91%D0%B8%D1%81%D1%82%D0%B0_%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D1%98%D0%B0_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B8%D1%9B%D0%B0",
+    "naziv": "Bista Blagoja Nikolića",
+    "godina": "1953",
+    "autor": "Dušan Nikolić",
+    "posveta": "Blagoja Nikolića",
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "leskovac-hisar-bista-koste-stamenkovica",
+    "koordinate": {
+      "lat": 42.99333,
+      "lng": 21.936236
+    },
+    "mesto": "Leskovac (Hisar)",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%91%D0%B8%D1%81%D1%82%D0%B0_%D0%9A%D0%BE%D1%81%D1%82%D0%B5_%D0%A1%D1%82%D0%B0%D0%BC%D0%B5%D0%BD%D0%BA%D0%BE%D0%B2%D0%B8%D1%9B%D0%B0",
+    "slika": "slike/spomenici/leskovac-hisar-bista-koste-stamenkovica.webp",
+    "slikaOdnos": 0.642,
+    "slikaPotpis": "HeritagePhotogrammetry, CC BY 4.0",
+    "naziv": "Bista Koste Stamenkovića",
+    "godina": "1951",
+    "posveta": [
+      "Q13639018"
+    ],
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "leskovac-bista-radeta-metalca",
+    "koordinate": {
+      "lat": 43.002167,
+      "lng": 21.942973
+    },
+    "mesto": "Leskovac",
+    "slika": "slike/spomenici/leskovac-bista-radeta-metalca.webp",
+    "slikaOdnos": 0.642,
+    "slikaPotpis": "HeritagePhotogrammetry, CC BY 4.0",
+    "naziv": "Bista Radeta Metalca",
+    "nazivEn": "Bust of Rade Metalac",
+    "posveta": "Radeta Metalca (Blagoja Ristića)",
+    "vrsta": "bista",
+    "drzava": "Serbia"
   }
 ]

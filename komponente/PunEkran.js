@@ -16,7 +16,7 @@ class PunEkran extends HTMLElement {
           padding: 4px;
         }
       </style>
-      <img src="slike/ui/punekran.svg" class="ikonica" id="ikonica" width="32" alt="pun ekran" title="Full screen">
+      <button class="dugme-ikonica" title="Full screen" aria-label="pun ekran"><img src="slike/ui/punekran.svg" class="ikonica" id="ikonica" width="32" alt=""></button>
     `
   }
 

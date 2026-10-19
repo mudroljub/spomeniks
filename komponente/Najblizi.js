@@ -69,10 +69,19 @@ style.textContent = `
 
   li {
     border-bottom: 1px solid #eee;
+  }
+
+  li button {
+    background: none;
+    border: none;
+    color: inherit;
     cursor: pointer;
     display: flex;
+    font: inherit;
     gap: 12px;
     padding: 12px 16px;
+    text-align: left;
+    width: 100%;
   }
 
   .km {
@@ -104,6 +113,7 @@ export default class Najblizi extends HTMLElement {
     this.dugme.hidden = true
     this.dugme.addEventListener('click', () => {
       mapa.fire('izbor', {marker: null})
+      this.popuni()
       this.panel.hidden = false
     })
 
@@ -129,21 +139,30 @@ export default class Najblizi extends HTMLElement {
     this.prikazi()
   }
 
+  // spisak se pravi tek kad je otvoren, a ne pri svakom GPS signalu i filtriranju
   prikazi() {
     if (!this.pozicija) return
     this.dugme.hidden = false
-    const najblize = this.stavke
-      .map(stavka => ({stavka, metara: mapa.distance(this.pozicija, stavka.marker.dajPoziciju())}))
-      .sort((a, b) => a.metara - b.metara)
-      .slice(0, brojNajblizih)
+    if (!this.panel.hidden) this.popuni()
+  }
 
+  // cuva se samo prvih nekoliko, umesto da se poreda cela baza
+  popuni() {
+    const najblize = []
+    for (const stavka of this.stavke) {
+      const metara = mapa.distance(this.pozicija, stavka.marker.dajPoziciju())
+      if (najblize.length === brojNajblizih && metara >= najblize[brojNajblizih - 1].metara) continue
+      const mesto = najblize.findIndex(n => n.metara > metara)
+      najblize.splice(mesto < 0 ? najblize.length : mesto, 0, {stavka, metara})
+      najblize.length = Math.min(najblize.length, brojNajblizih)
+    }
     this.lista.replaceChildren(...najblize.map(({stavka, metara}) => this.praviRed(stavka, metara)))
   }
 
   praviRed(stavka, metara) {
     const {mesto, stanje} = stavka.spomenik
     const red = document.createElement('li')
-    red.innerHTML = '<span class="km"></span><span><span class="naziv"></span><span class="opis"></span></span>'
+    red.innerHTML = '<button><span class="km"></span><span><span class="naziv"></span><span class="opis"></span></span></button>'
     red.querySelector('.km').textContent = formatirajRazdaljinu(metara)
     const naziv = nazivSpomenika(stavka.spomenik)
     red.querySelector('.naziv').textContent = naziv || mesto

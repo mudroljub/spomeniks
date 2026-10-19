@@ -21,6 +21,13 @@ test('oznake se učitavaju sa uređaja, a oštećen zapis ih ne ruši', async ()
   assert.equal((await import('../../utils/oznake.js?sacuvane')).dajOznaku('tjentiste'), 'lista')
   localStorage.setItem('spomenici-poseta', '{neispravan')
   assert.equal((await import('../../utils/oznake.js?ostecene')).dajOznaku('tjentiste'), undefined)
+  localStorage.setItem('spomenici-poseta', JSON.stringify({tjentiste: 'lista', kozara: 'nepoznata', sutjeska: 7}))
+  const mesovite = await import('../../utils/oznake.js?nepoznate')
+  assert.equal(mesovite.dajOznaku('tjentiste'), 'lista')
+  assert.equal(mesovite.dajOznaku('kozara'), undefined)
+  assert.equal(mesovite.dajOznaku('sutjeska'), undefined)
+  localStorage.setItem('spomenici-poseta', JSON.stringify(['lista']))
+  assert.equal((await import('../../utils/oznake.js?niz')).dajOznaku('0'), undefined)
 })
 
 test('označavanje radi u memoriji kada pregledač zabrani skladište', async t => {

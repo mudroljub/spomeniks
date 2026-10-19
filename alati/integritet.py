@@ -122,12 +122,19 @@ for s in d:
 # isto mesto dvaput; priblizne tacke (centar sela) namerno dele isto mesto
 def m(a, b):
     return 6371000 * math.acos(min(1, math.sin(math.radians(a['lat'])) * math.sin(math.radians(b['lat'])) + math.cos(math.radians(a['lat'])) * math.cos(math.radians(b['lat'])) * math.cos(math.radians(b['lng'] - a['lng']))))
-for x in range(len(d)):
-    for y in range(x + 1, len(d)):
-        if d[x].get('priblizno') or d[y].get('priblizno'): continue
-        a, b = d[x]['koordinate'], d[y]['koordinate']
-        if abs(a['lat'] - b['lat']) < 0.0005 and abs(a['lng'] - b['lng']) < 0.0007 and m(a, b) < 30:
-            greske['manje od 30 m'].append((d[x]['id'], d[y]['id'], round(m(a, b))))
+# mreza celija velicine praga: bliski par je u istoj ili susednoj celiji, pa se ne porede svi sa svima
+celije = collections.defaultdict(list)
+for i, s in enumerate(d):
+    if not s.get('priblizno'):
+        celije[(math.floor(s['koordinate']['lat'] / 0.0005), math.floor(s['koordinate']['lng'] / 0.0007))].append(i)
+parovi = set()
+for (red, kolona), clanovi in celije.items():
+    for susedi in (celije.get((red + dr, kolona + dk), ()) for dr in (-1, 0, 1) for dk in (-1, 0, 1)):
+        parovi.update((x, y) for x in clanovi for y in susedi if x < y)
+for x, y in sorted(parovi):
+    a, b = d[x]['koordinate'], d[y]['koordinate']
+    if abs(a['lat'] - b['lat']) < 0.0005 and abs(a['lng'] - b['lng']) < 0.0007 and m(a, b) < 30:
+        greske['manje od 30 m'].append((d[x]['id'], d[y]['id'], round(m(a, b))))
 for t in ture:
     oblast = t.get('oblast', {})
     drzave_ture = oblast.get('drzave')

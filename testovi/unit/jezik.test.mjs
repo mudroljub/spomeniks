@@ -27,3 +27,25 @@ test('tekst sa više vrednosti i nazivi država', () => {
   assert.equal(nazivDrzave('Bosnia and Herzegovina'), 'Bosna i Hercegovina')
   assert.equal(nazivDrzave('Nepoznata'), 'Nepoznata')
 })
+
+test('izbor jezika se pamti na uređaju, a bez skladišta ostaje u adresi', async t => {
+  const {promeniJezik} = await import('../../utils/jezik.js')
+  const ponovo = t.mock.method(location, 'reload', () => {})
+  const prelaz = t.mock.method(location, 'assign', () => {})
+  promeniJezik('en')
+  assert.equal(localStorage.getItem('spomenici-jezik'), 'en')
+  assert.equal(ponovo.mock.callCount(), 1)
+  localStorage.removeItem('spomenici-jezik')
+
+  t.mock.method(localStorage, 'setItem', () => { throw new Error('zabranjen upis') })
+  promeniJezik('en')
+  assert.equal(prelaz.mock.calls[0].arguments[0], 'https://spomenici.test/?jezik=en')
+
+  const adresa = {href: location.href, search: location.search}
+  Object.assign(location, {href: 'https://spomenici.test/?jezik=en', search: '?jezik=en'})
+  try {
+    assert.equal((await import('../../utils/jezik.js?iz-adrese')).jezik, 'en')
+  } finally {
+    Object.assign(location, adresa)
+  }
+})
