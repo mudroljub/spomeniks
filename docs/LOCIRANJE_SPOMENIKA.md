@@ -2,7 +2,7 @@
 
 Otvoreni slučajevi, razrešeni identiteti koje ne treba ponovo unositi i veze ka dokazima. Aktuelni skup je u `data/bez_lokacije.json` i približnim markerima mape; stare brojke prolaza nisu današnji preostali obim. Prioritet je verovatnoća uspeha uz konkretan izvor, ne redosled tabele.
 
-Raniji ciljani prolaz je završen, žetva CG zatvorena, a šira hrvatska provera obustavljena po odluci korisnika. Ove beleške same ne otvaraju novi zadatak; trenutni odobreni posao je u [planu žetve](PLAN_ZETVE.md).
+Raniji ciljani prolaz je završen, žetva CG zatvorena, a šira hrvatska provera obustavljena po odluci korisnika. Ove beleške same ne otvaraju novi zadatak; prioriteti izvora su u [IZVORI.md](IZVORI.md#prioriteti).
 
 ## Saopštenja X 1974: primena 19.10.2026
 
