@@ -453,8 +453,7 @@ export default class Detalji extends HTMLElement {
       const imeLink = this.autori[ime]
         ? `<a href="${escapeHtml(this.autori[ime])}" target="_blank">${escapeHtml(ime)}</a>`
         : escapeHtml(ime)
-      const uloga = spomen.ulogeAutora?.[ime]
-      return uloga ? `${imeLink} — ${t(uloga)}` : imeLink
+      return imeLink
     }).join(' & ')
     return `${t(autori.length > 1 ? 'autori' : 'grupaAutor')}: ${imena}`
   }

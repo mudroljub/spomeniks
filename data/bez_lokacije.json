@@ -167,12 +167,6 @@
         "opis": "OSM historic=monument kod vrha, bez imena"
       }
     ],
-    "proveraLokacije": {
-      "datum": "2026-10-16",
-      "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/6827/",
-      "ishod": "nije-potvrđen-identitet",
-      "napomena": "ID6827 je ploča padlim planincima na domu, ne potvrda traženog spomenika završnim borbama. Ploča je uklonjena pri obnovi2022, ali ponovo zabeležena2024; ne označavati je uklonjenom danas i ne poistovećivati sa neimenovanim OSM kandidatom."
-    },
     "posveta": "borbama za konačno oslobođenje"
   },
   {
@@ -3774,15 +3768,6 @@
     "posveta": "na mjestu rođenja narodnog heroja Mire Popare"
   },
   {
-    "id": "crno-jezero-spomen-reljef-na-mjestu-strijeljanja-z",
-    "mesto": "Crno Jezero",
-    "naziv": "Spomen-reljef na mjestu strijeljanja žrtava fašističkog terora",
-    "nazivEn": "Memorial relief at site of execution of Victims of Fascist Terror",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Canyon wall"
-  },
-  {
     "id": "crno-jezero-spomen-ploca-zrtvama-fasistickog-teror",
     "mesto": "Crno Jezero",
     "naziv": "Spomen-ploča žrtvama fašističkog terora",
@@ -3978,17 +3963,6 @@
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Dom Kulture"
-  },
-  {
-    "id": "crno-jezero-spomenik-crna-ruka-zrtvama-fasistickog",
-    "mesto": "Crno Jezero",
-    "naziv": "Spomenik „Crna ruka“ žrtvama fašističkog terora",
-    "nazivEn": "'Crna Ruka' monument to Victims of Fascist Terror",
-    "godina": "1973",
-    "autor": "Ljupko Antunović",
-    "stanje": "rusevine",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "srednji-dubovik-spomen-ploca-na-mjestu-partizanske",
@@ -8432,16 +8406,6 @@
     "adresa": "Gimnazija - courtyard"
   },
   {
-    "id": "dubocac-spomenik-oslobodjenju-dervente",
-    "mesto": "Dubočac",
-    "naziv": "Spomenik oslobođenju Dervente",
-    "nazivEn": "Monument to commemorate the Liberation of Derventa",
-    "godina": "posle 1962",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Opposite mosque"
-  },
-  {
     "id": "pojezna-spomen-ploca-formiranju-prvog-partizanskog",
     "mesto": "Pojezna",
     "naziv": "Spomen-ploča formiranju prvog partizanskog odreda",
@@ -10757,16 +10721,6 @@
     ]
   },
   {
-    "id": "popovici-spomenik-palim-borcima",
-    "mesto": "Popovići",
-    "naziv": "Spomenik palim borcima",
-    "nazivEn": "Monument to fallen fighters",
-    "stanje": "ostecen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Former elementary school"
-  },
-  {
     "id": "vagan-spomenik-palim-borcima-i-zrtvama-fasistickog",
     "mesto": "Vagan",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
@@ -12584,15 +12538,6 @@
     "adresa": "Kuk"
   },
   {
-    "id": "srnetica-spomenik-palim-borcima",
-    "mesto": "Srnetica",
-    "naziv": "Spomenik palim borcima",
-    "nazivEn": "Monument to fallen fighters",
-    "godina": "1955",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "zijemlje-spomen-ploca-nob",
     "mesto": "Zijemlje",
     "naziv": "Spomen-ploča NOB",
@@ -13700,14 +13645,6 @@
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Turning from main road to train station"
-  },
-  {
-    "id": "budelj-gornji-spomenik-clanovima-porodice-skondric",
-    "mesto": "Budelj Gornji",
-    "naziv": "Spomenik članovima porodice Škondrić",
-    "nazivEn": "Monument to members of the Škondrić family",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "kljuc-spomen-ploca-oslobodjenju-kljuca-u-oktobru-1",
@@ -15320,17 +15257,6 @@
     "adresa": "Gornji Grad, Tepet"
   },
   {
-    "id": "vaganj-spomenik-prvoj-borbi-cetinskog-partizanskog",
-    "mesto": "Vaganj",
-    "naziv": "Spomenik prvoj borbi Cetinskog partizanskog odreda u augustu 1941. godine",
-    "nazivEn": "Monument to the first battle of the Cetinska Partisan Detachment in August 1941",
-    "stanje": "ostecen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Close to border crossing",
-    "posveta": "prvoj borbi Cetinskog partizanskog odreda u augustu 1941. godine"
-  },
-  {
     "id": "livno-spomen-ploca-viii-korpusu-novj",
     "mesto": "Livno",
     "naziv": "Spomen-ploča VIII korpusu NOVJ",
@@ -16380,17 +16306,6 @@
     "posveta": "Sulejmana Omerovića Cara"
   },
   {
-    "id": "brezici-spomenik-pripremama-za-ustanak",
-    "mesto": "Brezici",
-    "naziv": "Spomenik pripremama za ustanak",
-    "nazivEn": "Monument to commemorate preparations for the Uprising",
-    "godina": "1958",
-    "autor": "Vareno Korošec",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Village cemetery"
-  },
-  {
     "id": "osve-spomenik-67-zrtava-fasistickog-terora",
     "mesto": "Ošve",
     "naziv": "Spomenik 67 žrtava fašističkog terora",
@@ -16410,17 +16325,6 @@
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Elementary school (former)"
-  },
-  {
-    "id": "brezici-spomen-cesma-bozi-spasojevicu",
-    "mesto": "Brezici",
-    "naziv": "Spomen-česma Boži Spasojeviću",
-    "nazivEn": "Fountain to commemorate Božo Spasojević",
-    "godina": "1956",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Pizdinovac spring, close to former elementary school",
-    "posveta": "Boži Spasojeviću"
   },
   {
     "id": "brezici-spomen-ploca-komandi-ozrenskog-partizansko",
@@ -22163,10 +22067,6 @@
     "nazivEn": "Monument to the NOB",
     "godina": "1951",
     "autor": "Slavko Đojić & Marko Mašić",
-    "ulogeAutora": {
-      "Slavko Đojić": "designer",
-      "Marko Mašić": "mason"
-    },
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "In front of community hall"
@@ -29066,13 +28966,7 @@
     "godina": "1950",
     "vrsta": "muzej",
     "drzava": "Croatia",
-    "adresa": "Kapucinska 20 (istorijska adresa: Ulica V zemaljske konferencije 20)",
-    "proveraLokacije": {
-      "datum": "2026-10-18",
-      "izvor": "https://min-kulture.gov.hr/izdvojeno/kulturna-bastina/hrvatsko-vijece-za-kulturna-dobra/biljeske-sa-sjednica-21998/21998",
-      "ishod": "istorijska-adresa-potvrđena-muzej-prestao-s-radom",
-      "napomena": "Kapucinska 20 je sadašnja adresa, a Bihaćka 20 stara; raniji izvor navodi Ulicu V zemaljske konferencije 20. Evidencija uklonjenih spomenika navodi prestanak rada muzeja; tačne koordinate zgrade nisu proverene."
-    }
+    "adresa": "Kapucinska 20 (istorijska adresa: Ulica V zemaljske konferencije 20)"
   },
   {
     "id": "zagreb-gajnice-zgrada-u-kojoj-je-zivio-i-radio-jos",
@@ -29472,13 +29366,7 @@
     "naziv": "Srne",
     "autor": "Jovan Soldatović",
     "vrsta": "spomenik",
-    "drzava": "Serbia",
-    "proveraLokacije": {
-      "datum": "2026-10-16",
-      "ishod": "preskoceno-uklonjeno",
-      "izvor": "https://www.kurir.rs/crna-hronika/1902329/beskrupulozno-ukradena-mesingana-ploca-sa-muzeja-u-sumaricama",
-      "napomena": "Izveštaj iz 2015. prenosi izjavu kustoskinje da je skulptura srne ranije ukradena; povratak nije potvrđen. Ne locirati prema staroj knjizi bez novog dokaza."
-    }
+    "drzava": "Serbia"
   },
   {
     "id": "makarska-muzej-revolucije",
@@ -30143,16 +30031,6 @@
     "adresa": "Trg maršala Tita"
   },
   {
-    "id": "zaton-memorijalni-zid-palim-borcima-i-zrtvama-fasi",
-    "mesto": "Zaton",
-    "naziv": "Memorijalni zid palim borcima i žrtvama fašističkog terora i rata",
-    "godina": "1977",
-    "autor": "Branko Vukorepa",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Croatia",
-    "adresa": "Trg maršala Tita, sjeverno od spomenika s borcem"
-  },
-  {
     "id": "zaton-spomenik-zrtvama-strijeljanja-13-lipnja-1943",
     "mesto": "Zaton",
     "naziv": "Spomenik žrtvama strijeljanja 13. lipnja 1943.",
@@ -30192,14 +30070,7 @@
         "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/48/",
         "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
       }
-    ],
-    "proveraOpstanka": {
-      "datum": "2026-10-16",
-      "prethodniId": "gerovo-mladje-spomenik-diverzantskoj-akciji-1941",
-      "ishod": "nepotvrđen",
-      "razlog": "Sken stare štampane fotografije, bez kasnijeg dokaza opstanka. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
-    }
+    ]
   },
   {
     "id": "tajcari-spomenik-prvom-zboru-za-odlazak-u-partizan",
@@ -30215,14 +30086,7 @@
         "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/58/",
         "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
       }
-    ],
-    "proveraOpstanka": {
-      "datum": "2026-10-16",
-      "prethodniId": "tajcari-spomenik-prvom-zboru-za-odlazak-u",
-      "ishod": "nepotvrđen",
-      "razlog": "Nedatirana reprodukcija štampane fotografije. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
-    }
+    ]
   },
   {
     "id": "prezid-zbitke-spomenik-danijelu-ozboltu",
@@ -30238,13 +30102,6 @@
         "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
       }
     ],
-    "proveraOpstanka": {
-      "datum": "2026-10-16",
-      "prethodniId": "prezid-zbitke-spomenik-danijelu-ozboltu",
-      "ishod": "nepotvrđen",
-      "razlog": "Nedatirana reprodukcija fotografije i natpisa iz štampe. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
-    },
     "posveta": "Danijelu Ožboltu"
   },
   {
@@ -30261,13 +30118,6 @@
         "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
       }
     ],
-    "proveraOpstanka": {
-      "datum": "2026-10-16",
-      "prethodniId": "prezid-zbitke-spomenik-jakovu-kovacu",
-      "ishod": "nepotvrđen",
-      "razlog": "Nedatirana reprodukcija fotografije i natpisa iz štampe. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
-    },
     "posveta": "Jakovu Kovaču"
   },
   {
@@ -30284,14 +30134,7 @@
         "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/63/",
         "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
       }
-    ],
-    "proveraOpstanka": {
-      "datum": "2026-10-16",
-      "prethodniId": "prezid-zbitke-spomenik-strijeljanim-partizanima",
-      "ishod": "nepotvrđen",
-      "razlog": "Obe slike su nedatirane reprodukcije; godina podizanja 1983. ne datira kasnije stanje. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
-    }
+    ]
   },
   {
     "id": "kavaliri-spomenik-strijeljanim-zrtvama-fasizma",
@@ -30306,14 +30149,7 @@
         "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/65/",
         "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
       }
-    ],
-    "proveraOpstanka": {
-      "datum": "2026-10-16",
-      "prethodniId": "kavaliri-spomenik-strijeljanim-zrtvama-fasizma",
-      "ishod": "nepotvrđen",
-      "razlog": "Nedatirana reprodukcija štampane fotografije. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
-    }
+    ]
   },
   {
     "id": "muhovci-spomenik-strijeljanim-partizanima",
@@ -30328,14 +30164,7 @@
         "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/67/",
         "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
       }
-    ],
-    "proveraOpstanka": {
-      "datum": "2026-10-16",
-      "prethodniId": "muhovci-spomenik-strijeljanim-partizanima",
-      "ishod": "nepotvrđen",
-      "razlog": "Nedatirana reprodukcija štampane fotografije. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
-    }
+    ]
   },
   {
     "id": "celovci-spomenik-vinku-ozboltu",
@@ -30352,13 +30181,6 @@
         "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
       }
     ],
-    "proveraOpstanka": {
-      "datum": "2026-10-16",
-      "prethodniId": "celovci-spomenik-vinku-ozboltu",
-      "ishod": "nepotvrđen",
-      "razlog": "Nedatirana reprodukcija fotografije i natpisa iz štampe. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
-    },
     "posveta": "Vinku Ožboltu"
   },
   {
@@ -30374,14 +30196,7 @@
         "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/80/",
         "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
       }
-    ],
-    "proveraOpstanka": {
-      "datum": "2026-10-16",
-      "prethodniId": "gerovski-kraj-jurjev-laz-spomenik-partizanskom",
-      "ishod": "nepotvrđen",
-      "razlog": "Nedatirana reprodukcija; nije nađen zaseban noviji dokaz opstanka. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
-    }
+    ]
   },
   {
     "id": "jazbine-spomenik-partizanskom-stozeru",
@@ -30396,14 +30211,7 @@
         "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/99/",
         "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
       }
-    ],
-    "proveraOpstanka": {
-      "datum": "2026-10-16",
-      "prethodniId": "jazbine-spomenik-partizanskom-stozeru",
-      "ishod": "nepotvrđen",
-      "razlog": "Nedatirana reprodukcija; knjiški nalaz o drugim Jazbinama nije dokaz rušenja ovoga objekta. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
-    }
+    ]
   },
   {
     "id": "vinkovci-spomenik-mirku-romcevicu",
@@ -30421,13 +30229,6 @@
         "opis": "Ranija tačka iz aplikacije; naziv i fotografija se odnose na različite objekte. Identitet i povratak nisu potvrđeni."
       }
     ],
-    "proveraOpstanka": {
-      "datum": "2026-10-16",
-      "prethodniId": "vinkovci",
-      "ishod": "nepotvrđen-identitet",
-      "razlog": "Knjiga razlikuje uklonjeni spomenik Mirku Romčeviću kod stanice od uklonjenog spomenika oslobodiocima i tenkistima na prilazu gradu. Naša fotografija odgovara drugom objektu (sl. 762), a naziv i godina prvom. Kasniji dokaz povratka i pouzdan identitet tačke nisu pronađeni. Povučeno kao nepotvrđeno, bez tvrdnje o stanju u 2026. Fotografije su sačuvane u arhivi.",
-      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#nastavak-provere-hrvatske-prvi-rizični-slučajevi-2026-10-16"
-    },
     "posveta": "Mirku Romčeviću"
   },
   {
@@ -30443,14 +30244,7 @@
         "izvor": "https://commons.wikimedia.org/wiki/File%3AWorld_War_II_monument_in_Borovo_Naselje.jpg",
         "opis": "Ranija javna tačka, nepotvrđena ovom proverom; ne koristiti bez razrešenja identiteta i opstanka."
       }
-    ],
-    "proveraOpstanka": {
-      "datum": "2026-10-16",
-      "prethodniId": "djeletovci-spomenik-nob",
-      "ishod": "nepotvrđena-destinacija",
-      "razlog": "Naziv i opis Commons fotografije govore Borovo Naselje, a ugrađeni EXIF GPS i naš marker vode u Đeletovce. Datum snimanja je 10.4.2021. Fotografija obeliska sa zvezdom i srpom/čekićem odgovara opisu borovskog obeležja, ali nezavisna precizna tačka nije potvrđena. Izveštaj iz jula 2020. potvrđuje obnovu spomenika u Borovu naselju, ne ovu GPS tačku. Povučeno zbog nesaglasne lokacije, a ne zbog rušenja; zapis i fotografije ostaju sačuvani.",
-      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#nastavak-provere-hrvatske-identiteti-i-kasniji-dokazi-2026-10-16"
-    }
+    ]
   },
   {
     "id": "sekulari-spomenik-palim-borcima-sa-terena-sekulara",
@@ -35247,5 +35041,15 @@
     "vrsta": "spomenik",
     "drzava": "Croatia",
     "adresa": "Spomen-park Dotrščina"
+  },
+  {
+    "id": "zvecevo-spomenik-glasu-slavonije",
+    "mesto": "Zvečevo",
+    "naziv": "Spomenik „Glasu Slavonije“",
+    "godina": "1963",
+    "stanje": "srusen",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia",
+    "adresa": "Kompleks na Zvečevu uništen devedesetih; tačno mesto nepoznato."
   }
 ]

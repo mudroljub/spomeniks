@@ -29,7 +29,7 @@ class IntegritetTest(unittest.TestCase):
             istaknuti = [s for s in zapisi if u_istaknutima(s) or not razvrstaj]
             ostali = [s for s in zapisi if s not in istaknuti]
             for ime, podaci in [('spomenici-istaknuti', istaknuti), ('spomenici-ostali', ostali), ('ture', []), ('autori', {}), ('posvete', posvete or {}),
-                                ('bez_lokacije', bez_lokacije or [])]:
+                                ('bez_lokacije', bez_lokacije or []), ('provere-spomenika', {}), ('izvori-stanja', {})]:
                 (koren / f'data/{ime}.json').write_text(json.dumps(podaci), encoding='utf8')
             if knjiga is not None:
                 (koren / 'data/knjige/test.json').write_text(json.dumps(knjiga), encoding='utf8')

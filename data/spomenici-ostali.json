@@ -400,10 +400,6 @@
     "nazivEn": "Memorial Ossuary of the Romanija Fighters",
     "godina": "1951",
     "autor": "Kapetanović & Kratović",
-    "ulogeAutora": {
-      "Kapetanović": "designer",
-      "Kratović": "sculptor"
-    },
     "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -53207,9 +53203,6 @@
     "nazivEn": "Monument to commemorate 48 fallen fighters and Victims of Fascist Terror",
     "godina": "1957",
     "autor": "Dragutin Berić",
-    "ulogeAutora": {
-      "Dragutin Berić": "mason"
-    },
     "posveta": "48 palih boraca i žrtava fašističkog terora",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
@@ -60293,10 +60286,6 @@
     "nazivEn": "Monument to fallen fighters",
     "godina": "1953",
     "autor": "Slavko Đojić & Marko Mašić",
-    "ulogeAutora": {
-      "Slavko Đojić": "designer",
-      "Marko Mašić": "mason"
-    },
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -73408,10 +73397,6 @@
     "nazivEn": "Monument to the VI Eastern Bosnian Brigade",
     "godina": "1952",
     "autor": "Slavko Đojić & Marko Mašić",
-    "ulogeAutora": {
-      "Slavko Đojić": "designer",
-      "Marko Mašić": "mason"
-    },
     "posveta": [
       "Q16761390"
     ],
@@ -73429,10 +73414,6 @@
     "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
     "godina": "1951",
     "autor": "Slavko Đojić & Marko Mašić",
-    "ulogeAutora": {
-      "Slavko Đojić": "designer",
-      "Marko Mašić": "mason"
-    },
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -129038,5 +129019,189 @@
     "naziv": "Grobišče talcev",
     "vrsta": "spomen-groblje",
     "drzava": "Slovenia"
+  },
+  {
+    "id": "crno-jezero-spomen-reljef-na-mjestu-strijeljanja-z",
+    "koordinate": {
+      "lat": 44.870151,
+      "lng": 16.102814
+    },
+    "mesto": "Crno Jezero",
+    "naziv": "Spomen-reljef na mjestu strijeljanja žrtava fašističkog terora",
+    "nazivEn": "Memorial relief at site of execution of Victims of Fascist Terror",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "crno-jezero-spomenik-crna-ruka-zrtvama-fasistickog",
+    "koordinate": {
+      "lat": 44.870302,
+      "lng": 16.103772
+    },
+    "mesto": "Crno Jezero",
+    "naziv": "Spomenik „Crna ruka“ žrtvama fašističkog terora",
+    "nazivEn": "'Crna Ruka' monument to Victims of Fascist Terror",
+    "godina": "1973",
+    "autor": "Ljupko Antunović",
+    "stanje": "rusevine",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "dubocac-spomenik-oslobodjenju-dervente",
+    "koordinate": {
+      "lat": 45.043658,
+      "lng": 17.869718
+    },
+    "mesto": "Dubočac",
+    "naziv": "Spomenik oslobođenju Dervente",
+    "nazivEn": "Monument to commemorate the Liberation of Derventa",
+    "godina": "posle 1962",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "popovici-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 44.160331,
+      "lng": 16.696726
+    },
+    "mesto": "Popovići",
+    "naziv": "Spomenik palim borcima",
+    "nazivEn": "Monument to fallen fighters",
+    "stanje": "ostecen",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "srnetica-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 44.452056,
+      "lng": 16.596361
+    },
+    "priblizno": true,
+    "mesto": "Srnetica",
+    "naziv": "Spomenik palim borcima",
+    "nazivEn": "Monument to fallen fighters",
+    "godina": "1955",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "budelj-gornji-spomenik-clanovima-porodice-skondric",
+    "koordinate": {
+      "lat": 44.594167,
+      "lng": 16.618972
+    },
+    "mesto": "Budelj Gornji",
+    "naziv": "Spomenik članovima porodice Škondrić",
+    "nazivEn": "Monument to members of the Škondrić family",
+    "stanje": "ostecen",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "vaganj-spomenik-prvoj-borbi-cetinskog-partizanskog",
+    "koordinate": {
+      "lat": 43.783951,
+      "lng": 16.751655
+    },
+    "mesto": "Vaganj",
+    "naziv": "Spomenik prvoj borbi Cetinskog partizanskog odreda u augustu 1941. godine",
+    "nazivEn": "Monument to the first battle of the Cetinska Partisan Detachment in August 1941",
+    "posveta": "prvoj borbi Cetinskog partizanskog odreda u augustu 1941. godine",
+    "stanje": "ostecen",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brezici-spomenik-pripremama-za-ustanak",
+    "koordinate": {
+      "lat": 44.591461,
+      "lng": 18.240664
+    },
+    "mesto": "Brezici",
+    "naziv": "Spomenik pripremama za ustanak",
+    "nazivEn": "Monument to commemorate preparations for the Uprising",
+    "godina": "1958",
+    "autor": "Vareno Korošec",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brezici-spomen-cesma-bozi-spasojevicu",
+    "koordinate": {
+      "lat": 44.592888,
+      "lng": 18.24487
+    },
+    "priblizno": true,
+    "mesto": "Brezici",
+    "naziv": "Spomen-česma Boži Spasojeviću",
+    "nazivEn": "Fountain to commemorate Božo Spasojević",
+    "godina": "1956",
+    "posveta": "Boži Spasojeviću",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "zaton-memorijalni-zid-palim-borcima-i-zrtvama-fasi",
+    "koordinate": {
+      "lat": 43.786611,
+      "lng": 15.823167
+    },
+    "mesto": "Zaton",
+    "naziv": "Memorijalni zid palim borcima i žrtvama fašističkog terora i rata",
+    "godina": "1977",
+    "autor": "Branko Vukorepa",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "novo-selo-selca-spomenik-nob",
+    "koordinate": {
+      "lat": 43.307853,
+      "lng": 16.845943
+    },
+    "mesto": "Novo Selo (Selca)",
+    "naziv": "Spomenik NOB",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "vaganj-runjina-vlaka-spomenik-zrtvama-fasistickog",
+    "koordinate": {
+      "lat": 43.783761,
+      "lng": 16.745235
+    },
+    "mesto": "Vaganj",
+    "naziv": "Spomenik žrtvama fašističkog terora",
+    "posveta": "Žrtvama koje su Italijani strijeljali u svibnju 1942.",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zvecevo-spomenik-ljubici-i-vladimiru-trifunovicu",
+    "koordinate": {
+      "lat": 45.543806,
+      "lng": 17.51325
+    },
+    "priblizno": true,
+    "mesto": "Zvečevo",
+    "naziv": "Spomenik Ljubici i Vladimiru Trifunoviću",
+    "godina": "1950",
+    "stanje": "rusevine",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "spionica-grob-marka-markovica",
+    "koordinate": {
+      "lat": 44.749835,
+      "lng": 18.449542
+    },
+    "mesto": "Špionica",
+    "naziv": "Grob partizana Marka Markovića",
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
   }
 ]

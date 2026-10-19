@@ -17,6 +17,9 @@ Pokreću se iz korena repozitorijuma: Python sa `python -I alati/<alat>.py`, a N
 | `bez_metapodataka.py`, `male_slike.py`, `slike_odnos.py` | Čišćenje metapodataka, male slike i odnos širine/visine; redosled i komande su u [skilu provere](../.claude/skills/spomenici-provera/SKILL.md#obrada-novih-slika). |
 | `naselja_osm.json` | Naselja iz OSM-a, za polje `mesto`. |
 | `test.mjs` | `node --test alati/test.mjs`: glavni tokovi aplikacije u Chrome-u bez prozora. |
+| `test_zapis.py` | `python -I -B alati/test_zapis.py`: proverava zaključavanje između procesa, oslobađanje posle pada, ugnježdene pozive i atomaran upis JSON-a. |
 | `snimi.mjs <izlaz.png> [js] [ms]` | Snimak aplikacije na ekranu telefona. |
 | `merenje.mjs [url]` | Brzina aplikacije na sporom telefonu i sporoj vezi. |
 | `pregledac.mjs` | Zajednički kod za upravljanje Chrome-om, za `snimi.mjs`, `merenje.mjs` i `test.mjs`. |
+
+Pri paralelnom radu obuhvati čitanje i upis blokom `with zakljucani_podaci():` iz `zapis.py`; pravila i primer su u [AGENTS.md](../AGENTS.md). Samo zaključavanje završnog upisa ne sprečava prepisivanje novijih podataka starom kopijom.

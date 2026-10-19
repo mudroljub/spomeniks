@@ -7,7 +7,6 @@ export type Vrsta = 'spomenik' | 'spomen-obelezje' | 'spomen-park' | 'spomen-gro
 
 /** prazno: nema podatka da spomenik nije očuvan (može biti i nepoznato) */
 export type Stanje = 'rusevine' | 'uklonjen' | 'ostecen' | 'zatvoren' | 'srusen'
-export type UlogaAutora = 'designer' | 'mason' | 'sculptor'
 
 export interface Koordinate {
   lat: number
@@ -50,8 +49,6 @@ export interface Spomenik {
   godina?: string
   /** autori spojeni sa „ & “ */
   autor?: string
-  /** uloge koje izvor izričito pripisuje autorima; imena su ista kao u polju `autor` */
-  ulogeAutora?: Record<string, UlogaAutora>
   /** tekst natpisa sa spomenika, doslovno; novi red samo gde ima smisla (potpis, datum, ime i godine, stih), prazan red između ploča */
   natpis?: string
   /** Wikidata stavke iz data/posvete.json, npr. ["Q82914"], ili kratak opis posvete bez odgovarajućeg članka. */
@@ -105,6 +102,10 @@ export interface SpomenikBezLokacije extends Omit<Spomenik, 'koordinate'> {
   adresa?: string
   /** moguće, nepotvrđene lokacije */
   kandidati?: Kandidat[]
+}
+
+/** data/provere-spomenika.json: ID spomenika → provere, nezavisno od prelaska na mapu. */
+export interface ProvereSpomenika {
   /** ishod pokušaja lociranja koji nije dao tačku: kada, iz kog izvora i šta je utvrđeno */
   proveraLokacije?: {datum: string, izvor: string, ishod: string, napomena?: string}
   /** ishod provere opstanka zapisa koji je povučen sa mape; prethodniId je njegov raniji id u bazi */
