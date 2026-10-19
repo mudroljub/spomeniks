@@ -35,4 +35,4 @@ with zakljucani_podaci():
 
 ## Provera
 
-Posle upisa proveri sopstvene ID-jeve i izmenjena polja i pokreni `python -I -B alati/integritet.py` i `git diff --check`. Za izmene alata za zapis pokreni i `python -I -B alati/test_zapis.py`; za promene interfejsa `node --test alati/test.mjs`.
+Posle upisa proveri sopstvene ID-jeve i izmenjena polja i pokreni `python -I -B alati/integritet.py` i `git diff --check`. Za izmene koda ili alata za zapis pokreni `node testovi/pokreni.mjs` (unit i integracija); za promene interfejsa i `node testovi/pokreni.mjs e2e`.

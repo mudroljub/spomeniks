@@ -63,13 +63,14 @@ Kod je pisan bez tačke-zareza. Red koji počinje zagradom, npr. oznaka tipa `/*
 
 ## 3. Aplikacija
 
-Prvo automatski test glavnih tokova (mapa, prozor spomenika iz `#id`, pretraga, filteri, ruta, greške u aplikaciji); sam pokreće server i traje oko pola minuta:
+Prvo automatski testovi, u tri grupe u `testovi/`: `unit` (funkcije iz `utils/`, bez pregledača), `integracija` (stvarni podaci sa kodom i alati za upis) i `e2e` (glavni tokovi u Chrome-u bez prozora: mapa, prozor spomenika iz `#id`, pretraga, filteri, ruta, greške u aplikaciji; sam pokreće server i traje oko pola minuta):
 
 ```
-node --test alati/test.mjs
+node testovi/pokreni.mjs        # unit i integracija, par sekundi
+node testovi/pokreni.mjs e2e    # ili: sve
 ```
 
-Kad dodaješ novu funkciju aplikacije, dodaj i njen tok u `alati/test.mjs`. Zajednički kod za upravljanje pregledačem je u `alati/pregledac.mjs`.
+Nova funkcija u `utils/` dobija unit test, nova veza podataka i koda integracioni, a nov tok aplikacije e2e test u `testovi/e2e/aplikacija.test.mjs`. Moduli koji pri učitavanju čitaju `localStorage` ili `navigator` uvoze prvo `testovi/okruzenje.mjs`. Zajednički kod za upravljanje pregledačem je u `alati/pregledac.mjs`.
 
 Zatim pogledaj izmenu na ekranu telefona (390 × 844, dodir). Kad izmena dotiče raspored na širem ekranu, proveri i desktop (npr. 1440 × 900), uključujući preklapanje dugmadi i naslova:
 

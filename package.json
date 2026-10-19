@@ -1,0 +1,13 @@
+{
+  "name": "spomenici",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node testovi/pokreni.mjs",
+    "test:unit": "node testovi/pokreni.mjs unit",
+    "test:integracija": "node testovi/pokreni.mjs integracija",
+    "test:e2e": "node testovi/pokreni.mjs e2e",
+    "test:sve": "node testovi/pokreni.mjs sve",
+    "integritet": "python -I -B alati/integritet.py"
+  }
+}
