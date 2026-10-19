@@ -1,20 +1,9 @@
 {
   "datum": "2026-10-18",
   "obim": "Drugi paket spomen-grobalja, po verovatnoci uspeha; bez menjanja tacke na centar naselja.",
-  "pre": {
-    "mapa": 9023,
-    "radniSkup": 3046,
-    "spomenGroblja": 249
-  },
-  "posle": {
-    "mapa": 9029,
-    "radniSkup": 3039,
-    "spomenGroblja": 242
-  },
   "rezultati": [
     {
       "ishod": "nova-lokacija",
-      "radniIndeksPre": 2596,
       "prebacenoNaMapu": "vares-spomen-kosturnica",
       "prethodniRadniZapis": {
         "naziv": "Spomen-kosturnica partizanskih boraca",
@@ -36,13 +25,11 @@
         "url": "https://lh5.googleusercontent.com/p/AF1QipNmLw6N7zhWZ621F44MVm5ci3FrQHVqE9Vjn5V5=w1100",
         "potpis": "Google Maps",
         "datumSnimanja": null,
-        "licenca": null,
         "napomena": "Za Travnik koriscena fotografija nakon obnove iz 2018; datumi samih Google snimaka nisu nezavisno utvrdjeni."
       }
     },
     {
       "ishod": "nova-lokacija",
-      "radniIndeksPre": 1934,
       "prebacenoNaMapu": "posusje-partizansko-groblje",
       "prethodniRadniZapis": {
         "naziv": "Partizansko groblje sa 80 palih boraca",
@@ -65,13 +52,11 @@
         "url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?cb_client=maps_sv.tactile&w=1000&h=700&panoid=Px6MeXaKRjZPc9fdrBcBpg&yaw=314.66&pitch=1.61&thumbfov=50",
         "potpis": "Google Maps / Street View",
         "datumSnimanja": null,
-        "licenca": null,
         "napomena": "Za Travnik koriscena fotografija nakon obnove iz 2018; datumi samih Google snimaka nisu nezavisno utvrdjeni."
       }
     },
     {
       "ishod": "nova-lokacija",
-      "radniIndeksPre": 2992,
       "prebacenoNaMapu": "ljubljenica-masovna-grobnica",
       "prethodniRadniZapis": {
         "naziv": "Masovna grobnica žrtava fašističkog terora",
@@ -92,13 +77,11 @@
         "url": "https://lh5.googleusercontent.com/p/AF1QipNyIw9_3hDodw7yyZmx3GlC9iwJJlaymg0noQyA=w1100",
         "potpis": "Google Maps",
         "datumSnimanja": null,
-        "licenca": null,
         "napomena": "Za Travnik koriscena fotografija nakon obnove iz 2018; datumi samih Google snimaka nisu nezavisno utvrdjeni."
       }
     },
     {
       "ishod": "nova-lokacija",
-      "radniIndeksPre": 2781,
       "prebacenoNaMapu": "zepce-spomen-kosturnica",
       "prethodniRadniZapis": {
         "naziv": "Spomen-kosturnica palih boraca i žrtava fašističkog terora",
@@ -120,13 +103,11 @@
         "url": "https://lh5.googleusercontent.com/p/AF1QipO6tqKrzMxkSidqyXseUrkh8JVl4mbYKGXDEsmr=w1100",
         "potpis": "Google Maps",
         "datumSnimanja": null,
-        "licenca": null,
         "napomena": "Za Travnik koriscena fotografija nakon obnove iz 2018; datumi samih Google snimaka nisu nezavisno utvrdjeni."
       }
     },
     {
       "ishod": "nova-lokacija",
-      "radniIndeksPre": 2414,
       "prebacenoNaMapu": "travnik-kalibunar-spomen-grobnica",
       "prethodniRadniZapis": {
         "naziv": "Spomen-grobnica palih boraca",
@@ -147,13 +128,11 @@
         "url": "https://tntportal.ba/wp-content/uploads/2018/11/2-8-1024x768.jpg",
         "potpis": "TNT Portal",
         "datumSnimanja": null,
-        "licenca": null,
         "napomena": "Za Travnik koriscena fotografija nakon obnove iz 2018; datumi samih Google snimaka nisu nezavisno utvrdjeni."
       }
     },
     {
       "ishod": "nova-lokacija",
-      "radniIndeksPre": 3014,
       "prebacenoNaMapu": "dubica-urije-spomen-kosturnica",
       "prethodniRadniZapis": {
         "naziv": "Spomen-kosturnica",
@@ -175,13 +154,11 @@
         "url": "https://lh5.googleusercontent.com/p/AF1QipMQkNAR4Ea41d7j8G1s5bdZn4qJtwvhXDtTebZa=w1100",
         "potpis": "Google Maps",
         "datumSnimanja": null,
-        "licenca": null,
         "napomena": "Za Travnik koriscena fotografija nakon obnove iz 2018; datumi samih Google snimaka nisu nezavisno utvrdjeni."
       }
     },
     {
       "ishod": "spojen-duplikat",
-      "radniIndeksPre": 2413,
       "prebacenoNaMapu": "travnik",
       "prethodniRadniZapis": {
         "naziv": "Spomen-grobnica palih boraca NOR-a",
@@ -203,7 +180,6 @@
   "odlozeno": [
     {
       "razlog": "Borci kod Kotor Varosa (ne Konjica), kosturnica iz 1962. sa fotografijom. Satelit nedovoljno jasan za potvrdu tacnog polozaja; kandidat, ne nova tacna lokacija.",
-      "radniIndeksPre": 1390,
       "prebacenoNaMapu": "borci-spomen-kosturnica"
     },
     {
@@ -219,12 +195,5 @@
       "razlog": "Ljubljenica 1961: izvor navodi da je mozda zamenjena kasnijom grobnicom; ne proglasavati ni zasebnim danasnjim objektom ni sigurnim duplikatom."
     }
   ],
-  "dokaziLokalno": "izvori/pretrage/groblja-drugi-2026-10-18/",
-  "prevezaniFajlovi": [
-    "data\\knjige\\hrzenjak-2002.json",
-    "data\\knjige\\sibenik-1980.json",
-    "data\\provere\\hrvatska-49-2026-10-16.json",
-    "data\\provere\\hrvatska-ostali-2026-10-16.json",
-    "data\\provere\\lociranje-groblja-2026-10-18.json"
-  ]
+  "dokaziLokalno": "izvori/pretrage/groblja-drugi-2026-10-18/"
 }

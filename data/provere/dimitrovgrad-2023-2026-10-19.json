@@ -29,18 +29,7 @@
       ],
       "pre": {
         "id": "poganovo",
-        "koordinate": {
-          "lat": 42.970325,
-          "lng": 22.666403
-        },
-        "googleCid": "9684265620060863088",
-        "mesto": "Poganovo",
-        "slika": "slike/spomenici/poganovo.webp",
-        "slikaOdnos": 0.45,
-        "slikaPotpis": "Google Maps",
-        "naziv": "Spomen-česma",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "naziv": "Spomen-česma"
       },
       "izmena": {
         "naziv": "Spomen-česma palim borcima",
@@ -58,18 +47,7 @@
       ],
       "pre": {
         "id": "donja-nevlja-spomen-cesma",
-        "koordinate": {
-          "lat": 42.927611,
-          "lng": 22.761583
-        },
-        "mesto": "Donja Nevlja",
-        "slika": "slike/spomenici/donja-nevlja-spomen-cesma.webp",
-        "slikaOdnos": 1.333,
-        "slikaPotpis": "Pirotski kraj",
-        "naziv": "Spomen-česma",
-        "godina": "1958",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "godina": "1958"
       },
       "izmena": {
         "godina": "1950",
@@ -85,15 +63,7 @@
         82
       ],
       "pre": {
-        "id": "smilovci-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 43.0848748,
-          "lng": 22.8501708
-        },
-        "mesto": "Smilovci",
-        "naziv": "Spomenik palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "smilovci-spomenik-palim-borcima"
       },
       "izmena": {
         "slika": "slike/spomenici/smilovci-spomenik-palim-borcima.webp",
@@ -112,16 +82,7 @@
         85
       ],
       "pre": {
-        "id": "izatovci-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 43.120333,
-          "lng": 22.883111
-        },
-        "mesto": "Izatovci",
-        "naziv": "Spomenik palim borcima",
-        "godina": "1954",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "izatovci-spomenik-palim-borcima"
       },
       "izmena": {
         "autor": "Asen Apostolov",
@@ -137,15 +98,7 @@
       ],
       "pre": {
         "id": "senokos-spomen-cesma-odredu",
-        "koordinate": {
-          "lat": 43.176083,
-          "lng": 22.943583
-        },
-        "mesto": "Senokos",
-        "naziv": "Spomen-česma odredu",
-        "godina": "1975",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "naziv": "Spomen-česma odredu"
       },
       "izmena": {
         "naziv": "Spomen-česma Caribrodskom partizanskom odredu",
@@ -162,16 +115,7 @@
       ],
       "pre": {
         "id": "senokos-spomen-cesma",
-        "koordinate": {
-          "lat": 43.144444,
-          "lng": 22.925861
-        },
-        "priblizno": true,
-        "mesto": "Senokos",
-        "naziv": "Spomen-česma",
-        "godina": "1975",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "naziv": "Spomen-česma"
       },
       "izmena": {
         "naziv": "Spomen-česma pomoći Caribrodskom partizanskom odredu",
@@ -192,12 +136,7 @@
           "lat": 43.01574,
           "lng": 22.7782
         },
-        "priblizno": true,
-        "mesto": "Dimitrovgrad",
-        "naziv": "Bista Vasila Ivanova",
-        "autor": "D. Donkov",
-        "vrsta": "bista",
-        "drzava": "Serbia"
+        "autor": "D. Donkov"
       },
       "izmena": {
         "koordinate": {
@@ -219,22 +158,11 @@
       ],
       "pre": {
         "id": "dimitrovgrad-spomenik-revolucije",
-        "koordinate": {
-          "lat": 43.011139,
-          "lng": 22.764861
-        },
-        "priblizno": true,
-        "mesto": "Dimitrovgrad",
-        "naziv": "Spomenik revolucije",
-        "godina": "1951",
-        "stanje": "uklonjen",
         "stanjeIzvor": {
           "naziv": "Partisan Memorials Wiki",
           "godina": 2026,
           "url": "https://www.xiwl.com/w/index.php/Dimitrovgrad_%28Serbia%29_-_Spomenik_Revolucije"
-        },
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        }
       },
       "izmena": {
         "slika": "slike/spomenici/dimitrovgrad-spomenik-revolucije.webp",
@@ -370,12 +298,6 @@
     "Kamenica: pronaći tačku stare škole ili kasnije mesto nestale ploče. Ne mešati s posleratnom pločom milicioneru."
   ],
   "provera": {
-    "integritet": "Prošao, status 0; 52 ranije poznata bliska para, bez novih.",
-    "testoviAplikacije": "23/23 prošlo.",
-    "telefon": "390 × 844: približna školska ploča, precizna opštinska ploča, Smilovci i uklonjeni Spomenik revolucije; ispravne kartice i slike, bez JS izuzetaka.",
-    "noviID": "Tačno 7 novih na mapi, bez uklonjenih ranijih markera; u radnom spisku jedna nova nestala ploča i jedan potvrđen duplikat manje.",
-    "izvori": "Izvorni izvori postojećih zapisa sačuvani; tokom paralelnog refaktora izdvojeni u data/izvori.json preko sacuvaj_bazu. Radni zapisi zadržavaju polje izvor.",
-    "slike": "Obe fotografije vizuelno pregledane, očišćeni metapodaci, pripremljene male slike i proporcije. Grupna novinska fotografija odbačena.",
-    "izvedeniPodaci": "node alati/razdeli.mjs i --provera prolaze."
+    "slike": "Obe fotografije vizuelno pregledane, očišćeni metapodaci, pripremljene male slike i proporcije. Grupna novinska fotografija odbačena."
   }
 }

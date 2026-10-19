@@ -7,15 +7,10 @@
     {
       "ishod": "nov-marker",
       "id": "sokolac-park-boraca-romanije",
-      "radniIndeksPre": 3479,
       "prethodniZapis": {
         "naziv": "Park narodnih heroja",
         "nazivEn": "Park of National Heroes",
-        "mesto": "Sokolac",
         "adresa": "Town centre",
-        "drzava": "Bosnia and Herzegovina",
-        "godina": "1978",
-        "vrsta": "spomen-park",
         "izvor": "https://www.spomenicinob.info/sokolac"
       },
       "izvorLokacije": "https://www.openstreetmap.org/way/27485728",
@@ -30,15 +25,9 @@
     {
       "ishod": "nov-marker",
       "id": "bileca-park-narodnih-heroja",
-      "radniIndeksPre": 517,
       "prethodniZapis": {
-        "naziv": "Park narodnih heroja",
         "nazivEn": "Park of National Heroes",
-        "mesto": "Bileća",
         "adresa": "Ul. Ravnogorska",
-        "drzava": "Bosnia and Herzegovina",
-        "godina": "1972",
-        "vrsta": "spomen-park",
         "izvor": "https://www.spomenicinob.info/bileca"
       },
       "izvorLokacije": "https://www.openstreetmap.org/node/4575740045",
@@ -53,15 +42,11 @@
     {
       "ishod": "već-na-mapi",
       "id": "vrtoce",
-      "radniIndeksPre": 711,
       "prethodniZapis": {
         "naziv": "Spomen-kompleks Vrtoče",
         "nazivEn": "Vrtoče memorial complex",
-        "mesto": "Vrtoče",
         "adresa": "Village centre",
-        "drzava": "Bosnia and Herzegovina",
         "autor": "Nebojša Latinović & Enver Kudić",
-        "godina": "1971",
         "vrsta": "spomen-park",
         "izvor": "https://www.spomenicinob.info/bosanskipetrovac"
       },
@@ -70,182 +55,13 @@
     {
       "ishod": "već-na-mapi",
       "id": "battle-of-neretva-museum",
-      "radniIndeksPre": 1867,
       "prethodniZapis": {
         "naziv": "Muzej Bitke za ranjenike",
         "nazivEn": "Museum of the Battle for the Wounded",
-        "mesto": "Jablanica",
         "adresa": "Ul. Bitka za ranjenike",
-        "drzava": "Bosnia and Herzegovina",
-        "autor": "Branko Tadić & Zdravko Dunđerović & Mustafa Ramić",
-        "godina": "1978",
-        "vrsta": "muzej",
         "izvor": "https://www.spomenicinob.info/jablanica"
       },
       "razlog": "Isto imenovano memorijalno mesto i ista godina; za Jablanicu se poklapaju i sva tri autora. Ne pravi se drugi marker."
-    }
-  ],
-  "pomereneKnjiskeReference": {
-    "hrzenjak-2002.json": 12,
-    "jokic-1986.json": 131,
-    "sibenik-1980.json": 80
-  },
-  "pomereneReferenceProvera": [
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "ljubosina-spomenik-ustanka-i-nor-a",
-      "pre": 4502,
-      "posle": 4498
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "skrad-spomenik-palim-borcima-i-zrtvama-fasizma",
-      "pre": 4503,
-      "posle": 4499
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "zagreb-horvati-spomenik-palim-borcima-i-zrtvama",
-      "pre": 4504,
-      "posle": 4500
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "gerovo-mladje-spomenik-diverzantskoj-akciji-1941",
-      "pre": 4505,
-      "posle": 4501
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "tajcari-spomenik-prvom-zboru-za-odlazak-u",
-      "pre": 4506,
-      "posle": 4502
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "prezid-zbitke-spomenik-danijelu-ozboltu",
-      "pre": 4507,
-      "posle": 4503
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "prezid-zbitke-spomenik-jakovu-kovacu",
-      "pre": 4508,
-      "posle": 4504
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "prezid-zbitke-spomenik-strijeljanim-partizanima",
-      "pre": 4509,
-      "posle": 4505
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "kavaliri-spomenik-strijeljanim-zrtvama-fasizma",
-      "pre": 4510,
-      "posle": 4506
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "muhovci-spomenik-strijeljanim-partizanima",
-      "pre": 4511,
-      "posle": 4507
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "hrib-spomenik-strijeljanim-aktivistima-nop-a",
-      "pre": 4512,
-      "posle": 4508
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "gerovski-kraj-spomenik-ubijenim-prvoborcima",
-      "pre": 4513,
-      "posle": 4509
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "sokoli-spomenik-formiranju-prve-istarske",
-      "pre": 4514,
-      "posle": 4510
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "parg-spomenik-ubijenim-partizanima",
-      "pre": 4515,
-      "posle": 4511
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "celovci-spomenik-vinku-ozboltu",
-      "pre": 4516,
-      "posle": 4512
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "gerovski-kraj-jurjev-laz-spomenik-partizanskom",
-      "pre": 4517,
-      "posle": 4513
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "jazbine-spomenik-partizanskom-stozeru",
-      "pre": 4518,
-      "posle": 4514
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "vinkovci",
-      "pre": 4519,
-      "posle": 4515
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "zupanja-bivsi-spomenik-nob",
-      "pre": 4520,
-      "posle": 4516
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "djeletovci-spomenik-nob",
-      "pre": 4521,
-      "posle": 4517
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "badljevina-nob",
-      "pre": 4522,
-      "posle": 4518
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "jaksic-spomenik-nob",
-      "pre": 4523,
-      "posle": 4519
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "susine-spomenik-palim-borcima-nob-a",
-      "pre": 4524,
-      "posle": 4520
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "scitarjevo-spomenik-palim-borcima",
-      "pre": 4525,
-      "posle": 4521
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "novi-pavljani-spomenik-nob-ostecen",
-      "pre": 4526,
-      "posle": 4522
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "slobostina",
-      "pre": 4527,
-      "posle": 4523
     }
   ],
   "otvoreno": [

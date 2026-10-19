@@ -1,17 +1,8 @@
 {
   "datum": "2026-10-18",
   "obim": "Provera najizglednijih radnih kandidata; bez nove sire provere opstanka Hrvatske.",
-  "pre": {
-    "mapa": 9018,
-    "bezLokacije": 3057
-  },
-  "posle": {
-    "mapa": 9019,
-    "bezLokacije": 3053
-  },
   "rezultati": [
     {
-      "radniIndeksPre": 30,
       "prebacenoNaMapu": "majstori-spomen-grobnica-palih-boraca",
       "ishod": "nova-lokacija",
       "razlog": "Fotografija kamene piramide sa zvezdom i dve ploce odgovara opisu xiwl; precizna tacka xiwl 42.351211,18.836659 potkrepljena Mapio fotografijama poklapa se sa OSM kandidatom na 4 m. StoryMap tacka nije koriscena.",
@@ -53,7 +44,6 @@
       }
     },
     {
-      "radniIndeksPre": 48,
       "prebacenoNaMapu": "blato-spomenik-palim-borcima-novj",
       "ishod": "spojen-duplikat",
       "razlog": "Isti naziv, park i identicna Commons fotografija navedena u oba izvora; nije novi spomenik. Sacuvana postojeca koordinata i izvor; dopunjena fotografija i vrsta prema njenom izgledu.",
@@ -79,7 +69,6 @@
       }
     },
     {
-      "radniIndeksPre": 2969,
       "prebacenoNaMapu": "horvati-spomenik-poginulim-borcima",
       "ishod": "spojen-duplikat",
       "razlog": "Ista skulptura borca Vjekoslava Rukljaca iz 1961. u dvoristu OS Stjepana Bencekovica uz stanicu Horvati. Nije zaseban objekat; sacuvani glavni zapis i ranija provera opstanka u arhiviranom radnom zapisu. Nije tvrdnja o novom obilasku.",
@@ -113,7 +102,6 @@
       }
     },
     {
-      "radniIndeksPre": 2981,
       "prebacenoNaMapu": "zupanja-spomen-kosturnica",
       "ishod": "spojen-duplikat",
       "razlog": "Isti spomenik sa kriptom iz 1957. u parku kod Kolodvorske, unisten 1992. Sacuvana postojeca priblizna tacka, stanje i izvor stanja; OSM kandidat nije proglasen preciznom danasnjom destinacijom.",
@@ -160,12 +148,6 @@
       "ishod": "bez-nezavisne-potvrde",
       "razlog": "xiwl preuzima vec poznat pogresan Commons GPS, pa nije nezavisan dokaz."
     }
-  ],
-  "prevezaniFajlovi": [
-    "data\\knjige\\hrzenjak-2002.json",
-    "data\\knjige\\sibenik-1980.json",
-    "data\\provere\\hrvatska-49-2026-10-16.json",
-    "data\\provere\\hrvatska-ostali-2026-10-16.json"
   ],
   "fotoBlato": {
     "autor": "Quahadi Añtó",

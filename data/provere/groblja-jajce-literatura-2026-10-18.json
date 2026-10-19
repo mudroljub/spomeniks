@@ -50,7 +50,6 @@
   ],
   "spojeno": [
     {
-      "radniIndeksPreSpajanja": 894,
       "prethodniRadniZapis": {
         "naziv": "Partizansko groblje sa 37 palih boraca",
         "nazivEn": "Partisans' cemetery with 37 fallen fighters",
@@ -89,57 +88,11 @@
       "id": "divicani-partizansko-groblje",
       "prethodniZapis": {
         "id": "divicani-partizansko-groblje",
-        "koordinate": {
-          "lat": 44.362421,
-          "lng": 17.326397
-        },
-        "priblizno": true,
-        "mesto": "Divičani",
-        "izvor": "https://www.spomenicinob.info/jajce",
-        "naziv": "Partizansko groblje",
-        "nazivEn": "Partisans' cemetery",
-        "godina": "pre 1965",
-        "stanje": "ostecen",
-        "vrsta": "spomen-groblje",
-        "drzava": "Bosnia and Herzegovina"
+        "izvor": "https://www.spomenicinob.info/jajce"
       },
       "fotografija": "Knjiga 2017, štampana str.342 / PDF32; autor fotografije nije zasebno potpisan.",
       "tacka": "Neizmenjena; priblizno:true ostaje.",
       "stanje": "Postojeće stanje nije menjano; fotografija ne potvrđuje današnje stanje."
-    }
-  ],
-  "prevezaniFajlovi": [
-    {
-      "fajl": "data/knjige/hrzenjak-2002.json",
-      "pomereneVeze": 5
-    },
-    {
-      "fajl": "data/knjige/jokic-1986.json",
-      "pomereneVeze": 113
-    },
-    {
-      "fajl": "data/knjige/sibenik-1980.json",
-      "pomereneVeze": 50
-    },
-    {
-      "fajl": "data/provere/groblja-zbirni-pregled-2026-10-18.json",
-      "pomereneVeze": 185
-    },
-    {
-      "fajl": "data/provere/hrvatska-49-2026-10-16.json",
-      "pomereneVeze": 10
-    },
-    {
-      "fajl": "data/provere/hrvatska-ostali-2026-10-16.json",
-      "pomereneVeze": 2
-    },
-    {
-      "fajl": "data/provere/lociranje-groblja-2026-10-18.json",
-      "pomereneVeze": 1
-    },
-    {
-      "fajl": "data/provere/lociranje-groblja-drugi-2026-10-18.json",
-      "pomereneVeze": 4
     }
   ],
   "rezultat": {
@@ -153,9 +106,6 @@
   },
   "sledeciDokaz": "Za Divičane treba geolocirati prepoznatljiv spomenik sa fotografije; za Vinac identifikovati groblje uz zasebni spomenik 1992–1995. Šipovske ratne grobnice iz novije studije ne mešati sa NOB grobnicama.",
   "provera": {
-    "testoviAplikacije": "23/23 prolaze",
-    "mobilniPrikaz": "Divičani, 390×844: fotografija učitana, bez runtime grešaka; vizuelno provereno.",
-    "integritet": "Izlaz 1 zbog četiri nova bliska para u Šenturškoj Gori i Velikom Mlačevu iz paralelnih izmena; ovaj paket nije menjao njihove zapise ni koordinate. Ostale provere integriteta nisu prijavile greške.",
     "pomeranjePokazivaca": "Aktivni radni indeksi i knjiški ciljevi pomereni posle uklanjanja indeksa 894; istorijski pokazivači sačuvani."
   }
 }

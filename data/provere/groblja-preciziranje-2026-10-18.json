@@ -1,10 +1,6 @@
 {
   "datum": "2026-10-18",
   "obim": "Preciziranje postojećih približnih grobnih markera i potvrđeni duplikati; bez zbirnog prihvatanja kandidata iz wikija.",
-  "pre": {
-    "markeri": 9028,
-    "pribliznaGroblja": 302
-  },
   "precizirano": [
     {
       "id": "bronzani-majdan-partizansko-groblje",
@@ -15,13 +11,7 @@
           "lng": 16.93218
         },
         "priblizno": true,
-        "mesto": "Bronzani Majdan",
-        "izvor": "https://www.spomenicinob.info/banjaluka",
-        "naziv": "Partizansko groblje",
-        "nazivEn": "Partisans' cemetery",
-        "godina": "1961",
-        "vrsta": "spomen-groblje",
-        "drzava": "Bosnia and Herzegovina"
+        "izvor": "https://www.spomenicinob.info/banjaluka"
       },
       "dokaz": {
         "google": "https://www.google.com/maps/place/Partizansko+groblje/@44.7846467,16.9304433,17z/data=!3m1!4b1!4m6!3m5!1s0x4760a5b5705b2be5:0x85a6351e66957d95!8m2!3d44.7846467!4d16.9304433!16s%2Fg%2F11j2w1hjb5?hl=sr&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
@@ -29,9 +19,7 @@
         "datumFotografije": "nije-utvrdjen",
         "napomena": "Datum provere nije datum snimanja; Google i wiki tačke nisu tretirane kao dva nezavisna dokaza.",
         "katalog": "https://www.spomenicinob.info/banjaluka",
-        "obrazlozenje": "Imenovano partizansko groblje; tačka je saglasna opisu južno od glavnog puta i pošte u lokalnom wikiju. Google mesto nema fotografiju.",
-        "izvorFotografije": null,
-        "lokalniOriginal": null
+        "obrazlozenje": "Imenovano partizansko groblje; tačka je saglasna opisu južno od glavnog puta i pošte u lokalnom wikiju. Google mesto nema fotografiju."
       }
     },
     {
@@ -43,13 +31,7 @@
           "lng": 16.62797
         },
         "priblizno": true,
-        "mesto": "Ljeskare",
-        "izvor": "https://www.spomenicinob.info/prijedor",
-        "naziv": "Partizansko groblje",
-        "nazivEn": "Partisans' cemetery",
-        "godina": "1954",
-        "vrsta": "spomen-groblje",
-        "drzava": "Bosnia and Herzegovina"
+        "izvor": "https://www.spomenicinob.info/prijedor"
       },
       "dokaz": {
         "google": "https://www.google.com/maps/place/Partizansko+groblje/@44.9489485,16.6327094,17z/data=!3m1!4b1!4m6!3m5!1s0x4760cdf4175e42b7:0x2899ba4a9d8ff5cf!8m2!3d44.9489485!4d16.6327094!16s%2Fg%2F11hsxx7_4s?hl=sr&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
@@ -71,12 +53,7 @@
           "lng": 18.93008
         },
         "priblizno": true,
-        "mesto": "Priboj",
-        "izvor": "https://www.spomenicinob.info/lopare",
-        "naziv": "Partizansko groblje",
-        "nazivEn": "Partisans' cemetery",
-        "vrsta": "spomen-groblje",
-        "drzava": "Bosnia and Herzegovina"
+        "izvor": "https://www.spomenicinob.info/lopare"
       },
       "dokaz": {
         "google": "https://www.google.com/maps/place/Partizansko+groblje/@44.6008679,18.9296699,17z/data=!3m1!4b1!4m6!3m5!1s0x4759578bfdc8265b:0xd693c4cb3500aa14!8m2!3d44.6008679!4d18.9296699!16s%2Fg%2F11tfkd6l_z?hl=sr&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
@@ -98,13 +75,7 @@
           "lng": 18.95506
         },
         "priblizno": true,
-        "mesto": "Brezovo Polje",
-        "izvor": "https://www.spomenicinob.info/brcko",
-        "naziv": "Spomenik i kosturnica palih boraca i žrtava fašističkog terora",
-        "nazivEn": "Monument and ossuary of fallen fighters and Victims of Fascist Terror",
-        "godina": "1972",
-        "vrsta": "spomen-groblje",
-        "drzava": "Bosnia and Herzegovina"
+        "izvor": "https://www.spomenicinob.info/brcko"
       },
       "dokaz": {
         "google": "https://www.google.com/maps/place/%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%BE+%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B5/@44.8470189,18.95521,17z/data=!3m1!4b1!4m6!3m5!1s0x475bf5d73730945b:0xbaf7d50d8fb1fac5!8m2!3d44.8470189!4d18.95521!16s%2Fg%2F11ggvdd7r5?hl=sr&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
@@ -229,8 +200,7 @@
         "drzava": "Bosnia and Herzegovina"
       },
       "obrazlozenje": "Groblje iz 1978. na brdu Trube: tačka, godina i fotografija u lokalnom wikiju odgovaraju postojećem unosu. Kosturnica iz 1959. ostaje zaseban nerešeni zapis.",
-      "izvor": "https://www.spomenicinob.info/cazin",
-      "google": null
+      "izvor": "https://www.spomenicinob.info/cazin"
     },
     {
       "uklonjenId": "potkozarje-groblje-partizanskih-boraca-i-zrtava-fa",
@@ -266,8 +236,7 @@
         "drzava": "Bosnia and Herzegovina"
       },
       "obrazlozenje": "Groblje iz 1977. u Karalićima; lokalni wiki daje isti položaj kao precizan unos i fotografiju obeliska sa grobovima. Zasebni spomenik i bista nisu spojeni.",
-      "izvor": "https://www.spomenicinob.info/banjaluka",
-      "google": null
+      "izvor": "https://www.spomenicinob.info/banjaluka"
     },
     {
       "uklonjenId": "jezero-groblje-partizanskih-boraca-i-zrtava-fasist",
@@ -301,8 +270,7 @@
         "drzava": "Bosnia and Herzegovina"
       },
       "obrazlozenje": "Isto groblje preuređeno 1983. sa belim panelima; postojeći precizan unos potiče iz istog kataloškog opisa preko wikija, nije nov nezavisan dokaz.",
-      "izvor": "https://www.spomenicinob.info/jezero",
-      "google": null
+      "izvor": "https://www.spomenicinob.info/jezero"
     },
     {
       "uklonjenId": "petrovo-partizansko-groblje-i-kosturnica",
@@ -340,8 +308,7 @@
         "drzava": "Bosnia and Herzegovina"
       },
       "obrazlozenje": "Isti kompleks iz 1970. naspram pošte. Ranije groblje iz 1953. u Lužanjku ostaje odvojeno: prenos nije dokazan.",
-      "izvor": "https://www.spomenicinob.info/petrovo",
-      "google": null
+      "izvor": "https://www.spomenicinob.info/petrovo"
     },
     {
       "uklonjenId": "brezovo-polje-partizansko-groblje",
@@ -378,8 +345,7 @@
         "slikaPotpis": "Google Maps"
       },
       "obrazlozenje": "Izvor izričito navodi pretvaranje groblja u kosturnicu do 1972; istorijski prethodnik sačuvan u ovom izveštaju, bez drugog markera na centru sela.",
-      "izvor": "https://www.spomenicinob.info/brcko",
-      "google": null
+      "izvor": "https://www.spomenicinob.info/brcko"
     },
     {
       "uklonjenId": "drakulic-spomen-kosturnica-zrtava-fasistickog-tero",
@@ -447,40 +413,12 @@
       "cache": "izvori\\pretrage\\groblja-2026-10-18\\google-treci.json"
     }
   ],
-  "posle": {
-    "markeri": 9020,
-    "pribliznaGroblja": 290,
-    "noviMarkeri": 0,
-    "preciziranaGroblja": 4,
-    "spojeniDuplikati": 8,
-    "noveFotografije": 4,
-    "bezLokacijeNepromenjeno": true
-  },
   "provera": {
-    "integritet": "prosao-posle-spajanja-drakulica",
-    "testoviAplikacije": {
-      "proslo": 23,
-      "ukupno": 23,
-      "napomena": "Pokrenuti van sandboxa jer sandbox nije dozvoljavao Chrome; zavr?no spajanje Drakuli?a dodatno provereno integritetom i konkretnim prikazom."
-    },
-    "mobilniPrikaz": {
-      "sirina": 390,
-      "provereniId": [
-        "ljeskare-partizansko-groblje",
-        "banja-luka-spomen-kosturnica"
-      ],
-      "fotografijeUcitane": true,
-      "runtimeGreske": []
-    },
     "knjiskeVeze": "Uklonjeni ID-jevi nisu kori??eni u data/knjige; istorijski priblizno-sela zapis sa?uvan, prevezivanje dokumentovano u spojeno.",
     "radniSpisak": "data/bez_lokacije.json nije menjan ovim paketom."
   },
   "nastavak": {
     "datum": "2026-10-18",
-    "pre": {
-      "markeri": 9393,
-      "pribliznaGroblja": 301
-    },
     "precizirano": [
       {
         "id": "gornji-podgradci-spomen-grobnica-69-palih-boraca-n",
@@ -491,12 +429,7 @@
             "lng": 17.04547
           },
           "priblizno": true,
-          "mesto": "Gornji Podgradci",
-          "izvor": "https://www.spomenicinob.info/gradiska",
-          "naziv": "Spomen-grobnica 69 palih boraca NOR-a",
-          "nazivEn": "Memorial grave of 69 fallen fighters of the NOR",
-          "vrsta": "spomen-groblje",
-          "drzava": "Bosnia and Herzegovina"
+          "izvor": "https://www.spomenicinob.info/gradiska"
         },
         "pomerenoMetara": 1816,
         "wikiNaslov": "Gornji Podgradci - Spomen Grobnica",
@@ -513,13 +446,7 @@
             "lng": 16.47975
           },
           "priblizno": true,
-          "mesto": "Dobrljin",
-          "izvor": "https://www.spomenicinob.info/novigrad",
-          "naziv": "Partizansko groblje",
-          "nazivEn": "Partisans' cemetery",
-          "godina": "1961",
-          "vrsta": "spomen-groblje",
-          "drzava": "Bosnia and Herzegovina"
+          "izvor": "https://www.spomenicinob.info/novigrad"
         },
         "pomerenoMetara": 149,
         "wikiNaslov": "Dobrljin - Partizansko Groblje",
@@ -766,18 +693,7 @@
       "Dobrljin: novi spomenik ratu 1992-1995 nije upisan kao NOB objekat; ostala priblizna grobna i memorijalna obelezja iz 1961. nisu automatski spojena samo po godini.",
       "Datumi ucitavanja fotografija nisu datumi snimanja; savremeni metalni omotac gornjopodgradackog spomenika nije dokumentovan preuzetom starijom fotografijom."
     ],
-    "prevezaniFajlovi": [],
-    "posle": {
-      "markeri": 9387,
-      "pribliznaGroblja": 293,
-      "preciziraneTacke": 2,
-      "spojeniDuplikati": 6,
-      "noveFotografije": 2,
-      "noviMarkeri": 0
-    },
     "provere": {
-      "integritet": "prolaz, 9387 markera, bez novih nedozvoljenih bliskih parova",
-      "aplikacija": "23/23 testova proslo",
       "prikaz": "390x844: Gornji Podgradci, Dobrljin i Smoljana; fotografije ucitane, bez Runtime izuzetaka, snimci pregledani",
       "ocuvanje": "sacuvani prethodni zapisi, izvori, postojeci CID i precizne tacke; data/bez_lokacije.json nije menjan ovim paketom"
     }

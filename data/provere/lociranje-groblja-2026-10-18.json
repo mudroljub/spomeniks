@@ -1,20 +1,9 @@
 {
   "datum": "2026-10-18",
   "obim": "Prvi paket lociranja spomen-grobalja po verovatnoci uspeha.",
-  "pre": {
-    "mapa": 9019,
-    "radniSkup": 3053,
-    "spomenGroblja": 256
-  },
-  "posle": {
-    "mapa": 9023,
-    "radniSkup": 3046,
-    "spomenGroblja": 249
-  },
   "rezultati": [
     {
       "ishod": "nova-priblizna-lokacija",
-      "radniIndeksPre": 2179,
       "prebacenoNaMapu": "dabar-partizansko-groblje",
       "prethodniRadniZapis": {
         "naziv": "Partizansko groblje",
@@ -35,7 +24,6 @@
     },
     {
       "ishod": "nova-lokacija",
-      "radniIndeksPre": 1786,
       "prebacenoNaMapu": "bojista-partizansko-groblje",
       "prethodniRadniZapis": {
         "naziv": "Partizansko groblje",
@@ -55,7 +43,6 @@
     },
     {
       "ishod": "nova-lokacija",
-      "radniIndeksPre": 1398,
       "prebacenoNaMapu": "kostajnica-partizansko-groblje-1954",
       "prethodniRadniZapis": {
         "naziv": "Partizansko groblje",
@@ -75,7 +62,6 @@
     },
     {
       "ishod": "nova-lokacija",
-      "radniIndeksPre": 2369,
       "prebacenoNaMapu": "teslic-spomen-kosturnica-63-pala-borca",
       "prethodniRadniZapis": {
         "naziv": "Spomen-kosturnica 63 pala borca",
@@ -95,7 +81,6 @@
     },
     {
       "ishod": "spojen-duplikat",
-      "radniIndeksPre": 2215,
       "prebacenoNaMapu": "lovnica-monastery",
       "prethodniRadniZapis": {
         "naziv": "Partizansko groblje",
@@ -116,7 +101,6 @@
     },
     {
       "ishod": "spojen-duplikat",
-      "radniIndeksPre": 2119,
       "prebacenoNaMapu": "rogatica",
       "prethodniRadniZapis": {
         "naziv": "Partizansko groblje",
@@ -136,7 +120,6 @@
     },
     {
       "ishod": "spojen-duplikat",
-      "radniIndeksPre": 1599,
       "prebacenoNaMapu": "dobosnica-partizansko-groblje",
       "prethodniRadniZapis": {
         "naziv": "Partizansko groblje",
@@ -148,7 +131,6 @@
         "vrsta": "spomen-groblje",
         "izvor": "https://www.spomenicinob.info/lukavac"
       },
-      "dopunjeno": {},
       "razlog": "Isto groblje, mikrolokacija i izgled; za Lovnicu i Rogaticu uporedjena postojeca fotografija. Za Dobosnicu identicna xiwl stranica i godina 1954. Sacuvani ID, koordinate, CID i postojeca fotografija glavnog unosa."
     }
   ],
@@ -170,12 +152,6 @@
     }
   ],
   "dokaziLokalno": "izvori/pretrage/groblja-2026-10-18/",
-  "prevezaniFajlovi": [
-    "data\\knjige\\hrzenjak-2002.json",
-    "data\\knjige\\sibenik-1980.json",
-    "data\\provere\\hrvatska-49-2026-10-16.json",
-    "data\\provere\\hrvatska-ostali-2026-10-16.json"
-  ],
   "fotografije": [
     {
       "id": "bojista-partizansko-groblje",
@@ -190,15 +166,13 @@
       "url": "https://api.radiokostajnica.com/wp-content/uploads/2025/09/1-spom4.jpg",
       "clanak": "https://radiokostajnica.com/vijesti/sanacija-partizanskog-groblja",
       "datumObjave": "2025-11-21",
-      "datumSnimanja": null,
-      "licenca": null
+      "datumSnimanja": null
     },
     {
       "id": "teslic-spomen-kosturnica-63-pala-borca",
       "autorIzvor": "Google Maps",
       "url": "https://lh5.googleusercontent.com/p/AF1QipOIeyV6w6kVh5ECE7xseeDyX4Sknp7u0TT1KhCK=w1000",
-      "datumSnimanja": null,
-      "licenca": null
+      "datumSnimanja": null
     }
   ]
 }

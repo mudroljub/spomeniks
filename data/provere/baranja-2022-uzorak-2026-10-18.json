@@ -168,22 +168,9 @@
       "odluka": "dopuna-postojeceg",
       "strana": 7,
       "pdfStrana": 4,
-      "slikaBroj": null,
       "napomena": "Spomenik od kamenih blokova u centru, već ima fotografiju; ne grobnica na str. 6.",
       "pre": {
-        "id": "baranjsko-petrovo-selo",
-        "koordinate": {
-          "lat": 45.760371,
-          "lng": 18.4681222
-        },
-        "googleCid": "15231304023045597098",
-        "mesto": "Baranjsko Petrovo Selo",
-        "slika": "slike/spomenici/baranjsko-petrovo-selo.webp",
-        "slikaOdnos": 1.329,
-        "slikaPotpis": "Google Maps",
-        "naziv": "Spomenik palim borcima NOB",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia"
+        "id": "baranjsko-petrovo-selo"
       }
     },
     {
@@ -194,16 +181,7 @@
       "slikaBroj": 63,
       "napomena": "Godina 1981. odnosi se na dodatu ploču, ne na podizanje spomenika.",
       "pre": {
-        "id": "knezevi-vinogradi",
-        "koordinate": {
-          "lat": 45.7505587,
-          "lng": 18.7323746
-        },
-        "googleCid": "16169794686010881793",
-        "mesto": "Kneževi Vinogradi",
-        "naziv": "Spomenik poginulima u Drugom svjetskom ratu",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia"
+        "id": "knezevi-vinogradi"
       },
       "fotografijaDokaz": "Iz kataloga 2022; pojedinačni datum i autor nisu zasebno potpisani, zato naveden zajednički kredit iz impresuma."
     },
@@ -216,17 +194,7 @@
       "napomena": "Isti spomenik sa bronzanim reljefom Velibora Mačukatina, groblje.",
       "pre": {
         "id": "beli-manastir-spomen-kosturnica",
-        "koordinate": {
-          "lat": 45.767689,
-          "lng": 18.618335
-        },
-        "mesto": "Beli Manastir",
-        "izvor": "https://www.xiwl.com/w/index.php/Beli_Manastir_-_Spomen_Kosturnica",
-        "naziv": "Spomen-kosturnica",
-        "godina": "1957",
-        "autor": "Velibor Mačukatin",
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia"
+        "izvor": "https://www.xiwl.com/w/index.php/Beli_Manastir_-_Spomen_Kosturnica"
       },
       "fotografijaDokaz": "Iz kataloga 2022; pojedinačni datum i autor nisu zasebno potpisani, zato naveden zajednički kredit iz impresuma."
     },
@@ -239,16 +207,7 @@
       "napomena": "Isto selo Grabovac u Baranji, ne Grabovac Banski; knjiga i natpis daju različite datume pogibije, zato datum nije preciziran u posveti.",
       "pre": {
         "id": "grabovac-spomen-grobnica",
-        "koordinate": {
-          "lat": 45.691667,
-          "lng": 18.735528
-        },
-        "mesto": "Grabovac",
-        "izvor": "https://www.xiwl.com/w/index.php/Grabovac_%28%C4%8Ceminac%29_-_Spomen_Grobnica",
-        "naziv": "Spomen-grobnica",
-        "godina": "1979",
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia"
+        "izvor": "https://www.xiwl.com/w/index.php/Grabovac_%28%C4%8Ceminac%29_-_Spomen_Grobnica"
       },
       "fotografijaDokaz": "Iz kataloga 2022; pojedinačni datum i autor nisu zasebno potpisani, zato naveden zajednički kredit iz impresuma."
     },
@@ -261,17 +220,7 @@
       "napomena": "Koordinate ostaju približne kao u prethodnom izvoru; knjiga ne daje tačku.",
       "pre": {
         "id": "darda-spomen-grobnica",
-        "koordinate": {
-          "lat": 45.626714,
-          "lng": 18.698284
-        },
-        "priblizno": true,
-        "mesto": "Darda",
-        "izvor": "https://www.xiwl.com/w/index.php/Darda_-_Spomen_Grobnica",
-        "naziv": "Spomen-grobnica",
-        "godina": "1961",
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia"
+        "izvor": "https://www.xiwl.com/w/index.php/Darda_-_Spomen_Grobnica"
       },
       "fotografijaDokaz": "Iz kataloga 2022; pojedinačni datum i autor nisu zasebno potpisani, zato naveden zajednički kredit iz impresuma."
     },
@@ -284,16 +233,7 @@
       "napomena": "Kripta iz 1963. u centru sela, različita od spomenika Bolmanskoj bici iz 1951. van sela.",
       "pre": {
         "id": "bolman-spomen-kosturnica",
-        "koordinate": {
-          "lat": 45.722376,
-          "lng": 18.515565
-        },
-        "mesto": "Bolman",
-        "izvor": "https://www.xiwl.com/w/index.php/Bolman_-_Spomen_Kosturnica",
-        "naziv": "Spomen-kosturnica",
-        "godina": "1963",
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia"
+        "izvor": "https://www.xiwl.com/w/index.php/Bolman_-_Spomen_Kosturnica"
       },
       "fotografijaDokaz": "Iz kataloga 2022; pojedinačni datum i autor nisu zasebno potpisani, zato naveden zajednički kredit iz impresuma.",
       "prvobitnaSlikaBroj": 36,
@@ -308,10 +248,6 @@
     }
   ],
   "provera": {
-    "integritet": "prošao, status 0; 52 poznata bliska para",
-    "aplikacija": "23/23 testa prošla u Chrome-u van sandboxa; prethodno sandbox nije pokrenuo Chrome",
-    "telefon": "Pregledana tri različita detalja na 390x844: Darda omladina, Jagodnjak grobnica, Topolje; fotografije učitane, bez JS izuzetaka.",
-    "slike": "18 konačnih fotografija vizuelno pregledano; ispravljene dve veze između izdvojene slike i knjiške strane; mali prikazi i odnosi obnovljeni.",
-    "poredjenje": "13 dodatih i 6 izmenjenih zapisa uzorka; nema brisanja niti promene prethodnih koordinata, CID, izvora ili stanja. Paralelne promene drugih potpisa van uzorka sačuvane."
+    "slike": "18 konačnih fotografija vizuelno pregledano; ispravljene dve veze između izdvojene slike i knjiške strane; mali prikazi i odnosi obnovljeni."
   }
 }

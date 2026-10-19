@@ -13,14 +13,8 @@
       "ogranicenje": "Datumi fotografija nisu utvrđeni. Tačke parkinga iz vodiča nisu tačke grobova; koordinate postojećih markera sačuvane."
     }
   ],
-  "pre": {
-    "markeri": 9223,
-    "bezLokacije": 3014,
-    "grobljaBezLokacije": 218
-  },
   "spojeno": [
     {
-      "radniIndeksPreSpajanjaFoca": 1001,
       "prethodniRadniZapis": {
         "naziv": "Grob Nurije Pozderca",
         "nazivEn": "Grave of Nurija Pozderac",
@@ -58,7 +52,6 @@
       }
     },
     {
-      "radniIndeksPreSpajanjaFoca": 1004,
       "prethodniRadniZapis": {
         "naziv": "Grob boraca Fočanske omladinske čete",
         "nazivEn": "Grave of fighters from the Foča Youth Company",
@@ -96,7 +89,6 @@
       }
     },
     {
-      "radniIndeksPreSpajanjaFoca": 2966,
       "prethodniRadniZapis": {
         "naziv": "Grob narodnog heroja Save Kovačevića",
         "nazivEn": "Grave of NH Sava Kovačević",
@@ -153,55 +145,7 @@
       "razlog": "Grobnica 1949. uklonjena 1958; opis preko puta Hotela Sutjeska nije potvrđena istorijska tačka. Ne spajati automatski sa današnjom kosturnicom."
     }
   ],
-  "prevezaniFajlovi": [
-    {
-      "fajl": "data\\knjige\\hrzenjak-2002.json",
-      "pomereneVeze": 5
-    },
-    {
-      "fajl": "data\\knjige\\jokic-1986.json",
-      "pomereneVeze": 112
-    },
-    {
-      "fajl": "data\\knjige\\sibenik-1980.json",
-      "pomereneVeze": 50
-    },
-    {
-      "fajl": "data\\provere\\groblja-zbirni-pregled-2026-10-18.json",
-      "pomereneVeze": 179
-    },
-    {
-      "fajl": "data\\provere\\hrvatska-49-2026-10-16.json",
-      "pomereneVeze": 10
-    },
-    {
-      "fajl": "data\\provere\\hrvatska-ostali-2026-10-16.json",
-      "pomereneVeze": 2
-    },
-    {
-      "fajl": "data\\provere\\lociranje-groblja-2026-10-18.json",
-      "pomereneVeze": 1
-    },
-    {
-      "fajl": "data\\provere\\lociranje-groblja-drugi-2026-10-18.json",
-      "pomereneVeze": 4
-    }
-  ],
-  "posle": {
-    "markeri": 9223,
-    "bezLokacije": 3011,
-    "grobljaBezLokacije": 215,
-    "focanskiGrobniZapisiBezLokacije": 4,
-    "noviMarkeri": 0,
-    "novePrecizneTacke": 0,
-    "spojeniDuplikati": 3,
-    "ispravljeneVrste": 3,
-    "noveFotografije": 3
-  },
   "provera": {
-    "integritet": "prolazi",
-    "testoviAplikacije": "23/23 prolaze",
-    "mobilniPrikaz": "390x844: sva tri markera i fotografije provereni; bez runtime gresaka.",
     "sacuvano": "Sve koordinate, ID-jevi, GoogleCID, izvorni izvori i stanja ostali nepromenjeni. Regionalni vodic ostaje dokaz u izvestaju, bez novog dugmeta Vise."
   }
 }

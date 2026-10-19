@@ -71,10 +71,6 @@
       "uzicanstveno.rs": 1
     }
   },
-  "pre": {
-    "markeri": 10600,
-    "bezFotografije": 6050
-  },
   "dodato": [
     {
       "id": "vrboska-spomenik-palim-borcima",
@@ -84,48 +80,15 @@
       "potpis": "Spomeniki, Blogspot",
       "opisIzvora": "** [http://4.bp.blogspot.com/-7SrKDldyL-g/VnV-vsAHb5I/AAAAAAAAYSw/yqpNkcQBICs/s1600/VRBOSKA%2B%25E2%2580%2593%2BOTOK%2BHVAR%2B-%2B%2BSpomenik%2BNOB%2B4.JPG spomeniki.blogspot.com]",
       "izvorniMetapodaci": {
-        "exif:DateTimeOriginal": "2015:09:16 14:57:10",
-        "exif:ExifOffset": "114",
-        "exif:ExifVersion": "0220",
-        "exif:PixelXDimension": "675",
-        "exif:PixelYDimension": "900",
-        "exif:Software": "Google",
-        "exif:YCbCrSubSampling": "1, 1"
+        "exif:DateTimeOriginal": "2015:09:16 14:57:10"
       },
       "pregled": 0,
       "razlogPrihvatanja": "Bliži kadar zida sa imenima i reljefnim slovima posvete Vrboske, umesto panorame preko luke.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "vrboska-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 43.181649,
-          "lng": 16.671033
-        },
-        "mesto": "Vrboska",
-        "naziv": "Spomenik palim borcima",
-        "godina": "1959",
-        "godinaOd": 1959,
-        "godinaDo": 1959,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia"
+        "id": "vrboska-spomenik-palim-borcima"
       },
       "posle": {
-        "id": "vrboska-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 43.181649,
-          "lng": 16.671033
-        },
-        "mesto": "Vrboska",
-        "naziv": "Spomenik palim borcima",
-        "godina": "1959",
-        "godinaOd": 1959,
-        "godinaDo": 1959,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia",
-        "slika": "slike/spomenici/vrboska-spomenik-palim-borcima.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Spomeniki, Blogspot"
+        "id": "vrboska-spomenik-palim-borcima"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Vrboska_-_Spomenik_Palim_Borcima",
       "odbijenPrviKadar": {
@@ -154,50 +117,14 @@
       "urlFotografije": "https://1.bp.blogspot.com/-AS8Jazcjqpc/UqtWwXGh1VI/AAAAAAAANiI/AdON5sDMP80/s1600/Mrkopalj+-+Spomenika+na+pokopaliscu+1.jpg",
       "potpis": "Spomeniki, Blogspot",
       "opisIzvora": "** [http://1.bp.blogspot.com/-AS8Jazcjqpc/UqtWwXGh1VI/AAAAAAAANiI/AdON5sDMP80/s1600/Mrkopalj+-+Spomenika+na+pokopaliscu+1.jpg Spomenik Blogspot]",
-      "izvorniMetapodaci": {
-        "exif:ExifOffset": "58",
-        "exif:ExifVersion": "0220",
-        "exif:PixelXDimension": "900",
-        "exif:PixelYDimension": "506",
-        "exif:Software": "Google",
-        "exif:YCbCrSubSampling": "2, 2"
-      },
       "pregled": 1,
       "razlogPrihvatanja": "Tamna granitna ploča na kružnom postamentu na groblju Mrkoplja.",
       "isecak": "600x390+0+85",
-      "rotacija": null,
       "pre": {
-        "id": "mrkopalj-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 45.318268,
-          "lng": 14.858177
-        },
-        "priblizno": true,
-        "mesto": "Mrkopalj",
-        "naziv": "Spomenik palim borcima",
-        "godina": "1981",
-        "godinaOd": 1981,
-        "godinaDo": 1981,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia"
+        "id": "mrkopalj-spomenik-palim-borcima"
       },
       "posle": {
-        "id": "mrkopalj-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 45.318268,
-          "lng": 14.858177
-        },
-        "priblizno": true,
-        "mesto": "Mrkopalj",
-        "naziv": "Spomenik palim borcima",
-        "godina": "1981",
-        "godinaOd": 1981,
-        "godinaDo": 1981,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia",
-        "slika": "slike/spomenici/mrkopalj-spomenik-palim-borcima.webp",
-        "slikaOdnos": 1.538,
-        "slikaPotpis": "Spomeniki, Blogspot"
+        "id": "mrkopalj-spomenik-palim-borcima"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Mrkopalj_-_Spomenik_Palim_Borcima"
     },
@@ -209,50 +136,16 @@
       "potpis": "Spomeniki, Blogspot",
       "opisIzvora": "** [http://1.bp.blogspot.com/-Epv_TT-adbI/VDKICgz5Z5I/AAAAAAAASuw/18dR9Tn3EcU/s1600/SVETI%2BVID%2BPRI%2BCERKNICI%2B-%2BGrobisce%2Bneznanih%2Bborcev%2BXVIII.%2Bdivizije%2B1.jpg Spomeniki Blogspot]",
       "izvorniMetapodaci": {
-        "exif:DateTimeOriginal": "2014:06:14 10:38:50",
-        "exif:ExifOffset": "114",
-        "exif:ExifVersion": "0220",
-        "exif:PixelXDimension": "900",
-        "exif:PixelYDimension": "675",
-        "exif:Software": "Google",
-        "exif:YCbCrSubSampling": "1, 1"
+        "exif:DateTimeOriginal": "2014:06:14 10:38:50"
       },
       "pregled": 2,
       "razlogPrihvatanja": "Rascepljeni uvijeni kameni stub na grobu neznanih boraca XVIII divizije.",
       "isecak": "410x535+80+120",
-      "rotacija": null,
       "pre": {
-        "id": "sveti-vid-pri-cerknici-grobisce-neznanih-borcev-xv",
-        "koordinate": {
-          "lat": 45.851238,
-          "lng": 14.457184
-        },
-        "priblizno": true,
-        "mesto": "Sveti Vid pri Cerknici",
-        "naziv": "Grobišče neznanih borcev XVIII. divizije",
-        "godina": "1961",
-        "godinaOd": 1961,
-        "godinaDo": 1961,
-        "vrsta": "spomen-groblje",
-        "drzava": "Slovenia"
+        "id": "sveti-vid-pri-cerknici-grobisce-neznanih-borcev-xv"
       },
       "posle": {
-        "id": "sveti-vid-pri-cerknici-grobisce-neznanih-borcev-xv",
-        "koordinate": {
-          "lat": 45.851238,
-          "lng": 14.457184
-        },
-        "priblizno": true,
-        "mesto": "Sveti Vid pri Cerknici",
-        "naziv": "Grobišče neznanih borcev XVIII. divizije",
-        "godina": "1961",
-        "godinaOd": 1961,
-        "godinaDo": 1961,
-        "vrsta": "spomen-groblje",
-        "drzava": "Slovenia",
-        "slika": "slike/spomenici/sveti-vid-pri-cerknici-grobisce-neznanih-borcev-xv.webp",
-        "slikaOdnos": 0.766,
-        "slikaPotpis": "Spomeniki, Blogspot"
+        "id": "sveti-vid-pri-cerknici-grobisce-neznanih-borcev-xv"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Sveti_Vid_pri_Cerknici_-_Grobi%C5%A1%C4%8De_Neznanih_Borcev_XVIII._Divizije"
     },
@@ -264,45 +157,15 @@
       "potpis": "Spomeniki, Blogspot",
       "opisIzvora": "** [https://2.bp.blogspot.com/-avuQff43qHE/V07ifwKEwnI/AAAAAAAAZv8/MgCBIN2Y3BMnucmxgPatyQLTstBgKCxCwCLcB/s640/PODGRAD%2BPRI%2BLJUBLJANI%2B-%2BSpomenik%2Bna%2Bmeji%2Bokupacijskih%2Bcon%2B2.JPG Spomeniki Blogspot 2016] - without plaque",
       "izvorniMetapodaci": {
-        "exif:DateTimeOriginal": "2016:04:26 17:10:38",
-        "exif:ExifOffset": "90",
-        "exif:ExifVersion": "0220",
-        "exif:Software": "Google"
+        "exif:DateTimeOriginal": "2016:04:26 17:10:38"
       },
       "pregled": 3,
       "razlogPrihvatanja": "Dve šine sa petokrakom u obliku slova V na nekadašnjoj okupacionoj granici.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "podgrad-pri-ljubljani-spomenik-na-meji-okupacijski",
-        "koordinate": {
-          "lat": 46.062122,
-          "lng": 14.622189
-        },
-        "mesto": "Podgrad pri Ljubljani",
-        "naziv": "Spomenik na meji okupacijskih con",
-        "godina": "1985",
-        "godinaOd": 1985,
-        "godinaDo": 1985,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Slovenia"
+        "id": "podgrad-pri-ljubljani-spomenik-na-meji-okupacijski"
       },
       "posle": {
-        "id": "podgrad-pri-ljubljani-spomenik-na-meji-okupacijski",
-        "koordinate": {
-          "lat": 46.062122,
-          "lng": 14.622189
-        },
-        "mesto": "Podgrad pri Ljubljani",
-        "naziv": "Spomenik na meji okupacijskih con",
-        "godina": "1985",
-        "godinaOd": 1985,
-        "godinaDo": 1985,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Slovenia",
-        "slika": "slike/spomenici/podgrad-pri-ljubljani-spomenik-na-meji-okupacijski.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Spomeniki, Blogspot"
+        "id": "podgrad-pri-ljubljani-spomenik-na-meji-okupacijski"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Podgrad_pri_Ljubljani_-_Spomenik_na_Meji_Okupacijskih_Con"
     },
@@ -313,35 +176,14 @@
       "urlFotografije": "https://balkans.aljazeera.net/wp-content/uploads/2019/03/sibosnica_celic.jpg",
       "potpis": "Al Jazeera Balkans",
       "opisIzvora": "** [https://balkans.aljazeera.net/wp-content/uploads/2019/03/sibosnica_celic.jpg Aljazeera article - memorial to victims of fascism]",
-      "izvorniMetapodaci": {},
       "pregled": 5,
       "razlogPrihvatanja": "Visoki kameni stubovi sa horizontalnom upisanom pločom Šibošnice.",
       "isecak": "3400x2200+220+250",
-      "rotacija": null,
       "pre": {
-        "id": "sibosnica-spomen-park",
-        "koordinate": {
-          "lat": 44.663694,
-          "lng": 18.733917
-        },
-        "mesto": "Šibošnica",
-        "naziv": "Spomen-park",
-        "vrsta": "spomen-park",
-        "drzava": "Bosnia and Herzegovina"
+        "id": "sibosnica-spomen-park"
       },
       "posle": {
-        "id": "sibosnica-spomen-park",
-        "koordinate": {
-          "lat": 44.663694,
-          "lng": 18.733917
-        },
-        "mesto": "Šibošnica",
-        "naziv": "Spomen-park",
-        "vrsta": "spomen-park",
-        "drzava": "Bosnia and Herzegovina",
-        "slika": "slike/spomenici/sibosnica-spomen-park.webp",
-        "slikaOdnos": 1.544,
-        "slikaPotpis": "Al Jazeera Balkans"
+        "id": "sibosnica-spomen-park"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/%C5%A0ibo%C5%A1nica_-_Spomen_Park"
     },
@@ -352,35 +194,13 @@
       "urlFotografije": "http://www.zlakusa.com/wp-content/gallery/spomenici_u_selu/spomenik-vesala-stradalim-mestanima-18-avgusta-1941-godine.jpg",
       "potpis": "zlakusa.com",
       "opisIzvora": "** [http://www.zlakusa.com/wp-content/gallery/spomenici_u_selu/spomenik-vesala-stradalim-mestanima-18-avgusta-1941-godine.jpg www.zlakusa.com]",
-      "izvorniMetapodaci": {},
       "pregled": 8,
       "razlogPrihvatanja": "Čist kadar drvenih vešala sa zajedničkim postamentom u spomen-parku Zlakuse.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "zlakusa-spomen-park-vesala",
-        "koordinate": {
-          "lat": 43.80608,
-          "lng": 19.954314
-        },
-        "mesto": "Zlakusa",
-        "naziv": "Spomen-park „Vešala“",
-        "vrsta": "spomen-park",
-        "drzava": "Serbia"
+        "id": "zlakusa-spomen-park-vesala"
       },
       "posle": {
-        "id": "zlakusa-spomen-park-vesala",
-        "koordinate": {
-          "lat": 43.80608,
-          "lng": 19.954314
-        },
-        "mesto": "Zlakusa",
-        "naziv": "Spomen-park „Vešala“",
-        "vrsta": "spomen-park",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/zlakusa-spomen-park-vesala.webp",
-        "slikaOdnos": 0.691,
-        "slikaPotpis": "zlakusa.com"
+        "id": "zlakusa-spomen-park-vesala"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Zlakusa_-_Spomen_Park_Ve%C5%A1ala",
       "odbijenPrviKadar": {
@@ -400,41 +220,13 @@
       "urlFotografije": "https://www.srbijaplus.net/images/aldinac-8180280.jpg",
       "potpis": "Srbijaplus",
       "opisIzvora": "** [http://www.srbijaplus.net/images/aldinac-8180280.jpg www.srbijaplus.net]",
-      "izvorniMetapodaci": {},
       "pregled": 10,
       "razlogPrihvatanja": "Trodelni beli spomenik sa crnom pločom Aldinca.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "aldinac-spomenik-poginulima-u-ratovima",
-        "koordinate": {
-          "lat": 43.530583,
-          "lng": 22.443972
-        },
-        "mesto": "Aldinac",
-        "naziv": "Spomenik poginulima u ratovima",
-        "godina": "1992",
-        "godinaOd": 1992,
-        "godinaDo": 1992,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "aldinac-spomenik-poginulima-u-ratovima"
       },
       "posle": {
-        "id": "aldinac-spomenik-poginulima-u-ratovima",
-        "koordinate": {
-          "lat": 43.530583,
-          "lng": 22.443972
-        },
-        "mesto": "Aldinac",
-        "naziv": "Spomenik poginulima u ratovima",
-        "godina": "1992",
-        "godinaOd": 1992,
-        "godinaDo": 1992,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/aldinac-spomenik-poginulima-u-ratovima.webp",
-        "slikaOdnos": 0.738,
-        "slikaPotpis": "Srbijaplus"
+        "id": "aldinac-spomenik-poginulima-u-ratovima"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Aldinac_%28Knja%C5%BEevac%29_-_Spomenik_Poginulima_u_Ratovima"
     },
@@ -445,35 +237,13 @@
       "urlFotografije": "https://static.aleksinac.net/files/reportaze/rudnik01-01-velika.jpg",
       "potpis": "Aleksinac.net",
       "opisIzvora": "** [https://www.facebook.com/al.rudnik/photos/pb.100064364062703.-2207520000/266656543362359/?type=3 fb 2011] / [https://static.aleksinac.net/files/reportaze/rudnik01-01-velika.jpg aleksinac.net]",
-      "izvorniMetapodaci": {},
       "pregled": 11,
       "razlogPrihvatanja": "Statua rudara sa podignutom puškom, prepoznatljiva skulptura Aleksinačkog Rudnika.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "aleksinacki-rudnik-spomenik-rudarima",
-        "koordinate": {
-          "lat": 43.557167,
-          "lng": 21.689417
-        },
-        "mesto": "Aleksinački Rudnik",
-        "naziv": "Spomenik rudarima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "aleksinacki-rudnik-spomenik-rudarima"
       },
       "posle": {
-        "id": "aleksinacki-rudnik-spomenik-rudarima",
-        "koordinate": {
-          "lat": 43.557167,
-          "lng": 21.689417
-        },
-        "mesto": "Aleksinački Rudnik",
-        "naziv": "Spomenik rudarima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/aleksinacki-rudnik-spomenik-rudarima.webp",
-        "slikaOdnos": 0.691,
-        "slikaPotpis": "Aleksinac.net"
+        "id": "aleksinacki-rudnik-spomenik-rudarima"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Aleksina%C4%8Dki_Rudnik_-_Spomenik_Rudarima"
     },
@@ -485,92 +255,24 @@
       "potpis": "Wikiloc",
       "opisIzvora": "** [https://s1.wklcdn.com/image_94/2844873/72410266/47541493Master.jpg wikiloc]",
       "izvorniMetapodaci": {
-        "exif:ApertureValue": "135/100",
-        "exif:BitsPerSample": "8, 8, 8",
-        "exif:BrightnessValue": "0/1",
-        "exif:ColorSpace": "1",
-        "exif:ComponentsConfiguration": "...",
-        "exif:CompressedBitsPerPixel": "95/100",
-        "exif:Contrast": "0",
-        "exif:CustomRendered": "1",
         "exif:DateTime": "2021:05:07 17:31:54",
         "exif:DateTimeDigitized": "2021:05:07 17:31:54",
         "exif:DateTimeOriginal": "2021:05:07 17:31:54",
-        "exif:DigitalZoomRatio": "100/100",
-        "exif:ExifOffset": "324",
-        "exif:ExifVersion": "0210",
-        "exif:ExposureBiasValue": "0/10",
-        "exif:ExposureMode": "0",
-        "exif:ExposureProgram": "2",
         "exif:ExposureTime": "1257000/1000000000",
         "exif:FileSource": ".",
-        "exif:Flash": "24",
-        "exif:FlashPixVersion": "0100",
-        "exif:FNumber": "160/100",
-        "exif:FocalLength": "3950/1000",
-        "exif:FocalLengthIn35mmFilm": "27",
-        "exif:GainControl": "0",
-        "exif:ImageLength": "2976",
-        "exif:ImageWidth": "3968",
-        "exif:InteroperabilityOffset": "1066",
         "exif:LightSource": "1",
-        "exif:Make": "HUAWEI",
-        "exif:MakerNote": "####.",
-        "exif:MaxApertureValue": "135/100",
-        "exif:MeteringMode": "5",
-        "exif:Model": "BLA-L29",
-        "exif:PhotographicSensitivity": "50",
-        "exif:PixelXDimension": "1600",
-        "exif:PixelYDimension": "1200",
-        "exif:Saturation": "0",
-        "exif:SceneCaptureType": "0",
-        "exif:SceneType": ".",
-        "exif:SensingMethod": "2",
-        "exif:Sharpness": "0",
-        "exif:ShutterSpeedValue": "298973/10000",
-        "exif:Software": "BLA-L29 10.0.0.183(C432E8R1P3) (BLA-L29 10.0.0.183(C432E8R1P3), ASCII, 31 components, 31 bytes)",
-        "exif:SubjectDistanceRange": "0",
         "exif:SubSecTime": "151040",
         "exif:SubSecTimeDigitized": "151040",
-        "exif:SubSecTimeOriginal": "151040",
-        "exif:thumbnail": "YResolution: 72/1",
-        "exif:WhiteBalance": "0",
-        "exif:YCbCrPositioning": "1"
+        "exif:SubSecTimeOriginal": "151040"
       },
       "pregled": 12,
       "razlogPrihvatanja": "Kamena piramida sa petokrakom i belom pločom na Alinom Potoku.",
       "isecak": "1200x1150+150+0",
-      "rotacija": null,
       "pre": {
-        "id": "alin-potok-spomenik-nob",
-        "koordinate": {
-          "lat": 43.686861,
-          "lng": 19.758278
-        },
-        "mesto": "Alin Potok",
-        "naziv": "Spomenik NOB",
-        "godina": "1951",
-        "godinaOd": 1951,
-        "godinaDo": 1951,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "alin-potok-spomenik-nob"
       },
       "posle": {
-        "id": "alin-potok-spomenik-nob",
-        "koordinate": {
-          "lat": 43.686861,
-          "lng": 19.758278
-        },
-        "mesto": "Alin Potok",
-        "naziv": "Spomenik NOB",
-        "godina": "1951",
-        "godinaOd": 1951,
-        "godinaDo": 1951,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/alin-potok-spomenik-nob.webp",
-        "slikaOdnos": 1.044,
-        "slikaPotpis": "Wikiloc"
+        "id": "alin-potok-spomenik-nob"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Alin_Potok_-_Spomenik_NOB"
     },
@@ -581,35 +283,13 @@
       "urlFotografije": "https://img.soinfo.org/5ea89d05f813b7e99e0efc6d.jpg",
       "potpis": "SOinfo",
       "opisIzvora": "** [https://img.soinfo.org/5ea89d05f813b7e99e0efc6d.jpg soinfo.org 2014]",
-      "izvorniMetapodaci": {},
       "pregled": 13,
       "razlogPrihvatanja": "Stepenasta nadgrobna ploča sa petokrakom i bočnim upisanim pločama Bačkog Brega.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "backi-breg-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 45.919317,
-          "lng": 18.93045
-        },
-        "mesto": "Bački Breg",
-        "naziv": "Spomenik palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "backi-breg-spomenik-palim-borcima"
       },
       "posle": {
-        "id": "backi-breg-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 45.919317,
-          "lng": 18.93045
-        },
-        "mesto": "Bački Breg",
-        "naziv": "Spomenik palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/backi-breg-spomenik-palim-borcima.webp",
-        "slikaOdnos": 0.741,
-        "slikaPotpis": "SOinfo"
+        "id": "backi-breg-spomenik-palim-borcima"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Ba%C4%8Dki_Breg_-_Spomenik_Palim_Borcima"
     },
@@ -620,35 +300,14 @@
       "urlFotografije": "https://www.backipetrovac.rs/images/stories/vesti/2014/28oktober-04.jpg",
       "potpis": "backipetrovac.rs",
       "opisIzvora": "** [https://www.backipetrovac.rs/images/stories/vesti/2014/28oktober-04.jpg backipetrovac.rs 2014]",
-      "izvorniMetapodaci": {},
       "pregled": 14,
       "razlogPrihvatanja": "Izrez samo nadgrobne ploče sa petokrakom i dela groba u Bačkom Petrovcu; ljudi isključeni.",
       "isecak": "220x290+0+50",
-      "rotacija": null,
       "pre": {
-        "id": "backi-petrovac-spomen-grobnica",
-        "koordinate": {
-          "lat": 45.355333,
-          "lng": 19.600861
-        },
-        "mesto": "Bački Petrovac",
-        "naziv": "Spomen-grobnica",
-        "vrsta": "spomen-groblje",
-        "drzava": "Serbia"
+        "id": "backi-petrovac-spomen-grobnica"
       },
       "posle": {
-        "id": "backi-petrovac-spomen-grobnica",
-        "koordinate": {
-          "lat": 45.355333,
-          "lng": 19.600861
-        },
-        "mesto": "Bački Petrovac",
-        "naziv": "Spomen-grobnica",
-        "vrsta": "spomen-groblje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/backi-petrovac-spomen-grobnica.webp",
-        "slikaOdnos": 0.759,
-        "slikaPotpis": "backipetrovac.rs"
+        "id": "backi-petrovac-spomen-grobnica"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Ba%C4%8Dki_Petrovac_-_Spomen_Grobnica"
     },
@@ -659,41 +318,13 @@
       "urlFotografije": "https://www.srbijaplus.net/images/balta-berilovac-knjazevac-8632.jpg",
       "potpis": "Srbijaplus",
       "opisIzvora": "** [http://www.srbijaplus.net/images/balta-berilovac-knjazevac-8632.jpg www.srbijaplus.net]",
-      "izvorniMetapodaci": {},
       "pregled": 15,
       "razlogPrihvatanja": "Zid od kamena sa zaobljenim vrhom, petokrakom i belom pločom Balte Berilovca.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "balta-berilovac-spomenik-poginulima-u-ratovima",
-        "koordinate": {
-          "lat": 43.394637,
-          "lng": 22.483726
-        },
-        "mesto": "Balta Berilovac",
-        "naziv": "Spomenik poginulima u ratovima",
-        "godina": "1951",
-        "godinaOd": 1951,
-        "godinaDo": 1951,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "balta-berilovac-spomenik-poginulima-u-ratovima"
       },
       "posle": {
-        "id": "balta-berilovac-spomenik-poginulima-u-ratovima",
-        "koordinate": {
-          "lat": 43.394637,
-          "lng": 22.483726
-        },
-        "mesto": "Balta Berilovac",
-        "naziv": "Spomenik poginulima u ratovima",
-        "godina": "1951",
-        "godinaOd": 1951,
-        "godinaDo": 1951,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/balta-berilovac-spomenik-poginulima-u-ratovima.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Srbijaplus"
+        "id": "balta-berilovac-spomenik-poginulima-u-ratovima"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Balta_Berilovac_-_Spomenik_Poginulima_u_Ratovima"
     },
@@ -708,7 +339,6 @@
         "exif:Artist": "VU BO",
         "exif:DateTimeDigitized": "2017:12:02 02:51:29",
         "exif:DateTimeOriginal": "2017:12:02 02:51:29",
-        "exif:ExifOffset": "2128",
         "exif:SubSecTimeDigitized": "65",
         "exif:SubSecTimeOriginal": "65",
         "exif:WinXP-Author": "V.U. .B.O...",
@@ -716,38 +346,11 @@
       },
       "pregled": 16,
       "razlogPrihvatanja": "Izolovan fotoprikaz trougaonog kamenog stuba sa imenima i petougaonom osnovom iz Antifašističke mape Bara; nije potvrda današnjeg stanja.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "bar-spomenik-nob",
-        "koordinate": {
-          "lat": 42.095083,
-          "lng": 19.094278
-        },
-        "mesto": "Bar",
-        "naziv": "Spomenik NOB",
-        "godina": "1990",
-        "godinaOd": 1990,
-        "godinaDo": 1990,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Montenegro"
+        "id": "bar-spomenik-nob"
       },
       "posle": {
-        "id": "bar-spomenik-nob",
-        "koordinate": {
-          "lat": 42.095083,
-          "lng": 19.094278
-        },
-        "mesto": "Bar",
-        "naziv": "Spomenik NOB",
-        "godina": "1990",
-        "godinaOd": 1990,
-        "godinaDo": 1990,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Montenegro",
-        "slika": "slike/spomenici/bar-spomenik-nob.webp",
-        "slikaOdnos": 0.988,
-        "slikaPotpis": "VU BO, Antifašistička mapa Bara, TO Bar"
+        "id": "bar-spomenik-nob"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Bar_-_Spomenik_NOB"
     },
@@ -758,41 +361,14 @@
       "urlFotografije": "https://jugmedia.rs/wp-content/uploads/2021/09/batulovce-cesma-spomen.jpg",
       "potpis": "jugmedia.rs",
       "opisIzvora": "** [https://jugmedia.rs/wp-content/uploads/2021/09/batulovce-cesma-spomen.jpg jugmedia.rs 2021] - after renovation",
-      "izvorniMetapodaci": {},
       "pregled": 18,
       "razlogPrihvatanja": "Noviji čist kadar obnovljene spomen-česme sa stepenastim zidom i pločom Batulovca.",
       "isecak": "800x550+0+20",
-      "rotacija": null,
       "pre": {
-        "id": "batulovce-spomen-cesma",
-        "koordinate": {
-          "lat": 42.973389,
-          "lng": 22.078472
-        },
-        "mesto": "Batulovce",
-        "naziv": "Spomen-česma‎",
-        "godina": "1957",
-        "godinaOd": 1957,
-        "godinaDo": 1957,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "batulovce-spomen-cesma"
       },
       "posle": {
-        "id": "batulovce-spomen-cesma",
-        "koordinate": {
-          "lat": 42.973389,
-          "lng": 22.078472
-        },
-        "mesto": "Batulovce",
-        "naziv": "Spomen-česma‎",
-        "godina": "1957",
-        "godinaOd": 1957,
-        "godinaDo": 1957,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/batulovce-spomen-cesma.webp",
-        "slikaOdnos": 1.455,
-        "slikaPotpis": "jugmedia.rs"
+        "id": "batulovce-spomen-cesma"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Batulovce_-_Spomen_%C4%8Cesma",
       "odbijenPrviKadar": {
@@ -826,79 +402,20 @@
       "potpis": "Wikiloc",
       "opisIzvora": "** [https://s0.wklcdn.com/image_99/2978847/19695193/117922161Master.jpg wikiloc] / [https://www.facebook.com/photo/?fbid=10211064935593947&set=a.10210825323403792 fb 2017]",
       "izvorniMetapodaci": {
-        "exif:ApertureValue": "92/32",
-        "exif:ColorSpace": "1",
-        "exif:ComponentsConfiguration": "...",
-        "exif:CompressedBitsPerPixel": "3/1",
-        "exif:CustomRendered": "0",
         "exif:DateTime": "2017:07:06 23:29:56",
         "exif:DateTimeDigitized": "2017:07:06 13:36:32",
         "exif:DateTimeOriginal": "2017:07:06 13:36:32",
-        "exif:DigitalZoomRatio": "4000/4000",
-        "exif:ExifOffset": "266",
-        "exif:ExifVersion": "0230",
-        "exif:ExposureBiasValue": "-1/3",
-        "exif:ExposureMode": "1",
         "exif:ExposureTime": "1/320",
-        "exif:FileSource": ".",
-        "exif:Flash": "16",
-        "exif:FlashPixVersion": "0100",
-        "exif:FNumber": "27/10",
-        "exif:FocalLength": "4300/1000",
-        "exif:FocalPlaneResolutionUnit": "2",
-        "exif:FocalPlaneXResolution": "4000000/244",
-        "exif:FocalPlaneYResolution": "3000000/183",
-        "exif:InteroperabilityOffset": "780",
-        "exif:Make": "Canon",
-        "exif:MaxApertureValue": "92/32",
-        "exif:MeteringMode": "2",
-        "exif:Model": "Canon IXUS 220 HS",
-        "exif:PhotographicSensitivity": "100",
-        "exif:PixelXDimension": "1600",
-        "exif:PixelYDimension": "1200",
-        "exif:SceneCaptureType": "0",
-        "exif:SensingMethod": "2",
-        "exif:ShutterSpeedValue": "266/32",
-        "exif:Software": "Adobe Photoshop CS3 Windows",
-        "exif:thumbnail": "YResolution: 72/1",
-        "exif:UserComment": "ASCII",
-        "exif:WhiteBalance": "1",
-        "exif:YCbCrPositioning": "2"
+        "exif:FileSource": "."
       },
       "pregled": 20,
       "razlogPrihvatanja": "Kamena česma sa profilima i imenima braće u Bedinoj Varoši.",
       "isecak": "1350x1050+100+80",
-      "rotacija": null,
       "pre": {
-        "id": "bedina-varos-spomen-cesma",
-        "koordinate": {
-          "lat": 43.581944,
-          "lng": 20.181111
-        },
-        "mesto": "Bedina Varoš",
-        "naziv": "Spomen-česma",
-        "godina": "1959",
-        "godinaOd": 1959,
-        "godinaDo": 1959,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "bedina-varos-spomen-cesma"
       },
       "posle": {
-        "id": "bedina-varos-spomen-cesma",
-        "koordinate": {
-          "lat": 43.581944,
-          "lng": 20.181111
-        },
-        "mesto": "Bedina Varoš",
-        "naziv": "Spomen-česma",
-        "godina": "1959",
-        "godinaOd": 1959,
-        "godinaDo": 1959,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/bedina-varos-spomen-cesma.webp",
-        "slikaOdnos": 1.286,
-        "slikaPotpis": "Wikiloc"
+        "id": "bedina-varos-spomen-cesma"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Bedina_Varo%C5%A1_-_Spomen_%C4%8Cesma"
     },
@@ -910,86 +427,21 @@
       "potpis": "Zokxy, Spomenik Database",
       "opisIzvora": "** [http://imagizer-cv.imageshack.us/a/img911/4094/VcyT35.jpg Linked from Spomenik Database]",
       "izvorniMetapodaci": {
-        "exif:ColorSpace": "1",
-        "exif:ComponentsConfiguration": "...",
-        "exif:CompressedBitsPerPixel": "2/1",
-        "exif:Contrast": "0",
-        "exif:CustomRendered": "0",
         "exif:DateTime": "2015:08:20 09:53:23",
         "exif:DateTimeDigitized": "2015:08:20 09:53:23",
         "exif:DateTimeOriginal": "2015:08:20 09:53:23",
-        "exif:DigitalZoomRatio": "0/100",
-        "exif:ExifOffset": "234",
-        "exif:ExifVersion": "0230",
-        "exif:ExposureBiasValue": "3/10",
-        "exif:ExposureMode": "0",
-        "exif:ExposureProgram": "2",
         "exif:ExposureTime": "10/2500",
         "exif:FileSource": ".",
-        "exif:Flash": "16",
-        "exif:FlashPixVersion": "0100",
-        "exif:FNumber": "34/10",
-        "exif:FocalLength": "4700/1000",
-        "exif:FocalLengthIn35mmFilm": "26",
-        "exif:GainControl": "2",
-        "exif:InteroperabilityOffset": "2878",
-        "exif:LightSource": "0",
-        "exif:Make": "NIKON",
-        "exif:MakerNote": "Nikon",
-        "exif:MaxApertureValue": "35/10",
-        "exif:MeteringMode": "5",
-        "exif:Model": "COOLPIX S3500",
-        "exif:PhotographicSensitivity": "450",
-        "exif:PixelXDimension": "1600",
-        "exif:PixelYDimension": "1200",
-        "exif:Saturation": "0",
-        "exif:SceneCaptureType": "0",
-        "exif:SceneType": ".",
-        "exif:SensitivityType": "1",
-        "exif:Sharpness": "0",
-        "exif:Software": "COOLPIX S3500V1.1",
-        "exif:SubjectDistanceRange": "0",
-        "exif:thumbnail": "YResolution: 300/1",
-        "exif:UserComment": "ASCII",
-        "exif:WhiteBalance": "0",
-        "exif:YCbCrPositioning": "2"
+        "exif:LightSource": "0"
       },
       "pregled": 22,
       "razlogPrihvatanja": "Tri horizontalne metalne skijaške forme na postamentu, sa natpisom borcima skijašima; vodeni žig potpisan Zokxy.",
       "isecak": "1450x1000+100+0",
-      "rotacija": null,
       "pre": {
-        "id": "begovo-razdolje-spomenik",
-        "koordinate": {
-          "lat": 45.305194,
-          "lng": 14.900972
-        },
-        "mesto": "Begovo Razdolje",
-        "naziv": "Spomenik",
-        "godina": "1980",
-        "godinaOd": 1980,
-        "godinaDo": 1980,
-        "autor": "Tomislav Ostoja",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia"
+        "id": "begovo-razdolje-spomenik"
       },
       "posle": {
-        "id": "begovo-razdolje-spomenik",
-        "koordinate": {
-          "lat": 45.305194,
-          "lng": 14.900972
-        },
-        "mesto": "Begovo Razdolje",
-        "naziv": "Spomenik",
-        "godina": "1980",
-        "godinaOd": 1980,
-        "godinaDo": 1980,
-        "autor": "Tomislav Ostoja",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia",
-        "slika": "slike/spomenici/begovo-razdolje-spomenik.webp",
-        "slikaOdnos": 1.449,
-        "slikaPotpis": "Zokxy, Spomenik Database"
+        "id": "begovo-razdolje-spomenik"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Begovo_Razdolje_-_Monument_to_Ski_Fighters"
     },
@@ -1000,35 +452,13 @@
       "urlFotografije": "http://www.gk-srbije-vukovar.hr/images/memorijali/DSC00142.jpg",
       "potpis": "Generalni konzulat Srbije u Vukovaru",
       "opisIzvora": "** [http://www.gk-srbije-vukovar.hr/images/memorijali/DSC00142.jpg www.gk-srbije-vukovar.hr]",
-      "izvorniMetapodaci": {},
       "pregled": 23,
       "razlogPrihvatanja": "Ploča sa petokrakom i zasebnom grobnom platformom Belišća, potvrđen par iz popisa konzulata.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "belisce-spomen-kosturnica",
-        "koordinate": {
-          "lat": 45.685099,
-          "lng": 18.421577
-        },
-        "mesto": "Belišće",
-        "naziv": "Spomen-kosturnica",
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia"
+        "id": "belisce-spomen-kosturnica"
       },
       "posle": {
-        "id": "belisce-spomen-kosturnica",
-        "koordinate": {
-          "lat": 45.685099,
-          "lng": 18.421577
-        },
-        "mesto": "Belišće",
-        "naziv": "Spomen-kosturnica",
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia",
-        "slika": "slike/spomenici/belisce-spomen-kosturnica.webp",
-        "slikaOdnos": 1.329,
-        "slikaPotpis": "Generalni konzulat Srbije u Vukovaru"
+        "id": "belisce-spomen-kosturnica"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Beli%C5%A1%C4%87e_-_Spomen_Kosturnica",
       "odbijenPrviKadar": {
@@ -1046,41 +476,14 @@
       "urlFotografije": "https://www.ekapija.com/thumbs169/spomenik_palim_borcima_u_drugom_svetskom_ratu_belo_polje_050824_tw1024.jpg",
       "potpis": "ekapija.com",
       "opisIzvora": "** [https://www.ekapija.com/thumbs169/spomenik_palim_borcima_u_drugom_svetskom_ratu_belo_polje_050824_tw1024.jpg ekapija.com]",
-      "izvorniMetapodaci": {},
       "pregled": 24,
       "razlogPrihvatanja": "Trougaoni vrh sa petokrakom, dva portreta i velika upisana ploča spomen-česme Belog Polja.",
       "isecak": "750x570+280+0",
-      "rotacija": null,
       "pre": {
-        "id": "belo-polje-spomen-cesma",
-        "koordinate": {
-          "lat": 44.018333,
-          "lng": 20.587944
-        },
-        "mesto": "Belo Polje",
-        "naziv": "Spomen-česma",
-        "godina": "1952",
-        "godinaOd": 1952,
-        "godinaDo": 1952,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "belo-polje-spomen-cesma"
       },
       "posle": {
-        "id": "belo-polje-spomen-cesma",
-        "koordinate": {
-          "lat": 44.018333,
-          "lng": 20.587944
-        },
-        "mesto": "Belo Polje",
-        "naziv": "Spomen-česma",
-        "godina": "1952",
-        "godinaOd": 1952,
-        "godinaDo": 1952,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/belo-polje-spomen-cesma.webp",
-        "slikaOdnos": 1.316,
-        "slikaPotpis": "ekapija.com"
+        "id": "belo-polje-spomen-cesma"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Belo_Polje_%28Gornji_Milanovac%29_-_Spomen_%C4%8Cesma"
     },
@@ -1091,41 +494,13 @@
       "urlFotografije": "http://www.gk-srbije-vukovar.hr/images/memorijali/berak.JPG",
       "potpis": "Generalni konzulat Srbije u Vukovaru",
       "opisIzvora": "** [http://www.gk-srbije-vukovar.hr/images/memorijali/berak.JPG www.gk-srbije-vukovar.hr]",
-      "izvorniMetapodaci": {},
       "pregled": 26,
       "razlogPrihvatanja": "Duga mermerna grobna ploča Berka, potvrđen par iz popisa memorijala konzulata.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "berak-spomen-grobnica",
-        "koordinate": {
-          "lat": 45.231806,
-          "lng": 19.012996
-        },
-        "mesto": "Berak",
-        "naziv": "Spomen-grobnica",
-        "godina": "1966",
-        "godinaOd": 1966,
-        "godinaDo": 1966,
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia"
+        "id": "berak-spomen-grobnica"
       },
       "posle": {
-        "id": "berak-spomen-grobnica",
-        "koordinate": {
-          "lat": 45.231806,
-          "lng": 19.012996
-        },
-        "mesto": "Berak",
-        "naziv": "Spomen-grobnica",
-        "godina": "1966",
-        "godinaOd": 1966,
-        "godinaDo": 1966,
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia",
-        "slika": "slike/spomenici/berak-spomen-grobnica.webp",
-        "slikaOdnos": 1.333,
-        "slikaPotpis": "Generalni konzulat Srbije u Vukovaru"
+        "id": "berak-spomen-grobnica"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Berak_%28Tompojevci%29_-_Spomen_Grobnica",
       "odbijenPrviKadar": {
@@ -1144,80 +519,22 @@
       "potpis": "Wikiloc",
       "opisIzvora": "** [https://s1.wklcdn.com/image_1/57836/94686410/61913221Master.jpg wikiloc]",
       "izvorniMetapodaci": {
-        "exif:ApertureValue": "252/100",
-        "exif:BrightnessValue": "319/100",
-        "exif:ColorSpace": "1",
-        "exif:ComponentsConfiguration": "...",
-        "exif:Contrast": "0",
-        "exif:CustomRendered": "0",
         "exif:DateTime": "2022:02:06 10:18:13",
         "exif:DateTimeDigitized": "2022:02:06 10:18:13",
         "exif:DateTimeOriginal": "2022:02:06 10:18:13",
-        "exif:DigitalZoomRatio": "0/0",
-        "exif:ExifOffset": "224",
-        "exif:ExifVersion": "0220",
-        "exif:ExposureBiasValue": "0/10",
-        "exif:ExposureMode": "0",
-        "exif:ExposureProgram": "2",
         "exif:ExposureTime": "1/73",
-        "exif:Flash": "0",
-        "exif:FlashPixVersion": "0100",
-        "exif:FNumber": "240/100",
-        "exif:FocalLength": "430/100",
-        "exif:FocalLengthIn35mmFilm": "26",
-        "exif:ImageLength": "2268",
-        "exif:ImageUniqueID": "H12LLKF00SM",
-        "exif:ImageWidth": "4032",
-        "exif:InteroperabilityOffset": "812",
-        "exif:Make": "samsung",
-        "exif:MaxApertureValue": "116/100",
-        "exif:MeteringMode": "5",
-        "exif:Model": "SM-G960F",
-        "exif:PhotographicSensitivity": "50",
-        "exif:PixelXDimension": "1600",
-        "exif:PixelYDimension": "900",
-        "exif:Saturation": "0",
-        "exif:SceneCaptureType": "0",
-        "exif:SceneType": ".",
-        "exif:Sharpness": "0",
-        "exif:ShutterSpeedValue": "664/100",
-        "exif:Software": "PhotoScape",
         "exif:SubSecTime": "0072",
         "exif:SubSecTimeDigitized": "0072",
-        "exif:SubSecTimeOriginal": "0072",
-        "exif:thumbnail": "InteroperabilityVersion: 0100",
-        "exif:UserComment": "ASCII",
-        "exif:WhiteBalance": "0",
-        "exif:YCbCrPositioning": "1"
+        "exif:SubSecTimeOriginal": "0072"
       },
       "pregled": 28,
       "razlogPrihvatanja": "Kamena česma sa pločom Radetu Vimiću; izrez isključuje osobu desno.",
       "isecak": "1200x900+0+0",
-      "rotacija": null,
       "pre": {
-        "id": "beserovina-spomen-cesma",
-        "koordinate": {
-          "lat": 43.947444,
-          "lng": 19.474222
-        },
-        "mesto": "Beserovina",
-        "naziv": "Spomen-česma",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "beserovina-spomen-cesma"
       },
       "posle": {
-        "id": "beserovina-spomen-cesma",
-        "koordinate": {
-          "lat": 43.947444,
-          "lng": 19.474222
-        },
-        "mesto": "Beserovina",
-        "naziv": "Spomen-česma",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/beserovina-spomen-cesma.webp",
-        "slikaOdnos": 1.333,
-        "slikaPotpis": "Wikiloc"
+        "id": "beserovina-spomen-cesma"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Beserovina_-_Spomen_%C4%8Cesma"
     },
@@ -1228,41 +545,13 @@
       "urlFotografije": "https://img.soinfo.org/5ea89d06f813b7e99e0efce9.jpg",
       "potpis": "SOinfo",
       "opisIzvora": "** [https://img.soinfo.org/5ea89d06f813b7e99e0efce9.jpg soinfo.org 2014] - before renovation",
-      "izvorniMetapodaci": {},
       "pregled": 29,
       "razlogPrihvatanja": "Dijamantska ploča sa uzdignutim delom i petokrakom na zajedničkom grobu Bezdana.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "bezdan-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 45.839444,
-          "lng": 18.979083
-        },
-        "mesto": "Bezdan",
-        "naziv": "Spomenik palim borcima",
-        "godina": "1961",
-        "godinaOd": 1961,
-        "godinaDo": 1961,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "bezdan-spomenik-palim-borcima"
       },
       "posle": {
-        "id": "bezdan-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 45.839444,
-          "lng": 18.979083
-        },
-        "mesto": "Bezdan",
-        "naziv": "Spomenik palim borcima",
-        "godina": "1961",
-        "godinaOd": 1961,
-        "godinaDo": 1961,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/bezdan-spomenik-palim-borcima.webp",
-        "slikaOdnos": 0.729,
-        "slikaPotpis": "SOinfo"
+        "id": "bezdan-spomenik-palim-borcima"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Bezdan_-_Spomenik_Palim_Borcima"
     },
@@ -1273,37 +562,13 @@
       "urlFotografije": "http://www.gk-srbije-vukovar.hr/images/memorijali/BijeloBrdo.JPG",
       "potpis": "Generalni konzulat Srbije u Vukovaru",
       "opisIzvora": "** [http://www.gk-srbije-vukovar.hr/images/memorijali/BijeloBrdo.JPG www.gk-srbije-vukovar.hr]",
-      "izvorniMetapodaci": {},
       "pregled": 31,
       "razlogPrihvatanja": "Statua borca na postamentu i okolne niske ploče zajedničke grobnice Bijelog Brda.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "bijelo-brdo-spomen-kosturnica",
-        "koordinate": {
-          "lat": 45.517786,
-          "lng": 18.873134
-        },
-        "mesto": "Bijelo Brdo",
-        "naziv": "Spomen-kosturnica",
-        "autor": "Nikola Kečanin",
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia"
+        "id": "bijelo-brdo-spomen-kosturnica"
       },
       "posle": {
-        "id": "bijelo-brdo-spomen-kosturnica",
-        "koordinate": {
-          "lat": 45.517786,
-          "lng": 18.873134
-        },
-        "mesto": "Bijelo Brdo",
-        "naziv": "Spomen-kosturnica",
-        "autor": "Nikola Kečanin",
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia",
-        "slika": "slike/spomenici/bijelo-brdo-spomen-kosturnica.webp",
-        "slikaOdnos": 1.394,
-        "slikaPotpis": "Generalni konzulat Srbije u Vukovaru"
+        "id": "bijelo-brdo-spomen-kosturnica"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Bijelo_Brdo_%28Erdut%29_-_Spomen_Kosturnica",
       "odbijenPrviKadar": {
@@ -1322,82 +587,23 @@
       "potpis": "mnemagazin.me",
       "opisIzvora": "** [https://i0.wp.com/mnemagazin.me/wp-content/uploads/2016/09/Bijelo-POlje_spomen-ploca-u-znak-prvih-borbi-Jula-1941_01.jpg mnemagazin.me 2016]",
       "izvorniMetapodaci": {
-        "exif:ApertureValue": "5655638/1000000",
-        "exif:ComponentsConfiguration": "...",
-        "exif:CompressedBitsPerPixel": "4/1",
-        "exif:Contrast": "0",
         "exif:DateTime": "2016-09-19T00:13:44-22:00",
         "exif:DateTimeDigitized": "2013:09:17 14:37:05",
         "exif:DateTimeOriginal": "2013:09:17 14:37:05",
-        "exif:DigitalZoomRatio": "1/1",
-        "exif:ExifOffset": "242",
-        "exif:ExifVersion": "0220",
-        "exif:ExposureBiasValue": "0/6",
-        "exif:ExposureMode": "0",
-        "exif:ExposureProgram": "0",
         "exif:ExposureTime": "10/2000",
         "exif:FileSource": ".",
-        "exif:Flash": "0",
-        "exif:FNumber": "71/10",
-        "exif:FocalLength": "190/10",
-        "exif:FocalLengthIn35mmFilm": "28",
-        "exif:GainControl": "0",
         "exif:LightSource": "0",
-        "exif:Make": "NIKON CORPORATION",
-        "exif:MaxApertureValue": "36/10",
-        "exif:MeteringMode": "5",
-        "exif:Model": "NIKON D40X",
-        "exif:PhotographicSensitivity": "100",
-        "exif:PixelXDimension": "669",
-        "exif:PixelYDimension": "1000",
-        "exif:Saturation": "0",
-        "exif:SceneCaptureType": "0",
-        "exif:SceneType": ".",
-        "exif:SensingMethod": "2",
-        "exif:Sharpness": "0",
-        "exif:ShutterSpeedValue": "7643856/1000000",
-        "exif:Software": "Microsoft Windows Photo Viewer 6.1.7600.16385",
-        "exif:SubjectDistanceRange": "0",
         "exif:SubSecTime": "00",
         "exif:SubSecTimeDigitized": "00",
-        "exif:SubSecTimeOriginal": "00",
-        "exif:UserComment": "UNICODE",
-        "exif:WhiteBalance": "0"
+        "exif:SubSecTimeOriginal": "00"
       },
       "pregled": 32,
       "razlogPrihvatanja": "Kameni spomenik sa petokrakom i pločom prvim borbama, Bijov Grob; direktna slika iz izvornog MN magazina.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "bijov-grob-spomenik-nob",
-        "koordinate": {
-          "lat": 43.210703,
-          "lng": 19.63363
-        },
-        "mesto": "Bijov Grob",
-        "naziv": "Spomenik NOB",
-        "godina": "1951",
-        "godinaOd": 1951,
-        "godinaDo": 1951,
-        "vrsta": "spomen-groblje",
-        "drzava": "Montenegro"
+        "id": "bijov-grob-spomenik-nob"
       },
       "posle": {
-        "id": "bijov-grob-spomenik-nob",
-        "koordinate": {
-          "lat": 43.210703,
-          "lng": 19.63363
-        },
-        "mesto": "Bijov Grob",
-        "naziv": "Spomenik NOB",
-        "godina": "1951",
-        "godinaOd": 1951,
-        "godinaDo": 1951,
-        "vrsta": "spomen-groblje",
-        "drzava": "Montenegro",
-        "slika": "slike/spomenici/bijov-grob-spomenik-nob.webp",
-        "slikaOdnos": 0.669,
-        "slikaPotpis": "mnemagazin.me"
+        "id": "bijov-grob-spomenik-nob"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Bijov_Grob_-_Spomenik_NOB",
       "odbijenPrviKadar": {
@@ -1416,74 +622,20 @@
       "potpis": "CroatianHistory.net",
       "opisIzvora": "** [http://www.croatianhistory.net/kraljic/images_john/Belgrad-Kostelj-World_WarII_Monument.JPG croatianhistory.net]",
       "izvorniMetapodaci": {
-        "exif:ApertureValue": "0/1000000",
-        "exif:BrightnessValue": "0/1000000",
-        "exif:ColorSpace": "1",
-        "exif:CompressedBitsPerPixel": "2000000/1000000",
         "exif:DateTime": "0000:00:00 00:00:00",
         "exif:DateTimeDigitized": "0000:00:00 00:00:00",
         "exif:DateTimeOriginal": "0000:00:00 00:00:00",
-        "exif:ExifOffset": "482",
-        "exif:ExifVersion": "0220",
-        "exif:ExposureBiasValue": "0/1000000",
-        "exif:ExposureIndex": "0/1000000",
-        "exif:ExposureProgram": "2",
         "exif:ExposureTime": "16639/1000000",
         "exif:FileSource": "3",
-        "exif:Flash": "25",
-        "exif:FlashPixVersion": "0100",
-        "exif:FNumber": "2900000/1000000",
-        "exif:FocalLength": "5700000/1000000",
-        "exif:FocalPlaneResolutionUnit": "0",
-        "exif:FocalPlaneXResolution": "0/1000000",
-        "exif:FocalPlaneYResolution": "0/1000000",
-        "exif:LightSource": "0",
-        "exif:Make": "NIKON",
-        "exif:MaxApertureValue": "3000000/1000000",
-        "exif:MeteringMode": "5",
-        "exif:Model": "E5600",
-        "exif:PhotographicSensitivity": "56, 56",
-        "exif:PixelXDimension": "2592",
-        "exif:PixelYDimension": "1944",
-        "exif:PrimaryChromaticities": "0/1000000, 0/1000000, 0/1000000, 0/1000000, 0/1000000, 0/1000000",
-        "exif:ReferenceBlackWhite": "0/1000000, 0/1000000, 0/1000000, 0/1000000, 0/1000000, 0/1000000",
-        "exif:SceneType": "1",
-        "exif:SensingMethod": "0",
-        "exif:ShutterSpeedValue": "0/1000000",
-        "exif:Software": "E5600v1.0",
-        "exif:SubjectDistance": "0/1000000",
-        "exif:WhitePoint": "0/1000000, 0/1000000",
-        "exif:YCbCrCoefficients": "0/1000000, 0/1000000, 0/1000000",
-        "exif:YCbCrPositioning": "2"
+        "exif:LightSource": "0"
       },
       "pregled": 33,
       "razlogPrihvatanja": "Trodelni zid sa petokrakom u krugu i spiskovima poginulih Blaškovića.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "blaskovici-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 45.215073,
-          "lng": 14.701669
-        },
-        "mesto": "Blaškovići",
-        "naziv": "Spomenik palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia"
+        "id": "blaskovici-spomenik-palim-borcima"
       },
       "posle": {
-        "id": "blaskovici-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 45.215073,
-          "lng": 14.701669
-        },
-        "mesto": "Blaškovići",
-        "naziv": "Spomenik palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia",
-        "slika": "slike/spomenici/blaskovici-spomenik-palim-borcima.webp",
-        "slikaOdnos": 1.133,
-        "slikaPotpis": "CroatianHistory.net"
+        "id": "blaskovici-spomenik-palim-borcima"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Bla%C5%A1kovi%C4%87i_-_Spomenik_Palim_Borcima"
     },
@@ -1494,41 +646,14 @@
       "urlFotografije": "https://www.ekapija.com/thumbs169/spomenik_bobovo_100824_tw1024.jpg",
       "potpis": "ekapija.com",
       "opisIzvora": "** [https://www.ekapija.com/thumbs169/spomenik_bobovo_100824_tw1024.jpg ekapija.com]",
-      "izvorniMetapodaci": {},
       "pregled": 34,
       "razlogPrihvatanja": "Beli stub sa plamenom, upisanim pločama i ogradom Bobova.",
       "isecak": "900x570+260+0",
-      "rotacija": null,
       "pre": {
-        "id": "bobovo-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 44.242361,
-          "lng": 21.269611
-        },
-        "mesto": "Bobovo",
-        "naziv": "Spomenik palim borcima",
-        "godina": "1955",
-        "godinaOd": 1955,
-        "godinaDo": 1955,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "bobovo-spomenik-palim-borcima"
       },
       "posle": {
-        "id": "bobovo-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 44.242361,
-          "lng": 21.269611
-        },
-        "mesto": "Bobovo",
-        "naziv": "Spomenik palim borcima",
-        "godina": "1955",
-        "godinaOd": 1955,
-        "godinaDo": 1955,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/bobovo-spomenik-palim-borcima.webp",
-        "slikaOdnos": 1.581,
-        "slikaPotpis": "ekapija.com"
+        "id": "bobovo-spomenik-palim-borcima"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Bobovo_%28Svilajnac%29_-_Spomenik_Palim_Borcima"
     },
@@ -1539,35 +664,14 @@
       "urlFotografije": "https://mojbecej.rs/wp-content/uploads/2020/09/ovakospomenik.jpg",
       "potpis": "mojbecej.rs",
       "opisIzvora": "** [https://mojbecej.rs/wp-content/uploads/2020/09/ovakospomenik.jpg mojbecej.rs 2020]",
-      "izvorniMetapodaci": {},
       "pregled": 35,
       "razlogPrihvatanja": "Noviji čist kadar spomenika dvojici crvenoarmejaca u Bočaru.",
       "isecak": "650x440+75+0",
-      "rotacija": null,
       "pre": {
-        "id": "bocar-spomenik-zrtvama-fasistickog-terora-2",
-        "koordinate": {
-          "lat": 45.770422,
-          "lng": 20.281742
-        },
-        "mesto": "Bočar",
-        "naziv": "Spomenik žrtvama fašističkog terora",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "bocar-spomenik-zrtvama-fasistickog-terora-2"
       },
       "posle": {
-        "id": "bocar-spomenik-zrtvama-fasistickog-terora-2",
-        "koordinate": {
-          "lat": 45.770422,
-          "lng": 20.281742
-        },
-        "mesto": "Bočar",
-        "naziv": "Spomenik žrtvama fašističkog terora",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/bocar-spomenik-zrtvama-fasistickog-terora-2.webp",
-        "slikaOdnos": 1.476,
-        "slikaPotpis": "mojbecej.rs"
+        "id": "bocar-spomenik-zrtvama-fasistickog-terora-2"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Bo%C4%8Dar_-_Spomenik_Palim_Crvenoarmejcima",
       "odbijenPrviKadar": {
@@ -1585,35 +689,14 @@
       "urlFotografije": "https://www.ekapija.com/thumbs169/partizanski_spomenik_borac_knic_220524_tw1024.jpg",
       "potpis": "ekapija.com",
       "opisIzvora": "** [https://www.ekapija.com/thumbs169/partizanski_spomenik_borac_knic_220524_tw1024.jpg ekapija.com]",
-      "izvorniMetapodaci": {},
       "pregled": 36,
       "razlogPrihvatanja": "Kameni zid sa zaobljenim vrhom i petokrakom sela Borač.",
       "isecak": "650x540+220+0",
-      "rotacija": null,
       "pre": {
-        "id": "borac-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 43.962139,
-          "lng": 20.609417
-        },
-        "mesto": "Borač",
-        "naziv": "Spomenik palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "borac-spomenik-palim-borcima"
       },
       "posle": {
-        "id": "borac-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 43.962139,
-          "lng": 20.609417
-        },
-        "mesto": "Borač",
-        "naziv": "Spomenik palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/borac-spomenik-palim-borcima.webp",
-        "slikaOdnos": 1.205,
-        "slikaPotpis": "ekapija.com"
+        "id": "borac-spomenik-palim-borcima"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Bora%C4%8D_%28Kni%C4%87%29_-_Spomenik_Palim_Borcima"
     },
@@ -1625,75 +708,22 @@
       "potpis": "loznica.rs",
       "opisIzvora": "** [http://www.loznica.rs/cms/mestoZaUploadFajlove/Spomenik%20NOB-a-%20Bradic.JPG www.loznica.rs]",
       "izvorniMetapodaci": {
-        "exif:ColorSpace": "1",
-        "exif:ComponentsConfiguration": "...",
-        "exif:Contrast": "0",
-        "exif:CustomRendered": "0",
         "exif:DateTime": "2013:10:22 10:11:01",
         "exif:DateTimeDigitized": "2013:10:22 10:11:01",
         "exif:DateTimeOriginal": "2013:10:22 10:11:01",
-        "exif:DigitalZoomRatio": "0/100",
-        "exif:ExifOffset": "444",
-        "exif:ExifVersion": "0230",
-        "exif:ExposureBiasValue": "0/10",
-        "exif:ExposureMode": "0",
-        "exif:ExposureProgram": "2",
         "exif:ExposureTime": "10/6400",
         "exif:FileSource": ".",
-        "exif:Flash": "16",
-        "exif:FlashPixVersion": "0100",
-        "exif:FNumber": "30/10",
-        "exif:FocalLength": "45/10",
-        "exif:FocalLengthIn35mmFilm": "25",
-        "exif:GainControl": "0",
         "exif:ImageDescription": "OLYMPUS DIGITAL CAMERA",
-        "exif:LightSource": "0",
-        "exif:Make": "OLYMPUS IMAGING CORP.",
-        "exif:MakerNote": "OLYMPUS",
-        "exif:MaxApertureValue": "317/100",
-        "exif:MeteringMode": "5",
-        "exif:Model": "SZ-16,DZ-105",
-        "exif:PhotographicSensitivity": "100",
-        "exif:PixelXDimension": "3456",
-        "exif:PixelYDimension": "4608",
-        "exif:PrintImageMatching": "PrintIM",
-        "exif:Saturation": "0",
-        "exif:SceneCaptureType": "0",
-        "exif:SensitivityType": "1",
-        "exif:Sharpness": "0",
-        "exif:Software": "Version 1.0",
-        "exif:thumbnail": "YResolution: 72/1",
-        "exif:WhiteBalance": "0",
-        "exif:YCbCrPositioning": "2"
+        "exif:LightSource": "0"
       },
       "pregled": 38,
       "razlogPrihvatanja": "Duga siva ploča sa petokrakom i imenima boraca Bradića.",
       "isecak": "700x1000+50+30",
-      "rotacija": null,
       "pre": {
-        "id": "bradic-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 44.550118,
-          "lng": 19.339614
-        },
-        "mesto": "Bradić",
-        "naziv": "Spomenik palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "bradic-spomenik-palim-borcima"
       },
       "posle": {
-        "id": "bradic-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 44.550118,
-          "lng": 19.339614
-        },
-        "mesto": "Bradić",
-        "naziv": "Spomenik palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/bradic-spomenik-palim-borcima.webp",
-        "slikaOdnos": 0.701,
-        "slikaPotpis": "loznica.rs"
+        "id": "bradic-spomenik-palim-borcima"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Bradi%C4%87_-_Spomenik_Palim_Borcima"
     },
@@ -1704,41 +734,14 @@
       "urlFotografije": "https://radiobrcko.ba/wp-content/uploads/2020/12/Jevreji-Brcko-Grcica.jpg",
       "potpis": "Radio Brčko",
       "opisIzvora": "** [https://www.facebook.com/photo/?fbid=113101434213228&set=a.111916107665094 fb 2021] / [https://radiobrcko.ba/wp-content/uploads/2020/12/Jevreji-Brcko-Grcica.jpg radiobrcko.ba 2020]",
-      "izvorniMetapodaci": {},
       "pregled": 41,
       "razlogPrihvatanja": "Samostalna ploča Jevrejima Brčkog, natpis izričito navodi žrtve 1941–1945; odgovara drugom opisanom objektu.",
       "isecak": "540x420+50+20",
-      "rotacija": null,
       "pre": {
-        "id": "brcko-spomenik-zrtvama-holokausta-2",
-        "koordinate": {
-          "lat": 44.864,
-          "lng": 18.810694
-        },
-        "mesto": "Brčko",
-        "naziv": "Spomenik žrtvama holokausta",
-        "godina": "1953",
-        "godinaOd": 1953,
-        "godinaDo": 1953,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Bosnia and Herzegovina"
+        "id": "brcko-spomenik-zrtvama-holokausta-2"
       },
       "posle": {
-        "id": "brcko-spomenik-zrtvama-holokausta-2",
-        "koordinate": {
-          "lat": 44.864,
-          "lng": 18.810694
-        },
-        "mesto": "Brčko",
-        "naziv": "Spomenik žrtvama holokausta",
-        "godina": "1953",
-        "godinaOd": 1953,
-        "godinaDo": 1953,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Bosnia and Herzegovina",
-        "slika": "slike/spomenici/brcko-spomenik-zrtvama-holokausta-2.webp",
-        "slikaOdnos": 1.286,
-        "slikaPotpis": "Radio Brčko"
+        "id": "brcko-spomenik-zrtvama-holokausta-2"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Br%C4%8Dko_%28Gr%C4%8Dica%29_-_Spomenik_%C5%BDrtvama_Holokausta"
     },
@@ -1749,41 +752,14 @@
       "urlFotografije": "https://www.jagodina.autentik.net/selo/bresje/066.jpg",
       "potpis": "jagodina.autentik.net",
       "opisIzvora": "** [http://www.jagodina.autentik.net/selo/bresje/066.jpg jagodina.autentik.net]",
-      "izvorniMetapodaci": {},
       "pregled": 42,
       "razlogPrihvatanja": "Bela ploča sa spiskom imena i dve crvene baklje Brestja.",
       "isecak": "850x750+170+0",
-      "rotacija": null,
       "pre": {
-        "id": "bresje-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 43.931556,
-          "lng": 21.256972
-        },
-        "mesto": "Bresje",
-        "naziv": "Spomenik palim borcima",
-        "godina": "1957",
-        "godinaOd": 1957,
-        "godinaDo": 1957,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "bresje-spomenik-palim-borcima"
       },
       "posle": {
-        "id": "bresje-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 43.931556,
-          "lng": 21.256972
-        },
-        "mesto": "Bresje",
-        "naziv": "Spomenik palim borcima",
-        "godina": "1957",
-        "godinaOd": 1957,
-        "godinaDo": 1957,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/bresje-spomenik-palim-borcima.webp",
-        "slikaOdnos": 1.133,
-        "slikaPotpis": "jagodina.autentik.net"
+        "id": "bresje-spomenik-palim-borcima"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Bresje_%28Jagodina%29_-_Spomenik_Palim_Borcima"
     },
@@ -1794,35 +770,14 @@
       "urlFotografije": "https://nkd.rs/wp-content/uploads/2022/01/Brestovac-Spomenici-u-centru-sela-1024x678.jpg",
       "potpis": "nkd.rs",
       "opisIzvora": "** [https://nkd.rs/wp-content/uploads/2022/01/Brestovac-Spomenici-u-centru-sela-1024x678.jpg nkd.rs 2022]",
-      "izvorniMetapodaci": {},
       "pregled": 44,
       "razlogPrihvatanja": "Izrez manjeg desnog spomenika sa petokrakom i portretima; veliki levi obelisk drugog rata nije ciljni objekat.",
       "isecak": "340x390+570+150",
-      "rotacija": null,
       "pre": {
-        "id": "brestovac-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 44.183611,
-          "lng": 22.404889
-        },
-        "mesto": "Brestovac",
-        "naziv": "Spomenik palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "brestovac-spomenik-palim-borcima"
       },
       "posle": {
-        "id": "brestovac-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 44.183611,
-          "lng": 22.404889
-        },
-        "mesto": "Brestovac",
-        "naziv": "Spomenik palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/brestovac-spomenik-palim-borcima.webp",
-        "slikaOdnos": 0.871,
-        "slikaPotpis": "nkd.rs"
+        "id": "brestovac-spomenik-palim-borcima"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Brestovac_%28Negotin%29_-_Spomenik_Palim_Borcima"
     },
@@ -1833,35 +788,14 @@
       "urlFotografije": "https://seebiz.eu/img/c0959982ae84a569c83aa5267c0813ce.jpg",
       "potpis": "seebiz.eu",
       "opisIzvora": "** [https://seebiz.eu/img/c0959982ae84a569c83aa5267c0813ce.jpg seebiz.eu]",
-      "izvorniMetapodaci": {},
       "pregled": 45,
       "razlogPrihvatanja": "Kameni pravougaoni blok sa reljefom borca u Brezni.",
       "isecak": "600x443+50+0",
-      "rotacija": null,
       "pre": {
-        "id": "brezna-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 44.05625,
-          "lng": 20.280778
-        },
-        "mesto": "Brezna",
-        "naziv": "Spomenik palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "brezna-spomenik-palim-borcima"
       },
       "posle": {
-        "id": "brezna-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 44.05625,
-          "lng": 20.280778
-        },
-        "mesto": "Brezna",
-        "naziv": "Spomenik palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/brezna-spomenik-palim-borcima.webp",
-        "slikaOdnos": 1.356,
-        "slikaPotpis": "seebiz.eu"
+        "id": "brezna-spomenik-palim-borcima"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Brezna_%28Gornji_Milanovac%29_-_Spomenik_Palim_Borcima"
     },
@@ -1873,75 +807,21 @@
       "potpis": "loznica.rs",
       "opisIzvora": "** [http://www.loznica.rs/cms/mestoZaUploadFajlove/Spomenik%20palim%20borcima%20NOB-a%20-%20Brnjac.JPG www.loznica.rs]",
       "izvorniMetapodaci": {
-        "exif:ColorSpace": "1",
-        "exif:ComponentsConfiguration": "...",
-        "exif:Contrast": "0",
-        "exif:CustomRendered": "0",
         "exif:DateTime": "2013:10:22 10:19:46",
         "exif:DateTimeDigitized": "2013:10:22 10:19:46",
         "exif:DateTimeOriginal": "2013:10:22 10:19:46",
-        "exif:DigitalZoomRatio": "0/100",
-        "exif:ExifOffset": "444",
-        "exif:ExifVersion": "0230",
-        "exif:ExposureBiasValue": "0/10",
-        "exif:ExposureMode": "0",
-        "exif:ExposureProgram": "2",
         "exif:ExposureTime": "10/1250",
         "exif:FileSource": ".",
-        "exif:Flash": "16",
-        "exif:FlashPixVersion": "0100",
-        "exif:FNumber": "30/10",
-        "exif:FocalLength": "45/10",
-        "exif:FocalLengthIn35mmFilm": "25",
-        "exif:GainControl": "0",
         "exif:ImageDescription": "OLYMPUS DIGITAL CAMERA",
-        "exif:LightSource": "0",
-        "exif:Make": "OLYMPUS IMAGING CORP.",
-        "exif:MakerNote": "OLYMPUS",
-        "exif:MaxApertureValue": "317/100",
-        "exif:MeteringMode": "5",
-        "exif:Model": "SZ-16,DZ-105",
-        "exif:PhotographicSensitivity": "100",
-        "exif:PixelXDimension": "3456",
-        "exif:PixelYDimension": "4608",
-        "exif:PrintImageMatching": "PrintIM",
-        "exif:Saturation": "0",
-        "exif:SceneCaptureType": "0",
-        "exif:SensitivityType": "1",
-        "exif:Sharpness": "0",
-        "exif:Software": "Version 1.0",
-        "exif:thumbnail": "YResolution: 72/1",
-        "exif:WhiteBalance": "0",
-        "exif:YCbCrPositioning": "2"
+        "exif:LightSource": "0"
       },
       "pregled": 48,
       "razlogPrihvatanja": "Zaobljeni kameni zid sa dve tamne ploče i petokrakom Brnjca.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "brnjac-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 44.536135,
-          "lng": 19.373131
-        },
-        "mesto": "Brnjac",
-        "naziv": "Spomenik palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "brnjac-spomenik-palim-borcima"
       },
       "posle": {
-        "id": "brnjac-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 44.536135,
-          "lng": 19.373131
-        },
-        "mesto": "Brnjac",
-        "naziv": "Spomenik palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/brnjac-spomenik-palim-borcima.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "loznica.rs"
+        "id": "brnjac-spomenik-palim-borcima"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Brnjac_-_Spomenik_Palim_Borcima"
     },
@@ -1953,52 +833,16 @@
       "potpis": "UABA Liburnije",
       "opisIzvora": "** [https://uaba-liburnije.com/wp-content/uploads/2014/03/spomenici_uaba_moscenicka_draga_b-4_01.jpg uaba-liburnije.com]",
       "izvorniMetapodaci": {
-        "exif:ColorSpace": "65535",
-        "exif:ComponentsConfiguration": "...",
-        "exif:DateTime": "2015:01:10 14:09:10",
-        "exif:ExifOffset": "160",
-        "exif:ExifVersion": "0230",
-        "exif:FlashPixVersion": "0100",
-        "exif:MakerNote": "Nikon",
-        "exif:PixelXDimension": "600",
-        "exif:PixelYDimension": "397",
-        "exif:Software": "ViewNX 2.9 W",
-        "exif:YCbCrPositioning": "1"
+        "exif:DateTime": "2015:01:10 14:09:10"
       },
       "pregled": 49,
       "razlogPrihvatanja": "Iz slajda izdvojena samo stvarna fotografija ukošene grobne ploče u Brseču, bez tekstualnog okvira.",
       "isecak": "220x205+315+145",
-      "rotacija": null,
       "pre": {
-        "id": "brsec-spomen-grobnica",
-        "koordinate": {
-          "lat": 45.182289,
-          "lng": 14.23459
-        },
-        "mesto": "Brseč",
-        "naziv": "Spomen-grobnica",
-        "godina": "1960",
-        "godinaOd": 1960,
-        "godinaDo": 1960,
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia"
+        "id": "brsec-spomen-grobnica"
       },
       "posle": {
-        "id": "brsec-spomen-grobnica",
-        "koordinate": {
-          "lat": 45.182289,
-          "lng": 14.23459
-        },
-        "mesto": "Brseč",
-        "naziv": "Spomen-grobnica",
-        "godina": "1960",
-        "godinaOd": 1960,
-        "godinaDo": 1960,
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia",
-        "slika": "slike/spomenici/brsec-spomen-grobnica.webp",
-        "slikaOdnos": 1.072,
-        "slikaPotpis": "UABA Liburnije"
+        "id": "brsec-spomen-grobnica"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Brse%C4%8D_-_Spomen_Grobnica"
     },
@@ -2010,52 +854,16 @@
       "potpis": "UABA Liburnije",
       "opisIzvora": "** [https://uaba-liburnije.com/wp-content/uploads/2014/03/spomenici_uaba_moscenicka_draga_b-3_01.jpg uaba-liburnije.com]",
       "izvorniMetapodaci": {
-        "exif:ColorSpace": "65535",
-        "exif:ComponentsConfiguration": "...",
-        "exif:DateTime": "2015:01:10 14:09:10",
-        "exif:ExifOffset": "160",
-        "exif:ExifVersion": "0230",
-        "exif:FlashPixVersion": "0100",
-        "exif:MakerNote": "Nikon",
-        "exif:PixelXDimension": "600",
-        "exif:PixelYDimension": "404",
-        "exif:Software": "ViewNX 2.9 W",
-        "exif:YCbCrPositioning": "1"
+        "exif:DateTime": "2015:01:10 14:09:10"
       },
       "pregled": 50,
       "razlogPrihvatanja": "Iz slajda izdvojena samo stvarna fotografija crne ploče iskrcavanju u Brseču, bez tekstualnog okvira.",
       "isecak": "250x215+307+142",
-      "rotacija": null,
       "pre": {
-        "id": "brsec-spomenik-iskrcavanja",
-        "koordinate": {
-          "lat": 45.179053,
-          "lng": 14.233465
-        },
-        "mesto": "Brseč",
-        "naziv": "Spomenik iskrcavanja",
-        "godina": "1975",
-        "godinaOd": 1975,
-        "godinaDo": 1975,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia"
+        "id": "brsec-spomenik-iskrcavanja"
       },
       "posle": {
-        "id": "brsec-spomenik-iskrcavanja",
-        "koordinate": {
-          "lat": 45.179053,
-          "lng": 14.233465
-        },
-        "mesto": "Brseč",
-        "naziv": "Spomenik iskrcavanja",
-        "godina": "1975",
-        "godinaOd": 1975,
-        "godinaDo": 1975,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia",
-        "slika": "slike/spomenici/brsec-spomenik-iskrcavanja.webp",
-        "slikaOdnos": 1.163,
-        "slikaPotpis": "UABA Liburnije"
+        "id": "brsec-spomenik-iskrcavanja"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Brse%C4%8D_-_Spomenik_Iskrcavanja"
     },
@@ -2067,53 +875,17 @@
       "potpis": "avlija.me",
       "opisIzvora": "** [https://www.avlija.me/wp-content/uploads/2018/11/Olja_Simovi%C4%87_4.jpg www.avlija.me]",
       "izvorniMetapodaci": {
-        "exif:ColorSpace": "1",
-        "exif:ComponentsConfiguration": "...",
-        "exif:CompressedBitsPerPixel": "2/1",
-        "exif:Contrast": "0",
-        "exif:CustomRendered": "0",
         "exif:DateTime": "2018:10:24 16:13:12",
         "exif:DateTimeDigitized": "2018:10:24 16:13:12",
         "exif:DateTimeOriginal": "2018:10:24 16:13:12",
-        "exif:DigitalZoomRatio": "1/1",
-        "exif:ExifOffset": "2278",
-        "exif:ExifVersion": "0230",
-        "exif:ExposureBiasValue": "0/6",
-        "exif:ExposureMode": "0",
-        "exif:ExposureProgram": "0",
         "exif:ExposureTime": "10/2000",
         "exif:FileSource": ".",
-        "exif:Flash": "16",
-        "exif:FlashPixVersion": "0100",
-        "exif:FNumber": "100/10",
-        "exif:FocalLength": "180/10",
-        "exif:FocalLengthIn35mmFilm": "27",
-        "exif:GainControl": "1",
         "exif:GPSInfo": "42786",
         "exif:GPSVersionID": "..",
         "exif:LightSource": "0",
-        "exif:Make": "NIKON CORPORATION",
-        "exif:MakerNote": "Nikon",
-        "exif:MaxApertureValue": "37/10",
-        "exif:MeteringMode": "5",
-        "exif:Model": "NIKON D3200",
-        "exif:PhotographicSensitivity": "400",
-        "exif:PixelXDimension": "6016",
-        "exif:PixelYDimension": "4000",
-        "exif:Saturation": "0",
-        "exif:SceneCaptureType": "1",
-        "exif:SceneType": ".",
-        "exif:SensingMethod": "2",
-        "exif:SensitivityType": "2",
-        "exif:Sharpness": "0",
-        "exif:Software": "Ver.1.04",
-        "exif:SubjectDistanceRange": "0",
         "exif:SubSecTime": "40",
         "exif:SubSecTimeDigitized": "40",
         "exif:SubSecTimeOriginal": "40",
-        "exif:WhiteBalance": "0",
-        "exif:WinXP-Comments": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ...",
-        "exif:YCbCrPositioning": "2",
         "xmp:CreateDate": "2018-10-24T16:13:12.400",
         "xmp:CreatorTool": "Ver.1.04"
       },
@@ -2122,29 +894,10 @@
       "isecak": "480x650+25+60",
       "rotacija": -90,
       "pre": {
-        "id": "brvenik-naselje-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 43.35395,
-          "lng": 20.645949
-        },
-        "mesto": "Brvenik Naselje",
-        "naziv": "Spomenik palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "brvenik-naselje-spomenik-palim-borcima"
       },
       "posle": {
-        "id": "brvenik-naselje-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 43.35395,
-          "lng": 20.645949
-        },
-        "mesto": "Brvenik Naselje",
-        "naziv": "Spomenik palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/brvenik-naselje-spomenik-palim-borcima.webp",
-        "slikaOdnos": 0.738,
-        "slikaPotpis": "avlija.me"
+        "id": "brvenik-naselje-spomenik-palim-borcima"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Brvenik_Naselje_-_Spomenik_Palim_Borcima"
     },
@@ -2156,75 +909,23 @@
       "potpis": "Wikiloc",
       "opisIzvora": "** [https://s0.wklcdn.com/image_404/12122809/122800670/78616203Master.jpg wikiloc]",
       "izvorniMetapodaci": {
-        "exif:ApertureValue": "144/100",
-        "exif:BrightnessValue": "290/100",
-        "exif:ColorSpace": "1",
-        "exif:ComponentsConfiguration": "...",
         "exif:DateTime": "2023:01:06 09:18:46",
         "exif:DateTimeDigitized": "2023:01:06 09:18:46",
         "exif:DateTimeOriginal": "2023:01:06 09:18:46",
-        "exif:ExifOffset": "198",
-        "exif:ExifVersion": "0220",
-        "exif:ExposureBiasValue": "0/6",
-        "exif:ExposureMode": "0",
-        "exif:ExposureProgram": "2",
         "exif:ExposureTime": "1/269",
-        "exif:Flash": "16",
-        "exif:FlashPixVersion": "0100",
-        "exif:FNumber": "165/100",
-        "exif:FocalLength": "4755/1000",
-        "exif:FocalLengthIn35mmFilm": "27",
-        "exif:ImageLength": "1824",
-        "exif:ImageWidth": "4000",
-        "exif:InteroperabilityOffset": "780",
         "exif:LightSource": "21",
-        "exif:Make": "OnePlus",
-        "exif:MakerNote": "MM",
-        "exif:MaxApertureValue": "144/100",
-        "exif:MeteringMode": "2",
-        "exif:Model": "GM1913",
-        "exif:PhotographicSensitivity": "100",
-        "exif:PixelXDimension": "547",
-        "exif:PixelYDimension": "1200",
-        "exif:SceneCaptureType": "0",
-        "exif:SceneType": ".",
-        "exif:SensingMethod": "1",
-        "exif:ShutterSpeedValue": "8072/1000",
         "exif:SubSecTime": "392690",
         "exif:SubSecTimeDigitized": "392690",
-        "exif:SubSecTimeOriginal": "392690",
-        "exif:thumbnail": "InteroperabilityIndex: R98",
-        "exif:WhiteBalance": "0",
-        "exif:YCbCrPositioning": "1"
+        "exif:SubSecTimeOriginal": "392690"
       },
       "pregled": 52,
       "razlogPrihvatanja": "Kamena česma sa višim srednjim delom i pločom Tolinjaka.",
       "isecak": "547x650+0+100",
-      "rotacija": null,
       "pre": {
-        "id": "budva-spomen-cesma-tolinjak",
-        "koordinate": {
-          "lat": 42.299806,
-          "lng": 18.841472
-        },
-        "mesto": "Budva",
-        "naziv": "Spomen-česma Tolinjak",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Montenegro"
+        "id": "budva-spomen-cesma-tolinjak"
       },
       "posle": {
-        "id": "budva-spomen-cesma-tolinjak",
-        "koordinate": {
-          "lat": 42.299806,
-          "lng": 18.841472
-        },
-        "mesto": "Budva",
-        "naziv": "Spomen-česma Tolinjak",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Montenegro",
-        "slika": "slike/spomenici/budva-spomen-cesma-tolinjak.webp",
-        "slikaOdnos": 0.842,
-        "slikaPotpis": "Wikiloc"
+        "id": "budva-spomen-cesma-tolinjak"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Budva_-_Spomen_%C4%8Cesma_Tolinjak"
     },
@@ -2236,24 +937,10 @@
       "potpis": "Wikiloc",
       "opisIzvora": "** [https://s0.wklcdn.com/image_164/4934990/216068892/130977300Master.jpg wikiloc]",
       "izvorniMetapodaci": {
-        "exif:ApertureValue": "169/100",
-        "exif:BrightnessValue": "178/100",
-        "exif:ColorSpace": "1",
         "exif:DateTime": "2025:05:31 15:11:47",
         "exif:DateTimeDigitized": "2025:05:31 15:11:47",
         "exif:DateTimeOriginal": "2025:05:31 15:11:47",
-        "exif:DigitalZoomRatio": "100/100",
-        "exif:ExifOffset": "238",
-        "exif:ExifVersion": "0220",
-        "exif:ExposureBiasValue": "0/100",
-        "exif:ExposureMode": "0",
-        "exif:ExposureProgram": "2",
         "exif:ExposureTime": "1/50",
-        "exif:Flash": "0",
-        "exif:FlashPixVersion": "0100",
-        "exif:FNumber": "180/100",
-        "exif:FocalLength": "523/100",
-        "exif:FocalLengthIn35mmFilm": "24",
         "exif:GPSAltitude": "867/1",
         "exif:GPSAltitudeRef": "0",
         "exif:GPSInfo": "704",
@@ -2261,60 +948,17 @@
         "exif:GPSLatitudeRef": "N",
         "exif:GPSLongitude": "21/1,37/1,50602080/1000000",
         "exif:GPSLongitudeRef": "E",
-        "exif:ImageLength": "3468",
-        "exif:ImageUniqueID": "F64ELNGR3AM",
-        "exif:ImageWidth": "4624",
-        "exif:Make": "samsung",
-        "exif:MaxApertureValue": "169/100",
-        "exif:MeteringMode": "2",
-        "exif:Model": "SM-A525F",
-        "exif:PhotographicSensitivity": "160",
-        "exif:PixelXDimension": "900",
-        "exif:PixelYDimension": "1200",
-        "exif:SceneCaptureType": "0",
-        "exif:ShutterSpeedValue": "1/50",
-        "exif:Software": "A525FXXSBFYC1",
         "exif:SubSecTime": "553",
         "exif:SubSecTimeDigitized": "553",
-        "exif:SubSecTimeOriginal": "553",
-        "exif:thumbnail": "YResolution: 72/1",
-        "exif:WhiteBalance": "0",
-        "exif:YCbCrPositioning": "1"
+        "exif:SubSecTimeOriginal": "553"
       },
       "pregled": 55,
       "razlogPrihvatanja": "Zaobljena kamena česma sa crvenom petokrakom i cevima na Bukovoj Glavi.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "bukova-glava-spomen-cesma",
-        "koordinate": {
-          "lat": 43.693056,
-          "lng": 21.630833
-        },
-        "mesto": "Bukova Glava",
-        "naziv": "Spomen-česma",
-        "godina": "1967",
-        "godinaOd": 1967,
-        "godinaDo": 1967,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "bukova-glava-spomen-cesma"
       },
       "posle": {
-        "id": "bukova-glava-spomen-cesma",
-        "koordinate": {
-          "lat": 43.693056,
-          "lng": 21.630833
-        },
-        "mesto": "Bukova Glava",
-        "naziv": "Spomen-česma",
-        "godina": "1967",
-        "godinaOd": 1967,
-        "godinaDo": 1967,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/bukova-glava-spomen-cesma.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Wikiloc"
+        "id": "bukova-glava-spomen-cesma"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Bukova_Glava_%28Ra%C5%BEanj%29_-_Spomen_%C4%8Cesma"
     },
@@ -2331,37 +975,11 @@
       "pregled": 56,
       "razlogPrihvatanja": "Stepenasti spomenik sa dve crne ploče u metalnoj ogradi, Buljane.",
       "isecak": "1500x1000+200+20",
-      "rotacija": null,
       "pre": {
-        "id": "buljane-spomenik-palim-borcima-droca",
-        "koordinate": {
-          "lat": 43.913278,
-          "lng": 21.539889
-        },
-        "mesto": "Buljane",
-        "naziv": "Spomenik palim borcima Droča",
-        "godina": "1970",
-        "godinaOd": 1970,
-        "godinaDo": 1970,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "buljane-spomenik-palim-borcima-droca"
       },
       "posle": {
-        "id": "buljane-spomenik-palim-borcima-droca",
-        "koordinate": {
-          "lat": 43.913278,
-          "lng": 21.539889
-        },
-        "mesto": "Buljane",
-        "naziv": "Spomenik palim borcima Droča",
-        "godina": "1970",
-        "godinaOd": 1970,
-        "godinaDo": 1970,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/buljane-spomenik-palim-borcima-droca.webp",
-        "slikaOdnos": 1.498,
-        "slikaPotpis": "media.rtvparacin.rs"
+        "id": "buljane-spomenik-palim-borcima-droca"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Buljane_-_Spomenik_Palim_Borcima_Dro%C4%8Da"
     },
@@ -2372,35 +990,14 @@
       "urlFotografije": "https://jagodina.autentik.net/selo/bunar/015.jpg",
       "potpis": "jagodina.autentik.net",
       "opisIzvora": "** [http://jagodina.autentik.net/selo/bunar/015.jpg jagodina.autentik.net]",
-      "izvorniMetapodaci": {},
       "pregled": 57,
       "razlogPrihvatanja": "Dva spojena bela nosača sa pločama, bakljom i spiskovima poginulih Bunara.",
       "isecak": "900x768+50+0",
-      "rotacija": null,
       "pre": {
-        "id": "bunar-spomenik-palim-borcima-2",
-        "koordinate": {
-          "lat": 43.925472,
-          "lng": 21.144861
-        },
-        "mesto": "Bunar",
-        "naziv": "Spomenik palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "bunar-spomenik-palim-borcima-2"
       },
       "posle": {
-        "id": "bunar-spomenik-palim-borcima-2",
-        "koordinate": {
-          "lat": 43.925472,
-          "lng": 21.144861
-        },
-        "mesto": "Bunar",
-        "naziv": "Spomenik palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/bunar-spomenik-palim-borcima-2.webp",
-        "slikaOdnos": 1.173,
-        "slikaPotpis": "jagodina.autentik.net"
+        "id": "bunar-spomenik-palim-borcima-2"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Bunar_%28Jagodina%29_-_Spomenik_Palim_Borcima"
     },
@@ -2412,51 +1009,16 @@
       "potpis": "Hajduk.free.fr",
       "opisIzvora": "** [http://hajduk.free.fr/dossier%20busevic/Spomenik%20(1).JPG hajduk.free.fr 2005]",
       "izvorniMetapodaci": {
-        "exif:ColorSpace": "65535",
-        "exif:DateTime": "2006:03:04 10:00:34",
-        "exif:ExifOffset": "164",
-        "exif:PixelXDimension": "2560",
-        "exif:PixelYDimension": "1920",
-        "exif:Software": "Adobe Photoshop CS Windows",
-        "exif:thumbnail": "YResolution: 72/1",
-        "xmp:ColorSpace": "4294967295",
-        "xmp:PixelXDimension": "2560",
-        "xmp:PixelYDimension": "1920"
+        "exif:DateTime": "2006:03:04 10:00:34"
       },
       "pregled": 59,
       "razlogPrihvatanja": "Iz oštećenog JPEG-a izdvojen samo neoštećen gornji deo sa celom pločom; čitljiv natpis o 35 žena i dece ubijenih aprila 1944. Siva nepotpuna zona je isključena, bez nadomeštanja slike.",
       "isecak": "2000x1100+250+0",
-      "rotacija": null,
       "pre": {
-        "id": "busevic-spomenik-35-zrtvama-fasistickog-terora",
-        "koordinate": {
-          "lat": 44.915607,
-          "lng": 16.225875
-        },
-        "mesto": "Bušević",
-        "naziv": "Spomenik 35 žrtvama fašističkog terora",
-        "godina": "1983",
-        "godinaOd": 1983,
-        "godinaDo": 1983,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Bosnia and Herzegovina"
+        "id": "busevic-spomenik-35-zrtvama-fasistickog-terora"
       },
       "posle": {
-        "id": "busevic-spomenik-35-zrtvama-fasistickog-terora",
-        "koordinate": {
-          "lat": 44.915607,
-          "lng": 16.225875
-        },
-        "mesto": "Bušević",
-        "naziv": "Spomenik 35 žrtvama fašističkog terora",
-        "godina": "1983",
-        "godinaOd": 1983,
-        "godinaDo": 1983,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Bosnia and Herzegovina",
-        "slika": "slike/spomenici/busevic-spomenik-35-zrtvama-fasistickog-terora.webp",
-        "slikaOdnos": 1.818,
-        "slikaPotpis": "Hajduk.free.fr"
+        "id": "busevic-spomenik-35-zrtvama-fasistickog-terora"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Bu%C5%A1evi%C4%87_-_Spomenik_35_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
       "odbijenPrviKadar": {
@@ -2474,41 +1036,13 @@
       "urlFotografije": "http://www.gk-srbije-vukovar.hr/images/memorijali/cakovci.JPG",
       "potpis": "Generalni konzulat Srbije u Vukovaru",
       "opisIzvora": "** [http://www.gk-srbije-vukovar.hr/images/memorijali/cakovci.JPG www.gk-srbije-vukovar.hr] ",
-      "izvorniMetapodaci": {},
       "pregled": 61,
       "razlogPrihvatanja": "Zaobljeni grobni obelisk sa malom kuglom, petokrakom i kružnom ogradom Čakovaca.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "cakovci-spomen-grobnica",
-        "koordinate": {
-          "lat": 45.235745,
-          "lng": 19.058577
-        },
-        "mesto": "Čakovci",
-        "naziv": "Spomen-grobnica",
-        "godina": "1949",
-        "godinaOd": 1949,
-        "godinaDo": 1949,
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia"
+        "id": "cakovci-spomen-grobnica"
       },
       "posle": {
-        "id": "cakovci-spomen-grobnica",
-        "koordinate": {
-          "lat": 45.235745,
-          "lng": 19.058577
-        },
-        "mesto": "Čakovci",
-        "naziv": "Spomen-grobnica",
-        "godina": "1949",
-        "godinaOd": 1949,
-        "godinaDo": 1949,
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia",
-        "slika": "slike/spomenici/cakovci-spomen-grobnica.webp",
-        "slikaOdnos": 1.333,
-        "slikaPotpis": "Generalni konzulat Srbije u Vukovaru"
+        "id": "cakovci-spomen-grobnica"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/%C4%8Cakovci_-_Spomenik_NOB",
       "odbijenPrviKadar": {
@@ -2526,44 +1060,14 @@
       "urlFotografije": "https://bitola.info/wp-content/uploads/2020/09/spomenik-ilinden-i-nov-selo-capari-1.jpg",
       "potpis": "bitola.info",
       "opisIzvora": "** [https://i1.wp.com/bitola.info/wp-content/uploads/2020/09/spomenik-ilinden-i-nov-selo-capari-1.jpg?resize=696%2C461&ssl=1 bitola.info]",
-      "izvorniMetapodaci": {
-        "exif:ColorSpace": "65535",
-        "exif:ComponentsConfiguration": "...",
-        "exif:ExifOffset": "102",
-        "exif:ExifVersion": "0210",
-        "exif:FlashPixVersion": "0100",
-        "exif:PixelXDimension": "1200",
-        "exif:PixelYDimension": "795",
-        "exif:YCbCrPositioning": "1"
-      },
       "pregled": 62,
       "razlogPrihvatanja": "Kameni šiljak sa reljefima boraca i upisanim pločama Čapara; direktna izvorna slika Bitola.info.",
       "isecak": "1000x780+100+0",
-      "rotacija": null,
       "pre": {
-        "id": "capari-spomenik-na-padnatite-borci",
-        "koordinate": {
-          "lat": 41.056675,
-          "lng": 21.179096
-        },
-        "mesto": "Цапари",
-        "naziv": "Споменик на паднатите борци",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Macedonia"
+        "id": "capari-spomenik-na-padnatite-borci"
       },
       "posle": {
-        "id": "capari-spomenik-na-padnatite-borci",
-        "koordinate": {
-          "lat": 41.056675,
-          "lng": 21.179096
-        },
-        "mesto": "Цапари",
-        "naziv": "Споменик на паднатите борци",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Macedonia",
-        "slika": "slike/spomenici/capari-spomenik-na-padnatite-borci.webp",
-        "slikaOdnos": 1.282,
-        "slikaPotpis": "bitola.info"
+        "id": "capari-spomenik-na-padnatite-borci"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Capari_-_Monument_to_Fallen_Fighters",
       "odbijenPrviKadar": {
@@ -2582,85 +1086,22 @@
       "potpis": "rvasi.me",
       "opisIzvora": "** [https://rvasi.me/ceklin/wp-content/uploads/2015/03/carev-laz-spomen-ploca.jpg rvasi.me 2015]",
       "izvorniMetapodaci": {
-        "exif:ApertureValue": "326/100",
-        "exif:ColorSpace": "1",
-        "exif:ComponentsConfiguration": "...",
-        "exif:CompressedBitsPerPixel": "7817840/1920000",
         "exif:Copyright": "COPYRIGHT, 2005",
         "exif:DateTime": "2010:10:30 07:14:26",
         "exif:DateTimeDigitized": "2010:10:30 07:14:26",
         "exif:DateTimeOriginal": "2010:10:30 07:14:26",
-        "exif:DigitalZoomRatio": "10/10",
-        "exif:ExifOffset": "286",
-        "exif:ExifVersion": "0220",
-        "exif:ExposureBiasValue": "0/10",
-        "exif:ExposureIndex": "1/1",
-        "exif:ExposureMode": "0",
-        "exif:ExposureProgram": "2",
         "exif:ExposureTime": "1/250",
         "exif:FileSource": ".",
-        "exif:Flash": "24",
-        "exif:FlashPixVersion": "0100",
-        "exif:FNumber": "31/10",
-        "exif:FocalLength": "92/10",
-        "exif:FocalLengthIn35mmFilm": "44",
         "exif:ImageDescription": "<Digimax L80 / Kenox X80>",
-        "exif:InteroperabilityOffset": "41806",
-        "exif:LightSource": "0",
-        "exif:Make": "Samsung Techwin",
-        "exif:MakerNote": "����",
-        "exif:MaxApertureValue": "326/100",
-        "exif:MeteringMode": "5",
-        "exif:Model": "<Digimax L80 / Kenox X80>",
-        "exif:PhotographicSensitivity": "50",
-        "exif:PixelXDimension": "768",
-        "exif:PixelYDimension": "576",
-        "exif:RelatedSoundFile": "RelatedSound",
-        "exif:Saturation": "0",
-        "exif:SceneCaptureType": "0",
-        "exif:SceneType": ".",
-        "exif:SensingMethod": "2",
-        "exif:Sharpness": "0",
-        "exif:ShutterSpeedValue": "79/10",
-        "exif:Software": "605255",
-        "exif:thumbnail": "YResolution: 1/1",
-        "exif:WhiteBalance": "0",
-        "exif:YCbCrPositioning": "2"
+        "exif:LightSource": "0"
       },
       "pregled": 63,
       "razlogPrihvatanja": "Natpis na nepravilnom kamenom vrhu potvrđuje i 1712. i 13. jul 1941, Carev Laz.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "carev-laz-spomenik-borbi-od-1712-i-od-jula-1941",
-        "koordinate": {
-          "lat": 42.379736,
-          "lng": 19.100799
-        },
-        "mesto": "Carev Laz",
-        "naziv": "Spomenik borbi od 1712 i od jula 1941",
-        "godina": "1954",
-        "godinaOd": 1954,
-        "godinaDo": 1954,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Montenegro"
+        "id": "carev-laz-spomenik-borbi-od-1712-i-od-jula-1941"
       },
       "posle": {
-        "id": "carev-laz-spomenik-borbi-od-1712-i-od-jula-1941",
-        "koordinate": {
-          "lat": 42.379736,
-          "lng": 19.100799
-        },
-        "mesto": "Carev Laz",
-        "naziv": "Spomenik borbi od 1712 i od jula 1941",
-        "godina": "1954",
-        "godinaOd": 1954,
-        "godinaDo": 1954,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Montenegro",
-        "slika": "slike/spomenici/carev-laz-spomenik-borbi-od-1712-i-od-jula-1941.webp",
-        "slikaOdnos": 1.333,
-        "slikaPotpis": "rvasi.me"
+        "id": "carev-laz-spomenik-borbi-od-1712-i-od-jula-1941"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Carev_Laz_-_Spomenik_Borbi_od_1712_i_od_Jula_1941"
     },
@@ -2672,83 +1113,21 @@
       "potpis": "Wikiloc",
       "opisIzvora": "** [https://s1.wklcdn.com/image_16/496475/95278358/62445655Master.jpg wikiloc]",
       "izvorniMetapodaci": {
-        "exif:BrightnessValue": "22734/2560",
-        "exif:ColorSpace": "1",
-        "exif:ComponentsConfiguration": "...",
-        "exif:CompressedBitsPerPixel": "2/1",
-        "exif:Contrast": "0",
-        "exif:CustomRendered": "0",
         "exif:DateTime": "2022:02:13 10:49:39",
         "exif:DateTimeDigitized": "2022:02:13 10:49:39",
         "exif:DateTimeOriginal": "2022:02:13 10:49:39",
-        "exif:DigitalZoomRatio": "16/16",
-        "exif:ExifOffset": "286",
-        "exif:ExifVersion": "0230",
-        "exif:ExposureBiasValue": "0/10",
-        "exif:ExposureMode": "0",
-        "exif:ExposureProgram": "2",
         "exif:ExposureTime": "1/400",
         "exif:FileSource": ".",
-        "exif:Flash": "24",
-        "exif:FlashPixVersion": "0100",
-        "exif:FNumber": "35/10",
-        "exif:FocalLength": "410/100",
-        "exif:FocalLengthIn35mmFilm": "24",
-        "exif:InteroperabilityOffset": "34090",
-        "exif:LightSource": "0",
-        "exif:Make": "SONY",
-        "exif:MakerNote": "SONY DSC",
-        "exif:MaxApertureValue": "926/256",
-        "exif:MeteringMode": "5",
-        "exif:Model": "DSC-WX500",
-        "exif:PhotographicSensitivity": "80",
-        "exif:PixelXDimension": "1600",
-        "exif:PixelYDimension": "1200",
-        "exif:PrintImageMatching": "PrintIM",
-        "exif:Saturation": "0",
-        "exif:SceneCaptureType": "0",
-        "exif:SceneType": ".",
-        "exif:Sharpness": "0",
-        "exif:Software": "DSC-WX500 v1.00",
-        "exif:thumbnail": "YResolution: 72/1",
-        "exif:UserComment": "ASCII",
-        "exif:WhiteBalance": "0",
-        "exif:YCbCrPositioning": "2"
+        "exif:LightSource": "0"
       },
       "pregled": 64,
       "razlogPrihvatanja": "Kameni spomenik sa petokrakom i svetlom pločom na Čestelinu.",
       "isecak": "1400x1100+100+50",
-      "rotacija": null,
       "pre": {
-        "id": "cestelin-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 42.577787,
-          "lng": 21.832826
-        },
-        "mesto": "Čestelin",
-        "naziv": "Spomenik palim borcima",
-        "godina": "1951",
-        "godinaOd": 1951,
-        "godinaDo": 1951,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "cestelin-spomenik-palim-borcima"
       },
       "posle": {
-        "id": "cestelin-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 42.577787,
-          "lng": 21.832826
-        },
-        "mesto": "Čestelin",
-        "naziv": "Spomenik palim borcima",
-        "godina": "1951",
-        "godinaOd": 1951,
-        "godinaDo": 1951,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/cestelin-spomenik-palim-borcima.webp",
-        "slikaOdnos": 1.274,
-        "slikaPotpis": "Wikiloc"
+        "id": "cestelin-spomenik-palim-borcima"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/%C4%8Cestelin_-_Spomenik_Palim_Borcima"
     },
@@ -2759,55 +1138,23 @@
       "urlFotografije": "https://sdk.mk/wp-content/uploads/2016/11/spomenik-negotino-83283.jpg",
       "potpis": "sdk.mk",
       "opisIzvora": "** [https://sdk.mk/wp-content/uploads/2016/11/spomenik-negotino-83283.jpg sdk.mk - current situation]",
-      "izvorniMetapodaci": {},
       "pregled": 66,
       "razlogPrihvatanja": "Sačuvane terase i prazni postamenti odgovaraju ruševinama Crvenih Bregova; postojeće stanje nije menjano.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
         "id": "crveni-bregovi-spomenik",
-        "koordinate": {
-          "lat": 41.539944,
-          "lng": 22.046167
-        },
-        "mesto": "Црвени Брегови",
-        "naziv": "Споменик",
-        "godina": "1981",
-        "godinaOd": 1981,
-        "godinaDo": 1981,
-        "autor": "Tome Andreevski",
-        "stanje": "rusevine",
         "stanjeIzvor": {
           "naziv": "Partisan Memorials Wiki",
           "godina": 2026,
           "url": "https://www.xiwl.com/w/index.php/Crveni_Bregovi_-_Monument_to_Nikola_Petrov"
-        },
-        "vrsta": "spomen-obelezje",
-        "drzava": "Macedonia"
+        }
       },
       "posle": {
         "id": "crveni-bregovi-spomenik",
-        "koordinate": {
-          "lat": 41.539944,
-          "lng": 22.046167
-        },
-        "mesto": "Црвени Брегови",
-        "naziv": "Споменик",
-        "godina": "1981",
-        "godinaOd": 1981,
-        "godinaDo": 1981,
-        "autor": "Tome Andreevski",
-        "stanje": "rusevine",
         "stanjeIzvor": {
           "naziv": "Partisan Memorials Wiki",
           "godina": 2026,
           "url": "https://www.xiwl.com/w/index.php/Crveni_Bregovi_-_Monument_to_Nikola_Petrov"
-        },
-        "vrsta": "spomen-obelezje",
-        "drzava": "Macedonia",
-        "slika": "slike/spomenici/crveni-bregovi-spomenik.webp",
-        "slikaOdnos": 1.778,
-        "slikaPotpis": "sdk.mk"
+        }
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Crveni_Bregovi_-_Monument_to_Nikola_Petrov"
     },
@@ -2819,24 +1166,10 @@
       "potpis": "Wikiloc",
       "opisIzvora": "** [https://s1.wklcdn.com/image_120/3609167/105702581/68495794Master.jpg wikiloc]",
       "izvorniMetapodaci": {
-        "exif:ApertureValue": "169/100",
-        "exif:BrightnessValue": "950/100",
-        "exif:ColorSpace": "1",
-        "exif:ComponentsConfiguration": "...",
         "exif:DateTime": "2022:06:17 11:15:40",
         "exif:DateTimeDigitized": "2022:06:17 11:15:40",
         "exif:DateTimeOriginal": "2022:06:17 11:15:40",
-        "exif:ExifOffset": "212",
-        "exif:ExifVersion": "0220",
-        "exif:ExposureBiasValue": "0/10",
-        "exif:ExposureMode": "0",
-        "exif:ExposureProgram": "2",
         "exif:ExposureTime": "93173/250000000",
-        "exif:Flash": "0",
-        "exif:FlashPixVersion": "0100",
-        "exif:FNumber": "180/100",
-        "exif:FocalLength": "5230/1000",
-        "exif:FocalLengthIn35mmFilm": "25",
         "exif:GPSAltitude": "0/1000",
         "exif:GPSAltitudeRef": ".",
         "exif:GPSDateStamp": "1970:01:01",
@@ -2844,57 +1177,19 @@
         "exif:GPSLongitude": "0/1,0/1,0/10000",
         "exif:GPSLongitudeRef": "E",
         "exif:GPSTimeStamp": "0/1,0/1,0/1",
-        "exif:ImageLength": "2084",
-        "exif:ImageUniqueID": "F64ESNGR1YM",
-        "exif:ImageWidth": "4624",
-        "exif:InteroperabilityOffset": "744",
         "exif:LightSource": "21",
-        "exif:Make": "samsung",
-        "exif:MaxApertureValue": "169/100",
-        "exif:MeteringMode": "2",
-        "exif:Model": "SM-A528B",
-        "exif:PhotographicSensitivity": "40",
-        "exif:PixelXDimension": "541",
-        "exif:PixelYDimension": "1200",
-        "exif:SceneCaptureType": "0",
-        "exif:SceneType": ".",
-        "exif:SensingMethod": "1",
-        "exif:ShutterSpeedValue": "11389/1000",
         "exif:SubSecTime": "437230",
         "exif:SubSecTimeDigitized": "437230",
-        "exif:SubSecTimeOriginal": "437230",
-        "exif:thumbnail": "YResolution: 72/1",
-        "exif:WhiteBalance": "0",
-        "exif:YCbCrPositioning": "1"
+        "exif:SubSecTimeOriginal": "437230"
       },
       "pregled": 68,
       "razlogPrihvatanja": "Kameni spomenik sa petokrakom i belom pločom na Ćupinom Brdu.",
       "isecak": "541x1100+0+50",
-      "rotacija": null,
       "pre": {
-        "id": "cupino-brdo-spomen-cesma",
-        "koordinate": {
-          "lat": 42.338306,
-          "lng": 22.254806
-        },
-        "mesto": "Чупино Брдо",
-        "naziv": "Спомен-чешма",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Macedonia"
+        "id": "cupino-brdo-spomen-cesma"
       },
       "posle": {
-        "id": "cupino-brdo-spomen-cesma",
-        "koordinate": {
-          "lat": 42.338306,
-          "lng": 22.254806
-        },
-        "mesto": "Чупино Брдо",
-        "naziv": "Спомен-чешма",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Macedonia",
-        "slika": "slike/spomenici/cupino-brdo-spomen-cesma.webp",
-        "slikaOdnos": 0.492,
-        "slikaPotpis": "Wikiloc"
+        "id": "cupino-brdo-spomen-cesma"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/%C4%8Cupino_Brdo_-_Spomenik_NOB"
     },
@@ -2905,41 +1200,14 @@
       "urlFotografije": "https://www.srbijaplus.net/images/custica-knjazevac-8513.jpg",
       "potpis": "Srbijaplus",
       "opisIzvora": "** [http://www.srbijaplus.net/images/custica-knjazevac-8513.jpg www.srbijaplus.net]",
-      "izvorniMetapodaci": {},
       "pregled": 69,
       "razlogPrihvatanja": "Žuta opeka, stepenasti vrh sa petokrakom i ploča sa imenima Ćuštice.",
       "isecak": "500x400+100+0",
-      "rotacija": null,
       "pre": {
-        "id": "custica-spomen-cesma",
-        "koordinate": {
-          "lat": 43.368117,
-          "lng": 22.518942
-        },
-        "mesto": "Ćuštica",
-        "naziv": "Spomen-česma",
-        "godina": "1959",
-        "godinaOd": 1959,
-        "godinaDo": 1959,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "custica-spomen-cesma"
       },
       "posle": {
-        "id": "custica-spomen-cesma",
-        "koordinate": {
-          "lat": 43.368117,
-          "lng": 22.518942
-        },
-        "mesto": "Ćuštica",
-        "naziv": "Spomen-česma",
-        "godina": "1959",
-        "godinaOd": 1959,
-        "godinaDo": 1959,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/custica-spomen-cesma.webp",
-        "slikaOdnos": 1.25,
-        "slikaPotpis": "Srbijaplus"
+        "id": "custica-spomen-cesma"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/%C4%86u%C5%A1tica_-_Spomen_%C4%8Cesma"
     },
@@ -2951,97 +1219,27 @@
       "potpis": "infokg.rs",
       "opisIzvora": "** [https://www.infokg.rs/files/gallery/5376/cvetojevac%2004.jpg infokg.rs]",
       "izvorniMetapodaci": {
-        "exif:ApertureValue": "7400879/1000000",
-        "exif:BitsPerSample": "8, 8, 8",
-        "exif:ColorSpace": "1",
-        "exif:ComponentsConfiguration": "...",
-        "exif:CompressedBitsPerPixel": "4/1",
-        "exif:Contrast": "0",
         "exif:Copyright": "FOTO:Z.PETROVIC",
-        "exif:CustomRendered": "0",
         "exif:DateTime": "2015:10:31 19:06:44",
         "exif:DateTimeDigitized": "2011:07:22 09:02:27",
         "exif:DateTimeOriginal": "2011:07:22 09:02:27",
-        "exif:DigitalZoomRatio": "1/1",
-        "exif:ExifOffset": "336",
-        "exif:ExifVersion": "0221",
-        "exif:ExposureBiasValue": "0/6",
-        "exif:ExposureMode": "1",
-        "exif:ExposureProgram": "1",
         "exif:ExposureTime": "10/1250",
         "exif:FileSource": ".",
-        "exif:Flash": "0",
-        "exif:FlashPixVersion": "0100",
-        "exif:FNumber": "130/10",
-        "exif:FocalLength": "280/10",
-        "exif:FocalLengthIn35mmFilm": "28",
-        "exif:GainControl": "0",
         "exif:GPSInfo": "1052",
         "exif:GPSVersionID": "....",
-        "exif:ImageLength": "2832",
-        "exif:ImageWidth": "4256",
-        "exif:InteroperabilityOffset": "1020",
         "exif:LightSource": "0",
-        "exif:Make": "NIKON CORPORATION",
-        "exif:MaxApertureValue": "30/10",
-        "exif:MeteringMode": "2",
-        "exif:Model": "NIKON D700",
-        "exif:PhotographicSensitivity": "200",
-        "exif:PhotometricInterpretation": "2",
-        "exif:PixelXDimension": "792",
-        "exif:PixelYDimension": "1200",
-        "exif:SamplesPerPixel": "3",
-        "exif:Saturation": "0",
-        "exif:SceneCaptureType": "0",
-        "exif:SceneType": ".",
-        "exif:SensingMethod": "2",
-        "exif:Sharpness": "0",
-        "exif:ShutterSpeedValue": "6965784/1000000",
-        "exif:Software": "Adobe Photoshop CS6 (Windows)",
-        "exif:SubjectDistance": "251/100",
-        "exif:SubjectDistanceRange": "0",
         "exif:SubSecTime": "08",
         "exif:SubSecTimeDigitized": "08",
-        "exif:SubSecTimeOriginal": "08",
-        "exif:thumbnail": "YResolution: 72/1",
-        "exif:UserComment": "ASCII",
-        "exif:WhiteBalance": "0",
-        "exif:YCbCrPositioning": "2"
+        "exif:SubSecTimeOriginal": "08"
       },
       "pregled": 70,
       "razlogPrihvatanja": "Bela ploča sa nazubljenom ivicom i bakljom odgovara Cvetojevcu.",
       "isecak": "700x1100+50+50",
-      "rotacija": null,
       "pre": {
-        "id": "cvetojevac-spomenik-palim-borcima-i-zrtvama-fasist",
-        "koordinate": {
-          "lat": 44.071167,
-          "lng": 20.975917
-        },
-        "mesto": "Cvetojevac",
-        "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
-        "godina": "1977",
-        "godinaOd": 1977,
-        "godinaDo": 1977,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "cvetojevac-spomenik-palim-borcima-i-zrtvama-fasist"
       },
       "posle": {
-        "id": "cvetojevac-spomenik-palim-borcima-i-zrtvama-fasist",
-        "koordinate": {
-          "lat": 44.071167,
-          "lng": 20.975917
-        },
-        "mesto": "Cvetojevac",
-        "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
-        "godina": "1977",
-        "godinaOd": 1977,
-        "godinaDo": 1977,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/cvetojevac-spomenik-palim-borcima-i-zrtvama-fasist.webp",
-        "slikaOdnos": 0.636,
-        "slikaPotpis": "infokg.rs"
+        "id": "cvetojevac-spomenik-palim-borcima-i-zrtvama-fasist"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Cvetojevac_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora"
     },
@@ -3052,35 +1250,13 @@
       "urlFotografije": "http://www.gk-srbije-vukovar.hr/images/memorijali/dalj.JPG",
       "potpis": "Generalni konzulat Srbije u Vukovaru",
       "opisIzvora": "** [http://www.gk-srbije-vukovar.hr/images/memorijali/dalj.JPG www.gk-srbije-vukovar.hr]",
-      "izvorniMetapodaci": {},
       "pregled": 71,
       "razlogPrihvatanja": "Grob sa stepenastim kamenim uzglavljem i crnom pločom Dalja.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "dalj-spomen-grobnica",
-        "koordinate": {
-          "lat": 45.482579,
-          "lng": 18.973332
-        },
-        "mesto": "Dalj",
-        "naziv": "Spomen-grobnica",
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia"
+        "id": "dalj-spomen-grobnica"
       },
       "posle": {
-        "id": "dalj-spomen-grobnica",
-        "koordinate": {
-          "lat": 45.482579,
-          "lng": 18.973332
-        },
-        "mesto": "Dalj",
-        "naziv": "Spomen-grobnica",
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia",
-        "slika": "slike/spomenici/dalj-spomen-grobnica.webp",
-        "slikaOdnos": 1.333,
-        "slikaPotpis": "Generalni konzulat Srbije u Vukovaru"
+        "id": "dalj-spomen-grobnica"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Dalj_-_Spomen_Grobnica",
       "odbijenPrviKadar": {
@@ -3099,80 +1275,20 @@
       "potpis": "CroatianHistory.net",
       "opisIzvora": "** [http://www.croatianhistory.net/kraljic/images_john/Delnice%20-%20Cemetary-Partisan_Crypt-Overhead_View.JPG croatianhistory.net]",
       "izvorniMetapodaci": {
-        "exif:ApertureValue": "0/1000000",
-        "exif:BrightnessValue": "0/1000000",
-        "exif:ColorSpace": "1",
-        "exif:CompressedBitsPerPixel": "2000000/1000000",
         "exif:DateTime": "0000:00:00 00:00:00",
         "exif:DateTimeDigitized": "0000:00:00 00:00:00",
         "exif:DateTimeOriginal": "0000:00:00 00:00:00",
-        "exif:ExifOffset": "482",
-        "exif:ExifVersion": "0220",
-        "exif:ExposureBiasValue": "0/1000000",
-        "exif:ExposureIndex": "0/1000000",
-        "exif:ExposureProgram": "2",
         "exif:ExposureTime": "1780/1000000",
         "exif:FileSource": "3",
-        "exif:Flash": "24",
-        "exif:FlashPixVersion": "0100",
-        "exif:FNumber": "4900000/1000000",
-        "exif:FocalLength": "5700000/1000000",
-        "exif:FocalPlaneResolutionUnit": "0",
-        "exif:FocalPlaneXResolution": "0/1000000",
-        "exif:FocalPlaneYResolution": "0/1000000",
-        "exif:LightSource": "0",
-        "exif:Make": "NIKON",
-        "exif:MaxApertureValue": "3000000/1000000",
-        "exif:MeteringMode": "5",
-        "exif:Model": "E5600",
-        "exif:PhotographicSensitivity": "50, 50",
-        "exif:PixelXDimension": "2592",
-        "exif:PixelYDimension": "1944",
-        "exif:PrimaryChromaticities": "0/1000000, 0/1000000, 0/1000000, 0/1000000, 0/1000000, 0/1000000",
-        "exif:ReferenceBlackWhite": "0/1000000, 0/1000000, 0/1000000, 0/1000000, 0/1000000, 0/1000000",
-        "exif:SceneType": "1",
-        "exif:SensingMethod": "0",
-        "exif:ShutterSpeedValue": "0/1000000",
-        "exif:Software": "E5600v1.0",
-        "exif:SubjectDistance": "0/1000000",
-        "exif:WhitePoint": "0/1000000, 0/1000000",
-        "exif:YCbCrCoefficients": "0/1000000, 0/1000000, 0/1000000",
-        "exif:YCbCrPositioning": "2"
+        "exif:LightSource": "0"
       },
       "pregled": 73,
       "razlogPrihvatanja": "Nadgrobna celina sa velikom belom petokrakom i okolnim pločama na groblju Delnica.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "delnice-spomen-kosturnica",
-        "koordinate": {
-          "lat": 45.403326,
-          "lng": 14.804304
-        },
-        "mesto": "Delnice",
-        "naziv": "Spomen-kosturnica",
-        "godina": "1955",
-        "godinaOd": 1955,
-        "godinaDo": 1955,
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia"
+        "id": "delnice-spomen-kosturnica"
       },
       "posle": {
-        "id": "delnice-spomen-kosturnica",
-        "koordinate": {
-          "lat": 45.403326,
-          "lng": 14.804304
-        },
-        "mesto": "Delnice",
-        "naziv": "Spomen-kosturnica",
-        "godina": "1955",
-        "godinaOd": 1955,
-        "godinaDo": 1955,
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia",
-        "slika": "slike/spomenici/delnice-spomen-kosturnica.webp",
-        "slikaOdnos": 1.509,
-        "slikaPotpis": "CroatianHistory.net"
+        "id": "delnice-spomen-kosturnica"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Delnice_-_Spomen_Kosturnica"
     },
@@ -3184,39 +1300,16 @@
       "potpis": "backapalankavesti.com",
       "opisIzvora": "** [https://backapalankavesti.com/wp-content/uploads/2020/07/Spomenik-palim-borcima-Despotovo.jpg backapalankavesti.com 2020]",
       "izvorniMetapodaci": {
-        "exif:ExifOffset": "90",
-        "exif:PixelXDimension": "810",
-        "exif:PixelYDimension": "450",
         "xmp:CreatorTool": "Canva"
       },
       "pregled": 74,
       "razlogPrihvatanja": "Beli spomenik sa reljefom i imenima u ograđenom prostoru Despotova.",
       "isecak": "640x450+120+0",
-      "rotacija": null,
       "pre": {
-        "id": "despotovo-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 45.458194,
-          "lng": 19.527694
-        },
-        "mesto": "Despotovo",
-        "naziv": "Spomenik palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "despotovo-spomenik-palim-borcima"
       },
       "posle": {
-        "id": "despotovo-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 45.458194,
-          "lng": 19.527694
-        },
-        "mesto": "Despotovo",
-        "naziv": "Spomenik palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/despotovo-spomenik-palim-borcima.webp",
-        "slikaOdnos": 1.423,
-        "slikaPotpis": "backapalankavesti.com"
+        "id": "despotovo-spomenik-palim-borcima"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Despotovo_-_Spomenik_Palim_Borcima"
     },
@@ -3227,41 +1320,14 @@
       "urlFotografije": "https://www.listpobeda.rs/slike/vesti/pobeda-djunis-29.03.jpg",
       "potpis": "listpobeda.rs",
       "opisIzvora": "** [https://www.listpobeda.rs/slike/vesti/pobeda-djunis-29.03.jpg listpobeda.rs]",
-      "izvorniMetapodaci": {},
       "pregled": 77,
       "razlogPrihvatanja": "Izrez spomen-ploče česme Đunisa iz originala sa ljudima i panoom; ljudi i pano isključeni.",
       "isecak": "690x900+1160+100",
-      "rotacija": null,
       "pre": {
-        "id": "djunis-spomen-cesma",
-        "koordinate": {
-          "lat": 43.581556,
-          "lng": 21.506194
-        },
-        "mesto": "Đunis",
-        "naziv": "Spomen-česma",
-        "godina": "1967",
-        "godinaOd": 1967,
-        "godinaDo": 1967,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "djunis-spomen-cesma"
       },
       "posle": {
-        "id": "djunis-spomen-cesma",
-        "koordinate": {
-          "lat": 43.581556,
-          "lng": 21.506194
-        },
-        "mesto": "Đunis",
-        "naziv": "Spomen-česma",
-        "godina": "1967",
-        "godinaOd": 1967,
-        "godinaDo": 1967,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/djunis-spomen-cesma.webp",
-        "slikaOdnos": 0.766,
-        "slikaPotpis": "listpobeda.rs"
+        "id": "djunis-spomen-cesma"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/%C4%90unis_-_Spomen_%C4%8Cesma"
     },
@@ -3273,75 +1339,20 @@
       "potpis": "rpr.rs",
       "opisIzvora": "** [https://rpr.rs/wp-content/gallery/dobra_voda_selo/20220330_161712.jpg rpr.rs 2022]",
       "izvorniMetapodaci": {
-        "exif:ApertureValue": "200/100",
-        "exif:BrightnessValue": "773/100",
-        "exif:ColorSpace": "1",
         "exif:Copyright": "Sva prava zadržana i zakonom zaštićena. Slika podleže zaštiti autorskih prava. Autorska prava nad ovom slikom pripadaju portalu Radan Pusta Reka. Zabranjeno je svako umnožavanje,izmena,javno objavljivanje ili korišćenje na bilo koji drugi na�.in bez pisanog odobrenja vlasnika autorskih prava, tj. potala Radan Pusta Reka (rpr.rs)",
         "exif:DateTime": "2022:12:12 11:54:44",
         "exif:DateTimeDigitized": "2022:03:30 16:17:11",
         "exif:DateTimeOriginal": "2022:03:30 16:17:11",
-        "exif:DigitalZoomRatio": "100/100",
-        "exif:ExifOffset": "592",
-        "exif:ExifVersion": "0220",
-        "exif:ExposureBiasValue": "0/100",
-        "exif:ExposureMode": "0",
-        "exif:ExposureProgram": "2",
-        "exif:ExposureTime": "1/50",
-        "exif:Flash": "1",
-        "exif:FNumber": "200/100",
-        "exif:FocalLength": "460/100",
-        "exif:FocalLengthIn35mmFilm": "25",
-        "exif:ImageLength": "2250",
-        "exif:ImageUniqueID": "A48LLML02AM",
-        "exif:ImageWidth": "4000",
-        "exif:Make": "samsung",
-        "exif:MaxApertureValue": "200/100",
-        "exif:MeteringMode": "2",
-        "exif:Model": "SM-A217F",
-        "exif:PhotographicSensitivity": "20",
-        "exif:PixelXDimension": "1024",
-        "exif:PixelYDimension": "576",
-        "exif:SceneCaptureType": "0",
-        "exif:ShutterSpeedValue": "1/50",
-        "exif:Software": "Adobe Photoshop CS4 Windows",
-        "exif:thumbnail": "YResolution: 72/1",
-        "exif:WhiteBalance": "0",
-        "exif:YCbCrPositioning": "1"
+        "exif:ExposureTime": "1/50"
       },
       "pregled": 78,
       "razlogPrihvatanja": "Kamena česma sa petokrakom i belom upisanom pločom Dobre Vode.",
       "isecak": "900x570+60+0",
-      "rotacija": null,
       "pre": {
-        "id": "dobra-voda-spomen-cesma",
-        "koordinate": {
-          "lat": 43.026028,
-          "lng": 21.54875
-        },
-        "mesto": "Dobra Voda",
-        "naziv": "Spomen-česma",
-        "godina": "1959",
-        "godinaOd": 1959,
-        "godinaDo": 1959,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "dobra-voda-spomen-cesma"
       },
       "posle": {
-        "id": "dobra-voda-spomen-cesma",
-        "koordinate": {
-          "lat": 43.026028,
-          "lng": 21.54875
-        },
-        "mesto": "Dobra Voda",
-        "naziv": "Spomen-česma",
-        "godina": "1959",
-        "godinaOd": 1959,
-        "godinaDo": 1959,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/dobra-voda-spomen-cesma.webp",
-        "slikaOdnos": 1.581,
-        "slikaPotpis": "rpr.rs"
+        "id": "dobra-voda-spomen-cesma"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Dobra_Voda_%28Bojnik%29_-_Spomen_%C4%8Cesma"
     },
@@ -3353,69 +1364,21 @@
       "potpis": "Wikiloc",
       "opisIzvora": "** [https://s0.wklcdn.com/image_63/1901040/13901736/8609016Master.jpg wikiloc]",
       "izvorniMetapodaci": {
-        "exif:ApertureValue": "3444932/1000000",
-        "exif:ColorSpace": "1",
-        "exif:Contrast": "0",
-        "exif:CustomRendered": "0",
         "exif:DateTime": "2016:07:04 16:05:54",
         "exif:DateTimeDigitized": "2016:07:03 16:25:56",
         "exif:DateTimeOriginal": "2016:07:03 16:25:56",
-        "exif:ExifOffset": "204",
-        "exif:ExifVersion": "0230",
-        "exif:ExposureBiasValue": "0/10",
-        "exif:ExposureMode": "0",
-        "exif:ExposureProgram": "2",
         "exif:ExposureTime": "1/40",
         "exif:FileSource": ".",
-        "exif:Flash": "16",
-        "exif:FlashPixVersion": "0100",
-        "exif:FNumber": "33/10",
-        "exif:FocalLength": "450/100",
-        "exif:LightSource": "0",
-        "exif:Make": "SONY",
-        "exif:MaxApertureValue": "882/256",
-        "exif:MeteringMode": "5",
-        "exif:Model": "DSC-W830",
-        "exif:PhotographicSensitivity": "80",
-        "exif:PixelXDimension": "1600",
-        "exif:PixelYDimension": "1200",
-        "exif:Saturation": "0",
-        "exif:SceneCaptureType": "0",
-        "exif:SceneType": ".",
-        "exif:Sharpness": "0",
-        "exif:ShutterSpeedValue": "5321928/1000000",
-        "exif:Software": "Adobe Photoshop Lightroom 6.1.1 (Windows)",
-        "exif:thumbnail": "YResolution: 72/1",
-        "exif:WhiteBalance": "0"
+        "exif:LightSource": "0"
       },
       "pregled": 79,
       "razlogPrihvatanja": "Kamena česma sa petokrakom i pločom borcu iz Visokog odgovara Dobračama.",
       "isecak": "1200x1150+150+0",
-      "rotacija": null,
       "pre": {
-        "id": "dobrace-spomenik-nob",
-        "koordinate": {
-          "lat": 43.66225,
-          "lng": 20.050444
-        },
-        "mesto": "Dobrače",
-        "naziv": "Spomenik NOB",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "dobrace-spomenik-nob"
       },
       "posle": {
-        "id": "dobrace-spomenik-nob",
-        "koordinate": {
-          "lat": 43.66225,
-          "lng": 20.050444
-        },
-        "mesto": "Dobrače",
-        "naziv": "Spomenik NOB",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/dobrace-spomenik-nob.webp",
-        "slikaOdnos": 1.044,
-        "slikaPotpis": "Wikiloc"
+        "id": "dobrace-spomenik-nob"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Dobra%C4%8De_%28Arilje%29_-_Spomenik_NOB"
     },
@@ -3426,41 +1389,14 @@
       "urlFotografije": "https://www.srbijaplus.net/images/crna-trava-dobro-polje-2464.jpg",
       "potpis": "Srbijaplus",
       "opisIzvora": "** [http://www.srbijaplus.net/images/crna-trava-dobro-polje-2464.jpg www.srbijaplus.net]",
-      "izvorniMetapodaci": {},
       "pregled": 80,
       "razlogPrihvatanja": "Stepenasti kameni zid i viši bočni upisani nosač spomen-česme Dobrog Polja.",
       "isecak": "600x350+0+30",
-      "rotacija": null,
       "pre": {
-        "id": "dobro-polje-spomen-cesma",
-        "koordinate": {
-          "lat": 42.893003,
-          "lng": 22.281188
-        },
-        "mesto": "Dobro Polje",
-        "naziv": "Spomen-česma",
-        "godina": "1961",
-        "godinaOd": 1961,
-        "godinaDo": 1961,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "dobro-polje-spomen-cesma"
       },
       "posle": {
-        "id": "dobro-polje-spomen-cesma",
-        "koordinate": {
-          "lat": 42.893003,
-          "lng": 22.281188
-        },
-        "mesto": "Dobro Polje",
-        "naziv": "Spomen-česma",
-        "godina": "1961",
-        "godinaOd": 1961,
-        "godinaDo": 1961,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/dobro-polje-spomen-cesma.webp",
-        "slikaOdnos": 1.717,
-        "slikaPotpis": "Srbijaplus"
+        "id": "dobro-polje-spomen-cesma"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Dobro_Polje_%28Crna_Trava%29_-_Spomen_%C4%8Cesma"
     },
@@ -3472,24 +1408,10 @@
       "potpis": "Wikiloc",
       "opisIzvora": "** [https://s0.wklcdn.com/image_258/7763215/91745460/59941398Master.jpg wikiloc]",
       "izvorniMetapodaci": {
-        "exif:ApertureValue": "183/100",
-        "exif:BrightnessValue": "439/100",
-        "exif:ColorSpace": "1",
-        "exif:ComponentsConfiguration": "...",
         "exif:DateTime": "2021:12:31 08:39:27",
         "exif:DateTimeDigitized": "2021:12:31 08:39:27",
         "exif:DateTimeOriginal": "2021:12:31 08:39:27",
-        "exif:ExifOffset": "220",
-        "exif:ExifVersion": "0220",
-        "exif:ExposureBiasValue": "0/6",
-        "exif:ExposureMode": "0",
-        "exif:ExposureProgram": "2",
         "exif:ExposureTime": "1/555",
-        "exif:Flash": "16",
-        "exif:FlashPixVersion": "0100",
-        "exif:FNumber": "189/100",
-        "exif:FocalLength": "5430/1000",
-        "exif:FocalLengthIn35mmFilm": "25",
         "exif:GPSAltitude": "434883/1000",
         "exif:GPSAltitudeRef": ".",
         "exif:GPSDateStamp": "2021:12:31",
@@ -3500,62 +1422,20 @@
         "exif:GPSLongitudeRef": "E",
         "exif:GPSProcessingMethod": "ASCII",
         "exif:GPSTimeStamp": "7/1,39/1,27/1",
-        "exif:ImageLength": "3000",
-        "exif:ImageWidth": "4000",
-        "exif:InteroperabilityOffset": "726",
         "exif:LightSource": "21",
-        "exif:Make": "Xiaomi",
-        "exif:MaxApertureValue": "183/100",
-        "exif:MeteringMode": "2",
-        "exif:Model": "Redmi Note 9 Pro",
-        "exif:PhotographicSensitivity": "100",
-        "exif:PixelXDimension": "1600",
-        "exif:PixelYDimension": "1200",
-        "exif:SceneCaptureType": "0",
-        "exif:SceneType": ".",
-        "exif:SensingMethod": "1",
-        "exif:ShutterSpeedValue": "9115/1000",
         "exif:SubSecTime": "880331",
         "exif:SubSecTimeDigitized": "880331",
-        "exif:SubSecTimeOriginal": "880331",
-        "exif:thumbnail": "InteroperabilityVersion: 0100",
-        "exif:WhiteBalance": "0",
-        "exif:YCbCrPositioning": "1"
+        "exif:SubSecTimeOriginal": "880331"
       },
       "pregled": 84,
       "razlogPrihvatanja": "Kamena česma sa dva upisana panela i krstom na vrhu, Donja Koritnica; ispravljen nagib fotografije i izrezani prazni uglovi.",
       "isecak": "440x1225+760+360",
       "rotacija": 45,
       "pre": {
-        "id": "donja-koritnica-spomen-cesma",
-        "koordinate": {
-          "lat": 43.1545,
-          "lng": 22.315417
-        },
-        "mesto": "Donja Koritnica",
-        "naziv": "Spomen-česma",
-        "godina": "1981",
-        "godinaOd": 1981,
-        "godinaDo": 1981,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "donja-koritnica-spomen-cesma"
       },
       "posle": {
-        "id": "donja-koritnica-spomen-cesma",
-        "koordinate": {
-          "lat": 43.1545,
-          "lng": 22.315417
-        },
-        "mesto": "Donja Koritnica",
-        "naziv": "Spomen-česma",
-        "godina": "1981",
-        "godinaOd": 1981,
-        "godinaDo": 1981,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/donja-koritnica-spomen-cesma.webp",
-        "slikaOdnos": 0.359,
-        "slikaPotpis": "Wikiloc"
+        "id": "donja-koritnica-spomen-cesma"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Donja_Koritnica_-_Spomen_%C4%8Cesma"
     },
@@ -3568,52 +1448,16 @@
       "opisIzvora": "** [https://snv.hr/wp-content/uploads/2021/07/DSC_0076-1024x683.jpg snv.hr] page hacked",
       "izvorniMetapodaci": {
         "exif:DateTime": "2021:06:18 18:26:03",
-        "exif:ExifOffset": "294",
-        "exif:ExposureTime": "4000/1000000",
-        "exif:FNumber": "8000000/1000000",
-        "exif:FocalLength": "18000000/1000000",
-        "exif:Make": "Nikon",
-        "exif:Model": "D3100",
-        "exif:PhotographicSensitivity": "100",
-        "exif:PlanarConfiguration": "1",
-        "exif:Software": "dcraw v9.28"
+        "exif:ExposureTime": "4000/1000000"
       },
       "pregled": 85,
       "razlogPrihvatanja": "Dugi upisani zid žrtvama Suvaje ispred crkve; slika iz izvornog SNV-a, bez tvrdnje o datumu današnjeg stanja.",
       "isecak": "1024x400+0+240",
-      "rotacija": null,
       "pre": {
-        "id": "donja-suvaja-spomenik-zrtvama-fasistickog-terora-2",
-        "koordinate": {
-          "lat": 44.411977,
-          "lng": 16.108741
-        },
-        "mesto": "Donja Suvaja",
-        "naziv": "Spomenik žrtvama fašističkog terora",
-        "godina": "2021",
-        "godinaOd": 2021,
-        "godinaDo": 2021,
-        "autor": "David Kabalin",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia"
+        "id": "donja-suvaja-spomenik-zrtvama-fasistickog-terora-2"
       },
       "posle": {
-        "id": "donja-suvaja-spomenik-zrtvama-fasistickog-terora-2",
-        "koordinate": {
-          "lat": 44.411977,
-          "lng": 16.108741
-        },
-        "mesto": "Donja Suvaja",
-        "naziv": "Spomenik žrtvama fašističkog terora",
-        "godina": "2021",
-        "godinaOd": 2021,
-        "godinaDo": 2021,
-        "autor": "David Kabalin",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia",
-        "slika": "slike/spomenici/donja-suvaja-spomenik-zrtvama-fasistickog-terora-2.webp",
-        "slikaOdnos": 2.564,
-        "slikaPotpis": "snv.hr"
+        "id": "donja-suvaja-spomenik-zrtvama-fasistickog-terora-2"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Donja_Suvaja_%28Gra%C4%8Dac%29_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
       "odbijenPrviKadar": {
@@ -3631,41 +1475,14 @@
       "urlFotografije": "https://toplickevesti.com/wp-content/uploads/2022/12/317832934_10225887189184808_2911873823059420421_n.jpg",
       "potpis": "toplickevesti.com",
       "opisIzvora": "** [https://toplickevesti.com/wp-content/uploads/2022/12/317832934_10225887189184808_2911873823059420421_n.jpg toplickevesti.com 2022]",
-      "izvorniMetapodaci": {},
       "pregled": 86,
       "razlogPrihvatanja": "Tri radijalne kamene ploče na kružnoj površini Donjeg Crnatova.",
       "isecak": "1800x1400+100+50",
-      "rotacija": null,
       "pre": {
-        "id": "donje-crnatovo-spomen-cesma",
-        "koordinate": {
-          "lat": 43.155139,
-          "lng": 21.771
-        },
-        "mesto": "Donje Crnatovo",
-        "naziv": "Spomen-česma",
-        "godina": "1983",
-        "godinaOd": 1983,
-        "godinaDo": 1983,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "donje-crnatovo-spomen-cesma"
       },
       "posle": {
-        "id": "donje-crnatovo-spomen-cesma",
-        "koordinate": {
-          "lat": 43.155139,
-          "lng": 21.771
-        },
-        "mesto": "Donje Crnatovo",
-        "naziv": "Spomen-česma",
-        "godina": "1983",
-        "godinaOd": 1983,
-        "godinaDo": 1983,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/donje-crnatovo-spomen-cesma.webp",
-        "slikaOdnos": 1.286,
-        "slikaPotpis": "toplickevesti.com"
+        "id": "donje-crnatovo-spomen-cesma"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Donje_Crnatovo_-_Spomenik_Palim_Borcima"
     },
@@ -3677,83 +1494,27 @@
       "potpis": "Wikiloc",
       "opisIzvora": "** [https://s0.wklcdn.com/image_30/904292/130319311/83055726Master.jpg wikiloc]",
       "izvorniMetapodaci": {
-        "exif:ApertureValue": "169/100",
-        "exif:BrightnessValue": "695/100",
-        "exif:ColorSpace": "1",
         "exif:DateTime": "2023:04:03 10:03:25",
         "exif:DateTimeDigitized": "2023:04:03 10:03:25",
         "exif:DateTimeOriginal": "2023:04:03 10:03:25",
-        "exif:DigitalZoomRatio": "100/100",
-        "exif:ExifOffset": "238",
-        "exif:ExifVersion": "0220",
-        "exif:ExposureBiasValue": "0/100",
-        "exif:ExposureMode": "0",
-        "exif:ExposureProgram": "2",
         "exif:ExposureTime": "1/612",
-        "exif:Flash": "0",
-        "exif:FlashPixVersion": "0100",
-        "exif:FNumber": "180/100",
-        "exif:FocalLength": "700/100",
-        "exif:FocalLengthIn35mmFilm": "25",
         "exif:GPSInfo": "704",
         "exif:GPSLatitude": "42/1,31/1,52711679/1000000",
         "exif:GPSLatitudeRef": "N",
         "exif:GPSLongitude": "18/1,42/1,25545599/1000000",
         "exif:GPSLongitudeRef": "E",
-        "exif:ImageLength": "1800",
-        "exif:ImageUniqueID": "SA8XLMF01SM",
-        "exif:ImageWidth": "4000",
-        "exif:Make": "samsung",
-        "exif:MaxApertureValue": "169/100",
-        "exif:MeteringMode": "2",
-        "exif:Model": "SM-G988B",
-        "exif:PhotographicSensitivity": "50",
-        "exif:PixelXDimension": "540",
-        "exif:PixelYDimension": "1200",
-        "exif:SceneCaptureType": "0",
-        "exif:ShutterSpeedValue": "1/612",
-        "exif:Software": "G988BXXSFHWB1",
         "exif:SubSecTime": "337",
         "exif:SubSecTimeDigitized": "337",
-        "exif:SubSecTimeOriginal": "337",
-        "exif:thumbnail": "YResolution: 72/1",
-        "exif:WhiteBalance": "0",
-        "exif:YCbCrPositioning": "1"
+        "exif:SubSecTimeOriginal": "337"
       },
       "pregled": 87,
       "razlogPrihvatanja": "Prirodni kameni nosač metalne ploče Donjih Ledenica.",
       "isecak": "540x1050+0+100",
-      "rotacija": null,
       "pre": {
-        "id": "donje-ledenice-spomenik-nob",
-        "koordinate": {
-          "lat": 42.531306,
-          "lng": 18.707083
-        },
-        "mesto": "Donje Ledenice",
-        "naziv": "Spomenik NOB",
-        "godina": "1988",
-        "godinaOd": 1988,
-        "godinaDo": 1988,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Montenegro"
+        "id": "donje-ledenice-spomenik-nob"
       },
       "posle": {
-        "id": "donje-ledenice-spomenik-nob",
-        "koordinate": {
-          "lat": 42.531306,
-          "lng": 18.707083
-        },
-        "mesto": "Donje Ledenice",
-        "naziv": "Spomenik NOB",
-        "godina": "1988",
-        "godinaOd": 1988,
-        "godinaDo": 1988,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Montenegro",
-        "slika": "slike/spomenici/donje-ledenice-spomenik-nob.webp",
-        "slikaOdnos": 0.514,
-        "slikaPotpis": "Wikiloc"
+        "id": "donje-ledenice-spomenik-nob"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Donje_Ledenice_-_Spomenik_NOB"
     },
@@ -3768,43 +1529,20 @@
         "exif:Artist": "Zoran Cvetković",
         "exif:DateTimeDigitized": "2024:08:22 16:30:05",
         "exif:DateTimeOriginal": "2024:08:22 16:30:05",
-        "exif:ExifOffset": "2224",
         "exif:ImageDescription": "Železni�.ka stanica Donje Zuni�.e",
         "exif:SubSecTimeDigitized": "07",
         "exif:SubSecTimeOriginal": "07",
         "exif:WinXP-Author": "Z.o.r.a.n. .C.v.e.t.k.o.v.i.....",
-        "exif:WinXP-Subject": "}.e.l.e.z.n.i...k.a. .s.t.a.n.i.c.a. .D.o.n.j.e. .Z.u.n.i...e...",
-        "exif:WinXP-Title": "}.e.l.e.z.n.i...k.a. .s.t.a.n.i.c.a. .D.o.n.j.e. .Z.u.n.i...e...",
         "xmp:CreateDate": "2024-08-22T16:30:05.072"
       },
       "pregled": 89,
       "razlogPrihvatanja": "Spomenik sa izvijenom šinom i poluugrađenom petokrakom u Donjim Žunicama; nije susedna kamena piramida.",
       "isecak": "500x700+15+20",
-      "rotacija": null,
       "pre": {
-        "id": "donje-zunice-spomenik-nob",
-        "koordinate": {
-          "lat": 43.626194,
-          "lng": 22.274278
-        },
-        "mesto": "Donje Zuniče",
-        "naziv": "Spomenik NOB",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "donje-zunice-spomenik-nob"
       },
       "posle": {
-        "id": "donje-zunice-spomenik-nob",
-        "koordinate": {
-          "lat": 43.626194,
-          "lng": 22.274278
-        },
-        "mesto": "Donje Zuniče",
-        "naziv": "Spomenik NOB",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/donje-zunice-spomenik-nob.webp",
-        "slikaOdnos": 0.714,
-        "slikaPotpis": "Zoran Cvetković, Srbijaplus"
+        "id": "donje-zunice-spomenik-nob"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Donje_Zuni%C4%8De_-_Spomenik_NOB"
     },
@@ -3819,43 +1557,20 @@
         "exif:Artist": "Zoran Cvetković",
         "exif:DateTimeDigitized": "2024:08:22 16:30:05",
         "exif:DateTimeOriginal": "2024:08:22 16:30:05",
-        "exif:ExifOffset": "2224",
         "exif:ImageDescription": "Železni�.ka stanica Donje Zuni�.e",
         "exif:SubSecTimeDigitized": "07",
         "exif:SubSecTimeOriginal": "07",
         "exif:WinXP-Author": "Z.o.r.a.n. .C.v.e.t.k.o.v.i.....",
-        "exif:WinXP-Subject": "}.e.l.e.z.n.i...k.a. .s.t.a.n.i.c.a. .D.o.n.j.e. .Z.u.n.i...e...",
-        "exif:WinXP-Title": "}.e.l.e.z.n.i...k.a. .s.t.a.n.i.c.a. .D.o.n.j.e. .Z.u.n.i...e...",
         "xmp:CreateDate": "2024-08-22T16:30:05.072"
       },
       "pregled": 90,
       "razlogPrihvatanja": "Kamena piramida sa pločom ustanku u Donjim Žunicama; različita od obeležja železničke akcije.",
       "isecak": "500x750+15+20",
-      "rotacija": null,
       "pre": {
-        "id": "donje-zunice-spomenik-ustanka",
-        "koordinate": {
-          "lat": 43.626139,
-          "lng": 22.275361
-        },
-        "mesto": "Donje Zuniče",
-        "naziv": "Spomenik ustanka",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "donje-zunice-spomenik-ustanka"
       },
       "posle": {
-        "id": "donje-zunice-spomenik-ustanka",
-        "koordinate": {
-          "lat": 43.626139,
-          "lng": 22.275361
-        },
-        "mesto": "Donje Zuniče",
-        "naziv": "Spomenik ustanka",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/donje-zunice-spomenik-ustanka.webp",
-        "slikaOdnos": 0.667,
-        "slikaPotpis": "Zoran Cvetković, Srbijaplus"
+        "id": "donje-zunice-spomenik-ustanka"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Donje_Zuni%C4%8De_-_Spomenik_Ustanka"
     },
@@ -3867,76 +1582,21 @@
       "potpis": "loznica.rs",
       "opisIzvora": "** [http://www.loznica.rs/cms/mestoZaUploadFajlove/Spomenik%20NOB-a%20-%20Donji%20Dobric.JPG www.loznica.rs]",
       "izvorniMetapodaci": {
-        "exif:ColorSpace": "1",
-        "exif:ComponentsConfiguration": "...",
-        "exif:Contrast": "0",
-        "exif:CustomRendered": "0",
         "exif:DateTime": "2013:10:21 13:28:11",
         "exif:DateTimeDigitized": "2013:10:21 13:28:11",
         "exif:DateTimeOriginal": "2013:10:21 13:28:11",
-        "exif:DigitalZoomRatio": "0/100",
-        "exif:ExifOffset": "452",
-        "exif:ExifVersion": "0230",
-        "exif:ExposureBiasValue": "0/10",
-        "exif:ExposureMode": "0",
-        "exif:ExposureProgram": "2",
         "exif:ExposureTime": "10/2000",
         "exif:FileSource": ".",
-        "exif:Flash": "16",
-        "exif:FlashPixVersion": "0100",
-        "exif:FNumber": "87/10",
-        "exif:FocalLength": "45/10",
-        "exif:FocalLengthIn35mmFilm": "25",
-        "exif:GainControl": "0",
         "exif:ImageDescription": "OLYMPUS DIGITAL CAMERA",
-        "exif:InteroperabilityOffset": "7264",
-        "exif:LightSource": "0",
-        "exif:Make": "OLYMPUS IMAGING CORP.",
-        "exif:MakerNote": "OLYMPUS",
-        "exif:MaxApertureValue": "317/100",
-        "exif:MeteringMode": "5",
-        "exif:Model": "SZ-16,DZ-105",
-        "exif:PhotographicSensitivity": "100",
-        "exif:PixelXDimension": "4608",
-        "exif:PixelYDimension": "3456",
-        "exif:PrintImageMatching": "PrintIM",
-        "exif:Saturation": "0",
-        "exif:SceneCaptureType": "0",
-        "exif:SensitivityType": "1",
-        "exif:Sharpness": "0",
-        "exif:Software": "Version 1.0",
-        "exif:thumbnail": "YResolution: 72/1",
-        "exif:WhiteBalance": "0",
-        "exif:YCbCrPositioning": "2"
+        "exif:LightSource": "0"
       },
       "pregled": 91,
       "razlogPrihvatanja": "Dvosmerno zakošena kamena ploča sa crnim spiskom imena Donjeg Dobrića.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "donji-dobric-spomenik-palim-borcima-i-zrtvama-fasi",
-        "koordinate": {
-          "lat": 44.609944,
-          "lng": 19.327629
-        },
-        "mesto": "Donji Dobrić",
-        "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "donji-dobric-spomenik-palim-borcima-i-zrtvama-fasi"
       },
       "posle": {
-        "id": "donji-dobric-spomenik-palim-borcima-i-zrtvama-fasi",
-        "koordinate": {
-          "lat": 44.609944,
-          "lng": 19.327629
-        },
-        "mesto": "Donji Dobrić",
-        "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/donji-dobric-spomenik-palim-borcima-i-zrtvama-fasi.webp",
-        "slikaOdnos": 1.587,
-        "slikaPotpis": "loznica.rs"
+        "id": "donji-dobric-spomenik-palim-borcima-i-zrtvama-fasi"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Donji_Dobri%C4%87_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora"
     },
@@ -3947,41 +1607,14 @@
       "urlFotografije": "https://pss.rs/wp-content/uploads/2020/06/T-2-36-KT-2-Bakarni-kladenac-2-768x1024.jpg",
       "potpis": "Planinarski savez Srbije",
       "opisIzvora": "** [https://pss.rs/wp-content/uploads/2020/06/T-2-36-KT-2-Bakarni-kladenac-2-768x1024.jpg pss.rs]",
-      "izvorniMetapodaci": {},
       "pregled": 94,
       "razlogPrihvatanja": "Kameni izvor sa belom spomen-pločom Beličkoj partizanskoj četi u Dragoševcu.",
       "isecak": "650x900+70+30",
-      "rotacija": null,
       "pre": {
-        "id": "dragosevac-spomen-cesma",
-        "koordinate": {
-          "lat": 43.865472,
-          "lng": 21.255944
-        },
-        "mesto": "Dragoševac",
-        "naziv": "Spomen-česma",
-        "godina": "1951",
-        "godinaOd": 1951,
-        "godinaDo": 1951,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "dragosevac-spomen-cesma"
       },
       "posle": {
-        "id": "dragosevac-spomen-cesma",
-        "koordinate": {
-          "lat": 43.865472,
-          "lng": 21.255944
-        },
-        "mesto": "Dragoševac",
-        "naziv": "Spomen-česma",
-        "godina": "1951",
-        "godinaOd": 1951,
-        "godinaDo": 1951,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/dragosevac-spomen-cesma.webp",
-        "slikaOdnos": 0.722,
-        "slikaPotpis": "Planinarski savez Srbije"
+        "id": "dragosevac-spomen-cesma"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Drago%C5%A1evac_-_Spomen_%C4%8Cesma"
     },
@@ -3993,80 +1626,20 @@
       "potpis": "CroatianHistory.net",
       "opisIzvora": "** [http://www.croatianhistory.net/kraljic/images_john/Dramalj-Cemetary-World_War_II_Monument_Containing_List_o.JPG croatianhistory.net]",
       "izvorniMetapodaci": {
-        "exif:ApertureValue": "0/1000000",
-        "exif:BrightnessValue": "0/1000000",
-        "exif:ColorSpace": "1",
-        "exif:CompressedBitsPerPixel": "2000000/1000000",
         "exif:DateTime": "0000:00:00 00:00:00",
         "exif:DateTimeDigitized": "0000:00:00 00:00:00",
         "exif:DateTimeOriginal": "0000:00:00 00:00:00",
-        "exif:ExifOffset": "482",
-        "exif:ExifVersion": "0220",
-        "exif:ExposureBiasValue": "0/1000000",
-        "exif:ExposureIndex": "0/1000000",
-        "exif:ExposureProgram": "2",
         "exif:ExposureTime": "95238/1000000",
         "exif:FileSource": "3",
-        "exif:Flash": "24",
-        "exif:FlashPixVersion": "0100",
-        "exif:FNumber": "4900000/1000000",
-        "exif:FocalLength": "5800000/1000000",
-        "exif:FocalPlaneResolutionUnit": "0",
-        "exif:FocalPlaneXResolution": "0/1000000",
-        "exif:FocalPlaneYResolution": "0/1000000",
-        "exif:LightSource": "0",
-        "exif:Make": "NIKON",
-        "exif:MaxApertureValue": "3000000/1000000",
-        "exif:MeteringMode": "5",
-        "exif:Model": "E5600",
-        "exif:PhotographicSensitivity": "66, 66",
-        "exif:PixelXDimension": "2592",
-        "exif:PixelYDimension": "1944",
-        "exif:PrimaryChromaticities": "0/1000000, 0/1000000, 0/1000000, 0/1000000, 0/1000000, 0/1000000",
-        "exif:ReferenceBlackWhite": "0/1000000, 0/1000000, 0/1000000, 0/1000000, 0/1000000, 0/1000000",
-        "exif:SceneType": "1",
-        "exif:SensingMethod": "0",
-        "exif:ShutterSpeedValue": "0/1000000",
-        "exif:Software": "E5600v1.0",
-        "exif:SubjectDistance": "0/1000000",
-        "exif:WhitePoint": "0/1000000, 0/1000000",
-        "exif:YCbCrCoefficients": "0/1000000, 0/1000000, 0/1000000",
-        "exif:YCbCrPositioning": "2"
+        "exif:LightSource": "0"
       },
       "pregled": 95,
       "razlogPrihvatanja": "Crna upisana ploča zajedničke grobnice Dramlja na belom zidu.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "dramalj-spomen-grobnica",
-        "koordinate": {
-          "lat": 45.193877,
-          "lng": 14.670567
-        },
-        "mesto": "Dramalj",
-        "naziv": "Spomen-grobnica",
-        "godina": "1951",
-        "godinaOd": 1951,
-        "godinaDo": 1951,
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia"
+        "id": "dramalj-spomen-grobnica"
       },
       "posle": {
-        "id": "dramalj-spomen-grobnica",
-        "koordinate": {
-          "lat": 45.193877,
-          "lng": 14.670567
-        },
-        "mesto": "Dramalj",
-        "naziv": "Spomen-grobnica",
-        "godina": "1951",
-        "godinaOd": 1951,
-        "godinaDo": 1951,
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia",
-        "slika": "slike/spomenici/dramalj-spomen-grobnica.webp",
-        "slikaOdnos": 0.922,
-        "slikaPotpis": "CroatianHistory.net"
+        "id": "dramalj-spomen-grobnica"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Dramalj_-_Spomen_Grobnica"
     },
@@ -4077,35 +1650,13 @@
       "urlFotografije": "https://www.tracesofwar.com/upload/5774120205031414.jpg",
       "potpis": "Traces of War",
       "opisIzvora": "** [https://www.tracesofwar.com/upload/5774120205031414.jpg tracesofwar.com]",
-      "izvorniMetapodaci": {},
       "pregled": 96,
       "razlogPrihvatanja": "Piramida od kamena sa crvenom petokrakom i pločom oslobođenju Rijeke 3. maja 1945, Drenova.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "drenova-spomenik",
-        "koordinate": {
-          "lat": 45.369157,
-          "lng": 14.431359
-        },
-        "mesto": "Drenova",
-        "naziv": "Spomenik",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia"
+        "id": "drenova-spomenik"
       },
       "posle": {
-        "id": "drenova-spomenik",
-        "koordinate": {
-          "lat": 45.369157,
-          "lng": 14.431359
-        },
-        "mesto": "Drenova",
-        "naziv": "Spomenik",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia",
-        "slika": "slike/spomenici/drenova-spomenik.webp",
-        "slikaOdnos": 0.666,
-        "slikaPotpis": "Traces of War"
+        "id": "drenova-spomenik"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Drenova_%28Rijeka%29_-_Liberation_Memorial"
     },
@@ -4117,74 +1668,21 @@
       "potpis": "CroatianHistory.net",
       "opisIzvora": "** [http://www.croatianhistory.net/kraljic/images_john/Rijeka-Drenova-World_War_II_Monument-General_View.JPG croatianhistory.net]",
       "izvorniMetapodaci": {
-        "exif:ApertureValue": "0/1000000",
-        "exif:BrightnessValue": "0/1000000",
-        "exif:ColorSpace": "1",
-        "exif:CompressedBitsPerPixel": "2000000/1000000",
         "exif:DateTime": "0000:00:00 00:00:00",
         "exif:DateTimeDigitized": "0000:00:00 00:00:00",
         "exif:DateTimeOriginal": "0000:00:00 00:00:00",
-        "exif:ExifOffset": "482",
-        "exif:ExifVersion": "0220",
-        "exif:ExposureBiasValue": "0/1000000",
-        "exif:ExposureIndex": "0/1000000",
-        "exif:ExposureProgram": "2",
         "exif:ExposureTime": "16639/1000000",
         "exif:FileSource": "3",
-        "exif:Flash": "25",
-        "exif:FlashPixVersion": "0100",
-        "exif:FNumber": "2900000/1000000",
-        "exif:FocalLength": "6000000/1000000",
-        "exif:FocalPlaneResolutionUnit": "0",
-        "exif:FocalPlaneXResolution": "0/1000000",
-        "exif:FocalPlaneYResolution": "0/1000000",
-        "exif:LightSource": "0",
-        "exif:Make": "NIKON",
-        "exif:MaxApertureValue": "3000000/1000000",
-        "exif:MeteringMode": "5",
-        "exif:Model": "E5600",
-        "exif:PhotographicSensitivity": "89, 89",
-        "exif:PixelXDimension": "2592",
-        "exif:PixelYDimension": "1944",
-        "exif:PrimaryChromaticities": "0/1000000, 0/1000000, 0/1000000, 0/1000000, 0/1000000, 0/1000000",
-        "exif:ReferenceBlackWhite": "0/1000000, 0/1000000, 0/1000000, 0/1000000, 0/1000000, 0/1000000",
-        "exif:SceneType": "1",
-        "exif:SensingMethod": "0",
-        "exif:ShutterSpeedValue": "0/1000000",
-        "exif:Software": "E5600v1.0",
-        "exif:SubjectDistance": "0/1000000",
-        "exif:WhitePoint": "0/1000000, 0/1000000",
-        "exif:YCbCrCoefficients": "0/1000000, 0/1000000, 0/1000000",
-        "exif:YCbCrPositioning": "2"
+        "exif:LightSource": "0"
       },
       "pregled": 97,
       "razlogPrihvatanja": "Dve kamene ploče sa petokrakom, 1941–1945 i spiskom poginulih Drenove.",
       "isecak": "600x430+15+0",
-      "rotacija": null,
       "pre": {
-        "id": "drenova-spomenik-nob",
-        "koordinate": {
-          "lat": 45.3667,
-          "lng": 14.427437
-        },
-        "mesto": "Drenova",
-        "naziv": "Spomenik NOB",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia"
+        "id": "drenova-spomenik-nob"
       },
       "posle": {
-        "id": "drenova-spomenik-nob",
-        "koordinate": {
-          "lat": 45.3667,
-          "lng": 14.427437
-        },
-        "mesto": "Drenova",
-        "naziv": "Spomenik NOB",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia",
-        "slika": "slike/spomenici/drenova-spomenik-nob.webp",
-        "slikaOdnos": 1.394,
-        "slikaPotpis": "CroatianHistory.net"
+        "id": "drenova-spomenik-nob"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Drenova_%28Rijeka%29_-_Spomenik_NOB"
     },
@@ -4195,41 +1693,14 @@
       "urlFotografije": "https://uzicanstveno.rs/wp-content/uploads/2018/05/734.jpg",
       "potpis": "uzicanstveno.rs",
       "opisIzvora": "** [https://uzicanstveno.rs/wp-content/uploads/2018/05/734.jpg uzicanstveno.rs 2018] - restored memorial",
-      "izvorniMetapodaci": {},
       "pregled": 98,
       "razlogPrihvatanja": "Noviji kadar obnovljene žičane skulpture na ogradi igrališta u Drijetnju; baš taj položaj opisuje sačuvani izvor. Arhivski kadar izvornog postavljanja nije korišćen.",
       "isecak": "700x400+0+10",
-      "rotacija": null,
       "pre": {
-        "id": "drijetanj-spomenik-nob-bela-zemlja",
-        "koordinate": {
-          "lat": 43.827222,
-          "lng": 19.802501
-        },
-        "mesto": "Drijetanj",
-        "naziv": "Spomenik NOB Bela Zemlja",
-        "godina": "1961",
-        "godinaOd": 1961,
-        "godinaDo": 1961,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "id": "drijetanj-spomenik-nob-bela-zemlja"
       },
       "posle": {
-        "id": "drijetanj-spomenik-nob-bela-zemlja",
-        "koordinate": {
-          "lat": 43.827222,
-          "lng": 19.802501
-        },
-        "mesto": "Drijetanj",
-        "naziv": "Spomenik NOB Bela Zemlja",
-        "godina": "1961",
-        "godinaOd": 1961,
-        "godinaDo": 1961,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "slika": "slike/spomenici/drijetanj-spomenik-nob-bela-zemlja.webp",
-        "slikaOdnos": 1.747,
-        "slikaPotpis": "uzicanstveno.rs"
+        "id": "drijetanj-spomenik-nob-bela-zemlja"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Drijetanj_-_Spomenik_NOB_Bela_Zemlja",
       "odbijenPrviKadar": {
@@ -4250,74 +1721,20 @@
       "potpis": "CroatianHistory.net",
       "opisIzvora": "** [http://www.croatianhistory.net/kraljic/images_john/Drivenik-Partisan_Cemetary.JPG croatianhistory.net]",
       "izvorniMetapodaci": {
-        "exif:ApertureValue": "0/1000000",
-        "exif:BrightnessValue": "0/1000000",
-        "exif:ColorSpace": "1",
-        "exif:CompressedBitsPerPixel": "2000000/1000000",
         "exif:DateTime": "0000:00:00 00:00:00",
         "exif:DateTimeDigitized": "0000:00:00 00:00:00",
         "exif:DateTimeOriginal": "0000:00:00 00:00:00",
-        "exif:ExifOffset": "482",
-        "exif:ExifVersion": "0220",
-        "exif:ExposureBiasValue": "0/1000000",
-        "exif:ExposureIndex": "0/1000000",
-        "exif:ExposureProgram": "2",
         "exif:ExposureTime": "6854/1000000",
         "exif:FileSource": "3",
-        "exif:Flash": "24",
-        "exif:FlashPixVersion": "0100",
-        "exif:FNumber": "4900000/1000000",
-        "exif:FocalLength": "5700000/1000000",
-        "exif:FocalPlaneResolutionUnit": "0",
-        "exif:FocalPlaneXResolution": "0/1000000",
-        "exif:FocalPlaneYResolution": "0/1000000",
-        "exif:LightSource": "0",
-        "exif:Make": "NIKON",
-        "exif:MaxApertureValue": "3000000/1000000",
-        "exif:MeteringMode": "5",
-        "exif:Model": "E5600",
-        "exif:PhotographicSensitivity": "50, 50",
-        "exif:PixelXDimension": "2592",
-        "exif:PixelYDimension": "1944",
-        "exif:PrimaryChromaticities": "0/1000000, 0/1000000, 0/1000000, 0/1000000, 0/1000000, 0/1000000",
-        "exif:ReferenceBlackWhite": "0/1000000, 0/1000000, 0/1000000, 0/1000000, 0/1000000, 0/1000000",
-        "exif:SceneType": "1",
-        "exif:SensingMethod": "0",
-        "exif:ShutterSpeedValue": "0/1000000",
-        "exif:Software": "E5600v1.0",
-        "exif:SubjectDistance": "0/1000000",
-        "exif:WhitePoint": "0/1000000, 0/1000000",
-        "exif:YCbCrCoefficients": "0/1000000, 0/1000000, 0/1000000",
-        "exif:YCbCrPositioning": "2"
+        "exif:LightSource": "0"
       },
       "pregled": 99,
       "razlogPrihvatanja": "Uređena grobna platforma sa zasebnom upisanom pločom i nizom grobova Drivenika.",
-      "isecak": null,
-      "rotacija": null,
       "pre": {
-        "id": "drivenik-spomen-kosturnica",
-        "koordinate": {
-          "lat": 45.236253,
-          "lng": 14.647734
-        },
-        "mesto": "Drivenik",
-        "naziv": "Spomen-kosturnica",
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia"
+        "id": "drivenik-spomen-kosturnica"
       },
       "posle": {
-        "id": "drivenik-spomen-kosturnica",
-        "koordinate": {
-          "lat": 45.236253,
-          "lng": 14.647734
-        },
-        "mesto": "Drivenik",
-        "naziv": "Spomen-kosturnica",
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia",
-        "slika": "slike/spomenici/drivenik-spomen-kosturnica.webp",
-        "slikaOdnos": 1.581,
-        "slikaPotpis": "CroatianHistory.net"
+        "id": "drivenik-spomen-kosturnica"
       },
       "izvorPre": "https://www.xiwl.com/w/index.php/Drivenik_-_Spomen_Kosturnica"
     }
@@ -4530,17 +1947,6 @@
       "razlog": "HTTP Error 403: Forbidden"
     }
   ],
-  "preskoceno": [],
-  "posle": {
-    "markeri": 10600,
-    "bezFotografije": 5981,
-    "pregledanoKandidata": 100,
-    "preuzetihSnimaka": 87,
-    "dodateFotografije": 69,
-    "odbijenoKandidata": 13,
-    "preskocenoPriUpisu": 0,
-    "nedostupnoKandidata": 18
-  },
   "ogranicenja": [
     "Link ka fotografiji i izvorni opis nisu nezavisna potvrda koordinata; lokacije nisu menjane.",
     "Godina objave u putanji ili tekstu nije automatski datum snimanja; ne tvrdi se danasnji opstanak prema staroj slici.",
@@ -4550,20 +1956,6 @@
     "Drijetanj: upotrebljen snimak obnovljene skulpture na ogradi igralista, prema opisu lokacije u sacuvanom izvoru; nije dopunjavana posveta niti tumaceno znacenje dela.",
     "Ne pretvarati automatski sve izvorne HTTP linkove u HTTPS: stariji javni sajt konzulata i hajduk.free.fr daju slike preko izvorne adrese; TLS provera nije iskljucivana."
   ],
-  "provere": {
-    "upis": "Ucitani aktuelni podaci neposredno pre izmene, provereni identiteti ciljnih zapisa i verzije svih zajednickih ulaza pre sacuvaj_bazu; svi raniji izvori sacuvani.",
-    "fotografijeSacuvane": 69,
-    "fotografijeSacuvaneSvaCetiriPaketa": 211,
-    "ranijiIdSacuvani": 10600,
-    "izvoriCiljnihZapisaSacuvani": true,
-    "integritet": "OK; 10600 markera, 52 poznata bliska para, bez novih parova",
-    "maleSlike": "69 napravljeno; 0 obrisano",
-    "metapodaci": "OK; izvorni EXIF/XMP/IPTC sacuvani u izvestaju pre obrade",
-    "odnosiSlika": "OK; bez dodatnih promena",
-    "testoviAplikacije": "23/23 prolaze",
-    "mobilniPrikaz": "3/3 kartice proverene automatizovano i vizuelno: Brvenik, Busevic, Donja Koritnica",
-    "gitDiffCheck": "OK"
-  },
   "dodatniKadrovi": [
     {
       "indeks": 0,
@@ -4573,13 +1965,7 @@
       "potpis": "1.bp.blogspot.com",
       "opis": "** [http://1.bp.blogspot.com/-TRvnEBt9ecU/VnV-vMcy69I/AAAAAAAAYS4/lR8r8crkhR0/s1600/VRBOSKA%2B%25E2%2580%2593%2BOTOK%2BHVAR%2B-%2B%2BSpomenik%2BNOB%2B2.JPG spomeniki.blogspot.com]",
       "izvorniMetapodaci": {
-        "exif:DateTimeOriginal": "2015:09:16 14:58:48",
-        "exif:ExifOffset": "114",
-        "exif:ExifVersion": "0220",
-        "exif:PixelXDimension": "505",
-        "exif:PixelYDimension": "900",
-        "exif:Software": "Google",
-        "exif:YCbCrSubSampling": "1, 1"
+        "exif:DateTimeOriginal": "2015:09:16 14:58:48"
       },
       "korisceno": false
     },
@@ -4591,13 +1977,7 @@
       "potpis": "4.bp.blogspot.com",
       "opis": "** [http://4.bp.blogspot.com/-7SrKDldyL-g/VnV-vsAHb5I/AAAAAAAAYSw/yqpNkcQBICs/s1600/VRBOSKA%2B%25E2%2580%2593%2BOTOK%2BHVAR%2B-%2B%2BSpomenik%2BNOB%2B4.JPG spomeniki.blogspot.com]",
       "izvorniMetapodaci": {
-        "exif:DateTimeOriginal": "2015:09:16 14:57:10",
-        "exif:ExifOffset": "114",
-        "exif:ExifVersion": "0220",
-        "exif:PixelXDimension": "675",
-        "exif:PixelYDimension": "900",
-        "exif:Software": "Google",
-        "exif:YCbCrSubSampling": "1, 1"
+        "exif:DateTimeOriginal": "2015:09:16 14:57:10"
       },
       "korisceno": true
     },
@@ -4608,7 +1988,6 @@
       "fajl": "C:/Users/d_pavlica/OneDrive - Wargaming.net/Documents/GitHub/spomenici/izvori/pretrage/foto-paket100-2026-10-19/04-zamena.jpg",
       "potpis": "pecinci.org",
       "opis": "** [http://pecinci.org/upload/images/thumbs/news/2016/jul_septembar/Polaganje%20venaca%20u%20Prhovu%2017.06.2016.v_880x474.jpg pecinci.org 2016]",
-      "izvorniMetapodaci": {},
       "korisceno": false
     },
     {
@@ -4618,7 +1997,6 @@
       "fajl": "C:/Users/d_pavlica/OneDrive - Wargaming.net/Documents/GitHub/spomenici/izvori/pretrage/foto-paket100-2026-10-19/08-zamena.jpg",
       "potpis": "zlakusa.com",
       "opis": "** [http://www.zlakusa.com/wp-content/gallery/spomenici_u_selu/spomenik-vesala-stradalim-mestanima-18-avgusta-1941-godine.jpg www.zlakusa.com]",
-      "izvorniMetapodaci": {},
       "korisceno": true
     },
     {
@@ -4628,7 +2006,6 @@
       "fajl": "C:/Users/d_pavlica/OneDrive - Wargaming.net/Documents/GitHub/spomenici/izvori/pretrage/foto-paket100-2026-10-19/18-zamena.jpg",
       "potpis": "jugmedia.rs",
       "opis": "** [https://jugmedia.rs/wp-content/uploads/2021/09/batulovce-cesma-spomen.jpg jugmedia.rs 2021] - after renovation",
-      "izvorniMetapodaci": {},
       "korisceno": true
     },
     {
@@ -4638,7 +2015,6 @@
       "fajl": "C:/Users/d_pavlica/OneDrive - Wargaming.net/Documents/GitHub/spomenici/izvori/pretrage/foto-paket100-2026-10-19/35-zamena.jpg",
       "potpis": "mojbecej.rs",
       "opis": "** [https://mojbecej.rs/wp-content/uploads/2020/09/ovakospomenik.jpg mojbecej.rs 2020]",
-      "izvorniMetapodaci": {},
       "korisceno": true
     },
     {
@@ -4650,15 +2026,7 @@
       "opis": "** [https://snv.hr/wp-content/uploads/2021/07/DSC_0076-1024x683.jpg snv.hr] page hacked",
       "izvorniMetapodaci": {
         "exif:DateTime": "2021:06:18 18:26:03",
-        "exif:ExifOffset": "294",
-        "exif:ExposureTime": "4000/1000000",
-        "exif:FNumber": "8000000/1000000",
-        "exif:FocalLength": "18000000/1000000",
-        "exif:Make": "Nikon",
-        "exif:Model": "D3100",
-        "exif:PhotographicSensitivity": "100",
-        "exif:PlanarConfiguration": "1",
-        "exif:Software": "dcraw v9.28"
+        "exif:ExposureTime": "4000/1000000"
       },
       "korisceno": true
     },
@@ -4669,7 +2037,6 @@
       "fajl": "izvori/pretrage/foto-paket100-2026-10-19/23-http-zamena.jpg",
       "potpis": "gk-srbije-vukovar.hr",
       "opis": "** [http://www.gk-srbije-vukovar.hr/images/memorijali/DSC00142.jpg www.gk-srbije-vukovar.hr]",
-      "izvorniMetapodaci": {},
       "korisceno": true
     },
     {
@@ -4679,7 +2046,6 @@
       "fajl": "izvori/pretrage/foto-paket100-2026-10-19/26-dopunska-zamena.jpg",
       "potpis": "gk-srbije-vukovar.hr",
       "opis": "** [http://www.gk-srbije-vukovar.hr/images/memorijali/berak.JPG www.gk-srbije-vukovar.hr]",
-      "izvorniMetapodaci": {},
       "korisceno": true
     },
     {
@@ -4689,7 +2055,6 @@
       "fajl": "izvori/pretrage/foto-paket100-2026-10-19/31-dopunska-zamena.jpg",
       "potpis": "gk-srbije-vukovar.hr",
       "opis": "** [http://www.gk-srbije-vukovar.hr/images/memorijali/BijeloBrdo.JPG www.gk-srbije-vukovar.hr]",
-      "izvorniMetapodaci": {},
       "korisceno": true
     },
     {
@@ -4699,7 +2064,6 @@
       "fajl": "izvori/pretrage/foto-paket100-2026-10-19/61-dopunska-zamena.jpg",
       "potpis": "gk-srbije-vukovar.hr",
       "opis": "** [http://www.gk-srbije-vukovar.hr/images/memorijali/cakovci.JPG www.gk-srbije-vukovar.hr] ",
-      "izvorniMetapodaci": {},
       "korisceno": true
     },
     {
@@ -4709,7 +2073,6 @@
       "fajl": "izvori/pretrage/foto-paket100-2026-10-19/71-dopunska-zamena.jpg",
       "potpis": "gk-srbije-vukovar.hr",
       "opis": "** [http://www.gk-srbije-vukovar.hr/images/memorijali/dalj.JPG www.gk-srbije-vukovar.hr]",
-      "izvorniMetapodaci": {},
       "korisceno": true
     },
     {
@@ -4720,16 +2083,7 @@
       "potpis": "hajduk.free.fr",
       "opis": "** [http://hajduk.free.fr/dossier%20busevic/Spomenik%20(1).JPG hajduk.free.fr 2005]",
       "izvorniMetapodaci": {
-        "exif:ColorSpace": "65535",
-        "exif:DateTime": "2006:03:04 10:00:34",
-        "exif:ExifOffset": "164",
-        "exif:PixelXDimension": "2560",
-        "exif:PixelYDimension": "1920",
-        "exif:Software": "Adobe Photoshop CS Windows",
-        "exif:thumbnail": "YResolution: 72/1",
-        "xmp:ColorSpace": "4294967295",
-        "xmp:PixelXDimension": "2560",
-        "xmp:PixelYDimension": "1920"
+        "exif:DateTime": "2006:03:04 10:00:34"
       },
       "korisceno": true
     },
@@ -4741,47 +2095,15 @@
       "potpis": "i0.wp.com",
       "opis": "** [https://i0.wp.com/mnemagazin.me/wp-content/uploads/2016/09/Bijelo-POlje_spomen-ploca-u-znak-prvih-borbi-Jula-1941_01.jpg mnemagazin.me 2016]",
       "izvorniMetapodaci": {
-        "exif:ApertureValue": "5655638/1000000",
-        "exif:ComponentsConfiguration": "...",
-        "exif:CompressedBitsPerPixel": "4/1",
-        "exif:Contrast": "0",
         "exif:DateTime": "2016-09-19T00:13:44-22:00",
         "exif:DateTimeDigitized": "2013:09:17 14:37:05",
         "exif:DateTimeOriginal": "2013:09:17 14:37:05",
-        "exif:DigitalZoomRatio": "1/1",
-        "exif:ExifOffset": "242",
-        "exif:ExifVersion": "0220",
-        "exif:ExposureBiasValue": "0/6",
-        "exif:ExposureMode": "0",
-        "exif:ExposureProgram": "0",
         "exif:ExposureTime": "10/2000",
         "exif:FileSource": ".",
-        "exif:Flash": "0",
-        "exif:FNumber": "71/10",
-        "exif:FocalLength": "190/10",
-        "exif:FocalLengthIn35mmFilm": "28",
-        "exif:GainControl": "0",
         "exif:LightSource": "0",
-        "exif:Make": "NIKON CORPORATION",
-        "exif:MaxApertureValue": "36/10",
-        "exif:MeteringMode": "5",
-        "exif:Model": "NIKON D40X",
-        "exif:PhotographicSensitivity": "100",
-        "exif:PixelXDimension": "669",
-        "exif:PixelYDimension": "1000",
-        "exif:Saturation": "0",
-        "exif:SceneCaptureType": "0",
-        "exif:SceneType": ".",
-        "exif:SensingMethod": "2",
-        "exif:Sharpness": "0",
-        "exif:ShutterSpeedValue": "7643856/1000000",
-        "exif:Software": "Microsoft Windows Photo Viewer 6.1.7600.16385",
-        "exif:SubjectDistanceRange": "0",
         "exif:SubSecTime": "00",
         "exif:SubSecTimeDigitized": "00",
-        "exif:SubSecTimeOriginal": "00",
-        "exif:UserComment": "UNICODE",
-        "exif:WhiteBalance": "0"
+        "exif:SubSecTimeOriginal": "00"
       },
       "korisceno": true
     },
@@ -4792,16 +2114,6 @@
       "fajl": "C:/Users/d_pavlica/OneDrive - Wargaming.net/Documents/GitHub/spomenici/izvori/pretrage/foto-paket100-2026-10-19/62-zamena.jpg",
       "potpis": "i1.wp.com",
       "opis": "** [https://i1.wp.com/bitola.info/wp-content/uploads/2020/09/spomenik-ilinden-i-nov-selo-capari-1.jpg?resize=696%2C461&ssl=1 bitola.info]",
-      "izvorniMetapodaci": {
-        "exif:ColorSpace": "65535",
-        "exif:ComponentsConfiguration": "...",
-        "exif:ExifOffset": "102",
-        "exif:ExifVersion": "0210",
-        "exif:FlashPixVersion": "0100",
-        "exif:PixelXDimension": "1200",
-        "exif:PixelYDimension": "795",
-        "exif:YCbCrPositioning": "1"
-      },
       "korisceno": true
     },
     {
@@ -4811,7 +2123,6 @@
       "fajl": "izvori/pretrage/foto-paket100-2026-10-19/98-dopunska-zamena.jpg",
       "potpis": "uzicanstveno.rs",
       "opis": "** [https://uzicanstveno.rs/wp-content/uploads/2018/05/734.jpg uzicanstveno.rs 2018] - restored memorial",
-      "izvorniMetapodaci": {},
       "korisceno": true
     }
   ],

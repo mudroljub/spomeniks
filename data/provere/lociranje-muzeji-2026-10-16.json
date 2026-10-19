@@ -5,14 +5,8 @@
   "nalazi": [
     {
       "id": "ostrelj-partizanski-titov-voz",
-      "radniIndeksPre": 694,
       "prethodniZapis": {
         "naziv": "Titov voz",
-        "nazivEn": "Tito's Train",
-        "mesto": "Oštrelj",
-        "drzava": "Bosnia and Herzegovina",
-        "godina": "1951",
-        "vrsta": "muzej",
         "izvor": "https://www.spomenicinob.info/bosanskipetrovac"
       },
       "koordinate": {
@@ -32,15 +26,9 @@
     },
     {
       "id": "tjentiste-spomen-kuca-bitke-na-sutjesci",
-      "radniIndeksPre": 1451,
       "prethodniZapis": {
         "naziv": "Spomen-dom sa freskama",
         "nazivEn": "Memorial hall with frescoes",
-        "mesto": "Tjentište",
-        "drzava": "Bosnia and Herzegovina",
-        "autor": "Ranko Radović & Krsto Hegedušić",
-        "godina": "1974",
-        "vrsta": "muzej",
         "izvor": "https://www.spomenicinob.info/foca"
       },
       "koordinate": {
@@ -60,15 +48,9 @@
     },
     {
       "id": "mrakovica-memorijalni-muzej",
-      "radniIndeksPre": 2979,
       "prethodniZapis": {
         "naziv": "Muzej Nacionalnog parka Kozara",
         "nazivEn": "Museum of Kozara National Park",
-        "mesto": "Mrakovica",
-        "drzava": "Bosnia and Herzegovina",
-        "autor": "Dušan Džamonja",
-        "godina": "1973",
-        "vrsta": "muzej",
         "izvor": "https://www.spomenicinob.info/prijedor"
       },
       "koordinate": {
@@ -80,174 +62,10 @@
         "https://npkozara.com/memorijalni-kompleks/",
         "https://npkozara.com/acitivities/cas-istorije/"
       ],
-      "fotoCommons": null,
       "datumFotografije": null,
       "najbliziPostojeci": "kozara",
       "udaljenostMetara": 95,
       "ogranicenje": "Tačka konkretnog memorijalnog objekta; fotografija i institucionalni opis nisu izveštaj sa novog terenskog pregleda u oktobru 2026. Godine podizanja i autori preneti su iz prethodnog radnog zapisa, osim gde je dodatni izvor izričito potvrđen u belešci."
-    }
-  ],
-  "pomereneKnjiskeReference": {
-    "hrzenjak-2002.json": 12,
-    "jokic-1986.json": 130,
-    "sibenik-1980.json": 80
-  },
-  "pomereneReferenceProvera": [
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "ljubosina-spomenik-ustanka-i-nor-a",
-      "pre": 4498,
-      "posle": 4495
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "skrad-spomenik-palim-borcima-i-zrtvama-fasizma",
-      "pre": 4499,
-      "posle": 4496
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "zagreb-horvati-spomenik-palim-borcima-i-zrtvama",
-      "pre": 4500,
-      "posle": 4497
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "gerovo-mladje-spomenik-diverzantskoj-akciji-1941",
-      "pre": 4501,
-      "posle": 4498
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "tajcari-spomenik-prvom-zboru-za-odlazak-u",
-      "pre": 4502,
-      "posle": 4499
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "prezid-zbitke-spomenik-danijelu-ozboltu",
-      "pre": 4503,
-      "posle": 4500
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "prezid-zbitke-spomenik-jakovu-kovacu",
-      "pre": 4504,
-      "posle": 4501
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "prezid-zbitke-spomenik-strijeljanim-partizanima",
-      "pre": 4505,
-      "posle": 4502
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "kavaliri-spomenik-strijeljanim-zrtvama-fasizma",
-      "pre": 4506,
-      "posle": 4503
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "muhovci-spomenik-strijeljanim-partizanima",
-      "pre": 4507,
-      "posle": 4504
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "hrib-spomenik-strijeljanim-aktivistima-nop-a",
-      "pre": 4508,
-      "posle": 4505
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "gerovski-kraj-spomenik-ubijenim-prvoborcima",
-      "pre": 4509,
-      "posle": 4506
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "sokoli-spomenik-formiranju-prve-istarske",
-      "pre": 4510,
-      "posle": 4507
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "parg-spomenik-ubijenim-partizanima",
-      "pre": 4511,
-      "posle": 4508
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "celovci-spomenik-vinku-ozboltu",
-      "pre": 4512,
-      "posle": 4509
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "gerovski-kraj-jurjev-laz-spomenik-partizanskom",
-      "pre": 4513,
-      "posle": 4510
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "jazbine-spomenik-partizanskom-stozeru",
-      "pre": 4514,
-      "posle": 4511
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "vinkovci",
-      "pre": 4515,
-      "posle": 4512
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "zupanja-bivsi-spomenik-nob",
-      "pre": 4516,
-      "posle": 4513
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "djeletovci-spomenik-nob",
-      "pre": 4517,
-      "posle": 4514
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "badljevina-nob",
-      "pre": 4518,
-      "posle": 4515
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "jaksic-spomenik-nob",
-      "pre": 4519,
-      "posle": 4516
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "susine-spomenik-palim-borcima-nob-a",
-      "pre": 4520,
-      "posle": 4517
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "scitarjevo-spomenik-palim-borcima",
-      "pre": 4521,
-      "posle": 4518
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "novi-pavljani-spomenik-nob-ostecen",
-      "pre": 4522,
-      "posle": 4519
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "slobostina",
-      "pre": 4523,
-      "posle": 4520
     }
   ]
 }

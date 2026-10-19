@@ -7,13 +7,9 @@
     {
       "ishod": "nov-marker",
       "id": "novi-sad-muzej-vojvodine-dunavska-37",
-      "radniIndeksPre": 4354,
       "prethodniZapis": {
-        "mesto": "Novi Sad",
         "izvor": "https://znaci.org/00003/920.pdf#page=253",
-        "naziv": "Muzej socijalističke revolucije Vojvodine",
-        "vrsta": "muzej",
-        "drzava": "Serbia"
+        "naziv": "Muzej socijalističke revolucije Vojvodine"
       },
       "koordinate": {
         "lat": 45.2566255,
@@ -33,16 +29,10 @@
     {
       "ishod": "već-na-mapi",
       "id": "kamen-spomenik-palim-borcima-i-zrtvama-fasistickog",
-      "radniIndeksPre": 1551,
       "prethodniZapis": {
         "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
         "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
-        "mesto": "Kamen",
         "adresa": "Beside main road between Kamen and Podgradina",
-        "drzava": "Bosnia and Herzegovina",
-        "autor": "Ilija Jurić",
-        "godina": "1951",
-        "vrsta": "spomen-obelezje",
         "izvor": "https://www.spomenicinob.info/glamoc"
       },
       "izvoriProvere": [
@@ -53,15 +43,9 @@
     {
       "ishod": "već-na-mapi",
       "id": "budimlic-japra-spomenik-zrtvama-fasistickog-terora",
-      "radniIndeksPre": 2853,
       "prethodniZapis": {
-        "naziv": "Spomenik žrtvama fašističkog terora",
         "nazivEn": "Monument to Victims of Fascist Terror",
-        "mesto": "Budimlić Japra",
         "adresa": "Village centre",
-        "drzava": "Bosnia and Herzegovina",
-        "godina": "1960",
-        "vrsta": "spomen-obelezje",
         "izvor": "https://www.spomenicinob.info/ostraluka"
       },
       "izvoriProvere": [
@@ -72,12 +56,8 @@
     {
       "ishod": "već-na-mapi",
       "id": "ocigrije",
-      "radniIndeksPre": 290,
       "prethodniZapis": {
-        "naziv": "Spomenik palim borcima",
         "nazivEn": "Monument to fallen fighters",
-        "mesto": "Očigrije",
-        "drzava": "Bosnia and Herzegovina",
         "vrsta": "spomen-obelezje",
         "izvor": "https://www.spomenicinob.info/bihac",
         "stanje": "ostecen"
@@ -90,15 +70,10 @@
     {
       "ishod": "već-na-mapi",
       "id": "drvar",
-      "radniIndeksPre": 1349,
       "prethodniZapis": {
         "naziv": "Spomenik NOB-u",
         "nazivEn": "Monument to the NOB",
-        "mesto": "Drvar",
         "adresa": "Šobića Glavica, memorial park",
-        "drzava": "Bosnia and Herzegovina",
-        "autor": "Marijan Kocković",
-        "godina": "1967",
         "vrsta": "spomen-obelezje",
         "izvor": "https://www.spomenicinob.info/drvar",
         "stanje": "rusevine"
@@ -114,15 +89,7 @@
       "id": "kamen-spomenik-palim-borcima-i-zrtvama-fasistickog",
       "prethodniZapis": {
         "id": "kamen-spomenik-palim-borcima-i-zrtvama-fasistickog",
-        "koordinate": {
-          "lat": 44.026923,
-          "lng": 16.8866353
-        },
-        "mesto": "Kamen",
-        "izvor": "https://www.openstreetmap.org/node/10606791867",
-        "naziv": "Spomenik Palim Borcima i Žrtvama Fašističkog Terora",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Bosnia and Herzegovina"
+        "izvor": "https://www.openstreetmap.org/node/10606791867"
       },
       "izmena": {
         "id": "kamen-spomenik-palim-borcima-i-zrtvama-fasistickog",
@@ -144,18 +111,7 @@
       "id": "budimlic-japra-spomenik-zrtvama-fasistickog-terora",
       "prethodniZapis": {
         "id": "budimlic-japra-spomenik-zrtvama-fasistickog-terora",
-        "koordinate": {
-          "lat": 44.8836098,
-          "lng": 16.4283333
-        },
-        "mesto": "Budimlić Japra",
-        "izvor": "https://commons.wikimedia.org/wiki/File%3ASpomenik_zrtava_Fasistickog_terora_u_Budimlic_Japri_-_panoramio.jpg",
-        "slika": "slike/spomenici/budimlic-japra-spomenik-zrtvama-fasistickog-terora.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "87Edvin, CC BY 3.0",
-        "naziv": "Spomenik žrtvama fašističkog terora",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Bosnia and Herzegovina"
+        "izvor": "https://commons.wikimedia.org/wiki/File%3ASpomenik_zrtava_Fasistickog_terora_u_Budimlic_Japri_-_panoramio.jpg"
       },
       "izmena": {
         "id": "budimlic-japra-spomenik-zrtvama-fasistickog-terora",
@@ -178,7 +134,6 @@
   ],
   "provereniOtvoreniTragovi": [
     {
-      "radniIndeksPre": 173,
       "prethodniZapis": {
         "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
         "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
@@ -211,22 +166,18 @@
   ],
   "odbijenaUparivanja": [
     {
-      "radniIndeksPre": 173,
       "idKandidata": "dragocaj-spomenik-palim-borcima-i-zrtvama",
       "nalaz": "Isti opšti naziv i mesto, ali raniji i zamenski spomenik."
     },
     {
-      "radniIndeksPre": 1215,
       "idKandidata": "derventa-spomenik-nob",
       "nalaz": "Radni zapis navodi školu Zdravko Čelar. Postojeći marker predstavlja Augustinčićevo delo iz 1966. kod škole Nikola Tesla. Nije potvrđeno da je isto delo."
     },
     {
-      "radniIndeksPre": 1218,
       "idKandidata": "derventa-spomenik-nob",
       "nalaz": "Radni zapis je kod gimnazije i izvor opisuje ruševine; nije isto što i delo kod škole Nikola Tesla."
     },
     {
-      "radniIndeksPre": 2496,
       "idKandidata": "dugopolje",
       "nalaz": "Dugo Polje kod Modriče u BiH i Dugopolje u Hrvatskoj nisu isto mesto; sličan naziv naselja i generički naziv spomenika nisu dovoljan par."
     }
@@ -238,169 +189,6 @@
     "data/provere/lociranje-husino-2026-10-16.json",
     "data/provere/lociranje-kompleksi-2026-10-16.json",
     "docs/LOCIRANJE.md"
-  ],
-  "pomereneKnjiskeReference": {
-    "hrzenjak-2002.json": 12,
-    "jokic-1986.json": 126,
-    "sibenik-1980.json": 80
-  },
-  "pomereneReferenceProvera": [
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "ljubosina-spomenik-ustanka-i-nor-a",
-      "pre": 4485,
-      "posle": 4480
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "skrad-spomenik-palim-borcima-i-zrtvama-fasizma",
-      "pre": 4486,
-      "posle": 4481
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "zagreb-horvati-spomenik-palim-borcima-i-zrtvama",
-      "pre": 4487,
-      "posle": 4482
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "gerovo-mladje-spomenik-diverzantskoj-akciji-1941",
-      "pre": 4488,
-      "posle": 4483
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "tajcari-spomenik-prvom-zboru-za-odlazak-u",
-      "pre": 4489,
-      "posle": 4484
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "prezid-zbitke-spomenik-danijelu-ozboltu",
-      "pre": 4490,
-      "posle": 4485
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "prezid-zbitke-spomenik-jakovu-kovacu",
-      "pre": 4491,
-      "posle": 4486
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "prezid-zbitke-spomenik-strijeljanim-partizanima",
-      "pre": 4492,
-      "posle": 4487
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "kavaliri-spomenik-strijeljanim-zrtvama-fasizma",
-      "pre": 4493,
-      "posle": 4488
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "muhovci-spomenik-strijeljanim-partizanima",
-      "pre": 4494,
-      "posle": 4489
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "hrib-spomenik-strijeljanim-aktivistima-nop-a",
-      "pre": 4495,
-      "posle": 4490
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "gerovski-kraj-spomenik-ubijenim-prvoborcima",
-      "pre": 4496,
-      "posle": 4491
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "sokoli-spomenik-formiranju-prve-istarske",
-      "pre": 4497,
-      "posle": 4492
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "parg-spomenik-ubijenim-partizanima",
-      "pre": 4498,
-      "posle": 4493
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "celovci-spomenik-vinku-ozboltu",
-      "pre": 4499,
-      "posle": 4494
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "gerovski-kraj-jurjev-laz-spomenik-partizanskom",
-      "pre": 4500,
-      "posle": 4495
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "jazbine-spomenik-partizanskom-stozeru",
-      "pre": 4501,
-      "posle": 4496
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "vinkovci",
-      "pre": 4502,
-      "posle": 4497
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "zupanja-bivsi-spomenik-nob",
-      "pre": 4503,
-      "posle": 4498
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "djeletovci-spomenik-nob",
-      "pre": 4504,
-      "posle": 4499
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "badljevina-nob",
-      "pre": 4505,
-      "posle": 4500
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "jaksic-spomenik-nob",
-      "pre": 4506,
-      "posle": 4501
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "susine-spomenik-palim-borcima-nob-a",
-      "pre": 4507,
-      "posle": 4502
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "scitarjevo-spomenik-palim-borcima",
-      "pre": 4508,
-      "posle": 4503
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "novi-pavljani-spomenik-nob-ostecen",
-      "pre": 4509,
-      "posle": 4504
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "slobostina",
-      "pre": 4510,
-      "posle": 4505
-    }
   ],
   "ukupnoMarkera": 4588,
   "preostaloBezLokacije": 4506,

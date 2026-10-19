@@ -1,23 +1,13 @@
 {
   "datum": "2026-10-18",
   "obim": "Ciljana provera kosturnica u Kreki, Zvorniku, Visokom i Sokocu.",
-  "pre": {
-    "markeri": 9241,
-    "bezLokacije": 3011,
-    "grobljaBezLokacije": 215
-  },
   "novi": [
     {
       "id": "zvornik-spomen-kosturnica",
-      "radniIndeksPreGradovi": 2769,
       "prethodniRadniZapis": {
         "naziv": "Spomen-kosturnica 75 boraca Prve proleterske brigade",
         "nazivEn": "Memorial ossuary of 75 fighters of First Proletarian Brigade",
-        "mesto": "Zvornik",
         "adresa": "Ul. Svetog Save",
-        "drzava": "Bosnia and Herzegovina",
-        "autor": "Dragiša Trifković & Jusuf Begović & Mehmed Hrasnica",
-        "vrsta": "spomen-groblje",
         "izvor": "https://www.spomenicinob.info/zvornik"
       },
       "izvor": "https://www.spomenicinob.info/zvornik",
@@ -31,7 +21,6 @@
   "spojeno": [
     {
       "ciljniId": "sokolac",
-      "radniIndeksPreGradovi": 2220,
       "prethodniRadniZapis": {
         "naziv": "Spomen-kosturnica palih boraca",
         "nazivEn": "Memorial ossuary of fallen fighters",
@@ -91,10 +80,8 @@
         "vrsta": "spomen-groblje",
         "izvor": "https://www.spomenicinob.info/tuzla"
       },
-      "radniIndeksPreGradovi": 2525,
       "dokaz": {
         "id": "tuzla-kreka-spomen-grobnica",
-        "radniIndeksPreGradovi": 2525,
         "prethodniRadniZapis": {
           "naziv": "Spomen-grobnica strijeljanih revolucionara Kreke",
           "nazivEn": "Memorial grave of the executed Revolutionaries of Kreka",
@@ -152,53 +139,7 @@
     }
   ],
   "ogranicenjaFotografija": "Izvorni fajlovi nose šablon Self; javni metapodaci ne navode autora/licencu, šablon nije dostupan za čitanje. Potpisan je izvor, bez izmišljene licence. Datum učitavanja nije datum fotografije.",
-  "prevezaniFajlovi": [
-    {
-      "fajl": "data\\knjige\\hrzenjak-2002.json",
-      "pomereneVeze": 5
-    },
-    {
-      "fajl": "data\\knjige\\jokic-1986.json",
-      "pomereneVeze": 102
-    },
-    {
-      "fajl": "data\\knjige\\sibenik-1980.json",
-      "pomereneVeze": 50
-    },
-    {
-      "fajl": "data\\provere\\groblja-zbirni-pregled-2026-10-18.json",
-      "pomereneVeze": 84
-    },
-    {
-      "fajl": "data\\provere\\hrvatska-49-2026-10-16.json",
-      "pomereneVeze": 10
-    },
-    {
-      "fajl": "data\\provere\\hrvatska-ostali-2026-10-16.json",
-      "pomereneVeze": 2
-    },
-    {
-      "fajl": "data\\provere\\lociranje-groblja-2026-10-18.json",
-      "pomereneVeze": 1
-    },
-    {
-      "fajl": "data\\provere\\lociranje-groblja-drugi-2026-10-18.json",
-      "pomereneVeze": 1
-    }
-  ],
-  "posle": {
-    "markeri": 9244,
-    "bezLokacije": 3006,
-    "grobljaBezLokacije": 212,
-    "noviMarkeri": 1,
-    "spojenDuplikat": 2,
-    "noviKandidatiBezPotvrdjeneTacke": 2,
-    "fotografijeMapa": 2,
-    "fotografijeRadniSpisak": 2
-  },
   "provere": {
-    "integritet": "prolaz, 9244 markera; nema novog nedozvoljenog bliskog para",
-    "testoviAplikacije": "23/23 pre zavrsnog prevezivanja Kreke na stabilan ID; kod aplikacije nije menjan",
     "prikaz": "390 x 844: Kreka, Zvornik i Sokolac; fotografije ucitane, bez Runtime izuzetaka; pregledani snimci Zvornika i Sokoca",
     "git": "pet konflikata razreseno uz ocuvanje dva nova muzejska cilja; rebase zavrsen u zajednickom folderu",
     "ogranicenje": "Ranije numericke upareno veze van opsega radnog skupa nisu rekonstruisane ovim paketom."
@@ -206,15 +147,9 @@
   "offlineUparivanje": {
     "datum": "2026-10-18",
     "metod": "Lokalno poredjenje 205 preostalih grobnih zapisa sa 13675 sacuvanih wiki stranica; 171 zapis ima tekstualnog kandidata, sto nije potvrda identiteta. Rucno proveren najizgledniji uzorak.",
-    "pre": {
-      "markeri": 9388,
-      "bezLokacije": 2961,
-      "grobljaBezLokacije": 205
-    },
     "spojeno": [
       {
         "ciljniId": "bosanska-raca",
-        "radniIndeksPreOffline": 281,
         "prethodniRadniZapis": {
           "naziv": "Spomen-kosturnica palih boraca",
           "nazivEn": "Memorial ossuary of fallen fighters",
@@ -244,7 +179,6 @@
       },
       {
         "ciljniId": "hadzici",
-        "radniIndeksPreOffline": 1048,
         "prethodniRadniZapis": {
           "naziv": "Partizansko groblje sa 36 palih boraca",
           "nazivEn": "Partisans' cemetery with 36 fallen fighters",
@@ -274,7 +208,6 @@
       },
       {
         "ciljniId": "gorazde-kolijevke-partizansko-groblje",
-        "radniIndeksPreOffline": 1050,
         "prethodniRadniZapis": {
           "naziv": "Zajednička grobnica palih boraca",
           "nazivEn": "Collective grave of fallen fighters",
@@ -303,7 +236,6 @@
       },
       {
         "ciljniId": "gornji-vakuf",
-        "radniIndeksPreOffline": 1060,
         "prethodniRadniZapis": {
           "naziv": "Partizansko groblje sa 101 palim borcem",
           "nazivEn": "Partisans' cemetery with 101 fallen fighters",
@@ -334,7 +266,6 @@
       },
       {
         "ciljniId": "podastinje",
-        "radniIndeksPreOffline": 1286,
         "prethodniRadniZapis": {
           "naziv": "Partizansko groblje sa 51 palim borcem",
           "nazivEn": "Partisans' cemetery with 51 fallen fighters",
@@ -366,7 +297,6 @@
       },
       {
         "ciljniId": "gakici-partizanski-spomenik",
-        "radniIndeksPreOffline": 1353,
         "prethodniRadniZapis": {
           "naziv": "Partizansko groblje",
           "nazivEn": "Partisans' cemetery",
@@ -396,7 +326,6 @@
       },
       {
         "ciljniId": "kalenderovci-spomenik-zrtvama-fasistickog-terora",
-        "radniIndeksPreOffline": 812,
         "prethodniRadniZapis": {
           "naziv": "Zajednička grobnica žrtava fašističkog terora",
           "nazivEn": "Collective grave of Victims of Fascist Terror",
@@ -425,7 +354,6 @@
       },
       {
         "ciljniId": "polje-partizansko-groblje-borici",
-        "radniIndeksPreOffline": 2937,
         "prethodniRadniZapis": {
           "naziv": "Partizansko groblje sa 40 palih boraca",
           "nazivEn": "Partisans' cemetery with 40 fallen fighters",
@@ -455,16 +383,9 @@
     "novi": [
       {
         "id": "ilijas-alica-gaj-spomen-kosturnica",
-        "radniIndeksPreOffline": 1173,
         "prethodniRadniZapis": {
-          "naziv": "Kosturnica žrtava fašističkog terora",
-          "nazivEn": "Ossuary of Victims of Fascist Terror",
-          "mesto": "Ilijaš",
           "adresa": "Alića gaj",
-          "drzava": "Bosnia and Herzegovina",
           "autor": "Milivoje Unković",
-          "godina": "1962",
-          "vrsta": "spomen-groblje",
           "izvor": "https://www.spomenicinob.info/ilijas"
         },
         "wikiNaslov": "Ilijaš - Spomen Kosturnica",
@@ -474,7 +395,6 @@
         "datumFotografije": "nije-utvrdjen"
       }
     ],
-    "preskoceno": [],
     "odbijeneFotografije": [
       "Kalenderovci Google: zgrada i okolina bez spomenika.",
       "Borici Google: pogled na selo bez vidljivog spomenika.",
@@ -482,51 +402,7 @@
       "Kolijevke stari Google URL: HTTP 400; prihvacena fotografija kantona iz 2009."
     ],
     "ogranicenje": "Nije proveren ceo skup 171 tekstualnog kandidata. Datum ucitavanja wiki fotografije Ilijasa nije datum snimanja. Ranije neispravne knjiske veze van opsega radnog spiska nisu rekonstruisane.",
-    "prevezaniFajlovi": [
-      {
-        "fajl": "data/knjige/hrzenjak-2002.json",
-        "pomereneVeze": 5
-      },
-      {
-        "fajl": "data/knjige/jokic-1986.json",
-        "pomereneVeze": 72
-      },
-      {
-        "fajl": "data/knjige/sibenik-1980.json",
-        "pomereneVeze": 50
-      },
-      {
-        "fajl": "data/provere/groblja-zbirni-pregled-2026-10-18.json",
-        "pomereneVeze": 202
-      },
-      {
-        "fajl": "data/provere/hrvatska-49-2026-10-16.json",
-        "pomereneVeze": 10
-      },
-      {
-        "fajl": "data/provere/hrvatska-ostali-2026-10-16.json",
-        "pomereneVeze": 2
-      },
-      {
-        "fajl": "data/provere/lociranje-groblja-2026-10-18.json",
-        "pomereneVeze": 1
-      },
-      {
-        "fajl": "data/provere/lociranje-groblja-drugi-2026-10-18.json",
-        "pomereneVeze": 3
-      }
-    ],
-    "posle": {
-      "markeri": 9389,
-      "bezLokacije": 2952,
-      "grobljaBezLokacije": 196,
-      "noviMarkeri": 1,
-      "spojeniDuplikati": 8,
-      "noveFotografije": 2
-    },
     "provere": {
-      "integritet": "prolaz, 9389 markera, bez novih nedozvoljenih bliskih parova",
-      "aplikacija": "23/23 testova proslo",
       "prikaz": "390x844: Ilijas i Kolijevke; obe fotografije ucitane, bez Runtime izuzetaka, snimci pregledani",
       "ocuvanje": "postojeci ID, koordinate, CID i prethodno popunjeni izvori sacuvani; aktivne radne i validne knjiske veze pomerene prema obrisanim indeksima"
     }
@@ -534,24 +410,11 @@
   "offlineNastavak": {
     "datum": "2026-10-18",
     "obim": "Sledeci najizgledniji kandidati sa fotografijama: Samac 1990, Urije/Prijedor 1985, preseljena kosturnica Fojnica.",
-    "pre": {
-      "markeri": 9390,
-      "bezLokacije": 2952,
-      "grobljaBezLokacije": 196
-    },
     "novi": [
       {
         "id": "samac-kosturnica-palih-boraca-1990",
-        "radniIndeksPreNastavak": 2081,
         "prethodniRadniZapis": {
-          "naziv": "Spomen-kosturnica palih boraca i žrtava fašističkog terora",
-          "nazivEn": "Memorial ossuary of fallen fighters and Victims of Fascist Terror",
-          "mesto": "Šamac",
           "adresa": "Town park",
-          "drzava": "Bosnia and Herzegovina",
-          "autor": "Zoran Jezdimirović & Slavko Kostić & Salko Grabovac",
-          "godina": "1990",
-          "vrsta": "spomen-groblje",
           "izvor": "https://www.spomenicinob.info/samac"
         },
         "razlog": "Samac: isto cilindricno obelezje i park iz wiki fotografija; katalog potvrduje kosturnicu iz 1990. koja zamenjuje srusenu iz 1950. Bliska vec mapirana brigadna spomen-obelezja udaljena su preko 240m i nisu isto delo.",
@@ -563,15 +426,9 @@
       },
       {
         "id": "prijedor-urije-grobnica-833-zrtve",
-        "radniIndeksPreNastavak": 1943,
         "prethodniRadniZapis": {
-          "naziv": "Masovna grobnica 833 žrtve fašističkog terora",
-          "nazivEn": "Mass grave of 833 Victims of Fascist Terror",
           "mesto": "Urije",
           "adresa": "Catholic and Jewish cemetery, Ul. Rudi Čajaveca",
-          "drzava": "Bosnia and Herzegovina",
-          "godina": "1985",
-          "vrsta": "spomen-groblje",
           "izvor": "https://www.spomenicinob.info/prijedor"
         },
         "razlog": "Ploca sa brojem 833 u jevrejskom delu groblja Urije, zasebno od partizanskog groblja iz 1954. sa 102 borca preko puta. Identitet potvrdjuje Muzej Kozare, sa opisom sahrane i kartom parcele. Muzejska karta 44.986111,16.729444 nije preuzeta kao precizna tacka ploce.",
@@ -584,20 +441,11 @@
       },
       {
         "id": "fojnica-spomen-kosturnica",
-        "radniIndeksPreNastavak": 1000,
         "prethodniRadniZapis": {
-          "naziv": "Spomen-kosturnica palih boraca",
-          "nazivEn": "Memorial ossuary of fallen fighters",
-          "mesto": "Fojnica",
           "adresa": "In front of Hotel Reumal",
-          "drzava": "Bosnia and Herzegovina",
           "autor": "Ranko Milanović",
-          "godina": "1974",
-          "vrsta": "spomen-groblje",
           "izvor": "https://www.spomenicinob.info/fojnica",
-          "slika": "slike/bez-lokacije/ba-fojnica-kosturnica.webp",
-          "slikaPotpis": "Alma la Douce (@DouceAlma), X",
-          "slikaOdnos": 0.75
+          "slika": "slike/bez-lokacije/ba-fojnica-kosturnica.webp"
         },
         "razlog": "Direktni Google CID i fotografija potvrduju oktogonalni spomenik sa petokrakom i kruznim reljefom na sadasnjoj tacki. Katalog i datirane fotografije potvrdjuju preseljenje sredinom 2009. Autor Ranko Milanovic odnosi se na reljef, ne automatski ceo novi objekat.",
         "wikiIzvor": "https://www.xiwl.com/w/index.php/Fojnica_-_Spomen_Kosturnica",
@@ -612,7 +460,6 @@
     "istorijskiPrethodnici": [
       {
         "ciljniId": "samac-kosturnica-palih-boraca-1990",
-        "radniIndeksPreNastavak": 2080,
         "prethodniRadniZapis": {
           "naziv": "Spomen-kosturnica",
           "nazivEn": "Memorial ossuary",
@@ -628,7 +475,6 @@
       },
       {
         "ciljniId": "fojnica-spomen-kosturnica",
-        "radniIndeksPreNastavak": 1002,
         "prethodniRadniZapis": {
           "naziv": "Partizansko groblje sa 29 palih boraca",
           "nazivEn": "Partisans' cemetery with 29 fallen fighters",
@@ -644,7 +490,6 @@
       },
       {
         "ciljniId": "fojnica-spomen-kosturnica",
-        "radniIndeksPreNastavak": 1007,
         "prethodniRadniZapis": {
           "naziv": "Partizansko groblje",
           "nazivEn": "Partisans' cemetery",
@@ -665,52 +510,7 @@
       "Ilijas 1969: wiki navodi moguci objekat kod crkve, ne sigurnu identifikaciju grobne ploce."
     ],
     "ogranicenja": "Datumi ucitavanja wiki fotografija nisu datumi snimanja. Urije: muzejska karta potvrdjuje grobnu parcelu, ne zasebnu GPS tacku same ploce; tacka ploce preuzeta iz namenski mapiranog wiki zapisa i terenskih fotografija. Google pretrage po nazivu Samca i Fojnice vratile su nepovezane objekte, od kojih nijedan nije upisan; Fojnica proverena direktnim sacuvanim CID-om.",
-    "prevezaniFajlovi": [
-      {
-        "fajl": "data/knjige/hrzenjak-2002.json",
-        "pomereneVeze": 5
-      },
-      {
-        "fajl": "data/knjige/jokic-1986.json",
-        "pomereneVeze": 59
-      },
-      {
-        "fajl": "data/knjige/sibenik-1980.json",
-        "pomereneVeze": 50
-      },
-      {
-        "fajl": "data/provere/groblja-zbirni-pregled-2026-10-18.json",
-        "pomereneVeze": 161
-      },
-      {
-        "fajl": "data/provere/hrvatska-49-2026-10-16.json",
-        "pomereneVeze": 10
-      },
-      {
-        "fajl": "data/provere/hrvatska-ostali-2026-10-16.json",
-        "pomereneVeze": 2
-      },
-      {
-        "fajl": "data/provere/lociranje-groblja-2026-10-18.json",
-        "pomereneVeze": 1
-      },
-      {
-        "fajl": "data/provere/lociranje-groblja-drugi-2026-10-18.json",
-        "pomereneVeze": 3
-      }
-    ],
-    "posle": {
-      "markeri": 9393,
-      "bezLokacije": 2946,
-      "grobljaBezLokacije": 190,
-      "noviMarkeri": 3,
-      "povezaniPrethodnici": 3,
-      "fotografijeNove": 2,
-      "fotografijePreuzeteIzRadnogSkupa": 1
-    },
     "provere": {
-      "integritet": "prolaz, 9393 markera; bez novih nedozvoljenih bliskih parova",
-      "aplikacija": "23/23 testova proslo",
       "prikaz": "390x844: Samac, Prijedor/Urije i Fojnica; fotografije ucitane, bez Runtime izuzetaka, sva tri snimka pregledana",
       "ocuvanje": "postojeci markeri u celosti sacuvani; aktivne radne i validne knjiske veze prevezane; istorijski prethodnici sacuvani u ovom izvestaju"
     }

@@ -12,10 +12,8 @@
   },
   "stavke": [
     {
-      "rangKandidata": 220,
       "wikiStranica": "Niška Banja - Spomenik NOB",
       "wikiUrl": "https://www.xiwl.com/w/index.php/Ni%C5%A1ka_Banja_-_Spomenik_NOB",
-      "id": null,
       "radnja": "van-obuhvata",
       "dokaz": "Pročitan natpis na običnoj fotografiji Google mesta: Mojsije Mihajlović Toške, pripadnik službe bezbednosti OZNA, poginuo u borbi protiv ostataka četničkih bandi 10.12.1946; obeležje postavljeno 13.5.1976. Ovaj objekat obeležava posleratni događaj, ne NOB 1941–1945, zato nije dodat. Naslov prodajnog oglasa o narodnom heroju nije pouzdan dokaz.",
       "koordinateWiki": "43.289361,21.991889",
@@ -32,7 +30,6 @@
       ]
     },
     {
-      "rangKandidata": 272,
       "wikiStranica": "Vranjska Banja - Spomenik Palim Borcima",
       "wikiUrl": "https://www.xiwl.com/w/index.php/Vranjska_Banja_-_Spomenik_Palim_Borcima",
       "id": "vranjska-banja",
@@ -50,39 +47,13 @@
         "koordinate": {
           "lat": 42.5475383,
           "lng": 22.0077271
-        },
-        "mesto": "Vranjska Banja",
-        "slika": "slike/spomenici/vranjska-banja.webp",
-        "slikaOdnos": 1.481,
-        "naziv": "Spomenik palim borcima",
-        "nazivEn": "Monument to Fallen Fighters",
-        "godina": "1951",
-        "godinaOd": 1951,
-        "godinaDo": 1951,
-        "vrsta": "spomenik",
-        "drzava": "Serbia"
+        }
       },
-      "izvorPre": null,
       "posle": {
-        "id": "vranjska-banja",
-        "koordinate": {
-          "lat": 42.546887,
-          "lng": 22.00588
-        },
-        "mesto": "Vranjska Banja",
-        "slika": "slike/spomenici/vranjska-banja.webp",
-        "slikaOdnos": 1.481,
-        "naziv": "Spomenik palim borcima",
-        "nazivEn": "Monument to Fallen Fighters",
-        "godina": "1951",
-        "godinaOd": 1951,
-        "godinaDo": 1951,
-        "vrsta": "spomenik",
-        "drzava": "Serbia"
+        "id": "vranjska-banja"
       }
     },
     {
-      "rangKandidata": 339,
       "wikiStranica": "Kamenica (Aleksinac) - Spomen Pyramida NOB",
       "wikiUrl": "https://www.xiwl.com/w/index.php/Kamenica_%28Aleksinac%29_-_Spomen_Pyramida_NOB",
       "id": "kamenica-spomenik-palim-1941-1945",
@@ -102,29 +73,11 @@
           "lng": 21.60398
         },
         "priblizno": true,
-        "mesto": "Kamenica",
-        "naziv": "Spomenik palim 1941-1945",
-        "godina": "1956",
-        "godinaOd": 1956,
-        "godinaDo": 1956,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "mesto": "Kamenica"
       },
       "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=66",
       "posle": {
         "id": "kamenica-spomenik-palim-1941-1945",
-        "koordinate": {
-          "lat": 43.4504,
-          "lng": 21.603141
-        },
-        "mesto": "Kamenica (Aleksinac)",
-        "naziv": "Spomenik palim 1941-1945",
-        "godina": "1956",
-        "godinaOd": 1956,
-        "godinaDo": 1956,
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia",
-        "stanje": "ostecen",
         "stanjeIzvor": {
           "naziv": "Fotogrametrijski model, studija za ZZSK Niš",
           "godina": 2021,
@@ -133,10 +86,8 @@
       }
     },
     {
-      "rangKandidata": 340,
       "wikiStranica": "Lipovac (Aleksinac) - Spomenik NOB",
       "wikiUrl": "https://www.xiwl.com/w/index.php/Lipovac_%28Aleksinac%29_-_Spomenik_NOB",
-      "id": null,
       "radnja": "odloženo",
       "dokaz": "Stručni model 31b212176159469284bc4cf6f07ad3a1 potvrđuje zaseban NOB objekat na steni iznad manastira i tačku 43.562824,21.837502. Wiki glavni Reference greškom vodi na model spomen-česme u centru (20f5f4a...,43.551997,21.813552). Iako je identitet objekta kao NOB potvrđen, nema natpisa ni potvrđene veze sa knjiškim belegom formiranja Ozrenskog odreda na Obloj glavi. Postojeći približni beleg i česma ostaju na svojim mestima, bez moguće zamene dva objekta ili novog duplikata.",
       "koordinateWiki": "43.562824,21.837502",
@@ -165,13 +116,5 @@
     "url": "https://sketchfab.com/HeritagePhotogrammetry",
     "obim": "Profil navodi908modela različite baštine,ne908NOBspomenika; pročitan opis tri relevantna modela. APIza zbirni spisak vrati404; profil se otvara kroz indeksirani tekst, direktni čitač403.",
     "sledeciKorak": "Probati zbirni spisak metapodataka i izdvojiti NOB. Ne preuzimati teške3Dmodele niti računati objavu2021 kao datum terena."
-  },
-  "provere": {
-    "upis": "Učitana cela aktuelna baza tek nakon istraživanja; upoređena nepromenjenost dva ciljna zapisa i sadržaj svih zajedničkih ulaza neposredno pre sacuvaj_bazu; sačuvani svi postojeći izvori.",
-    "integritet": "Status 0; 52 poznata bliska para, nijedan novi.",
-    "aplikacija": "23/23 testova prolazi.",
-    "telefon": "390 x 844: Vranjska Banja i Kamenica; kartice, slika, precizna lokacija i izvor stanja 2021 provereni; bez JS izuzetaka; oba snimka vizuelno pregledana.",
-    "obim": "Samo 2 postojeca ID izmenjena; 0 novih ID, nijedan obrisan; bez promene strukture; fotografije i izvorni izvori sacuvani.",
-    "format": "git diff --check prolazi."
   }
 }

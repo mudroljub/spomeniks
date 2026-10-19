@@ -6,15 +6,8 @@
     {
       "ishod": "nov-marker",
       "id": "husino-spomen-dom-husinske-bune",
-      "radniIndeksPre": 3901,
       "prethodniZapis": {
-        "naziv": "Spomen-dom Husinske bune",
-        "nazivEn": "Memorial hall of the Husino Rebellion",
-        "mesto": "Husino",
         "adresa": "Opposite Partisans' Cemetery",
-        "drzava": "Bosnia and Herzegovina",
-        "godina": "1960",
-        "vrsta": "muzej",
         "izvor": "https://www.spomenicinob.info/tuzla"
       },
       "koordinate": {
@@ -31,13 +24,10 @@
     {
       "ishod": "već-na-mapi",
       "id": "crna-vas-spomenik-zrtvam-nov-v-kozlarjevi-gosci",
-      "radniIndeksPre": 27,
       "prethodniZapis": {
         "naziv": "Spomenik žrtvama fašizma",
         "mesto": "Kozlerjev gozd",
-        "drzava": "Slovenia",
-        "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%98%D0%B8",
-        "vrsta": "spomen-obelezje"
+        "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%98%D0%B8"
       },
       "izvorProvere": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/2975/",
       "nalaz": "Kozlerjev gozd / Kozlarjeva gošča je isto mesto. Stručni popis daje 45.9959939,14.4967793 i EŠD5718; postojeći marker ima isti EŠD i tačku nekoliko metara dalje."
@@ -45,11 +35,9 @@
     {
       "ishod": "već-na-mapi",
       "id": "ribniski-vrh",
-      "radniIndeksPre": 30,
       "prethodniZapis": {
         "naziv": "Spomenik palim borcima",
         "mesto": "Jezerski vrh",
-        "drzava": "Slovenia",
         "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%98%D0%B8",
         "vrsta": "spomen-obelezje"
       },
@@ -59,7 +47,6 @@
   ],
   "provereniOtvoreniTragovi": [
     {
-      "radniIndeksPre": 26,
       "prethodniZapis": {
         "naziv": "Spomenik borbama za konačno oslobođenje",
         "mesto": "Uršlja Gora",
@@ -98,7 +85,6 @@
       }
     },
     {
-      "radniIndeksPre": 1709,
       "prethodniZapis": {
         "naziv": "Spomen-dom naroda Potkozarja u revoluciji",
         "nazivEn": "Memorial hall of the People of Potkozarija in the Revolution",
@@ -135,7 +121,6 @@
       }
     },
     {
-      "radniIndeksPre": 4387,
       "prethodniZapis": {
         "mesto": "Žabljak",
         "izvor": "https://znaci.org/00003/920.pdf#page=355",
@@ -168,7 +153,6 @@
       }
     },
     {
-      "radniIndeksPre": 4385,
       "prethodniZapis": {
         "mesto": "Žabljak",
         "izvor": "https://znaci.org/00003/920.pdf#page=354",
@@ -193,7 +177,6 @@
       }
     },
     {
-      "radniIndeksPre": 4334,
       "prethodniZapis": {
         "mesto": "Beograd",
         "izvor": "https://znaci.org/00003/920.pdf#page=45",
@@ -216,169 +199,6 @@
           "napomena": "Gradski dokument navodi da je muzej zatvoren za javnost2000. Nominatim pretraga adrese Banjički venac12 vratila je tačku ulice bez potvrđenog kućnog broja; nije korišćena kao tačka kuće."
         }
       }
-    }
-  ],
-  "pomereneKnjiskeReference": {
-    "hrzenjak-2002.json": 12,
-    "jokic-1986.json": 128,
-    "sibenik-1980.json": 80
-  },
-  "pomereneReferenceProvera": [
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "ljubosina-spomenik-ustanka-i-nor-a",
-      "pre": 4495,
-      "posle": 4492
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "skrad-spomenik-palim-borcima-i-zrtvama-fasizma",
-      "pre": 4496,
-      "posle": 4493
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "zagreb-horvati-spomenik-palim-borcima-i-zrtvama",
-      "pre": 4497,
-      "posle": 4494
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "gerovo-mladje-spomenik-diverzantskoj-akciji-1941",
-      "pre": 4498,
-      "posle": 4495
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "tajcari-spomenik-prvom-zboru-za-odlazak-u",
-      "pre": 4499,
-      "posle": 4496
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "prezid-zbitke-spomenik-danijelu-ozboltu",
-      "pre": 4500,
-      "posle": 4497
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "prezid-zbitke-spomenik-jakovu-kovacu",
-      "pre": 4501,
-      "posle": 4498
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "prezid-zbitke-spomenik-strijeljanim-partizanima",
-      "pre": 4502,
-      "posle": 4499
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "kavaliri-spomenik-strijeljanim-zrtvama-fasizma",
-      "pre": 4503,
-      "posle": 4500
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "muhovci-spomenik-strijeljanim-partizanima",
-      "pre": 4504,
-      "posle": 4501
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "hrib-spomenik-strijeljanim-aktivistima-nop-a",
-      "pre": 4505,
-      "posle": 4502
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "gerovski-kraj-spomenik-ubijenim-prvoborcima",
-      "pre": 4506,
-      "posle": 4503
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "sokoli-spomenik-formiranju-prve-istarske",
-      "pre": 4507,
-      "posle": 4504
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "parg-spomenik-ubijenim-partizanima",
-      "pre": 4508,
-      "posle": 4505
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "celovci-spomenik-vinku-ozboltu",
-      "pre": 4509,
-      "posle": 4506
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "gerovski-kraj-jurjev-laz-spomenik-partizanskom",
-      "pre": 4510,
-      "posle": 4507
-    },
-    {
-      "fajl": "hrvatska-49-2026-10-16.json",
-      "id": "jazbine-spomenik-partizanskom-stozeru",
-      "pre": 4511,
-      "posle": 4508
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "vinkovci",
-      "pre": 4512,
-      "posle": 4509
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "zupanja-bivsi-spomenik-nob",
-      "pre": 4513,
-      "posle": 4510
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "djeletovci-spomenik-nob",
-      "pre": 4514,
-      "posle": 4511
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "badljevina-nob",
-      "pre": 4515,
-      "posle": 4512
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "jaksic-spomenik-nob",
-      "pre": 4516,
-      "posle": 4513
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "susine-spomenik-palim-borcima-nob-a",
-      "pre": 4517,
-      "posle": 4514
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "scitarjevo-spomenik-palim-borcima",
-      "pre": 4518,
-      "posle": 4515
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "novi-pavljani-spomenik-nob-ostecen",
-      "pre": 4519,
-      "posle": 4516
-    },
-    {
-      "fajl": "hrvatska-ostali-2026-10-16.json",
-      "id": "slobostina",
-      "pre": 4520,
-      "posle": 4517
     }
   ],
   "ogranicenje": "Nema novog terenskog pregleda. Nepotvrđene posvete i različiti objekti nisu zamenjeni koordiatama obližnjih objekata. Šira provera hrvatskih spomenika nije nastavljena."

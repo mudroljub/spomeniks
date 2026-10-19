@@ -10,21 +10,12 @@
       "odluka": "ispravljen",
       "unosPreProvere": {
         "id": "gudovac",
-        "koordinate": {
-          "lat": 45.8883212,
-          "lng": 16.77118
-        },
-        "mesto": "Gudovac",
         "wiki": "https://hr.wikipedia.org/wiki/Spomen_podru%C4%8Dje_Gudovac",
-        "slika": "slike/spomenici/gudovac.webp",
         "slikaOdnos": 1.356,
         "naziv": "Spomen-kosturnica za 195 žrtava Gudovac",
         "nazivEn": "\"Before the Firing Squad\" Monument",
-        "godina": "1955",
-        "autor": "Vojin Bakić",
         "stanje": "ostecen",
-        "vrsta": "statua",
-        "drzava": "Croatia"
+        "vrsta": "statua"
       },
       "hrzenjak": [
         {
@@ -73,35 +64,19 @@
         }
       ],
       "nalaz": "Knjiga razlikuje uklonjeni spomenik Mirku Romčeviću kod stanice od uklonjenog spomenika oslobodiocima i tenkistima na prilazu gradu. Naša fotografija odgovara drugom objektu (sl. 762), a naziv i godina prvom. Kasniji dokaz povratka i pouzdan identitet tačke nisu pronađeni. Povučeno kao nepotvrđeno, bez tvrdnje o stanju u 2026. Fotografije su sačuvane u arhivi.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Razrešen je opisani rizik; ovo nije terenska potvrda stanja 16.10.2026.",
       "radniId": "vinkovci-spomenik-mirku-romcevicu",
       "arhiviraneSlike": [
         "data/provere/slike/vinkovci.webp",
         "data/provere/slike/vinkovci-mala.webp"
-      ],
-      "radniIndeksPre": 4497
+      ]
     },
     {
       "id": "djurdjevac",
       "odluka": "zadržan-kasniji-dokaz",
       "unosPreProvere": {
-        "id": "djurdjevac",
-        "koordinate": {
-          "lat": 46.0422329,
-          "lng": 17.0681217
-        },
-        "googleCid": "5951423992328072150",
-        "mesto": "Đurđevac",
-        "slika": "slike/spomenici/djurdjevac.webp",
-        "slikaOdnos": 1.481,
-        "naziv": "Palim borcima u antifašističkoj borbi",
-        "nazivEn": "Monument to Fallen Fighters",
-        "godina": "1952",
-        "autor": "Slavko Šoša",
-        "vrsta": "statua",
-        "drzava": "Croatia"
+        "id": "djurdjevac"
       },
       "hrzenjak": [
         {
@@ -124,24 +99,7 @@
       "id": "donji-lapac-stojan-matic",
       "odluka": "zadržan-kasniji-dokaz",
       "unosPreProvere": {
-        "id": "donji-lapac-stojan-matic",
-        "koordinate": {
-          "lat": 44.5504425,
-          "lng": 15.9601012
-        },
-        "googleCid": "15501402107089430428",
-        "mesto": "Donji Lapac",
-        "slika": "slike/spomenici/donji-lapac-stojan-matic.webp",
-        "slikaOdnos": 1.444,
-        "naziv": "Spomenik Stojanu Matiću",
-        "nazivEn": "Monument to Stojan Matić",
-        "godina": "1969",
-        "autor": "Vjekoslav Rukljač",
-        "posveta": [
-          "Q3741975"
-        ],
-        "vrsta": "statua",
-        "drzava": "Croatia"
+        "id": "donji-lapac-stojan-matic"
       },
       "hrzenjak": [
         {
@@ -165,24 +123,7 @@
       "odluka": "zadržan-kasniji-dokaz",
       "unosPreProvere": {
         "id": "srb-croatian-people-s",
-        "koordinate": {
-          "lat": 44.3655908,
-          "lng": 16.1223257
-        },
-        "googleCid": "7243054870991033157",
-        "mesto": "Srb",
-        "wiki": "https://sh.wikipedia.org/wiki/Spomenik_ustanku_naroda_Hrvatske",
-        "slika": "slike/spomenici/srb-croatian-people-s.webp",
-        "slikaOdnos": 1.504,
-        "naziv": "Spomenik ustanku naroda Hrvatske",
-        "nazivEn": "Monu. to Croatian People's Uprising",
-        "godina": "1951",
-        "autor": "Vanja Radauš",
-        "posveta": [
-          "Q7582396"
-        ],
-        "vrsta": "spomenik",
-        "drzava": "Croatia"
+        "wiki": "https://sh.wikipedia.org/wiki/Spomenik_ustanku_naroda_Hrvatske"
       },
       "hrzenjak": [
         {
@@ -206,21 +147,7 @@
       "id": "bjelovar",
       "odluka": "zadržan-kasniji-dokaz",
       "unosPreProvere": {
-        "id": "bjelovar",
-        "koordinate": {
-          "lat": 45.9089936,
-          "lng": 16.8388519
-        },
-        "googleCid": "15853249553988409082",
-        "mesto": "Bjelovar",
-        "slika": "slike/spomenici/bjelovar.webp",
-        "slikaOdnos": 1.493,
-        "naziv": "Poziv na ustanak",
-        "nazivEn": "Call to Arms Monument",
-        "godina": "1946",
-        "autor": "Vojin Bakić",
-        "vrsta": "statua",
-        "drzava": "Croatia"
+        "id": "bjelovar"
       },
       "hrzenjak": [
         {
@@ -251,17 +178,7 @@
       "id": "koprivnica-izvidnica",
       "odluka": "dopunjen",
       "unosPreProvere": {
-        "id": "koprivnica-izvidnica",
-        "koordinate": {
-          "lat": 46.1863573,
-          "lng": 16.8438483
-        },
-        "mesto": "Koprivnica",
-        "naziv": "Izvidnica",
-        "nazivEn": "Partisan Scout",
-        "autor": "Ivan Sabolić",
-        "vrsta": "spomenik",
-        "drzava": "Croatia"
+        "id": "koprivnica-izvidnica"
       },
       "hrzenjak": [
         {
@@ -286,21 +203,7 @@
       "odluka": "otvorena-hronologija",
       "unosPreProvere": {
         "id": "krapanj",
-        "koordinate": {
-          "lat": 43.6723727,
-          "lng": 15.9182638
-        },
-        "googleCid": "6743612791405194516",
-        "mesto": "Krapanj",
-        "izvor": "https://znaci.org/00003/905.pdf#page=199",
-        "slika": "slike/spomenici/krapanj.webp",
-        "slikaOdnos": 0.667,
-        "slikaPotpis": "Google Maps",
-        "naziv": "Spomenik antifašističkim borcima",
-        "godina": "1949",
-        "autor": "Ante Skokandić",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia"
+        "izvor": "https://znaci.org/00003/905.pdf#page=199"
       },
       "hrzenjak": [
         {
@@ -324,21 +227,9 @@
       "odluka": "ispravljen-identitet",
       "unosPreProvere": {
         "id": "gracac",
-        "koordinate": {
-          "lat": 44.3014456,
-          "lng": 15.8485154
-        },
-        "googleCid": "1276744397011214230",
-        "mesto": "Gračac",
         "izvor": "https://znaci.org/00003/736.php?broj=127",
-        "slika": "slike/spomenici/gracac.webp",
-        "slikaOdnos": 1.556,
         "naziv": "Spomenik i kosturnica palim borcima",
-        "nazivEn": "Monument & Ossuary to Fallen Fighters",
-        "godina": "1950",
-        "autor": "Miroslav Vertačnik",
-        "vrsta": "spomenik",
-        "drzava": "Croatia"
+        "nazivEn": "Monument & Ossuary to Fallen Fighters"
       },
       "hrzenjak": [
         {
@@ -354,12 +245,10 @@
           "strana": 364,
           "scanBroj": 387,
           "izvor": "https://znaci.org/00003/736.php?broj=387",
-          "stanjeIzKnjige": "Ošt+Sru",
-          "napomena": ""
+          "stanjeIzKnjige": "Ošt+Sru"
         }
       ],
       "nalaz": "Originalni sken 127 izričito razlikuje kosturnicu u centru, spomenik sa bistama i visoku stelu sa reljefom na Gradini (sl. 303). Postojeća fotografija i tačka na brdu odgovaraju Gradini. Naziv više ne predstavlja taj objekat i kao kosturnicu; istorijsko rušenje bista nije preneto na stelu.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Razrešen je opisani rizik; ovo nije terenska potvrda stanja 16.10.2026."
     },
@@ -368,23 +257,7 @@
       "odluka": "odbačen-pogrešan-par",
       "unosPreProvere": {
         "id": "topusko-3rd-session-zavnoh-2",
-        "koordinate": {
-          "lat": 45.2943277,
-          "lng": 15.9704907
-        },
-        "mesto": "Topusko",
-        "izvor": "https://znaci.org/00003/920.pdf#page=436",
-        "slika": "slike/spomenici/topusko-3rd-session-zavnoh-2.webp",
-        "slikaOdnos": 1.66,
-        "naziv": "Spomenik Trećem zasjedanju ZAVNOH-a",
-        "nazivEn": "Monument to 3rd Session of ZAVNOH",
-        "godina": "1950",
-        "autor": "Vanja Radauš",
-        "posveta": [
-          "Q17490543"
-        ],
-        "vrsta": "spomenik",
-        "drzava": "Croatia"
+        "izvor": "https://znaci.org/00003/920.pdf#page=436"
       },
       "hrzenjak": [
         {
@@ -405,7 +278,6 @@
         }
       ],
       "nalaz": "Srušeni Društveni dom ZAVNOH-a i Radauševa figura u parku su različiti objekti na susednim skenovima 106–107. Za figuru knjiga kaže oštećen, ne srušen. Ovaj nalaz ne potvrđuje današnje stanje i nije razlog za uklanjanje figure sa mape.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Razrešen je opisani rizik; ovo nije terenska potvrda stanja 16.10.2026."
     },
@@ -414,20 +286,8 @@
       "odluka": "odbačen-pogrešan-signal",
       "unosPreProvere": {
         "id": "bakar",
-        "koordinate": {
-          "lat": 45.3059915,
-          "lng": 14.5349406
-        },
-        "googleCid": "4336101282166520281",
-        "mesto": "Bakar",
         "izvor": "https://znaci.org/00003/736.php?broj=212",
-        "slika": "slike/spomenici/bakar.webp",
-        "slikaOdnos": 0.752,
-        "slikaPotpis": "Google Maps",
-        "naziv": "Spomenik palim borcima NOB-e Ranjeni kurir",
-        "autor": "Frano Kršinić",
-        "vrsta": "statua",
-        "drzava": "Croatia"
+        "naziv": "Spomenik palim borcima NOB-e Ranjeni kurir"
       },
       "hrzenjak": [
         {
@@ -440,7 +300,6 @@
         }
       ],
       "nalaz": "Pretraga je izdvojila opis zbog reči u napomeni, ali zapis za poleglu Kršinićevu figuru izričito kaže stoji. Nije ustanovljen knjiški nalaz rušenja tog objekta; to samo po sebi nije potvrda stanja 2026.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Razrešen je opisani rizik; ovo nije terenska potvrda stanja 16.10.2026."
     },
@@ -449,25 +308,9 @@
       "odluka": "odbačen-pogrešan-signal",
       "unosPreProvere": {
         "id": "jasenovac",
-        "koordinate": {
-          "lat": 45.2802822,
-          "lng": 16.9283735
-        },
-        "googleCid": "18176946123190125023",
-        "mesto": "Jasenovac",
         "izvor": "http://www.spomenikdatabase.org/jasenovec",
         "wiki": "https://sh.wikipedia.org/wiki/Kameni_cvijet",
-        "slika": "slike/spomenici/jasenovac.webp",
-        "slikaOdnos": 1.504,
-        "naziv": "Kameni cvijet",
-        "nazivEn": "The Flower Monument",
-        "godina": "1966",
-        "autor": "Bogdan Bogdanović",
-        "posveta": [
-          "Q155032"
-        ],
-        "vrsta": "istaknut",
-        "drzava": "Croatia"
+        "vrsta": "istaknut"
       },
       "hrzenjak": [
         {
@@ -480,7 +323,6 @@
         }
       ],
       "nalaz": "U opisu kompleksa glavna skulptura izričito nije srušena; ne prenositi oštećenja vagona, pruge ili muzejske opreme na opstanak Kamenog cvijeta. Zadržana mapa bez novog polja stanje.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Razrešen je opisani rizik; ovo nije terenska potvrda stanja 16.10.2026."
     },
@@ -489,21 +331,9 @@
       "odluka": "odbačen-pogrešan-par",
       "unosPreProvere": {
         "id": "kumrovec",
-        "koordinate": {
-          "lat": 46.0771792,
-          "lng": 15.685623
-        },
-        "googleCid": "5558471675694725636",
-        "mesto": "Kumrovec",
         "izvor": "https://znaci.org/00003/920.pdf#page=201",
-        "slika": "slike/spomenici/kumrovec.webp",
-        "slikaOdnos": 1.471,
         "naziv": "Spomen-dom boraca NOB-a i omladine",
-        "nazivEn": "Memorial House of NOB Fighters & Youth",
-        "godina": "1974",
-        "autor": "Ivan Filipčić & Berislav Šerbetić",
-        "vrsta": "istaknut",
-        "drzava": "Croatia"
+        "vrsta": "istaknut"
       },
       "hrzenjak": [
         {
@@ -516,7 +346,6 @@
         }
       ],
       "nalaz": "Uklonjena Augustinčićeva Žena u NOB-i nije Spomen-dom boraca NOB-a i omladine. Različita vrsta, autor i posveta; nalaz o depou statue ne određuje opstanak zgrade.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Razrešen je opisani rizik; ovo nije terenska potvrda stanja 16.10.2026."
     },
@@ -525,21 +354,8 @@
       "odluka": "odbačen-pogrešan-par",
       "unosPreProvere": {
         "id": "vodice",
-        "koordinate": {
-          "lat": 43.7558913,
-          "lng": 15.7738407
-        },
-        "googleCid": "10964385834046520080",
-        "mesto": "Vodice",
         "izvor": "https://znaci.org/00003/905.pdf#page=382",
-        "slika": "slike/spomenici/vodice.webp",
-        "slikaOdnos": 1.569,
-        "naziv": "Spomenik borcima iz Drugog svjetskog rata",
-        "nazivEn": "Monument to Fallen Fighters",
-        "godina": "1965",
-        "autor": "Marjan Burger",
-        "vrsta": "istaknut",
-        "drzava": "Croatia"
+        "vrsta": "istaknut"
       },
       "hrzenjak": [
         {
@@ -560,7 +376,6 @@
         }
       ],
       "nalaz": "Istarske Vodice kod Buzeta i dalmatinski grad Vodice nisu isto mesto; uklonjena bista Kamila Pamukovića takođe nije glavni spomenik iz 1965. Ne prenosi se stanje drugog mesta ili biste na ovaj objekat.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Razrešen je opisani rizik; ovo nije terenska potvrda stanja 16.10.2026."
     },
@@ -569,22 +384,9 @@
       "odluka": "odbačen-pogrešan-par",
       "unosPreProvere": {
         "id": "slabinja",
-        "koordinate": {
-          "lat": 45.2102187,
-          "lng": 16.6693402
-        },
-        "googleCid": "15318834042295290948",
-        "mesto": "Slabinja",
         "izvor": "http://www.spomenikdatabase.org/slabinja",
         "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BF%D0%B0%D0%BB%D0%B8%D0%BC_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D0%B8_%D0%B6%D1%80%D1%82%D0%B2%D0%B0%D0%BC%D0%B0_%D1%84%D0%B0%D1%88%D0%B8%D0%B7%D0%BC%D0%B0_%28%D0%A1%D0%BB%D0%B0%D0%B1%D0%B8%D1%9A%D0%B0%29",
-        "slika": "slike/spomenici/slabinja.webp",
-        "slikaOdnos": 1.77,
-        "naziv": "Spomenik palim borcima NOVJ i žrtvama fašizma",
-        "nazivEn": "Monument to Fallen Fighters",
-        "godina": "1981",
-        "autor": "Stanislav Mišić",
-        "vrsta": "istaknut",
-        "drzava": "Croatia"
+        "vrsta": "istaknut"
       },
       "hrzenjak": [
         {
@@ -605,7 +407,6 @@
         }
       ],
       "nalaz": "Dodatak knjige na str. 407/sken 430 razlikuje Mišićev spomenik za 57 boraca i 493 žrtve (oštećen mecima) od drugog, srušenog obeležja za 96 ubijenih kod crkve. Postojeći unos se ne proglašava srušenim.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Razrešen je opisani rizik; ovo nije terenska potvrda stanja 16.10.2026."
     },
@@ -614,22 +415,11 @@
       "odluka": "ispravljen-identitet",
       "unosPreProvere": {
         "id": "zrnovnica",
-        "koordinate": {
-          "lat": 43.5185549,
-          "lng": 16.557869
-        },
-        "googleCid": "16189396716908687712",
-        "mesto": "Žrnovnica",
-        "slika": "slike/spomenici/zrnovnica.webp",
-        "slikaOdnos": 1.504,
         "naziv": "Spomenik palim borcima na Sutjesci",
         "nazivEn": "Mon. to Fallen Fighters at Sutjeska",
-        "godina": "1976",
         "posveta": [
           "Q1419973"
-        ],
-        "vrsta": "spomenik",
-        "drzava": "Croatia"
+        ]
       },
       "hrzenjak": [
         {
@@ -660,24 +450,8 @@
       "odluka": "zadržan-kasniji-dokaz",
       "unosPreProvere": {
         "id": "sisak",
-        "koordinate": {
-          "lat": 45.5025796,
-          "lng": 16.4583252
-        },
-        "googleCid": "465372464730590114",
-        "mesto": "Sisak (šuma Brezovica)",
         "izvor": "http://www.spomenikdatabase.org/sisak",
-        "slika": "slike/spomenici/sisak.webp",
-        "slikaOdnos": 1.778,
-        "naziv": "Spomenik Prvom sisačkom partizanskom odredu",
-        "nazivEn": "Monument to the 1st Partisan Unit",
-        "godina": "1981",
-        "autor": "Želimir Janeš",
-        "posveta": [
-          "Q1858769"
-        ],
-        "vrsta": "istaknut",
-        "drzava": "Croatia"
+        "vrsta": "istaknut"
       },
       "hrzenjak": [
         {
@@ -701,21 +475,7 @@
       "odluka": "zadržan-kasniji-dokaz",
       "unosPreProvere": {
         "id": "mirogoj-cemetery-tomb-people-s",
-        "koordinate": {
-          "lat": 45.8390867,
-          "lng": 15.9839664
-        },
-        "googleCid": "15904522372093608343",
-        "mesto": "Zagreb (Mirogoj)",
-        "wiki": "https://sh.wikipedia.org/wiki/Grobnica_narodnih_heroja_u_Zagrebu",
-        "slika": "slike/spomenici/mirogoj-cemetery-tomb-people-s.webp",
-        "slikaOdnos": 1.498,
-        "naziv": "Grobnica narodnih heroja u Zagrebu",
-        "nazivEn": "Tomb of the People's Heroes",
-        "godina": "1968",
-        "autor": "Đuro Kavurić",
-        "vrsta": "spomen-groblje",
-        "drzava": "Croatia"
+        "wiki": "https://sh.wikipedia.org/wiki/Grobnica_narodnih_heroja_u_Zagrebu"
       },
       "hrzenjak": [
         {
@@ -739,22 +499,8 @@
       "odluka": "dopunjeno-stanje-kasniji-dokaz",
       "unosPreProvere": {
         "id": "vukovar",
-        "koordinate": {
-          "lat": 45.3302149,
-          "lng": 19.0173497
-        },
-        "googleCid": "16382937061483449684",
-        "mesto": "Vukovar",
         "izvor": "http://www.spomenikdatabase.org/vukovar",
-        "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Dudik",
-        "slika": "slike/spomenici/vukovar.webp",
-        "slikaOdnos": 1.498,
-        "naziv": "Spomen-park Dudik",
-        "nazivEn": "Dudik Memorial Park",
-        "godina": "1980",
-        "autor": "Bogdan Bogdanović",
-        "vrsta": "spomen-park",
-        "drzava": "Croatia"
+        "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Dudik"
       },
       "hrzenjak": [
         {
@@ -779,23 +525,7 @@
       "odluka": "zadržan-kasniji-dokaz",
       "unosPreProvere": {
         "id": "zagreb-pijade",
-        "koordinate": {
-          "lat": 45.8245533,
-          "lng": 16.0100245
-        },
-        "mesto": "Zagreb (Rebar)",
-        "izvor": "https://www.openstreetmap.org/node/7291888674",
-        "slika": "slike/spomenici/zagreb-pijade.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Plamen, Public domain",
-        "naziv": "Moša Pijade",
-        "nazivEn": "Statue of Moša Pijade",
-        "autor": "Antun Augustinčić",
-        "posveta": [
-          "Q453472"
-        ],
-        "vrsta": "statua",
-        "drzava": "Croatia"
+        "izvor": "https://www.openstreetmap.org/node/7291888674"
       },
       "hrzenjak": [
         {
@@ -819,22 +549,7 @@
       "odluka": "odbačen-pogrešan-par",
       "unosPreProvere": {
         "id": "crikvenica-crni",
-        "koordinate": {
-          "lat": 45.1743077,
-          "lng": 14.6876638
-        },
-        "mesto": "Crikvenica",
-        "izvor": "https://www.openstreetmap.org/node/6735313280",
-        "slika": "slike/spomenici/crikvenica-crni.webp",
-        "slikaOdnos": 0.645,
-        "slikaPotpis": "Roberta F., CC BY-SA 3.0",
-        "naziv": "Bista narodnog heroja Nikole Cara Črnog",
-        "nazivEn": "Bust of Narodni heroj Nikola Car Črni",
-        "posveta": [
-          "Q10977169"
-        ],
-        "vrsta": "bista",
-        "drzava": "Croatia"
+        "izvor": "https://www.openstreetmap.org/node/6735313280"
       },
       "hrzenjak": [
         {
@@ -860,7 +575,6 @@
         }
       ],
       "nalaz": "Na postojećoj fotografiji čitljivo je NARODNI HEROJ NIKOLA CAR ČRNI. Negativni indeksni redovi iz Crikvenice odnose se na Viktora Bubnja, Tomu Strizića i Slavišu Vajnera Čiču. Zajedničko mesto i vrsta bista nisu dovoljan par; nijedan od tih nalaza nije primenjen na Nikolu Cara. Nema izmene javnog zapisa.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Proveren je identitet negativnih parova, ne današnji opstanak biste Nikole Cara. Nema novog datiranog terenskog dokaza."
     },
@@ -868,20 +582,7 @@
       "id": "dugo-selo",
       "odluka": "razjašnjeno-knjiško-stanje",
       "unosPreProvere": {
-        "id": "dugo-selo",
-        "koordinate": {
-          "lat": 45.8066909,
-          "lng": 16.2295232
-        },
-        "googleCid": "13578884617675187529",
-        "mesto": "Dugo Selo",
-        "slika": "slike/spomenici/dugo-selo.webp",
-        "slikaOdnos": 1.408,
-        "naziv": "Spomenik palim borcima i žrtvama fašističkog terora Dugo Selo",
-        "nazivEn": "Monument to Fallen Fighters",
-        "godina": "1950",
-        "vrsta": "statua",
-        "drzava": "Croatia"
+        "id": "dugo-selo"
       },
       "hrzenjak": [
         {
@@ -894,7 +595,6 @@
         }
       ],
       "nalaz": "Originalni opis razlikuje napad minom 10.1.1992. od rušenja: navodi manja oštećenja, a figura je ostala. Postojeća fotografija pokazuje istu figuru s puškom preko ramena i petokrakom na postolju. Reč miniran nije razlog za označavanje srusen niti za povlačenje. Nema izmene javnog zapisa.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Nema novog datiranog terenskog dokaza; sadašnje stanje se ne zaključuje iz stare knjige ili nedatirane aplikativne fotografije."
     },
@@ -939,11 +639,8 @@
         }
       ],
       "nalaz": "Postojeći naziv izričito označava bivši spomenik i nema fotografije preostalog objekta. Knjiga opisuje miniranje 28.11.1992. spomenika sa kriptom iz 1957; dodatak ispravlja položaj na park J. J. Strossmayera pored Kolodvorske ulice. Nije pronađen kasniji dokaz povratka ili postojećeg obeležja na našoj tački. Sa javne mape povučeno kao nepotvrđena destinacija, uz očuvan istorijski trag; bez tvrdnje o novom rušenju 2026.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Današnji ostaci, zamena i tačna lokacija nisu potvrđeni. Administrativni popis stare zaštite nije dokaz sadašnjeg opstanka.",
-      "radniIndeksPre": 4498,
-      "radniIndeksPreLociranja": 2981,
       "prebacenoNaMapu": "zupanja-spomen-kosturnica"
     },
     {
@@ -1002,33 +699,16 @@
             "napomena": "OSM tačka u pravom parku; nije još prihvaćena kao tačka samog postolja."
           }
         }
-      ],
-      "radniIndeksPre": 4499
+      ]
     },
     {
       "id": "podgora",
       "odluka": "zadržan-kasniji-dokaz",
       "unosPreProvere": {
         "id": "podgora",
-        "koordinate": {
-          "lat": 43.2456812,
-          "lng": 17.0706593
-        },
-        "googleCid": "14286037895034067374",
-        "mesto": "Podgora",
         "izvor": "http://www.spomenikdatabase.org/podgora",
         "wiki": "https://sh.wikipedia.org/wiki/Galebova_krila",
-        "slika": "slike/spomenici/podgora.webp",
-        "slikaOdnos": 1.77,
-        "naziv": "Galebova krila",
-        "nazivEn": "Seagull Wings Monument",
-        "godina": "1962",
-        "autor": "Rajko Radović",
-        "posveta": [
-          "Q18404751"
-        ],
-        "vrsta": "istaknut",
-        "drzava": "Croatia"
+        "vrsta": "istaknut"
       },
       "hrzenjak": [
         {
@@ -1053,20 +733,7 @@
       "odluka": "ispravljena-knjiška-veza",
       "unosPreProvere": {
         "id": "okucani",
-        "koordinate": {
-          "lat": 45.2606183,
-          "lng": 17.1990059
-        },
-        "mesto": "Okučani",
-        "izvor": "https://znaci.org/00003/736.php?broj=52",
-        "slika": "slike/spomenici/okucani.webp",
-        "slikaOdnos": 1.575,
-        "naziv": "Spomenik palim borcima",
-        "nazivEn": "Monument to Fallen Fighters",
-        "godina": "1954",
-        "autor": "Stanislav Mišić",
-        "vrsta": "spomenik",
-        "drzava": "Croatia"
+        "izvor": "https://znaci.org/00003/736.php?broj=52"
       },
       "hrzenjak": [
         {
@@ -1094,7 +761,6 @@
         }
       ],
       "nalaz": "Aplikativna slika je Mišićev asimetrični kameni luk sa belim reljefom (sl. 93–94); knjiga za njega navodi skinutu petokraku. Srušena kosturnica kod škole (sl. 90) drugi je objekat. Njen indeks C-IDX-357-07 bio je pogrešno ugnježden pod Mišićev luk: premešten je pod C-0052-3. Sirovi indeksni red i veza luka sa aplikacijom sačuvani su. Ova ispravka ne predstavlja novu potvrdu opstanka.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Odbačen pogrešan par nije potvrda današnjeg opstanka; nije obavljen terenski pregled u oktobru 2026.",
       "ispravkaVeze": {
@@ -1108,15 +774,12 @@
           "namjena": "nad grobnicom poginulih boraca i civilnih žrtava",
           "registarIKategorija": "+ B",
           "stanjeIzKnjige": "Sru + Pren",
-          "pohranjenIzvorno": "",
-          "obnovljenIzvorno": "",
           "straniceOpisaIzvorno": "29",
           "brojeviSlikaIzvorno": "90",
           "oznaka": "C-IDX-357-07",
           "strana": 357,
           "izvor": "https://znaci.org/00003/736.php?broj=380",
           "siroviRed": "2 Okučani Spo Nep. nad grobnicom poginulih boraca i civilnih žrtava + B Sru + Pren 29 90",
-          "nejasnoce": [],
           "pohranjen": false,
           "obnovljen": false,
           "zupanija": "Brodsko-posavska",
@@ -1131,24 +794,7 @@
       "odluka": "odbačen-pogrešan-par",
       "unosPreProvere": {
         "id": "glina",
-        "koordinate": {
-          "lat": 45.3391526,
-          "lng": 16.0902334
-        },
-        "googleCid": "745076790976562216",
-        "mesto": "Glina",
-        "izvor": "https://znaci.org/00003/736.php?broj=217",
-        "slika": "slike/spomenici/glina.webp",
-        "slikaOdnos": 1.476,
-        "naziv": "Spomenik žrtvama pokolja u Glini 1941.",
-        "nazivEn": "Monument to 1941 Glina Massacres",
-        "godina": "1969",
-        "autor": "Antun Augustinčić",
-        "posveta": [
-          "Q1290410"
-        ],
-        "vrsta": "statua",
-        "drzava": "Croatia"
+        "izvor": "https://znaci.org/00003/736.php?broj=217"
       },
       "hrzenjak": [
         {
@@ -1175,7 +821,6 @@
         }
       ],
       "nalaz": "Originalni sken 217 razlikuje Augustinčićevu bronzanu ženu sa detetom ispred doma od razbijene ploče i uništenog/prenamenjenog spomen-doma; uklonjene biste takođe su drugi objekti. Fotografija aplikacije prikazuje upravo tu ženu sa detetom. Nalaz o domu i bistama ne prenosi se na statuu; nema promene mape.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Odbačen pogrešan par nije potvrda današnjeg opstanka; nije obavljen terenski pregled u oktobru 2026.",
       "dopunaProvereIndeksa": "Indeks C-IDX-373-34 po posveti odgovara spomeniku pred domom u Glini, ali navodi sl571 koja u narativu pripada Obljaju; glinska figura je sl572. Sačuvan je izvorni pogrešan broj, uz nejasnoću, bez pripisivanja glinske statue Obljaju."
@@ -1185,21 +830,7 @@
       "odluka": "odbačen-pogrešan-par",
       "unosPreProvere": {
         "id": "crikvenica",
-        "koordinate": {
-          "lat": 45.1725224,
-          "lng": 14.6905891
-        },
-        "googleCid": "13221629327732535355",
-        "mesto": "Crikvenica",
-        "izvor": "https://znaci.org/00003/736.php?broj=200",
-        "slika": "slike/spomenici/crikvenica.webp",
-        "slikaOdnos": 1.429,
-        "naziv": "Spomenik palim borcima Drugog svjetskog rata",
-        "nazivEn": "Monument to Fallen Fighters",
-        "godina": "1949",
-        "autor": "Zvonko Car",
-        "vrsta": "statua",
-        "drzava": "Croatia"
+        "izvor": "https://znaci.org/00003/736.php?broj=200"
       },
       "hrzenjak": [
         {
@@ -1233,7 +864,6 @@
         }
       ],
       "nalaz": "Carova cela figura partizana sa podignutim oružjem iza kamene ploče (sl. 529) nije nijedna od tri uklonjene biste: Bubanj, Strizić, Vajner. Sopstveni knjiški opis kaže stoji. Nema osnova da se ovaj marker ukloni zbog tih bista.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Odbačen pogrešan par nije potvrda današnjeg opstanka; nije obavljen terenski pregled u oktobru 2026."
     },
@@ -1242,23 +872,9 @@
       "odluka": "ispravljena-vrsta-kasniji-dokaz",
       "unosPreProvere": {
         "id": "zagreb-vladimir-nazor",
-        "koordinate": {
-          "lat": 45.8215352,
-          "lng": 15.9688747
-        },
-        "mesto": "Zagreb (Tuškanac)",
         "izvor": "https://znaci.org/00003/679.pdf#page=277",
-        "slika": "slike/spomenici/zagreb-vladimir-nazor.webp",
-        "slikaOdnos": 0.61,
-        "slikaPotpis": "Plamen, Public domain",
         "naziv": "Bista Vladimira Nazora",
-        "godina": "1972",
-        "autor": "Stjepan Gračan",
-        "posveta": [
-          "Q380529"
-        ],
-        "vrsta": "bista",
-        "drzava": "Croatia"
+        "vrsta": "bista"
       },
       "hrzenjak": [
         {
@@ -1282,22 +898,7 @@
       "odluka": "zadržan-kasniji-dokaz",
       "unosPreProvere": {
         "id": "zagreb-pavle-pap",
-        "koordinate": {
-          "lat": 45.813008,
-          "lng": 15.992116
-        },
-        "mesto": "Zagreb (Ulica Matka Laginje)",
-        "izvor": "https://znaci.org/00003/679.pdf#page=305",
-        "slika": "slike/spomenici/zagreb-pavle-pap.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Flammard, CC BY-SA 3.0",
-        "naziv": "Bista Pavla Papa",
-        "godina": "1980",
-        "posveta": [
-          "Q1561537"
-        ],
-        "vrsta": "bista",
-        "drzava": "Croatia"
+        "izvor": "https://znaci.org/00003/679.pdf#page=305"
       },
       "hrzenjak": [
         {
@@ -1320,20 +921,7 @@
       "id": "bilice",
       "odluka": "odbačen-pogrešan-par",
       "unosPreProvere": {
-        "id": "bilice",
-        "koordinate": {
-          "lat": 43.7845951,
-          "lng": 15.8807665
-        },
-        "googleCid": "12349903089182191181",
-        "mesto": "Bilice",
-        "slika": "slike/spomenici/bilice.webp",
-        "slikaOdnos": 1.333,
-        "naziv": "Spomenik strijeljanima",
-        "nazivEn": "Monument to Executed Victims",
-        "godina": "1977",
-        "vrsta": "spomenik",
-        "drzava": "Croatia"
+        "id": "bilice"
       },
       "hrzenjak": [
         {
@@ -1346,7 +934,6 @@
         }
       ],
       "nalaz": "Fotografija aplikacije prikazuje veliku petokraku nad postamentom, uz naziv Spomenik strijeljanima i godinu 1977. Fotografija 687 u knjizi je visoka jedrolika ploha spomenika 139 boraca i 53 žrtve iz 1970, sa uklonjenom buktinjom. To nisu isti objekti.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Knjiga pominje oštećenja i četiri druga obeležja u Bilicama bez precizne identifikacije; ovaj negativni par je odbačen, ali današnje stanje ovog spomenika nije potvrđeno."
     },
@@ -1354,18 +941,7 @@
       "id": "srb",
       "odluka": "odbačen-pogrešan-par",
       "unosPreProvere": {
-        "id": "srb",
-        "koordinate": {
-          "lat": 44.3554789,
-          "lng": 16.1205981
-        },
-        "googleCid": "773770909579468873",
-        "mesto": "Srb",
-        "slika": "slike/spomenici/srb.webp",
-        "slikaOdnos": 1.778,
-        "naziv": "Spomenik palim borcima i žrtvama fašizma",
-        "vrsta": "spomenik",
-        "drzava": "Croatia"
+        "id": "srb"
       },
       "hrzenjak": [
         {
@@ -1378,7 +954,6 @@
         }
       ],
       "nalaz": "Postojeća slika prikazuje uređeno groblje/obelisk okružen kružno raspoređenim niskim betonskim stubovima. To nije Radaušev visoki Ustanak sa bronzanom grupom iz skena 123, koji već ima zaseban marker srb-croatian-people-s. Ne prenosi se njegovo miniranje ili njegova obnova na ovaj marker.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Odbačen pogrešan par nije potvrda današnjeg opstanka; nije obavljen terenski pregled u oktobru 2026."
     },
@@ -1387,18 +962,8 @@
       "odluka": "odbačen-pogrešan-par",
       "unosPreProvere": {
         "id": "gospic-zena-u-nob-u",
-        "koordinate": {
-          "lat": 44.54825,
-          "lng": 15.37793
-        },
-        "mesto": "Gospić",
         "wiki": "https://sh.wikipedia.org/wiki/%C5%BDena_u_NOB-u",
-        "slika": "slike/spomenici/gospic-zena-u-nob-u.webp",
-        "slikaOdnos": 1.034,
-        "slikaPotpis": "Ante Vranković, CC BY-SA 4.0",
-        "naziv": "Žena u NOB-u",
-        "vrsta": "spomenik",
-        "drzava": "Croatia"
+        "naziv": "Žena u NOB-u"
       },
       "hrzenjak": [
         {
@@ -1422,21 +987,7 @@
       "id": "cazma",
       "odluka": "zadržan-kasniji-dokaz",
       "unosPreProvere": {
-        "id": "cazma",
-        "koordinate": {
-          "lat": 45.7480764,
-          "lng": 16.6109119
-        },
-        "googleCid": "15134340911775524093",
-        "mesto": "Čazma",
-        "slika": "slike/spomenici/cazma.webp",
-        "slikaOdnos": 1.465,
-        "naziv": "Kosturnica borcima Moslavine u Čazmi",
-        "nazivEn": "Monument to Fallen Fighters",
-        "godina": "1956",
-        "autor": "Edo Murtić",
-        "vrsta": "spomenik",
-        "drzava": "Croatia"
+        "id": "cazma"
       },
       "hrzenjak": [
         {
@@ -1475,24 +1026,8 @@
       "odluka": "razjašnjeno-knjiško-stanje",
       "unosPreProvere": {
         "id": "lukovdol",
-        "koordinate": {
-          "lat": 45.4291658,
-          "lng": 15.1263432
-        },
-        "googleCid": "15513534052572179914",
-        "mesto": "Lukovdol",
         "izvor": "http://www.spomenikdatabase.org/lukovdol",
-        "slika": "slike/spomenici/lukovdol.webp",
-        "slikaOdnos": 1.626,
-        "naziv": "Spomenik Ivanu Goranu Kovačiću",
-        "nazivEn": "Monument to Ivan Goran Kovačić",
-        "godina": "1964",
-        "autor": "Vojin Bakić",
-        "posveta": [
-          "Q835790"
-        ],
-        "vrsta": "istaknut",
-        "drzava": "Croatia"
+        "vrsta": "istaknut"
       },
       "hrzenjak": [
         {
@@ -1512,7 +1047,6 @@
         }
       ],
       "nalaz": "Dodatak drugom izdanju na skenu 424, str. 401, u fusnoti izričito kaže da Lukovdol, Gomirje i Matić poljana nisu srušeni niti oštećeni. Izdvajanje zbog reči srušeni/oštećeni bez negacije bilo je pogrešno. Datum 1943. je smrt pesnika, ne nastanak spomenika ili datum rušenja.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Odbačen pogrešan par nije potvrda današnjeg opstanka; nije obavljen terenski pregled u oktobru 2026."
     },
@@ -1520,24 +1054,7 @@
       "id": "pula-biste-narodnih-heroja",
       "odluka": "delimičan-kasniji-dokaz",
       "unosPreProvere": {
-        "id": "pula-biste-narodnih-heroja",
-        "koordinate": {
-          "lat": 44.8726063,
-          "lng": 13.8471869
-        },
-        "mesto": "Pula",
-        "slika": "slike/spomenici/pula-biste-narodnih-heroja.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Flammard, CC BY-SA 3.0",
-        "naziv": "Biste narodnih heroja (Josip Broz Tito, Olga Ban, Jurica Kalc, Giulio Revelante)",
-        "nazivEn": "Busts of People's Heroes (Josip Broz Tito, Olga Ban, Jurica Kalc, Giulio Revelante)",
-        "posveta": [
-          "Q1263872",
-          "Q2351716",
-          "Q9161"
-        ],
-        "vrsta": "bista",
-        "drzava": "Croatia"
+        "id": "pula-biste-narodnih-heroja"
       },
       "hrzenjak": [
         {
@@ -1576,15 +1093,7 @@
       "id": "lipik-spomen-kosturnica",
       "odluka": "zadržan-kasniji-dokaz",
       "unosPreProvere": {
-        "id": "lipik-spomen-kosturnica",
-        "koordinate": {
-          "lat": 45.4100581,
-          "lng": 17.1623142
-        },
-        "mesto": "Lipik",
-        "naziv": "Spomen-kosturnica žrtava fašističkog terora",
-        "vrsta": "spomenik",
-        "drzava": "Croatia"
+        "id": "lipik-spomen-kosturnica"
       },
       "hrzenjak": [
         {
@@ -1615,15 +1124,7 @@
       "odluka": "zadržan-kasniji-dokaz",
       "unosPreProvere": {
         "id": "kutina-spomen-kosturnica-palim-borcima-nor-a",
-        "koordinate": {
-          "lat": 45.4911202,
-          "lng": 16.7782635
-        },
-        "mesto": "Kutina",
-        "izvor": "https://www.openstreetmap.org/node/13458817423",
-        "naziv": "Spomen-kosturnica palim borcima NOR-a",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia"
+        "izvor": "https://www.openstreetmap.org/node/13458817423"
       },
       "hrzenjak": [
         {
@@ -1652,15 +1153,7 @@
       "odluka": "zadržan-kasniji-dokaz",
       "unosPreProvere": {
         "id": "vojakovac-spomenik-zrtvama-fasizma-bivse-vojakovac",
-        "koordinate": {
-          "lat": 46.0643691,
-          "lng": 16.5947223
-        },
-        "mesto": "Vojakovac",
-        "izvor": "https://www.openstreetmap.org/node/13459206756",
-        "naziv": "Spomenik žrtvama fašizma bivše Vojakovačke općine",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia"
+        "izvor": "https://www.openstreetmap.org/node/13459206756"
       },
       "hrzenjak": [
         {
@@ -1685,23 +1178,7 @@
       "id": "djakovo",
       "odluka": "odbačen-pogrešan-par",
       "unosPreProvere": {
-        "id": "djakovo",
-        "koordinate": {
-          "lat": 45.3152131,
-          "lng": 18.4148627
-        },
-        "googleCid": "5613497083429546200",
-        "mesto": "Đakovo",
-        "slika": "slike/spomenici/djakovo.webp",
-        "slikaOdnos": 1.587,
-        "naziv": "Spomenik Ivi Loli Ribaru",
-        "nazivEn": "Monument to Ivo Lola Ribar",
-        "godina": "1952",
-        "posveta": [
-          "Q1265884"
-        ],
-        "vrsta": "statua",
-        "drzava": "Croatia"
+        "id": "djakovo"
       },
       "hrzenjak": [
         {
@@ -1725,19 +1202,7 @@
       "id": "donji-lapac-fallen-fighters",
       "odluka": "odbačen-pogrešan-par",
       "unosPreProvere": {
-        "id": "donji-lapac-fallen-fighters",
-        "koordinate": {
-          "lat": 44.5537202,
-          "lng": 15.9607058
-        },
-        "googleCid": "13427979154865049482",
-        "mesto": "Donji Lapac",
-        "slika": "slike/spomenici/donji-lapac-fallen-fighters.webp",
-        "slikaOdnos": 1.465,
-        "naziv": "Spomenik palim borcima",
-        "nazivEn": "Monument to Fallen Fighters [?]",
-        "vrsta": "spomenik",
-        "drzava": "Croatia"
+        "id": "donji-lapac-fallen-fighters"
       },
       "hrzenjak": [
         {
@@ -1750,7 +1215,6 @@
         }
       ],
       "nalaz": "Sken123 prikazuje Rukljačevu statuu borca uzdignute ruke i puške na pravougaonom postolju, srušenu u vreme knjige. Naša fotografija je kružna arhitektonska kompozicija više belih ugaonih ploha, bez tog postolja i figure. To nije dovoljan identitetski par. Ne pripisuje se rušenje Rukljačeve statue ovom markeru; Stojan Matić takođe već ima zaseban marker.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Za ovu kružnu kompoziciju još treba datirati fotografiju i potvrditi autora/godinu; nije proglašena obnovom Rukljačeve statue."
     },
@@ -1759,18 +1223,7 @@
       "odluka": "otvoren-identitet",
       "unosPreProvere": {
         "id": "dvor-4",
-        "koordinate": {
-          "lat": 45.1210296,
-          "lng": 16.3533773
-        },
-        "googleCid": "7511037660476008700",
-        "mesto": "Dvor",
-        "slika": "slike/spomenici/dvor-4.webp",
-        "slikaOdnos": 2.222,
-        "slikaPotpis": "Google Maps",
-        "naziv": "Spomenik NOB-u",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia"
+        "naziv": "Spomenik NOB-u"
       },
       "hrzenjak": [
         {
@@ -1782,7 +1235,6 @@
         }
       ],
       "nalaz": "Aplikativna slika pokazuje nisku ukošenu ploču sa petokrakom na uređenom prilazu. Samo opšti naziv NOB i isto mesto nisu dovoljni da je poistovete sa srušenim spomenikom ustanku iz indeksa. Nema izmene mape dok se ne potvrde posveta i datacija ove ploče.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Otvoren konkretan identitet i datum aplikativne fotografije; nije potvrđen ni opstanak starog spomenika ni povratak replike."
     },
@@ -1790,20 +1242,7 @@
       "id": "kamenski-vucjak",
       "odluka": "ispravljena-knjiška-veza",
       "unosPreProvere": {
-        "id": "kamenski-vucjak",
-        "koordinate": {
-          "lat": 45.4804126,
-          "lng": 17.5216606
-        },
-        "mesto": "Kamenski Vučjak",
-        "slika": "slike/spomenici/kamenski-vucjak.webp",
-        "slikaOdnos": 1.46,
-        "naziv": "Spomenik bici na Šušnjarima",
-        "nazivEn": "Monument to the Battle of Šušnjari",
-        "godina": "1968",
-        "stanje": "rusevine",
-        "vrsta": "spomenik",
-        "drzava": "Croatia"
+        "id": "kamenski-vucjak"
       },
       "hrzenjak": [
         {
@@ -1839,15 +1278,12 @@
           "namjena": "u spomen na spaljeno selo Kruševo s imenima 75 poginulih boraca i civila ;+",
           "registarIKategorija": "B",
           "stanjeIzKnjige": "Sru",
-          "pohranjenIzvorno": "",
-          "obnovljenIzvorno": "",
           "straniceOpisaIzvorno": "162",
           "brojeviSlikaIzvorno": "484",
           "oznaka": "C-IDX-369-23",
           "strana": 369,
           "izvor": "https://znaci.org/00003/736.php?broj=392",
           "siroviRed": "11 Dočić - Kruševo Spo Nep. u spomen na spaljeno selo Kruševo s imenima 75 poginulih boraca i civila ;+ B Sru 162 484",
-          "nejasnoce": [],
           "pohranjen": false,
           "obnovljen": false,
           "zupanija": "Požeška",
@@ -1882,7 +1318,6 @@
         }
       ],
       "nalaz": "Sken176 navodi spomenik poginulim stanovnicima u parku usred sela, srušen 1991/92. Naš unos nema fotografiju, posvetu ili kasniji datirani dokaz obnove; aktivan OSM marker nije dovoljan. Ciljana pretraga je dala opšte planove i druge građevine, ne potvrdu ove destinacije.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Sačuvan trag za proveru identiteta, ostataka ili obnove. Nema tvrdnje da je istorijsko stanje provereno na terenu 2026.",
       "originalniSken": {
@@ -1890,7 +1325,6 @@
         "scanBroj": 176,
         "izvor": "https://znaci.org/00003/736.php?broj=176"
       },
-      "radniIndeksPre": 4500,
       "prebacenoNaMapu": "badljevina-spomenik-nob"
     },
     {
@@ -1898,15 +1332,8 @@
       "odluka": "radni-spisak",
       "unosPreProvere": {
         "id": "jaksic-spomenik-nob",
-        "koordinate": {
-          "lat": 45.3564646,
-          "lng": 17.7619022
-        },
-        "mesto": "Jakšić",
         "izvor": "https://www.openstreetmap.org/node/12999105200",
-        "naziv": "Spomenik NOB-u",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia"
+        "naziv": "Spomenik NOB-u"
       },
       "hrzenjak": [
         {
@@ -1918,7 +1345,6 @@
         }
       ],
       "nalaz": "Indeks navodi srušen spomenik 20 boraca i civilnih žrtava. Naš marker ima samo opšti naziv NOB, bez slike ili natpisa; nije sigurno utvrđen identitet današnjeg objekta niti kasnija obnova. Ne proglašava se srušenim samo po zajedničkom naselju; privremeno je povučen kao nepotvrđena destinacija.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Sačuvan trag za proveru identiteta, ostataka ili obnove. Nema tvrdnje da je istorijsko stanje provereno na terenu 2026.",
       "originalniSken": {
@@ -1926,7 +1352,6 @@
         "scanBroj": 188,
         "izvor": "https://znaci.org/00003/736.php?broj=188"
       },
-      "radniIndeksPre": 4501,
       "prebacenoNaMapu": "jaksic-spomenik-nob"
     },
     {
@@ -1964,7 +1389,6 @@
         "scanBroj": 160,
         "izvor": "https://znaci.org/00003/736.php?broj=160"
       },
-      "radniIndeksPre": 4502,
       "prebacenoNaMapu": "susine-spomenik-palim-borcima-nob"
     },
     {
@@ -1972,15 +1396,7 @@
       "odluka": "radni-spisak",
       "unosPreProvere": {
         "id": "scitarjevo-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 45.7732814,
-          "lng": 16.1169566
-        },
-        "mesto": "Šćitarjevo",
-        "izvor": "https://www.openstreetmap.org/node/3822156508",
-        "naziv": "Spomenik palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia"
+        "izvor": "https://www.openstreetmap.org/node/3822156508"
       },
       "hrzenjak": [
         {
@@ -1992,7 +1408,6 @@
         }
       ],
       "nalaz": "Sken334 / sl852 prikazuje preostalo prazno postolje spomenika palim borcima. Naš marker nema fotografiju niti datirani dokaz povratka. Noviji prostorni plan samo ponavlja naziv u evidenciji; tekst iz 2023. o Dragutinu Jesihu opisuje njegov grob i crkvenu ploču, druge objekte. Povučeno kao nepotvrđena destinacija.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Sačuvan trag za proveru identiteta, ostataka ili obnove. Nema tvrdnje da je istorijsko stanje provereno na terenu 2026.",
       "originalniSken": {
@@ -2000,7 +1415,6 @@
         "scanBroj": 334,
         "izvor": "https://znaci.org/00003/736.php?broj=334"
       },
-      "radniIndeksPre": 4503,
       "prebacenoNaMapu": "scitarjevo-spomenik-palim-borcima"
     },
     {
@@ -2029,7 +1443,6 @@
         }
       ],
       "nalaz": "Knjiga prikazuje rušenje spomenika sedmorici boraca i jedanaest civilnih žrtava. Naš marker nema sliku, a njegovo OSM ime kaže oštećen i oznaka destroyed=yes je saglasna riziku, ali ne datira sadašnje stanje. Nije pronađen kasniji dokaz obnove; vesti o parohu i hramu nisu ovaj spomenik. Povučeno uz očuvan trag.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Sačuvan trag za proveru identiteta, ostataka ili obnove. Nema tvrdnje da je istorijsko stanje provereno na terenu 2026.",
       "originalniSken": {
@@ -2037,7 +1450,6 @@
         "scanBroj": 28,
         "izvor": "https://znaci.org/00003/736.php?broj=28"
       },
-      "radniIndeksPre": 4504,
       "prebacenoNaMapu": "novi-pavljani-osteceni-spomenik-nob"
     },
     {
@@ -2078,26 +1490,13 @@
         "scanBroj": 196,
         "izvor": "https://znaci.org/00003/736.php?broj=196"
       },
-      "radniIndeksPre": 4505,
       "prebacenoNaMapu": "slobostina-spomenik-zrtvama-fasizma"
     },
     {
       "id": "kupinecki-kraljevec",
       "odluka": "zadržan-kasniji-dokaz",
       "unosPreProvere": {
-        "id": "kupinecki-kraljevec",
-        "koordinate": {
-          "lat": 45.6820223,
-          "lng": 15.8607212
-        },
-        "googleCid": "8493965141986803497",
-        "mesto": "Kupinečki Kraljevec",
-        "slika": "slike/spomenici/kupinecki-kraljevec.webp",
-        "slikaOdnos": 1.423,
-        "naziv": "Spomenik palim borcima",
-        "nazivEn": "Monument to Fallen Fighters",
-        "vrsta": "spomenik",
-        "drzava": "Croatia"
+        "id": "kupinecki-kraljevec"
       },
       "hrzenjak": [
         {
@@ -2121,21 +1520,8 @@
       "id": "lipnica",
       "odluka": "zadržan-kasniji-dokaz",
       "unosPreProvere": {
-        "id": "lipnica",
-        "koordinate": {
-          "lat": 45.6379106,
-          "lng": 15.933954
-        },
-        "googleCid": "5741328514339184994",
-        "mesto": "Lipnica",
-        "slika": "slike/spomenici/lipnica.webp",
-        "slikaOdnos": 0.925,
-        "slikaPotpis": "Google Maps",
-        "naziv": "Spomenik žrtvama fašističkog terora u Gornjem Dragonošcu",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia"
+        "id": "lipnica"
       },
-      "hrzenjak": [],
       "nalaz": "Fotografija iz terenskog obilaska 23.10.2024. prikazuje istu belu vertikalnu ploču s geometrijskim istacima kao na našoj fotografiji. Identitet utvrđen poređenjem oblika; nije pronađen pouzdan odgovarajući Hrženjakov zapis, što samo po sebi nije dokaz očuvanosti.",
       "kasnijiIzvori": [
         "https://hcz-zu.hr/obilazak-spomenika-antifasistickim-borcima-i-zrtvama-fasistickog-terora/"
@@ -2148,22 +1534,7 @@
       "odluka": "zadržan-kasniji-dokaz",
       "unosPreProvere": {
         "id": "zagreb-holjevac",
-        "koordinate": {
-          "lat": 45.7942029,
-          "lng": 15.9793106
-        },
-        "mesto": "Zagreb (Trnje)",
-        "izvor": "https://www.openstreetmap.org/node/321540195",
-        "slika": "slike/spomenici/zagreb-holjevac.webp",
-        "slikaOdnos": 1.333,
-        "slikaPotpis": "Flammard, CC BY-SA 3.0",
-        "naziv": "Većeslav Holjevac",
-        "nazivEn": "Statue of Većeslav Holjevac",
-        "posveta": [
-          "Q1280010"
-        ],
-        "vrsta": "statua",
-        "drzava": "Croatia"
+        "izvor": "https://www.openstreetmap.org/node/321540195"
       },
       "hrzenjak": [
         {
@@ -2187,17 +1558,8 @@
       "odluka": "delimičan-kasniji-dokaz",
       "unosPreProvere": {
         "id": "rakov-potok",
-        "koordinate": {
-          "lat": 45.74414,
-          "lng": 15.80416
-        },
-        "mesto": "Rakov Potok",
-        "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Rakov_Potok",
-        "naziv": "Spomen-park Rakov Potok",
-        "vrsta": "spomen-park",
-        "drzava": "Croatia"
+        "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Rakov_Potok"
       },
-      "hrzenjak": [],
       "nalaz": "Izveštaj o obilasku 23.10.2024. izričito navodi Rakov Potok. Fotografija kamene stele u šumi nosi čitljiv naziv RAKOV POTOK i tekst o ubijenim žrtvama 1941. Potvrđen je taj deo spomen-parka, bez automatske potvrde svih elemenata kompleksa.",
       "kasnijiIzvori": [
         "https://hcz-zu.hr/obilazak-spomenika-antifasistickim-borcima-i-zrtvama-fasistickog-terora/"
@@ -2210,22 +1572,7 @@
       "odluka": "zadržan-kasniji-dokaz",
       "unosPreProvere": {
         "id": "zagreb-butorac",
-        "koordinate": {
-          "lat": 45.8130298,
-          "lng": 15.9925246
-        },
-        "mesto": "Zagreb (Martićeva)",
-        "izvor": "https://www.openstreetmap.org/node/6236109235",
-        "slika": "slike/spomenici/zagreb-butorac.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Flammard, CC BY-SA 3.0",
-        "naziv": "Bista Anke Butorac",
-        "nazivEn": "Bust of Anka Butorac",
-        "posveta": [
-          "Q3438424"
-        ],
-        "vrsta": "bista",
-        "drzava": "Croatia"
+        "izvor": "https://www.openstreetmap.org/node/6236109235"
       },
       "hrzenjak": [
         {
@@ -2248,17 +1595,9 @@
       "odluka": "spojen-duplikat",
       "unosPreProvere": {
         "id": "gornji-cehi-palim-borcima",
-        "koordinate": {
-          "lat": 45.7426398,
-          "lng": 15.9581309
-        },
-        "mesto": "Gornji Čehi",
         "izvor": "https://www.openstreetmap.org/node/8817894125",
-        "naziv": "Palim borcima",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia"
+        "naziv": "Palim borcima"
       },
-      "hrzenjak": [],
       "nalaz": "Dva zapisa imaju potpuno iste koordinate i isti izvorni OSM objekat node/8817894125. Sačuvan stariji ID gornji-cehi-palim-borcima, preuzet potpuniji naziv i postojeća godina iz drugog zapisa; uklonjen samo duplirani marker, bez novog zaključka o opstanku.",
       "kasnijiIzvori": [
         "https://www.openstreetmap.org/node/8817894125"
@@ -2284,7 +1623,6 @@
         "vrsta": "spomen-obelezje",
         "drzava": "Croatia"
       },
-      "hrzenjak": [],
       "nalaz": "Dva zapisa imaju potpuno iste koordinate i isti izvorni OSM objekat node/8817894125. Sačuvan stariji ID gornji-cehi-palim-borcima, preuzet potpuniji naziv i postojeća godina iz drugog zapisa; uklonjen samo duplirani marker, bez novog zaključka o opstanku.",
       "kasnijiIzvori": [
         "https://www.openstreetmap.org/node/8817894125"
@@ -2299,22 +1637,8 @@
       "odluka": "odbačen-pogrešan-par",
       "unosPreProvere": {
         "id": "zagreb-executed-hostages",
-        "koordinate": {
-          "lat": 45.8078363,
-          "lng": 15.9786101
-        },
-        "googleCid": "2481294543483029461",
-        "mesto": "Zagreb",
         "izvor": "https://znaci.org/00003/679.pdf#page=273",
-        "wiki": "https://sh.wikipedia.org/wiki/Strijeljanje_talaca_%28spomenik_u_Zagrebu%29",
-        "slika": "slike/spomenici/zagreb-executed-hostages.webp",
-        "slikaOdnos": 1.333,
-        "naziv": "Strijeljanje talaca",
-        "nazivEn": "Monument to Executed Hostages",
-        "godina": "1954",
-        "autor": "Frano Kršinić",
-        "vrsta": "spomenik",
-        "drzava": "Croatia"
+        "wiki": "https://sh.wikipedia.org/wiki/Strijeljanje_talaca_%28spomenik_u_Zagrebu%29"
       },
       "hrzenjak": [
         {
@@ -2343,7 +1667,6 @@
         }
       ],
       "nalaz": "Naš zapis je Kršinićeva skulpturalna grupa Strijeljanje talaca iz 1954. Predloženi parovi su dve pojedinačne spomen-ploče (Gotlich i Sport-Heruc) i spomenik u Kustošiji. Razlikuju se vrsta, posveta i lokalitet; njihovo uklanjanje ili premeštanje ne opisuje ovu grupu.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Razdvojeni identiteti na osnovu postojećeg prepisa knjige i podataka aplikacije. Ovo nije novi dokaz opstanka; datacija fotografije i kasniji konkretan dokaz ostaju otvoreni."
     },
@@ -2352,22 +1675,7 @@
       "odluka": "odbačen-pogrešan-par",
       "unosPreProvere": {
         "id": "zagreb-sestre-bakovic",
-        "koordinate": {
-          "lat": 45.811798,
-          "lng": 15.9735136
-        },
-        "mesto": "Zagreb (Prolaz sestara Baković)",
-        "izvor": "https://znaci.org/00003/679.pdf#page=271",
-        "slika": "slike/spomenici/zagreb-sestre-bakovic.webp",
-        "slikaOdnos": 1.365,
-        "slikaPotpis": "Plamen, Public domain",
-        "naziv": "Zdenka i Rajka Baković",
-        "godina": "1978",
-        "posveta": [
-          "Q1256730"
-        ],
-        "vrsta": "bista",
-        "drzava": "Croatia"
+        "izvor": "https://znaci.org/00003/679.pdf#page=271"
       },
       "hrzenjak": [
         {
@@ -2394,7 +1702,6 @@
         }
       ],
       "nalaz": "Naš zapis su biste Zdenke i Rajke Baković u istoimenom prolazu. Sva tri automatska kandidata posvećena su drugim osobama: Joži Vlahoviću, Josipu Krašu i Jaroslavu Hvali, na drugim zagrebačkim adresama. Odbačeni su ti predloženi parovi.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Razdvojeni identiteti na osnovu postojećeg prepisa knjige i podataka aplikacije. Ovo nije novi dokaz opstanka; datacija fotografije i kasniji konkretan dokaz ostaju otvoreni."
     },
@@ -2403,21 +1710,7 @@
       "odluka": "odbačen-pogrešan-par",
       "unosPreProvere": {
         "id": "zagreb-vinko-jedjut",
-        "koordinate": {
-          "lat": 45.802875,
-          "lng": 15.981236
-        },
-        "mesto": "Zagreb (Trnjanska cesta)",
-        "izvor": "https://znaci.org/00003/679.pdf#page=339",
-        "slika": "slike/spomenici/zagreb-vinko-jedjut.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Flammard, CC BY-SA 3.0",
-        "naziv": "Bista Vinka Jeđuta",
-        "posveta": [
-          "Q12749785"
-        ],
-        "vrsta": "bista",
-        "drzava": "Croatia"
+        "izvor": "https://znaci.org/00003/679.pdf#page=339"
       },
       "hrzenjak": [
         {
@@ -2444,7 +1737,6 @@
         }
       ],
       "nalaz": "Naš zapis je bista Vinka Jeđuta na Trnjanskoj cesti. Sva tri predložena para opisuju druge osobe i lokacije: Jožu Vlahovića na Novoj cesti, Josipa Kraša u Dugavama i Jaroslava Hvalu na Peščenici. Ne prenosi se njihovo stanje na Jeđutovu bistu.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Razdvojeni identiteti na osnovu postojećeg prepisa knjige i podataka aplikacije. Ovo nije novi dokaz opstanka; datacija fotografije i kasniji konkretan dokaz ostaju otvoreni."
     },
@@ -2453,22 +1745,8 @@
       "odluka": "odbačen-pogrešan-par",
       "unosPreProvere": {
         "id": "pula-vladimir-gortan",
-        "koordinate": {
-          "lat": 44.8544787,
-          "lng": 13.8300014
-        },
-        "googleCid": "13043685455544889251",
-        "mesto": "Pula",
         "wiki": "https://hr.wikipedia.org/wiki/Vladimir_Gortan",
-        "slika": "slike/spomenici/pula-vladimir-gortan.webp",
-        "slikaOdnos": 1.481,
-        "naziv": "Spomenik Vladimiru Gortanu",
-        "nazivEn": "Monument to <a href=\"https://hr.wikipedia.org/wiki/Vladimir_Gortan\" target=\"_blank\">Vladimir Gortan</a>",
-        "posveta": [
-          "Q347277"
-        ],
-        "vrsta": "spomenik",
-        "drzava": "Croatia"
+        "nazivEn": "Monument to <a href=\"https://hr.wikipedia.org/wiki/Vladimir_Gortan\" target=\"_blank\">Vladimir Gortan</a>"
       },
       "hrzenjak": [
         {
@@ -2496,7 +1774,6 @@
         }
       ],
       "nalaz": "Naš zapis je posvećen Vladimiru Gortanu. Tri kandidata iz trijaže odnose se na mornare, Đuru Salaja i Mošu Pijade; nije ista posveta. Podatak o nestalim bistama u Parku velikana nije ovim uparen sa Gortanovim spomenikom.",
-      "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Razdvojeni identiteti na osnovu postojećeg prepisa knjige i podataka aplikacije. Ovo nije novi dokaz opstanka; datacija fotografije i kasniji konkretan dokaz ostaju otvoreni."
     }
@@ -2524,7 +1801,6 @@
       "naziv": "Spomen-kosturnica za 195 žrtava Gudovac",
       "vrsta": "statua",
       "stanje": "ostecen",
-      "izvor": null,
       "prioritet": 85,
       "kandidati": [
         {
@@ -2540,7 +1816,6 @@
       "naziv": "Palim borcima u antifašističkoj borbi",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": 80,
       "kandidati": [
         {
@@ -2588,7 +1863,6 @@
       "naziv": "Poziv na ustanak",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": 70,
       "kandidati": [
         {
@@ -2636,7 +1910,6 @@
       "naziv": "Spomenik ustanku naroda Hrvatske",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 65,
       "kandidati": [
         {
@@ -2652,7 +1925,6 @@
       "naziv": "Spomenik Stojanu Matiću",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": 65,
       "kandidati": [
         {
@@ -2676,7 +1948,6 @@
       "naziv": "Spomenik Mirku Romčeviću",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 60,
       "kandidati": [
         {
@@ -2780,7 +2051,6 @@
       "naziv": "Izvidnica",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 50,
       "kandidati": [
         {
@@ -2804,7 +2074,6 @@
       "naziv": "Grobnica narodnih heroja u Zagrebu",
       "vrsta": "spomen-groblje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 50,
       "kandidati": [
         {
@@ -2828,7 +2097,6 @@
       "naziv": "Spomenik palim borcima i žrtvama fašističkog terora Dugo Selo",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": 50,
       "kandidati": [
         {
@@ -3380,7 +2648,6 @@
       "naziv": "Biste narodnih heroja (Josip Broz Tito, Olga Ban, Jurica Kalc, Giulio Revelante)",
       "vrsta": "bista",
       "stanje": null,
-      "izvor": null,
       "prioritet": 35,
       "kandidati": [
         {
@@ -3468,7 +2735,6 @@
       "naziv": "Kosturnica borcima Moslavine u Čazmi",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 35,
       "kandidati": [
         {
@@ -3492,7 +2758,6 @@
       "naziv": "Spomenik palim borcima i žrtvama fašizma",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 35,
       "kandidati": [
         {
@@ -3508,7 +2773,6 @@
       "naziv": "Spomenik strijeljanima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 35,
       "kandidati": [
         {
@@ -3524,7 +2788,6 @@
       "naziv": "Centralna partizanska bolnica",
       "vrsta": "muzej",
       "stanje": null,
-      "izvor": null,
       "prioritet": 35,
       "kandidati": [
         {
@@ -3548,7 +2811,6 @@
       "naziv": "Spomenik Vladimiru Gortanu",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 35,
       "kandidati": [
         {
@@ -3572,7 +2834,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 35,
       "kandidati": [
         {
@@ -3588,7 +2849,6 @@
       "naziv": "Spomenik palim borcima na Sutjesci",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 35,
       "kandidati": [
         {
@@ -3632,7 +2892,6 @@
       "naziv": "Žena u NOB-u",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 35,
       "kandidati": [
         {
@@ -3656,7 +2915,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-ploca",
       "stanje": null,
-      "izvor": null,
       "prioritet": 35,
       "kandidati": [
         {
@@ -3672,7 +2930,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 35,
       "kandidati": [
         {
@@ -3696,7 +2953,6 @@
       "naziv": "Spomenik Josipu Brozu Titu",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": 35,
       "kandidati": [
         {
@@ -3712,7 +2968,6 @@
       "naziv": "Bista Većeslava Holjevca",
       "vrsta": "bista",
       "stanje": null,
-      "izvor": null,
       "prioritet": 35,
       "kandidati": [
         {
@@ -3736,7 +2991,6 @@
       "naziv": "Bista Vladimira Nazora",
       "vrsta": "bista",
       "stanje": null,
-      "izvor": null,
       "prioritet": 35,
       "kandidati": [
         {
@@ -3864,7 +3118,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 25,
       "kandidati": [
         {
@@ -3880,7 +3133,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 25,
       "kandidati": [
         {
@@ -3944,7 +3196,6 @@
       "naziv": "Spomen-kosturnica žrtava fašističkog terora",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 25,
       "kandidati": [
         {
@@ -4048,7 +3299,6 @@
       "naziv": "Spomenik Joakimu Rakovcu",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4072,7 +3322,6 @@
       "naziv": "Borcima narodnooslobodilačke borbe i žrtvama fašizma 1941-1945",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4120,7 +3369,6 @@
       "naziv": "Spomen-dom Pazin",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4144,7 +3392,6 @@
       "naziv": "Spomenik radnicima brodogradilišta",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4168,7 +3415,6 @@
       "naziv": "Spomen-obilježje partizanskoj bolnici Stupe",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4240,7 +3486,6 @@
       "naziv": "Spomen-područje Danica",
       "vrsta": "spomen-park",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4328,7 +3573,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4344,7 +3588,6 @@
       "naziv": "Spomenik političkim zatvorenicima, interniranima i deportiranima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4368,7 +3611,6 @@
       "naziv": "Spomen-kosturnica u Varaždinu",
       "vrsta": "spomen-groblje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4392,7 +3634,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4408,7 +3649,6 @@
       "naziv": "Spomenik poginulim borcima NOR-a",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4448,7 +3688,6 @@
       "naziv": "Spomenik poginulim antifašistima u Bulincu",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4488,7 +3727,6 @@
       "naziv": "Spomenik revoluciji",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4536,7 +3774,6 @@
       "naziv": "Spomen-kosturnica palim borcima",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4552,7 +3789,6 @@
       "naziv": "Spomenik palim borcima Vranjic",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4568,7 +3804,6 @@
       "naziv": "Spomenik palim lučkim i obalnim radnicima Splita",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4592,7 +3827,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-groblje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4616,7 +3850,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4632,7 +3865,6 @@
       "naziv": "Spomenik žrtvama fašizma „Majka”",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4652,7 +3884,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4676,7 +3907,6 @@
       "naziv": "Spomenik palim borcima „Pali kurir”",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4700,7 +3930,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4724,7 +3953,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4740,7 +3968,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4756,7 +3983,6 @@
       "naziv": "Vjesnik slobode",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4776,7 +4002,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4792,7 +4017,6 @@
       "naziv": "Spomenik ranjenom borcu",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4816,7 +4040,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4840,7 +4063,6 @@
       "naziv": "Mjesto osnivanja Komunističke partije Hrvatske, 1937.",
       "vrsta": "spomen-ploca",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4860,7 +4082,6 @@
       "naziv": "Spomenik Ivi Loli Ribaru",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4884,7 +4105,6 @@
       "naziv": "Spomenik žrtvama fašizma",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4908,7 +4128,6 @@
       "naziv": "Spomenik palim borcima NOB-a Kupinovac",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4924,7 +4143,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4948,7 +4166,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -4972,7 +4189,6 @@
       "naziv": "Spomenik žrtvama fašističkog terora i palim borcima NOB-a",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5020,7 +4236,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5044,7 +4259,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5068,7 +4282,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5092,7 +4305,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5108,7 +4320,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5124,7 +4335,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5140,7 +4350,6 @@
       "naziv": "Spomenik palim borcima NOB-a",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5156,7 +4365,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5172,7 +4380,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5196,7 +4403,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5216,7 +4422,6 @@
       "naziv": "Spomenik palim borcima NOB-a",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5240,7 +4445,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5256,7 +4460,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5272,7 +4475,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5288,7 +4490,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5304,7 +4505,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5328,7 +4528,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5352,7 +4551,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5368,7 +4566,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5392,7 +4589,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5416,7 +4612,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5440,7 +4635,6 @@
       "naziv": "Spomenik palim borcima Drugog svjetskog rata",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5456,7 +4650,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5472,7 +4665,6 @@
       "naziv": "Spomenik narodne revolucije",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5492,7 +4684,6 @@
       "naziv": "Spomenik žrtvama fašizma „Pod šipkom“",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5512,7 +4703,6 @@
       "naziv": "Partizanski spomenik",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5584,7 +4774,6 @@
       "naziv": "Spomenik 13. proleterskoj brigadi",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -5608,7 +4797,6 @@
       "naziv": "Spomenik palim borcima NOB-a i žrtvama fašizma",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 20,
       "kandidati": [
         {
@@ -6256,7 +5444,6 @@
       "naziv": "Spomenik žrtvama fašizma Osijeka i Slavonije",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 15,
       "kandidati": [
         {
@@ -6280,7 +5467,6 @@
       "naziv": "Radnički spomen-dom „Božidar Maslarić”",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 15,
       "kandidati": [
         {
@@ -6320,7 +5506,6 @@
       "naziv": "Spomenik ustanku naroda Banije i Korduna",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 15,
       "kandidati": [
         {
@@ -6340,7 +5525,6 @@
       "naziv": "Spomenik ustanku NOB-a",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 15,
       "kandidati": [
         {
@@ -6388,7 +5572,6 @@
       "naziv": "Spomenik žrtvama fašizma",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 15,
       "kandidati": [
         {
@@ -6412,7 +5595,6 @@
       "naziv": "Kosturnica",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 15,
       "kandidati": [
         {
@@ -6436,7 +5618,6 @@
       "naziv": "Spomenik 13 strijeljanih",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 15,
       "kandidati": [
         {
@@ -6460,7 +5641,6 @@
       "naziv": "Spomenik riječkim rodoljubima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 15,
       "kandidati": [
         {
@@ -6484,7 +5664,6 @@
       "naziv": "Spomenik palim partizanima „Tuga”",
       "vrsta": "spomen-groblje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 15,
       "kandidati": [
         {
@@ -6508,7 +5687,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 15,
       "kandidati": [
         {
@@ -6532,7 +5710,6 @@
       "naziv": "Spomen-ploča palim borcima i žrtvama fašističkog terora",
       "vrsta": "spomen-ploca",
       "stanje": null,
-      "izvor": null,
       "prioritet": 15,
       "kandidati": [
         {
@@ -6604,7 +5781,6 @@
       "naziv": "Nošenje ranjenika",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": 15,
       "kandidati": [
         {
@@ -7100,7 +6276,6 @@
       "naziv": "Spomenik Stjepanu Filipoviću",
       "vrsta": "statua",
       "stanje": "uklonjen",
-      "izvor": null,
       "prioritet": 5,
       "kandidati": [
         {
@@ -7116,7 +6291,6 @@
       "naziv": "Spomenik „Čuvar slobode”",
       "vrsta": "spomenik",
       "stanje": "uklonjen",
-      "izvor": null,
       "prioritet": 5,
       "kandidati": [
         {
@@ -7156,7 +6330,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 5,
       "kandidati": [
         {
@@ -7320,7 +6493,6 @@
       "naziv": "Spomenik palim borcima i žrtvama",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -7340,7 +6512,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -7364,7 +6535,6 @@
       "naziv": "Spomenik Radi Končaru i drugovima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -7388,7 +6558,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -7576,7 +6745,6 @@
       "naziv": "Oslobođenje Rijeke",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -7600,7 +6768,6 @@
       "naziv": "Spomenik ustanku u Gorskom kotaru",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -7616,7 +6783,6 @@
       "naziv": "Brodograditelj",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -7640,7 +6806,6 @@
       "naziv": "Suđenica koja luta",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -7656,7 +6821,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -7672,7 +6836,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -7688,7 +6851,6 @@
       "naziv": "Spomenik žrtvama fašizma u Križu",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -7708,7 +6870,6 @@
       "naziv": "Spomenik „Zastava”",
       "vrsta": "spomen-groblje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -7732,7 +6893,6 @@
       "naziv": "Spomen-groblje djece",
       "vrsta": "spomen-groblje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -7756,7 +6916,6 @@
       "naziv": "Spomenik palim borcima NOB-a",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -7780,7 +6939,6 @@
       "naziv": "Spomenik palim borcima NOB-a",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -7796,7 +6954,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -7816,7 +6973,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -7840,7 +6996,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "bista",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -7856,7 +7011,6 @@
       "naziv": "Spomen palim borcima NOR-a",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -7880,7 +7034,6 @@
       "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -7904,7 +7057,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -7928,7 +7080,6 @@
       "naziv": "Spomenik borcima i žrtvama fašizma",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -7952,7 +7103,6 @@
       "naziv": "Spomenik",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -8016,7 +7166,6 @@
       "naziv": "Partizanski spomenik",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -8032,7 +7181,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -8056,7 +7204,6 @@
       "naziv": "Bista Viktora Bubnja",
       "vrsta": "bista",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -8080,7 +7227,6 @@
       "naziv": "Bista Vitomira Širole Paje",
       "vrsta": "bista",
       "stanje": null,
-      "izvor": null,
       "prioritet": 0,
       "kandidati": [
         {
@@ -8604,7 +7750,6 @@
       "naziv": "Žrtvama fašizma",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -5,
       "kandidati": [
         {
@@ -8620,7 +7765,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": "srusen",
-      "izvor": null,
       "prioritet": -5,
       "kandidati": [
         {
@@ -8644,7 +7788,6 @@
       "naziv": "Spomenik Jovanu „Ivi” Marinkoviću",
       "vrsta": "statua",
       "stanje": "uklonjen",
-      "izvor": null,
       "prioritet": -5,
       "kandidati": [
         {
@@ -8668,7 +7811,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": "rusevine",
-      "izvor": null,
       "prioritet": -5,
       "kandidati": [
         {
@@ -8692,7 +7834,6 @@
       "naziv": "Spomenik „Tuđe nećemo, svoje ne damo”",
       "vrsta": "spomenik",
       "stanje": "uklonjen",
-      "izvor": null,
       "prioritet": -20,
       "kandidati": [
         {
@@ -8712,7 +7853,6 @@
       "naziv": "Prvi spomenik NOB-u u Jugoslaviji",
       "vrsta": "spomenik",
       "stanje": "uklonjen",
-      "izvor": null,
       "prioritet": -20,
       "kandidati": [
         {
@@ -8752,7 +7892,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "statua",
       "stanje": "uklonjen",
-      "izvor": null,
       "prioritet": -20,
       "kandidati": [
         {
@@ -8776,7 +7915,6 @@
       "naziv": "Spomenik palim borcima „Partizan”",
       "vrsta": "statua",
       "stanje": "uklonjen",
-      "izvor": null,
       "prioritet": -20,
       "kandidati": [
         {
@@ -8792,7 +7930,6 @@
       "naziv": "Spomenik koncentracijskom logoru Jadovno",
       "vrsta": "spomenik",
       "stanje": "uklonjen",
-      "izvor": null,
       "prioritet": -25,
       "kandidati": [
         {
@@ -8816,7 +7953,6 @@
       "naziv": "Park revolucije",
       "vrsta": "spomen-park",
       "stanje": null,
-      "izvor": null,
       "prioritet": -30,
       "kandidati": [
         {
@@ -8848,7 +7984,6 @@
       "naziv": "Muzej Trećeg zasjedanja ZAVNOH-a",
       "vrsta": "muzej",
       "stanje": "uklonjen",
-      "izvor": null,
       "prioritet": -30,
       "kandidati": [
         {
@@ -8872,7 +8007,6 @@
       "naziv": "Spomenik rudaru borcu",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -35,
       "kandidati": [
         {
@@ -8892,7 +8026,6 @@
       "naziv": "Spomenik palim borcima i žrtvama fašizma",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -35,
       "kandidati": [
         {
@@ -8912,7 +8045,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -35,
       "kandidati": [
         {
@@ -8928,7 +8060,6 @@
       "naziv": "Spomen-kosturnica u Lovreću",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -35,
       "kandidati": [
         {
@@ -8944,7 +8075,6 @@
       "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -35,
       "kandidati": [
         {
@@ -8960,7 +8090,6 @@
       "naziv": "Spomenik antifašizmu",
       "vrsta": "statua",
       "stanje": "srusen",
-      "izvor": null,
       "prioritet": -35,
       "kandidati": [
         {
@@ -8984,7 +8113,6 @@
       "naziv": "Spomenik slobodi",
       "vrsta": "spomenik",
       "stanje": "uklonjen",
-      "izvor": null,
       "prioritet": -35,
       "kandidati": [
         {
@@ -9008,7 +8136,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "statua",
       "stanje": "uklonjen",
-      "izvor": null,
       "prioritet": -35,
       "kandidati": [
         {
@@ -9024,7 +8151,6 @@
       "naziv": "Spomen-kripta palim borcima",
       "vrsta": "statua",
       "stanje": "uklonjen",
-      "izvor": null,
       "prioritet": -35,
       "kandidati": [
         {
@@ -9048,7 +8174,6 @@
       "naziv": "Grobnica palih boraca",
       "vrsta": "statua",
       "stanje": "uklonjen",
-      "izvor": null,
       "prioritet": -35,
       "kandidati": [
         {
@@ -9072,7 +8197,6 @@
       "naziv": "Spomenik palim borcima fašističkog terora naroda Bukovice",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -45,
       "kandidati": [
         {
@@ -9120,7 +8244,6 @@
       "naziv": "Spomenik ustanku",
       "vrsta": "statua",
       "stanje": "uklonjen",
-      "izvor": null,
       "prioritet": -45,
       "kandidati": [
         {
@@ -9136,7 +8259,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -50,
       "kandidati": [
         {
@@ -9156,7 +8278,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -50,
       "kandidati": [
         {
@@ -9172,7 +8293,6 @@
       "naziv": "Spomenik borcima NOB-a",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -50,
       "kandidati": [
         {
@@ -9188,7 +8308,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -50,
       "kandidati": [
         {
@@ -9204,7 +8323,6 @@
       "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -50,
       "kandidati": [
         {
@@ -9220,7 +8338,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -50,
       "kandidati": [
         {
@@ -9236,7 +8353,6 @@
       "naziv": "Spomenik borcima i žrtvama Drugog svjetskog rata",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -50,
       "kandidati": [
         {
@@ -9408,7 +8524,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "statua",
       "stanje": "uklonjen",
-      "izvor": null,
       "prioritet": -50,
       "kandidati": [
         {
@@ -9432,7 +8547,6 @@
       "naziv": "Spomenik bici na Šušnjarima",
       "vrsta": "spomenik",
       "stanje": "rusevine",
-      "izvor": null,
       "prioritet": -50,
       "kandidati": [
         {
@@ -9452,7 +8566,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "statua",
       "stanje": "uklonjen",
-      "izvor": null,
       "prioritet": -50,
       "kandidati": [
         {
@@ -9476,7 +8589,6 @@
       "naziv": "Spomenik palim borcima Imotske krajine",
       "vrsta": "statua",
       "stanje": "uklonjen",
-      "izvor": null,
       "prioritet": -50,
       "kandidati": [
         {
@@ -9492,7 +8604,6 @@
       "naziv": "Spomen-kosturnica NOB-a",
       "vrsta": "statua",
       "stanje": "rusevine",
-      "izvor": null,
       "prioritet": -50,
       "kandidati": [
         {
@@ -9516,7 +8627,6 @@
       "naziv": "Spomen-kosturnica palim borcima",
       "vrsta": "spomenik",
       "stanje": "srusen",
-      "izvor": null,
       "prioritet": -55,
       "kandidati": [
         {
@@ -9532,7 +8642,6 @@
       "naziv": "Spomenik Nikoli Miljanoviću",
       "vrsta": "statua",
       "stanje": "uklonjen",
-      "izvor": null,
       "prioritet": -60,
       "kandidati": [
         {
@@ -9572,7 +8681,6 @@
       "naziv": "Spomen-dom Šamarica",
       "vrsta": "spomenik",
       "stanje": "rusevine",
-      "izvor": null,
       "prioritet": -65,
       "kandidati": [
         {
@@ -9604,7 +8712,6 @@
       "naziv": "Spomenik",
       "vrsta": "spomenik",
       "stanje": "uklonjen",
-      "izvor": null,
       "prioritet": -70,
       "kandidati": [
         {
@@ -9620,7 +8727,6 @@
       "naziv": "Spomenik Marku Oreškoviću",
       "vrsta": "statua",
       "stanje": "srusen",
-      "izvor": null,
       "prioritet": -70,
       "kandidati": [
         {
@@ -9644,7 +8750,6 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -75,
       "kandidati": [
         {
@@ -9660,7 +8765,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -75,
       "kandidati": [
         {
@@ -9694,7 +8798,6 @@
       "stanje": null,
       "izvor": "https://znaci.org/00003/736.php?broj=75",
       "prioritet": -80,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -9705,7 +8808,6 @@
       "stanje": null,
       "izvor": "https://znaci.org/00003/736.php?broj=166",
       "prioritet": -80,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -9716,7 +8818,6 @@
       "stanje": null,
       "izvor": "https://znaci.org/00003/905.pdf#page=233",
       "prioritet": -80,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -9727,7 +8828,6 @@
       "stanje": null,
       "izvor": "https://znaci.org/00003/667.pdf#page=41",
       "prioritet": -80,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -9738,7 +8838,6 @@
       "stanje": null,
       "izvor": "https://znaci.org/00003/905.pdf#page=322",
       "prioritet": -80,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -9749,7 +8848,6 @@
       "stanje": null,
       "izvor": "https://znaci.org/00003/905.pdf#page=220",
       "prioritet": -80,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -9758,7 +8856,6 @@
       "naziv": "Palim borcima i žrtvama fašističkog terora",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -90,
       "kandidati": [
         {
@@ -9778,7 +8875,6 @@
       "naziv": "Spomenik NOB-u u Rovinjskom Selu",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -90,
       "kandidati": [
         {
@@ -9794,7 +8890,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -90,
       "kandidati": [
         {
@@ -9810,7 +8905,6 @@
       "naziv": "Spomenik palim borcima NOB-e",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -90,
       "kandidati": [
         {
@@ -9826,7 +8920,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -90,
       "kandidati": [
         {
@@ -9842,7 +8935,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -90,
       "kandidati": [
         {
@@ -9858,7 +8950,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -90,
       "kandidati": [
         {
@@ -9874,7 +8965,6 @@
       "naziv": "Spomenik žrtvama fašizma iz Fužina",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -90,
       "kandidati": [
         {
@@ -9890,7 +8980,6 @@
       "naziv": "Spomenik žrtvama fašizma",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -90,
       "kandidati": [
         {
@@ -10126,7 +9215,6 @@
       "naziv": "Spomen-ploča NOB-u",
       "vrsta": "spomen-ploca",
       "stanje": null,
-      "izvor": null,
       "prioritet": -95,
       "kandidati": [
         {
@@ -10144,7 +9232,6 @@
       "stanje": null,
       "izvor": "http://www.spomenikdatabase.org/podgarica",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10155,7 +9242,6 @@
       "stanje": null,
       "izvor": "http://www.spomenikdatabase.org/podhum",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10166,7 +9252,6 @@
       "stanje": null,
       "izvor": "http://www.spomenikdatabase.org/pleso",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10177,7 +9262,6 @@
       "stanje": null,
       "izvor": "http://www.spomenikdatabase.org/plovanija",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10188,7 +9272,6 @@
       "stanje": null,
       "izvor": "http://www.spomenikdatabase.org/donji-miholjac",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10199,7 +9282,6 @@
       "stanje": null,
       "izvor": "http://www.spomenikdatabase.org/zaostrog",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10208,9 +9290,7 @@
       "naziv": "Spomenik ustanku",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10219,9 +9299,7 @@
       "naziv": "Spomenik palim borcima u Cresu",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10230,9 +9308,7 @@
       "naziv": "Spomenik palim borcima i žrtvama",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10241,9 +9317,7 @@
       "naziv": "Spomen-područje Tičan",
       "vrsta": "spomen-park",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10252,9 +9326,7 @@
       "naziv": "Spomenik smrznutim partizanima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10263,9 +9335,7 @@
       "naziv": "Spomenik 26 smrznutih partizana",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10274,9 +9344,7 @@
       "naziv": "Spomenik koncentracijskom logoru Rab",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10285,9 +9353,7 @@
       "naziv": "Spomenik Prvom banijskom ustanku",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10296,9 +9362,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10307,9 +9371,7 @@
       "naziv": "Središnji spomenik kalničkim partizanima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10318,9 +9380,7 @@
       "naziv": "Spomenik smrznutim borcima 6. dalmatinske brigade",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10329,9 +9389,7 @@
       "naziv": "Spomenik spaljenom Gradcu",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10340,9 +9398,7 @@
       "naziv": "Spomenik „Plamen revolucije”",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10351,9 +9407,7 @@
       "naziv": "Poginulima u narodnooslobodilačkoj borbi",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10362,9 +9416,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10373,9 +9425,7 @@
       "naziv": "Spomenik aerodromu Čemernica",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10384,9 +9434,7 @@
       "naziv": "Spomenik Edvardu Kardelju",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10395,9 +9443,7 @@
       "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10408,7 +9454,6 @@
       "stanje": null,
       "izvor": "https://www.tripadvisor.com/ShowUserReviews-g424971-d622113-r509659114-Mount_Hum-Island_of_Vis_Split_Dalmatia_County_Dalmatia.html",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10419,7 +9464,6 @@
       "stanje": null,
       "izvor": "https://www.np-brijuni.hr/en/brijuni/cultural-and-historical-heritage/stalni-postavi",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10430,7 +9474,6 @@
       "stanje": null,
       "izvor": "http://infovrsar.com/en/vrsar/experiences-and-attractions/dzamonja-sculpture-park/",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10439,9 +9482,7 @@
       "naziv": "Spomenik seljačkoj buni 1573.",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10452,7 +9493,6 @@
       "stanje": null,
       "izvor": "http://www.spomenikdatabase.org/battle-of-batina",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10461,9 +9501,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10472,9 +9510,7 @@
       "naziv": "Spomen-groblje stradalih na Srijemskoj bojišnici",
       "vrsta": "spomen-groblje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10483,9 +9519,7 @@
       "naziv": "Spomenik Solinskom partizanskom odredu",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10494,9 +9528,7 @@
       "naziv": "Spomen-dom 6. ličke proleterske divizije",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10505,9 +9537,7 @@
       "naziv": "Spomenik Blažu Valinu",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10516,9 +9546,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10527,9 +9555,7 @@
       "naziv": "Spomen-područje Jadovno",
       "vrsta": "spomen-park",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10538,9 +9564,7 @@
       "naziv": "Spomenik palim borcima Svirče",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10549,9 +9573,7 @@
       "naziv": "Spomenik Proštinskoj buni",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10560,9 +9582,7 @@
       "naziv": "Spomenik posvećen Titu",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10571,9 +9591,7 @@
       "naziv": "Palima u oslobodilačkom ratu",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10582,9 +9600,7 @@
       "naziv": "Partizanski spomenik",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10593,9 +9609,7 @@
       "naziv": "Natpis TITO",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10604,9 +9618,7 @@
       "naziv": "Natpis TITO",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10615,9 +9627,7 @@
       "naziv": "Natpis TITO",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10626,9 +9636,7 @@
       "naziv": "Natpis TITO",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10637,9 +9645,7 @@
       "naziv": "Natpis TITO",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10648,9 +9654,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10659,9 +9663,7 @@
       "naziv": "Spomenik palim borcima u Bolmanskoj bici",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10670,9 +9672,7 @@
       "naziv": "Spomen-grobnica Vladimiru Gortanu",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10681,9 +9681,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10692,9 +9690,7 @@
       "naziv": "Spomenik „Majka Dalmacija”",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10703,9 +9699,7 @@
       "naziv": "Spomenik",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10714,9 +9708,7 @@
       "naziv": "Spomenik osloboditeljima Cresa i Lošinja",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10725,9 +9717,7 @@
       "naziv": "Spomenik partizanima - Plamen revolucije",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10736,9 +9726,7 @@
       "naziv": "Spomenik žrtvama fašističkog terora",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10747,9 +9735,7 @@
       "naziv": "Spomenik Moslavačkom partizanskom odredu",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10758,9 +9744,7 @@
       "naziv": "Spomenik „Ruke slobode”",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10769,9 +9753,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10780,9 +9762,7 @@
       "naziv": "Spomenik palima u NOB-u",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10791,9 +9771,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10802,9 +9780,7 @@
       "naziv": "Spomenik",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10813,9 +9789,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10824,9 +9798,7 @@
       "naziv": "Spomenik Prvom kongresu AFŽ-a Istre",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10835,9 +9807,7 @@
       "naziv": "Partizansko spomen-groblje",
       "vrsta": "spomen-groblje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10846,9 +9816,7 @@
       "naziv": "Partizansko spomen-groblje",
       "vrsta": "spomen-groblje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10857,9 +9825,7 @@
       "naziv": "Spomenik logoru čete Bože Vidasa Vuka",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10868,9 +9834,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10879,9 +9843,7 @@
       "naziv": "Spomenik Vladimiru Nazoru",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10890,9 +9852,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10901,9 +9861,7 @@
       "naziv": "Palim za slobodu i socijalizam",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10912,9 +9870,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10923,9 +9879,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10934,9 +9888,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10945,9 +9897,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10956,9 +9906,7 @@
       "naziv": "Spomenik 71 civilnoj žrtvi fašizma",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10967,9 +9915,7 @@
       "naziv": "Spomen-park bratstva i jedinstva",
       "vrsta": "spomen-park",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10978,9 +9924,7 @@
       "naziv": "Spomenik palim borcima NOB-a",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -10989,9 +9933,7 @@
       "naziv": "Spomenik antifašističke borbe",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11000,9 +9942,7 @@
       "naziv": "Spomen-područje Lug",
       "vrsta": "spomen-park",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11011,9 +9951,7 @@
       "naziv": "Spomen-park Rakov Potok",
       "vrsta": "spomen-park",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "delimičan-kasniji-dokaz"
     },
     {
@@ -11022,9 +9960,7 @@
       "naziv": "Spomen-park Rudolfu Perešinu",
       "vrsta": "spomen-park",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11033,9 +9969,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11044,9 +9978,7 @@
       "naziv": "Na mrtvoj straži",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11055,9 +9987,7 @@
       "naziv": "Spomenik ženi Biokovki",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11066,9 +9996,7 @@
       "naziv": "Romski memorijalni centar Uštica",
       "vrsta": "spomen-park",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11077,9 +10005,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11088,9 +10014,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11099,9 +10023,7 @@
       "naziv": "Spomenik palim borcima NOB-a",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11110,9 +10032,7 @@
       "naziv": "Spomenik palim borcima NOB-a",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11121,9 +10041,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11132,9 +10050,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11143,9 +10059,7 @@
       "naziv": "Spomenik poginulim zadrugarima u NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11154,9 +10068,7 @@
       "naziv": "Spomenik palim borcima NOB-a",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11165,9 +10077,7 @@
       "naziv": "Spomenik palim borcima NOB-a",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11176,9 +10086,7 @@
       "naziv": "Spomenik NOB-a",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11187,9 +10095,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11198,9 +10104,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11209,9 +10113,7 @@
       "naziv": "Spomenik palim borcima u NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11220,9 +10122,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11231,9 +10131,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11242,9 +10140,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11253,9 +10149,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11264,9 +10158,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-ploca",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11275,9 +10167,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11286,9 +10176,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11297,9 +10185,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11308,9 +10194,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11319,9 +10203,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11330,9 +10212,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11341,9 +10221,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11352,9 +10230,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11363,9 +10239,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11374,9 +10248,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11385,9 +10257,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11396,9 +10266,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11407,9 +10275,7 @@
       "naziv": "Spomenik žrtvama i borcima NOB-a",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11418,9 +10284,7 @@
       "naziv": "Spomenik palim borcima NOB-a",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11429,9 +10293,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11440,9 +10302,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11451,9 +10311,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11462,9 +10320,7 @@
       "naziv": "Spomenik žrtvama NOB-a",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11473,9 +10329,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11484,9 +10338,7 @@
       "naziv": "Spomenik NOB-a i žrtava fašističkog terora",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11495,9 +10347,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11506,9 +10356,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11517,9 +10365,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11528,9 +10374,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11539,9 +10383,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11550,9 +10392,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11561,9 +10401,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11572,9 +10410,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11583,9 +10419,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11594,9 +10428,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11605,9 +10437,7 @@
       "naziv": "Spomenik palim borcima NOB-a",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11616,9 +10446,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11627,9 +10455,7 @@
       "naziv": "Spomenik palim borcima NOB-a",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11638,9 +10464,7 @@
       "naziv": "Spomenik NOB-a",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11649,9 +10473,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11660,9 +10482,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11671,9 +10491,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11682,9 +10500,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11693,9 +10509,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11704,9 +10518,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11715,9 +10527,7 @@
       "naziv": "Spomenik palim borcima NOB-a",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11726,9 +10536,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11737,9 +10545,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11748,9 +10554,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11759,9 +10563,7 @@
       "naziv": "Spomenik palim borcima NOB-a",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11770,9 +10572,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11781,9 +10581,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11792,9 +10590,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11803,9 +10599,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11814,9 +10608,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11825,9 +10617,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11836,9 +10626,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11847,9 +10635,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11858,9 +10644,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11869,9 +10653,7 @@
       "naziv": "Spomenik palim borcima NOB-a",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11880,9 +10662,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11891,9 +10671,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11902,9 +10680,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11913,9 +10689,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11924,9 +10698,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11935,9 +10707,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11946,9 +10716,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11957,9 +10725,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11968,9 +10734,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11979,9 +10743,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -11990,9 +10752,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12001,9 +10761,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12012,9 +10770,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12023,9 +10779,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12034,9 +10788,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12045,9 +10797,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12056,9 +10806,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12067,9 +10815,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12078,9 +10824,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12089,9 +10833,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12100,9 +10842,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12111,9 +10851,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12122,9 +10860,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12133,9 +10869,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12144,9 +10878,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12155,9 +10887,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12166,9 +10896,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12177,9 +10905,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12188,9 +10914,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12199,9 +10923,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12210,9 +10932,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12221,9 +10941,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "bista",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12232,9 +10950,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12243,9 +10959,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12254,9 +10968,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12265,9 +10977,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12276,9 +10986,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12287,9 +10995,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12298,9 +11004,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12309,9 +11013,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12320,9 +11022,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-ploca",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12331,9 +11031,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12342,9 +11040,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12353,9 +11049,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12364,9 +11058,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12375,9 +11067,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12386,9 +11076,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12397,9 +11085,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12408,9 +11094,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12419,9 +11103,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12430,9 +11112,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12441,9 +11121,7 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12452,9 +11130,7 @@
       "naziv": "Spomenik palim borcima NOR-a",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12463,9 +11139,7 @@
       "naziv": "Spomenik palim borcima u antifašističkom ratu",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12474,9 +11148,7 @@
       "naziv": "Spomenik palim borcima i žrtvama fašističkog terora Segeta Donjeg i Seget Vranjice",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12485,9 +11157,7 @@
       "naziv": "Spomenik palim borcima u Drugom svjetskom ratu",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12496,9 +11166,7 @@
       "naziv": "Spomenik palim borcima i žrtvama fašizma",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12507,9 +11175,7 @@
       "naziv": "Spomenik palim borcima 1941-1945",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12518,9 +11184,7 @@
       "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12529,9 +11193,7 @@
       "naziv": "Spomenik palim borcima u narodnooslobodilačkom ratu",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12540,9 +11202,7 @@
       "naziv": "Spomenik palim borcima i žrtvama fašizma",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12551,9 +11211,7 @@
       "naziv": "Spomenik palim borcima Drugog svjetskog rata",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12562,9 +11220,7 @@
       "naziv": "Spomenik palim borcima Drugog svjetskog rata",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12573,9 +11229,7 @@
       "naziv": "Spomenik palim borcima Drugog svjetskog rata",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12584,9 +11238,7 @@
       "naziv": "Spomenik NOR-a",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12595,9 +11247,7 @@
       "naziv": "Spomenik palim borcima Drugog svjetskog rata",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12606,9 +11256,7 @@
       "naziv": "Spomenik palim borcima Drugog svjetskog rata",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12617,9 +11265,7 @@
       "naziv": "Spomenik žrtvama i palim borcima Drugog svjetskog rata",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12628,9 +11274,7 @@
       "naziv": "Spomenik žrtvama i palim borcima Drugog svjetskog rata",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12639,9 +11283,7 @@
       "naziv": "Spomen palim borcima u NOR-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12650,9 +11292,7 @@
       "naziv": "Spomenik žrtvama talijanskog fašizma i nacizma",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12661,9 +11301,7 @@
       "naziv": "Spomenik poginulima u Drugom svjetskom ratu",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12672,9 +11310,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12683,9 +11319,7 @@
       "naziv": "Spomenik palim borcima Primorsko-goranske brigade",
       "vrsta": "spomen-ploca",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12694,9 +11328,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12705,9 +11337,7 @@
       "naziv": "Spomenik palim borcima hrvatskih i slovenskih brigada",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12716,9 +11346,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12727,9 +11355,7 @@
       "naziv": "Spomenik palim borcima i civilnim žrtvama",
       "vrsta": "bista",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12738,9 +11364,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12749,9 +11373,7 @@
       "naziv": "Spomenik žrtvama Domovinskog i Drugog svjetskog rata",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12760,9 +11382,7 @@
       "naziv": "Spomenik žrtvama Drugog svjetskog rata",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12771,9 +11391,7 @@
       "naziv": "Spomenik žrtvama fašizma",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12782,9 +11400,7 @@
       "naziv": "Spomenik žrtvama fašizma",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12793,9 +11409,7 @@
       "naziv": "Spomenik žrtvama fašizma",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12804,9 +11418,7 @@
       "naziv": "Spomenik partizanskim borcima i žrtvama fašizma",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12815,9 +11427,7 @@
       "naziv": "Spomen-ploča borcima/kinjama NOB-a i žrtvama fašizma",
       "vrsta": "spomen-ploca",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12826,9 +11436,7 @@
       "naziv": "Spomenik žrtvama fašizma i nacizma",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12837,9 +11445,7 @@
       "naziv": "Spomenik žrtvama fašizma u Drugom svjetskom ratu",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12848,9 +11454,7 @@
       "naziv": "Spomenik žrtvama fašističkog terora 30.4.1944.",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12859,9 +11463,7 @@
       "naziv": "Spomenik žrtvama fašizma",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12870,9 +11472,7 @@
       "naziv": "Spomenik žrtvama fašističkog terora u Gornjem Dragonošcu",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "zadržan-kasniji-dokaz"
     },
     {
@@ -12881,9 +11481,7 @@
       "naziv": "Spomenik žrtvama fašizma",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12892,9 +11490,7 @@
       "naziv": "Spomenik žrtvama fašističkog terora",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12905,7 +11501,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/6987623429",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12916,7 +11511,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13247390671",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12927,7 +11521,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13589447422",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12938,7 +11531,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/way/1391618782",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12949,7 +11541,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/way/1481740083",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12958,9 +11549,7 @@
       "naziv": "Spomenik partizanima",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12969,9 +11558,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12980,9 +11567,7 @@
       "naziv": "Bista Ive Lole Ribara",
       "vrsta": "bista",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -12991,9 +11576,7 @@
       "naziv": "Spomenik palim borcima i žrtvama fašizma",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13002,9 +11585,7 @@
       "naziv": "Spomen-grobnica boraca Crvene armije",
       "vrsta": "spomen-groblje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13013,9 +11594,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13024,9 +11603,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13035,9 +11612,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13046,9 +11621,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13057,9 +11630,7 @@
       "naziv": "Spomenik palim borcima i žrtvama fašizma",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13068,9 +11639,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "statua",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13079,9 +11648,7 @@
       "naziv": "Spomenik palim borcima NOVJ",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13090,9 +11657,7 @@
       "naziv": "Spomen-kosturnica",
       "vrsta": "spomenik",
       "stanje": null,
-      "izvor": null,
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13103,7 +11668,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13465076113",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13114,7 +11678,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13122991430",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13125,7 +11688,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/14157445093",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13136,7 +11698,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13533012347",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13147,7 +11708,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13564656811",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13158,7 +11718,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/12021021090",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13169,7 +11728,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/4236518534",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13180,7 +11738,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/7805986730",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13191,7 +11748,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13462208826",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13202,7 +11758,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/2203413174",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13213,7 +11768,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/2203436349",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13224,7 +11778,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13512250886",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13235,7 +11788,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/12878674912",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13246,7 +11798,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/12049738884",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13257,7 +11808,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13111184671",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13268,7 +11818,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13406821152",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13279,7 +11828,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/8041895080",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13290,7 +11838,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/11778919255",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13301,7 +11848,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/4988152712",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13312,7 +11858,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13111161302",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13323,7 +11868,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13115405269",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13334,7 +11878,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13535873121",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13345,7 +11888,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13414716763",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13356,7 +11898,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13111165427",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13367,7 +11908,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13414716725",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13378,7 +11918,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/11338033534",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13389,7 +11928,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/8817894125",
       "prioritet": -100,
-      "kandidati": [],
       "status": "spojen-duplikat"
     },
     {
@@ -13400,7 +11938,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/2213201328",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13411,7 +11948,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/6611114143",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13422,7 +11958,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13536034029",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13433,7 +11968,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13110354744",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13444,7 +11978,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/6291619618",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13455,7 +11988,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/6277390221",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13466,7 +11998,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/14156345835",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13477,7 +12008,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13005338286",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13488,7 +12018,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/12019936397",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13499,7 +12028,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/11187155652",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13510,7 +12038,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13115460786",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13521,7 +12048,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13589458044",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13532,7 +12058,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/4241016151",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13543,7 +12068,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13111184672",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13554,7 +12078,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/10180208990",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13565,7 +12088,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13115438572",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13576,7 +12098,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/9080100557",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13587,7 +12108,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/14005018326",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13598,7 +12118,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13482672170",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13609,7 +12128,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13017656839",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13620,7 +12138,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/14178107572",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13631,7 +12148,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13140839040",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13642,7 +12158,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/9714096212",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13653,7 +12168,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13005296330",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13664,7 +12178,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13414716724",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13675,7 +12188,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13404305549",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13686,7 +12198,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13115405272",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13697,7 +12208,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/6535988785",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13708,7 +12218,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/12909365751",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13719,7 +12228,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13115438574",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13730,7 +12238,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/way/1481733569",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13741,7 +12248,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/7798476129",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13752,7 +12258,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13041264011",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13763,7 +12268,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13462010640",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13774,7 +12278,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13115438576",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13785,7 +12288,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/14157488312",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13796,7 +12298,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13406789436",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13807,7 +12308,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/14157500301",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13818,7 +12318,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13414716792",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13829,7 +12328,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13462162043",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13840,7 +12338,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13115405270",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13851,7 +12348,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/11775230849",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13862,7 +12358,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13398640568",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13873,7 +12368,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13115405271",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13884,7 +12378,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/8702053279",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13895,7 +12388,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/4988103622",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13906,7 +12398,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13004327239",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13917,7 +12408,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13148248944",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13928,7 +12418,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13564688072",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13939,7 +12428,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/4392455176",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13950,7 +12438,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/3682685292",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13961,7 +12448,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/4241071772",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13972,7 +12458,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13404235209",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13983,7 +12468,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13411221991",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -13994,7 +12478,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13564688073",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14005,7 +12488,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/14005155990",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14016,7 +12498,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13115438573",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14027,7 +12508,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/14157454947",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14038,7 +12518,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/4988103646",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14049,7 +12528,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13404182309",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14060,7 +12538,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13140818528",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14071,7 +12548,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13393165058",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14082,7 +12558,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13115438589",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14093,7 +12568,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13565370470",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14104,7 +12578,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/7242411606",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14115,7 +12588,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13462208815",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14126,7 +12598,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/4995598372",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14137,7 +12608,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/8984365982",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14148,7 +12618,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/6801301289",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14159,7 +12628,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13140818521",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14170,7 +12638,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13462228388",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14181,7 +12648,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/14103742129",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14192,7 +12658,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13974095165",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14203,7 +12668,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/14087885550",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14214,7 +12678,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13411187634",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14225,7 +12688,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13411187570",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14236,7 +12698,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/12909688185",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14247,7 +12708,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13446552941",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14258,7 +12718,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/6717280913",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14269,7 +12728,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13414565391",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14280,7 +12738,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/14157476517",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14291,7 +12748,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13414716795",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14302,7 +12758,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/13462162024",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14313,7 +12768,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/9569024127",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14324,7 +12778,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/5264669428",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14335,7 +12788,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/7262931614",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14346,7 +12798,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/14114227717",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14357,7 +12808,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/4910212448",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14368,7 +12818,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/9814596394",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14379,7 +12828,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/14024511725",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14390,7 +12838,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/4776439990",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14401,7 +12848,6 @@
       "stanje": null,
       "izvor": "https://commons.wikimedia.org/wiki/File%3AMonumento_caduti_-_Kr%C5%A1an_01.jpg",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14412,7 +12858,6 @@
       "stanje": null,
       "izvor": "https://commons.wikimedia.org/wiki/File%3ASpomenik_streljanima%2C_Lovi%C5%A1te.5542.JPG",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14423,7 +12868,6 @@
       "stanje": null,
       "izvor": "https://commons.wikimedia.org/wiki/File%3ABaljci_%E2%80%93_spomenik_%282020%29_01.jpg",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14434,7 +12878,6 @@
       "stanje": null,
       "izvor": "https://commons.wikimedia.org/wiki/File%3ASpomen-plo%C4%8Da%2C_Stobre%C4%8D_091742.jpg",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14445,7 +12888,6 @@
       "stanje": null,
       "izvor": "https://commons.wikimedia.org/wiki/File%3A%C5%A0idski_Banovci-%D0%A8%D0%B8%D0%B4%D1%81%D0%BA%D0%B8_%D0%91%D0%B0%D0%BD%D0%BE%D0%B2%D1%86%D0%B8-2017-1.jpg",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14456,7 +12898,6 @@
       "stanje": null,
       "izvor": "https://commons.wikimedia.org/wiki/File%3ANOB_Pa%C4%8Detin.jpg",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14467,7 +12908,6 @@
       "stanje": null,
       "izvor": "https://commons.wikimedia.org/wiki/File%3APlaque_to_the_Partisans_and_victims_of_Fascist_Terror_in_Mirkovci_05.jpg",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14478,7 +12918,6 @@
       "stanje": null,
       "izvor": "https://commons.wikimedia.org/wiki/File%3APODACA_Spomenik20191009_Musulin.jpg",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14489,7 +12928,6 @@
       "stanje": null,
       "izvor": "https://commons.wikimedia.org/wiki/File%3ANOB_Grdoselo%2C_Istra.jpg",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14500,7 +12938,6 @@
       "stanje": null,
       "izvor": "https://commons.wikimedia.org/wiki/File%3AWorld_War_II_monument_in_Borovo_Naselje.jpg",
       "prioritet": -100,
-      "kandidati": [],
       "status": "radni-spisak"
     },
     {
@@ -14511,7 +12948,6 @@
       "stanje": null,
       "izvor": "https://commons.wikimedia.org/wiki/File%3AHR-VA-Vidovec12.jpg",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14522,7 +12958,6 @@
       "stanje": null,
       "izvor": "https://commons.wikimedia.org/wiki/File%3AHR-PG-Vrbovsko09.jpg",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14533,7 +12968,6 @@
       "stanje": null,
       "izvor": "https://commons.wikimedia.org/wiki/File%3AHR-PG-Mo%C5%A1%C4%87eni%C4%8Dka_Draga05.jpg",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14544,7 +12978,6 @@
       "stanje": null,
       "izvor": "https://commons.wikimedia.org/wiki/File%3ASpomenik_%C5%BErtvama_II._svjetskog_rata_u_Prvi%C4%87_Luci.jpg",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14555,7 +12988,6 @@
       "stanje": null,
       "izvor": "https://commons.wikimedia.org/wiki/File%3ASpomenik_minerima%2C_Prvi%C4%87_%C5%A0epurine.jpg",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14566,7 +12998,6 @@
       "stanje": null,
       "izvor": "https://commons.wikimedia.org/wiki/File%3ADonji_Lo%C5%BEac_9_2.jpg",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14577,7 +13008,6 @@
       "stanje": null,
       "izvor": "https://commons.wikimedia.org/wiki/File%3AHR-IS-Kr%C5%A1an067.jpg",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14588,7 +13018,6 @@
       "stanje": null,
       "izvor": "https://commons.wikimedia.org/wiki/File%3AHR-IS-Pazin74.jpg",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14599,7 +13028,6 @@
       "stanje": null,
       "izvor": "https://hr-cro.com/croatia/drivenik-monument-spomenik-nob/slo",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14610,7 +13038,6 @@
       "stanje": null,
       "izvor": "https://registar.kulturnadobra.hr/api/kulturno-dobro/detail/Z-7029",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14621,7 +13048,6 @@
       "stanje": null,
       "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/231/",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14632,7 +13058,6 @@
       "stanje": null,
       "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/237/",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14643,7 +13068,6 @@
       "stanje": null,
       "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/145/",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14654,7 +13078,6 @@
       "stanje": null,
       "izvor": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BF%D0%B0%D0%BB%D0%B8%D0%BC_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D1%83_%D0%9D%D0%9E%D0%91%2C_%D0%BD%D0%B0%D0%BA%D0%BE%D0%BD_%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%B5_2020._%D0%B3%D0%BE%D0%B4%D0%B8%D0%BD%D0%B5.jpg",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14665,7 +13088,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/node/10233746592",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14676,7 +13098,6 @@
       "stanje": null,
       "izvor": "https://www.openstreetmap.org/way/376818189",
       "prioritet": -100,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14685,7 +13106,6 @@
       "naziv": "Spomenik NOB-u",
       "vrsta": "spomen-obelezje",
       "stanje": null,
-      "izvor": null,
       "prioritet": -110,
       "kandidati": [
         {
@@ -14749,7 +13169,6 @@
       "naziv": "Spomenik palim borcima NOB-a",
       "vrsta": "spomen-obelezje",
       "stanje": "rusevine",
-      "izvor": null,
       "prioritet": -120,
       "kandidati": [
         {
@@ -14765,9 +13184,7 @@
       "naziv": "Spomenik partizanskom logoru Gaćešin",
       "vrsta": "spomenik",
       "stanje": "rusevine",
-      "izvor": null,
       "prioritet": -170,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14776,9 +13193,7 @@
       "naziv": "Spomenik palim borcima i žrtvama fašizma",
       "vrsta": "spomenik",
       "stanje": "uklonjen",
-      "izvor": null,
       "prioritet": -170,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     },
     {
@@ -14787,9 +13202,7 @@
       "naziv": "Spomenik palim borcima",
       "vrsta": "statua",
       "stanje": "rusevine",
-      "izvor": null,
       "prioritet": -170,
-      "kandidati": [],
       "status": "bez kandidata u ovom prolazu"
     }
   ]

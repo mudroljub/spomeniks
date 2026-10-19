@@ -1,13 +1,8 @@
 {
   "datum": "2026-10-18",
   "obim": "20 najizglednijih preostalih wiki stranica bez direktne veze, posle prethodnog ponovnog prolaza drugog radnika. Proba po verovatnoći, bez automatskog uvoza ostatka.",
-  "pre": {
-    "markeri": 10455,
-    "bezLokacije": 3377
-  },
   "novi": [
     {
-      "rang": 9,
       "id": "zemun-grobnica-zrtava-logora-sajmiste",
       "wikiStranica": "Beograd - Zemunsko Groblje",
       "wikiUrl": "https://www.xiwl.com/w/index.php/Beograd_-_Zemunsko_Groblje",
@@ -40,44 +35,26 @@
         "metapodaci": {
           "DateTime": {
             "value": "2022-09-19T20:55:51Z",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           },
           "ObjectName": {
             "value": "Beograd ZemunskoGroblje03",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           }
-        },
-        "izvorniEXIF": {}
+        }
       },
       "dopunskiIzvori": [
         "https://zemun.rs/o-%D0%B7%D0%B5%D0%BC%D1%83%D0%BD%D1%83/kultura/%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D1%86%D0%B8-%D0%BA%D1%83%D0%BB%D1%82%D1%83%D1%80%D0%B5-2/?script=lat",
         "https://www.beograd.rs/lat/beoinfo-vesti/a109163/Komemoracija-zemunskim-Jevrejima.html",
         "https://cja.huji.ac.il/hmm/browser.php?id=50284&mode=set"
       ],
-      "pre": null,
       "proveraIdentiteta": "CJA ID 50284: isto belo stepenasto obelezje sa bocnim posudama, natpis 1941-1945 i potpis Saveza boraca NOR Zemun; potvrdena masovna grobnica Sajmista iz 1957. Akademska evidencija daje drugu tacku oko 72 m zapadno; zadrzana konkretna wiki tacka istog objekta opisanog kao vidljivog na satelitu, bez tvrdnje da dva izvora nezavisno potvrdjuju isti GPS.",
       "posle": {
         "id": "zemun-grobnica-zrtava-logora-sajmiste",
-        "koordinate": {
-          "lat": 44.84878,
-          "lng": 20.405797
-        },
-        "mesto": "Beograd (Zemun)",
-        "izvor": "https://www.xiwl.com/w/index.php/Beograd_-_Zemunsko_Groblje",
-        "slika": "slike/spomenici/zemun-grobnica-zrtava-logora-sajmiste.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Partisan Memorials Wiki",
-        "naziv": "Spomen-grobnica žrtava fašističkog terora",
-        "godina": "1957",
-        "posveta": "Žrtvama logora Sajmište sahranjenim u masovnoj grobnici na Zemunskom groblju.",
-        "vrsta": "spomen-groblje",
-        "drzava": "Serbia"
+        "izvor": "https://www.xiwl.com/w/index.php/Beograd_-_Zemunsko_Groblje"
       }
     },
     {
-      "rang": 10,
       "id": "beograd-vaznesenska-crkva-zrtve-bombardovanja",
       "wikiStranica": "Beograd - Spomenik Žrtvama Bombardovanja",
       "wikiUrl": "https://www.xiwl.com/w/index.php/Beograd_-_Spomenik_%C5%BDrtvama_Bombardovanja",
@@ -110,37 +87,20 @@
         "metapodaci": {
           "DateTime": {
             "value": "2022-09-11T20:01:57Z",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           },
           "ObjectName": {
             "value": "Beograd SpomenikŽrtvamaBombardovanja01",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           }
-        },
-        "izvorniEXIF": {}
+        }
       },
-      "dopunskiIzvori": [],
-      "pre": null,
       "posle": {
         "id": "beograd-vaznesenska-crkva-zrtve-bombardovanja",
-        "koordinate": {
-          "lat": 44.807636,
-          "lng": 20.461785
-        },
-        "mesto": "Beograd (Savski venac)",
-        "izvor": "https://www.xiwl.com/w/index.php/Beograd_-_Spomenik_%C5%BDrtvama_Bombardovanja",
-        "slika": "slike/spomenici/beograd-vaznesenska-crkva-zrtve-bombardovanja.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Partisan Memorials Wiki",
-        "naziv": "Spomenik žrtvama bombardovanja 6. aprila 1941",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "izvor": "https://www.xiwl.com/w/index.php/Beograd_-_Spomenik_%C5%BDrtvama_Bombardovanja"
       }
     },
     {
-      "rang": 46,
       "id": "konarevo-spomenik-deci-izbeglicama",
       "wikiStranica": "Konarevo - Orphans Memorial",
       "wikiUrl": "https://www.xiwl.com/w/index.php/Konarevo_-_Orphans_Memorial",
@@ -169,7 +129,6 @@
         "fajl": "izvori\\pretrage\\wiki-propusti-2026-10-18\\46-zamena.jpg",
         "url": "https://www.krug.rs/wp-content/uploads/2020/10/Piramida-na-groblju-u-Konarevu-autor-arhitekta-Spasoje-Krunic-640x418.jpg",
         "potpis": "KRUG",
-        "metapodaci": {},
         "izvorniEXIF": {
           "exif:DateTimeOriginal": "2020:10:27 14:47:06"
         },
@@ -179,28 +138,13 @@
         "https://www.rts.rs/lat/vesti/drustvo/4627930/spomeniku-u-konarevu-krije-tuznu-pricu-o-gladnoj-deci-iz-doma.html",
         "https://www.krug.rs/tajna-piramide-u-konarevu/"
       ],
-      "pre": null,
       "posle": {
         "id": "konarevo-spomenik-deci-izbeglicama",
-        "koordinate": {
-          "lat": 43.6965732,
-          "lng": 20.6043951
-        },
-        "mesto": "Konarevo",
         "izvor": "https://www.xiwl.com/w/index.php/Konarevo_-_Orphans_Memorial",
-        "clanak": "https://www.krug.rs/tajna-piramide-u-konarevu/",
-        "slika": "slike/spomenici/konarevo-spomenik-deci-izbeglicama.webp",
-        "slikaOdnos": 1.533,
-        "slikaPotpis": "KRUG",
-        "naziv": "Spomenik deci izbeglicama",
-        "autor": "Spasoje Krunić",
-        "posveta": "Deci izbeglicama koja su tokom Drugog svetskog rata umrla u domovima u Mataruškoj Banji i okolini.",
-        "vrsta": "spomen-groblje",
-        "drzava": "Serbia"
+        "clanak": "https://www.krug.rs/tajna-piramide-u-konarevu/"
       }
     },
     {
-      "rang": 49,
       "id": "kraljevo-aleja-nosilaca-spomenice-1941",
       "wikiStranica": "Kraljevo - Stari Groblje",
       "wikiUrl": "https://www.xiwl.com/w/index.php/Kraljevo_-_Stari_Groblje",
@@ -233,42 +177,24 @@
         "metapodaci": {
           "DateTime": {
             "value": "2019-01-22T00:54:03Z",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           },
           "ObjectName": {
             "value": "KraljevoStariGroblje03",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           }
-        },
-        "izvorniEXIF": {}
+        }
       },
       "dopunskiIzvori": [
         "https://www.krug.rs/1690-sanacija-posle-vise-od-40-godina/"
       ],
-      "pre": null,
       "posle": {
         "id": "kraljevo-aleja-nosilaca-spomenice-1941",
-        "koordinate": {
-          "lat": 43.728573,
-          "lng": 20.683527
-        },
-        "mesto": "Kraljevo",
         "izvor": "https://www.xiwl.com/w/index.php/Kraljevo_-_Stari_Groblje",
-        "clanak": "https://www.krug.rs/1690-sanacija-posle-vise-od-40-godina/",
-        "slika": "slike/spomenici/kraljevo-aleja-nosilaca-spomenice-1941.webp",
-        "slikaOdnos": 1.333,
-        "slikaPotpis": "Partisan Memorials Wiki",
-        "naziv": "Aleja nosilaca Partizanske spomenice 1941",
-        "godina": "1976",
-        "autor": "Mihajlo Dimitrić",
-        "vrsta": "spomen-groblje",
-        "drzava": "Serbia"
+        "clanak": "https://www.krug.rs/1690-sanacija-posle-vise-od-40-godina/"
       }
     },
     {
-      "rang": 50,
       "id": "kranj-spominski-park-strazisce",
       "wikiStranica": "Kranj - Spominski Park Stražišče",
       "wikiUrl": "https://www.xiwl.com/w/index.php/Kranj_-_Spominski_Park_Stra%C5%BEi%C5%A1%C4%8De",
@@ -301,42 +227,23 @@
         "metapodaci": {
           "DateTime": {
             "value": "2020-08-28T01:01:40Z",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           },
           "ObjectName": {
             "value": "KranjStrazisceSpomenik01",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           }
-        },
-        "izvorniEXIF": {}
+        }
       },
       "dopunskiIzvori": [
         "https://partizanstvo.si/en/detail/partisanmemorial/156/"
       ],
-      "pre": null,
       "posle": {
         "id": "kranj-spominski-park-strazisce",
-        "koordinate": {
-          "lat": 46.232232,
-          "lng": 14.347634
-        },
-        "mesto": "Kranj (Stražišče)",
-        "izvor": "https://www.xiwl.com/w/index.php/Kranj_-_Spominski_Park_Stra%C5%BEi%C5%A1%C4%8De",
-        "slika": "slike/spomenici/kranj-spominski-park-strazisce.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Partisan Memorials Wiki",
-        "naziv": "Spominski park pri cerkvi sv. Martina v Stražišču",
-        "godina": "1980",
-        "autor": "Klemen Kobal & Miha Ogorevc",
-        "posveta": "135 žrtvam druge svetovne vojne; osrednji del parka temelji na grobišču 60 žrtev fašizma.",
-        "vrsta": "spomen-groblje",
-        "drzava": "Slovenia"
+        "izvor": "https://www.xiwl.com/w/index.php/Kranj_-_Spominski_Park_Stra%C5%BEi%C5%A1%C4%8De"
       }
     },
     {
-      "rang": 51,
       "id": "kraljevo-dositejeva-spomenik-nob",
       "wikiStranica": "Kraljevo - Spomenik NOB",
       "wikiUrl": "https://www.xiwl.com/w/index.php/Kraljevo_-_Spomenik_NOB",
@@ -369,37 +276,20 @@
         "metapodaci": {
           "DateTime": {
             "value": "2022-10-02T21:56:07Z",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           },
           "ObjectName": {
             "value": "Kraljevo SpomenikNOB01",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           }
-        },
-        "izvorniEXIF": {}
+        }
       },
-      "dopunskiIzvori": [],
-      "pre": null,
       "posle": {
         "id": "kraljevo-dositejeva-spomenik-nob",
-        "koordinate": {
-          "lat": 43.725613,
-          "lng": 20.715276
-        },
-        "mesto": "Kraljevo",
-        "izvor": "https://www.xiwl.com/w/index.php/Kraljevo_-_Spomenik_NOB",
-        "slika": "slike/spomenici/kraljevo-dositejeva-spomenik-nob.webp",
-        "slikaOdnos": 1.465,
-        "slikaPotpis": "Partisan Memorials Wiki",
-        "naziv": "Spomenik NOB",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "izvor": "https://www.xiwl.com/w/index.php/Kraljevo_-_Spomenik_NOB"
       }
     },
     {
-      "rang": 56,
       "id": "ljubljana-spomenik-kulturnim-delavcem-padlim-nob",
       "wikiStranica": "Ljubljana - Spomenik Kulturnim Delavcem, Padlim v NOB",
       "wikiUrl": "https://www.xiwl.com/w/index.php/Ljubljana_-_Spomenik_Kulturnim_Delavcem%2C_Padlim_v_NOB",
@@ -432,39 +322,20 @@
         "metapodaci": {
           "DateTime": {
             "value": "2020-08-31T23:36:52Z",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           },
           "ObjectName": {
             "value": "LjubljanaSpomenikKulturnimDelavcem02",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           }
-        },
-        "izvorniEXIF": {}
+        }
       },
-      "dopunskiIzvori": [],
-      "pre": null,
       "posle": {
         "id": "ljubljana-spomenik-kulturnim-delavcem-padlim-nob",
-        "koordinate": {
-          "lat": 46.061702,
-          "lng": 14.512341
-        },
-        "mesto": "Ljubljana",
-        "izvor": "https://www.xiwl.com/w/index.php/Ljubljana_-_Spomenik_Kulturnim_Delavcem%2C_Padlim_v_NOB",
-        "slika": "slike/spomenici/ljubljana-spomenik-kulturnim-delavcem-padlim-nob.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Partisan Memorials Wiki",
-        "naziv": "Spomenik kulturnim delavcem, padlim v NOB",
-        "godina": "2011",
-        "autor": "Janez Pirnat",
-        "vrsta": "statua",
-        "drzava": "Slovenia"
+        "izvor": "https://www.xiwl.com/w/index.php/Ljubljana_-_Spomenik_Kulturnim_Delavcem%2C_Padlim_v_NOB"
       }
     },
     {
-      "rang": 57,
       "id": "lunjevac-spomenik-palim-borcima",
       "wikiStranica": "Lunjevac - Spomenik Palim Borcima",
       "wikiUrl": "https://www.xiwl.com/w/index.php/Lunjevac_-_Spomenik_Palim_Borcima",
@@ -497,39 +368,20 @@
         "metapodaci": {
           "DateTime": {
             "value": "2024-09-03T18:27:08Z",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           },
           "ObjectName": {
             "value": "Lunjevac SpomenikPalimBorcima21",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           }
-        },
-        "izvorniEXIF": {}
+        }
       },
-      "dopunskiIzvori": [],
-      "pre": null,
       "posle": {
         "id": "lunjevac-spomenik-palim-borcima",
-        "koordinate": {
-          "lat": 44.547275,
-          "lng": 20.890509
-        },
-        "mesto": "Lunjevac",
-        "izvor": "https://www.xiwl.com/w/index.php/Lunjevac_-_Spomenik_Palim_Borcima",
-        "slika": "slike/spomenici/lunjevac-spomenik-palim-borcima.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Partisan Memorials Wiki",
-        "naziv": "Spomenik palim borcima",
-        "autor": "Z. Đukić",
-        "posveta": "Za 350 boraca poginulih u Drugom svetskom ratu.",
-        "vrsta": "spomenik",
-        "drzava": "Serbia"
+        "izvor": "https://www.xiwl.com/w/index.php/Lunjevac_-_Spomenik_Palim_Borcima"
       }
     },
     {
-      "rang": 69,
       "id": "rijeka-spomenik-palim-zeljeznicarima",
       "wikiStranica": "Rijeka - Spomenik Palim Borcima NOVJ",
       "wikiUrl": "https://www.xiwl.com/w/index.php/Rijeka_-_Spomenik_Palim_Borcima_NOVJ",
@@ -562,39 +414,20 @@
         "metapodaci": {
           "DateTime": {
             "value": "2023-08-29T19:55:49Z",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           },
           "ObjectName": {
             "value": "Rijeka SpomenikPalimBorcimaNOVJ1",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           }
-        },
-        "izvorniEXIF": {}
+        }
       },
-      "dopunskiIzvori": [],
-      "pre": null,
       "posle": {
         "id": "rijeka-spomenik-palim-zeljeznicarima",
-        "koordinate": {
-          "lat": 45.329445,
-          "lng": 14.433876
-        },
-        "mesto": "Rijeka",
-        "izvor": "https://www.xiwl.com/w/index.php/Rijeka_-_Spomenik_Palim_Borcima_NOVJ",
-        "slika": "slike/spomenici/rijeka-spomenik-palim-zeljeznicarima.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Partisan Memorials Wiki",
-        "naziv": "Spomenik palim željezničarima",
-        "godina": "1954",
-        "autor": "Vinko Matković",
-        "vrsta": "statua",
-        "drzava": "Croatia"
+        "izvor": "https://www.xiwl.com/w/index.php/Rijeka_-_Spomenik_Palim_Borcima_NOVJ"
       }
     },
     {
-      "rang": 70,
       "id": "rijeka-susak-vidikovac-spomenik-nob",
       "wikiStranica": "Rijeka (Sušak) - Spomenik NOB Vidikovac",
       "wikiUrl": "https://www.xiwl.com/w/index.php/Rijeka_(Su%C5%A1ak)_-_Spomenik_NOB_Vidikovac",
@@ -627,37 +460,20 @@
         "metapodaci": {
           "DateTime": {
             "value": "2023-08-29T21:22:03Z",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           },
           "ObjectName": {
             "value": "Rijeka SpomenikVidikovac04",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           }
-        },
-        "izvorniEXIF": {}
+        }
       },
-      "dopunskiIzvori": [],
-      "pre": null,
       "posle": {
         "id": "rijeka-susak-vidikovac-spomenik-nob",
-        "koordinate": {
-          "lat": 45.327875,
-          "lng": 14.452345
-        },
-        "mesto": "Rijeka (Sušak, Vidikovac)",
-        "izvor": "https://www.xiwl.com/w/index.php/Rijeka_(Su%C5%A1ak)_-_Spomenik_NOB_Vidikovac",
-        "slika": "slike/spomenici/rijeka-susak-vidikovac-spomenik-nob.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Partisan Memorials Wiki",
-        "naziv": "Spomenik palim borcima i žrtvama fašizma",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia"
+        "izvor": "https://www.xiwl.com/w/index.php/Rijeka_(Su%C5%A1ak)_-_Spomenik_NOB_Vidikovac"
       }
     },
     {
-      "rang": 71,
       "id": "rijeka-susak-spomenik-palim-gimnazijalcima",
       "wikiStranica": "Rijeka (Sušak) - Spomenik NOB",
       "wikiUrl": "https://www.xiwl.com/w/index.php/Rijeka_(Su%C5%A1ak)_-_Spomenik_NOB",
@@ -690,40 +506,23 @@
         "metapodaci": {
           "DateTime": {
             "value": "2023-08-29T21:24:37Z",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           },
           "ObjectName": {
             "value": "Rijeka SpomenikSušakGymnasium02",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           }
-        },
-        "izvorniEXIF": {}
+        }
       },
       "dopunskiIzvori": [
         "https://www.rijeka.hr/razgledali-smo-zgradu-prve-susacke-hrvatske-gimnazije/"
       ],
-      "pre": null,
       "posle": {
         "id": "rijeka-susak-spomenik-palim-gimnazijalcima",
-        "koordinate": {
-          "lat": 45.325703,
-          "lng": 14.454863
-        },
-        "mesto": "Rijeka (Sušak)",
-        "izvor": "https://www.xiwl.com/w/index.php/Rijeka_(Su%C5%A1ak)_-_Spomenik_NOB",
-        "slika": "slike/spomenici/rijeka-susak-spomenik-palim-gimnazijalcima.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Partisan Memorials Wiki",
-        "naziv": "Spomenik palim gimnazijalcima",
-        "autor": "Barbara Kolar",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Croatia"
+        "izvor": "https://www.xiwl.com/w/index.php/Rijeka_(Su%C5%A1ak)_-_Spomenik_NOB"
       }
     },
     {
-      "rang": 80,
       "id": "temerin-staro-djurdjevo-spomenik-nob",
       "wikiStranica": "Temerin - Spomenik NOB",
       "wikiUrl": "https://www.xiwl.com/w/index.php/Temerin_-_Spomenik_NOB",
@@ -756,38 +555,20 @@
         "metapodaci": {
           "DateTime": {
             "value": "2024-04-10T21:11:14Z",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           },
           "ObjectName": {
             "value": "Temerin SpomenikNOB03",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           }
-        },
-        "izvorniEXIF": {}
+        }
       },
-      "dopunskiIzvori": [],
-      "pre": null,
       "posle": {
         "id": "temerin-staro-djurdjevo-spomenik-nob",
-        "koordinate": {
-          "lat": 45.391354,
-          "lng": 19.881236
-        },
-        "mesto": "Temerin (Staro Đurđevo)",
-        "izvor": "https://www.xiwl.com/w/index.php/Temerin_-_Spomenik_NOB",
-        "slika": "slike/spomenici/temerin-staro-djurdjevo-spomenik-nob.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Partisan Memorials Wiki",
-        "naziv": "Spomenik palim borcima i žrtvama fašizma",
-        "godina": "1987",
-        "vrsta": "spomenik",
-        "drzava": "Serbia"
+        "izvor": "https://www.xiwl.com/w/index.php/Temerin_-_Spomenik_NOB"
       }
     },
     {
-      "rang": 84,
       "id": "velenje-pesje-spomenik-nob",
       "wikiStranica": "Velenje (Pesje) - Spomenik NOB",
       "wikiUrl": "https://www.xiwl.com/w/index.php/Velenje_(Pesje)_-_Spomenik_NOB",
@@ -820,38 +601,20 @@
         "metapodaci": {
           "DateTime": {
             "value": "2020-08-24T19:59:51Z",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           },
           "ObjectName": {
             "value": "PesjeSpomenik02",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           }
-        },
-        "izvorniEXIF": {}
+        }
       },
-      "dopunskiIzvori": [],
-      "pre": null,
       "posle": {
         "id": "velenje-pesje-spomenik-nob",
-        "koordinate": {
-          "lat": 46.36744,
-          "lng": 15.082311
-        },
-        "mesto": "Velenje (Pesje)",
-        "izvor": "https://www.xiwl.com/w/index.php/Velenje_(Pesje)_-_Spomenik_NOB",
-        "slika": "slike/spomenici/velenje-pesje-spomenik-nob.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Partisan Memorials Wiki",
-        "naziv": "Spomenik NOB pri gasilskem domu v Pesju",
-        "godina": "1986",
-        "vrsta": "spomenik",
-        "drzava": "Slovenia"
+        "izvor": "https://www.xiwl.com/w/index.php/Velenje_(Pesje)_-_Spomenik_NOB"
       }
     },
     {
-      "rang": 95,
       "id": "sabac-kurir",
       "wikiStranica": "Šabac - Spomenik Kurir",
       "wikiUrl": "https://www.xiwl.com/w/index.php/%C5%A0abac_-_Spomenik_Kurir",
@@ -884,40 +647,22 @@
         "metapodaci": {
           "DateTime": {
             "value": "2024-09-18T21:05:39Z",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           },
           "ObjectName": {
             "value": "Šabac SpomenikKurir03",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           }
-        },
-        "izvorniEXIF": {}
+        }
       },
-      "dopunskiIzvori": [],
-      "pre": null,
       "posle": {
         "id": "sabac-kurir",
-        "koordinate": {
-          "lat": 44.758694,
-          "lng": 19.691389
-        },
-        "mesto": "Šabac",
-        "izvor": "https://www.xiwl.com/w/index.php/%C5%A0abac_-_Spomenik_Kurir",
-        "slika": "slike/spomenici/sabac-kurir.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Partisan Memorials Wiki",
-        "naziv": "Kurir",
-        "autor": "Stevan Bodnarov",
-        "vrsta": "statua",
-        "drzava": "Serbia"
+        "izvor": "https://www.xiwl.com/w/index.php/%C5%A0abac_-_Spomenik_Kurir"
       }
     }
   ],
   "ispravljeni": [
     {
-      "rang": 12,
       "id": "gornji-milanovac-spomenik-borbe",
       "wikiStranica": "Gornji Milanovac - Spomenik Palim Borcima i Žrtvama Fašizma",
       "wikiUrl": "https://www.xiwl.com/w/index.php/Gornji_Milanovac_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1izma",
@@ -950,18 +695,14 @@
         "metapodaci": {
           "DateTime": {
             "value": "2019-01-27T22:59:02Z",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           },
           "ObjectName": {
             "value": "GornjiMilanovacGradskiPark02",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           }
-        },
-        "izvorniEXIF": {}
+        }
       },
-      "dopunskiIzvori": [],
       "pre": {
         "id": "gornji-milanovac-spomenik-borbe",
         "koordinate": {
@@ -969,32 +710,16 @@
           "lng": 20.46004
         },
         "priblizno": true,
-        "mesto": "Gornji Milanovac",
         "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=49",
         "naziv": "Spomenik borbe",
-        "autor": "R. Stojadinović",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "vrsta": "spomen-obelezje"
       },
       "posle": {
         "id": "gornji-milanovac-spomenik-borbe",
-        "koordinate": {
-          "lat": 44.0236718,
-          "lng": 20.4589797
-        },
-        "mesto": "Gornji Milanovac",
-        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=49",
-        "slika": "slike/spomenici/gornji-milanovac-spomenik-borbe.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Partisan Memorials Wiki",
-        "naziv": "Spomenik borbe, stradanja i pobede",
-        "autor": "R. Stojadinović",
-        "vrsta": "spomenik",
-        "drzava": "Serbia"
+        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=49"
       }
     },
     {
-      "rang": 63,
       "id": "novo-selo-spomenik-borcima-nor-a-1941-1945",
       "wikiStranica": "Novo Selo (Loznica) - Spomenik Palim Borcima",
       "wikiUrl": "https://www.xiwl.com/w/index.php/Novo_Selo_(Loznica)_-_Spomenik_Palim_Borcima",
@@ -1027,28 +752,22 @@
         "metapodaci": {
           "DateTime": {
             "value": "2016-07-09 18:42:29",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           },
           "ObjectName": {
             "value": "Novo Selo 004",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           },
           "CommonsMetadataExtension": {
             "value": 1.2,
-            "source": "extension",
-            "hidden": ""
+            "source": "extension"
           },
           "Categories": {
             "value": "Self-published work|Projekat Kulturno nasleđe Mačve i Pocerine|Novo Selo (Loznica)",
-            "source": "commons-categories",
-            "hidden": ""
+            "source": "commons-categories"
           },
           "Assessments": {
-            "value": "",
-            "source": "commons-categories",
-            "hidden": ""
+            "source": "commons-categories"
           },
           "ImageDescription": {
             "value": "Spomenici u centru sela, Novo Selo",
@@ -1060,8 +779,7 @@
           },
           "Credit": {
             "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
-            "source": "commons-desc-page",
-            "hidden": ""
+            "source": "commons-desc-page"
           },
           "Artist": {
             "value": "<a href=\"//commons.wikimedia.org/wiki/User:%D0%92%D0%B0%D0%BD%D0%B8%D0%BB%D0%B8%D1%86%D0%B0\" title=\"User:Ванилица\">Ванилица</a>",
@@ -1069,44 +787,34 @@
           },
           "LicenseShortName": {
             "value": "CC BY-SA 4.0",
-            "source": "commons-desc-page",
-            "hidden": ""
+            "source": "commons-desc-page"
           },
           "UsageTerms": {
             "value": "Creative Commons Attribution-Share Alike 4.0",
-            "source": "commons-desc-page",
-            "hidden": ""
+            "source": "commons-desc-page"
           },
           "AttributionRequired": {
             "value": "true",
-            "source": "commons-desc-page",
-            "hidden": ""
+            "source": "commons-desc-page"
           },
           "LicenseUrl": {
             "value": "https://creativecommons.org/licenses/by-sa/4.0",
-            "source": "commons-desc-page",
-            "hidden": ""
+            "source": "commons-desc-page"
           },
           "Copyrighted": {
             "value": "True",
-            "source": "commons-desc-page",
-            "hidden": ""
+            "source": "commons-desc-page"
           },
           "Restrictions": {
-            "value": "",
-            "source": "commons-desc-page",
-            "hidden": ""
+            "source": "commons-desc-page"
           },
           "License": {
             "value": "cc-by-sa-4.0",
-            "source": "commons-templates",
-            "hidden": ""
+            "source": "commons-templates"
           }
         },
-        "izvorniEXIF": {},
         "apiZamene": "izvori/pretrage/wiki-propusti-2026-10-18/63-zamena-api.json"
       },
-      "dopunskiIzvori": [],
       "pre": {
         "id": "novo-selo-spomenik-borcima-nor-a-1941-1945",
         "koordinate": {
@@ -1116,30 +824,14 @@
         "priblizno": true,
         "mesto": "Novo Selo",
         "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=84",
-        "naziv": "Spomenik borcima NOR-a 1941-1945",
-        "godina": "1978",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "vrsta": "spomen-obelezje"
       },
       "posle": {
         "id": "novo-selo-spomenik-borcima-nor-a-1941-1945",
-        "koordinate": {
-          "lat": 44.670647,
-          "lng": 19.343387
-        },
-        "mesto": "Novo Selo (Loznica)",
-        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=84",
-        "slika": "slike/spomenici/novo-selo-spomenik-borcima-nor-a-1941-1945.webp",
-        "slikaOdnos": 0.667,
-        "slikaPotpis": "Ванилица, CC BY-SA 4.0",
-        "naziv": "Spomenik borcima NOR-a 1941-1945",
-        "godina": "1978",
-        "vrsta": "spomenik",
-        "drzava": "Serbia"
+        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=84"
       }
     },
     {
-      "rang": 64,
       "id": "opovo-spomenik-palim-1941-1945",
       "wikiStranica": "Opovo - Spomenik Palim Borcima",
       "wikiUrl": "https://www.xiwl.com/w/index.php/Opovo_-_Spomenik_Palim_Borcima",
@@ -1172,28 +864,22 @@
         "metapodaci": {
           "DateTime": {
             "value": "2026-07-07 23:30:23",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           },
           "ObjectName": {
             "value": "Spomenik NOB Opovo 01",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           },
           "CommonsMetadataExtension": {
             "value": 1.2,
-            "source": "extension",
-            "hidden": ""
+            "source": "extension"
           },
           "Categories": {
             "value": "Opovo|World War II memorials in Serbia|Self-published work|Files with coordinates missing SDC location of creation",
-            "source": "commons-categories",
-            "hidden": ""
+            "source": "commons-categories"
           },
           "Assessments": {
-            "value": "",
-            "source": "commons-categories",
-            "hidden": ""
+            "source": "commons-categories"
           },
           "GPSLatitude": {
             "value": "45.052418",
@@ -1205,8 +891,7 @@
           },
           "GPSMapDatum": {
             "value": "WGS-84",
-            "source": "commons-desc-page",
-            "hidden": ""
+            "source": "commons-desc-page"
           },
           "ImageDescription": {
             "value": "Spomenik NOB-a u Opovu",
@@ -1218,8 +903,7 @@
           },
           "Credit": {
             "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
-            "source": "commons-desc-page",
-            "hidden": ""
+            "source": "commons-desc-page"
           },
           "Artist": {
             "value": "<a href=\"//commons.wikimedia.org/wiki/User:Vanjagenije\" title=\"User:Vanjagenije\">Vanjagenije</a>",
@@ -1227,43 +911,33 @@
           },
           "LicenseShortName": {
             "value": "CC BY-SA 4.0",
-            "source": "commons-desc-page",
-            "hidden": ""
+            "source": "commons-desc-page"
           },
           "UsageTerms": {
             "value": "Creative Commons Attribution-Share Alike 4.0",
-            "source": "commons-desc-page",
-            "hidden": ""
+            "source": "commons-desc-page"
           },
           "AttributionRequired": {
             "value": "true",
-            "source": "commons-desc-page",
-            "hidden": ""
+            "source": "commons-desc-page"
           },
           "LicenseUrl": {
             "value": "https://creativecommons.org/licenses/by-sa/4.0",
-            "source": "commons-desc-page",
-            "hidden": ""
+            "source": "commons-desc-page"
           },
           "Copyrighted": {
             "value": "True",
-            "source": "commons-desc-page",
-            "hidden": ""
+            "source": "commons-desc-page"
           },
           "Restrictions": {
-            "value": "",
-            "source": "commons-desc-page",
-            "hidden": ""
+            "source": "commons-desc-page"
           },
           "License": {
             "value": "cc-by-sa-4.0",
-            "source": "commons-templates",
-            "hidden": ""
+            "source": "commons-templates"
           }
-        },
-        "izvorniEXIF": {}
+        }
       },
-      "dopunskiIzvori": [],
       "pre": {
         "id": "opovo-spomenik-palim-1941-1945",
         "koordinate": {
@@ -1271,32 +945,15 @@
           "lng": 20.42545
         },
         "priblizno": true,
-        "mesto": "Opovo",
         "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=137",
-        "naziv": "Spomenik palim 1941-1945",
-        "autor": "R. Stanković, B. Bon",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "vrsta": "spomen-obelezje"
       },
       "posle": {
         "id": "opovo-spomenik-palim-1941-1945",
-        "koordinate": {
-          "lat": 45.052397,
-          "lng": 20.423855
-        },
-        "mesto": "Opovo",
-        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=137",
-        "slika": "slike/spomenici/opovo-spomenik-palim-1941-1945.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Vanjagenije, CC BY-SA 4.0",
-        "naziv": "Spomenik palim 1941-1945",
-        "autor": "R. Stanković, B. Bon",
-        "vrsta": "spomenik",
-        "drzava": "Serbia"
+        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=137"
       }
     },
     {
-      "rang": 72,
       "id": "ruma-spomen-obelezje",
       "wikiStranica": "Ruma - Spomenik Plavo Krilo",
       "wikiUrl": "https://www.xiwl.com/w/index.php/Ruma_-_Spomenik_Plavo_Krilo",
@@ -1329,18 +986,14 @@
         "metapodaci": {
           "DateTime": {
             "value": "2024-09-20T22:01:05Z",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           },
           "ObjectName": {
             "value": "Ruma SpomenikPlavoKrilo01",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           }
-        },
-        "izvorniEXIF": {}
+        }
       },
-      "dopunskiIzvori": [],
       "pre": {
         "id": "ruma-spomen-obelezje",
         "koordinate": {
@@ -1348,31 +1001,16 @@
           "lng": 19.81878
         },
         "priblizno": true,
-        "mesto": "Ruma",
         "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=139",
         "naziv": "Spomen-obeležje",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "vrsta": "spomen-obelezje"
       },
       "posle": {
         "id": "ruma-spomen-obelezje",
-        "koordinate": {
-          "lat": 44.984119,
-          "lng": 19.819333
-        },
-        "mesto": "Ruma",
-        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=139",
-        "slika": "slike/spomenici/ruma-spomen-obelezje.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Partisan Memorials Wiki",
-        "naziv": "Plavo krilo",
-        "posveta": "Na mestu letelišta 113. lovačkog i 423. jurišnog puka, korišćenog u borbama na Sremskom frontu 1944-1945.",
-        "vrsta": "spomenik",
-        "drzava": "Serbia"
+        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=139"
       }
     },
     {
-      "rang": 76,
       "id": "slatina-spomenik",
       "wikiStranica": "Slatina (Sopot) - Spomenik Narodnom Heroju Đorđu Jovanoviću i Kosmajskim Partizanima",
       "wikiUrl": "https://www.xiwl.com/w/index.php/Slatina_(Sopot)_-_Spomenik_Narodnom_Heroju_%C4%90or%C4%91u_Jovanovi%C4%87u_i_Kosmajskim_Partizanima",
@@ -1405,18 +1043,14 @@
         "metapodaci": {
           "DateTime": {
             "value": "2022-09-16T21:02:08Z",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           },
           "ObjectName": {
             "value": "SlatinaSopot SpomenikKosmajskimPartizanima06",
-            "source": "mediawiki-metadata",
-            "hidden": ""
+            "source": "mediawiki-metadata"
           }
-        },
-        "izvorniEXIF": {}
+        }
       },
-      "dopunskiIzvori": [],
       "pre": {
         "id": "slatina-spomenik",
         "koordinate": {
@@ -1427,44 +1061,26 @@
         "mesto": "Slatina",
         "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=23",
         "naziv": "Spomenik",
-        "godina": "1972",
         "autor": "M. Krković",
-        "vrsta": "spomen-obelezje",
-        "drzava": "Serbia"
+        "vrsta": "spomen-obelezje"
       },
       "posle": {
         "id": "slatina-spomenik",
-        "koordinate": {
-          "lat": 44.489795,
-          "lng": 20.443085
-        },
-        "mesto": "Slatina (Sopot)",
-        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=23",
-        "slika": "slike/spomenici/slatina-spomenik.webp",
-        "slikaOdnos": 0.75,
-        "slikaPotpis": "Partisan Memorials Wiki",
-        "naziv": "Spomenik Đorđu Jovanoviću i kosmajskim partizanima",
-        "godina": "1972",
-        "autor": "Momčilo Krković",
-        "vrsta": "spomenik",
-        "drzava": "Serbia"
+        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=23"
       }
     }
   ],
   "odbijeni": [
     {
-      "rang": 17,
       "naslov": "Niš - Spomenik Palim Pilotima",
       "razlog": "Obeležje prvoj klasi srpskih avijatičara i 90 godina avijacije u Nišu; nema potvrđene posebne veze sa NOB."
     }
   ],
   "fotografijeOdbijene": [
     {
-      "rang": 46,
       "razlog": "Prvi snimak kroz prozor zaklonjen stubom; zamenjen jasnom fotografijom iz KRUG-a."
     },
     {
-      "rang": 63,
       "razlog": "Prvi snimak iz autobusa zaklonjen drvećem; zamenjen jasnom Commons fotografijom istog dela."
     }
   ],
@@ -1477,7 +1093,6 @@
   ],
   "spojenRadniDuplikat": [
     {
-      "radniIndeksPre": 2787,
       "cilj": "gornji-milanovac-spomenik-borbe",
       "pre": {
         "mesto": "Gornji Milanovac",
@@ -1520,37 +1135,7 @@
       "pocet": 1
     }
   ],
-  "posle": {
-    "markeri": 10469,
-    "bezLokacije": 3376,
-    "provereno": 20,
-    "novih": 14,
-    "ispravljenihTacaka": 5,
-    "spojenihRadnihDuplikata": 1,
-    "fotografija": 19,
-    "vanObuhvata": 1
-  },
   "provere": {
-    "integritet": {
-      "status": "prosao",
-      "markeri": 10469,
-      "poznatiBliskiParovi": 52,
-      "noviNeodobreniParovi": 0
-    },
-    "testovi": {
-      "proslo": 23,
-      "palo": 0
-    },
-    "slike": "Metapodaci sacuvani pre ciscenja; male slike i odnosi dimenzija pripremljeni standardnim postupkom. Globalni alat pripremio je i male slike drugih radnika.",
-    "telefon": {
-      "velicina": "390x844",
-      "uzorak": [
-        "zemun-grobnica-zrtava-logora-sajmiste",
-        "konarevo-spomenik-deci-izbeglicama",
-        "ruma-spomen-obelezje"
-      ],
-      "rezultat": "Sve tri slike ucitane, bez Runtime izuzetaka; montaza pregledana.",
-      "snimak": "izvori/pretrage/wiki-propusti-2026-10-18/provera-telefona.jpg"
-    }
+    "slike": "Metapodaci sacuvani pre ciscenja; male slike i odnosi dimenzija pripremljeni standardnim postupkom. Globalni alat pripremio je i male slike drugih radnika."
   }
 }

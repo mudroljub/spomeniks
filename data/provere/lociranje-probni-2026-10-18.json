@@ -7,37 +7,17 @@
   "mapaPosle": 4595,
   "radniPre": 4520,
   "radniPosle": 4518,
-  "prevezaniFajlovi": [],
   "nalazi": [
     {
       "ishod": "nov-marker",
       "id": "herceg-novi-bista-dasa-pavicica",
-      "radniIndeksPre": 4516,
       "prethodniZapis": {
-        "naziv": "Bista Daša Pavičića",
-        "mesto": "Herceg Novi (Topla)",
-        "drzava": "Montenegro",
         "izvor": "https://www.hercegnovi.me/downloads/Kultura/REGISTAR%20SPOMEN%20OB%20O%20HN.pdf",
-        "godina": "1971",
-        "vrsta": "bista",
         "adresa": "Topla, dvorište OŠ „Dašo Pavičić“"
       },
       "noviZapis": {
         "id": "herceg-novi-bista-dasa-pavicica",
-        "koordinate": {
-          "lat": 42.4573444,
-          "lng": 18.5260306
-        },
-        "mesto": "Herceg Novi (Topla)",
-        "izvor": "https://www.hercegnovi.me/downloads/Kultura/REGISTAR%20SPOMEN%20OB%20O%20HN.pdf",
-        "slika": "slike/spomenici/herceg-novi-bista-dasa-pavicica.webp",
-        "slikaOdnos": 1.487,
-        "slikaPotpis": "Studija zaštite kulturnih dobara Opštine Herceg Novi, 2018",
-        "naziv": "Bista Daša Pavičića",
-        "godina": "1971",
-        "autor": "Đorđe Angelovski",
-        "vrsta": "bista",
-        "drzava": "Montenegro"
+        "izvor": "https://www.hercegnovi.me/downloads/Kultura/REGISTAR%20SPOMEN%20OB%20O%20HN.pdf"
       },
       "dokaz": "https://www.hercegnovi.me/files/plans/studija%20KD%20OHN_mape%20POTPISANO20192019%20%281%29.pdf#page=116",
       "stampanaStrana": 115,
@@ -49,33 +29,14 @@
     {
       "ishod": "nov-marker",
       "id": "zelenika-bista-ilije-kisica",
-      "radniIndeksPre": 4514,
       "prethodniZapis": {
-        "naziv": "Bista Ilije Kišića",
-        "mesto": "Zelenika",
-        "drzava": "Montenegro",
         "izvor": "https://www.hercegnovi.me/downloads/Kultura/REGISTAR%20SPOMEN%20OB%20O%20HN.pdf",
-        "godina": "1971",
         "autor": "Luka Tomanović",
-        "vrsta": "bista",
         "adresa": "Zelenika, OŠ „Ilija Kišić“"
       },
       "noviZapis": {
         "id": "zelenika-bista-ilije-kisica",
-        "koordinate": {
-          "lat": 42.4486056,
-          "lng": 18.5751222
-        },
-        "mesto": "Zelenika",
-        "izvor": "https://www.hercegnovi.me/downloads/Kultura/REGISTAR%20SPOMEN%20OB%20O%20HN.pdf",
-        "slika": "slike/spomenici/zelenika-bista-ilije-kisica.webp",
-        "slikaOdnos": 1.493,
-        "slikaPotpis": "Studija zaštite kulturnih dobara Opštine Herceg Novi, 2018",
-        "naziv": "Bista Ilije Kišića",
-        "godina": "1971",
-        "autor": "Antun Lukateli",
-        "vrsta": "bista",
-        "drzava": "Montenegro"
+        "izvor": "https://www.hercegnovi.me/downloads/Kultura/REGISTAR%20SPOMEN%20OB%20O%20HN.pdf"
       },
       "dokaz": "https://www.hercegnovi.me/files/plans/studija%20KD%20OHN_mape%20POTPISANO20192019%20%281%29.pdf#page=117",
       "stampanaStrana": 116,
