@@ -10,7 +10,8 @@
     "wiki": "https://sh.wikipedia.org/wiki/Spomenik_revolucije_naroda_Moslavine",
     "clanak": "https://www.spomenikdatabase.org/podgarica",
     "slika": "slike/spomenici/podgaric.webp",
-    "slikaOdnos": 1.504,
+    "slikaOdnos": 1.594,
+    "slikaPotpis": "Fraxinus, CC BY-SA 3.0",
     "naziv": "Spomenik revolucije naroda Moslavine",
     "nazivEn": "Monument to the Revolution",
     "godina": "1967",
@@ -30,7 +31,8 @@
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%9A%D0%BE%D1%81%D0%BC%D0%B0%D1%98%D1%81%D0%BA%D0%BE%D0%BC_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%BC_%D0%BE%D0%B4%D1%80%D0%B5%D0%B4%D1%83",
     "clanak": "https://www.spomenikdatabase.org/kosmaj",
     "slika": "slike/spomenici/kosmaj.webp",
-    "slikaOdnos": 1.77,
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "CrniBombarder!!!, Public domain",
     "naziv": "Spomenik Kosmajskom partizanskom odredu",
     "nazivEn": "Monument to the Kosmaj Detachment",
     "godina": "1971",
@@ -348,6 +350,9 @@
     },
     "mesto": "Sisak (šuma Brezovica)",
     "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Brezovica",
+    "slika": "slike/spomenici/sisak-spomen-park-brezovica.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Flammard, CC BY-SA 3.0",
     "naziv": "Spomen-park Brezovica",
     "nazivEn": "Brezovica Memorial Park",
     "vrsta": "spomen-park",
@@ -491,6 +496,7 @@
     "nazivEn": "Partisan Memorial Cemetery",
     "godina": "1965",
     "autor": "Bogdan Bogdanović",
+    "stanje": "ostecen",
     "vrsta": "spomen-groblje",
     "istaknut": true,
     "drzava": "Bosnia and Herzegovina"
@@ -661,13 +667,14 @@
     },
     "googleCid": "6930066689152798303",
     "mesto": "Dražgoše",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%94%D1%80%D0%B0%D0%B6%D0%B3%D0%BE%D1%88%D0%BA%D0%BE%D1%98_%D0%B1%D0%B8%D1%86%D0%B8",
     "clanak": "https://www.spomenikdatabase.org/drazgose",
     "slika": "slike/spomenici/drazgose.webp",
     "slikaOdnos": 1.342,
     "naziv": "Spomenik dražgoške bitke",
     "nazivEn": "Monument to the Cankar Battalion",
     "godina": "1976",
-    "autor": "Boris Kobe",
+    "autor": "Boris Kobe & Stojan Batič & Ive Šubic",
     "posveta": [
       "Q4870916",
       "Q12786675"
@@ -1095,6 +1102,7 @@
     "slikaPotpis": "Plamen at Serbian Wikipedia, Public domain",
     "naziv": "Spomen-park Dotrščina",
     "nazivEn": "Dotrščina Memorial Park",
+    "godina": "1968",
     "natpis": "U ŠUMI ZVANOJ DOTORŠČINA OD 1941 DO 1945 GODINE OKUPATORI I NJIHOVE SLUGE MUČILI SU UBIJALI I U JAME BACALI HILJADE ZNANIH I NEZNANIH SINOVA I KĆERI NAŠE ZEMLJE I NEPOKORENOG ZAGREBA\nNEUNIŠTIVOJ USPOMENI BORACA I MUČENIKA POSVEĆENO JE SPOMEN GROBLJE I PARK REVOLUCIJE DOTORŠČINA\n\nNEPRESUŠNI IZVORI SNAGE, NESALOMIVA KRILA SLOBODE. HRABRI U SMRTI VJEČNI U ŽIVOTU. U DJELU ŽIVIH VAŠA DJELA TRAJU",
     "vrsta": "spomen-park",
     "drzava": "Croatia"
@@ -1190,9 +1198,10 @@
     "clanak": "https://www.spomenikdatabase.org/medeno-polje",
     "slika": "slike/spomenici/medeno-polje.webp",
     "slikaOdnos": 1.77,
-    "naziv": "Spomenik NOB",
+    "naziv": "Spomenik partizanskom aerodromu",
     "nazivEn": "Monument to the Partisan Air Squadron",
     "godina": "1982",
+    "posveta": "Partizanskom aerodromu na Medenom Polju, korištenom za evakuaciju ranjenika 1943-1944.",
     "vrsta": "spomenik",
     "istaknut": true,
     "drzava": "Bosnia and Herzegovina"
@@ -1267,7 +1276,8 @@
     "mesto": "Zaostrog",
     "clanak": "https://www.spomenikdatabase.org/zaostrog",
     "slika": "slike/spomenici/zaostrog.webp",
-    "slikaOdnos": 1.77,
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Zblace, CC BY-SA 4.0",
     "naziv": "Spomenik palim borcima",
     "nazivEn": "Monument to the Fallen Fighters",
     "godina": "1979",
@@ -1898,7 +1908,7 @@
     },
     "googleCid": "2671666126453593103",
     "mesto": "Sremska Mitrovica",
-    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B5",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B5_%D1%83_%D0%A1%D1%80%D0%B5%D0%BC%D1%81%D0%BA%D0%BE%D1%98_%D0%9C%D0%B8%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%86%D0%B8",
     "clanak": "https://www.spomenikdatabase.org/sremska-mitrovica",
     "slika": "slike/spomenici/sremska-mitrovitca.webp",
     "slikaOdnos": 1.77,
@@ -2379,6 +2389,7 @@
     "naziv": "Spomen-obeležje Stručica",
     "nazivEn": "Monument to Fallen NOB Fighters",
     "godina": "1987",
+    "autor": "Mirko Krstonošić",
     "vrsta": "spomenik",
     "drzava": "Serbia"
   },
@@ -2687,7 +2698,8 @@
     "mesto": "Zrenjanin",
     "clanak": "https://www.spomenikdatabase.org/zrenjanin",
     "slika": "slike/spomenici/zrenjanin.webp",
-    "slikaOdnos": 1.77,
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Raonik",
     "nazivEn": "Memorial to the Uprising in Vojvodina",
     "godina": "1985",
@@ -2790,6 +2802,7 @@
     "naziv": "Спомен-костурница",
     "nazivEn": "Memorial Ossuary on Samaranica Hill",
     "godina": "1982",
+    "autor": "Blagoja Kolev",
     "vrsta": "spomenik",
     "drzava": "Macedonia"
   },
@@ -3097,6 +3110,7 @@
       "lng": 18.8764953
     },
     "mesto": "Vukosavci",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B5_%D1%83_%D0%92%D1%83%D0%BA%D0%BE%D1%81%D0%B0%D0%B2%D1%86%D0%B8%D0%BC%D0%B0",
     "naziv": "Spomen-park Vukosavci",
     "nazivEn": "Vukosavci Memorial Park",
     "vrsta": "spomen-park",
@@ -3163,7 +3177,8 @@
     },
     "mesto": "Kikinda (Simićev salaš)",
     "slika": "slike/spomenici/simic-s-farm.webp",
-    "slikaOdnos": 1.333,
+    "slikaOdnos": 1.493,
+    "slikaPotpis": "Dobrislava, CC BY-SA 4.0",
     "naziv": "Spomenik Kikindskom partizanskom odredu",
     "nazivEn": "Monument to the Kikinda Detachment",
     "godina": "1966",
@@ -3553,7 +3568,7 @@
     "naziv": "Spomen-obilježje antifašističkim borcima 1941-1945",
     "nazivEn": "Alley of Freedom Memorial Park",
     "godina": "1959",
-    "autor": "I. Mujezinović",
+    "autor": "Ismet Mujezinović",
     "vrsta": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -4592,6 +4607,7 @@
       "lng": 17.5532122
     },
     "mesto": "Opuzen",
+    "wiki": "https://sr.wikipedia.org/wiki/Spomenik_Stjepanu_Filipovi%C4%87u_%28Opuzen%29",
     "slika": "slike/spomenici/opuzen.webp",
     "slikaOdnos": 1.299,
     "naziv": "Spomenik Stjepanu Filipoviću",
@@ -4850,7 +4866,8 @@
     },
     "mesto": "Elemir",
     "slika": "slike/spomenici/elemir.webp",
-    "slikaOdnos": 1.606,
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Spomenik elemirskom partizanskom odredu",
     "nazivEn": "Monument to Fallen Fighters",
     "godina": "1972",
@@ -4980,7 +4997,8 @@
     },
     "mesto": "Ploče",
     "slika": "slike/spomenici/ploce.webp",
-    "slikaOdnos": 1.498,
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Anto, CC BY-SA 3.0",
     "naziv": "Park revolucije",
     "nazivEn": "Revolution Park",
     "godina": "1976",
@@ -5306,6 +5324,7 @@
     "slikaOdnos": 1.439,
     "naziv": "Spomen-muzej 21. oktobar",
     "godina": "1976",
+    "autor": "Ivan Antić & Ivanka Raspopović",
     "posveta": [
       "Q685201"
     ],
@@ -5719,7 +5738,8 @@
     "mesto": "Iriški Venac",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%A1%D0%BB%D0%BE%D0%B1%D0%BE%D0%B4%D0%B0",
     "slika": "slike/spomenici/iriski-venac.webp",
-    "slikaOdnos": 1.333,
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Sandor Bordas, CC BY-SA 3.0",
     "naziv": "Spomenik Sloboda",
     "nazivEn": "Monument to Freedom",
     "godina": "1951",
@@ -6323,6 +6343,7 @@
     "slikaPotpis": "Plamen at Serbian Wikipedia, Public domain",
     "naziv": "Spomen-park Borik",
     "nazivEn": "Borik Memorial Park",
+    "godina": "1946",
     "vrsta": "spomen-park",
     "drzava": "Croatia"
   },
@@ -6576,6 +6597,7 @@
     "naziv": "Spomenik u Miroševcu",
     "nazivEn": "Monument to Fallen Fighters",
     "godina": "1974",
+    "autor": "Đorđe Vasić",
     "vrsta": "spomenik",
     "drzava": "Serbia"
   },
@@ -7936,6 +7958,7 @@
     },
     "googleCid": "133649226050658135",
     "mesto": "Vladičin Han",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BF%D0%BE%D0%B3%D0%B8%D0%BD%D1%83%D0%BB%D0%B8%D0%BC_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D0%9D%D0%9E%D0%A0-%D0%B0_%D1%83_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D1%87%D0%B8%D0%BD%D0%BE%D0%BC_%D0%A5%D0%B0%D0%BD%D1%83",
     "slika": "slike/spomenici/vladicin-han.webp",
     "slikaOdnos": 1.333,
     "naziv": "Spomenik žrtvama fašističkog terora",
@@ -8217,6 +8240,7 @@
     "naziv": "Spomenik palim borcima NOB",
     "nazivEn": "Monument to Fallen NOB Fighters",
     "godina": "1967",
+    "autor": "Stevan Sokolović",
     "vrsta": "spomenik",
     "drzava": "Serbia"
   },
@@ -8279,6 +8303,7 @@
     "slika": "slike/spomenici/museum-of-july-4th.webp",
     "slikaOdnos": 1.498,
     "naziv": "Muzej 4. juli",
+    "godina": "1950",
     "stanje": "zatvoren",
     "vrsta": "muzej",
     "drzava": "Serbia"
@@ -8585,6 +8610,7 @@
     "naziv": "Spomenik Bori Vukmiroviću i Ramizu Sadiku",
     "nazivEn": "Monument to Boro & Ramiz",
     "godina": "1961",
+    "autor": "Miodrag Pecić & Svetomir Arsić-Basara & Hilmija Ćatović",
     "posveta": [
       "Q1562871",
       "Q1568696"
@@ -8993,7 +9019,8 @@
     },
     "mesto": "Stari Grad",
     "slika": "slike/spomenici/stari-grad.webp",
-    "slikaOdnos": 1.282,
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Quahadi Añtó, CC BY-SA 3.0",
     "naziv": "Spomenik palim borcima",
     "nazivEn": "Monument to Fallen Fighters",
     "godina": "1954",
@@ -9112,6 +9139,7 @@
     "naziv": "Spomenik „Juriš”",
     "nazivEn": "Monument to Fallen Fighters - \"Juriš\"",
     "godina": "1951",
+    "autor": "Milovan Krstić",
     "vrsta": "statua",
     "drzava": "Serbia"
   },
@@ -9248,6 +9276,7 @@
     "naziv": "Spomenik ljiškoj borbi 1941. godine",
     "nazivEn": "Monument to the Battle of Ljig",
     "godina": "1981",
+    "autor": "Oto Logo & Nebojša Delja",
     "vrsta": "statua",
     "drzava": "Serbia"
   },
@@ -9328,6 +9357,7 @@
     "naziv": "Spomenik palim borcima",
     "nazivEn": "Monument to Fallen Fighters",
     "godina": "1953",
+    "autor": "S. Bibić",
     "vrsta": "statua",
     "drzava": "Serbia"
   },
@@ -9406,6 +9436,7 @@
     "naziv": "Spomenik Podunavskom partizanskom odredu",
     "nazivEn": "Monument to the Danube Partisan Detach.",
     "godina": "1975",
+    "autor": "Vladislav Petrović",
     "posveta": [
       "Q110050106"
     ],
@@ -9741,6 +9772,7 @@
     "mesto": "Melenci",
     "slika": "slike/spomenici/melenci-north-banat-partisan.webp",
     "slikaOdnos": 1.333,
+    "slikaPotpis": "Knoken, CC BY-SA 4.0",
     "naziv": "Spomenik Severnobanatskom partizanskom odredu",
     "nazivEn": "Monument to North Banat Partisan Unit",
     "godina": "1981",
@@ -11940,7 +11972,8 @@
     "googleCid": "8704401255256576671",
     "mesto": "Čelarevo",
     "slika": "slike/spomenici/celarevo.webp",
-    "slikaOdnos": 1.316,
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
     "naziv": "Spomenik Zdravku Čelaru",
     "nazivEn": "Monument to Zdravko Čelar",
     "godina": "1965",
@@ -12169,6 +12202,7 @@
     "naziv": "Spomenik palim borcima",
     "nazivEn": "Monument to Fallen Fighters",
     "godina": "1950",
+    "autor": "Aleksandar Šakić",
     "vrsta": "statua",
     "drzava": "Serbia"
   },
@@ -12792,6 +12826,7 @@
     "slikaOdnos": 0.75,
     "slikaPotpis": "Pinki, Public domain",
     "naziv": "Spomenik palim borcima Čukarice",
+    "godina": "1954",
     "posveta": "palim borcima Čukarice",
     "vrsta": "statua",
     "drzava": "Serbia"
@@ -13306,6 +13341,7 @@
     "slikaOdnos": 1.493,
     "slikaPotpis": "Rašo, CC BY-SA 3.0",
     "naziv": "Меморијален музеј „11 Октомври“",
+    "godina": "1952",
     "vrsta": "muzej",
     "drzava": "Macedonia"
   },
@@ -13336,6 +13372,7 @@
     "slikaOdnos": 1.333,
     "slikaPotpis": "Avvocatomorelli, CC BY-SA 3.0",
     "naziv": "Spomen-kosturnica palim Jugoslovenima",
+    "autor": "Dušan Džamonja",
     "vrsta": "spomenik",
     "drzava": "Italy"
   },
@@ -13348,6 +13385,7 @@
     "mesto": "Babičko",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%B4%D0%BE%D0%BC_%D1%83_%D0%91%D0%B0%D0%B1%D0%B8%D1%87%D0%BA%D0%BE%D0%BC",
     "naziv": "Spomen-dom u Babičkom",
+    "godina": "1961",
     "vrsta": "spomenik",
     "drzava": "Serbia"
   },
@@ -13399,6 +13437,7 @@
     "slikaOdnos": 0.75,
     "slikaPotpis": "BuhaM, CC BY-SA 4.0",
     "naziv": "Spomenik učenicima Šeste beogradske gimnazije",
+    "godina": "1960",
     "posveta": "učenicima Šeste beogradske gimnazije",
     "vrsta": "spomenik",
     "drzava": "Serbia"
@@ -13415,6 +13454,8 @@
     "slikaOdnos": 0.75,
     "slikaPotpis": "Pinki, Public domain",
     "naziv": "Spomenik crvenoarmejcu",
+    "godina": "1954",
+    "autor": "Antun Augustinčić",
     "vrsta": "spomenik",
     "drzava": "Serbia"
   },
@@ -13458,8 +13499,8 @@
     "googleCid": "10663218190987529216",
     "mesto": "Jakovo",
     "slika": "slike/spomenici/jakovo.webp",
-    "slikaOdnos": 1.333,
-    "slikaPotpis": "Google Maps",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Тајга, CC BY-SA 3.0",
     "naziv": "Spomenik NOB",
     "vrsta": "statua",
     "drzava": "Serbia"
@@ -14579,7 +14620,7 @@
     "mesto": "Bačko Gradište",
     "slika": "slike/spomenici/backo-gradiste.webp",
     "slikaOdnos": 0.75,
-    "slikaPotpis": "Google Maps",
+    "slikaPotpis": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "vrsta": "statua",
     "drzava": "Serbia"
@@ -14858,6 +14899,9 @@
     },
     "mesto": "Valjevo",
     "clanak": "https://www.kolubarske.rs/kolumne/izredakcije/kako-se-dragojlo-nasao-u-vidinom-parku",
+    "slika": "slike/spomenici/valjevo-dudic.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Mladifilozof, CC BY-SA 4.0",
     "naziv": "Spomenik narodnom heroju Dragojlu Dudiću",
     "nazivEn": "Monument to People's Hero Dragojlo Dudić",
     "godina": "1971",
@@ -15498,6 +15542,8 @@
     "slikaPotpis": "Јованвб, CC BY-SA 3.0",
     "naziv": "Spomenik „Protiv zla“",
     "nazivEn": "The \"Against Evil\" Monument",
+    "godina": "1991",
+    "autor": "Miguel Romo",
     "vrsta": "spomenik",
     "drzava": "Serbia"
   },
@@ -15514,6 +15560,8 @@
     "slikaPotpis": "Јованвб, CC BY-SA 3.0",
     "naziv": "Spomenik „Večni plamen slobode“",
     "nazivEn": "The \"Eternal Flame of Freedom\" Monument",
+    "godina": "1978",
+    "autor": "Dragan Đorđević",
     "vrsta": "spomenik",
     "drzava": "Serbia"
   },
@@ -15531,6 +15579,7 @@
     "slikaPotpis": "Lotom, CC BY-SA 4.0",
     "naziv": "Spomenik oslobodiocima Kraljeva",
     "nazivEn": "Monument to the Liberators of Kraljevo",
+    "godina": "1977",
     "autor": "Aleksandar Vasiljević",
     "vrsta": "spomenik",
     "drzava": "Serbia"
@@ -15548,6 +15597,8 @@
     "slikaPotpis": "Марко Станојевић, CC0",
     "naziv": "Spomenik streljanim Srbima i Jevrejima",
     "nazivEn": "Monument to Executed Serbs and Jews",
+    "godina": "1991",
+    "autor": "Milorad Zorbić",
     "posveta": "streljanim Srbima i Jevrejima",
     "vrsta": "spomenik",
     "drzava": "Serbia"
@@ -15565,6 +15616,7 @@
     "slikaPotpis": "Јованвб, CC BY-SA 3.0",
     "naziv": "Spomenik „Suđaje“",
     "nazivEn": "The \"Fates\" Monument",
+    "godina": "1979",
     "autor": "Jovan Soldatović",
     "vrsta": "statua",
     "drzava": "Serbia"
@@ -15582,6 +15634,7 @@
     "slikaPotpis": "Јованвб, CC BY-SA 3.0",
     "naziv": "Spomenik „Čovek bez iluzija“",
     "nazivEn": "The \"Man Without Illusions\" Monument",
+    "godina": "1979",
     "autor": "Jovan Soldatović",
     "vrsta": "statua",
     "drzava": "Serbia"
@@ -15599,6 +15652,7 @@
     "slikaPotpis": "Dekriarh, CC BY-SA 4.0",
     "naziv": "Spomenik palim borcima Sremčice",
     "nazivEn": "Monument to the Fallen Fighters of Sremčica",
+    "godina": "1955",
     "posveta": "palim borcima Sremčice",
     "vrsta": "spomenik",
     "drzava": "Serbia"
@@ -15637,6 +15691,7 @@
     "slikaPotpis": "Ванилица, CC BY-SA 4.0",
     "naziv": "Spomenik sovjetskim vojnicima stradalim u niškom incidentu",
     "nazivEn": "Monument to the Soviet Soldiers Killed in the Niš Incident",
+    "godina": "2015",
     "vrsta": "spomenik",
     "drzava": "Serbia"
   },
@@ -15887,6 +15942,8 @@
     "slikaOdnos": 1.333,
     "slikaPotpis": "Tashkoskim, CC BY-SA 3.0",
     "naziv": "Споменик на Президиумот на АСНОМ",
+    "godina": "2012",
+    "autor": "Slobodan Miloševski",
     "posveta": [
       "Q163013"
     ],
@@ -16291,6 +16348,7 @@
     "naziv": "Spomenik Branku Krsmanoviću",
     "nazivEn": "Monument to Branko Krsmanović",
     "godina": "1981",
+    "autor": "Oto Logo",
     "posveta": [
       "Q1263710"
     ],
@@ -17917,7 +17975,13 @@
       "lng": 15.5626062
     },
     "mesto": "Končarev Kraj",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D1%98%D0%B0%D0%BB%D0%BD%D0%B8_%D0%BC%D1%83%D0%B7%D0%B5%D1%98_%D0%A0%D0%B0%D0%B4%D0%B5_%D0%9A%D0%BE%D0%BD%D1%87%D0%B0%D1%80%D0%B0",
     "naziv": "Memorijalni muzej Rade Končara",
+    "godina": "1959",
+    "posveta": [
+      "Q640602"
+    ],
+    "stanje": "zatvoren",
     "vrsta": "muzej",
     "drzava": "Croatia"
   },
@@ -18547,6 +18611,7 @@
       "lng": 19.593258
     },
     "mesto": "Glušci",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%91%D1%83%D0%B1%D0%B0%D1%9A%D0%B0",
     "slika": "slike/spomenici/glusci-spomen-kompleks-bubanja.webp",
     "slikaOdnos": 0.75,
     "slikaPotpis": "podaci.com",
@@ -18958,6 +19023,10 @@
       "lng": 20.169312
     },
     "mesto": "Rošci",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D1%87%D0%BA%D0%B0_%D0%B3%D1%80%D1%83%D0%BF%D0%B0_%D1%81%D1%82%D1%80%D0%B0%D0%B4%D0%B0%D0%BB%D0%B8%D0%BC_%D1%80%D0%B0%D1%82%D0%BD%D0%B8%D1%86%D0%B8%D0%BC%D0%B0_1912-1913%2C_1914-1918._%D0%B8_1941-1945._%D1%83_%D0%A0%D0%BE%D1%88%D1%86%D0%B8%D0%BC%D0%B0",
+    "slika": "slike/spomenici/rosci-spomen-park.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "BrankaVV, CC BY-SA 4.0",
     "naziv": "Spomen-park",
     "godina": "1949",
     "vrsta": "spomen-park",
@@ -19388,6 +19457,7 @@
     },
     "googleCid": "4997905690712979539",
     "mesto": "Beograd",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%92%D0%BE%D1%98%D0%BD%D0%B8_%D0%BC%D1%83%D0%B7%D0%B5%D1%98_%D0%91%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4",
     "slika": "slike/spomenici/beograd-vojni-muzej.webp",
     "slikaOdnos": 1.778,
     "slikaPotpis": "Google Maps",

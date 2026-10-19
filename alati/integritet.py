@@ -41,6 +41,8 @@ POZNATI_BLISKI_PAROVI = {frozenset(par) for par in [
     ('budva-mitrovic', 'sveti-stefan-bista-nika-andusa'),
     ('mojkovac-bista-ljubomira-bakoca', 'mojkovac-spomenik-palim-borcima-u-nor-u'),
     ('jajce', 'jajce-lokomotiva-partizanka'),
+    # Dolinarova statua i zasebno memorijalizovane rusevine bolnice, proverene fotografije.
+    ('prijepolje', 'prijepolje-rusevine-partizanske-bolnice'),
     ('cadjavica-donja-spomenik-preko-200-boraca-poginuli', 'cadjavica-donja-partizansko-groblje'),
     # biste na groblju, kod spomenika ili skole imaju tacku tog objekta
     ('verici', 'verici-bista-branka-popovica'),
@@ -70,6 +72,8 @@ POZNATI_BLISKI_PAROVI = {frozenset(par) for par in [
     ('bajina-basta', 'bajina-basta-spomenik-palim-borcima'),
     ('uzice-national-museum', 'uzice-spomenik-poginulima-u-fabrici-oruzja'),
     ('museum-of-july-4th', 'beograd-poziv-na-ustanak'),
+    # Bista i zaseban obelisk, oba vidljiva na Commons fotografiji Spomen park Bistrica.jpg.
+    ('bistrica-bista-lepe-radic', 'bistrica-spomenik-palim-borcima-i-zrtvama-fasistic'),
 ]}
 cir = re.compile('[Ѐ-ӿ]')
 

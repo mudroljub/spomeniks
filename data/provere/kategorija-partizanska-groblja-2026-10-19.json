@@ -1,0 +1,134 @@
+{
+  "datum": "2026-10-19",
+  "izvor": "https://sr.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%98%D0%B0%3A%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B0_%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B0",
+  "obim": "Svih 20 članaka kategorije upoređeno sa bazom.",
+  "rezultat": "12 već povezano (Mostar, Groblje oslobodilaca Beograda i Čačalica preko drugog jezika ili sh članka); 3 povezana sada, Sremska Mitrovica dobila poseban članak umesto opšteg.",
+  "izmene": [
+    {
+      "id": "belgrade-s-new-cemetery",
+      "izmene": {
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%90%D0%BB%D0%B5%D1%98%D0%B0_%D1%81%D1%82%D1%80%D0%B5%D1%99%D0%B0%D0%BD%D0%B8%D1%85_%D1%80%D0%BE%D0%B4%D0%BE%D1%99%D1%83%D0%B1%D0%B0_1941%E2%80%941944._%D0%BD%D0%B0_%D0%9D%D0%BE%D0%B2%D0%BE%D0%BC_%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D1%83_%D1%83_%D0%91%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D1%83"
+      }
+    },
+    {
+      "id": "vukosavci-spomen-park",
+      "izmene": {
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B5_%D1%83_%D0%92%D1%83%D0%BA%D0%BE%D1%81%D0%B0%D0%B2%D1%86%D0%B8%D0%BC%D0%B0"
+      }
+    },
+    {
+      "id": "sremska-mitrovitca",
+      "izmene": {
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B5_%D1%83_%D0%A1%D1%80%D0%B5%D0%BC%D1%81%D0%BA%D0%BE%D1%98_%D0%9C%D0%B8%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%86%D0%B8"
+      }
+    },
+    {
+      "id": "gornji-milanovac-spomenik-na-zajednickoj-grobnici",
+      "izmene": {
+        "koordinate": {
+          "lat": 44.029984,
+          "lng": 20.4524494
+        },
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%9A%D0%BE%D1%81%D1%82%D1%83%D1%80%D0%BD%D0%B8%D1%86%D0%B0_%D0%BF%D0%B0%D0%BB%D0%B8%D1%85_%D0%B1%D0%BE%D1%80%D0%B0%D1%86%D0%B0_%D1%82%D0%B0%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3_%D0%BA%D1%80%D0%B0%D1%98%D0%B0",
+        "naziv": "Kosturnica palih boraca takovskog kraja",
+        "godina": "1956",
+        "slika": "slike/spomenici/gornji-milanovac-spomenik-na-zajednickoj-grobnici.webp",
+        "slikaOdnos": 0.667,
+        "slikaPotpis": "Vanilica, CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gornji-milanovac-spomenik-na-zajednickoj-grobnici-2",
+      "izmene": {
+        "koordinate": {
+          "lat": 44.029984,
+          "lng": 20.4524494
+        }
+      }
+    }
+  ],
+  "pre": {
+    "belgrade-s-new-cemetery": {
+      "id": "belgrade-s-new-cemetery",
+      "koordinate": {
+        "lat": 44.807902,
+        "lng": 20.4873669
+      },
+      "googleCid": "5605490533968787820",
+      "mesto": "Beograd (Novo groblje)",
+      "clanak": "https://www.arhivamodernizma.com/aleja-streljanih-rodoljuba-u-beogradu/",
+      "slika": "slike/spomenici/belgrade-s-new-cemetery.webp",
+      "slikaOdnos": 1.639,
+      "naziv": "Aleja streljanih rodoljuba",
+      "nazivEn": "The Alley of the Executed Patriots",
+      "godina": "1959",
+      "autor": "Bogdan Bogdanović & Svetislav Ličina",
+      "vrsta": "spomen-groblje",
+      "drzava": "Serbia"
+    },
+    "vukosavci-spomen-park": {
+      "id": "vukosavci-spomen-park",
+      "koordinate": {
+        "lat": 44.6364219,
+        "lng": 18.8764953
+      },
+      "mesto": "Vukosavci",
+      "naziv": "Spomen-park Vukosavci",
+      "nazivEn": "Vukosavci Memorial Park",
+      "vrsta": "spomen-park",
+      "drzava": "Bosnia and Herzegovina"
+    },
+    "sremska-mitrovitca": {
+      "id": "sremska-mitrovitca",
+      "koordinate": {
+        "lat": 44.9769577,
+        "lng": 19.6032793
+      },
+      "googleCid": "2671666126453593103",
+      "mesto": "Sremska Mitrovica",
+      "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B5",
+      "clanak": "https://www.spomenikdatabase.org/sremska-mitrovica",
+      "slika": "slike/spomenici/sremska-mitrovitca.webp",
+      "slikaOdnos": 1.77,
+      "naziv": "Spomen-groblje",
+      "nazivEn": "The Necropolis at Sremsaka Mitrovica",
+      "godina": "1960",
+      "autor": "Bogdan Bogdanović",
+      "vrsta": "spomen-groblje",
+      "istaknut": true,
+      "drzava": "Serbia"
+    },
+    "gornji-milanovac-spomenik-na-zajednickoj-grobnici": {
+      "id": "gornji-milanovac-spomenik-na-zajednickoj-grobnici",
+      "koordinate": {
+        "lat": 44.02432,
+        "lng": 20.46004
+      },
+      "priblizno": true,
+      "mesto": "Gornji Milanovac",
+      "naziv": "Spomenik na zajedničkoj grobnici trideset trojice boraca poginulih u borbama II proleterske brigade i Čačanskog partizanskog odreda",
+      "vrsta": "spomen-obelezje",
+      "drzava": "Serbia"
+    },
+    "gornji-milanovac-spomenik-na-zajednickoj-grobnici-2": {
+      "id": "gornji-milanovac-spomenik-na-zajednickoj-grobnici-2",
+      "koordinate": {
+        "lat": 44.02432,
+        "lng": 20.46004
+      },
+      "priblizno": true,
+      "mesto": "Gornji Milanovac",
+      "naziv": "Spomenik na zajedničkoj grobnici četiri stotine osam boraca i oficira Crvene armije palih oktobra i novembra",
+      "godina": "1956",
+      "autor": "Ž. Maksimović",
+      "vrsta": "spomen-obelezje",
+      "drzava": "Serbia"
+    }
+  },
+  "napomene": {
+    "Kosturnica palih boraca takovskog kraja": "Popović-Žumin zapis „Spomenik na zajedničkoj grobnici trideset trojice boraca... II proleterske brigade i Čačanskog partizanskog odreda“ odgovara opisu članka (1956, Druga proleterska i Čačanski odred). Članak kaže da kosturnica i kosturnica crvenoarmejaca čine celinu u Spomen-parku Brdo mira, pa su obe približne tačke premeštene sa centra grada na tačku parka, i dalje približne. Godina kosturnice crvenoarmejaca ostaje 1956 (Popović-Žuma), iako članak navodi 1962.",
+    "Спомен-гробље у Вукосавцима": "Povezano sa Spomen-parkom Vukosavci; fotografija iz članka prikazuje kuću, ne groblje, pa nije preuzeta.",
+    "Партизанско гробље у Крушеву, Партизанско гробље у Охриду": "Makedonija: zapisi postoje (krusevo-partizanski-grobovi, ohrid-partizansko-grobista); povezivanje prepušteno agentu koji obrađuje Makedoniju.",
+    "Ново гробље (Бања Лука)": "Članak o celom gradskom groblju, nije partizansko spomen-groblje; preskočeno."
+  }
+}

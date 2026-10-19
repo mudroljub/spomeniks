@@ -197,6 +197,7 @@
     "wiki": "https://sh.wikipedia.org/wiki/Grobnica_narodnih_heroja_u_Zagrebu",
     "slika": "slike/spomenici/mirogoj-cemetery-tomb-people-s.webp",
     "slikaOdnos": 1.498,
+    "slikaPotpis": "SpeedyGonsales, CC BY-SA 3.0",
     "naziv": "Grobnica narodnih heroja u Zagrebu",
     "nazivEn": "Tomb of the People's Heroes",
     "godina": "1968",
@@ -739,6 +740,7 @@
     "naziv": "Partizansko groblje u Šapcu",
     "nazivEn": "Partisan Memorial Cemetery",
     "godina": "1961",
+    "autor": "Narandža Brkić & Jelena Kirovski & M. Mirković",
     "vrsta": "spomen-groblje",
     "drzava": "Serbia"
   },
@@ -798,6 +800,7 @@
     },
     "googleCid": "5605490533968787820",
     "mesto": "Beograd (Novo groblje)",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%90%D0%BB%D0%B5%D1%98%D0%B0_%D1%81%D1%82%D1%80%D0%B5%D1%99%D0%B0%D0%BD%D0%B8%D1%85_%D1%80%D0%BE%D0%B4%D0%BE%D1%99%D1%83%D0%B1%D0%B0_1941%E2%80%941944._%D0%BD%D0%B0_%D0%9D%D0%BE%D0%B2%D0%BE%D0%BC_%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D1%83_%D1%83_%D0%91%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D1%83",
     "clanak": "https://www.arhivamodernizma.com/aleja-streljanih-rodoljuba-u-beogradu/",
     "slika": "slike/spomenici/belgrade-s-new-cemetery.webp",
     "slikaOdnos": 1.639,
@@ -1023,6 +1026,7 @@
     "slikaPotpis": "Knoken (), CC BY-SA 4.0",
     "naziv": "Partizansko spomen-groblje",
     "godina": "1959",
+    "stanje": "ostecen",
     "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -1081,6 +1085,8 @@
     "slikaOdnos": 1.5,
     "slikaPotpis": "Ванилица, CC BY-SA 4.0",
     "naziv": "Spomen-groblje na Krušiku",
+    "godina": "1956",
+    "autor": "Vera Đurić",
     "posveta": [
       "Q11163232"
     ],
@@ -1134,7 +1140,11 @@
     },
     "mesto": "Ljubljana",
     "wiki": "https://sh.wikipedia.org/wiki/Grobnica_narodnih_heroja_u_Ljubljani",
+    "slika": "slike/spomenici/ljubljana-grobnica-narodnih-herojev.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Vikipedija, poštena upotreba",
     "naziv": "Grobnica narodnih herojev",
+    "godina": "1949",
     "autor": "Edo Mihovc & Boris Kalin",
     "vrsta": "spomen-groblje",
     "drzava": "Slovenia"
@@ -1181,6 +1191,7 @@
     "slikaOdnos": 0.667,
     "slikaPotpis": "Ванилица, CC BY-SA 4.0",
     "naziv": "Spomen-groblje vojnika Crvene armije",
+    "autor": "Franjo De Negri",
     "vrsta": "spomen-groblje",
     "drzava": "Serbia"
   },
@@ -9669,6 +9680,7 @@
     "slikaOdnos": 0.75,
     "slikaPotpis": "Google Maps",
     "naziv": "Spomenik palim borcima narodnooslobodilačkog rata i žrtvama fašističkog terora",
+    "godina": "1951",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -10093,6 +10105,8 @@
     "slikaOdnos": 0.75,
     "slikaPotpis": "Google Maps",
     "naziv": "Spomenik palim borcima",
+    "godina": "1969",
+    "autor": "Stojan Cvetković",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -10396,8 +10410,8 @@
     "mesto": "Beograd (Banjica)",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BF%D0%B0%D0%BB%D0%B8%D0%BC_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D0%B7%D0%B0_%D0%BE%D1%81%D0%BB%D0%BE%D0%B1%D0%BE%D1%92%D0%B5%D1%9A%D0%B5_%D0%91%D0%B0%D1%9A%D0%B8%D1%86%D0%B5",
     "slika": "slike/spomenici/beograd-banjica.webp",
-    "slikaOdnos": 0.635,
-    "slikaPotpis": "Google Maps",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Milica Buha, CC BY-SA 4.0",
     "naziv": "Spomenik oslobodiocima Banjice",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -10843,8 +10857,8 @@
     "googleCid": "1481395007677689614",
     "mesto": "Osobjava",
     "slika": "slike/spomenici/osobjava.webp",
-    "slikaOdnos": 0.748,
-    "slikaPotpis": "Google Maps",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Quahadi Añtó, CC BY-SA 3.0",
     "naziv": "Spomenik žrtvama fašizma",
     "godina": "1964",
     "vrsta": "spomen-obelezje",
@@ -10858,6 +10872,9 @@
     },
     "googleCid": "9505986937663221701",
     "mesto": "Janjina",
+    "slika": "slike/spomenici/janjina.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Quahadi Añtó, CC BY-SA 3.0",
     "naziv": "Spomenik žrtvama fašizma „Pod šipkom“",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
@@ -10932,6 +10949,8 @@
     "slikaOdnos": 1.778,
     "slikaPotpis": "HeritagePhotogrammetry, CC BY 4.0",
     "naziv": "Spomenik žrtvama Drugog svetskog rata",
+    "godina": "1973",
+    "autor": "Bogdan Bogdanović",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -12473,6 +12492,9 @@
       "lng": 20.5097339
     },
     "mesto": "Beograd (Cvetkova pijaca)",
+    "slika": "slike/spomenici/beograd-bursac.webp",
+    "slikaOdnos": 0.749,
+    "slikaPotpis": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Bista Marije Bursać",
     "nazivEn": "Bust of Marija Bursać",
     "posveta": [
@@ -12585,6 +12607,9 @@
       "lng": 20.5477156
     },
     "mesto": "Beograd",
+    "slika": "slike/spomenici/beograd-milutinovic.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Pinki heroj, Public domain",
     "naziv": "Bista Ivana Milutinovića",
     "nazivEn": "Bust of Ivan Milutinović",
     "posveta": [
@@ -13250,6 +13275,8 @@
     "slikaPotpis": "Omladinskiklubanciki, CC BY-SA 4.0",
     "naziv": "Bista Blagoja Kostića",
     "nazivEn": "Bust of Blagoje Kostić",
+    "godina": "1953",
+    "autor": "Dušan Nikolić",
     "posveta": "Blagoja Kostića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -13267,6 +13294,8 @@
     "slikaPotpis": "Antioksidans, CC BY-SA 4.0",
     "naziv": "Spomen-bista Blagoja Parovića",
     "nazivEn": "Bust of Blagoje Parović",
+    "godina": "1988",
+    "autor": "Momčilo Krković & Aleksandar Đokić & Petar Marković",
     "posveta": "Blagoja Parovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -13667,6 +13696,7 @@
     "mesto": "Užice (Dovarje)",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%BE_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B5_%D0%BD%D0%B0_%D0%94%D0%BE%D0%B2%D0%B0%D1%80%D1%98%D1%83_%D1%83_%D0%A3%D0%B6%D0%B8%D1%86%D1%83",
     "naziv": "Partizansko spomen-groblje na Dovarju",
+    "godina": "1958",
     "vrsta": "spomen-groblje",
     "drzava": "Serbia"
   },
@@ -13714,6 +13744,7 @@
     "slikaOdnos": 0.75,
     "slikaPotpis": "AxeAdam20, CC BY-SA 4.0",
     "naziv": "Spomenik crvenoarmejcima",
+    "godina": "1946",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -43779,6 +43810,9 @@
       "lng": 19.877277
     },
     "mesto": "Grgeteg",
+    "slika": "slike/spomenici/grgeteg-spomenik-2-ceti-podunavskog-partizanskog-o.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Spomenik 2. četi Podunavskog partizanskog odreda",
     "posveta": [
       "Q110050106"
@@ -43793,6 +43827,9 @@
       "lng": 19.8979388
     },
     "mesto": "Grgeteg",
+    "slika": "slike/spomenici/grgeteg-spomenik-3-ceti-podunavskog-partizanskog-o.webp",
+    "slikaOdnos": 0.749,
+    "slikaPotpis": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Spomenik 3. četi Podunavskog partizanskog odreda",
     "posveta": [
       "Q110050106"
@@ -43830,6 +43867,9 @@
       "lng": 19.8454006
     },
     "mesto": "Irig (Krstašice)",
+    "slika": "slike/spomenici/irig-krstasice-spomenik-1-ceti-podunavskog-partiza.webp",
+    "slikaOdnos": 0.749,
+    "slikaPotpis": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Spomenik 1. četi Podunavskog partizanskog odreda",
     "posveta": [
       "Q110050106"
@@ -44211,6 +44251,9 @@
       "lng": 19.9074492
     },
     "mesto": "Velika Remeta",
+    "slika": "slike/spomenici/velika-remeta-spomenik-4-ceti-podunavskog-partizan.webp",
+    "slikaOdnos": 0.749,
+    "slikaPotpis": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Spomenik 4. četi Podunavskog partizanskog odreda",
     "posveta": [
       "Q110050106"
@@ -48325,6 +48368,7 @@
     "slikaOdnos": 0.667,
     "slikaPotpis": "BrankaVV, CC BY-SA 4.0",
     "naziv": "Spomen-česma stradalim ratnicima 1912-1918 i 1941-1945",
+    "godina": "1960-ih",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -49646,7 +49690,7 @@
     "slikaPotpis": "Flammard, CC BY-SA 3.0",
     "naziv": "Spomenik palim borcima NOVJ",
     "godina": "1962",
-    "autor": "T. Ostoja",
+    "autor": "Tomislav Ostoja",
     "stanje": "ostecen",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
@@ -50468,7 +50512,7 @@
     "slikaPotpis": "Partizanstvo, CC BY 4.0",
     "naziv": "Grobišče padlih borcev in žrtev NOB",
     "godina": "1959",
-    "autor": "J. Zamljen",
+    "autor": "Jože Zamljen",
     "vrsta": "spomen-groblje",
     "drzava": "Slovenia"
   },
@@ -52008,6 +52052,7 @@
     "slikaOdnos": 0.563,
     "slikaPotpis": "Omladinskiklubanciki, CC BY-SA 4.0",
     "naziv": "Bista Borislava Stankovića Ćulavka 1919-1944",
+    "autor": "Slobodan Popović",
     "vrsta": "bista",
     "drzava": "Serbia"
   },
@@ -52035,6 +52080,8 @@
     "slikaOdnos": 1.778,
     "slikaPotpis": "HeritagePhotogrammetry, CC BY 4.0",
     "naziv": "Spomen-park u Masurici",
+    "godina": "1978",
+    "autor": "Časlav Videnović",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -52051,6 +52098,7 @@
     "slikaOdnos": 0.8,
     "slikaPotpis": "Milosrade94, CC0",
     "naziv": "Spomenik seljaku partizanskom saradniku",
+    "godina": "1979",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -52064,6 +52112,7 @@
     "mesto": "Zlakusa",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%93%D1%80%D0%B0%D0%B4%D0%B8%D0%BD%D0%B8",
     "naziv": "Spomenik na Gradini",
+    "godina": "1950",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -52080,6 +52129,7 @@
     "slikaOdnos": 1.498,
     "slikaPotpis": "Ванилица, CC BY-SA 4.0",
     "naziv": "Spomenik NOB u Čalmi",
+    "autor": "Pavle Radovanović",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -52095,6 +52145,8 @@
     "slikaOdnos": 0.667,
     "slikaPotpis": "Omladinskiklubanciki, CC BY-SA 4.0",
     "naziv": "Spomenik u Bunuškom Čifluku",
+    "godina": "1979",
+    "autor": "Đorđe Vasić",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -52110,6 +52162,8 @@
     "slikaOdnos": 0.75,
     "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomenik u Bratmilovcu",
+    "godina": "1972",
+    "autor": "Đorđe Vasić",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -52126,6 +52180,8 @@
     "slikaOdnos": 0.75,
     "slikaPotpis": "Geograf208, CC BY-SA 4.0",
     "naziv": "Spomenik u Bogojevcu",
+    "godina": "1985",
+    "autor": "Miodrag Stevanović",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -63116,6 +63172,9 @@
     },
     "priblizno": true,
     "mesto": "Sokoli",
+    "slika": "slike/spomenici/sokoli-spomenik-formiranju-prve-istarske-partizans.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Flammard, CC BY-SA 3.0",
     "naziv": "Spomenik formiranju Prve istarske partizanske čete",
     "godina": "1982",
     "posveta": "formiranju Prve istarske partizanske čete",
@@ -63516,6 +63575,7 @@
     "slikaOdnos": 1.333,
     "slikaPotpis": "Milica Milović, CC BY-SA 3.0",
     "naziv": "Spomenik na mestu pogibije Ise Sekickog u blizini Kule",
+    "godina": "1973",
     "posveta": "na mestu pogibije Ise Sekickog u blizini Kule",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -65679,11 +65739,13 @@
   {
     "id": "bistrica-spomenik-palim-borcima-i-zrtvama-fasistic",
     "koordinate": {
-      "lat": 45.15506,
-      "lng": 17.12801
+      "lat": 45.159437,
+      "lng": 17.124368
     },
-    "priblizno": true,
     "mesto": "Bistrica",
+    "slika": "slike/spomenici/bistrica-spomenik-palim-borcima-i-zrtvama-fasistic.webp",
+    "slikaOdnos": 0.743,
+    "slikaPotpis": "Petar Milošević, CC BY-SA 4.0",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
     "godina": "1984",
@@ -71109,6 +71171,8 @@
     "slikaOdnos": 0.75,
     "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-česma u Leskovcu",
+    "godina": "1991",
+    "autor": "Vasilije Milunović & Nikola Milunović & Đorđe Stanković",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -71120,6 +71184,9 @@
     },
     "mesto": "Medveđa",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BE%D1%81%D0%BB%D0%BE%D0%B1%D0%BE%D0%B4%D0%B8%D0%BE%D1%86%D0%B8%D0%BC%D0%B0_%D1%83_%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D1%92%D0%B8",
+    "slika": "slike/spomenici/medvedja-spomenik-oslobodiocima-u-medvedji.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Omladinskiklubanciki, CC BY-SA 4.0",
     "naziv": "Spomenik oslobodiocima u Medveđi",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -71132,8 +71199,14 @@
     },
     "mesto": "Vučje",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%A1%D0%BB%D0%B0%D0%B2%D0%BA%D1%83_%D0%A2%D0%BE%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%9B%D1%83_%D1%83_%D0%92%D1%83%D1%87%D1%98%D1%83",
+    "slika": "slike/spomenici/vucje-spomenik-slavku-todorovicu.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Omladinskiklubanciki, CC BY-SA 4.0",
     "naziv": "Spomenik Slavku Todoroviću",
+    "godina": "1973",
+    "autor": "Đorđe Vasić",
     "posveta": "Slavku Todoroviću",
+    "stanje": "srusen",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -71144,6 +71217,9 @@
       "lng": 17.306038
     },
     "mesto": "Županje Selo",
+    "slika": "slike/spomenici/zupanje-selo-spomenik-palim-borcima-novj-i-zrtvama.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Quahadi Añtó, CC BY-SA 3.0",
     "naziv": "Spomenik palim borcima NOVJ i žrtvama fašizma",
     "godina": "1983",
     "vrsta": "spomen-obelezje",
@@ -78291,6 +78367,7 @@
       "lng": 22.389667
     },
     "mesto": "Crnoštica",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D1%81%D1%80%D0%BF%D1%81%D0%BA%D0%BE-%D0%BC%D0%B0%D0%BA%D0%B5%D0%B4%D0%BE%D0%BD%D1%81%D0%BA%D0%BE-%D0%B1%D1%83%D0%B3%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B3_%D0%BF%D1%80%D0%B8%D1%98%D0%B0%D1%82%D0%B5%D1%99%D1%81%D1%82%D0%B2%D0%B0",
     "slika": "slike/spomenici/crnostica-spomenik-palim-borcima.webp",
     "slikaOdnos": 0.75,
     "slikaPotpis": "Planine.net",
@@ -78609,7 +78686,7 @@
     "mesto": "Debeljača",
     "naziv": "Spomenik NOB",
     "godina": "1961",
-    "autor": "B. Jovović",
+    "autor": "Božidar Jovović",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -84479,11 +84556,11 @@
       "lat": 43.74868,
       "lng": 18.27128
     },
-    "mesto": "Igman",
+    "mesto": "Veliko Polje (Igman)",
     "slika": "slike/spomenici/igman-spomenik-prva-proleterska-brigada.webp",
     "slikaOdnos": 1.351,
     "slikaPotpis": "Partisan Memorials Wiki",
-    "naziv": "Spomenik Prva Proleterska brigada",
+    "naziv": "Spomenik Igmanskom maršu",
     "godina": "1984",
     "posveta": [
       "Q2190675"
@@ -84512,6 +84589,9 @@
       "lng": 18.239418
     },
     "mesto": "Igman",
+    "slika": "slike/spomenici/igman-spomen-kosturnica-na-brezovaci.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Zavičajac, CC BY-SA 4.0",
     "naziv": "Spomen-kosturnica na Brezovači",
     "godina": "1954",
     "autor": "Franc Vidmar",
@@ -84524,9 +84604,13 @@
       "lat": 43.74728,
       "lng": 18.271189
     },
-    "mesto": "Igman",
-    "naziv": "Spomenik na Velikom polju",
+    "mesto": "Veliko Polje (Igman)",
+    "slika": "slike/spomenici/igman-spomenik-na-velikom-polju.webp",
+    "slikaOdnos": 0.784,
+    "slikaPotpis": "Zavičajac, CC BY-SA 4.0",
+    "naziv": "Spomenik formiranju Igmanskog partizanskog bataljona",
     "godina": "1984",
+    "posveta": "Formiranju Igmanskog partizanskog bataljona 15. februara 1942. na Velikom polju.",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -86958,6 +87042,9 @@
       "lng": 22.595111
     },
     "mesto": "Kobišnica",
+    "slika": "slike/spomenici/kobisnica-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.688,
+    "slikaPotpis": "Bazov, CC BY 4.0",
     "naziv": "Spomenik palim borcima",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -89323,6 +89410,9 @@
       "lng": 20.44096
     },
     "mesto": "Lisović",
+    "slika": "slike/spomenici/lisovic-partizansko-groblje.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Јелена Продановић, CC BY-SA 4.0",
     "naziv": "partizansko groblje",
     "godina": "1968",
     "vrsta": "spomen-groblje",
@@ -91352,7 +91442,7 @@
     "mesto": "Markovac",
     "naziv": "Spomenik palim borcima",
     "godina": "1979",
-    "autor": "J. Erčević",
+    "autor": "Jordan Erčević",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -93756,8 +93846,13 @@
       "lng": 20.818642
     },
     "mesto": "Охрид",
-    "naziv": "Партизанско гробишта",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%BE_%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B5_%D1%83_%D0%9E%D1%85%D1%80%D0%B8%D0%B4%D1%83",
+    "slika": "slike/spomenici/ohrid-partizansko-grobista.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Flammard, CC BY-SA 3.0",
+    "naziv": "Партизански гробишта",
     "godina": "1956",
+    "posveta": "31 паднат борец од Охрид и околината.",
     "vrsta": "spomen-groblje",
     "drzava": "Macedonia"
   },
@@ -94563,7 +94658,7 @@
     "mesto": "Padej",
     "naziv": "Spomenik NOB",
     "godina": "1964",
-    "autor": "S. Dukić",
+    "autor": "Stevan Dukić",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -95863,6 +95958,9 @@
     },
     "priblizno": true,
     "mesto": "Podvlaštica",
+    "slika": "slike/spomenici/podvlastica-spomenik-skoj-evcima.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Quahadi, CC BY-SA 3.0",
     "naziv": "Spomenik SKOJ-evcima",
     "godina": "1978",
     "vrsta": "spomen-obelezje",
@@ -97035,6 +97133,9 @@
       "lng": 21.514309
     },
     "mesto": "Rabrovo",
+    "slika": "slike/spomenici/rabrovo-spomenik-palim-borcima-i-zrtvama-fasistick.webp",
+    "slikaOdnos": 0.846,
+    "slikaPotpis": "Knoken, CC BY-SA 4.0",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "godina": "1958",
     "vrsta": "spomen-obelezje",
@@ -97609,7 +97710,7 @@
     "mesto": "Rastina",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "godina": "1970",
-    "autor": "E. Kočiš",
+    "autor": "Eugen Kočiš",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -98517,7 +98618,7 @@
     "mesto": "Rokci",
     "naziv": "Spomen-česma",
     "godina": "1966",
-    "autor": "R. Budisavljević",
+    "autor": "Radmila Budisavljević-Vujošević",
     "stanje": "rusevine",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -98748,7 +98849,7 @@
     "slikaPotpis": "Telepapatija",
     "naziv": "Spomenik NOB",
     "godina": "1961",
-    "autor": "S. Dukić",
+    "autor": "Stevan Dukić",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -98773,7 +98874,7 @@
     "mesto": "Ruski Krstur",
     "naziv": "Spomenik NOB",
     "godina": "1959",
-    "autor": "E. Kočiš",
+    "autor": "Eugen Kočiš",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -99002,7 +99103,9 @@
     "slika": "slike/spomenici/centar-sarajevo-spomenik-zrtvama-fasistickog-teror.webp",
     "slikaOdnos": 0.75,
     "slikaPotpis": "Partisan Memorials Wiki",
-    "naziv": "Spomenik žrtvama fašističkog terora",
+    "naziv": "Spomenik 55 sarajevskih antifašista",
+    "natpis": "NA OVOM PROSTORU\nU NOĆI IZMEĐU 27. I 28. MARTA 1945. GODINE\nUSTAŠKI ZLOČINCI SU OBJESILI\nPEDESET I PET SARAJEVSKIH ANTIFAŠISTA\n\nSPOMENIK PODIŽU:\nSUBNOAR OPĆINE CENTAR\nOPĆINA CENTAR\nGRAD SARAJEVO",
+    "posveta": "Za 55 sarajevskih antifašista koje su ustaše objesile u noći između 27. i 28. marta 1945.",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -103322,6 +103425,7 @@
       "lng": 22.010296
     },
     "mesto": "Velika Grabovnica",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D1%83_%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D1%98_%D0%93%D1%80%D0%B0%D0%B1%D0%BE%D0%B2%D0%BD%D0%B8%D1%86%D0%B8",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "godina": "1984",
     "vrsta": "spomen-obelezje",
@@ -105181,7 +105285,7 @@
     "slikaPotpis": "J. J. Baljak, Novosti",
     "naziv": "Spomen-kosturnica",
     "godina": "1955",
-    "autor": "E. Ristivojev",
+    "autor": "Ekaterina Ristivojev",
     "vrsta": "spomen-groblje",
     "drzava": "Serbia"
   },
@@ -105308,7 +105412,7 @@
     },
     "mesto": "Vučak",
     "naziv": "Spomen-česma",
-    "autor": "R. Budisavljević",
+    "autor": "Radmila Budisavljević-Vujošević",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -107420,7 +107524,7 @@
     "slikaPotpis": "Telepapatija",
     "naziv": "Spomenik Sonji Marinković",
     "godina": "1952",
-    "autor": "S. Sandić",
+    "autor": "Sava Sandić",
     "posveta": "Sonji Marinković",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -111137,6 +111241,7 @@
       "lng": 17.191883
     },
     "mesto": "Banja Luka",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BF%D0%B0%D0%BB%D0%B8%D0%BC_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D1%83_%D0%91%D0%B0%D1%9A%D0%B0%D0%BB%D1%83%D1%86%D0%B8",
     "slika": "slike/spomenici/banja-luka-spomenik-palim-borcima.webp",
     "slikaOdnos": 1.333,
     "slikaPotpis": "ArhistefoBL, CC0",
@@ -112756,7 +112861,7 @@
     },
     "mesto": "Priština",
     "naziv": "Spomenik",
-    "autor": "M. Miketić",
+    "autor": "Radoslav Musa Miketić",
     "vrsta": "spomen-obelezje",
     "drzava": "Kosovo"
   },
@@ -113247,7 +113352,7 @@
     "mesto": "Stari grad",
     "naziv": "Spomenik „Palim obalskim radnicima u toku NOB-a 1941-45.“ na Savskom pristaništu",
     "godina": "1945",
-    "autor": "R. Stanković",
+    "autor": "Radeta Stanković",
     "posveta": "„Palim obalskim radnicima u toku NOB-a 1941-45.“ na Savskom pristaništu",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -113298,7 +113403,7 @@
     "mesto": "Beograd",
     "naziv": "Skulptura",
     "godina": "1971",
-    "autor": "M. Četnik",
+    "autor": "Milan Četnik",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -113350,6 +113455,9 @@
     },
     "priblizno": true,
     "mesto": "Barajevo",
+    "slika": "slike/spomenici/barajevo-spomenik-u-lipovickoj-sumi-posvecen-palim.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Milica Buha, CC BY-SA 4.0",
     "naziv": "Spomenik u Lipovičkoj šumi posvećen palim borcima: Miletu Vukoviću",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -113389,7 +113497,7 @@
     "mesto": "Begaljica",
     "naziv": "Bista Ive Lole Ribara",
     "godina": "1961",
-    "autor": "G. Aleksić",
+    "autor": "Gradimir Aleksić",
     "posveta": [
       "Q1265884"
     ],
@@ -113459,7 +113567,7 @@
     "mesto": "Umčari",
     "naziv": "Bista Milivoja Stojkovića",
     "godina": "1969",
-    "autor": "A. Zarin",
+    "autor": "Aleksandar Zarin",
     "posveta": "Milivoja Stojkovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -113484,6 +113592,9 @@
     },
     "priblizno": true,
     "mesto": "Petrovčić",
+    "slika": "slike/spomenici/petrovcic-bista-dusana-vukasovica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Sadko, CC BY-SA 4.0",
     "naziv": "Bista Dušana Vukasovića",
     "godina": "1970",
     "posveta": "Dušana Vukasovića",
@@ -113654,9 +113765,12 @@
     },
     "priblizno": true,
     "mesto": "Mladenovac",
+    "slika": "slike/spomenici/mladenovac-bista-ive-lole-ribara.webp",
+    "slikaOdnos": 0.729,
+    "slikaPotpis": "Pinki, CC BY-SA 4.0",
     "naziv": "Bista Ive Lole Ribara",
     "godina": "1976",
-    "autor": "Ž. Maksimović",
+    "autor": "Živorad Maksimović",
     "posveta": [
       "Q1265884"
     ],
@@ -113761,6 +113875,9 @@
     },
     "priblizno": true,
     "mesto": "Obrenovac",
+    "slika": "slike/spomenici/obrenovac-bista-bore-markovica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Pinki, CC BY 4.0",
     "naziv": "Bista Bore Markovića",
     "posveta": "Bore Markovića",
     "vrsta": "bista",
@@ -113786,6 +113903,9 @@
     },
     "priblizno": true,
     "mesto": "Obrenovac",
+    "slika": "slike/spomenici/obrenovac-bista-mila-manica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Pinki, CC BY 4.0",
     "naziv": "Bista Mila Manića",
     "posveta": "Mila Manića",
     "vrsta": "bista",
@@ -113981,6 +114101,9 @@
     },
     "priblizno": true,
     "mesto": "Parcani",
+    "slika": "slike/spomenici/parcani-spomenik-na-grobu-rada-jovanovila.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Pinki, CC BY-SA 4.0",
     "naziv": "Spomenik na grobu Rada Jovanovila",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -113993,6 +114116,9 @@
     },
     "priblizno": true,
     "mesto": "Parcani",
+    "slika": "slike/spomenici/parcani-spomenik-na-grobu-milosava-vlajica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Pinki, CC BY-SA 4.0",
     "naziv": "Spomenik na grobu Milosava Vlajića",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -114229,7 +114355,7 @@
     "mesto": "Boljevac",
     "naziv": "Bista Đorđa Simeonovića",
     "godina": "1954",
-    "autor": "S. Danilović",
+    "autor": "Sreten Danilović",
     "posveta": "Đorđa Simeonovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -114244,7 +114370,7 @@
     "mesto": "Boljevac",
     "naziv": "Bista dr Ivka Đolovića",
     "godina": "1972",
-    "autor": "B. Obradović",
+    "autor": "Božidar Obradović",
     "vrsta": "bista",
     "drzava": "Serbia"
   },
@@ -114294,7 +114420,7 @@
     "mesto": "Podgorac",
     "naziv": "Bista Đorđa Simeonovića",
     "godina": "1976",
-    "autor": "Lj. Grasi",
+    "autor": "Ljubinka Savić Grasi",
     "posveta": "Đorđa Simeonovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -114346,7 +114472,7 @@
     "priblizno": true,
     "mesto": "Bor",
     "naziv": "Bista Tome Milanovića",
-    "autor": "M. Ribnikar",
+    "autor": "Milica Ribnikar",
     "posveta": "Tome Milanovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -114361,7 +114487,7 @@
     "mesto": "Bor",
     "naziv": "Bista Ive Lole Ribara",
     "godina": "1957",
-    "autor": "M. Ribnikar",
+    "autor": "Milica Ribnikar",
     "posveta": [
       "Q1265884"
     ],
@@ -114518,7 +114644,7 @@
     "mesto": "Tekija",
     "naziv": "Bista Stevana Vojmirovića",
     "godina": "1971",
-    "autor": "G. Aleksić",
+    "autor": "Gradimir Aleksić",
     "posveta": "Stevana Vojmirovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -114546,7 +114672,7 @@
     "mesto": "Knjaževac",
     "naziv": "Bista",
     "godina": "1952",
-    "autor": "B. Obradović",
+    "autor": "Božidar Obradović",
     "vrsta": "bista",
     "drzava": "Serbia"
   },
@@ -114559,7 +114685,7 @@
     "priblizno": true,
     "mesto": "Knjaževac",
     "naziv": "Bista Branka Miloševića-Metalca",
-    "autor": "S. Danilović",
+    "autor": "Sreten Danilović",
     "posveta": "Branka Miloševića-Metalca",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -114588,7 +114714,7 @@
     "mesto": "Knjaževac",
     "naziv": "Bista Branka Miloševića",
     "godina": "1970",
-    "autor": "Ž. Maksimović",
+    "autor": "Živorad Maksimović",
     "posveta": "Branka Miloševića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -114603,7 +114729,7 @@
     "mesto": "Knjaževac",
     "naziv": "Reljef",
     "godina": "1970",
-    "autor": "S. Bodnarov",
+    "autor": "Stevan Bodnarov",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -114967,7 +115093,7 @@
     "slikaPotpis": "HeritagePhotogrammetry, CC BY 4.0",
     "naziv": "Bista Alekse Markišića-Pavla",
     "godina": "1958",
-    "autor": "D. Nikolić",
+    "autor": "Dušan Nikolić",
     "posveta": "Alekse Markišića-Pavla",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -115095,6 +115221,9 @@
     },
     "priblizno": true,
     "mesto": "Pečenjevce",
+    "slika": "slike/spomenici/pecenjevce-bista-tihomira-rakica.webp",
+    "slikaOdnos": 0.563,
+    "slikaPotpis": "Miljan Simonović, CC BY-SA 4.0",
     "naziv": "Bista Tihomira Rakića",
     "autor": "Đ. Vasić",
     "posveta": "Tihomira Rakića",
@@ -115109,6 +115238,9 @@
     },
     "priblizno": true,
     "mesto": "Priboj",
+    "slika": "slike/spomenici/priboj-bista-milutina-smiljkovica.webp",
+    "slikaOdnos": 0.563,
+    "slikaPotpis": "Miljan Simonović, CC BY-SA 4.0",
     "naziv": "Bista Milutina Smiljkovića",
     "godina": "1976",
     "autor": "Đ. Vasić",
@@ -115301,9 +115433,12 @@
     },
     "priblizno": true,
     "mesto": "Vladičin Han",
+    "slika": "slike/spomenici/vladicin-han-bista-gradimira-mihailovica.webp",
+    "slikaOdnos": 0.603,
+    "slikaPotpis": "Чигот, CC BY-SA 4.0",
     "naziv": "Bista Gradimira Mihailovića",
     "godina": "1973",
-    "autor": "M. Četnik",
+    "autor": "Milan Četnik",
     "posveta": "Gradimira Mihailovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -115799,7 +115934,7 @@
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%9F%D0%B0%D0%BB%D0%B8%D0%BC_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D1%83_%D0%94%D1%80%D1%83%D0%B3%D0%BE%D0%BC_%D1%81%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%BE%D0%BC_%D1%80%D0%B0%D1%82%D1%83_%D1%83_%D0%A1%D1%83%D1%80%D0%B4%D1%83%D0%BB%D0%B8%D1%86%D0%B8",
     "naziv": "Spomenik palim borcima u Drugom svetskom ratu",
     "godina": "1961",
-    "autor": "M. Živković",
+    "autor": "Miodrag Živković",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -115813,7 +115948,7 @@
     "mesto": "Surdulica",
     "naziv": "Bista Tome Ivanovića Pere Mačkatovca",
     "godina": "1972",
-    "autor": "M. Živković",
+    "autor": "Miodrag Živković",
     "posveta": "Tome Ivanovića Pere Mačkatovca",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -115929,7 +116064,7 @@
     "mesto": "Godačica",
     "naziv": "Bista Olge Milutinović",
     "godina": "1972",
-    "autor": "S. Arsić",
+    "autor": "Svetomir Arsić-Basara",
     "posveta": "Olge Milutinović",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -116114,7 +116249,7 @@
     "mesto": "Roćevići",
     "naziv": "Bista Radoša Rakića",
     "godina": "1971",
-    "autor": "S. Arsić",
+    "autor": "Svetomir Arsić-Basara",
     "posveta": "Radoša Rakića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -116334,6 +116469,9 @@
     },
     "priblizno": true,
     "mesto": "Vrnjačka Banja",
+    "slika": "slike/spomenici/vrnjacka-banja-bista-zike-valjarevica.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
     "naziv": "Bista Žike Valjarevića",
     "posveta": "Žike Valjarevića",
     "vrsta": "bista",
@@ -116373,7 +116511,7 @@
     "priblizno": true,
     "mesto": "Gornji Milanovac",
     "naziv": "Reljef",
-    "autor": "N. Mitrić",
+    "autor": "Nebojša Mitrić",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -116385,6 +116523,9 @@
     },
     "priblizno": true,
     "mesto": "Gornji Milanovac",
+    "slika": "slike/spomenici/gornji-milanovac-bista-dragomira-drazevica.webp",
+    "slikaOdnos": 0.553,
+    "slikaPotpis": "Ranko, Public domain",
     "naziv": "Bista Dragomira Draževića",
     "godina": "1961",
     "posveta": "Dragomira Draževića",
@@ -116401,7 +116542,7 @@
     "mesto": "Gornji Milanovac",
     "naziv": "Bista Predraga Jevtića",
     "godina": "1961",
-    "autor": "M. Krković",
+    "autor": "Momčilo Krković",
     "posveta": "Predraga Jevtića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -116414,9 +116555,12 @@
     },
     "priblizno": true,
     "mesto": "Gornji Milanovac",
+    "slika": "slike/spomenici/gornji-milanovac-bista-tihomira-matijevica.webp",
+    "slikaOdnos": 0.698,
+    "slikaPotpis": "Ranko, Public domain",
     "naziv": "Bista Tihomira Matijevića",
     "godina": "1973",
-    "autor": "Ž. Maksimović",
+    "autor": "Živorad Maksimović",
     "posveta": "Tihomira Matijevića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -116431,7 +116575,7 @@
     "mesto": "Gornji Milanovac",
     "naziv": "Bista Tadije Andrića",
     "godina": "1972",
-    "autor": "Ž. Maksimović",
+    "autor": "Živorad Maksimović",
     "posveta": "Tadije Andrića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -116458,7 +116602,7 @@
     "mesto": "Gornji Milanovac",
     "naziv": "Bista Svetozara Popovića",
     "godina": "1964",
-    "autor": "M. Krković",
+    "autor": "Momčilo Krković",
     "posveta": "Svetozara Popovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -116466,41 +116610,54 @@
   {
     "id": "gornji-milanovac-spomenik-na-zajednickoj-grobnici",
     "koordinate": {
-      "lat": 44.02432,
-      "lng": 20.46004
+      "lat": 44.029984,
+      "lng": 20.4524494
     },
     "priblizno": true,
     "mesto": "Gornji Milanovac",
-    "naziv": "Spomenik na zajedničkoj grobnici trideset trojice boraca poginulih u borbama II proleterske brigade i Čačanskog partizanskog odreda",
-    "vrsta": "spomen-obelezje",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%9A%D0%BE%D1%81%D1%82%D1%83%D1%80%D0%BD%D0%B8%D1%86%D0%B0_%D0%BF%D0%B0%D0%BB%D0%B8%D1%85_%D0%B1%D0%BE%D1%80%D0%B0%D1%86%D0%B0_%D1%82%D0%B0%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3_%D0%BA%D1%80%D0%B0%D1%98%D0%B0",
+    "slika": "slike/spomenici/gornji-milanovac-spomenik-na-zajednickoj-grobnici.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Vanilica, CC BY-SA 4.0",
+    "naziv": "Kosturnica palih boraca takovskog kraja",
+    "godina": "1956",
+    "vrsta": "spomen-groblje",
     "drzava": "Serbia"
   },
   {
     "id": "gornji-milanovac-spomenik-na-zajednickoj-grobnici-2",
     "koordinate": {
-      "lat": 44.02432,
-      "lng": 20.46004
+      "lat": 44.029984,
+      "lng": 20.4524494
     },
     "priblizno": true,
     "mesto": "Gornji Milanovac",
-    "naziv": "Spomenik na zajedničkoj grobnici četiri stotine osam boraca i oficira Crvene armije palih oktobra i novembra",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%9A%D0%BE%D1%81%D1%82%D1%83%D1%80%D0%BD%D0%B8%D1%86%D0%B0_%D1%86%D1%80%D0%B2%D0%B5%D0%BD%D0%BE%D0%B0%D1%80%D0%BC%D0%B5%D1%98%D0%B0%D1%86%D0%B0",
+    "slika": "slike/spomenici/gornji-milanovac-spomenik-na-zajednickoj-grobnici-2.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Vanilica, CC BY-SA 4.0",
+    "naziv": "Kosturnica crvenoarmejaca",
     "godina": "1956",
-    "autor": "Ž. Maksimović",
-    "vrsta": "spomen-obelezje",
+    "autor": "Živorad Maksimović",
+    "vrsta": "spomen-groblje",
     "drzava": "Serbia"
   },
   {
     "id": "gornji-milanovac-spomenik-takovskim-internircima-u",
     "koordinate": {
-      "lat": 44.02432,
-      "lng": 20.46004
+      "lat": 44.029984,
+      "lng": 20.4524494
     },
     "priblizno": true,
     "mesto": "Gornji Milanovac",
-    "naziv": "Spomenik takovskim internircima u logorima Norveške",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D1%81%D1%82%D1%80%D0%B0%D0%B4%D0%B0%D0%BB%D0%B8%D0%BC_%D0%A2%D0%B0%D0%BA%D0%BE%D0%B2%D1%86%D0%B8%D0%BC%D0%B0_%D1%83_%D0%9D%D0%BE%D1%80%D0%B2%D0%B5%D1%88%D0%BA%D0%BE%D1%98",
+    "slika": "slike/spomenici/gornji-milanovac-spomenik-takovskim-internircima-u.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Vanilica, CC BY-SA 4.0",
+    "naziv": "Spomenik stradalim Takovcima u Norveškoj",
     "godina": "1973",
-    "autor": "Ž. Maksimović",
-    "vrsta": "spomen-obelezje",
+    "autor": "Živorad Maksimović",
+    "vrsta": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -116635,7 +116792,7 @@
     "priblizno": true,
     "mesto": "Dragolj",
     "naziv": "Skulptura na postolju",
-    "autor": "Ž. Maksimović",
+    "autor": "Živorad Maksimović",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -116713,7 +116870,7 @@
     "mesto": "Rudnik",
     "naziv": "Spomen-česma",
     "godina": "1974",
-    "autor": "Ž. Maksimović",
+    "autor": "Živorad Maksimović",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -116738,7 +116895,7 @@
     "priblizno": true,
     "mesto": "Rudnik",
     "naziv": "Skulptura",
-    "autor": "M. Krković",
+    "autor": "Momčilo Krković",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -116765,7 +116922,7 @@
     "priblizno": true,
     "mesto": "Rudnik",
     "naziv": "Spomen-stena na Paljevinama",
-    "autor": "M. Glišić",
+    "autor": "Milija Glišić",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -116817,7 +116974,7 @@
     "mesto": "Kruševac",
     "naziv": "Bista Mirka Tomića",
     "godina": "1959",
-    "autor": "D. Simić",
+    "autor": "Dimitrije Simić",
     "posveta": "Mirka Tomića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -116846,7 +117003,7 @@
     "mesto": "Kruševac",
     "naziv": "Bista Branka Perišića-Badže",
     "godina": "1959",
-    "autor": "M. Mićić",
+    "autor": "Milivoje Mićić",
     "posveta": "Branka Perišića-Badže",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -116861,7 +117018,7 @@
     "mesto": "Kruševac",
     "naziv": "Bista Veselina Nikolića",
     "godina": "1975",
-    "autor": "M. Mićić",
+    "autor": "Milivoje Mićić",
     "posveta": "Veselina Nikolića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -116890,7 +117047,7 @@
     "mesto": "Kruševac",
     "naziv": "Bista Nade Popović",
     "godina": "1972",
-    "autor": "D. Simić",
+    "autor": "Dimitrije Simić",
     "posveta": "Nade Popović",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -116904,7 +117061,7 @@
     "priblizno": true,
     "mesto": "Kruševac",
     "naziv": "Bista Nade Marković",
-    "autor": "D. Simić",
+    "autor": "Dimitrije Simić",
     "posveta": "Nade Marković",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -117127,7 +117284,7 @@
     "mesto": "Lučani",
     "naziv": "Bista Milana Blagojevića",
     "godina": "1959",
-    "autor": "S. Bodnarov",
+    "autor": "Stevan Bodnarov",
     "posveta": "Milana Blagojevića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -117224,7 +117381,7 @@
     "mesto": "Guberevci",
     "naziv": "Skulpturalna kompozicija visoka",
     "godina": "1968",
-    "autor": "O. Berbelja",
+    "autor": "Oskar Berbelja",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -117237,7 +117394,7 @@
     "priblizno": true,
     "mesto": "Guberevci",
     "naziv": "Bista",
-    "autor": "Ž. Maksimović",
+    "autor": "Živorad Maksimović",
     "vrsta": "bista",
     "drzava": "Serbia"
   },
@@ -117266,7 +117423,7 @@
     "mesto": "Guberevci",
     "naziv": "Bista Bogdana Kapelana",
     "godina": "1967",
-    "autor": "S. Bodnarov",
+    "autor": "Stevan Bodnarov",
     "posveta": "Bogdana Kapelana",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -117524,7 +117681,7 @@
     "mesto": "Trstenik",
     "naziv": "Bista Miodraga Čajetinca",
     "godina": "1965",
-    "autor": "D. Nikolić",
+    "autor": "Dušan Nikolić",
     "posveta": "Miodraga Čajetinca",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -117595,7 +117752,7 @@
     "mesto": "Velika Drenova",
     "naziv": "Bista Radmile Ćosić",
     "godina": "1975",
-    "autor": "M. Mićić",
+    "autor": "Milivoje Mićić",
     "posveta": "Radmile Ćosić",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -117624,7 +117781,7 @@
     "mesto": "Milutovac",
     "naziv": "Bista Radomira Dodića",
     "godina": "1970",
-    "autor": "M. Mićić",
+    "autor": "Milivoje Mićić",
     "posveta": "Radomira Dodića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -117794,7 +117951,7 @@
     "mesto": "Čačak",
     "naziv": "Bista Božidara Tomića",
     "godina": "1960",
-    "autor": "O. Berbelja",
+    "autor": "Oskar Berbelja",
     "posveta": "Božidara Tomića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -117822,7 +117979,7 @@
     "priblizno": true,
     "mesto": "Čačak",
     "naziv": "Bista Ratka Mitrovića",
-    "autor": "O. Berbelja",
+    "autor": "Oskar Berbelja",
     "posveta": "Ratka Mitrovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -117836,7 +117993,7 @@
     "mesto": "Čačak",
     "naziv": "Bista Milana-Bate Jankovića",
     "godina": "1966",
-    "autor": "V. Jocić",
+    "autor": "Vida Jocić",
     "posveta": "Milana-Bate Jankovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -117879,7 +118036,7 @@
     "mesto": "Čačak",
     "naziv": "Reljef",
     "godina": "1967",
-    "autor": "Ž. Maksimović",
+    "autor": "Živorad Maksimović",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -117906,7 +118063,7 @@
     "mesto": "Preljina",
     "naziv": "Spomenik palim članovima FK",
     "godina": "1978",
-    "autor": "Ž. Maksimović",
+    "autor": "Živorad Maksimović",
     "posveta": "palim članovima FK",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -117946,7 +118103,7 @@
     "mesto": "Bečanj",
     "naziv": "Bista Zaviše Senića",
     "godina": "1970",
-    "autor": "Ž. Maksimović",
+    "autor": "Živorad Maksimović",
     "posveta": "Zaviše Senića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -117998,7 +118155,7 @@
     "mesto": "Vapa",
     "naziv": "Bista Ljubinke Popović",
     "godina": "1970",
-    "autor": "D. Todorovski",
+    "autor": "Dimo Todorovski",
     "posveta": "Ljubinke Popović",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -118013,7 +118170,7 @@
     "mesto": "Viljuša",
     "naziv": "Spomenik palim 1941-1945",
     "godina": "1970",
-    "autor": "Ž. Maksimović",
+    "autor": "Živorad Maksimović",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -118027,7 +118184,7 @@
     "mesto": "Gornja Gorevnica",
     "naziv": "Spomenik palim u oslobodilačkim ratovima 1912-1918 i 1941-1945",
     "godina": "1975",
-    "autor": "Ž. Maksimović",
+    "autor": "Živorad Maksimović",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -118116,7 +118273,7 @@
     "mesto": "Ježevica",
     "naziv": "Bista Milutina Stojića",
     "godina": "1970",
-    "autor": "Ž. Maksimović",
+    "autor": "Živorad Maksimović",
     "posveta": "Milutina Stojića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -118171,7 +118328,7 @@
     "mesto": "Ostra",
     "naziv": "Skulptura",
     "godina": "1960",
-    "autor": "M. Živković, S. Ličina",
+    "autor": "Miodrag Živković & Svetislav Ličina",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -118185,7 +118342,7 @@
     "mesto": "Preljina",
     "naziv": "Spomenik palim borcima za slobodu 1941-1945",
     "godina": "1958",
-    "autor": "M. Lukić",
+    "autor": "Milan Lukić",
     "vrsta": "spomen-groblje",
     "drzava": "Serbia"
   },
@@ -118198,7 +118355,7 @@
     "priblizno": true,
     "mesto": "Preljina",
     "naziv": "Bista Miluna Minića",
-    "autor": "Ž. Maksimović",
+    "autor": "Živorad Maksimović",
     "posveta": "Miluna Minića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -118213,7 +118370,7 @@
     "mesto": "Preljina",
     "naziv": "Bista Radovana Jovanovića",
     "godina": "1965",
-    "autor": "Ž. Maksimović, Ž. Maksimović",
+    "autor": "Živorad Maksimović",
     "posveta": "Radovana Jovanovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -118240,7 +118397,7 @@
     "priblizno": true,
     "mesto": "Trbušani",
     "naziv": "Bista Ljubiše Nedića",
-    "autor": "O. Berbelja",
+    "autor": "Oskar Berbelja",
     "posveta": "Ljubiše Nedića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -118254,7 +118411,7 @@
     "priblizno": true,
     "mesto": "Trnava",
     "naziv": "Bista Milice Vučetić",
-    "autor": "O. Berbelja",
+    "autor": "Oskar Berbelja",
     "posveta": [
       "Q12755381"
     ],
@@ -118270,7 +118427,7 @@
     "priblizno": true,
     "mesto": "Jelašnica",
     "naziv": "Bronzana figura spomenik palim 1941-1945",
-    "autor": "A. Šakić",
+    "autor": "Aleksandar Šakić",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -118311,7 +118468,7 @@
     "mesto": "Aleksinac",
     "naziv": "Spomenik revolucije",
     "godina": "1975",
-    "autor": "M. Pecić",
+    "autor": "Miodrag Pecić",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -118325,7 +118482,7 @@
     "mesto": "Aleksinac",
     "naziv": "Spomenik na zajedničkoj grobnici",
     "godina": "1951",
-    "autor": "A. Šakić",
+    "autor": "Aleksandar Šakić",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -118338,7 +118495,7 @@
     "mesto": "Aleksinac",
     "naziv": "Bista Momčila Popovića-Ozrena",
     "godina": "1955",
-    "autor": "D. Nikolić",
+    "autor": "Dušan Nikolić",
     "posveta": "Momčila Popovića-Ozrena",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -118353,7 +118510,7 @@
     "mesto": "Aleksinac",
     "naziv": "Bista",
     "godina": "1955",
-    "autor": "D. Nikolić",
+    "autor": "Dušan Nikolić",
     "vrsta": "bista",
     "drzava": "Serbia"
   },
@@ -118367,7 +118524,7 @@
     "mesto": "Aleksinac",
     "naziv": "Bista Jelke Radulović",
     "godina": "1955",
-    "autor": "D. Nikolić",
+    "autor": "Dušan Nikolić",
     "posveta": "Jelke Radulović",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -118382,7 +118539,7 @@
     "mesto": "Aleksinac",
     "naziv": "Bista Kristine Markišić-jelke",
     "godina": "1976",
-    "autor": "S. Bodnarov",
+    "autor": "Stevan Bodnarov",
     "posveta": "Kristine Markišić-jelke",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -118491,7 +118648,7 @@
     "priblizno": true,
     "mesto": "Trnjane",
     "naziv": "Bista Stojana Živkovića",
-    "autor": "D. Donkov",
+    "autor": "Dušan Donkov",
     "posveta": "Stojana Živkovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -118599,7 +118756,7 @@
     "mesto": "Blace",
     "naziv": "Bista Slavoljuba Vuksanovića-jajka",
     "godina": "1952",
-    "autor": "D. Nikolić",
+    "autor": "Dušan Nikolić",
     "posveta": "Slavoljuba Vuksanovića-jajka",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -118681,7 +118838,7 @@
     "mesto": "Taskovići",
     "naziv": "Bista Dušana Taskovića-Srećka",
     "godina": "1969",
-    "autor": "A. Šakić",
+    "autor": "Aleksandar Šakić",
     "posveta": "Dušana Taskovića-Srećka",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -118696,7 +118853,7 @@
     "mesto": "Taskovići",
     "naziv": "Bista Videna Taskovića-Mrguda",
     "godina": "1969",
-    "autor": "A. Šakić",
+    "autor": "Aleksandar Šakić",
     "posveta": "Videna Taskovića-Mrguda",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -118749,7 +118906,7 @@
     "priblizno": true,
     "mesto": "Konjarnik",
     "naziv": "Bista Dragomira Begovića-Neda",
-    "autor": "R. Budisavljević",
+    "autor": "Radmila Budisavljević-Vujošević",
     "posveta": "Dragomira Begovića-Neda",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -118915,7 +119072,7 @@
     "mesto": "Prokuplje",
     "naziv": "Bista",
     "godina": "1955",
-    "autor": "M. Krstić",
+    "autor": "Milovan Krstić",
     "vrsta": "bista",
     "drzava": "Serbia"
   },
@@ -118953,6 +119110,9 @@
     },
     "priblizno": true,
     "mesto": "Berilje",
+    "slika": "slike/spomenici/berilje-bista-ratka-pavlovica-cicka.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Katarina Z, CC BY-SA 4.0",
     "naziv": "Bista Ratka Pavlovića-Ćićka",
     "godina": "1958",
     "autor": "S. Stojanović",
@@ -119042,7 +119202,7 @@
     "priblizno": true,
     "mesto": "Mala Plana",
     "naziv": "Bista",
-    "autor": "R. Budisavljević",
+    "autor": "Radmila Budisavljević-Vujošević",
     "vrsta": "bista",
     "drzava": "Serbia"
   },
@@ -119093,7 +119253,7 @@
     "priblizno": true,
     "mesto": "Svrljig",
     "naziv": "Bronzana figura",
-    "autor": "A. Šakić",
+    "autor": "Aleksandar Šakić",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -119107,7 +119267,7 @@
     "mesto": "Svrljig",
     "naziv": "Bista Milenka Hadžića-Jove",
     "godina": "1952",
-    "autor": "A. Šakić",
+    "autor": "Aleksandar Šakić",
     "posveta": "Milenka Hadžića-Jove",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -119120,9 +119280,12 @@
     },
     "priblizno": true,
     "mesto": "Svrljig",
+    "slika": "slike/spomenici/svrljig-bista-radoja-vujosevica-riste.webp",
+    "slikaOdnos": 0.45,
+    "slikaPotpis": "Sunce Niš, CC BY-SA 4.0",
     "naziv": "Bista Radoja Vujoševića-Riste",
     "godina": "1972",
-    "autor": "M. Četnik",
+    "autor": "Milan Četnik",
     "posveta": "Radoja Vujoševića-Riste",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -119136,7 +119299,7 @@
     "priblizno": true,
     "mesto": "Svrljig",
     "naziv": "Bista",
-    "autor": "M. Četnik",
+    "autor": "Milan Četnik",
     "vrsta": "bista",
     "drzava": "Serbia"
   },
@@ -119149,7 +119312,7 @@
     "priblizno": true,
     "mesto": "Svrljig",
     "naziv": "Bista",
-    "autor": "M. Četnik",
+    "autor": "Milan Četnik",
     "vrsta": "bista",
     "drzava": "Serbia"
   },
@@ -119162,7 +119325,7 @@
     "priblizno": true,
     "mesto": "Svrljig",
     "naziv": "Bista Stavrije Milanovića",
-    "autor": "M. Četnik",
+    "autor": "Milan Četnik",
     "posveta": "Stavrije Milanovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -119241,7 +119404,7 @@
     "mesto": "Šabac",
     "naziv": "Bista",
     "godina": "1971",
-    "autor": "V. Jocić",
+    "autor": "Vida Jocić",
     "vrsta": "bista",
     "drzava": "Serbia"
   },
@@ -119255,7 +119418,7 @@
     "mesto": "Šabac",
     "naziv": "Bista Živorada Popovića",
     "godina": "1961",
-    "autor": "S. Bodnarov",
+    "autor": "Stevan Bodnarov",
     "posveta": "Živorada Popovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -119326,7 +119489,7 @@
     "mesto": "Valjevo",
     "naziv": "Skulptura „Heroizam“ visoka 16 m",
     "godina": "1967",
-    "autor": "V. Bakić",
+    "autor": "Vojin Bakić",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -119340,7 +119503,7 @@
     "mesto": "Valjevo",
     "naziv": "Reljefna kompozicija „Pokošeni cvetovi“",
     "godina": "1978",
-    "autor": "A. Zarin",
+    "autor": "Aleksandar Zarin",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -119517,7 +119680,7 @@
     "mesto": "Joševa",
     "naziv": "Bista Zdravka Jovanovića",
     "godina": "1966",
-    "autor": "V. Jocić",
+    "autor": "Vida Jocić",
     "posveta": [
       "Q12751954"
     ],
@@ -119646,7 +119809,7 @@
     "mesto": "Divčibare",
     "naziv": "Bista dr Dimitrija Pitovića",
     "godina": "1974",
-    "autor": "A. Zarin",
+    "autor": "Aleksandar Zarin",
     "vrsta": "bista",
     "drzava": "Serbia"
   },
@@ -119673,7 +119836,7 @@
     "mesto": "Jalovik",
     "naziv": "Bista Dragoljuba Jovičića u rodnom mestu",
     "godina": "1974",
-    "autor": "V. Jocić",
+    "autor": "Vida Jocić",
     "vrsta": "bista",
     "drzava": "Serbia"
   },
@@ -119759,7 +119922,7 @@
     "priblizno": true,
     "mesto": "Bela Crkva",
     "naziv": "Memorijalni prostor čine",
-    "autor": "B. Bogdanović, S. Bodnarov",
+    "autor": "Bogdan Bogdanović & Stevan Bodnarov",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -119851,7 +120014,7 @@
     "mesto": "Banja Koviljača",
     "naziv": "Bista Vere Blagojević",
     "godina": "1972",
-    "autor": "A. Zarin",
+    "autor": "Aleksandar Zarin",
     "posveta": [
       "Q13613463"
     ],
@@ -119996,7 +120159,7 @@
     "mesto": "Belanovica",
     "naziv": "Bista Branislava Markovića",
     "godina": "1966",
-    "autor": "S. Bodnarov",
+    "autor": "Stevan Bodnarov",
     "posveta": "Branislava Markovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -120011,7 +120174,7 @@
     "mesto": "Belanovica",
     "naziv": "Bista Steve Markovića-Singera",
     "godina": "1968",
-    "autor": "S. Bodnarov",
+    "autor": "Stevan Bodnarov",
     "posveta": "Steve Markovića-Singera",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -120111,7 +120274,7 @@
     "mesto": "Liplje",
     "naziv": "Bista Mihaila Dugalića",
     "godina": "1971",
-    "autor": "G. Aleksić",
+    "autor": "Gradimir Aleksić",
     "posveta": "Mihaila Dugalića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -120565,7 +120728,7 @@
     "priblizno": true,
     "mesto": "Smederevo",
     "naziv": "Spomen česma posvećena uspomeni na pale ratnike I svetskog rata i NOR-a",
-    "autor": "R. Budisavljević",
+    "autor": "Radmila Budisavljević-Vujošević",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -120641,7 +120804,7 @@
     "priblizno": true,
     "mesto": "Mihajlovac",
     "naziv": "Bista Save Jovanovića",
-    "autor": "V. Vujisić",
+    "autor": "Vojislav Vujisić",
     "posveta": "Save Jovanovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -120848,7 +121011,7 @@
     "priblizno": true,
     "mesto": "Žagubica",
     "naziv": "Bista Jovana Šerbanovića",
-    "autor": "B. Obradović",
+    "autor": "Božidar Obradović",
     "posveta": "Jovana Šerbanovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -120988,7 +121151,7 @@
     "priblizno": true,
     "mesto": "Malo Crniće",
     "naziv": "Bista",
-    "autor": "V. Zorić",
+    "autor": "Veselko Zorić",
     "vrsta": "bista",
     "drzava": "Serbia"
   },
@@ -121114,7 +121277,7 @@
     "priblizno": true,
     "mesto": "Požarevac",
     "naziv": "Bista Veljka Dugoševića",
-    "autor": "V. Raduš",
+    "autor": "Vanja Radauš",
     "posveta": "Veljka Dugoševića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -121300,7 +121463,7 @@
     "mesto": "Smederevska Palanka",
     "naziv": "Bista Olge Milošević",
     "godina": "1975",
-    "autor": "O. Logo",
+    "autor": "Oto Logo",
     "posveta": "Olge Milošević",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -121595,7 +121758,7 @@
     "priblizno": true,
     "mesto": "Bajina Bašta",
     "naziv": "Skulptura",
-    "autor": "S. Bodnarov",
+    "autor": "Stevan Bodnarov",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -121609,7 +121772,7 @@
     "mesto": "Bajina Bašta",
     "naziv": "Bista Milenka Topalovića",
     "godina": "1977",
-    "autor": "A. Gržetić",
+    "autor": "Ante Gržetić",
     "posveta": "Milenka Topalovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -121624,7 +121787,7 @@
     "mesto": "Bajina Bašta",
     "naziv": "Bista Rajka Pavićevića",
     "godina": "1966",
-    "autor": "M. Vergović",
+    "autor": "Milan Vergović",
     "posveta": "Rajka Pavićevića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -121726,7 +121889,7 @@
     "mesto": "Ivanjica",
     "naziv": "Bista Milosava Matovića",
     "godina": "1975",
-    "autor": "R. Budisavljević",
+    "autor": "Radmila Budisavljević-Vujošević",
     "posveta": "Milosava Matovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -121753,7 +121916,7 @@
     "mesto": "Brezova",
     "naziv": "Spomen-česma na Crvenoj gori",
     "godina": "1966",
-    "autor": "R. Budisavljević",
+    "autor": "Radmila Budisavljević-Vujošević",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -121996,7 +122159,7 @@
     "priblizno": true,
     "mesto": "Nova Varoš",
     "naziv": "Bista Živka Ljujića",
-    "autor": "S. Bodnarov",
+    "autor": "Stevan Bodnarov",
     "posveta": "Živka Ljujića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -122011,7 +122174,7 @@
     "mesto": "Nova Varoš",
     "naziv": "Bista Rodoljuba Stevovića",
     "godina": "1964",
-    "autor": "S. Bodnarov",
+    "autor": "Stevan Bodnarov",
     "posveta": "Rodoljuba Stevovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -122116,7 +122279,7 @@
     "mesto": "Požega",
     "naziv": "Bista Vladimira Radovanovića",
     "godina": "1967",
-    "autor": "M. Protić",
+    "autor": "Miroslav Protić",
     "posveta": "Vladimira Radovanovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -122130,7 +122293,7 @@
     "priblizno": true,
     "mesto": "Požega",
     "naziv": "Bista Ljubomira Mićeića",
-    "autor": "M. Protić",
+    "autor": "Miroslav Protić",
     "posveta": "Ljubomira Mićeića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -122183,6 +122346,9 @@
     },
     "priblizno": true,
     "mesto": "Glumač",
+    "slika": "slike/spomenici/glumac-bista-milorada-bondzulica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Јелена Продановић, CC BY-SA 4.0",
     "naziv": "Bista Milorada Bondžulića",
     "posveta": "Milorada Bondžulića",
     "vrsta": "bista",
@@ -122284,7 +122450,7 @@
     "mesto": "Jelen Do",
     "naziv": "Bista Miloja Maslaća u rodnom selu",
     "godina": "1968",
-    "autor": "M. Protić",
+    "autor": "Miroslav Protić",
     "vrsta": "bista",
     "drzava": "Serbia"
   },
@@ -122334,7 +122500,7 @@
     "priblizno": true,
     "mesto": "Srednja Dobrinja",
     "naziv": "Bista Radosava Kovačevića",
-    "autor": "M. Protić",
+    "autor": "Miroslav Protić",
     "posveta": "Radosava Kovačevića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -122896,7 +123062,7 @@
     "priblizno": true,
     "mesto": "Aranđelovac",
     "naziv": "Bista Milana Ilića-Čiče",
-    "autor": "S. Bodnarov",
+    "autor": "Stevan Bodnarov",
     "posveta": "Milana Ilića-Čiče",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -123261,7 +123427,7 @@
     "priblizno": true,
     "mesto": "Paraćin",
     "naziv": "Skulptura",
-    "autor": "P. Palavičini",
+    "autor": "Petar Palavičini",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -123385,7 +123551,7 @@
     "mesto": "Rača",
     "naziv": "Bista Petra Živića",
     "godina": "1978",
-    "autor": "N. Glid",
+    "autor": "Nandor Glid",
     "posveta": "Petra Živića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -123400,7 +123566,7 @@
     "mesto": "Rača",
     "naziv": "Bista Miloja Hadžića",
     "godina": "1979",
-    "autor": "N. Glid",
+    "autor": "Nandor Glid",
     "posveta": "Miloja Hadžića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -123500,7 +123666,7 @@
     "mesto": "Saranovo",
     "naziv": "Bista Petra Ivanovića",
     "godina": "1962",
-    "autor": "S. Bodnarov",
+    "autor": "Stevan Bodnarov",
     "posveta": "Petra Ivanovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -123562,7 +123728,7 @@
     "priblizno": true,
     "mesto": "Bagrdan",
     "naziv": "Bista",
-    "autor": "J. Gostović",
+    "autor": "Jovan Gostović",
     "vrsta": "bista",
     "drzava": "Serbia"
   },
@@ -123672,6 +123838,9 @@
     },
     "priblizno": true,
     "mesto": "Majur",
+    "slika": "slike/spomenici/majur-bista-radisava-nikcevica.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Ruzica Stojanovic Djordjevic, CC BY-SA 4.0",
     "naziv": "Bista Radisava Nikčevića",
     "godina": "1978",
     "posveta": "Radisava Nikčevića",
@@ -123711,9 +123880,12 @@
     },
     "priblizno": true,
     "mesto": "Ribare",
+    "slika": "slike/spomenici/ribare-bista-ljubise-urosevica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Dungodung, CC BY-SA 4.0",
     "naziv": "Bista Ljubiše Uroševića",
     "godina": "1961",
-    "autor": "R. Subotički",
+    "autor": "Radivoj Subotički",
     "posveta": "Ljubiše Uroševića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -123841,7 +124013,7 @@
     "mesto": "Topola",
     "naziv": "Bista Milića Rodovanovića",
     "godina": "1970",
-    "autor": "S. Bodnarov",
+    "autor": "Stevan Bodnarov",
     "posveta": "Milića Rodovanovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -123856,7 +124028,7 @@
     "mesto": "Božurnja",
     "naziv": "Spomenik palim 1941-1945",
     "godina": "1960",
-    "autor": "M. Živković",
+    "autor": "Miodrag Živković",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -123935,7 +124107,7 @@
     "mesto": "Natalinci",
     "naziv": "Bista Milana Blagojevića",
     "godina": "1965",
-    "autor": "S. Bodnarov",
+    "autor": "Stevan Bodnarov",
     "posveta": "Milana Blagojevića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -123948,6 +124120,9 @@
     },
     "priblizno": true,
     "mesto": "Natalinci",
+    "slika": "slike/spomenici/natalinci-spomenik-na-grobu-milana-blagojevica.webp",
+    "slikaOdnos": 0.693,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
     "naziv": "Spomenik na grobu Milana Blagojevića",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -124039,7 +124214,7 @@
     "priblizno": true,
     "mesto": "Novi Sad",
     "naziv": "Bista Svetozara Markovića narodnog heroja",
-    "autor": "A. Zarin",
+    "autor": "Aleksandar Zarin",
     "posveta": "Svetozara Markovića narodnog heroja",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -124052,8 +124227,11 @@
     },
     "priblizno": true,
     "mesto": "Novi Sad",
+    "slika": "slike/spomenici/novi-sad-bista-slobodana-bajica-paje.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Pinki, CC BY-SA 3.0",
     "naziv": "Bista Slobodana Bajića-Paje",
-    "autor": "P. Radovanović",
+    "autor": "Pavle Radovanović",
     "posveta": "Slobodana Bajića-Paje",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -124080,9 +124258,12 @@
       "lng": 19.8480088
     },
     "mesto": "Novi Sad",
+    "slika": "slike/spomenici/novi-sad-bista-zarka-zrenjanina.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Micki, CC BY-SA 3.0",
     "naziv": "Bista Žarka Zrenjanina",
     "godina": "1957",
-    "autor": "E. Kočiš",
+    "autor": "Eugen Kočiš",
     "posveta": [
       "Q393415"
     ],
@@ -124165,7 +124346,7 @@
     "mesto": "Ada",
     "naziv": "Bista Karolja Čeha",
     "godina": "1967",
-    "autor": "T. Mrkšić",
+    "autor": "Trifun Mrkšić",
     "posveta": "Karolja Čeha",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -124243,7 +124424,7 @@
     "mesto": "Kupusina",
     "naziv": "Bista Rada Končara",
     "godina": "1972",
-    "autor": "E. Kočiš",
+    "autor": "Eugen Kočiš",
     "posveta": [
       "Q640602"
     ],
@@ -124259,7 +124440,7 @@
     "priblizno": true,
     "mesto": "Kupusina",
     "naziv": "Bista Marka Oreškovića",
-    "autor": "E. Kočiš",
+    "autor": "Eugen Kočiš",
     "posveta": [
       "Q1264428"
     ],
@@ -124370,7 +124551,7 @@
     "mesto": "Bač",
     "naziv": "Skulptura",
     "godina": "1954",
-    "autor": "N. Kećanin",
+    "autor": "Nikola Kečanin",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -124384,7 +124565,7 @@
     "mesto": "Bačka Palanka",
     "naziv": "Obelisk visok 8 m",
     "godina": "1969",
-    "autor": "M. Pališaški",
+    "autor": "Milan Pališaški",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -124437,7 +124618,7 @@
     "mesto": "Neštin",
     "naziv": "Obelisk",
     "godina": "1975",
-    "autor": "J. Soldatović",
+    "autor": "Jovan Soldatović",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -124477,7 +124658,7 @@
     "mesto": "Čelarevo",
     "naziv": "Skulptura",
     "godina": "1967",
-    "autor": "A. Zarin",
+    "autor": "Aleksandar Zarin",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -124541,7 +124722,7 @@
     "mesto": "Mićunovo",
     "naziv": "Bista Lazara Milunova",
     "godina": "1956",
-    "autor": "S. Bodnarov",
+    "autor": "Stevan Bodnarov",
     "posveta": "Lazara Milunova",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -124567,7 +124748,7 @@
     "priblizno": true,
     "mesto": "Bečej",
     "naziv": "Bista Todora Dukina",
-    "autor": "R. Subotički",
+    "autor": "Radivoj Subotički",
     "posveta": "Todora Dukina",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -124581,7 +124762,7 @@
     "priblizno": true,
     "mesto": "Bečej",
     "naziv": "Bista Šamu Mihalja na Trgu bratstva i jedinstva",
-    "autor": "J. Kiš",
+    "autor": "Julijana Kiš",
     "posveta": "Šamu Mihalja na Trgu bratstva i jedinstva",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -124633,7 +124814,7 @@
     "priblizno": true,
     "mesto": "Bela Crkva",
     "naziv": "Bista Žarka Zlatara",
-    "autor": "E. Ristivojev",
+    "autor": "Ekaterina Ristivojev",
     "posveta": "Žarka Zlatara",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -124675,7 +124856,7 @@
     "priblizno": true,
     "mesto": "Dupljaja",
     "naziv": "Bista Dejana Brankova",
-    "autor": "E. Ristivojev",
+    "autor": "Ekaterina Ristivojev",
     "posveta": "Dejana Brankova",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -124762,7 +124943,7 @@
     "priblizno": true,
     "mesto": "Zmajevo",
     "naziv": "Spomenik palim 1941-1945",
-    "autor": "J. Gostović",
+    "autor": "Jovan Gostović",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -124828,7 +125009,7 @@
     "mesto": "Kuštilj",
     "naziv": "Bista Kariolana Dobana",
     "godina": "1963",
-    "autor": "S. Danilović",
+    "autor": "Sreten Danilović",
     "posveta": "Kariolana Dobana",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -124919,7 +125100,7 @@
     "slikaPotpis": "podaci.com",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "godina": "1959",
-    "autor": "S. Dukić",
+    "autor": "Stevan Dukić",
     "vrsta": "statua",
     "drzava": "Serbia"
   },
@@ -124957,7 +125138,7 @@
     "priblizno": true,
     "mesto": "Botoš",
     "naziv": "Bista",
-    "autor": "Lj. Tapavički",
+    "autor": "Ljubica Berberski Tapavički",
     "vrsta": "bista",
     "drzava": "Serbia"
   },
@@ -124971,7 +125152,7 @@
     "mesto": "Botoš",
     "naziv": "Skulpturalna kompozicija visoka",
     "godina": "1972",
-    "autor": "P. Radovanović",
+    "autor": "Pavle Radovanović",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -125121,7 +125302,7 @@
     "mesto": "Irig",
     "naziv": "Bista Anke Matić",
     "godina": "1972",
-    "autor": "J. Soldatović",
+    "autor": "Jovan Soldatović",
     "posveta": "Anke Matić",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -125136,7 +125317,7 @@
     "mesto": "Vrdnik",
     "naziv": "Bronzana figura visoka",
     "godina": "1951",
-    "autor": "S. Sandić",
+    "autor": "Sava Sandić",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -125223,7 +125404,7 @@
     "mesto": "Mokrin",
     "naziv": "Spomenik palim 1941-1945",
     "godina": "1978",
-    "autor": "S. Kojić",
+    "autor": "Slobodan Kojić",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -125319,7 +125500,7 @@
     "mesto": "Padina",
     "naziv": "Spomenik palim 1941-1945",
     "godina": "1975",
-    "autor": "P. Radovanović",
+    "autor": "Pavle Radovanović",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -125343,6 +125524,9 @@
     },
     "priblizno": true,
     "mesto": "Crepaja",
+    "slika": "slike/spomenici/crepaja-bista-save-zebeljana.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Никола Ђорђевић, CC BY-SA 4.0",
     "naziv": "Bista Save Žebeljana",
     "posveta": "Save Žebeljana",
     "vrsta": "bista",
@@ -125407,7 +125591,7 @@
     "priblizno": true,
     "mesto": "Kula",
     "naziv": "Spomenik na Trgu oslobođenja „U znak zahvalnosti i priznanja borcima narodnooslobodilačkog rata palim za slobodu“",
-    "autor": "S. Bodnarov",
+    "autor": "Stevan Bodnarov",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -125481,7 +125665,7 @@
     "mesto": "Vojvoda Stepa",
     "naziv": "Skulptura",
     "godina": "1959",
-    "autor": "S. Dukić",
+    "autor": "Stevan Dukić",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -125543,6 +125727,9 @@
     },
     "priblizno": true,
     "mesto": "Kumane",
+    "slika": "slike/spomenici/kumane-bista-ljubice-odadzic.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Pinki, CC BY-SA 3.0",
     "naziv": "Bista Ljubice Odadžić",
     "godina": "1954",
     "posveta": "Ljubice Odadžić",
@@ -125573,6 +125760,9 @@
     },
     "priblizno": true,
     "mesto": "Novo Miloševo",
+    "slika": "slike/spomenici/novo-milosevo-piramida-na-rudini-akaci.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Piramida na rudini Akači",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -125599,7 +125789,7 @@
     "mesto": "Novi Kneževac",
     "naziv": "Bista Spasoja Stejića",
     "godina": "1959",
-    "autor": "A. Zarin",
+    "autor": "Aleksandar Zarin",
     "posveta": "Spasoja Stejića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -125648,8 +125838,11 @@
     },
     "priblizno": true,
     "mesto": "Ratkovo",
+    "slika": "slike/spomenici/ratkovo-bista-ratka-pavlovica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Stefanguzvica, CC BY-SA 4.0",
     "naziv": "Bista Ratka Pavlovića",
-    "autor": "R. Budisavljević",
+    "autor": "Radmila Budisavljević-Vujošević",
     "posveta": "Ratka Pavlovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -125664,7 +125857,7 @@
     "mesto": "Opovo",
     "naziv": "Spomen-česma palim borcima i žrtvama fašizma",
     "godina": "1963",
-    "autor": "S. Bodnarov",
+    "autor": "Stevan Bodnarov",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -125688,6 +125881,9 @@
     },
     "priblizno": true,
     "mesto": "Pančevo",
+    "slika": "slike/spomenici/pancevo-bista-stevice-jovanovica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Mickey Mystique, CC BY-SA 4.0",
     "naziv": "Bista Stevice Jovanovića",
     "godina": "1974",
     "posveta": "Stevice Jovanovića",
@@ -125718,7 +125914,7 @@
     "mesto": "Pančevo",
     "naziv": "Bista Borislava Petrova",
     "godina": "1963",
-    "autor": "B. Jovović",
+    "autor": "Božidar Jovović",
     "posveta": "Borislava Petrova",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -125745,7 +125941,7 @@
     "priblizno": true,
     "mesto": "Pančevo",
     "naziv": "Skulptura „Umirući borac“ na humki spomen-obeležje na Tamišu",
-    "autor": "B. Jovović, Z. Pezeg",
+    "autor": "Božidar Jovović & Z. Pezeg",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -125772,7 +125968,7 @@
     "mesto": "Pančevo (Vojlovica)",
     "naziv": "Spomenik palim 1941-1945",
     "godina": "1961",
-    "autor": "S. Bodnarov",
+    "autor": "Stevan Bodnarov",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -125851,7 +126047,7 @@
     "mesto": "Sremski Mihaljevci",
     "naziv": "Bronzana figura spomenik palim 1941-1945",
     "godina": "1957",
-    "autor": "S. Bodnarov",
+    "autor": "Stevan Bodnarov",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -125953,7 +126149,7 @@
     "mesto": "Ruma",
     "naziv": "Bista Stevana Petrovića-Brileta",
     "godina": "1972",
-    "autor": "J. Soldatović",
+    "autor": "Jovan Soldatović",
     "posveta": [
       "Q12759683"
     ],
@@ -125968,9 +126164,12 @@
     },
     "priblizno": true,
     "mesto": "Ruma",
+    "slika": "slike/spomenici/ruma-bista-veljka-dugosevica.webp",
+    "slikaOdnos": 0.613,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
     "naziv": "Bista Veljka Dugoševića",
     "godina": "1969",
-    "autor": "V. Radauš",
+    "autor": "Vanja Radauš",
     "posveta": "Veljka Dugoševića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -126097,7 +126296,7 @@
     "mesto": "Krajišnik",
     "naziv": "Skulptura visoka",
     "godina": "1966",
-    "autor": "S. Dukić",
+    "autor": "Stevan Dukić",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -126124,7 +126323,7 @@
     "mesto": "Neuzina",
     "naziv": "Bista Strahinje Stefanovića",
     "godina": "1976",
-    "autor": "S. Dukić",
+    "autor": "Stevan Dukić",
     "posveta": "Strahinje Stefanovića",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -126154,7 +126353,7 @@
     "mesto": "Senta",
     "naziv": "Bista Ištvana Gere",
     "godina": "1951",
-    "autor": "V. Jocić",
+    "autor": "Vida Jocić",
     "posveta": "Ištvana Gere",
     "vrsta": "bista",
     "drzava": "Serbia"
@@ -126383,7 +126582,7 @@
     "mesto": "Mačvanska Mitrovica",
     "naziv": "Obelisk visok 8 m spomenik palim 1941-1945",
     "godina": "1975",
-    "autor": "B. Stojanović, S. Dukić",
+    "autor": "B. Stojanović & Stevan Dukić",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -126409,7 +126608,7 @@
     "mesto": "Stara Bingula",
     "naziv": "Skulptura",
     "godina": "1979",
-    "autor": "P. Radovanović",
+    "autor": "Pavle Radovanović",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -126447,7 +126646,7 @@
     "mesto": "Belegiš",
     "naziv": "Bronzana figura spomenik palim 1941-1945",
     "godina": "1956",
-    "autor": "M. Lukić",
+    "autor": "Milan Lukić",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -126459,6 +126658,9 @@
     },
     "priblizno": true,
     "mesto": "Belegiš",
+    "slika": "slike/spomenici/belegis-bista-vere-miscevic.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Pinki, CC BY-SA 3.0",
     "naziv": "Bista Vere Miščević",
     "posveta": "Vere Miščević",
     "vrsta": "bista",
@@ -126552,7 +126754,7 @@
     "priblizno": true,
     "mesto": "Sirig",
     "naziv": "Spomenik žrtvama okupatorskog terora",
-    "autor": "P. Radovanović, M. Berbakov",
+    "autor": "Pavle Radovanović & Milorad Berbakov",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -126578,7 +126780,7 @@
     "mesto": "Gardinovci",
     "naziv": "Skulptura",
     "godina": "1971",
-    "autor": "P. Radovanović",
+    "autor": "Pavle Radovanović",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -127675,10 +127877,13 @@
       "lng": 22.025583
     },
     "mesto": "Guberevac (Leskovac)",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BF%D0%B0%D0%BB%D0%B8%D0%BC_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D1%83_%D0%9D%D0%9E%D0%A0-%D1%83_%D1%83_%D0%93%D1%83%D0%B1%D0%B5%D1%80%D0%B5%D0%B2%D1%86%D1%83",
     "slika": "slike/spomenici/guberevac-spomenik-palim-borcima-u-nor-u-u-guberev.webp",
     "slikaOdnos": 0.75,
     "slikaPotpis": "Nikola289, CC0",
     "naziv": "Spomenik palim borcima",
+    "godina": "1989",
+    "autor": "Stevan Sokolović",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -128009,7 +128214,12 @@
       "lng": 21.248411
     },
     "mesto": "Крушево",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%BE_%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B5_%D1%83_%D0%9A%D1%80%D1%83%D1%88%D0%B5%D0%B2%D1%83",
+    "slika": "slike/spomenici/krusevo-partizanski-grobovi.webp",
+    "slikaOdnos": 1.493,
+    "slikaPotpis": "Rašo, CC BY-SA 3.0",
     "naziv": "Партизански гробови",
+    "posveta": "20 паднати борци од Крушево и околните села; на централните плочи се наведени 72 борци.",
     "vrsta": "spomen-groblje",
     "drzava": "Macedonia"
   },
@@ -128567,6 +128777,9 @@
     },
     "priblizno": true,
     "mesto": "Dalj",
+    "slika": "slike/spomenici/dalj-bista-bozidara-maslarica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Flammard, CC BY-SA 3.0",
     "naziv": "Bista Božidara Maslarića",
     "godina": "1986",
     "autor": "Marijan Sušac",
@@ -128680,6 +128893,9 @@
     },
     "priblizno": true,
     "mesto": "Sombor",
+    "slika": "slike/spomenici/sombor-bista-vujadina-sekulica-baneta.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Acanskis 1, CC BY 3.0 RS",
     "naziv": "Bista Vujadina Sekulića Baneta",
     "autor": "Jovan Kratohvil",
     "posveta": "Vujadina Sekulića Baneta",
@@ -129621,5 +129837,419 @@
     "posveta": "Borbi Prve šumadijske i Druge proleterske brigade sa nemačkim jedinicama 4. decembra 1943.",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
+  },
+  {
+    "id": "sarajevo-vraca-grobnica-narodnih-heroja",
+    "koordinate": {
+      "lat": 43.844125,
+      "lng": 18.398925
+    },
+    "priblizno": true,
+    "mesto": "Sarajevo (Vraca)",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%93%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86%D0%B0_%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B8%D1%85_%D1%85%D0%B5%D1%80%D0%BE%D1%98%D0%B0_%D1%83_%D0%A1%D0%B0%D1%80%D0%B0%D1%98%D0%B5%D0%B2%D1%83",
+    "slika": "slike/spomenici/sarajevo-vraca-grobnica-narodnih-heroja.webp",
+    "slikaOdnos": 1.843,
+    "slikaPotpis": "Zavičajac, CC BY-SA 4.0",
+    "naziv": "Grobnica narodnih heroja",
+    "godina": "1981",
+    "posveta": "26 narodnih heroja Sarajeva sahranjenih u grobnici.",
+    "vrsta": "spomen-groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "gornji-milanovac-spomenik-takovcima-stradalim-u-mauthausenu",
+    "koordinate": {
+      "lat": 44.029984,
+      "lng": 20.4524494
+    },
+    "priblizno": true,
+    "mesto": "Gornji Milanovac",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%A2%D0%B0%D0%BA%D0%BE%D0%B2%D1%86%D0%B8%D0%BC%D0%B0_%D1%81%D1%82%D1%80%D0%B0%D0%B4%D0%B0%D0%BB%D0%B8%D0%BC_%D1%83_%D0%9C%D0%B0%D1%83%D1%82%D1%85%D0%B0%D1%83%D0%B7%D0%B5%D0%BD%D1%83",
+    "slika": "slike/spomenici/gornji-milanovac-spomenik-takovcima-stradalim-u-mauthausenu.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Vanilica, CC BY-SA 4.0",
+    "naziv": "Spomenik Takovcima stradalim u Mauthauzenu",
+    "posveta": "Šestorici Rudničana umrlih u logoru Mauthauzen.",
+    "stanje": "ostecen",
+    "vrsta": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "gornji-milanovac-planinska-kuca",
+    "koordinate": {
+      "lat": 44.029984,
+      "lng": 20.4524494
+    },
+    "priblizno": true,
+    "mesto": "Gornji Milanovac",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%9F%D0%BB%D0%B0%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B0_%D0%BA%D1%83%D1%9B%D0%B0",
+    "slika": "slike/spomenici/gornji-milanovac-planinska-kuca.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Vanilica, CC BY-SA 4.0",
+    "naziv": "Planinska kuća",
+    "posveta": "Jugoslovenskim logorašima u Norveškoj i norveškom pokretu otpora koji im je pomagao u bekstvu u Švedsku.",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "selevac-spomen-ploca-palim-u-nor",
+    "koordinate": {
+      "lat": 44.49627,
+      "lng": 20.87192
+    },
+    "priblizno": true,
+    "mesto": "Selevac",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%BF%D0%B0%D0%BB%D0%B8%D0%BC%D0%B0_%D1%83_%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%BE%D1%81%D0%BB%D0%BE%D0%B1%D0%BE%D0%B4%D0%B8%D0%BB%D0%B0%D1%87%D0%BA%D0%BE%D0%BC_%D1%80%D0%B0%D1%82%D1%83_%D1%83_%D0%A1%D0%B5%D0%BB%D0%B5%D0%B2%D1%86%D1%83",
+    "slika": "slike/spomenici/selevac-spomen-ploca-palim-u-nor.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Katarina Cvetkovic, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča palima u NOR-u",
+    "vrsta": "spomen-ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "pazin-bista-giuseppea-budicina-pina",
+    "koordinate": {
+      "lat": 45.240741,
+      "lng": 13.937053
+    },
+    "priblizno": true,
+    "mesto": "Pazin",
+    "slika": "slike/spomenici/pazin-bista-giuseppea-budicina-pina.webp",
+    "slikaOdnos": 0.563,
+    "slikaPotpis": "Tommes, CC BY-SA 4.0",
+    "naziv": "Bista Giuseppea Budicina Pina",
+    "posveta": [
+      "Q10977127"
+    ],
+    "vrsta": "bista",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "pupnat-spomenik",
+    "koordinate": {
+      "lat": 42.95156,
+      "lng": 17.03559
+    },
+    "priblizno": true,
+    "mesto": "Pupnat",
+    "slika": "slike/spomenici/pupnat-spomenik.webp",
+    "slikaOdnos": 0.823,
+    "slikaPotpis": "Quahadi Añtó, CC BY-SA 3.0",
+    "naziv": "Spomenik",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "nakovo-bista-miladina-zorica-garace",
+    "koordinate": {
+      "lat": 45.87422,
+      "lng": 20.56713
+    },
+    "priblizno": true,
+    "mesto": "Nakovo",
+    "slika": "slike/spomenici/nakovo-bista-miladina-zorica-garace.webp",
+    "slikaOdnos": 0.749,
+    "slikaPotpis": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Bista Miladina Zorića Garače",
+    "posveta": [
+      "Q20310536"
+    ],
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "nakovo-bista-marka-oreskovica",
+    "koordinate": {
+      "lat": 45.87422,
+      "lng": 20.56713
+    },
+    "priblizno": true,
+    "mesto": "Nakovo",
+    "slika": "slike/spomenici/nakovo-bista-marka-oreskovica.webp",
+    "slikaOdnos": 0.749,
+    "slikaPotpis": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Bista Marka Oreškovića",
+    "posveta": [
+      "Q1264428"
+    ],
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "baranda-grob-tose-acimovica",
+    "koordinate": {
+      "lat": 45.084931,
+      "lng": 20.444494
+    },
+    "priblizno": true,
+    "mesto": "Baranda",
+    "slika": "slike/spomenici/baranda-grob-tose-acimovica.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Grob Toše Aćimovića",
+    "posveta": "Toši Aćimoviću.",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "kikinda-livnica-spomenik-formiranju-kikindskog-partizanskog-odreda",
+    "koordinate": {
+      "lat": 45.809954,
+      "lng": 20.433714
+    },
+    "priblizno": true,
+    "mesto": "Kikinda (Livnica)",
+    "slika": "slike/spomenici/kikinda-livnica-spomenik-formiranju-kikindskog-partizanskog-odreda.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomenik na mestu formiranja Kikindskog partizanskog odreda",
+    "posveta": "Formiranju Kikindskog partizanskog odreda.",
+    "vrsta": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "belanovica-spomenik-drinki-i-darinki-pavlovic",
+    "koordinate": {
+      "lat": 44.2478,
+      "lng": 20.39644
+    },
+    "priblizno": true,
+    "mesto": "Belanovica",
+    "slika": "slike/spomenici/belanovica-spomenik-drinki-i-darinki-pavlovic.webp",
+    "slikaOdnos": 1.258,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
+    "naziv": "Spomenik sestrama Drinki i Darinki Pavlović",
+    "posveta": [
+      "Q114997"
+    ],
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "gaj-spomenik-misi-stojkovicu",
+    "koordinate": {
+      "lat": 44.79598,
+      "lng": 21.06667
+    },
+    "priblizno": true,
+    "mesto": "Gaj",
+    "slika": "slike/spomenici/gaj-spomenik-misi-stojkovicu.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Mickey Mystique, CC BY-SA 4.0",
+    "naziv": "Spomenik Miši S. Stojkoviću",
+    "posveta": "Miši S. Stojkoviću, komandantu Južnobanatskog partizanskog odreda.",
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "mandjelos-bista-boska-palkovljevica-pinkija",
+    "koordinate": {
+      "lat": 45.08249,
+      "lng": 19.59778
+    },
+    "priblizno": true,
+    "mesto": "Manđelos",
+    "slika": "slike/spomenici/mandjelos-bista-boska-palkovljevica-pinkija.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Pinki, CC BY-SA 3.0",
+    "naziv": "Bista Boška Palkovljevića Pinkija",
+    "posveta": "Bošku Palkovljeviću Pinkiju.",
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "vukosavci-spomen-kamen-ivanu-markovicu-ircu",
+    "koordinate": {
+      "lat": 44.63773,
+      "lng": 18.87478
+    },
+    "priblizno": true,
+    "mesto": "Vukosavci",
+    "slika": "slike/spomenici/vukosavci-spomen-kamen-ivanu-markovicu-ircu.webp",
+    "slikaOdnos": 1.338,
+    "slikaPotpis": "Wikimedia Commons, Public domain",
+    "naziv": "Spomen-kamen Ivanu Markoviću Ircu",
+    "natpis": "OVDJE JE PAO NARODNI HEROJ\nIVAN MARKOVIĆ-IRAC",
+    "posveta": [
+      "Q12752141"
+    ],
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "bihac-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 44.8124037,
+      "lng": 15.8705942
+    },
+    "mesto": "Bihać",
+    "slika": "slike/spomenici/bihac-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.769,
+    "slikaPotpis": "Sti2, CC BY 3.0",
+    "naziv": "Spomenik palim borcima",
+    "nazivEn": "Monument to fallen fighters",
+    "godina": "1950",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "nevesinje-spomenik-blagoju-parovicu",
+    "koordinate": {
+      "lat": 43.254584,
+      "lng": 18.118025
+    },
+    "priblizno": true,
+    "mesto": "Nevesinje",
+    "slika": "slike/spomenici/nevesinje-spomenik-blagoju-parovicu.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Knoken, CC BY-SA 4.0",
+    "naziv": "Spomenik Blagoju Paroviću",
+    "nazivEn": "Monument to Blagoje Parović",
+    "godina": "1958",
+    "autor": "Mirko Ostoja",
+    "posveta": [
+      "Q8248571"
+    ],
+    "vrsta": "statua",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "nevesinje-bista-obrena-ivkovica",
+    "koordinate": {
+      "lat": 43.2565,
+      "lng": 18.115778
+    },
+    "priblizno": true,
+    "mesto": "Nevesinje",
+    "slika": "slike/spomenici/nevesinje-bista-obrena-ivkovica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Knoken, CC BY-SA 4.0",
+    "naziv": "Bista Obrena Ivkovića",
+    "nazivEn": "Bust of NH Obren Ivković",
+    "godina": "1972-1984",
+    "posveta": [
+      "Q25460024"
+    ],
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "nevesinje-bista-dukice-grahovac",
+    "koordinate": {
+      "lat": 43.2565,
+      "lng": 18.115778
+    },
+    "priblizno": true,
+    "mesto": "Nevesinje",
+    "slika": "slike/spomenici/nevesinje-bista-dukice-grahovac.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Knoken, CC BY-SA 4.0",
+    "naziv": "Bista Dukice Grahovca",
+    "nazivEn": "Bust of NH Dukica Grahovac",
+    "godina": "1971-1984",
+    "posveta": [
+      "Q22250366"
+    ],
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "nevesinje-bista-save-colovica",
+    "koordinate": {
+      "lat": 43.2565,
+      "lng": 18.115778
+    },
+    "priblizno": true,
+    "mesto": "Nevesinje",
+    "slika": "slike/spomenici/nevesinje-bista-save-colovica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Knoken, CC BY-SA 4.0",
+    "naziv": "Bista Save Čolovića",
+    "nazivEn": "Bust of NH Savo Čolović",
+    "godina": "1971-1984",
+    "posveta": [
+      "Q12758516"
+    ],
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "nevesinje-bista-vuka-torovica",
+    "koordinate": {
+      "lat": 43.2565,
+      "lng": 18.115778
+    },
+    "priblizno": true,
+    "mesto": "Nevesinje",
+    "slika": "slike/spomenici/nevesinje-bista-vuka-torovica.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Knoken, CC BY-SA 4.0",
+    "naziv": "Bista Vuka Torovića",
+    "nazivEn": "Bust of NH Vuko Torović",
+    "godina": "1971-1984",
+    "posveta": [
+      "Q31183954"
+    ],
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "sarajevo-marijin-dvor-bista-vladimira-valtera-peri",
+    "koordinate": {
+      "lat": 43.85595,
+      "lng": 18.4126833
+    },
+    "priblizno": true,
+    "mesto": "Sarajevo (Marijin Dvor)",
+    "slika": "slike/spomenici/sarajevo-marijin-dvor-bista-vladimira-valtera-peri.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Niegodzisie, CC BY-SA 4.0",
+    "naziv": "Bista Vladimira Valtera Perića",
+    "nazivEn": "Bust of NH Vladimir Valter Perić",
+    "godina": "pre 1963",
+    "autor": "Predrag Furtula",
+    "posveta": "Vladimira Valtera Perića",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "trebinje-bista-vase-miskina-crnog",
+    "koordinate": {
+      "lat": 42.709366,
+      "lng": 18.343593
+    },
+    "priblizno": true,
+    "mesto": "Trebinje",
+    "slika": "slike/spomenici/trebinje-bista-vase-miskina-crnog.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Ivan VA, CC BY-SA 4.0",
+    "naziv": "Bista Vase Miskina Crnog",
+    "nazivEn": "Bust of NH Vaso Miskin Crni",
+    "godina": "1969",
+    "autor": "Ejub Begović",
+    "posveta": [
+      "Q11218575"
+    ],
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "rovinj-biste-pina-budicina-i-mattea-benussija",
+    "koordinate": {
+      "lat": 45.083744,
+      "lng": 13.633994
+    },
+    "priblizno": true,
+    "mesto": "Rovinj",
+    "slika": "slike/spomenici/rovinj-biste-pina-budicina-i-mattea-benussija.webp",
+    "slikaOdnos": 1.342,
+    "slikaPotpis": "Vyacheslav Bukharov, CC BY-SA 4.0",
+    "naziv": "Biste Pina Budicina i Mattea Benussija",
+    "posveta": [
+      "Q10977127"
+    ],
+    "vrsta": "bista",
+    "drzava": "Croatia"
   }
 ]
