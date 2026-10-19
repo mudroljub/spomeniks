@@ -547,6 +547,35 @@ test('natpis i imena autora prikazuju HTML kao tekst, a ne kao elemente', async 
   assert.equal(rezultat.umetnutihElemenata, 0)
 })
 
+test('U blizini posle lociranja nudi najbliže spomenike redom i otvara izabrani', async () => {
+  const {lat, lng} = {lat: 43.3412236, lng: 17.7962794}
+  await pregledac.send('Browser.grantPermissions', {permissions: ['geolocation'], origin: new URL(server.adresa).origin})
+  await pregledac.send('Emulation.setGeolocationOverride', {latitude: lat, longitude: lng, accuracy: 20})
+  try {
+    await otvori()
+    const najblizi = "document.querySelector('lista-najblizih').shadowRoot"
+    assert.equal(await izvrsi(`${najblizi}.querySelector('#dugme').hidden`), true)
+    await izvrsi("document.querySelector('dugme-lokator').click()")
+    await sacekaj(`!${najblizi}.querySelector('#dugme').hidden`, 'dugme U blizini')
+    assert.ok(await sacekaj(`import('./klase/mapa.js').then(({mapa}) => mapa.latLngToContainerPoint([${lat}, ${lng}]).distanceTo(mapa.getSize().divideBy(2)) < 2)`, 'mapa centrirana na korisnika'))
+    await izvrsi(`${najblizi}.querySelector('#dugme').click()`)
+    assert.equal(await izvrsi(`${najblizi}.querySelector('#panel').hidden`), false)
+    const redovi = await izvrsi(`[...${najblizi}.querySelectorAll('li')].map(li => ({km: li.querySelector('.km').textContent, naziv: li.querySelector('.naziv').textContent}))`)
+    assert.equal(redovi.length, 10)
+    assert.deepEqual(redovi[0], {km: '~0 m', naziv: 'Partizansko groblje u Mostaru'})
+    const metara = redovi.map(({km}) => {
+      const [, broj, jedinica] = km.match(/^~(\d+) (m|km)$/)
+      return Number(broj) * (jedinica === 'km' ? 1000 : 1)
+    })
+    assert.ok(metara.every((m, i) => !i || metara[i - 1] <= m), `redosled: ${metara}`)
+    await izvrsi(`${najblizi}.querySelector('li').click()`)
+    assert.equal(await izvrsi(`${najblizi}.querySelector('#panel').hidden`), true)
+    await sacekaj("document.querySelector('detalji-spomenika').marker?.spomen.id === 'mostar-partisan-cemetery'", 'otvoren najbliži spomenik')
+  } finally {
+    await pregledac.send('Emulation.clearGeolocationOverride')
+  }
+})
+
 test('bez grešaka u aplikaciji', () => {
   assert.deepEqual(greske, [])
 })
