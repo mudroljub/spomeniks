@@ -4,7 +4,7 @@ import {nestao, ruine, autoriSpomenika, normalizuj} from '../utils/helpers.js'
 import {dajOznaku, promene} from '../utils/oznake.js'
 import {t, nazivDrzave} from '../utils/jezik.js'
 import {nivoiVaznosti, pripadaVrsti} from '../utils/vaznost.js'
-import {izgledMarkera, znak, znakVrste, visinaObeliska, sjajListe} from '../utils/ikonice.js'
+import {izgledMarkera, znak, znakVrste, visinaObeliska} from '../utils/ikonice.js'
 
 const boja = '#822323'
 
@@ -31,7 +31,7 @@ const praviGrupe = (drzave, autori) => [
     uslov: (s, o) => s.drzava === o},
   {kljuc: 'poseta', naziv: t('grupaPoseta'), opcije: {lista: t('lista'), posetio: t('posetio')},
     uslov: (s, o) => dajOznaku(s.id) === o,
-    znak: o => obelisk(undefined, o === 'posetio' ? {posecen: true} : {stil: sjajListe})},
+    znak: o => obelisk(undefined, {oznaka: o})},
 ]
 
 const grupeZa = stavke => {

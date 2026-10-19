@@ -1,7 +1,7 @@
 // @ts-check
 import {mapa} from '../klase/mapa.js'
 import {t} from '../utils/jezik.js'
-import {izgledMarkera, znak, znakVrste, visinaObeliska, sjajListe} from '../utils/ikonice.js'
+import {izgledMarkera, znak, znakVrste, visinaObeliska} from '../utils/ikonice.js'
 import {nivoiVaznosti} from '../utils/vaznost.js'
 
 const boja = '#822323'
@@ -156,7 +156,7 @@ const grupa = ([naslov, stavke]) => `<div><h3>${naslov}</h3><div class="stavke">
 const obelisk = (stanje, oznake) => znak(izgledMarkera({vrsta: 'spomenik', stanje}), visinaObeliska, oznake)
 
 const maleGrupe = [
-  [t('grupaPosetaJednina'), stavka(obelisk(undefined, {stil: sjajListe}), t('lista')) + stavka(obelisk(undefined, {posecen: true}), t('posetio'))],
+  [t('grupaPosetaJednina'), stavka(obelisk(undefined, {oznaka: 'lista'}), t('lista')) + stavka(obelisk(undefined, {oznaka: 'posetio'}), t('posetio'))],
   [t('grupaStanje'), stavka(obelisk('rusevine'), t('ruineJednina')) + stavka(obelisk('uklonjen'), t('nestao'))
     + stavka(obelisk(undefined, {priblizno: true}), t('priblizno'))],
 ]

@@ -286,7 +286,7 @@ style.textContent = `
   }
 
   .oznaka [data-oznaka="lista"][aria-pressed="true"] svg {
-    fill: currentColor;
+    fill: #f2b705;
   }
 
   .oznaka [data-oznaka="posetio"][aria-pressed="true"] {
@@ -412,7 +412,7 @@ export default class Detalji extends HTMLElement {
         ` : ''}
         <p class="poseta">
           <span class="oznaka" role="group" aria-label="${t('mojaPoseta')}">
-            <button data-oznaka="lista"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4Z" stroke-linejoin="round"/></svg>${t('lista')}</button>
+            <button data-oznaka="lista"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3.1 14.41 9.28 21.04 9.66 15.9 13.87 17.58 20.29 12 16.7 6.42 20.29 8.1 13.87 2.96 9.66 9.59 9.28Z" stroke-linejoin="round"/></svg>${t('lista')}</button>
             <button data-oznaka="posetio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6" stroke-linecap="round" stroke-linejoin="round"/></svg>${t('posetio')}</button>
           </span>
         </p>

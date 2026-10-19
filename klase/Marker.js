@@ -12,7 +12,7 @@ const razmeraVrste = {'spomen-park': 1.25, 'spomen-groblje': 1.25, bista: 0.8, '
 // ruine i uklonjeni imaju sliku iste velicine, da se razlikuju po obliku, a ne samo po boji:
 // prelomljen obelisk i isprekidan obris onoga cega vise nema
 const ikonice = {}
-const dajIkonicu = ({slika, sirina, visina}, razmera, klasa, [dx, dy] = [0, 0], {priblizno = false, posecen = false} = {}) => {
+const dajIkonicu = ({slika, sirina, visina}, razmera, klasa, [dx, dy] = [0, 0], {priblizno = false, oznaka = null} = {}) => {
   const px = vrednost => Math.round(vrednost * razmera)
   const opcije = {
     iconUrl: slika,
@@ -21,8 +21,8 @@ const dajIkonicu = ({slika, sirina, visina}, razmera, klasa, [dx, dy] = [0, 0], 
     tooltipAnchor: [px(dx), px(dy - visina)],
     className: `${klasa}${priblizno ? ' priblizna-lokacija' : ''}`,
   }
-  return ikonice[[slika, razmera, klasa, dx, dy, priblizno, posecen].join()] ??= priblizno || posecen
-    ? L.divIcon({...opcije, html: ikonicaSaOznakama({slika, sirina, visina}, razmera, {priblizno, posecen})})
+  return ikonice[[slika, razmera, klasa, dx, dy, priblizno, oznaka].join()] ??= priblizno || oznaka
+    ? L.divIcon({...opcije, html: ikonicaSaOznakama({slika, sirina, visina}, razmera, {priblizno, oznaka})})
     : L.icon(opcije)
 }
 
@@ -82,10 +82,9 @@ export default class Marker {
     const oznaka = dajOznaku(this.spomen.id)
     const klasa = [
       izabran === this && 'izabran',
-      oznaka === 'lista' && 'na-listi',
     ].filter(Boolean).join(' ')
     const pomak = /** @type {[number, number]} */ ([(this.pomak?.[0] || 0) + pomakSudara[0] / razmera, (this.pomak?.[1] || 0) + pomakSudara[1] / razmera])
-    const ikonica = dajIkonicu(this.izgled, razmera, klasa, pomak, {priblizno: this.spomen.priblizno, posecen: oznaka === 'posetio'})
+    const ikonica = dajIkonicu(this.izgled, razmera, klasa, pomak, {priblizno: this.spomen.priblizno, oznaka})
     // nova ikonica pravi novu sliku u DOM-u, pa samo kad se promeni
     if (ikonica !== this.element.options.icon) this.element.setIcon(ikonica)
   }
