@@ -95,6 +95,10 @@ Dokazi: [Pula](../data/provere/lociranje-muzej-pula-2026-10-18.json), [Slovenj G
 | Hrvatska, istorijsko rušenje | [Status i otvoreni slučajevi](PROVERA_RUSENJA_HRVATSKA.md); obustavljeni širi obim ne tumačiti kao aktivan nalog. |
 | Obrađenost izvora | [Izvori](IZVORI.md); potpuni prepis knjige nije potvrda svih tačaka ili opstanka. |
 
+Sedmi [Wiki paket od 20 kandidata](../data/provere/wiki-propusti-paket7-2026-10-19.json), 19.10.2026: precizirani Remete, Borčec, Dubrava, Hum na Sutli, Mazin i kneževska spomen-grobnica. Četiri kandidata su drugi ili već postojeći objekti, a deset ostaje odloženo; razlozi i tačke kandidata su u izveštaju. Stanja nisu menjana, naročito kod Mazina: potvrda istorijskog položaja nije potvrda obnove.
+
+Osmi [Wiki paket od 20 fotografisanih kandidata](../data/provere/wiki-propusti-paket8-2026-10-19.json), 19.10.2026: precizirani Lazovićev spomenik kod škole na Rudniku, Bojčićev spomenik u Staroj Pazovi, spomenik iz 1952. u Sirigu i česma iz 1952. u Ostri. Trinaest objekata već ima precizne markere; knjiški približni zapisi nisu automatski spojeni i ostaju za ciljano spajanje uz prenos veza. Jedan kandidat je drugi objekat, dva su odložena; svi razlozi i postojeći markeri su u izveštaju.
+
 ## Šta ne ponavljati bez novog osnova
 
 - Početne Commons pretrage i slovenački/hrvatski slojevi Partizanstva već su lokalno poređeni sa bazom. Nastaviti samo od konkretnog nepregledanog kandidata ili novog izvora.

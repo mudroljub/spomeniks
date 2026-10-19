@@ -1,0 +1,1190 @@
+{
+  "datum": "2026-10-19",
+  "obim": "Dvadeset novih fotografisanih Wiki kandidata uz postojeće približne zapise; zbirno pročitana lokalna kopija celog Wikija i preskočeno svih sedam ranijih paketa. Metapodaci fotografija preuzeti jednim API upitom, zatim 20 fotografija uz pauze od najmanje 3 s.",
+  "rezultat": {
+    "pregledano": 20,
+    "preciziranoPostojecih": 4,
+    "vecObuhvacenoPreciznimMarkerom": 13,
+    "drugiObjekat": 1,
+    "odlozeno": 2,
+    "novihSpomenika": 0,
+    "spojenihDuplikata": 0
+  },
+  "stavke": [
+    {
+      "wikiStranica": "Rudnik (Gornji Milanovac) - Spomenik NOB",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Rudnik_%28Gornji_Milanovac%29_-_Spomenik_NOB",
+      "id": "rudnik-kameni-beleg",
+      "radnja": "odlozeno",
+      "dokaz": "Fotografija prikazuje nisku ploču koja označava oslobođenu teritoriju i partizansku bolnicu 1941. Knjiga kod Rudnika nema dovoljno sadržaja uz generički Kameni beleg da potvrdi isto obeležje; ne birati taj ID samo po vrsti i blizini. Internet pretraga nije dala nezavisan opis ovog belega.",
+      "koordinateWiki": {
+        "lat": 44.140616,
+        "lng": 20.498222
+      },
+      "polozaj": "Center of town, on Trg Rudara, behind the miner's statue",
+      "porekloTacke": "Visible with streetview. The square is marked on gmaps, and has pictures of the statue and the fountain, but not of this memorial",
+      "fotografija": {
+        "url": "https://www.xiwl.com/w/img_auth.php/thumb/f/fb/Rudnik_SpomenikNOB02.jpg/800px-Rudnik_SpomenikNOB02.jpg",
+        "lokalno": "C:\\Users\\d_pavlica\\OneDrive - Wargaming.net\\Documents\\GitHub\\spomenici\\izvori\\pretrage\\wiki-propusti-2026-10-18\\paket8-2026-10-19\\5.jpg",
+        "pregledana": true
+      },
+      "pre": {
+        "id": "rudnik-kameni-beleg",
+        "koordinate": {
+          "lat": 44.14071,
+          "lng": 20.49833
+        },
+        "priblizno": true,
+        "mesto": "Rudnik",
+        "naziv": "Kameni beleg",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "posle": {
+        "id": "rudnik-kameni-beleg",
+        "koordinate": {
+          "lat": 44.14071,
+          "lng": 20.49833
+        },
+        "priblizno": true,
+        "mesto": "Rudnik",
+        "naziv": "Kameni beleg",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=51",
+      "najbliziPre": [
+        [
+          14,
+          "rudnik-spomen-cesma"
+        ],
+        [
+          14,
+          "rudnik-kameni-beleg"
+        ],
+        [
+          14,
+          "rudnik-skulptura"
+        ],
+        [
+          14,
+          "rudnik-spomenik-palim-rudnicanima"
+        ]
+      ]
+    },
+    {
+      "wikiStranica": "Neštin - Spomenik NOB",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Ne%C5%A1tin_-_Spomenik_NOB",
+      "id": "nestin-obelisk",
+      "radnja": "drugi-objekat",
+      "dokaz": "Pregledana fotografija prikazuje nisku, zaobljenu konstrukciju nekadašnje česme, a naš knjiški zapis je obelisk iz 1975. Izvor sam navodi samo moguću vezu sa česmom i Soldatovićem. Ne prenositi tu tačku na obelisk niti mešati sa postojećim nestin na brdu.",
+      "koordinateWiki": {
+        "lat": 45.225528,
+        "lng": 19.452139
+      },
+      "polozaj": "Center of the village, at the entrance of a small park with playground, directly E of the main square with the bus stop",
+      "porekloTacke": "Visible with streetview, visible if you really, really know what to look for",
+      "fotografija": {
+        "url": "https://www.xiwl.com/w/img_auth.php/thumb/2/28/Ne%C5%A1tin_SpomenikCenter02.jpg/800px-Ne%C5%A1tin_SpomenikCenter02.jpg",
+        "lokalno": "C:\\Users\\d_pavlica\\OneDrive - Wargaming.net\\Documents\\GitHub\\spomenici\\izvori\\pretrage\\wiki-propusti-2026-10-18\\paket8-2026-10-19\\7.jpg",
+        "pregledana": true
+      },
+      "pre": {
+        "id": "nestin-obelisk",
+        "koordinate": {
+          "lat": 45.22534,
+          "lng": 19.45204
+        },
+        "priblizno": true,
+        "mesto": "Neštin",
+        "naziv": "Obelisk",
+        "godina": "1975",
+        "autor": "J. Soldatović",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "posle": {
+        "id": "nestin-obelisk",
+        "koordinate": {
+          "lat": 45.22534,
+          "lng": 19.45204
+        },
+        "priblizno": true,
+        "mesto": "Neštin",
+        "naziv": "Obelisk",
+        "godina": "1975",
+        "autor": "J. Soldatović",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=125",
+      "najbliziPre": [
+        [
+          22,
+          "nestin-obelisk"
+        ],
+        [
+          288,
+          "nestin"
+        ]
+      ]
+    },
+    {
+      "wikiStranica": "Rudnik (Gornji Milanovac) - Spomenik Palim Borcima i Žrtvama Fašističkog Terora",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Rudnik_%28Gornji_Milanovac%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+      "id": "rudnik-spomenik-palim-rudnicanima",
+      "radnja": "precizirano",
+      "dokaz": "Originalna knjiga, štampana str. 101 / PDF 51 desno, potvrđuje M. Lazovića, 1978, školsku lokaciju i 23 poginula Rudničanina. Wiki opisuje isti spomenik kod ulaza škole Arsenije Loma, razlikuje ga od spomenika Rudničkog kraja kod muzeja i daje tačku objekta. Fotografija pregledana; tamna je i nije dodata u aplikaciju. Razlika 1978/1979 ne utiče na uparivanje, ranija godina ostaje.",
+      "koordinateWiki": {
+        "lat": 44.141,
+        "lng": 20.499264
+      },
+      "polozaj": "In the schoolyard of the \"Arsenije Loma Rudnik\" school, just to the right of the entrance",
+      "porekloTacke": "Visible with streetview. The school is clearly visible on gmaps, a 360 view shows a glimpse of the memorial",
+      "fotografija": {
+        "url": "https://www.xiwl.com/w/img_auth.php/4/43/Rudnik_SpomenikPalimBorcima01.jpg",
+        "lokalno": "C:\\Users\\d_pavlica\\OneDrive - Wargaming.net\\Documents\\GitHub\\spomenici\\izvori\\pretrage\\wiki-propusti-2026-10-18\\paket8-2026-10-19\\23.jpg",
+        "pregledana": true
+      },
+      "pre": {
+        "id": "rudnik-spomenik-palim-rudnicanima",
+        "koordinate": {
+          "lat": 44.14071,
+          "lng": 20.49833
+        },
+        "priblizno": true,
+        "mesto": "Rudnik",
+        "naziv": "Spomenik palim Rudničanima",
+        "godina": "1978",
+        "autor": "M. Lazović",
+        "posveta": "palim Rudničanima",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "posle": {
+        "id": "rudnik-spomenik-palim-rudnicanima",
+        "koordinate": {
+          "lat": 44.141,
+          "lng": 20.499264
+        },
+        "mesto": "Rudnik",
+        "naziv": "Spomenik palim Rudničanima",
+        "godina": "1978",
+        "autor": "M. Lazović",
+        "posveta": "palim Rudničanima",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=51",
+      "najbliziPre": [
+        [
+          81,
+          "rudnik-spomen-cesma"
+        ],
+        [
+          81,
+          "rudnik-kameni-beleg"
+        ],
+        [
+          81,
+          "rudnik-skulptura"
+        ],
+        [
+          81,
+          "rudnik-spomenik-palim-rudnicanima"
+        ]
+      ]
+    },
+    {
+      "wikiStranica": "Stara Pazova - Spomenik Žrtvama Fašističkog Terora iz Stare Pazove od 1941-1945",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Stara_Pazova_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora_iz_Stare_Pazove_od_1941-1945",
+      "id": "stara-pazova-spomenik-podj-inulim-borcima-stare-pa",
+      "radnja": "precizirano",
+      "dokaz": "Originalni sken, str. 284 / PDF 143 levo, potvrđuje Bojčićev spomenik na mestu ranjavanja Janka Čmelika, sa 135 poginulih boraca i ostalim žrtvama. Fotografija i opis istog betonskog memorijalnog zida potvrđuju položaj pred gimnazijom, Svetosavska 5. Ne mešati sa Čmelikovom figurom u parku ili grobnicom. Godina nije prepisana jer postoje navodi 1974/1975.",
+      "koordinateWiki": {
+        "lat": 44.984844,
+        "lng": 20.159893
+      },
+      "polozaj": "Center of Stara Pazova at Svetosavska 5 (in front of the high school)",
+      "porekloTacke": "Marked on gmaps with a few pics, visible with streetview",
+      "fotografija": {
+        "url": "https://www.xiwl.com/w/img_auth.php/thumb/c/c4/StaraPazova_Spomenik%C5%BDFT01.jpg/800px-StaraPazova_Spomenik%C5%BDFT01.jpg",
+        "lokalno": "C:\\Users\\d_pavlica\\OneDrive - Wargaming.net\\Documents\\GitHub\\spomenici\\izvori\\pretrage\\wiki-propusti-2026-10-18\\paket8-2026-10-19\\27.jpg",
+        "pregledana": true
+      },
+      "pre": {
+        "id": "stara-pazova-spomenik-podj-inulim-borcima-stare-pa",
+        "koordinate": {
+          "lat": 44.98461,
+          "lng": 20.15888
+        },
+        "priblizno": true,
+        "mesto": "Stara Pazova",
+        "naziv": "Spomenik „Pođ inulim borcima Stare Pazove u narodnooslobodilačkom ratu od 1941-1945“",
+        "autor": "M. Bojčić",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "posle": {
+        "id": "stara-pazova-spomenik-podj-inulim-borcima-stare-pa",
+        "koordinate": {
+          "lat": 44.984844,
+          "lng": 20.159893
+        },
+        "mesto": "Stara Pazova",
+        "naziv": "Spomenik „Pođ inulim borcima Stare Pazove u narodnooslobodilačkom ratu od 1941-1945“",
+        "autor": "M. Bojčić",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=143",
+      "najbliziPre": [
+        [
+          84,
+          "stara-pazova-spomenik-podj-inulim-borcima-stare-pa"
+        ],
+        [
+          84,
+          "stara-pazova-zajednicka-grobnica-i-spomenik"
+        ],
+        [
+          207,
+          "stara-pazova"
+        ]
+      ]
+    },
+    {
+      "wikiStranica": "Sirig - Spomenik Palim Borcima i Žrtvama Fašizma",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Sirig_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1izma",
+      "id": "sirig-spomenik-palim-1941-1945",
+      "radnja": "precizirano",
+      "dokaz": "Originalni sken, str. 288 / PDF 145 levo, razlikuje spomenik palim 1941-1945 iz 1952. i zasebni Radovanovićev/Berbakovljev spomenik žrtvama okupatorskog terora 1941-1976. Pregledana fotografija reljefnog zida i sačuvani terenski opis obilaska 2019. potvrđuju prvi objekat ispred mesne zajednice u parku. Precizira se samo ID sa godinom 1952, drugi se ne pomera.",
+      "koordinateWiki": {
+        "lat": 45.4400728,
+        "lng": 19.8118154
+      },
+      "polozaj": "Center of town, in a park E of the main road in front of the municipality building",
+      "porekloTacke": "Marked as a memorial on a 1983 map. Visible with streetview, visible if you know what to look for. The park is marked and has pics of the memorial",
+      "fotografija": {
+        "url": "https://www.xiwl.com/w/img_auth.php/thumb/5/57/SirigSpomenik03.jpg/800px-SirigSpomenik03.jpg",
+        "lokalno": "C:\\Users\\d_pavlica\\OneDrive - Wargaming.net\\Documents\\GitHub\\spomenici\\izvori\\pretrage\\wiki-propusti-2026-10-18\\paket8-2026-10-19\\28.jpg",
+        "pregledana": true
+      },
+      "pre": {
+        "id": "sirig-spomenik-palim-1941-1945",
+        "koordinate": {
+          "lat": 45.4402,
+          "lng": 19.81057
+        },
+        "priblizno": true,
+        "mesto": "Sirig",
+        "naziv": "Spomenik palim 1941-1945",
+        "godina": "1952",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "posle": {
+        "id": "sirig-spomenik-palim-1941-1945",
+        "koordinate": {
+          "lat": 45.4400728,
+          "lng": 19.8118154
+        },
+        "mesto": "Sirig",
+        "naziv": "Spomenik palim 1941-1945",
+        "godina": "1952",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=145",
+      "najbliziPre": [
+        [
+          98,
+          "sirig-spomenik-palim-1941-1945"
+        ],
+        [
+          98,
+          "sirig-spomenik-zrtvama-okupatorskog-terora"
+        ],
+        [
+          565,
+          "sirig"
+        ]
+      ]
+    },
+    {
+      "wikiStranica": "Ostra - Spomenik NOB",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Ostra_-_Spomenik_NOB",
+      "id": "ostra-spomen-cesma",
+      "radnja": "precizirano",
+      "dokaz": "Originalni sken, str. 119 / PDF 60 desno, potvrđuje česmu iz 1952. sa imenima 44 poginula iz Ostre i Vujetinovaca. Fotografija jasno prikazuje česmu i odvojena korita, uz isti sastav posvete u Wiki opisu. Tačka objekta je kod škole. Skulptura Hrabrima iz 1960/1969 i obližnji marker odreda nisu ova česma.",
+      "koordinateWiki": {
+        "lat": 43.918454,
+        "lng": 20.512992
+      },
+      "polozaj": "Center of the village, next to the school",
+      "porekloTacke": "Marked as a memorial on a 1969 map. Visible with streetview, visible if you know what to look for but not marked, on gmaps. The school is marked",
+      "fotografija": {
+        "url": "https://www.xiwl.com/w/img_auth.php/thumb/e/e7/Ostra_SpomenikNOB01.jpg/800px-Ostra_SpomenikNOB01.jpg",
+        "lokalno": "C:\\Users\\d_pavlica\\OneDrive - Wargaming.net\\Documents\\GitHub\\spomenici\\izvori\\pretrage\\wiki-propusti-2026-10-18\\paket8-2026-10-19\\53.jpg",
+        "pregledana": true
+      },
+      "pre": {
+        "id": "ostra-spomen-cesma",
+        "koordinate": {
+          "lat": 43.92015,
+          "lng": 20.51341
+        },
+        "priblizno": true,
+        "mesto": "Ostra",
+        "naziv": "Spomen-česma",
+        "godina": "1952",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "posle": {
+        "id": "ostra-spomen-cesma",
+        "koordinate": {
+          "lat": 43.918454,
+          "lng": 20.512992
+        },
+        "mesto": "Ostra",
+        "naziv": "Spomen-česma",
+        "godina": "1952",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=60",
+      "najbliziPre": [
+        [
+          55,
+          "ostra-spomenik-cacanskom-partizanskom-odredu"
+        ],
+        [
+          192,
+          "ostra-spomen-cesma"
+        ],
+        [
+          192,
+          "ostra-skulptura"
+        ],
+        [
+          828,
+          "ostra"
+        ]
+      ]
+    },
+    {
+      "wikiStranica": "Bašaid - Spomenik Narodnooslobodilačkoj Borbi",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Ba%C5%A1aid_-_Spomenik_Narodnooslobodila%C4%8Dkoj_Borbi",
+      "id": "basaid-spomenik-zrtvama-fasizma",
+      "radnja": "postojeci-marker",
+      "dokaz": "Wiki opisuje Stankovićev spomenik iz 1967. u parku, već obuhvaćen preciznim markerom basaid na oko 48 m. Pregledana fotografija je zaklonjena drvećem i ne daje novu tačku. Generički približni zapis nije automatski spojen: za spajanje treba potvrditi knjišku stavku i preneti njene veze.",
+      "koordinateWiki": {
+        "lat": 45.6425595,
+        "lng": 20.4150883
+      },
+      "polozaj": "In the park in the center.",
+      "porekloTacke": "One of the few clouds on googlemaps hide the park... On streetview, the many trees in the park hide most of the monument, but it seems the obelisk is (still) there",
+      "fotografija": {
+        "url": "https://www.xiwl.com/w/img_auth.php/thumb/d/d6/BasaidSpomenik02.jpg/800px-BasaidSpomenik02.jpg",
+        "lokalno": "C:\\Users\\d_pavlica\\OneDrive - Wargaming.net\\Documents\\GitHub\\spomenici\\izvori\\pretrage\\wiki-propusti-2026-10-18\\paket8-2026-10-19\\79.jpg",
+        "pregledana": true
+      },
+      "pre": {
+        "id": "basaid-spomenik-zrtvama-fasizma",
+        "koordinate": {
+          "lat": 45.63916,
+          "lng": 20.41366
+        },
+        "priblizno": true,
+        "mesto": "Bašaid",
+        "naziv": "Spomenik žrtvama fašizma",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "posle": {
+        "id": "basaid-spomenik-zrtvama-fasizma",
+        "koordinate": {
+          "lat": 45.63916,
+          "lng": 20.41366
+        },
+        "priblizno": true,
+        "mesto": "Bašaid",
+        "naziv": "Spomenik žrtvama fašizma",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=134",
+      "najbliziPre": [
+        [
+          48,
+          "basaid"
+        ],
+        [
+          394,
+          "basaid-spomenik-zrtvama-fasizma"
+        ]
+      ],
+      "postojeciMarker": "basaid"
+    },
+    {
+      "wikiStranica": "Novi Banovci - Spomenik Bratstvu i Jedinstvu",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Novi_Banovci_-_Spomenik_Bratstvu_i_Jedinstvu",
+      "id": "novi-banovci-spomenik-palim-borcima-nor-a-i-zrtvam",
+      "radnja": "postojeci-marker",
+      "dokaz": "Krkovićev spomenik iz 1978. pred školom već je obuhvaćen preciznim markerom novi-banovci. Fotografija pokazuje kasniju preoblogu, pa se izvorna i današnja celina ne razdvajaju po nazivu. Bez automatskog spajanja knjiškog zapisa i bez pomeranja preciznog markera na osnovu jedne Wiki tačke.",
+      "koordinateWiki": {
+        "lat": 44.956839,
+        "lng": 20.281049
+      },
+      "polozaj": "Center of town, in front of the Nikola Tesla Elementary School",
+      "porekloTacke": "Visible with streetview, hidden by trees so not visible on satellite view",
+      "fotografija": {
+        "url": "https://www.xiwl.com/w/img_auth.php/e/ed/NoviBanovci_SpomenikNOB01.jpg",
+        "lokalno": "C:\\Users\\d_pavlica\\OneDrive - Wargaming.net\\Documents\\GitHub\\spomenici\\izvori\\pretrage\\wiki-propusti-2026-10-18\\paket8-2026-10-19\\82.jpg",
+        "pregledana": true
+      },
+      "pre": {
+        "id": "novi-banovci-spomenik-palim-borcima-nor-a-i-zrtvam",
+        "koordinate": {
+          "lat": 44.95322,
+          "lng": 20.28243
+        },
+        "priblizno": true,
+        "mesto": "Novi Banovci",
+        "naziv": "Spomenik „Palim borcima NOR-a i žrtvama fašističkog terora građani Novih Banovaca“",
+        "godina": "1978",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "posle": {
+        "id": "novi-banovci-spomenik-palim-borcima-nor-a-i-zrtvam",
+        "koordinate": {
+          "lat": 44.95322,
+          "lng": 20.28243
+        },
+        "priblizno": true,
+        "mesto": "Novi Banovci",
+        "naziv": "Spomenik „Palim borcima NOR-a i žrtvama fašističkog terora građani Novih Banovaca“",
+        "godina": "1978",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=143",
+      "najbliziPre": [
+        [
+          93,
+          "novi-banovci"
+        ],
+        [
+          417,
+          "novi-banovci-spomenik-palim-borcima-nor-a-i-zrtvam"
+        ]
+      ],
+      "postojeciMarker": "novi-banovci"
+    },
+    {
+      "wikiStranica": "Ribnica (Kraljevo) - Spomenik Palim Borcima i Žrtvama Fašističkog Terora",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Ribnica_%28Kraljevo%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+      "id": "ribnica-kameni-beleg",
+      "radnja": "postojeci-marker",
+      "dokaz": "Apstraktna visoka kompozicija palim borcima i žrtvama ispred Doma kulture već je marker kraljevo, udaljen oko 1 m od Wiki tačke. Nije dokaz položaja generičkog kamenog belega u Ribnici; on se ne pomera.",
+      "koordinateWiki": {
+        "lat": 43.711306,
+        "lng": 20.692417
+      },
+      "polozaj": "In front of the cooperative house. Unclear if this is the right building, it is the Dom Kulture",
+      "porekloTacke": "Clearly visible on satellite view, visible with streetview, the Dom Kulture is marked on openstreetmaps",
+      "fotografija": {
+        "url": "https://www.xiwl.com/w/img_auth.php/thumb/8/8d/Ribnica_Kraljevo_SpomenikPalimBorcima%C5%BDFT05.jpg/800px-Ribnica_Kraljevo_SpomenikPalimBorcima%C5%BDFT05.jpg",
+        "lokalno": "C:\\Users\\d_pavlica\\OneDrive - Wargaming.net\\Documents\\GitHub\\spomenici\\izvori\\pretrage\\wiki-propusti-2026-10-18\\paket8-2026-10-19\\99.jpg",
+        "pregledana": true
+      },
+      "pre": {
+        "id": "ribnica-kameni-beleg",
+        "koordinate": {
+          "lat": 43.71507,
+          "lng": 20.6879
+        },
+        "priblizno": true,
+        "mesto": "Ribnica",
+        "naziv": "Kameni beleg",
+        "godina": "1947",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "posle": {
+        "id": "ribnica-kameni-beleg",
+        "koordinate": {
+          "lat": 43.71507,
+          "lng": 20.6879
+        },
+        "priblizno": true,
+        "mesto": "Ribnica",
+        "naziv": "Kameni beleg",
+        "godina": "1947",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=47",
+      "najbliziPre": [
+        [
+          1,
+          "kraljevo"
+        ],
+        [
+          554,
+          "ribnica-kameni-beleg"
+        ],
+        [
+          984,
+          "kraljevo-spomenik-oslobodiocima-kraljeva"
+        ]
+      ],
+      "postojeciMarker": "kraljevo"
+    },
+    {
+      "wikiStranica": "Donja Trepca – Spomen Kosturnica",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Donja_Trepca_%E2%80%93_Spomen_Kosturnica",
+      "id": "donja-trepca-zajednicka-grobnica-i-spomenik",
+      "radnja": "postojeci-marker",
+      "dokaz": "Fotografija prikazuje kružni grobni kompleks sa pločama; precizni donja-trepca-spomen-kosturnica već je na Wiki tački. Posveta borcima NOVJ i Crvene armije podržava uparivanje, ali ne traži novi marker. Knjiške veze i približni unos nisu spajani u ovom paketu.",
+      "koordinateWiki": {
+        "lat": 43.899086,
+        "lng": 20.454061
+      },
+      "polozaj": "W of the road S out of the village, S of the cemetery",
+      "porekloTacke": "Marked on gmaps, but without pics of the memorial, glimpse visible with streetview. Marked as a cemetery on a 1969 map",
+      "fotografija": {
+        "url": "https://www.xiwl.com/w/img_auth.php/thumb/4/49/DonjaTrepca_SpomenKosturnica02.jpg/800px-DonjaTrepca_SpomenKosturnica02.jpg",
+        "lokalno": "C:\\Users\\d_pavlica\\OneDrive - Wargaming.net\\Documents\\GitHub\\spomenici\\izvori\\pretrage\\wiki-propusti-2026-10-18\\paket8-2026-10-19\\107.jpg",
+        "pregledana": true
+      },
+      "pre": {
+        "id": "donja-trepca-zajednicka-grobnica-i-spomenik",
+        "koordinate": {
+          "lat": 43.90324,
+          "lng": 20.45963
+        },
+        "priblizno": true,
+        "mesto": "Donja Trepča",
+        "naziv": "Zajednička grobnica i spomenik",
+        "vrsta": "spomen-groblje",
+        "drzava": "Serbia"
+      },
+      "posle": {
+        "id": "donja-trepca-zajednicka-grobnica-i-spomenik",
+        "koordinate": {
+          "lat": 43.90324,
+          "lng": 20.45963
+        },
+        "priblizno": true,
+        "mesto": "Donja Trepča",
+        "naziv": "Zajednička grobnica i spomenik",
+        "vrsta": "spomen-groblje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=60",
+      "najbliziPre": [
+        [
+          0,
+          "donja-trepca-spomen-kosturnica"
+        ],
+        [
+          642,
+          "donja-trepca-kameni-beleg-na-orlovaku"
+        ],
+        [
+          642,
+          "donja-trepca-kameni-beleg"
+        ],
+        [
+          642,
+          "donja-trepca-zajednicka-grobnica-i-spomenik"
+        ]
+      ],
+      "postojeciMarker": "donja-trepca-spomen-kosturnica"
+    },
+    {
+      "wikiStranica": "Krnjača - Spomenik Palim Rodoljubima",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Krnja%C4%8Da_-_Spomenik_Palim_Rodoljubima",
+      "id": "krnjaca-spomenik-rodoljubima-iz-krnjace-palim-u-os",
+      "radnja": "odlozeno",
+      "dokaz": "Fotografija jasno prikazuje bistu i prednju kosu ploču pred školom Zaga Malivuk; na oko 1 m već je marker beograd-bista-zage-malivuk. Nije razrešeno da li knjiški spomenik 36 rodoljuba označava istu celinu ili drugi objekat. Škola i blizina nisu dovoljni; internet pretraga nije dala nezavisnu potvrdu.",
+      "koordinateWiki": {
+        "lat": 44.846389,
+        "lng": 20.497001
+      },
+      "polozaj": "In the schoolyard of the Zaga Malivuk school",
+      "porekloTacke": "Visible with streetview. The school is marked on gmaps, one pic shows the memorial",
+      "fotografija": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Spomenik_Krnja%C4%8Da_02.jpg/960px-Spomenik_Krnja%C4%8Da_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "lokalno": "C:\\Users\\d_pavlica\\OneDrive - Wargaming.net\\Documents\\GitHub\\spomenici\\izvori\\pretrage\\wiki-propusti-2026-10-18\\paket8-2026-10-19\\109.jpg",
+        "pregledana": true
+      },
+      "pre": {
+        "id": "krnjaca-spomenik-rodoljubima-iz-krnjace-palim-u-os",
+        "koordinate": {
+          "lat": 44.84483,
+          "lng": 20.48853
+        },
+        "priblizno": true,
+        "mesto": "Krnjača",
+        "naziv": "Spomenik rodoljubima iz Krnjače palim u oslobodilačkoj borbi 1941-1945",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "posle": {
+        "id": "krnjaca-spomenik-rodoljubima-iz-krnjace-palim-u-os",
+        "koordinate": {
+          "lat": 44.84483,
+          "lng": 20.48853
+        },
+        "priblizno": true,
+        "mesto": "Krnjača",
+        "naziv": "Spomenik rodoljubima iz Krnjače palim u oslobodilačkoj borbi 1941-1945",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=14",
+      "najbliziPre": [
+        [
+          1,
+          "beograd-bista-zage-malivuk"
+        ],
+        [
+          690,
+          "krnjaca-spomenik-rodoljubima-iz-krnjace-palim-u-os"
+        ]
+      ]
+    },
+    {
+      "wikiStranica": "Rudnik (Gornji Milanovac) - Spomenik Palim Borcima Rudničkog Kraja",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Rudnik_%28Gornji_Milanovac%29_-_Spomenik_Palim_Borcima_Rudni%C4%8Dkog_Kraja",
+      "id": "rudnik-skulptura",
+      "radnja": "postojeci-marker",
+      "dokaz": "Fotografija prikazuje Krkovićevu visoku apstraktnu kompoziciju, koju već pokriva marker rudnik na 4 m. Knjiga na str. 101 potvrđuje otkrivanje 1962. i autora. Ne praviti drugi precizni marker iz knjiškog približnog zapisa; on i njegove veze ostaju za ciljano spajanje.",
+      "koordinateWiki": {
+        "lat": 44.134361,
+        "lng": 20.497083
+      },
+      "polozaj": "In a small park next to the sport fields and in front of the miner's museum, S part of the village on a hill, N of the mine",
+      "porekloTacke": "Visible with streetview. Some sort of object is clearly visible on gmaps.",
+      "fotografija": {
+        "url": "https://www.xiwl.com/w/img_auth.php/thumb/c/c0/Rudnik_SpomenikPalimBorcimaRudnickogKraja01.jpg/800px-Rudnik_SpomenikPalimBorcimaRudnickogKraja01.jpg",
+        "lokalno": "C:\\Users\\d_pavlica\\OneDrive - Wargaming.net\\Documents\\GitHub\\spomenici\\izvori\\pretrage\\wiki-propusti-2026-10-18\\paket8-2026-10-19\\113.jpg",
+        "pregledana": true
+      },
+      "pre": {
+        "id": "rudnik-skulptura",
+        "koordinate": {
+          "lat": 44.14071,
+          "lng": 20.49833
+        },
+        "priblizno": true,
+        "mesto": "Rudnik",
+        "naziv": "Skulptura",
+        "autor": "M. Krković",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "posle": {
+        "id": "rudnik-skulptura",
+        "koordinate": {
+          "lat": 44.14071,
+          "lng": 20.49833
+        },
+        "priblizno": true,
+        "mesto": "Rudnik",
+        "naziv": "Skulptura",
+        "autor": "M. Krković",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=51",
+      "najbliziPre": [
+        [
+          4,
+          "rudnik"
+        ],
+        [
+          713,
+          "rudnik-spomen-cesma"
+        ],
+        [
+          713,
+          "rudnik-kameni-beleg"
+        ],
+        [
+          713,
+          "rudnik-skulptura"
+        ]
+      ],
+      "postojeciMarker": "rudnik"
+    },
+    {
+      "wikiStranica": "Šanac - Spomen Česma",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/%C5%A0anac_-_Spomen_%C4%8Cesma",
+      "id": "sanac-spomen-cesma-palim-u-oslobodilackim-ratovima",
+      "radnja": "postojeci-marker",
+      "dokaz": "Česma na igralištu pred Domom/školom već je obuhvaćena preciznim markerom sanac-spomenik-palim-borcima, na 11 m. Fotografija i posveta za 86 palih u dva rata ne daju razlog za drugi marker; približni knjiški zapis nije automatski spojen.",
+      "koordinateWiki": {
+        "lat": 43.624333,
+        "lng": 21.354583
+      },
+      "polozaj": "Center of the village, on the playground in front of the Dom Kulture and the school",
+      "porekloTacke": "Marked as a memorial on a 1969 map. Visible with streetview. Both school and Dom are marked but without pics of the memorial. Memorial marked on openstreetmaps",
+      "fotografija": {
+        "url": "https://www.xiwl.com/w/img_auth.php/thumb/2/2f/%C5%A0anac_Spomen%C4%8Cesma03.jpg/800px-%C5%A0anac_Spomen%C4%8Cesma03.jpg",
+        "lokalno": "C:\\Users\\d_pavlica\\OneDrive - Wargaming.net\\Documents\\GitHub\\spomenici\\izvori\\pretrage\\wiki-propusti-2026-10-18\\paket8-2026-10-19\\118.jpg",
+        "pregledana": true
+      },
+      "pre": {
+        "id": "sanac-spomen-cesma-palim-u-oslobodilackim-ratovima",
+        "koordinate": {
+          "lat": 43.62328,
+          "lng": 21.34564
+        },
+        "priblizno": true,
+        "mesto": "Šanac",
+        "naziv": "Spomen-česma palim u oslobodilačkim ratovima 1912-1918 i 1941-1945",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "posle": {
+        "id": "sanac-spomen-cesma-palim-u-oslobodilackim-ratovima",
+        "koordinate": {
+          "lat": 43.62328,
+          "lng": 21.34564
+        },
+        "priblizno": true,
+        "mesto": "Šanac",
+        "naziv": "Spomen-česma palim u oslobodilačkim ratovima 1912-1918 i 1941-1945",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=54",
+      "najbliziPre": [
+        [
+          11,
+          "sanac-spomenik-palim-borcima"
+        ],
+        [
+          729,
+          "sanac-spomen-cesma-palim-u-oslobodilackim-ratovima"
+        ]
+      ],
+      "postojeciMarker": "sanac-spomenik-palim-borcima"
+    },
+    {
+      "wikiStranica": "Brasina (Mali Zvornik) - Spomenik Palim Borcima i Žrtvama",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Brasina_%28Mali_Zvornik%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama",
+      "id": "brasina-spomen-cesma-palim-borcima-nor-a-i-zrtvama",
+      "radnja": "postojeci-marker",
+      "dokaz": "Fotografija obeliska sa petokrakom i pločama odgovara lokaciji kod stanice; marker brasina već postoji na 14 m. Wiki i knjiga opisuju celinu kao česmu iz 1973. Ne premeštati približni zapis preko postojećeg markera i ne praviti duplikat.",
+      "koordinateWiki": {
+        "lat": 44.460265,
+        "lng": 19.147887
+      },
+      "polozaj": "Center of the village, opposite the train station, directly E of the main road",
+      "porekloTacke": "Marked as a memorial on a 1975 map. Marked on gmaps, visible with streetview, visible if you know what to look for.",
+      "fotografija": {
+        "url": "https://www.xiwl.com/w/img_auth.php/thumb/4/4a/Brasina_MaliZvornik_SpomenikPalimBorcima%C5%BDFT09.jpg/800px-Brasina_MaliZvornik_SpomenikPalimBorcima%C5%BDFT09.jpg",
+        "lokalno": "C:\\Users\\d_pavlica\\OneDrive - Wargaming.net\\Documents\\GitHub\\spomenici\\izvori\\pretrage\\wiki-propusti-2026-10-18\\paket8-2026-10-19\\131.jpg",
+        "pregledana": true
+      },
+      "pre": {
+        "id": "brasina-spomen-cesma-palim-borcima-nor-a-i-zrtvama",
+        "koordinate": {
+          "lat": 44.46528,
+          "lng": 19.15667
+        },
+        "priblizno": true,
+        "mesto": "Brasina",
+        "naziv": "Spomen česma palim borcima NOR-a i žrtvama fašističkog terora",
+        "godina": "1973",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "posle": {
+        "id": "brasina-spomen-cesma-palim-borcima-nor-a-i-zrtvama",
+        "koordinate": {
+          "lat": 44.46528,
+          "lng": 19.15667
+        },
+        "priblizno": true,
+        "mesto": "Brasina",
+        "naziv": "Spomen česma palim borcima NOR-a i žrtvama fašističkog terora",
+        "godina": "1973",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=86",
+      "najbliziPre": [
+        [
+          14,
+          "brasina"
+        ],
+        [
+          893,
+          "brasina-spomen-cesma-palim-borcima-nor-a-i-zrtvama"
+        ]
+      ],
+      "postojeciMarker": "brasina"
+    },
+    {
+      "wikiStranica": "Gornja Trepca – Spomenik NOB",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Gornja_Trepca_%E2%80%93_Spomenik_NOB",
+      "id": "gornja-trepca-spomen-cesma-izginulim-borcima-i-zrt",
+      "radnja": "postojeci-marker",
+      "dokaz": "Fotografija zidane kamene česme i posveta 12 boraca i 7 žrtava već su pokriveni markerom gornja-trepca-spomenik-nob na Wiki tački. Razlika 1948 na natpisu / 1962 u knjizi ostaje zabeležena; ne stvarati drugu tačku niti menjati godinu u prolazu lociranja.",
+      "koordinateWiki": {
+        "lat": 43.941372,
+        "lng": 20.48335
+      },
+      "polozaj": "Center of the village, in front of the school, S side of the road",
+      "porekloTacke": "Visible with streetview. The school is marked on gmaps, but without pics",
+      "fotografija": {
+        "url": "https://www.xiwl.com/w/img_auth.php/thumb/f/f0/GornjaTrepca_SpomenikNOB02.jpg/800px-GornjaTrepca_SpomenikNOB02.jpg",
+        "lokalno": "C:\\Users\\d_pavlica\\OneDrive - Wargaming.net\\Documents\\GitHub\\spomenici\\izvori\\pretrage\\wiki-propusti-2026-10-18\\paket8-2026-10-19\\133.jpg",
+        "pregledana": true
+      },
+      "pre": {
+        "id": "gornja-trepca-spomen-cesma-izginulim-borcima-i-zrt",
+        "koordinate": {
+          "lat": 43.94936,
+          "lng": 20.48462
+        },
+        "priblizno": true,
+        "mesto": "Gornja Trepča",
+        "naziv": "Spomen-česma izginulim borcima i žrtvama fašističkog terora u narodnooslobodilačkom ratu 1941-1945",
+        "godina": "1962",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "posle": {
+        "id": "gornja-trepca-spomen-cesma-izginulim-borcima-i-zrt",
+        "koordinate": {
+          "lat": 43.94936,
+          "lng": 20.48462
+        },
+        "priblizno": true,
+        "mesto": "Gornja Trepča",
+        "naziv": "Spomen-česma izginulim borcima i žrtvama fašističkog terora u narodnooslobodilačkom ratu 1941-1945",
+        "godina": "1962",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=60",
+      "najbliziPre": [
+        [
+          0,
+          "gornja-trepca-spomenik-nob"
+        ],
+        [
+          894,
+          "gornja-trepca-spomen-cesma-izginulim-borcima-i-zrt"
+        ]
+      ],
+      "postojeciMarker": "gornja-trepca-spomenik-nob"
+    },
+    {
+      "wikiStranica": "Lipnički Šor - Spomenik NOB-a",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Lipni%C4%8Dki_%C5%A0or_-_Spomenik_NOB-a",
+      "id": "lipnicki-sor-kameni-beleg",
+      "radnja": "postojeci-marker",
+      "dokaz": "Fotografija metalne kompozicije sa reljefima već je pokrivena preciznim markerom lipnicki-sor-spomenik-nob, sa autorom Gordanićem Balkanskim i godinom sa ploče 1981. Knjiški generički beleg ima 1978. Bez razrešenja te razlike i knjiške posvete ne spajati ih niti pomerati stari ID.",
+      "koordinateWiki": {
+        "lat": 44.583188,
+        "lng": 19.256148
+      },
+      "polozaj": "\"In the courtyard of the elementary school \"Sveti Sava\"",
+      "porekloTacke": "The location of the school can be found by googlemaps (see entry below), but the monument itself (maybe because of its size) cannot be distiguished. Streetview is available, but the courtyard has too many trees to show anything resembling the monument",
+      "fotografija": {
+        "url": "https://www.xiwl.com/w/img_auth.php/thumb/3/35/Lipnicki%C5%A0or_SpomenikNOB05.jpg/800px-Lipnicki%C5%A0or_SpomenikNOB05.jpg",
+        "lokalno": "C:\\Users\\d_pavlica\\OneDrive - Wargaming.net\\Documents\\GitHub\\spomenici\\izvori\\pretrage\\wiki-propusti-2026-10-18\\paket8-2026-10-19\\134.jpg",
+        "pregledana": true
+      },
+      "pre": {
+        "id": "lipnicki-sor-kameni-beleg",
+        "koordinate": {
+          "lat": 44.58028,
+          "lng": 19.26667
+        },
+        "priblizno": true,
+        "mesto": "Lipnički Šor",
+        "naziv": "Kameni beleg",
+        "godina": "1978",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "posle": {
+        "id": "lipnicki-sor-kameni-beleg",
+        "koordinate": {
+          "lat": 44.58028,
+          "lng": 19.26667
+        },
+        "priblizno": true,
+        "mesto": "Lipnički Šor",
+        "naziv": "Kameni beleg",
+        "godina": "1978",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=84",
+      "najbliziPre": [
+        [
+          0,
+          "lipnicki-sor-spomenik-nob"
+        ],
+        [
+          894,
+          "lipnicki-sor-kameni-beleg"
+        ]
+      ],
+      "postojeciMarker": "lipnicki-sor-spomenik-nob"
+    },
+    {
+      "wikiStranica": "Ostra - Spomenik Hrabrima",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Ostra_-_Spomenik_Hrabrima",
+      "id": "ostra-skulptura",
+      "radnja": "postojeci-marker",
+      "dokaz": "Fotografija nedvosmisleno prikazuje Hrabrima, već postojeći marker ostra na 4 m, sa Živkovićem i Ličinom. Wiki prenosi razliku knjiga 1960 / ostali izvori 1969. Knjiška skulptura nije razlog za drugi precizni marker; godina nije menjana.",
+      "koordinateWiki": {
+        "lat": 43.911479,
+        "lng": 20.516668
+      },
+      "polozaj": "Near the church, just S of the village. Public transport from Cacak to Ostra once a day (11:30am)",
+      "porekloTacke": "Marked as a memorial on a 1969 map. Marked on gmaps with pics, visible if you know what to look for, visible with streetview",
+      "fotografija": {
+        "url": "https://www.xiwl.com/w/img_auth.php/thumb/8/8c/Ostra_SpomenikHrabrima13.jpg/800px-Ostra_SpomenikHrabrima13.jpg",
+        "lokalno": "C:\\Users\\d_pavlica\\OneDrive - Wargaming.net\\Documents\\GitHub\\spomenici\\izvori\\pretrage\\wiki-propusti-2026-10-18\\paket8-2026-10-19\\144.jpg",
+        "pregledana": true
+      },
+      "pre": {
+        "id": "ostra-skulptura",
+        "koordinate": {
+          "lat": 43.92015,
+          "lng": 20.51341
+        },
+        "priblizno": true,
+        "mesto": "Ostra",
+        "naziv": "Skulptura",
+        "godina": "1960",
+        "autor": "M. Živković, S. Ličina",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "posle": {
+        "id": "ostra-skulptura",
+        "koordinate": {
+          "lat": 43.92015,
+          "lng": 20.51341
+        },
+        "priblizno": true,
+        "mesto": "Ostra",
+        "naziv": "Skulptura",
+        "godina": "1960",
+        "autor": "M. Živković, S. Ličina",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=61",
+      "najbliziPre": [
+        [
+          4,
+          "ostra"
+        ],
+        [
+          776,
+          "ostra-spomenik-cacanskom-partizanskom-odredu"
+        ],
+        [
+          999,
+          "ostra-spomen-cesma"
+        ],
+        [
+          999,
+          "ostra-skulptura"
+        ]
+      ],
+      "postojeciMarker": "ostra"
+    },
+    {
+      "wikiStranica": "Uzovnica - Spomenik NOB",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Uzovnica_-_Spomenik_NOB",
+      "id": "uzovnica-spomenik-zivoradu-djordjicu",
+      "radnja": "postojeci-marker",
+      "dokaz": "Fotografija malog zidanog belega već je obuhvaćena uzovnica-spomenik-nob na istoj tački. Wiki navodi protivrečne godine stradanja 1942/1944 i oblik prezimena; to treba razrešiti pre spajanja knjiškog zapisa. Nema novog pomeranja.",
+      "koordinateWiki": {
+        "lat": 44.25591,
+        "lng": 19.337962
+      },
+      "polozaj": "In the hamlet of Polici, E of the main road, at the intersection close to the church",
+      "porekloTacke": "Marked on gmaps, visible with streetview, visible if you know what to look for",
+      "fotografija": {
+        "url": "https://www.xiwl.com/w/img_auth.php/thumb/7/77/Uzovnica_Spomenik1.jpg/800px-Uzovnica_Spomenik1.jpg",
+        "lokalno": "C:\\Users\\d_pavlica\\OneDrive - Wargaming.net\\Documents\\GitHub\\spomenici\\izvori\\pretrage\\wiki-propusti-2026-10-18\\paket8-2026-10-19\\154.jpg",
+        "pregledana": true
+      },
+      "pre": {
+        "id": "uzovnica-spomenik-zivoradu-djordjicu",
+        "koordinate": {
+          "lat": 44.24594,
+          "lng": 19.34166
+        },
+        "priblizno": true,
+        "mesto": "Uzovnica",
+        "naziv": "Spomenik Živoradu Đorđiću",
+        "posveta": "Živoradu Đorđiću",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "posle": {
+        "id": "uzovnica-spomenik-zivoradu-djordjicu",
+        "koordinate": {
+          "lat": 44.24594,
+          "lng": 19.34166
+        },
+        "priblizno": true,
+        "mesto": "Uzovnica",
+        "naziv": "Spomenik Živoradu Đorđiću",
+        "posveta": "Živoradu Đorđiću",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=86",
+      "najbliziPre": [
+        [
+          0,
+          "uzovnica-spomenik-nob"
+        ]
+      ],
+      "postojeciMarker": "uzovnica-spomenik-nob"
+    },
+    {
+      "wikiStranica": "Brzeće - Spomenik Na Mramoru",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Brze%C4%87e_-_Spomenik_Na_Mramoru",
+      "id": "brzece-spomenik-otkriven-1969",
+      "radnja": "postojeci-marker",
+      "dokaz": "Fotografija visokog memorijala na Mramoru, uz 1969. i Ž. Radojčića, uparuje izvor sa već postojećim brzece na 44 m. Ne stavljati drugi precizni marker za isti objekat; knjiško približno izdanje sa sačuvanim autorom ostaje za spajanje uz prenos veza.",
+      "koordinateWiki": {
+        "lat": 43.2774609,
+        "lng": 20.8747704
+      },
+      "polozaj": "ca. 3km S of the village, near a split in the road",
+      "porekloTacke": "Marked as a memorial on a 1991 map. Visible (especially the shadow) on googlemaps, giving the coords in results in the name and several pic",
+      "fotografija": {
+        "url": "https://www.xiwl.com/w/img_auth.php/thumb/a/a7/Brzece_SpomenikNaMramoru02.jpg/800px-Brzece_SpomenikNaMramoru02.jpg",
+        "lokalno": "C:\\Users\\d_pavlica\\OneDrive - Wargaming.net\\Documents\\GitHub\\spomenici\\izvori\\pretrage\\wiki-propusti-2026-10-18\\paket8-2026-10-19\\206.jpg",
+        "pregledana": true
+      },
+      "pre": {
+        "id": "brzece-spomenik-otkriven-1969",
+        "koordinate": {
+          "lat": 43.30115,
+          "lng": 20.88537
+        },
+        "priblizno": true,
+        "mesto": "Brzeće",
+        "naziv": "Spomenik",
+        "godina": "1969",
+        "autor": "Ž. Radojčić",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "posle": {
+        "id": "brzece-spomenik-otkriven-1969",
+        "koordinate": {
+          "lat": 43.30115,
+          "lng": 20.88537
+        },
+        "priblizno": true,
+        "mesto": "Brzeće",
+        "naziv": "Spomenik",
+        "godina": "1969",
+        "autor": "Ž. Radojčić",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=48",
+      "najbliziPre": [
+        [
+          44,
+          "brzece"
+        ]
+      ],
+      "postojeciMarker": "brzece"
+    },
+    {
+      "wikiStranica": "Zaglavak - Spomen Česma",
+      "wikiUrl": "https://www.xiwl.com/w/index.php/Zaglavak_-_Spomen_%C4%8Cesma",
+      "id": "zaglavak-spomen-cesma-posvecena-herojskoj-borbi-na",
+      "radnja": "postojeci-marker",
+      "dokaz": "Česma iz 1954. u spomen borbe na Kadinjači već ima precizni marker zaglavak-spomen-cesma na istoj Wiki tački. Pregledana slika je mutna i odbačena za prikaz; nema osnova za novi marker ni automatsko spajanje knjiške stavke u ovom paketu.",
+      "koordinateWiki": {
+        "lat": 43.917034,
+        "lng": 19.745272
+      },
+      "polozaj": "E side of the main road, no village nearby (Zaglavak?), just N of the memorial of Jadinjaca, built inside the slope, opposite a parking haven",
+      "porekloTacke": "Marked as a fountain on a 1970 map, visible with streetview",
+      "fotografija": {
+        "url": "https://www.xiwl.com/w/img_auth.php/thumb/f/fa/Zaglavak_Cesma1.jpg/800px-Zaglavak_Cesma1.jpg",
+        "lokalno": "C:\\Users\\d_pavlica\\OneDrive - Wargaming.net\\Documents\\GitHub\\spomenici\\izvori\\pretrage\\wiki-propusti-2026-10-18\\paket8-2026-10-19\\223.jpg",
+        "pregledana": true
+      },
+      "pre": {
+        "id": "zaglavak-spomen-cesma-posvecena-herojskoj-borbi-na",
+        "koordinate": {
+          "lat": 43.93959,
+          "lng": 19.71016
+        },
+        "priblizno": true,
+        "mesto": "Zaglavak",
+        "naziv": "Spomen-česma posvećena herojskoj borbi na Kadinjači",
+        "godina": "1954",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "posle": {
+        "id": "zaglavak-spomen-cesma-posvecena-herojskoj-borbi-na",
+        "koordinate": {
+          "lat": 43.93959,
+          "lng": 19.71016
+        },
+        "priblizno": true,
+        "mesto": "Zaglavak",
+        "naziv": "Spomen-česma posvećena herojskoj borbi na Kadinjači",
+        "godina": "1954",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "izvorPre": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=101",
+      "najbliziPre": [
+        [
+          0,
+          "zaglavak-spomen-cesma"
+        ],
+        [
+          596,
+          "kadinjaca"
+        ]
+      ],
+      "postojeciMarker": "zaglavak-spomen-cesma"
+    }
+  ],
+  "ogranicenja": [
+    "Trinaest Wiki objekata već ima precizan marker. To nije trinaest završenih spajanja: knjiški približni zapisi i njihove veze ostaju nepromenjeni, a podudaranja su sačuvana kao ulaz za ciljano spajanje.",
+    "Nije promenjeno stanje, autor, godina, fotografija, izvor ili ID nijednog zapisa; samo četiri koordinate i uklanjanje priblizno.",
+    "Pregledane su fotografije svih 20 kandidata i originalni skenovi knjige na štampanim stranama 101, 119, 284 i 288. Panorame sa Wiki linkova nisu ponovo pregledane; preciznost četiri tačke zasniva se na sačuvanom konkretnom opisu lokacije i identitetu objekta, ne centroidu zgrade.",
+    "Datum učitavanja fotografije nije datum snimanja niti potvrda današnjeg stanja."
+  ],
+  "provere": {
+    "integritet": "prosao; 10660 zapisa, bez novih bliskih parova",
+    "ciljaniPrikaz": "4/4 izmenjena markera otvorena u Chrome-u; nove koordinate i uklanjanje pribliznosti provereni",
+    "snimakTelefona": "izvori\\pretrage\\wiki-propusti-2026-10-18\\paket8-2026-10-19\\telefon.png; pregledan",
+    "ocuvanje": "Tacno cetiri promenjena zapisa, samo koordinate/priblizno; svi ID-jevi, izvori i sest izmena iz paketa 7 sacuvani",
+    "gitDiffCheck": "prosao",
+    "aplikacija": "23/23 postojeca testa prosla u Chrome-u"
+  }
+}

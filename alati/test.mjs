@@ -50,7 +50,7 @@ test('mapa prikazuje obeliske', async () => {
   await otvori()
   assert.ok(await izvrsi("document.querySelectorAll('.leaflet-marker-pane img').length") > 0)
   const poruka = "document.querySelector('planer-rute').shadowRoot.querySelector('#prazna')"
-  assert.equal(await izvrsi(`${poruka}.querySelector('b')?.textContent`), '+ Ruta')
+  assert.equal(await izvrsi(`${poruka}.querySelector('b')?.textContent`), 'U rutu')
   assert.ok(!(await izvrsi(`${poruka}.textContent`)).includes('<b>'))
 })
 
