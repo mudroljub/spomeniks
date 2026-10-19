@@ -22,6 +22,8 @@ POZNATI_BLISKI_PAROVI = {frozenset(par) for par in [
     ('sisak', 'sisak-spomen-park-brezovica'),
     ('dotrscina', 'zagreb-spomen-park-dotrscina'),
     ('bela-crkva-start-uprising', 'bela-crkva-spomenicki-kompleks'),
+    # Kameni buket i Gržetićeve majke i kćeri: različita dela, potvrđena fotografijama i autorskom arhivom.
+    ('topola', 'topola-skulpturalna-kompozicija-isklesana-u-belom'),
     ('aleksinac', 'aleksinac-spomen-park-nob'),
     ('sibenik', 'sibenik-spomen-park-subicevac'),
     ('banja-luka-spomenik-palim-borcima', 'banja-luka-bista-kasim-hadzic'),

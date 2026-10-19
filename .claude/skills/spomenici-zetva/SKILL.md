@@ -42,6 +42,8 @@ Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i ot
 
 ## Postupci koji rade
 
+- **Nalaz se odmah upisuje, bez pitanja** (korisnik, 2026-10-19): svrha projekta je dodavanje podataka. Kad provera izvora nađe nove spomenike, nepovezane članke, fotografije ili druge pouzdane dopune, upiši ih odmah i javi šta je urađeno. Ne pitaj „da dodam?“ ni „da povežem?“. Pitaj samo kad je identitet ili izvor zaista sporan, ili kad posao prelazi pravila prema serverima i potrošnji.
+
 - **Hronologija izlaganja skulpture u Srbiji ima prednost** (korisnik, 2026-10-18): [ovaj akademski izvor](https://skulptura-hronologijaizlaganja.rs/category/spomenicka-skulptura/) ima prednost nad drugim izvorima za podatke o istom spomeniku, uključujući autora, godinu i naziv. Razlikuj godinu nastanka dela od postavljanja odlivka, pojedinačno delo od celine i različite spomenike u istom mestu; prednost izvora ne znači da su to isti objekti. Sačuvaj izvorni `izvor`, a dopunski dokaz i ranije razlike zabeleži u izveštaju.
 - **Pre izveštaja „nema dovoljno podataka“ prvo traži na mreži** (korisnik, 2026-10-18): članak na Vikipediji, vesti, sajt opštine ili muzeja, Google mape, OSM i Commons. Korisniku se javlja nalaz, ili tek posle te pretrage šta je traženo i nije nađeno, uz linkove pregledanih izvora.
 - **Izvor koji ima tačke odmah se meri i preuzima zbirno** (korisnik, 2026-10-18): kad izvor da tačnu tačku makar jednom spomeniku, odmah proveri koliko je velik (npr. MediaWiki `meta=siteinfo&siprop=statistics`) i da li se može preuzeti ceo (API, izvoz, sloj mape). Ne koristi ga samo za mesto zbog kog je nađen. Tako je Partisan Memorials Wiki (xiwl.com, oko 8.300 članaka sa tačkama, uglavnom BiH) ostao neiskorišćen posle žetve za Danilovgrad.

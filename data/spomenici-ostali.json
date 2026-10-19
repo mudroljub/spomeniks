@@ -798,11 +798,13 @@
     },
     "googleCid": "5605490533968787820",
     "mesto": "Beograd (Novo groblje)",
+    "clanak": "https://www.arhivamodernizma.com/aleja-streljanih-rodoljuba-u-beogradu/",
     "slika": "slike/spomenici/belgrade-s-new-cemetery.webp",
     "slikaOdnos": 1.639,
     "naziv": "Aleja streljanih rodoljuba",
     "nazivEn": "The Alley of the Executed Patriots",
     "godina": "1959",
+    "autor": "Bogdan Bogdanović & Svetislav Ličina",
     "vrsta": "spomen-groblje",
     "drzava": "Serbia"
   },
@@ -43292,7 +43294,11 @@
       "lng": 21.0138798
     },
     "mesto": "Brezovica",
-    "naziv": "Spomenik streljanim pripadnicima NOP-a",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%A0%D0%B0%D0%BA%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%D1%86",
+    "slika": "slike/spomenici/brezovica-spomenik-streljanim-pripadnicima-nop-a.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "IvanJzov, CC0",
+    "naziv": "Spomenik Rakanovac",
     "vrsta": "spomen-obelezje",
     "drzava": "Kosovo"
   },
@@ -43548,22 +43554,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "beograd-spomenik-obalskim-radnicima-palim-u-nob-u",
-    "koordinate": {
-      "lat": 44.8181235,
-      "lng": 20.4491133
-    },
-    "mesto": "Beograd",
-    "slika": "slike/spomenici/beograd-spomenik-obalskim-radnicima-palim-u-nob-u.webp",
-    "slikaOdnos": 0.73,
-    "slikaPotpis": "Андрей Романенко, CC BY-SA 4.0",
-    "naziv": "Spomenik obalskim radnicima palim u NOB",
-    "godina": "1952",
-    "autor": "Radeta Stanković",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
-  },
-  {
     "id": "beograd-savamala-ovde-je-ziveo-ucitelj-miladin-zar",
     "koordinate": {
       "lat": 44.8119591,
@@ -43652,8 +43642,14 @@
       "lat": 44.8633324,
       "lng": 20.3689681
     },
-    "mesto": "Beograd (Borča, Sutjeska)",
+    "mesto": "Beograd (Zemun)",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D1%81%D1%82%D1%80%D0%B5%D1%99%D0%B0%D0%BD%D0%B8%D0%BC_%D1%80%D0%BE%D0%B4%D0%BE%D1%99%D1%83%D0%B1%D0%B8%D0%BC%D0%B0",
+    "slika": "slike/spomenici/borca-sutjeska-spomenik-streljanim-rodoljubima.webp",
+    "slikaOdnos": 0.676,
+    "slikaPotpis": "Pinki, CC0",
     "naziv": "Spomenik streljanim rodoljubima",
+    "godina": "1968",
+    "posveta": "Desetorici rodoljuba ubijenih 11. novembra 1943. na Goveđem brodu.",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -44251,10 +44247,13 @@
       "lng": 20.9293933
     },
     "mesto": "Vlaški Do",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BF%D0%B0%D0%BB%D0%B8%D0%BC%D0%B0_%D1%83_%D0%9E%D1%81%D0%BB%D0%BE%D0%B1%D0%BE%D0%B4%D0%B8%D0%BB%D0%B0%D1%87%D0%BA%D0%B8%D0%BC_%D1%80%D0%B0%D1%82%D0%BE%D0%B2%D0%B8%D0%BC%D0%B0_%D1%83_%D0%92%D0%BB%D0%B0%D1%88%D0%BA%D0%BE%D0%BC_%D0%94%D0%BE%D0%BB%D1%83",
     "slika": "slike/spomenici/vlaski-do-spomenik-palim-borcima.webp",
     "slikaOdnos": 0.75,
     "slikaPotpis": "Katarina Cvetkovic, CC BY-SA 4.0",
-    "naziv": "Spomenik palim borcima",
+    "naziv": "Spomenik palima u oslobodilačkim ratovima",
+    "godina": "1983",
+    "autor": "Velizar Paunović",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -45878,6 +45877,7 @@
       "lng": 21.941599
     },
     "mesto": "Leskovac",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%91%D0%B8%D1%81%D1%82%D0%B0_%D0%A1%D1%82%D0%B0%D0%BD%D0%B8%D0%BC%D0%B8%D1%80%D0%B0_%D0%92%D0%B5%D1%99%D0%BA%D0%BE%D0%B2%D0%B8%D1%9B%D0%B0_%D0%97%D0%B5%D0%BB%D0%B5%D1%82%D0%B0",
     "slika": "slike/spomenici/leskovac-bista-stanimira-veljkovica-zeleta.webp",
     "slikaOdnos": 0.75,
     "slikaPotpis": "Vanjagenije, CC BY-SA 4.0",
@@ -48320,10 +48320,11 @@
       "lng": 20.301739
     },
     "mesto": "Viča",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D1%87%D0%B5%D1%81%D0%BC%D0%B0_%D1%81%D1%82%D1%80%D0%B0%D0%B4%D0%B0%D0%BB%D0%B8%D0%BC_%D1%80%D0%B0%D1%82%D0%BD%D0%B8%D1%86%D0%B8%D0%BC%D0%B0_1912-1918._%D0%B8_1941-1945._%D1%83_%D0%92%D0%B8%D1%87%D0%B8",
     "slika": "slike/spomenici/vica-spomen-cesma.webp",
     "slikaOdnos": 0.667,
     "slikaPotpis": "BrankaVV, CC BY-SA 4.0",
-    "naziv": "Spomen-česma",
+    "naziv": "Spomen-česma stradalim ratnicima 1912-1918 i 1941-1945",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -81907,6 +81908,10 @@
       "lng": 21.004352
     },
     "mesto": "Golobok",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BF%D0%BE%D0%B3%D0%B8%D0%BD%D1%83%D0%BB%D0%B8%D0%BC%D0%B0_%D1%83_%D0%94%D1%80%D1%83%D0%B3%D0%BE%D0%BC_%D1%81%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%BE%D0%BC_%D1%80%D0%B0%D1%82%D1%83_%D1%83_%D0%93%D0%BE%D0%BB%D0%BE%D0%B1%D0%BE%D0%BA%D1%83",
+    "slika": "slike/spomenici/golobok-spomenik-poginulima-u-drugom-svetskom-ratu.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Jovan Cvetković, CC BY-SA 4.0",
     "naziv": "Spomenik poginulima u Drugom svetskom ratu",
     "godina": "1978",
     "autor": "Živoslav Mijatović",
@@ -83835,6 +83840,7 @@
       "lng": 19.657324
     },
     "mesto": "Grgurevci",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%9C%D0%BE%D1%88%D0%B8%D0%BD_%D0%B3%D1%80%D0%BE%D0%B1",
     "slika": "slike/spomenici/grgurevci-mosin-grob.webp",
     "slikaOdnos": 1.778,
     "slikaPotpis": "Fruškać",
@@ -90786,6 +90792,7 @@
       "lng": 19.73456
     },
     "mesto": "Mala Remeta",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD_%D0%BE%D0%B1%D0%B5%D0%BB%D0%B5%D0%B6%D1%98%D0%B5_%D0%9F%D0%B8%D0%BD%D0%BA%D0%B8%D1%98%D0%B5%D0%B2_%D0%B3%D1%80%D0%BE%D0%B1",
     "slika": "slike/spomenici/mala-remeta-pinkijev-grob.webp",
     "slikaOdnos": 1.55,
     "slikaPotpis": "Fruškać",
@@ -104284,10 +104291,11 @@
       "lng": 22.328139
     },
     "mesto": "Vlasina Rid",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D1%87%D0%B5%D1%81%D0%BC%D0%B0_%D0%BF%D0%B0%D0%BB%D0%B8%D0%BC_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D0%9D%D0%9E%D0%A0-%D0%B0_%D0%B8_%D0%96%D0%A4%D0%A2_%D1%83_%D0%92%D0%BB%D0%B0%D1%81%D0%B8%D0%BD%D0%B0_%D0%A0%D0%B8%D0%B4%D1%83",
     "slika": "slike/spomenici/vlasina-rid-spomen-cesma.webp",
     "slikaOdnos": 1.333,
     "slikaPotpis": "Heritage Pravec – Surdulica",
-    "naziv": "Spomen-česma",
+    "naziv": "Spomen-česma palim borcima NOR-a i žrtvama fašističkog terora",
     "godina": "1954",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -104299,10 +104307,11 @@
       "lng": 22.374278
     },
     "mesto": "Vlasina Stojkovićeva",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D1%87%D0%B5%D1%81%D0%BC%D0%B0_%D0%BF%D0%B0%D0%BB%D0%B8%D0%BC_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D0%9F%D1%80%D0%B2%D0%BE%D0%B3_%D0%B8_%D0%94%D1%80%D1%83%D0%B3%D0%BE%D0%B3_%D1%81%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%BE%D0%B3_%D1%80%D0%B0%D1%82%D0%B0",
     "slika": "slike/spomenici/vlasina-stojkoviceva-spomen-cesma.webp",
     "slikaOdnos": 1.778,
     "slikaPotpis": "HeritagePhotogrammetry, CC BY 4.0",
-    "naziv": "Spomen-česma",
+    "naziv": "Spomen-česma palim borcima Prvog i Drugog svetskog rata",
     "godina": "1989",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -107242,6 +107251,7 @@
       "lng": 19.684289
     },
     "mesto": "Šuljam",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BE%D0%B1%D0%B5%D0%BB%D0%B5%D0%B6%D1%98%D0%B5_%D0%9B%D0%B5%D0%BF%D0%B8%D1%9A%D0%B8%D1%86%D0%B0",
     "slika": "slike/spomenici/suljam-spomen-obelezje-lepinjica.webp",
     "slikaOdnos": 1.556,
     "slikaPotpis": "Fruškać",
@@ -112006,18 +112016,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "beograd-spomenik",
-    "koordinate": {
-      "lat": 44.819769,
-      "lng": 20.458525
-    },
-    "mesto": "Beograd",
-    "naziv": "Spomenik",
-    "autor": "Drago Tršar",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
-  },
-  {
     "id": "berane-spomenik-barskim-logorasima",
     "koordinate": {
       "lat": 42.849732,
@@ -115798,7 +115796,8 @@
     },
     "priblizno": true,
     "mesto": "Surdulica",
-    "naziv": "Skulptura",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%9F%D0%B0%D0%BB%D0%B8%D0%BC_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D1%83_%D0%94%D1%80%D1%83%D0%B3%D0%BE%D0%BC_%D1%81%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%BE%D0%BC_%D1%80%D0%B0%D1%82%D1%83_%D1%83_%D0%A1%D1%83%D1%80%D0%B4%D1%83%D0%BB%D0%B8%D1%86%D0%B8",
+    "naziv": "Spomenik palim borcima u Drugom svetskom ratu",
     "godina": "1961",
     "autor": "M. Živković",
     "vrsta": "spomen-obelezje",
@@ -122697,20 +122696,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "zlatibor-obelisk-visok-10-m-spomenik-na-sumnatom-b",
-    "koordinate": {
-      "lat": 43.72654,
-      "lng": 19.69979
-    },
-    "priblizno": true,
-    "mesto": "Zlatibor",
-    "naziv": "Obelisk visok 10 m spomenik na Šumnatom brdu",
-    "godina": "1967",
-    "autor": "S. Jeftanović, A. Bešlić",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
-  },
-  {
     "id": "rozanstvo-spomenik-palim-1941-1945",
     "koordinate": {
       "lat": 43.72056,
@@ -123844,46 +123829,6 @@
     "mesto": "Kušiljevo",
     "naziv": "Spomen-kuća",
     "vrsta": "muzej",
-    "drzava": "Serbia"
-  },
-  {
-    "id": "topola-skulpturalna-kompozicija-isklesana-u-belom",
-    "koordinate": {
-      "lat": 44.25448,
-      "lng": 20.67972
-    },
-    "priblizno": true,
-    "mesto": "Topola",
-    "naziv": "Skulpturalna kompozicija isklesana u belom mermeru",
-    "godina": "1967",
-    "autor": "A. Gržetić",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
-  },
-  {
-    "id": "topola-bista-darinke-radovic",
-    "koordinate": {
-      "lat": 44.25448,
-      "lng": 20.67972
-    },
-    "priblizno": true,
-    "mesto": "Topola",
-    "naziv": "Bista Darinke Radović",
-    "posveta": "Darinke Radović",
-    "vrsta": "bista",
-    "drzava": "Serbia"
-  },
-  {
-    "id": "topola-bista-sofije-ristic",
-    "koordinate": {
-      "lat": 44.25448,
-      "lng": 20.67972
-    },
-    "priblizno": true,
-    "mesto": "Topola",
-    "naziv": "Bista Sofije Ristić",
-    "posveta": "Sofije Ristić",
-    "vrsta": "bista",
     "drzava": "Serbia"
   },
   {
@@ -129642,5 +129587,39 @@
     "naziv": "Споменик на паднатите борци",
     "vrsta": "spomen-obelezje",
     "drzava": "Macedonia"
+  },
+  {
+    "id": "lacarak-spomen-obelezje-krilo",
+    "koordinate": {
+      "lat": 44.99751,
+      "lng": 19.56499
+    },
+    "priblizno": true,
+    "mesto": "Laćarak",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BE%D0%B1%D0%B5%D0%BB%D0%B5%D0%B6%D1%98%D0%B5_%D0%9A%D1%80%D0%B8%D0%BB%D0%BE_%D1%83_%D0%9B%D0%B0%D1%9B%D0%B0%D1%80%D0%BA%D1%83",
+    "slika": "slike/spomenici/lacarak-spomen-obelezje-krilo.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
+    "naziv": "Spomen-obeležje „Krilo“",
+    "godina": "2013",
+    "posveta": "Pilotima stacioniranim krajem Drugog svetskog rata na aerodromu Laćarak.",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "prijepolje-rusevine-partizanske-bolnice",
+    "koordinate": {
+      "lat": 43.383895,
+      "lng": 19.638188
+    },
+    "mesto": "Prijepolje",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B0_%D0%B1%D0%BE%D0%BB%D0%BD%D0%B8%D1%86%D0%B0_%D1%83_%D0%9F%D1%80%D0%B8%D1%98%D0%B5%D0%BF%D0%BE%D1%99%D1%83",
+    "slika": "slike/spomenici/prijepolje-rusevine-partizanske-bolnice.webp",
+    "slikaOdnos": 2.041,
+    "slikaPotpis": "Milovan Dobrilović, CC BY-SA 4.0",
+    "naziv": "Ruševine partizanske bolnice",
+    "posveta": "Borbi Prve šumadijske i Druge proleterske brigade sa nemačkim jedinicama 4. decembra 1943.",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
   }
 ]

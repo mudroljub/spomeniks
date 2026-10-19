@@ -29267,9 +29267,14 @@
     "naziv": "Partizanski kurir",
     "godina": "1954",
     "autor": "Stevan Bodnarov",
+    "posveta": "Savetovanju u Stolicama 26. septembra 1941.",
     "vrsta": "statua",
     "drzava": "Serbia",
-    "adresa": "Pored Istorijske kuće"
+    "adresa": "Pored Istorijske kuće",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BA%D1%83%D0%BB%D0%BF%D1%82%D1%83%D1%80%D0%B0_%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B8_%D0%BA%D1%83%D1%80%D0%B8%D1%80",
+    "slika": "slike/bez-lokacije/stolice-partizanski-kurir.webp",
+    "slikaOdnos": 0.6,
+    "slikaPotpis": "Pinki, CC0"
   },
   {
     "id": "stolice-spomenik-titu-vrhovnom-komandantu",
@@ -29287,14 +29292,6 @@
     "vrsta": "spomen-groblje",
     "drzava": "Serbia",
     "adresa": "Novo groblje, Ruzveltova ulica"
-  },
-  {
-    "id": "beograd-spomen-obiljezje-na-mjestu-glavnjace",
-    "mesto": "Beograd",
-    "naziv": "Spomen-obilježje na mjestu Glavnjače",
-    "vrsta": "spomenik",
-    "drzava": "Serbia",
-    "adresa": "Studentski trg, mesto nekadašnjeg zatvora Glavnjača"
   },
   {
     "id": "bubanj-spomenik-12-srpskih-cura",
@@ -31010,15 +31007,6 @@
     "adresa": "Spomenik na Centralnom groblju. Kamena skulptura podignuta 1973. godine. Vajar M. Krković. Ovde su sahranjene žrtve bombardovanja Beograda 1944. godine."
   },
   {
-    "id": "jajinci-spomen-prostor-zrtava-fasistickog-zlocina",
-    "mesto": "Jajinci",
-    "naziv": "Spomen-prostor žrtava fašističkog zločina",
-    "autor": "B. Bon, S. Bodnarov",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia",
-    "adresa": "Spomen-prostor žrtava fašističkog zločina. Park od 43 hektara sa spomenikom i bronzanim reljefom, cvetnim alejama, mestom memorijalnih manifestacija. Izgradnja sp"
-  },
-  {
     "id": "mali-mokri-lug-bista-dragojla-dudica",
     "mesto": "Mali Mokri Lug",
     "naziv": "Bista Dragojla Dudića",
@@ -31135,10 +31123,19 @@
     "id": "zeleznik-spomenik-palim-1941-1945",
     "mesto": "Železnik",
     "naziv": "Spomenik palim 1941-1945",
-    "autor": "M. Popović",
+    "godina": "1952",
+    "autor": "Miša Popović",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia",
-    "adresa": "Spomenik palim 1941-1945. ispred Zadružnog doma. Bronzana figura otkrivena 7. jula 1952. godine. Vajar M. Popović. Mermerna ploča na fasadi Zadružnog doma sa im"
+    "adresa": "Spomenik palim 1941-1945. ispred Zadružnog doma. Bronzana figura otkrivena 7. jula 1952. godine. Vajar M. Popović. Mermerna ploča na fasadi Zadružnog doma sa im",
+    "kandidati": [
+      {
+        "lat": 44.7241315,
+        "lng": 20.3718938,
+        "izvor": "https://www.openstreetmap.org/node/6369850058",
+        "opis": "Već mapirani spomenik palim borcima, uz današnji Dom kulture Železnik (node 6369850068), moguć par knjiškom Zadružnom domu; nedostaje identifikaciona fotografija bronzane figure. Ne praviti novi marker bez razrešenja postojećeg."
+      }
+    ]
   },
   {
     "id": "zeleznik-bista-ive-lole-ribara",
