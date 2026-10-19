@@ -95,7 +95,7 @@
   {
     "id": "prilep-in-the-peoples-liberation-struggle",
     "naziv": {
-      "sh": "Прилеп во НОБ",
+      "sh": "Prilep u NOB",
       "en": "Prilep in WW2"
     },
     "wiki": "https://sh.wikipedia.org/wiki/Prilep_u_Narodnooslobodila%C4%8Dkoj_borbi",
@@ -465,60 +465,160 @@
     }
   },
   {
-    "id": "montenegro-north",
+    "id": "montenegrin-littoral",
     "naziv": {
-      "sh": "Severna Crna Gora u NOB",
-      "en": "Northern Montenegro in WW2"
+      "sh": "Crnogorsko primorje u NOB",
+      "en": "Montenegrin Littoral in WW2"
     },
     "oblast": {
       "drzave": [
         "Montenegro"
       ],
-      "granice": [
-        42.5504568,
-        18.6321317,
-        43.0884276,
-        19.920192
-      ],
-      "putanja": [
+      "poligon": [
         [
-          43.0584276,
-          18.8359526
+          42.55,
+          18.4
         ],
         [
-          42.6508527,
-          18.6721317
+          42.55,
+          18.8
         ],
         [
-          42.7630807,
-          18.9596103
+          42.32,
+          18.8
         ],
         [
-          42.7322524,
-          19.0831447
+          42.32,
+          19.05
         ],
         [
-          42.5804568,
-          19.0535186
+          42.25,
+          19.05
         ],
         [
-          42.8242248,
-          19.5187545
+          42.25,
+          19.7
         ],
         [
-          42.7375046,
-          19.787227
+          41.8,
+          19.7
         ],
         [
-          42.8503457,
-          19.880192
+          41.8,
+          18.4
         ]
-      ],
-      "sirinaKm": 20
+      ]
     }
   },
   {
-    "id": "macedonia-west",
+    "id": "zeta",
+    "naziv": {
+      "sh": "Zeta u NOB",
+      "en": "Zeta in WW2"
+    },
+    "oblast": {
+      "drzave": [
+        "Montenegro"
+      ],
+      "poligon": [
+        [
+          42.65,
+          18.8
+        ],
+        [
+          42.65,
+          19.7
+        ],
+        [
+          42.25,
+          19.7
+        ],
+        [
+          42.25,
+          19.05
+        ],
+        [
+          42.32,
+          19.05
+        ],
+        [
+          42.32,
+          18.8
+        ]
+      ]
+    }
+  },
+  {
+    "id": "niksic-area",
+    "naziv": {
+      "sh": "Nikšićki kraj u NOB",
+      "en": "Nikšić area in WW2"
+    },
+    "wiki": "https://sh.wikipedia.org/wiki/Nik%C5%A1i%C4%87_u_Narodnooslobodila%C4%8Dkoj_borbi",
+    "oblast": {
+      "drzave": [
+        "Montenegro"
+      ],
+      "poligon": [
+        [
+          42.55,
+          18.4
+        ],
+        [
+          42.9,
+          18.4
+        ],
+        [
+          42.9,
+          19.25
+        ],
+        [
+          42.65,
+          19.25
+        ],
+        [
+          42.65,
+          18.8
+        ],
+        [
+          42.55,
+          18.8
+        ]
+      ]
+    }
+  },
+  {
+    "id": "durmitor",
+    "naziv": {
+      "sh": "Durmitor u NOB",
+      "en": "Durmitor in WW2"
+    },
+    "oblast": {
+      "drzave": [
+        "Montenegro"
+      ],
+      "poligon": [
+        [
+          42.9,
+          18.4
+        ],
+        [
+          43.4,
+          18.4
+        ],
+        [
+          43.4,
+          19.3
+        ],
+        [
+          42.9,
+          19.3
+        ]
+      ]
+    }
+  },
+  {
+    "id": "western-macedonia",
     "naziv": {
       "sh": "Zapadna Makedonija u NOB",
       "en": "Western Macedonia in WW2"
@@ -527,43 +627,244 @@
       "drzave": [
         "Macedonia"
       ],
-      "granice": [
-        40.9466278,
-        20.6395784,
-        42.023656,
-        21.5945342
-      ],
-      "putanja": [
+      "poligon": [
         [
-          41.993656,
-          21.4340762
+          42.3,
+          20.4
         ],
         [
-          41.3343038,
-          21.5545342
+          42.3,
+          21.15
         ],
         [
-          41.3773707,
-          21.2483877
+          41.85,
+          21.2
         ],
         [
-          41.2786512,
-          20.7836303
+          41.6,
+          21.45
         ],
         [
-          41.1776435,
-          20.6795784
+          41.55,
+          21.5
         ],
         [
-          40.9766278,
-          20.9130375
+          41.43,
+          21.35
+        ],
+        [
+          41.43,
+          21.05
+        ],
+        [
+          41.38,
+          21.05
+        ],
+        [
+          41.38,
+          20.4
         ]
-      ],
-      "sirinaKm": 20
+      ]
     }
   },
   {
-    "id": "macedonia-east",
+    "id": "ohrid-prespa",
+    "naziv": {
+      "sh": "Ohridsko-prespanski kraj u NOB",
+      "en": "Ohrid and Prespa in WW2"
+    },
+    "oblast": {
+      "drzave": [
+        "Macedonia"
+      ],
+      "poligon": [
+        [
+          41.38,
+          20.4
+        ],
+        [
+          41.38,
+          21.05
+        ],
+        [
+          41.2,
+          21.1
+        ],
+        [
+          40.8,
+          21.1
+        ],
+        [
+          40.8,
+          20.4
+        ]
+      ]
+    }
+  },
+  {
+    "id": "pelagonia",
+    "naziv": {
+      "sh": "Pelagonija u NOB",
+      "en": "Pelagonia in WW2"
+    },
+    "oblast": {
+      "drzave": [
+        "Macedonia"
+      ],
+      "poligon": [
+        [
+          41.38,
+          21.05
+        ],
+        [
+          41.43,
+          21.05
+        ],
+        [
+          41.43,
+          21.35
+        ],
+        [
+          41.55,
+          21.5
+        ],
+        [
+          41.55,
+          21.7
+        ],
+        [
+          41.3,
+          21.85
+        ],
+        [
+          40.8,
+          21.85
+        ],
+        [
+          40.8,
+          21.1
+        ],
+        [
+          41.2,
+          21.1
+        ]
+      ]
+    }
+  },
+  {
+    "id": "skopje-kumanovo",
+    "naziv": {
+      "sh": "Skopsko-kumanovski kraj u NOB",
+      "en": "Skopje and Kumanovo area in WW2"
+    },
+    "oblast": {
+      "drzave": [
+        "Macedonia"
+      ],
+      "poligon": [
+        [
+          42.4,
+          21.15
+        ],
+        [
+          42.4,
+          22.6
+        ],
+        [
+          42.05,
+          22.6
+        ],
+        [
+          42.04,
+          22.1
+        ],
+        [
+          41.92,
+          21.85
+        ],
+        [
+          41.85,
+          21.6
+        ],
+        [
+          41.85,
+          21.2
+        ]
+      ]
+    }
+  },
+  {
+    "id": "vardar-valley",
+    "naziv": {
+      "sh": "Povardarje u NOB",
+      "en": "Vardar Valley in WW2"
+    },
+    "oblast": {
+      "drzave": [
+        "Macedonia"
+      ],
+      "poligon": [
+        [
+          41.85,
+          21.6
+        ],
+        [
+          41.92,
+          21.85
+        ],
+        [
+          41.8,
+          21.9
+        ],
+        [
+          41.75,
+          22.05
+        ],
+        [
+          41.55,
+          22.15
+        ],
+        [
+          41.35,
+          22.35
+        ],
+        [
+          41.25,
+          22.65
+        ],
+        [
+          40.8,
+          22.65
+        ],
+        [
+          40.8,
+          21.85
+        ],
+        [
+          41.3,
+          21.85
+        ],
+        [
+          41.55,
+          21.7
+        ],
+        [
+          41.55,
+          21.5
+        ],
+        [
+          41.6,
+          21.45
+        ],
+        [
+          41.85,
+          21.2
+        ]
+      ]
+    }
+  },
+  {
+    "id": "eastern-macedonia",
     "naziv": {
       "sh": "Istočna Makedonija u NOB",
       "en": "Eastern Macedonia in WW2"
@@ -572,39 +873,52 @@
       "drzave": [
         "Macedonia"
       ],
-      "granice": [
-        41.128171,
-        21.7493221,
-        41.9488885,
-        22.7927013
-      ],
-      "putanja": [
+      "poligon": [
         [
-          41.7778388,
-          22.7527013
+          42.04,
+          22.1
         ],
         [
-          41.9188885,
-          22.4070296
+          42.05,
+          22.6
         ],
         [
-          41.7385003,
-          22.1987967
+          42.05,
+          23.1
         ],
         [
-          41.7233705,
-          21.7893221
+          40.8,
+          23.1
         ],
         [
-          41.4326187,
-          22.0228685
+          40.8,
+          22.65
         ],
         [
-          41.158171,
-          22.5005876
+          41.25,
+          22.65
+        ],
+        [
+          41.35,
+          22.35
+        ],
+        [
+          41.55,
+          22.15
+        ],
+        [
+          41.75,
+          22.05
+        ],
+        [
+          41.8,
+          21.9
+        ],
+        [
+          41.92,
+          21.85
         ]
-      ],
-      "sirinaKm": 20
+      ]
     }
   },
   {
@@ -613,6 +927,7 @@
       "sh": "Banat u NOB",
       "en": "Banat in WW2"
     },
+    "grupa": "Vojvodina",
     "oblast": {
       "drzave": [
         "Serbia"
@@ -727,6 +1042,7 @@
       "sh": "Bačka u NOB",
       "en": "Bačka in WW2"
     },
+    "grupa": "Vojvodina",
     "oblast": {
       "drzave": [
         "Serbia"
@@ -834,6 +1150,7 @@
       "en": "Syrmia in WW2"
     },
     "wiki": "https://sh.wikipedia.org/wiki/Srem_u_Narodnooslobodila%C4%8Dkoj_borbi",
+    "grupa": "Vojvodina",
     "oblast": {
       "drzave": [
         "Serbia",
@@ -1461,14 +1778,22 @@
   {
     "id": "gorski-kotar",
     "naziv": {
-      "sh": "Gorski kotar u NOB",
-      "en": "Gorski Kotar in WW2"
+      "sh": "Gorski kotar i primorje u NOB",
+      "en": "Gorski Kotar and the Littoral in WW2"
     },
     "oblast": {
       "drzave": [
         "Croatia"
       ],
       "poligon": [
+        [
+          45.4,
+          14.38
+        ],
+        [
+          45.45,
+          14.5
+        ],
         [
           45.6,
           14.55
@@ -1486,12 +1811,52 @@
           14.95
         ],
         [
-          45.3,
-          14.65
+          45.15,
+          14.9
         ],
         [
-          45.45,
-          14.5
+          45.0,
+          15.0
+        ],
+        [
+          44.75,
+          15.05
+        ],
+        [
+          44.55,
+          15.15
+        ],
+        [
+          44.52,
+          15.05
+        ],
+        [
+          44.71,
+          14.88
+        ],
+        [
+          44.98,
+          14.88
+        ],
+        [
+          45.12,
+          14.77
+        ],
+        [
+          45.16,
+          14.68
+        ],
+        [
+          45.26,
+          14.56
+        ],
+        [
+          45.3,
+          14.42
+        ],
+        [
+          45.32,
+          14.38
         ]
       ]
     }
@@ -1893,8 +2258,8 @@
   {
     "id": "hrvatsko-zagorje",
     "naziv": {
-      "sh": "Hrvatsko zagorje u NOB",
-      "en": "Croatian Zagorje in WW2"
+      "sh": "Zagorje u NOB",
+      "en": "Zagorje in WW2"
     },
     "oblast": {
       "drzave": [
@@ -1973,85 +2338,11 @@
         ],
         [
           45.5,
-          16.4
+          16.52
         ],
         [
           45.62,
-          16.3
-        ]
-      ]
-    }
-  },
-  {
-    "id": "hrvatsko-primorje",
-    "naziv": {
-      "sh": "Hrvatsko primorje u NOB",
-      "en": "Croatian Littoral in WW2"
-    },
-    "oblast": {
-      "drzave": [
-        "Croatia"
-      ],
-      "poligon": [
-        [
-          45.4,
-          14.38
-        ],
-        [
-          45.33,
-          14.58
-        ],
-        [
-          45.25,
-          14.72
-        ],
-        [
-          45.15,
-          14.9
-        ],
-        [
-          45.0,
-          15.0
-        ],
-        [
-          44.75,
-          15.05
-        ],
-        [
-          44.55,
-          15.15
-        ],
-        [
-          44.52,
-          15.05
-        ],
-        [
-          44.71,
-          14.88
-        ],
-        [
-          44.98,
-          14.88
-        ],
-        [
-          45.12,
-          14.77
-        ],
-        [
-          45.16,
-          14.68
-        ],
-        [
-          45.26,
-          14.56
-        ],
-        [
-          45.3,
-          14.42
-        ],
-        [
-          45.32,
-          14.38
+          16.42
         ]
       ]
     }

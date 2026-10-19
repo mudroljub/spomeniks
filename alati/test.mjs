@@ -451,6 +451,17 @@ test('prag važnosti menja celu automatsku turu i pamti izbor bez ograničenja b
   await izvrsi("import('./utils/ruta.js').then(m=>m.postaviRutu([]))")
 })
 
+test('uklanjanje rute otvara predložene rute', async () => {
+  await otvori()
+  const ruta = "document.querySelector('planer-rute').shadowRoot"
+  await izvrsi("import('./utils/ruta.js').then(m=>m.postaviRutu([...document.querySelector('planer-rute').stavke.keys()].slice(0, 2)))")
+  await izvrsi(`${ruta}.querySelector('#dugme').click()`)
+  await izvrsi(`${ruta}.querySelector('[data-kartica="planer"]').click()`)
+  await izvrsi(`${ruta}.querySelector('#isprazni').click()`)
+  assert.equal(await izvrsi(`${ruta}.querySelector('[data-kartica="ture"]').getAttribute('aria-selected')`), 'true')
+  assert.equal(await izvrsi(`${ruta}.querySelector('#ture').hidden`), false)
+})
+
 test('stranac dobija engleski, a izabran jezik ostaje', async () => {
   const userAgent = await izvrsi('navigator.userAgent')
   const jezikPregledaca = acceptLanguage => pregledac.send('Emulation.setUserAgentOverride', {userAgent, acceptLanguage})

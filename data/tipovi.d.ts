@@ -79,6 +79,8 @@ export interface DefinicijaTure {
   wiki?: string
   /** stalni prag za ture koje bi inace imale stotine stanica (cela drzava, obala) */
   prag?: 'istaknut'
+  /** grupa na spisku tura kad nije prva drzava oblasti: pokrajina sa svojim glavnim stabom u NOB */
+  grupa?: 'Vojvodina'
 }
 
 /** Automatski izabrane stanice; prikaz ih rasporedjuje za obilazak. */

@@ -14,10 +14,13 @@ Izvori (2026-10-19):
   - Makedonija: pet zona, bez naziva u članku;
   - Vojvodina: Sremska, Baranjsko-bačka i Banatska.
 
-1. **Ture bez osnova u istoriji NOB.** Zapadna i Istočna Srbija, Podrinje, Severna Crna Gora, Zapadna i Istočna Makedonija. Predlog: zameniti ih nazivima oblasti iz NOB kad se nađe izvor.
+Partizanski odredi ([sr.wikipedia](https://sr.wikipedia.org/wiki/Партизански_одреди_Југославије), 260 članaka) nose imena oblasti; za Srbiju, Crnu Goru i Makedoniju npr. Užički, Čačanski, Valjevski, Mačvanski, Zaječarski, Timočki, Knjaževački, Durmitorski, Kolašinski, Lovćenski, Zetski, Kumanovski, Kičevski, Prilepski, Tikveški i Strumički.
+
+Naslovi knjiga na [znaci.org](https://znaci.org/): edicija „Srbija u narodnooslobodilačkoj borbi“ (Beograd, Zapadna, Centralna, Istočna i Južna Srbija), „Jugoistočna Srbija“, „Pomoravlje u NOB“, „Timočka krajina“, „Podrinjski partizanski odred“, „Hercegovina u NOB“, „Istočna Bosna u NOR“, „Sjeveroistočna Bosna“, „Ustanak u Bosanskoj krajini“, „Bihaćka republika“, „Durmitorska partizanska republika“, „Boka Kotorska i Paštrovići u NOB“, „NOB Makedonije“, „Borbena dejstva u zapadnoj Makedoniji“, „Hrvatsko zagorje u revoluciji“, „Sjeverozapadna Hrvatska u NOB“, „Kordun i Banija u NOB“, „Imotska krajina u NOB“, „Sinj i Cetinska krajina“, „Slobodna Podravina“, „Gorenjska“, „Dolenjski odred“.
+
 
 ## Ostalo
 
-2. **Ture bez dužine i trajanja.** Turista ne vidi koliko je kilometara i sati vožnje. Predlog: uz broj stanica prikazati približnu dužinu puta.
-3. **Približne lokacije na pregledu države.** Na početnom zumu vide se kućice sa upitnikom (76 muzeja i spomen-parkova bez tačne tačke), do kojih navigacija ne vodi tačno. Predlog: prikazati ih tek izbliza.
-4. **Prozor spomenika bez opisa i podataka za posetu.** Nema rečenice šta se tu desilo, ni radnog vremena i ulaza za muzeje; sve je iza „Više“. Predlog: kratak opis za istaknute spomenike (posao podataka).
+1. **Ture bez dužine i trajanja.** Turista ne vidi koliko je kilometara i sati vožnje. Predlog: uz broj stanica prikazati približnu dužinu puta.
+2. **Približne lokacije na pregledu države.** Na početnom zumu vide se kućice sa upitnikom (76 muzeja i spomen-parkova bez tačne tačke), do kojih navigacija ne vodi tačno. Predlog: prikazati ih tek izbliza.
+3. **Prozor spomenika bez opisa i podataka za posetu.** Nema rečenice šta se tu desilo, ni radnog vremena i ulaza za muzeje; sve je iza „Više“. Predlog: kratak opis za istaknute spomenike (posao podataka).

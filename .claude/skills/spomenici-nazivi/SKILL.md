@@ -7,7 +7,7 @@ description: Određuje, prevodi i ujednačava domaće nazive spomenika i nazive 
 
 Naziv je naslov prozora spomenika i ono što putnik traži u pretrazi, pa mora biti tačan i ujednačen. Korisnik ne želi pretpostavke u podacima: bolje je kratak opšti naziv nego lep naziv koji niko nije potvrdio.
 
-Jezik po državi: Srbija, Hrvatska, BiH, Crna Gora i Kosovo pišu sh latinicom (ćirilicu preslovi), Slovenija slovenački, a Makedonija makedonskom ćirilicom. `alati/integritet.py` proverava pismo. Za Makedoniju i `mesto` mora biti izvorni makedonski naziv na ćirilici, uključujući deo grada (korisnik, 2026-10-18); ne srpski oblik „Skoplje“ niti latinični prepis. Primeri: „Скопје“, „Крива Паланка“, „Ѓавато“. ID i URL se ne menjaju.
+Jezik po državi: Srbija, Hrvatska, BiH, Crna Gora i Kosovo pišu sh latinicom (ćirilicu preslovi), Slovenija slovenački, a Makedonija makedonskom ćirilicom. `alati/integritet.py` proverava pismo. I `mesto` je domaći oblik naziva mesta u svakoj državi, bez razlike između Slovenije i Makedonije (korisnik, 2026-10-18 i 2026-10-19): slovenački u Sloveniji, makedonski na ćirilici u Makedoniji, uključujući deo grada; ne srpski oblik „Skoplje“ niti latinični prepis. Primeri: „Скопје“, „Крива Паланка“, „Ѓавато“, „Novo mesto“. ID i URL se ne menjaju. Ovo važi za podatke o spomenicima, ne za interfejs.
 
 ## Odakle naziv, redom
 
@@ -42,7 +42,7 @@ Dvosmislen engleski se ne tumači: „Martyrs Monument“ nije ni „palim borci
 
 ## Nazivi tura
 
-U `data/ture.json` koristi oblik „Naselje ili oblast u NOB“ za `naziv.sh`, npr. „Beograd u NOB“ i „Istočna Srbija u NOB“; za makedonski naziv zadrži izvorni oblik „Прилеп во НОБ“. Engleski `naziv.en` ima oblik „Place or region in WW2“, npr. „Belgrade in WW2“ i „Eastern Serbia in WW2“, bez dugog prevoda skraćenice NOB. Izostavi prefikse država sa dvotačkom i ponavljanja poput „Srbija: istočna Srbija“. Pravilo važi za sve ture, nezavisno od toga imaju li viki članak; promena prikaznog naziva ne menja ID, obuhvat ni stanice ture.
+Ture su deo interfejsa, pa im naziv prati jezik interfejsa, a ne državu (korisnik, 2026-10-19). U `data/ture.json` koristi oblik „Naselje ili oblast u NOB“ za `naziv.sh`, sh latinicom i za Sloveniju i Makedoniju, npr. „Beograd u NOB“, „Dolenjska u NOB“, „Prilep u NOB“ i „Pelagonija u NOB“. Engleski `naziv.en` ima oblik „Place or region in WW2“, npr. „Belgrade in WW2“ i „Eastern Serbia in WW2“, bez dugog prevoda skraćenice NOB. Izostavi prefikse država sa dvotačkom i ponavljanja poput „Srbija: istočna Srbija“. Pravilo važi za sve ture, nezavisno od toga imaju li viki članak; promena prikaznog naziva ne menja ID, obuhvat ni stanice ture.
 
 ## Kad se menja mnogo naziva
 

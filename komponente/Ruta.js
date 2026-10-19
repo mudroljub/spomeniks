@@ -3,7 +3,7 @@ import {mapa} from '../klase/mapa.js'
 import {navigacijaIkonica, znakVrste} from '../utils/ikonice.js'
 import {stilZaglavlja} from '../utils/ui.js'
 import {naziviStanja, nazivSpomenika, malaSlika, navigacijaUrl} from '../utils/helpers.js'
-import {t, jezik} from '../utils/jezik.js'
+import {t, jezik, nazivDrzave} from '../utils/jezik.js'
 import {dajRutu, dajNaziv, dajWiki, dajTuruId, postaviRutu, izaberiTuru, ukloniIzRute, pomeri, promeneRute} from '../utils/ruta.js'
 import {sastaviTure} from '../utils/ture.js'
 import {nivoiVaznosti, podrazumevaniPrag, razresiPrag} from '../utils/vaznost.js'
@@ -11,6 +11,8 @@ import {nivoiVaznosti, podrazumevaniPrag, razresiPrag} from '../utils/vaznost.js
 const boja = '#822323'
 const najviseZaGoogle = 10 // ogranicenje jednog Google linka, ne broja stanica u turi
 const najmanjeStanica = 3 // manje od toga nije tura
+// drzave i pokrajine koje su u NOB imale svoj glavni stab, od zapada ka istoku
+const grupeSpiska = ['Slovenia', 'Croatia', 'Bosnia and Herzegovina', 'Montenegro', 'Serbia', 'Vojvodina', 'Kosovo', 'Macedonia']
 const siroko = matchMedia('(min-width: 600px)') // ruta i spomenik mogu da stoje jedno pored drugog
 const kljucPraga = 'spomenici-prag-tura'
 const ucitajPrag = () => {
@@ -292,6 +294,7 @@ style.textContent = `
     text-transform: uppercase;
   }
 
+
   #vaznost {
     border-bottom: 1px solid #eee;
     display: flex;
@@ -498,7 +501,10 @@ export default class Ruta extends HTMLElement {
     )
     this.panel.querySelector('#nazad').addEventListener('click', () => this.prikaziKarticu('ture'))
     this.panel.querySelector('#redosled').addEventListener('click', () => this.poredjaj())
-    this.panel.querySelector('#isprazni').addEventListener('click', () => postaviRutu([]))
+    this.panel.querySelector('#isprazni').addEventListener('click', () => {
+      postaviRutu([])
+      this.prikaziKarticu('ture')
+    })
 
     this.attachShadow({mode: 'open'})
     this.shadowRoot.append(style, this.dugme, this.panel)
@@ -572,23 +578,35 @@ export default class Ruta extends HTMLElement {
   // nudi se samo tura sa bar tri stanice, a izabrana ostaje i kad prag smanji broj stanica
   osveziTure() {
     const ture = sastaviTure(this.definicije, [...this.stavke.values()].map(s => s.spomenik), this.pragVaznosti)
-    const iskorisceneSlike = new Set()
-    const ponudjene = ture.filter(tura => tura.spomenici.length >= najmanjeStanica)
-    // gradska tura ima spisak naselja, a oblast granice
-    const gradovi = new Set(this.definicije.filter(d => d.oblast.mesta).map(d => d.id))
-    const grupa = (naslov, clanovi) => {
-      if (!clanovi.length) return []
-      const spisak = document.createElement('ol')
-      spisak.append(...clanovi.map(tura => this.praviTuru(tura, iskorisceneSlike)))
-      return [Object.assign(document.createElement('h3'), {textContent: naslov}), spisak]
-    }
-    this.panel.querySelector('#spisak-tura').replaceChildren(
-      ...grupa(t('oblasti'), ponudjene.filter(tura => !gradovi.has(tura.id))),
-      ...grupa(t('gradovi'), ponudjene.filter(tura => gradovi.has(tura.id))),
-    )
+    this.prikaziSpisakTura(ture.filter(tura => tura.spomenici.length >= najmanjeStanica))
     const aktivna = ture.find(tura => tura.id === dajTuruId())
     if (aktivna) izaberiTuru({...aktivna, spomenici: this.redosledTure(aktivna.spomenici)})
     this.prikazi()
+  }
+
+  // cela Jugoslavija je prva, bez naslova, a ostale su po drzavi ili pokrajini: prvo oblasti, pa gradovi;
+  // tura preko granice ide pod prvu navedenu drzavu, a gradska tura se prepoznaje po spisku naselja
+  prikaziSpisakTura(ponudjene) {
+    const iskorisceneSlike = new Set()
+    const definicije = new Map(this.definicije.map(d => [d.id, d.oblast]))
+    const grupe = new Map(this.definicije.map(d => [d.id, d.grupa ?? d.oblast.drzave[0]]))
+    const cela = tura => {
+      const oblast = definicije.get(tura.id)
+      return oblast.drzave.length > 1 && !(oblast.mesta || oblast.granice || oblast.putanja || oblast.poligon)
+    }
+    const spisak = clanovi => {
+      const ol = document.createElement('ol')
+      ol.append(...clanovi.map(tura => this.praviTuru(tura, iskorisceneSlike)))
+      return ol
+    }
+    const naslov = tekst => Object.assign(document.createElement('h3'), {textContent: tekst})
+    const jugoslavija = ponudjene.filter(cela)
+    const poDrzavama = grupeSpiska.flatMap(drzava => {
+      const uDrzavi = ponudjene.filter(tura => !cela(tura) && grupe.get(tura.id) === drzava)
+      const gradovi = uDrzavi.filter(tura => definicije.get(tura.id).mesta)
+      return uDrzavi.length ? [naslov(nazivDrzave(drzava)), spisak([...uDrzavi.filter(tura => !gradovi.includes(tura)), ...gradovi])] : []
+    })
+    this.panel.querySelector('#spisak-tura').replaceChildren(...jugoslavija.length ? [spisak(jugoslavija)] : [], ...poDrzavama)
   }
 
   // id-jevi iz starijih podataka koji vise ne postoje se preskacu

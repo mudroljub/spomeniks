@@ -122,8 +122,6 @@ const tekstovi = {
   nestao: {sh: 'Uklonjen — nema šta da se vidi', en: 'Removed — nothing left to see'},
 
   predlozeneRute: {sh: 'Predložene rute', en: 'Suggested routes'},
-  gradovi: {sh: 'Gradovi', en: 'Cities'},
-  oblasti: {sh: 'Oblasti', en: 'Regions'},
   praznaRuta: {
     sh: 'Još nema stanica. Dodaj spomenike dugmetom <b>U rutu</b> u njihovim detaljima ili izaberi neku od predloženih ruta.',
     en: 'No stops yet. Add monuments with <b>Add to route</b> in their details, or pick one of the suggested routes.',

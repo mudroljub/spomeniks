@@ -135,6 +135,7 @@ for t in ture:
         greske['tura bez oblasti'].append(t.get('naziv'))
     if 'spomenici' in t: greske['tura sa rucnim stanicama'].append(t.get('naziv'))
     if t.get('prag', 'istaknut') != 'istaknut': greske['tura: los prag'].append(t.get('naziv'))
+    if t.get('grupa', 'Vojvodina') != 'Vojvodina': greske['tura: losa grupa'].append(t.get('naziv'))
     mesta_ture = oblast.get('mesta')
     if mesta_ture is not None and (not isinstance(mesta_ture, list) or not mesta_ture or not all(isinstance(x, str) and x.strip() for x in mesta_ture)):
         greske['tura: los spisak mesta'].append(t.get('naziv'))
