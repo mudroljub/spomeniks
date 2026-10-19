@@ -4,6 +4,7 @@ import {nestao, ruine, autoriSpomenika, normalizuj} from '../utils/helpers.js'
 import {dajOznaku, promene} from '../utils/oznake.js'
 import {t, nazivDrzave} from '../utils/jezik.js'
 import {nivoiVaznosti, pripadaVrsti} from '../utils/vaznost.js'
+import {izgledMarkera, znak, znakVrste, visinaObeliska, sjajListe} from '../utils/ikonice.js'
 
 const boja = '#822323'
 
@@ -12,18 +13,25 @@ const podrazumevano = {stanje: ['postoji', 'rusevine']}
 
 const pocetniIzbor = grupe => Object.fromEntries(grupe.map(g => [g.kljuc, new Set(podrazumevano[g.kljuc])]))
 
+// cipovi imaju umanjene znakove iz legende, da se vidi kako izabrano izgleda na mapi
+const razmeraZnaka = 0.6
+const obelisk = (stanje, oznake) => znak(izgledMarkera({vrsta: 'spomenik', stanje}), Math.round(visinaObeliska * razmeraZnaka), oznake)
+const stanjaZnaka = {rusevine: 'rusevine', nestao: 'uklonjen'}
+
 // unutar grupe vazi bilo koja izabrana opcija (ili), a izmedju grupa sve (i)
 const praviGrupe = (drzave, autori) => [
   {kljuc: 'tip', naziv: t('grupaVrste'), opcije: Object.fromEntries(nivoiVaznosti.map(o => [o, t(o)])),
-    uslov: pripadaVrsti},
+    uslov: pripadaVrsti, znak: o => znakVrste(o, razmeraZnaka)},
   {kljuc: 'autor', naziv: t('grupaAutor'), opcije: Object.fromEntries(autori.map(a => [a, a])), padajuci: true,
     uslov: (s, o) => autoriSpomenika(s).includes(o)},
   {kljuc: 'stanje', naziv: t('grupaStanje'), opcije: {postoji: t('postoji'), rusevine: t('ruine'), nestao: t('uklonjen')},
-    uslov: (s, o) => o === 'nestao' ? nestao(s.stanje) : o === 'rusevine' ? ruine(s.stanje) : !nestao(s.stanje) && !ruine(s.stanje)},
+    uslov: (s, o) => o === 'nestao' ? nestao(s.stanje) : o === 'rusevine' ? ruine(s.stanje) : !nestao(s.stanje) && !ruine(s.stanje),
+    znak: o => obelisk(stanjaZnaka[o])},
   {kljuc: 'drzava', naziv: t('grupaDrzava'), opcije: Object.fromEntries(drzave.map(d => [d, nazivDrzave(d)])),
     uslov: (s, o) => s.drzava === o},
-  {kljuc: 'poseta', naziv: t('grupaPoseta'), opcije: {neposecen: t('neposecen'), lista: t('lista'), posetio: t('posetio')},
-    uslov: (s, o) => o === 'neposecen' ? dajOznaku(s.id) !== 'posetio' : dajOznaku(s.id) === o},
+  {kljuc: 'poseta', naziv: t('grupaPoseta'), opcije: {lista: t('lista'), posetio: t('posetio')},
+    uslov: (s, o) => dajOznaku(s.id) === o,
+    znak: o => obelisk(undefined, o === 'posetio' ? {posecen: true} : {stil: sjajListe})},
 ]
 
 const grupeZa = stavke => {
@@ -127,15 +135,22 @@ style.textContent = `
   }
 
   button.cip {
+    align-items: center;
     background: white;
     border: 1px solid #c9bfb0;
     border-radius: 18px;
     color: #333;
     cursor: pointer;
+    display: inline-flex;
     font: inherit;
     font-size: 15px;
+    gap: 6px;
     min-height: 36px;
     padding: 6px 12px;
+  }
+
+  .znak {
+    display: flex;
   }
 
   button.cip[aria-pressed="true"] {
@@ -451,7 +466,7 @@ export default class Filteri extends HTMLElement {
 
     const cipovi = g => `<div class="cipovi">${opcije(g).map(({opcija, naziv, broj, izabran}) =>
       `<button class="cip" data-grupa="${g.kljuc}" data-opcija="${opcija}" aria-pressed="${izabran}"
-        ${!broj && !izabran ? 'disabled' : ''}>${naziv}<span class="broj">${broj}</span></button>`).join('')}</div>`
+        ${!broj && !izabran ? 'disabled' : ''}>${g.znak ? `<span class="znak">${g.znak(opcija)}</span>` : ''}${naziv}<span class="broj">${broj}</span></button>`).join('')}</div>`
 
     const stavka = (g, i, opcija, naziv, izabran, broj = '') =>
       `<li role="option" id="opcija-${g.kljuc}-${i}" data-opcija="${opcija}" data-naziv="${naziv}" aria-selected="${izabran}">${naziv}<span class="broj">${broj}</span></li>`

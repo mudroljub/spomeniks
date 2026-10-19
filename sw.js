@@ -45,6 +45,7 @@ const fajlovi = [
   'utils/raspored.js',
   'slike/obelisk.png',
   'slike/markeri/priblizno.svg',
+  'slike/markeri/posecen.svg',
   'slike/obelisk-rusevina.png',
   'slike/obelisk-uklonjen.png',
   ...['spomen-park', 'spomen-obelezje', 'spomen-groblje', 'muzej', 'spomen-ploca', 'bista', 'statua'].flatMap(tip =>

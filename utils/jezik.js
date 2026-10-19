@@ -87,7 +87,6 @@ const tekstovi = {
   ruine: {sh: 'Ruševine', en: 'Ruins'},
   priblizno: {sh: 'Bez tačne lokacije', en: 'No exact location'},
   grupaPoseta: {sh: 'Moje posete', en: 'My visits'},
-  neposecen: {sh: 'Još neposećeno', en: 'Not visited yet'},
   grupaDrzava: {sh: 'Država', en: 'Country'},
   grupaAutor: {sh: 'Autor', en: 'Artist'},
   autori: {sh: 'Autori', en: 'Artists'},

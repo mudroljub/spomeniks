@@ -1,7 +1,7 @@
 // @ts-check
 import {mapa} from './mapa.js'
 import {dajOznaku} from '../utils/oznake.js'
-import {izgledMarkera, senka, pribliznaIkonica} from '../utils/ikonice.js'
+import {izgledMarkera, senka, ikonicaSaOznakama} from '../utils/ikonice.js'
 import {nazivSpomenika, escapeHtml} from '../utils/helpers.js'
 import {najmanjiZum} from '../utils/vaznost.js'
 
@@ -12,7 +12,7 @@ const razmeraVrste = {'spomen-park': 1.25, 'spomen-groblje': 1.25, bista: 0.8, '
 // ruine i uklonjeni imaju sliku iste velicine, da se razlikuju po obliku, a ne samo po boji:
 // prelomljen obelisk i isprekidan obris onoga cega vise nema
 const ikonice = {}
-const dajIkonicu = ({slika, sirina, visina}, razmera, klasa, [dx, dy] = [0, 0], priblizno = false) => {
+const dajIkonicu = ({slika, sirina, visina}, razmera, klasa, [dx, dy] = [0, 0], {priblizno = false, posecen = false} = {}) => {
   const px = vrednost => Math.round(vrednost * razmera)
   const opcije = {
     iconUrl: slika,
@@ -21,8 +21,8 @@ const dajIkonicu = ({slika, sirina, visina}, razmera, klasa, [dx, dy] = [0, 0], 
     tooltipAnchor: [px(dx), px(dy - visina)],
     className: `${klasa}${priblizno ? ' priblizna-lokacija' : ''}`,
   }
-  return ikonice[[slika, razmera, klasa, dx, dy, priblizno].join()] ??= priblizno
-    ? L.divIcon({...opcije, html: pribliznaIkonica({slika, sirina, visina}, razmera)})
+  return ikonice[[slika, razmera, klasa, dx, dy, priblizno, posecen].join()] ??= priblizno || posecen
+    ? L.divIcon({...opcije, html: ikonicaSaOznakama({slika, sirina, visina}, razmera, {priblizno, posecen})})
     : L.icon(opcije)
 }
 
@@ -68,7 +68,7 @@ export default class Marker {
     this.izgled = izgledMarkera(spomen)
     this.element = L
       .marker([spomen.koordinate.lat, spomen.koordinate.lng], {
-        icon: dajIkonicu(this.izgled, 1, '', pomak, spomen.priblizno),
+        icon: dajIkonicu(this.izgled, 1, '', pomak, {priblizno: spomen.priblizno}),
         zIndexOffset: spomen.priblizno ? -10000 : (12 - this.najmanjiZum) * 1000,
       })
       .on('click', () => this.otvoriProzor())
@@ -82,11 +82,10 @@ export default class Marker {
     const oznaka = dajOznaku(this.spomen.id)
     const klasa = [
       izabran === this && 'izabran',
-      oznaka === 'posetio' && 'posecen',
       oznaka === 'lista' && 'na-listi',
     ].filter(Boolean).join(' ')
     const pomak = /** @type {[number, number]} */ ([(this.pomak?.[0] || 0) + pomakSudara[0] / razmera, (this.pomak?.[1] || 0) + pomakSudara[1] / razmera])
-    const ikonica = dajIkonicu(this.izgled, razmera, klasa, pomak, this.spomen.priblizno)
+    const ikonica = dajIkonicu(this.izgled, razmera, klasa, pomak, {priblizno: this.spomen.priblizno, posecen: oznaka === 'posetio'})
     // nova ikonica pravi novu sliku u DOM-u, pa samo kad se promeni
     if (ikonica !== this.element.options.icon) this.element.setIcon(ikonica)
   }
