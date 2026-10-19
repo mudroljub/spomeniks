@@ -22,7 +22,7 @@ class Lokator extends HTMLElement {
           position: static;
         }
       </style>
-      <img src="slike/ui/lokator.svg" width="32" class="ikonica" id="lokator" alt="lociraj me" title="Locate me">
+      <button class="dugme-ikonica" title="Locate me" aria-label="lociraj me"><img src="slike/ui/lokator.svg" width="32" class="ikonica" id="lokator" alt=""></button>
     `
   }
 

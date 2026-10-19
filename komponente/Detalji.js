@@ -2,7 +2,7 @@
 import {mapa} from '../klase/mapa.js'
 import {navigacijaIkonica} from '../utils/ikonice.js'
 import {stilZaglavlja} from '../utils/ui.js'
-import {mestoUrl, navigacijaUrl, escapeHtml, naziviStanja, nestao, autoriSpomenika} from '../utils/helpers.js'
+import {mestoUrl, navigacijaUrl, escapeHtml, naziviStanja, nestao, autoriSpomenika, nazivSpomenika} from '../utils/helpers.js'
 import {dajOznaku, postaviOznaku, promene} from '../utils/oznake.js'
 import {uRuti, dodajURutu, ukloniIzRute, promeneRute} from '../utils/ruta.js'
 import {jezik, t, nazivDrzave} from '../utils/jezik.js'
@@ -384,8 +384,8 @@ export default class Detalji extends HTMLElement {
 
     const vise = clanakSpomenika(spomen, jezik)
 
-    // naslov je naziv spomenika, a mesto stoji ispod; nazivEn namerno sadrzi HTML linkove, pa se ne escape-uje
-    const naziv = jezik === 'en' && spomen.nazivEn ? spomen.nazivEn : spomen.naziv ? escapeHtml(spomen.naziv) : spomen.nazivEn || ''
+    // naslov je naziv spomenika, a mesto stoji ispod
+    const naziv = escapeHtml(nazivSpomenika(spomen))
     this.panel.innerHTML = `
       ${izRute ? `<button id="nazad">‹ ${t('trenutnaRuta')}</button>` : ''}
       <header>
@@ -444,6 +444,7 @@ export default class Detalji extends HTMLElement {
   // link autora je u posebnom spisku, jer isti autor ima vise spomenika
   postaviAutore(autori) {
     this.autori = autori
+    this.osveziPodatke()
   }
 
   praviAutore(spomen) {
@@ -461,6 +462,20 @@ export default class Detalji extends HTMLElement {
   // licnosti, jedinice i dogadjaji su u posebnom spisku, jer jedna posveta ima vise spomenika
   postaviPosvete(posvete) {
     this.posvete = posvete
+    this.osveziPodatke()
+  }
+
+  // Zakasneli podaci ne zatvaraju povratak u rutu i ne pomeraju mapu ili skrol panela.
+  osveziPodatke() {
+    if (!this.marker) return
+    this.panel.querySelectorAll('.podaci').forEach(red => red.remove())
+    const redovi = [this.praviAutore(this.marker.spomen), this.praviPosvetu(this.marker.spomen)].filter(Boolean)
+    this.panel.querySelector('.mesto').after(...redovi.map(html => {
+      const red = document.createElement('p')
+      red.className = 'podaci'
+      red.innerHTML = html
+      return red
+    }))
   }
 
   /** @param {Pick<import('../data/tipovi').Spomenik, 'posveta'>} spomen */

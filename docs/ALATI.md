@@ -17,7 +17,7 @@ Pokreću se iz korena repozitorijuma: Python sa `python -I alati/<alat>.py`, a N
 | `naselja_osm.json` | Naselja iz OSM-a, za polje `mesto`. |
 | `snimi.mjs <izlaz.png> [js] [ms]` | Snimak aplikacije na ekranu telefona. |
 | `merenje.mjs [url]` | Brzina aplikacije na sporom telefonu i sporoj vezi. |
-| `pregledac.mjs` | Zajednički kod za upravljanje Chrome-om, za `snimi.mjs`, `merenje.mjs` i e2e testove. |
+| `pregledac.mjs` | Zajednički kod za upravljanje Chrome-om, za `snimi.mjs`, `merenje.mjs` i e2e testove. Chrome traži na uobičajenim mestima, a drugu putanju prima iz promenljive `CHROME`. |
 
 ## Testovi (fascikla `testovi/`)
 
@@ -25,8 +25,14 @@ Pokreću se iz korena repozitorijuma: Python sa `python -I alati/<alat>.py`, a N
 
 | Grupa | Sadržaj |
 |---|---|
-| `unit/` | Funkcije iz `utils/` bez pregledača: pretraga i HTML, jezik i padeži, ruta i oznake na uređaju, raspored oznaka, ikonice, prijava, članci, ture i važnost. `okruzenje.mjs` daje `localStorage` i `navigator`. |
+| `unit/` | Funkcije iz `utils/` bez pregledača: pretraga i HTML, jezik i padeži, ruta i oznake na uređaju, raspored oznaka, ikonice, prijava, članci, ture i važnost; odluke `sw.js` o kešu, sa lažnim kešom i mrežom. `okruzenje.mjs` daje `localStorage` i `navigator`. |
 | `integracija/` | Stvarni podaci sa kodom (linkovi članaka, ture iz `data/ture.json`, slike markera, nazivi država i stanja); `test_zapis.py` (zaključavanje između procesa, atomaran upis) i `test_integritet.py` (izlazni status `integritet.py` na izolovanim podacima). |
 | `e2e/` | Glavni tokovi aplikacije u Chrome-u bez prozora, na ekranu telefona; sam pokreće server. |
 
 Pri paralelnom radu obuhvati čitanje i upis blokom `with zakljucani_podaci():` iz `zapis.py`; pravila i primer su u [AGENTS.md](../AGENTS.md). Samo zaključavanje završnog upisa ne sprečava prepisivanje novijih podataka starom kopijom.
+
+## Objavljivanje aplikacije i offline keš
+
+Pre objave izmena aplikacionog koda ili JSON podataka promeni `VERZIJA` u [sw.js](../sw.js) u novu jedinstvenu vrednost. Instalacija unapred preuzima komplet resursa u zaseban keš tog izdanja; fajlovi instaliranog izdanja se ne prepisuju pojedinačnim zahtevima. Novi worker čeka zatvaranje svih kartica prethodnog izdanja, pa stare kartice ostaju uz svoje izdanje. Ne dodavati `skipWaiting()` ili `clients.claim()` jer bi preuzimanje starih kartica narušilo ovo pravilo. Neuspešna instalacija ostavlja prethodno izdanje dostupnim.
+
+Fotografije imaju poseban keš: sačuvana slika se prikazuje odmah, a mreža u pozadini proverava noviju kopiju uz HTTP revalidaciju. Posle zamene fotografije pod istim URL-om ažurirana slika se koristi pri sledećem učitavanju, dok neuspešna mrežna provera zadržava postojeću sliku. Ovo važi i za male slike.

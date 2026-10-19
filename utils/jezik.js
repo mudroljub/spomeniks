@@ -12,16 +12,22 @@ const sacuvan = () => {
 const domaci = ['sh', 'sr', 'hr', 'bs', 'cnr', 'sl', 'mk']
 const izPregledaca = () => navigator.languages.some(j => domaci.includes(j.split('-')[0].toLowerCase())) ? 'sh' : 'en'
 
-const izbor = sacuvan()
+// bez skladista (privatni rezim i slicno) izbor ostaje u adresi stranice
+const izAdrese = () => new URLSearchParams(location.search).get('jezik')
+
+const izbor = izAdrese() ?? sacuvan()
 export const jezik = izbor === 'sh' || izbor === 'en' ? izbor : izPregledaca()
 
 export const promeniJezik = novi => {
+  const adresa = new URL(location.href)
   try {
     localStorage.setItem(kljuc, novi)
+    adresa.searchParams.delete('jezik')
   } catch (e) {
-    return
+    adresa.searchParams.set('jezik', novi)
   }
-  location.reload()
+  if (adresa.href === location.href) location.reload()
+  else location.assign(adresa.href)
 }
 
 const jednina = n => n % 10 === 1 && n % 100 !== 11
@@ -141,9 +147,14 @@ const tekstovi = {
   dole: {sh: 'Pomeri dole', en: 'Move down'},
   ukloni: {sh: 'Ukloni', en: 'Remove'},
 
+  ranijeSlike: {sh: 'Ranije fotografije', en: 'Previous photos'},
+  sledeceSlike: {sh: 'Sledeće fotografije', en: 'Next photos'},
+
   lokacijaNepodrzana: {sh: 'Lokacija nije podržana', en: 'Location is not supported'},
   lokacijaNedostupna: {sh: 'Lokacija nije dostupna', en: 'Location is not available'},
   vanMape: {sh: 'Tvoja lokacija je van mape', en: 'Your location is outside the map'},
+
+  podaciNedostupni: {sh: 'Spomenici nisu učitani. Proveri vezu i otvori stranicu ponovo.', en: 'Monuments could not be loaded. Check your connection and reload the page.'},
 }
 
 export const t = (kljuc, ...vrednosti) => {

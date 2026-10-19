@@ -522,7 +522,7 @@ export default class Ruta extends HTMLElement {
     mapa.on('pozicija', ({latlng}) => {
       const prvaPozicija = !this.pozicija
       this.pozicija = latlng
-      if (prvaPozicija && dajNaziv()) postaviRutu(this.usmeri(dajRutu()))
+      if (prvaPozicija && dajTuruId()) postaviRutu(this.usmeri(dajRutu()))
     })
   }
 

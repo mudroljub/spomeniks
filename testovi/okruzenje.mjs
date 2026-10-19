@@ -13,5 +13,4 @@ export const postaviNavigator = ({jezici = ['sr-RS'], userAgent = 'Mozilla/5.0 (
 
 postaviNavigator()
 globalThis.localStorage = new Skladiste()
-globalThis.Element ??= class {}
-globalThis.location ??= {reload() {}}
+globalThis.location ??= {href: 'https://spomenici.test/', search: '', reload() {}, assign() {}}

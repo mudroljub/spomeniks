@@ -1,10 +1,14 @@
 // @ts-check
 // svaki spomenik ima najvise jednu oznaku, 'lista' ili 'posetio'; cuva se samo na ovom uredjaju
 const kljuc = 'spomenici-poseta'
+const vrsteOznaka = ['lista', 'posetio']
 
+// zapis koji nije objekat i nepoznate oznake se odbacuju, da ne pokvare prikaz
 const ucitaj = () => {
   try {
-    return new Map(Object.entries(JSON.parse(localStorage.getItem(kljuc)) || {}))
+    const sacuvane = JSON.parse(localStorage.getItem(kljuc))
+    if (!sacuvane || typeof sacuvane !== 'object' || Array.isArray(sacuvane)) return new Map()
+    return new Map(Object.entries(sacuvane).filter(([, oznaka]) => vrsteOznaka.includes(oznaka)))
   } catch (e) {
     return new Map()
   }

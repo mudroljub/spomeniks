@@ -141,6 +141,24 @@ h1 {
   display: block;
 }
 
+/* dugme samo nosi sliku, koja zadrzava svoj izgled i polozaj */
+.dugme-ikonica {
+  background: none;
+  border: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.dugme-ikonica:focus-visible {
+  outline: none;
+}
+
+.dugme-ikonica:focus-visible > .ikonica {
+  outline: 2px solid #1a73e8;
+  outline-offset: 2px;
+}
+
 .ikonica {
   background: white;
   border-radius: 50%;

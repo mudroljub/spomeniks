@@ -24,7 +24,9 @@ export default class Slika extends HTMLElement {
 
   connectedCallback() {
     this.slika.src = this.url // da ne ucitava pre nego sto se doda u dom
-    this.append(this.slika, this.naziv)
+    const dugme = document.createElement('button')
+    dugme.append(this.slika, this.naziv)
+    this.replaceChildren(dugme)
   }
 
   prikaziNatpis(zum) {

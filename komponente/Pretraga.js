@@ -108,6 +108,9 @@ style.textContent = `
 
 const polja = ['mesto', 'naziv', 'nazivEn', 'autor', 'godina', 'drzava']
 
+// kucanje pretrazuje tek kad zastane, a ne posle svakog slova
+const odlaganjePretrage = 250
+
 const praviTekst = spomenik => normalizuj([
   ...polja.map(polje => spomenik[polje] || ''),
   nazivDrzave(spomenik.drzava),
@@ -143,8 +146,14 @@ export default class Pretraga extends HTMLElement {
     this.filteri.addEventListener('potvrda', () => this.potvrdi())
 
     this.dugme.addEventListener('click', () => this.filteri.otvori())
-    this.polje.addEventListener('input', () => this.pretrazi())
-    this.polje.addEventListener('keydown', e => e.key === 'Enter' && this.potvrdi())
+    this.polje.addEventListener('input', () => {
+      clearTimeout(this.odlozena)
+      this.odlozena = setTimeout(() => this.pretrazi(), odlaganjePretrage)
+    })
+    this.polje.addEventListener('keydown', e => {
+      if (e.key !== 'Enter') return
+      this.potvrdi()
+    })
     this.pocetnih = stavke.filter(({spomenik}) => this.filteri.odgovara(spomenik)).length
     this.pretrazi()
   }
@@ -169,13 +178,12 @@ export default class Pretraga extends HTMLElement {
   }
 
   pretrazi() {
+    clearTimeout(this.odlozena)
+    this.odlozena = undefined
     const fraza = normalizuj(this.polje.value)
     const pronadjeno = this.stavke.filter(stavka => this.tekstovi.get(stavka).includes(fraza))
-    this.filteri.postaviOsnovu(pronadjeno)
-    // trazeni spomenik se nalazi i kad je uklonjen: podrazumevani filter stanja samo rasterecuje praznu mapu,
-    // a stanje koje je korisnik sam izabrao vazi i u pretrazi
-    const osim = fraza && this.filteri.naPocetku('stanje') ? 'stanje' : undefined
-    this.filtrirano = pronadjeno.filter(({spomenik}) => this.filteri.odgovara(spomenik, osim))
+    this.filteri.postaviOsnovu(pronadjeno, Boolean(fraza))
+    this.filtrirano = pronadjeno.filter(({spomenik}) => this.filteri.uRezultatu(spomenik))
     const suzeno = this.filtrirano.length < this.pocetnih
     this.osveziPrikaz(suzeno)
     this.callback(this.filtrirano, suzeno)
@@ -184,6 +192,8 @@ export default class Pretraga extends HTMLElement {
   // kucanje i izbor filtera ne pomeraju mapu, a potvrda (Enter, Trazi na tastaturi telefona, Prikazi u filterima) pokazuje rezultate,
   // van dugmadi na mapi: desno od zuma, ispod pretrage i iznad donjeg reda
   potvrdi() {
+    // Svaki nacin potvrde koristi poslednji unos, cak i pre isteka odlaganja.
+    if (this.odlozena !== undefined) this.pretrazi()
     this.polje.blur()
     if (!this.filtrirano.length) return
     const gore = this.getBoundingClientRect().bottom

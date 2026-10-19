@@ -1,6 +1,7 @@
 // @ts-check
 import {dajOznaku, promene} from '../utils/oznake.js'
 import Raspored from '../utils/raspored.js'
+import {vaznostSpomenika} from '../utils/vaznost.js'
 
 const konfigMape = {
   zoom: 8,
@@ -42,8 +43,14 @@ let izabran = null
 
 const ukloni = marker => marker.slojevi.forEach(s => sloj.removeLayer(s))
 
-const vidljiv = marker => suzeno || mapa.getZoom() >= marker.najmanjiZum || marker === izabran
-  || Boolean(dajOznaku(marker.spomen.id))
+const uvekVidljiv = marker => marker === izabran || Boolean(dajOznaku(marker.spomen.id))
+
+const vidljiv = marker => suzeno || mapa.getZoom() >= marker.najmanjiZum || uvekVidljiv(marker)
+
+// pretraga jednog slova pogadja hiljade spomenika, pa na ekranu ostaju najvazniji, a ostali se pojave priblizavanjem
+const najviseSuzenih = 400
+
+const najvazniji = marker => uvekVidljiv(marker) ? -1 : vaznostSpomenika(marker.spomen)
 
 // crtaju se samo obelisci na ekranu, sa pola ekrana rezerve za pomeranje, jer hiljade slika gusi slab telefon
 // izdaleka su obelisci manji, da se manje preklapaju; ikonica pokazuje i oznake
@@ -51,12 +58,16 @@ const osvezi = () => {
   const granice = mapa.getBounds().pad(0.5)
   const zum = mapa.getZoom()
   const naEkranu = []
-  const raspored = new Raspored()
   markeri.forEach(marker => {
     if (!vidljiv(marker) || !granice.contains(marker.dajPoziciju())) return ukloni(marker)
     naEkranu.push(marker)
-    if (!marker.spomen.priblizno) raspored.dodaj(marker.okvirNaEkranu(zum))
   })
+  if (suzeno && naEkranu.length > najviseSuzenih) {
+    naEkranu.sort((a, b) => najvazniji(a) - najvazniji(b))
+    naEkranu.splice(najviseSuzenih).forEach(ukloni)
+  }
+  const raspored = new Raspored()
+  naEkranu.forEach(marker => marker.spomen.priblizno || raspored.dodaj(marker.okvirNaEkranu(zum)))
   naEkranu.forEach(marker => {
     const pomak = marker.spomen.priblizno ? raspored.pomeri(marker.okvirNaEkranu(zum)) : [0, 0]
     marker.osvezi(zum, izabran, pomak)

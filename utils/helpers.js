@@ -1,13 +1,6 @@
 // @ts-check
 import {jezik, t} from './jezik.js'
 
-Element.prototype.on = Element.prototype.addEventListener
-
-export const $ = s => document.querySelectorAll(s).length > 1
-  ? document.querySelectorAll(s)
-  : document.querySelector(s)
-
-
 export const naziviStanja = {
   rusevine: t('rusevine'),
   srusen: t('srusen'),
