@@ -11,6 +11,7 @@ Jezik po državi: Srbija, Hrvatska, BiH, Crna Gora i Kosovo pišu sh latinicom (
 
 ## Odakle naziv, redom
 
+0. **Odluka korisnika** (korisnik, 2026-10-19): naziv koji korisnik izričito odredi ima prednost nad svim izvorima i ne menja se kasnije prema autoritetu. Primer: Topola, „Glave narodnih heroja“ umesto „Kameni buket“ sa Vikipedije.
 1. **Autoritet**: naziv potvrđenog Google mesta, članka na Vikipediji ili natpisa na spomeniku. Upiši ga i kad zamenjuje raniji prevod. Konkretniji naziv ima prednost nad opštim („Spomen-kompleks Ljutotuk“, a ne „Spomenik NOB“). Kad se dva autoriteta ne slažu, pitaj korisnika i daj mu link.
 2. **Doslovan prevod** jasnog engleskog opisa iz izvora. Za spomenicinob.info prvo pogledaj gotove prevode u `references/formule.json` (43 opisa koji se ponavljaju); ostale prevedi po `references/prevod.md`.
 3. **Samo vrsta**, kad nema ni autoriteta ni jasnog opisa: „Spomenik“, „Spomen-ploča“, „Bista“; makedonski „Споменик“; slovenački „Spomenik“, „Spominska plošča“, „Pokopališče“.

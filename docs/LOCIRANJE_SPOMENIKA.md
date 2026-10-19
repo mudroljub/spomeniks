@@ -4,6 +4,19 @@ Otvoreni slučajevi, razrešeni identiteti koje ne treba ponovo unositi i veze k
 
 Raniji ciljani prolaz je završen, žetva CG zatvorena, a šira hrvatska provera obustavljena po odluci korisnika. Ove beleške same ne otvaraju novi zadatak; trenutni odobreni posao je u [planu žetve](PLAN_ZETVE.md).
 
+## Saopštenja X 1974: primena 19.10.2026
+
+Potvrđeni podaci su upisani; samostalna analiza uklonjena po nalogu korisnika. [Dokazi upisa, spajanja i odbijenih uparivanja](../data/provere/saopstenja-x-1974-primena-2026-10-19.json).
+
+- **Borba, Voždovac:** preneta na mapu u nastavku 19.10. sa sačuvanim ID-jem, autorom Sretenom Stojanovićem, 1949. i fotografijom. Tačna OSM tačka `11214223544` ima `tourism=artwork`; prethodni upit samo za `historic` zato ju je propustio. Obnova ima zaseban pin desno od ulaza, a zajednički pin Hronologije nije korišćen. Obnova nije dodata bez zasebne potvrde posvete.
+- **Vidin Dudić, Valjevo:** prenet na mapu u nastavku 19.10. prema Google mestu sa fotografijom iste pune figure i natpisom. Nalazi se na severu parka Vide Jocić; OSM pin za bistu oko 55 m jugozapadno nije upotrebljen. Sačuvana Commons fotografija, dopunjen potpis fotografa Ванилица. Logov Dudić ostaje zasebno na Gradskom trgu, 1971.
+- **Glavnjača:** radni unos objedinjen sa postojećim markerom `beograd-spomenik`, koji je imao opšti naziv i pogrešno pripisanog Draga Tršara. Keširani izvor opisuje upravo isti mozaik i prazno postolje; OSM i članak potvrđuju identitet. Upisani naziv Spomen-obeležje žrtvama Glavnjače, Milorad Tepavac, 1974, fotografija i konkretna posveta; sačuvani tačka i izvor. Knjiška veza preusmerena. Istorijska krađa bronzanog cveta ne znači da je uklonjeno celo obeležje.
+- **Železnik:** objavljeni Miša Popović i 1952. ostaju dopunjeni. OSM pin uz današnji Dom kulture je novi kandidat, ali nema identifikacione fotografije koja ga pouzdano spaja sa knjiškom bronzanom figurom ispred Zadružnog doma. Precizniji Google upiti dali su druge domove i spomenike; rezultati u Resniku i spomenici drugih ratova nisu prihvaćeni. Ne proširivati Mišu automatski u Miodraga ili Miću.
+- **Topola:** Gržetićeve figure precizirane prema autorskoj arhivi, oko 26 m od četiri glave Milije Glišića; dve različite skulpture. Sačuvane dopune iz paralelnog rada: fotografije, natpis i povezane posvete. Razlika 1966. u tom radu naspram 1967. u autorskom profilu i indeksiranom katalogu ostaje zabeležena; preuzeti kataloški PDF sadrži samo uvod, pa indeksirani biografski tekst nije potvrđen u skenu. Blogovskih 1976. isključuje fotografija iz 1972.
+- **Bučje/Vučje:** pogrešna veza Bakić/Bučje iz članka nije preneta potvrđenom Nikolićevom spomeniku u Vučju. Opšti zapis palih boraca na Novom groblju ostaje bez spajanja sa Alejom dok se ne potvrdi parcela; Tito u Užicu ostaje kod muzeja, bez vraćanja na istorijski trg. Kuriru dopunjena posveta savetovanju 26.9.1941; knjiška 1942. nije prepisana.
+
+Razrešeno: stari jajinački park spojen sa postojećim parkom, uz novi zaseban reljef Bodnarova i Kabilja iz 1951; Zlatiborov približan obelisk spojen sa preciznim spomenikom i sačuvanom prioritetnom 1962; dva identična obalska radnika objedinjena pod `belgrade-port`, 1952, Savsko pristanište. Knjiške veze preusmerene; raniji izvori i vrednosti sačuvani u dokazima spajanja.
+
 ## Spomen-groblja: strategija dobavljanja podataka
 
 Prednost imaju regionalne evidencije sa položajem, katastarski prilozi, fotografije samog objekta i opisi preseljenja. Literatura i njena stvarna obrađenost su u [izvorima](IZVORI.md#literatura-za-spomen-groblja); ne ponavljati prepisivanje već obrađenih knjiga.
