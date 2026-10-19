@@ -378,6 +378,10 @@ style.textContent = `
     justify-content: center;
     width: 24px;
   }
+
+  .nivo {
+    color: #888;
+  }
 `
 
 const tacka = ({lat, lng}) => `${lat},${lng}`
@@ -428,8 +432,10 @@ const najkraciRedosled = (polaziste, tacke) => {
 // naziv ture ima verziju za svaki jezik; ruta sacuvana pre prevoda ima samo engleski tekst
 const prevedi = naziv => naziv?.[jezik] ?? naziv
 
-// svaka sledeca vrsta se dodaje prethodnim, sto pokazuje redosled spiska
-const nazivPraga = vrsta => t(vrsta === 'istaknut' ? 'istaknutiSpomenici' : vrsta)
+// svaka sledeca vrsta se dodaje prethodnim, pa rimski broj pokazuje nivo prikaza
+const rimski = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX']
+const imePraga = vrsta => t(vrsta === 'istaknut' ? 'istaknutiSpomenici' : vrsta)
+const nazivPraga = vrsta => `${imePraga(vrsta)} <span class="nivo">${rimski[nivoiVaznosti.indexOf(vrsta)]}</span>`
 
 const otvoriStanicu = marker => mapa.fire('izbor', {marker, izRute: true})
 
@@ -710,7 +716,9 @@ export default class Ruta extends HTMLElement {
     if (slika) red.querySelector('.tura').prepend(Object.assign(new Image(), {src: malaSlika(slika), alt: '', loading: 'lazy'}))
     red.querySelector('.ime').textContent = prevedi(naziv)
     const opisMesta = mesta.slice(0, 4).join(', ') + (mesta.length > 4 ? '…' : '')
-    red.querySelector('.opis').textContent = t('stanice', clanovi.length) + (opisMesta ? `: ${opisMesta}` : '')
+    // tura sa stalnim pragom umesto stanica navodi prag, jer ne prati izbor praga iznad spiska
+    const prag = this.definicije.find(d => d.id === id)?.prag
+    red.querySelector('.opis').textContent = prag ? imePraga(prag) : t('stanice', clanovi.length) + (opisMesta ? `: ${opisMesta}` : '')
     red.querySelector('button').addEventListener('click', () => {
       izaberiTuru({id, naziv, spomenici: this.redosledTure(spomenici), wiki})
       this.prikaziKarticu('planer')
