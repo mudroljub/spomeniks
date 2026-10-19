@@ -1,6 +1,6 @@
 // @ts-check
 import {mapa} from '../klase/mapa.js'
-import {navigacijaIkonica} from '../utils/ikonice.js'
+import {navigacijaIkonica, znakVrste} from '../utils/ikonice.js'
 import {stilZaglavlja} from '../utils/ui.js'
 import {naziviStanja, nazivSpomenika, malaSlika, navigacijaUrl} from '../utils/helpers.js'
 import {t, jezik} from '../utils/jezik.js'
@@ -10,6 +10,7 @@ import {nivoiVaznosti, podrazumevaniPrag, razresiPrag} from '../utils/vaznost.js
 
 const boja = '#822323'
 const najviseZaGoogle = 10 // ogranicenje jednog Google linka, ne broja stanica u turi
+const najmanjeStanica = 3 // manje od toga nije tura
 const siroko = matchMedia('(min-width: 600px)') // ruta i spomenik mogu da stoje jedno pored drugog
 const kljucPraga = 'spomenici-prag-tura'
 const ucitajPrag = () => {
@@ -282,6 +283,15 @@ style.textContent = `
     padding-bottom: var(--dno);
   }
 
+  #spisak-tura h3 {
+    color: #666;
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: 0.04em;
+    margin: 14px 16px 6px;
+    text-transform: uppercase;
+  }
+
   #vaznost {
     border-bottom: 1px solid #eee;
     display: flex;
@@ -295,23 +305,76 @@ style.textContent = `
     flex-shrink: 0;
   }
 
+  /* spisak sa znakovima sa mape, jer obican padajuci spisak ne prikazuje slike */
+  .izbor-praga {
+    flex: 1;
+    min-width: 0;
+    position: relative;
+  }
+
   #prag-vaznosti {
+    align-items: center;
     background: #fffdf8;
     border: 1px solid #822323;
     border-radius: 6px;
     color: #333;
+    cursor: pointer;
+    display: flex;
     font: inherit;
+    gap: 8px;
     min-height: 44px;
-    padding: 8px;
-    flex: 1;
-    min-width: 0;
+    padding: 4px 8px;
+    width: 100%;
   }
 
-  .tura:disabled {
-    color: #777;
-    cursor: default;
+  #prag-vaznosti .strelica {
+    margin-left: auto;
   }
 
+  #prag-vaznosti[aria-expanded="true"] .strelica {
+    transform: rotate(180deg);
+  }
+
+  #opcije-praga {
+    background: #fffdf8;
+    border: 1px solid #c9bfb0;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    left: 0;
+    list-style: none;
+    margin: 4px 0 0;
+    max-height: 60vh;
+    overflow-y: auto;
+    padding: 4px;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+  }
+
+  #opcije-praga [role="option"] {
+    align-items: center;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    gap: 8px;
+    min-height: 44px;
+    padding: 0 8px;
+  }
+
+  #opcije-praga [aria-selected="true"] {
+    background: #ece2d4;
+  }
+
+  #opcije-praga [role="option"]:focus-visible {
+    outline: 2px solid ${boja};
+    outline-offset: -2px;
+  }
+
+  .znak {
+    display: flex;
+    justify-content: center;
+    width: 24px;
+  }
 `
 
 const tacka = ({lat, lng}) => `${lat},${lng}`
@@ -362,6 +425,9 @@ const najkraciRedosled = (polaziste, tacke) => {
 // naziv ture ima verziju za svaki jezik; ruta sacuvana pre prevoda ima samo engleski tekst
 const prevedi = naziv => naziv?.[jezik] ?? naziv
 
+// svaka sledeca vrsta se dodaje prethodnim, sto pokazuje redosled spiska
+const nazivPraga = vrsta => t(vrsta === 'istaknut' ? 'istaknutiSpomenici' : vrsta)
+
 const otvoriStanicu = marker => mapa.fire('izbor', {marker, izRute: true})
 
 // broj stanice stoji desno od podnozja obeliska, gde ga dodiruje linija rute
@@ -396,12 +462,15 @@ export default class Ruta extends HTMLElement {
         </div>
         <button id="zatvori" title="${t('zatvori')}">×</button>
       </header>
-      <label id="vaznost">
-        <span>${t('pragVaznosti')}</span>
-        <select id="prag-vaznosti">${nivoiVaznosti.map(vrsta =>
-          `<option value="${vrsta}">${t(vrsta)}</option>`
-        ).join('')}</select>
-      </label>
+      <div id="vaznost">
+        <span id="naslov-praga">${t('pragVaznosti')}</span>
+        <div class="izbor-praga">
+          <button id="prag-vaznosti" aria-haspopup="listbox" aria-expanded="false" aria-controls="opcije-praga" aria-labelledby="naslov-praga prag-vaznosti"></button>
+          <ul id="opcije-praga" role="listbox" aria-labelledby="naslov-praga" hidden>${nivoiVaznosti.map(vrsta =>
+            `<li role="option" data-prag="${vrsta}" tabindex="-1"><span class="znak">${znakVrste(vrsta, 0.6)}</span>${nazivPraga(vrsta)}</li>`
+          ).join('')}</ul>
+        </div>
+      </div>
       <div id="planer" role="tabpanel">
         <p class="uvod" id="prazna">${t('praznaRuta')}</p>
         <p class="alati">
@@ -417,17 +486,12 @@ export default class Ruta extends HTMLElement {
         </footer>
       </div>
       <div id="ture" role="tabpanel">
-        <ol id="spisak-tura"></ol>
+        <div id="spisak-tura"></div>
       </div>
     `
     this.lista = this.panel.querySelector('#stanice')
-    const prag = /** @type {HTMLSelectElement} */ (this.panel.querySelector('#prag-vaznosti'))
-    prag.value = String(this.pragVaznosti)
-    prag.addEventListener('change', () => {
-      this.pragVaznosti = prag.value
-      try { localStorage.setItem(kljucPraga, prag.value) } catch { /* izbor vazi dok je stranica otvorena */ }
-      this.osveziTure()
-    })
+    this.prikaziPrag()
+    this.povesiIzborPraga()
     this.panel.querySelector('#zatvori').addEventListener('click', () => this.panel.hidden = true)
     this.panel.querySelectorAll('[data-kartica]').forEach(kartica =>
       kartica.addEventListener('click', () => this.prikaziKarticu(kartica.dataset.kartica))
@@ -450,16 +514,78 @@ export default class Ruta extends HTMLElement {
     })
   }
 
+  // izabrana vrsta stoji na dugmetu, sa svojim znakom
+  prikaziPrag() {
+    const opcija = this.panel.querySelector(`[data-prag="${this.pragVaznosti}"]`)
+    this.panel.querySelectorAll('[data-prag]').forEach(o => o.setAttribute('aria-selected', String(o === opcija)))
+    this.panel.querySelector('#prag-vaznosti').innerHTML = `${opcija.innerHTML}<span class="strelica" aria-hidden="true">▾</span>`
+  }
+
+  otvoriPrag(otvoren) {
+    this.panel.querySelector('#opcije-praga').hidden = !otvoren
+    this.panel.querySelector('#prag-vaznosti').setAttribute('aria-expanded', String(otvoren))
+    if (otvoren) this.panel.querySelector('[data-prag][aria-selected="true"]').focus()
+  }
+
+  postaviPrag(vrsta) {
+    this.pragVaznosti = vrsta
+    try { localStorage.setItem(kljucPraga, vrsta) } catch { /* izbor vazi dok je stranica otvorena */ }
+    this.prikaziPrag()
+    this.osveziTure()
+  }
+
+  // mis, dodir i tastatura kao kod obicnog padajuceg spiska; dodir van spiska ga zatvara
+  povesiIzborPraga() {
+    const dugme = this.panel.querySelector('#prag-vaznosti')
+    const spisak = this.panel.querySelector('#opcije-praga')
+    dugme.addEventListener('click', () => this.otvoriPrag(spisak.hidden))
+    spisak.addEventListener('click', e => {
+      const opcija = /** @type {HTMLElement} */ (e.target).closest('[data-prag]')
+      if (!opcija) return
+      this.otvoriPrag(false)
+      dugme.focus()
+      this.postaviPrag(opcija.dataset.prag)
+    })
+    spisak.addEventListener('keydown', e => {
+      const cilj = /** @type {HTMLElement} */ (e.target)
+      const opcije = [...spisak.querySelectorAll('[data-prag]')]
+      const korak = {ArrowDown: 1, ArrowUp: -1}[e.key]
+      if (korak) opcije[(opcije.indexOf(cilj) + korak + opcije.length) % opcije.length].focus()
+      if (e.key === 'Enter' || e.key === ' ') cilj.click()
+      if (e.key === 'Escape') {
+        this.otvoriPrag(false)
+        dugme.focus()
+      }
+      if (korak || ['Enter', ' ', 'Escape'].includes(e.key)) e.preventDefault()
+    })
+    this.panel.addEventListener('click', e => {
+      if (!spisak.hidden && !/** @type {HTMLElement} */ (e.target).closest('.izbor-praga')) this.otvoriPrag(false)
+    })
+  }
+
   postavi(stavke, ture) {
     this.stavke = new Map(stavke.map(stavka => [stavka.spomenik.id, stavka]))
     this.definicije = ture
     this.osveziTure()
   }
 
+  // nudi se samo tura sa bar tri stanice, a izabrana ostaje i kad prag smanji broj stanica
   osveziTure() {
     const ture = sastaviTure(this.definicije, [...this.stavke.values()].map(s => s.spomenik), this.pragVaznosti)
     const iskorisceneSlike = new Set()
-    this.panel.querySelector('#spisak-tura').replaceChildren(...ture.map(tura => this.praviTuru(tura, iskorisceneSlike)))
+    const ponudjene = ture.filter(tura => tura.spomenici.length >= najmanjeStanica)
+    // gradska tura ima spisak naselja, a oblast granice
+    const gradovi = new Set(this.definicije.filter(d => d.oblast.mesta).map(d => d.id))
+    const grupa = (naslov, clanovi) => {
+      if (!clanovi.length) return []
+      const spisak = document.createElement('ol')
+      spisak.append(...clanovi.map(tura => this.praviTuru(tura, iskorisceneSlike)))
+      return [Object.assign(document.createElement('h3'), {textContent: naslov}), spisak]
+    }
+    this.panel.querySelector('#spisak-tura').replaceChildren(
+      ...grupa(t('oblasti'), ponudjene.filter(tura => !gradovi.has(tura.id))),
+      ...grupa(t('gradovi'), ponudjene.filter(tura => gradovi.has(tura.id))),
+    )
     const aktivna = ture.find(tura => tura.id === dajTuruId())
     if (aktivna) izaberiTuru({...aktivna, spomenici: this.redosledTure(aktivna.spomenici)})
     this.prikazi()
@@ -484,7 +610,9 @@ export default class Ruta extends HTMLElement {
   }
 
   osveziKartice() {
-    this.panel.querySelector('#vaznost').hidden = this.kartica === 'planer' && !dajTuruId()
+    // izabrana tura sa stalnim pragom ne zavisi od izbora praga
+    const stalniPrag = this.definicije?.find(d => d.id === dajTuruId())?.prag
+    this.panel.querySelector('#vaznost').hidden = this.kartica === 'planer' && (!dajTuruId() || Boolean(stalniPrag))
     const broj = this.stanice().length
     this.panel.querySelectorAll('[data-kartica]').forEach(kartica => {
       const izabrana = kartica.dataset.kartica === this.kartica
@@ -565,9 +693,7 @@ export default class Ruta extends HTMLElement {
     red.querySelector('.ime').textContent = prevedi(naziv)
     const opisMesta = mesta.slice(0, 4).join(', ') + (mesta.length > 4 ? '…' : '')
     red.querySelector('.opis').textContent = t('stanice', clanovi.length) + (opisMesta ? `: ${opisMesta}` : '')
-    const dugme = /** @type {HTMLButtonElement} */ (red.querySelector('button'))
-    dugme.disabled = spomenici.length === 0
-    dugme.addEventListener('click', () => {
+    red.querySelector('button').addEventListener('click', () => {
       izaberiTuru({id, naziv, spomenici: this.redosledTure(spomenici), wiki})
       this.prikaziKarticu('planer')
       this.pokaziTuru()

@@ -130,6 +130,7 @@ for t in ture:
     if not t.get('id') or not isinstance(drzave_ture, list) or not drzave_ture or not all(x in DRZAVE for x in drzave_ture):
         greske['tura bez oblasti'].append(t.get('naziv'))
     if 'spomenici' in t: greske['tura sa rucnim stanicama'].append(t.get('naziv'))
+    if t.get('prag', 'istaknut') != 'istaknut': greske['tura: los prag'].append(t.get('naziv'))
     mesta_ture = oblast.get('mesta')
     if mesta_ture is not None and (not isinstance(mesta_ture, list) or not mesta_ture or not all(isinstance(x, str) and x.strip() for x in mesta_ture)):
         greske['tura: los spisak mesta'].append(t.get('naziv'))
@@ -142,6 +143,10 @@ for t in ture:
         and all(isinstance(x, (int, float)) for x in p) and 39 <= p[0] <= 47.5 and 13 <= p[1] <= 23.5 for p in putanja)
         or not isinstance(oblast.get('sirinaKm'), (int, float)) or oblast['sirinaKm'] <= 0):
         greske['tura: los koridor'].append(t.get('naziv'))
+    poligon = oblast.get('poligon')
+    if poligon is not None and (not isinstance(poligon, list) or len(poligon) < 3 or not all(isinstance(p, list) and len(p) == 2
+        and all(isinstance(x, (int, float)) for x in p) and 39 <= p[0] <= 47.5 and 13 <= p[1] <= 23.5 for p in poligon)):
+        greske['tura: los poligon'].append(t.get('naziv'))
 for id, broj in collections.Counter(t.get('id') for t in ture).items():
     if broj > 1: greske['isti id ture'].append(id)
 slike = {f'slike/spomenici/{f}' for f in os.listdir('slike/spomenici')}

@@ -30,6 +30,7 @@ const malo = n => [2, 3, 4].includes(n % 10) && ![12, 13, 14].includes(n % 100)
 const tekstovi = {
   pragVaznosti: {sh: 'Prag važnosti', en: 'Importance threshold'},
   praznaAutomatskaTura: {sh: 'Za ovaj prag važnosti nema spomenika u turi.', en: 'No monuments in this tour at this importance level.'},
+  istaknutiSpomenici: {sh: 'Istaknuti spomenici', en: 'Featured monuments'},
   prijavaNaslov: {sh: 'Dodaj spomenik', en: 'Add a monument'},
   prijavaDopuna: {sh: 'Dopuna podataka', en: 'Monument update'},
   dopuniPodatke: {sh: 'Dopuni podatke', en: 'Update details'},
@@ -55,7 +56,7 @@ const tekstovi = {
   vecURuti: {sh: 'U ruti', en: 'In your route'},
   trenutnaRuta: {sh: 'Trenutna ruta', en: 'Current route'},
   izaberiTuru: {sh: 'Izaberi turu', en: 'Choose a tour'},
-  lista: {sh: 'Želim da posetim', en: 'Want to visit'},
+  lista: {sh: 'Želim posetiti', en: 'Want to visit'},
   posetio: {sh: 'Posećeno', en: 'Visited'},
   mojaPoseta: {sh: 'Moja poseta', en: 'My visit'},
   filteri: {sh: 'Filteri', en: 'Filters'},
@@ -121,6 +122,8 @@ const tekstovi = {
   nestao: {sh: 'Uklonjen — nema šta da se vidi', en: 'Removed — nothing left to see'},
 
   predlozeneRute: {sh: 'Predložene rute', en: 'Suggested routes'},
+  gradovi: {sh: 'Gradovi', en: 'Cities'},
+  oblasti: {sh: 'Oblasti', en: 'Regions'},
   praznaRuta: {
     sh: 'Još nema stanica. Dodaj spomenike dugmetom <b>U rutu</b> u njihovim detaljima ili izaberi neku od predloženih ruta.',
     en: 'No stops yet. Add monuments with <b>Add to route</b> in their details, or pick one of the suggested routes.',

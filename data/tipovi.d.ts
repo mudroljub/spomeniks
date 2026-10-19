@@ -56,7 +56,7 @@ export interface Spomenik {
   stanje?: Stanje
 }
 
-/** Geografski obuhvat: drzave, gradski pravougaonik ili koridor putovanja. */
+/** Geografski obuhvat: drzave, gradski pravougaonik, koridor putovanja ili oblast. */
 export interface OblastTure {
   drzave: Drzava[]
   /** gradska naselja; deo u zagradi u polju mesto ne menja pripadnost gradu */
@@ -67,6 +67,8 @@ export interface OblastTure {
   putanja?: [number, number][]
   /** najveca udaljenost od putanje u kilometrima */
   sirinaKm?: number
+  /** granica istorijske oblasti, temena [lat, lng]; deo van izabranih drzava se ne racuna */
+  poligon?: [number, number][]
 }
 
 /** data/ture.json: definicije bez rucnog spiska stanica. */
@@ -75,6 +77,8 @@ export interface DefinicijaTure {
   naziv: {sh: string, en: string}
   oblast: OblastTure
   wiki?: string
+  /** stalni prag za ture koje bi inace imale stotine stanica (cela drzava, obala) */
+  prag?: 'istaknut'
 }
 
 /** Automatski izabrane stanice; prikaz ih rasporedjuje za obilazak. */

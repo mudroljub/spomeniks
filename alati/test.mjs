@@ -397,9 +397,10 @@ test('podrazumevani prag je statua i svaka vrsta je zasebna opcija', async () =>
   await izvrsi("localStorage.removeItem('spomenici-prag-tura')")
   await otvori()
   const ruta = "document.querySelector('planer-rute').shadowRoot"
-  const prag = `${ruta}.querySelector('#prag-vaznosti')`
-  assert.equal(await izvrsi(`${prag}.value`), 'statua')
-  const opcije = await izvrsi(`[...${prag}.options].map(o=>({value:o.value,label:o.textContent}))`)
+  assert.equal(await izvrsi("document.querySelector('planer-rute').pragVaznosti"), 'statua')
+  assert.match(await izvrsi(`${ruta}.querySelector('#prag-vaznosti').textContent`), /Statue/)
+  const opcije = await izvrsi(`[...${ruta}.querySelectorAll('[data-prag]')].map(o=>({value:o.dataset.prag,label:o.textContent,znak:Boolean(o.querySelector('img'))}))`)
+  assert.ok(opcije.every(o=>o.znak), 'svaka opcija ima znak sa mape')
   assert.deepEqual(opcije.map(o=>o.value), ['istaknut','spomen-park','muzej','spomenik','statua','spomen-groblje','bista','spomen-obelezje','spomen-ploca'])
   assert.ok(opcije.every(o=>!o.label.includes('/')))
   await izvrsi(`${ruta}.querySelector('#dugme').click()`)
@@ -414,11 +415,14 @@ test('podrazumevani prag je statua i svaka vrsta je zasebna opcija', async () =>
 test('prag važnosti menja celu automatsku turu i pamti izbor bez ograničenja broja stanica', async () => {
   await otvori()
   const ruta = "document.querySelector('planer-rute').shadowRoot"
-  const prag = `${ruta}.querySelector('#prag-vaznosti')`
-  const postaviPrag = vrsta => izvrsi(`{const p=${prag};p.value='${vrsta}';p.dispatchEvent(new Event('change'))}`)
+  const prag = "document.querySelector('planer-rute').pragVaznosti"
+  const postaviPrag = vrsta => izvrsi(`{const r=${ruta};r.querySelector('#prag-vaznosti').click();r.querySelector('[data-prag="${vrsta}"]').click()}`)
   const izaberi = naziv => izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura li')].find(li=>li.querySelector('.ime').textContent===${JSON.stringify(naziv)}).querySelector('button').click()`)
   await izvrsi(`${ruta}.querySelector('#dugme').click()`)
   await izvrsi(`${ruta}.querySelector('[data-kartica="ture"]').click()`)
+  const imena = await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura .ime')].map(e=>e.textContent)`)
+  assert.ok(imena.includes('Beograd u NOB') && !imena.includes('Banjaluka u NOB'), 'tura sa manje od tri stanice se ne nudi')
+  assert.ok(await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura .opis')].every(o=>parseInt(o.textContent)>=3)`))
   await postaviPrag('spomen-ploca')
   await izaberi('Beograd u NOB')
   const svi = await izvrsi("import('./utils/ruta.js').then(m=>m.dajRutu())")
@@ -430,9 +434,9 @@ test('prag važnosti menja celu automatsku turu i pamti izbor bez ograničenja b
   assert.ok(istaknuti.every(id => svi.includes(id)))
   assert.ok(await izvrsi(`import('./utils/ruta.js').then(m=>m.dajRutu().every(id=>document.querySelector('planer-rute').stavke.get(id).spomenik.istaknut===true))`))
   await otvori()
-  assert.equal(await izvrsi(`${prag}.value`), 'istaknut')
+  assert.equal(await izvrsi(prag), 'istaknut')
   assert.deepEqual(new Set(await izvrsi("import('./utils/ruta.js').then(m=>m.dajRutu())")), new Set(istaknuti))
-  await postaviPrag('spomenik')
+  await postaviPrag('spomen-ploca')
   await izaberi('Foča u NOB')
   await postaviPrag('istaknut')
   assert.equal(await izvrsi(`${ruta}.querySelectorAll('#stanice li').length`), 0)

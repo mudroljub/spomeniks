@@ -1,7 +1,8 @@
 // @ts-check
 // Redosled vrsta odredjuje vaznost; vrste mogu postati vidljive na istom zumu mape.
 export const zumVrste = {'spomen-park': 8, muzej: 8, spomenik: 9, statua: 9, 'spomen-groblje': 10, bista: 10, 'spomen-obelezje': 11, 'spomen-ploca': 12}
-export const vrstePoVaznosti = Object.keys(zumVrste)
+export const vrstePoVaznosti = /** @type {import('../data/tipovi').Vrsta[]} */ (Object.keys(zumVrste))
+/** @type {(import('../data/tipovi').Vrsta | 'istaknut')[]} */
 export const nivoiVaznosti = ['istaknut', ...vrstePoVaznosti]
 export const vaznostVrste = Object.fromEntries(nivoiVaznosti.map((vrsta, i) => [vrsta, i]))
 /** @param {Pick<import('../data/tipovi').Spomenik, 'vrsta' | 'istaknut'>} spomenik */

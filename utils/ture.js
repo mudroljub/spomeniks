@@ -12,11 +12,17 @@ const rastojanjeOdDeonice = ([lat, lng], a, b) => {
   return Math.hypot(px - t * dx, py - t * dy)
 }
 
+// zrak od tacke ka istoku sece granicu oblasti neparan broj puta kad je tacka unutra
+const uPoligonu = ([lat, lng], poligon) => poligon.reduce((unutra, [lat1, lng1], i) => {
+  const [lat2, lng2] = poligon[(i + 1) % poligon.length]
+  return (lat1 > lat) !== (lat2 > lat) && lng < lng1 + (lat - lat1) * (lng2 - lng1) / (lat2 - lat1) ? !unutra : unutra
+}, false)
+
 /** @param {import('../data/tipovi').OblastTure} oblast */
 const proveriOblast = oblast => {
   const drzave = new Set(oblast.drzave)
   const mesta = oblast.mesta && new Set(oblast.mesta.map(m => m.toLowerCase()))
-  const {putanja, sirinaKm = 0} = oblast
+  const {putanja, sirinaKm = 0, poligon} = oblast
   const lat = putanja?.map(p => p[0]), lng = putanja?.map(p => p[1])
   const granice = oblast.granice ?? (putanja && [
     Math.min(...lat) - sirinaKm / kmPoStepenu, Math.min(...lng) - sirinaKm / 75,
@@ -27,6 +33,7 @@ const proveriOblast = oblast => {
     if (mesta && !mesta.has(s.mesto.split(/\s*\(/)[0].trim().toLowerCase())) return false
     const {lat, lng} = s.koordinate
     if (granice && (lat < granice[0] || lng < granice[1] || lat > granice[2] || lng > granice[3])) return false
+    if (poligon && !uPoligonu([lat, lng], poligon)) return false
     return !putanja || putanja.slice(1).some((b, i) => rastojanjeOdDeonice([lat, lng], putanja[i], b) <= sirinaKm)
   }
 }
@@ -49,6 +56,6 @@ export const izaberiStanice = (spomenici, oblast, prag) => {
  * @param {string} vaznost
  * @returns {import('../data/tipovi').Tura[]}
  */
-export const sastaviTure = (definicije, spomenici, vaznost) => definicije.map(({id, naziv, wiki, oblast}) => ({
-  id, naziv, wiki, spomenici: izaberiStanice(spomenici, oblast, vaznost).map(s => s.id),
+export const sastaviTure = (definicije, spomenici, vaznost) => definicije.map(({id, naziv, wiki, oblast, prag}) => ({
+  id, naziv, wiki, spomenici: izaberiStanice(spomenici, oblast, prag ?? vaznost).map(s => s.id),
 }))

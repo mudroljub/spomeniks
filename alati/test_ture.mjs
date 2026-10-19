@@ -29,6 +29,20 @@ test('broj stanica nije ograničen i novi spomenik automatski ulazi u turu', () 
   assert.ok(sastaviTure(defs, [...rows, spomenik('novi')], 'spomenik')[0].spomenici.includes('novi'))
 })
 
+test('oblast sa poligonom razdvaja susedne oblasti duž reke', () => {
+  const tisa = [[46, 20.08], [45, 20.1], [45, 21], [46, 21]]
+  const banat = {drzave: ['Serbia'], poligon: tisa}
+  const zapadno = spomenik('becej', 'spomenik', {koordinate: {lat: 45.62, lng: 20.04}})
+  const istocno = spomenik('novi-becej', 'spomenik', {koordinate: {lat: 45.60, lng: 20.13}})
+  assert.deepEqual(ids(izaberiStanice([zapadno, istocno], banat, 'spomenik')), ['novi-becej'])
+})
+
+test('velika tura sa stalnim pragom ima samo istaknute spomenike, bez obzira na izabrani prag', () => {
+  const rows = [spomenik('istaknut', 'spomenik', {istaknut: true}), spomenik('statua', 'statua'), spomenik('ploca', 'spomen-ploca')]
+  const defs = [{id: 'drzava', naziv: {sh: 'Država u NOB', en: 'Country'}, oblast, prag: 'istaknut'}]
+  assert.deepEqual(sastaviTure(defs, rows, 'spomen-ploca')[0].spomenici, ['istaknut'])
+})
+
 test('svaka vrsta ima zaseban prag, a podrazumevani uključuje statue bez bista', () => {
   const vrste = ['spomen-ploca', 'bista', 'spomen-obelezje', 'statua', 'spomen-groblje', 'spomenik', 'muzej', 'spomen-park', 'istaknut']
   const rows = vrste.map(v => spomenik(v, v === 'istaknut' ? 'spomenik' : v, {istaknut: v === 'istaknut'}))
