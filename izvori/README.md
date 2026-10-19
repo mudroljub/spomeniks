@@ -13,6 +13,7 @@ Svi preuzeti izvori i njihove tekstualne/stranične izvedenice čuvaju se ovde. 
 
 ## Važne putanje
 
+- `pretrage/foto-paket100b-2026-10-19/` — peti paket, bez Makedonije: 100 kandidata, 79 preuzetih snimaka i 5 zamena, 63 dodate fotografije; odluke i metapodaci u `data/provere/fotografije-paket100b-2026-10-19.json`.
 - `pretrage/foto-paket100-2026-10-19/` — paket od 100 kandidata: 87 preuzetih snimaka sa zamenama, 69 konačnih fotografija, izvorni metapodaci i snimak aktuelne baze pre upisa; rezultati u `data/provere/fotografije-paket100-2026-10-19.json`.
 - `pretrage/foto-paket50c-2026-10-19/` — treći paket: 50 kandidata, 53 preuzeta snimka sa pet zamena, 47 dodatih fotografija; odluke i metapodaci u `data/provere/fotografije-paket50c-2026-10-19.json`.
 - `pretrage/foto-paket50b-2026-10-19/` — drugi paket od 50 kandidata: 56 izvornih snimaka, odluke i metapodaci, 48 konačnih fotografija i snimak aktuelne baze pre upisa; rezultati u `data/provere/fotografije-paket50b-2026-10-19.json`.
