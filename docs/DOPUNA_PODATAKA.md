@@ -8,6 +8,8 @@ Po korisnikovom nalogu polje `mesto` usklađeno je sa makedonskom ćirilicom u *
 
 ## Autori
 
+- **Makedonija, drugi paket 19.10.2026:** šest dopunjenih autora u Farišu, Kočanima, Krivoj Palanci, Dabnici, Skoplju i Strugi. U Dabnici su sačuvani Dimo Todorovski (original) i Sašo Poposki (replika iz 2019); ne prepisivati automatski 1972. kao godinu današnje skulpture. Kočani: Radovan Rađenović uz Gligora Čemerskog, knjiški oblik Ratko sačuvan u dokazima; 1977. završetak i 1981. otkrivanje nisu izjednačeni. [Dokazi i ranije vrednosti](../data/provere/makedonija-paket2-2026-10-19.json).
+
 - **Bez članka na Vikipediji** (ne tražiti ponovo bez novog izvora): Ante Kuduz, Belizar Bahorić, Lenko Pleština, Marijan Burger, Mirko Ostoja, Vuko Bombardelli i još desetak autora.
 - **Sporni parovi autor–delo:** Erzelj (Svetinino delo je 2 km od našeg), Repče/Trebnje, Domžale 1975, Kovor, Rečica ob Savinji, Topola, Jesenice 1960, Našice, Grobnica herojev u Ljubljani (Mihevc ili Ravnikar), Kragujevac („Otpora i slobode“, „Crvena zastava“), Opovo, Đurđevo, Božurnja, Podgradci i Križe.
 - Wikidata dela poznatih autora (oko 150) već su pregledana; nisu dala nova NOB dela.

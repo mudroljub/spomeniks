@@ -33,6 +33,10 @@ Katalog je delimično obrađen; pregled probnog skupa nije pregled cele knjige. 
 
 [Dokazi i odbijena uparivanja](../data/provere/makedonija-pilot-2026-10-18.json), uključujući `proveraPetUparivanja`; obrađenost knjige u [izvorima](IZVORI.md#obrada-knjiga).
 
+Nastavak 19.10: [20 novih kataloških provera](../data/provere/makedonija-nastavak-2026-10-19.json), šest novih približnih markera i tri nova zapisa bez lokacije. Za Podgorce, Oktisi, Radolištu, Zbaždi i Bosilovo tačke su centri sela; za Brčevo GPS fotografije još ne potvrđuje podnožje. Varnički kompleks, spomenik na Bal Tepeu i Racinova figura kod veleske gimnazije ostaju bez tačke. Ne spajati automatski misleševsku crkvenu ploču sa česmom na trgu, vevčanski knjiški spomenik sa današnjim u parku, radošku piramidu sa česmom iz 1983. ili rudničku žensku figuru sa današnjim obeliskom. Commons česma u Radolišti posvećena je 1913/1914. i nije fotografija traženog NOB spomenika.
+
+Drugi paket 19.10: [39 provera sa str. 40–43](../data/provere/makedonija-paket2-2026-10-19.json). Novi približni markeri Drenok, Velgošti, Dobrevo i Morani imaju samo tačku sela. Drenak iz kataloga je Drenok u opštini Staro Nagoričane, ne Drenak u Kratovu; GPS fotografije Dobreva nije prihvaćen. Slavej Planina na Karaormanu nema potvrđenu tačku i nije selo Slavej u Krivogaštanima. Novi gradski kvartovski spomenici Prilepa, piramida nepoznatom borcu u Kočanima, flotacija u Probištipu i studentska kompozicija u Skoplju ostaju bez tačke. Dva kočanska markera imaju fotografije istog amfiteatra uz oko 600 m razlike; nisu spojeni, niti je njihova tačka preuzeta za nepoznatog borca.
+
 ## Crna Gora: identiteti i sačuvani tragovi
 
 Žetva i pregled dostavljenih FB objava zatvoreni su po korisnikovoj odluci. Nepotvrđeni tragovi ostaju sačuvani za nov konkretan dokaz, bez automatskog nastavka pretrage.

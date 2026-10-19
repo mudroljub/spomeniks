@@ -16,6 +16,8 @@ live-server
 
 UNOS PODATAKA:
 - žetva izvora po [planu](docs/PLAN_ZETVE.md)
+- pregledaj izvore i proceni najveći potencijal za nove unose
+- pregledaj izvore i proceni najveći potencijal za dopuni postojećih podataka
 
 POTPUNOST PODATKA:
 - locirati spomenike bez lokacije i bez tačne lokacije ([lociranje](docs/LOCIRANJE_SPOMENIKA.md))
