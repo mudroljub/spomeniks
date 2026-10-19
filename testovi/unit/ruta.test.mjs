@@ -51,3 +51,39 @@ test('oštećen zapis na uređaju daje praznu rutu', async () => {
   const druga = await import('../../utils/ruta.js?bez-niza')
   assert.deepEqual(druga.dajRutu(), [])
 })
+
+test('ponovno učitavanje vraća redosled i podatke izabrane ture', async () => {
+  const tura = {id: 'test-tura', naziv: 'Putovanje', spomenici: ['b', 'a'], wiki: 'https://example.org/tura'}
+  izaberiTuru(tura)
+  const nova = await import('../../utils/ruta.js?ponovno-ucitavanje')
+  assert.deepEqual(nova.dajRutu(), ['b', 'a'])
+  assert.equal(nova.dajTuruId(), tura.id)
+  assert.equal(nova.dajNaziv(), tura.naziv)
+  assert.equal(nova.dajWiki(), tura.wiki)
+})
+
+test('uklanjanje poslednje stanice briše i podatke izabrane ture', () => {
+  izaberiTuru({id: 'test-tura', naziv: 'Putovanje', spomenici: ['a'], wiki: 'https://example.org/tura'})
+  ukloniIzRute('a')
+  assert.deepEqual(dajRutu(), [])
+  assert.equal(dajNaziv(), '')
+  assert.equal(dajTuruId(), undefined)
+  assert.equal(dajWiki(), undefined)
+  assert.deepEqual(sacuvana(), {naziv: '', spomenici: []})
+})
+
+test('ruta radi u memoriji kada pregledač zabrani čitanje i upis skladišta', async t => {
+  t.mock.method(localStorage, 'getItem', () => { throw new Error('skladište nije dostupno') })
+  t.mock.method(localStorage, 'setItem', () => { throw new Error('skladište je puno') })
+  const nova = await import('../../utils/ruta.js?bez-skladista')
+  assert.deepEqual(nova.dajRutu(), [])
+  let promena = 0
+  nova.promeneRute.addEventListener('promena', () => promena++)
+  nova.dodajURutu('a')
+  nova.dodajURutu('b')
+  nova.pomeri('b', -1)
+  assert.deepEqual(nova.dajRutu(), ['b', 'a'])
+  nova.ukloniIzRute('a')
+  assert.deepEqual(nova.dajRutu(), ['b'])
+  assert.equal(promena, 4)
+})

@@ -85,3 +85,23 @@ test('gradska tura prihvata delove grada, ali ne susedno mesto u istom pravougao
   const rows = [spomenik('centar'), spomenik('deo', 'spomenik', {mesto: 'Grad (Centar)'}), spomenik('sused', 'spomenik', {istaknut: true, mesto: 'Drugi grad'})]
   assert.deepEqual(ids(izaberiStanice(rows, {...oblast, mesta: ['Grad']}, 'spomen-ploca')), ['centar', 'deo'])
 })
+
+test('poligon i država zajedno određuju oblast, bez promene ulazne baze', () => {
+  const rows = [spomenik('unutra', 'spomenik', {koordinate: {lat: 44.2, lng: 20.2}}),
+    spomenik('izvan', 'spomenik', {koordinate: {lat: 44.9, lng: 20.9}}),
+    spomenik('druga-drzava', 'spomenik', {drzava: 'Croatia'})]
+  const pre = structuredClone(rows)
+  const trougao = {drzave: ['Serbia'], poligon: [[44, 20], [45, 20], [44, 21]]}
+  assert.deepEqual(ids(izaberiStanice(rows, trougao, 'spomenik')), ['unutra'])
+  trougao.poligon.reverse()
+  assert.deepEqual(ids(izaberiStanice(rows, trougao, 'spomenik')), ['unutra'], 'redosled temena ne menja oblast')
+  assert.deepEqual(rows, pre)
+})
+
+test('koridor uključuje tačke uz svaku deonicu i krajnju tačku, ali ne i produžetak puta', () => {
+  const koridor = {drzave: ['Serbia'], putanja: [[44, 20], [44, 20], [45, 20], [45, 21]], sirinaKm: 2}
+  const tacka = (id, lat, lng) => spomenik(id, 'spomenik', {koordinate: {lat, lng}})
+  const rows = [tacka('prva', 44.5, 20.01), tacka('druga', 45.01, 20.5),
+    tacka('kraj', 45, 21.01), tacka('produzetak', 45, 21.1), tacka('precica', 44.5, 20.5)]
+  assert.deepEqual(ids(izaberiStanice(rows, koridor, 'spomenik')), ['druga', 'kraj', 'prva'])
+})

@@ -471,6 +471,82 @@ test('stranac dobija engleski, a izabran jezik ostaje', async () => {
   }
 })
 
+test('izbor autora pretragom i tastaturom sužava rezultate, a poništavanje vraća početni izbor', async () => {
+  await otvori()
+  const filteri = "document.querySelector('panel-filteri')"
+  const root = `${filteri}.shadowRoot`
+  const polje = `${root}.querySelector('button.polje[data-grupa="autor"]')`
+  await izvrsi("document.querySelector('polje-pretraga .dugme-filteri').click()")
+  const pocetniBroj = Number(await izvrsi(`${root}.querySelector('#prikazi').textContent.match(/\\d+/)[0]`))
+  await izvrsi(`${polje}.click()`)
+  const input = `${root}.querySelector('.spisak input')`
+  await izvrsi(`(() => { const p=${input};p.focus();p.value='ВОЈИН БАКИЋ';p.dispatchEvent(new Event('input',{bubbles:true})) })()`)
+  assert.deepEqual(await izvrsi(`[...${root}.querySelectorAll('[role="option"]:not([hidden])')].map(o=>o.dataset.opcija)`), ['Vojin Bakić'])
+  await izvrsi(`${input}.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',bubbles:true}))`)
+  assert.match(await izvrsi(`${polje}.textContent`), /Vojin Bakić/)
+  assert.equal(await izvrsi(`${polje}.getAttribute('aria-expanded')`), 'false')
+  assert.equal(await izvrsi(`${root}.activeElement === ${polje}`), true)
+  const suzen = Number(await izvrsi(`${root}.querySelector('#prikazi').textContent.match(/\\d+/)[0]`))
+  assert.ok(suzen > 0 && suzen < pocetniBroj)
+  await izvrsi(`${root}.querySelector('#prikazi').click()`)
+  assert.equal(Number(await sacekaj(BROJ, 'broj posle izbora autora')), suzen)
+  await izvrsi("document.querySelector('polje-pretraga .dugme-filteri').click()")
+  await izvrsi(`${polje}.click()`)
+  await izvrsi(`${input}.dispatchEvent(new KeyboardEvent('keydown',{key:'Escape',bubbles:true}))`)
+  assert.equal(await izvrsi(`${polje}.getAttribute('aria-expanded')`), 'false')
+  assert.equal(await izvrsi(`${root}.activeElement === ${polje}`), true)
+  await izvrsi(`${root}.querySelector('#ponisti').click()`)
+  assert.equal(Number(await izvrsi(`${root}.querySelector('#prikazi').textContent.match(/\\d+/)[0]`)), pocetniBroj)
+  assert.equal(await izvrsi(`${filteri}.brojAktivnih()`), 0)
+})
+
+test('lista želja i posećeni spomenici pamte se posle ponovnog otvaranja i mogu se ukloniti', async () => {
+  const id = 'mostar-partisan-cemetery'
+  const detalji = "document.querySelector('detalji-spomenika').shadowRoot"
+  const oznaka = vrednost => `${detalji}.querySelector('[data-oznaka="${vrednost}"]')`
+  const sacuvana = `JSON.parse(localStorage.getItem('spomenici-poseta'))[${JSON.stringify(id)}]`
+  await otvori('#' + id)
+  try {
+    await izvrsi(`import('./utils/oznake.js').then(m=>m.postaviOznaku(${JSON.stringify(id)},null))`)
+    await izvrsi(`${oznaka('lista')}.click()`)
+    assert.equal(await izvrsi(oznaka('lista') + '.getAttribute("aria-pressed")'), 'true')
+    assert.equal(await izvrsi(sacuvana), 'lista')
+    await otvori('#' + id)
+    assert.equal(await izvrsi(oznaka('lista') + '.getAttribute("aria-pressed")'), 'true')
+    await izvrsi(`${oznaka('posetio')}.click()`)
+    assert.equal(await izvrsi(oznaka('lista') + '.getAttribute("aria-pressed")'), 'false')
+    assert.equal(await izvrsi(sacuvana), 'posetio')
+    await otvori('#' + id)
+    assert.equal(await izvrsi(oznaka('posetio') + '.getAttribute("aria-pressed")'), 'true')
+    await izvrsi(`${oznaka('posetio')}.click()`)
+    await otvori('#' + id)
+    assert.equal(await izvrsi(oznaka('posetio') + '.getAttribute("aria-pressed")'), 'false')
+    assert.equal(await izvrsi(`Object.hasOwn(JSON.parse(localStorage.getItem('spomenici-poseta')),${JSON.stringify(id)})`), false)
+  } finally {
+    await izvrsi(`import('./utils/oznake.js').then(m=>m.postaviOznaku(${JSON.stringify(id)},null))`)
+  }
+})
+
+test('natpis i imena autora prikazuju HTML kao tekst, a ne kao elemente', async () => {
+  await otvori('#mostar-partisan-cemetery')
+  const rezultat = await izvrsi(`(() => {
+    const d=document.querySelector('detalji-spomenika'),marker=d.marker
+    const tekst='<img src="x" onerror="window.nezeljeno=true"> & ćirilica Ђ'
+    const original=marker.spomen
+    try {
+      marker.spomen={...original,natpis:tekst,autor:tekst}
+      d.prikazi(marker)
+      const natpis=d.shadowRoot.querySelector('.natpis p')
+      const autor=d.shadowRoot.querySelector('.podaci')
+      return {tekst,natpis:natpis.textContent,autor:autor.textContent,
+        umetnutihElemenata:natpis.children.length+autor.children.length}
+    } finally {marker.spomen=original;d.prikazi(marker)}
+  })()`)
+  assert.equal(rezultat.natpis, rezultat.tekst)
+  assert.ok(rezultat.autor.endsWith(rezultat.tekst))
+  assert.equal(rezultat.umetnutihElemenata, 0)
+})
+
 test('bez grešaka u aplikaciji', () => {
   assert.deepEqual(greske, [])
 })

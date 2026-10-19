@@ -27,3 +27,11 @@ test('dopuna postojećeg spomenika unapred popunjava naziv i tačku', () => {
   assert.ok(poruka.includes('https://www.google.com/maps?q=45.27,16.93'))
   assert.equal(delovi(prijavaUrl({mesto: 'Kozara', koordinate: {lat: 1, lng: 2}})).naslov, 'Dopuna podataka: Kozara')
 })
+
+test('naziv sa ćirilicom i URL znacima ostaje ceo u naslovu i poruci', () => {
+  const naziv = 'Споменик „Братство & јединство“ #1?'
+  const {naslov, poruka} = delovi(prijavaUrl({naziv, koordinate: {lat: 41.99, lng: 21.43}}))
+  assert.equal(naslov, 'Dopuna podataka: ' + naziv)
+  assert.ok(poruka.startsWith('Naziv spomenika (obavezno): ' + naziv + '\r\n'))
+  assert.ok(poruka.includes('https://www.google.com/maps?q=41.99,21.43'))
+})

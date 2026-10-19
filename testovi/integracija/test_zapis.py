@@ -42,6 +42,10 @@ class ZapisTest(unittest.TestCase):
         stdout, stderr = p.communicate(timeout=15)
         self.assertEqual(p.returncode, kod, stderr or stdout)
 
+    def izolovana_baza(self):
+        return patch.multiple(zapis, **{k: str(self.folder / (k + '.json')) for k in
+                              ('ISTAKNUTI', 'OSTALI', 'BEZ_LOKACIJE', 'IZVORI', 'IZVORI_STANJA', 'PROVERE_SPOMENIKA')})
+
     def test_dva_procesa_ne_gube_izmene(self):
         put = self.folder / 'broj.json'
         zapis.upisi_json(put, {'broj': 0})
@@ -94,6 +98,58 @@ class ZapisTest(unittest.TestCase):
             self.assertEqual(zapis.ucitaj_bazu(), [{'id': 'a', 'vrsta': 'spomenik'}])
             self.assertEqual(json.loads(Path(zapis.PROVERE_SPOMENIKA).read_bytes()),
                              {'a': {'proveraLokacije': provera}})
+
+    def test_razvrstavanje_cuva_priblizne_medju_ostalima(self):
+        spomenici = [{'id': 'spomenik', 'vrsta': 'spomenik'},
+                     {'id': 'bista', 'vrsta': 'bista'},
+                     {'id': 'istaknuta-bista', 'vrsta': 'bista', 'istaknut': True},
+                     {'id': 'priblizan', 'vrsta': 'spomenik', 'istaknut': True, 'priblizno': True}]
+        with self.izolovana_baza(), zapis.zakljucani_podaci():
+            zapis.sacuvaj_bazu(spomenici)
+            self.assertEqual([s['id'] for s in json.loads(Path(zapis.ISTAKNUTI).read_bytes())],
+                             ['spomenik', 'istaknuta-bista'])
+            self.assertEqual([s['id'] for s in json.loads(Path(zapis.OSTALI).read_bytes())],
+                             ['bista', 'priblizan'])
+            self.assertEqual({s['id'] for s in zapis.ucitaj_bazu()}, {s['id'] for s in spomenici})
+
+    def test_dopuna_i_brisanje_ne_gube_izvore_drugog_spiska(self):
+        stanje = {'naziv': 'Izvestaj', 'godina': 2002, 'url': 'https://example.org/stanje'}
+        provera = {'datum': '2026-10-19', 'izvor': 'https://example.org', 'ishod': 'provereno'}
+        with self.izolovana_baza(), zapis.zakljucani_podaci():
+            zapis.sacuvaj_bazu([{'id': 'mapa', 'vrsta': 'bista', 'izvor': 'https://example.org/mapa'}])
+            zapis.sacuvaj_bez_lokacije([{'id': 'radni', 'vrsta': 'bista', 'izvor': 'https://example.org/radni',
+                                         'stanjeIzvor': stanje, 'proveraLokacije': provera}])
+            mapa = zapis.ucitaj_bazu()
+            mapa[0]['autor'] = 'Puno ime'
+            zapis.sacuvaj_bazu(mapa)
+            self.assertEqual(json.loads(Path(zapis.IZVORI).read_bytes()),
+                             {'mapa': 'https://example.org/mapa', 'radni': 'https://example.org/radni'})
+            radni = zapis.ucitaj_bez_lokacije()
+            radni[0]['proveraOpstanka'] = {'ishod': 'nova provera'}
+            zapis.sacuvaj_bez_lokacije(radni)
+            self.assertEqual(json.loads(Path(zapis.PROVERE_SPOMENIKA).read_bytes())['radni'],
+                             {'proveraLokacije': provera, 'proveraOpstanka': {'ishod': 'nova provera'}})
+            zapis.sacuvaj_bazu([])
+            self.assertEqual(json.loads(Path(zapis.IZVORI).read_bytes()), {'radni': 'https://example.org/radni'})
+            self.assertEqual(json.loads(Path(zapis.IZVORI_STANJA).read_bytes()), {'radni': stanje})
+            zapis.sacuvaj_bez_lokacije([])
+            for put in (zapis.IZVORI, zapis.IZVORI_STANJA, zapis.PROVERE_SPOMENIKA):
+                self.assertEqual(json.loads(Path(put).read_bytes()), {})
+
+    def test_prelazak_na_mapu_cuva_id_izvor_i_stanje(self):
+        stanje = {'naziv': 'Hrzenjak', 'godina': 2002, 'url': 'https://example.org/knjiga'}
+        with self.izolovana_baza(), zapis.zakljucani_podaci():
+            zapis.sacuvaj_bez_lokacije([{'id': 'isti-id', 'vrsta': 'spomenik', 'stanje': 'uklonjen',
+                                         'izvor': 'https://example.org/izvor', 'stanjeIzvor': stanje}])
+            radni = zapis.ucitaj_bez_lokacije()
+            radni[0]['koordinate'] = {'lat': 45.1, 'lng': 16.1}
+            zapis.sacuvaj_bazu(radni)
+            zapis.sacuvaj_bez_lokacije([])
+            self.assertEqual(zapis.ucitaj_bez_lokacije(), [])
+            self.assertEqual(zapis.ucitaj_bazu(), [{'id': 'isti-id', 'koordinate': {'lat': 45.1, 'lng': 16.1},
+                                                   'vrsta': 'spomenik', 'stanje': 'uklonjen'}])
+            self.assertEqual(json.loads(Path(zapis.IZVORI).read_bytes()), {'isti-id': 'https://example.org/izvor'})
+            self.assertEqual(json.loads(Path(zapis.IZVORI_STANJA).read_bytes()), {'isti-id': stanje})
 
 
 if __name__ == '__main__':
