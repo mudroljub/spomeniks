@@ -90,6 +90,8 @@ Puna imena autora proverena su 19.10.2026. prema sačuvanom imeniku Hronologije 
 
 ## Commons i fotografije
 
+**Napomena:** 74 slike sa potpisom „HeritagePhotogrammetry“ preuzete su kao sličice 3D modela, ne kao fotografije. Kad se nađe prava fotografija spomenika, ona ima prednost i zamenjuje sličicu modela.
+
 Obrađeni su navedeni skupovi, ne ceo Commons ili sve spoljne galerije. Pre nastavka preskočiti već pregledane ID-jeve i odbijene kadrove; ponavljanje ima smisla uz bolju fotografiju ili nov izvor.
 
 | Skup | Obrađenost | Evidencija / preostalo |

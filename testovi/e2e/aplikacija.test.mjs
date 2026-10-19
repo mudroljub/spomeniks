@@ -1,8 +1,8 @@
-// node --test alati/test.mjs — glavni tokovi aplikacije u Chrome-u bez prozora, na ekranu telefona
+// node --test testovi/e2e — glavni tokovi aplikacije u Chrome-u bez prozora, na ekranu telefona
 // pokrece sopstveni server, pa ne trazi nista upaljeno; traje oko pola minuta
 import {test, before, after} from 'node:test'
 import assert from 'node:assert/strict'
-import {otvoriPregledac, pokreniServer, sleep} from './pregledac.mjs'
+import {otvoriPregledac, pokreniServer, sleep} from '../../alati/pregledac.mjs'
 
 let pregledac, server
 const greske = []

@@ -25,7 +25,6 @@ POTPUNOST PODATKA:
 
 KVALITET PODATAKA:
 - 523 slike su fotografije korisnika Google mapa, koje nemaju licencu za ponovnu objavu: naći zamenu sa slobodnom licencom, pa ukloniti Google slike
-- 74 slike sa potpisom „HeritagePhotogrammetry“ su sličice 3D modela, ne fotografije: kad se nađe prava fotografija, ona ima prednost
 
 UI:
 - iz perspektive turiste koji obilazi ww2 spomenike bivše Jugoslavije (domaći i stranci): preispitati UI, prikazivanje po važnost podataka, prioritet vrsti spomenika, ponuđene ture i tome slično ([nalazi](docs/UI_TURISTA.md)).

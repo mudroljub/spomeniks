@@ -1,4 +1,4 @@
-// Chrome bez prozora, upravljan preko CDP-a; zajednicko za snimi.mjs, merenje.mjs i test.mjs
+// Chrome bez prozora, upravljan preko CDP-a; zajednicko za snimi.mjs, merenje.mjs i testovi/e2e
 import {spawn} from 'node:child_process'
 import {mkdtempSync} from 'node:fs'
 import {tmpdir} from 'node:os'

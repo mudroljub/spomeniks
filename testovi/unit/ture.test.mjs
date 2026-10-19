@@ -1,7 +1,7 @@
 import {test} from 'node:test'
 import assert from 'node:assert/strict'
-import {izaberiStanice, sastaviTure} from '../utils/ture.js'
-import {nivoiVaznosti, podrazumevaniPrag, razresiPrag, najmanjiZum, pripadaVrsti} from '../utils/vaznost.js'
+import {izaberiStanice, sastaviTure} from '../../utils/ture.js'
+import {nivoiVaznosti, podrazumevaniPrag, razresiPrag, najmanjiZum, pripadaVrsti} from '../../utils/vaznost.js'
 
 const oblast = {drzave: ['Serbia'], granice: [44, 20, 45, 21]}
 const spomenik = (id, vrsta = 'spomenik', ostalo = {}) => ({

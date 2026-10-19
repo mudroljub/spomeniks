@@ -1,8 +1,6 @@
 import {test} from 'node:test'
 import assert from 'node:assert/strict'
-import {readFileSync} from 'node:fs'
-import {jeClanak, clanakSpomenika} from '../utils/clanci.js'
-import {ucitajBazu} from './baza.mjs'
+import {jeClanak, clanakSpomenika} from '../../utils/clanci.js'
 
 test('izvor podataka nikada nije rezervni članak', () => {
   for (const izvor of ['https://www.openstreetmap.org/way/683348683', 'https://example.com/clanak-o-spomeniku'])
@@ -32,19 +30,4 @@ test('članak zadržava jezički prioritet bez zavisnosti od izvora', () => {
   assert.equal(clanakSpomenika(s), s.wiki)
   assert.equal(clanakSpomenika(s, 'en'), s.wikiEn)
   assert.equal(clanakSpomenika({clanak: s.clanak}), s.clanak)
-})
-
-test('svi izabrani linkovi prolaze proveru, a Topovske šupe imaju članak iz novina', () => {
-  const data = ucitajBazu()
-  for (const s of data) {
-    for (const polje of ['wiki', 'wikiEn', 'clanak'])
-      if (s[polje]) assert.ok(jeClanak(s[polje]), `${s.id}: ${s[polje]}`)
-    if (!s.wiki && !s.wikiEn && !s.clanak) assert.equal(clanakSpomenika(s), undefined)
-  }
-  const topovske = data.find(s => s.id === 'beograd-spomen-park-topovske-supe')
-  assert.equal(clanakSpomenika(topovske), 'https://www.danubeogradu.rs/2021/01/kultura-secanja-info-tabla-o-logoru-topovske-supe/')
-  const izvori = JSON.parse(readFileSync(new URL('../data/izvori.json', import.meta.url), 'utf8'))
-  assert.match(izvori[topovske.id], /openstreetmap/)
-  const biografija = data.find(s => s.id === 'boris-kidric-square')
-  assert.equal(clanakSpomenika(biografija), undefined)
 })

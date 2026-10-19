@@ -1,4 +1,4 @@
-"""python -I alati/test_integritet.py — izlazni status provere na izolovanim podacima."""
+"""Izlazni status alati/integritet.py na izolovanim podacima."""
 import json
 from pathlib import Path
 import subprocess
@@ -7,7 +7,7 @@ import tempfile
 import unittest
 
 
-ALAT = Path(__file__).with_name('integritet.py')
+ALAT = Path(__file__).resolve().parents[2] / 'alati' / 'integritet.py'
 sys.path.insert(0, str(ALAT.parent))
 from zapis import u_istaknutima  # noqa: E402
 
