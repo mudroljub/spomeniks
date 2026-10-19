@@ -112,5 +112,5 @@ Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i ot
   - železničke nesreće;
   - manastiri, iako su nekad mesto događaja (Prohor Pčinjski; tu važi Memorijalni centar ASNOM-a u Pelincu).
 - Spomenik posvećen svim ratovima, sa delom za NOB, ostaje (Trubjela).
-- **Srušeni, uklonjeni i deponovani spomenici idu na mapu kad im je poznata tačka**, sa `stanje` i `stanjeIzvor` (korisnik, 2026-10-18); bez tačke ostaju u `data/bez_lokacije.json`, takođe sa stanjem.
+- **Srušeni, uklonjeni i deponovani spomenici idu na mapu kad im je poznata tačka**, sa `stanje` (korisnik, 2026-10-18); dokaz se čuva u `data/izvori-stanja.json`, po pravilima za `stanjeIzvor` u standardu. Bez tačke ostaju u `data/bez_lokacije.json`, takođe sa stanjem i izdvojenim izvorom.
 - Mesto u polju `mesto` uzima se iz samog izvora ili iz OSM-a, a ne iz najbližeg sela u alatu: tako je česma u Rakovici bila upisana kao Pinosava.

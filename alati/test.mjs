@@ -118,12 +118,13 @@ test('link #id otvara prozor spomenika', async () => {
   assert.match(await izvrsi(`${prozor}.querySelector('.mesto').textContent`), /Banja Luka/)
 })
 
-test('stanje iz stare knjige prikazuje godinu i zaseban izvor', async () => {
+test('stanje se prikazuje bez izvora i godine izdanja', async () => {
   await otvori('#okucani')
   const prozor = "document.querySelector('detalji-spomenika').shadowRoot"
-  const stanje = await sacekaj(`${prozor}.querySelector('.stanje')?.textContent`, 'datirano stanje')
-  assert.match(stanje, /Hrženjak, 2002/)
-  assert.match(await izvrsi(`${prozor}.querySelector('.stanje a').href`), /736\.php\?broj=52$/)
+  const stanje = await sacekaj(`${prozor}.querySelector('.stanje')?.textContent`, 'stanje spomenika')
+  assert.ok(stanje.trim())
+  assert.doesNotMatch(stanje, /Hrženjak|2002/)
+  assert.equal(await izvrsi(`${prozor}.querySelector('.stanje a')`), null)
   await otvori('#banja-luka-maslesa')
   await sacekaj(`${prozor}.querySelector('h2')`, 'drugi spomenik')
   assert.equal(await izvrsi(`${prozor}.querySelector('.stanje a')?.textContent || ''`), '')

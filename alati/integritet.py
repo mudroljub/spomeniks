@@ -1,6 +1,6 @@
 import json, math, os, re, sys, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # zapis.py je pored alata
-from zapis import REDOSLED, ISTAKNUTI, OSTALI, u_istaknutima
+from zapis import REDOSLED, ISTAKNUTI, OSTALI, IZVORI_STANJA, u_istaknutima
 sys.stdout.reconfigure(encoding='utf-8')
 istaknuti, ostali = (json.load(open(f, encoding='utf8')) for f in (ISTAKNUTI, OSTALI))
 d = istaknuti + ostali
@@ -108,14 +108,6 @@ for s in d:
     if 'izvor' in s: greske['izvor u bazi (pripada data/izvori.json)'].append(i)
     for polje in ('wiki', 'wikiEn', 'clanak'):
         if polje in s and (not isinstance(s[polje], str) or not re.match(r'https?://', s[polje])): greske['los link'].append((i, polje, s[polje]))
-    if 'stanjeIzvor' in s:
-        izvor_stanja = s['stanjeIzvor']
-        if (not s.get('stanje') or not isinstance(izvor_stanja, dict)
-                or set(izvor_stanja) != {'naziv', 'godina', 'url'}
-                or not isinstance(izvor_stanja.get('naziv'), str) or not izvor_stanja['naziv'].strip()
-                or type(izvor_stanja.get('godina')) is not int or not 1900 <= izvor_stanja['godina'] <= 2100
-                or not isinstance(izvor_stanja.get('url'), str) or not re.match(r'https?://', izvor_stanja['url'])):
-            greske['neispravan izvor stanja'].append(i)
     if s.get('googleCid') and not re.fullmatch(r'\d+', str(s['googleCid'])): greske['los googleCid'].append((i, s['googleCid']))
     if s.get('godina') and not re.fullmatch(r'\d{4}(\s*[-–/]\s*\d{2,4})?|(pre|posle|oko) \d{4}|\d{3}0-ih', str(s['godina'])): greske['cudna godina'].append((i, s['godina']))
     if 'priblizno' in s and s['priblizno'] is not True: greske['priblizno nije true'].append((i, s['priblizno']))
@@ -172,10 +164,19 @@ for i, n in bez_ids.items():
     if not i: greske['bez lokacije: bez id'].append(n)
     elif n > 1 or i in ids: greske['bez lokacije: isti id'].append(i)
 svi_ids = set(ids) | set(bez_ids)
+zapisi_po_id = {s['id']: s for s in d + bez}
+for i, izvor_stanja in json.load(open(IZVORI_STANJA, encoding='utf8')).items():
+    if (i not in svi_ids or not zapisi_po_id[i].get('stanje') or not isinstance(izvor_stanja, dict)
+            or set(izvor_stanja) != {'naziv', 'godina', 'url'}
+            or not isinstance(izvor_stanja.get('naziv'), str) or not izvor_stanja['naziv'].strip()
+            or type(izvor_stanja.get('godina')) is not int or not 1900 <= izvor_stanja['godina'] <= 2100
+            or not isinstance(izvor_stanja.get('url'), str) or not re.match(r'https?://', izvor_stanja['url'])):
+        greske['neispravan izvor stanja'].append(i)
 for j, s in enumerate(bez):
     oznaka = (s.get('id'), s.get('naziv'), s.get('mesto'))
     if not s.get('naziv') or not s.get('mesto'): greske['bez lokacije: bez naziva ili mesta'].append(oznaka)
     if 'izvor' in s: greske['izvor u spisku bez lokacije (pripada data/izvori.json)'].append(oznaka)
+    if 'stanjeIzvor' in s: greske['izvor stanja u spisku bez lokacije (pripada data/izvori-stanja.json)'].append(oznaka)
     if s.get('vrsta') not in VRSTE: greske['bez lokacije: nepoznata vrsta'].append((oznaka, s.get('vrsta')))
     if 'istaknut' in s and type(s['istaknut']) is not bool: greske['bez lokacije: neispravno istaknut'].append(oznaka)
     if s.get('drzava') not in DRZAVE: greske['bez lokacije: nepoznata drzava'].append((oznaka, s.get('drzava')))

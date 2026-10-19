@@ -391,7 +391,7 @@ export default class Detalji extends HTMLElement {
       <header>
         <h2>
           ${naziv || escapeHtml(spomen.mesto)}
-          ${spomen.stanje ? `<span class="stanje ${nestao(spomen.stanje) ? 'nestao' : ''}">${naziviStanja[spomen.stanje]}${spomen.stanjeIzvor ? ` · <a href="${escapeHtml(spomen.stanjeIzvor.url)}" target="_blank" rel="noopener">${escapeHtml(spomen.stanjeIzvor.naziv)}, ${spomen.stanjeIzvor.godina}</a>` : ''}</span>` : ''}
+          ${spomen.stanje ? `<span class="stanje ${nestao(spomen.stanje) ? 'nestao' : ''}">${naziviStanja[spomen.stanje]}</span>` : ''}
           ${vise ? `<a href="${escapeHtml(vise)}" target="_blank" class="vise">${t('vise')} ›</a>` : ''}
         </h2>
         <button id="zatvori" title="${t('zatvori')}">×</button>

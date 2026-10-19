@@ -2,14 +2,16 @@
 
 Spomenici na mapi su u dva fajla koje aplikacija učitava redom: data/spomenici-istaknuti.json (tačno locirani spomenici
 vidljivi do zuma 9, pa se crtaju odmah) i data/spomenici-ostali.json. Alati rade sa celim spiskom (ucitaj_bazu),
-a sacuvaj_bazu sam raspoređuje zapise; izvor zapisa iz oba spiska i iz spiska bez lokacije čuva se u data/izvori.json.
+a sacuvaj_bazu sam raspoređuje zapise; izvori oba spiska čuvaju se u data/izvori.json,
+a izvori stanja u data/izvori-stanja.json, povezani ID-jem spomenika.
 Tip polja je u data/tipovi.d.ts; novo polje se dodaje i u REDOSLED, inače ga integritet.py prijavi."""
 import json, os, re
 
 REDOSLED = ['id', 'koordinate', 'priblizno', 'googleCid', 'mesto', 'izvor', 'wiki', 'wikiEn', 'clanak', 'slika', 'slikaOdnos', 'slikaPotpis',
-            'naziv', 'nazivEn', 'godina', 'godinaOd', 'godinaDo', 'godinaOdrednica', 'autor', 'ulogeAutora', 'natpis', 'posveta', 'stanje', 'stanjeIzvor',
+            'naziv', 'nazivEn', 'godina', 'autor', 'ulogeAutora', 'natpis', 'posveta', 'stanje',
             'vrsta', 'istaknut', 'drzava']
 ISTAKNUTI, OSTALI, BEZ_LOKACIJE, IZVORI = 'data/spomenici-istaknuti.json', 'data/spomenici-ostali.json', 'data/bez_lokacije.json', 'data/izvori.json'
+IZVORI_STANJA = 'data/izvori-stanja.json'
 ZUM_ISTAKNUTIH = 9
 # zum na kome se vrsta pojavljuje je samo u utils/vaznost.js, koji koristi i aplikacija
 _vaznost = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'utils', 'vaznost.js'), encoding='utf-8').read()
@@ -39,16 +41,17 @@ def ucitaj_bazu():
 
 
 def _izdvoj_izvore(zapisi, ostali_ids):
-    izvori = json.load(open(IZVORI, encoding='utf-8')) if os.path.exists(IZVORI) else {}
-    for s in zapisi:
-        if 'izvor' in s:
-            izvori[s['id']] = s.pop('izvor')
     ids = {s['id'] for s in zapisi} | ostali_ids
-    upisi_json(IZVORI, dict(sorted((i, u) for i, u in izvori.items() if i in ids)))
+    for polje, putanja in (('izvor', IZVORI), ('stanjeIzvor', IZVORI_STANJA)):
+        izvori = json.load(open(putanja, encoding='utf-8')) if os.path.exists(putanja) else {}
+        for s in zapisi:
+            if polje in s:
+                izvori[s['id']] = s.pop(polje)
+        upisi_json(putanja, dict(sorted((i, u) for i, u in izvori.items() if i in ids)))
 
 
 def sacuvaj_bazu(spomenici):
-    """Upisuje spomenike na mapi u dva fajla po važnosti, bez polja izvor (ono ide u data/izvori.json)."""
+    """Upisuje spomenike u dva fajla po važnosti, a izvore u zasebne fajlove povezane ID-jem."""
     _izdvoj_izvore(spomenici, {s['id'] for s in _ucitaj(BEZ_LOKACIJE)})
     spomenici = [poredaj(s) for s in spomenici]
     upisi_json(ISTAKNUTI, [s for s in spomenici if u_istaknutima(s)])
