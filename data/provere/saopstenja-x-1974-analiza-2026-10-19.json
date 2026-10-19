@@ -1,0 +1,1496 @@
+{
+  "datum": "2026-10-19",
+  "naslov": "Detaljna analiza Saopštenja RZZSK X 1974",
+  "status": "analiza-bez-unosa-spomenika",
+  "prioritet": "Najviši po nalogu korisnika.",
+  "izvor": {
+    "broj": "Saopštenja X, 1974",
+    "sadrzaj": "https://www.heritage.gov.rs/latinica/saopstenje_10_1974.php",
+    "clanak": {
+      "autor": "Miodrag Sokolović",
+      "naslovNaPrvojStrani": "Prilog evidenciji spomenika posvećenih u Srbiji 1941. godine",
+      "naslovUSadrzaju": "Prilog evidenciji spomenika posvećenim ustanku Srbije 1941. godine",
+      "stampaneStrane": [
+        245,
+        250
+      ],
+      "pdfListova": 6,
+      "url": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf"
+    },
+    "bibliografija": {
+      "autor": "Gordana Marjanović",
+      "naslov": "Bibliografija članaka štampanih u Saopštenjima od knjige I do IX po autorima",
+      "pocetnaStampanaStrana": 271,
+      "pdfListova": 27,
+      "url": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Biografija_saopstenja_od_I_do_IX.pdf"
+    }
+  },
+  "stvarnoPregledano": "Sadržaj sva 22 priloga broja, svih šest strana direktnog NOB članka sa pet fotografija, bibliografija kroz tekst i tematski odeljak Spomenici NOR-a. Ostali arheološki, sakralni, pravni i konzervatorski članci nisu čitani u celini niti se proglašavaju obrađenim.",
+  "metod": "31 zasebna dela/celine u glavnom članku; ponovljeni potpisi i pomen u tekstu objedinjeni. Trg sa Titom i kurir sa kontekstom muzeja ne uvećavaju broj kao novi nezavisni spomenici. Uparivanje oba spiska pomoću alati/pretraga.py uz konkretan oblik, autora i lokalitet; širi gradski rezultati ručno razdvojeni.",
+  "rezultat": {
+    "spomenickihCelina": 31,
+    "celinaSaAutorskimPodatkom": 31,
+    "istorijskihFotografija": 5,
+    "tacnihKoordinata": 0,
+    "eksplicitnihGodinaPodizanja": 0,
+    "ishodi": {
+      "razresenje": 8,
+      "potvrda": 16,
+      "dopuna": 5,
+      "kandidat-novog": 2
+    },
+    "potvrdjenihNovihZaNeposredanUnos": 0,
+    "novihUnosaOvimRadom": 0,
+    "dopunaSpomenikaOvimRadom": 0
+  },
+  "stavke": [
+    {
+      "oznaka": "jajinci",
+      "mestoIzvor": "Beograd (Jajinci)",
+      "nazivIzvor": "Reljef streljanim žrtvama",
+      "autorIzvor": "Stevan Bodnarov & Leon Kabiljo",
+      "strane": [
+        245,
+        249
+      ],
+      "posvetaIzvor": "Žrtve streljanja 1941–1944.",
+      "lokacijaIOpis": "Jajinci; razdvojeni autor reljefa i projektant.",
+      "ishod": "razresenje",
+      "prioritet": 1,
+      "povezaniId": [
+        "jajinci",
+        "jajinci-spomen-park",
+        "jajinci-spomen-prostor-zrtava-fasistickog-zlocina"
+      ],
+      "ocena": "Razdvojiti reljef iz 1951. od Stojićevog spomenika iz 1988. i parka. U bazi postoji i radni zapis za stari spomen-prostor sa Brankom Bonom i Bodnarovom; Leon Kabiljo u članku označava projekat reljefa. Nema osnova za drugi unos celog parka niti za promenu autora današnjeg centralnog spomenika.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=1",
+      "postojeciZapisi": [
+        {
+          "id": "jajinci",
+          "koordinate": {
+            "lat": 44.7312101,
+            "lng": 20.4888712
+          },
+          "googleCid": "12692474516807029799",
+          "mesto": "Beograd (Jajinci)",
+          "clanak": "https://www.spomenikdatabase.org/jajinci",
+          "slika": "slike/spomenici/jajinci.webp",
+          "slikaOdnos": 1.77,
+          "naziv": "Spomenik žrtvama fašizma u Jajincima",
+          "nazivEn": "Monument to the Victims of Fascism",
+          "godina": "1988",
+          "autor": "Vojin Stojić",
+          "posveta": [
+            "Q1561988"
+          ],
+          "vrsta": "spomenik",
+          "istaknut": true,
+          "drzava": "Serbia",
+          "skup": "mapa"
+        },
+        {
+          "id": "jajinci-spomen-park",
+          "koordinate": {
+            "lat": 44.7306648,
+            "lng": 20.488984
+          },
+          "mesto": "Beograd (Jajinci)",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%88%D0%B0%D1%98%D0%B8%D0%BD%D1%86%D0%B8",
+          "slika": "slike/spomenici/jajinci-spomen-park.webp",
+          "slikaOdnos": 1.493,
+          "slikaPotpis": "Snežana Negovanović, CC BY-SA 3.0",
+          "naziv": "Spomen-park Jajinci",
+          "nazivEn": "Jajinci Memorial Park",
+          "posveta": [
+            "Q1561988"
+          ],
+          "vrsta": "spomen-park",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        },
+        {
+          "id": "jajinci-spomen-prostor-zrtava-fasistickog-zlocina",
+          "mesto": "Jajinci",
+          "naziv": "Spomen-prostor žrtava fašističkog zločina",
+          "autor": "B. Bon, S. Bodnarov",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia",
+          "adresa": "Spomen-prostor žrtava fašističkog zločina. Park od 43 hektara sa spomenikom i bronzanim reljefom, cvetnim alejama, mestom memorijalnih manifestacija. Izgradnja sp",
+          "skup": "bez_lokacije"
+        }
+      ]
+    },
+    {
+      "oznaka": "knjazevac",
+      "mestoIzvor": "Knjaževac",
+      "nazivIzvor": "Palim borcima 1804–1945",
+      "autorIzvor": "Bogdan Bogdanović",
+      "strane": [
+        246,
+        250
+      ],
+      "posvetaIzvor": "Pali borci 1804–1945.",
+      "lokacijaIOpis": "Knjaževac; fotografija Miodraga Sokolovića iz 1972.",
+      "ishod": "potvrda",
+      "prioritet": 3,
+      "povezaniId": [
+        "knjazevac"
+      ],
+      "ocena": "Autor i obuhvat posvete već odgovaraju bazi. Fotografija iz 1972. potvrđuje tadašnji izgled; 1972. nije godina podizanja i ne zamenjuje postojeću 1971.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=2",
+      "postojeciZapisi": [
+        {
+          "id": "knjazevac",
+          "koordinate": {
+            "lat": 43.5665202,
+            "lng": 22.254022
+          },
+          "googleCid": "16048768861504106019",
+          "mesto": "Knjaževac",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%BF%D0%B0%D0%BB%D0%B8%D0%BC_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D1%83_%D0%BE%D1%81%D0%BB%D0%BE%D0%B1%D0%BE%D0%B4%D0%B8%D0%BB%D0%B0%D1%87%D0%BA%D0%B8%D0%BC_%D1%80%D0%B0%D1%82%D0%BE%D0%B2%D0%B8%D0%BC%D0%B0_1804-1945.",
+          "slika": "slike/spomenici/knjazevac.webp",
+          "slikaOdnos": 1.504,
+          "naziv": "Spomen-park palim borcima u oslobodilačkim ratovima 1804–1945",
+          "nazivEn": "Monument to History of the Freedom Fight",
+          "godina": "1971",
+          "autor": "Bogdan Bogdanović",
+          "posveta": "palim borcima u oslobodilačkim ratovima 1804–1945",
+          "vrsta": "spomen-park",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "kragujevac-djaci",
+      "mestoIzvor": "Kragujevac",
+      "nazivIzvor": "Streljanim đacima",
+      "autorIzvor": "Miodrag Živković",
+      "strane": [
+        247,
+        250
+      ],
+      "posvetaIzvor": "Streljani đaci; prekinut dečji polet.",
+      "lokacijaIOpis": "Šumarice; fotografija R. Živkovića.",
+      "ishod": "potvrda",
+      "prioritet": 3,
+      "povezaniId": [
+        "kragujevac-sumarice-park"
+      ],
+      "ocena": "Postojeći spomenik streljanim đacima i profesorima, autor već upisan. Fotografija je zaseban istorijski dokaz izgleda.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=3",
+      "postojeciZapisi": [
+        {
+          "id": "kragujevac-sumarice-park",
+          "koordinate": {
+            "lat": 44.0159875,
+            "lng": 20.8859093
+          },
+          "googleCid": "1583185476969146208",
+          "mesto": "Kragujevac",
+          "clanak": "https://www.spomenikdatabase.org/kragujevac",
+          "slika": "slike/spomenici/kragujevac-sumarice-park.webp",
+          "slikaOdnos": 1.77,
+          "naziv": "Spomenik streljanim đacima i profesorima",
+          "nazivEn": "Interrupted Flight Monument",
+          "godina": "1963",
+          "autor": "Miodrag Živković",
+          "posveta": [
+            "Q685201"
+          ],
+          "vrsta": "spomenik",
+          "istaknut": true,
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "topola",
+      "mestoIzvor": "Topola",
+      "nazivIzvor": "Majkama i kćerima Šumadije",
+      "autorIzvor": "Ante Gržetić",
+      "strane": [
+        248,
+        250
+      ],
+      "posvetaIzvor": "Majke i kćeri Šumadije pale 1941–1945.",
+      "lokacijaIOpis": "Topola; fotografija Miodraga Sokolovića iz 1972.",
+      "ishod": "dopuna",
+      "prioritet": 1,
+      "povezaniId": [
+        "topola-skulpturalna-kompozicija-isklesana-u-belom",
+        "topola"
+      ],
+      "ocena": "Fotografija dve apstraktne ženske figure identifikuje delo Ante Gržetića, za koje već postoji približan zapis sa opštim naslovom i inicijalom. Pogodno za konkretniji naslov, puno ime autora, posvetu i fotografiju. topola prikazuje četiri portretne glave Kamenog buketa, drugo delo; ne pripisivati mu Gržetića. Potpis datira snimak u 1972, što pobija kasnije pripisivanu 1976. kao godinu istog fotografisanog dela, ali samo po sebi ne potvrđuje 1967. iz baze.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=4",
+      "postojeciZapisi": [
+        {
+          "id": "topola-skulpturalna-kompozicija-isklesana-u-belom",
+          "koordinate": {
+            "lat": 44.25448,
+            "lng": 20.67972
+          },
+          "priblizno": true,
+          "mesto": "Topola",
+          "naziv": "Skulpturalna kompozicija isklesana u belom mermeru",
+          "godina": "1967",
+          "autor": "A. Gržetić",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        },
+        {
+          "id": "topola",
+          "koordinate": {
+            "lat": 44.2507885,
+            "lng": 20.6826668
+          },
+          "googleCid": "10859751149113571617",
+          "mesto": "Topola",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D1%86%D0%B8_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A2%D0%BE%D0%BF%D0%BE%D0%BB%D0%B8",
+          "slika": "slike/spomenici/topola.webp",
+          "slikaOdnos": 1.194,
+          "naziv": "Spomenici NOB u Topoli",
+          "nazivEn": "The 'Stone Bouquet' Memorial",
+          "godina": "1971",
+          "vrsta": "spomenik",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "dedinje",
+      "mestoIzvor": "Beograd (Dedinje)",
+      "nazivIzvor": "Poziv na ustanak",
+      "autorIzvor": "Vojin Bakić",
+      "strane": [
+        247
+      ],
+      "posvetaIzvor": "Poziv na borbu i otpor okupatoru.",
+      "lokacijaIOpis": "Ispred tadašnjeg Muzeja 4. jula; podignute ruke, stisnute pesnice.",
+      "ishod": "potvrda",
+      "prioritet": 3,
+      "povezaniId": [
+        "beograd-poziv-na-ustanak",
+        "museum-of-july-4th"
+      ],
+      "ocena": "Autor već upisan. Opšta simbolika poziva na ustanak nije dokaz posvete konkretnom događaju ili jedinici. Istorijski položaj ispred Muzeja 4. jula ne zamenjuje kasniju lokaciju odlivka.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=3",
+      "postojeciZapisi": [
+        {
+          "id": "beograd-poziv-na-ustanak",
+          "koordinate": {
+            "lat": 44.7877831,
+            "lng": 20.4542653
+          },
+          "mesto": "Beograd (Dedinje)",
+          "wiki": "https://sr.wikipedia.org/wiki/Скулптура_Позив_на_устанак",
+          "clanak": "https://skulptura-hronologijaizlaganja.rs/spomenik-streljanima-poziv-na-ustanak-postavljen-u-beogradu/",
+          "slika": "slike/spomenici/beograd-poziv-na-ustanak.webp",
+          "slikaOdnos": 0.586,
+          "slikaPotpis": "Pavle Marjanović, CC BY-SA 3.0",
+          "naziv": "Poziv na ustanak",
+          "godina": "1949",
+          "autor": "Vojin Bakić",
+          "vrsta": "statua",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        },
+        {
+          "id": "museum-of-july-4th",
+          "koordinate": {
+            "lat": 44.7876489,
+            "lng": 20.45444
+          },
+          "mesto": "Beograd",
+          "wiki": "https://sh.wikipedia.org/wiki/Muzej_4._juli",
+          "slika": "slike/spomenici/museum-of-july-4th.webp",
+          "slikaOdnos": 1.498,
+          "naziv": "Muzej 4. juli",
+          "stanje": "zatvoren",
+          "vrsta": "muzej",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "bucje",
+      "mestoIzvor": "Bučje",
+      "nazivIzvor": "Poziv na ustanak",
+      "autorIzvor": "Vojin Bakić",
+      "strane": [
+        247
+      ],
+      "posvetaIzvor": "Borci NOR Porečja.",
+      "lokacijaIOpis": "Bučje kod Leskovca, ne istoimena sela u drugim krajevima.",
+      "ishod": "razresenje",
+      "prioritet": 2,
+      "povezaniId": [
+        "vucje-poziv-na-ustanak",
+        "bucje-spomenik-nob-2"
+      ],
+      "ocena": "Članak piše Bučje (Leskovac) i pripisuje delo Vojinu Bakiću. Zvanični urbanistički plan Vučja, PDF str. 18, odvojeno navodi skulpturu Poziv na ustanak Dušana Nikolića. Geografski naziv, identitet i autorska razlika ostaju sporni; nema automatske promene autora niti novog markera u Bučju.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=3",
+      "postojeciZapisi": [
+        {
+          "id": "vucje-poziv-na-ustanak",
+          "koordinate": {
+            "lat": 42.866558,
+            "lng": 21.911752
+          },
+          "mesto": "Vučje",
+          "wiki": "https://sr.wikipedia.org/wiki/Споменик_Позив_на_устанак_у_Вучју",
+          "slika": "slike/spomenici/vucje-poziv-na-ustanak.webp",
+          "slikaOdnos": 0.667,
+          "slikaPotpis": "Omladinskiklubanciki, CC BY-SA 4.0",
+          "naziv": "Poziv na ustanak",
+          "godina": "1959",
+          "autor": "Dušan Nikolić",
+          "vrsta": "statua",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        },
+        {
+          "id": "bucje-spomenik-nob-2",
+          "koordinate": {
+            "lat": 43.677251,
+            "lng": 22.124778
+          },
+          "priblizno": true,
+          "mesto": "Bučje",
+          "naziv": "Spomenik NOB",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "stolice",
+      "mestoIzvor": "Stolice",
+      "nazivIzvor": "Partizanskom kuriru",
+      "autorIzvor": "Stevan Bodnarov",
+      "strane": [
+        247
+      ],
+      "posvetaIzvor": "Savetovanje u Stolicama; izvor štampa 26.9.1942, što zahteva ispravku/proveru.",
+      "lokacijaIOpis": "Stolice kod Krupnja; puška iza leđa; kuća savetovanja pretvorena u memorijalni muzej.",
+      "ishod": "dopuna",
+      "prioritet": 2,
+      "povezaniId": [
+        "stolice-partizanski-kurir"
+      ],
+      "ocena": "Već postoji bez lokacije sa autorom. Pogodno za dopunu posvete savetovanju, uz ispravnu 1941. godinu potvrđenu nezavisnim istorijskim izvorom. U članku stoji 1942. Istorijski položaj i članak iz 1974. nisu dokaz sadašnjeg opstanka ili tačke skulpture.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=3",
+      "postojeciZapisi": [
+        {
+          "id": "stolice-partizanski-kurir",
+          "mesto": "Stolice",
+          "naziv": "Partizanski kurir",
+          "godina": "1954",
+          "autor": "Stevan Bodnarov",
+          "vrsta": "statua",
+          "drzava": "Serbia",
+          "adresa": "Pored Istorijske kuće",
+          "skup": "bez_lokacije"
+        }
+      ]
+    },
+    {
+      "oznaka": "kraljevo",
+      "mestoIzvor": "Kraljevo",
+      "nazivIzvor": "Otpor i stradanje",
+      "autorIzvor": "Lojze Dolinar",
+      "strane": [
+        249
+      ],
+      "posvetaIzvor": "Pali ratnici, borci i žrtve fašističkog terora.",
+      "lokacijaIOpis": "Kraljevo; potpis fotografije koristi Otpor i streljanje, telo teksta Otpor i stradanje.",
+      "ishod": "potvrda",
+      "prioritet": 3,
+      "povezaniId": [
+        "kraljevo-resistance-torment"
+      ],
+      "ocena": "Lojze Dolinar već upisan. Različiti naslovi unutar članka ne daju osnov za drugi spomenik; čuvaju se kao istorijske varijante.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=5",
+      "postojeciZapisi": [
+        {
+          "id": "kraljevo-resistance-torment",
+          "koordinate": {
+            "lat": 43.7278627,
+            "lng": 20.6917124
+          },
+          "googleCid": "1872744132368100023",
+          "mesto": "Kraljevo",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BE%D1%82%D0%BF%D0%BE%D1%80%D0%B0_%D0%B8_%D0%BF%D0%BE%D0%B1%D0%B5%D0%B4%D0%B5",
+          "slika": "slike/spomenici/kraljevo-resistance-torment.webp",
+          "slikaOdnos": 1.408,
+          "naziv": "Spomenik otpora i pobede",
+          "nazivEn": "Monument to Resistance & Torment",
+          "godina": "1955",
+          "autor": "Lojze Dolinar",
+          "vrsta": "spomenik",
+          "istaknut": true,
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "skela",
+      "mestoIzvor": "Skela",
+      "nazivIzvor": "Streljanim rodoljubima",
+      "autorIzvor": "Boža Obradović",
+      "strane": [
+        249
+      ],
+      "posvetaIzvor": "Odmazda 14.8.1941.",
+      "lokacijaIOpis": "Pravougaoni kameni nosač obložen mermerom, bronzani reljef.",
+      "ishod": "potvrda",
+      "prioritet": 3,
+      "povezaniId": [
+        "skela-obrenovac",
+        "skela-spomenik-streljanim-taocima"
+      ],
+      "ocena": "Najjasniji par skela-obrenovac već ima Božu Obradovića i povezanu posvetu. Drugi zapis sa 1970. ne dobija automatski starije autorstvo samo zbog istog sela i događaja.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=5",
+      "postojeciZapisi": [
+        {
+          "id": "skela-obrenovac",
+          "koordinate": {
+            "lat": 44.6758038,
+            "lng": 20.0416666
+          },
+          "googleCid": "581410432629941842",
+          "mesto": "Skela (Obrenovac)",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D1%81%D1%82%D1%80%D0%B5%D1%99%D0%B0%D0%BD%D0%B8%D0%BC_%D1%82%D0%B0%D0%BE%D1%86%D0%B8%D0%BC%D0%B0",
+          "slika": "slike/spomenici/skela-obrenovac.webp",
+          "slikaOdnos": 1.336,
+          "slikaPotpis": "Dungodung, CC BY-SA 3.0",
+          "naziv": "Spomenik streljanim taocima",
+          "godina": "1951",
+          "autor": "Boža Obradović",
+          "posveta": [
+            "Q27016263"
+          ],
+          "vrsta": "spomenik",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        },
+        {
+          "id": "skela-spomenik-streljanim-taocima",
+          "koordinate": {
+            "lat": 44.681443,
+            "lng": 20.053818
+          },
+          "mesto": "Skela",
+          "slika": "slike/spomenici/skela-spomenik-streljanim-taocima.webp",
+          "slikaOdnos": 1.124,
+          "slikaPotpis": "Henrik Olof, CC BY-SA 3.0",
+          "naziv": "Spomenik streljanim taocima",
+          "godina": "1970",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "zemun",
+      "mestoIzvor": "Beograd (Zemun)",
+      "nazivIzvor": "Palim borcima narodne revolucije",
+      "autorIzvor": "Jovan Kratohvil",
+      "strane": [
+        249
+      ],
+      "posvetaIzvor": "Pali borci 1941–1945.",
+      "lokacijaIOpis": "Pravougaoni obelisk u Zemunu.",
+      "ishod": "potvrda",
+      "prioritet": 3,
+      "povezaniId": [
+        "zemun-fallen-fighters"
+      ],
+      "ocena": "Pravougaoni obelisk odgovara postojećem zapisu, autor Jovan Kratohvil već upisan.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=5",
+      "postojeciZapisi": [
+        {
+          "id": "zemun-fallen-fighters",
+          "koordinate": {
+            "lat": 44.8407097,
+            "lng": 20.413654
+          },
+          "googleCid": "16275050861615347885",
+          "mesto": "Beograd (Zemun)",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BF%D0%B0%D0%BB%D0%B8%D0%BC_%D1%83_%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D1%98_%D1%80%D0%B5%D0%B2%D0%BE%D0%BB%D1%83%D1%86%D0%B8%D1%98%D0%B8_1941%E2%80%941945.",
+          "slika": "slike/spomenici/zemun-fallen-fighters.webp",
+          "slikaOdnos": 1.556,
+          "naziv": "Spomenik palim u narodnoj revoluciji 1941-1945",
+          "nazivEn": "Monument to Fallen Fighters Monument",
+          "godina": "1954",
+          "autor": "Jovan Kratohvil",
+          "vrsta": "spomenik",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "zeleznik",
+      "mestoIzvor": "Beograd (Železnik)",
+      "nazivIzvor": "Palim borcima NOR",
+      "autorIzvor": "Miša Popović",
+      "strane": [
+        249
+      ],
+      "posvetaIzvor": "Pali borci NOR.",
+      "lokacijaIOpis": "Štampano Žele-niku / verovatno Železnik; potrebno potvrditi identitet.",
+      "ishod": "razresenje",
+      "prioritet": 2,
+      "povezaniId": [
+        "zeleznik-spomenik-palim-1941-1945",
+        "ostruznica-stari-zeleznik-spomenik-palim-borcima"
+      ],
+      "ocena": "Radni zapis već ima M. Popovića i konkretniju adresu ispred Zadružnog doma. Miša iz članka je trag za razrešenje inicijala; ne proširivati automatski u Miodrag ili Mića niti prenositi autora na drugi obelisk u Starom Železniku.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=5",
+      "postojeciZapisi": [
+        {
+          "id": "zeleznik-spomenik-palim-1941-1945",
+          "mesto": "Železnik",
+          "naziv": "Spomenik palim 1941-1945",
+          "autor": "M. Popović",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia",
+          "adresa": "Spomenik palim 1941-1945. ispred Zadružnog doma. Bronzana figura otkrivena 7. jula 1952. godine. Vajar M. Popović. Mermerna ploča na fasadi Zadružnog doma sa im",
+          "skup": "bez_lokacije"
+        },
+        {
+          "id": "ostruznica-stari-zeleznik-spomenik-palim-borcima",
+          "koordinate": {
+            "lat": 44.7241315,
+            "lng": 20.3718938
+          },
+          "mesto": "Ostružnica (Stari Železnik)",
+          "naziv": "Spomenik palim borcima",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "vozdovac",
+      "mestoIzvor": "Beograd (Voždovac)",
+      "nazivIzvor": "Spomenik Narodnooslobodilačkom ratu",
+      "autorIzvor": "Sreten Stojanović",
+      "strane": [
+        249
+      ],
+      "posvetaIzvor": "Narodnooslobodilački rat.",
+      "lokacijaIOpis": "Voždovac.",
+      "ishod": "kandidat-novog",
+      "prioritet": 1,
+      "povezaniId": [],
+      "ocena": "Mogući nedostajući zaseban unos za Borbu Sretena Stojanovića pred Opštinom Voždovac. Akademska Hronologija izlaganja skulpture potvrđuje Borbu i zasebnu Obnovu Lojza Dolinara na toj lokaciji. Za Borbu još treba potvrditi tačku objekta i fotografiju; članak ne daje osnov da se usput doda i Obnova kao NOB posveta. Puni tekst Hronologije navodi postavljanje 1949. i zajednički pin za dve skulpture; godina je iz dopunskog izvora, ne iz članka 1974.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=5",
+      "postojeciZapisi": [],
+      "kandidatLokacije": {
+        "lat": 44.787868873275,
+        "lng": 20.47689422965,
+        "izvor": "Akademska Hronologija izlaganja skulpture, HTML data-lat/data-lng",
+        "ogranicenje": "Zajednički pin stranice za Borbu i Obnovu, nije još potvrđeno podnožje Borbe. Provera baze do 600 m našla samo različito obeležje ilegalnoj štampariji, oko 93 m od pina."
+      }
+    },
+    {
+      "oznaka": "bela-crkva",
+      "mestoIzvor": "Bela Crkva",
+      "nazivIzvor": "Spomenik ustanku",
+      "autorIzvor": "Bogdan Bogdanović",
+      "strane": [
+        249
+      ],
+      "posvetaIzvor": "7. jul 1941.",
+      "lokacijaIOpis": "Bela Crkva kod Krupnja; devet antropomorfnih granitnih gromada, ornamenti nošnje i voda.",
+      "ishod": "potvrda",
+      "prioritet": 3,
+      "povezaniId": [
+        "bela-crkva-start-uprising",
+        "bela-crkva-spomenicki-kompleks"
+      ],
+      "ocena": "Bogdanovićevo delo već pokriveno. Devet gromada, ornamentika i voda pomažu identifikaciji elementa unutar kompleksa, ne pravljenju novih markera za svaki njegov deo.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=5",
+      "postojeciZapisi": [
+        {
+          "id": "bela-crkva-start-uprising",
+          "koordinate": {
+            "lat": 44.3938865,
+            "lng": 19.4789676
+          },
+          "googleCid": "17359694856435722725",
+          "mesto": "Bela Crkva (Mačva)",
+          "clanak": "https://www.spomenikdatabase.org/bela-crkva",
+          "slika": "slike/spomenici/bela-crkva-start-uprising.webp",
+          "slikaOdnos": 1.77,
+          "naziv": "Simbolika u kamenu",
+          "nazivEn": "Monument to the Start of the Uprising",
+          "godina": "1971",
+          "autor": "Bogdan Bogdanović",
+          "vrsta": "spomenik",
+          "istaknut": true,
+          "drzava": "Serbia",
+          "skup": "mapa"
+        },
+        {
+          "id": "bela-crkva-spomenicki-kompleks",
+          "koordinate": {
+            "lat": 44.3938865,
+            "lng": 19.4789676
+          },
+          "mesto": "Bela Crkva (Mačva)",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D1%87%D0%BA%D0%B8_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%91%D0%B5%D0%BB%D0%B0_%D0%A6%D1%80%D0%BA%D0%B2%D0%B0",
+          "slika": "slike/spomenici/bela-crkva-spomenicki-kompleks.webp",
+          "slikaOdnos": 1.333,
+          "slikaPotpis": "The original uploader was Dare.987 at Serbian Wikipedia., CC BY 3.0 rs",
+          "naziv": "Spomenički kompleks Bela Crkva",
+          "nazivEn": "Bela Crkva Memorial Complex",
+          "vrsta": "spomen-park",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "kragujevac-bol",
+      "mestoIzvor": "Kragujevac",
+      "nazivIzvor": "Dve figure od belog mermera",
+      "autorIzvor": "Ante Gržetić",
+      "strane": [
+        249,
+        250
+      ],
+      "posvetaIzvor": "Streljani građani oktobra 1941.",
+      "lokacijaIOpis": "Šumarice; dve figure i simbolika umiranja.",
+      "ishod": "potvrda",
+      "prioritet": 3,
+      "povezaniId": [
+        "kragujevac-spomenik-bola-i-prkosa"
+      ],
+      "ocena": "Dve figure u belom mermeru odgovaraju postojećem delu Ante Gržetića.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=5",
+      "postojeciZapisi": [
+        {
+          "id": "kragujevac-spomenik-bola-i-prkosa",
+          "koordinate": {
+            "lat": 44.0173144,
+            "lng": 20.8919855
+          },
+          "googleCid": "3738595748652517628",
+          "mesto": "Kragujevac",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%91%D0%BE%D0%BB%D0%B0_%D0%B8_%D0%9F%D1%80%D0%BA%D0%BE%D1%81%D0%B0",
+          "slika": "slike/spomenici/kragujevac-spomenik-bola-i-prkosa.webp",
+          "slikaOdnos": 0.75,
+          "slikaPotpis": "Mofesty, CC BY-SA 3.0",
+          "naziv": "Spomenik Bola i Prkosa",
+          "nazivEn": "Monument of Pain and Defiance",
+          "godina": "1959",
+          "autor": "Ante Gržetić",
+          "vrsta": "statua",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "kragujevac-ranjenik",
+      "mestoIzvor": "Kragujevac",
+      "nazivIzvor": "Teško ranjeni čovek",
+      "autorIzvor": "Ante Gržetić",
+      "strane": [
+        250
+      ],
+      "posvetaIzvor": "Streljani građani oktobra 1941.",
+      "lokacijaIOpis": "Šumarice; figura u crnom mermeru.",
+      "ishod": "potvrda",
+      "prioritet": 3,
+      "povezaniId": [
+        "kragujevac-spomenik-otpora-i-slobode"
+      ],
+      "ocena": "Crni mermer i autor razlikuju delo od Panićeve spomen-fontane Ranjenik. Autor već Ante Gržetić; ne menjati prema istoj opštoj reči ranjenik.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=6",
+      "postojeciZapisi": [
+        {
+          "id": "kragujevac-spomenik-otpora-i-slobode",
+          "koordinate": {
+            "lat": 44.0254514,
+            "lng": 20.9001564
+          },
+          "mesto": "Kragujevac",
+          "clanak": "https://skulptura-hronologijaizlaganja.rs/spomenik-otpora-i-slobode-spomen-park-kragujevacki-oktobar-kragujevac/",
+          "slika": "slike/spomenici/kragujevac-spomenik-otpora-i-slobode.webp",
+          "slikaOdnos": 0.75,
+          "slikaPotpis": "Јованвб, CC BY-SA 3.0",
+          "naziv": "Spomenik otpora i slobode",
+          "godina": "1966",
+          "autor": "Ante Gržetić",
+          "vrsta": "spomenik",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "kragujevac-cistaci",
+      "mestoIzvor": "Kragujevac",
+      "nazivIzvor": "Streljanim dečacima čistačima obuće",
+      "autorIzvor": "N. Delja",
+      "strane": [
+        250
+      ],
+      "posvetaIzvor": "Streljani dečaci čistači obuće.",
+      "lokacijaIOpis": "Šumarice; izvor daje samo inicijal autora.",
+      "ishod": "dopuna",
+      "prioritet": 2,
+      "povezaniId": [
+        "kragujevac-spomenik-kristalni-cvet"
+      ],
+      "ocena": "N. Delja i konkretna posveta streljanim dečacima čistačima obuće uparuju se sa Kristalnim cvetom; baza već ima Nebojšu Delju. Pogodno za dopunu trenutno prazne posvete, ne za nov spomenik.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=6",
+      "postojeciZapisi": [
+        {
+          "id": "kragujevac-spomenik-kristalni-cvet",
+          "koordinate": {
+            "lat": 44.0352009,
+            "lng": 20.8787569
+          },
+          "mesto": "Kragujevac",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%E2%80%9E%D0%9A%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%BB%D0%BD%D0%B8_%D1%86%D0%B2%D0%B5%D1%82%E2%80%9D",
+          "slika": "slike/spomenici/kragujevac-spomenik-kristalni-cvet.webp",
+          "slikaOdnos": 1.333,
+          "slikaPotpis": "Јованвб, CC BY-SA 3.0",
+          "naziv": "Spomenik „Kristalni cvet“",
+          "nazivEn": "The \"Crystal Flower\" Monument",
+          "godina": "1968",
+          "autor": "Nebojša Delja",
+          "vrsta": "spomenik",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "uzice-tito",
+      "mestoIzvor": "Užice",
+      "nazivIzvor": "Trg partizana i Titova skulptura",
+      "autorIzvor": "Franjo Kršinić",
+      "strane": [
+        250
+      ],
+      "posvetaIzvor": "Užička republika.",
+      "lokacijaIOpis": "Tada na Trgu partizana; istorijska lokacija, ne dokaz današnjeg položaja.",
+      "ishod": "razresenje",
+      "prioritet": 2,
+      "povezaniId": [
+        "uzice-spomenik-josipu-brozu-titu"
+      ],
+      "ocena": "Delo već postoji i ima Frana Kršinića; Franjo je varijanta iz članka. Trg partizana je istorijsko mesto. Pri eventualnoj proveri tačke pratiti prenos statue u muzej; ne vraćati je na trg prema izvoru iz 1974.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=6",
+      "postojeciZapisi": [
+        {
+          "id": "uzice-spomenik-josipu-brozu-titu",
+          "koordinate": {
+            "lat": 43.8544791,
+            "lng": 19.8466763
+          },
+          "mesto": "Užice",
+          "clanak": "https://skulptura-hronologijaizlaganja.rs/spomenik-josipu-brozu-titu-uzice/",
+          "slika": "slike/spomenici/uzice-spomenik-josipu-brozu-titu.webp",
+          "slikaOdnos": 0.75,
+          "slikaPotpis": "Pinki, Public domain",
+          "naziv": "Spomenik Josipu Brozu Titu",
+          "godina": "1962",
+          "autor": "Frano Kršinić",
+          "posveta": [
+            "Q9161"
+          ],
+          "vrsta": "statua",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "beograd-groblje",
+      "mestoIzvor": "Beograd",
+      "nazivIzvor": "Spomen-groblje palim borcima na Novom groblju",
+      "autorIzvor": "Bogdan Bogdanović & Svetislav Ličina",
+      "strane": [
+        250
+      ],
+      "posvetaIzvor": "Pali borci.",
+      "lokacijaIOpis": "Izvor navodi Novo groblje; autorstvo i identitet proveriti prema drugim grobnim celinama.",
+      "ishod": "dopuna",
+      "prioritet": 1,
+      "povezaniId": [
+        "belgrade-s-new-cemetery",
+        "beograd-spomen-groblje-palim-borcima-u-beogradu-19"
+      ],
+      "ocena": "Aleja streljanih rodoljuba na Novom groblju nema autore u mapi. Bogdan Bogdanović i Svetislav Ličina potvrđeni su i Arhivom modernizma, koja navodi ličnu arhivu Bogdanovića. To je najjasnija autorska dopuna. Radni unos palim borcima 1941–1944 može biti ista celina, ali spajanje zahteva poseban pregled veza; nije Groblje oslobodilaca Beograda Branka Bona.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=6",
+      "postojeciZapisi": [
+        {
+          "id": "belgrade-s-new-cemetery",
+          "koordinate": {
+            "lat": 44.807902,
+            "lng": 20.4873669
+          },
+          "googleCid": "5605490533968787820",
+          "mesto": "Beograd (Novo groblje)",
+          "slika": "slike/spomenici/belgrade-s-new-cemetery.webp",
+          "slikaOdnos": 1.639,
+          "naziv": "Aleja streljanih rodoljuba",
+          "nazivEn": "The Alley of the Executed Patriots",
+          "godina": "1959",
+          "vrsta": "spomen-groblje",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        },
+        {
+          "id": "beograd-spomen-groblje-palim-borcima-u-beogradu-19",
+          "mesto": "Beograd",
+          "naziv": "Spomen-groblje palim borcima u Beogradu 1941–1944",
+          "vrsta": "spomen-groblje",
+          "drzava": "Serbia",
+          "adresa": "Novo groblje, Ruzveltova ulica",
+          "skup": "bez_lokacije"
+        }
+      ]
+    },
+    {
+      "oznaka": "beograd-jevrejsko",
+      "mestoIzvor": "Beograd",
+      "nazivIzvor": "Jevrejskim žrtvama fašizma i palim borcima",
+      "autorIzvor": "Bogdan Bogdanović",
+      "strane": [
+        250
+      ],
+      "posvetaIzvor": "Jevrejske žrtve fašizma i pali borci iz NR Srbije.",
+      "lokacijaIOpis": "Beograd; ne poistovećivati sa prethodnim spomen-grobljem.",
+      "ishod": "potvrda",
+      "prioritet": 3,
+      "povezaniId": [
+        "belgrade-cemetery"
+      ],
+      "ocena": "Bogdanović i delo već pokriveni. Ne dodavati drugi zapis zbog toga što se u tekstu pominju i pali borci uz jevrejske žrtve.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=6",
+      "postojeciZapisi": [
+        {
+          "id": "belgrade-cemetery",
+          "koordinate": {
+            "lat": 44.8117759,
+            "lng": 20.4854272
+          },
+          "googleCid": "6573469034468349085",
+          "mesto": "Beograd (Novo groblje)",
+          "clanak": "https://www.spomenikdatabase.org/belgrade",
+          "slika": "slike/spomenici/belgrade-cemetery.webp",
+          "slikaOdnos": 1.311,
+          "naziv": "Spomenik jevrejskim žrtvama fašizma",
+          "nazivEn": "Mon. to WWII Jewish Fighters & Victims",
+          "godina": "1952",
+          "autor": "Bogdan Bogdanović",
+          "vrsta": "spomenik",
+          "istaknut": true,
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "leskovac",
+      "mestoIzvor": "Leskovac",
+      "nazivIzvor": "Spomenik palim borcima",
+      "autorIzvor": "Bogdan Bogdanović",
+      "strane": [
+        250
+      ],
+      "posvetaIzvor": "Pali borci.",
+      "lokacijaIOpis": "Grad bez precizne adrese.",
+      "ishod": "potvrda",
+      "prioritet": 3,
+      "povezaniId": [
+        "leskovac"
+      ],
+      "ocena": "Postojeći Bogdanovićev Spomen-park Revolucije; članak nema novu mikrolokaciju ili godinu podizanja.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=6",
+      "postojeciZapisi": [
+        {
+          "id": "leskovac",
+          "koordinate": {
+            "lat": 42.983052,
+            "lng": 21.9428136
+          },
+          "googleCid": "11384294186050268874",
+          "mesto": "Leskovac",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%A0%D0%B5%D0%B2%D0%BE%D0%BB%D1%83%D1%86%D0%B8%D1%98%D0%B5_%28%D0%9B%D0%B5%D1%81%D0%BA%D0%BE%D0%B2%D0%B0%D1%86%29",
+          "clanak": "https://www.spomenikdatabase.org/leskovac",
+          "slika": "slike/spomenici/leskovac.webp",
+          "slikaOdnos": 1.77,
+          "naziv": "Spomen-park Revolucije",
+          "nazivEn": "Monument to the Revolution",
+          "godina": "1971",
+          "autor": "Bogdan Bogdanović",
+          "vrsta": "spomen-park",
+          "istaknut": true,
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "krusevac",
+      "mestoIzvor": "Kruševac",
+      "nazivIzvor": "Spomenik palim borcima",
+      "autorIzvor": "Bogdan Bogdanović",
+      "strane": [
+        250
+      ],
+      "posvetaIzvor": "Pali borci.",
+      "lokacijaIOpis": "Grad bez precizne adrese.",
+      "ishod": "potvrda",
+      "prioritet": 3,
+      "povezaniId": [
+        "krusevac"
+      ],
+      "ocena": "Postojeće Slobodište; autor već upisan. Drugi spomenici u istom gradu ne dobijaju to autorstvo.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=6",
+      "postojeciZapisi": [
+        {
+          "id": "krusevac",
+          "koordinate": {
+            "lat": 43.5621255,
+            "lng": 21.3295163
+          },
+          "googleCid": "14519384068770466998",
+          "mesto": "Kruševac",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B1%D0%BE%D0%B4%D0%B8%D1%88%D1%82%D0%B5",
+          "clanak": "https://www.spomenikdatabase.org/krusevac",
+          "slika": "slike/spomenici/krusevac.webp",
+          "slikaOdnos": 1.77,
+          "naziv": "Spomen-park Slobodište",
+          "nazivEn": "Slobodište Memorial Complex",
+          "godina": "1965",
+          "autor": "Bogdan Bogdanović",
+          "vrsta": "spomen-park",
+          "istaknut": true,
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "obalski",
+      "mestoIzvor": "Beograd",
+      "nazivIzvor": "Palim obalskim radnicima",
+      "autorIzvor": "Rade Stanković",
+      "strane": [
+        250
+      ],
+      "posvetaIzvor": "Obalski radnici pali tokom NOB.",
+      "lokacijaIOpis": "Kod Novog mosta; istorijski naziv mosta treba razrešiti.",
+      "ishod": "razresenje",
+      "prioritet": 2,
+      "povezaniId": [
+        "belgrade-port",
+        "beograd-spomenik-obalskim-radnicima-palim-u-nob-u"
+      ],
+      "ocena": "Dva postojeća zapisa sa Radetom Stankovićem i različitim godinama 1954/1952. Rade u članku nije drugi autor. Novi most je istorijski lokacijski trag; potrebno poređenje tačaka i fotografija pre zaključka da su zapisi duplikati ili različiti objekti.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=6",
+      "postojeciZapisi": [
+        {
+          "id": "belgrade-port",
+          "koordinate": {
+            "lat": 44.8161639,
+            "lng": 20.4496495
+          },
+          "googleCid": "8305039019735249510",
+          "mesto": "Beograd (Luka Beograd)",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BF%D0%B0%D0%BB%D0%B8%D0%BC_%D0%BE%D0%B1%D0%B0%D0%BB%D1%81%D0%BA%D0%B8%D0%BC_%D1%80%D0%B0%D0%B4%D0%BD%D0%B8%D1%86%D0%B8%D0%BC%D0%B0",
+          "slika": "slike/spomenici/belgrade-port.webp",
+          "slikaOdnos": 1.498,
+          "naziv": "Spomenik palim obalskim radnicima",
+          "nazivEn": "Monument to Fallen Dockworkers",
+          "godina": "1954",
+          "autor": "Radeta Stanković",
+          "posveta": "palim obalskim radnicima",
+          "vrsta": "statua",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        },
+        {
+          "id": "beograd-spomenik-obalskim-radnicima-palim-u-nob-u",
+          "koordinate": {
+            "lat": 44.8181235,
+            "lng": 20.4491133
+          },
+          "mesto": "Beograd",
+          "slika": "slike/spomenici/beograd-spomenik-obalskim-radnicima-palim-u-nob-u.webp",
+          "slikaOdnos": 0.73,
+          "slikaPotpis": "Андрей Романенко, CC BY-SA 4.0",
+          "naziv": "Spomenik obalskim radnicima palim u NOB",
+          "godina": "1952",
+          "autor": "Radeta Stanković",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "glavnjaca",
+      "mestoIzvor": "Beograd",
+      "nazivIzvor": "Spomenik na mestu Glavnjače",
+      "autorIzvor": "Milorad Tepavac",
+      "strane": [
+        250
+      ],
+      "posvetaIzvor": "Mesto Glavnjače; precizna posveta nije navedena.",
+      "lokacijaIOpis": "Nekadašnja Glavnjača; autor iz izvora zahteva poređenje, ne automatski prepis.",
+      "ishod": "dopuna",
+      "prioritet": 1,
+      "povezaniId": [
+        "beograd-spomen-obiljezje-na-mjestu-glavnjace"
+      ],
+      "ocena": "Postojeći radni zapis nema autora. Milorad Tepavac je potvrđen člankom i akademskim radom o konkursima, Arhitektura i urbanizam 55/2022; rad ga vezuje za obeležje Cvet. Autor se može dopuniti, a tačka i odnos sa kasnijim intervencijama zahtevaju lociranje konkretnog objekta. Dopunski akademski dokaz: Arhitektura i urbanizam 55/2022, štampana i PDF strana 73.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=6",
+      "postojeciZapisi": [
+        {
+          "id": "beograd-spomen-obiljezje-na-mjestu-glavnjace",
+          "mesto": "Beograd",
+          "naziv": "Spomen-obilježje na mjestu Glavnjače",
+          "vrsta": "spomenik",
+          "drzava": "Serbia",
+          "adresa": "Studentski trg, mesto nekadašnjeg zatvora Glavnjača",
+          "skup": "bez_lokacije"
+        }
+      ]
+    },
+    {
+      "oznaka": "banjica",
+      "mestoIzvor": "Beograd (Banjica)",
+      "nazivIzvor": "Banjičkim žrtvama",
+      "autorIzvor": "Nikola Milunović",
+      "strane": [
+        250
+      ],
+      "posvetaIzvor": "Banjičke žrtve.",
+      "lokacijaIOpis": "Izvor ne daje adresu; ne mešati muzej, groblje i kasnije spomenike.",
+      "ishod": "kandidat-novog",
+      "prioritet": 1,
+      "povezaniId": [
+        "banjica-concen-camp-museum"
+      ],
+      "ocena": "Mogući zaseban unos za skulpturu pred Banjičkim logorom, različitu od muzejskog zapisa i Spomenika oslobodiocima Banjice. Nikola Milunović iz članka odgovara Nikoli Kolji Milunoviću; dodatni pregled pominje i Anu Viđen. Potrebna potvrda tačke i doprinosa koautorke; ne pripisivati autorstvo skulpture celom muzeju.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=6",
+      "postojeciZapisi": [
+        {
+          "id": "banjica-concen-camp-museum",
+          "koordinate": {
+            "lat": 44.7712097,
+            "lng": 20.4672496
+          },
+          "googleCid": "17457600150378620041",
+          "mesto": "Beograd (Banjica)",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%9C%D1%83%D0%B7%D0%B5%D1%98_%D0%91%D0%B0%D1%9A%D0%B8%D1%87%D0%BA%D0%BE%D0%B3_%D0%BB%D0%BE%D0%B3%D0%BE%D1%80%D0%B0",
+          "slika": "slike/spomenici/banjica-concen-camp-museum.webp",
+          "slikaOdnos": 1.6,
+          "naziv": "Muzej Banjičkog logora",
+          "posveta": [
+            "Q698270"
+          ],
+          "vrsta": "muzej",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "valjevo",
+      "mestoIzvor": "Valjevo",
+      "nazivIzvor": "Spomenik revolucije",
+      "autorIzvor": "Vojin Bakić",
+      "strane": [
+        250
+      ],
+      "posvetaIzvor": "Revolucija.",
+      "lokacijaIOpis": "Valjevo.",
+      "ishod": "potvrda",
+      "prioritet": 3,
+      "povezaniId": [
+        "valjevo-stjepan-filipovic"
+      ],
+      "ocena": "Bakićeva skulptura već pokrivena. Razlika opštih naslova nije osnov za nov unos.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=6",
+      "postojeciZapisi": [
+        {
+          "id": "valjevo-stjepan-filipovic",
+          "koordinate": {
+            "lat": 44.2637976,
+            "lng": 19.8804902
+          },
+          "googleCid": "3817229477387049750",
+          "mesto": "Valjevo",
+          "slika": "slike/spomenici/valjevo-stjepan-filipovic.webp",
+          "slikaOdnos": 1.498,
+          "naziv": "Spomenik borcima revolucije",
+          "nazivEn": "Monument to Stjepan Filipović",
+          "godina": "1960",
+          "autor": "Vojin Bakić",
+          "posveta": [
+            "Q458061"
+          ],
+          "vrsta": "statua",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "valjevo-dudic",
+      "mestoIzvor": "Valjevo",
+      "nazivIzvor": "Dragojlu Dudiću",
+      "autorIzvor": "Oto Logo",
+      "strane": [
+        250
+      ],
+      "posvetaIzvor": "Narodni heroj Dragojlo Dudić.",
+      "lokacijaIOpis": "Valjevo; posebna skulptura, različita od Spomenika revolucije.",
+      "ishod": "razresenje",
+      "prioritet": 1,
+      "povezaniId": [
+        "valjevo-dudic"
+      ],
+      "ocena": "Članak navodi Ota Loga, a postojeći zapis Vidu Jocić. Lokalna istorijska beleška izričito razlikuje Logov spomenik na Gradskom trgu od Vidine skulpture prenete iz Mionice u park. Prioritet je lociranje oba dela i poređenje tačke našeg zapisa, ne zamena autora na osnovu iste posvete.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=6",
+      "postojeciZapisi": [
+        {
+          "id": "valjevo-dudic",
+          "koordinate": {
+            "lat": 44.2705433,
+            "lng": 19.8875953
+          },
+          "mesto": "Valjevo",
+          "naziv": "Spomenik narodnom heroju Dragojlu Dudiću",
+          "nazivEn": "Monument to People's Hero Dragojlo Dudić",
+          "autor": "Vida Jocić",
+          "posveta": [
+            "Q1565909"
+          ],
+          "vrsta": "statua",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "zlatibor",
+      "mestoIzvor": "Zlatibor",
+      "nazivIzvor": "Spomenik i kosturnica",
+      "autorIzvor": "Jovanka Jevtanović & Ana Bešlić",
+      "strane": [
+        250
+      ],
+      "posvetaIzvor": "Zarobljeni partizani 1941.",
+      "lokacijaIOpis": "Zlatibor; dva autorska doprinosa, bez navedene godine podizanja.",
+      "ishod": "razresenje",
+      "prioritet": 2,
+      "povezaniId": [
+        "zlatibor",
+        "zlatibor-obelisk-visok-10-m-spomenik-na-sumnatom-b"
+      ],
+      "ocena": "Autori već postoje u dva zapisa u različitim oblicima, sa godinama 1962/1967. Jevtanović u članku ne uvodi treću osobu pored Jeftanović u drugim izvorima. Izvor ne daje godinu gradnje i ne razrešava razliku; primeniti ranije dogovorenu prednost akademske Hronologije.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=6",
+      "postojeciZapisi": [
+        {
+          "id": "zlatibor",
+          "koordinate": {
+            "lat": 43.7111887,
+            "lng": 19.711964
+          },
+          "googleCid": "4454786790938023271",
+          "mesto": "Zlatibor",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D1%81%D1%82%D1%80%D0%B5%D1%99%D0%B0%D0%BD%D0%B8%D0%BC_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0_%28%D0%97%D0%BB%D0%B0%D1%82%D0%B8%D0%B1%D0%BE%D1%80%29",
+          "clanak": "https://www.spomenikdatabase.org/zlatibor",
+          "slika": "slike/spomenici/zlatibor.webp",
+          "slikaOdnos": 1.786,
+          "naziv": "Spomenik streljanim partizanima",
+          "nazivEn": "Monument on Šumatno Hill",
+          "godina": "1962",
+          "autor": "Ana Bešlić & Jovanka Jeftanović",
+          "vrsta": "spomenik",
+          "istaknut": true,
+          "drzava": "Serbia",
+          "skup": "mapa"
+        },
+        {
+          "id": "zlatibor-obelisk-visok-10-m-spomenik-na-sumnatom-b",
+          "koordinate": {
+            "lat": 43.72654,
+            "lng": 19.69979
+          },
+          "priblizno": true,
+          "mesto": "Zlatibor",
+          "naziv": "Obelisk visok 10 m spomenik na Šumnatom brdu",
+          "godina": "1967",
+          "autor": "S. Jeftanović, A. Bešlić",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "ivanjica",
+      "mestoIzvor": "Ivanjica",
+      "nazivIzvor": "Mozaik Ustanak",
+      "autorIzvor": "Đorđe Andrejević-Kun",
+      "strane": [
+        250
+      ],
+      "posvetaIzvor": "Pali borci NOR 1941–1945.",
+      "lokacijaIOpis": "Ivanjica; slikarski rad/mozaik.",
+      "ishod": "potvrda",
+      "prioritet": 3,
+      "povezaniId": [
+        "ivanjica"
+      ],
+      "ocena": "Mozaik i Đorđe Andrejević-Kun već postoje. Ustanak je dragocen izvorni naziv za poređenje sa današnjim Spomenikom revoluciji; bez automatske zamene prihvaćenog naslova ili opšte posvete palim borcima.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=6",
+      "postojeciZapisi": [
+        {
+          "id": "ivanjica",
+          "koordinate": {
+            "lat": 43.5816396,
+            "lng": 20.2292129
+          },
+          "googleCid": "16064074234569430092",
+          "mesto": "Ivanjica",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%A0%D0%B5%D0%B2%D0%BE%D0%BB%D1%83%D1%86%D0%B8%D1%98%D0%B8_%D1%83_%D0%98%D0%B2%D0%B0%D1%9A%D0%B8%D1%86%D0%B8",
+          "slika": "slike/spomenici/ivanjica.webp",
+          "slikaOdnos": 1.439,
+          "naziv": "Spomenik revoluciji",
+          "nazivEn": "Monument to the Revolution",
+          "godina": "1957",
+          "autor": "Đorđe Andrejević-Kun",
+          "vrsta": "spomenik",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "zajecar",
+      "mestoIzvor": "Zaječar",
+      "nazivIzvor": "Spomenik palim borcima",
+      "autorIzvor": "Vlada Veličković",
+      "strane": [
+        250
+      ],
+      "posvetaIzvor": "Pali borci.",
+      "lokacijaIOpis": "Zaječar; oblik imena autora sačuvan kako je naveden u tekstu.",
+      "ishod": "potvrda",
+      "prioritet": 3,
+      "povezaniId": [
+        "zajecar"
+      ],
+      "ocena": "Vlada Veličković iz izvora odgovara postojećem Vladimiru Veličkoviću. Ne uvoditi drugog autora ni novi spomenik samo zbog kraćeg imena i opšteg naslova.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=6",
+      "postojeciZapisi": [
+        {
+          "id": "zajecar",
+          "koordinate": {
+            "lat": 43.8892295,
+            "lng": 22.2648425
+          },
+          "googleCid": "17716007829368533691",
+          "mesto": "Zaječar",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%92%D0%B5%D1%88%D0%B0%D0%BB%D0%B0",
+          "clanak": "https://www.spomenikdatabase.org/zajecar",
+          "slika": "slike/spomenici/zajecar.webp",
+          "slikaOdnos": 1.77,
+          "naziv": "Spomenik Vešala",
+          "nazivEn": "'The Gallows' Monument",
+          "godina": "1971",
+          "autor": "Vladimir Veličković",
+          "vrsta": "spomenik",
+          "istaknut": true,
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "gornji-milanovac",
+      "mestoIzvor": "Gornji Milanovac",
+      "nazivIzvor": "Spomenik palim borcima",
+      "autorIzvor": "Ratomir Stojanović",
+      "strane": [
+        250
+      ],
+      "posvetaIzvor": "Pali borci.",
+      "lokacijaIOpis": "Gornji Milanovac; potrebno razdvojiti delo od grobnice ili muzejskog konteksta.",
+      "ishod": "razresenje",
+      "prioritet": 2,
+      "povezaniId": [
+        "gornji-milanovac-spomenik-borbe",
+        "gornji-milanovac"
+      ],
+      "ocena": "Ratomir Stojanović iz članka i R. Stojadinović iz baze zahtevaju autorsku proveru. Ne prenositi ovo ime na ceo Spomen-park Brdo mira, koji ima Živorada Maksimovića.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=6",
+      "postojeciZapisi": [
+        {
+          "id": "gornji-milanovac-spomenik-borbe",
+          "koordinate": {
+            "lat": 44.0236718,
+            "lng": 20.4589797
+          },
+          "mesto": "Gornji Milanovac",
+          "slika": "slike/spomenici/gornji-milanovac-spomenik-borbe.webp",
+          "slikaOdnos": 0.75,
+          "slikaPotpis": "Partisan Memorials Wiki",
+          "naziv": "Spomenik borbe, stradanja i pobede",
+          "autor": "R. Stojadinović",
+          "vrsta": "spomenik",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        },
+        {
+          "id": "gornji-milanovac",
+          "koordinate": {
+            "lat": 44.029984,
+            "lng": 20.4524494
+          },
+          "googleCid": "14319232559796109761",
+          "mesto": "Gornji Milanovac",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%91%D1%80%D0%B4%D0%BE_%D0%BC%D0%B8%D1%80%D0%B0",
+          "slika": "slike/spomenici/gornji-milanovac.webp",
+          "slikaOdnos": 1.429,
+          "naziv": "Spomen-park Brdo mira",
+          "nazivEn": "'Brdo mira' Memorial Park",
+          "godina": "1962",
+          "autor": "Živorad Maksimović",
+          "vrsta": "spomen-park",
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    },
+    {
+      "oznaka": "kosmaj",
+      "mestoIzvor": "Kosmaj",
+      "nazivIzvor": "Kosmajskim partizanima",
+      "autorIzvor": "Vojin Stojić & Gradimir Medaković",
+      "strane": [
+        250
+      ],
+      "posvetaIzvor": "Kosmajski partizani.",
+      "lokacijaIOpis": "Kosmaj; odvojeni vajar i arhitekta.",
+      "ishod": "potvrda",
+      "prioritet": 3,
+      "povezaniId": [
+        "kosmaj"
+      ],
+      "ocena": "Vojin Stojić i arhitekta Gradimir Medaković već upisani; članak nezavisno potvrđuje raspodelu doprinosa.",
+      "dokaz": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-X-1974/Saopstenje_X_1974_Prilog_evidenciji_spomenika_posvecenih_u_Srbiji_1941.pdf#page=6",
+      "postojeciZapisi": [
+        {
+          "id": "kosmaj",
+          "koordinate": {
+            "lat": 44.46785,
+            "lng": 20.57176
+          },
+          "googleCid": "15826370923996271199",
+          "mesto": "Kosmaj",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%9A%D0%BE%D1%81%D0%BC%D0%B0%D1%98%D1%81%D0%BA%D0%BE%D0%BC_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%BC_%D0%BE%D0%B4%D1%80%D0%B5%D0%B4%D1%83",
+          "clanak": "https://www.spomenikdatabase.org/kosmaj",
+          "slika": "slike/spomenici/kosmaj.webp",
+          "slikaOdnos": 1.77,
+          "naziv": "Spomenik Kosmajskom partizanskom odredu",
+          "nazivEn": "Monument to the Kosmaj Detachment",
+          "godina": "1971",
+          "autor": "Vojin Stojić & Gradimir Medaković",
+          "posveta": [
+            "Q11117229"
+          ],
+          "vrsta": "spomenik",
+          "istaknut": true,
+          "drzava": "Serbia",
+          "skup": "mapa"
+        }
+      ]
+    }
+  ],
+  "fotografije": [
+    {
+      "strana": 245,
+      "mesto": "Jajinci",
+      "autor": "Miodrag Sokolović",
+      "godinaSnimanja": 1968,
+      "tema": "Stari Bodnarovljev reljef, ne centralni spomenik iz 1988."
+    },
+    {
+      "strana": 246,
+      "mesto": "Knjaževac",
+      "autor": "Miodrag Sokolović",
+      "godinaSnimanja": 1972
+    },
+    {
+      "strana": 247,
+      "mesto": "Kragujevac",
+      "autor": "R. Živković",
+      "tema": "Streljani đaci; datum snimka nije naveden."
+    },
+    {
+      "strana": 248,
+      "mesto": "Topola",
+      "autor": "Miodrag Sokolović",
+      "godinaSnimanja": 1972,
+      "tema": "Majke i kćeri Šumadije; drugo delo od četiri portretne glave."
+    },
+    {
+      "strana": 249,
+      "mesto": "Kraljevo",
+      "autor": "R. Živković",
+      "tema": "Dolinarov spomenik; datum snimka nije naveden."
+    }
+  ],
+  "bibliografskiTragovi": [
+    {
+      "autor": "Dobroslav St. Pavlović",
+      "naslov": "Ruševine partizanske bolnice u Prijepolju",
+      "broj": "IV",
+      "strana": 211,
+      "ishod": "Jasan sledeći institucionalni tekst za obradu, ne nov spomenik iz broja X."
+    },
+    {
+      "autor": "Miodrag Sokolović",
+      "naslov": "Koncentracioni logor u Nišu",
+      "broj": "IV",
+      "strana": 231,
+      "ishod": "Jasan sledeći tekst za proveru muzeja, mesta i istorijskog stanja; ne tvrditi da je već obrađen ovim pregledom."
+    }
+  ],
+  "dopunskiIzvori": {
+    "aleja": "https://www.arhivamodernizma.com/aleja-streljanih-rodoljuba-u-beogradu/",
+    "vozdovac": "https://skulptura-hronologijaizlaganja.rs/skulpture-obnova-delo-vajara-lojze-dolinara-i-borba-delo-vajara-sretena-stojanovica/",
+    "glavnjaca": "https://iaus.ac.rs/wp-content/uploads/2021/09/AU-55.pdf",
+    "vucje": "https://www.uileskovac.rs/images/Urbanizam/PGR/vucje/tekst_pgr_vucje.pdf#page=18",
+    "valjevo": "https://www.kolubarske.rs/kolumne/izredakcije/kako-se-dragojlo-nasao-u-vidinom-parku",
+    "topola": "https://www.spomenikdatabase.org/post/15-powerful-depictions-of-women-in-yugoslav-monumental-art",
+    "jajinciIBanjica": "https://www.spomenikdatabase.org/jajinci",
+    "stoliceDatum": "https://www.pisi.co.rs/h-content/uploads/2020/01/Postanak-i-razvitak-narodne-vlasti-u-Jugoslaviji-1941-1942-pisi.pdf"
+  },
+  "ocena": "Visok potencijal za stručne autorske dopune, posvete, razdvajanje delova kompleksa i istorijskih/današnjih objekata; ograničen neposredan prinos potpuno novih tačno lociranih markera iz samih šest strana. Dva kandidata za zasebne unose nisu obećanje dve nove tačke. Opšti broj preko 5.000 nije popis od 5.000 stavki, a oko 50 figurativnih spomenika nije broj primera u ovom članku.",
+  "lokalniDokazi": "izvori/pretrage/saopstenja-x-1974-analiza"
+}

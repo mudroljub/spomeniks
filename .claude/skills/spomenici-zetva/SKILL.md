@@ -94,6 +94,7 @@ Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i ot
 - **Fotografija se uvek kopira kod nas, nikad samo link** (korisnik, 2026-10-17): u bazi u `slike/spomenici/<id>.webp`, a za spisak bez lokacije u `slike/bez-lokacije/<ime>.webp`, sa `slikaPotpis` i `slikaOdnos`; original ide u `izvori/`.
 - **Spomenik se nikad ne dodaje bez fotografije ako fotografija postoji** (korisnik, 2026-10-17). Uzima se i kad licenca nije poznata (čitaoci novina, forum, knjiga, sajt): mala rezolucija (400 px) uz navođenje izvora je poštena upotreba. Potpis je „Autor, licenca“, a bez poznate licence „Autor, izvor“ (npr. „Čitalac Vijesti, StoryMap Mapa spomenika NOB“); bez posebnih fajlova sa licencama.
 - Prazno nebo i višak se seku pre umanjivanja na 400 px.
+- **Sličica 3D modela je zamena dok nema fotografije** (korisnik, 2026-10-19): slike sa potpisom „HeritagePhotogrammetry, CC BY 4.0“ su prikazi modela sa Sketchfab-a, ne fotografije. Prava fotografija spomenika ima prednost i zamenjuje sličicu modela čim se nađe.
 
 ## Posvete
 

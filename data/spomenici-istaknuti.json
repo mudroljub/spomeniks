@@ -2304,6 +2304,7 @@
     "naziv": "Споменик на 50. Македонска партизанска дивизија",
     "nazivEn": "Monu. to the 50th Maced. Partisan Div.",
     "godina": "1974",
+    "autor": "Radovan Rađenović",
     "posveta": [
       "Q1007943"
     ],
@@ -6573,11 +6574,12 @@
     "mesto": "Шешково",
     "slika": "slike/spomenici/seskovo.webp",
     "slikaOdnos": 1.384,
-    "naziv": "Споменик на Деветтата македонска бригада",
-    "nazivEn": "Monu. to 9th Maced. Partisan Brigade",
+    "naziv": "Споменик на Првата македонска дивизија",
+    "nazivEn": "Monument to the First Macedonian Division",
     "godina": "1974",
+    "autor": "Jordan Josifovski",
     "posveta": [
-      "Q3655638"
+      "Q2340474"
     ],
     "vrsta": "spomenik",
     "drzava": "Macedonia"
@@ -7292,6 +7294,7 @@
     "slikaOdnos": 1.449,
     "naziv": "Споменик на Стефан Наумов",
     "nazivEn": "Monument to Stefan Naumov",
+    "autor": "Aleksandar Jovanovski",
     "posveta": [
       "Q2984534"
     ],
@@ -9176,6 +9179,7 @@
     "naziv": "Споменик на Манчо Малиминов",
     "nazivEn": "Monument to Mančo Maliminov",
     "godina": "1977",
+    "autor": "Tome Andreevski",
     "posveta": "Манчо Малиминов",
     "vrsta": "spomenik",
     "drzava": "Macedonia"
@@ -9556,6 +9560,7 @@
     "naziv": "Споменик на паднатите борци",
     "nazivEn": "Monument to Fallen Fighters",
     "godina": "1968",
+    "autor": "Aleksandar Jovanovski",
     "vrsta": "statua",
     "drzava": "Macedonia"
   },
@@ -13003,6 +13008,8 @@
     "slikaOdnos": 1.5,
     "slikaPotpis": "Rašo, CC BY-SA 3.0",
     "naziv": "Споменик на депортираните Евреи",
+    "godina": "1985",
+    "autor": "Metodi Andonov",
     "vrsta": "spomenik",
     "drzava": "Macedonia"
   },
@@ -19833,5 +19840,97 @@
     "stanje": "uklonjen",
     "vrsta": "statua",
     "drzava": "Croatia"
+  },
+  {
+    "id": "gorni-disan",
+    "koordinate": {
+      "lat": 41.4045426,
+      "lng": 22.1119606
+    },
+    "googleCid": "2327950915996523695",
+    "mesto": "Горни Дисан",
+    "slika": "slike/spomenici/gorni-disan.webp",
+    "slikaOdnos": 0.627,
+    "slikaPotpis": "Google Maps",
+    "naziv": "Споменик на Диме Поп Атанасов",
+    "autor": "Jovan Josifovski",
+    "posveta": "На Диме Поп Атанасов, убиен на 13 јули 1941 година при извршување партиска задача.",
+    "vrsta": "spomenik",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "kavadarci-naroden-heroj-kiro-atanasovski-nalbatot",
+    "koordinate": {
+      "lat": 41.4336396,
+      "lng": 22.019484
+    },
+    "mesto": "Кавадарци",
+    "naziv": "Спомен-обележје на народните херои Киро Атанасовски-Налбатот и Димче Мирчев",
+    "autor": "Tome Andreevski",
+    "natpis": "Народен херој Киро Атанасовски-Налбатот / Народен херој Димче Мирчев",
+    "posveta": [
+      "Q12278749",
+      "Q2334991"
+    ],
+    "vrsta": "spomenik",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "lavci-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.014591,
+      "lng": 21.3008917
+    },
+    "mesto": "Лавци",
+    "slika": "slike/spomenici/lavci-spomenik-na-nob.webp",
+    "slikaOdnos": 1.194,
+    "slikaPotpis": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "autor": "Aleksandar Jovanovski",
+    "vrsta": "spomenik",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "budinarci-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.763605,
+      "lng": 22.775097
+    },
+    "mesto": "Будинарци",
+    "slika": "slike/spomenici/budinarci-spomenik-na-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "petrovskyz, CC BY-SA 3.0",
+    "naziv": "Споменик на НОБ",
+    "autor": "Boris Kačulački",
+    "vrsta": "spomenik",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "lavci-spomenik-na-nob-2",
+    "koordinate": {
+      "lat": 41.014637,
+      "lng": 21.302094
+    },
+    "mesto": "Лавци",
+    "slika": "slike/spomenici/lavci-spomenik-na-nob-2.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "autor": "Aleksandar Jovanovski",
+    "vrsta": "spomenik",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "kazani-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.065561,
+      "lng": 21.148319
+    },
+    "mesto": "Кажани",
+    "naziv": "Споменик на НОБ",
+    "godina": "1973",
+    "autor": "Aleksandar Jovanovski",
+    "vrsta": "spomenik",
+    "drzava": "Macedonia"
   }
 ]

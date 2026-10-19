@@ -8,6 +8,8 @@ Po korisnikovom nalogu polje `mesto` usklađeno je sa makedonskom ćirilicom u *
 
 ## Autori
 
+- **Makedonija, treći paket 19.10.2026:** 13 autorskih dopuna postojećih zapisa, uključujući oba moguća duplikata u Lavcima. Budinarci: Boris Kačulački, ne pogrešan prepis Kačuljački; Mitrašinci: Radovan Rađenović, knjiški Ratko sačuvan u dokazima. U Štipu je za savremeni jevrejski spomenik prihvaćen zvanični opštinski podatak Metodi Andonov, 1985, bez prenosa nejasne stare autorske linije. Bitoljski školski reljef je nov unos: Dragutin Spasić, 1965, potvrđeno školskom monografijom iz 2021. Šeškovo: ispravljeni naziv i povezana posveta sa Devete brigade na Prvu makedonsku / 41. jugoslovensku diviziju, prema opštini i fotografiji. [Promene, prethodne vrednosti i ograničenja](../data/provere/makedonija-paket3-2026-10-19.json).
+
 - **Makedonija, drugi paket 19.10.2026:** šest dopunjenih autora u Farišu, Kočanima, Krivoj Palanci, Dabnici, Skoplju i Strugi. U Dabnici su sačuvani Dimo Todorovski (original) i Sašo Poposki (replika iz 2019); ne prepisivati automatski 1972. kao godinu današnje skulpture. Kočani: Radovan Rađenović uz Gligora Čemerskog, knjiški oblik Ratko sačuvan u dokazima; 1977. završetak i 1981. otkrivanje nisu izjednačeni. [Dokazi i ranije vrednosti](../data/provere/makedonija-paket2-2026-10-19.json).
 
 - **Bez članka na Vikipediji** (ne tražiti ponovo bez novog izvora): Ante Kuduz, Belizar Bahorić, Lenko Pleština, Marijan Burger, Mirko Ostoja, Vuko Bombardelli i još desetak autora.
