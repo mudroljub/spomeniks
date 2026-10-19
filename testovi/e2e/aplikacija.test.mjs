@@ -439,7 +439,7 @@ test('prag važnosti menja celu automatsku turu i pamti izbor bez ograničenja b
   assert.equal(await izvrsi(prag), 'istaknut')
   assert.deepEqual(new Set(await izvrsi("import('./utils/ruta.js').then(m=>m.dajRutu())")), new Set(istaknuti))
   await postaviPrag('spomen-ploca')
-  await izaberi('Foča u NOB')
+  await izaberi('Banjaluka u NOB')
   await postaviPrag('istaknut')
   assert.equal(await izvrsi(`${ruta}.querySelectorAll('#stanice li').length`), 0)
   assert.equal(await izvrsi(`${ruta}.querySelector('#vaznost').hidden`), false)

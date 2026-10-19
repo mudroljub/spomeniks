@@ -21,6 +21,4 @@ Naslovi knjiga na [znaci.org](https://znaci.org/): edicija „Srbija u narodnoos
 
 ## Ostalo
 
-1. **Ture bez dužine i trajanja.** Turista ne vidi koliko je kilometara i sati vožnje. Predlog: uz broj stanica prikazati približnu dužinu puta.
-2. **Približne lokacije na pregledu države.** Na početnom zumu vide se kućice sa upitnikom (76 muzeja i spomen-parkova bez tačne tačke), do kojih navigacija ne vodi tačno. Predlog: prikazati ih tek izbliza.
-3. **Prozor spomenika bez opisa i podataka za posetu.** Nema rečenice šta se tu desilo, ni radnog vremena i ulaza za muzeje; sve je iza „Više“. Predlog: kratak opis za istaknute spomenike (posao podataka).
+1. **Prozor spomenika bez opisa i podataka za posetu.** Nema rečenice šta se tu desilo, ni radnog vremena i ulaza za muzeje; sve je iza „Više“. Predlog: kratak opis za istaknute spomenike (posao podataka).
