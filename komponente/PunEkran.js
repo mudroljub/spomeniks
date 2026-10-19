@@ -1,4 +1,5 @@
 // @ts-check
+import {t} from '../utils/jezik.js'
 class PunEkran extends HTMLElement {
   constructor() {
     super()
@@ -13,10 +14,10 @@ class PunEkran extends HTMLElement {
           top: calc(10px + var(--vrh));
           left: 10px;
           border-radius: 8px;
-          padding: 4px;
+          padding: 6px;
         }
       </style>
-      <button class="dugme-ikonica" title="Full screen" aria-label="pun ekran"><img src="slike/ui/punekran.svg" class="ikonica" id="ikonica" width="32" alt=""></button>
+      <button class="dugme-ikonica" title="${t('punEkran')}" aria-label="${t('punEkran')}"><img src="slike/ui/punekran.svg" class="ikonica" id="ikonica" width="32" alt=""></button>
     `
   }
 

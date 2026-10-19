@@ -87,3 +87,51 @@ test('ruta radi u memoriji kada pregledač zabrani čitanje i upis skladišta', 
   assert.deepEqual(nova.dajRutu(), ['b'])
   assert.equal(promena, 4)
 })
+
+test('učitavanje mešovitih stanica uklanja neispravne i duplikate, uz isti redosled', async () => {
+  localStorage.setItem('spomenici-ruta', JSON.stringify({
+    spomenici: ['b', null, 'a', 'b', {}, 7, '', '  '], naziv: 42, wiki: {}, turaId: [],
+  }))
+  const nova = await import('../../utils/ruta.js?mesovite-stanice')
+  assert.deepEqual(nova.dajRutu(), ['b', 'a'])
+  assert.equal(nova.dajNaziv(), '')
+  assert.equal(nova.dajWiki(), undefined)
+  assert.equal(nova.dajTuruId(), undefined)
+  nova.dodajURutu('c')
+  assert.deepEqual(JSON.parse(localStorage.getItem('spomenici-ruta')), {naziv: '', spomenici: ['b', 'a', 'c']})
+})
+
+test('prosleđeni i vraćeni nizovi ne menjaju rutu mimo čuvanja i događaja', () => {
+  const stanice = ['a', 'b']
+  postaviRutu(stanice)
+  stanice.push('c')
+  dajRutu().splice(0, 1)
+  assert.deepEqual(dajRutu(), ['a', 'b'])
+  assert.deepEqual(sacuvana().spomenici, ['a', 'b'])
+
+  const naziv = {sh: 'Putovanje', en: 'Journey'}
+  izaberiTuru({id: 'tura', naziv, spomenici: stanice})
+  naziv.sh = 'Promenjen naziv'
+  assert.deepEqual(dajNaziv(), {sh: 'Putovanje', en: 'Journey'})
+  assert.throws(() => { dajNaziv().sh = 'Nečuvana izmena' }, TypeError)
+  assert.deepEqual(dajNaziv(), sacuvana().naziv)
+})
+
+test('dodavanje postojeće ili uklanjanje nepoznate stanice ne menja automatsku turu', () => {
+  izaberiTuru({id: 'tura', naziv: 'Putovanje', spomenici: ['a', 'b']})
+  const pre = localStorage.getItem('spomenici-ruta')
+  dodajURutu('a')
+  dodajURutu(null)
+  ukloniIzRute('nepostojeca')
+  assert.deepEqual(dajRutu(), ['a', 'b'])
+  assert.equal(dajTuruId(), 'tura')
+  assert.equal(localStorage.getItem('spomenici-ruta'), pre)
+})
+
+test('prazna automatska tura zadržava izbor za kasniju promenu praga', async () => {
+  izaberiTuru({id: 'tura', naziv: {sh: 'Putovanje', en: 'Journey'}, spomenici: []})
+  const nova = await import('../../utils/ruta.js?prazna-automatska')
+  assert.deepEqual(nova.dajRutu(), [])
+  assert.equal(nova.dajTuruId(), 'tura')
+  assert.deepEqual(nova.dajNaziv(), {sh: 'Putovanje', en: 'Journey'})
+})

@@ -186,7 +186,7 @@ export default class Pretraga extends HTMLElement {
     this.filtrirano = pronadjeno.filter(({spomenik}) => this.filteri.uRezultatu(spomenik))
     const suzeno = this.filtrirano.length < this.pocetnih
     this.osveziPrikaz(suzeno)
-    this.callback(this.filtrirano, suzeno)
+    this.callback(this.filtrirano, suzeno, Boolean(fraza || this.filteri.brojAktivnih()))
   }
 
   // kucanje i izbor filtera ne pomeraju mapu, a potvrda (Enter, Trazi na tastaturi telefona, Prikazi u filterima) pokazuje rezultate,

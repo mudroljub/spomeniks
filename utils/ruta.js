@@ -1,36 +1,45 @@
 // @ts-check
+import {ucitajIzSkladista, sacuvajUSkladiste} from './skladiste.js'
+
 // spomenici izabrani za put, redom obilaska, i ime gotove ture od koje je nastala; cuva se samo na ovom uredjaju
 const kljuc = 'spomenici-ruta'
 const prazna = {naziv: '', spomenici: []}
 
+const ispravanId = id => typeof id === 'string' && id.trim().length > 0
+
+const proveriRutu = nova => {
+  if (!Array.isArray(nova?.spomenici)) return prazna
+  const spomenici = [...new Set(nova.spomenici.filter(ispravanId))]
+  const turaId = ispravanId(nova.turaId) ? nova.turaId : undefined
+  if (!spomenici.length && !turaId) return prazna
+  const naziv = typeof nova.naziv === 'string' ? nova.naziv
+    : typeof nova.naziv?.sh === 'string' && typeof nova.naziv?.en === 'string'
+      ? Object.freeze({sh: nova.naziv.sh, en: nova.naziv.en}) : ''
+  return {naziv, spomenici, ...(turaId ? {turaId} : {}),
+    ...(typeof nova.wiki === 'string' ? {wiki: nova.wiki} : {})}
+}
+
 const ucitaj = () => {
   try {
-    const ruta = JSON.parse(localStorage.getItem(kljuc))
-    return Array.isArray(ruta?.spomenici) ? ruta : prazna
-  } catch (e) {
+    return proveriRutu(JSON.parse(ucitajIzSkladista(kljuc)))
+  } catch {
     return prazna
   }
 }
 
 let ruta = ucitaj()
 
-const sacuvaj = () => {
-  try {
-    localStorage.setItem(kljuc, JSON.stringify(ruta))
-  } catch (e) {
-    // privatni rezim i slicno: ruta vazi do zatvaranja stranice
-  }
-}
+const sacuvaj = () => sacuvajUSkladiste(kljuc, JSON.stringify(ruta))
 
 export const promeneRute = new EventTarget()
 
 const zameni = nova => {
-  ruta = nova.spomenici.length || nova.turaId ? nova : prazna
+  ruta = proveriRutu(nova)
   sacuvaj()
   promeneRute.dispatchEvent(new Event('promena'))
 }
 
-export const dajRutu = () => ruta.spomenici
+export const dajRutu = () => [...ruta.spomenici]
 
 export const dajNaziv = () => ruta.naziv
 
@@ -46,9 +55,15 @@ export const uRuti = id => ruta.spomenici.includes(id)
 
 const izmeniStanice = spomenici => zameni({...ruta, turaId: undefined, spomenici})
 
-export const dodajURutu = id => izmeniStanice([...ruta.spomenici, id])
+export const dodajURutu = id => {
+  if (!ispravanId(id) || uRuti(id)) return
+  izmeniStanice([...ruta.spomenici, id])
+}
 
-export const ukloniIzRute = id => izmeniStanice(ruta.spomenici.filter(x => x !== id))
+export const ukloniIzRute = id => {
+  if (!uRuti(id)) return
+  izmeniStanice(ruta.spomenici.filter(x => x !== id))
+}
 
 // pomera stanicu za jedno mesto napred (-1) ili nazad (1)
 export const pomeri = (id, smer) => {

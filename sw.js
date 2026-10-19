@@ -1,13 +1,15 @@
 // rad bez signala: aplikacija i podaci se cuvaju odmah, a delovi mape i slike kad se jednom pogledaju
-// Promeni pri objavi izmena koda ili JSON podataka (docs/ALATI.md).
-const VERZIJA = '2026-10-19-3'
+// Generise node alati/otisak.mjs; integritet proverava otisak resursa.
+const VERZIJA = 'f92f3907bfa52b9b0cf9'
 const APLIKACIJA = `spomenici-aplikacija-${VERZIJA}`
 const MAPA = 'spomenici-mapa'
 const SLIKE = 'spomenici-slike'
+const KLIJENTI = 'spomenici-klijenti'
+const rokSlike = 24 * 60 * 60 * 1000
 
 const najviseUnosa = {[MAPA]: 4000, [SLIKE]: 1500}
 
-// cuvaju se pri instalaciji; ostali fajlovi aplikacije se sacuvaju kad se prvi put ucitaju
+// Komplet aplikacije se cuva pri instalaciji; fotografije i plocice mape tokom obilaska.
 const fajlovi = [
   './',
   'index.html',
@@ -38,7 +40,9 @@ const fajlovi = [
   'utils/clanci.js',
   'utils/ikonice.js',
   'utils/jezik.js',
+  'utils/skladiste.js',
   'utils/ui.js',
+  'utils/azuriranje.js',
   'utils/prijava.js',
   'utils/oznake.js',
   'utils/ruta.js',
@@ -65,9 +69,52 @@ self.addEventListener('install', e => {
   e.waitUntil(caches.open(APLIKACIJA).then(kes => kes.addAll(fajlovi)))
 })
 
-self.addEventListener('activate', e => e.waitUntil(caches.keys().then(imena => Promise.all(
-  imena.filter(ime => ime.startsWith('spomenici-aplikacija') && ime !== APLIKACIJA).map(ime => caches.delete(ime))
-))))
+const kljucKlijenta = id => new URL(`.klijenti/${id}`, self.registration.scope).href
+const nasiKlijenti = async () => (await self.clients.matchAll({type: 'window', includeUncontrolled: true}))
+  .filter(klijent => klijent.url.startsWith(self.registration.scope))
+
+const ocistiIzdanja = async (sva = false) => {
+  const zivi = new Set((await nasiKlijenti()).map(k => kljucKlijenta(k.id)))
+  const veze = await caches.open(KLIJENTI)
+  const potrebni = new Set([APLIKACIJA])
+  const zastarela = new Set()
+  for (const zahtev of await veze.keys()) {
+    const odgovor = await veze.match(zahtev)
+    if (!odgovor) continue
+    const izdanje = await odgovor.text()
+    if (zivi.has(zahtev.url)) potrebni.add(izdanje)
+    else { zastarela.add(izdanje); await veze.delete(zahtev) }
+  }
+  if (sva) (await caches.keys()).filter(ime => ime.startsWith('spomenici-aplikacija-')).forEach(ime => zastarela.add(ime))
+  await Promise.all([...zastarela].filter(ime => ime.startsWith('spomenici-aplikacija-')
+    && !potrebni.has(ime)).map(ime => caches.delete(ime)))
+}
+
+self.addEventListener('activate', e => e.waitUntil((async () => {
+  await Promise.all([skrati(MAPA), skrati(SLIKE)])
+  await ocistiIzdanja(true)
+  const veze = await caches.open(KLIJENTI)
+  for (const klijent of await nasiKlijenti())
+    if (await veze.match(kljucKlijenta(klijent.id))) klijent.postMessage({vrsta: 'OSVEZI_IZDANJE'})
+})()))
+
+self.addEventListener('message', e => {
+  if (e.data?.vrsta === 'VERZIJA') e.ports?.[0]?.postMessage({izdanje: APLIKACIJA})
+  if (e.data?.vrsta === 'SPREMAN') e.waitUntil(ocistiIzdanja())
+  if (e.data?.vrsta !== 'AKTIVIRAJ') return
+  e.waitUntil((async () => {
+    const prethodni = e.data.prethodni
+    if (!prethodni?.startsWith('spomenici-aplikacija-') || !(await caches.has(prethodni))) throw new Error('Nepoznato prethodno izdanje')
+    const veze = await caches.open(KLIJENTI)
+    for (const klijent of await nasiKlijenti()) {
+      const kljuc = kljucKlijenta(klijent.id)
+      if (!(await veze.match(kljuc))) await veze.put(kljuc, new Response(prethodni))
+    }
+    // Svaka stara stranica ostaje vezana za stare resurse dok se njeno ponovno ucitavanje ne zavrsi.
+    await self.skipWaiting()
+    e.ports?.[0]?.postMessage({uspeh: true})
+  })().catch(() => e.ports?.[0]?.postMessage({uspeh: false})))
+})
 
 const jeMapa = url => /tile\.openstreetmap\.org|server\.arcgisonline\.com/.test(url.hostname)
 const jeSlika = url => url.origin === location.origin && /\/slike\/(spomenici|male)\//.test(url.pathname)
@@ -80,15 +127,33 @@ const skrati = async ime => {
   await Promise.all(kljucevi.slice(0, Math.max(visak, 0)).map(k => kes.delete(k)))
 }
 
-let dodato = 0
+const redoviUpisa = new Map()
+const kljuceviKesa = new Map()
 
 // neuspeo upis (npr. pun disk) ne sme da pokvari odgovor koji je vec stigao
 const sacuvaj = (e, ime, kljuc, odgovor) => {
-  const kopija = odgovor.clone()
-  e.waitUntil(caches.open(ime)
-    .then(kes => kes.put(kljuc, kopija))
-    .then(() => { if (ime !== APLIKACIJA && ++dodato % 100 === 0) return skrati(ime) })
-    .catch(() => {}))
+  let kopija = odgovor.clone()
+  if (ime === SLIKE) {
+    const headers = new Headers(kopija.headers)
+    headers.set('X-Spomenici-Provereno', String(Date.now()))
+    headers.set('X-Spomenici-Izdanje', VERZIJA)
+    kopija = new Response(kopija.body, {status: kopija.status, statusText: kopija.statusText, headers})
+  }
+  const upis = (redoviUpisa.get(ime) || Promise.resolve()).catch(() => {}).then(async () => {
+    const kes = await caches.open(ime)
+    if (!kljuceviKesa.has(ime)) kljuceviKesa.set(ime, new Map((await kes.keys()).map(k => [k.url, k])))
+    const kljucevi = kljuceviKesa.get(ime)
+    await kes.put(kljuc, kopija)
+    const url = typeof kljuc === 'string' ? kljuc : kljuc.url
+    kljucevi.set(url, kljuc)
+    while (kljucevi.size > najviseUnosa[ime]) {
+      const [najstariji, zahtev] = kljucevi.entries().next().value
+      await kes.delete(zahtev)
+      kljucevi.delete(najstariji)
+    }
+  })
+  redoviUpisa.set(ime, upis)
+  e.waitUntil(upis.catch(() => {}))
 }
 
 // Mapa se uzima iz kesa; fotografija se u pozadini proverava jer se menja pod istim URL-om.
@@ -96,7 +161,9 @@ const prvoKes = async (e, ime) => {
   const zahtev = e.request
   const kes = await caches.open(ime)
   const sacuvano = await kes.match(zahtev.url)
-  if (sacuvano && ime === MAPA) return sacuvano
+  const sveza = sacuvano && sacuvano.headers.get('X-Spomenici-Izdanje') === VERZIJA
+    && Date.now() - Number(sacuvano.headers.get('X-Spomenici-Provereno')) < rokSlike
+  if (sacuvano && (ime === MAPA || sveza)) return sacuvano
   // cors umesto no-cors, da bi odgovor mogao da se sacuva bez preteranog zauzimanja prostora
   const mreza = fetch(zahtev.url, {
     mode: 'cors',
@@ -114,7 +181,10 @@ const prvoKes = async (e, ime) => {
 
 // Instalirani resursi se nikada ne prepisuju pojedinacnim zahtevima drugih kartica.
 const izIzdanja = async e => {
-  const kes = await caches.open(APLIKACIJA)
+  const veza = e.request.mode !== 'navigate' && e.clientId
+    && await (await caches.open(KLIJENTI)).match(kljucKlijenta(e.clientId))
+  const izdanje = veza ? await veza.text() : APLIKACIJA
+  const kes = await caches.open(izdanje)
   return await kes.match(e.request, {ignoreSearch: true}) || fetch(e.request)
 }
 

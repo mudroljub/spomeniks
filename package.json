@@ -3,6 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "otisak": "node alati/otisak.mjs",
+    "otisak:provera": "node alati/otisak.mjs --proveri",
     "test": "node testovi/pokreni.mjs",
     "test:unit": "node testovi/pokreni.mjs unit",
     "test:integracija": "node testovi/pokreni.mjs integracija",

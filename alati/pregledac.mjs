@@ -68,7 +68,7 @@ export const otvoriPregledac = async () => {
     pending.clear()
   }
   // vraca celu CDP poruku; greska CDP-a, prekid veze i istek roka odbijaju obecanje
-  const send = (method, params = {}) => new Promise((resi, odbij) => {
+  const send = (method, params = {}, sessionId) => new Promise((resi, odbij) => {
     if (ws.readyState !== WebSocket.OPEN) return odbij(new Error(`${method}: veza sa pregledacem nije otvorena`))
     const broj = ++id
     const rok = setTimeout(() => {
@@ -76,7 +76,7 @@ export const otvoriPregledac = async () => {
       odbij(new Error(`${method}: bez odgovora ${rokKomande / 1000} s`))
     }, rokKomande)
     pending.set(broj, {method, resi, odbij, rok})
-    ws.send(JSON.stringify({id: broj, method, params}))
+    ws.send(JSON.stringify({id: broj, method, params, ...(sessionId ? {sessionId} : {})}))
   })
   // izuzetak u izrazu odbija obecanje, umesto da vrati undefined
   const izvrsi = async izraz => {

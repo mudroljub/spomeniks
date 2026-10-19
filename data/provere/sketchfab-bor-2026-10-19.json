@@ -1,0 +1,87 @@
+{
+  "datum": "2026-10-19",
+  "obim": "Sketchfab modeli ZZSK Niš bez tačke u opisu ili sa Google linkom u opisu, za spomenike koje nemamo ili zapise bez slike; identitet iz Popovića 1981 i sr.wikipedia.org.",
+  "upisano": [
+    {
+      "id": "bor-bista-tome-milanovica",
+      "vrsta": "dopuna",
+      "model": "https://sketchfab.com/3d-models/c838cf67a0af4f67a237719ab0778931",
+      "dokaz": "Model „Спомен биста Тома Миловановић, Бор“ sa tačkom iz Google linka; Popović 1981 (str. 26) u Boru navodi jednu bistu Tome Milanovića, u parku, vajar M. Ribnikar. Ranija tačka je bila približna (centar grada).",
+      "pre": {
+        "koordinate": {
+          "lat": 44.07785,
+          "lng": 22.09918
+        },
+        "priblizno": true,
+        "slika": null
+      }
+    },
+    {
+      "id": "sarbanovac-spomen-cesma",
+      "vrsta": "dopuna",
+      "model": "https://sketchfab.com/3d-models/a066fbb089b1447ead070e17c4f88fb8",
+      "dokaz": "Tačka modela „Споменик у Шарбановцу“ je 2 m od našeg zapisa.",
+      "pre": {
+        "slika": null
+      }
+    },
+    {
+      "id": "vlasina-okruglica-spomen-cesma",
+      "vrsta": "dopuna",
+      "model": "https://sketchfab.com/3d-models/6566a659dfb04498af830d6d643fa7e3",
+      "dokaz": "Model „спомен чесма, Власина - Округлица“, studija opštine Surdulica.",
+      "pre": {
+        "slika": null
+      }
+    },
+    {
+      "id": "bor-bista-radomira-jovanovica-coceta",
+      "vrsta": "nov na mapi",
+      "model": "https://sketchfab.com/3d-models/d8e0ab2fc2ee441ea00c970305d7c352"
+    },
+    {
+      "id": "bor-bista-jovana-vuckovica",
+      "vrsta": "nov na mapi",
+      "model": "https://sketchfab.com/3d-models/b6e3127c22394d7ca45f232b6dbf5f92"
+    },
+    {
+      "id": "bor-bista-vase-drecuna",
+      "vrsta": "nov na mapi",
+      "model": "https://sketchfab.com/3d-models/0a4ba37a843e4c44b218a4ede1639e6c"
+    },
+    {
+      "id": "bor-spomenik-miklosu-radnotiju",
+      "vrsta": "nov na mapi",
+      "model": "https://sketchfab.com/3d-models/4b16b289c43b4ac7b2cabbf6c85ce6e5"
+    },
+    {
+      "id": "mackatica-bista-tome-ivanovica-pere-mackatovca",
+      "vrsta": "nov bez lokacije",
+      "model": "https://sketchfab.com/3d-models/8103938e0acb41a5aa4dcf7d185cb804"
+    },
+    {
+      "id": "mackatica-spomen-cesma-tomi-ivanovicu",
+      "vrsta": "nov bez lokacije",
+      "model": "https://sketchfab.com/3d-models/4689250ac4c541aea572b8ba9f0ae62b"
+    },
+    {
+      "id": "donje-konjuvce-bista-vojislava-radica",
+      "vrsta": "nov bez lokacije",
+      "model": "https://sketchfab.com/3d-models/481f8521ef9140b0b15b1ebf8d89457c"
+    }
+  ],
+  "preskoceno": [],
+  "odbaceno": [
+    "Biste koje nisu NOB: Dragutin Matić (izviđač iz Prvog svetskog rata, Gadžin Han), Dragan Ignjatović (vojnik poginuo 1999, Gornji Brestovac).",
+    "Bez potvrde da su NOB: biste Ike i Srđe (Bor), Žike Radojlovića, Aleksandra Stojanovića i Marka Sotirovića (Crna Trava), Bore Stamenovića Leke (Mačkatica), spomenik Nikoli Stamenkoviću i Simenkovo Mehanište (Brod), česma Jovanu Cvetkoviću (Crna Trava).",
+    "Bista Ljubomira Živkovića Španca je prema Popoviću u Parku heroja u Beloj Palanci, koji već imamo na mapi.",
+    "Bista Siniše Janića (Vlasotince): nije jasno koji je od dva naša zapisa.",
+    "Spomenik Miljkoviću i D. Atanaskoviću (Brestovac) je 46 m od naše spomen-česme iz 1967; nije jasno da li je isti objekat.",
+    "Spomenik borcima Krajinskog i Majdanpečkog NOP odreda je na Novom groblju u Boru, 47 m od kosturnice koja ima sliku.",
+    "Modeli bez licence (Spomenik na trgu i spomenik jevrejskim žrtvama u Boru, Zlot, Metovnica, Zlatićevo) nisu korišćeni."
+  ],
+  "ogranicenja": [
+    "Sličica je prikaz 3D modela, ne fotografija; prava fotografija ima prednost."
+  ],
+  "napomena": "Autor biste Radomira Jovanovića Čočeta upisan je kao Milica Ribnikar, kao kod biste Tome Milanovića: Popović obe pripisuje „M. Ribnikar“."
+}

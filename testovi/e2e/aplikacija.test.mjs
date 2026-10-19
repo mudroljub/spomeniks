@@ -851,6 +851,112 @@ test('stara fotografija se osvezi pod istim URL-om i nova ostaje dostupna bez mr
   }
 })
 
+test('paneli dobijaju fokus, Escape ih zatvara i vraca fokus na dugme', async () => {
+  await otvori()
+  await izvrsi(`import('./klase/mapa.js').then(({mapa})=>void mapa.fire('pozicija',{latlng:L.latLng(44,20)}))`)
+  for (const selektor of ['dugme-legenda','planer-rute','lista-najblizih','panel-filteri']) {
+    await izvrsi(`(()=>{
+      const c=document.querySelector(${JSON.stringify(selektor)})
+      const dugme=c.dugme || document.querySelector('polje-pretraga').dugme
+      dugme.focus();dugme.click()
+    })()`)
+    await sacekaj(`(()=>{const c=document.querySelector(${JSON.stringify(selektor)});return !c.panel.hidden && c.shadowRoot.activeElement===c.panel})()`, 'fokus u panelu')
+    await pregledac.send('Input.dispatchKeyEvent',{type:'keyDown',key:'Escape',code:'Escape'})
+    await pregledac.send('Input.dispatchKeyEvent',{type:'keyUp',key:'Escape',code:'Escape'})
+    const stanje = await izvrsi(`(()=>{const c=document.querySelector(${JSON.stringify(selektor)}),d=c.dugme || document.querySelector('polje-pretraga').dugme;return {hidden:c.panel.hidden,fokus:c.shadowRoot.activeElement===d || document.activeElement===d,aktivan:document.activeElement?.tagName,unutra:c.shadowRoot.activeElement?.id}})()`)
+    assert.equal(stanje.hidden && stanje.fokus,true,selektor+': '+JSON.stringify(stanje))
+  }
+  await otvori('#mostar-partisan-cemetery')
+  await sacekaj(`(()=>{const d=document.querySelector('detalji-spomenika');return d.shadowRoot.activeElement===d.panel && !!d.panel.getAttribute('aria-label')})()`,'fokus detalja')
+  await pregledac.send('Input.dispatchKeyEvent',{type:'keyDown',key:'Escape',code:'Escape'})
+  await pregledac.send('Input.dispatchKeyEvent',{type:'keyUp',key:'Escape',code:'Escape'})
+  assert.equal(await izvrsi(`document.querySelector('detalji-spomenika').panel.hidden`),true)
+})
+
+test('nepotpuno ucitavanje ne skracuje sacuvanu automatsku turu i daje tacnu poruku', async () => {
+  await otvori()
+  const sacuvana = await izvrsi(`(()=>{
+    const r=document.querySelector('planer-rute'),t=r.definicije.find(t=>t.id==='belgrade-in-the-peoples-liberation-struggle')
+    const ids=[...r.stavke.values()].filter(x=>x.spomenik.mesto.startsWith('Beograd') && x.marker.najmanjiZum>9).slice(0,2).map(x=>x.spomenik.id)
+    const ruta={turaId:t.id,naziv:t.naziv,spomenici:ids}
+    localStorage.setItem('spomenici-ruta',JSON.stringify(ruta));return ruta
+  })()`)
+  assert.equal(sacuvana.spomenici.length,2)
+  let aktivno = true
+  const zaustavljeni=[],poruke=[]
+  pregledac.slusaj(m=>{
+    if(!aktivno)return
+    if(m.method==='Fetch.requestPaused')zaustavljeni.push(m.params.requestId)
+    if(m.method==='Page.javascriptDialogOpening'){
+      poruke.push(m.params.message)
+      pregledac.send('Page.handleJavaScriptDialog',{accept:true}).catch(()=>{})
+    }
+  })
+  await pregledac.send('Network.setBypassServiceWorker',{bypass:true})
+  await pregledac.send('Fetch.enable',{patterns:[{urlPattern:'*data/spomenici-ostali.json'}]})
+  try {
+    await pregledac.send('Page.navigate',{url:'about:blank'})
+    await pregledac.send('Page.navigate',{url:server.adresa})
+    await sacekaj(`document.querySelector('polje-pretraga') && document.querySelector('planer-rute').definicije.length>0`,'prvi deo podataka')
+    assert.deepEqual(await izvrsi(`JSON.parse(localStorage.getItem('spomenici-ruta'))`),sacuvana)
+    for(const requestId of zaustavljeni)await pregledac.send('Fetch.fulfillRequest',{requestId,responseCode:503,body:''})
+    for(let i=0;i<50 && !poruke.length;i++)await sleep(50)
+    assert.match(poruke[0],/samo deo spomenika/)
+    assert.deepEqual(await izvrsi(`JSON.parse(localStorage.getItem('spomenici-ruta'))`),sacuvana)
+  }finally{
+    aktivno=false
+    await pregledac.send('Fetch.disable')
+    await pregledac.send('Network.setBypassServiceWorker',{bypass:false})
+    await izvrsi(`localStorage.removeItem('spomenici-ruta')`)
+  }
+})
+
+test('dodirne mete imaju najmanje 44 px i engleski prevod kontrola', async () => {
+  await otvori()
+  await izvrsi(`localStorage.setItem('spomenici-jezik','en')`)
+  try{
+    await otvori()
+    const kontrole=await izvrsi(`({
+      lokator:document.querySelector('dugme-lokator button').getAttribute('aria-label'),
+      ekran:document.querySelector('dugme-pun-ekran button').getAttribute('aria-label'),
+      mete:[document.querySelector('#jezik'),...document.querySelectorAll('.leaflet-control-zoom a')].map(e=>{const r=e.getBoundingClientRect();return [r.width,r.height]})
+    })`)
+    assert.equal(kontrole.lokator,'Locate me')
+    assert.equal(kontrole.ekran,'Full screen')
+    assert.ok(kontrole.mete.every(([w,h])=>w>=44 && h>=44))
+  }finally{await izvrsi(`localStorage.setItem('spomenici-jezik','sh')`)}
+})
+
+test('neproveren link autora ili posvete se prikazuje samo kao tekst', async () => {
+  await otvori('#mostar-partisan-cemetery')
+  const rezultat=await izvrsi(`(()=>{
+    const d=document.querySelector('detalji-spomenika')
+    return [d.praviAutore({autor:'Nepoznat'}),(()=>{d.autori.Nepoznat='javascript:alert(1)';return d.praviAutore({autor:'Nepoznat'})})(),
+      (()=>{d.posvete.QPROBA={naziv:'Posveta',wiki:'data:text/html,test'};return d.praviPosvetu({posveta:['QPROBA']})})()]
+  })()`)
+  assert.ok(rezultat.every(html=>!html.includes('<a ')))
+})
+
+test('U blizini naznacava da prikazuje samo filtrirane rezultate', async () => {
+  await otvori()
+  await izvrsi(`(()=>{const p=document.querySelector('polje-pretraga');p.polje.value='Tjentište';p.pretrazi()})()`)
+  assert.equal(await izvrsi(`document.querySelector('lista-najblizih').panel.querySelector('.filteri').hidden`),false)
+  await izvrsi(`document.querySelector('polje-pretraga').ponisti()`)
+  assert.equal(await izvrsi(`document.querySelector('lista-najblizih').panel.querySelector('.filteri').hidden`),true)
+})
+
+test('traka dopunjava fotografije nakon prosirenja ekrana bez rucnog pomeranja', async () => {
+  await otvori()
+  await sacekajTraku()
+  const pre = await izvrsi(`document.querySelector('nav-slajder').traka.childElementCount`)
+  try {
+    await pregledac.send('Emulation.setDeviceMetricsOverride',{width:1440,height:900,deviceScaleFactor:1,mobile:false})
+    await sacekaj(`(()=>{const t=document.querySelector('nav-slajder').traka;return t.childElementCount>${pre} && t.scrollWidth>=t.clientWidth})()`,'dopunjena traka na sirokom ekranu')
+  } finally {
+    await pregledac.send('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:2,mobile:true})
+  }
+})
+
 test('bez grešaka u aplikaciji', () => {
   assert.deepEqual(greske, [])
 })

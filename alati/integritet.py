@@ -74,6 +74,8 @@ POZNATI_BLISKI_PAROVI = {frozenset(par) for par in [
     ('museum-of-july-4th', 'beograd-poziv-na-ustanak'),
     # Bista i zaseban obelisk, oba vidljiva na Commons fotografiji Spomen park Bistrica.jpg.
     ('bistrica-bista-lepe-radic', 'bistrica-spomenik-palim-borcima-i-zrtvama-fasistic'),
+    # Bista (tačka Sketchfab modela ZZSK) i skulptura devojčice sa lanetom (približna tačka iz Partisan Memorials Wiki), gradski park.
+    ('leskovac-spomenik-pionirima', 'leskovac-bista-stojana-ljubica'),
 ]}
 cir = re.compile('[Ѐ-ӿ]')
 
@@ -243,4 +245,8 @@ print('spomenika', len(d))
 novi_bliski = [par for par in greske['manje od 30 m'] if frozenset(par[:2]) not in POZNATI_BLISKI_PAROVI]
 if novi_bliski:
     print(f'novi parovi manje od 30 m: {len(novi_bliski)}', novi_bliski[:8])
-sys.exit(1 if novi_bliski or any(v for k, v in greske.items() if k != 'manje od 30 m') else 0)
+otisak_ispravan = True
+if os.path.exists('sw.js'):
+    import subprocess
+    otisak_ispravan = subprocess.run(['node', os.path.join(os.path.dirname(__file__), 'otisak.mjs'), '--proveri']).returncode == 0
+sys.exit(1 if not otisak_ispravan or novi_bliski or any(v for k, v in greske.items() if k != 'manje od 30 m') else 0)

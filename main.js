@@ -14,6 +14,7 @@ import './komponente/Lokator.js'
 import {jezik, t} from './utils/jezik.js'
 import {mapa, postaviMarkere} from './klase/mapa.js'
 import {vaznostSpomenika} from './utils/vaznost.js'
+import {pratiIzdanje} from './utils/azuriranje.js'
 
 document.documentElement.lang = jezik
 
@@ -87,20 +88,20 @@ mapa.on('moveend', () => {
   }, 150)
 })
 
-const render = (stavke, suzeno) => {
+const render = (stavke, suzeno, imaUslova) => {
   filtriraneStavke = stavke
   postaviMarkere(stavke.map(({marker}) => marker), suzeno)
   if (!mapaSePomera) {
     otkaziSlajder()
     osveziSlajder()
   }
-  najblizi.postavi(stavke)
+  najblizi.postavi(stavke, imaUslova)
 }
 
 /* INIT */
 
 // rad bez signala
-if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(console.error)
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').then(pratiIzdanje).catch(console.error)
 
 const ucitaj = putanja => fetch(putanja)
   .then(res => res.ok ? res.json() : Promise.reject(new Error(`${putanja}: HTTP ${res.status}`)))
@@ -119,6 +120,7 @@ ostalo.catch(() => {})
 let sveStavke = []
 let definicijeTura = []
 let spremni = false
+let potpuniPodaci = false
 ucitajDodatak('data/autori.json', {}).then(autori => {
   detalji.postaviAutore(autori)
 })
@@ -127,7 +129,7 @@ ucitajDodatak('data/posvete.json', {}).then(posvete => {
 })
 ucitajDodatak('data/ture.json', []).then(ture => {
   definicijeTura = ture
-  if (spremni) ruta.postavi(sveStavke, ture)
+  if (spremni) ruta.postavi(sveStavke, ture, potpuniPodaci)
 })
 addEventListener('hashchange', () => otvoriIzLinka(sveStavke))
 ucitaj('data/spomenici-istaknuti.json')
@@ -135,13 +137,14 @@ ucitaj('data/spomenici-istaknuti.json')
     const prve = spomenici.map(spomenik => praviStavku(spomenik))
     sveStavke = prve
     spremni = true
-    ruta.postavi(prve, definicijeTura)
+    ruta.postavi(prve, definicijeTura, false)
     const pretraga = document.body.appendChild(new Pretraga(prve, render))
     const otvoren = otvoriIzLinka(prve)
     return ostalo.then(spomenici => {
       const pomaci = pomaciPribliznih(spomenici)
       const nove = spomenici.map(spomenik => praviStavku(spomenik, pomaci.get(spomenik)))
       sveStavke = [...prve, ...nove]
+      potpuniPodaci = true
       ruta.postavi(sveStavke, definicijeTura)
       pretraga.dodaj(nove)
       if (!otvoren) otvoriIzLinka(nove)
@@ -150,5 +153,5 @@ ucitaj('data/spomenici-istaknuti.json')
   })
   .catch(greska => {
     console.error(greska)
-    alert(t('podaciNedostupni'))
+    alert(t(spremni ? 'podaciDelimicni' : 'podaciNedostupni'))
   })

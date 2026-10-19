@@ -1,5 +1,6 @@
 // @ts-check
 import {mapa} from '../klase/mapa.js'
+import {upravljajPanelom} from '../utils/ui.js'
 import {naziviStanja, nazivSpomenika} from '../utils/helpers.js'
 import {t} from '../utils/jezik.js'
 
@@ -120,13 +121,14 @@ export default class Najblizi extends HTMLElement {
     this.panel = document.createElement('section')
     this.panel.id = 'panel'
     this.panel.hidden = true
-    this.panel.innerHTML = `<header><span>${t('uBlizini')} <small>${t('vazdusnom')}</small></span><button title="${t('zatvori')}">×</button></header>`
+    this.panel.innerHTML = `<header><span>${t('uBlizini')} <small>${t('vazdusnom')}</small><small class="filteri" hidden> · ${t('filtriraniRezultati')}</small></span><button title="${t('zatvori')}">×</button></header>`
     this.panel.querySelector('button').addEventListener('click', () => this.panel.hidden = true)
     this.lista = document.createElement('ol')
     this.panel.appendChild(this.lista)
 
     this.attachShadow({mode: 'open'})
     this.shadowRoot.append(style, this.dugme, this.panel)
+    upravljajPanelom(this.panel, () => this.panel.hidden = true, t('uBlizini'), () => this.dugme)
 
     mapa.on('pozicija', ({latlng}) => {
       this.pozicija = latlng
@@ -134,8 +136,9 @@ export default class Najblizi extends HTMLElement {
     })
   }
 
-  postavi(stavke) {
+  postavi(stavke, filtrirano = false) {
     this.stavke = stavke
+    this.panel.querySelector('.filteri').hidden = !filtrirano
     this.prikazi()
   }
 

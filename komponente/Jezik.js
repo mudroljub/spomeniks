@@ -11,10 +11,11 @@ class Jezik extends HTMLElement {
           border: 0;
           color: white;
           font: bold 12px system-ui, sans-serif;
-          height: 32px;
+          height: 44px;
+          width: 44px;
           left: 10px;
           padding: 0;
-          top: calc(134px + var(--vrh));
+          top: calc(150px + var(--vrh));
         }
       </style>
       <button class="ikonica" id="jezik" title="${drugi === 'sh' ? 'Srpskohrvatski' : 'English'}">${drugi.toUpperCase()}</button>

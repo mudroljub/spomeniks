@@ -1,8 +1,8 @@
 // @ts-check
 import {mapa} from '../klase/mapa.js'
 import {navigacijaIkonica} from '../utils/ikonice.js'
-import {stilZaglavlja} from '../utils/ui.js'
-import {mestoUrl, navigacijaUrl, escapeHtml, naziviStanja, nestao, autoriSpomenika, nazivSpomenika} from '../utils/helpers.js'
+import {stilZaglavlja, upravljajPanelom} from '../utils/ui.js'
+import {mestoUrl, navigacijaUrl, escapeHtml, naziviStanja, nestao, autoriSpomenika, nazivSpomenika, bezbedanLink} from '../utils/helpers.js'
 import {dajOznaku, postaviOznaku, promene} from '../utils/oznake.js'
 import {uRuti, dodajURutu, ukloniIzRute, promeneRute} from '../utils/ruta.js'
 import {jezik, t, nazivDrzave} from '../utils/jezik.js'
@@ -370,6 +370,8 @@ export default class Detalji extends HTMLElement {
 
     this.attachShadow({mode: 'open'})
     this.shadowRoot.append(style, this.panel)
+    upravljajPanelom(this.panel, () => mapa.fire('izbor', {marker: null}),
+      () => nazivSpomenika(this.marker?.spomen || {}), () => mapa.getContainer())
 
     mapa.on('izbor', ({marker, izRute}) => marker ? this.prikazi(marker, izRute) : this.sakrij())
     mapa.on('click', () => this.marker && mapa.fire('izbor', {marker: null}))
@@ -451,8 +453,9 @@ export default class Detalji extends HTMLElement {
     const autori = autoriSpomenika(spomen)
     if (!autori.length) return ''
     const imena = autori.map(ime => {
-      const imeLink = this.autori[ime]
-        ? `<a href="${escapeHtml(this.autori[ime])}" target="_blank">${escapeHtml(ime)}</a>`
+      const link = bezbedanLink(this.autori[ime])
+      const imeLink = link
+        ? `<a href="${escapeHtml(link)}" target="_blank">${escapeHtml(ime)}</a>`
         : escapeHtml(ime)
       return imeLink
     }).join(' & ')
@@ -487,8 +490,8 @@ export default class Detalji extends HTMLElement {
     if (!stavke.length) return ''
     const linkovi = stavke.map(p => {
       const ime = jezik === 'en' && p.name || p.naziv
-      const link = jezik === 'en' && p.wikiEn || p.wiki
-      return `<a href="${escapeHtml(link)}" target="_blank">${escapeHtml(ime)}</a>`
+      const link = bezbedanLink(jezik === 'en' && p.wikiEn || p.wiki)
+      return link ? `<a href="${escapeHtml(link)}" target="_blank">${escapeHtml(ime)}</a>` : escapeHtml(ime)
     }).join(', ')
     return `${t('posveta')}: ${linkovi}`
   }

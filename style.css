@@ -5,6 +5,20 @@
   --dno: env(safe-area-inset-bottom, 0px);
 }
 
+.novo-izdanje {
+  position: fixed;
+  top: calc(60px + var(--vrh));
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2000;
+  background: #fffdf8;
+  box-shadow: 0 2px 8px #0006;
+  border-radius: 8px;
+  padding: 8px 12px;
+  max-width: calc(100% - 32px);
+}
+.novo-izdanje button { min-height: 44px; cursor: pointer; }
+
 html, body, #mapa {
   height: 100%;
   margin: 0px;
@@ -52,6 +66,13 @@ h1 {
 .leaflet-control-container {
   top: calc(50px + var(--vrh));
   position: absolute;
+}
+
+.leaflet-touch .leaflet-bar a,
+.leaflet-bar a {
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
 }
 /* oznake sa uredjaja i izabran spomenik */
 /* naziv i mesto pri prelasku misem; dugi nazivi se lome u vise redova */

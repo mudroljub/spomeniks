@@ -1,5 +1,6 @@
 // @ts-check
 import {mapa} from '../klase/mapa.js'
+import {upravljajPanelom} from '../utils/ui.js'
 import {t} from '../utils/jezik.js'
 import {izgledMarkera, znak, znakVrste, visinaObeliska} from '../utils/ikonice.js'
 import {nivoiVaznosti} from '../utils/vaznost.js'
@@ -184,6 +185,7 @@ export default class Legenda extends HTMLElement {
 
     this.attachShadow({mode: 'open'})
     this.shadowRoot.append(style, this.dugme, this.panel)
+    upravljajPanelom(this.panel, () => this.prikazi(false), t('legenda'), () => this.dugme)
 
     mapa.on('click', () => this.prikazi(false))
     mapa.on('izbor', ({marker}) => marker && this.prikazi(false))

@@ -1,5 +1,4 @@
 // @ts-check
-// koristi globalnu css var visina-slajdera, proslediti kao props
 import {mapa} from '../klase/mapa.js'
 import {t} from '../utils/jezik.js'
 
@@ -22,7 +21,7 @@ class Lokator extends HTMLElement {
           position: static;
         }
       </style>
-      <button class="dugme-ikonica" title="Locate me" aria-label="lociraj me"><img src="slike/ui/lokator.svg" width="32" class="ikonica" id="lokator" alt=""></button>
+      <button class="dugme-ikonica" title="${t('locirajMe')}" aria-label="${t('locirajMe')}"><img src="slike/ui/lokator.svg" width="32" class="ikonica" id="lokator" alt=""></button>
     `
   }
 

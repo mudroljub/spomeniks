@@ -1,12 +1,13 @@
 // @ts-check
 import {mapa} from '../klase/mapa.js'
 import {navigacijaIkonica, znakVrste} from '../utils/ikonice.js'
-import {stilZaglavlja} from '../utils/ui.js'
+import {stilZaglavlja, upravljajPanelom} from '../utils/ui.js'
 import {naziviStanja, nazivSpomenika, malaSlika, navigacijaUrl} from '../utils/helpers.js'
 import {t, jezik, nazivDrzave} from '../utils/jezik.js'
 import {dajRutu, dajNaziv, dajWiki, dajTuruId, postaviRutu, izaberiTuru, ukloniIzRute, pomeri, promeneRute} from '../utils/ruta.js'
 import {sastaviTure} from '../utils/ture.js'
-import {nivoiVaznosti, podrazumevaniPrag, razresiPrag} from '../utils/vaznost.js'
+import {nivoiVaznosti, razresiPrag} from '../utils/vaznost.js'
+import {ucitajIzSkladista, sacuvajUSkladiste} from '../utils/skladiste.js'
 
 const boja = '#822323'
 const najviseZaGoogle = 10 // ogranicenje jednog Google linka, ne broja stanica u turi
@@ -15,11 +16,7 @@ const najmanjeStanica = 3 // manje od toga nije tura
 const grupeSpiska = ['Slovenia', 'Croatia', 'Bosnia and Herzegovina', 'Montenegro', 'Serbia', 'Vojvodina', 'Kosovo', 'Macedonia']
 const siroko = matchMedia('(min-width: 600px)') // ruta i spomenik mogu da stoje jedno pored drugog
 const kljucPraga = 'spomenici-prag-tura'
-const ucitajPrag = () => {
-  try {
-    return razresiPrag(localStorage.getItem(kljucPraga))
-  } catch { return podrazumevaniPrag }
-}
+const ucitajPrag = () => razresiPrag(ucitajIzSkladista(kljucPraga))
 
 const style = document.createElement('style')
 style.textContent = `
@@ -514,6 +511,7 @@ export default class Ruta extends HTMLElement {
 
     this.attachShadow({mode: 'open'})
     this.shadowRoot.append(style, this.dugme, this.panel)
+    upravljajPanelom(this.panel, () => this.panel.hidden = true, t('trenutnaRuta'), () => this.dugme)
 
     promeneRute.addEventListener('promena', () => this.prikazi())
     mapa.on('izbor', ({marker}) => marker && !siroko.matches && (this.panel.hidden = true))
@@ -541,7 +539,7 @@ export default class Ruta extends HTMLElement {
 
   postaviPrag(vrsta) {
     this.pragVaznosti = vrsta
-    try { localStorage.setItem(kljucPraga, vrsta) } catch { /* izbor vazi dok je stranica otvorena */ }
+    sacuvajUSkladiste(kljucPraga, vrsta)
     this.prikaziPrag()
     this.osveziTure()
   }
@@ -565,6 +563,7 @@ export default class Ruta extends HTMLElement {
       if (korak) opcije[(opcije.indexOf(cilj) + korak + opcije.length) % opcije.length].focus()
       if (e.key === 'Enter' || e.key === ' ') cilj.click()
       if (e.key === 'Escape') {
+        e.stopPropagation()
         this.otvoriPrag(false)
         dugme.focus()
       }
@@ -575,9 +574,10 @@ export default class Ruta extends HTMLElement {
     })
   }
 
-  postavi(stavke, ture) {
+  postavi(stavke, ture, potpuni = true) {
     this.stavke = new Map(stavke.map(stavka => [stavka.spomenik.id, stavka]))
     this.definicije = ture
+    this.potpuniPodaci = potpuni
     this.osveziTure()
   }
 
@@ -586,7 +586,7 @@ export default class Ruta extends HTMLElement {
     const ture = sastaviTure(this.definicije, [...this.stavke.values()].map(s => s.spomenik), this.pragVaznosti)
     this.prikaziSpisakTura(ture.filter(tura => tura.spomenici.length >= najmanjeStanica))
     const aktivna = ture.find(tura => tura.id === dajTuruId())
-    if (aktivna) izaberiTuru({...aktivna, spomenici: this.redosledTure(aktivna.spomenici)})
+    if (aktivna && this.potpuniPodaci) izaberiTuru({...aktivna, spomenici: this.redosledTure(aktivna.spomenici)})
     this.prikazi()
   }
 

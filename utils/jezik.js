@@ -1,13 +1,7 @@
 // @ts-check
-const kljuc = 'spomenici-jezik'
+import {ucitajIzSkladista, sacuvajUSkladiste} from './skladiste.js'
 
-const sacuvan = () => {
-  try {
-    return localStorage.getItem(kljuc)
-  } catch (e) {
-    return null
-  }
-}
+const kljuc = 'spomenici-jezik'
 
 const domaci = ['sh', 'sr', 'hr', 'bs', 'cnr', 'sl', 'mk']
 const izPregledaca = () => navigator.languages.some(j => domaci.includes(j.split('-')[0].toLowerCase())) ? 'sh' : 'en'
@@ -15,15 +9,14 @@ const izPregledaca = () => navigator.languages.some(j => domaci.includes(j.split
 // bez skladista (privatni rezim i slicno) izbor ostaje u adresi stranice
 const izAdrese = () => new URLSearchParams(location.search).get('jezik')
 
-const izbor = izAdrese() ?? sacuvan()
+const izbor = izAdrese() ?? ucitajIzSkladista(kljuc)
 export const jezik = izbor === 'sh' || izbor === 'en' ? izbor : izPregledaca()
 
 export const promeniJezik = novi => {
   const adresa = new URL(location.href)
-  try {
-    localStorage.setItem(kljuc, novi)
+  if (sacuvajUSkladiste(kljuc, novi)) {
     adresa.searchParams.delete('jezik')
-  } catch (e) {
+  } else {
     adresa.searchParams.set('jezik', novi)
   }
   if (adresa.href === location.href) location.reload()
@@ -155,6 +148,13 @@ const tekstovi = {
   vanMape: {sh: 'Tvoja lokacija je van mape', en: 'Your location is outside the map'},
 
   podaciNedostupni: {sh: 'Spomenici nisu učitani. Proveri vezu i otvori stranicu ponovo.', en: 'Monuments could not be loaded. Check your connection and reload the page.'},
+  podaciDelimicni: {sh: 'Prikazan je samo deo spomenika. Proveri vezu i otvori stranicu ponovo.', en: 'Only some monuments are shown. Check your connection and reload the page.'},
+  filtriraniRezultati: {sh: 'Prema pretrazi i filterima', en: 'Matching search and filters'},
+  locirajMe: {sh: 'Lociraj me', en: 'Locate me'},
+  punEkran: {sh: 'Pun ekran', en: 'Full screen'},
+  novoIzdanje: {sh: 'Nova verzija je spremna.', en: 'A new version is ready.'},
+  osveziIzdanje: {sh: 'Osveži sve kartice', en: 'Refresh all tabs'},
+  azuriranjeGreska: {sh: 'Ažuriranje nije uspelo. Pokušaj ponovo.', en: 'Update failed. Please try again.'},
 }
 
 export const t = (kljuc, ...vrednosti) => {

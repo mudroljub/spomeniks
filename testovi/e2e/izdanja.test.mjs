@@ -12,9 +12,16 @@ test('novo izdanje ceka stare klijente i zatim koristi svoj komplet resursa u Ch
     if (zahtev.url === '/sw.js') {
       odgovor.setHeader('Content-Type', 'text/javascript')
       odgovor.end(kod.replace(/const VERZIJA = '[^']+'/u, `const VERZIJA = 'proba-${izdanje}'`))
-    } else if (zahtev.url === '/' || zahtev.url === '/index.html') {
+    } else if (zahtev.url.startsWith('/utils/')) {
+      odgovor.setHeader('Content-Type', 'text/javascript')
+      odgovor.end(readFileSync(new URL('../../' + zahtev.url.slice(1), import.meta.url)))
+    } else if (['/', '/index.html', '/zadrzana.html'].includes(zahtev.url)) {
       odgovor.setHeader('Content-Type', 'text/html')
-      odgovor.end(`<!doctype html><body>${izdanje}</body>`)
+      odgovor.end(`<!doctype html><body>${izdanje}<script type="module">
+        ${zahtev.url === '/zadrzana.html' ? "navigator.serviceWorker.addEventListener('message',e=>{if(e.data?.vrsta==='OSVEZI_IZDANJE')e.stopImmediatePropagation()})" : ''}
+        import {pratiIzdanje} from './utils/azuriranje.js';
+        navigator.serviceWorker.register('sw.js').then(pratiIzdanje)
+      </script>`)
     } else odgovor.end(`${izdanje}:${zahtev.url}`)
   })
   await new Promise(r => server.listen(0, '127.0.0.1', r))
@@ -57,6 +64,26 @@ test('novo izdanje ceka stare klijente i zatim koristi svoj komplet resursa u Ch
     await cekaj(() => b.izvrsi(`location.origin===${JSON.stringify(new URL(adresa).origin)} && !!navigator.serviceWorker.controller`))
     assert.equal(await b.izvrsi(`fetch('main.js').then(r=>r.text())`), 'novo:/main.js')
     assert.equal(await b.izvrsi(`caches.has('spomenici-aplikacija-proba-staro')`), false)
+    // Druga kartica namerno odlozi ponovno ucitavanje da proverimo da joj se izdanje ne promeni usred rada.
+    const {result:{targetId}} = await b.send('Target.createTarget',{url:adresa+'zadrzana.html'})
+    const {result:{sessionId}} = await b.send('Target.attachToTarget',{targetId,flatten:true})
+    const izvrsiDrugu = async expression => {
+      const {result} = await b.send('Runtime.evaluate',{expression,awaitPromise:true,returnByValue:true},sessionId)
+      if (result.exceptionDetails) throw new Error(result.exceptionDetails.exception?.description)
+      return result.result.value
+    }
+    await cekaj(() => izvrsiDrugu(`document.readyState==='complete' && !!navigator.serviceWorker.controller`))
+    izdanje = 'trece'
+    await b.izvrsi(`navigator.serviceWorker.getRegistration().then(r=>r.update()).then(()=>true)`)
+    await cekaj(() => b.izvrsi(`!!document.querySelector('.novo-izdanje button')`))
+    await b.izvrsi(`document.querySelector('.novo-izdanje button').click()`)
+    await cekaj(() => b.izvrsi(`document.body.textContent.startsWith('trece') && !!navigator.serviceWorker.controller`))
+    assert.equal(await b.izvrsi(`fetch('main.js').then(r=>r.text())`),'trece:/main.js')
+    assert.equal(await izvrsiDrugu(`fetch('main.js').then(r=>r.text())`),'novo:/main.js')
+    assert.equal(await b.izvrsi(`caches.has('spomenici-aplikacija-proba-novo')`),true)
+    await b.send('Page.reload',{},sessionId)
+    await cekaj(() => izvrsiDrugu(`document.body.textContent.startsWith('trece')`))
+    await cekaj(() => b.izvrsi(`caches.has('spomenici-aplikacija-proba-novo').then(v=>!v)`))
   } finally {
     await b?.zatvori()
     server.closeAllConnections()

@@ -1,10 +1,9 @@
 // @ts-check
-// TODO: proslediti visina-slajdera kao props
 import {t} from '../utils/jezik.js'
 
 const style = document.createElement('style')
 
-const inicijalnoSlika = Math.max(1, Math.round(window.innerWidth / 70))
+const inicijalnoSlika = () => Math.max(1, Math.round(window.innerWidth / 70))
 
 style.textContent = `
   :host {
@@ -139,6 +138,14 @@ export default class Slajder extends HTMLElement {
 
   connectedCallback() {
     this.dodajSlikeAkoTreba()
+    this.promenaVelicine ??= new ResizeObserver(() => {
+      if (this.traka.scrollWidth <= this.traka.clientWidth * 2) this.dodajSlikeAkoTreba()
+    })
+    this.promenaVelicine.observe(this.traka)
+  }
+
+  disconnectedCallback() {
+    this.promenaVelicine?.disconnect()
   }
 
   postavi(slike, zum = 0) {
@@ -206,7 +213,7 @@ export default class Slajder extends HTMLElement {
 
   dodajSlikeAkoTreba() {
     const brojUnetihSlika = this.traka.children.length
-    this.slike.slice(brojUnetihSlika, brojUnetihSlika + inicijalnoSlika)
+    this.slike.slice(brojUnetihSlika, brojUnetihSlika + inicijalnoSlika())
       .forEach(dajSliku => {
         const slika = dajSliku()
         slika.prikaziNatpis(this.zum)

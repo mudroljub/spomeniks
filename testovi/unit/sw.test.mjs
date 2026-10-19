@@ -7,7 +7,7 @@ import vm from 'node:vm'
 const kod = readFileSync(new URL('../../sw.js', import.meta.url), 'utf8')
 const sajt = 'https://spomenici.test'
 
-const pokreni = ({mreza, neuspesanUpis = false, kesevi = new Map(), verzija}) => {
+const pokreni = ({mreza, neuspesanUpis = false, kesevi = new Map(), verzija, sada = () => Date.now(), klijenti = []}) => {
   const kljuc = zahtev => new URL(typeof zahtev === 'string' ? zahtev : zahtev.url).href
   const otvori = ime => {
     if (!kesevi.has(ime)) kesevi.set(ime, new Map())
@@ -23,20 +23,21 @@ const pokreni = ({mreza, neuspesanUpis = false, kesevi = new Map(), verzija}) =>
         putanje.forEach((p, i) => sadrzaj.set(new URL(p, sajt).href, odgovori[i].clone()))
       },
       match: async zahtev => sadrzaj.get(kljuc(zahtev))?.clone(),
-      keys: async () => [...sadrzaj.keys()],
-      delete: async k => sadrzaj.delete(k),
+      keys: async () => [...sadrzaj.keys()].map(url => new Request(url)),
+      delete: async k => sadrzaj.delete(kljuc(k)),
     }
   }
   const zahtevi = []
   const slusaoci = {}
   let preskocenoCekanje = false, preuzetiKlijenti = false
   const okruzenje = {
-    self: {addEventListener: (vrsta, fn) => slusaoci[vrsta] = fn,
-      skipWaiting: () => { preskocenoCekanje = true }, clients: {claim: () => { preuzetiKlijenti = true }}},
+    self: {registration: {scope: sajt + '/'}, addEventListener: (vrsta, fn) => slusaoci[vrsta] = fn,
+      skipWaiting: () => { preskocenoCekanje = true }, clients: {matchAll: async () => klijenti, claim: () => { preuzetiKlijenti = true }}},
     location: new URL(sajt),
     caches: {
       open: async ime => otvori(ime),
       keys: async () => [...kesevi.keys()],
+      has: async ime => kesevi.has(ime),
       delete: async ime => kesevi.delete(ime),
       match: async zahtev => {
         for (const ime of kesevi.keys()) {
@@ -50,7 +51,7 @@ const pokreni = ({mreza, neuspesanUpis = false, kesevi = new Map(), verzija}) =>
       return mreza(kljuc(zahtev))
     },
     // rok mreze ne istice, jer lazna mreza odgovara odmah
-    URL, Request, Response, Promise, setTimeout: () => {},
+    URL, Request, Response, Headers, Date: {now: sada}, Promise, setTimeout: () => {},
   }
   vm.runInNewContext((verzija ? kod.replace(/const VERZIJA = '[^']+'/u, `const VERZIJA = '${verzija}'`) : kod)
     + '\nglobalThis.imeIzdanja = APLIKACIJA', okruzenje)
@@ -67,9 +68,9 @@ const pokreni = ({mreza, neuspesanUpis = false, kesevi = new Map(), verzija}) =>
     await Promise.all(cekanja)
     return rezultat
   }
-  const dogadjaj = async vrsta => {
+  const dogadjaj = async (vrsta, podaci = {}) => {
     const cekanja = []
-    slusaoci[vrsta]({waitUntil: p => cekanja.push(p)})
+    slusaoci[vrsta]({waitUntil: p => cekanja.push(p), ...podaci})
     await Promise.all(cekanja)
   }
   return {otvoriAdresu, kesevi, zahtevi, imeIzdanja: okruzenje.imeIzdanja, dogadjaj,
@@ -142,10 +143,12 @@ test('nepotpuna instalacija ne zamenjuje prethodno izdanje', async () => {
 
 test('fotografija se osvezava pod istim URL-om, a ostaje dostupna bez mreze', async () => {
   let tekst = 'stara', offline = false
-  const sw = pokreni({mreza: () => offline ? Promise.reject(new Error('offline')) : new Response(tekst)})
+  let vreme = Date.now()
+  const sw = pokreni({sada: () => vreme, mreza: () => offline ? Promise.reject(new Error('offline')) : new Response(tekst)})
   const putanja = '/slike/spomenici/a.webp'
   assert.equal(await (await sw.otvoriAdresu(putanja)).text(), 'stara')
   tekst = 'nova'
+  vreme += 24 * 60 * 60 * 1000
   assert.equal(await (await sw.otvoriAdresu(putanja)).text(), 'stara')
   assert.equal(await (await sw.otvoriAdresu(putanja)).text(), 'nova')
   offline = true
@@ -154,10 +157,61 @@ test('fotografija se osvezava pod istim URL-om, a ostaje dostupna bez mreze', as
 
 test('neuspelo osvezavanje male fotografije ne prepisuje sacuvanu sliku', async () => {
   let status = 200
-  const sw = pokreni({mreza: () => new Response('slika', {status})})
+  let vreme = Date.now()
+  const sw = pokreni({sada: () => vreme, mreza: () => new Response('slika', {status})})
   const putanja = '/slike/male/a.webp'
   await sw.otvoriAdresu(putanja)
   status = 503
+  vreme += 24 * 60 * 60 * 1000
   assert.equal(await (await sw.otvoriAdresu(putanja)).text(), 'slika')
   assert.equal(sw.kesevi.get('spomenici-slike').get(sajt + putanja).status, 200)
+})
+
+test('ista fotografija se ne proverava ponovo pre isteka roka ni posle restarta workera', async () => {
+  let pozivi = 0
+  const mreza = () => { pozivi++; return new Response('slika') }
+  const prvi = pokreni({mreza})
+  await prvi.otvoriAdresu('/slike/male/a.webp')
+  await prvi.otvoriAdresu('/slike/male/a.webp')
+  const drugi = pokreni({mreza, kesevi: prvi.kesevi})
+  await drugi.otvoriAdresu('/slike/male/a.webp')
+  assert.equal(pozivi, 1)
+})
+
+test('granica kesa vazi i kada svaki worker upise samo jednu novu sliku', async () => {
+  const kesevi = new Map([['spomenici-slike', new Map(Array.from({length: 1500}, (_,i) =>
+    [`${sajt}/slike/male/${i}.webp`, new Response('stara')]))]])
+  for (let i=0; i<3; i++) {
+    const sw = pokreni({kesevi, mreza: () => new Response('nova')})
+    await sw.otvoriAdresu(`/slike/male/nova-${i}.webp`)
+    assert.equal(kesevi.get('spomenici-slike').size, 1500)
+  }
+  assert.ok(!kesevi.get('spomenici-slike').has(`${sajt}/slike/male/0.webp`))
+})
+
+test('prinudno azuriranje cuva vezu starih klijenata sa prethodnim izdanjem do ucitavanja nove stranice', async () => {
+  const kesevi = new Map(), poruke = []
+  const klijenti = [{id:'A',url:sajt+'/',postMessage:m=>poruke.push(m)}, {id:'B',url:sajt+'/',postMessage:m=>poruke.push(m)}]
+  const stari = pokreni({verzija:'stari',kesevi,mreza:()=>new Response('stari')})
+  await stari.dogadjaj('install')
+  const novi = pokreni({verzija:'novi',kesevi,klijenti,mreza:()=>new Response('novi')})
+  await novi.dogadjaj('install')
+  await novi.dogadjaj('message', {data:{vrsta:'AKTIVIRAJ',prethodni:stari.imeIzdanja}})
+  assert.equal(novi.preuzimanje().preskocenoCekanje,true)
+  await novi.dogadjaj('activate')
+  assert.equal(poruke.length,2)
+  assert.equal(await (await novi.otvoriAdresu('/main.js',{clientId:'A'})).text(),'stari')
+  assert.equal(await (await novi.otvoriAdresu('/main.js',{clientId:'B'})).text(),'stari')
+  assert.equal(await (await novi.otvoriAdresu('/main.js',{clientId:'nova-stranica'})).text(),'novi')
+  assert.ok(kesevi.has(stari.imeIzdanja))
+})
+
+test('stara kartica ne brise kes novog izdanja koje jos ceka', async () => {
+  const kesevi = new Map()
+  const stari = pokreni({verzija:'stari',kesevi,mreza:()=>new Response('stari')})
+  await stari.dogadjaj('install')
+  const novi = pokreni({verzija:'novi',kesevi,mreza:()=>new Response('novi')})
+  await novi.dogadjaj('install')
+  await stari.dogadjaj('message',{data:{vrsta:'SPREMAN'}})
+  assert.equal(await (await novi.otvoriAdresu('/main.js')).text(),'novi')
 })

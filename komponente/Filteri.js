@@ -1,5 +1,6 @@
 // @ts-check
 import {mapa} from '../klase/mapa.js'
+import {upravljajPanelom} from '../utils/ui.js'
 import {nestao, ruine, autoriSpomenika, normalizuj, escapeHtml} from '../utils/helpers.js'
 import {dajOznaku, promene} from '../utils/oznake.js'
 import {t, nazivDrzave} from '../utils/jezik.js'
@@ -311,6 +312,7 @@ export default class Filteri extends HTMLElement {
 
     this.attachShadow({mode: 'open'})
     this.shadowRoot.append(style, this.panel)
+    upravljajPanelom(this.panel, () => this.zatvori(), t('filteri'), () => document.querySelector('polje-pretraga')?.dugme)
 
     promene.addEventListener('promena', () => {
       if (this.izbor.poseta.size) this.javi()
@@ -435,6 +437,7 @@ export default class Filteri extends HTMLElement {
     }
     if (e.key === 'Escape') {
       e.preventDefault()
+      e.stopPropagation()
       const grupa = this.otvorenSpisak
       this.zatvoriSpisak()
       this.vratiFokus(grupa)

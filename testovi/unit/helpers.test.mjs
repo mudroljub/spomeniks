@@ -2,8 +2,14 @@ import {postaviNavigator} from '../okruzenje.mjs'
 import {test} from 'node:test'
 import assert from 'node:assert/strict'
 import {
-  normalizuj, escapeHtml, nazivSpomenika, malaSlika, autoriSpomenika, nestao, ruine, mestoUrl, navigacijaUrl,
+  normalizuj, escapeHtml, nazivSpomenika, malaSlika, autoriSpomenika, nestao, ruine, mestoUrl, navigacijaUrl, bezbedanLink,
 } from '../../utils/helpers.js'
+
+test('linkovi prihvataju samo apsolutne HTTP i HTTPS adrese', () => {
+  assert.equal(bezbedanLink('https://example.com/autor'), 'https://example.com/autor')
+  for (const link of ['javascript:alert(1)', 'data:text/html,tekst', '/relativno', '', undefined])
+    assert.equal(bezbedanLink(link), '')
+})
 
 test('pretraga ne razlikuje pismo, velika slova ni dijakritiku', () => {
   for (const oblik of ['Kadinjača', 'KADINJACA', 'Кадињача', 'kadinjaca']) assert.equal(normalizuj(oblik), 'kadinjaca')

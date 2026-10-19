@@ -11,6 +11,14 @@ export const naziviStanja = {
 
 const bezLinkova = html => (html || '').replace(/<[^>]*>/g, '')
 
+export const bezbedanLink = link => {
+  if (typeof link !== 'string') return ''
+  try {
+    const url = new URL(link)
+    return ['http:', 'https:'].includes(url.protocol) ? url.href : ''
+  } catch { return '' }
+}
+
 /** @param {import('../data/tipovi').Spomenik} spomenik */
 export const nazivSpomenika = ({naziv, nazivEn}) => jezik === 'en'
   ? bezLinkova(nazivEn) || naziv || ''
