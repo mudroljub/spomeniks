@@ -4,6 +4,7 @@ import {test, before, after} from 'node:test'
 import assert from 'node:assert/strict'
 import {readFileSync} from 'node:fs'
 import {otvoriPregledac, pokreniServer, sleep} from '../../alati/pregledac.mjs'
+import {nivoiVaznosti} from '../../utils/vaznost.js'
 
 let pregledac, server
 const greske = []
@@ -104,6 +105,37 @@ test('oznake vrsta prate UI nazive i sve njihove ikonice postoje', async () => {
     return greske
   })()`)
   assert.deepEqual(greskeVrsta, [])
+})
+
+test('legenda, filteri, izbor ture i slojevi mape prate isti prioritet vrsta', async () => {
+  await otvori()
+  await izvrsi("document.querySelector('polje-pretraga .dugme-filteri').click()")
+  const prikaz = await izvrsi(`(async () => {
+    const {nivoiVaznosti} = await import('./utils/vaznost.js')
+    const {t} = await import('./utils/jezik.js')
+    const {default: Marker} = await import('./klase/Marker.js')
+    const legenda = document.querySelector('dugme-legenda').shadowRoot
+    const filteri = document.querySelector('panel-filteri').shadowRoot
+    const ruta = document.querySelector('planer-rute').shadowRoot
+    const marker = (vrsta, ostalo = {}) => new Marker({id: vrsta, naziv: vrsta, mesto: 'Grad', drzava: 'Serbia', koordinate: {lat: 44, lng: 20}, vrsta, ...ostalo}).element.options.zIndexOffset
+    return {
+      redosled: nivoiVaznosti,
+      legenda: [...legenda.querySelectorAll('.sadrzaj > div:first-child .stavka')].map(s => s.lastElementChild.textContent),
+      naziviLegende: nivoiVaznosti.map(v => t(v === 'istaknut' ? v : v + 'Jednina')),
+      filteri: [...filteri.querySelectorAll('[data-grupa="tip"][data-opcija]')].map(s => s.dataset.opcija),
+      izborTure: [...ruta.querySelectorAll('[data-prag]')].map(s => s.dataset.prag),
+      brojevi: [...ruta.querySelectorAll('[data-prag] .nivo')].map(s => s.textContent),
+      slojevi: nivoiVaznosti.map(v => marker(v === 'istaknut' ? 'spomenik' : v, {istaknut: v === 'istaknut'})),
+      priblizan: marker('spomen-groblje', {priblizno: true}),
+    }
+  })()`)
+  assert.deepEqual(prikaz.redosled, nivoiVaznosti)
+  assert.deepEqual(prikaz.legenda, prikaz.naziviLegende)
+  assert.deepEqual(prikaz.filteri, prikaz.redosled)
+  assert.deepEqual(prikaz.izborTure, prikaz.redosled)
+  assert.deepEqual(prikaz.brojevi, ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'])
+  assert.ok(prikaz.slojevi.every((sloj, i) => i === 0 || prikaz.slojevi[i - 1] > sloj))
+  assert.ok(prikaz.priblizan < prikaz.slojevi.at(-1))
 })
 
 test('Više vodi na članak o spomeniku, a bez članka se ne prikazuje', async () => {
@@ -494,14 +526,14 @@ test('podrazumevani prag je statua i svaka vrsta je zasebna opcija', async () =>
   assert.match(await izvrsi(`${ruta}.querySelector('#prag-vaznosti').textContent`), /Statue/)
   const opcije = await izvrsi(`[...${ruta}.querySelectorAll('[data-prag]')].map(o=>({value:o.dataset.prag,label:o.textContent,znak:Boolean(o.querySelector('img'))}))`)
   assert.ok(opcije.every(o=>o.znak), 'svaka opcija ima znak sa mape')
-  assert.deepEqual(opcije.map(o=>o.value), ['istaknut','spomen-park','muzej','spomenik','statua','spomen-groblje','bista','spomen-obelezje','spomen-ploca'])
+  assert.deepEqual(opcije.map(o=>o.value), nivoiVaznosti)
   assert.ok(opcije.every(o=>!o.label.includes('/')))
   await izvrsi(`${ruta}.querySelector('#dugme').click()`)
   await izvrsi(`${ruta}.querySelector('[data-kartica="ture"]').click()`)
   await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura li')].find(li=>li.querySelector('.ime').textContent==='Beograd u NOB').querySelector('button').click()`)
   const vrste = await izvrsi("import('./utils/ruta.js').then(m=>m.dajRutu().map(id=>document.querySelector('planer-rute').stavke.get(id).spomenik.vrsta))")
   assert.ok(vrste.includes('statua'))
-  assert.ok(!vrste.some(v=>['bista','spomen-obelezje','spomen-ploca'].includes(v)))
+  assert.ok(!vrste.some(v=>['bista','spomen-obelezje','groblje','spomen-ploca'].includes(v)))
   await izvrsi("import('./utils/ruta.js').then(m=>m.postaviRutu([]))")
 })
 
@@ -514,7 +546,7 @@ test('prag važnosti menja celu automatsku turu i pamti izbor bez ograničenja b
   await izvrsi(`${ruta}.querySelector('#dugme').click()`)
   await izvrsi(`${ruta}.querySelector('[data-kartica="ture"]').click()`)
   const imena = await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura .ime')].map(e=>e.textContent)`)
-  assert.ok(imena.includes('Beograd u NOB') && !imena.includes('Banjaluka u NOB'), 'tura sa manje od tri stanice se ne nudi')
+  assert.ok(imena.includes('Beograd u NOB'), 'tura sa dovoljnim brojem stanica se nudi')
   // tura sa stalnim pragom umesto broja stanica navodi prag
   assert.ok(await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura .opis')].filter(o=>o.textContent!=='Istaknuti spomenici').every(o=>parseInt(o.textContent)>=3)`))
   assert.ok(await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura li')].some(li=>li.querySelector('.ime').textContent==='Jugoslavija u NOB'&&li.querySelector('.opis').textContent==='Istaknuti spomenici')`))
@@ -968,6 +1000,23 @@ test('traka dopunjava fotografije nakon prosirenja ekrana bez rucnog pomeranja',
   } finally {
     await pregledac.send('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:2,mobile:true})
   }
+})
+
+test('groblje ima zaseban filter, oznaku u legendi i marker', async () => {
+  await otvori()
+  await sacekaj("document.documentElement.dataset.podaci==='svi'", 'ucitani svi grobovi')
+  await izvrsi("document.querySelector('polje-pretraga .dugme-filteri').click()")
+  const root = "document.querySelector('panel-filteri').shadowRoot"
+  const cip = `${root}.querySelector('[data-grupa="tip"][data-opcija="groblje"]')`
+  assert.match(await izvrsi(`${cip}.textContent`), /Groblja/)
+  await izvrsi(`${cip}.click()`)
+  const vrste = await izvrsi("document.querySelector('polje-pretraga').filtrirano.map(s=>s.spomenik.vrsta)")
+  assert.ok(vrste.length > 0)
+  assert.ok(vrste.every(v=>v==='groblje'))
+  await izvrsi(`${root}.querySelector('#prikazi').click()`)
+  await sacekaj("!!document.querySelector('.leaflet-marker-pane img[src*=\"groblje-postoji.svg\"]')", 'marker groba posle potvrde')
+  await izvrsi("document.querySelector('dugme-legenda').shadowRoot.querySelector('button').click()")
+  assert.match(await izvrsi("document.querySelector('dugme-legenda').shadowRoot.textContent"), /Groblje/)
 })
 
 test('bez grešaka u aplikaciji', () => {

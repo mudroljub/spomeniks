@@ -116,6 +116,9 @@ const praviStrelicu = (tacke, naziv) => {
 }
 
 export default class Slajder extends HTMLElement {
+  /** @type {ResizeObserver | undefined} */
+  promenaVelicine
+
   // slike su funkcije koje prave sliku, da se prave tek kad dodju na red
   constructor(slike) {
     super()

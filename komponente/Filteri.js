@@ -312,7 +312,7 @@ export default class Filteri extends HTMLElement {
 
     this.attachShadow({mode: 'open'})
     this.shadowRoot.append(style, this.panel)
-    upravljajPanelom(this.panel, () => this.zatvori(), t('filteri'), () => document.querySelector('polje-pretraga')?.dugme)
+    upravljajPanelom(this.panel, () => this.zatvori(), t('filteri'), () => document.querySelector('polje-pretraga .dugme-filteri'))
 
     promene.addEventListener('promena', () => {
       if (this.izbor.poseta.size) this.javi()

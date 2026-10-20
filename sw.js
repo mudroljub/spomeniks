@@ -1,6 +1,6 @@
 // rad bez signala: aplikacija i podaci se cuvaju odmah, a delovi mape i slike kad se jednom pogledaju
 // Generise node alati/otisak.mjs; integritet proverava otisak resursa.
-const VERZIJA = '8d51e3cf157b2c1f2d30'
+const VERZIJA = '8ea69401cfbf0510f27a'
 const APLIKACIJA = `spomenici-aplikacija-${VERZIJA}`
 const MAPA = 'spomenici-mapa'
 const SLIKE = 'spomenici-slike'
@@ -55,7 +55,7 @@ const fajlovi = [
   'slike/markeri/lista.svg',
   'slike/obelisk-rusevina.png',
   'slike/obelisk-uklonjen.png',
-  ...['spomen-park', 'spomen-obelezje', 'spomen-groblje', 'muzej', 'spomen-ploca', 'bista', 'statua'].flatMap(tip =>
+  ...['spomen-park', 'spomen-obelezje', 'spomen-groblje', 'groblje', 'muzej', 'spomen-ploca', 'bista', 'statua'].flatMap(tip =>
     ['postoji', 'rusevina', 'uklonjen'].map(stanje => `slike/markeri/${tip}-${stanje}.svg`)),
   'slike/ui/lokator.svg',
   'slike/ui/punekran.svg',

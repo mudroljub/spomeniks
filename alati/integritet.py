@@ -8,7 +8,7 @@ ture = json.load(open('data/ture.json', encoding='utf8'))
 autori = json.load(open('data/autori.json', encoding='utf8'))
 posvete = json.load(open('data/posvete.json', encoding='utf8'))
 greske = collections.defaultdict(list)
-VRSTE = {'spomen-park', 'spomenik', 'statua', 'bista', 'spomen-obelezje', 'spomen-ploca', 'spomen-groblje', 'muzej'}
+VRSTE = {'spomen-park', 'spomenik', 'statua', 'bista', 'spomen-obelezje', 'spomen-ploca', 'groblje', 'spomen-groblje', 'muzej'}
 STANJA = {'rusevine', 'srusen', 'uklonjen', 'ostecen', 'zatvoren'}
 DRZAVE = {'Slovenia', 'Croatia', 'Bosnia and Herzegovina', 'Serbia', 'Montenegro', 'Macedonia', 'Kosovo', 'Italy'}
 POZNATA = set(REDOSLED)

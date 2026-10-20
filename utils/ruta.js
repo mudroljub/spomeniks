@@ -3,6 +3,7 @@ import {ucitajIzSkladista, sacuvajUSkladiste} from './skladiste.js'
 
 // spomenici izabrani za put, redom obilaska, i ime gotove ture od koje je nastala; cuva se samo na ovom uredjaju
 const kljuc = 'spomenici-ruta'
+/** @type {{naziv: string | {sh: string, en: string}, spomenici: string[], wiki?: string, turaId?: string}} */
 const prazna = {naziv: '', spomenici: []}
 
 const ispravanId = id => typeof id === 'string' && id.trim().length > 0

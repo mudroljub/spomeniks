@@ -2,6 +2,8 @@
 
 Pokreću se iz korena repozitorijuma: Python sa `python -I alati/<alat>.py`, a Node sa `node alati/<alat>.mjs`.
 
+Alati koji uvoze `zapis.py` takođe zahtevaju `node` na PATH-u: pri učitavanju preuzimaju gotov izračun zumova iz `utils/vaznost.js`, istog modula koji koristi aplikacija.
+
 | Alat | Namena |
 |---|---|
 | `integritet.py` | Provera spomenika na mapi (oba fajla, i da je svaki zapis u pravom): polja, pismo, slike, duplikati na manje od 30 m; i spiska bez lokacije: jedinstveni ID-jevi u oba spiska i veze iz knjiga i izveštaja koje se razrešavaju. Pokreće se posle svake izmene podataka. |

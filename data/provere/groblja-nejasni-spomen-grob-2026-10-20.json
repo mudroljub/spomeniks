@@ -1,0 +1,3561 @@
+{
+  "datum": "2026-10-20",
+  "obim": "Samo prethodno pregledani nejasni i preskočeni zapisi sa mape. Nepregledani zapisi i spisak bez lokacije nisu menjani.",
+  "promenjeno": 209,
+  "konflikti": [],
+  "odluke": [
+    {
+      "id": "ajdovscina-grobnica-triintridesetih-borcev-nov",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-razvrstavanje-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grobnica triintridesetih borcev NOV",
+        "koordinate": {
+          "lat": 45.8876493,
+          "lng": 13.8962585
+        }
+      }
+    },
+    {
+      "id": "babici-groblje-zrtava-fasistickog-terora",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Groblje žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.9473,
+          "lng": 16.90336
+        }
+      }
+    },
+    {
+      "id": "babici-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.19145,
+          "lng": 17.19529
+        }
+      }
+    },
+    {
+      "id": "backa-palanka-spomen-grobnica",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-02-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-grobnica",
+        "koordinate": {
+          "lat": 45.248944,
+          "lng": 19.409667
+        }
+      }
+    },
+    {
+      "id": "bakinci-zajednicka-grobnica-zrtava-fasistickog-ter",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.94431,
+          "lng": 17.24369
+        }
+      }
+    },
+    {
+      "id": "baljci-zajednicka-grobnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 42.89194,
+          "lng": 18.45287
+        }
+      }
+    },
+    {
+      "id": "begov-han-spomen-kosturnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica palih boraca",
+        "koordinate": {
+          "lat": 44.352167,
+          "lng": 17.991417
+        }
+      }
+    },
+    {
+      "id": "berkovici-masovna-grobnica-oko-180-zrtava-fasistic",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Masovna grobnica oko 180 žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 43.89417,
+          "lng": 19.0157
+        }
+      }
+    },
+    {
+      "id": "bezdjedje-groblje-zrtava-fasistickog-terora",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Groblje žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 43.12306,
+          "lng": 18.22964
+        }
+      }
+    },
+    {
+      "id": "biogradska-spomen-grobnica",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-02-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-grobnica",
+        "koordinate": {
+          "lat": 42.90221,
+          "lng": 19.60319
+        }
+      }
+    },
+    {
+      "id": "bjelajce-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.43652,
+          "lng": 17.15067
+        }
+      }
+    },
+    {
+      "id": "blatna-groblje-partizanskih-boraca-i-zrtava-fasist",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Groblje partizanskih boraca i žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.98232,
+          "lng": 16.25105
+        }
+      }
+    },
+    {
+      "id": "blatna-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.985241,
+          "lng": 16.26061
+        }
+      }
+    },
+    {
+      "id": "blucici-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 43.73726,
+          "lng": 17.79771
+        }
+      }
+    },
+    {
+      "id": "bogdasici-zajednicka-grobnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 42.93059,
+          "lng": 18.43991
+        }
+      }
+    },
+    {
+      "id": "bojista-grob-narodnog-heroja-mire-popare-i-pavla-k",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grob narodnog heroja Mire Popare i Pavla Kovačevića",
+        "koordinate": {
+          "lat": 43.27449,
+          "lng": 18.10526
+        }
+      }
+    },
+    {
+      "id": "borajna-grob-aktivista-nop-a-mate-i-mile-simic",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grob aktivista NOP-a Mate i Mile Simić",
+        "koordinate": {
+          "lat": 43.29843,
+          "lng": 17.48601
+        }
+      }
+    },
+    {
+      "id": "bradina-zajednicka-grobnica-5-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica 5 palih boraca",
+        "koordinate": {
+          "lat": 43.74487,
+          "lng": 18.01871
+        }
+      }
+    },
+    {
+      "id": "brcko-spomen-kosturnica",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica",
+        "koordinate": {
+          "lat": 44.871501,
+          "lng": 18.809333
+        }
+      }
+    },
+    {
+      "id": "brda-zajednicka-grobnica-7-zrtava-fasistickog-tero",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica 7 žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.12192,
+          "lng": 18.63286
+        }
+      }
+    },
+    {
+      "id": "brezicani-zajednicka-grobnica-zrtava-fasistickog-t",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.76492,
+          "lng": 17.49258
+        }
+      }
+    },
+    {
+      "id": "brezovo-polje-spomenik-i-kosturnica-palih-boraca-i",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-01-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomenik i kosturnica palih boraca i žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.8470189,
+          "lng": 18.95521
+        }
+      }
+    },
+    {
+      "id": "brod-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 43.48658,
+          "lng": 18.74694
+        }
+      }
+    },
+    {
+      "id": "bugar-zajednicka-grobnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 44.93143,
+          "lng": 15.77157
+        }
+      }
+    },
+    {
+      "id": "bukovaca-zajednicka-grobnica-zrtava-fasistickog-te",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.51481,
+          "lng": 16.42743
+        }
+      }
+    },
+    {
+      "id": "bukvik-gornji-spomen-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-groblje",
+        "koordinate": {
+          "lat": 44.825117,
+          "lng": 18.665331
+        }
+      }
+    },
+    {
+      "id": "busije-groblje-partizanskih-boraca-i-zrtava-fasist",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Groblje partizanskih boraca i žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.3927,
+          "lng": 16.77639
+        }
+      }
+    },
+    {
+      "id": "cabar-spomen-grobnica-zrtava-fasizma",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-02-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-grobnica žrtava fašizma",
+        "koordinate": {
+          "lat": 45.59496,
+          "lng": 14.6421192
+        }
+      }
+    },
+    {
+      "id": "cerovica-zajednicka-grobnica-palih-boraca-i-zrtava",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca i žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.090806,
+          "lng": 16.441472
+        }
+      }
+    },
+    {
+      "id": "cikote-masovna-grobnica-zrtava-fasistickog-terora",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Masovna grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.000944,
+          "lng": 16.629611
+        }
+      }
+    },
+    {
+      "id": "crnjelovo-gornje-zajednicka-grobnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 44.84179,
+          "lng": 19.12463
+        }
+      }
+    },
+    {
+      "id": "crvarevac-zajednicka-grobnica-zrtava-fasistickog-t",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.139028,
+          "lng": 15.999556
+        }
+      }
+    },
+    {
+      "id": "dera-masovna-grobnica-zrtava-fasistickog-terora",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Masovna grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.98201,
+          "lng": 16.85183
+        }
+      }
+    },
+    {
+      "id": "dobrljin-zajednicka-grobnica-palih-boraca-i-zrtava",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca i žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.15034,
+          "lng": 16.47975
+        }
+      }
+    },
+    {
+      "id": "donja-dubica-groblje-sa-35-palih-boraca-i-785-zrta",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Groblje sa 35 palih boraca i 785 žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.07677,
+          "lng": 18.40976
+        }
+      }
+    },
+    {
+      "id": "donja-trnova-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.65429,
+          "lng": 19.09528
+        }
+      }
+    },
+    {
+      "id": "donje-vodicevo-groblje-zrtvama-fasistickog-terora",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Groblje žrtvama fašističkog terora",
+        "koordinate": {
+          "lat": 45.115482,
+          "lng": 16.489045
+        }
+      }
+    },
+    {
+      "id": "donje-vodicevo-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 45.1288,
+          "lng": 16.45023
+        }
+      }
+    },
+    {
+      "id": "donje-vodicevo-zajednicka-grobnica-palih-boraca-i",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca i žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.1288,
+          "lng": 16.45023
+        }
+      }
+    },
+    {
+      "id": "donje-vodicevo-zajednicka-grobnica-zrtava-fasistic",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.1288,
+          "lng": 16.45023
+        }
+      }
+    },
+    {
+      "id": "donji-drezanj-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 43.186318,
+          "lng": 18.237604
+        }
+      }
+    },
+    {
+      "id": "donji-koricani-zajednicka-grobnica-107-partizana-1",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica 107 partizana, 1 djeteta i 1 američkog pilota",
+        "koordinate": {
+          "lat": 44.36927,
+          "lng": 17.52432
+        }
+      }
+    },
+    {
+      "id": "donji-palackovci-zajednicka-grobnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 44.92922,
+          "lng": 17.76078
+        }
+      }
+    },
+    {
+      "id": "donji-smrtici-zajednicka-grobnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 44.96656,
+          "lng": 17.77104
+        }
+      }
+    },
+    {
+      "id": "donji-vijacani-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.80841,
+          "lng": 17.60271
+        }
+      }
+    },
+    {
+      "id": "dragnic-podovi-zajednicka-grobnica-zrtava-fasistic",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.24724,
+          "lng": 17.00178
+        }
+      }
+    },
+    {
+      "id": "dragnic-zajednicka-grobnica-palih-boraca-i-zrtava",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca i žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.24727,
+          "lng": 17.02745
+        }
+      }
+    },
+    {
+      "id": "draksenic-groblje-partizanskih-boraca-i-zrtava-fas",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Groblje partizanskih boraca i žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.20739,
+          "lng": 16.89948
+        }
+      }
+    },
+    {
+      "id": "draksenic-zajednicka-grobnica-100-zena-zrtava-fasi",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica 100 žena žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.207552,
+          "lng": 16.895931
+        }
+      }
+    },
+    {
+      "id": "drenova-glavica-kosturnica-palih-boraca-i-zrtava-f",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Kosturnica palih boraca i žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.9204,
+          "lng": 16.14919
+        }
+      }
+    },
+    {
+      "id": "drenovac-spomen-kosturnica-zrtava-fasistickog-tero",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 43.035667,
+          "lng": 17.933639
+        }
+      }
+    },
+    {
+      "id": "drugovici-spomen-kosturnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica palih boraca",
+        "koordinate": {
+          "lat": 44.88433,
+          "lng": 17.412139
+        }
+      }
+    },
+    {
+      "id": "drvar-selo-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.35687,
+          "lng": 16.387973
+        }
+      }
+    },
+    {
+      "id": "drvar-spomen-grobnica",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-grobnica",
+        "koordinate": {
+          "lat": 44.377722,
+          "lng": 16.361389
+        }
+      }
+    },
+    {
+      "id": "dubostica-kosturnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Kosturnica palih boraca",
+        "koordinate": {
+          "lat": 44.23955,
+          "lng": 18.32055
+        }
+      }
+    },
+    {
+      "id": "dzevar-kosturnica-21-palog-borca-i-168-zrtava-fasi",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Kosturnica 21 palog borca i 168 žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.80935,
+          "lng": 16.63417
+        }
+      }
+    },
+    {
+      "id": "fajtovci-groblje-partizanskih-boraca-i-zrtava-fasi",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Groblje partizanskih boraca i žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.79007,
+          "lng": 16.51147
+        }
+      }
+    },
+    {
+      "id": "fakovici-zajednicka-grobnica-palih-pripadnika-sreb",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih pripadnika Srebreničke partizanske divizije i žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.077947,
+          "lng": 19.513193
+        }
+      }
+    },
+    {
+      "id": "fatnica-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 43.034069,
+          "lng": 18.311173
+        }
+      }
+    },
+    {
+      "id": "foca-zajednicka-grobnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 43.502028,
+          "lng": 18.782917
+        }
+      }
+    },
+    {
+      "id": "gabela-spomen-kosturnica-zrtava-fasistickog-terora",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 43.06378,
+          "lng": 17.69089
+        }
+      }
+    },
+    {
+      "id": "gabela-spomen-kosturnica-zrtava-fasistickog-terora-2",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 43.06378,
+          "lng": 17.69089
+        }
+      }
+    },
+    {
+      "id": "galicija-grob-padlih-borcev-nob",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-razvrstavanje-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grob padlih borcev NOB",
+        "koordinate": {
+          "lat": 46.298611,
+          "lng": 15.21775
+        }
+      }
+    },
+    {
+      "id": "gare-kosturnica-62-zrtve-fasistickog-terora",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Kosturnica 62 žrtve fašističkog terora",
+        "koordinate": {
+          "lat": 44.39562,
+          "lng": 18.34203
+        }
+      }
+    },
+    {
+      "id": "gatacko-polje-partizansko-groblje-sa-408-sahranjen",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje sa 408 sahranjenih",
+        "koordinate": {
+          "lat": 43.1022,
+          "lng": 18.5753
+        }
+      }
+    },
+    {
+      "id": "glavaticevo-grob-nepoznatog-borca-i-dalmatinske-br",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grob nepoznatog borca I dalmatinske brigade",
+        "koordinate": {
+          "lat": 43.50406,
+          "lng": 18.10413
+        }
+      }
+    },
+    {
+      "id": "glavaticevo-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 43.5092643,
+          "lng": 18.0943216
+        }
+      }
+    },
+    {
+      "id": "glavaticevo-partizansko-groblje-sa-215-palih-borac",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje sa 215 palih boraca",
+        "koordinate": {
+          "lat": 43.50406,
+          "lng": 18.10413
+        }
+      }
+    },
+    {
+      "id": "glavaticevo-zajednicka-grobnica-26-palih-boraca-vi",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica 26 palih boraca VII banijske divizije",
+        "koordinate": {
+          "lat": 43.50406,
+          "lng": 18.10413
+        }
+      }
+    },
+    {
+      "id": "glavaticevo-zajednicka-grobnica-29-boraca-iz-parti",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica 29 boraca iz partizanske bolnice",
+        "koordinate": {
+          "lat": 43.50406,
+          "lng": 18.10413
+        }
+      }
+    },
+    {
+      "id": "goranci-spomen-kosturnica-partizanskih-boraca-iz-d",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica partizanskih boraca iz Dalmacije",
+        "koordinate": {
+          "lat": 43.378617,
+          "lng": 17.760739
+        }
+      }
+    },
+    {
+      "id": "gornja-gracanica-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.26135,
+          "lng": 17.94942
+        }
+      }
+    },
+    {
+      "id": "gornja-podgorja-zajednicka-grobnica-zrtava-fasisti",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.25171,
+          "lng": 16.95183
+        }
+      }
+    },
+    {
+      "id": "gornja-suvaja-kosturnica-119-zrtava-fasistickog-te",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Kosturnica 119 žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.786806,
+          "lng": 16.159917
+        }
+      }
+    },
+    {
+      "id": "gornje-kolibe-zajednicka-grobnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 45.08493,
+          "lng": 18.02635
+        }
+      }
+    },
+    {
+      "id": "gornji-garevci-spomen-grobnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-grobnica palih boraca",
+        "koordinate": {
+          "lat": 44.99164,
+          "lng": 16.78997
+        }
+      }
+    },
+    {
+      "id": "gornji-jelovac-masovna-grobnica-zrtava-fasistickog",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Masovna grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.07212,
+          "lng": 16.7075
+        }
+      }
+    },
+    {
+      "id": "gornji-jelovac-masovna-grobnica-zrtava-fasistickog-2",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Masovna grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.07212,
+          "lng": 16.7075
+        }
+      }
+    },
+    {
+      "id": "gornji-palackovci-zajednicka-grobnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 44.94427,
+          "lng": 17.73863
+        }
+      }
+    },
+    {
+      "id": "gornji-palackovci-zajednicka-grobnica-zrtava-fasis",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.94427,
+          "lng": 17.73863
+        }
+      }
+    },
+    {
+      "id": "gornji-petrovici-spomenik-grobnica",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomenik grobnica",
+        "koordinate": {
+          "lat": 44.860282,
+          "lng": 16.250299
+        }
+      }
+    },
+    {
+      "id": "gornji-smrtici-zajednicka-grobnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 44.98915,
+          "lng": 17.74255
+        }
+      }
+    },
+    {
+      "id": "gornji-smrtici-zajednicka-grobnica-strijeljanih-pr",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica strijeljanih pripadnika KNOJ-a",
+        "koordinate": {
+          "lat": 44.98915,
+          "lng": 17.74255
+        }
+      }
+    },
+    {
+      "id": "gornji-strpci-partizansko-groblje-sa-18-palih-bora",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje sa 18 palih boraca",
+        "koordinate": {
+          "lat": 44.84207,
+          "lng": 17.73686
+        }
+      }
+    },
+    {
+      "id": "gornji-vakuf",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-01-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko spomen-groblje",
+        "koordinate": {
+          "lat": 43.936591,
+          "lng": 17.5852903
+        }
+      }
+    },
+    {
+      "id": "gostovici-spomen-kosturnica-9-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica 9 palih boraca",
+        "koordinate": {
+          "lat": 44.41677,
+          "lng": 18.16864
+        }
+      }
+    },
+    {
+      "id": "grbavci-zajednicka-grobnica-zrtava-fasistickog-ter",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.04577,
+          "lng": 17.11078
+        }
+      }
+    },
+    {
+      "id": "grbavica-groblje-palih-boraca-i-zrtava-fasistickog",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Groblje palih boraca i žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.23523,
+          "lng": 17.16686
+        }
+      }
+    },
+    {
+      "id": "grcarice-grobovi-neznanih-partizanov",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-razvrstavanje-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grobovi neznanih partizanov",
+        "koordinate": {
+          "lat": 45.649676,
+          "lng": 14.753799
+        }
+      }
+    },
+    {
+      "id": "gromiljak-partizansko-groblje-sa-27-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje sa 27 palih boraca",
+        "koordinate": {
+          "lat": 43.96982,
+          "lng": 18.04898
+        }
+      }
+    },
+    {
+      "id": "hrnici-spomen-kosturnica-zrtava-fasistickog-terora",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.95898,
+          "lng": 16.82246
+        }
+      }
+    },
+    {
+      "id": "hrvacani-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.85305,
+          "lng": 17.44246
+        }
+      }
+    },
+    {
+      "id": "husino-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.51419,
+          "lng": 18.6145
+        }
+      }
+    },
+    {
+      "id": "idrija-grobisce-padlih-borcev-v-nob",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-razvrstavanje-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grobišče padlih borcev v NOB",
+        "koordinate": {
+          "lat": 45.994285,
+          "lng": 14.034681
+        }
+      }
+    },
+    {
+      "id": "ilovaca-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 43.63758,
+          "lng": 18.81667
+        }
+      }
+    },
+    {
+      "id": "imljani-partizansko-groblje-sa-53-borca-iz-obliznj",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje sa 53 borca iz obližnje bolnice",
+        "koordinate": {
+          "lat": 44.4004,
+          "lng": 17.49022
+        }
+      }
+    },
+    {
+      "id": "jakotina-spomen-kosturnica",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica",
+        "koordinate": {
+          "lat": 44.58886,
+          "lng": 17.33821
+        }
+      }
+    },
+    {
+      "id": "janja-zajednicka-grobnica-17-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica 17 palih boraca",
+        "koordinate": {
+          "lat": 44.66659,
+          "lng": 19.24705
+        }
+      }
+    },
+    {
+      "id": "jastrebarsko",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-02-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomenik NOB",
+        "koordinate": {
+          "lat": 45.6705975,
+          "lng": 15.6528525
+        }
+      }
+    },
+    {
+      "id": "jazici-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 43.50414,
+          "lng": 18.47599
+        }
+      }
+    },
+    {
+      "id": "jelasinovci-groblje-120-partizana-i-275-zrtava-fas",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-04-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Groblje 120 partizana i 275 žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.68949,
+          "lng": 16.53546
+        }
+      }
+    },
+    {
+      "id": "jelasinovci-spomen-kosturnica-palih-boraca-iz-jela",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica palih boraca iz Jelašinovaca, Bojišta i Otiša",
+        "koordinate": {
+          "lat": 44.68949,
+          "lng": 16.53546
+        }
+      }
+    },
+    {
+      "id": "johovica-zajednicka-grobnica-zrtava-fasistickog-te",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.09093,
+          "lng": 15.79318
+        }
+      }
+    },
+    {
+      "id": "kalauzovici-zajednicka-grobnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 43.9602,
+          "lng": 18.60137
+        }
+      }
+    },
+    {
+      "id": "kalesija-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "partizansko groblje",
+        "koordinate": {
+          "lat": 44.436102,
+          "lng": 18.886342
+        }
+      }
+    },
+    {
+      "id": "kalinovik-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 43.5014582,
+          "lng": 18.4530879
+        }
+      }
+    },
+    {
+      "id": "karici-spomen-kosturnica-zrtava-fasistickog-terora",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.105416,
+          "lng": 18.372731
+        }
+      }
+    },
+    {
+      "id": "kobiljaca-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 43.88398,
+          "lng": 18.19303
+        }
+      }
+    },
+    {
+      "id": "kokori-grob-djurdja-savicevica",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grob Đurđa Savićevića",
+        "koordinate": {
+          "lat": 44.81281,
+          "lng": 17.49199
+        }
+      }
+    },
+    {
+      "id": "kokori-grobovi-2-nepoznata-borca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grobovi 2 nepoznata borca",
+        "koordinate": {
+          "lat": 44.81281,
+          "lng": 17.49199
+        }
+      }
+    },
+    {
+      "id": "kokori-zajednicka-grobnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 44.81281,
+          "lng": 17.49199
+        }
+      }
+    },
+    {
+      "id": "koraj-spomen-groblje-sa-obeliskom",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-groblje sa obeliskom",
+        "koordinate": {
+          "lat": 44.70872,
+          "lng": 18.88269
+        }
+      }
+    },
+    {
+      "id": "koraj-zajednicka-grobnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 44.70872,
+          "lng": 18.88269
+        }
+      }
+    },
+    {
+      "id": "kranj-spominski-park-strazisce",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-razvrstavanje-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spominski park pri cerkvi sv. Martina v Stražišču",
+        "koordinate": {
+          "lat": 46.232232,
+          "lng": 14.347634
+        }
+      }
+    },
+    {
+      "id": "kremna-zajednicka-grobnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 44.82162,
+          "lng": 17.69616
+        }
+      }
+    },
+    {
+      "id": "kremna-zajednicka-grobnica-zrtava-fasistickog-tero",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.82162,
+          "lng": 17.69616
+        }
+      }
+    },
+    {
+      "id": "kremna-zajednicka-grobnica-zrtava-fasistickog-tero-2",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora ubijenih u februaru 1942",
+        "koordinate": {
+          "lat": 44.82162,
+          "lng": 17.69616
+        }
+      }
+    },
+    {
+      "id": "kremna-zajednicka-grobnica-zrtava-fasistickog-tero-3",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.82162,
+          "lng": 17.69616
+        }
+      }
+    },
+    {
+      "id": "kulasi-partizansko-groblje-sa-8-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje sa 8 palih boraca",
+        "koordinate": {
+          "lat": 44.76865,
+          "lng": 17.74239
+        }
+      }
+    },
+    {
+      "id": "ladjevine-spomen-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-groblje",
+        "koordinate": {
+          "lat": 43.79412,
+          "lng": 18.95894
+        }
+      }
+    },
+    {
+      "id": "lajse-nad-selci-grob-partizana-danimira-azmana-crt",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-razvrstavanje-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grob partizana Danimira Ažmana-Črtomira",
+        "koordinate": {
+          "lat": 46.244372,
+          "lng": 14.191297
+        }
+      }
+    },
+    {
+      "id": "laminci-zajednicka-grobnica-zrtava-fasistickog-ter",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.10028,
+          "lng": 17.3392
+        }
+      }
+    },
+    {
+      "id": "lasko-grob-partizana",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-razvrstavanje-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grob partizana",
+        "koordinate": {
+          "lat": 46.151053,
+          "lng": 15.232694
+        }
+      }
+    },
+    {
+      "id": "lastva-grob-alije-cerimagica",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grob Alije Ćerimagića",
+        "koordinate": {
+          "lat": 42.70084,
+          "lng": 18.47531
+        }
+      }
+    },
+    {
+      "id": "ljeskare-masovna-grobnica-zrtava-fasistickog-teror",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Masovna grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.95151,
+          "lng": 16.62797
+        }
+      }
+    },
+    {
+      "id": "ljubija-grob-zrtava-fasistickog-terora-iz-ljeskara",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grob žrtava fašističkog terora iz Ljeskara, Vidrenjaka i Daljevića Gaja",
+        "koordinate": {
+          "lat": 44.91434,
+          "lng": 16.60759
+        }
+      }
+    },
+    {
+      "id": "ljubija-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.91434,
+          "lng": 16.60759
+        }
+      }
+    },
+    {
+      "id": "loznica-partizansko-spomen-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "partizansko spomen groblje",
+        "koordinate": {
+          "lat": 44.538504,
+          "lng": 19.222398
+        }
+      }
+    },
+    {
+      "id": "luka-grob-zrtava-fasistickog-terora",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grob žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 43.43496,
+          "lng": 18.11738
+        }
+      }
+    },
+    {
+      "id": "maglaj-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.5502358,
+          "lng": 18.1059499
+        }
+      }
+    },
+    {
+      "id": "maglajani-zajednicka-grobnica-zrtava-fasistickog-t",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.95289,
+          "lng": 17.35364
+        }
+      }
+    },
+    {
+      "id": "majevac-spomen-grobnica",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-grobnica",
+        "koordinate": {
+          "lat": 44.247278,
+          "lng": 17.037778
+        }
+      }
+    },
+    {
+      "id": "majkica-uvala-groblje-na-mjestu-partizanske-bolnic",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Groblje na mjestu partizanske bolnice",
+        "koordinate": {
+          "lat": 44.735066,
+          "lng": 16.363445
+        }
+      }
+    },
+    {
+      "id": "mala-kladusa-zajednicka-grobnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 45.13219,
+          "lng": 15.85649
+        }
+      }
+    },
+    {
+      "id": "mala-zuljevica-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 45.08382,
+          "lng": 16.44617
+        }
+      }
+    },
+    {
+      "id": "malesici-kosturnica-sa-58-zrtava-fasistickog-teror",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Kosturnica sa 58 žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 43.93077,
+          "lng": 18.2838
+        }
+      }
+    },
+    {
+      "id": "malesici-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.73685,
+          "lng": 18.27609
+        }
+      }
+    },
+    {
+      "id": "masici-zajednicka-grobnica-zrtava-fasistickog-tero",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.0145,
+          "lng": 17.26812
+        }
+      }
+    },
+    {
+      "id": "maslovare-partizansko-groblje-sa-62-pala-borca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje sa 62 pala borca",
+        "koordinate": {
+          "lat": 44.56342,
+          "lng": 17.53412
+        }
+      }
+    },
+    {
+      "id": "maslovare-spomen-kosturnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica palih boraca",
+        "koordinate": {
+          "lat": 45.01216,
+          "lng": 16.43268
+        }
+      }
+    },
+    {
+      "id": "mazic-groblje-partizanskih-boraca-i-zrtava-fasisti",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Groblje partizanskih boraca i žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.07198,
+          "lng": 16.43205
+        }
+      }
+    },
+    {
+      "id": "mekis-zajednicka-grobnica-7-zrtava-fasistickog-ter",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica 7 žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.58791,
+          "lng": 17.99251
+        }
+      }
+    },
+    {
+      "id": "milici-spomen-kosturnica-partizanskih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica partizanskih boraca",
+        "koordinate": {
+          "lat": 44.167312,
+          "lng": 19.088981
+        }
+      }
+    },
+    {
+      "id": "mionica-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.86707,
+          "lng": 18.47251
+        }
+      }
+    },
+    {
+      "id": "miricina-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.61811,
+          "lng": 18.40555
+        }
+      }
+    },
+    {
+      "id": "miska-glava-masovna-grobnica-zrtava-fasistickog-te",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Masovna grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.94381,
+          "lng": 16.52319
+        }
+      }
+    },
+    {
+      "id": "mjesaji-grob-rade-cosovica",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grob Rade Ćosovića",
+        "koordinate": {
+          "lat": 43.4379,
+          "lng": 18.75793
+        }
+      }
+    },
+    {
+      "id": "mladikovine-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.50084,
+          "lng": 17.79637
+        }
+      }
+    },
+    {
+      "id": "mrcevci-zajednicka-grobnica-zrtava-fasistickog-ter",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.97837,
+          "lng": 17.35193
+        }
+      }
+    },
+    {
+      "id": "mrljevici-grob-ante-mrkica",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grob Ante Mrkića",
+        "koordinate": {
+          "lat": 44.37864,
+          "lng": 18.52563
+        }
+      }
+    },
+    {
+      "id": "natpolje-zajednicka-grobnica-zrtava-fasistickog-te",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.24252,
+          "lng": 17.20243
+        }
+      }
+    },
+    {
+      "id": "nova-topola-spomen-grobnica-palih-boraca-nor-a",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-grobnica palih boraca NOR-a",
+        "koordinate": {
+          "lat": 45.05207,
+          "lng": 17.30789
+        }
+      }
+    },
+    {
+      "id": "nova-ves-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 45.08053,
+          "lng": 17.74352
+        }
+      }
+    },
+    {
+      "id": "nova-ves-zajednicka-grobnica-zrtava-fasistickog-te",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-05-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.08053,
+          "lng": 17.74352
+        }
+      }
+    },
+    {
+      "id": "novo-selo-zajednicka-grobnica-27-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica 27 palih boraca",
+        "koordinate": {
+          "lat": 44.77123,
+          "lng": 19.25403
+        }
+      }
+    },
+    {
+      "id": "novo-selo-zajednicka-grobnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 45.07323,
+          "lng": 17.9741
+        }
+      }
+    },
+    {
+      "id": "orahov-do-spomen-kosturnica-zrtava-fasistickog-ter",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 42.82808,
+          "lng": 17.92763
+        }
+      }
+    },
+    {
+      "id": "orahovice-groblje-61-palog-borca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Groblje 61 palog borca",
+        "koordinate": {
+          "lat": 43.709417,
+          "lng": 18.741626
+        }
+      }
+    },
+    {
+      "id": "oraovac-spomen-kosturnica",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica",
+        "koordinate": {
+          "lat": 44.41252,
+          "lng": 19.05815
+        }
+      }
+    },
+    {
+      "id": "orehovica-pri-sentjerneju-spomenik-nob-na-pokopali",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-razvrstavanje-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomenik NOB na pokopališču",
+        "koordinate": {
+          "lat": 45.813998,
+          "lng": 15.30778
+        }
+      }
+    },
+    {
+      "id": "ortijes-zajednicka-grobnica-zrtava-fasistickog-ter",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 43.27099,
+          "lng": 17.83801
+        }
+      }
+    },
+    {
+      "id": "osinja-zajednicka-grobnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 44.85646,
+          "lng": 17.86511
+        }
+      }
+    },
+    {
+      "id": "osmaci-grob-narodnog-heroja-svetozara-vukovica-zar",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grob narodnog heroja Svetozara Vukovića Zarka",
+        "koordinate": {
+          "lat": 44.390416,
+          "lng": 18.8986
+        }
+      }
+    },
+    {
+      "id": "osojnica-partizansko-groblje-sa-60-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje sa 60 palih boraca",
+        "koordinate": {
+          "lat": 44.64397,
+          "lng": 18.119683
+        }
+      }
+    },
+    {
+      "id": "paracin-spomen-grobnica",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-03-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-grobnica",
+        "koordinate": {
+          "lat": 43.869111,
+          "lng": 21.408222
+        }
+      }
+    },
+    {
+      "id": "pecigrad-spomen-kosturnica-365-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica 365 palih boraca",
+        "koordinate": {
+          "lat": 45.0543,
+          "lng": 15.89639
+        }
+      }
+    },
+    {
+      "id": "pelagicevo-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.906167,
+          "lng": 18.612194
+        }
+      }
+    },
+    {
+      "id": "piperci-zajednicka-grobnica-4-nepoznata-pala-borca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica 4 nepoznata pala borca",
+        "koordinate": {
+          "lat": 44.77739,
+          "lng": 18.94559
+        }
+      }
+    },
+    {
+      "id": "piskavica-spomen-kosturnica",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica",
+        "koordinate": {
+          "lat": 44.72817,
+          "lng": 18.335384
+        }
+      }
+    },
+    {
+      "id": "piskavica-spomen-kosturnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica palih boraca",
+        "koordinate": {
+          "lat": 44.86776,
+          "lng": 16.97573
+        }
+      }
+    },
+    {
+      "id": "poculica-zajednicka-grobnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 44.17252,
+          "lng": 17.83881
+        }
+      }
+    },
+    {
+      "id": "podovi-spomen-kosturnica",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-01-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica",
+        "koordinate": {
+          "lat": 44.415595,
+          "lng": 16.397265
+        }
+      }
+    },
+    {
+      "id": "podrasnica-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.40519,
+          "lng": 16.97952
+        }
+      }
+    },
+    {
+      "id": "podromanija-kosturnica-13-palih-boraca-prvog-prole",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Kosturnica 13 palih boraca Prvog proleterskog bataljona",
+        "koordinate": {
+          "lat": 43.91793,
+          "lng": 18.770879
+        }
+      }
+    },
+    {
+      "id": "poljana-zajednicka-grobnica-zrtava-fasistickog-ter",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.21914,
+          "lng": 15.91534
+        }
+      }
+    },
+    {
+      "id": "poljavnice-zajednicka-grobnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 45.07024,
+          "lng": 16.39511
+        }
+      }
+    },
+    {
+      "id": "pomol-zajednicka-grobnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 44.11912,
+          "lng": 19.12831
+        }
+      }
+    },
+    {
+      "id": "porice-spomen-kosturnica",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica",
+        "koordinate": {
+          "lat": 44.05823,
+          "lng": 17.39867
+        }
+      }
+    },
+    {
+      "id": "porice-spomen-kosturnica-2",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica",
+        "koordinate": {
+          "lat": 44.05823,
+          "lng": 17.39867
+        }
+      }
+    },
+    {
+      "id": "porice-spomen-kosturnica-3",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica",
+        "koordinate": {
+          "lat": 44.05823,
+          "lng": 17.39867
+        }
+      }
+    },
+    {
+      "id": "potocani-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.86899,
+          "lng": 17.48438
+        }
+      }
+    },
+    {
+      "id": "potocari-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.82583,
+          "lng": 18.81731
+        }
+      }
+    },
+    {
+      "id": "potoci-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 43.40782,
+          "lng": 17.87583
+        }
+      }
+    },
+    {
+      "id": "potrkusa-zajednicka-grobnica-25-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica 25 palih boraca",
+        "koordinate": {
+          "lat": 43.61979,
+          "lng": 18.92732
+        }
+      }
+    },
+    {
+      "id": "prebilovci-spomen-kosturnica-zrtava-fasistickog-te",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica žrtava fašističkog terora iz Morin Otoka",
+        "koordinate": {
+          "lat": 43.092761,
+          "lng": 17.740745
+        }
+      }
+    },
+    {
+      "id": "prekaja-partizansko-groblje-sa-19-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje sa 19 palih boraca",
+        "koordinate": {
+          "lat": 44.31431,
+          "lng": 16.52431
+        }
+      }
+    },
+    {
+      "id": "prelovo-spomen-kosturnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica palih boraca",
+        "koordinate": {
+          "lat": 43.85553,
+          "lng": 19.25968
+        }
+      }
+    },
+    {
+      "id": "prenj-spomen-kosturnica-zrtava-fasistickog-terora",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 43.11066,
+          "lng": 17.83623
+        }
+      }
+    },
+    {
+      "id": "preodac-zajednicka-grobnica-oko-80-palih-boraca-vi",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica oko 80 palih boraca VIII korpusa i 100 civila",
+        "koordinate": {
+          "lat": 44.21024,
+          "lng": 16.58273
+        }
+      }
+    },
+    {
+      "id": "pribitkovici-grob-saliha-memica",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grob Saliha Memića",
+        "koordinate": {
+          "lat": 44.42213,
+          "lng": 18.4047
+        }
+      }
+    },
+    {
+      "id": "pucile-partizansko-groblje",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.737778,
+          "lng": 19.218167
+        }
+      }
+    },
+    {
+      "id": "rakovac-groblje-palim-borcima-i-zrtvama-fasisticko",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Groblje palim borcima i žrtvama fašističkog terora",
+        "koordinate": {
+          "lat": 45.068694,
+          "lng": 16.491389
+        }
+      }
+    },
+    {
+      "id": "rakovac-spomen-kosturnica-19-zrtava-fasistickog-te",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica 19 žrtava fašističkog terora ubijenih u novembru 1943",
+        "koordinate": {
+          "lat": 43.83338,
+          "lng": 18.58365
+        }
+      }
+    },
+    {
+      "id": "rakovac-spomen-kosturnica-59-zrtava-fasistickog-te",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica 59 žrtava fašističkog terora ubijenih u novembru 1943",
+        "koordinate": {
+          "lat": 43.83338,
+          "lng": 18.58365
+        }
+      }
+    },
+    {
+      "id": "rakovica-spomen-kosturnica-12-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica 12 palih boraca",
+        "koordinate": {
+          "lat": 43.87747,
+          "lng": 18.20567
+        }
+      }
+    },
+    {
+      "id": "rakovica-zajednicka-grobnica-13-partizanskih-borac",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica 13 partizanskih boraca",
+        "koordinate": {
+          "lat": 43.87747,
+          "lng": 18.20567
+        }
+      }
+    },
+    {
+      "id": "rastovaca-spomen-grobnica-stjepana-cuture",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-grobnica Stjepana Čuture",
+        "koordinate": {
+          "lat": 43.46521,
+          "lng": 17.36656
+        }
+      }
+    },
+    {
+      "id": "razvale-spomen-kosturnica-sa-10-partizanskih-borac",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica sa 10 partizanskih boraca",
+        "koordinate": {
+          "lat": 45.084389,
+          "lng": 16.806639
+        }
+      }
+    },
+    {
+      "id": "rijeka-kosturnica-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Kosturnica palih boraca",
+        "koordinate": {
+          "lat": 44.14144,
+          "lng": 17.80679
+        }
+      }
+    },
+    {
+      "id": "rilic-spomen-kosturnica",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica",
+        "koordinate": {
+          "lat": 43.914606,
+          "lng": 17.255331
+        }
+      }
+    },
+    {
+      "id": "rogla-jurgovo-grobisce-dvanajstih-borcev-nov",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-razvrstavanje-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grobišče dvanajstih borcev NOV",
+        "koordinate": {
+          "lat": 46.4477296,
+          "lng": 15.3630843
+        }
+      }
+    },
+    {
+      "id": "rotimlja-grob-62-zrtve-fasistickog-terora",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grob 62 žrtve fašističkog terora",
+        "koordinate": {
+          "lat": 43.17801,
+          "lng": 17.90156
+        }
+      }
+    },
+    {
+      "id": "rudanka-partizansko-groblje-sa-14-palih-boraca",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje sa 14 palih boraca",
+        "koordinate": {
+          "lat": 44.76181,
+          "lng": 18.03676
+        }
+      }
+    },
+    {
+      "id": "rujnica-zajednicka-grobnica-110-zrtava-fasistickog",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-06-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica 110 žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.95243,
+          "lng": 15.79796
+        }
+      }
+    },
+    {
+      "id": "socerga-grobisce-zrtev-fasisticnega-nasilja",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-razvrstavanje-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grobišče žrtev fašističnega nasilja",
+        "koordinate": {
+          "lat": 45.463518,
+          "lng": 13.904518
+        }
+      }
+    },
+    {
+      "id": "stranska-vas-pri-novem-mestu-grob-s-spomenikom-pad",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-razvrstavanje-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grob s spomenikom padlim",
+        "koordinate": {
+          "lat": 45.763509,
+          "lng": 15.150809
+        }
+      }
+    },
+    {
+      "id": "veljun-spomen-kosturnica",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-02-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica boraca i žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.2509501,
+          "lng": 15.553494
+        }
+      }
+    },
+    {
+      "id": "vrhpolje-grobisce-zrtev-nacizma",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-razvrstavanje-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grobišče žrtev nacizma",
+        "koordinate": {
+          "lat": 45.8613011,
+          "lng": 13.9587645
+        }
+      }
+    },
+    {
+      "id": "zemun-grobnica-zrtava-logora-sajmiste",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "osnov": "Izričita odluka korisnika: sve nejasno postaje spomen-grob nižeg prioriteta; nije potvrda fizičkog oblika.",
+      "prethodniIzvestaji": [
+        "data/provere/groblja-prolaz-02-2026-10-20.json"
+      ],
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.84878,
+          "lng": 20.405797
+        }
+      }
+    }
+  ]
+}

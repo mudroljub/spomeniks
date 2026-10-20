@@ -10,6 +10,9 @@ test('vrsta i stanje biraju sliku markera, a spomenik ostaje obelisk', () => {
   assert.equal(izgledMarkera({vrsta: 'bista', stanje: 'ostecen'}).slika, 'slike/markeri/bista-postoji.svg')
   assert.deepEqual(izgledMarkera({vrsta: 'spomenik'}), {slika: 'slike/obelisk.png', sirina: 14, visina: 50})
   assert.equal(izgledMarkera({vrsta: 'spomenik', stanje: 'rusevine'}).slika, 'slike/obelisk-rusevina.png')
+  assert.equal(izgledMarkera({vrsta: 'groblje'}).slika, 'slike/markeri/groblje-postoji.svg')
+  assert.equal(izgledMarkera({vrsta: 'groblje', stanje: 'srusen'}).slika, 'slike/markeri/groblje-rusevina.svg')
+  assert.equal(izgledMarkera({vrsta: 'groblje', stanje: 'uklonjen'}).slika, 'slike/markeri/groblje-uklonjen.svg')
 })
 
 test('ikonica uključuje senku, a upitnik i značka se dodaju samo kad treba', () => {

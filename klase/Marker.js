@@ -3,7 +3,7 @@ import {mapa} from './mapa.js'
 import {dajOznaku} from '../utils/oznake.js'
 import {izgledMarkera, senka, ikonicaSaOznakama} from '../utils/ikonice.js'
 import {nazivSpomenika, escapeHtml} from '../utils/helpers.js'
-import {najmanjiZum} from '../utils/vaznost.js'
+import {najmanjiZum, slojSpomenika} from '../utils/vaznost.js'
 
 const razmeraZuma = {6: 0.5, 7: 0.55, 8: 0.65, 9: 0.8} // ostali zumovi pun obelisk
 // bista je umetnicko delo kao spomenik, samo je malo manja
@@ -69,7 +69,7 @@ export default class Marker {
     this.element = L
       .marker([spomen.koordinate.lat, spomen.koordinate.lng], {
         icon: dajIkonicu(this.izgled, 1, '', pomak, {priblizno: spomen.priblizno}),
-        zIndexOffset: spomen.priblizno ? -10000 : (12 - this.najmanjiZum) * 1000,
+        zIndexOffset: slojSpomenika(spomen),
       })
       .on('click', () => this.otvoriProzor())
     this.slojevi = [this.element]

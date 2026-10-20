@@ -1,0 +1,2460 @@
+{
+  "datum": "2026-10-20",
+  "prolaz": 4,
+  "obim": "88 zapisa samo sa mape, svi bez fotografije. Korišćeni isključivo već dostupni jasni opisi; bez novih mrežnih pretraga. Nejasni opisi i uparivanja su preskočeni, što nije potvrda postojeće vrste.",
+  "sazetak": {
+    "promenjeno": 19,
+    "preskoceno": 61,
+    "zadrzano": 8
+  },
+  "odluke": [
+    {
+      "id": "donja-lohinja-spomen-kosturnica-boraca-xiv-srpske",
+      "ishod": "promenjeno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "predlog": "spomen-grob",
+      "razlog": "Već dostupan opis: Jedna mala kosturnica sa natpisnim kamenim blokom, pokrivnom pločom i dvostrukom lančanom ogradom.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica boraca XIV srpske NOU brigade",
+        "koordinate": {
+          "lat": 44.673189,
+          "lng": 18.331678
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/gracanica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Donja_Lohinja_-_Spomen_Kosturnica",
+          "naslov": "Donja Lohinja - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0048.json"
+        }
+      ]
+    },
+    {
+      "id": "donja-trnova-partizansko-groblje",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.65429,
+          "lng": 19.09528
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/ugljevik",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "donja-trnova-spomen-groblje",
+      "ishod": "zadrzano",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": "spomen-groblje",
+      "razlog": "Već dostupan opis: Cela nekropola Jovića brdo sa stotinama individualnih kamenih grobnih markera i zasebnim centralnim figuralnim spomenikom; ne menja se prema centralnom delu.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-groblje u Donjoj Trnovi",
+        "koordinate": {
+          "lat": 44.6677275,
+          "lng": 19.1002003
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.openstreetmap.org/way/210114160",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Donja_Trnova_-_Spomen_Kompleks_Jovi%C4%87a_Brdo",
+          "naslov": "Donja Trnova - Spomen Kompleks Jovića Brdo",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0049.json"
+        }
+      ]
+    },
+    {
+      "id": "donje-sokolovo-partizansko-groblje",
+      "ishod": "zadrzano",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": "spomen-groblje",
+      "razlog": "Već dostupan opis: Celina sa više redova individualnih grobnih markera, centralnim obeliskom i ogradom; nesigurnost današnjeg opstanka ne menja izvorni tip celine.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.611353,
+          "lng": 16.817846
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Donje_Sokolovo_-_Partizansko_Groblje",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Donje_Sokolovo_-_Partizansko_Groblje",
+          "naslov": "Donje Sokolovo - Partizansko Groblje",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0049.json"
+        }
+      ]
+    },
+    {
+      "id": "donje-vodicevo-groblje-zrtvama-fasistickog-terora",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: Izvor opisuje dve različite lokacije, a konkretni obuhvat i raspored grobova nisu dovoljno jasni.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Groblje žrtvama fašističkog terora",
+        "koordinate": {
+          "lat": 45.115482,
+          "lng": 16.489045
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Donje_Vodi%C4%8Devo_-_Groblje_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Donje_Vodi%C4%8Devo_-_Groblje_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+          "naslov": "Donje Vodičevo - Groblje Žrtvama Fašističkog Terora",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0050.json"
+        }
+      ]
+    },
+    {
+      "id": "donje-vodicevo-partizansko-groblje",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 45.1288,
+          "lng": 16.45023
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/novigrad",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "donje-vodicevo-zajednicka-grobnica-palih-boraca-i",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca i žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.1288,
+          "lng": 16.45023
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/novigrad",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "donje-vodicevo-zajednicka-grobnica-zrtava-fasistic",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.1288,
+          "lng": 16.45023
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/novigrad",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "donji-drezanj-partizansko-groblje",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: Opis kombinuje centralni spomenik, bistu i moguću susednu zajedničku grobnicu; nije razjašnjen obuhvat zapisa celog groblja.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 43.186318,
+          "lng": 18.237604
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/nevesinje",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Donji_Dre%C5%BEanj_-_Partizansko_Groblje",
+          "naslov": "Donji Drežanj - Partizansko Groblje",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0050.json"
+        }
+      ]
+    },
+    {
+      "id": "donji-koricani-zajednicka-grobnica-107-partizana-1",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica 107 partizana, 1 djeteta i 1 američkog pilota",
+        "koordinate": {
+          "lat": 44.36927,
+          "lng": 17.52432
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/knezevo",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "donji-palackovci-zajednicka-grobnica-palih-boraca",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: Susedni kandidat je spomenik palim borcima, a zapis je posebna zajednička grobnica; blizina nije potvrda identiteta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 44.92922,
+          "lng": 17.76078
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/prnjavor",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Pala%C4%8Dkovci_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+          "naslov": "Palačkovci - Spomenik Palim Borcima i Žrtvama Fašističkog Terora",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0167.json"
+        }
+      ]
+    },
+    {
+      "id": "donji-smrtici-zajednicka-grobnica-palih-boraca",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 44.96656,
+          "lng": 17.77104
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/prnjavor",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "donji-vijacani-partizansko-groblje",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: Susedni kandidat opisuje spomenik i terase, ali ne potvrđuje raspored grobova ili identitet zapisa celog groblja.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.80841,
+          "lng": 17.60271
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/prnjavor",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Donji_Vija%C4%8Dani_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+          "naslov": "Donji Vijačani - Spomenik Palim Borcima i Žrtvama Fašističkog Terora",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0051.json"
+        }
+      ]
+    },
+    {
+      "id": "dragnic-zajednicka-grobnica-palih-boraca-i-zrtava",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca i žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.24727,
+          "lng": 17.02745
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/sipovo",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "dragnic-podovi-zajednicka-grobnica-zrtava-fasistic",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.24724,
+          "lng": 17.00178
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/sipovo",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "draksenic-groblje-partizanskih-boraca-i-zrtava-fas",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Groblje partizanskih boraca i žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.20739,
+          "lng": 16.89948
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/kozarskadubica",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "draksenic-zajednicka-grobnica-100-zena-zrtava-fasi",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: Kandidat opisuje celo groblje sa više kosturnica, a zapis samo zajedničku grobnicu žena; ne prenosi se vrsta celine na pojedinačnu grobnicu.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica 100 žena žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.207552,
+          "lng": 16.895931
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/kozarskadubica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Drakseni%C4%87_-_Partizansko_Groblje",
+          "naslov": "Draksenić - Partizansko Groblje",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0054.json"
+        }
+      ]
+    },
+    {
+      "id": "drenova-glavica-kosturnica-palih-boraca-i-zrtava-f",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Kosturnica palih boraca i žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.9204,
+          "lng": 16.14919
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/bosanskakrupa",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "drenovac-spomen-kosturnica-zrtava-fasistickog-tero",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 43.035667,
+          "lng": 17.933639
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/stolac",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Drenovac_%28Stolac%29_-_Spomen_Kosturnica",
+          "naslov": "Drenovac (Stolac) - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0054.json"
+        }
+      ]
+    },
+    {
+      "id": "drinjaca-spomen-kosturnica",
+      "ishod": "promenjeno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "predlog": "spomen-grob",
+      "razlog": "Već dostupan opis: Jedna kosturnica sa jednostavnom širokom pravougaonom natpisnom pločom na niskom postolju.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica",
+        "koordinate": {
+          "lat": 44.287734,
+          "lng": 19.148699
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/zvornik",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Drinja%C4%8Da_-_Spomen_Kosturnica",
+          "naslov": "Drinjača - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0055.json"
+        }
+      ]
+    },
+    {
+      "id": "drozgometva-spomen-kosturnica-74-zrtve-fasistickog",
+      "ishod": "promenjeno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "predlog": "spomen-grob",
+      "razlog": "Već dostupan opis: Jedna kosturnica sa običnom natpisnom pločom trouglastog vrha unutar ograde; postojanje projektanta samo po sebi ne menja vrstu.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica 74 žrtve fašističkog terora",
+        "koordinate": {
+          "lat": 43.84125,
+          "lng": 18.16975
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/hadzici",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Drozgometva_-_Spomen_Kosturnica",
+          "naslov": "Drozgometva - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0055.json"
+        }
+      ]
+    },
+    {
+      "id": "drugovici-spomen-kosturnica-palih-boraca",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica palih boraca",
+        "koordinate": {
+          "lat": 44.88433,
+          "lng": 17.412139
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/laktasi",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Drugovi%C4%87i_-_Spomen_Kosturnica",
+          "naslov": "Drugovići - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0055.json"
+        }
+      ]
+    },
+    {
+      "id": "drvar-spomen-grobnica",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: Opis humke i naknadnih krstova izričito navodi nejasan obuhvat, vezu grobova i mogući prenos ostataka.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-grobnica",
+        "koordinate": {
+          "lat": 44.377722,
+          "lng": 16.361389
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Drvar_-_Spomen_Grobnica_Spasovina",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Drvar_-_Spomen_Grobnica_Spasovina",
+          "naslov": "Drvar - Spomen Grobnica Spasovina",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0055.json"
+        }
+      ]
+    },
+    {
+      "id": "drvar-selo-partizansko-groblje",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: Opis navodi da je zajednička grobnica samo mogućnost; nije potvrđeno predstavlja li mali obelisk grob ili obeležje.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.35687,
+          "lng": 16.387973
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/drvar",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Drvar_Selo_-_Partizansko_Groblje",
+          "naslov": "Drvar Selo - Partizansko Groblje",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0055.json"
+        }
+      ]
+    },
+    {
+      "id": "dubostica-kosturnica-palih-boraca",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Kosturnica palih boraca",
+        "koordinate": {
+          "lat": 44.23955,
+          "lng": 18.32055
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/vares",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "dzanici-zajednicka-grobnica-15-palih-boraca",
+      "ishod": "promenjeno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "predlog": "spomen-grob",
+      "razlog": "Već dostupan opis: Opis obe verzije potvrđuje jednu zajedničku grobnicu sa pokrivnom pločom i tradicionalnim nadgrobnim kamenom; kasnija posuda plamena ne čini zasebno groblje.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica 15 palih boraca",
+        "koordinate": {
+          "lat": 43.800902,
+          "lng": 17.847481
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/konjic",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/D%C5%BEani%C4%87i_-_Spomen_Grobnica",
+          "naslov": "Džanići - Spomen Grobnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0058.json"
+        }
+      ]
+    },
+    {
+      "id": "dzevar-kosturnica-21-palog-borca-i-168-zrtava-fasi",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Kosturnica 21 palog borca i 168 žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.80935,
+          "lng": 16.63417
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/sanskimost",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "fajtovci-groblje-partizanskih-boraca-i-zrtava-fasi",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Groblje partizanskih boraca i žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.79007,
+          "lng": 16.51147
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/sanskimost",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "fakovici-zajednicka-grobnica-palih-pripadnika-sreb",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: Opis kombinuje centralni obelisk i odvojeno groblje žrtava; ne razjašnjava koja celina odgovara ovom zapisu zajedničke grobnice.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih pripadnika Srebreničke partizanske divizije i žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.077947,
+          "lng": 19.513193
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/bratunac",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Fakovi%C4%87i_-_Spomen_Groblje",
+          "naslov": "Fakovići - Spomen Groblje",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0060.json"
+        }
+      ]
+    },
+    {
+      "id": "fatnica-partizansko-groblje",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 43.034069,
+          "lng": 18.311173
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/bileca",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Fatnica_-_Partizansko_Groblje",
+          "naslov": "Fatnica - Partizansko Groblje",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0060.json"
+        }
+      ]
+    },
+    {
+      "id": "foca-zajednicka-grobnica-palih-boraca",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 43.502028,
+          "lng": 18.782917
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/foca",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Fo%C4%8Da_-_Spomen_Grobnica",
+          "naslov": "Foča - Spomen Grobnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0062.json"
+        }
+      ]
+    },
+    {
+      "id": "gabela-spomen-kosturnica-zrtava-fasistickog-terora",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 43.06378,
+          "lng": 17.69089
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/capljina",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "gabela-spomen-kosturnica-zrtava-fasistickog-terora-2",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 43.06378,
+          "lng": 17.69089
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/capljina",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "gaocici-zajednicka-grobnica-palih-boraca-bivsa",
+      "ishod": "promenjeno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "predlog": "spomen-grob",
+      "razlog": "Već dostupan opis: Bivša zajednička grobnica sa malim nadgrobnim kamenom i ograđenom kvadratnom platformom; podatak da su posmrtni ostaci premešteni ostaje sadržan u nazivu i izvoru.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca (bivša)",
+        "koordinate": {
+          "lat": 43.67022,
+          "lng": 19.34159
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/rudo",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gao%C4%8Di%C4%87i_-_Spomen_Grobnica",
+          "naslov": "Gaočići - Spomen Grobnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0064.json"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gao%C4%8Di%C4%87i_-_Spomen_%C4%8Cesma",
+          "naslov": "Gaočići - Spomen Česma",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0064.json"
+        }
+      ]
+    },
+    {
+      "id": "gare-kosturnica-62-zrtve-fasistickog-terora",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Kosturnica 62 žrtve fašističkog terora",
+        "koordinate": {
+          "lat": 44.39562,
+          "lng": 18.34203
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/zavidovici",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "gatacko-polje-partizansko-groblje-sa-408-sahranjen",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje sa 408 sahranjenih",
+        "koordinate": {
+          "lat": 43.1022,
+          "lng": 18.5753
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/gacko",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gata%C4%8Dko_Polje_-_Partizansko_Groblje",
+          "naslov": "Gatačko Polje - Partizansko Groblje",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0064.json"
+        }
+      ]
+    },
+    {
+      "id": "glavaticevo-grob-nepoznatog-borca-i-dalmatinske-br",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: Više različitih zapisa Glavatičeva ima istu približnu tačku; kandidat o bolničkoj grobnici nije dokaz identiteta pojedinačnog groba.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grob nepoznatog borca I dalmatinske brigade",
+        "koordinate": {
+          "lat": 43.50406,
+          "lng": 18.10413
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/konjic",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Glavati%C4%8Devo_-_Spomen_Grobnica_Partizanske_Bolnice",
+          "naslov": "Glavatičevo - Spomen Grobnica Partizanske Bolnice",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0065.json"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Glavati%C4%8Devo_-_Spomen_Grobnica_Boraca_Banijske_Divizije",
+          "naslov": "Glavatičevo - Spomen Grobnica Boraca Banijske Divizije",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0065.json"
+        }
+      ]
+    },
+    {
+      "id": "glavaticevo-partizansko-groblje",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 43.5092643,
+          "lng": 18.0943216
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.openstreetmap.org/node/12911847254",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "glavaticevo-partizansko-groblje-sa-215-palih-borac",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: Kandidat opisuje drugu bolničku grobnicu, a ne pouzdano celo groblje sa 215 boraca.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje sa 215 palih boraca",
+        "koordinate": {
+          "lat": 43.50406,
+          "lng": 18.10413
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/konjic",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Glavati%C4%8Devo_-_Spomen_Grobnica_Partizanske_Bolnice",
+          "naslov": "Glavatičevo - Spomen Grobnica Partizanske Bolnice",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0065.json"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Glavati%C4%8Devo_-_Spomen_Grobnica_Boraca_Banijske_Divizije",
+          "naslov": "Glavatičevo - Spomen Grobnica Boraca Banijske Divizije",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0065.json"
+        }
+      ]
+    },
+    {
+      "id": "glavaticevo-zajednicka-grobnica-26-palih-boraca-vi",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: Kandidat o bolničkoj grobnici nije potvrda identiteta zasebne grobnice boraca VII banijske divizije.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica 26 palih boraca VII banijske divizije",
+        "koordinate": {
+          "lat": 43.50406,
+          "lng": 18.10413
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/konjic",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Glavati%C4%8Devo_-_Spomen_Grobnica_Partizanske_Bolnice",
+          "naslov": "Glavatičevo - Spomen Grobnica Partizanske Bolnice",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0065.json"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Glavati%C4%8Devo_-_Spomen_Grobnica_Boraca_Banijske_Divizije",
+          "naslov": "Glavatičevo - Spomen Grobnica Boraca Banijske Divizije",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0065.json"
+        }
+      ]
+    },
+    {
+      "id": "glavaticevo-zajednicka-grobnica-29-boraca-iz-parti",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: Mogući opis iste bolničke grobnice daje samo ogradu i stubove, bez dovoljno jasnog izgleda samog grobnog obeležja.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica 29 boraca iz partizanske bolnice",
+        "koordinate": {
+          "lat": 43.50406,
+          "lng": 18.10413
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/konjic",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Glavati%C4%8Devo_-_Spomen_Grobnica_Partizanske_Bolnice",
+          "naslov": "Glavatičevo - Spomen Grobnica Partizanske Bolnice",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0065.json"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Glavati%C4%8Devo_-_Spomen_Grobnica_Boraca_Banijske_Divizije",
+          "naslov": "Glavatičevo - Spomen Grobnica Boraca Banijske Divizije",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0065.json"
+        }
+      ]
+    },
+    {
+      "id": "goranci-spomen-kosturnica-partizanskih-boraca-iz-d",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: Opisuje se samo teško oštećen ostatak kosturnice; izvorni izgled i eventualni umetnički elementi nisu dovoljno poznati.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica partizanskih boraca iz Dalmacije",
+        "koordinate": {
+          "lat": 43.378617,
+          "lng": 17.760739
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/mostar",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Goranci_%28Mostar%29_-_Spomen_Kosturnica",
+          "naslov": "Goranci (Mostar) - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0067.json"
+        }
+      ]
+    },
+    {
+      "id": "gorazde-spomen-kosturnica",
+      "ishod": "promenjeno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "predlog": "spomen-grob",
+      "razlog": "Već dostupan opis: Opisi istorijskih verzija potvrđuju jednu grobnicu sa običnom natpisnom pločom i platformom; uklanjanje i mogući prenos ostataka ne menjaju tip izvornog objekta. Stanje nije menjano.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica",
+        "koordinate": {
+          "lat": 43.662194,
+          "lng": 18.975167
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gora%C5%BEde_-_Spomen_Kosturnica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gora%C5%BEde_-_Spomen_Kosturnica",
+          "naslov": "Goražde - Spomen Kosturnica",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0068.json"
+        }
+      ]
+    },
+    {
+      "id": "gornja-dragotinja-partizansko-groblje",
+      "ishod": "zadrzano",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": "spomen-groblje",
+      "razlog": "Već dostupan opis: Više desetina odvojenih grobnih ploča oko oboda ograđene celine i zaseban centralni spomenik.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 45.047949,
+          "lng": 16.615631
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/prijedor",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gornja_Dragotinja_-_Partizansko_Groblje",
+          "naslov": "Gornja Dragotinja - Partizansko Groblje",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0068.json"
+        }
+      ]
+    },
+    {
+      "id": "gornja-gracanica-partizansko-groblje",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.26135,
+          "lng": 17.94942
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/zenica",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "gornja-orahovica-spomen-kosturnica-6-nepoznatih-pa",
+      "ishod": "promenjeno",
+      "pre": "spomen-groblje",
+      "posle": "spomenik",
+      "predlog": "spomenik",
+      "razlog": "Već dostupan opis: Jedna kosturnica sa dva oblikovana kamenom obložena krila i horizontalnom pločom nad grobnicom, autorska arhitektonska kompozicija braće Džafić.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica 6 nepoznatih partizanskih boraca",
+        "koordinate": {
+          "lat": 44.68775,
+          "lng": 18.396167
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/gracanica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gornja_Orahovica_-_Spomen_Kosturnica",
+          "naslov": "Gornja Orahovica - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0069.json"
+        }
+      ]
+    },
+    {
+      "id": "gornja-podgorja-zajednicka-grobnica-zrtava-fasisti",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.25171,
+          "lng": 16.95183
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/mrkonjicgrad",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "gornja-slatina-spomen-kosturnica-palih-boraca",
+      "ishod": "promenjeno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "predlog": "spomen-grob",
+      "razlog": "Već dostupan opis: Izvor posebno opisuje prvobitnu kosturnicu iz 1952. kao jednostavnu kamenu ploču sa natpisom; nije primenjen opis njene zamene iz 1970.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica palih boraca",
+        "koordinate": {
+          "lat": 44.96546,
+          "lng": 18.4724
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/samac",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gornja_Slatina_-_Spomen_Kosturnica",
+          "naslov": "Gornja Slatina - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0069.json"
+        }
+      ]
+    },
+    {
+      "id": "gornja-slatina-spomen-kosturnica-palih-boraca-2",
+      "ishod": "promenjeno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "predlog": "spomen-grob",
+      "razlog": "Već dostupan opis: Opis zamene iz 1970. navodi jednu kosturnicu sa pokrivnom pločom sa prstenovima, niskim zidom oblika U i natpisnim kamenom.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica palih boraca",
+        "koordinate": {
+          "lat": 44.96546,
+          "lng": 18.4724
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/samac",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gornja_Slatina_-_Spomen_Kosturnica",
+          "naslov": "Gornja Slatina - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0069.json"
+        }
+      ]
+    },
+    {
+      "id": "gornja-suvaja-kosturnica-119-zrtava-fasistickog-te",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: Opis izričito ostavlja nepoznatim element iznad platforme i raspored ploča; oštećeni ostatak nije dovoljan za vrstu izvornog dela.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Kosturnica 119 žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.786806,
+          "lng": 16.159917
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/bosanskakrupa",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gornja_Suvaja_-_Spomen_Kosturnica",
+          "naslov": "Gornja Suvaja - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0069.json"
+        }
+      ]
+    },
+    {
+      "id": "gornje-hrasno-spomen-kosturnica-zrtava-fasistickog",
+      "ishod": "promenjeno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "predlog": "spomen-grob",
+      "razlog": "Već dostupan opis: Jedna kvadratna kosturnica sa pokrivnom pločom, čeonim natpisnim zidom i dva bočna stuba; opis ne navodi zasebnu skulpturu ili polje individualnih grobova.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 42.958349,
+          "lng": 17.908829
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/neum",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gornje_Hrasno_-_Spomen_Kosturnica",
+          "naslov": "Gornje Hrasno - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0070.json"
+        }
+      ]
+    },
+    {
+      "id": "gornje-kolibe-zajednicka-grobnica-palih-boraca",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 45.08493,
+          "lng": 18.02635
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/brod",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "gornje-peulje-spomen-grobnica",
+      "ishod": "promenjeno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "predlog": "spomen-grob",
+      "razlog": "Već dostupan opis: Jedna zajednička grobnica sa niskim kamenim okvirom, običnom pravougaonom pločom i pridodatim stubićem.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-grobnica",
+        "koordinate": {
+          "lat": 44.119306,
+          "lng": 16.53525
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Peulje_-_Spomen_Grobnica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Peulje_-_Spomen_Grobnica",
+          "naslov": "Peulje - Spomen Grobnica",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0174.json"
+        }
+      ]
+    },
+    {
+      "id": "gornji-bucik-partizansko-groblje",
+      "ishod": "zadrzano",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": "spomen-groblje",
+      "razlog": "Već dostupan opis: Devet odvojenih grobnih markera i zaseban figuralni reljef; mala celina ostaje spomen-groblje.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.4415,
+          "lng": 18.518667
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/banovici",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gornji_Bu%C4%8Dik_-_Partizansko_Groblje",
+          "naslov": "Gornji Bučik - Partizansko Groblje",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0070.json"
+        }
+      ]
+    },
+    {
+      "id": "gornji-garevci-spomen-grobnica-palih-boraca",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-grobnica palih boraca",
+        "koordinate": {
+          "lat": 44.99164,
+          "lng": 16.78997
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/prijedor",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "gornji-jelovac-masovna-grobnica-zrtava-fasistickog",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Masovna grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.07212,
+          "lng": 16.7075
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/prijedor",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "gornji-jelovac-masovna-grobnica-zrtava-fasistickog-2",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Masovna grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.07212,
+          "lng": 16.7075
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/prijedor",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "gornji-palackovci-zajednicka-grobnica-palih-boraca",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 44.94427,
+          "lng": 17.73863
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/prnjavor",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "gornji-palackovci-zajednicka-grobnica-zrtava-fasis",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.94427,
+          "lng": 17.73863
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/prnjavor",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "gornji-petrovici-spomenik-grobnica",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: Izvor izričito ne potvrđuje da je reč o grobnici, umesto o samom memorijalnom obeležju.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomenik grobnica",
+        "koordinate": {
+          "lat": 44.860282,
+          "lng": 16.250299
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gornji_Petrovi%C4%87i_-_Spomen_Grobnica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gornji_Petrovi%C4%87i_-_Spomen_Grobnica",
+          "naslov": "Gornji Petrovići - Spomen Grobnica",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0072.json"
+        }
+      ]
+    },
+    {
+      "id": "gornji-rahic-partizansko-groblje",
+      "ishod": "zadrzano",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": "spomen-groblje",
+      "razlog": "Već dostupan opis: Više redova individualnih grobnih markera uz posebnu kosturnicu i fontanu oblika zvezde.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.78148,
+          "lng": 18.69295
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/brcko",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gornji_Rahi%C4%87_-_Spomen-Groblje",
+          "naslov": "Gornji Rahić - Spomen-Groblje",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0072.json"
+        }
+      ]
+    },
+    {
+      "id": "gornji-ribnik-grob-ive-lole-ribara",
+      "ishod": "promenjeno",
+      "pre": "spomen-groblje",
+      "posle": "spomenik",
+      "predlog": "spomenik",
+      "razlog": "Već dostupan opis: Mulabegovićevo zasebno skulpturalno delo nad prvobitnim grobom Ive Lole Ribara: složeni betonski stub nepravilnih oblika sa rascvetanim vrhom i oblikovanom položenom pločom.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grob Ive Lole Ribara",
+        "koordinate": {
+          "lat": 44.401535,
+          "lng": 16.82123
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gornji_Ribnik_-_Grob_Ive_Lole_Ribara",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gornji_Ribnik_-_Grob_Ive_Lole_Ribara",
+          "naslov": "Gornji Ribnik - Grob Ive Lole Ribara",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0072.json"
+        }
+      ]
+    },
+    {
+      "id": "gornji-smrtici-zajednicka-grobnica-palih-boraca",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica palih boraca",
+        "koordinate": {
+          "lat": 44.98915,
+          "lng": 17.74255
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/prnjavor",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "gornji-smrtici-zajednicka-grobnica-strijeljanih-pr",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica strijeljanih pripadnika KNOJ-a",
+        "koordinate": {
+          "lat": 44.98915,
+          "lng": 17.74255
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/prnjavor",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "gornji-strpci-partizansko-groblje-sa-18-palih-bora",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje sa 18 palih boraca",
+        "koordinate": {
+          "lat": 44.84207,
+          "lng": 17.73686
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/prnjavor",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "gostovici-spomen-kosturnica-9-palih-boraca",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica 9 palih boraca",
+        "koordinate": {
+          "lat": 44.41677,
+          "lng": 18.16864
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/zavidovici",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "gradina-zajednicka-grobnica-19-partizanskih-boraca",
+      "ishod": "promenjeno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "predlog": "spomen-grob",
+      "razlog": "Već dostupan opis: Opis konkretne zajedničke grobnice navodi jedan trouglasti kameni nadgrobni element i bočnu natpisnu ploču; nema individualnog grobljanskog polja.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica 19 partizanskih boraca i 19 žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.173667,
+          "lng": 15.995639
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/velikakladusa",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gradina_%28Velika_Kladu%C5%A1a%29_-_Groblje_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+          "naslov": "Gradina (Velika Kladuša) - Groblje Palim Borcima i Žrtvama Fašističkog Terora",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0074.json"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gradina_%28Velika_Kladu%C5%A1a%29_-_Spomenik_NOB",
+          "naslov": "Gradina (Velika Kladuša) - Spomenik NOB",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0074.json"
+        }
+      ]
+    },
+    {
+      "id": "grbavci-spomen-kosturnica",
+      "ishod": "promenjeno",
+      "pre": "spomen-groblje",
+      "posle": "spomenik",
+      "predlog": "spomenik",
+      "razlog": "Već dostupan opis: Jedna kosturnica sa samostalno oblikovanim kamenim elementom u obliku peščanog sata; zapis predstavlja tu arhitektonsku kompoziciju, a ne celo groblje.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica",
+        "koordinate": {
+          "lat": 44.416083,
+          "lng": 19.056611
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Grbavci_%28Zvornik%29_-_Spomen_Kosturnica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Grbavci_%28Zvornik%29_-_Spomen_Kosturnica",
+          "naslov": "Grbavci (Zvornik) - Spomen Kosturnica",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0075.json"
+        }
+      ]
+    },
+    {
+      "id": "grbavci-spomen-kosturnica-i-grobovi-12-clanova-sko",
+      "ishod": "zadrzano",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": "spomen-groblje",
+      "razlog": "Već dostupan opis: Zapis izričito obuhvata kosturnicu i individualne grobove dvanaest članova SKOJ-a, potvrđene zasebnim odeljkom sačuvanog opisa.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica i grobovi 12 članova SKOJ-a",
+        "koordinate": {
+          "lat": 45.04577,
+          "lng": 17.11078
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/gradiska",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Grbavci_%28Gradi%C5%A1ka%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+          "naslov": "Grbavci (Gradiška) - Spomenik Palim Borcima i Žrtvama Fašističkog Terora",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0075.json"
+        }
+      ]
+    },
+    {
+      "id": "grbavci-zajednicka-grobnica-zrtava-fasistickog-ter",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: Širi opis spomenika i grobova članova SKOJ-a samo pretpostavlja postojanje ove druge zajedničke grobnice žrtava.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 45.04577,
+          "lng": 17.11078
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/gradiska",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Grbavci_%28Gradi%C5%A1ka%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+          "naslov": "Grbavci (Gradiška) - Spomenik Palim Borcima i Žrtvama Fašističkog Terora",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0075.json"
+        }
+      ]
+    },
+    {
+      "id": "grbavica-groblje-palih-boraca-i-zrtava-fasistickog",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Groblje palih boraca i žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.23523,
+          "lng": 17.16686
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/sipovo",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "gromiljak-partizansko-groblje-sa-27-palih-boraca",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje sa 27 palih boraca",
+        "koordinate": {
+          "lat": 43.96982,
+          "lng": 18.04898
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/kiseljak",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "hadzici-spomen-kosturnica-13-palih-boraca",
+      "ishod": "promenjeno",
+      "pre": "spomen-groblje",
+      "posle": "spomenik",
+      "predlog": "spomenik",
+      "razlog": "Već dostupan opis: Jedna kosturnica sa projektovanom kompozicijom dva konkavna bela kamena elementa koji se naslanjaju jedan na drugi, obnovljena prema projektu Dženane Goleš.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica 13 palih boraca",
+        "koordinate": {
+          "lat": 43.822013,
+          "lng": 18.2006
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/hadzici",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Had%C5%BEi%C4%87i_-_Spomen_Kosturnica",
+          "naslov": "Hadžići - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0077.json"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Had%C5%BEi%C4%87i_-_Spomenik_NOB",
+          "naslov": "Hadžići - Spomenik NOB",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0077.json"
+        }
+      ]
+    },
+    {
+      "id": "hajderovici-spomen-kosturnica-7-palih-boraca",
+      "ishod": "promenjeno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "predlog": "spomen-grob",
+      "razlog": "Već dostupan opis: Jedna kosturnica sa tradicionalnim belim piramidalnim nadgrobnim obeležjem, natpisom i ogradom.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica 7 palih boraca",
+        "koordinate": {
+          "lat": 44.470002,
+          "lng": 18.252455
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/zavidovici",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Hajderovi%C4%87i_-_Spomen_Kosturnica",
+          "naslov": "Hajderovići - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0077.json"
+        }
+      ]
+    },
+    {
+      "id": "han-ploca-partizansko-groblje",
+      "ishod": "zadrzano",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": "spomen-groblje",
+      "razlog": "Već dostupan opis: Dvanaest dvostrukih grobova sa odvojenim nadgrobnim kamenovima u više redova, centralni spomenik, oblikovana ograda i kapija.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 43.889496,
+          "lng": 18.163319
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/kiseljak",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Han_Plo%C4%8Da_-_Partizansko_Groblje",
+          "naslov": "Han Ploča - Partizansko Groblje",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0078.json"
+        }
+      ]
+    },
+    {
+      "id": "hresa-grob-nepoznatog-vojnika",
+      "ishod": "promenjeno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "predlog": "spomen-grob",
+      "razlog": "Već dostupan opis: Jedan pojedinačni grob sa kamenim okvirom i malom nagnutom natpisnom pločom.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Grob nepoznatog vojnika",
+        "koordinate": {
+          "lat": 43.877223,
+          "lng": 18.48489
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/istocnistarigrad",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Hre%C5%A1a_%28Isto%C4%8Dni_Stari_Grad%29_-_Grob_Neznanom_Junaku",
+          "naslov": "Hreša (Istočni Stari Grad) - Grob Neznanom Junaku",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0080.json"
+        }
+      ]
+    },
+    {
+      "id": "hrnici-spomen-kosturnica-zrtava-fasistickog-terora",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.95898,
+          "lng": 16.82246
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/prijedor",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "hrvacani-partizansko-groblje",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.85305,
+          "lng": 17.44246
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/prnjavor",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "husino-partizansko-groblje",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 44.51419,
+          "lng": 18.6145
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/tuzla",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "ilovaca-partizansko-groblje",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 43.63758,
+          "lng": 18.81667
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/gorazde",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "imljani-partizansko-groblje-sa-53-borca-iz-obliznj",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: Kandidat opisuje jednu kosturnicu, a zapis šire partizansko groblje; približna zajednička tačka nije dokaz istog obuhvata.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje sa 53 borca iz obližnje bolnice",
+        "koordinate": {
+          "lat": 44.4004,
+          "lng": 17.49022
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/knezevo",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Imljani_-_Spomen_Kosturnica",
+          "naslov": "Imljani - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0082.json"
+        }
+      ]
+    },
+    {
+      "id": "imljani-spomen-kosturnica-palih-boraca",
+      "ishod": "promenjeno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "predlog": "spomen-grob",
+      "razlog": "Već dostupan opis: Opis kosturnice navodi jednu povišenu kvadratnu grobnu platformu sa običnom uspravnom pločom i ogradom; nije iskorišćen za promenu šireg groblja u drugom zapisu.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica palih boraca",
+        "koordinate": {
+          "lat": 44.4004,
+          "lng": 17.49022
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/knezevo",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Imljani_-_Spomen_Kosturnica",
+          "naslov": "Imljani - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0082.json"
+        }
+      ]
+    },
+    {
+      "id": "jakotina-spomen-kosturnica",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica",
+        "koordinate": {
+          "lat": 44.58886,
+          "lng": 17.33821
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/kotorvaros",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "janja-zajednicka-grobnica-17-palih-boraca",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Zajednička grobnica 17 palih boraca",
+        "koordinate": {
+          "lat": 44.66659,
+          "lng": 19.24705
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/bijeljina",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "jasenica-partizansko-groblje-sa-85-palih-boraca",
+      "ishod": "zadrzano",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": "spomen-groblje",
+      "razlog": "Već dostupan opis: Individualni grobovi raspoređeni duž staze oblika V oko centralnog memorijalnog zida; zadržana cela grobljanska celina.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje sa 85 palih boraca",
+        "koordinate": {
+          "lat": 44.806417,
+          "lng": 16.255778
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/bosanskakrupa",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Jasenica_%28Bosanska_Krupa%29_-_Partizansko_Groblje",
+          "naslov": "Jasenica (Bosanska Krupa) - Partizansko Groblje",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0089.json"
+        }
+      ]
+    },
+    {
+      "id": "jasikovac-spomen-kosturnica-sa-posmrtnim-ostacima",
+      "ishod": "promenjeno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-grob",
+      "predlog": "spomen-grob",
+      "razlog": "Već dostupan opis: Jedna kosturnica sa horizontalnom pokrivnom pločom i običnom natpisnom pločom različitih visina na zajedničkoj platformi; postojanje autora nije dokaz zasebne skulpture.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Spomen-kosturnica sa posmrtnim ostacima 226 partizanskih boraca",
+        "koordinate": {
+          "lat": 44.46593,
+          "lng": 16.50224
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/petrovac",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Jasikovac_-_Spomen_Kosturnica",
+          "naslov": "Jasikovac - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0089.json"
+        }
+      ]
+    },
+    {
+      "id": "jazici-partizansko-groblje",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Partizansko groblje",
+        "koordinate": {
+          "lat": 43.50414,
+          "lng": 18.47599
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/kalinovik",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    },
+    {
+      "id": "jelasinovci-groblje-120-partizana-i-275-zrtava-fas",
+      "ishod": "preskoceno",
+      "pre": "spomen-groblje",
+      "posle": "spomen-groblje",
+      "predlog": null,
+      "razlog": "Preskočeno bez dodatnih pretraga: nema fotografije ni već dostupnog dovoljno jasnog opisa konkretnog objekta.",
+      "fotografija": null,
+      "ocekivano": {
+        "vrsta": "spomen-groblje",
+        "naziv": "Groblje 120 partizana i 275 žrtava fašističkog terora",
+        "koordinate": {
+          "lat": 44.68949,
+          "lng": 16.53546
+        },
+        "slika": null
+      },
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/sanskimost",
+          "uloga": "izvor zapisa"
+        }
+      ]
+    }
+  ]
+}
