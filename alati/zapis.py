@@ -2,8 +2,11 @@
 
 Spomenici na mapi su u dva fajla koje aplikacija učitava redom: data/spomenici-istaknuti.json (tačno locirani spomenici
 vidljivi na početnom zumu 7, pa se crtaju odmah) i data/spomenici-ostali.json. Alati rade sa celim spiskom (ucitaj_bazu),
-a sacuvaj_bazu sam raspoređuje zapise; izvori oba spiska čuvaju se u data/izvori.json,
-a izvori stanja u data/izvori-stanja.json, povezani ID-jem spomenika.
+a sacuvaj_bazu sam raspoređuje zapise. Fajlovi mape imaju samo ono što aplikacija treba za mapu, pretragu i filtere;
+ono što se vidi samo u prozoru spomenika je u data/detalji.json, a engleski nazivi u data/prevodi-en.json (ID -> vrednost).
+ucitaj_bazu ih spaja u ceo zapis, a sacuvaj_bazu ih ponovo razdvaja, pa alati uvek rade sa celim zapisom.
+Izvori (data/izvori.json) i izvori stanja (data/izvori-stanja.json) su samo za alate: alat ih privremeno drži u zapisu
+(izvor, stanjeIzvor), a funkcije za čuvanje ih izdvajaju.
 Provere lokacije i opstanka čuvaju se u data/provere-spomenika.json, takođe po ID-ju.
 Tip polja je u data/tipovi.d.ts; novo polje se dodaje i u REDOSLED, inače ga integritet.py prijavi."""
 import errno, hashlib, json, os, subprocess, tempfile, threading, time
@@ -68,10 +71,13 @@ def zakljucani_podaci(cekaj=30):
         _brava_niti.release()
 
 REDOSLED = ['id', 'koordinate', 'priblizno', 'googleCid', 'mesto', 'izvor', 'wiki', 'wikiEn', 'slika', 'slikaOdnos', 'slikaPotpis',
-            'naziv', 'opis', 'godina', 'autor', 'natpis', 'posveta', 'stanje',
+            'naziv', 'nazivEn', 'opis', 'godina', 'autor', 'natpis', 'posveta', 'stanje',
             'vrsta', 'istaknut', 'drzava']
+# polja za prozor spomenika, pretragu i filtere, koja ne trebaju za crtanje mape; u fajlovima mape ih nema, nego su u DETALJI
+POLJA_DETALJA = ('googleCid', 'wiki', 'wikiEn', 'slikaPotpis', 'opis', 'godina', 'autor', 'natpis', 'posveta')
 ISTAKNUTI, OSTALI, BEZ_LOKACIJE, IZVORI = 'data/spomenici-istaknuti.json', 'data/spomenici-ostali.json', 'data/bez_lokacije.json', 'data/izvori.json'
 IZVORI_STANJA = 'data/izvori-stanja.json'
+PREVODI_EN, DETALJI = 'data/prevodi-en.json', 'data/detalji.json'
 PROVERE_SPOMENIKA = 'data/provere-spomenika.json'
 POLJA_PROVERE = ('proveraLokacije', 'proveraOpstanka')
 ZUM_ISTAKNUTIH = 7  # pocetni zum mape (klase/mapa.js): prvi fajl ima samo ono sto se tada vidi
@@ -101,11 +107,16 @@ def u_istaknutima(s):
 def upisi_json(putanja, podaci):
     """Zameni kompletan JSON atomarno, uz UTF-8, CRLF i uvlačenje 2.
 
-    Spiskove spomenika na mapi aplikacija preuzima pri otvaranju, pa je u njima svaki spomenik jedan red bez razmaka:
-    fajl je za četvrtinu manji, a izmena u gitu i dalje pogađa samo red jednog spomenika."""
-    if isinstance(podaci, list) and os.path.abspath(putanja) in {os.path.abspath(ISTAKNUTI), os.path.abspath(OSTALI)}:
-        redovi = [json.dumps(sazmi_sliku(s), ensure_ascii=False, separators=(',', ':')) for s in podaci]
-        tekst = '[\r\n' + ',\r\n'.join(redovi) + ('\r\n' if redovi else '') + ']\r\n'
+    Fajlovi koje aplikacija preuzima (spiskovi mape, detalji, engleski nazivi) pišu se jedan zapis po redu, bez razmaka:
+    manji su za četvrtinu, a izmena u gitu i dalje pogađa samo red jednog spomenika."""
+    preuzima_aplikacija = {os.path.abspath(p) for p in (ISTAKNUTI, OSTALI, PREVODI_EN, DETALJI)}
+    if isinstance(podaci, (list, dict)) and os.path.abspath(putanja) in preuzima_aplikacija:
+        kratko = lambda v: json.dumps(v, ensure_ascii=False, separators=(',', ':'))
+        if isinstance(podaci, list):
+            redovi, zagrade = [kratko(sazmi_sliku(s)) for s in podaci], '[]'
+        else:
+            redovi, zagrade = [f'{kratko(k)}:{kratko(v)}' for k, v in podaci.items()], '{}'
+        tekst = zagrade[0] + '\r\n' + ',\r\n'.join(redovi) + ('\r\n' if redovi else '') + zagrade[1] + '\r\n'
     else:
         tekst = json.dumps(podaci, ensure_ascii=False, indent=2).replace('\n', '\r\n') + '\r\n'
     fd, privremeni = tempfile.mkstemp(dir=os.path.dirname(os.path.abspath(putanja)), prefix='.zapis-', suffix='.tmp')
@@ -143,8 +154,14 @@ def sazmi_sliku(s):
 
 @zakljucani_podaci()
 def ucitaj_mapu(putanja):
-    """Jedan od dva fajla mape, sa putanjama slika."""
-    return [rasiri_sliku(s) for s in _ucitaj(putanja)]
+    """Jedan od dva fajla mape, sa putanjama slika, detaljima i engleskim nazivima: ceo zapis."""
+    detalji, prevodi = _ucitaj(DETALJI, {}), _ucitaj(PREVODI_EN, {})
+    def ceo(s):
+        rasiri_sliku(s)
+        s.update(detalji.get(s['id'], {}))
+        if s['id'] in prevodi: s['nazivEn'] = prevodi[s['id']]
+        return poredaj(s)
+    return [ceo(s) for s in _ucitaj(putanja)]
 
 
 @zakljucani_podaci()
@@ -157,6 +174,8 @@ def ucitaj_bez_lokacije():
     return _ucitaj(BEZ_LOKACIJE)
 
 
+# Izvori su samo za alate, pa su u zasebnim fajlovima (ID -> izvor). Putanje se citaju pri svakom pozivu,
+# da izolovana proba (zamena putanja u testu) ne pise u prave podatke.
 def _izdvoj_izvore(zapisi, ostali_ids):
     ids = {s['id'] for s in zapisi} | ostali_ids
     for polje, putanja in (('izvor', IZVORI), ('stanjeIzvor', IZVORI_STANJA)):
@@ -169,12 +188,19 @@ def _izdvoj_izvore(zapisi, ostali_ids):
 
 @zakljucani_podaci()
 def sacuvaj_bazu(spomenici):
-    """Upisuje spomenike u dva fajla po važnosti, a izvore u zasebne fajlove povezane ID-jem."""
+    """Upisuje cele zapise mape: osnovu u dva fajla po važnosti, detalje i engleske nazive u svoje fajlove, a izvore posebno."""
     _izdvoj_izvore(spomenici, {s['id'] for s in _ucitaj(BEZ_LOKACIJE)})
     _izdvoj_provere(spomenici, {s['id'] for s in _ucitaj(BEZ_LOKACIJE)})
-    spomenici = [poredaj(s) for s in spomenici]
-    upisi_json(ISTAKNUTI, [s for s in spomenici if u_istaknutima(s)])
-    upisi_json(OSTALI, [s for s in spomenici if not u_istaknutima(s)])
+    osnove, detalji, prevodi = [], {}, {}
+    for s in map(poredaj, spomenici):
+        detalj = {k: s[k] for k in POLJA_DETALJA if k in s}
+        if detalj: detalji[s['id']] = detalj
+        if 'nazivEn' in s: prevodi[s['id']] = s['nazivEn']
+        osnove.append({k: v for k, v in s.items() if k not in POLJA_DETALJA and k != 'nazivEn'})
+    upisi_json(DETALJI, dict(sorted(detalji.items())))
+    upisi_json(PREVODI_EN, dict(sorted(prevodi.items())))
+    upisi_json(ISTAKNUTI, [s for s in osnove if u_istaknutima(s)])
+    upisi_json(OSTALI, [s for s in osnove if not u_istaknutima(s)])
 
 
 @zakljucani_podaci()

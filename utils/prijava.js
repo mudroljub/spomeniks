@@ -8,7 +8,7 @@ export const mejl = () => String.fromCharCode(
 
 /** @param {import('../data/tipovi').Spomenik} [spomenik] */
 export const prijavaUrl = spomenik => {
-  const naziv = spomenik?.naziv?.sh || spomenik?.mesto || ''
+  const naziv = spomenik?.naziv || spomenik?.mesto || ''
   const lokacija = spomenik
     ? `https://www.google.com/maps?q=${spomenik.koordinate.lat},${spomenik.koordinate.lng}`
     : ''

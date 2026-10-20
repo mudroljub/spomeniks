@@ -19,4 +19,4 @@ def m(a, b):
     return 6371000 * math.acos(min(1, math.sin(math.radians(la)) * math.sin(math.radians(a)) + math.cos(math.radians(la)) * math.cos(math.radians(a)) * math.cos(math.radians(b - ln))))
 print('isti id:', [s['id'] for s in d if s.get('googleCid') == cid])
 for s in sorted(d, key=lambda s: m(s['koordinate']['lat'], s['koordinate']['lng']))[:3]:
-    print(round(m(s['koordinate']['lat'], s['koordinate']['lng'])), 'm |', s['id'], '|', s['mesto'], '|', (s.get('naziv') or {}).get('sh'), '|', s.get('vrsta'), '|', s.get('googleCid'))
+    print(round(m(s['koordinate']['lat'], s['koordinate']['lng'])), 'm |', s['id'], '|', s['mesto'], '|', s.get('naziv'), '|', s.get('vrsta'), '|', s.get('googleCid'))

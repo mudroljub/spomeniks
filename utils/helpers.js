@@ -19,13 +19,9 @@ export const bezbedanLink = link => {
   } catch { return '' }
 }
 
-/** @param {import('../data/tipovi').Prevod} [prevod] */
-export const prevedi = prevod => (jezik === 'en' ? prevod?.en || prevod?.sh : prevod?.sh || prevod?.en) || ''
-
-/** @param {import('../data/tipovi').Spomenik} spomenik */
-export const nazivSpomenika = ({naziv}) => jezik === 'en'
-  ? bezLinkova(naziv?.en) || naziv?.sh || ''
-  : naziv?.sh || bezLinkova(naziv?.en)
+// engleski naziv stize posle prvog crtanja, i samo na engleskom (data/prevodi-en.json); do tada se vidi domaci
+/** @param {Pick<import('../data/tipovi').Spomenik, 'naziv' | 'nazivEn'>} spomenik */
+export const nazivSpomenika = ({naziv, nazivEn}) => (jezik === 'en' && bezLinkova(nazivEn)) || naziv || ''
 
 // umanjena slika (alati/male_slike.py) za trake i spiskove, gde je velika suvisna
 export const malaSlika = putanja => putanja.replace('slike/spomenici/', 'slike/male/')

@@ -84,7 +84,7 @@ class Zapisi:
 
 
 def ime(s):
-    return (s.get('naziv') or {}).get('sh')
+    return s.get('naziv')
 
 
 def opis(s, m=None):

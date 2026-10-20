@@ -216,6 +216,16 @@ test('posveta povezana u opisu je link u tekstu, bez posebnog reda, a opis se ot
   assert.equal(visine[2], 'true')
 })
 
+test('na engleskom naslov i opis stižu iz zasebnih fajlova i dopune već otvoren prozor', async () => {
+  await otvori('?jezik=en#kragujevac-sumarice-park')
+  const prozor = "document.querySelector('detalji-spomenika').shadowRoot"
+  assert.equal(await sacekaj(`${prozor}.querySelector('h2 .ime')?.textContent === 'Interrupted Flight Monument' && 'da'`, 'engleski naziv'), 'da')
+  assert.match(await sacekaj(`${prozor}.querySelector('.opis')?.textContent`, 'engleski opis'), /^Dedicated to/)
+  await otvori('?jezik=sh#kragujevac-sumarice-park')
+  assert.match(await sacekaj(`${prozor}.querySelector('.opis')?.textContent`, 'domaći opis'), /^Posvećeno/)
+  assert.notEqual(await izvrsi(`${prozor}.querySelector('h2 .ime').textContent`), 'Interrupted Flight Monument')
+})
+
 test('pretraga suzi spomenike', async () => {
   await otvori()
   await izvrsi(`(() => { const p = document.querySelector('polje-pretraga input'); p.value = 'Tjentište'; p.dispatchEvent(new Event('input', {bubbles: true})) })()`)
@@ -672,7 +682,7 @@ test('naziv, natpis i imena autora prikazuju HTML kao tekst, a ne kao elemente',
     const tekst='<img src="x" onerror="window.nezeljeno=true"> & ćirilica Ђ'
     const original=marker.spomen
     try {
-      marker.spomen={...original,naziv:{sh:tekst,en:tekst},natpis:tekst,autor:tekst}
+      marker.spomen={...original,naziv:tekst,natpis:tekst,autor:tekst}
       d.prikazi(marker)
       const naslov=d.shadowRoot.querySelector('h2')
       const natpis=d.shadowRoot.querySelector('.natpis p')
@@ -780,7 +790,8 @@ test('brzo kucanje pretražuje jednom posle zastoja, a Enter odmah', async () =>
   assert.equal(await izvrsi('window.pretraga'), 1)
   await izvrsi(`${kucaj}('Kozara'); document.querySelector('polje-pretraga input').dispatchEvent(new KeyboardEvent('keydown', {key: 'Enter'}))`)
   assert.equal(await izvrsi('window.pretraga'), 2, 'Enter pretražuje odmah')
-  assert.ok(await izvrsi("document.querySelector('polje-pretraga').filtrirano.every(({spomenik}) => JSON.stringify(spomenik).includes('Kozar'))"))
+  // na engleskom se trazi i po engleskom nazivu, koji nije u zapisu spomenika
+  assert.ok(await izvrsi("(p => p.filtrirano.every(stavka => p.tekst(stavka).includes('kozar')))(document.querySelector('polje-pretraga'))"))
   await sleep(400)
   assert.equal(await izvrsi('window.pretraga'), 2, 'odložena pretraga se ne ponavlja posle Enter-a')
 })

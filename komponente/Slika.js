@@ -7,7 +7,7 @@ export default class Slika extends HTMLElement {
   constructor(spomen, marker) {
     super()
     this.mesto = spomen.mesto
-    this.imeSpomenika = nazivSpomenika(spomen) || this.mesto
+    this.spomen = spomen
     this.url = malaSlika(spomen.slika)
     this.slika = document.createElement('img')
     // velicina pre ucitavanja, da traka zna koliko slika staje i ne trazi visak
@@ -30,7 +30,8 @@ export default class Slika extends HTMLElement {
   }
 
   prikaziNatpis(zum) {
-    this.naziv.textContent = this.naziv.title = zum >= 12 ? this.imeSpomenika : this.mesto
+    // naziv se cita pri prikazu, jer engleski prevod moze stici posle pravljenja trake
+    this.naziv.textContent = this.naziv.title = zum >= 12 ? nazivSpomenika(this.spomen) || this.mesto : this.mesto
   }
 }
 

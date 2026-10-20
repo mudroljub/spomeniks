@@ -21,6 +21,8 @@ const fajlovi = [
   'data/spomenici-ostali.json',
   'data/autori.json',
   'data/posvete.json',
+  'data/detalji.json',
+  'data/prevodi-en.json',
   'data/ture.json',
   'klase/Marker.js',
   'klase/mapa.js',

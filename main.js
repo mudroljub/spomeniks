@@ -159,6 +159,27 @@ let sveStavke = []
 let definicijeTura = []
 let spremni = false
 let potpuniPodaci = false
+/** @type {Pretraga | undefined} */
+let pretraga
+
+// Za crtanje mape ne trebaju detalji (data/detalji.json: opis, autor, godina, linkovi...) ni engleski nazivi
+// (data/prevodi-en.json), pa stizu posle prvog crtanja i dopunjuju vec ucitane zapise i one koji tek stignu.
+/** @type {{detalji?: Record<string, Partial<import('./data/tipovi').Spomenik>>, prevodi?: Record<string, string>}} */
+const dopune = {}
+/** @param {import('./data/tipovi').Spomenik[]} spomenici */
+const dopuni = spomenici => spomenici.forEach(spomenik => {
+  Object.assign(spomenik, dopune.detalji?.[spomenik.id])
+  const nazivEn = dopune.prevodi?.[spomenik.id]
+  if (nazivEn) spomenik.nazivEn = nazivEn
+})
+/** @param {typeof dopune} nove */
+const dodajDopune = nove => {
+  Object.assign(dopune, nove)
+  dopuni(sveStavke.map(({spomenik}) => spomenik))
+  pretraga?.osveziDopune()
+  osveziSlajder()
+  detalji.then(prozor => prozor.osvezi())
+}
 let javiCrtanje
 const nacrtano = new Promise(resi => javiCrtanje = resi)
 nacrtano.then(() => {
@@ -172,6 +193,9 @@ nacrtano.then(() => {
     definicijeTura = ture
     if (spremni) osveziRutu()
   })
+  ucitajDodatak('data/detalji.json', {}).then(detalji => dodajDopune({detalji}))
+  // engleski nazivi samo na engleskom; do njihovog dolaska vidi se domaci naziv
+  if (jezik === 'en') ucitajDodatak('data/prevodi-en.json', {}).then(prevodi => dodajDopune({prevodi}))
 })
 addEventListener('hashchange', () => otvoriIzLinka(sveStavke))
 ucitajSpomenike('data/spomenici-istaknuti.json')
@@ -180,11 +204,12 @@ ucitajSpomenike('data/spomenici-istaknuti.json')
     sveStavke = prve
     spremni = true
     osveziRutu()
-    const pretraga = document.body.appendChild(new Pretraga(prve, render))
+    pretraga = document.body.appendChild(new Pretraga(prve, render))
     const otvoren = otvoriIzLinka(prve)
     requestAnimationFrame(javiPrvoCrtanje)
     posleCrtanja().then(javiCrtanje)
     return nacrtano.then(() => ucitajSpomenike('data/spomenici-ostali.json')).then(spomenici => {
+      dopuni(spomenici)
       const pomaci = pomaciPribliznih(spomenici)
       const nove = spomenici.map(spomenik => praviStavku(spomenik, pomaci.get(spomenik)))
       sveStavke = [...prve, ...nove]

@@ -2,7 +2,7 @@
 import {mapa} from '../klase/mapa.js'
 import {navigacijaIkonica} from '../utils/ikonice.js'
 import {stilZaglavlja, upravljajPanelom} from '../utils/ui.js'
-import {mestoUrl, navigacijaUrl, escapeHtml, naziviStanja, nestao, autoriSpomenika, nazivSpomenika, prevedi, bezbedanLink} from '../utils/helpers.js'
+import {mestoUrl, navigacijaUrl, escapeHtml, naziviStanja, nestao, autoriSpomenika, nazivSpomenika, bezbedanLink} from '../utils/helpers.js'
 import {dajOznaku, postaviOznaku, promene} from '../utils/oznake.js'
 import {uRuti, dodajURutu, ukloniIzRute, promeneRute} from '../utils/ruta.js'
 import {jezik, t, nazivDrzave} from '../utils/jezik.js'
@@ -431,7 +431,27 @@ export default class Detalji extends HTMLElement {
 
   prikazi(marker, izRute) {
     this.marker = marker
-    const spomen = marker.spomen
+    this.izRute = izRute
+    this.iscrtaj()
+    this.panel.hidden = false
+    this.oznaciCeoOpis()
+    this.panel.scrollTop = 0
+    history.replaceState(null, '', `#${encodeURIComponent(marker.spomen.id)}`)
+    pokaziNaMapi(marker, this.panel)
+  }
+
+  // detalji i engleski naziv stizu posle prvog crtanja, pa otvoren prozor dobija nov sadrzaj bez pomeranja mape i skrola
+  osvezi() {
+    if (!this.marker || this.panel.hidden) return
+    const skrol = this.panel.scrollTop
+    this.iscrtaj()
+    this.oznaciCeoOpis()
+    this.panel.scrollTop = skrol
+  }
+
+  iscrtaj() {
+    const spomen = this.marker.spomen
+    const izRute = this.izRute
     const podaci = [this.praviAutore(spomen), this.praviPosvetu(spomen), this.praviOpis(spomen)].filter(Boolean)
 
     const vise = clanakSpomenika(spomen, jezik)
@@ -442,7 +462,7 @@ export default class Detalji extends HTMLElement {
       ${izRute ? `<button id="nazad">‹ ${t('trenutnaRuta')}</button>` : ''}
       <header>
         <h2>
-          ${naziv || escapeHtml(spomen.mesto)}
+          <span class="ime">${naziv || escapeHtml(spomen.mesto)}</span>
           ${spomen.stanje ? `<span class="stanje ${nestao(spomen.stanje) ? 'nestao' : ''}">${naziviStanja[spomen.stanje]}</span>` : ''}
           ${vise ? `<a href="${escapeHtml(vise)}" target="_blank" class="vise">${t('vise')} ›</a>` : ''}
         </h2>
@@ -486,12 +506,6 @@ export default class Detalji extends HTMLElement {
     )
     this.osveziOznake()
     this.osveziRutu()
-
-    this.panel.hidden = false
-    this.oznaciCeoOpis()
-    this.panel.scrollTop = 0
-    history.replaceState(null, '', `#${encodeURIComponent(spomen.id)}`)
-    pokaziNaMapi(marker, this.panel)
   }
 
   // link autora je u posebnom spisku, jer isti autor ima vise spomenika
@@ -517,6 +531,11 @@ export default class Detalji extends HTMLElement {
   postaviPosvete(posvete) {
     this.posvete = posvete
     this.osveziPodatke()
+  }
+
+  /** @param {Pick<import('../data/tipovi').Spomenik, 'opis'>} spomen */
+  opisSpomenika({opis}) {
+    return (jezik === 'en' ? opis?.en : opis?.sh) || ''
   }
 
   // Zakasneli podaci ne zatvaraju povratak u rutu i ne pomeraju mapu ili skrol panela.
@@ -548,9 +567,10 @@ export default class Detalji extends HTMLElement {
 
   // posveta povezana u opisu nema poseban red
   /** @param {Pick<import('../data/tipovi').Spomenik, 'posveta' | 'opis'>} spomen */
-  praviPosvetu({posveta = [], opis}) {
+  praviPosvetu(spomen) {
+    const {posveta = []} = spomen
     if (typeof posveta === 'string') return posveta.trim() ? `${t('posveta')}: ${escapeHtml(posveta.trim())}` : ''
-    const uOpisu = opis ? prevedi(opis) : ''
+    const uOpisu = this.opisSpomenika(spomen)
     const linkovi = posveta.filter(q => this.posvete[q] && !uOpisu.includes(`](${q})`)).map(q => {
       const p = this.posvete[q]
       return this.linkPosvete(q, escapeHtml(jezik === 'en' && p.naziv.en || p.naziv.sh))
@@ -560,9 +580,10 @@ export default class Detalji extends HTMLElement {
 
   // opis je skracen na dva reda i otvara se dodirom; [tekst](Q-id) je link posvete
   /** @param {Pick<import('../data/tipovi').Spomenik, 'opis'>} spomen */
-  praviOpis({opis}) {
+  praviOpis(spomen) {
+    const opis = this.opisSpomenika(spomen)
     if (!opis) return ''
-    const tekst = escapeHtml(prevedi(opis)).replace(/\[([^\]]+)\]\((Q\d+)\)/g, (_, deo, q) => this.linkPosvete(q, deo))
+    const tekst = escapeHtml(opis).replace(/\[([^\]]+)\]\((Q\d+)\)/g, (_, deo, q) => this.linkPosvete(q, deo))
     return `<span class="opis" tabindex="0" aria-expanded="false"><span class="tekst">${tekst}</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></span>`
   }
 

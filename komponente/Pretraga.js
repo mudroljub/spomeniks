@@ -1,7 +1,7 @@
 // @ts-check
 import Filteri from './Filteri.js'
 import {mapa} from '../klase/mapa.js'
-import {normalizuj} from '../utils/helpers.js'
+import {normalizuj, nazivSpomenika} from '../utils/helpers.js'
 import {t, nazivDrzave} from '../utils/jezik.js'
 
 const boja = '#822323'
@@ -115,8 +115,7 @@ const najmanjeSlova = 2
 
 const praviTekst = spomenik => normalizuj([
   ...polja.map(polje => spomenik[polje] || ''),
-  spomenik.naziv?.sh || '',
-  spomenik.naziv?.en || '',
+  nazivSpomenika(spomenik),
   nazivDrzave(spomenik.drzava),
 ]
   .join(' ')
@@ -187,6 +186,12 @@ export default class Pretraga extends HTMLElement {
     const deo = this.stavke.slice(od, od + 500)
     deo.forEach(stavka => this.tekst(stavka))
     if (deo.length) setTimeout(() => this.pripremiTekstove(od + deo.length))
+  }
+
+  // autori, godine i engleski nazivi stizu posle prvog crtanja, pa se tekst za pretragu i filteri prave ponovo
+  osveziDopune() {
+    this.tekstovi.clear()
+    this.dodaj([])
   }
 
   tekst(stavka) {

@@ -13,6 +13,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2] / 'alati'))
 import zapis
 
 
+FAJLOVI_PODATAKA = ('ISTAKNUTI', 'OSTALI', 'BEZ_LOKACIJE', 'IZVORI', 'IZVORI_STANJA', 'PROVERE_SPOMENIKA', 'PREVODI_EN', 'DETALJI')
+
+
 class ZapisTest(unittest.TestCase):
     def test_promena_vaznosti_menja_zum_i_podelu_fajlova(self):
         put = Path(zapis.__file__).resolve().parent.parent / 'utils' / 'vaznost.js'
@@ -69,8 +72,12 @@ class ZapisTest(unittest.TestCase):
         self.assertEqual(p.returncode, kod, stderr or stdout)
 
     def izolovana_baza(self):
-        return patch.multiple(zapis, **{k: str(self.folder / (k + '.json')) for k in
-                              ('ISTAKNUTI', 'OSTALI', 'BEZ_LOKACIJE', 'IZVORI', 'IZVORI_STANJA', 'PROVERE_SPOMENIKA')})
+        return patch.multiple(zapis, **{k: str(self.folder / (k + '.json')) for k in FAJLOVI_PODATAKA})
+
+    def test_izolacija_pokriva_sve_fajlove_podataka(self):
+        # fajl koji izolacija ne zameni, test bi upisao u prave podatke
+        u_zapisu = {k for k, v in vars(zapis).items() if isinstance(v, str) and v.startswith('data/') and v.endswith('.json')}
+        self.assertEqual(u_zapisu, set(FAJLOVI_PODATAKA))
 
     def test_dva_procesa_ne_gube_izmene(self):
         put = self.folder / 'broj.json'
@@ -112,8 +119,7 @@ class ZapisTest(unittest.TestCase):
         self.assertEqual(list(self.folder.glob('.zapis-*.tmp')), [])
 
     def test_cuvanje_oba_spiska_i_izdvojenih_podataka(self):
-        putanje = {k: str(self.folder / (k + '.json')) for k in
-                   ('ISTAKNUTI', 'OSTALI', 'BEZ_LOKACIJE', 'IZVORI', 'IZVORI_STANJA', 'PROVERE_SPOMENIKA')}
+        putanje = {k: str(self.folder / (k + '.json')) for k in FAJLOVI_PODATAKA}
         with patch.multiple(zapis, **putanje), zapis.zakljucani_podaci():
             provera = {'datum': '2026-10-19', 'izvor': 'https://example.org', 'ishod': 'test'}
             zapis.sacuvaj_bez_lokacije([{'id': 'a', 'vrsta': 'spomenik', 'proveraLokacije': provera}])
@@ -124,6 +130,22 @@ class ZapisTest(unittest.TestCase):
             self.assertEqual(zapis.ucitaj_bazu(), [{'id': 'a', 'vrsta': 'spomenik'}])
             self.assertEqual(json.loads(Path(zapis.PROVERE_SPOMENIKA).read_bytes()),
                              {'a': {'proveraLokacije': provera}})
+
+    def test_detalji_i_engleski_naziv_su_u_zasebnim_fajlovima_a_ucitava_se_ceo_zapis(self):
+        ceo = {'id': 'a', 'koordinate': {'lat': 44, 'lng': 20}, 'googleCid': '1', 'mesto': 'Grad', 'naziv': 'Spomenik', 'nazivEn': 'Monument',
+               'opis': {'sh': 'Opis', 'en': 'Description'}, 'godina': '1961', 'autor': 'Autor', 'vrsta': 'spomenik', 'istaknut': True, 'drzava': 'Serbia'}
+        with self.izolovana_baza(), zapis.zakljucani_podaci():
+            zapis.sacuvaj_bazu([dict(ceo)])
+            self.assertEqual(json.loads(Path(zapis.ISTAKNUTI).read_bytes()),
+                             [{'id': 'a', 'koordinate': {'lat': 44, 'lng': 20}, 'mesto': 'Grad', 'naziv': 'Spomenik', 'vrsta': 'spomenik', 'istaknut': True, 'drzava': 'Serbia'}])
+            self.assertEqual(json.loads(Path(zapis.DETALJI).read_bytes()),
+                             {'a': {'googleCid': '1', 'opis': {'sh': 'Opis', 'en': 'Description'}, 'godina': '1961', 'autor': 'Autor'}})
+            self.assertEqual(json.loads(Path(zapis.PREVODI_EN).read_bytes()), {'a': 'Monument'})
+            self.assertEqual(zapis.ucitaj_bazu(), [ceo])
+            # polje uklonjeno iz zapisa nestaje i iz zasebnog fajla
+            zapis.sacuvaj_bazu([{k: v for k, v in ceo.items() if k not in ('opis', 'nazivEn')}])
+            self.assertNotIn('opis', json.loads(Path(zapis.DETALJI).read_bytes())['a'])
+            self.assertEqual(json.loads(Path(zapis.PREVODI_EN).read_bytes()), {})
 
     def test_standardna_putanja_slike_se_ne_upisuje(self):
         spomenici = [{'id': 'a', 'vrsta': 'spomenik', 'istaknut': True, 'slika': 'slike/spomenici/a.webp', 'slikaOdnos': 1.5},

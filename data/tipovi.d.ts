@@ -8,7 +8,7 @@ export type Vrsta = 'spomenik' | 'spomen-obelezje' | 'spomen-park' | 'spomen-gro
 /** prazno: nema podatka da spomenik nije očuvan (može biti i nepoznato) */
 export type Stanje = 'rusevine' | 'uklonjen' | 'ostecen' | 'zatvoren' | 'srusen'
 
-/** tekst po jeziku interfejsa; en samo kad se razlikuje od sh */
+/** tekst po jeziku interfejsa (opis, naziv posvete ili ture); en samo kad se razlikuje od sh */
 export interface Prevod {
   sh: string
   en?: string
@@ -19,7 +19,10 @@ export interface Koordinate {
   lng: number
 }
 
-/** data/spomenici-istaknuti.json i data/spomenici-ostali.json (alati/zapis.py) */
+/** Ceo zapis spomenika na mapi, kakav vide alati i aplikacija. Fajlovi mape (data/spomenici-istaknuti.json i
+ * data/spomenici-ostali.json) imaju samo polja za crtanje mape; polja za prozor, pretragu i filtere (googleCid, wiki, wikiEn,
+ * slikaPotpis, opis, godina, autor, natpis, posveta) su u data/detalji.json, a `nazivEn` u data/prevodi-en.json.
+ * alati/zapis.py ih spaja pri učitavanju i razdvaja pri čuvanju; aplikacija ih dopunjuje kad stignu, posle prvog crtanja. */
 export interface Spomenik {
   /** jedinstven ključ: mala ASCII slova, cifre i crtice, npr. "banja-luka-maslesa" */
   id: string
@@ -29,10 +32,12 @@ export interface Spomenik {
   priblizno?: boolean
   /** mesto, „Grad (deo grada)“, npr. "Beograd (Banjica)" */
   mesto: string
-  /** sh: domaći naziv, na jeziku i pismu države; bez poznatog imena samo vrsta („Spomenik“, „Spomen-ploča“); en: engleski */
-  naziv: Prevod
-  /** jedna ili dve rečenice: šta se tu desilo ili čemu je posvećen; sh latinicom (i za Sloveniju i Makedoniju) i en, oba obavezna.
-   * „[tekst](Q-id)“ je link stavke iz `posveta`; tako povezana posveta nema poseban red. */
+  /** domaći naziv, na jeziku i pismu države; bez poznatog imena samo vrsta („Spomenik“, „Spomen-ploča“) */
+  naziv: string
+  /** engleski naziv, samo kad se razlikuje od domaćeg; aplikacija ga preuzima samo na engleskom */
+  nazivEn?: string
+  /** jedna ili dve rečenice o tome šta se tu desilo ili čemu je posvećen; sh latinicom (i za Sloveniju i Makedoniju) i en,
+   * oba obavezna. „[tekst](Q-id)“ je link stavke iz `posveta`; tako povezana posveta nema poseban red. */
   opis?: Prevod
   vrsta: Vrsta
   /** prednost na mapi i u turama, nezavisno od vrste i ikonice */

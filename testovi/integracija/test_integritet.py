@@ -14,7 +14,7 @@ from zapis import u_istaknutima  # noqa: E402
 
 def spomenik(sid, lat=44, lng=20):
     return {'id': sid, 'koordinate': {'lat': lat, 'lng': lng}, 'mesto': 'Test',
-            'naziv': {'sh': 'Spomenik'}, 'vrsta': 'spomen-obelezje', 'drzava': 'Serbia'}
+            'naziv': 'Spomenik', 'vrsta': 'spomen-obelezje', 'drzava': 'Serbia'}
 
 
 class IntegritetTest(unittest.TestCase):
@@ -90,13 +90,22 @@ class IntegritetTest(unittest.TestCase):
         self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
         self.assertIn('opis i tekstualna posveta', r.stdout)
 
-    def test_naziv_sa_prevodom(self):
-        for naziv in ['Spomenik', {}, {'en': 'Monument'}, {'sh': ' '}, {'sh': 'Spomenik', 'en': 'Spomenik'}, {'sh': 'Spomenik', 'de': 'Denkmal'}]:
+    def test_naziv_je_domaci_tekst(self):
+        for naziv in [{'sh': 'Spomenik'}, '', None]:
             with self.subTest(naziv=naziv):
                 r = self.proveri([{**spomenik('test'), 'naziv': naziv}])
                 self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
-                self.assertIn('naziv nije {sh, en}', r.stdout)
+                self.assertIn('bez naziva', r.stdout)
                 self.assertNotIn('Traceback', r.stderr)
+
+    def test_engleski_naziv(self):
+        r = self.proveri([{**spomenik('test'), 'nazivEn': 'Monument'}])
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        for nazivEn in ['Spomenik', '', {'en': 'Monument'}]:
+            with self.subTest(nazivEn=nazivEn):
+                r = self.proveri([{**spomenik('test'), 'nazivEn': nazivEn}])
+                self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
+                self.assertIn('los engleski naziv', r.stdout)
 
     def test_neispravne_posvete(self):
         for vrednost in ['', '  ', [], ['Q999999'], [None], {}, None, 42]:
@@ -116,7 +125,7 @@ class IntegritetTest(unittest.TestCase):
         self.assertIn('novi parovi manje od 30 m: 2', r.stdout)
 
     def test_veza_knjige(self):
-        stavka = {'id': 'test-bez', 'naziv': {'sh': 'Spomenik'}, 'mesto': 'Test', 'vrsta': 'spomen-obelezje', 'drzava': 'Serbia'}
+        stavka = {'id': 'test-bez', 'naziv': 'Spomenik', 'mesto': 'Test', 'vrsta': 'spomen-obelezje', 'drzava': 'Serbia'}
         dobre = [{'oznaka': 'A', 'uparivanje': {'cilj': 'test'}},
                  {'oznaka': 'B', 'upareno': {'cilj': 'test-bez'}},
                  {'oznaka': 'C', 'uparivanje': {'cilj': None, 'ciljNepouzdan': True}}]
@@ -129,7 +138,7 @@ class IntegritetTest(unittest.TestCase):
                 self.assertIn('knjiga: veza bez cilja', r.stdout)
 
     def test_id_bez_lokacije(self):
-        stavka = {'naziv': {'sh': 'Spomenik'}, 'mesto': 'Test', 'vrsta': 'spomen-obelezje', 'drzava': 'Serbia'}
+        stavka = {'naziv': 'Spomenik', 'mesto': 'Test', 'vrsta': 'spomen-obelezje', 'drzava': 'Serbia'}
         for bez, poruka in [([stavka], 'bez lokacije: bez id'), ([{**stavka, 'id': 'test'}], 'bez lokacije: isti id'),
                             ([{**stavka, 'id': 'x'}, {**stavka, 'id': 'x'}], 'bez lokacije: isti id')]:
             with self.subTest(poruka=poruka, bez=bez):
@@ -146,7 +155,7 @@ class IntegritetTest(unittest.TestCase):
         r = self.proveri([{**spomenik('test'), 'izvor': 'https://example.com'}])
         self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
         self.assertIn('izvor u bazi', r.stdout)
-        stavka = {'id': 'bez', 'naziv': {'sh': 'Spomenik'}, 'mesto': 'Test', 'vrsta': 'spomen-obelezje', 'drzava': 'Serbia', 'izvor': 'https://example.com'}
+        stavka = {'id': 'bez', 'naziv': 'Spomenik', 'mesto': 'Test', 'vrsta': 'spomen-obelezje', 'drzava': 'Serbia', 'izvor': 'https://example.com'}
         r = self.proveri([spomenik('test')], bez_lokacije=[stavka])
         self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
         self.assertIn('izvor u spisku bez lokacije', r.stdout)

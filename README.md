@@ -25,6 +25,8 @@ POTPUNOST PODATKA:
 KVALITET PODATAKA:
 - fotografije korisnika Google mapa nemaju licencu za ponovnu objavu: naći zamenu sa slobodnom licencom, pa ukloniti Google slike
 - pri dopuni fotografija prednost dati umetničkim delima i sadržajnim memorijalnim celinama; obična groblja, jednostavni grobovi i ploče ostaju niži prioritet
+- Potraži sve naslove "spomen-dom" i prebaci ih da budu vrsta spomen-kuca
+- imamo duplikat: Bista Ahmeta Kobića, Brnjik. potraži i ostale duplikate
 
 UI
 - za vrste spomenika negde u aplikaciji koristimo jedninu negde množinu. prebaci svuda na jedninu da probam.

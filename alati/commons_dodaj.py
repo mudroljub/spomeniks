@@ -66,7 +66,7 @@ for br, s in enumerate(spisak):
         print('slika', cilj, flush=True)
         continue
     z = {'id': s['id'], 'koordinate': {'lat': round(a, 7), 'lng': round(b, 7)}, 'mesto': mesto, 'izvor': 'https://commons.wikimedia.org/wiki/' + urllib.parse.quote(s['fajl'].replace(' ', '_')),
-         'slika': putanja, 'slikaPotpis': potpis, 'naziv': {'sh': s['naziv'], **({'en': s['nazivEn']} if s.get('nazivEn') else {})}, 'stanje': s.get('stanje'), 'vrsta': s['vrsta'], 'drzava': s['drzava']}
+         'slika': putanja, 'slikaPotpis': potpis, 'naziv': s['naziv'], **({'nazivEn': s['nazivEn']} if s.get('nazivEn') else {}), 'stanje': s.get('stanje'), 'vrsta': s['vrsta'], 'drzava': s['drzava']}
     assert z['id'] not in po_id, z['id']
     d.append(z); po_id[z['id']] = z
     print('novi', z['id'], mesto, flush=True)
