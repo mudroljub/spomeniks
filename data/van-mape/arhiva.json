@@ -6063,29 +6063,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "ilijas-spomen-ploca-generalnom-strajku-1913-godine",
-    "mesto": "Ilijaš",
-    "adresa": "Administrative building of Antikorozija Ilijaš",
-    "naziv": "Spomen-ploča generalnom štrajku 1913. godine",
-    "nazivEn": "Plaque to commemorate general strike in 1913",
-    "godina": "1959",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "ilijas-spomen-ploca-generalnom-strajku-1922-godine",
-    "mesto": "Ilijaš",
-    "adresa": "Pilana Ilijaš (now Kalea furniture factory)",
-    "naziv": "Spomen-ploča generalnom štrajku 1922. godine",
-    "nazivEn": "Plaque to commemorate general strike in 1922",
-    "godina": "1959",
-    "autor": "Todorović",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "ilijas-bista-janka-balorde",
     "mesto": "Ilijaš",
     "adresa": "In front of ironworks' head offices",
@@ -8593,20 +8570,13 @@
     "adresa": "'Borovo' shop (former)",
     "naziv": "Spomen-ploča Mili Erletić",
     "nazivEn": "Plaque to commemorate Mila Erletić",
-    "posveta": "Mili Erletić",
+    "opis": {
+      "sh": "Prvobitna ploča Mili Erletić iz 1960, autora Marka Mašića, zamenjena je pre 1990. Novija ploča nosila je istu godinu 1960. i kasnije je uklonjena sa nekadašnje prodavnice Borovo.",
+      "en": "The original 1960 plaque to Mila Erletić, by Marko Mašić, was replaced before 1990. The replacement bore the same date of 1960 and was later removed from the former Borovo shop."
+    },
+    "godina": "1960",
     "stanje": "uklonjen",
     "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "tisina-spomenik-palim-borcima-i-zrtvama-fasisticko-2",
-    "mesto": "Tišina",
-    "adresa": "In front of reading room",
-    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
-    "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
-    "godina": "1951",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -9299,9 +9269,13 @@
   {
     "id": "tomislavgrad-spomenik-na-mjestu-formiranja-bataljo",
     "mesto": "Tomislavgrad",
-    "adresa": "Between old court and municipal KPJ headquarters (former)",
+    "adresa": "Poslednje kod kafane Lovac; prvobitno između starog suda i opštinskog sedišta KPJ.",
     "naziv": "Spomenik na mjestu formiranja bataljona „Mihovil Tomić“",
     "nazivEn": "Monument commemorating place of formation of the Mihovil Tomić Battalion",
+    "opis": {
+      "sh": "Obeležje formiranja bataljona „Mihovil Tomić“ postojalo je pre 1965. Zamenjeno je 1984. obližnjim spomenikom kod kafane Lovac, koji je izradio kamenorezac Sabit iz Jablanice. Zamenski spomenik uklonjen je pre 1997.",
+      "en": "The memorial to the formation of the Mihovil Tomić Battalion existed before 1965. In 1984 it was replaced nearby at the Lovac café by a monument made by Sabit, a stonemason from Jablanica. The replacement was removed before 1997."
+    },
     "godina": "pre 1965",
     "stanje": "uklonjen",
     "vrsta": "spomen-obelezje",
@@ -9317,18 +9291,6 @@
     "posveta": "Boriše Kovačevića",
     "stanje": "uklonjen",
     "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "tomislavgrad-spomenik-na-mjestu-formiranja-bataljo-2",
-    "mesto": "Tomislavgrad",
-    "adresa": "Close to 'Lovac' kafana",
-    "naziv": "Spomenik na mjestu formiranja bataljona „Mihovil Tomić“",
-    "nazivEn": "Monument commemorating place of formation of the Mihovil Tomić Battalion",
-    "godina": "1984",
-    "autor": "Sabit",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
   },
   {
