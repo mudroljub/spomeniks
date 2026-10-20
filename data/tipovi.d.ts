@@ -6,7 +6,7 @@ export type Drzava = 'Slovenia' | 'Croatia' | 'Bosnia and Herzegovina' | 'Serbia
 export type Vrsta = 'spomenik' | 'spomen-obelezje' | 'spomen-park' | 'spomen-groblje' | 'muzej' | 'statua' | 'bista' | 'reljef' | 'spomen-kuca' | 'groblje' | 'spomen-ploca'
 
 /** prazno: nema podatka da spomenik nije očuvan (može biti i nepoznato) */
-export type Stanje = 'rusevine' | 'uklonjen' | 'ostecen' | 'zatvoren' | 'srusen'
+export type Stanje = 'rusevine' | 'uklonjen' | 'ostecen' | 'zatvoren'
 
 /** tekst po jeziku interfejsa (opis, naziv posvete ili ture); en samo kad se razlikuje od sh */
 export interface Prevod {

@@ -76,7 +76,6 @@ const tekstovi = {
   },
 
   rusevine: {sh: 'U ruševinama', en: 'In ruins'},
-  srusen: {sh: 'Srušen', en: 'Destroyed'},
   uklonjen: {sh: 'Uklonjen', en: 'Removed'},
   ostecen: {sh: 'Oštećen', en: 'Damaged'},
   zatvoren: {sh: 'Zatvoren', en: 'Closed'},

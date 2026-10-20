@@ -6,15 +6,15 @@ import {izgledMarkera, ikonicaSaOznakama, znak, znakVrste, senka, pribliznaOznak
 
 test('vrsta i stanje biraju sliku markera, a spomenik ostaje obelisk', () => {
   assert.equal(izgledMarkera({vrsta: 'bista'}).slika, 'slike/markeri/bista-postoji.svg')
-  assert.equal(izgledMarkera({vrsta: 'bista', stanje: 'srusen'}).slika, 'slike/markeri/bista-rusevina.svg')
+  assert.equal(izgledMarkera({vrsta: 'bista', stanje: 'rusevine'}).slika, 'slike/markeri/bista-rusevina.svg')
   assert.equal(izgledMarkera({vrsta: 'bista', stanje: 'uklonjen'}).slika, 'slike/markeri/bista-uklonjen.svg')
   assert.equal(izgledMarkera({vrsta: 'bista', stanje: 'ostecen'}).slika, 'slike/markeri/bista-postoji.svg')
   assert.deepEqual(izgledMarkera({vrsta: 'spomenik'}), {slika: 'slike/obelisk.png', sirina: 14, visina: 50})
   assert.equal(izgledMarkera({vrsta: 'spomenik', stanje: 'rusevine'}).slika, 'slike/obelisk-rusevina.png')
   assert.equal(izgledMarkera({vrsta: 'groblje'}).slika, 'slike/markeri/groblje-postoji.svg')
-  assert.equal(izgledMarkera({vrsta: 'groblje', stanje: 'srusen'}).slika, 'slike/markeri/groblje-rusevina.svg')
+  assert.equal(izgledMarkera({vrsta: 'groblje', stanje: 'rusevine'}).slika, 'slike/markeri/groblje-rusevina.svg')
   assert.equal(izgledMarkera({vrsta: 'groblje', stanje: 'uklonjen'}).slika, 'slike/markeri/groblje-uklonjen.svg')
-  for (const stanje of [undefined, 'srusen', 'uklonjen']) {
+  for (const stanje of [undefined, 'rusevine', 'uklonjen']) {
     const izgled = izgledMarkera({vrsta: 'spomen-kuca', stanje})
     assert.match(izgled.slika, /spomen-kuca-(postoji|rusevina|uklonjen)\.svg$/)
     assert.ok(existsSync(new URL(`../../${izgled.slika}`, import.meta.url)))

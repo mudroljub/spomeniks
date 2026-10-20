@@ -2,7 +2,7 @@
 import {mapa} from '../klase/mapa.js'
 import {navigacijaIkonica} from '../utils/ikonice.js'
 import {stilZaglavlja, stilPanela, upravljajPanelom} from '../utils/ui.js'
-import {mestoUrl, navigacijaUrl, escapeHtml, naziviStanja, nestao, autoriSpomenika, nazivSpomenika, bezbedanLink} from '../utils/helpers.js'
+import {mestoUrl, navigacijaUrl, escapeHtml, naziviStanja, nestao, ruine, autoriSpomenika, nazivSpomenika, bezbedanLink} from '../utils/helpers.js'
 import {dajOznaku, postaviOznaku, promene} from '../utils/oznake.js'
 import {uRuti, dodajURutu, ukloniIzRute, promeneRute} from '../utils/ruta.js'
 import {jezik, t, nazivDrzave} from '../utils/jezik.js'
@@ -111,9 +111,11 @@ style.textContent = `
     vertical-align: middle;
   }
 
-  .stanje.nestao {
-    background: var(--boja);
-    color: #fff;
+  .stanje.upozorenje {
+    background: #fff;
+    border: 1px solid #c62828;
+    color: #c62828;
+    font-weight: bold;
   }
 
   .mesto svg {
@@ -445,7 +447,7 @@ export default class Detalji extends HTMLElement {
       <header>
         <h2>
           <span class="ime">${naziv || escapeHtml(spomen.mesto)}</span>
-          ${spomen.stanje ? `<span class="stanje ${nestao(spomen.stanje) ? 'nestao' : ''}">${naziviStanja[spomen.stanje]}</span>` : ''}
+          ${spomen.stanje ? `<span class="stanje ${nestao(spomen.stanje) || ruine(spomen.stanje) ? 'upozorenje' : ''}">${nestao(spomen.stanje) || ruine(spomen.stanje) ? '⚠ ' : ''}${naziviStanja[spomen.stanje]}</span>` : ''}
           ${vise ? `<a href="${escapeHtml(vise)}" target="_blank" class="vise">${t('vise')} ›</a>` : ''}
         </h2>
         <button id="zatvori" title="${t('zatvori')}">×</button>

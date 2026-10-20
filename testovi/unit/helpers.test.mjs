@@ -36,8 +36,7 @@ test('mala slika je u zasebnoj fascikli, a autori su razdvojeni znakom &', () =>
 
 test('uklonjen spomenik je nestao, a srušen se vodi kao ruševine', () => {
   assert.ok(nestao('uklonjen'))
-  assert.ok(!nestao('srusen'))
-  assert.ok(ruine('srusen') && ruine('rusevine'))
+  assert.ok(ruine('rusevine') && !ruine('uklonjen'))
   assert.ok(!ruine('ostecen') && !ruine(undefined))
 })
 

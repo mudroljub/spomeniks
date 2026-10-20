@@ -3,7 +3,6 @@ import {jezik, t} from './jezik.js'
 
 export const naziviStanja = {
   rusevine: t('rusevine'),
-  srusen: t('srusen'),
   uklonjen: t('uklonjen'),
   ostecen: t('ostecen'),
   zatvoren: t('zatvoren'),
@@ -29,7 +28,7 @@ export const autoriSpomenika = ({autor}) => autor ? autor.split(' & ') : []
 
 export const nestao = stanje => stanje === 'uklonjen'
 
-export const ruine = stanje => stanje === 'rusevine' || stanje === 'srusen'
+export const ruine = stanje => stanje === 'rusevine'
 
 export function mestoUrl({koordinate: {lat, lng}, googleCid}) {
   if (googleCid) return `https://maps.google.com/?cid=${googleCid}`

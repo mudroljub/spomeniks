@@ -34256,5 +34256,67 @@
     "datum": "2026-10-20",
     "izvor": "https://commons.wikimedia.org/wiki/File:Zgornji_Hrastnik_cemetery.JPG",
     "ishod": "Groblje partizanske bolnice Zgornji Hrastnik (Rude, CC BY-SA 3.0, 2007, bez GPS-a) deo je kompleksa bolnice koji je već na mapi (komarna-vas), pa nije dodat zaseban marker. Nije isto što i komarna-vas-grobisce-umrlih-v-partizanskih-bolnisn (1,8 km jugoistočno, druga fotografija: stub u krugu)."
+  },
+  {
+    "odluka": "istaknuti-nepostojeci-2026-10-20",
+    "datum": "2026-10-20",
+    "pravilo": "Merenje popularnosti (jezici Vikipedije, MoMA 2018, Spomenik Database) potvrdilo je postojeći spisak istaknutih; korisnik je odlučio da istaknuti koji više ne postoje ostaju istaknuti, sa stanjem. Stare fotografije zadržane jer na mestu nema ostataka.",
+    "pre": {
+      "korenica": {
+        "stanje": "srusen",
+        "opis": {
+          "sh": "Posvećeno borcima sahranjenim na groblju partizanske bolnice Bijeli Potoci–Kamensko na Plješevici, prve partizanske bolnice u Hrvatskoj, gde ih počiva oko 3.000.",
+          "en": "Dedicated to the fighters buried at the cemetery of the Bijeli Potoci–Kamensko hospital on Plješevica, the first Partisan hospital in Croatia, where about 3,000 lie."
+        },
+        "slikaPotpis": null
+      },
+      "landovica": {
+        "stanje": "uklonjen",
+        "opis": {
+          "sh": "Posvećeno narodnim herojima [Bori Vukmiroviću](Q1562871) i [Ramizu Sadiku](Q1568696), koji su ovde ubijeni 10. aprila 1943. i postali simbol zajedničke borbe Srba i Albanaca.",
+          "en": "Dedicated to People's Heroes [Boro Vukmirović](Q1562871) and [Ramiz Sadiku](Q1568696), killed here on 10 April 1943, who became a symbol of the joint struggle of Serbs and Albanians."
+        },
+        "slikaPotpis": null
+      },
+      "vis-island": {
+        "stanje": "uklonjen",
+        "opis": null,
+        "slikaPotpis": null
+      }
+    },
+    "dokazi": {
+      "korenica": "https://www.spomenikdatabase.org/korenica (potpuno uništen, razmontiran oko 2008)",
+      "landovica": "https://www.spomenikdatabase.org/landovica (srušen 1999, groblje OVK na mestu)",
+      "vis-island": "https://www.slobodnaevropa.org/a/689748.html (5.12.2006: uklonjen devedesetih)"
+    },
+    "napomena": "Godina 2018 za Spomenik Database je približna: stranice nemaju datum objave."
+  },
+  {
+    "odluka": "stanje-srusen-ukinuto-2026-10-20",
+    "datum": "2026-10-20",
+    "pravilo": "Po odluci korisnika stanje „srušen“ je ukinuto: spomenik sa vidljivim ostacima je „rusevine“, a bez ostataka „uklonjen“. Nijedan od 17 srušenih na mapi nije imao dokaz vidljivih ostataka, pa su svi postali „uklonjen“; po pravilu za uklonjene, oni koji nisu istaknuti, spomen-park, muzej ni spomenik prešli su u arhivu.",
+    "naMapi": [
+      "korenica",
+      "landovica",
+      "peje-pec",
+      "trokut",
+      "gradac"
+    ],
+    "uArhivu": [
+      "karlovac",
+      "stolac",
+      "korenica-center",
+      "crevarska-strana-spomen-obiljezje-na-mjestu-ustask",
+      "perna-spomenik-palim-borcima-i-civilnim-zrtvama",
+      "mazin-spomen-obiljezje",
+      "vucje-spomenik-slavku-todorovicu",
+      "glamoc-spomenik-nob-sa-statuom-majke-i-djeteta",
+      "konjic-spomenik-ustanku",
+      "gornje-hrasno-spomen-kosturnica-zrtava-fasistickog",
+      "bastasi-spomenik-palim-borcima-i-zrtvama-fasistick-2",
+      "crkveno-spomenik-palim-borcima-nob"
+    ],
+    "arhivaPrevedeno": 162,
+    "bezLokacijePrevedeno": 0
   }
 ]
