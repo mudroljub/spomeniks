@@ -47,12 +47,36 @@
       "napomena": "Prethodna tačka bila je unutar školske parcele, oko 110 m od obeležja; zamenjena izričitom tačkom desno od ulaza u fiskulturnu salu."
     }
   },
+  "bijelo-brdo-spomen-cesma-prvoborcima-iz-bijelog-br": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://naslijedjerudo.com/lokaliteti/spomenici/?pismo=lat",
+      "ishod": "bez potvrđene tačke",
+      "napomena": "Izvor izričito kaže Yes; srušen je društveni dom, ne česma; potvrđuje i lokalni turistički popis.; Potvrđen opstanak česme; ne dodaje se neproverena tačka."
+    },
+    "proveraOpstanka": {
+      "datum": "2026-10-20",
+      "prethodniId": "bijelo-brdo-spomen-cesma-prvoborcima-iz-bijelog-br",
+      "ishod": "potvrđeno obeležje ili obnovljen original",
+      "razlog": "Izvor izričito kaže Yes; srušen je društveni dom, ne česma; potvrđuje i lokalni turistički popis.; Potvrđen opstanak česme; ne dodaje se neproverena tačka.",
+      "izvestaj": "data/provere/odluke.json#spomenicinob-detaljno-3224-3664-2026-10-20"
+    }
+  },
   "bjelajske-uvale-spomenik-zrtvama-fasistickog-teror": {
     "proveraLokacije": {
       "datum": "2026-10-20",
       "izvor": "https://www.spomenicinob.info/bosanskakrupa",
       "ishod": "provereno",
       "napomena": "Isti izvorni red 608, ista posveta i oblik zastave u Wiki kopijama Jasenica i Bjelajske Uvale. Tačka 44.754056,16.268778 izričito je opisana kao nasumična tačka na putu između naselja; obe ranije tačke odbačene."
+    }
+  },
+  "bogutovo-selo-bista-nepoznate-osobe": {
+    "proveraOpstanka": {
+      "datum": "2026-10-20",
+      "prethodniId": "bogutovo-selo-bista-nepoznate-osobe",
+      "ishod": "povučena nepotvrđena tačka",
+      "razlog": "Izvor ne identifikuje osobu ni položaj biste; približna tačka naselja nije potvrđena lokacija objekta.; Izvor ne identifikuje osobu ni položaj biste; približna tačka naselja nije potvrđena lokacija objekta.",
+      "izvestaj": "data/provere/odluke.json#spomenicinob-detaljno-3665-4103-2026-10-20"
     }
   },
   "borovo-naselje-djeletovci-sporna-lokacija-spomenik": {
@@ -80,6 +104,14 @@
       "napomena": "U holu škole koja nosi ime Svetozara Markovića Toze u Elemiru. Prethodna približna tačka pripadala je pogrešnom naselju; tačka spomenika nije potvrđena."
     }
   },
+  "bratac-spomenik-borcima-bratackog-odreda-poginulim": {
+    "proveraLokacije": {
+      "datum": "2026-10-21",
+      "izvor": "https://www.spomenicinob.info/nevesinje",
+      "ishod": "Tačka označena kao približna; nezavisna potvrda preciznog položaja nije pronađena.",
+      "napomena": "Wiki izričito pretpostavlja položaj prema širokoj katastarskoj parceli puta i mogućem objektu na satelitskom snimku; ne potvrđuje tačku. Katalog daje Trtine, uz put, i terensku proveru jun 2024. Pretražene latinica i ćirilica; fotografija sa Facebook-a nije bila dostupna za pregled."
+    }
+  },
   "bukovica-donja-partizansko-groblje-sa-18-palih-bor": {
     "proveraLokacije": {
       "datum": "2026-10-20",
@@ -104,6 +136,21 @@
       "napomena": "Sačuvan opis položaja; proizvoljna tačka puta ili crkve iz Wiki kopije nije preuzeta kao tačka objekta."
     }
   },
+  "cavas-spomenik-zrtvama-fasistickog-terora": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://slobodnahercegovina.com/akcija-traje-pomozimo-obnovu-spomenika-i-kosturnice-stradalnickog-sela-cavas-u-popovom-polju-foto/",
+      "ishod": "bez potvrđene tačke",
+      "napomena": "Izjava udruženja i izveštaj o izvedenoj sanaciji potvrđuju obnovljen original u Tvrdošu; nije ista fizička stvar kao replika 2023.; Obnovljen i sastavljen original potvrđen kod manastira Tvrdoš; nema potvrđene tačke pojedinačnog objekta."
+    },
+    "proveraOpstanka": {
+      "datum": "2026-10-20",
+      "prethodniId": "cavas-spomenik-zrtvama-fasistickog-terora",
+      "ishod": "potvrđeno obeležje ili obnovljen original",
+      "razlog": "Izjava udruženja i izveštaj o izvedenoj sanaciji potvrđuju obnovljen original u Tvrdošu; nije ista fizička stvar kao replika 2023.; Obnovljen i sastavljen original potvrđen kod manastira Tvrdoš; nema potvrđene tačke pojedinačnog objekta.",
+      "izvestaj": "data/provere/odluke.json#spomenicinob-detaljno-3224-3664-2026-10-20"
+    }
+  },
   "celovci-spomenik-vinku-ozboltu": {
     "proveraOpstanka": {
       "datum": "2026-10-16",
@@ -113,12 +160,44 @@
       "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
     }
   },
+  "centar-bista-dzemala-mandzica": {
+    "proveraOpstanka": {
+      "datum": "2026-10-20",
+      "prethodniId": "centar-bista-dzemala-mandzica",
+      "ishod": "uklonjena bista",
+      "razlog": "Prazno postolje nije ruševina postojeće biste.; Bista nedostaje, preostalo je samo postolje.",
+      "izvestaj": "data/provere/odluke.json#spomenicinob-detaljno-3665-4103-2026-10-20"
+    }
+  },
+  "crkveno-spomenik-palim-borcima-nob": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://lat.rtrs.tv/vijesti/vijest.php?id=305744",
+      "ishod": "bez potvrđene tačke",
+      "napomena": "RTRS 28.07.2018 potvrđuje 25 boraca NOR-a uz 20 boraca novijeg rata.; Dokazan zamenski spomenik sa posvetom NOR-u; tačka novog objekta nije nezavisno potvrđena."
+    },
+    "proveraOpstanka": {
+      "datum": "2026-10-20",
+      "prethodniId": "crkveno-spomenik-palim-borcima-nob",
+      "ishod": "potvrđeno obeležje ili obnovljen original",
+      "razlog": "RTRS 28.07.2018 potvrđuje 25 boraca NOR-a uz 20 boraca novijeg rata.; Dokazan zamenski spomenik sa posvetom NOR-u; tačka novog objekta nije nezavisno potvrđena.",
+      "izvestaj": "data/provere/odluke.json#spomenicinob-detaljno-3224-3664-2026-10-20"
+    }
+  },
   "crni-lug-spomen-zid-zrtvama-fasistickog-terora": {
     "proveraLokacije": {
       "datum": "2026-10-20",
       "izvor": "https://www.spomenicinob.info/bosanskograhovo",
       "ishod": "provereno",
       "napomena": "Wiki deo-0040: potvrđen zid sa imenima ispred škole i reljefom, vidljiv u Street View; postojeća tačka označava objekat, ne centroid sela."
+    }
+  },
+  "donji-orlovci": {
+    "proveraLokacije": {
+      "datum": "2026-10-21",
+      "izvor": "https://muzejkozare.org/lokacija-gornji-orlovci/",
+      "ishod": "potvrđen identitet objekta na postojećoj tački",
+      "napomena": "GPS Muzeja Kozare i fotografija potvrđuju Gornje Orlovce; raniji opis Donjih Orlovaca prenet na marker kalata."
     }
   },
   "dragocaj-spomenik-palim-borcima-i-zrtvama": {
@@ -160,6 +239,32 @@
       "datum": "2026-10-20",
       "izvor": "spomenicinob.info i sačuvani Partisan Memorials Wiki; dopunske pretrage gde su dozvoljene",
       "ishod": "Katalog nema adresu, a mrežna pretraga nije našla konkretnu tačku; oznaka sela ne dokazuje lokaciju biste."
+    }
+  },
+  "gornji-brajinci-spomenik-nob": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/",
+      "ishod": "bez potvrđene tačke",
+      "napomena": "Ista 1971 i bolnica III korpusa u Wiki članku; ploča je na samostalnom nosaču.; Razrešena posveta; tačka istorijske karte nije potvrđena.; Wiki navodi samo moguću tačku prema znaku na karti iz 1975, bez potvrde objekta.; Wiki navodi samo moguću tačku prema znaku na karti iz 1975, bez potvrde objekta."
+    }
+  },
+  "gornji-vitkovci-spomenik-palim-borcima": {
+    "proveraOpstanka": {
+      "datum": "2026-10-20",
+      "prethodniId": "gornji-vitkovci-spomenik-palim-borcima",
+      "ishod": "povučena nepotvrđena tačka",
+      "razlog": "Dva različita opisa položaja dobila su istu približnu tačku centra sela; objekti nisu pouzdano locirani niti je dokazano da su duplikati.; Dva različita opisa položaja dobila su istu približnu tačku centra sela; objekti nisu pouzdano locirani niti je dokazano da su duplikati.",
+      "izvestaj": "data/provere/odluke.json#spomenicinob-detaljno-3665-4103-2026-10-20"
+    }
+  },
+  "gornji-vitkovci-spomenik-palim-borcima-2": {
+    "proveraOpstanka": {
+      "datum": "2026-10-20",
+      "prethodniId": "gornji-vitkovci-spomenik-palim-borcima-2",
+      "ishod": "povučena nepotvrđena tačka",
+      "razlog": "Dva različita opisa položaja dobila su istu približnu tačku centra sela; objekti nisu pouzdano locirani niti je dokazano da su duplikati.; Dva različita opisa položaja dobila su istu približnu tačku centra sela; objekti nisu pouzdano locirani niti je dokazano da su duplikati.",
+      "izvestaj": "data/provere/odluke.json#spomenicinob-detaljno-3665-4103-2026-10-20"
     }
   },
   "grgurevci-spomenik-palim-1941-1945": {
@@ -235,6 +340,22 @@
       "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
     }
   },
+  "jelasinovci-spomenik-partizanskom-mlinu-i-radio-re": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/",
+      "ishod": "bez potvrđene tačke",
+      "napomena": "Opis postavlja obeležje oko 150m zapadno od groblja, dok postojeća tačka leži oko 5km dalje; nije potvrđena.; Opis postavlja obeležje oko 150m zapadno od groblja, dok postojeća tačka leži oko 5km dalje; nije potvrđena."
+    }
+  },
+  "kalata": {
+    "proveraLokacije": {
+      "datum": "2026-10-21",
+      "izvor": "https://www.xiwl.com/w/index.php/Donji_Orlovci_-_Spomenik_Palim_Borcima",
+      "ishod": "potvrđen identitet objekta na postojećoj tački",
+      "napomena": "Lokalna Wiki kopija opisuje zid sa filigranskim reljefom; Google mesto iz njene napomene daje istu tačku i CID kao postojeći marker kalata. Obilazak iz 2025. potvrđuje obnovu 2024."
+    }
+  },
   "kanjiza-spomenik-palim-1941-1945": {
     "proveraLokacije": {
       "datum": "2026-10-20",
@@ -274,6 +395,14 @@
       "izvor": "https://www.spomenicinob.info/bosanskipetrovac",
       "ishod": "provereno",
       "napomena": "Wiki deo-0102 izričito navodi nepoznat položaj i dva moguća Klenovca, jedan istočno od Bravska i drugi kod Bukovače. Centar sela nije potvrđena lokacija ovog obeležja."
+    }
+  },
+  "konjuh-spomen-zona-korita": {
+    "proveraLokacije": {
+      "datum": "2026-10-21",
+      "ishod": "približna lokacija zone; precizna tačka nije potvrđena",
+      "izvor": "https://www.xiwl.com/w/index.php/Konjuh_-_Korita_Memorial_Zone",
+      "napomena": "Wiki izričito navodi procenu sa karte i zonu rasprostranjenu na nekoliko kilometara. Planinarske trase iz 2020. i 2023. identifikuju grob i kenotafe, ali javno dostupni podaci nisu dali proverljive koordinate obeležja; nije preuzeta početna tačka trase. data/provere/odluke.json#konjuh-korita-provera-lokacije-2026-10-21"
     }
   },
   "koprivnica-spomen-obiljezje-zrtvama-fasistickog-te": {
@@ -339,6 +468,14 @@
       "napomena": "Wiki deo-0227 izričito navodi nepoznatu lokaciju na Šatoru i mogući sasvim drugi položaj; centroid Malog Tičeva nije lokacija pogibije. Zapis sačuvan bez lokacije."
     }
   },
+  "masline-spomenik-zrtvama-fasistickog-terora": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/",
+      "ishod": "bez potvrđene tačke",
+      "napomena": "Wiki ne zna da li kartografska tačka pripada Gornjoj ili Donjoj Kukauši; objekat nije pouzdano identifikovan.; Wiki ne zna da li kartografska tačka pripada Gornjoj ili Donjoj Kukauši; objekat nije pouzdano identifikovan."
+    }
+  },
   "mladenovac-spomenik-palim-u-oslobodilackim-ratovim": {
     "proveraLokacije": {
       "datum": "2026-10-20",
@@ -400,6 +537,23 @@
       "napomena": "Povučena tačka centra Pištalina: izvor izričito navodi obalu Une, više od 10 km dalje. Wiki kopija deo-0176 takođe potvrđuje da položaj nije poznat."
     }
   },
+  "poljice-partizansko-groblje": {
+    "proveraOpstanka": {
+      "datum": "2026-10-20",
+      "prethodniId": "poljice-partizansko-groblje",
+      "ishod": "povučena nepotvrđena tačka",
+      "razlog": "Nije potvrđeno zasebno groblje na ovoj tački; moguće je da je opis vezan za obližnje stratište Vrnograč-Poljice.; Nije potvrđeno zasebno groblje na ovoj tački; moguće je da je opis vezan za obližnje stratište Vrnograč-Poljice.",
+      "izvestaj": "data/provere/odluke.json#spomenicinob-detaljno-3665-4103-2026-10-20"
+    }
+  },
+  "potok-spomenik-zrtvama-fasistickog-terora": {
+    "proveraLokacije": {
+      "datum": "2026-10-21",
+      "izvor": "https://www.xiwl.com/w/index.php/Potok_%28Lopare%29_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+      "ishod": "nepotvrđena tačka povučena sa mape",
+      "napomena": "Lokalni Wiki izričito navodi samo istorijske fotografije i moguću strukturu; sadašnji identitet i opstanak nisu potvrđeni. Registracioni karton 6.12.1990. daje istorijsku posvetu i opis, bez precizne današnje tačke. Kandidat ostaje u radnom zapisu."
+    }
+  },
   "prezid-zbitke-spomenik-danijelu-ozboltu": {
     "proveraOpstanka": {
       "datum": "2026-10-16",
@@ -458,6 +612,22 @@
       "napomena": "Wiki deo-0198 navodi nepoznatu tačku u šumi pod Risovom gredom. Okvirna tačka šumskog predela nije lokacija obeležja; zapis povučen sa mape bez promene zaključka o opstanku."
     }
   },
+  "sarajevo-stari-grad-groblje-hambina-carina": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/",
+      "ishod": "bez potvrđene tačke",
+      "napomena": "Wiki daje samo pretpostavljeno pojedinačno grobno mesto; postojeća tačka nije potvrda položaja tri partizanska groba.; Wiki daje samo pretpostavljeno pojedinačno grobno mesto; postojeća tačka nije potvrda položaja tri partizanska groba.; Naslov obuhvata konkretne grobove, ne celo muslimansko groblje."
+    }
+  },
+  "sarajevo-stari-grad-spomen-grobnica": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/",
+      "ishod": "bez potvrđene tačke",
+      "napomena": "Wiki navodi vrlo verovatnu lokaciju, ne potvrđenu; generična grobnica bez slike ne dobija precizan marker.; Wiki navodi vrlo verovatnu lokaciju, ne potvrđenu; generična grobnica bez slike ne dobija precizan marker.; Identitet dva nepoznata borca i izvorni položaj."
+    }
+  },
   "secanj-spomenik-palim-borcima-za-oslobodjenje-od-o": {
     "proveraLokacije": {
       "datum": "2026-10-20",
@@ -474,12 +644,30 @@
       "napomena": "U ataru naselja; spomenik Žiki Bukaceli. Prethodna približna tačka pripadala je drugom naselju."
     }
   },
+  "siljkovaca-zajednicka-grobnica-zrtava-fasistickog": {
+    "proveraOpstanka": {
+      "datum": "2026-10-20",
+      "prethodniId": "siljkovaca-zajednicka-grobnica-zrtava-fasistickog",
+      "ishod": "povučena nepotvrđena tačka",
+      "razlog": "Wiki izričito ne potvrđuje da je objekat kod škole grobnica iz popisa; tačka ne sme predstavljati potvrđen spomenik.; Wiki izričito ne potvrđuje da je objekat kod škole grobnica iz popisa; tačka ne sme predstavljati potvrđen spomenik.",
+      "izvestaj": "data/provere/odluke.json#spomenicinob-detaljno-3665-4103-2026-10-20"
+    }
+  },
   "smoljana-spomen-cesma-palim-borcima-i-zrtvama-fasi": {
     "proveraLokacije": {
       "datum": "2026-10-20",
       "izvor": "https://www.spomenicinob.info/bosanskipetrovac",
       "ishod": "provereno",
       "napomena": "Wiki deo-0212 razlikuje staru česmu pred školom od kosturnice iza škole; opis, fotografije i položaj iz Mapio određuju objekat. Uklonjena tačka centra sela oko 1,7 km dalje."
+    }
+  },
+  "stara-bila-spomen-park": {
+    "proveraOpstanka": {
+      "datum": "2026-10-20",
+      "prethodniId": "stara-bila-spomen-park",
+      "ishod": "potvrđeno uklonjen memorijal",
+      "razlog": "Isti memorijal Ranku Šipki uz most, pre 1965, uklonjen.; Uklonjena mala celina bez sadržaja za današnjeg putnika ide u arhivu.; Potvrđeno uklonjen memorijal; približna stara tačka ne vodi ka postojećem spomeniku.",
+      "izvestaj": "data/provere/odluke.json#spomenicinob-detaljno-4104-4324-2026-10-20"
     }
   },
   "suvaja-spomenik-na-mjestu-vojnog-skladista-i-strij": {
@@ -555,6 +743,23 @@
       "napomena": "ID6827 je ploča padlim planincima na domu, ne potvrda traženog spomenika završnim borbama. Ploča je uklonjena pri obnovi2022, ali ponovo zabeležena2024; ne označavati je uklonjenom danas i ne poistovećivati sa neimenovanim OSM kandidatom."
     }
   },
+  "velika-kladusa-bista-zuhdije-zalica": {
+    "proveraOpstanka": {
+      "datum": "2026-10-20",
+      "prethodniId": "velika-kladusa-bista-zuhdije-zalica",
+      "ishod": "potvrđen opstanak na drugom mestu",
+      "razlog": "RTVUSK i lokalni reporter2024 potvrđuju premeštanje uz zgradu, ne nestanak.; Potvrđen opstanak premeštene biste u2024; bez izmišljene tačke.",
+      "izvestaj": "data/provere/odluke.json#spomenicinob-detaljno-3665-4103-2026-10-20"
+    }
+  },
+  "vilica-gumno-spomenik-pobjedi-3-marta-1943-godine": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/",
+      "ishod": "bez potvrđene tačke",
+      "napomena": "Izvor daje istorijsku kartografsku oznaku, bez potvrde objekta i njegove današnje tačke.; Izvor daje istorijsku kartografsku oznaku, bez potvrde objekta i njegove današnje tačke."
+    }
+  },
   "vinkovci-spomenik-mirku-romcevicu": {
     "proveraOpstanka": {
       "datum": "2026-10-16",
@@ -572,12 +777,38 @@
       "napomena": "Kataloški zapis spojen sa postojećim markerom prema konkretnoj posveti, skulpturi i mikrolokaciji. Zadržana postojeća precizna tačka objekta; koordinate parkinga nisu korišćene."
     }
   },
+  "zabrdje-bista-nepoznate-osobe": {
+    "proveraOpstanka": {
+      "datum": "2026-10-20",
+      "prethodniId": "zabrdje-bista-nepoznate-osobe",
+      "ishod": "povučena nepotvrđena tačka",
+      "razlog": "Izvor ne identifikuje osobu ni položaj biste; približna tačka naselja nije potvrđena lokacija objekta.; Izvor ne identifikuje osobu ni položaj biste; približna tačka naselja nije potvrđena lokacija objekta.",
+      "izvestaj": "data/provere/odluke.json#spomenicinob-detaljno-3665-4103-2026-10-20"
+    }
+  },
   "zagreb-dubrava-muzej-v-zemaljske-konferencije": {
     "proveraLokacije": {
       "datum": "2026-10-18",
       "izvor": "https://min-kulture.gov.hr/izdvojeno/kulturna-bastina/hrvatsko-vijece-za-kulturna-dobra/biljeske-sa-sjednica-21998/21998",
       "ishod": "istorijska-adresa-potvrđena-muzej-prestao-s-radom",
       "napomena": "Kapucinska 20 je sadašnja adresa, a Bihaćka 20 stara; raniji izvor navodi Ulicu V zemaljske konferencije 20. Evidencija uklonjenih spomenika navodi prestanak rada muzeja; tačne koordinate zgrade nisu proverene."
+    }
+  },
+  "zuberin-spomenik-palim-borcima-i-zrtvama-fasistick": {
+    "proveraLokacije": {
+      "datum": "2026-10-21",
+      "izvor": "https://www.spomenicinob.info/nevesinje",
+      "ishod": "Tačka označena kao približna; nezavisna potvrda preciznog položaja nije pronađena.",
+      "napomena": "Wiki samo pretpostavlja da je vidljiva ruševina nekadašnja osnovna škola i da je susedni objekat spomenik. Katalog daje položaj kod osnovne škole, ali bez potvrde njene današnje tačke. Godina 1970 iz kataloga ostaje iako je Wiki ne navodi. Pretražene latinica i ćirilica; fotografija sa Facebook-a nije bila dostupna za pregled."
+    }
+  },
+  "zvornik-skulptura-narodnog-heroja-filipa-kljajica": {
+    "proveraOpstanka": {
+      "datum": "2026-10-20",
+      "prethodniId": "zvornik-skulptura-narodnog-heroja-filipa-kljajica",
+      "ishod": "povučena stara tačka",
+      "razlog": "Lokalni svedok i Wiki obilazak potvrđuju premeštanje 2023, tačna nova tačka statue nije izmišljena.; Stara tačka u Malom parku više nije mesto statue; novo odredište potvrđeno, precizna tačka nije.",
+      "izvestaj": "data/provere/odluke.json#spomenicinob-detaljno-4104-4324-2026-10-20"
     }
   }
 }

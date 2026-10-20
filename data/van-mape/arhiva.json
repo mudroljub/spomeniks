@@ -2642,7 +2642,13 @@
       "lng": 18.98505
     },
     "mesto": "Teočak-Krstac",
-    "naziv": "partizansko groblje",
+    "naziv": "Nekadašnje partizansko groblje",
+    "nazivEn": "Former Partisan Cemetery",
+    "opis": {
+      "sh": "Prvobitna grobnica iza opštine čuvala je posmrtne ostatke 80 boraca i 76 žrtava fašističkog terora; centralno obeležje izradio je Slobodan Lukić. Oštećena je devedesetih, poslednji ostaci obeležja uklonjeni su 2016, a zamenski memorijal podignut je 2006. na drugom mestu.",
+      "en": "The original collective grave behind the municipal building held 80 fighters and 76 victims of fascist terror; Slobodan Lukić designed its central memorial. It was damaged in the 1990s, its last memorial remains were removed in 2016, and a replacement was erected elsewhere in 2006."
+    },
+    "godina": "pre 1975",
     "autor": "Slobodan Lukić",
     "stanje": "uklonjen",
     "vrsta": "spomen-groblje",
@@ -2933,25 +2939,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "bijelo-brdo-spomen-cesma-prvoborcima-iz-bijelog-br",
-    "koordinate": {
-      "lat": 43.668686,
-      "lng": 19.443243
-    },
-    "priblizno": true,
-    "mesto": "Bijelo Brdo",
-    "naziv": "Spomen-česma prvoborcima Bijelog Brda i Štrpaca",
-    "nazivEn": "Memorial fountain to early Partisans from Bijelo Brdo and Štrpci",
-    "opis": {
-      "sh": "Posvećeno prvoborcima iz Bijelog Brda i Štrpaca.",
-      "en": "Dedicated to Prvoborci from Bijelo Brdo and Štrpci."
-    },
-    "godina": "1970",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "tomislavgrad-zajednicka-grobnica-75-palih-boraca",
     "koordinate": {
       "lat": 43.71678,
@@ -2975,10 +2962,13 @@
     "mesto": "Stara Bila",
     "naziv": "Spomenik palim borcima s područja Nove Bile",
     "nazivEn": "Monument to fallen fighters from the area of Nova Bila",
+    "opis": {
+      "sh": "Spomenik sa grobnicom palih partizana sa područja Nove Bile podignut je 27. jula 1950. kod doma. Uklonjen je, a ranija tačna lokacija nije potvrđena; nije dokazan identitet sa obližnjim memorijalom u Mošunju.",
+      "en": "This monument and collective grave for fallen Partisans from the Nova Bila area was erected at the community hall on 27 July 1950. It has been removed and its exact former site is unconfirmed; identity with the nearby Mošunj memorial has not been established."
+    },
     "godina": "1950",
-    "posveta": "palim borcima s područja Nove Bile",
     "stanje": "uklonjen",
-    "vrsta": "spomen-obelezje",
+    "vrsta": "groblje",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -2995,20 +2985,6 @@
     "autor": "Ivan Mitrović - Pajo",
     "stanje": "uklonjen",
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "stari-ugljevik-spomen-kosturnica",
-    "koordinate": {
-      "lat": 44.666576,
-      "lng": 19.008572
-    },
-    "mesto": "Stari Ugljevik",
-    "naziv": "Spomen-kosturnica",
-    "nazivEn": "Memorial ossuary",
-    "godina": "1955",
-    "stanje": "uklonjen",
-    "vrsta": "groblje",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -3064,6 +3040,10 @@
     "mesto": "Sviće",
     "naziv": "Spomen-česma sa reljefom",
     "nazivEn": "Memorial fountain with relief",
+    "opis": {
+      "sh": "Česma Vasilija Ćetkovića iz 1968. bila je posvećena palim borcima; reljef i zvezda ranije su nestali. Pri obnovi 2020–2023. uklonjeni su i preostali memorijalni elementi i dodata druga posveta, pa se ne vodi kao postojeće obeležje NOB.",
+      "en": "Vasilije Ćetković’s 1968 fountain commemorated fallen fighters; its relief and star had already disappeared. Renovation in 2020–2023 removed the remaining WWII memorial elements and added a different dedication, so it is not treated as a surviving WWII memorial."
+    },
     "godina": "1968",
     "autor": "Vasilije Ćetković",
     "stanje": "uklonjen",
@@ -3241,7 +3221,12 @@
     },
     "priblizno": true,
     "mesto": "Zenica",
-    "naziv": "Spomenik NOB",
+    "naziv": "Spomen-obeležje napadu na garnizon",
+    "nazivEn": "Garrison Attack Memorial",
+    "opis": {
+      "sh": "Obeležavalo je partizanski napad na garnizon 1943. Ploča iz 1955. kasnije je zamenjena, ali do 2012. od obeležja su ostali samo temelji; nije potvrđen njegov povratak.",
+      "en": "Commemorated the Partisan attack on the garrison in 1943. The 1955 plaque was later replaced, but only the memorial’s foundations remained by 2012; its return has not been confirmed."
+    },
     "godina": "1955",
     "stanje": "uklonjen",
     "vrsta": "spomen-obelezje",
@@ -6511,7 +6496,9 @@
     "naziv": "Bista Đure Pucara Starog",
     "nazivEn": "Bust of NH Đuro Pucar Stari",
     "godina": "posle 1968",
-    "posveta": "Đure Pucara Starog",
+    "posveta": [
+      "Q6590585"
+    ],
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -8279,17 +8266,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "cavas-spomenik-zrtvama-fasistickog-terora",
-    "mesto": "Čavaš",
-    "adresa": "Remnants at Tvrdoš monastery, Trebinje municipality",
-    "naziv": "Spomenik žrtvama fašističkog terora",
-    "nazivEn": "Monument to Victims of Fascist Terror",
-    "godina": "1956",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "previja-bista-antonija-ivica",
     "mesto": "Previja",
     "adresa": "Nikola Mačkić elementary school",
@@ -8307,6 +8283,11 @@
     "adresa": "Ul. Rade Jovanića",
     "naziv": "Spomenik palim borcima NOR-a",
     "nazivEn": "Monument to fallen fighters of the NOR",
+    "opis": {
+      "sh": "Spomenik borcima NOR-a podignut je 1980-1982. Na njegovom mestu kasnije je uređen memorijal ratu 1992-1995; nije potvrđeno da su prvobitne ploče ili posveta NOR-u sačuvane.",
+      "en": "The memorial to National Liberation War fighters was built in 1980-1982. A 1992-1995 war memorial later occupied the site; survival of the original plaques or WWII dedication has not been confirmed."
+    },
+    "godina": "1980-1982",
     "stanje": "uklonjen",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
@@ -8376,12 +8357,16 @@
     "adresa": "Trg Slobode 1",
     "naziv": "Statua Josipa Broza Tita",
     "nazivEn": "Statue of Josip Broz Tito",
+    "opis": {
+      "sh": "Statua [Josipa Broza Tita](Q9161), delo Antuna Augustinčića, ranije je bila uz Muzej Prve proleterske brigade u Rudom. Prodata je privatnom kolekcionaru u Srbiji; nije vraćena na prvobitno mesto.",
+      "en": "The statue of [Josip Broz Tito](Q9161), by Antun Augustinčić, formerly stood by the Museum of the 1st Proletarian Brigade in Rudo. It was sold to a private collector in Serbia and has not returned to its original site."
+    },
     "autor": "Antun Augustinčić",
     "posveta": [
       "Q9161"
     ],
     "stanje": "uklonjen",
-    "vrsta": "spomen-obelezje",
+    "vrsta": "statua",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -8696,9 +8681,12 @@
     "adresa": "Park of National Heroes",
     "naziv": "Bista Slaviše Vajnera Čiče",
     "nazivEn": "Bust of NH Slaviša Vajner Čiča",
+    "opis": {
+      "sh": "Bista Slaviše Vajnera Čiče iz 1979. nalazila se u Parku boraca Romanije. Uklonjena je i zamenjena reljefom na granitnom bloku; postojanje zamene ne potvrđuje povratak originalne biste.",
+      "en": "The 1979 bust formerly stood in the Romanija Fighters Park. It was removed and replaced by a relief on a granite block; the replacement does not establish the return of the original bust."
+    },
     "godina": "1979",
     "autor": "Kosta Angeli Radovani",
-    "posveta": "Slaviše Vajnera Čiče",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -8709,8 +8697,11 @@
     "adresa": "Park of National Heroes",
     "naziv": "Bista Pavla Goranina Ilije",
     "nazivEn": "Bust of NH Pavle Goranin Ilija",
+    "opis": {
+      "sh": "Bista Pavla Goranina Ilije iz 1979. nalazila se u Parku boraca Romanije. Uklonjena je i zamenjena reljefom na granitnom bloku; postojanje zamene ne potvrđuje povratak originalne biste.",
+      "en": "The 1979 bust formerly stood in the Romanija Fighters Park. It was removed and replaced by a relief on a granite block; the replacement does not establish the return of the original bust."
+    },
     "godina": "1979",
-    "posveta": "Pavla Goranina Ilije",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -8721,8 +8712,11 @@
     "adresa": "Park of National Heroes",
     "naziv": "Bista Pere Kosorića",
     "nazivEn": "Bust of NH Pero Kosorić",
+    "opis": {
+      "sh": "Bista Pere Kosorića iz 1979. nalazila se u Parku boraca Romanije. Uklonjena je i zamenjena reljefom na granitnom bloku; postojanje zamene ne potvrđuje povratak originalne biste.",
+      "en": "The 1979 bust formerly stood in the Romanija Fighters Park. It was removed and replaced by a relief on a granite block; the replacement does not establish the return of the original bust."
+    },
     "godina": "1979",
-    "posveta": "Pere Kosorića",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -8733,8 +8727,11 @@
     "adresa": "Park of National Heroes",
     "naziv": "Bista Gruje Novakovića",
     "nazivEn": "Bust of NH Grujo Novaković",
+    "opis": {
+      "sh": "Bista Gruje Novakovića iz 1979. nalazila se u Parku boraca Romanije. Uklonjena je i zamenjena reljefom na granitnom bloku; postojanje zamene ne potvrđuje povratak originalne biste.",
+      "en": "The 1979 bust formerly stood in the Romanija Fighters Park. It was removed and replaced by a relief on a granite block; the replacement does not establish the return of the original bust."
+    },
     "godina": "1979",
-    "posveta": "Gruje Novakovića",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -8745,8 +8742,11 @@
     "adresa": "Park of National Heroes",
     "naziv": "Bista Danila Đokića",
     "nazivEn": "Bust of NH Danilo Đokić",
+    "opis": {
+      "sh": "Bista Danila Đokića iz 1979. nalazila se u Parku boraca Romanije. Uklonjena je i zamenjena reljefom na granitnom bloku; postojanje zamene ne potvrđuje povratak originalne biste.",
+      "en": "The 1979 bust formerly stood in the Romanija Fighters Park. It was removed and replaced by a relief on a granite block; the replacement does not establish the return of the original bust."
+    },
     "godina": "1979",
-    "posveta": "Danila Đokića",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -8757,8 +8757,11 @@
     "adresa": "Park of National Heroes",
     "naziv": "Bista Mihajla Bjelakovića",
     "nazivEn": "Bust of NH Mihajlo Bjelaković",
+    "opis": {
+      "sh": "Bista Mihajla Bjelakovića iz 1979. nalazila se u Parku boraca Romanije. Uklonjena je i zamenjena reljefom na granitnom bloku; postojanje zamene ne potvrđuje povratak originalne biste.",
+      "en": "The 1979 bust formerly stood in the Romanija Fighters Park. It was removed and replaced by a relief on a granite block; the replacement does not establish the return of the original bust."
+    },
     "godina": "1979",
-    "posveta": "Mihajla Bjelakovića",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -8769,8 +8772,11 @@
     "adresa": "Park of National Heroes",
     "naziv": "Bista Marka Ećimovića",
     "nazivEn": "Bust of NH Marko Ećimović",
+    "opis": {
+      "sh": "Bista Marka Ećimovića iz 1979. nalazila se u Parku boraca Romanije. Uklonjena je i zamenjena reljefom na granitnom bloku; postojanje zamene ne potvrđuje povratak originalne biste.",
+      "en": "The 1979 bust formerly stood in the Romanija Fighters Park. It was removed and replaced by a relief on a granite block; the replacement does not establish the return of the original bust."
+    },
     "godina": "1979",
-    "posveta": "Marka Ećimovića",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -8781,8 +8787,11 @@
     "adresa": "Park of National Heroes",
     "naziv": "Bista Milana Šarca",
     "nazivEn": "Bust of NH Milan Šarac",
+    "opis": {
+      "sh": "Bista Milana Šarca iz 1979. nalazila se u Parku boraca Romanije. Uklonjena je i zamenjena reljefom na granitnom bloku; postojanje zamene ne potvrđuje povratak originalne biste.",
+      "en": "The 1979 bust formerly stood in the Romanija Fighters Park. It was removed and replaced by a relief on a granite block; the replacement does not establish the return of the original bust."
+    },
     "godina": "1979",
-    "posveta": "Milana Šarca",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -8793,8 +8802,11 @@
     "adresa": "Park of National Heroes",
     "naziv": "Bista Jove Jankovića",
     "nazivEn": "Bust of NH Jovo Janković",
+    "opis": {
+      "sh": "Bista Jove Jankovića iz 1979. nalazila se u Parku boraca Romanije. Uklonjena je i zamenjena reljefom na granitnom bloku; postojanje zamene ne potvrđuje povratak originalne biste.",
+      "en": "The 1979 bust formerly stood in the Romanija Fighters Park. It was removed and replaced by a relief on a granite block; the replacement does not establish the return of the original bust."
+    },
     "godina": "1979",
-    "posveta": "Jove Jankovića",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -8805,25 +8817,13 @@
     "adresa": "Park of National Heroes",
     "naziv": "Bista Milanka Vitomira",
     "nazivEn": "Bust of NH Milanko Vitomir",
+    "opis": {
+      "sh": "Bista Milanka Vitomira iz 1979. nalazila se u Parku boraca Romanije. Uklonjena je i zamenjena reljefom na granitnom bloku; postojanje zamene ne potvrđuje povratak originalne biste.",
+      "en": "The 1979 bust formerly stood in the Romanija Fighters Park. It was removed and replaced by a relief on a granite block; the replacement does not establish the return of the original bust."
+    },
     "godina": "1979",
-    "posveta": "Milanka Vitomira",
     "stanje": "uklonjen",
     "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "povelic-spomen-ploca-palim-borcima-i-zrtvama-fasis",
-    "mesto": "Povelič",
-    "adresa": "Elementary school",
-    "naziv": "Spomen-ploča NOB",
-    "nazivEn": "Memorial plaque",
-    "opis": {
-      "sh": "Posvećeno palim borcima i žrtvama fašističkog terora.",
-      "en": "Dedicated to fallen fighters and victims of fascist terror."
-    },
-    "godina": "1961",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -8859,65 +8859,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "sarajevo-bascarsija-spomen-ploca-bogdanu-zerajicu",
-    "mesto": "Sarajevo (Baščaršija)",
-    "adresa": "Obala Kulina Bana, corner of Careva ćuprija",
-    "naziv": "Spomen-ploča Bogdanu Žerajiću",
-    "nazivEn": "Plaque commemorating Bogdan Žerajić",
-    "godina": "1964",
-    "posveta": "Bogdanu Žerajiću",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "sarajevo-bascarsija-spomen-ploca-vasi-pelagicu",
-    "mesto": "Sarajevo (Baščaršija)",
-    "adresa": "Vladislava Skarića 5, Hotel Europe",
-    "naziv": "Spomen-ploča Vasi Pelagiću",
-    "nazivEn": "Plaque commemorating Vasa Pelagić",
-    "godina": "1988",
-    "autor": "Dušan Nikolić",
-    "posveta": "Vasi Pelagiću",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "sarajevo-bascarsija-spomen-ploca-boravku-danila-il",
-    "mesto": "Sarajevo (Baščaršija)",
-    "adresa": "Oprkanj 3",
-    "naziv": "Spomen-ploča boravku Danila Ilića",
-    "nazivEn": "Plaque to commemorate residence of Danilo Ilić",
-    "godina": "1964",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "sarajevo-bascarsija-spomen-ploca-sarajevskim-radni",
-    "mesto": "Sarajevo (Baščaršija)",
-    "adresa": "Obala Kulina Bana 1, Vijećnica",
-    "naziv": "Spomen-ploča sarajevskim radnicima ubijenim 1906. godine",
-    "nazivEn": "Plaque commemorating Sarajevo workers killed in 1906",
-    "godina": "1953",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "sarajevo-bascarsija-spomen-ploca-gavrilu-principu",
-    "mesto": "Sarajevo (Baščaršija)",
-    "adresa": "Latin Bridge",
-    "naziv": "Spomen-ploča Gavrilu Principu",
-    "nazivEn": "Plaque to commemorate Gavrilo Princip",
-    "godina": "1945",
-    "posveta": "Gavrilu Principu",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "stolac-spomen-ploca-x-hercegovackoj-brigadi",
     "mesto": "Stolac",
     "adresa": "Trudbenik building firm (former), Ul. Ruđera Boškovića",
@@ -8927,21 +8868,6 @@
     "posveta": [
       "Q137842"
     ],
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "stolac-spomen-ploca-formiranju-prvog-sindikata-193",
-    "mesto": "Stolac",
-    "adresa": "Building of tobacco merchants' association (former)",
-    "naziv": "Spomen-ploča formiranju prvog sindikata",
-    "nazivEn": "Plaque marking formation of the first union",
-    "opis": {
-      "sh": "Obeležava formiranje prvog sindikata 1934.",
-      "en": "Commemorates formation of the first union in 1934."
-    },
-    "godina": "1955",
     "stanje": "uklonjen",
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina"
@@ -9094,9 +9020,12 @@
     "adresa": "Gimnazija Marka Marulića",
     "naziv": "Bista Boriše Kovačevića",
     "nazivEn": "Bust of NH Boriša Kovačević",
+    "opis": {
+      "sh": "Novu bistu Boriše Kovačevića izradio je Spaho Čefo 1987. za prostor kod gimnazije; starija bista iz 1959. već je bila preneta u gradski park. Obe biste uklonjene su pre 1997.",
+      "en": "Spaho Čefo made a new bust of Boriša Kovačević for the grammar school in 1987; the earlier 1959 bust had already been moved to the town park. Both busts were removed before 1997."
+    },
     "godina": "1987",
     "autor": "Spaho Čefo",
-    "posveta": "Boriše Kovačevića",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -9175,8 +9104,11 @@
     "adresa": "Town park",
     "naziv": "Bista Boriše Kovačevića",
     "nazivEn": "Bust of NH Boriša Kovačević",
+    "opis": {
+      "sh": "Bista Boriše Kovačevića iz 1959. prvobitno je stajala kod gimnazije, a 1985-1987. preneta je u gradski park. Nova bista Spaha Ćefe postavljena je kod gimnazije 1987; obe su uklonjene pre 1997.",
+      "en": "The 1959 bust of Boriša Kovačević originally stood at the grammar school and was moved to the town park in 1985-1987. Spaho Čefo’s new bust was erected at the school in 1987; both were removed before 1997."
+    },
     "godina": "1959",
-    "posveta": "Boriše Kovačevića",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -9323,21 +9255,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "turbe-spomen-ploca-osnivanju-mjesne-organizacije-k",
-    "mesto": "Turbe",
-    "adresa": "Former police station",
-    "naziv": "Spomen-ploča osnivanju mjesne organizacije KPJ",
-    "nazivEn": "Plaque marking establishment of local KPJ branch",
-    "opis": {
-      "sh": "Obeležava osnivanje mesne organizacije KPJ 1939.",
-      "en": "Commemorates establishment of local KPJ branch in 1939."
-    },
-    "godina": "1950",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "travnik-spomen-grobnica-prvoboraca",
     "mesto": "Travnik",
     "adresa": "Park behind Hadži Ali-begova mosque",
@@ -9354,8 +9271,11 @@
     "adresa": "Town park",
     "naziv": "Bista Vlade Šegrta",
     "nazivEn": "Bust of NH Vlado Šegrt",
+    "opis": {
+      "sh": "Bista Vlade Šegrta prvi put je postavljena 12. oktobra 2016. u gradskom parku i ukradena u noći pred 16. oktobar. Izvor beleži da je nedostajala i u septembru 2021; njen povratak nije potvrđen.",
+      "en": "Vlado Šegrt’s bust was first installed in the town park on 12 October 2016 and stolen before 16 October. The source records it as still missing in September 2021; its return has not been confirmed."
+    },
     "godina": "2016",
-    "posveta": "Vlade Šegrta",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -9401,21 +9321,6 @@
     "posveta": "Mustafe Muje Zubčevića",
     "stanje": "uklonjen",
     "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "trebinje-spomen-ploca-osnivanju-prvog-organa-kpj-z",
-    "mesto": "Trebinje",
-    "adresa": "Municipal assembly building",
-    "naziv": "Spomen-ploča osnivanju prvog organa KPJ za Trebinje",
-    "nazivEn": "Plaque marking establishment of first KPJ body for Trebinje",
-    "opis": {
-      "sh": "Obeležava osnivanje prvog organa KPJ za Trebinje 1919.",
-      "en": "Commemorates establishment of first KPJ body for Trebinje in 1919."
-    },
-    "godina": "1949",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -9513,17 +9418,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "batva-spomen-ploca-mjestu-sastanaka-kpj-1929-1932",
-    "mesto": "Batva",
-    "adresa": "Ul. Ivana Markovića Irca",
-    "naziv": "Spomen-ploča mjestu sastanaka KPJ 1929-1932",
-    "nazivEn": "Plaque to commemorate KPJ meeting place, 1929-1932",
-    "godina": "1949",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "kreka-spomen-ploca-na-mjestu-hapsenja-narodnog-her",
     "mesto": "Kreka",
     "adresa": "Ul. Mitra Trifunovića Uče",
@@ -9550,19 +9444,6 @@
     "godina": "1987",
     "autor": "Pero Jelisić",
     "posveta": "Voje Ivanovića Crnogorca",
-    "stanje": "uklonjen",
-    "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "si-selo-bista-maksima-gorkog",
-    "mesto": "Ši Selo",
-    "adresa": "Philosophy Faculty, Dr. Tihomila Markovića 1",
-    "naziv": "Bista Maksima Gorkog",
-    "nazivEn": "Bust of Maxim Gorky",
-    "godina": "1967",
-    "autor": "Frano Kršinić",
-    "posveta": "Maksima Gorkog",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -9700,21 +9581,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "tuzla-spomen-ploca-radnickim-strajkovima-1938-i-19",
-    "mesto": "Tuzla",
-    "adresa": "Trg Stara Tržnica",
-    "naziv": "Spomen-ploča radničkim štrajkovima",
-    "nazivEn": "Workers’ strikes plaque",
-    "opis": {
-      "sh": "Obeležava radničke štrajkove 1938. i 1939.",
-      "en": "Commemorates workers’ strikes in 1938 and 1939."
-    },
-    "godina": "pre 1960",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "tuzla-spomen-ploca-sjedistu-oblasnog-komiteta-kpj",
     "mesto": "Tuzla",
     "adresa": "Dom Zdravlje (former)",
@@ -9724,17 +9590,6 @@
       "sh": "Obeležava sedište oblasnog komiteta KPJ za istočnu Bosnu 1943-1944. godine.",
       "en": "Marks the headquarters of KPJ regional committee for Eastern Bosnia in 1943-44."
     },
-    "godina": "1949",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "tuzla-spomen-ploca-sjedistu-kpj-za-tuzlu-1919-1921",
-    "mesto": "Tuzla",
-    "adresa": "Patriotska Liga, close to restoran 'Limenka'",
-    "naziv": "Spomen-ploča sjedištu KPJ za Tuzlu 1919-1921",
-    "nazivEn": "Plaque commemorating KPJ headquarters for Tuzla, 1919-21",
     "godina": "1949",
     "stanje": "uklonjen",
     "vrsta": "spomen-ploca",
@@ -9789,18 +9644,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "velika-kladusa-bista-zuhdije-zalica",
-    "mesto": "Velika Kladuša",
-    "adresa": "Outside cultural centre, Ul. Ibrahima Mržljaka",
-    "naziv": "Bista Zuhdije Žalića",
-    "nazivEn": "Bust of Zuhdija Žalić",
-    "godina": "1972",
-    "posveta": "Zuhdije Žalića",
-    "stanje": "uklonjen",
-    "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "barake-spomenik-partizanskom-uciteljskom-kursu",
     "mesto": "Barake",
     "adresa": "Courtyard of Sead Ćehić elementary school",
@@ -9851,8 +9694,8 @@
     "naziv": "Spomen-ploča prvom oslobođenju Višegrada",
     "nazivEn": "Plaque commemorating the first Liberation of Višegrad",
     "opis": {
-      "sh": "Obeležava prvo oslobođenje Višegrada 1943.",
-      "en": "Commemorates first Liberation of Višegrad in 1943."
+      "sh": "Obeležava prvo oslobođenje Višegrada 1943. Katalog navodi 1956, dok je na ploči bila 1957; nakon rušenja gimnazije polomljena ploča ležala je oko 2010. u blizini starog mosta.",
+      "en": "Commemorates the first liberation of Višegrad in 1943. The catalogue gives 1956 while the plaque bore 1957; after the grammar school was demolished, the broken plaque lay near the old bridge around 2010."
     },
     "godina": "1956",
     "stanje": "uklonjen",
@@ -9862,7 +9705,7 @@
   {
     "id": "visegrad-bista-hamida-besirevica",
     "mesto": "Višegrad",
-    "adresa": "Park in front of Dom Kulture",
+    "adresa": "Nekada u parku ispred Doma kulture; bista više nije na tom mestu.",
     "naziv": "Bista Hamida Beširevića",
     "nazivEn": "Bust of NH Hamid Beširević",
     "godina": "1961",
@@ -9875,7 +9718,7 @@
   {
     "id": "visegrad-bista-vjekoslava-ivacica",
     "mesto": "Višegrad",
-    "adresa": "Park in front of Dom Kulture",
+    "adresa": "Nekada u parku ispred Doma kulture; bista više nije na tom mestu.",
     "naziv": "Bista Vjekoslava Ivačića",
     "nazivEn": "Bust of Vjekoslav Ivačić",
     "godina": "1966-1981",
@@ -9887,7 +9730,7 @@
   {
     "id": "visegrad-bista-gvozdena-milanovica",
     "mesto": "Višegrad",
-    "adresa": "Park in front of Dom Kulture",
+    "adresa": "Nekada u parku ispred Doma kulture; bista više nije na tom mestu.",
     "naziv": "Bista Gvozdena Milanovića",
     "nazivEn": "Bust of Gvozden Milanović",
     "godina": "1972",
@@ -9968,9 +9811,12 @@
     "adresa": "Ulica Mule Hodžića",
     "naziv": "Bista Mehmeda Skopljaka",
     "nazivEn": "Bust of Mehmed Skopljak",
-    "godina": "1975",
+    "opis": {
+      "sh": "Bistu je Ranko Milanović izradio 1970, a svečano je otkrivena 1975. Bista je nestala; preostalo postolje ne potvrđuje njen opstanak.",
+      "en": "Ranko Milanović created the bust in 1970, and it was ceremonially unveiled in 1975. The bust is missing; its surviving pedestal does not establish its survival."
+    },
+    "godina": "1970",
     "autor": "Ranko Milanović",
-    "posveta": "Mehmeda Skopljaka",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -9994,9 +9840,12 @@
     "adresa": "KTK leather processing factory",
     "naziv": "Bista Fehima Zečevića",
     "nazivEn": "Bust of Fehim Zečević",
-    "godina": "1975",
+    "opis": {
+      "sh": "Bistu je Ranko Milanović izradio 1970, a svečano je otkrivena 1975. Bista je nestala; preostalo postolje ne potvrđuje njen opstanak.",
+      "en": "Ranko Milanović created the bust in 1970, and it was ceremonially unveiled in 1975. The bust is missing; its surviving pedestal does not establish its survival."
+    },
+    "godina": "1970",
     "autor": "Ranko Milanović",
-    "posveta": "Fehima Zečevića",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -10085,8 +9934,12 @@
     "adresa": "Hazim Šabanović mixed high school; Stored in school basement",
     "naziv": "Bista Janka Balorde",
     "nazivEn": "Bust of Janko Balorda",
+    "opis": {
+      "sh": "Gipsani primerak biste Janka Balorde, delo Ranka Milanovića, poklonjen je školi „Hazim Šabanović“ između 1981. i 1984. i zabeležen u školskom podrumu 2018. To je zaseban primerak od uništene biste iz gradskog parka; nije potvrđeno javno izlaganje.",
+      "en": "This plaster bust of Janko Balorda by Ranko Milanović was donated to Hazim Šabanović School between 1981 and 1984 and recorded in its basement in 2018. It is separate from the destroyed town-park bust; public display has not been confirmed."
+    },
+    "godina": "1981-1984",
     "autor": "Ranko Milanović",
-    "posveta": "Janka Balorde",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -10107,8 +9960,12 @@
     "id": "visoko-spomen-ploca-na-kuci-u-kojoj-je-odrastao-og",
     "mesto": "Visoko",
     "adresa": "Ul. Braće Zečević; Stored in basement of local museum",
-    "naziv": "Spomen-ploča na kući u kojoj je odrastao Ognjen Prica",
-    "nazivEn": "Plaque on the childhood home of Ognjen Prica",
+    "naziv": "Spomen-ploča Ognjenu Prici",
+    "nazivEn": "Ognjen Prica Memorial Plaque",
+    "opis": {
+      "sh": "Ploča Ognjenu Prici iz 1953. bila je na kući u kojoj je odrastao. Posle rušenja kuće sedamdesetih čuvana je u podrumu Zavičajnog muzeja; nije potvrđeno ponovno postavljanje.",
+      "en": "The 1953 plaque to Ognjen Prica stood on his childhood home. After the house was demolished in the 1970s, it was stored in the local museum’s basement; reinstallation has not been confirmed."
+    },
     "godina": "1953",
     "stanje": "uklonjen",
     "vrsta": "spomen-ploca",
@@ -10199,6 +10056,10 @@
     "adresa": "Porodice ef. Ramić elementary school",
     "naziv": "Bista Ive Lole Ribara",
     "nazivEn": "Bust of Ivo Lola Ribar",
+    "opis": {
+      "sh": "Bista iz 1978. više ne postoji na školskom mestu. Njeno postolje kasnije je upotrebljeno za spomenik prvoj električnoj sijalici u BiH; to nije povratak biste.",
+      "en": "The 1978 bust no longer stands at the school. Its pedestal was later reused for a monument to Bosnia and Herzegovina’s first electric light bulb; this does not indicate the bust’s return."
+    },
     "godina": "1978",
     "posveta": [
       "Q1265884"
@@ -10213,20 +10074,13 @@
     "adresa": "Porodice ef. Ramić elementary school",
     "naziv": "Bista Jurice Ribara",
     "nazivEn": "Bust of Jurica Ribar",
+    "opis": {
+      "sh": "Bista iz 1978. više ne postoji na školskom mestu. Njeno postolje kasnije je upotrebljeno za spomenik prvoj električnoj sijalici u BiH; to nije povratak biste.",
+      "en": "The 1978 bust no longer stands at the school. Its pedestal was later reused for a monument to Bosnia and Herzegovina’s first electric light bulb; this does not indicate the bust’s return."
+    },
     "godina": "1978",
-    "posveta": "Jurice Ribara",
     "stanje": "uklonjen",
     "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "vogosca-zajednicka-grobnica-palih-boraca-i-ilegala",
-    "mesto": "Vogošća",
-    "naziv": "Zajednička grobnica palih boraca i ilegalaca",
-    "nazivEn": "Collective grave of fallen fighters and illegal workers",
-    "godina": "1954",
-    "stanje": "uklonjen",
-    "vrsta": "groblje",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -10381,51 +10235,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "zenica-spomen-ploca-sastanku-radnickog-savjeta-195",
-    "mesto": "Zenica",
-    "adresa": "Borisa Kidriča 44 (former)",
-    "naziv": "Spomen-ploča sastanku radničkog savjeta",
-    "nazivEn": "Plaque marking meeting of workers' council",
-    "opis": {
-      "sh": "Obeležava sastanak radničkog saveta 1950.",
-      "en": "Commemorates meeting of workers' council in 1950."
-    },
-    "godina": "1960",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "zenica-spomen-ploca-sukobu-radnika-i-policije-1919",
-    "mesto": "Zenica",
-    "adresa": "Crkvice, 'Brioni' restaurant (former)",
-    "naziv": "Spomen-ploča sukobu radnika i policije",
-    "nazivEn": "Plaque commemorating conflict between workers and police",
-    "opis": {
-      "sh": "Obeležava sukob radnika i policije 1919.",
-      "en": "Commemorates conflict between workers and police in 1919."
-    },
-    "godina": "1959",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "zenica-spomen-ploca-prvom-sastanku-radnickog-savje",
-    "mesto": "Zenica",
-    "adresa": "Hotel Kasina, Ul. Nikole Tesle (former)",
-    "naziv": "Spomen-ploča prvom sastanku radničkog savjeta željezara",
-    "nazivEn": "Plaque commemorating first meeting of ironworkers' Workers' Council",
-    "opis": {
-      "sh": "Obeležava prvi sastanak radničkog saveta radnika železare 1950.",
-      "en": "Commemorates first meeting of ironworkers' Workers' Council in 1950."
-    },
-    "godina": "1970",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "zenica-spomen-ploca-mostu-vii-krajiske-brigade",
     "mesto": "Zenica",
     "adresa": "Drvena ćuprija",
@@ -10505,7 +10314,11 @@
     "adresa": "First Elementary School",
     "naziv": "Bista Vladimira Nazora",
     "nazivEn": "Bust of Vladimir Nazor",
-    "godina": "1962",
+    "opis": {
+      "sh": "Bista [Vladimira Nazora](Q380529), rad Franje Ledera iz 1950, postavljena je u školi 1962. Pre 1985. zamenjena je drugim primerkom, dok je original prema pregledu iz 2018. bio u depou; nije potvrđeno javno izlaganje.",
+      "en": "Franjo Leder’s 1950 bust of [Vladimir Nazor](Q380529) was installed at the school in 1962. It was replaced with another bust before 1985, while the original was recorded in storage in 2018; public display is unconfirmed."
+    },
+    "godina": "1950",
     "autor": "Franjo Leder",
     "posveta": [
       "Q380529"
@@ -10520,6 +10333,11 @@
     "adresa": "First elementary school; Outside school",
     "naziv": "Bista Vladimira Nazora",
     "nazivEn": "Bust of Vladimir Nazor",
+    "opis": {
+      "sh": "Zamenski primerak biste [Vladimira Nazora](Q380529) postavljen je ispred škole pre 1985, umesto ranije Lederove biste. Bista je kasnije nestala, dok je postolje ostalo; autor zamenskog primerka nije potvrđen.",
+      "en": "This replacement bust of [Vladimir Nazor](Q380529) was installed outside the school before 1985, succeeding Leder’s earlier bust. It later disappeared while the pedestal remained; the replacement’s sculptor is unconfirmed."
+    },
+    "godina": "pre 1985",
     "posveta": [
       "Q380529"
     ],
@@ -12473,17 +12291,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "srbac-spomenik-palim-borcima-i-zrtvama-fasistickog",
-    "mesto": "Srbac",
-    "adresa": "Town park",
-    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
-    "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
-    "godina": "1957",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "srebrenica-spomen-ploca-zrtvama-fasistickog-terora",
     "mesto": "Srebrenica",
     "adresa": "Orthodox church",
@@ -12502,21 +12309,6 @@
     "godina": "1977",
     "stanje": "uklonjen",
     "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "solana-spomenik-posjeti-josipa-broza-tita-1946-god",
-    "mesto": "Solana",
-    "adresa": "Solana Tuzla",
-    "naziv": "Spomenik posjeti Josipa Broza Tita 1946. godine",
-    "nazivEn": "Monument to commemorate visit by Josip Broz Tito in 1946",
-    "godina": "1985",
-    "autor": "Pero Jelisić",
-    "posveta": [
-      "Q9161"
-    ],
-    "stanje": "uklonjen",
-    "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -12575,9 +12367,12 @@
     "adresa": "Town park",
     "naziv": "Bista Mehmeda Džudže",
     "nazivEn": "Bust of Mehmed Džudžo",
+    "opis": {
+      "sh": "Bista Mehmeda Džudže, delo Ranka Milanovića iz 1975, uklonjena je 1992–1993. i vraćena u gradski park 2002. Potom je ukradena i uništena između 2007. i 2009.",
+      "en": "This 1975 bust by Ranko Milanović was removed in 1992–1993 and returned to the town park in 2002. It was subsequently stolen and destroyed between 2007 and 2009."
+    },
     "godina": "1975",
     "autor": "Ranko Milanović",
-    "posveta": "Mehmeda Džudže",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -12588,9 +12383,12 @@
     "adresa": "Town park",
     "naziv": "Bista Janka Balorde",
     "nazivEn": "Bust of Janko Balorda",
+    "opis": {
+      "sh": "Bista Janka Balorde, delo Ranka Milanovića iz 1975, uklonjena je 1992–1993. i vraćena u gradski park 2002. Potom je ukradena i uništena između 2007. i 2009.",
+      "en": "This 1975 bust by Ranko Milanović was removed in 1992–1993 and returned to the town park in 2002. It was subsequently stolen and destroyed between 2007 and 2009."
+    },
     "godina": "1975",
     "autor": "Ranko Milanović",
-    "posveta": "Janka Balorde",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -12601,9 +12399,12 @@
     "adresa": "Town park",
     "naziv": "Bista Mehe Patka",
     "nazivEn": "Bust of Meho Patak",
+    "opis": {
+      "sh": "Bista Mehe Patka, delo Ranka Milanovića iz 1975, uklonjena je 1992–1993. i vraćena u gradski park 2002. Potom je ukradena i uništena između 2007. i 2009.",
+      "en": "This 1975 bust by Ranko Milanović was removed in 1992–1993 and returned to the town park in 2002. It was subsequently stolen and destroyed between 2007 and 2009."
+    },
     "godina": "1975",
     "autor": "Ranko Milanović",
-    "posveta": "Mehe Patka",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -12626,19 +12427,13 @@
     "adresa": "Beside town hall",
     "naziv": "Spomenik neznanom junaku",
     "nazivEn": "Monument to the Unknown Hero",
+    "opis": {
+      "sh": "Statua neznanog partizana Ive Despić-Simonović stajala je na postolju ranijeg spomenika kralju Aleksandru, čiji je autor bio Lojze Dolinar. Najverovatnije je nastala početkom pedesetih i slučajno je uništena pri uklanjanju između maja 1963. i juna 1967.",
+      "en": "Iva Despić-Simonović’s statue of an unknown Partisan stood on the pedestal of an earlier King Alexander monument by Lojze Dolinar. Probably made in the early 1950s, it was accidentally destroyed during removal between May 1963 and June 1967."
+    },
     "autor": "Iva Despić-Simonović",
     "stanje": "uklonjen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "stara-bila-kosturnica-palih-boraca",
-    "mesto": "Stara Bila",
-    "naziv": "Kosturnica palih boraca",
-    "nazivEn": "Ossuary of fallen fighters",
-    "godina": "1950",
-    "stanje": "uklonjen",
-    "vrsta": "groblje",
+    "vrsta": "statua",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -12984,19 +12779,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "crkveno-spomenik-palim-borcima-nob",
-    "koordinate": {
-      "lat": 44.454527,
-      "lng": 16.753267
-    },
-    "mesto": "Crkveno",
-    "naziv": "Spomenik palim borcima NOB",
-    "nazivEn": "Monument to fallen fighters of the NOB",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "novi-travnik-spomenik-narodnom-heroju-djuri-pucaru",
     "mesto": "Novi Travnik",
     "naziv": "Spomenik narodnom heroju Đuri Pucaru Starom",
@@ -13009,5 +12791,55 @@
     "stanje": "uklonjen",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "centar-bista-dzemala-mandzica",
+    "mesto": "Centar",
+    "adresa": "Pazar elementary school, Pazar 1",
+    "naziv": "Bista Džemala Mandžića",
+    "nazivEn": "Bust of Džemal Mandžić",
+    "opis": {
+      "sh": "Bista Džemala Mandžića, delo Aleksandra Zarina iz 1988, nestala je ispred Osnovne škole „Pazar“. Preostalo postolje ne potvrđuje da je bista sačuvana.",
+      "en": "Aleksandar Zarin’s 1988 bust of Džemal Mandžić is missing from Pazar Elementary School. The surviving pedestal does not establish the survival of the bust."
+    },
+    "godina": "1988",
+    "autor": "Aleksandar Zarin",
+    "stanje": "uklonjen",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "stara-bila-spomen-park",
+    "koordinate": {
+      "lat": 44.173694,
+      "lng": 17.757611
+    },
+    "priblizno": true,
+    "mesto": "Stara Bila",
+    "adresa": "Nekada uz most; parcela kasnije zauzeta gradnjom hotela",
+    "naziv": "Spomen-kompleks Ranka Šipke",
+    "nazivEn": "Ranko Šipka Memorial Complex",
+    "opis": {
+      "sh": "Memorijal sa kosturnicom i bistom Ranka Šipke postojao je uz most pre 1965. Uklonjen je; na nekadašnjoj parceli od 2011. građen je hotel, a bista je već pre 1997. bila uništena.",
+      "en": "A memorial with an ossuary and Ranko Šipka’s bust stood beside the bridge before 1965. It has been removed; hotel construction began on the former plot in 2011, and the bust had already been destroyed before 1997."
+    },
+    "godina": "pre 1965",
+    "stanje": "uklonjen",
+    "vrsta": "spomen-park",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "seget-donji-spomen-grobnica-joze-lozovine-mosora",
+    "mesto": "Seget Donji",
+    "naziv": "Spomen-grobnica Joze Lozovine Mosora",
+    "opis": {
+      "sh": "Grobnica sa bistom Joze Lozovine Mosora, organizatora ustanka na trogirskom području. Minirana je 1991. godine.",
+      "en": "Tomb with a bust of Jozo Lozovina Mosor, organiser of the uprising in the Trogir area. It was blown up in 1991."
+    },
+    "godina": "1956",
+    "autor": "Ivan Martinić & Tonči Martinić",
+    "stanje": "uklonjen",
+    "vrsta": "groblje",
+    "drzava": "Croatia"
   }
 ]

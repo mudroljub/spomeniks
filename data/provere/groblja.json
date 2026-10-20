@@ -26467,7 +26467,7 @@
           }
         ],
         "ishod": "ostaje-za-razresavanje",
-        "radniId": "vares-kosturnica-palih-boraca",
+        "radniId": "vares-spomen-kosturnica",
         "prioritet": "razresiti-zamenu-ili-preseljenje",
         "nedostaje": "Povezati prethodnika i danasnji objekat; potvrditi novu lokaciju i razlike u izgledu/godini."
       },
@@ -26853,7 +26853,7 @@
         "datumMapiranjaUKatalogu": "",
         "napomenaDatuma": "Datum mapiranja je katalogizacija, ne datum fotografije ni nova potvrda opstanka.",
         "ishod": "ostaje-za-razresavanje",
-        "radniId": "stara-bila-kosturnica-palih-boraca",
+        "radniId": "stara-bila-spomenik-palim-borcima-s-podrucja-nove",
         "prioritet": "istorijska-lokacija-ili-obnova",
         "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
       },
@@ -26953,7 +26953,7 @@
           }
         ],
         "ishod": "ostaje-za-razresavanje",
-        "radniId": "vogosca-zajednicka-grobnica-palih-boraca-i-ilegala",
+        "radniId": "vogosca",
         "prioritet": "istorijska-lokacija-ili-obnova",
         "nedostaje": "Tacna istorijska lokacija ili kasniji dokaz obnove/preseljenja; oznaka No nema datum i nije nova potvrda rusenja."
       },
@@ -26994,7 +26994,7 @@
           }
         ],
         "ishod": "ostaje-za-razresavanje",
-        "radniId": "zavidovici-partizanska-spomen-kosturnica",
+        "radniId": "zavidovici",
         "prioritet": "razresiti-zamenu-ili-preseljenje",
         "nedostaje": "Povezati prethodnika i danasnji objekat; potvrditi novu lokaciju i razlike u izgledu/godini."
       },
@@ -27065,7 +27065,7 @@
           }
         ],
         "ishod": "ostaje-za-razresavanje",
-        "radniId": "zavidovici-spomen-kosturnica",
+        "radniId": "zavidovici",
         "prioritet": "razresiti-identitet-pre-lociranja",
         "nedostaje": "Blizak glavni marker nije dokaz istog objekta: razlikovati celinu, skulpturu, raniju i novu verziju.",
         "bliskiUnos": {
@@ -27101,10 +27101,12 @@
         },
         "datumMapiranjaUKatalogu": "",
         "napomenaDatuma": "Datum mapiranja je katalogizacija, ne datum fotografije ni nova potvrda opstanka.",
-        "ishod": "ostaje-za-razresavanje",
-        "radniId": "jelina-grob-radnice-omladinske-radne-brigade-jelen",
-        "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
-        "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
+        "ishod": "van-obuhvata",
+        "radniIdPre": "jelina-grob-radnice-omladinske-radne-brigade-jelen",
+        "ishodPre": "ostaje-za-razresavanje",
+        "odluka": "data/provere/odluke.json#spomenicinob-detaljno-4104-4324-2026-10-20",
+        "prioritetPre": "postoji-prema-izvoru-traziti-lokaciju",
+        "nedostajePre": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
       },
       {
         "mesto": "Bijele Vode",
@@ -27155,7 +27157,7 @@
         "datumMapiranjaUKatalogu": "",
         "napomenaDatuma": "Datum mapiranja je katalogizacija, ne datum fotografije ni nova potvrda opstanka.",
         "ishod": "ostaje-za-razresavanje",
-        "radniId": "mahnjaca-kosturnica-sa-spomen-plocom-na-mjestu-smr",
+        "radniId": "zepce",
         "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
         "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
       },
