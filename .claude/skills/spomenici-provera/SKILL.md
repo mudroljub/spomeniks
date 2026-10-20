@@ -66,7 +66,10 @@ Prvo automatski testovi, u tri grupe u `testovi/`: `unit` (funkcije iz `utils/`,
 ```
 node testovi/pokreni.mjs        # unit i integracija, par sekundi
 node testovi/pokreni.mjs e2e    # ili: sve
+node testovi/pokreni.mjs e2e pretraga   # samo testovi čiji naziv sadrži „pretraga“
 ```
+
+Posle male izmene pokreću se samo testovi za izmenjeni deo, a svi jednom, na kraju većeg posla.
 
 Nova funkcija u `utils/` dobija unit test, nova veza podataka i koda integracioni, a nov tok aplikacije e2e test u `testovi/e2e/aplikacija.test.mjs`. Moduli koji pri učitavanju čitaju `localStorage` ili `navigator` uvoze prvo `testovi/okruzenje.mjs`. Zajednički kod za upravljanje pregledačem je u `alati/pregledac.mjs`.
 

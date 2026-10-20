@@ -1,10 +1,11 @@
-// node testovi/pokreni.mjs [unit|integracija|e2e|sve] (iz korena repozitorijuma)
-// bez argumenta: unit i integracija, za par sekundi; e2e pokreće Chrome bez prozora i traje oko pola minuta
+// node testovi/pokreni.mjs [unit|integracija|e2e|sve] [deo naziva testa] (iz korena repozitorijuma)
+// bez argumenta: unit i integracija, za par sekundi; e2e pokreće Chrome bez prozora i traje nekoliko minuta,
+// pa se posle male izmene pokreću samo testovi čiji naziv sadrži dati deo, npr. `e2e pretraga`
 import {spawnSync} from 'node:child_process'
 import {readdirSync} from 'node:fs'
 
 const grupe = {unit: 'testovi/unit', integracija: 'testovi/integracija', e2e: 'testovi/e2e'}
-const izbor = process.argv[2] ?? 'brzo'
+const [izbor = 'brzo', deoNaziva] = process.argv.slice(2)
 const izabrane = {brzo: ['unit', 'integracija'], sve: Object.keys(grupe)}[izbor] ?? [izbor]
 const nepoznate = izabrane.filter(g => !grupe[g])
 if (nepoznate.length) {
@@ -21,8 +22,11 @@ for (const grupa of izabrane) {
   console.log(`\n== ${grupa}`)
   // svaki e2e fajl pokrece svoj Chrome; istovremeno se otimaju o procesor i testovi sa rokom isticu
   const redom = grupa === 'e2e' ? ['--test-concurrency=1'] : []
-  if (fajlovi.some(f => f.endsWith('.test.mjs'))) uspeh = pokreni(process.execPath, ['--test', ...redom, `${folder}/*.test.mjs`]) && uspeh
+  const izborNode = deoNaziva ? [`--test-name-pattern=${deoNaziva.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`] : []
+  const izborPython = deoNaziva ? ['-k', deoNaziva] : []
+  if (fajlovi.some(f => f.endsWith('.test.mjs')))
+    uspeh = pokreni(process.execPath, ['--test', ...redom, ...izborNode, `${folder}/*.test.mjs`]) && uspeh
   if (fajlovi.some(f => /^test_.*\.py$/.test(f)))
-    uspeh = pokreni('python', ['-I', '-B', '-m', 'unittest', 'discover', '-s', folder, '-p', 'test_*.py']) && uspeh
+    uspeh = pokreni('python', ['-I', '-B', '-m', 'unittest', 'discover', '-s', folder, '-p', 'test_*.py', ...izborPython]) && uspeh
 }
 process.exit(uspeh ? 0 : 1)
