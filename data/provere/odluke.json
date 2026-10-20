@@ -13502,5 +13502,30 @@
         "adresa": "Town park"
       }
     }
+  },
+  {
+    "odluka": "joseva-kamenica-duplikati-2026-10-20",
+    "datum": "2026-10-20",
+    "ishod": "spojeno-2-uklonjena-2-duplikata",
+    "spajanja": [
+      {
+        "zadrzaniId": "kamenica-spomenik-zdravku-jovanovicu",
+        "uklonjeniId": [
+          "joseva-bista-zdravka-jovanovica"
+        ],
+        "godinaPreneta": "1966",
+        "izvorUklonjenog": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=80",
+        "dokaz": "Popovic-Zuma, PDF 80 (stampano 158): pod naslovom Kamenica, ne Joseva, bista Zdravka Jovanovica u parku osnovne skole koja nosi njegovo ime, 1966, vajar V. Jocic. OCR je naslov Joseva sa dna srednjeg stupca pripisao vrhu desnog. Fotografija skole i biste na Commons-u (Vladimir Pecikoza, 2017) je u kategoriji Kamenica (Valjevo)."
+      },
+      {
+        "zadrzaniId": "kamenica-spomen-grobnica",
+        "uklonjeniId": [
+          "joseva-zajednicka-grobnica-i-spomenik-borcima-nob"
+        ],
+        "godinaPreneta": "1959",
+        "izvorUklonjenog": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=80",
+        "dokaz": "Popovic-Zuma, PDF 80 (stampano 158): pod naslovom Kamenica, zajednicka grobnica i spomenik borcima NOB-a ispred zadruznog doma, 1959; u Kamenici je jedna spomen-grobnica (Partisan Memorials Wiki)."
+      }
+    ]
   }
 ]
