@@ -13108,5 +13108,399 @@
     ],
     "posebno": "Prevlaka: uklonjena pogresna tacka u severnoj Hrvatskoj; Malesici: preuzeta precizna tacka, sacuvana sva tri autora. Ljubuski: sacuvane rusevine celine umesto prenosenja uklanjanja same statue. Dikalji: 1945. i 1958. sacuvane kao dve faze. Celarevo: dodatni inicijal T. Zarina iz knjige ostaje bez promene dok puno ime nije potvrdjeno.",
     "dokaziZamena": "Spomenicinob.info: novosarajevo, hadzici, grude, trebinje i centarsarajevo izricito povezuju originalne i zamenske ploce; sacuvani lokalni redovi u izvori/spomenicinob/redovi.json. Dikalji: Wiki povezuje prvobitno obelezje i skulpturu Milice Ribnikar."
+  },
+  {
+    "odluka": "preostali-sumnjivi-duplikati-2026-10-20",
+    "datum": "2026-10-20",
+    "ishod": "spojeno-5-grupa-uklonjeno-6-duplikata",
+    "spajanja": [
+      {
+        "zadrzaniId": "bratunac",
+        "uklonjeniId": [
+          "bratunac-spomen-kosturnica"
+        ],
+        "godinePre": {
+          "bratunac": "1978",
+          "bratunac-spomen-kosturnica": "1972"
+        },
+        "izvoriPre": {
+          "bratunac": "http://www.spomenikdatabase.org/bratunac",
+          "bratunac-spomen-kosturnica": "https://www.spomenicinob.info/bratunac"
+        },
+        "dokaz": "Lokalni Wiki, Bratunac - Spomen park Bratunac: u istoriji istog objekta 1978, uz izricitu napomenu 1972 according to spomenicinob.info; ista ulica 17. Aprila i Petar Krstic. Staro groblje kod fabrike duvana ostaje zasebno."
+      },
+      {
+        "zadrzaniId": "derventa-partizansko-groblje",
+        "uklonjeniId": [
+          "derventa-partizansko-groblje-2"
+        ],
+        "godinePre": {
+          "derventa-partizansko-groblje": "1950",
+          "derventa-partizansko-groblje-2": "1961"
+        },
+        "izvoriPre": {
+          "derventa-partizansko-groblje": "https://www.xiwl.com/w/index.php/Derventa_-_Partizansko_Groblje",
+          "derventa-partizansko-groblje-2": "https://www.spomenicinob.info/derventa"
+        },
+        "dokaz": "Wiki izricito citira katalog Dervente za istih 126 boraca; datum 1950 navodi prema natpisu na spomeniku u groblju. Kataloski zapis 1961 ima adresu 1. Maja. Jedno groblje, razliciti podaci o godini."
+      },
+      {
+        "zadrzaniId": "derventa-spomenik-nob-2",
+        "uklonjeniId": [
+          "derventa-spomenik-nob-4"
+        ],
+        "godinePre": {
+          "derventa-spomenik-nob-2": null,
+          "derventa-spomenik-nob-4": null
+        },
+        "izvoriPre": {
+          "derventa-spomenik-nob-2": "https://www.xiwl.com/w/index.php/Derventa_-_Spomenik_NOB_Gimnazija",
+          "derventa-spomenik-nob-4": "https://www.spomenicinob.info/derventa"
+        },
+        "dokaz": "Wiki Derventa - Spomenik NOB Gimnazija citira katalog: dvoriste Gimnazije, rusevine i izgubljena memorijalna funkcija. Isti objekat kao nelocirani kataloski zapis."
+      },
+      {
+        "zadrzaniId": "stanari-spomen-ploca-prvom-mjesnom-narodnooslobodi",
+        "uklonjeniId": [
+          "stanari-spomen-ploca-prvom-mjesnom-narodnooslobodi-2",
+          "stanari-spomen-ploca-formiranju-narodnooslobodilac"
+        ],
+        "godinePre": {
+          "stanari-spomen-ploca-prvom-mjesnom-narodnooslobodi": "1953",
+          "stanari-spomen-ploca-prvom-mjesnom-narodnooslobodi-2": "1975",
+          "stanari-spomen-ploca-formiranju-narodnooslobodilac": "1953"
+        },
+        "izvoriPre": {
+          "stanari-spomen-ploca-prvom-mjesnom-narodnooslobodi": "https://www.spomenicinob.info/stanari",
+          "stanari-spomen-ploca-prvom-mjesnom-narodnooslobodi-2": "https://www.spomenicinob.info/stanari",
+          "stanari-spomen-ploca-formiranju-narodnooslobodilac": "https://www.spomenicinob.info/stanari"
+        },
+        "dokaz": "Tri reda istog kataloga: isto bivse skolsko zdanje i prvo lokalno NO vijece/odbor. Dva reda iz 1953 i novija ploca 1975; poslednji izricito povezuje prvobitnu plocu sa zamenom iz 1975. Trag o mogucem ranijem datumu 1948 nije zaseban potvrden objekat."
+      },
+      {
+        "zadrzaniId": "ilidza-vreoca-spomenik-igmanskom-marsu",
+        "uklonjeniId": [
+          "ilidza-vreoca-spomenik-igmanskom-marsu-2"
+        ],
+        "godinePre": {
+          "ilidza-vreoca-spomenik-igmanskom-marsu": null,
+          "ilidza-vreoca-spomenik-igmanskom-marsu-2": null
+        },
+        "izvoriPre": {
+          "ilidza-vreoca-spomenik-igmanskom-marsu": "https://commons.wikimedia.org/wiki/File%3ASpomenik_Igmanskog_mar%C5%A1a_4.jpg",
+          "ilidza-vreoca-spomenik-igmanskom-marsu-2": "https://commons.wikimedia.org/wiki/File%3ASpomenik_Igmanski_mar%C5%A1_Vrelo_Bosne.jpg"
+        },
+        "dokaz": "Obe Commons fotografije preuzete i pregledane u velikoj rezoluciji: isti oblik kamena, isti natpis, puška i petokraka, ista ograda i napuknuta podna ploca. Fotografije 2018. i novija prikazuju isto obelezje na Vrelu Bosne, ne dva spomenika; razlika GPS tacaka je oko 469 m."
+      }
+    ],
+    "preusmereneVeze": [
+      [
+        "data\\provere\\groblja-zbirni-pregled-2026-10-18.json",
+        2
+      ]
+    ],
+    "razlicitiObjekti": {
+      "Mostje": "Partizanstvo 5772: park sa 16 glava Branka Zorca 1979; 5361: stariji spomenik kraj puta, 500 m dalje.",
+      "Kresniške Poljane": "Partizanstvo 1324: prelaz kod Ribca, severni breg Save; 2063: drugi kamen na juznom bregu, eksplicitno pominje spomenik preko reke.",
+      "Podgora": "Partizanstvo 3887: grobljanski spomenik Dolnja Straza 1964; 3884: Vavta vas 1951, 54 imena. Fotografije su razliciti objekti, pogresno mesto Podgora ispravljeno.",
+      "Potocani": "Wiki i katalog: 1958 staro obelezje, zasebno novo iz 1982 odmah pored, a groblje iza njih. Za 1966 oblik nije razresen; ne spajati po centru sela."
+    },
+    "dopuneRazdvojenih": {
+      "podgora-2": {
+        "pre": {
+          "mesto": "Podgora",
+          "naziv": "Spomenik NOB",
+          "godina": null,
+          "opis": null
+        },
+        "posle": {
+          "mesto": "Dolnja Straža",
+          "naziv": "Spomenik padlim borcem in žrtvam",
+          "godina": "1964",
+          "opis": {
+            "sh": "Spomenik u groblju sa imenima 23 poginula borca, taoca i žrtve fašizma.",
+            "en": "A cemetery memorial listing 23 fallen fighters, hostages and victims of fascism."
+          }
+        },
+        "partizanstvoId": 3887
+      },
+      "podgora-3": {
+        "pre": {
+          "mesto": "Podgora",
+          "naziv": "Spomenik NOB",
+          "godina": null,
+          "opis": null
+        },
+        "posle": {
+          "mesto": "Vavta vas",
+          "naziv": "Spomenik padlim borcem",
+          "godina": "1951",
+          "opis": {
+            "sh": "Posvećeno palim borcima i žrtvama fašizma iz Vavte vasi i okolnih sela; dve ploče nose 54 imena.",
+            "en": "Dedicated to fallen fighters and victims of fascism from Vavta vas and nearby villages; two plaques bear 54 names."
+          }
+        },
+        "partizanstvoId": 3884
+      },
+      "kresniske-poljane": {
+        "pre": {
+          "mesto": "Kresniške Poljane",
+          "naziv": "Spomenik NOB",
+          "opis": null
+        },
+        "posle": {
+          "mesto": "Ribče",
+          "naziv": "Spomenik prehodu čez Savo",
+          "opis": {
+            "sh": "Obeležava prelaz preko Save za borce NOV i aktiviste OF, poginule pri prelascima i trojicu aktivista ubijenih 20. septembra 1944. godine.",
+            "en": "Marks the Sava crossing used by Partisan fighters and Liberation Front activists, those killed during crossings and three activists killed on 20 September 1944."
+          }
+        },
+        "partizanstvoId": 1324
+      },
+      "mostje": {
+        "pre": {
+          "naziv": "Spomenik NOB",
+          "godina": null,
+          "autor": null,
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomenik Lackovi četi",
+          "godina": "1979",
+          "autor": "Branko Zorec",
+          "opis": {
+            "sh": "Spomenik sa 16 glava u memorijalnom parku posvećenom poslednjoj borbi Lackove čete 1942. godine; starije obeležje kraj puta je zaseban objekat.",
+            "en": "A monument with 16 heads in the memorial park dedicated to the Lacko Company’s last battle in 1942; the older roadside memorial is a separate object."
+          }
+        },
+        "partizanstvoId": 5772
+      }
+    },
+    "fotografskiDokaz": "Dve velike Commons fotografije pregledane i sacuvane u izvori/pretrage/duplikati-preostali-2026-10-20/; alternativna javna slicica arhivirana u izvori/duplikati-2026-10-20/."
+  },
+  {
+    "odluka": "ocr-mesta-i-bezimene-biste-2026-10-20",
+    "datum": "2026-10-20",
+    "dokaz": "Vizuelno procitani originalni skenovi Popovic-Zuma: PDF 13 (stampano 24-25), 30 (58-59), 73 (144-145), 90 (178-179). Potpis fotografije Prijepolje nije naslov odeljka Prokuplje. Bista Radmile Rankovic Slobode je pod naslovom Lozovik, ne Kupusina. Fragment Za okusatora nije naselje; bista Miroslava Jovanovica Mime pripada odeljku Opstina Palilula. Lozovik: priblizna tacka sela u opstini Velika Plana iz alati/naselja_osm.json, ne tacna tacka biste. Beogradska bista se ne spaja sa poznatom bistom na Hadzipopovcu bez dokaza da je rec o istom odlivku.",
+    "ispravke": [
+      {
+        "id": "kupusina-bista",
+        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=90",
+        "pdfStrana": 90,
+        "promene": {
+          "naziv": {
+            "pre": "Bista",
+            "posle": "Bista Radmile Ranković Slobode"
+          },
+          "nazivEn": {
+            "pre": null,
+            "posle": "Bust of Radmila Ranković Sloboda"
+          },
+          "mesto": {
+            "pre": "Kupusina",
+            "posle": "Lozovik"
+          },
+          "koordinate": {
+            "pre": {
+              "lat": 44.26592,
+              "lng": 21.00901
+            },
+            "posle": {
+              "lat": 44.46775,
+              "lng": 21.10072
+            }
+          },
+          "opis": {
+            "pre": null,
+            "posle": {
+              "sh": "Bista ispred zgrade osnovne škole koja je nosila njeno ime, postavljena 1978. godine.",
+              "en": "A bust installed in 1978 in front of the primary school that bore her name."
+            }
+          }
+        }
+      },
+      {
+        "id": "za-okusatora-bista",
+        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=13",
+        "pdfStrana": 13,
+        "promene": {
+          "naziv": {
+            "pre": "Bista",
+            "posle": "Bista Miroslava Jovanovića Mime"
+          },
+          "nazivEn": {
+            "pre": null,
+            "posle": "Bust of Miroslav Jovanović Mima"
+          },
+          "mesto": {
+            "pre": "Za Okušatora",
+            "posle": "Beograd (Palilula)"
+          },
+          "adresa": {
+            "pre": "Bista Miroslava JovanovićaMime, službenika PTT, narodnog heroja. Otkrivena juna 1958. godine. Vajar O. Berbelja.",
+            "posle": null
+          }
+        }
+      },
+      {
+        "id": "prijepolje-bista",
+        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=73",
+        "pdfStrana": 73,
+        "promene": {
+          "naziv": {
+            "pre": "Bista",
+            "posle": "Bista Nikole Kokonješevića Dunđerskog"
+          },
+          "nazivEn": {
+            "pre": null,
+            "posle": "Bust of Nikola Kokonješević Dunđerski"
+          },
+          "mesto": {
+            "pre": "Prijepolje",
+            "posle": "Prokuplje"
+          },
+          "adresa": {
+            "pre": "Bista Nikole KokonješevićaDunđerskog u parku preduzeća koje nosi njegovo ime. Postavljena 1971. godine. Vajar D. Drobnjak. Nikola Kokonješević, radnički boraca aktiv",
+            "posle": "U parku preduzeća „Nikola Kokonješević Dunđerski“"
+          }
+        }
+      },
+      {
+        "id": "majdanpek-bista",
+        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=30",
+        "pdfStrana": 30,
+        "promene": {
+          "naziv": {
+            "pre": "Bista",
+            "posle": "Bista Velimira Markićevića Maksa"
+          },
+          "nazivEn": {
+            "pre": null,
+            "posle": "Bust of Velimir Markićević Maks"
+          },
+          "opis": {
+            "pre": null,
+            "posle": {
+              "sh": "Bista u dvorištu škole koja je nosila njegovo ime, postavljena 1971. godine.",
+              "en": "A bust installed in 1971 in the courtyard of the school that bore his name."
+            }
+          }
+        }
+      },
+      {
+        "id": "majdanpek-bista-2",
+        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=30",
+        "pdfStrana": 30,
+        "promene": {
+          "naziv": {
+            "pre": "Bista",
+            "posle": "Bista Milete Arsenijevića Bandere"
+          },
+          "nazivEn": {
+            "pre": null,
+            "posle": "Bust of Mileta Arsenijević Bandera"
+          },
+          "adresa": {
+            "pre": "Bista Milete ArsenijevićaBandere u zgradi obrazovnog centra. Otkrivena 1971. Vajar S. Cvetković. Mileta Arsenijević, sa prvim majdanpečkim rudarima došao je na ",
+            "posle": "U zgradi obrazovnog centra"
+          }
+        }
+      },
+      {
+        "id": "majdanpek-bista-marije-muncan",
+        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=30",
+        "pdfStrana": 30,
+        "promene": {
+          "adresa": {
+            "pre": "Bista Marije Munćan ispred zgrade dečije ustanove koja nosi njeno ime. Postavljena 1971. Vajar S. Cvetković. 30REćASEZ4SG05o-u\\",
+            "posle": "Ispred zgrade dečije ustanove „Marija Munćan“"
+          }
+        }
+      },
+      {
+        "id": "prokuplje-bista",
+        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=73",
+        "pdfStrana": 73,
+        "promene": {
+          "naziv": {
+            "pre": "Bista",
+            "posle": "Bista Nikodija Stojanovića Tatka"
+          },
+          "nazivEn": {
+            "pre": null,
+            "posle": "Bust of Nikodije Stojanović Tatko"
+          },
+          "opis": {
+            "pre": null,
+            "posle": {
+              "sh": "Bista ispred zgrade osnovne škole koja je nosila njegovo ime, postavljena 1955. godine.",
+              "en": "A bust installed in 1955 in front of the primary school that bore his name."
+            }
+          }
+        }
+      }
+    ],
+    "dodatneIspravkeMesta": [
+      {
+        "id": "za-okusatora-bista-djure-strugara",
+        "pre": {
+          "mesto": "Za Okušatora",
+          "adresa": "Bista Đure Strugara, narodnog heroja, u auli škole koja nosi njegovo ime, Braće Grima 6. Ćuro Strugar, aktivista revolucionarnog pokreta, član MIC KPJ Beograda, "
+        },
+        "posle": {
+          "mesto": "Beograd",
+          "adresa": "U auli škole „Đuro Strugar“, Braće Grima 6"
+        },
+        "dokaz": "Ista PDF strana 13, odeljak opstine Palilula; puno ime i ulica potvrdjeni na skenu."
+      },
+      {
+        "id": "za-okusatora-bista-milosa-matijevica-mrse",
+        "pre": {
+          "mesto": "Za Okušatora",
+          "adresa": "Bista Miloša Matijevića-Mrše, narodnog heroja, u osnovnoj školi koja nosi njegovo ime, Donska 29. Postavljena 1965. godine. Miloš Matijević započeo je svoj revolu"
+        },
+        "posle": {
+          "mesto": "Beograd",
+          "adresa": "U osnovnoj školi „Miloš Matijević Mrša“, Donska 29"
+        },
+        "dokaz": "Ista PDF strana 13, odeljak opstine Palilula; puno ime i ulica potvrdjeni na skenu."
+      }
+    ],
+    "spajanja": [
+      {
+        "zadrzaniId": "belgrade",
+        "uklonjeniZapis": {
+          "id": "za-okusatora-spomen-groblje",
+          "mesto": "Za Okušatora",
+          "naziv": "Spomen-groblje",
+          "vrsta": "groblje",
+          "drzava": "Serbia",
+          "adresa": "Spomen-groblje „Oslobodiocima Beograda 1944. godine“. Na ulazu je spomenik, levo i desno u dubokom reljefu izvajane su scene borbe protiv okupatora; grančica od b"
+        },
+        "izvorUklonjenog": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=13",
+        "dokaz": "Sken PDF 13: kompleks Oslobodiocima Beograda 1944, ulaz sa reljefima borbe. Isti jedinstveni kompleks kao belgrade, sa potvrdom u clanku https://sh.wikipedia.org/wiki/Groblje_oslobodilaca_Beograda (reljefi na ulazu). Katalog nema posebnu godinu niti drugo polje za prenos; postojece precizne koordinate, fotografija, godina i vrsta zadrzane.",
+        "preusmereneVeze": []
+      }
+    ],
+    "pogresnaVrednostAutora": {
+      "id": "gradacac-bista-hasana-kikica",
+      "pre": "See description",
+      "posle": null,
+      "izvor": "https://www.spomenicinob.info/gradacac",
+      "dokaz": "Sacuvani izvor izvori/spomenicinob/redovi.json u polju autora nosi uputstvo See description. Opis navodi razlicite atribucije Mirku Ostoji i Franu Krsinicu, uz identican sarajevski odlivak pripisan Ivanu Sabolicu. To nije autor niti dokaz zajednickog autorstva; tekst uputstva uklonjen, imena nisu proizvoljno odabrana.",
+      "zapisPre": {
+        "id": "gradacac-bista-hasana-kikica",
+        "mesto": "Gradačac",
+        "naziv": "Bista Hasana Kikića",
+        "nazivEn": "Bust of Hasan Kikić",
+        "godina": "1958",
+        "autor": "See description",
+        "posveta": "Hasana Kikića",
+        "vrsta": "bista",
+        "drzava": "Bosnia and Herzegovina",
+        "adresa": "Town park"
+      }
+    }
   }
 ]

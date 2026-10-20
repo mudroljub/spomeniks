@@ -7882,16 +7882,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "derventa-partizansko-groblje-2",
-    "mesto": "Derventa",
-    "naziv": "Partizansko groblje",
-    "nazivEn": "Partisans' cemetery",
-    "godina": "1961",
-    "vrsta": "groblje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Ul. 1. Maja"
-  },
-  {
     "id": "derventa-bista-zdravka-celara",
     "mesto": "Derventa",
     "naziv": "Bista Zdravka Čelara",
@@ -7935,16 +7925,6 @@
     "posveta": "Vlade Šuputa",
     "stanje": "uklonjen",
     "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Gimnazija - courtyard"
-  },
-  {
-    "id": "derventa-spomenik-nob-4",
-    "mesto": "Derventa",
-    "naziv": "Spomenik NOB",
-    "nazivEn": "Monument to the NOB",
-    "stanje": "rusevine",
-    "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Gimnazija - courtyard"
   },
@@ -10784,7 +10764,6 @@
     "naziv": "Bista Hasana Kikića",
     "nazivEn": "Bust of Hasan Kikić",
     "godina": "1958",
-    "autor": "See description",
     "posveta": "Hasana Kikića",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
@@ -22687,17 +22666,11 @@
     "godina": "1953",
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Former elementary school"
-  },
-  {
-    "id": "stanari-spomen-ploca-prvom-mjesnom-narodnooslobodi-2",
-    "mesto": "Stanari",
-    "naziv": "Spomen-ploča prvom mjesnom narodnooslobodilačkom vijeću",
-    "nazivEn": "Plaque commemorating first local People’s Liberation Council",
-    "godina": "1975",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Former elementary school"
+    "adresa": "Former elementary school",
+    "opis": {
+      "sh": "Obeležava prvo mesno narodnooslobodilačko vijeće u bivšoj školi; za prvobitnu ploču izvor navodi 1953, a za kasniju 1975. godinu.",
+      "en": "Commemorates the first local People’s Liberation Council at the former school; the source dates the original plaque to 1953 and the later plaque to 1975."
+    }
   },
   {
     "id": "osredak-spomen-ploca-sjedistu-mjesnog-komiteta-kpj",
@@ -22741,17 +22714,6 @@
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Community hall"
-  },
-  {
-    "id": "stanari-spomen-ploca-formiranju-narodnooslobodilac",
-    "mesto": "Stanari",
-    "naziv": "Spomen-ploča formiranju narodnooslobodilačkog odbora",
-    "nazivEn": "Plaque marking formation of People's Liberation Committee",
-    "godina": "1953",
-    "posveta": "formiranju narodnooslobodilačkog odbora",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Former elementary school"
   },
   {
     "id": "sarajevo-ferhadija-reljef-u-spomen-na-sarajlije-za",
@@ -30045,40 +30007,32 @@
   },
   {
     "id": "za-okusatora-bista",
-    "mesto": "Za Okušatora",
-    "naziv": "Bista",
+    "mesto": "Beograd (Palilula)",
+    "naziv": "Bista Miroslava Jovanovića Mime",
     "godina": "1958",
     "autor": "Oskar Berbelja",
     "vrsta": "bista",
     "drzava": "Serbia",
-    "adresa": "Bista Miroslava JovanovićaMime, službenika PTT, narodnog heroja. Otkrivena juna 1958. godine. Vajar O. Berbelja."
+    "nazivEn": "Bust of Miroslav Jovanović Mima"
   },
   {
     "id": "za-okusatora-bista-djure-strugara",
-    "mesto": "Za Okušatora",
+    "mesto": "Beograd",
     "naziv": "Bista Đure Strugara",
     "posveta": "Đure Strugara",
     "vrsta": "bista",
     "drzava": "Serbia",
-    "adresa": "Bista Đure Strugara, narodnog heroja, u auli škole koja nosi njegovo ime, Braće Grima 6. Ćuro Strugar, aktivista revolucionarnog pokreta, član MIC KPJ Beograda, "
+    "adresa": "U auli škole „Đuro Strugar“, Braće Grima 6"
   },
   {
     "id": "za-okusatora-bista-milosa-matijevica-mrse",
-    "mesto": "Za Okušatora",
+    "mesto": "Beograd",
     "naziv": "Bista Miloša Matijevića-Mrše",
     "godina": "1965",
     "posveta": "Miloša Matijevića-Mrše",
     "vrsta": "bista",
     "drzava": "Serbia",
-    "adresa": "Bista Miloša Matijevića-Mrše, narodnog heroja, u osnovnoj školi koja nosi njegovo ime, Donska 29. Postavljena 1965. godine. Miloš Matijević započeo je svoj revolu"
-  },
-  {
-    "id": "za-okusatora-spomen-groblje",
-    "mesto": "Za Okušatora",
-    "naziv": "Spomen-groblje",
-    "vrsta": "groblje",
-    "drzava": "Serbia",
-    "adresa": "Spomen-groblje „Oslobodiocima Beograda 1944. godine“. Na ulazu je spomenik, levo i desno u dubokom reljefu izvajane su scene borbe protiv okupatora; grančica od b"
+    "adresa": "U osnovnoj školi „Miloš Matijević Mrša“, Donska 29"
   },
   {
     "id": "visnjica-bista-ivana-milutinovica",
@@ -30153,12 +30107,13 @@
   {
     "id": "majdanpek-bista-2",
     "mesto": "Majdanpek",
-    "naziv": "Bista",
+    "naziv": "Bista Milete Arsenijevića Bandere",
     "godina": "1971",
     "autor": "Stojan Cvetković",
     "vrsta": "bista",
     "drzava": "Serbia",
-    "adresa": "Bista Milete ArsenijevićaBandere u zgradi obrazovnog centra. Otkrivena 1971. Vajar S. Cvetković. Mileta Arsenijević, sa prvim majdanpečkim rudarima došao je na "
+    "adresa": "U zgradi obrazovnog centra",
+    "nazivEn": "Bust of Mileta Arsenijević Bandera"
   },
   {
     "id": "majdanpek-bista-marije-muncan",
@@ -30169,7 +30124,7 @@
     "posveta": "Marije Munćan",
     "vrsta": "bista",
     "drzava": "Serbia",
-    "adresa": "Bista Marije Munćan ispred zgrade dečije ustanove koja nosi njeno ime. Postavljena 1971. Vajar S. Cvetković. 30REćASEZ4SG05o-u\\"
+    "adresa": "Ispred zgrade dečije ustanove „Marija Munćan“"
   },
   {
     "id": "partnzan-de-spomenik-na-zajednickoj-grobnici",
@@ -31253,13 +31208,14 @@
   },
   {
     "id": "prijepolje-bista",
-    "mesto": "Prijepolje",
-    "naziv": "Bista",
+    "mesto": "Prokuplje",
+    "naziv": "Bista Nikole Kokonješevića Dunđerskog",
     "godina": "1971",
     "autor": "D. Drobnjak",
     "vrsta": "bista",
     "drzava": "Serbia",
-    "adresa": "Bista Nikole KokonješevićaDunđerskog u parku preduzeća koje nosi njegovo ime. Postavljena 1971. godine. Vajar D. Drobnjak. Nikola Kokonješević, radnički boraca aktiv"
+    "adresa": "U parku preduzeća „Nikola Kokonješević Dunđerski“",
+    "nazivEn": "Bust of Nikola Kokonješević Dunđerski"
   },
   {
     "id": "planina-jastrebac-spomen-cesma-na-partizanskim-vod",
