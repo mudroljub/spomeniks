@@ -1,6 +1,6 @@
 # Izvori
 
-Uređeno **2026-10-19**. Jedan dokument za izvore: na vrhu [prioriteti](#prioriteti) — svi izvori sa preostalim poslom, poređani po očekivanom prinosu — a ispod evidencija obrađenog (šta je urađeno, šta je dalo, šta ostaje). Datumi uz izvore označavaju poslednju opisanu proveru.
+Uređeno **2026-10-20**. Jedan dokument za izvore: na vrhu [prioriteti](#prioriteti) — svi izvori sa preostalim poslom, poređani po očekivanom prinosu — a ispod evidencija obrađenog (šta je urađeno, šta je dalo, šta ostaje). Datumi uz izvore označavaju poslednju opisanu proveru.
 
 **Kako čitati obrađenost:** „završen prolaz“ važi samo za navedeni skup i vrstu posla, ne za ceo sajt. „Delimično“ znači da je obrađen poznat deo. Gde evidencija nije dovoljna piše „obim nepoznat“. Preuzimanje knjige nije obrada, a potpuni prepis knjige nije potvrda svih lokacija ili opstanka.
 
@@ -17,7 +17,7 @@ Cilj: novi spomenici, fotografije, tačne lokacije i dopune iz pouzdanih javnih 
 
 | # | Izvor | Prinos | Šta ostaje | Prvi korak |
 |---|---|---|---|---|
-| 1 | Galerije Partizanstva (`api/get_images`) | visok, fotografije | Oko 250 parova sa više kandidata, 79 Google slika sa više kandidata, hrvatski sloj bez jedinstvenog para | Razrešiti parove po imenu i udaljenosti, pa pregled galerija. [Evidencija](#commons-i-fotografije) |
+| 1 | Galerije Partizanstva (`api/get_images`) | visok, fotografije | Preostali parovi sa više kandidata (20 pregledano 20.10, 19 fotografija upisano), 79 Google slika sa više kandidata, hrvatski sloj bez jedinstvenog para | Razrešiti parove po imenu i udaljenosti, pa pregled galerija; preskočiti obrađeni paket od 20. [Evidencija](#commons-i-fotografije) |
 | 2 | spomenicinob.info, opštinski PDF izveštaji (26 PDF-ova, 24 opštine BiH) | srednji–visok | Fotografije i karte za oko 109 važnih zapisa bez slike i 66 sa spiska bez lokacije u tim opštinama | Uzorak jednog PDF-a (Doboj) protiv baze. [Evidencija](#vikipedija-wikidata-i-tematski-sajtovi) |
 | 3 | Direktni slikovni linkovi iz sačuvanog Partisan Memorials Wiki | srednji, fotografije | Oko 289 kandidata van Makedonije, slabiji izvori; prvo spomen-groblja | `izvori/pretrage/foto-paket100c-2026-10-19-izbor.py` (izbor po važnosti vrste). [Evidencija](#commons-i-fotografije) |
 | 4 | Trajkovski, *Преглед на спомениците… во СР Македонија*, 1986 | srednji | Grobne celine i muzeji (posle prvog pregleda svih 110 jedinica poglavlja spomenika); mogući duplikati u Kočanima, Lavcima, Štipu i Makedonskom Brodu | Grobni katalog knjige (PDF listovi 52–55 već izvedeni). [Evidencija](#obrada-knjiga) |
@@ -115,6 +115,7 @@ Originali, izbori i pregledi su u `izvori/pretrage/`, prema nazivu paketa u [pre
 | Novi spomenici iz obe napredne pretrage, 64.515 fajlova | Završen ponovni pregled sačuvanih rezultata: 322 fajla / 123 mesta → 48 kandidata → 25 novih | Bez novih mrežnih pretraga. Nesaglasan GPS Metković/Labin, nepoznata bista u Kuštilju i duplikati odbačeni; ne vraćati bez novog dokaza. |
 | Galerije Partizanstva (`api/get_images`), 2026-10-18 | Završeno: naši spomenici bez slike sa jedinstvenim Partizanstvo parom do 60 m (`izvori/partizanstvo/`); 909 fotografija upisano, 5 galerija prazno. Još 36 slovenačkih spomenika označeno kao uklonjeno/deponovano po Partizanstvu, 33 sa fotografijom. | Ostatak: [prioritet 2](#prioriteti). |
 | Zamena Google slika galerijama Partizanstva, 2026-10-19 | Završeno za slovenačke spomenike sa Google slikom i jedinstvenim parom do 60 m: 220 parova, prva fotografija galerije pregledana uz staru sliku. | 174 Google slike zamenjene, 46 odbijeno (razlozi u [izveštaju](../data/provere/fotografije-partizanstvo-google-2026-10-19.json)). Ostatak: [prioritet 2](#prioriteti). |
+| Višestruki parovi Partizanstva, 2026-10-20 | Pregledano 20 galerija preostalih zapisa bez slike, redom parkovi, muzej, spomenici i groblja; za pet galerija pregledano još 10 kadrova. Dodato 19 fotografija (17 Slovenija, 2 Hrvatska), 3 godine i 3 autorska podatka u ukupno 20 postojećih zapisa. | [Izveštaj sa očekivanim starim i upisanim vrednostima](../data/provere/fotografije-partizanstvo-visestruki-2026-10-20.json); lokalno `izvori/pretrage/partizanstvo-visestruki-2026-10-19/`. Gramozna jama: fotografije obeliska nisu prenete u zapis o Kalinovoj skulpturi; godina 1957/1967 i današnje stanje ostaju za proveru. Grosuplje: puno ime Jakobina Accetto potvrđeno zvaničnim imenikom RNPD-a. Za Gaisera nije potvrđeno puno ime uz konkretno delo. Datumi većine fotografija nisu poznati; stanje nije menjano. |
 
 ## Obrada knjiga
 

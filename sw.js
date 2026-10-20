@@ -1,6 +1,6 @@
 // rad bez signala: aplikacija i podaci se cuvaju odmah, a delovi mape i slike kad se jednom pogledaju
 // Generise node alati/otisak.mjs; integritet proverava otisak resursa.
-const VERZIJA = 'f92f3907bfa52b9b0cf9'
+const VERZIJA = '61df939862cb5ded7405'
 const APLIKACIJA = `spomenici-aplikacija-${VERZIJA}`
 const MAPA = 'spomenici-mapa'
 const SLIKE = 'spomenici-slike'

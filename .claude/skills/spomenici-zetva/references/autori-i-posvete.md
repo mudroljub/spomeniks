@@ -6,6 +6,8 @@ Istorijski rezultati i pojedinačni izuzeci su u [beleškama o autorima i posvet
 
 - **Prioritet su puna imena i prezimena** (korisnik, 2026-10-19): prvo razrešavati već upisane inicijale i nepotpune potpise. Potvrditi osobu, zanimanje i period rada; isti inicijal i prezime nisu dovoljni ako postoji više kandidata. Sačuvati prethodni oblik i dokaz u `data/provere/`, a preostale slučajeve proveravati po važnosti spomenika.
 
+- **Odluke o identitetu autora** (korisnik): „S. Cvetković“ je Stojan Cvetković, vajar iz Belanovca (2026-10-20). Takav inicijal se upisuje punim imenom bez dodatne potvrde.
+
 - Članak o autoru traži na sh, hr, sr (ćirilicom), sl, mk i en Wikipediji, zbirno po 50 naslova (`titles=`, pa `pageprops` za Q-id). Prihvati ga samo ako je na Wikidati P31 = Q5 i P106 umetnik, vajar ili arhitekta. Ranija skripta za ovo (`autori_wiki.py`) nije sačuvana, pa se postupak piše iznova.
 
 - Dela autora na Wikidati traži preko P170/P84 sa koordinatama, a spiskove dela iz članaka preuzimaj zbirno po jeziku. Poznato ime autora u opisu ne dokazuje autorstvo svakog dela u parku.
