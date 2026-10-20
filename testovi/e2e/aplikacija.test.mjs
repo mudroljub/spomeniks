@@ -718,7 +718,9 @@ test('U blizini posle lociranja nudi najbliže spomenike redom i otvara izabrani
 
 test('široka pretraga crta ograničen broj najvažnijih obeliska, a ostale pri približavanju', async () => {
   await otvori()
-  await izvrsi(`(() => { const p = document.querySelector('polje-pretraga input'); p.value = 'k'; p.dispatchEvent(new Event('input', {bubbles: true})) })()`)
+  await izvrsi(`(() => { const p = document.querySelector('polje-pretraga'); p.polje.value = 'k'; p.pretrazi() })()`)
+  assert.equal(await izvrsi(`document.querySelector('polje-pretraga .rezultat').hidden`), true, 'jedno slovo ne pretražuje')
+  await izvrsi(`(() => { const p = document.querySelector('polje-pretraga input'); p.value = 'en'; p.dispatchEvent(new Event('input', {bubbles: true})) })()`)
   const pronadjeno = Number(await sacekaj(BROJ, 'broj pronađenih'))
   const nacrtani = () => izvrsi(`[...document.querySelectorAll('.leaflet-marker-icon')].map(el => (el.matches('img') ? el : el.querySelector('img')).getAttribute('src'))`)
   const izdaleka = await nacrtani()

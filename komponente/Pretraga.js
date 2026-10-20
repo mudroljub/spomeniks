@@ -110,6 +110,8 @@ const polja = ['mesto', 'autor', 'godina', 'drzava']
 
 // kucanje pretrazuje tek kad zastane, a ne posle svakog slova
 const odlaganjePretrage = 250
+// jedno slovo pogadja hiljade spomenika; dva su dovoljna za mesta kao Ub i Ig
+const najmanjeSlova = 2
 
 const praviTekst = spomenik => normalizuj([
   ...polja.map(polje => spomenik[polje] || ''),
@@ -124,7 +126,8 @@ export default class Pretraga extends HTMLElement {
   constructor(stavke, callback) {
     super()
     this.stavke = stavke
-    this.tekstovi = new Map(stavke.map(stavka => [stavka, praviTekst(stavka.spomenik)])) // jezik se menja uz ponovno ucitavanje
+    // tekst za pretragu usporava otvaranje, pa se pravi pri prvom dodiru polja; jezik se menja uz ponovno ucitavanje
+    this.tekstovi = new Map()
     this.callback = callback
     this.filtrirano = stavke
 
@@ -152,6 +155,7 @@ export default class Pretraga extends HTMLElement {
       clearTimeout(this.odlozena)
       this.odlozena = setTimeout(() => this.pretrazi(), odlaganjePretrage)
     })
+    this.polje.addEventListener('focus', () => this.pripremiTekstove(), {once: true})
     this.polje.addEventListener('keydown', e => {
       if (e.key !== 'Enter') return
       this.potvrdi()
@@ -172,18 +176,31 @@ export default class Pretraga extends HTMLElement {
   // spomenici koji stignu posle prvog crtanja ulaze u pretragu i filtere, uz zadrzanu frazu i izbor
   dodaj(nove) {
     this.stavke = [...this.stavke, ...nove]
-    nove.forEach(stavka => this.tekstovi.set(stavka, praviTekst(stavka.spomenik)))
     this.filteri.dodaj(this.stavke)
     this.pocetnih = this.stavke.filter(({spomenik}) => this.filteri.odgovara(spomenik)).length
     this.oznaciPolje()
     this.pretrazi()
   }
 
+  // u delovima, da tastatura i mapa ostanu glatki; spomenici koji stignu kasnije dobijaju tekst pri pretrazi
+  pripremiTekstove(od = 0) {
+    const deo = this.stavke.slice(od, od + 500)
+    deo.forEach(stavka => this.tekst(stavka))
+    if (deo.length) setTimeout(() => this.pripremiTekstove(od + deo.length))
+  }
+
+  tekst(stavka) {
+    let tekst = this.tekstovi.get(stavka)
+    if (tekst === undefined) this.tekstovi.set(stavka, tekst = praviTekst(stavka.spomenik))
+    return tekst
+  }
+
   pretrazi() {
     clearTimeout(this.odlozena)
     this.odlozena = undefined
-    const fraza = normalizuj(this.polje.value)
-    const pronadjeno = this.stavke.filter(stavka => this.tekstovi.get(stavka).includes(fraza))
+    const unos = normalizuj(this.polje.value)
+    const fraza = unos.length >= najmanjeSlova ? unos : ''
+    const pronadjeno = fraza ? this.stavke.filter(stavka => this.tekst(stavka).includes(fraza)) : this.stavke
     this.filteri.postaviOsnovu(pronadjeno, Boolean(fraza))
     this.filtrirano = pronadjeno.filter(({spomenik}) => this.filteri.uRezultatu(spomenik))
     const suzeno = this.filtrirano.length < this.pocetnih

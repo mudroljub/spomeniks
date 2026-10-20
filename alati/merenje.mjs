@@ -65,8 +65,8 @@ await meri('pomeranje gore', prevuci(0, -400))
 await meri('zum na 12', zum)
 await meri('otvaranje spomenika', "document.querySelector('.leaflet-marker-pane img').dispatchEvent(new MouseEvent('click', {bubbles: true}))")
 const kucaj = tekst => `(() => { const polje = document.querySelector('polje-pretraga input'); polje.value = '${tekst}'; polje.dispatchEvent(new Event('input', {bubbles: true})) })()`
-await meri('pretraga, prvo slovo', kucaj('k'), 3000)
-await meri('pretraga, drugo slovo', kucaj('ko'), 3000)
+await meri('pretraga, dva slova', kucaj('ko'), 3000)
+await meri('pretraga, treće slovo', kucaj('kos'), 3000)
 await meri('pretraga obrisana', kucaj(''), 3000)
 
 const grupe = {}
