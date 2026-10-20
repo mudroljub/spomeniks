@@ -49116,5 +49116,459 @@
       "https://en.wikipedia.org/wiki/%C5%A0ekovi%C4%87i",
       "https://vreme.com/vreme-uzivanja/pradjed-mi-je-bio-jaci/"
     ]
+  },
+  {
+    "odluka": "milici-duplikat-spomenika-palim-borcima-2026-10-21",
+    "datum": "2026-10-21",
+    "izvor": "https://www.spomenicinob.info/milici",
+    "spojeno": {
+      "milici-spomenik-palim-borcima-nob": "milici"
+    },
+    "dopunjeno": {
+      "milici": {
+        "adresa": "Kod OŠ „Aleksa Jakšić“",
+        "stanje": "ostecen"
+      }
+    },
+    "razlog": "isti autor (Dragiša Trifković), godina (1977) i mesto; spomenicinob.info ga smešta kod OŠ „Aleksa Jakšić“, a tačka zapisa milici je 81 m od škole u OSM-u",
+    "dilema": "stanje „oštećen“ preneto sa spomenicinob.info bez datuma opažanja"
+  },
+  {
+    "odluka": "medjuvodje-spomenici-pilotima-2026-10-21",
+    "datum": "2026-10-21",
+    "izvor": "https://www.spomenicinob.info/kozarskadubica",
+    "spojeno": {
+      "medjuvodje-spomenik-rudiju-cajavcu-i-franji-kluzu": "medjuvodje-uremovac-spomenik-kluzu-i-cajavecu"
+    },
+    "dopunjeno": {
+      "medjuvodje-spomenik-prvom-partizanskom-aerodromu": {},
+      "medjuvodje-uremovac-spomenik-kluzu-i-cajavecu": {
+        "godina": "1987",
+        "autor": "Dragoljub Đokić"
+      }
+    },
+    "razresenaDilema": "spomenicinob.info razlikuje tri objekta: obelisk Čajavecu i Kluzu 1951 (medjuvodje-spomenik-partizanskim-pilotima), spomen-park prvom partizanskom aerodromu 1985, Mladen Momčilović (medjuvodje-spomenik-prvom-partizanskom-aerodromu), i spomenik Čajavecu i Kluzu u Uremovcu 1987, Dragoljub Đokić (medjuvodje-uremovac-spomenik-kluzu-i-cajavecu); zapis bez lokacije je isti kao uremovački",
+    "dokazi": [
+      "https://www.spomenicinob.info/kozarskadubica",
+      "https://gradprijedor.com/drustvo/sjecanje-na-podvig-franje-kluza-i-rudija-cajavca"
+    ]
+  },
+  {
+    "odluka": "spomen-parkovi-drugi-paket-po-vaznosti-2026-10-21",
+    "datum": "2026-10-21",
+    "pre": [
+      {
+        "id": "jasenovac-spomen-podrucje-jasenovac",
+        "koordinate": {
+          "lat": 45.2795694,
+          "lng": 16.9295214
+        },
+        "mesto": "Jasenovac",
+        "slika": "slike/spomenici/jasenovac-spomen-podrucje-jasenovac.webp",
+        "slikaOdnos": 1.333,
+        "slikaPotpis": "Bern Bartsch, CC BY-SA 3.0",
+        "naziv": "Spomen-područje Jasenovac",
+        "nazivEn": "Jasenovac Memorial Site",
+        "posveta": [
+          "Q155032"
+        ],
+        "vrsta": "spomen-park",
+        "drzava": "Croatia"
+      },
+      {
+        "id": "jabuka",
+        "koordinate": {
+          "lat": 44.9286707,
+          "lng": 20.6337486
+        },
+        "googleCid": "4475422653904383589",
+        "mesto": "Jabuka",
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%A1%D1%82%D1%80%D0%B0%D1%82%D0%B8%D1%88%D1%82%D0%B5",
+        "slika": "slike/spomenici/jabuka.webp",
+        "slikaOdnos": 1.77,
+        "naziv": "Spomen-kompleks Stratište",
+        "nazivEn": "The Stratište Memorial Complex",
+        "godina": "1981",
+        "autor": "Nebojša Delja",
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "stuti",
+        "koordinate": {
+          "lat": 45.2861033,
+          "lng": 13.7548314
+        },
+        "googleCid": "432135085237711641",
+        "mesto": "Štuti",
+        "wiki": "https://hr.wikipedia.org/wiki/Spomen_podru%C4%8Dje_Ti%C4%8Dan",
+        "slika": "slike/spomenici/stuti.webp",
+        "slikaOdnos": 1.504,
+        "naziv": "Spomen-područje Tičan",
+        "nazivEn": "The Tičan Memorial Area",
+        "godina": "1965",
+        "vrsta": "spomen-park",
+        "drzava": "Croatia"
+      },
+      {
+        "id": "sibenik-spomen-park-subicevac",
+        "koordinate": {
+          "lat": 43.7424522,
+          "lng": 15.8971414
+        },
+        "mesto": "Šibenik (Šubićevac)",
+        "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_%C5%A0ubi%C4%87evac",
+        "slika": "slike/spomenici/sibenik-spomen-park-subicevac.webp",
+        "slikaOdnos": 1.333,
+        "slikaPotpis": "DobarSkroz, CC BY-SA 4.0",
+        "naziv": "Spomen-park Šubićevac",
+        "nazivEn": "Šubićevac Memorial Park",
+        "godina": "1962",
+        "autor": "Kosta Angeli Radovani & Zdenko Kolacio",
+        "vrsta": "spomen-park",
+        "drzava": "Croatia"
+      },
+      {
+        "id": "bobulja",
+        "koordinate": {
+          "lat": 42.5504479,
+          "lng": 19.1592996
+        },
+        "googleCid": "7836553889794336069",
+        "mesto": "Bobulja",
+        "slika": "slike/spomenici/bobulja.webp",
+        "slikaOdnos": 1.143,
+        "naziv": "Spomen-kompleks Ljutotuk",
+        "nazivEn": "Ljutotuk Memorial Complex",
+        "godina": "1975",
+        "autor": "Ranko Radović",
+        "vrsta": "spomen-park",
+        "drzava": "Montenegro"
+      },
+      {
+        "id": "gornji-milanovac",
+        "koordinate": {
+          "lat": 44.029984,
+          "lng": 20.4524494
+        },
+        "googleCid": "14319232559796109761",
+        "mesto": "Gornji Milanovac",
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%91%D1%80%D0%B4%D0%BE_%D0%BC%D0%B8%D1%80%D0%B0",
+        "slika": "slike/spomenici/gornji-milanovac.webp",
+        "slikaOdnos": 1.429,
+        "naziv": "Spomen-park Brdo mira",
+        "nazivEn": "'Brdo mira' Memorial Park",
+        "godina": "1962",
+        "autor": "Živorad Maksimović",
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "adasevci",
+        "koordinate": {
+          "lat": 45.049612,
+          "lng": 19.1779466
+        },
+        "googleCid": "6525967394472213067",
+        "mesto": "Adaševci",
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BE%D0%B1%D0%B5%D0%BB%D0%B5%D0%B6%D1%98%D0%B5_%D0%A1%D1%80%D0%B5%D0%BC%D1%81%D0%BA%D0%B8_%D1%84%D1%80%D0%BE%D0%BD%D1%82",
+        "slika": "slike/spomenici/adasevci.webp",
+        "slikaOdnos": 1.498,
+        "naziv": "Spomen-obeležje Sremski front",
+        "nazivEn": "Sremski Front Memorial Complex",
+        "godina": "1988",
+        "autor": "Miroslav Krstonošić & Jovan Soldatović",
+        "posveta": [
+          "Q3299011"
+        ],
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "dola",
+        "koordinate": {
+          "lat": 43.0584276,
+          "lng": 18.8359526
+        },
+        "googleCid": "12628008049543902703",
+        "mesto": "Dola",
+        "wiki": "https://www.spomenikdatabase.org/dola",
+        "slika": "slike/spomenici/dola.webp",
+        "slikaOdnos": 1.379,
+        "naziv": "Spomen-kompleks Dola",
+        "nazivEn": "Dola Memorial Complex",
+        "godina": "1977",
+        "autor": "Luka Tomanović & Aleksandar Prijić",
+        "posveta": [
+          "Q112968013"
+        ],
+        "vrsta": "spomen-park",
+        "drzava": "Montenegro"
+      },
+      {
+        "id": "zabalj-spomen-kompleks-crna-cuprija",
+        "koordinate": {
+          "lat": 45.401669,
+          "lng": 20.2028538
+        },
+        "mesto": "Žabalj",
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%A6%D1%80%D0%BD%D0%B0_%D0%8B%D1%83%D0%BF%D1%80%D0%B8%D1%98%D0%B0",
+        "slika": "slike/spomenici/zabalj-spomen-kompleks-crna-cuprija.webp",
+        "slikaOdnos": 1.646,
+        "slikaPotpis": "Mankidzanki, CC BY-SA 4.0",
+        "naziv": "Spomen-kompleks Crna Ćuprija",
+        "nazivEn": "\"Black Bridge\" Memorial Complex",
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "drakcici-spomen-park",
+        "koordinate": {
+          "lat": 43.735545,
+          "lng": 20.616363
+        },
+        "mesto": "Drakčići",
+        "naziv": "Spomen-park",
+        "godina": "1952",
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "koceljeva-spomen-park",
+        "koordinate": {
+          "lat": 44.465567,
+          "lng": 19.820216
+        },
+        "mesto": "Koceljeva",
+        "naziv": "Spomen-park",
+        "godina": "1952",
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "minicevo-spomen-park",
+        "koordinate": {
+          "lat": 43.684222,
+          "lng": 22.292333
+        },
+        "mesto": "Minićevo",
+        "naziv": "Spomen-park",
+        "godina": "1991",
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "prhovo-spomen-park",
+        "koordinate": {
+          "lat": 44.883162,
+          "lng": 20.003072
+        },
+        "mesto": "Prhovo",
+        "naziv": "Spomen-park",
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "podi-spomen-kompleks",
+        "koordinate": {
+          "lat": 42.463297,
+          "lng": 18.533783
+        },
+        "priblizno": true,
+        "mesto": "Podi",
+        "naziv": "Spomen-kompleks",
+        "godina": "1989",
+        "vrsta": "spomen-park",
+        "drzava": "Montenegro"
+      }
+    ],
+    "izmene": {
+      "jasenovac-spomen-podrucje-jasenovac": {
+        "opis": {
+          "sh": "Posvećeno žrtvama ustaškog [logora Jasenovac](Q155032). Spomen-područje obuhvata nekadašnji logorski prostor, masovne grobnice, spomenik „Cvet“ i Memorijalni muzej otvoren 1968. godine.",
+          "en": "Dedicated to victims of the Ustaše [Jasenovac concentration camp](Q155032). The memorial site encompasses the former camp grounds, mass graves, the Flower monument and the Memorial Museum opened in 1968."
+        },
+        "wiki": "https://www.jusp-jasenovac.hr/Default.aspx?sid=5028"
+      },
+      "jabuka": {
+        "opis": {
+          "sh": "Posvećeno Srbima, Jevrejima, Romima i drugim žrtvama koje su nacističke okupacione snage streljale na ovom mestu tokom Drugog svetskog rata. Kompleks je podignut na nekadašnjem stratištu između Pančeva i Jabuke.",
+          "en": "Dedicated to Serbs, Jews, Roma and other victims executed here by Nazi occupation forces during the Second World War. The complex marks the former execution site between Pančevo and Jabuka."
+        }
+      },
+      "stuti": {
+        "opis": {
+          "sh": "Posvećeno partizanima i meštanima višnjanskog kraja poginulim u borbi protiv nemačkih snaga kod Tičana u septembru 1943. godine. Kameni blokovi sa uklesanim simbolima poljoprivrednog alata povezuju sećanje na borbu sa životom istarskog sela.",
+          "en": "Dedicated to Partisans and residents of the Višnjan area killed fighting German forces near Tičan in September 1943. Stone blocks carved with agricultural tools connect remembrance of the struggle with the life of Istrian villages."
+        },
+        "autor": "Zdenko Sila"
+      },
+      "sibenik-spomen-park-subicevac": {
+        "opis": {
+          "sh": "Posvećeno rodoljubima i antifašistima koje su italijanske fašističke vlasti streljale na Šubićevcu 1941-1943. godine. Među njima su bili Rade Končar i njegovi saborci.",
+          "en": "Dedicated to patriots and antifascists executed by the Italian fascist authorities at Šubićevac in 1941-1943. Among them were Rade Končar and his comrades."
+        }
+      },
+      "bobulja": {
+        "opis": {
+          "sh": "Posvećeno palim borcima Narodnooslobodilačke borbe iz ovog dela Bjelopavlića. Kompleks Ranka Radovića čine betonski stubovi sa memorijalnim pločama.",
+          "en": "Dedicated to fallen fighters of the People’s Liberation Struggle from this part of Bjelopavlići. Ranko Radović’s complex consists of concrete pillars bearing memorial panels."
+        },
+        "wiki": "https://volimdanilovgrad.me/mjestani-ocistili-okolinu-memorijalnog-kompleksa-ljutotuk/"
+      },
+      "gornji-milanovac": {
+        "opis": {
+          "sh": "Posvećeno borcima i žrtvama Drugog svetskog rata, uključujući jugoslovenske zatočenike stradale u logorima u Norveškoj. Park obuhvata grobnice partizana i crvenoarmejaca, spomenike internircima i biste narodnih heroja.",
+          "en": "Dedicated to fighters and victims of the Second World War, including Yugoslav prisoners who died in camps in Norway. The park encompasses Partisan and Red Army graves, monuments to internees and busts of National Heroes."
+        }
+      },
+      "adasevci": {
+        "opis": {
+          "sh": "Posvećeno poginulim borcima na [Sremskom frontu](Q3299011) 1944-1945. godine. Memorijal objedinjuje skulpture, natpise sa imenima palih i muzejsku postavku o završnim borbama za oslobođenje Jugoslavije.",
+          "en": "Dedicated to fighters killed on the [Syrmian Front](Q3299011) in 1944-1945. The memorial brings together sculptures, inscriptions naming the fallen and a museum exhibition on the final battles for the liberation of Yugoslavia."
+        }
+      },
+      "dola": {
+        "opis": {
+          "sh": "Posvećeno civilnim žrtvama [masakra u Pivskoj župi](Q112968013), koje su nacističke snage ubile u Dolima 7. juna 1943. godine. Među stradalima bio je veliki broj dece.",
+          "en": "Dedicated to civilian victims of the [Doli Pivski massacre](Q112968013), killed by Nazi forces at Dola on 7 June 1943. Many of the victims were children."
+        }
+      },
+      "zabalj-spomen-kompleks-crna-cuprija": {
+        "opis": {
+          "sh": "Posvećeno žrtvama fašističkog terora i Narodnooslobodilačkoj borbi naroda Šajkaške. Kompleks na potesu Crna Ćuprija čuva sećanje na stradanje stanovnika žabaljskog kraja i Šajkaški partizanski odred.",
+          "en": "Dedicated to victims of fascist terror and the People’s Liberation Struggle of the Šajkaška region. The complex at Crna Ćuprija commemorates the suffering of residents of the Žabalj area and the Šajkaš Partisan Detachment."
+        },
+        "godina": "1962",
+        "autor": "Jovan Soldatović"
+      },
+      "drakcici-spomen-park": {
+        "opis": {
+          "sh": "Posvećeno borcima odreda „Jovo Kursula“ i prvoj upotrebi partizanske artiljerije u borbama za Kraljevo 1941. godine. Celina na Ružića brdu obuhvata spomen-kamen i izloženi top.",
+          "en": "Dedicated to fighters of the Jovo Kursula Detachment and the first use of Partisan artillery in the battles for Kraljevo in 1941. The memorial on Ružića Hill comprises a memorial stone and a displayed cannon."
+        },
+        "naziv": "Spomen-park Ružića brdo",
+        "nazivEn": "Ružića Hill Memorial Park",
+        "adresa": "Ružića brdo"
+      },
+      "koceljeva-spomen-park": {
+        "opis": {
+          "sh": "Posvećeno palim borcima Koceljeve i Subotice u Drugom svetskom ratu. Uz spomenik sa imenima poginulih nalazi se bista narodnog heroja Milorada Stanojlovića.",
+          "en": "Dedicated to fallen fighters from Koceljeva and Subotica during the Second World War. A bust of National Hero Milorad Stanojlović stands beside the monument bearing the names of the fallen."
+        },
+        "nazivEn": "Memorial Park"
+      },
+      "minicevo-spomen-park": {
+        "opis": {
+          "sh": "Posvećeno palim borcima i žrtvama ratova 1912-1918. i 1941-1945. godine, kao i narodnom heroju Milunu Miniću Šumadincu. Memorijalna celina otkrivena je 7. jula 1991. godine.",
+          "en": "Dedicated to fallen fighters and victims of the wars of 1912-1918 and 1941-1945, and to National Hero Milun Minić Šumadinac. The memorial was unveiled on 7 July 1991."
+        },
+        "nazivEn": "Memorial Park"
+      },
+      "prhovo-spomen-park": {
+        "opis": {
+          "sh": "Posvećeno palim borcima i žrtvama Prvog i Drugog svetskog rata iz Prhova. Uređeni prostor objedinjuje spomenike i ploče sa imenima stradalih meštana.",
+          "en": "Dedicated to fallen fighters and victims of the First and Second World Wars from Prhovo. The landscaped site brings together monuments and plaques bearing the names of local victims."
+        },
+        "nazivEn": "Memorial Park"
+      },
+      "podi-spomen-kompleks": {
+        "opis": {
+          "sh": "Posvećeno [Nikoli Đurkoviću](Q25468925), Savu Iliću, Dašu Pavičiću i Stijepu Šarencu, poginulim na Podima u januaru 1943. godine. Celina obuhvata memorijalnu kuću i spomen-ploču.",
+          "en": "Dedicated to [Nikola Đurković](Q25468925), Savo Ilić, Dašo Pavičić and Stijepo Šarenac, killed at Podi in January 1943. The complex includes a memorial house and a commemorative plaque."
+        },
+        "nazivEn": "Memorial Complex",
+        "posveta": [
+          "Q25468925"
+        ]
+      }
+    },
+    "dokazi": {
+      "jasenovac-spomen-podrucje-jasenovac": {
+        "url": "https://www.jusp-jasenovac.hr/Default.aspx?sid=5028",
+        "dopunski": "https://jusp-jasenovac.hr/Default.aspx?sid=5056",
+        "nalaz": "Zvanični istorijat spomen-područja i Memorijalnog muzeja. Godina osnivanja ustanove 1968. preneta u opis, ne zamenjuje samostalno godinu celog spomeničkog prostora."
+      },
+      "jabuka": {
+        "url": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%A1%D1%82%D1%80%D0%B0%D1%82%D0%B8%D1%88%D1%82%D0%B5"
+      },
+      "stuti": {
+        "url": "https://hr.wikipedia.org/wiki/Spomen_podru%C4%8Dje_Ti%C4%8Dan",
+        "dopunski": "https://tehnika.lzmk.hr/sila-zdenko/",
+        "nalaz": "Leksikografski zavod potvrđuje autora Zdenka Silu i 1965. za područje Tičan. Iz članka nisu preneti sporni detalji o Romelu/Afrika korpusu; opis ograničen na borce i meštane stradale u septembru 1943."
+      },
+      "sibenik-spomen-park-subicevac": {
+        "url": "https://sh.wikipedia.org/wiki/Spomen-park_%C5%A0ubi%C4%87evac"
+      },
+      "bobulja": {
+        "url": "https://volimdanilovgrad.me/mjestani-ocistili-okolinu-memorijalnog-kompleksa-ljutotuk/",
+        "kopija_wiki": "izvori/xiwl/deo-0024.json",
+        "nalaz": "Lokalni članak potvrđuje memorijal 337 palih, Ranka Radovića i otvaranje 13.7.1975. Na stranici Spomenik Database o Obadovom brijegu opis Ljutotuka pripada drugoj celini; tačke i autori nisu pomešani."
+      },
+      "gornji-milanovac": {
+        "url": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%91%D1%80%D0%B4%D0%BE_%D0%BC%D0%B8%D1%80%D0%B0"
+      },
+      "adasevci": {
+        "url": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BE%D0%B1%D0%B5%D0%BB%D0%B5%D0%B6%D1%98%D0%B5_%D0%A1%D1%80%D0%B5%D0%BC%D1%81%D0%BA%D0%B8_%D1%84%D1%80%D0%BE%D0%BD%D1%82"
+      },
+      "dola": {
+        "url": "https://parkpiva.com/saopstenje-za-javnost/",
+        "dopunski": "https://wapi.gov.me/download/45097246-c49e-4818-a06a-b3861105d8a2?version=1.0",
+        "nalaz": "Upravljač Parka prirode Piva i državni izveštaj potvrđuju 7. jun 1943, za razliku od pogrešnog 7. jula na Spomenik Database. Datum ispravljen pre novog opisa."
+      },
+      "zabalj-spomen-kompleks-crna-cuprija": {
+        "url": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%A6%D1%80%D0%BD%D0%B0_%D0%8B%D1%83%D0%BF%D1%80%D0%B8%D1%98%D0%B0"
+      },
+      "drakcici-spomen-park": {
+        "kopija_wiki": "izvori/xiwl/deo-0054.json",
+        "url": "https://www.rts.rs/page/stories/sr/story/57/srbija-danas/2730786/pocela-obnova-spomen-kompleksa-na-ruzica-brdu.html",
+        "nalaz": "Sačuvani pojedinačni članak opisuje spomen-kamen borcima i top prve partizanske artiljerije u borbama za Kraljevo; prenet naziv lokacije. Direktni RTS link nije bio dostupan."
+      },
+      "koceljeva-spomen-park": {
+        "kopija_wiki": "izvori/xiwl/deo-0104.json",
+        "url": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf",
+        "nalaz": "Pojedinačni Wiki članak navodi str. 161 knjige: pali borci Koceljeve i Subotice, bista Milorada Stanojlovića. Broj imena nije dodat."
+      },
+      "minicevo-spomen-park": {
+        "kopija_wiki": "izvori/xiwl/deo-0146.json",
+        "url": "https://podaci.com/_gRoute/_Vikend-u-opstini-Knjazevac-52587.php",
+        "nalaz": "Sačuvani pojedinačni članak: ratovi 1912-1918 i 1941-1945, Milun Minić, otkrivanje 7.7.1991."
+      },
+      "prhovo-spomen-park": {
+        "kopija_wiki": "izvori/xiwl/deo-0185.json",
+        "url": "https://pecinci.org/info/aktuelno.10.html?idvest=4122",
+        "nalaz": "Pojedinačni Wiki članak: spomenici palim borcima i žrtvama oba svetska rata. Nije potvrđena veza pretpostavljene Soldatovićeve skulpture ili današnje biste, pa autor nije dopisan."
+      },
+      "podi-spomen-kompleks": {
+        "kopija_wiki": "izvori/xiwl/deo-0178.json",
+        "url": "https://subnora.me/sjecanje-na-heroje-i-prvoborce/",
+        "nalaz": "SUBNOR, 24.1.2025: četiri imenovana borca; potvrđen Dašo Pavičić, ne Dapčević iz pogrešnog Wiki sažetka. Nikoli Đurkoviću pridružena postojeća Q-posveta. Nije promenjena približna tačka."
+      }
+    },
+    "ishod": "Dopunjeno 14 dvojezičnih opisa, autor Tičana i autor/godina Crne Ćuprije, nazivi i dve konkretne veze ka člancima. Zadržani svi postojeći ID-jevi, koordinate i fotografije.",
+    "dilema": "Fotografije iz sačuvanog xiwl indeksa za šest manjih parkova već su bile označene kao odbačene. Ponovnim pregledom potvrđeni razlozi; nijedna nije dodata. Klajić nema potvrđenu posvetu u dostupnom članku, pa nije proizvoljno opisan kao NOB; kandidat ostaje za posebno razrešenje. U Crnoj Ćupriji izvori navode januar/februar 1942, pa opis ne tvrdi tačan datum stratišta. Drakčići: 1952. spomen-kamen, kasniji top 1962/1964; godina nije menjana. Parkovi imaju više faza i autora; pojedinačni autori skulptura nisu automatski pripisivani čitavim parkovima."
+  },
+  {
+    "odluka": "ilirska-bistrica-statua-prekomorcima-2026-10-21",
+    "datum": "2026-10-21",
+    "izvor": "https://www.kamra.si/album-slovenije/prekomorci-so-dobili-spomenik-ilirska-bistrica-1973/",
+    "dopunjeno": {
+      "ilirska-bistrica-spomenik-tretji-prekomorski-briga": {
+        "autor": {
+          "staro": "Janez Lenasi",
+          "novo": "Jože Pohlen"
+        },
+        "godina": {
+          "staro": "1965",
+          "novo": "1973"
+        },
+        "adresa": "Park pred OŠ Dragotina Ketteja, Gregorčičeva cesta 8"
+      }
+    },
+    "razresenaDilema": "Partizanstvo (zapis 1367, izvori/partizanstvo/full-partisanmemorial.json): „dva metra visoka plastika partizana, kip Jožeta Pohlena“, posvećena Trećoj prekomorskoj udarnoj brigadi, otkrivena 1973 (Kamra); Lenassi 1965 je autor kocke na Hribu svobode (zapis ilirska-bistrica), što potvrđuju arhitektonski bilten i spomenikdatabase",
+    "dokazi": [
+      "https://www.spomenikdatabase.org/ilirska-bistrica",
+      "https://www.kamra.si/album-slovenije/prekomorci-so-dobili-spomenik-ilirska-bistrica-1973/"
+    ]
   }
 ]
