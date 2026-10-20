@@ -15088,5 +15088,1111 @@
     },
     "prikaz": "Proverena dva filtera i njihove ikonice na telefonu 390x844.",
     "napomena": "Spisak bez lokacije nije menjan; nejasne stavke su nizi prioritet do boljeg dokaza. Istaknute celine Mostara, Beograda, Prilepa, Stipa i Sremske Mitrovice sacuvane."
+  },
+  "ranijiDokaziZaOstaleZapise": [
+    {
+      "id": "banja-luka-spomen-kosturnica",
+      "razlog": "Kosturnica sa projektovanom kompozicijom dva velika trouglasta krila; nema zasebnog groblja.",
+      "fotografija": "slike/spomenici/banja-luka-spomen-kosturnica.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Banja_Luka_%28Drakuli%C4%87%29_-_Spomen_Kosturnica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/index.php/Banja_Luka_%28Drakuli%C4%87%29_-_Spomen_Kosturnica",
+          "naslov": "Banja Luka (Drakulić) - Spomen Kosturnica",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0013.json"
+        }
+      ]
+    },
+    {
+      "id": "dubica-urije-spomen-kosturnica",
+      "razlog": "Zapis predstavlja jednu kosturnicu sa Jančićevom figuralnom skulpturom i reljefnim zidom, unutar šireg običnog groblja; obuhvaćena je umetnička celina kosturnice.",
+      "fotografija": "slike/spomenici/dubica-urije-spomen-kosturnica.webp",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/kozarskadubica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/index.php/Dubica_-_Spomen_Kosturnica_i_Spomenik_Stojanka_Majka_Kne%C5%BEopoljka",
+          "naslov": "Dubica - Spomen Kosturnica i Spomenik Stojanka Majka Knežopoljka",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0056.json"
+        }
+      ]
+    },
+    {
+      "id": "fojnica-spomen-kosturnica",
+      "razlog": "Jedna kosturnica sa autorskim reljefom i kružnim ornamentom Ranka Milanovića.",
+      "fotografija": "slike/spomenici/fojnica-spomen-kosturnica.webp",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/fojnica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/index.php/Fojnica_-_Spomen_Kosturnica",
+          "naslov": "Fojnica - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0062.json"
+        }
+      ]
+    },
+    {
+      "id": "gornji-podgradci-spomen-grobnica-69-palih-boraca-n",
+      "razlog": "Jedna grobnica sa izraženom vajarskom kompozicijom krila uz visoki središnji stub.",
+      "fotografija": "slike/spomenici/gornji-podgradci-spomen-grobnica-69-palih-boraca-n.webp",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/gradiska",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/index.php/Gornji_Podgradci_-_Spomen_Grobnica",
+          "naslov": "Gornji Podgradci - Spomen Grobnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0072.json"
+        }
+      ]
+    },
+    {
+      "id": "ilijas-alica-gaj-spomen-kosturnica",
+      "razlog": "Jedna kosturnica sa apstraktnom dvodelnom skulpturom plamena i bočnim arhitektonskim elementima.",
+      "fotografija": "slike/spomenici/ilijas-alica-gaj-spomen-kosturnica.webp",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/ilijas",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/index.php/Ilija%C5%A1_-_Spomen_Kosturnica",
+          "naslov": "Ilijaš - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0082.json"
+        }
+      ]
+    },
+    {
+      "id": "josava-kosturnica-15-partizanskih-boraca",
+      "razlog": "Jedna kosturnica sa figuralnim ratnim reljefom na zasebnom postamentu.",
+      "fotografija": "slike/spomenici/josava-kosturnica-15-partizanskih-boraca.webp",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/doboj",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/index.php/Jo%C5%A1ava_-_Spomen_Kosturnica",
+          "naslov": "Jošava - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0093.json"
+        }
+      ]
+    },
+    {
+      "id": "modrica-spomen-kosturnica-partizanskih-boraca",
+      "razlog": "Kosturnicu obeležava samostalna realistična figura borca sa podignutom rukom; susedni Spomenik NOB je drugi objekat i ima zaseban zapis.",
+      "fotografija": "slike/spomenici/modrica-spomen-kosturnica-partizanskih-boraca.webp",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/modrica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/index.php/Modri%C4%8Da_-_Spomen_Kosturnica",
+          "naslov": "Modriča - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0149.json"
+        },
+        {
+          "url": "https://www.xiwl.com/index.php/Modri%C4%8Da_-_Spomenik_NOB",
+          "naslov": "Modriča - Spomenik NOB",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0150.json"
+        }
+      ]
+    },
+    {
+      "id": "pridjel-donji-spomen-kosturnica",
+      "razlog": "Jedna kosturnica sa dva velika zakrivljena betonska kraka, stubovima i zidovima sa imenima.",
+      "fotografija": "slike/spomenici/pridjel-donji-spomen-kosturnica.webp",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/doboj",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/index.php/Pridjel_Donji_-_Spomen_Kosturnica",
+          "naslov": "Pridjel Donji - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0185.json"
+        }
+      ]
+    },
+    {
+      "id": "prijedor-masovna-grobnica-zrtava-fasistickog-teror",
+      "razlog": "Jedna masovna grobnica sa apstraktnom metalnom kompozicijom železničkih elemenata i reljefnim zidom Hidajeta Karabašića.",
+      "fotografija": "slike/spomenici/prijedor-masovna-grobnica-zrtava-fasistickog-teror.webp",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/prijedor",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/index.php/Prijedor_-_Grobnica_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+          "naslov": "Prijedor - Grobnica Žrtvama Fašističkog Terora",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0185.json"
+        }
+      ]
+    },
+    {
+      "id": "sarajevo-vraca-grobnica-narodnih-heroja",
+      "razlog": "Zasebna projektovana grobnica: centralna granitna prizma i kružno raspoređeni blokovi sa imenima 26 heroja; zapis ne predstavlja ceo park Vraca.",
+      "fotografija": "slike/spomenici/sarajevo-vraca-grobnica-narodnih-heroja.webp",
+      "izvori": [
+        {
+          "url": "https://sr.wikipedia.org/wiki/%D0%93%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86%D0%B0_%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B8%D1%85_%D1%85%D0%B5%D1%80%D0%BE%D1%98%D0%B0_%D1%83_%D0%A1%D0%B0%D1%80%D0%B0%D1%98%D0%B5%D0%B2%D1%83",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/index.php/Sarajevo_-_Vraca_Memorial_Park",
+          "naslov": "Sarajevo - Vraca Memorial Park",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0203.json"
+        },
+        {
+          "url": "https://bkc.ba/teatarski-spektakl-ljetopis-o-kralju-tvrtku-na-vracama-27-jula/",
+          "uloga": "opis zasebne grobnice, granitne prizme i kružnih blokova sa imenima"
+        }
+      ]
+    },
+    {
+      "id": "seliste",
+      "razlog": "Jedna kosturnica sa šest izvijenih stubova Hasana Dizdarevića koji se sastaju iznad natpisa.",
+      "fotografija": "slike/spomenici/seliste.webp",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/mostar",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/index.php/Kru%C5%A1evo_%28Mostar%29_-_Spomen_Kosturnica",
+          "naslov": "Kruševo (Mostar) - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0114.json"
+        }
+      ]
+    },
+    {
+      "id": "smoljana",
+      "razlog": "Jedna kosturnica sa povezanom apstraktnom kompozicijom četiri betonska elementa Latinovića i Kudića.",
+      "fotografija": "slike/spomenici/smoljana.webp",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/bosanskipetrovac",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/index.php/Smoljana_-_Spomen_Kosturnica_Palim_Borcima",
+          "naslov": "Smoljana - Spomen Kosturnica Palim Borcima",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0212.json"
+        },
+        {
+          "url": "https://www.xiwl.com/index.php/Smoljana_-_Spomen_%C4%8Cesma",
+          "naslov": "Smoljana - Spomen Česma",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0212.json"
+        }
+      ]
+    },
+    {
+      "id": "sokolac",
+      "razlog": "Jedna kosturnica sa dominantnom samostalnom figurom borca na postamentu; nije celo groblje niti susedni Park boraca Romanije.",
+      "fotografija": "slike/spomenici/sokolac.webp",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/sokolac",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.spomenicinob.info/sokolac",
+          "uloga": "potvrda zasebne kosturnice iz 1951. godine"
+        }
+      ]
+    },
+    {
+      "id": "tjentiste-grob-nurije-pozderca",
+      "razlog": "Pojedinačni grob Nurije Pozderca sa izrazitom apstraktnom skulpturom Miodraga Živkovića.",
+      "fotografija": "slike/spomenici/tjentiste-grob-nurije-pozderca.webp",
+      "izvori": [
+        {
+          "url": "https://www.openstreetmap.org/node/10693539671",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/index.php/Sutjeska_-_Grob_Nurije_Pozderca",
+          "naslov": "Sutjeska - Grob Nurije Pozderca",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0222.json"
+        },
+        {
+          "url": "https://www.xiwl.com/index.php/Sutjeska_-_Partisan_Hospital_Memorial",
+          "naslov": "Sutjeska - Partisan Hospital Memorial",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0223.json"
+        }
+      ]
+    },
+    {
+      "id": "tjentiste-savin-grob",
+      "razlog": "Pojedinačni Savin grob sa velikom trouglastom apstraktnom skulpturom Miodraga Živkovića.",
+      "fotografija": "slike/spomenici/tjentiste-savin-grob.webp",
+      "izvori": [
+        {
+          "url": "https://www.openstreetmap.org/node/7773550548",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/index.php/Sutjeska_-_Savin_Grob",
+          "naslov": "Sutjeska - Savin Grob",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0223.json"
+        }
+      ]
+    },
+    {
+      "id": "tjentiste-spomenik-kragujevackom-bataljonu",
+      "razlog": "Zasebno vajarsko delo Miodraga Živkovića sa krilastim geometrijskim oblikom, bez grobljanskog polja.",
+      "fotografija": "slike/spomenici/tjentiste-spomenik-kragujevackom-bataljonu.webp",
+      "izvori": [
+        {
+          "url": "https://www.openstreetmap.org/node/12073244619",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/index.php/Sutjeska_-_Spomenik_Kragujevac_Battalion",
+          "naslov": "Sutjeska - Spomenik Kragujevac Battalion",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0223.json"
+        }
+      ]
+    },
+    {
+      "id": "turbe",
+      "razlog": "Autorska arhitektonsko-vajarska celina jedne kosturnice sa fontanom, reljefnim zidom i skulpturom; nije izdvojena samo jedna figura.",
+      "fotografija": "slike/spomenici/turbe.webp",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/travnik",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/index.php/Turbe_-_Spomen_Kosturnica_Palim_Borcima",
+          "naslov": "Turbe - Spomen Kosturnica Palim Borcima",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0232.json"
+        }
+      ]
+    },
+    {
+      "id": "vares-spomen-kosturnica",
+      "razlog": "Jedna kosturnica sa organskom apstraktnom kamenom skulpturom Zlatka Ugljena.",
+      "fotografija": "slike/spomenici/vares-spomen-kosturnica.webp",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/vares",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/index.php/Vare%C5%A1_-_Spomen_Kosturnica",
+          "naslov": "Vareš - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0236.json"
+        }
+      ]
+    },
+    {
+      "id": "zvornik-spomen-kosturnica",
+      "razlog": "Jedna kosturnica sa projektovanom zakrivljenom kompozicijom zida, metalnog reljefa i figura.",
+      "fotografija": "slike/spomenici/zvornik-spomen-kosturnica.webp",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/zvornik",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/index.php/Zvornik_-_Spomen_Kosturnica",
+          "naslov": "Zvornik - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0260.json"
+        }
+      ]
+    },
+    {
+      "id": "samac-kosturnica-palih-boraca-1990",
+      "razlog": "Jedna kosturnica sa velikim cilindričnim perforiranim stubom autora Jezdimirovića, Kostića i Grabovca, bez polja odvojenih grobova.",
+      "fotografija": "slike/spomenici/samac-kosturnica-palih-boraca-1990.webp",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/samac",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/%C5%A0amac_-_Spomenik_Palim_Antifa%C5%A1istima",
+          "naslov": "Šamac - Spomenik Palim Antifašistima",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0267.json"
+        }
+      ]
+    },
+    {
+      "id": "zepce-spomen-kosturnica",
+      "razlog": "Jedna kosturnica sa Handžićevom kompozicijom sunca, reljefnih ruku i kružnih elemenata koji se šire ka postolju.",
+      "fotografija": "slike/spomenici/zepce-spomen-kosturnica.webp",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/zepce",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/%C5%BDep%C4%8De_-_Spomen_Kosturnica",
+          "naslov": "Žepče - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0273.json"
+        }
+      ]
+    },
+    {
+      "id": "beli-manastir-spomen-kosturnica",
+      "razlog": "Jedna kosturnica kao umetnička celina reljefnog zida Velibora Mačukatina, metalnog obeležja i tri biste; zapis nije celo gradsko groblje.",
+      "fotografija": "slike/spomenici/beli-manastir-spomen-kosturnica.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Beli_Manastir_-_Spomen_Kosturnica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Beli_Manastir_-_Spomen_Kosturnica",
+          "naslov": "Beli Manastir - Spomen Kosturnica",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0017.json"
+        }
+      ]
+    },
+    {
+      "id": "delnice-spomen-kosturnica",
+      "razlog": "Zapis konkretne kosturnice sa velikom plastično oblikovanom belom petokrakom iznad nje; ostali grobovi na gradskom groblju nisu obuhvat ovog zapisa.",
+      "fotografija": "slike/spomenici/delnice-spomen-kosturnica.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Delnice_-_Spomen_Kosturnica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Delnice_-_Spomen_Kosturnica",
+          "naslov": "Delnice - Spomen Kosturnica",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0043.json"
+        }
+      ]
+    },
+    {
+      "id": "drnis-spomen-kosturnica",
+      "razlog": "Jedna kosturnica sa većom asimetričnom kamenom kompozicijom i kružnim elementom za večni plamen ispred nje, bez grobljanskog polja.",
+      "fotografija": "slike/spomenici/drnis-spomen-kosturnica.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Drni%C5%A1_-_Spomen_Kosturnica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Drni%C5%A1_-_Spomen_Kosturnica",
+          "naslov": "Drniš - Spomen Kosturnica",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0055.json"
+        }
+      ]
+    },
+    {
+      "id": "hreljin-spomen-kosturnica",
+      "razlog": "Projektovana kružna podzemna kripta sa tri pristupa, centralnom platformom i krovom na tri stuba; arhitektonsko delo, a ne jednostavna grobna ploča.",
+      "fotografija": "slike/spomenici/hreljin-spomen-kosturnica.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Hreljin_-_Spomen_Kosturnica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Hreljin_-_Spomen_Kosturnica",
+          "naslov": "Hreljin - Spomen Kosturnica",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0079.json"
+        }
+      ]
+    },
+    {
+      "id": "kraljevica-spomen-grobnica",
+      "razlog": "Uravićkina arhitektonsko-vajarska grobnica sa pomerenim kamenim diskovima i stazom od kružnih ploča različitih prečnika.",
+      "fotografija": "slike/spomenici/kraljevica-spomen-grobnica.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Kraljevica_-_Spomen_Grobnica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Kraljevica_-_Spomen_Grobnica",
+          "naslov": "Kraljevica - Spomen Grobnica",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0111.json"
+        }
+      ]
+    },
+    {
+      "id": "miocic-spomen-grobnica",
+      "razlog": "Jedna spomen-grobnica sa velikom betonskom zvezdom na postolju oblika T; delo ostaje spomenik i kada je oštećeno i oboreno.",
+      "fotografija": "slike/spomenici/miocic-spomen-grobnica.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Mio%C4%8Di%C4%87_-_Spomen_Grobnica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Mio%C4%8Di%C4%87_-_Spomen_Grobnica",
+          "naslov": "Miočić - Spomen Grobnica",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0147.json"
+        }
+      ]
+    },
+    {
+      "id": "perusic-spomen-kosturnica",
+      "razlog": "Jedna kosturnica sa velikim figuralnim ratnim reljefom i zasebnim kamenom posvete na projektovanoj platformi.",
+      "fotografija": "slike/spomenici/perusic-spomen-kosturnica.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Peru%C5%A1i%C4%87_-_Spomen_Kosturnica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Peru%C5%A1i%C4%87_-_Spomen_Kosturnica",
+          "naslov": "Perušić - Spomen Kosturnica",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0172.json"
+        }
+      ]
+    },
+    {
+      "id": "viktorovac-cemetery",
+      "razlog": "Zapis izričito predstavlja Augustinčićevo delo Zastava, veliku trouglastu arhitektonsku kompoziciju iznad grobnice; nije celo groblje Viktorovac.",
+      "fotografija": "slike/spomenici/viktorovac-cemetery.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Sisak_-_Spomenik_Zastava",
+          "naslov": "Sisak - Spomenik Zastava",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0208.json"
+        }
+      ]
+    },
+    {
+      "id": "varazdin-cemetery",
+      "razlog": "Jedna kosturnica sa kompozicijom četiri zašiljena zida i apstraktnim metalnim elementom; susedne biste i grobovi gradskog groblja nisu obuhvat zapisa.",
+      "fotografija": "slike/spomenici/varazdin-cemetery.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Vara%C5%BEdin_%E2%80%93_Spomen_Kosturnica",
+          "naslov": "Varaždin – Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0236.json"
+        }
+      ]
+    },
+    {
+      "id": "mirogoj-cemetery-tomb-people-s",
+      "razlog": "Zasebna projektovana grobnica narodnih heroja sa velikim isklesanim motivom zastave, središnjom grobnom pločom i platformom Đure Kavurića; druge celine Mirogoja nisu ovaj zapis.",
+      "fotografija": "slike/spomenici/mirogoj-cemetery-tomb-people-s.webp",
+      "izvori": [
+        {
+          "url": "https://skupstina.zagreb.hr/obiljezavanje-dana-europe-i-dana-pobjede-nad-fasizmom/4073",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Zagreb_-_Mirogoj_Cemetery_-_Grobnica_Narodnih_Heroja_u_Zagrebu",
+          "naslov": "Zagreb - Mirogoj Cemetery - Grobnica Narodnih Heroja u Zagrebu",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0255.json"
+        }
+      ]
+    },
+    {
+      "id": "cakovec-cemetery",
+      "razlog": "Konkretni spomenik Tuga čini figuralna grupa tri žene koje drže palog borca na postamentu; zapis nije celo čakovečko groblje.",
+      "fotografija": "slike/spomenici/cakovec-cemetery.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/%C4%8Cakovec_-_Spomenik_Palim_Borcima",
+          "naslov": "Čakovec - Spomenik Palim Borcima",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0261.json"
+        }
+      ]
+    },
+    {
+      "id": "bijov-grob-spomenik-nob",
+      "razlog": "Izvor opisuje obeležje prvih borbi iz 1941, u vidu jednostavnog kamenog stuba sa pločom; Bijov Grob je naziv mesta i nije dokaz da je objekat grobnica.",
+      "fotografija": "slike/spomenici/bijov-grob-spomenik-nob.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Bijov_Grob_-_Spomenik_NOB",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Bijov_Grob_-_Spomenik_NOB",
+          "naslov": "Bijov Grob - Spomenik NOB",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0021.json"
+        }
+      ]
+    },
+    {
+      "id": "majstori-spomen-grobnica-palih-boraca",
+      "razlog": "Jedna spomen-kosturnica sa velikom zidanom piramidom, kružnom pločom i stepenastim postamentom kao jedinstvenom arhitektonskom kompozicijom.",
+      "fotografija": "slike/spomenici/majstori-spomen-grobnica-palih-boraca.webp",
+      "izvori": [
+        {
+          "url": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A6%D1%80%D0%BD%D0%BE%D1%98_%D0%93%D0%BE%D1%80%D0%B8",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Majstori_-_Spomen_Kosturnica",
+          "naslov": "Majstori - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0131.json"
+        }
+      ]
+    },
+    {
+      "id": "pljevlja-spomen-grobnica-bosku-buhi",
+      "razlog": "Zasebna grobnica Boška Buhe sa skulpturalnim nadgrobnim obeležjem u obliku stilizovane školske klupe, a ne celo pljevaljsko groblje.",
+      "fotografija": "slike/spomenici/pljevlja-spomen-grobnica-bosku-buhi.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Pljevlja_-_Spomen_Grobnica_Bo%C5%A1ku_Buhi",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Pljevlja_-_Spomen_Grobnica_Bo%C5%A1ku_Buhi",
+          "naslov": "Pljevlja - Spomen Grobnica Bošku Buhi",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0177.json"
+        }
+      ]
+    },
+    {
+      "id": "pljevlja-spomen-kosturnica-senjaku",
+      "razlog": "Jedna kosturnica sa autorskom radijalnom kompozicijom belih betonskih ploča Milovana Stevovića i zakrivljenim zidom.",
+      "fotografija": "slike/spomenici/pljevlja-spomen-kosturnica-senjaku.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Pljevlja_-_Spomen_Kosturnica_Senjaku",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Pljevlja_-_Spomen_Kosturnica_Senjaku",
+          "naslov": "Pljevlja - Spomen Kosturnica Senjaku",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0177.json"
+        }
+      ]
+    },
+    {
+      "id": "beograd-grobnica-narodnih-heroja",
+      "razlog": "Zasebna arhitektonsko-vajarska celina četiri herojska groba sa mermernom pozadinom, bistama i stepenastim prilazom; ne svodi se na jedan jednostavan grob ili jednu bistu.",
+      "fotografija": "slike/spomenici/beograd-grobnica-narodnih-heroja.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Beograd_-_Tomb_of_National_Heroes",
+          "naslov": "Beograd - Tomb of National Heroes",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0019.json"
+        },
+        {
+          "url": "https://www.beogradskatvrdjava.co.rs/%D0%B3%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86%D0%B0-%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B8%D1%85-%D1%85%D0%B5%D1%80%D0%BE%D1%98%D0%B0/?lang=la",
+          "uloga": "Zvanični opis četiri grobna mesta sa bistama."
+        }
+      ]
+    },
+    {
+      "id": "bor-ossuary-at-new",
+      "razlog": "Zapis predstavlja konkretnu kosturnicu sa velikom apstraktnom kompozicijom međusobno uklopljenih kamenih kubusa; ne obuhvata celo Novo groblje.",
+      "fotografija": "slike/spomenici/bor-ossuary-at-new.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Bor_-_Spomenik_Jevrejima_%C5%BDrtvama_Fa%C5%A1izma",
+          "naslov": "Bor - Spomenik Jevrejima Žrtvama Fašizma",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0026.json"
+        }
+      ]
+    },
+    {
+      "id": "donja-trepca-spomen-kosturnica",
+      "razlog": "Jedna kosturnica sa oblikovanom kompozicijom kosog kamenog zida, baklje i dvostruke kružne platforme sa zvezdom iznad grobnice.",
+      "fotografija": "slike/spomenici/donja-trepca-spomen-kosturnica.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Donja_Trepca_%E2%80%93_Spomen_Kosturnica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Donja_Trepca_%E2%80%93_Spomen_Kosturnica",
+          "naslov": "Donja Trepca – Spomen Kosturnica",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0049.json"
+        }
+      ]
+    },
+    {
+      "id": "gornji-milanovac-spomenik-na-zajednickoj-grobnici",
+      "razlog": "Konkretna kosturnica boraca takovskog kraja sa zasebnim oblikovanim crvenim granitnim spomenikom obrnutopiramidalnog oblika; nije ceo park Brdo mira.",
+      "fotografija": "slike/spomenici/gornji-milanovac-spomenik-na-zajednickoj-grobnici.webp",
+      "izvori": [
+        {
+          "url": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=50",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gornji_Milanovac_-_Spomen_Park_Brdo_Mira",
+          "naslov": "Gornji Milanovac - Spomen Park Brdo Mira",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0072.json"
+        },
+        {
+          "url": "https://sr.wikipedia.org/wiki/%D0%9A%D0%BE%D1%81%D1%82%D1%83%D1%80%D0%BD%D0%B8%D1%86%D0%B0_%D0%BF%D0%B0%D0%BB%D0%B8%D1%85_%D0%B1%D0%BE%D1%80%D0%B0%D1%86%D0%B0_%D1%82%D0%B0%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3_%D0%BA%D1%80%D0%B0%D1%98%D0%B0",
+          "uloga": "Članak o ovoj konkretnoj kosturnici potvrđuje obuhvat i dva zasebna identična spomenika."
+        }
+      ]
+    },
+    {
+      "id": "gornji-milanovac-spomenik-na-zajednickoj-grobnici-2",
+      "razlog": "Druga, zasebna kosturnica crvenoarmejaca sa identično projektovanim crvenim granitnim spomenikom; članak potvrđuje da su dva slična objekta, a ne jedan duplirani zapis.",
+      "fotografija": "slike/spomenici/gornji-milanovac-spomenik-na-zajednickoj-grobnici-2.webp",
+      "izvori": [
+        {
+          "url": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=50",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gornji_Milanovac_-_Spomen_Park_Brdo_Mira",
+          "naslov": "Gornji Milanovac - Spomen Park Brdo Mira",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0072.json"
+        },
+        {
+          "url": "https://sr.wikipedia.org/wiki/%D0%9A%D0%BE%D1%81%D1%82%D1%83%D1%80%D0%BD%D0%B8%D1%86%D0%B0_%D1%86%D1%80%D0%B2%D0%B5%D0%BD%D0%BE%D0%B0%D1%80%D0%BC%D0%B5%D1%98%D0%B0%D1%86%D0%B0",
+          "uloga": "Članak o ovoj konkretnoj kosturnici potvrđuje obuhvat i dva zasebna identična spomenika."
+        }
+      ]
+    },
+    {
+      "id": "ilinci",
+      "razlog": "Jedna kosturnica sa projektovanom kružnom kompozicijom tri polukružna zida različite visine, bez individualnog grobnog polja.",
+      "fotografija": "slike/spomenici/ilinci.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Ilinci_-_Grobnica_Boraca_NOVJ",
+          "naslov": "Ilinci - Grobnica Boraca NOVJ",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0082.json"
+        }
+      ]
+    },
+    {
+      "id": "ivanjica-spomen-grobnica",
+      "razlog": "Jedna zajednička grobnica oblikovana kao velika petokraka u tlu sa obodnim zidom i označenim kracima; arhitektonska kompozicija, a ne celo groblje.",
+      "fotografija": "slike/spomenici/ivanjica-spomen-grobnica.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Ivanjica_-_Spomen_Grobnica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Ivanjica_-_Spomen_Grobnica",
+          "naslov": "Ivanjica - Spomen Grobnica",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0084.json"
+        }
+      ]
+    },
+    {
+      "id": "jelasnica-spomen-kosturnica",
+      "razlog": "Jedna kosturnica sa izduženom plastično oblikovanom zvezdom, figuralnim reljefom i bočnim krilima.",
+      "fotografija": "slike/spomenici/jelasnica-spomen-kosturnica.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Jela%C5%A1nica_%28Knja%C5%BEevac%29_-_Spomen_Kosturnica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Jela%C5%A1nica_%28Knja%C5%BEevac%29_-_Spomen_Kosturnica",
+          "naslov": "Jelašnica (Knjaževac) - Spomen Kosturnica",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0090.json"
+        }
+      ]
+    },
+    {
+      "id": "konarevo-spomenik-deci-izbeglicama",
+      "razlog": "Zapis predstavlja Krunićev piramidalni spomenik deci sa trouglastim plastičnim ornamentima, a ne celo konarevsko groblje.",
+      "fotografija": "slike/spomenici/konarevo-spomenik-deci-izbeglicama.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Konarevo_-_Orphans_Memorial",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Konarevo_-_Orphans_Memorial",
+          "naslov": "Konarevo - Orphans Memorial",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0105.json"
+        }
+      ]
+    },
+    {
+      "id": "sjenica-spomen-kosturnica",
+      "razlog": "Jedna kosturnica sa visokim obeliskom, velikim figuralnim reljefom Borba i polukružnim memorijalnim zidom.",
+      "fotografija": "slike/spomenici/sjenica-spomen-kosturnica.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Sjenica_-_Spomen_Kosturnica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Sjenica_-_Spomen_Kosturnica",
+          "naslov": "Sjenica - Spomen Kosturnica",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0208.json"
+        }
+      ]
+    },
+    {
+      "id": "vrsac-spomen-kosturnica",
+      "razlog": "Zasebna kosturnica sa velikim figuralnim reljefom Ekaterine Ristivojev; druga grobna mesta na gradskom groblju nisu obuhvat ovog zapisa.",
+      "fotografija": "slike/spomenici/vrsac-spomen-kosturnica.webp",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Vr%C5%A1ac_-_Spomen_Kosturnica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Vr%C5%A1ac_-_Spomen_Kosturnica",
+          "naslov": "Vršac - Spomen Kosturnica",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0251.json"
+        }
+      ]
+    },
+    {
+      "id": "babici-spomen-kosturnica",
+      "razlog": "Već pročitan opštinski izveštaj iz 2023. opisuje jednu kosturnicu sa većim mermerom obloženim postamentom u obliku krila i petokrakom, otkrivenu 1985; nema zasebnog grobljanskog polja.",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/gracanica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://gracanica.gov.ba/wp-content/uploads/2023/01/Informacija-o-stanju-spomenika-u-Gradu-Gracanica-1.pdf",
+          "uloga": "Već pročitan opštinski izveštaj, januar 2023, strana 3 PDF-a: opis jedne kosturnice sa krilima i zvezdom."
+        }
+      ]
+    },
+    {
+      "id": "bosanska-bojna-zajednicka-grobnica-9-palih-boraca",
+      "razlog": "Opis konkretne grobnice navodi obelisk kroz koji prolazi uspravna trouglasta ploča na trouglastoj platformi; zasebna arhitektonska kompozicija jedne kosturnice.",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/velikakladusa",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Bosanska_Bojna_-_Groblje_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+          "naslov": "Bosanska Bojna - Groblje Palim Borcima i Žrtvama Fašističkog Terora",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0027.json"
+        }
+      ]
+    },
+    {
+      "id": "busovaca-spomen-kosturnica",
+      "razlog": "Opisi iz oba sačuvana izvora navode Mišićevu aluminijumsku prizmatičnu skulpturu i figuralni reljef na jednoj kosturnici; nije celo groblje.",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/busovaca",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Busova%C4%8Da_-_Spomen_Kosturnica",
+          "naslov": "Busovača - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0036.json"
+        }
+      ]
+    },
+    {
+      "id": "gornja-orahovica-spomen-kosturnica-6-nepoznatih-pa",
+      "razlog": "Već dostupan opis: Jedna kosturnica sa dva oblikovana kamenom obložena krila i horizontalnom pločom nad grobnicom, autorska arhitektonska kompozicija braće Džafić.",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/gracanica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gornja_Orahovica_-_Spomen_Kosturnica",
+          "naslov": "Gornja Orahovica - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0069.json"
+        }
+      ]
+    },
+    {
+      "id": "gornji-ribnik-grob-ive-lole-ribara",
+      "razlog": "Već dostupan opis: Mulabegovićevo zasebno skulpturalno delo nad prvobitnim grobom Ive Lole Ribara: složeni betonski stub nepravilnih oblika sa rascvetanim vrhom i oblikovanom položenom pločom.",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gornji_Ribnik_-_Grob_Ive_Lole_Ribara",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Gornji_Ribnik_-_Grob_Ive_Lole_Ribara",
+          "naslov": "Gornji Ribnik - Grob Ive Lole Ribara",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0072.json"
+        }
+      ]
+    },
+    {
+      "id": "grbavci-spomen-kosturnica",
+      "razlog": "Već dostupan opis: Jedna kosturnica sa samostalno oblikovanim kamenim elementom u obliku peščanog sata; zapis predstavlja tu arhitektonsku kompoziciju, a ne celo groblje.",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Grbavci_%28Zvornik%29_-_Spomen_Kosturnica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Grbavci_%28Zvornik%29_-_Spomen_Kosturnica",
+          "naslov": "Grbavci (Zvornik) - Spomen Kosturnica",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0075.json"
+        }
+      ]
+    },
+    {
+      "id": "hadzici-spomen-kosturnica-13-palih-boraca",
+      "razlog": "Već dostupan opis: Jedna kosturnica sa projektovanom kompozicijom dva konkavna bela kamena elementa koji se naslanjaju jedan na drugi, obnovljena prema projektu Dženane Goleš.",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/hadzici",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Had%C5%BEi%C4%87i_-_Spomen_Kosturnica",
+          "naslov": "Hadžići - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0077.json"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Had%C5%BEi%C4%87i_-_Spomenik_NOB",
+          "naslov": "Hadžići - Spomenik NOB",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0077.json"
+        }
+      ]
+    },
+    {
+      "id": "kasindo-spomen-kosturnica",
+      "razlog": "Već dostupan opis: Jedna Kockovićeva kosturnica sa projektovanim oltarom i nekadašnjom bronzanom statuom borca; zapis obuhvata celu spomeničku kompoziciju, bez individualnih grobnih polja. Krađa statue se ne koristi za svođenje celine na običan grob; stanje nije menjano.",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/istocnailidza",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Kasindo_-_Spomen_Kosturnica",
+          "naslov": "Kasindo - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0099.json"
+        }
+      ]
+    },
+    {
+      "id": "korita-kosturnica-zrtava-fasistickog-terora-sa-spo",
+      "razlog": "Već dostupan opis: Jedna Glidova kosturnica sa apstraktnom figuralnom kompozicijom stradalnika i pesnica i zasebnim zidom sa imenima; nije celo groblje.",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/bileca",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Korita_-_Spomen_Kosturnica",
+          "naslov": "Korita - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0106.json"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Korita_-_Korita_Jama",
+          "naslov": "Korita - Korita Jama",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0106.json"
+        }
+      ]
+    },
+    {
+      "id": "ljubuski-spomen-kosturnica",
+      "razlog": "Već dostupan opis: Jedna Kockovićeva spomenička kompozicija sa okruglim obeliskom i figuralnom grupom borca koji nosi ranjenog druga nad kosturnicom; uklanjanje figure ne menja obuhvat izvornog dela. Stanje nije menjano.",
+      "izvori": [
+        {
+          "url": "https://www.xiwl.com/w/index.php/Ljubu%C5%A1ki_-_Spomen_Kosturnica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Ljubu%C5%A1ki_-_Spomen_Kosturnica",
+          "naslov": "Ljubuški - Spomen Kosturnica",
+          "uparivanje": "izvor zapisa",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0125.json"
+        }
+      ]
+    },
+    {
+      "id": "pale-spomen-kosturnica-boraca-s-pala-i-okoline-sa",
+      "razlog": "Već dostupan opis: Kosturnicu obeležava samostalna realistična figura borca na postamentu uz običan zid sa imenima; zapis predstavlja to figuralno delo nad grobnicom, a ne celo groblje ili susedne biste.",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/pale",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Pale_-_Spomen_Kosturnica",
+          "naslov": "Pale - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0167.json"
+        }
+      ]
+    },
+    {
+      "id": "pilica-spomen-kosturnica-palih-boraca",
+      "razlog": "Već dostupan opis: Jedna kosturnica sa oblikovanom kompozicijom obeliska kroz koji prolaze zakrivljena krila i zasebnim memorijalnim zidom; autorska arhitektonska celina, ne grobljansko polje.",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/zvornik",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Pilica_-_Spomen_Kosturnica",
+          "naslov": "Pilica - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0175.json"
+        }
+      ]
+    },
+    {
+      "id": "podgrab-kosturnica-sa-posmrtnim-ostacima-101-palog",
+      "razlog": "Već dostupan opis: Jedna kosturnica sa projektovanom kompozicijom zida uklopljenog u stenu i zakrivljenog centralnog stuba Ilića i Markovića.",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/pale",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Podgrab_-_Spomen_Kosturnica",
+          "naslov": "Podgrab - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0178.json"
+        }
+      ]
+    },
+    {
+      "id": "potocani-grob-2-nepoznata-partizanska-borca",
+      "razlog": "Već dostupan opis: Pojedinačni zajednički grob obeležen je Handanovićevom i Vajdićevom apstraktnom skulpturom dva betonska bloka suprotnih zakrivljenja; nije obična nadgrobna ploča.",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/doboj",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Poto%C4%8Dani_%28Doboj%29_-_Spomen_Groblje",
+          "naslov": "Potočani (Doboj) - Spomen Groblje",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0183.json"
+        }
+      ]
+    },
+    {
+      "id": "stranjani-spomen-kosturnica",
+      "razlog": "Već dostupan opis: Jedna Perićeva kosturnica sa projektovanom kružnom kompozicijom centralnog obeliska, poluukopane kripte i pet okolnih memorijalnih ploča; nema polja individualnih grobova.",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/zenica",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Stranjani_-_Spomen_Kosturnica",
+          "naslov": "Stranjani - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0220.json"
+        }
+      ]
+    },
+    {
+      "id": "trnovo-spomen-kosturnica-palih-boraca",
+      "razlog": "Već dostupan opis: Konkretno figuralno delo nad kosturnicom prikazuje dva borca u punoj figuri, jednog koji kleči i puca i drugog koji baca bombu; kasnija krađa skulpture ne menja izvorni tip dela. Stanje nije menjano.",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/trnovors",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Trnovo_-_Spomen_Kosturnica",
+          "naslov": "Trnovo - Spomen Kosturnica",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0231.json"
+        }
+      ]
+    },
+    {
+      "id": "tuholj-zajednicka-grobnica-zrtava-fasistickog-tero",
+      "razlog": "Već dostupan opis: Jedna grobnica sa samostalnom oblikovanom kompozicijom stuba i polukružnog elementa sa motivom sunca, uz posebno oblikovan poklopac; nije obična natpisna ploča.",
+      "izvori": [
+        {
+          "url": "https://www.spomenicinob.info/kladanj",
+          "uloga": "izvor zapisa"
+        },
+        {
+          "url": "https://www.xiwl.com/w/index.php/Tuholj_-_Spomen_Groblje",
+          "naslov": "Tuholj - Spomen Groblje",
+          "uparivanje": "blizina-kandidat",
+          "lokalnaKopija": "izvori\\xiwl\\deo-0232.json"
+        }
+      ]
+    }
+  ],
+  "istorijaRadnihProlaza": {
+    "commit": "0512ce8dc0d246820857355a17257919ca1cb445",
+    "fajlovi": [
+      "groblja-plan-deset-prolaza-2026-10-20.json",
+      "groblja-nejasni-spomen-grob-2026-10-20.json",
+      "groblja-prolaz-01-2026-10-20.json",
+      "groblja-prolaz-02-2026-10-20.json",
+      "groblja-prolaz-03-2026-10-20.json",
+      "groblja-prolaz-04-2026-10-20.json",
+      "groblja-prolaz-05-2026-10-20.json",
+      "groblja-prolaz-06-2026-10-20.json",
+      "groblja-prolaz-07-2026-10-20.json"
+    ],
+    "napomena": "Stari plan i prolazi su završeni. Jedinstveni dokazi za zapise van završnog pregleda zadržani su ovde; istorijske klasifikacije i snimci ostaju u Gitu."
   }
 }
