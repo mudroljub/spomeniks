@@ -4650,7 +4650,7 @@
 {"id":"mostar-safet-mujic","koordinate":{"lat":43.3244774,"lng":17.823529},"mesto":"Mostar","naziv":"Bista Safeta Mujića","vrsta":"bista","drzava":"Bosnia and Herzegovina"},
 {"id":"mostar-mustafa-cemalovic-cimba","koordinate":{"lat":43.3345143,"lng":17.8150167},"mesto":"Mostar","naziv":"Bista Mustafe Ćemalovića Ćimbe","vrsta":"bista","drzava":"Bosnia and Herzegovina"},
 {"id":"kozarac-rade-kondic","koordinate":{"lat":44.9749613,"lng":16.8402431},"mesto":"Kozarac","naziv":"Bista Rade Kondića","vrsta":"bista","drzava":"Bosnia and Herzegovina"},
-{"id":"donji-srdjevici-spomenik-na-mjestu-pogibije-danka","koordinate":{"lat":45.006445,"lng":17.5601266},"mesto":"Donji Srđevići","naziv":"Spomenik na mjestu pogibije Danka Mitrova","vrsta":"spomen-obelezje","drzava":"Bosnia and Herzegovina"},
+{"id":"donji-srdjevici-spomenik-na-mjestu-pogibije-danka","koordinate":{"lat":45.006445,"lng":17.5601266},"mesto":"Donji Srđevići","slikaOdnos":0.563,"naziv":"Spomenik na mjestu pogibije Danka Mitrova","vrsta":"spomen-obelezje","drzava":"Bosnia and Herzegovina"},
 {"id":"zvornik-mitar-trifunovic-uco","koordinate":{"lat":44.3821262,"lng":19.1031009},"mesto":"Zvornik","naziv":"Bista Mitra Trifunovića Uče","vrsta":"bista","drzava":"Bosnia and Herzegovina"},
 {"id":"sarajevo-bistrik-spomen-ploca-palim-clanovima","koordinate":{"lat":43.8559449,"lng":18.4299188},"mesto":"Sarajevo (Bistrik)","naziv":"Spomen-ploča palim članovima ćilimarskog kolektiva","vrsta":"spomen-ploca","drzava":"Bosnia and Herzegovina"},
 {"id":"tuzla-moluhe-spomen-ploca-palim-borcima-moluha","koordinate":{"lat":44.5345231,"lng":18.6418659},"mesto":"Tuzla (Moluhe)","naziv":"Spomen-ploča palim borcima Moluha i Solane Tuzla","vrsta":"spomen-ploca","drzava":"Bosnia and Herzegovina"},
@@ -8935,5 +8935,6 @@
 {"id":"bela-crkva-spomenik-na-zajednickoj-grobnici","koordinate":{"lat":44.394859,"lng":19.479855},"priblizno":true,"mesto":"Bela Crkva (Mačva)","slikaOdnos":0.667,"naziv":"Spomenik na zajedničkoj grobnici","vrsta":"spomenik","drzava":"Serbia"},
 {"id":"bela-crkva-muzej-7-juli-1941","koordinate":{"lat":44.39401,"lng":19.479266},"mesto":"Bela Crkva (Mačva)","slikaOdnos":1.498,"naziv":"Muzej 7. juli 1941","vrsta":"muzej","drzava":"Serbia"},
 {"id":"coralici-zajednicka-grobnica-palih-boraca","koordinate":{"lat":44.982361,"lng":15.882083},"mesto":"Ćoralići","naziv":"Spomen-kosturnica palih boraca","vrsta":"groblje","drzava":"Bosnia and Herzegovina"},
-{"id":"brezicani-zajednicka-grobnica-zrtava-fasistickog-t","koordinate":{"lat":44.761833,"lng":17.489861},"mesto":"Brezičani","naziv":"Zajednička grobnica žrtava fašističkog terora","vrsta":"groblje","drzava":"Bosnia and Herzegovina"}
+{"id":"brezicani-zajednicka-grobnica-zrtava-fasistickog-t","koordinate":{"lat":44.761833,"lng":17.489861},"mesto":"Brezičani","naziv":"Zajednička grobnica žrtava fašističkog terora","vrsta":"groblje","drzava":"Bosnia and Herzegovina"},
+{"id":"banjica-spomenik-formiranju-prve-i-druge-vojvodjanske-brigade","koordinate":{"lat":44.614383,"lng":19.107983},"priblizno":true,"mesto":"Banjica","slikaOdnos":0.749,"naziv":"Spomenik formiranju Prve i Druge vojvođanske brigade","vrsta":"spomen-obelezje","drzava":"Bosnia and Herzegovina"}
 ]
