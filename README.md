@@ -16,7 +16,6 @@ live-server
 
 UNOS PODATAKA:
 - žetva izvora po [prioritetima](docs/IZVORI.md#prioriteti)
-- nedavno smo uveli vrstu reljef. potraži reljefe NOB
 
 POTPUNOST PODATKA:
 - locirati spomenike ([lociranje](docs/LOCIRANJE_SPOMENIKA.md))
