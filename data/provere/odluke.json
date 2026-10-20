@@ -29343,5 +29343,105 @@
         "Padina: bista već postoji (padina-bista-josipa-broza-tita, 35 m od GPS fotografije); dopunjena adresa iz opisa fotografije (Nikola Đorđević, 2023)."
       ]
     }
+  },
+  {
+    "odluka": "commons-kategorije-hrvatska-2026-10-20",
+    "datum": "2026-10-20",
+    "izvor": [
+      "https://commons.wikimedia.org/wiki/Category:World_War_II_memorials_in_Croatia",
+      "https://commons.wikimedia.org/wiki/Category:Busts_in_Croatia"
+    ],
+    "obim": "Obiđeno 147 kategorija do dubine 3 (1.237 fajlova); prekinuto po nalogu korisnika posle prvog upisa. Nisu pojedinačno pregledane velike zbirne kategorije (Busts in Zagreb, Pula, World War II memorials in Croatia) bez GPS-a.",
+    "izmene": [
+      {
+        "id": "zagreb-tkalciceva-august-cesarec",
+        "pre": {
+          "stanje": null,
+          "slika": null
+        },
+        "fotografija": "https://commons.wikimedia.org/wiki/File:August_Cesarec_Zagreb_Tkalca.jpg",
+        "potpis": "Suradnik13, CC BY-SA 4.0"
+      },
+      {
+        "id": "zagreb-bista-krste-ljubicica",
+        "pre": {
+          "stanje": null,
+          "slika": null
+        },
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Bista_Krste_Ljubicica-Zagreb.JPG",
+        "potpis": "Flammard, CC BY-SA 3.0"
+      },
+      {
+        "id": "zagreb-bista-djure-djakovica",
+        "pre": {
+          "stanje": null,
+          "slika": null
+        },
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Poprsje_%C4%90ure_%C4%90akovi%C4%87a.JPG",
+        "potpis": "Plamen, Public domain"
+      },
+      {
+        "id": "pazin-bista-save-vukelica",
+        "pre": {
+          "stanje": "srusen",
+          "slika": null
+        },
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Pazin_Park_Savo_Vukelic.jpg",
+        "potpis": "Tommes, CC BY-SA 4.0"
+      },
+      {
+        "id": "pazin-bista-joakima-rakovca",
+        "pre": {
+          "stanje": "srusen",
+          "slika": null
+        },
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Pazin_Park_Joakim_Rakovac.jpg",
+        "potpis": "Tommes, CC BY-SA 4.0"
+      },
+      {
+        "id": "pazin-bista-olge-ban",
+        "pre": {
+          "stanje": "srusen",
+          "slika": null
+        },
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Pazin_Park_Olga_Ban.jpg",
+        "potpis": "Tommes, CC BY-SA 4.0"
+      }
+    ],
+    "obnovljeno": {
+      "ids": [
+        "pazin-bista-save-vukelica",
+        "pazin-bista-joakima-rakovca",
+        "pazin-bista-olge-ban"
+      ],
+      "dokaz": "Datirane fotografije Tommes, 14.8.2015, GPS u Parku istarskih velikana u Pazinu, prikazuju biste na postoljima sa imenima; kasnije od Hrženjakovog nalaza (2002) o rušenju. Olga Ban vraćena iz arhive na mapu, približno kao i ostale biste parka.",
+      "stariStanjeIzvor": {
+        "pazin-bista-save-vukelica": {
+          "naziv": "Hrženjak",
+          "godina": 2002,
+          "url": "https://znaci.org/00003/736.php?broj=382"
+        },
+        "pazin-bista-joakima-rakovca": {
+          "naziv": "Hrženjak",
+          "godina": 2002,
+          "url": "https://znaci.org/00003/736.php?broj=382"
+        },
+        "pazin-bista-olge-ban": {
+          "naziv": "Hrženjak",
+          "godina": 2002,
+          "url": "https://znaci.org/00003/736.php?broj=382"
+        }
+      }
+    },
+    "dodato": [
+      {
+        "id": "pazin-bista-otokara-kersovanija",
+        "dokaz": "Fotografija Tommes 2015, Park istarskih velikana; približna tačka parka iz GPS-a fotografija."
+      }
+    ],
+    "otvoreno": [
+      "Borovo Naselje: File:World War II monument in Borovo Naselje.jpg ima GPS 45.184637, 19.013116 – moguća nezavisna tačka za povučeni zapis djeletovci-spomenik-nob; nije provereno.",
+      "Pazin: spomenik „Smrt fašizmu – sloboda narodu“ u istom parku i biste Jože Šurana i Vjekoslava Ivančića-Didija nisu upisane bez provere."
+    ]
   }
 ]
