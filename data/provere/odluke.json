@@ -13278,5 +13278,229 @@
       }
     },
     "fotografskiDokaz": "Dve velike Commons fotografije pregledane i sacuvane u izvori/pretrage/duplikati-preostali-2026-10-20/; alternativna javna slicica arhivirana u izvori/duplikati-2026-10-20/."
+  },
+  {
+    "odluka": "ocr-mesta-i-bezimene-biste-2026-10-20",
+    "datum": "2026-10-20",
+    "dokaz": "Vizuelno procitani originalni skenovi Popovic-Zuma: PDF 13 (stampano 24-25), 30 (58-59), 73 (144-145), 90 (178-179). Potpis fotografije Prijepolje nije naslov odeljka Prokuplje. Bista Radmile Rankovic Slobode je pod naslovom Lozovik, ne Kupusina. Fragment Za okusatora nije naselje; bista Miroslava Jovanovica Mime pripada odeljku Opstina Palilula. Lozovik: priblizna tacka sela u opstini Velika Plana iz alati/naselja_osm.json, ne tacna tacka biste. Beogradska bista se ne spaja sa poznatom bistom na Hadzipopovcu bez dokaza da je rec o istom odlivku.",
+    "ispravke": [
+      {
+        "id": "kupusina-bista",
+        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=90",
+        "pdfStrana": 90,
+        "promene": {
+          "naziv": {
+            "pre": "Bista",
+            "posle": "Bista Radmile Ranković Slobode"
+          },
+          "nazivEn": {
+            "pre": null,
+            "posle": "Bust of Radmila Ranković Sloboda"
+          },
+          "mesto": {
+            "pre": "Kupusina",
+            "posle": "Lozovik"
+          },
+          "koordinate": {
+            "pre": {
+              "lat": 44.26592,
+              "lng": 21.00901
+            },
+            "posle": {
+              "lat": 44.46775,
+              "lng": 21.10072
+            }
+          },
+          "opis": {
+            "pre": null,
+            "posle": {
+              "sh": "Bista ispred zgrade osnovne škole koja je nosila njeno ime, postavljena 1978. godine.",
+              "en": "A bust installed in 1978 in front of the primary school that bore her name."
+            }
+          }
+        }
+      },
+      {
+        "id": "za-okusatora-bista",
+        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=13",
+        "pdfStrana": 13,
+        "promene": {
+          "naziv": {
+            "pre": "Bista",
+            "posle": "Bista Miroslava Jovanovića Mime"
+          },
+          "nazivEn": {
+            "pre": null,
+            "posle": "Bust of Miroslav Jovanović Mima"
+          },
+          "mesto": {
+            "pre": "Za Okušatora",
+            "posle": "Beograd (Palilula)"
+          },
+          "adresa": {
+            "pre": "Bista Miroslava JovanovićaMime, službenika PTT, narodnog heroja. Otkrivena juna 1958. godine. Vajar O. Berbelja.",
+            "posle": null
+          }
+        }
+      },
+      {
+        "id": "prijepolje-bista",
+        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=73",
+        "pdfStrana": 73,
+        "promene": {
+          "naziv": {
+            "pre": "Bista",
+            "posle": "Bista Nikole Kokonješevića Dunđerskog"
+          },
+          "nazivEn": {
+            "pre": null,
+            "posle": "Bust of Nikola Kokonješević Dunđerski"
+          },
+          "mesto": {
+            "pre": "Prijepolje",
+            "posle": "Prokuplje"
+          },
+          "adresa": {
+            "pre": "Bista Nikole KokonješevićaDunđerskog u parku preduzeća koje nosi njegovo ime. Postavljena 1971. godine. Vajar D. Drobnjak. Nikola Kokonješević, radnički boraca aktiv",
+            "posle": "U parku preduzeća „Nikola Kokonješević Dunđerski“"
+          }
+        }
+      },
+      {
+        "id": "majdanpek-bista",
+        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=30",
+        "pdfStrana": 30,
+        "promene": {
+          "naziv": {
+            "pre": "Bista",
+            "posle": "Bista Velimira Markićevića Maksa"
+          },
+          "nazivEn": {
+            "pre": null,
+            "posle": "Bust of Velimir Markićević Maks"
+          },
+          "opis": {
+            "pre": null,
+            "posle": {
+              "sh": "Bista u dvorištu škole koja je nosila njegovo ime, postavljena 1971. godine.",
+              "en": "A bust installed in 1971 in the courtyard of the school that bore his name."
+            }
+          }
+        }
+      },
+      {
+        "id": "majdanpek-bista-2",
+        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=30",
+        "pdfStrana": 30,
+        "promene": {
+          "naziv": {
+            "pre": "Bista",
+            "posle": "Bista Milete Arsenijevića Bandere"
+          },
+          "nazivEn": {
+            "pre": null,
+            "posle": "Bust of Mileta Arsenijević Bandera"
+          },
+          "adresa": {
+            "pre": "Bista Milete ArsenijevićaBandere u zgradi obrazovnog centra. Otkrivena 1971. Vajar S. Cvetković. Mileta Arsenijević, sa prvim majdanpečkim rudarima došao je na ",
+            "posle": "U zgradi obrazovnog centra"
+          }
+        }
+      },
+      {
+        "id": "majdanpek-bista-marije-muncan",
+        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=30",
+        "pdfStrana": 30,
+        "promene": {
+          "adresa": {
+            "pre": "Bista Marije Munćan ispred zgrade dečije ustanove koja nosi njeno ime. Postavljena 1971. Vajar S. Cvetković. 30REćASEZ4SG05o-u\\",
+            "posle": "Ispred zgrade dečije ustanove „Marija Munćan“"
+          }
+        }
+      },
+      {
+        "id": "prokuplje-bista",
+        "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=73",
+        "pdfStrana": 73,
+        "promene": {
+          "naziv": {
+            "pre": "Bista",
+            "posle": "Bista Nikodija Stojanovića Tatka"
+          },
+          "nazivEn": {
+            "pre": null,
+            "posle": "Bust of Nikodije Stojanović Tatko"
+          },
+          "opis": {
+            "pre": null,
+            "posle": {
+              "sh": "Bista ispred zgrade osnovne škole koja je nosila njegovo ime, postavljena 1955. godine.",
+              "en": "A bust installed in 1955 in front of the primary school that bore his name."
+            }
+          }
+        }
+      }
+    ],
+    "dodatneIspravkeMesta": [
+      {
+        "id": "za-okusatora-bista-djure-strugara",
+        "pre": {
+          "mesto": "Za Okušatora",
+          "adresa": "Bista Đure Strugara, narodnog heroja, u auli škole koja nosi njegovo ime, Braće Grima 6. Ćuro Strugar, aktivista revolucionarnog pokreta, član MIC KPJ Beograda, "
+        },
+        "posle": {
+          "mesto": "Beograd",
+          "adresa": "U auli škole „Đuro Strugar“, Braće Grima 6"
+        },
+        "dokaz": "Ista PDF strana 13, odeljak opstine Palilula; puno ime i ulica potvrdjeni na skenu."
+      },
+      {
+        "id": "za-okusatora-bista-milosa-matijevica-mrse",
+        "pre": {
+          "mesto": "Za Okušatora",
+          "adresa": "Bista Miloša Matijevića-Mrše, narodnog heroja, u osnovnoj školi koja nosi njegovo ime, Donska 29. Postavljena 1965. godine. Miloš Matijević započeo je svoj revolu"
+        },
+        "posle": {
+          "mesto": "Beograd",
+          "adresa": "U osnovnoj školi „Miloš Matijević Mrša“, Donska 29"
+        },
+        "dokaz": "Ista PDF strana 13, odeljak opstine Palilula; puno ime i ulica potvrdjeni na skenu."
+      }
+    ],
+    "spajanja": [
+      {
+        "zadrzaniId": "belgrade",
+        "uklonjeniZapis": {
+          "id": "za-okusatora-spomen-groblje",
+          "mesto": "Za Okušatora",
+          "naziv": "Spomen-groblje",
+          "vrsta": "groblje",
+          "drzava": "Serbia",
+          "adresa": "Spomen-groblje „Oslobodiocima Beograda 1944. godine“. Na ulazu je spomenik, levo i desno u dubokom reljefu izvajane su scene borbe protiv okupatora; grančica od b"
+        },
+        "izvorUklonjenog": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=13",
+        "dokaz": "Sken PDF 13: kompleks Oslobodiocima Beograda 1944, ulaz sa reljefima borbe. Isti jedinstveni kompleks kao belgrade, sa potvrdom u clanku https://sh.wikipedia.org/wiki/Groblje_oslobodilaca_Beograda (reljefi na ulazu). Katalog nema posebnu godinu niti drugo polje za prenos; postojece precizne koordinate, fotografija, godina i vrsta zadrzane.",
+        "preusmereneVeze": []
+      }
+    ],
+    "pogresnaVrednostAutora": {
+      "id": "gradacac-bista-hasana-kikica",
+      "pre": "See description",
+      "posle": null,
+      "izvor": "https://www.spomenicinob.info/gradacac",
+      "dokaz": "Sacuvani izvor izvori/spomenicinob/redovi.json u polju autora nosi uputstvo See description. Opis navodi razlicite atribucije Mirku Ostoji i Franu Krsinicu, uz identican sarajevski odlivak pripisan Ivanu Sabolicu. To nije autor niti dokaz zajednickog autorstva; tekst uputstva uklonjen, imena nisu proizvoljno odabrana.",
+      "zapisPre": {
+        "id": "gradacac-bista-hasana-kikica",
+        "mesto": "Gradačac",
+        "naziv": "Bista Hasana Kikića",
+        "nazivEn": "Bust of Hasan Kikić",
+        "godina": "1958",
+        "autor": "See description",
+        "posveta": "Hasana Kikića",
+        "vrsta": "bista",
+        "drzava": "Bosnia and Herzegovina",
+        "adresa": "Town park"
+      }
+    }
   }
 ]
