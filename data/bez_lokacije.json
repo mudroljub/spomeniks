@@ -2129,10 +2129,13 @@
     "nazivEn": "Bust of NH Fadil Jahić Španac",
     "godina": "1971",
     "autor": "Milovan Krstić",
-    "posveta": "Fadila Jahića Španca",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Town park"
+    "adresa": "Town park",
+    "opis": {
+      "sh": "Bista Fadila Jahića Španca premeštena je iz Muzeja Semberije u gradski park.",
+      "en": "The bust of Fadil Jahić Španac was moved from the Semberija Museum to the town park."
+    }
   },
   {
     "id": "bijeljina-bista-hamze-hamzica",
@@ -2312,16 +2315,6 @@
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Jovan Dučić elementary school"
-  },
-  {
-    "id": "bijeljina-spomenik-palim-borcima-i-zrtvama-fasisti-4",
-    "mesto": "Bijeljina",
-    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
-    "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
-    "godina": "1984",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Knez Ivo od Semberije elementary school"
   },
   {
     "id": "bijeljina-rodno-mjesto-narodnog-heroja-hamze-hamzi",
@@ -2773,18 +2766,6 @@
     "nazivEn": "Bust of NH Mijo Kerošević - Guja",
     "godina": "1987",
     "posveta": "Mije Keroševića - Guje",
-    "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Muzej Semberije"
-  },
-  {
-    "id": "bijeljina-bista-fadila-jahica-spanca-2",
-    "mesto": "Bijeljina",
-    "naziv": "Bista Fadila Jahića Španca",
-    "nazivEn": "Bust of NH Fadil Jahić Španac",
-    "godina": "1971",
-    "autor": "Milovan Krstić",
-    "posveta": "Fadila Jahića Španca",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Muzej Semberije"
@@ -7481,10 +7462,10 @@
     "naziv": "Spomen-ploča učenicima i nastavnicima herojima",
     "nazivEn": "Plaque to students and teachers honoured as heroes",
     "opis": {
-      "sh": "Posvećeno učenicima i nastavnicima proglašenim za narodne heroje.",
-      "en": "Dedicated to students and teachers proclaimed People’s Heroes."
+      "sh": "Posvećeno učenicima i nastavnicima proglašenim za narodne heroje. Prvobitna ploča iz 1955. zamenjena je 1981. godine.",
+      "en": "Dedicated to students and teachers proclaimed People’s Heroes. The original plaque from 1955 was replaced in 1981."
     },
-    "godina": "1981",
+    "godina": "1955",
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Gimnazijska 3, Prva Gimnazija"
@@ -7638,10 +7619,10 @@
     "naziv": "Spomen-ploča osnivanju sindikata",
     "nazivEn": "Plaque marking the founding of a trade union",
     "opis": {
-      "sh": "Obeležava radnički sastanak na kojem je odlučeno da se osnuje sindikat.",
-      "en": "Commemorates the workers’ meeting at which the decision was made to found a trade union."
+      "sh": "Obeležava radnički sastanak na kojem je odlučeno da se osnuje sindikat. Prvobitna ploča iz 1955. zamenjena je 1983. godine.",
+      "en": "Commemorates the workers’ meeting at which the decision was made to found a trade union. The original plaque from 1955 was replaced in 1983."
     },
-    "godina": "1983",
+    "godina": "1955",
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Titova 25, Central Bank of Bosnia and Herzegovina"
@@ -7750,34 +7731,6 @@
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Skenderija 20 (former)"
-  },
-  {
-    "id": "sarajevo-trg-oslobodjenja-spomen-ploca-ucenicima-i-3",
-    "mesto": "Sarajevo (Trg Oslobođenja)",
-    "naziv": "Spomen-ploča učenicima i nastavnicima herojima",
-    "nazivEn": "Plaque to students and teachers honoured as heroes",
-    "opis": {
-      "sh": "Posvećeno učenicima i nastavnicima proglašenim za narodne heroje.",
-      "en": "Dedicated to students and teachers proclaimed People’s Heroes."
-    },
-    "godina": "1955",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Gimnazijska 3, Prva Gimnazija"
-  },
-  {
-    "id": "sarajevo-trg-oslobodjenja-spomen-ploca-radnickom-s-2",
-    "mesto": "Sarajevo (Trg Oslobođenja)",
-    "naziv": "Spomen-ploča osnivanju sindikata",
-    "nazivEn": "Plaque marking the founding of a trade union",
-    "opis": {
-      "sh": "Obeležava radnički sastanak na kojem je odlučeno da se osnuje sindikat.",
-      "en": "Commemorates the workers’ meeting at which the decision was made to found a trade union."
-    },
-    "godina": "1955",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Titova 25, Central Bank of Bosnia and Herzegovina"
   },
   {
     "id": "sarajevo-trg-oslobodjenja-spomen-ploca-povodom-10",
@@ -10270,15 +10223,6 @@
     "adresa": "Town park"
   },
   {
-    "id": "gacko-partizansko-groblje-2",
-    "mesto": "Gacko",
-    "naziv": "Partizansko groblje",
-    "nazivEn": "Partisans' cemetery",
-    "godina": "pre 1961",
-    "vrsta": "groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "gacko-spomen-ploca-i-i-ii-proleterskoj-brigadi",
     "mesto": "Gacko",
     "naziv": "Spomen-ploča I i II proleterskoj brigadi",
@@ -11460,22 +11404,14 @@
     "naziv": "Spomen-ploča formiranju narodnooslobodilačkog vijeća",
     "nazivEn": "Plaque marking formation of People's Liberation Council",
     "godina": "1951",
-    "posveta": "formiranju narodnooslobodilačkog vijeća",
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "House of the Mlinarević family"
-  },
-  {
-    "id": "tihaljina-spomen-ploca-formiranju-narodnooslobodil-2",
-    "mesto": "Tihaljina",
-    "naziv": "Spomen-ploča formiranju narodnooslobodilačkog vijeća",
-    "nazivEn": "Plaque marking formation of People's Liberation Council",
-    "godina": "1963",
-    "posveta": "formiranju narodnooslobodilačkog vijeća",
+    "adresa": "House of the Mlinarević family",
     "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "House of the Mlinarević family"
+    "opis": {
+      "sh": "Obeležava formiranje narodnooslobodilačkog vijeća u kući porodice Mlinarević. Prvobitna ploča iz 1951. zamenjena je 1963. godine.",
+      "en": "Marks the formation of the People’s Liberation Council in the Mlinarević family house. The original plaque from 1951 was replaced in 1963."
+    }
   },
   {
     "id": "grude-bista-steve-opacica",
@@ -11534,10 +11470,10 @@
     "naziv": "Spomen-ploča rođenju Slobodana Principa Selje",
     "nazivEn": "Slobodan Princip Seljo Birthplace Plaque",
     "opis": {
-      "sh": "Obeležava mesto rođenja Slobodana Principa Selje.",
-      "en": "Marks the birthplace of Slobodan Princip Seljo."
+      "sh": "Obeležava mesto rođenja Slobodana Principa Selje. Prvobitna ploča iz 1949. zamenjena je 1952. godine.",
+      "en": "Marks the birthplace of Slobodan Princip Seljo. The original plaque from 1949 was replaced in 1952."
     },
-    "godina": "1952",
+    "godina": "1949",
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Ul. Hadželi"
@@ -11564,20 +11500,6 @@
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Remnants of old railway bridge"
-  },
-  {
-    "id": "hadzici-spomen-ploca-na-mjestu-rodjenja-slobodana-2",
-    "mesto": "Hadžići",
-    "naziv": "Spomen-ploča rođenju Slobodana Principa Selje",
-    "nazivEn": "Slobodan Princip Seljo Birthplace Plaque",
-    "opis": {
-      "sh": "Obeležava mesto rođenja Slobodana Principa Selje.",
-      "en": "Marks the birthplace of Slobodan Princip Seljo."
-    },
-    "godina": "1949",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Ul. Hadželi"
   },
   {
     "id": "hadzici-spomenik-andjelku-lazeticu",
@@ -15217,22 +15139,6 @@
     "adresa": "Public library"
   },
   {
-    "id": "ljubuski-spomen-kosturnica-sa-posmrtnim-ostacima-7",
-    "mesto": "Ljubuški",
-    "naziv": "Spomen-kosturnica palih boraca i narodnih heroja",
-    "nazivEn": "Fallen Fighters and National Heroes Memorial Ossuary",
-    "opis": {
-      "sh": "U kosturnici su posmrtni ostaci 78 palih boraca i tri narodna heroja.",
-      "en": "The ossuary contains the remains of 78 fallen fighters and three National Heroes."
-    },
-    "godina": "1959",
-    "autor": "Marijan Kocković",
-    "stanje": "uklonjen",
-    "vrsta": "groblje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Town park"
-  },
-  {
     "id": "bijaca-spomen-ploca-narodnom-heroju-juri-galicu-ve",
     "mesto": "Bijača",
     "naziv": "Spomen-ploča narodnom heroju Juri Galiću Velikom",
@@ -18164,10 +18070,14 @@
     "mesto": "Sarajevo (Kovačići)",
     "naziv": "Spomen-ploča na mjestu sastanaka KPJ 1940-1941",
     "nazivEn": "Plaque commemorating KPJ meeting place 1940-41",
-    "godina": "1975",
+    "godina": "1951",
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Emerika Bluma 20"
+    "adresa": "Emerika Bluma 20",
+    "opis": {
+      "sh": "Obeležava mesto sastanaka KPJ 1940-1941. Prvobitna ploča iz 1951. zamenjena je 1975. godine.",
+      "en": "Marks the site of KPJ meetings in 1940-1941. The original plaque from 1951 was replaced in 1975."
+    }
   },
   {
     "id": "sarajevo-kovacici-bista-branka-baneta-surbata",
@@ -18390,16 +18300,6 @@
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Grbavica I elementary school"
-  },
-  {
-    "id": "sarajevo-kovacici-spomen-ploca-na-mjestu-sastanaka-2",
-    "mesto": "Sarajevo (Kovačići)",
-    "naziv": "Spomen-ploča na mjestu sastanaka KPJ 1940-1941",
-    "nazivEn": "Plaque commemorating KPJ meeting place 1940-41",
-    "godina": "1951",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Emerika Bluma 20"
   },
   {
     "id": "sarajevo-velesici-spomen-ploca-otvaranju-pruge-sam",
@@ -21133,17 +21033,6 @@
   },
   {
     "id": "rudo-spomen-ploca-sjedistu-kragujevackog-bataljona",
-    "mesto": "Rudo",
-    "naziv": "Spomen-ploča sjedištu Kragujevačkog bataljona",
-    "nazivEn": "Plaque marking headquarters of the Kragujevac Battalion",
-    "godina": "1971",
-    "posveta": "sjedištu Kragujevačkog bataljona",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "RTV Rudo building"
-  },
-  {
-    "id": "rudo-spomen-ploca-sjedistu-kragujevackog-bataljona-2",
     "mesto": "Rudo",
     "naziv": "Spomen-ploča sjedištu Kragujevačkog bataljona",
     "nazivEn": "Plaque marking headquarters of the Kragujevac Battalion",
@@ -24871,8 +24760,8 @@
     "naziv": "Spomen-ploča ubijenim aktivistima KPJ",
     "nazivEn": "Murdered KPJ Activists Plaque",
     "opis": {
-      "sh": "Posvećeno aktivistima KPJ iz Dubrovnika ubijenim u julu 1942. godine.",
-      "en": "Dedicated to KPJ activists from Dubrovnik murdered in July 1942."
+      "sh": "Posvećeno aktivistima KPJ iz Dubrovnika ubijenim u julu 1942. godine. Prvobitna ploča iz 1953. zamenjena je 1963. godine.",
+      "en": "Dedicated to KPJ activists from Dubrovnik murdered in July 1942. The original plaque from 1953 was replaced in 1963."
     },
     "godina": "1953",
     "vrsta": "spomen-ploca",
@@ -24903,20 +24792,6 @@
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Drma, beside bike trail"
-  },
-  {
-    "id": "gornje-vrbno-spomen-ploca-ubistvu-aktivista-kpj-iz-2",
-    "mesto": "Gornje Vrbno",
-    "naziv": "Spomen-ploča ubijenim aktivistima KPJ",
-    "nazivEn": "Murdered KPJ Activists Plaque",
-    "opis": {
-      "sh": "Posvećeno aktivistima KPJ iz Dubrovnika ubijenim u julu 1942. godine.",
-      "en": "Dedicated to KPJ activists from Dubrovnik murdered in July 1942."
-    },
-    "godina": "1963",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Entrance to cave"
   },
   {
     "id": "gornje-vrbno-spomen-ploca-mise-simoni",
@@ -31769,15 +31644,6 @@
     "vrsta": "muzej",
     "drzava": "Serbia",
     "adresa": "Spomen-dom palim u oslobodilačkim ratovima 1912-1918. i 194145."
-  },
-  {
-    "id": "cetereze-spomen-cesma-2",
-    "mesto": "Četereže",
-    "naziv": "Spomen-česma",
-    "godina": "1954",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia",
-    "adresa": "Spomen-česma sa imenima dvanaest poginulih boraca 1945. godine, šest umrlih od rana zadobijenih u borbi. Izgrađena 1954. godine."
   },
   {
     "id": "cetereze-kameni-beleg",

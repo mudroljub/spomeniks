@@ -4,29 +4,17 @@ Otvoreni slučajevi, razrešeni identiteti koje ne treba ponovo unositi i veze k
 
 Raniji ciljani prolaz je završen, žetva CG zatvorena, a šira hrvatska provera obustavljena po odluci korisnika. Ove beleške same ne otvaraju novi zadatak; prioriteti izvora su u [IZVORI.md](IZVORI.md#prioriteti).
 
-## Duplikati za spajanje (provera 20.10.2026)
+## Duplikati: ispravke i otvoreni slučajevi (20.10.2026)
 
-Na zahtev korisnika pregledano je 14.078 zapisa iz oba spiska: 324 grupe istog normalizovanog naziva i punog mesta unutar države (442 para), ponovljeni Google CID i članci, pa vizuelno svih 61 parova iz tih grupa koji imaju obe slike. Ovo je pretraga kandidata, ne dokaz da je svaki istoimeni zapis duplikat niti iscrpan pregled svih mogućih različitih naziva. Devet grupa ispod još nije spojeno; Brnjik je naknadno spojen po potvrdi korisnika. Pre narednog spajanja proveriti sveže vrednosti, lokacije i preneti trajne veze.
-
-Devet grupa sa potvrđenim identitetom predstavlja deset suvišnih zapisa:
-
-| Objekat | ID-jevi | Dokaz / sledeći korak |
-|---|---|---|
-| Kočani, Spomenik na slobodata | `kocani`, `kocani-spomenik-na-slobodata` | Obe postojeće fotografije prikazuju isti prepoznatljiv mozaik i betonski kompleks; tačke se razlikuju. Odabrati tačku konkretnog kompleksa pre spajanja. |
-| Čenej, Novosadski partizanski odred | `cenej`, `cenej-spomenik-novosadskom-partizanskom-odredu` | Fotografije prikazuju iste četiri kamene forme i isto polje; različite tačke i vrste. Sačuvati potvrđenu lokaciju, autora Pavla Radovanovića i 1971. |
-| Medvedjek, figura partizana | `medvedjek`, `medvedjek-spomenik-nob` | Obe fotografije prikazuju istu figuru sa puškom, postament i raspored kamenova; drugi zapis ima [EID 10176](https://eid.gov.si/S/10176) i 1971. `medvedjek-2` sa kamenim knjigama nije ovaj objekat. |
-| Lavci, reljef NOB | `lavci-spomenik-na-nob`, `lavci-spomenik-na-nob-2` | Obe fotografije prikazuju isti reljef i karakterističnu betonsku konstrukciju; isti autor Aleksandar Jovanovski. Već zabeležen nalaz, sada ponovo vizuelno potvrđen; razrešiti oko 101 m razlike tačaka. |
-| Gornji Rinj, česma | `gornji-rinj-spomen-cesma`, `gornji-rinj-spomen-cesma-2` | Wiki izričito povezuje česmu sa istom knjiškom stavkom: 1972, tri partizanska odreda i savetovanje 15–16. januara 1942; tačke 43 m. [Terenski članak](https://www.pirotskikraj.com/arhiva-predloga/545) potvrđuje seosku česmu iz 1972. |
-| Vošanovac, česma | `vosanovac-spomen-cesma`, `vosanovac-spomen-cesma-2` | Lokalna Wiki kopija i knjiga, sken `094-1.png`: 1973. i imena 30 poginulih boraca; ista knjiška referenca, tačke 69 m. |
-| Četereže, česma | `cetereze-spomen-cesma`, `cetereze-spomen-cesma-2` | Lokalna Wiki kopija izričito citira istu stavku knjige, sken `092-0.png`: 1954, dvanaest poginulih 1945, šest umrlih od rana. Drugi zapis je bez lokacije. |
-| Bijeljina, bista Fadila Jahića Španca | `bijeljina-bista-fadila-jahica-spanca`, `bijeljina-bista-fadila-jahica-spanca-2` | Sačuvani redovi [Spomenici NOB](https://www.spomenicinob.info/bijeljina), `izvori/spomenicinob/redovi.json`: parkovski red izričito navodi raniju lokaciju u Muzeju Semberije; oba 1971, Milovan Krstić. Stara i nova adresa iste biste. |
-| Bijeljina, škola Knez Ivo od Semberije | `bijeljina-spomenik-palim-borcima-i-zrtvama-fasisti`, `bijeljina-spomenik-palim-borcima-i-zrtvama-fasisti-4`, `bijeljina-spomenik-palim-borcima-i-zrtvama-fasisti-5` | Jedan školski spomenik iz 1984. unet sa Wikija, iz kataloga bez tačke i približno na mapu. Wiki navodi baš ovu školu, 23.11.1984. i isti katalog kao izvor; zadržati precizan marker, preneti veze oba viška. |
-
-Brnjik je **spojen po potvrdi korisnika 20.10.2026**: zadržan `brnjik-bista-ahmeta-kobica` sa starijom godinom **1953**, uklonjen `brnjik-bista-ahmeta-kobica-2`. Autor Zaim Mešić, posveta i približna tačka ostaju sačuvani. Razlika 1953/1983 je nesaglasan podatak istog objekta, ne razlog za dva markera; izvorni podaci i korisnikova odluka sačuvani su u [odlukama](../data/provere/odluke.json), pod `brnjik-bista-ahmeta-kobica-spojen-duplikat`.
+Spojeno 26 potvrđenih grupa i uklonjeno 27 suvišnih zapisa; zadržane starije godine, podaci i istorija zamenskih ploča, preusmerene tri aktivne veze. Brnjik je ranije spojen sa godinom 1953. Kod Prevlake uklonjena je pogrešna severna tačka; Malešići su dobili postojeću preciznu tačku uz sva tri autora. Detalji i izvorne razlike su u postojećoj [evidenciji odluka](../data/provere/odluke.json), pod `potvrdjeni-duplikati-ispravka-2026-10-20`; alternativne fotografije su sačuvane u `izvori/duplikati-2026-10-20/`.
 
 Još za ciljanu proveru: `podgora-2` / `podgora-3` (fotografije izgledaju kao isti stepenasti spomenik, dva CID-a i oko 2 km razlike); `ilidza-vreoca-spomenik-igmanskom-marsu` / `ilidza-vreoca-spomenik-igmanskom-marsu-2` (sličan kameni beleg, različite Commons tačke); `kresniske-poljane` / `kresniske-poljane-spomenik-nob` i `mostje` / `mostje-spomenik-nob` (potrebni čitljiv natpis i mikrolokacija).
 
+Za dalje ciljano razrešenje ostaju: Bratunac (1972/1978, ista Krstićeva celina, proveriti obuhvat kosturnice naspram spomenika), Potočani kod Prnjavora (1958/1966, oba u partizanskom groblju), Stanari (1953/1975, ista bivša škola), Tržačka Raštela (1956/1981, bez mikrolokacije), Sijekovac (1961/1984, izvor kaže moguća zamena), Viljuša (1970/1975, Wiki upozorava na nepotvrđeno uparivanje), partizansko groblje Derventa (1950/1961). Razlog otvorenosti je nedovoljno razrešen obuhvat ili položaj, ne sama godina.
+
 Ne spajati samo po nazivu: fotografije Otrića prikazuju dva različita spomenika; Medeno Polje ima veliki betonski memorijal i zaseban stari spomenik od avionskog krila; sedam istoimenih zapisa u Pištalinama označava različita stratišta (različite kuće i brojevi žrtava u sačuvanom katalogu). Dve česme u Gornjim Garama imaju različite posvete i položaje u Wiki tekstovima; sličnost slika traži proveru dodeljene fotografije, ne automatsko spajanje. Dva Dragojla Dudića u Valjevu takođe su različita dela: [članak](https://www.kolubarske.rs/kolumne/izredakcije/kako-se-dragojlo-nasao-u-vidinom-parku) razlikuje Ota Loga na trgu i Vidu Jocić u parku; kod nas oba trenutno prikazuju istu skulpturu na fotografijama, pa proveriti sliku zapisa `valjevo-dudic`.
+
+Primeri razdvojenih parova sa konkretnim dokazom: Hutovo ima jame Hadžibegov bunar i Gradina; Kokori imaju Čivčije i Skakavce; Ražljevo ima Dom kulture i Petkovaču; Brezovica, Kamenica, Jablanica, Kijevac, Markovac i Resnik imaju istoimena sela u različitim opštinama. U Neštinu obelisk prelazima Dunava i spomen-česma palim meštanima imaju različite posvete. Kod Mitrovice 1959. označava raniji beleg/grobne elemente i početak projekta, a 1973. kasniji veliki Bogdanovićev spomenik u istoj celini; sačuvati tu vezu pri rešavanju obuhvata zapisa.
 
 ## Strategija lociranja (korisnik, 20.10.2026)
 
