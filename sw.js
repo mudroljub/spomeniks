@@ -56,7 +56,7 @@ const fajlovi = [
   'slike/markeri/lista.svg',
   'slike/obelisk-rusevina.png',
   'slike/obelisk-uklonjen.png',
-  ...['spomen-park', 'spomen-obelezje', 'spomen-groblje', 'groblje', 'muzej', 'spomen-ploca', 'bista', 'statua'].flatMap(tip =>
+  ...['spomen-park', 'spomen-obelezje', 'spomen-groblje', 'groblje', 'muzej', 'spomen-kuca', 'spomen-ploca', 'bista', 'statua'].flatMap(tip =>
     ['postoji', 'rusevina', 'uklonjen'].map(stanje => `slike/markeri/${tip}-${stanje}.svg`)),
   'slike/ui/lokator.svg',
   'slike/ui/punekran.svg',

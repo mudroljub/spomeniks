@@ -133,7 +133,7 @@ test('legenda, filteri, izbor ture i slojevi mape prate isti prioritet vrsta', a
   assert.deepEqual(prikaz.legenda, prikaz.naziviLegende)
   assert.deepEqual(prikaz.filteri, prikaz.redosled)
   assert.deepEqual(prikaz.izborTure, prikaz.redosled)
-  assert.deepEqual(prikaz.brojevi, ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'])
+  assert.deepEqual(prikaz.brojevi, ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI'])
   assert.ok(prikaz.slojevi.every((sloj, i) => i === 0 || prikaz.slojevi[i - 1] > sloj))
   assert.ok(prikaz.priblizan < prikaz.slojevi.at(-1))
 })

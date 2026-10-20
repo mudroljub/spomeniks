@@ -2,6 +2,14 @@
 
 Otvorena pitanja i odluke koje sprečavaju ponovni rad pri dopuni autora, godina i posveta postojećih spomenika. Postupci su u [skilu](../.claude/skills/spomenici-zetva/references/autori-i-posvete.md), pojedinačne odluke sa dokazima u [`data/provere/odluke.json`](../data/provere/odluke.json), a istorija prolaza u gitu.
 
+## Kratki naslovi (2026-10-20)
+
+Pregledano svih 1.495 zapisa izdvojenih merenjem naslova u panelu detalja: izmenjeno 1.338, zadržano 157. Promenjena su 924 domaća naslova, usklađeni prevodi i dodato 926 dvojezičnih opisa; 271 tekstualna posveta objedinjena je sa opisom, dok su povezane posvete sačuvane. ID-jevi, mesta, koordinate, vrste, stanja, fotografije i izvori nisu menjani. Potvrđeni natpisi nisu izmišljani iz prepisanih ili oštećenih naslova.
+
+Broj zapisa sa naslovom preko dva reda opao je sa 1.495 na 536 na bar jednom jeziku, a za domaći naslov sa 1.017 na 331 (telefon 390 px i desktop panel 360 px, naslov 20 px). Stvarni nazivi ustanova i važna puna imena ostaju i kad su duži. [Pojedinačne odluke, stare i nove vrednosti, dokazi i preostali dugi naslovi](../data/provere/naslovi-sredjivanje-2026-10-20.json); [početno merenje](../data/provere/naslovi-preko-dva-reda-2026-10-20.json). U lokalnim skenovima Popovića-Žume razrešene su OCR greške i brojevi stranica ubačeni u tekst; Pirot i Kistanje provereni su prema opštinskim dokumentima.
+
+Blažuj, `blazuj-zajednicka-grobnica-civila-strijeljanih-u-p`, ostaje za zasebnu proveru obuhvata: naslov govori samo o Prvom svetskom ratu; u ovom prolazu zapis nije brisan niti mu je menjana vrsta.
+
 ## Izvorni nazivi mesta u Makedoniji (2026-10-18)
 
 Po korisnikovom nalogu polje `mesto` usklađeno je sa makedonskom ćirilicom u **310 zapisa mape i 7 radnih zapisa**. Sačuvani su ID-jevi, koordinate, izvori i ostala polja; istorijski izveštaji zadržavaju tadašnji tekst. Ispravljeni i zatečeni oblici: `Silva` → „Слива“ ([državni katalog](https://portal.mdt.gov.mk/post-body-files/strategii-met-file-BBuX.pdf)), `Kriva Planaka` → „Крива Паланка“ ([opština](https://www.krivapalanka.gov.mk/geografska-polozhba)), `Skoplje` → „Скопје“; `Đavato` i `Gjavato` usaglašeni u „Ѓавато“. Pravilo je u [standardu](../.claude/skills/spomenici-zetva/references/standard.md); pregled promena i snimci pre upisa lokalno u `izvori/pretrage/makedonski-nazivi-mesta/`.
