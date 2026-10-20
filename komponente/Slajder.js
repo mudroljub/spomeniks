@@ -3,7 +3,10 @@ import {t} from '../utils/jezik.js'
 
 const style = document.createElement('style')
 
-const inicijalnoSlika = () => Math.max(1, Math.round(window.innerWidth / 70))
+// Citanje sirine prozora usred izmena stranice tera pregledac da odmah preracuna ceo raspored, pa se do prvog javljanja
+// posmatraca velicine trake koristi sirina ekrana uredjaja, koja ne zavisi od rasporeda.
+let sirinaTrake = screen.width
+const inicijalnoSlika = () => Math.max(1, Math.round(sirinaTrake / 70))
 
 style.textContent = `
   :host {
@@ -141,7 +144,8 @@ export default class Slajder extends HTMLElement {
 
   connectedCallback() {
     this.dodajSlikeAkoTreba()
-    this.promenaVelicine ??= new ResizeObserver(() => {
+    this.promenaVelicine ??= new ResizeObserver(([promena]) => {
+      sirinaTrake = promena.contentRect.width
       if (this.traka.scrollWidth <= this.traka.clientWidth * 2) this.dodajSlikeAkoTreba()
     })
     this.promenaVelicine.observe(this.traka)
