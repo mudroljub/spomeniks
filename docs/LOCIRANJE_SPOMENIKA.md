@@ -29,7 +29,7 @@ Postoje tri nivoa: bez lokacije, približno i tačno. Svaki prelaz na viši nivo
   Bista na trgu sa grupom bisti pridružuje se grupnom markeru, kao kod Jove Bijelića.
 - **Zatim zbirni zahtevi**, uz pitanje korisniku sa servisom i brojem zahteva: novo OSM preuzimanje po državi (škole, domovi, crkve i neimenovana obeležja, za adrese tipa „ispred škole“) i Nominatim za gradske adrese.
 - **Pojedinačno istraživanje** samo za vrh liste (parkovi, muzeji, spomenici, statue).
-- **Google pretraga „bista <mesto>“ nije dobra za lociranje.** U probi je tačku dala za 1 od 90 bisti, ali je usput našla 4 spomenika kojih nemamo ([proba](../data/provere/lociranje.json#google-biste-srbija-2026-10-20)).
+- **Google pretraga „bista <mesto>“ nije dobra za lociranje.** U probi je tačku dala za 1 od 90 bisti, ali je usput našla 4 spomenika kojih nemamo ([proba](../data/provere/lociranje.json#google-biste-srbija-2026-10-20)). Ni upit „naziv, mesto“ za važnije vrste nije bolji: 1 tačka na 73 upita (`google-pretraga-priblizni-2026-10-20` u odlukama), pa se ne ponavlja (korisnik, 20.10.2026).
 
 Prvi prolaz bez zahteva: [približni zapisi](../data/provere/lociranje.json#lociranje-priblizno-offline-2026-10-20) (11 preciziranih) i [zapisi bez lokacije](../data/provere/lociranje.json#lociranje-bez-offline-2026-10-20) (10 na mapi, 3 pridružena grupama bisti).
 

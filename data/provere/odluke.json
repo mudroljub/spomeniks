@@ -25112,5 +25112,42 @@
     "zadrzan": "akaca-spomenik",
     "uklonjen": "novo-milosevo-piramida-na-rudini-akaci",
     "izvorUklonjenog": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=136"
+  },
+  {
+    "odluka": "google-pretraga-priblizni-2026-10-20",
+    "datum": "2026-10-20",
+    "obim": "Google mape (pregledač bez prozora), upit „naziv, mesto“ za približne i neločirane spomen-parkove, muzeje, spomenike, statue i spomen-groblja van BiH; prekinuto po nalogu korisnika posle 73 od 129 upita.",
+    "upisano": [
+      {
+        "id": "veles-spomenik-na-koco-racin",
+        "pre": {
+          "koordinate": {
+            "lat": 41.7175149,
+            "lng": 21.7731668
+          },
+          "priblizno": true,
+          "googleCid": null
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 41.7168492,
+            "lng": 21.7733601
+          },
+          "googleCid": "667355241364745910"
+        },
+        "dokaz": "Google mesto „Monument of Kocho Racin“ 75 m od tačke gimnazije, u čijem dvorištu je figura po izvoru zapisa."
+      }
+    ],
+    "kandidati": [
+      {
+        "id": "veles-spomenik-na-koco-racin",
+        "napomena": "Drugo Google mesto „Monument of Koco Racin“ (41.7164188, 21.7832547, cid 6934671208682930870), oko 850 m istočno, moguće zaseban Racinov spomenik koji nemamo; nije provereno."
+      },
+      {
+        "id": "budrovci-spomenik",
+        "napomena": "Google „Memorial“, Gupčev trg 4 (45.2710873, 18.442314, cid 13203945218651402771), 34 m od približne tačke, bez fotografije; Hrženjak beleži premeštanje (Pren), pa identitet nije potvrđen."
+      }
+    ],
+    "bezPogotka": "Ostali upiti vratili su naše postojeće zapise, plaže, opštine i muzeje drugih tema ili mesta van opštine; Google tačka Dotrščine je tačka parka, ne Radovanijeve skulpture."
   }
 ]
