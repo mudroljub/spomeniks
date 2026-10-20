@@ -12757,8 +12757,8 @@
     },
     "mesto": "Travnik",
     "naziv": {
-      "sh": "Spomenici narodnih heroja (Ivo Lola Ribar, Josip Mažar Šoša)",
-      "en": "Memorials to People's Heroes (Ivo Lola Ribar, Josip Mažar Šoša)"
+      "sh": "Spomenici narodnih heroja (Ivo Lola Ribar, Josip Mažar Šoša, Taib Dautović)",
+      "en": "Memorials to People's Heroes (Ivo Lola Ribar, Josip Mažar Šoša, Taib Dautović)"
     },
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -13073,8 +13073,8 @@
     "slikaOdnos": 1.333,
     "slikaPotpis": "Dans, CC BY-SA 4.0",
     "naziv": {
-      "sh": "Biste narodnih heroja (Boško Karalić, Osman Karabegović, Ranko Šipka, Đuro Pucar, Branko Popović, Josip Mažar Šoša, Rada Vranješević, Drago Mažar, Milančić Miljević, Jovo Bijelić Joja, Ante Jakić, Rade Ličina, Šefket Maglajlić, Vahida Maglajlić, Danko Mitrov)",
-      "en": "Busts of People's Heroes (Boško Karalić, Osman Karabegović, Ranko Šipka, Đuro Pucar, Branko Popović, Josip Mažar Šoša, Rada Vranješević, Drago Mažar, Milančić Miljević, Jovo Bijelić Joja, Ante Jakić, Rade Ličina, Šefket Maglajlić, Vahida Maglajlić, Danko Mitrov)"
+      "sh": "Biste narodnih heroja (Boško Karalić, Osman Karabegović, Ranko Šipka, Đuro Pucar, Branko Popović, Josip Mažar Šoša, Rada Vranješević, Drago Mažar, Milančić Miljević, Jovo Bijelić Joja, Ante Jakić, Rade Ličina, Šefket Maglajlić, Vahida Maglajlić, Danko Mitrov, Stjepan Pavlić, Milorad Umjenović)",
+      "en": "Busts of People's Heroes (Boško Karalić, Osman Karabegović, Ranko Šipka, Đuro Pucar, Branko Popović, Josip Mažar Šoša, Rada Vranješević, Drago Mažar, Milančić Miljević, Jovo Bijelić Joja, Ante Jakić, Rade Ličina, Šefket Maglajlić, Vahida Maglajlić, Danko Mitrov, Stjepan Pavlić, Milorad Umjenović)"
     },
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -59413,10 +59413,9 @@
   {
     "id": "dragaljevac-donji-spomenik-dragi-tojicu-gangu-i-jo",
     "koordinate": {
-      "lat": 44.80998,
-      "lng": 19.06685
+      "lat": 44.812056,
+      "lng": 19.066583
     },
-    "priblizno": true,
     "mesto": "Dragaljevac Donji",
     "naziv": {
       "sh": "Spomenik Dragi Tojiću Gangu i Joki Vidović",
@@ -60837,10 +60836,9 @@
   {
     "id": "razljevo-spomenik-ustanku",
     "koordinate": {
-      "lat": 44.79253,
-      "lng": 18.90788
+      "lat": 44.792292,
+      "lng": 18.908195
     },
-    "priblizno": true,
     "mesto": "Ražljevo",
     "naziv": {
       "sh": "Spomenik ustanku",
@@ -66324,10 +66322,9 @@
   {
     "id": "lamovita-spomen-cesma-palim-borcima-i-krajiske-pro",
     "koordinate": {
-      "lat": 44.94409,
-      "lng": 16.92783
+      "lat": 44.944304,
+      "lng": 16.927576
     },
-    "priblizno": true,
     "mesto": "Lamovita",
     "naziv": {
       "sh": "Spomen-česma palim borcima I krajiške proleterske brigade",
@@ -75482,10 +75479,9 @@
   {
     "id": "petrovo-spomen-cesma-narodnom-heroju-radovanu-rado",
     "koordinate": {
-      "lat": 44.6326,
-      "lng": 18.36098
+      "lat": 44.632475,
+      "lng": 18.361121
     },
-    "priblizno": true,
     "mesto": "Petrovo",
     "naziv": {
       "sh": "Spomen-česma narodnom heroju Radovanu Radovanoviću",
@@ -81516,6 +81512,9 @@
     },
     "priblizno": true,
     "mesto": "Vrabac",
+    "slika": "slike/spomenici/vrabac-spomen-podrucje.webp",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Mapio.net, Radio Sarajevo",
     "naziv": {
       "sh": "Spomen-područje",
       "en": "Memorial area"
@@ -129295,10 +129294,9 @@
   {
     "id": "tekija-bista-stevana-vojmirovica",
     "koordinate": {
-      "lat": 44.68283,
-      "lng": 22.40908
+      "lat": 44.6836728,
+      "lng": 22.4082738
     },
-    "priblizno": true,
     "mesto": "Tekija",
     "naziv": {
       "sh": "Bista Stevana Vojmirovića"
@@ -133506,10 +133504,10 @@
   {
     "id": "mrcajevci-bista-radise-postica",
     "koordinate": {
-      "lat": 43.86705,
-      "lng": 20.52967
+      "lat": 43.8673026,
+      "lng": 20.5273308
     },
-    "priblizno": true,
+    "googleCid": "8807348067976761309",
     "mesto": "Mrčajevci",
     "naziv": {
       "sh": "Bista Radiše Poštića"
@@ -144895,6 +144893,9 @@
       "lng": 21.248441
     },
     "mesto": "Крушево",
+    "slika": "slike/spomenici/krusevo-bista-na-naum-naumoski-borce.webp",
+    "slikaOdnos": 0.563,
+    "slikaPotpis": "Google Maps",
     "naziv": {
       "sh": "Биста на Наум Наумоски-Борче"
     },
@@ -145598,10 +145599,9 @@
   {
     "id": "sombor-bista-kamenka-gagrcina",
     "koordinate": {
-      "lat": 45.7727397,
-      "lng": 19.1147036
+      "lat": 45.7706725,
+      "lng": 19.1173945
     },
-    "priblizno": true,
     "mesto": "Sombor",
     "naziv": {
       "sh": "Bista Kamenka Gagrčina"
@@ -145615,10 +145615,9 @@
   {
     "id": "sombor-bista-vere-vrebalov",
     "koordinate": {
-      "lat": 45.7727397,
-      "lng": 19.1147036
+      "lat": 45.7704899,
+      "lng": 19.1175449
     },
-    "priblizno": true,
     "mesto": "Sombor",
     "naziv": {
       "sh": "Bista Vere Vrebalov"
@@ -145631,10 +145630,9 @@
   {
     "id": "sombor-bista-ernea-kisa",
     "koordinate": {
-      "lat": 45.7727397,
-      "lng": 19.1147036
+      "lat": 45.7704651,
+      "lng": 19.1171357
     },
-    "priblizno": true,
     "mesto": "Sombor",
     "naziv": {
       "sh": "Bista Ernea Kiša"
@@ -145647,10 +145645,9 @@
   {
     "id": "sombor-bista-vujadina-sekulica-baneta",
     "koordinate": {
-      "lat": 45.7727397,
-      "lng": 19.1147036
+      "lat": 45.770292,
+      "lng": 19.1172649
     },
-    "priblizno": true,
     "mesto": "Sombor",
     "slika": "slike/spomenici/sombor-bista-vujadina-sekulica-baneta.webp",
     "slikaOdnos": 1.333,
@@ -145666,10 +145663,9 @@
   {
     "id": "sombor-bista-ivana-parcetica",
     "koordinate": {
-      "lat": 45.7727397,
-      "lng": 19.1147036
+      "lat": 45.7703317,
+      "lng": 19.1176639
     },
-    "priblizno": true,
     "mesto": "Sombor",
     "naziv": {
       "sh": "Bista Ivana Parčetića"
@@ -147144,10 +147140,9 @@
   {
     "id": "sarajevo-marijin-dvor-bista-vladimira-valtera-peri",
     "koordinate": {
-      "lat": 43.85595,
-      "lng": 18.4126833
+      "lat": 43.8559196,
+      "lng": 18.4126538
     },
-    "priblizno": true,
     "mesto": "Sarajevo (Marijin Dvor)",
     "slika": "slike/spomenici/sarajevo-marijin-dvor-bista-vladimira-valtera-peri.webp",
     "slikaOdnos": 0.75,
@@ -147428,6 +147423,212 @@
       "en": "Bust of Mara Đorđević Ćućulika"
     },
     "posveta": "Mare Đorđević Ćućulike, sekretara Okružnog komiteta KPJ za Leskovac",
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "priboj-bista-veljka-vlahovica",
+    "koordinate": {
+      "lat": 43.562735,
+      "lng": 19.539829
+    },
+    "googleCid": "8065918967579743956",
+    "mesto": "Priboj",
+    "naziv": {
+      "sh": "Bista Veljka Vlahovića"
+    },
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "cacak-bista-dragise-misovica",
+    "koordinate": {
+      "lat": 43.8672866,
+      "lng": 20.3566951
+    },
+    "googleCid": "3738297016591146405",
+    "mesto": "Čačak",
+    "naziv": {
+      "sh": "Bista Dragiše Mišovića"
+    },
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "vranje-bista-sime-pogacarevica",
+    "koordinate": {
+      "lat": 42.5514341,
+      "lng": 21.8959494
+    },
+    "googleCid": "742867040179293521",
+    "mesto": "Vranje",
+    "naziv": {
+      "sh": "Bista Sime Pogačarevića"
+    },
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "odvracenica-partizanski-spomenik",
+    "koordinate": {
+      "lat": 43.2793709,
+      "lng": 20.3368209
+    },
+    "googleCid": "10791130665264844969",
+    "mesto": "Odvraćenica",
+    "naziv": {
+      "sh": "Partizanski spomenik"
+    },
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "bratunac-partizansko-groblje",
+    "koordinate": {
+      "lat": 44.182292,
+      "lng": 19.329782
+    },
+    "mesto": "Bratunac",
+    "naziv": {
+      "sh": "Partizansko groblje",
+      "en": "Partisans' cemetery"
+    },
+    "godina": "1954",
+    "stanje": "uklonjen",
+    "vrsta": "groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "gacko-spomenik-xxix-hercegovackoj-diviziji",
+    "koordinate": {
+      "lat": 43.166438,
+      "lng": 18.535522
+    },
+    "mesto": "Gacko",
+    "naziv": {
+      "sh": "Spomenik XXIX hercegovačkoj diviziji",
+      "en": "Monument to the XXIX Herzegovinian Division"
+    },
+    "godina": "1983",
+    "autor": "Vuk Roganović",
+    "posveta": "XXIX hercegovačkoj diviziji",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "prnjavor-partizansko-groblje",
+    "koordinate": {
+      "lat": 44.872663,
+      "lng": 17.666739
+    },
+    "mesto": "Prnjavor",
+    "naziv": {
+      "sh": "Partizansko groblje",
+      "en": "Partisans' cemetery"
+    },
+    "vrsta": "groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "gornji-ribnik-partizansko-groblje-sa-59-palih-bora",
+    "koordinate": {
+      "lat": 44.415751,
+      "lng": 16.818508
+    },
+    "mesto": "Gornji Ribnik",
+    "naziv": {
+      "sh": "Partizansko groblje sa 59 palih boraca",
+      "en": "Partisans' cemetery with 59 fallen fighters"
+    },
+    "godina": "1962",
+    "vrsta": "groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "zvornik-skulptura-narodnog-heroja-filipa-kljajica",
+    "koordinate": {
+      "lat": 44.382981,
+      "lng": 19.102847
+    },
+    "mesto": "Zvornik",
+    "naziv": {
+      "sh": "Skulptura narodnog heroja Filipa Kljajića",
+      "en": "Sculpture of NH Filip Kljajić"
+    },
+    "godina": "1963",
+    "autor": "Vladeta Petrić",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "nis-bista-djuke-dinic",
+    "koordinate": {
+      "lat": 43.3234393,
+      "lng": 21.8942075
+    },
+    "mesto": "Niš",
+    "slika": "slike/spomenici/nis-bista-djuke-dinic.webp",
+    "slikaOdnos": 0.591,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
+    "naziv": {
+      "sh": "Bista Đuke Dinić"
+    },
+    "posveta": "Đuki Dinić.",
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "nis-spomenik-sestrama-bakovic",
+    "koordinate": {
+      "lat": 43.314762,
+      "lng": 21.9020035
+    },
+    "mesto": "Niš",
+    "slika": "slike/spomenici/nis-spomenik-sestrama-bakovic.webp",
+    "slikaOdnos": 1.509,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
+    "naziv": {
+      "sh": "Spomenik sestrama Baković"
+    },
+    "posveta": [
+      "Q1256730"
+    ],
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-bista-nenada-parente",
+    "koordinate": {
+      "lat": 44.7779093,
+      "lng": 20.4738247
+    },
+    "mesto": "Beograd",
+    "slika": "slike/spomenici/beograd-bista-nenada-parente.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Pidge Copetti, CC BY-SA 4.0",
+    "naziv": {
+      "sh": "Bista Nenada Parente"
+    },
+    "godina": "1983",
+    "autor": "Milan Besarabić",
+    "posveta": "Nenadu Parenti.",
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "pancevo-bista-olge-petrov",
+    "koordinate": {
+      "lat": 44.8714532,
+      "lng": 20.641311
+    },
+    "mesto": "Pančevo",
+    "slika": "slike/spomenici/pancevo-bista-olge-petrov.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Branislav Jovanović, Public domain",
+    "naziv": {
+      "sh": "Bista Olge Petrov"
+    },
+    "posveta": "Olgi Petrov.",
     "vrsta": "bista",
     "drzava": "Serbia"
   }

@@ -76,6 +76,10 @@ POZNATI_BLISKI_PAROVI = {frozenset(par) for par in [
     ('bistrica-bista-lepe-radic', 'bistrica-spomenik-palim-borcima-i-zrtvama-fasistic'),
     # Bista (tačka Sketchfab modela ZZSK) i skulptura devojčice sa lanetom (približna tačka iz Partisan Memorials Wiki), gradski park.
     ('leskovac-spomenik-pionirima', 'leskovac-bista-stojana-ljubica'),
+    # Zasebne biste narodnih heroja na Trgu cara Uroša u Somboru, svaka sa imenovanom OSM tačkom.
+    ('sombor-bista-kamenka-gagrcina', 'sombor-bista-vere-vrebalov'),
+    ('sombor-bista-vere-vrebalov', 'sombor-bista-ivana-parcetica'),
+    ('sombor-bista-ernea-kisa', 'sombor-bista-vujadina-sekulica-baneta'),
 ]}
 cir = re.compile('[Ѐ-ӿ]')
 
