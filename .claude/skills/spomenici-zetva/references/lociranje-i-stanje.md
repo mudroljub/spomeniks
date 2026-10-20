@@ -10,6 +10,8 @@ Pre upisa uporedi spomenike na mapi i spisak bez lokacije (`data/bez_lokacije.js
 
 Za staru muzejsku adresu proveri današnju ustanovu i postavku. Ime zgrade ili njen centroid ne potvrđuju da je u njoj i dalje muzej NOB-a. Razlikuj raniji objekat od zamene: godina, autor, slika i lokacija ne prenose se automatski na novo delo.
 
+Istorijska uloga zgrade sama po sebi ne potvrđuje muzej, spomen-kuću ni spomen-ploču. Vrstu `muzej` ne određuj samo po nekadašnjoj postavci; potvrđena mala spomen-kuća prati vrstu `spomen-kuca` iz standarda. Ako je postavka preneta, sačuvaj to u opisu sa datumom dokaza, bez pretpostavke da se unutrašnjost može obići ili da ploča danas postoji (Donja Trnova, spomen-kuća „Oslobođenje“: reportaža iz 2023. potvrđuje prenos postavke u depo Muzeja Semberije).
+
 Ako tačka nije potvrđena, sačuvaj kandidata i razlog u radnom zapisu. Uklonjene objekte traži poslednje; i oni se upisuju kad je tačka poznata. Hrvatske kandidate proveri po postupku opstanka ispod; istorija odluka i dozvoljenog obima je u [hrvatskim beleškama](../../../../docs/PROVERA_RUSENJA_HRVATSKA.md).
 
 ## Traženje i spajanje duplikata

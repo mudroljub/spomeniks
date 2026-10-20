@@ -14065,5 +14065,46 @@
       "Vrelo (Lipljan)": "Postoje dva sela Vrelo (Golesko i kod Gadimlja). Wiki potvrdu naziva pretpostavkom, pa su dva unosa sacuvana bez pogresne tacke kod Uba."
     },
     "ostalaPregledanaMesta": "Vladaje, Sokolje-Goc, Nova Topola i Velika Zupa zaselak Staro postoje u originalu; nisu ispravljana samo zato sto zvuce neobicno."
+  },
+  {
+    "odluka": "donja-trnova-oslobodjenje-nije-aktivan-muzej-2026-10-20",
+    "datum": "2026-10-20",
+    "id": "donja-trnova-zgrada-u-kojoj-je-prvi-put-objavljen",
+    "pre": {
+      "id": "donja-trnova-zgrada-u-kojoj-je-prvi-put-objavljen",
+      "koordinate": {
+        "lat": 44.65429,
+        "lng": 19.09528
+      },
+      "priblizno": true,
+      "mesto": "Donja Trnova",
+      "naziv": "Zgrada u kojoj je prvi put objavljen list „Oslobođenje“",
+      "nazivEn": "Building in which Oslobođenje newspaper was first published",
+      "vrsta": "muzej",
+      "drzava": "Bosnia and Herzegovina"
+    },
+    "posle": {
+      "id": "donja-trnova-zgrada-u-kojoj-je-prvi-put-objavljen",
+      "koordinate": {
+        "lat": 44.65429,
+        "lng": 19.09528
+      },
+      "priblizno": true,
+      "mesto": "Donja Trnova",
+      "naziv": "Spomen-kuća „Oslobođenje“",
+      "nazivEn": "Oslobođenje Memorial House",
+      "vrsta": "spomen-kuca",
+      "drzava": "Bosnia and Herzegovina",
+      "wiki": "https://www.oslobodjenje.ba/vijesti/bih/foto-u-donjoj-trnovi-na-mjestu-pocetka-historije-koja-traje-80-godina-886723/",
+      "opis": {
+        "sh": "U kući Lazara Jovića 30. avgusta 1943. štampan je prvi broj lista „Oslobođenje“. Prema reportaži sa terena iz 2023. godine, kuća je zapuštena, a nekadašnja muzejska postavka sa štamparskom opremom preneta je u depo Muzeja Semberije.",
+        "en": "The first issue of Oslobođenje was printed in Lazar Jović’s house on 30 August 1943. A 2023 on-site report described the house as neglected and stated that its former museum collection and printing equipment had been transferred to the Semberija Museum’s storage."
+      }
+    },
+    "izvorPotvrde": "https://www.oslobodjenje.ba/vijesti/bih/foto-u-donjoj-trnovi-na-mjestu-pocetka-historije-koja-traje-80-godina-886723/",
+    "datumDokaza": "2023-08-30",
+    "dokaz": "Reporteri Oslobodjenja obisli su kucu; tekst potvrdjuje nekadasnji muzej od 1980-ih, zapusten objekat i prenos presa i opreme u depo Muzeja Semberije. Komisijina lista peticija takodje koristi naziv Spomen kuca Oslobodjenje. Ispravljena vrsta u spomen-kuca i opisni naslov; ne tvrdi se danasnji rad muzeja, prisustvo ploce niti pristup unutrasnjosti. Stanje nije proizvoljno oznaceno zatvoren ili srusen.",
+    "srodniIdZaProveru": "ugljevik-cetkovic-spomen-kuca-oslobodjenje",
+    "napomena": "OSM unos i ovaj zapis nisu automatski spojeni bez potvrde identiteta i tacke."
   }
 ]

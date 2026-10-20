@@ -23,6 +23,7 @@ POTPUNOST PODATKA:
 - popunjavati druge atribute na osnovu dostupnih izvora ([dopuna podataka](docs/DOPUNA_PODATAKA.md)). prioritet su: autor, posveta, wiki...
 - uklanjati duplikate i greške koji su se uvukli u bazu
     - "Zgrada u kojoj je prvi put objavljen list „Oslobođenje“" sigurno nije muzej a svrstana je tako. nemamo pojma šta je, možda nema ni spomen ploču više.
+    - najsumnjiviji su podaci za bosnu. posebno stotine i hiljade njih bez poznatog statusa, vrste i lokacije. putnike i korisnike aplikacije to može ozbiljno da zavede. smisli kao to rešiti. možda da uvedemo kriterije za pouzdanost podataka?
 
 UI
 - previše natrpano - text, linkovi, info... "D:\Pictures\Screenshots\Snimka zaslona 2026-10-20 170533.png"
