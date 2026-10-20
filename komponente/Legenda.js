@@ -143,7 +143,7 @@ style.textContent = `
 
 const stavka = (znak, naziv) => `<div class="stavka"><span class="ikona">${znak}</span><span>${naziv}</span></div>`
 
-const vrsta = type => stavka(znakVrste(type), t(type === 'istaknut' ? type : type + 'Jednina'))
+const vrsta = type => stavka(znakVrste(type), t(type))
 
 const vrste = nivoiVaznosti.map(vrsta).join('')
 

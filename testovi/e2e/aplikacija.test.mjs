@@ -97,7 +97,7 @@ test('oznake vrsta prate UI nazive i sve njihove ikonice postoje', async () => {
     const {izgledMarkera} = await import('./utils/ikonice.js')
     const greske = []
     for (const vrsta of vrstePoVaznosti) {
-      const naziv = t(vrsta + 'Jednina').normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase()
+      const naziv = t(vrsta).normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase()
       if (naziv !== vrsta) greske.push(vrsta + ': ' + naziv)
       for (const stanje of [undefined, 'rusevine', 'uklonjen']) {
         const {slika} = izgledMarkera({vrsta, stanje})
@@ -123,7 +123,7 @@ test('legenda, filteri, izbor ture i slojevi mape prate isti prioritet vrsta', a
     return {
       redosled: nivoiVaznosti,
       legenda: [...legenda.querySelectorAll('.sadrzaj > div:first-child .stavka')].map(s => s.lastElementChild.textContent),
-      naziviLegende: nivoiVaznosti.map(v => t(v === 'istaknut' ? v : v + 'Jednina')),
+      naziviLegende: nivoiVaznosti.map(v => t(v)),
       filteri: [...filteri.querySelectorAll('[data-grupa="tip"][data-opcija]')].map(s => s.dataset.opcija),
       izborTure: [...ruta.querySelectorAll('[data-prag]')].map(s => s.dataset.prag),
       brojevi: [...ruta.querySelectorAll('[data-prag] .nivo')].map(s => s.textContent),
@@ -535,7 +535,7 @@ test('podrazumevani prag je statua i svaka vrsta je zasebna opcija', async () =>
   await otvori()
   const ruta = "document.querySelector('planer-rute').shadowRoot"
   assert.equal(await izvrsi("document.querySelector('planer-rute').pragVaznosti"), 'statua')
-  assert.match(await izvrsi(`${ruta}.querySelector('#prag-vaznosti').textContent`), /Statue/)
+  assert.match(await izvrsi(`${ruta}.querySelector('#prag-vaznosti').textContent`), /Statua/)
   const opcije = await izvrsi(`[...${ruta}.querySelectorAll('[data-prag]')].map(o=>({value:o.dataset.prag,label:o.textContent,znak:Boolean(o.querySelector('img'))}))`)
   assert.ok(opcije.every(o=>o.znak), 'svaka opcija ima znak sa mape')
   assert.deepEqual(opcije.map(o=>o.value), nivoiVaznosti)
@@ -1047,7 +1047,7 @@ test('groblje ima zaseban filter, oznaku u legendi i marker', async () => {
   await izvrsi("document.querySelector('polje-pretraga .dugme-filteri').click()")
   const root = "document.querySelector('panel-filteri').shadowRoot"
   const cip = `${root}.querySelector('[data-grupa="tip"][data-opcija="groblje"]')`
-  assert.match(await izvrsi(`${cip}.textContent`), /Groblja/)
+  assert.match(await izvrsi(`${cip}.textContent`), /Groblje/)
   await izvrsi(`${cip}.click()`)
   const vrste = await izvrsi("document.querySelector('polje-pretraga').filtrirano.map(s=>s.spomenik.vrsta)")
   assert.ok(vrste.length > 0)

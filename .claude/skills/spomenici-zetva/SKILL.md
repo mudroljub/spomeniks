@@ -71,7 +71,6 @@ Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i ot
   - nazive i linkove daje `wbgetentities` sa `props=labels|sitelinks/urls`, po 50 id-ova;
   - `P31 = Q5` znači da je članak o osobi.
 - **Dopuna nedostajućih podataka ide po važnosti, najbitnije prvo** (korisnik, 2026-10-19): fotografije, lokacije i ostala polja dopunjuju se prvo istaknutim spomenicima, pa po vrsti redom iz `vrstePoVaznosti` u `utils/vaznost.js` (u Pythonu `ZUM_VRSTE` iz `alati/zapis.py`); srušeni i uklonjeni dolaze poslednji. Verovatnoća uspeha određuje redosled samo unutar iste grupe. Kad izvor nema kandidate važnijih vrsta, javi to i predloži izvor za njih, umesto da se tiho nastavi sa manje važnim.
-- **Prag za ciljanu žetvu fotografija** (korisnik, 2026-10-20): prednost imaju `spomen-park`, `muzej`, `spomenik`, `statua`, `bista` i prethodno potvrđena sadržajna spomen-groblja sa značajnim spomenicima, skulpturama ili bistama. Jednostavni `spomen-grob`, `spomen-obelezje` i `spomen-ploca` ostaju niži prioritet. Postojeća vrsta `spomen-groblje` sama po sebi nije dokaz važnosti: prvo proveriti da li zapis predstavlja celu memorijalnu celinu, konkretno umetničko delo ili jednostavan grob, po standardu zapisa. Ne prelaziti automatski na niže vrste kada se iscrpe važnije.
 - **Prolaz kroz `data/bez_lokacije.json`:** obavezno po verovatnoći uspeha, ne redom. Prednost imaju konkretni objekti (muzej, škola, dom), savremene adrese i precizne tačke; uklonjeni i srušeni dolaze poslednji.
 - **Opstanak, posebno u Hrvatskoj** (mnogo je srušeno i uklonjeno 1990–2000):
   - razlikuj godinu podizanja, datum opisanog stanja, datum fotografije ili obilaska i godinu izdanja izvora; noviji sajt koji prenosi vodič iz 1978. nije noviji dokaz od Hrženjaka (2002, `data/knjige/hrzenjak-2002.json`);
@@ -87,6 +86,8 @@ Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i ot
 
 ## Fotografije
 
+- **Zamena Google fotografija** (korisnik, 2026-10-20): fotografije korisnika Google mapa nemaju licencu za ponovnu objavu. Nađi odgovarajuću zamenu sa slobodnom licencom, pa tek onda ukloni Google fotografiju; spomenik ne ostavljaj bez slike tokom zamene.
+- **Prioritet dopune fotografija** (korisnik, 2026-10-20): prednost imaju umetnička dela i sadržajne memorijalne celine: `spomen-park`, `muzej`, `spomenik`, `statua`, `bista` i prethodno potvrđena sadržajna spomen-groblja sa značajnim spomenicima, skulpturama ili bistama. Obična groblja, jednostavni grobovi, `spomen-obelezje` i `spomen-ploca` ostaju niži prioritet. Postojeća vrsta `spomen-groblje` sama po sebi nije dokaz važnosti: prvo proveri da li zapis predstavlja celu memorijalnu celinu, konkretno umetničko delo ili jednostavan grob, po standardu zapisa. Ne prelazi automatski na niže vrste kada se iscrpe važnije.
 - Svaka nova fotografija prolazi pregled u montaži:
   `magick montage -label '%t' <fajlovi> -tile 5x3 -geometry 220x165+3+3 pregled.png`, pa pogledaj sliku.
 - **Odbacuje se:**

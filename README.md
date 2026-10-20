@@ -21,13 +21,10 @@ POTPUNOST PODATKA:
 - locirati spomenike bez lokacije i bez tačne lokacije ([lociranje](docs/LOCIRANJE_SPOMENIKA.md))
 - dodavati fotografije gde nedostaju ([obrađeni izvori fotografija](docs/IZVORI.md#commons-i-fotografije))
 - popunjavati druge atribute na osnovu dostupnih izvora ([dopuna podataka](docs/DOPUNA_PODATAKA.md)). prioritet su: autor, posveta, wiki...
-
-KVALITET PODATAKA:
-- fotografije korisnika Google mapa nemaju licencu za ponovnu objavu: naći zamenu sa slobodnom licencom, pa ukloniti Google slike
-- pri dopuni fotografija prednost dati umetničkim delima i sadržajnim memorijalnim celinama; obična groblja, jednostavni grobovi i ploče ostaju niži prioritet
+- uklanjati duplikate i greške koji su se uvukli u bazu
+    - "Zgrada u kojoj je prvi put objavljen list „Oslobođenje“" sigurno nije muzej a svrstana je tako. nemamo pojma šta je, možda nema ni spomen ploču više.
 
 UI
-- za vrste spomenika negde u aplikaciji koristimo jedninu negde množinu. prebaci svuda na jedninu da probam.
 - previše natrpano - text, linkovi, info... "D:\Pictures\Screenshots\Snimka zaslona 2026-10-20 170533.png"
 
 REFAKTOR

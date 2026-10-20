@@ -442,8 +442,7 @@ const rimskiBroj = broj => {
   }
   return oznaka
 }
-const imePraga = vrsta => t(vrsta === 'istaknut' ? 'istaknutiSpomenici' : vrsta)
-const nazivPraga = vrsta => `${imePraga(vrsta)} <span class="nivo">${rimskiBroj(vaznostVrste[vrsta])}</span>`
+const nazivPraga = vrsta => `${t(vrsta)} <span class="nivo">${rimskiBroj(vaznostVrste[vrsta])}</span>`
 
 const otvoriStanicu = marker => mapa.fire('izbor', {marker, izRute: true})
 
@@ -745,7 +744,7 @@ export default class Ruta extends HTMLElement {
     const opisMesta = mesta.slice(0, 4).join(', ') + (mesta.length > 4 ? '…' : '')
     // tura sa stalnim pragom umesto stanica navodi prag, jer ne prati izbor praga iznad spiska
     const prag = this.definicije.find(d => d.id === id)?.prag
-    red.querySelector('.opis').textContent = prag ? imePraga(prag) : t('stanice', clanovi.length) + (opisMesta ? `: ${opisMesta}` : '')
+    red.querySelector('.opis').textContent = prag ? t(prag) : t('stanice', clanovi.length) + (opisMesta ? `: ${opisMesta}` : '')
     red.querySelector('button').addEventListener('click', () => {
       izaberiTuru({id, naziv, spomenici: this.redosledTure(spomenici), wiki})
       this.prikaziKarticu('planer')
