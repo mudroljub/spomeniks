@@ -1,8 +1,8 @@
 import json, math, os, re, sys, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # zapis.py je pored alata
-from zapis import REDOSLED, ISTAKNUTI, OSTALI, IZVORI_STANJA, PROVERE_SPOMENIKA, POLJA_PROVERE, u_istaknutima
+from zapis import REDOSLED, ISTAKNUTI, OSTALI, IZVORI_STANJA, PROVERE_SPOMENIKA, POLJA_PROVERE, u_istaknutima, ucitaj_mapu
 sys.stdout.reconfigure(encoding='utf-8')
-istaknuti, ostali = (json.load(open(f, encoding='utf8')) for f in (ISTAKNUTI, OSTALI))
+istaknuti, ostali = (ucitaj_mapu(f) for f in (ISTAKNUTI, OSTALI))
 d = istaknuti + ostali
 ture = json.load(open('data/ture.json', encoding='utf8'))
 autori = json.load(open('data/autori.json', encoding='utf8'))

@@ -124,6 +124,15 @@ class ZapisTest(unittest.TestCase):
             self.assertEqual(json.loads(Path(zapis.PROVERE_SPOMENIKA).read_bytes()),
                              {'a': {'proveraLokacije': provera}})
 
+    def test_standardna_putanja_slike_se_ne_upisuje(self):
+        spomenici = [{'id': 'a', 'vrsta': 'spomenik', 'istaknut': True, 'slika': 'slike/spomenici/a.webp', 'slikaOdnos': 1.5},
+                     {'id': 'b', 'vrsta': 'bista', 'slika': 'slike/drugo/b.webp', 'slikaOdnos': 1}]
+        with self.izolovana_baza(), zapis.zakljucani_podaci():
+            zapis.sacuvaj_bazu(spomenici)
+            sirovo = json.loads(Path(zapis.ISTAKNUTI).read_bytes()) + json.loads(Path(zapis.OSTALI).read_bytes())
+            self.assertEqual({s['id']: s.get('slika') for s in sirovo}, {'a': None, 'b': 'slike/drugo/b.webp'})
+            self.assertEqual({s['id']: s['slika'] for s in zapis.ucitaj_bazu()}, {'a': 'slike/spomenici/a.webp', 'b': 'slike/drugo/b.webp'})
+
     def test_razvrstavanje_cuva_priblizne_medju_ostalima(self):
         spomenici = [{'id': 'spomenik', 'vrsta': 'spomenik'},
                      {'id': 'bista', 'vrsta': 'bista'},

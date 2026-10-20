@@ -8,7 +8,7 @@ const koren = join(dirname(fileURLToPath(import.meta.url)), '..', '..')
 const procitaj = putanja => readFileSync(join(koren, putanja), 'utf8')
 
 const staticki = /^import\s+(?:[^'"]*?\s+from\s+)?['"](\.[^'"]+)['"]/gm
-const odlozeni = /\bimport\(['"](\.[^'"]+\.js)['"]\)/g // bez tipova iz JSDoc-a
+const odlozeni = /\b(?:import|uvezi)\(['"](\.[^'"]+\.js)['"]\)/g // bez tipova iz JSDoc-a
 
 // moduli do kojih main.js stize uvozima, putanje od korena; sa odlozenima i oni koji se uvoze tek posle prvog crtanja
 const moduli = (odlozeno = false, pocetni = 'main.js', nadjeni = new Set()) => {

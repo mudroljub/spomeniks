@@ -99,8 +99,15 @@ def u_istaknutima(s):
 
 @zakljucani_podaci()
 def upisi_json(putanja, podaci):
-    """Zameni kompletan JSON atomarno, uz UTF-8, CRLF i uvlačenje 2."""
-    tekst = json.dumps(podaci, ensure_ascii=False, indent=2).replace('\n', '\r\n') + '\r\n'
+    """Zameni kompletan JSON atomarno, uz UTF-8, CRLF i uvlačenje 2.
+
+    Spiskove spomenika na mapi aplikacija preuzima pri otvaranju, pa je u njima svaki spomenik jedan red bez razmaka:
+    fajl je za četvrtinu manji, a izmena u gitu i dalje pogađa samo red jednog spomenika."""
+    if isinstance(podaci, list) and os.path.abspath(putanja) in {os.path.abspath(ISTAKNUTI), os.path.abspath(OSTALI)}:
+        redovi = [json.dumps(sazmi_sliku(s), ensure_ascii=False, separators=(',', ':')) for s in podaci]
+        tekst = '[\r\n' + ',\r\n'.join(redovi) + ('\r\n' if redovi else '') + ']\r\n'
+    else:
+        tekst = json.dumps(podaci, ensure_ascii=False, indent=2).replace('\n', '\r\n') + '\r\n'
     fd, privremeni = tempfile.mkstemp(dir=os.path.dirname(os.path.abspath(putanja)), prefix='.zapis-', suffix='.tmp')
     try:
         with os.fdopen(fd, 'w', encoding='utf-8', newline='') as f:
@@ -118,9 +125,31 @@ def _ucitaj(putanja, prazno=None):
     return [] if prazno is None else prazno
 
 
+# Slika na standardnoj putanji se u fajlovima mape ne upisuje: postoji kad postoji slikaOdnos, koji uvek ide uz nju.
+# Ucitavanje vraca putanju, a upis je opet izostavlja (stariji oblik `true` se cita isto).
+def putanja_slike(s):
+    return f"slike/spomenici/{s['id']}.webp"
+
+
+def rasiri_sliku(s):
+    if s.get('slika') is True or ('slika' not in s and s.get('slikaOdnos')): s['slika'] = putanja_slike(s)
+    return s
+
+
+def sazmi_sliku(s):
+    if s.get('slika') != putanja_slike(s) or not s.get('slikaOdnos'): return s
+    return {k: v for k, v in s.items() if k != 'slika'}
+
+
+@zakljucani_podaci()
+def ucitaj_mapu(putanja):
+    """Jedan od dva fajla mape, sa putanjama slika."""
+    return [rasiri_sliku(s) for s in _ucitaj(putanja)]
+
+
 @zakljucani_podaci()
 def ucitaj_bazu():
-    return _ucitaj(ISTAKNUTI) + _ucitaj(OSTALI)
+    return ucitaj_mapu(ISTAKNUTI) + ucitaj_mapu(OSTALI)
 
 
 @zakljucani_podaci()

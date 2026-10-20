@@ -3,14 +3,14 @@
 # pokretanje iz korena repozitorijuma: python <putanja>/slike_odnos.py
 import glob, json, os, subprocess, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # zapis.py je pored alata
-from zapis import ISTAKNUTI, OSTALI, poredaj, upisi_json
+from zapis import ISTAKNUTI, OSTALI, poredaj, ucitaj_mapu, upisi_json
 
 # spisak bez lokacije nema stalan redosled polja, pa se ne preuredjuje; slika koja nije lokalna
 # (stariji zapisi sa imenom fajla na Vikipediji) ostaje kakva jeste
 SKUPOVI = [(ISTAKNUTI, 'slike/spomenici', True), (OSTALI, 'slike/spomenici', True), ('data/bez_lokacije.json', 'slike/bez-lokacije', False)]
 
 for put, folder, preuredi in SKUPOVI:
-    d = json.load(open(put, encoding='utf8'))
+    d = ucitaj_mapu(put) if preuredi else json.load(open(put, encoding='utf8'))
     izlaz = subprocess.run(['magick', 'identify', '-format', '%i %w %h\n', f'{folder}/*.webp'], capture_output=True, text=True, check=True).stdout \
         if glob.glob(f'{folder}/*.webp') else ''
     odnosi = {}

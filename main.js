@@ -24,16 +24,22 @@ document.querySelector('dugme-legenda').after(najblizi)
 // da na losoj vezi ne usporava biblioteku mape; izbor spomenika pre toga se zapamti i prikaze kad kod stigne.
 let javiPrvoCrtanje
 const prvoCrtanje = new Promise(resi => javiPrvoCrtanje = resi)
+// na losoj vezi preuzimanje zna da pukne; pregledac pamti neuspeli uvoz, pa se ponavlja sa drugom adresom
+const uvezi = (putanja, pokusaj = 0) => import(pokusaj ? `${putanja}?pokusaj=${pokusaj}` : putanja)
+  .catch(greska => {
+    console.error(greska)
+    return new Promise(resi => setTimeout(resi, Math.min(30000, 2000 * 2 ** pokusaj))).then(() => uvezi(putanja, pokusaj + 1))
+  })
 let izborPre = null
 const pamtiIzbor = e => izborPre = e
 mapa.on('izbor', pamtiIzbor)
-const detalji = prvoCrtanje.then(() => import('./komponente/Detalji.js')).then(({default: Detalji}) => {
+const detalji = prvoCrtanje.then(() => uvezi('./komponente/Detalji.js')).then(({default: Detalji}) => {
   const prozor = document.body.appendChild(new Detalji())
   mapa.off('izbor', pamtiIzbor)
   if (izborPre?.marker) prozor.prikazi(izborPre.marker, izborPre.izRute)
   return prozor
 })
-const ruta = prvoCrtanje.then(() => import('./komponente/Ruta.js')).then(({default: Ruta}) => {
+const ruta = prvoCrtanje.then(() => uvezi('./komponente/Ruta.js')).then(({default: Ruta}) => {
   const planer = new Ruta()
   najblizi.before(planer)
   return planer
@@ -128,6 +134,11 @@ if (devMode) {
 const ucitaj = putanja => fetch(putanja)
   .then(res => res.ok ? res.json() : Promise.reject(new Error(`${putanja}: HTTP ${res.status}`)))
 
+// slika na standardnoj putanji se u fajlu ne upisuje, nego je oznacava slikaOdnos (alati/zapis.py), da se manje preuzima
+/** @param {any[]} spomenici sirovi zapisi iz fajla @returns {import('./data/tipovi').Spomenik[]} */
+const saSlikama = spomenici => spomenici.map(s => s.slika === true || (!s.slika && s.slikaOdnos) ? Object.assign(s, {slika: `slike/spomenici/${s.id}.webp`}) : s)
+const ucitajSpomenike = putanja => ucitaj(putanja).then(saSlikama)
+
 // bez autora, posveta ili tura spomenici se ipak prikazuju, samo bez tih dodataka
 const ucitajDodatak = (putanja, prazno) => ucitaj(putanja).catch(greska => {
   console.error(greska)
@@ -163,7 +174,7 @@ nacrtano.then(() => {
   })
 })
 addEventListener('hashchange', () => otvoriIzLinka(sveStavke))
-ucitaj('data/spomenici-istaknuti.json')
+ucitajSpomenike('data/spomenici-istaknuti.json')
   .then(spomenici => {
     const prve = spomenici.map(spomenik => praviStavku(spomenik))
     sveStavke = prve
@@ -173,7 +184,7 @@ ucitaj('data/spomenici-istaknuti.json')
     const otvoren = otvoriIzLinka(prve)
     requestAnimationFrame(javiPrvoCrtanje)
     posleCrtanja().then(javiCrtanje)
-    return nacrtano.then(() => ucitaj('data/spomenici-ostali.json')).then(spomenici => {
+    return nacrtano.then(() => ucitajSpomenike('data/spomenici-ostali.json')).then(spomenici => {
       const pomaci = pomaciPribliznih(spomenici)
       const nove = spomenici.map(spomenik => praviStavku(spomenik, pomaci.get(spomenik)))
       sveStavke = [...prve, ...nove]

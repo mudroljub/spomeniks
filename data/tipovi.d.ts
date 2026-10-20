@@ -46,7 +46,7 @@ export interface Spomenik {
   wikiEn?: string
   /** proveren članak o konkretnom spomeniku van Vikipedije; izvor podataka sam po sebi nije članak */
   clanak?: string
-  /** "slike/spomenici/<id>.webp" */
+  /** "slike/spomenici/<id>.webp"; u fajlovima mape se ta standardna putanja ne upisuje (oznacava je `slikaOdnos`), a alati i aplikacija je vracaju pri ucitavanju */
   slika?: string
   /** širina / visina slike; postoji uvek uz `slika` */
   slikaOdnos?: number
