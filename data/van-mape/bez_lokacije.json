@@ -1799,10 +1799,15 @@
     "nazivEn": "Bust of NH Rodoljub Čolaković",
     "godina": "1984",
     "autor": "Milovan Krstić",
-    "posveta": "Rodoljuba Čolakovića",
+    "posveta": [
+      "Q1292473"
+    ],
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Town park"
+    "adresa": "Town park",
+    "slika": "slike/bez-lokacije/bijeljina-bista-rodoljuba-colakovica.webp",
+    "slikaPotpis": "Aleksandra Đuričić, CC BY-SA 4.0",
+    "slikaOdnos": 0.749
   },
   {
     "id": "bijeljina-spomen-ploca-nob",
@@ -1856,7 +1861,13 @@
     "opis": {
       "sh": "Bista Veselina Gavrića iz 1981. premeštena je sa trga kod Majevičke ulice u gradski park u leto 2020. godine.",
       "en": "Veselin Gavrić’s 1981 bust was moved from the square near Majevička Street to the town park in summer 2020."
-    }
+    },
+    "slika": "slike/bez-lokacije/bijeljina-bista-veselina-gavrica.webp",
+    "slikaPotpis": "Ранко Николић, CC BY-SA 4.0",
+    "posveta": [
+      "Q16380596"
+    ],
+    "slikaOdnos": 0.749
   },
   {
     "id": "bijeljina-bista-dr-vojislava-kecmanovica",
@@ -6038,7 +6049,10 @@
     "opis": {
       "sh": "Prvobitna bista Zdenka Grgića, postavljena između 1959. i 1962, uklonjena je ili uništena tokom rata 1992–1995. Zamenjena je bistom Drage Handanovića, otkrivenom 2002.",
       "en": "Zdenko Grgić’s original bust, installed between 1959 and 1962, was removed or destroyed during the 1992–1995 war. A replacement by Drago Handanović was unveiled in 2002."
-    }
+    },
+    "posveta": [
+      "Q4212881"
+    ]
   },
   {
     "id": "doboj-bista-milosa-kupresa",
@@ -6081,7 +6095,9 @@
     "nazivEn": "Bust of Todor Vujasinović",
     "godina": "2002",
     "autor": "Drago Handanović",
-    "posveta": "Todora Vujasinovića",
+    "posveta": [
+      "Q1564071"
+    ],
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Park of National Heroes"
@@ -11012,7 +11028,7 @@
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Mali park severno od centra grada",
     "slika": "slike/bez-lokacije/lukavac-bista-mehe-tubica.webp",
-    "slikaOdnos": 0.7504690431519699,
+    "slikaOdnos": 0.75,
     "slikaPotpis": "Adis Mujkić, spomenicinob.info (oktobar 2018)",
     "opis": {
       "sh": "Posvećeno partizanu Mehi Tubiću (1892-1943), poginulom u Turiji 20. novembra 1943. godine. Bista je podignuta 1977, a fotografisana u oktobru 2018. godine.",
@@ -11067,7 +11083,7 @@
       "en": "Dedicated to early Partisan fighter Anton Macan (1919-1942), who died in captivity following the attack on the First Majevica Detachment headquarters in Vukosavci. In 2019, the bust was moved from the secondary school to the square in front of the Cultural Centre, where it was photographed that September."
     },
     "slika": "slike/bez-lokacije/lukavac-bista-antona-macana.webp",
-    "slikaOdnos": 0.7518796992481203,
+    "slikaOdnos": 0.752,
     "slikaPotpis": "Adis Mujkić, spomenicinob.info (septembar 2019)"
   },
   {
@@ -11081,7 +11097,7 @@
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Ispred OŠ „Lukavac Grad“",
     "slika": "slike/bez-lokacije/lukavac-bista-vjekoslava-tunjica.webp",
-    "slikaOdnos": 0.7504690431519699,
+    "slikaOdnos": 0.75,
     "slikaPotpis": "Adis Mujkić, spomenicinob.info (oktobar 2018)",
     "opis": {
       "sh": "Posvećeno Vjekoslavu Tunjiću (1923-1942), članu KPJ i palom borcu. Bista je 1980. preneta kod nove školske zgrade, današnje OŠ „Lukavac Grad“, gde je fotografisana u oktobru 2018. godine.",
@@ -11103,7 +11119,7 @@
       "en": "Dedicated to fighter Sejdo Karamehmedović (1919-1942), killed on Mount Konjuh in August 1942. In 2016, the bust was moved from Brotherhood and Unity Square to the square in front of the Cultural Centre, where it was photographed in October 2018."
     },
     "slika": "slike/bez-lokacije/lukavac-bista-sejde-karamehmedovica.webp",
-    "slikaOdnos": 0.7518796992481203,
+    "slikaOdnos": 0.752,
     "slikaPotpis": "Adis Mujkić, spomenicinob.info (oktobar 2018)"
   },
   {
@@ -11121,7 +11137,7 @@
       "en": "Dedicated to Luka Ostrolučanin (1903-1941), a local activist killed by the Ustaše in April 1941. In 2016, the bust was moved from Brotherhood and Unity Square to the square in front of the Cultural Centre, where it was photographed in October 2018."
     },
     "slika": "slike/bez-lokacije/lukavac-bista-luke-ostrolucanina.webp",
-    "slikaOdnos": 0.7504690431519699,
+    "slikaOdnos": 0.75,
     "slikaPotpis": "Adis Mujkić, spomenicinob.info (oktobar 2018)"
   },
   {
@@ -11139,7 +11155,7 @@
       "en": "Dedicated to National Hero Veljko Lukić Kurjak (1917-1944), commander of the Third Majevica Detachment. In 2016, the bust was moved from Brotherhood and Unity Square to the square in front of the Cultural Centre, where it was photographed in October 2018."
     },
     "slika": "slike/bez-lokacije/lukavac-bista-veljka-lukica-kurjaka.webp",
-    "slikaOdnos": 0.7490636704119851,
+    "slikaOdnos": 0.749,
     "slikaPotpis": "Adis Mujkić, spomenicinob.info (oktobar 2018)"
   },
   {
@@ -11305,18 +11321,6 @@
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Foothills of Ozren"
-  },
-  {
-    "id": "milici-spomenik-palim-borcima-nob",
-    "mesto": "Milići",
-    "naziv": "Spomenik palim borcima NOB",
-    "nazivEn": "Monument to fallen fighters of the NOB",
-    "godina": "1977",
-    "autor": "Dragiša Trifković",
-    "stanje": "ostecen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Aleksa Jakšić elementary school"
   },
   {
     "id": "nova-kasaba-spomen-ploca",
@@ -12949,7 +12953,10 @@
     "posveta": "Mihajla Čvore",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Central park"
+    "adresa": "Central park",
+    "slika": "slike/bez-lokacije/pale-bista-mihajla-cvore.webp",
+    "slikaPotpis": "Tufnica Njezna, CC BY-SA 4.0",
+    "slikaOdnos": 0.749
   },
   {
     "id": "jahorina-spomen-ploca-napadu-na-neprijateljske-sna",
@@ -15116,10 +15123,15 @@
     "nazivEn": "Bust of NH Miloš Zekić",
     "godina": "1989",
     "autor": "Pero Jelisić",
-    "posveta": "Miloša Zekića",
+    "posveta": [
+      "Q4190227"
+    ],
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Park in front of library"
+    "adresa": "Park in front of library",
+    "slika": "slike/bez-lokacije/sekovici-bista-milosa-zekica.webp",
+    "slikaPotpis": "Marko Sarajevo, CC BY-SA 4.0",
+    "slikaOdnos": 0.743
   },
   {
     "id": "sekovici-spomen-ploca-na-mjestu-smrti-josipa-kovac",
@@ -20346,7 +20358,9 @@
     "naziv": "Bista Stojana Grujičića",
     "nazivEn": "Bust of Stojan Grujičić",
     "godina": "posle 1999",
-    "posveta": "Stojana Grujičića",
+    "posveta": [
+      "Q11225663"
+    ],
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Town park"
@@ -24097,7 +24111,10 @@
     ],
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Central park"
+    "adresa": "Central park",
+    "slika": "slike/bez-lokacije/pale-bista-milana-simovica.webp",
+    "slikaPotpis": "Tufnica Njezna, CC BY-SA 4.0",
+    "slikaOdnos": 0.749
   },
   {
     "id": "mostar-spomenik-diverziji-koju-je-izveo-mugdim-cat",
@@ -34763,27 +34780,6 @@
     "nazivEn": "Cemetery of Partisan fighters and Victims of Fascist Terror",
     "godina": "1954",
     "vrsta": "groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "medjuvodje-spomen-obelisk-rudiju-cajavcu-i-franji",
-    "mesto": "Međuvođe",
-    "naziv": "Spomen-obelisk Rudiju Čajavcu i Franji Kluzu",
-    "nazivEn": "Memorial Obelisk: Rudi Čajavec and Franjo Kluz",
-    "godina": "1951",
-    "posveta": "Rudiju Čajavcu i Franji Kluzu",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "medjuvodje-spomenik-rudiju-cajavcu-i-franji-kluzu",
-    "mesto": "Međuvođe",
-    "naziv": "Spomenik Rudiju Čajavcu i Franji Kluzu",
-    "nazivEn": "Monument to commemorate Rudi Čajavec and Franjo Kluz",
-    "godina": "1987",
-    "autor": "Dragoljub Đokić",
-    "posveta": "Rudiju Čajavcu i Franji Kluzu",
-    "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
   },
   {

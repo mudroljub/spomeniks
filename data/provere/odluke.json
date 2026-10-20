@@ -48251,5 +48251,1324 @@
       }
     },
     "napomena": "Dva snimka ploče izbliza (2.9.2023, Olympus, GPS status A) imaju GPS na oko 2 m razmaka; tačka pomerena oko 685 m sa centra sela, u Ulici cara Dušana. Ostaje približno: položaj fotografa nije nezavisna potvrda. Uz fotografiju Šarenika (Wikiloc) GPS pada u Ravnu Goru kod Ivanjice, oko 3,8 km dalje; nije prihvaćen."
+  },
+  {
+    "odluka": "istaknuti-jos-jedanaest-opisa-i-autori-2026-10-21",
+    "datum": "2026-10-21",
+    "prioritet": "Dopuna istaknutih spomenika nakon razrešenja konflikata; u trenutnoj bazi ih je 76, a 11 je bilo bez opisa.",
+    "pre": [
+      {
+        "id": "avala",
+        "koordinate": {
+          "lat": 44.6887928,
+          "lng": 20.5140309
+        },
+        "googleCid": "3527278944103822732",
+        "mesto": "Avala",
+        "wiki": "https://www.spomenikdatabase.org/avala",
+        "slika": "slike/spomenici/avala.webp",
+        "slikaOdnos": 1.587,
+        "naziv": "Spomenik sovjetskim ratnim veteranima",
+        "nazivEn": "Soviet War Veterans Monument",
+        "godina": "1965",
+        "autor": "Jovan Kratohvil",
+        "posveta": [
+          "Q4055769"
+        ],
+        "vrsta": "spomenik",
+        "istaknut": true,
+        "drzava": "Serbia"
+      },
+      {
+        "id": "vlasotince",
+        "koordinate": {
+          "lat": 42.9628693,
+          "lng": 22.132786
+        },
+        "googleCid": "1718674324460502657",
+        "mesto": "Vlasotince",
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D1%80%D0%B5%D0%B2%D0%BE%D0%BB%D1%83%D1%86%D0%B8%D1%98%D0%B5_%D1%83_%D0%92%D0%BB%D0%B0%D1%81%D0%BE%D1%82%D0%B8%D0%BD%D1%86%D1%83",
+        "slika": "slike/spomenici/vlasotince.webp",
+        "slikaOdnos": 1.77,
+        "naziv": "Spomenik revolucionarnoj borbi",
+        "nazivEn": "Monument to the Revolutionary Struggle",
+        "godina": "1975",
+        "autor": "Bogdan Bogdanović",
+        "vrsta": "spomenik",
+        "istaknut": true,
+        "drzava": "Serbia"
+      },
+      {
+        "id": "veles",
+        "koordinate": {
+          "lat": 41.7233705,
+          "lng": 21.7893221
+        },
+        "googleCid": "5864661000344967532",
+        "mesto": "Велес",
+        "wiki": "https://sh.wikipedia.org/wiki/Spomen-kosturnica_poginulih_partizana_u_Velesu",
+        "slika": "slike/spomenici/veles.webp",
+        "slikaOdnos": 1.504,
+        "naziv": "Спомен-костурница во Велес",
+        "nazivEn": "Tomb of the Heroes",
+        "godina": "1979",
+        "autor": "Ljubomir Denković",
+        "vrsta": "spomenik",
+        "istaknut": true,
+        "drzava": "Macedonia"
+      },
+      {
+        "id": "zagreb-december-victims",
+        "koordinate": {
+          "lat": 45.8252805,
+          "lng": 16.0380558
+        },
+        "googleCid": "17681771468428997819",
+        "mesto": "Zagreb",
+        "adresa": "Trg prosinačkih žrtava",
+        "wiki": "https://www.spomenikdatabase.org/zagreb",
+        "slika": "slike/spomenici/zagreb-december-victims.webp",
+        "slikaOdnos": 1.055,
+        "naziv": "Spomenik prosinačkim žrtvama",
+        "nazivEn": "Monument to the December Victims",
+        "godina": "1960",
+        "autor": "Dušan Džamonja",
+        "posveta": [
+          "Q1564958"
+        ],
+        "vrsta": "spomenik",
+        "istaknut": true,
+        "drzava": "Croatia"
+      },
+      {
+        "id": "ljubljana",
+        "koordinate": {
+          "lat": 46.0510131,
+          "lng": 14.4998391
+        },
+        "googleCid": "9022139147509376019",
+        "mesto": "Ljubljana",
+        "wiki": "https://www.spomenikdatabase.org/ljubljana",
+        "slika": "slike/spomenici/ljubljana.webp",
+        "slikaOdnos": 1.333,
+        "naziv": "Spomenik revolucije",
+        "nazivEn": "Monument to the Revolution",
+        "godina": "1975",
+        "autor": "Drago Tršar",
+        "vrsta": "spomenik",
+        "istaknut": true,
+        "drzava": "Slovenia"
+      },
+      {
+        "id": "grahovo",
+        "koordinate": {
+          "lat": 42.6508527,
+          "lng": 18.6721317
+        },
+        "googleCid": "13659292129628810690",
+        "mesto": "Grahovo",
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BA%D0%B0_%D0%B8_%D0%A0%D0%B5%D0%B2%D0%BE%D0%BB%D1%83%D1%86%D0%B8%D1%98%D0%B5_%28%D0%93%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%BE%29",
+        "slika": "slike/spomenici/grahovo.webp",
+        "slikaOdnos": 1.333,
+        "naziv": "Spomen-park Ustanka i Revolucije",
+        "nazivEn": "Monument to Sava Kovačević",
+        "godina": "1978",
+        "autor": "Miodrag Živković",
+        "posveta": [
+          "Q1566835",
+          "Q821495"
+        ],
+        "vrsta": "spomen-park",
+        "istaknut": true,
+        "drzava": "Montenegro"
+      },
+      {
+        "id": "valjevo-stjepan-filipovic",
+        "koordinate": {
+          "lat": 44.2637976,
+          "lng": 19.8804902
+        },
+        "googleCid": "3817229477387049750",
+        "mesto": "Valjevo",
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D0%A0%D0%B5%D0%B2%D0%BE%D0%BB%D1%83%D1%86%D0%B8%D1%98%D0%B5",
+        "slika": "slike/spomenici/valjevo-stjepan-filipovic.webp",
+        "slikaOdnos": 1.333,
+        "slikaPotpis": "w:sr:user:Maduixa, CC BY-SA 3.0",
+        "naziv": "Spomenik borcima revolucije",
+        "nazivEn": "Monument to Stjepan Filipović",
+        "godina": "1960",
+        "autor": "Vojin Bakić",
+        "posveta": [
+          "Q458061"
+        ],
+        "vrsta": "statua",
+        "istaknut": true,
+        "drzava": "Serbia"
+      },
+      {
+        "id": "iriski-venac",
+        "koordinate": {
+          "lat": 45.1528421,
+          "lng": 19.8398943
+        },
+        "googleCid": "17771102836865263809",
+        "mesto": "Iriški Venac",
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%A1%D0%BB%D0%BE%D0%B1%D0%BE%D0%B4%D0%B0",
+        "slika": "slike/spomenici/iriski-venac.webp",
+        "slikaOdnos": 1.778,
+        "slikaPotpis": "Sandor Bordas, CC BY-SA 3.0",
+        "naziv": "Spomenik Sloboda",
+        "nazivEn": "Monument to Freedom",
+        "godina": "1951",
+        "autor": "Sreten Stojanović",
+        "vrsta": "spomenik",
+        "istaknut": true,
+        "drzava": "Serbia"
+      },
+      {
+        "id": "prijepolje",
+        "koordinate": {
+          "lat": 43.3840126,
+          "lng": 19.6383964
+        },
+        "googleCid": "3797250832242547141",
+        "mesto": "Prijepolje",
+        "wiki": "https://sh.wikipedia.org/wiki/Spomenik_Prijepoljskoj_bici",
+        "slika": "slike/spomenici/prijepolje.webp",
+        "slikaOdnos": 1.266,
+        "naziv": "Spomenik Prijepoljskoj bici",
+        "nazivEn": "Monument to the Battle of Prijepolje",
+        "godina": "1954",
+        "autor": "Lojze Dolinar",
+        "posveta": [
+          "Q127172450"
+        ],
+        "vrsta": "statua",
+        "istaknut": true,
+        "drzava": "Serbia"
+      },
+      {
+        "id": "tito-square-in-velenje",
+        "koordinate": {
+          "lat": 46.3590607,
+          "lng": 15.1145418
+        },
+        "googleCid": "3874781981804399563",
+        "mesto": "Velenje (Titov trg)",
+        "wiki": "https://www.spomenikdatabase.org/velenje",
+        "slika": "slike/spomenici/tito-square-in-velenje.webp",
+        "slikaOdnos": 1.498,
+        "naziv": "Spomenik Titu",
+        "nazivEn": "Monument to Josip Tito",
+        "godina": "1977",
+        "autor": "Antun Augustinčić",
+        "posveta": [
+          "Q9161"
+        ],
+        "vrsta": "spomenik",
+        "istaknut": true,
+        "drzava": "Slovenia"
+      },
+      {
+        "id": "sarajevo-vjecna-vatra",
+        "koordinate": {
+          "lat": 43.8588115,
+          "lng": 18.4218717
+        },
+        "mesto": "Sarajevo",
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%92%D1%98%D0%B5%D1%87%D0%BD%D0%B0_%D0%B2%D0%B0%D1%82%D1%80%D0%B0_%28%D0%A1%D0%B0%D1%80%D0%B0%D1%98%D0%B5%D0%B2%D0%BE%29",
+        "slika": "slike/spomenici/sarajevo-vjecna-vatra.webp",
+        "slikaOdnos": 1.504,
+        "slikaPotpis": "anj?i from London, UK, CC BY 2.0",
+        "naziv": "Vječna vatra",
+        "godina": "1946",
+        "vrsta": "spomenik",
+        "istaknut": true,
+        "drzava": "Bosnia and Herzegovina"
+      }
+    ],
+    "izmene": {
+      "avala": {
+        "opis": {
+          "sh": "Posvećeno sovjetskim veteranima poginulim u [avionskoj nesreći na Avali 19. oktobra 1964.](Q4055769), na putu ka proslavi dvadesetogodišnjice oslobođenja Beograda. Spomenik označava mesto nesreće.",
+          "en": "Dedicated to Soviet veterans killed in the [Avala plane crash on 19 October 1964](Q4055769), while travelling to commemorate the twentieth anniversary of the liberation of Belgrade. The monument marks the crash site."
+        },
+        "autor": "Jovan Kratohvil & Aleksej Brkić"
+      },
+      "vlasotince": {
+        "opis": {
+          "sh": "Posvećeno palim borcima i žrtvama fašizma vlasotinačkog kraja. Kamena celina obuhvata kružni amfiteatar, aleju blokova sa reljefima i simbolični pilon.",
+          "en": "Dedicated to fallen fighters and victims of fascism from the Vlasotince area. The stone composition comprises a circular amphitheatre, an avenue of blocks with reliefs and a symbolic pylon."
+        }
+      },
+      "veles": {
+        "opis": {
+          "sh": "Posvećeno poginulim partizanima Velesa i okoline, čiji su posmrtni ostaci sahranjeni u kosturnici. Memorijal je oblikovan kao cvet maka, a unutrašnjost krase mozaici Petra Mazeva.",
+          "en": "Dedicated to fallen Partisans from Veles and the surrounding area, whose remains are interred in the ossuary. The memorial takes the form of a poppy flower, with interior mosaics by Petar Mazev."
+        },
+        "autor": "Ljubomir Denković & Savo Subotin & Petar Mazev"
+      },
+      "zagreb-december-victims": {
+        "opis": {
+          "sh": "Posvećeno [prosinačkim žrtvama](Q1564958), šesnaestorici antifašista koje su ustaše javno obesile u zagrebačkoj Dubravi 20. decembra 1943. godine.",
+          "en": "Dedicated to the [December Victims](Q1564958), sixteen antifascists publicly hanged by the Ustaše in Zagreb’s Dubrava district on 20 December 1943."
+        }
+      },
+      "ljubljana": {
+        "opis": {
+          "sh": "Posvećeno pobedi partizana i socijalističkoj revoluciji u Drugom svetskom ratu. Bronzana kompozicija na Trgu republike prikazuje zbijene ljudske figure.",
+          "en": "Dedicated to the Partisan victory and socialist revolution during the Second World War. The bronze composition on Republic Square depicts densely grouped human figures."
+        },
+        "autor": "Drago Tršar & Vladimir Braco Mušič"
+      },
+      "grahovo": {
+        "opis": {
+          "sh": "Posvećeno [ustanku u Crnoj Gori 1941.](Q1566835), [Savi Kovačeviću](Q821495) i palim borcima grahovskog kraja. Na uzvišenju Umac nalazi se bronzana kolona sa Savom na čelu, okružena kamenim blokovima sa imenima poginulih.",
+          "en": "Dedicated to the [1941 uprising in Montenegro](Q1566835), [Sava Kovačević](Q821495) and fallen fighters from the Grahovo area. On Umac Hill, a bronze column led by Sava is surrounded by stone blocks bearing the names of the fallen."
+        },
+        "autor": "Miodrag Živković & Ivan Vuščić"
+      },
+      "valjevo-stjepan-filipovic": {
+        "opis": {
+          "sh": "Posvećeno borcima revolucije, kroz lik narodnog heroja [Stjepana Filipovića](Q458061). Podignute ruke figure podsećaju na njegov poziv na otpor neposredno pre vešanja u Valjevu 1942. godine.",
+          "en": "Dedicated to the fighters of the revolution through the figure of National Hero [Stjepan Filipović](Q458061). The figure’s raised arms recall his call for resistance immediately before his execution by hanging in Valjevo in 1942."
+        }
+      },
+      "iriski-venac": {
+        "opis": {
+          "sh": "Posvećeno palim borcima i žrtvama fašizma Vojvodine u Drugom svetskom ratu. Na vrhu obeliska nalazi se ženska figura koja simbolizuje slobodu i pobedu.",
+          "en": "Dedicated to fallen fighters and victims of fascism from Vojvodina during the Second World War. A female figure symbolizing freedom and victory stands atop the obelisk."
+        }
+      },
+      "prijepolje": {
+        "opis": {
+          "sh": "Posvećeno borcima poginulim u [Prijepoljskoj bici](Q127172450) 4. decembra 1943. godine. Memorijal uz Lim obuhvata monumentalnu skulpturu, kosturnicu, reljefe i sačuvane ruševine partizanske bolnice.",
+          "en": "Dedicated to fighters killed in the [Battle of Prijepolje](Q127172450) on 4 December 1943. The memorial beside the Lim River comprises a monumental sculpture, an ossuary, reliefs and the preserved ruins of a Partisan hospital."
+        }
+      },
+      "tito-square-in-velenje": {
+        "opis": {
+          "sh": "Posvećeno [Josipu Brozu Titu](Q9161), vođi jugoslovenskih partizana i predsedniku Jugoslavije. Spomenik na Titovom trgu postavljen je 1977. kao uvećana verzija Augustinčićeve skulpture iz Kumrovca.",
+          "en": "Dedicated to [Josip Broz Tito](Q9161), leader of the Yugoslav Partisans and president of Yugoslavia. Erected on Tito Square in 1977, the monument is an enlarged version of Augustinčić’s sculpture in Kumrovec."
+        },
+        "autor": "Antun Augustinčić & Vladimir Herljević & Ivan Pavić"
+      },
+      "sarajevo-vjecna-vatra": {
+        "opis": {
+          "sh": "Posvećeno oslobodiocima Sarajeva i vojnim i civilnim žrtvama Drugog svetskog rata. Večni plamen postavljen je na prvu godišnjicu oslobođenja grada, 6. aprila 1946. godine.",
+          "en": "Dedicated to the liberators of Sarajevo and the military and civilian victims of the Second World War. The eternal flame was installed on the first anniversary of the city’s liberation, 6 April 1946."
+        },
+        "autor": "Juraj Neidhardt",
+        "nazivEn": "Eternal Flame"
+      }
+    },
+    "dokazi": {
+      "avala": {
+        "url": "https://www.spomenikdatabase.org/avala",
+        "nalaz": "Spomenik Database potvrđuje nesreću 19.10.1964, dolazak veterana na godišnjicu oslobođenja i Alekseja Brkića kao autora pejzažnog rasporeda celine uz Kratohvila. Ostali saradnici u izradi nisu bez jasnog statusa proglašeni autorima."
+      },
+      "vlasotince": {
+        "url": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D1%80%D0%B5%D0%B2%D0%BE%D0%BB%D1%83%D1%86%D0%B8%D1%98%D0%B5_%D1%83_%D0%92%D0%BB%D0%B0%D1%81%D0%BE%D1%82%D0%B8%D0%BD%D1%86%D1%83"
+      },
+      "veles": {
+        "url": "https://sh.wikipedia.org/wiki/Spomen-kosturnica_poginulih_partizana_u_Velesu",
+        "dopunski": [
+          "https://veles.gov.mk/downloads/2024/noemvri/Integriran%20lokalen%20razvoen%20plan%20Veles%202024%202027.pdf",
+          "https://portal.mdt.gov.mk/post-body-files/magazin-stit-file-wWWy.pdf"
+        ],
+        "nalaz": "Zvanični opštinski plan i državni časopis: kosturnica palih veleskih boraca, oblik maka, autori Denković i arhitekta Savo Subotin, unutrašnji mozaici Petar Mazev. Broj sahranjenih nije dodat. Savo je oblik imena u oba primarna makedonska izvora; u drugim izvorima javlja se Sava."
+      },
+      "zagreb-december-victims": {
+        "url": "https://www.spomenikdatabase.org/zagreb"
+      },
+      "ljubljana": {
+        "url": "https://www.spomenikdatabase.org/ljubljana",
+        "nalaz": "Spomenik Database potvrđuje posvetu partizanskoj pobedi i revoluciji i oba autora: Drago Tršar i arhitekta Vladimir Braco Mušič."
+      },
+      "grahovo": {
+        "url": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BA%D0%B0_%D0%B8_%D0%A0%D0%B5%D0%B2%D0%BE%D0%BB%D1%83%D1%86%D0%B8%D1%98%D0%B5_%28%D0%93%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%BE%29",
+        "dopunski": [
+          "https://www.spomenikdatabase.org/grahovo",
+          "https://www.galerija73.com/storage/resources/CUq8wSw6DTvUCRsvgPWdvcLEgXgZvrK2weBvtGf7.pdf"
+        ],
+        "nalaz": "Spomenik Database izričito navodi arhitektu Ivana Vuščića uz Miodraga Živkovića. Katalog Galerije 73 opisuje kolonu na Umcu sa Savom na čelu i kubuse sa imenima palih boraca; broj nije potreban u kratkom opisu. Sr članak nije bio dostupan."
+      },
+      "valjevo-stjepan-filipovic": {
+        "url": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D0%A0%D0%B5%D0%B2%D0%BE%D0%BB%D1%83%D1%86%D0%B8%D1%98%D0%B5"
+      },
+      "iriski-venac": {
+        "url": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%A1%D0%BB%D0%BE%D0%B1%D0%BE%D0%B4%D0%B0"
+      },
+      "prijepolje": {
+        "url": "https://sh.wikipedia.org/wiki/Spomenik_Prijepoljskoj_bici"
+      },
+      "tito-square-in-velenje": {
+        "url": "https://www.spomenikdatabase.org/velenje",
+        "dopunski": [
+          "https://www.velenje.si/o-velenju/dediscina/javni-spomeniki/"
+        ],
+        "nalaz": "Zvanična gradska evidencija: Augustinčićev model 1947, uvećana verzija 1977. Modeliranje uz akademske vajare Vladimira Herljevića i Ivana Pavića; svi navedeni u autorima. Godina 1977 nije zamenjena godinom kumrovečkog originala."
+      },
+      "sarajevo-vjecna-vatra": {
+        "url": "https://sr.wikipedia.org/wiki/%D0%92%D1%98%D0%B5%D1%87%D0%BD%D0%B0_%D0%B2%D0%B0%D1%82%D1%80%D0%B0_%28%D0%A1%D0%B0%D1%80%D0%B0%D1%98%D0%B5%D0%B2%D0%BE%29",
+        "dopunski": [
+          "https://sarajevo.travel/en/things-to-do/vjecna-vatra-eternal-flame/483"
+        ],
+        "nalaz": "Turistički vodič Sarajevo Navigator potvrđuje posvetu oslobodiocima, datum 6.4.1946. i autora Juraja Neidhardta. Pojedini tekstovi navode javno predstavljanje 1947; postojeća ranija godina nije menjana."
+      }
+    },
+    "ishod": "Jedanaest dvojezičnih opisa i šest dopuna autora; postojeće Q-posvete povezane u oba jezika. Nijedna koordinata, fotografija, godina, vrsta ili oznaka istaknutosti nije promenjena.",
+    "dilema": "Nisu prepisivane nesaglasne godine iz popularnih izvora: Sarajevo 1946/1947 i original/uvećana verzija Tita 1947/1977. Ime arhitekte Velesa ima oblike Savo/Sava, prema gore navedenim izvorima. Bez preuzimanja novih fotografija ili zaključaka o današnjem stanju."
+  },
+  {
+    "odluka": "enwiki-spisak-spomenika-heroja-bih-2026-10-21",
+    "datum": "2026-10-21",
+    "izvor": "https://en.wikipedia.org/wiki/List_of_People%27s_Heroes_of_Yugoslavia_monuments_in_Bosnia_and_Herzegovina",
+    "kopija": "izvori/pretrage/enwiki-heroji-srbija-2026-10-20/",
+    "obim": "ponovljen prolaz: svi podaci spiska i za stavke koje već imamo (posvete iz članaka o herojima, vajari iz napomena, adrese iz napomena, fotografije zapisa bez slike, duplikati)",
+    "spojeno": {
+      "medjuvodje-spomen-obelisk-rudiju-cajavcu-i-franji": "medjuvodje-spomenik-partizanskim-pilotima"
+    },
+    "dodato": [
+      "sarajevo-trg-oslobodjenja-bista-rodoljuba-colakovica",
+      "sarajevo-trg-oslobodjenja-bista-veselina-maslese"
+    ],
+    "fotografije": {
+      "prijedor-bista-rade-basica": "https://commons.wikimedia.org/wiki/File:Spomenik_Radetu_Bašiću,_Prijedor.jpg",
+      "bijeljina-bista-rodoljuba-colakovica": "https://commons.wikimedia.org/wiki/File:Spomenik_u_Bijeljini.jpg",
+      "pale-bista-mihajla-cvore": "https://commons.wikimedia.org/wiki/File:Spomenici_narodnim_junacima_NOB-a,_Pale_03.jpg",
+      "banja-luka-biste-heroja-2": "https://commons.wikimedia.org/wiki/File:PetarDrapsin.jpg",
+      "bijeljina-bista-veselina-gavrica": "https://commons.wikimedia.org/wiki/File:Веселин_Гаврић,_Бијељина.jpg",
+      "pale-bista-milana-simovica": "https://commons.wikimedia.org/wiki/File:Spomenici_narodnim_junacima_NOB-a,_Pale_02.jpg",
+      "sarajevo-pofalici-bista-vase-miskina-crnog-2": "https://commons.wikimedia.org/wiki/File:Sarajevo_Kolodvorska_2011-10-25_(5).jpg",
+      "sarajevo-trg-oslobodjenja-bista-rodoljuba-colakovica": "https://commons.wikimedia.org/wiki/File:Rodoljub_Čolaković,_bista,_Sarajevo.jpg",
+      "sarajevo-trg-oslobodjenja-bista-veselina-maslese": "https://commons.wikimedia.org/wiki/File:Veselin_Masleša,_bista_u_Sarajevu.jpg"
+    },
+    "dopunjeno": {
+      "medjuvodje-spomenik-prvom-partizanskom-aerodromu": {
+        "posveta": [
+          null,
+          [
+            "Q2614258",
+            "Q2614845"
+          ]
+        ],
+        "adresa": "Na mjestu prvog partizanskog aerodroma"
+      },
+      "tuzla-tito": {
+        "posveta": [
+          [
+            "Q9161"
+          ],
+          [
+            "Q9161",
+            "Q641686",
+            "Q61130533",
+            "Q1265884",
+            "Q453472",
+            "Q12760693",
+            "Q61061727"
+          ]
+        ],
+        "adresa": "Spomen-park Slana Banja"
+      }
+    },
+    "posvete": {
+      "prijedor-bista-rade-basica": {
+        "staro": "Rade Bašića",
+        "novo": [
+          "Q13567241"
+        ]
+      },
+      "bijeljina-bista-rodoljuba-colakovica": {
+        "staro": "Rodoljuba Čolakovića",
+        "novo": [
+          "Q1292473"
+        ]
+      },
+      "banja-luka-biste-heroja-2": {
+        "staro": null,
+        "novo": [
+          "Q35892",
+          "Q1263753"
+        ]
+      },
+      "bijeljina-bista-veselina-gavrica": {
+        "staro": null,
+        "novo": [
+          "Q16380596"
+        ]
+      },
+      "dubica-bista-stojana-grujicica": {
+        "staro": "Stojana Grujičića",
+        "novo": [
+          "Q11225663"
+        ]
+      },
+      "doboj-bista-ismeta-kapetanovica": {
+        "staro": null,
+        "novo": [
+          "Q4212881"
+        ]
+      },
+      "doboj-bista-todora-vujasinovica": {
+        "staro": "Todora Vujasinovića",
+        "novo": [
+          "Q1564071"
+        ]
+      },
+      "sekovici-bista-milosa-zekica": {
+        "staro": "Miloša Zekića",
+        "novo": [
+          "Q4190227"
+        ]
+      }
+    },
+    "novePosvete": [
+      "Q11225663",
+      "Q1292473",
+      "Q13567241",
+      "Q1564071",
+      "Q16380596",
+      "Q4190227",
+      "Q4212881"
+    ],
+    "dileme": {
+      "sekovici-bista-milosa-zekica": "en spisak stavlja bistu u Šekoviće, a Commons opis fotografije Споменик_у_Шековићима.jpg kaže „u Milićima“; fotografija nije upisana",
+      "tuzla-tito": "spisak navodi 18 heroja u Slanoj Banji; povezani su samo oni sa člancima (Tito, Mijatović, Mičić, Ribar, Pijade, F. Herljević, Miljanović); en veza „Miloš Trifunović“ za Mitra Trifunovića Uču je pogrešna osoba",
+      "medjuvodje-uremovac-spomenik-kluzu-i-cajavecu / medjuvodje-spomenik-rudiju-cajavcu-i-franji-kluzu": "još dva zapisa posvećena Kluzu i Čajavecu u Međuvođu; nije potvrđeno da li su isti kao spomenik aerodromu",
+      "sarajevo-trg-oslobodjenja-bista-*": "tačke su GPS fotografija (mesto snimanja)"
+    },
+    "preskoceno": {
+      "Bista Lepe Radić, Gašnica": "zapis bistrica-bista-lepe-radic (ista fotografija i GPS)",
+      "Vladimir Perić, Sarajevo 2.jpg": "ista fotografija kao kod sarajevo-marijin-dvor-bista-vladimira-valtera-peri",
+      "Banja Luka, Trg palih boraca": "pokriveno zapisom banja-luka-biste-heroja",
+      "Vraca, reljef sa Titovim citatom": "deo Spomen-parka Vraca",
+      "Nevesinje": "četiri biste već postoje kao posebni zapisi"
+    }
+  },
+  {
+    "odluka": "spomen-parkovi-prvi-paket-po-vaznosti-2026-10-21",
+    "datum": "2026-10-21",
+    "obim": "Prvi paket na sledećem nivou važnosti: 141 neistaknuti spomen-park na mapi; pre paketa 45 bez fotografije i 126 bez opisa.",
+    "pre": [
+      {
+        "id": "rakov-potok",
+        "koordinate": {
+          "lat": 45.74414,
+          "lng": 15.80416
+        },
+        "mesto": "Rakov Potok",
+        "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Rakov_Potok",
+        "naziv": "Spomen-park Rakov Potok",
+        "vrsta": "spomen-park",
+        "drzava": "Croatia"
+      },
+      {
+        "id": "cerkno-spomenisko-obmocje-nob",
+        "koordinate": {
+          "lat": 46.127931,
+          "lng": 13.989341
+        },
+        "mesto": "Cerkno",
+        "naziv": "Spomeniško območje NOB",
+        "vrsta": "spomen-park",
+        "drzava": "Slovenia"
+      },
+      {
+        "id": "donja-trnova-spomen-park-pesaljevica-gaj",
+        "koordinate": {
+          "lat": 44.6593854,
+          "lng": 19.1165653
+        },
+        "mesto": "Donja Trnova",
+        "naziv": "Spomen-park Pešaljevića gaj",
+        "nazivEn": "Pešaljevića gaj memorial complex",
+        "vrsta": "spomen-park",
+        "drzava": "Bosnia and Herzegovina"
+      },
+      {
+        "id": "suhopolje-spomen-kompleks-ive-lole-ribara",
+        "koordinate": {
+          "lat": 44.072471,
+          "lng": 16.821215
+        },
+        "mesto": "Suhopolje",
+        "naziv": "Spomen-kompleks Ive Lole Ribara",
+        "nazivEn": "Ivo Lola Ribar memorial complex",
+        "opis": {
+          "sh": "Spomen-kompleks posvećen [Ivi Loli Ribaru](Q1265884), poginulom na obližnjem aerodromu 27. novembra 1943, obuhvata skulpturu, memorijalni zid i nekadašnji muzej. Prostorni koncept izradila je Olga Pavlinović; Mirko Ostoja autor je metalne skulpture.",
+          "en": "The complex dedicated to [Ivo Lola Ribar](Q1265884), killed at the nearby airfield on 27 November 1943, includes a sculpture, memorial wall and former museum. Olga Pavlinović designed its spatial layout; Mirko Ostoja created the metal sculpture."
+        },
+        "godina": "1961",
+        "autor": "Olga Pavlinović & Mirko Ostoja",
+        "posveta": [
+          "Q1265884"
+        ],
+        "vrsta": "spomen-park",
+        "drzava": "Bosnia and Herzegovina"
+      },
+      {
+        "id": "nis-spomen-park-bubanj",
+        "koordinate": {
+          "lat": 43.3049095,
+          "lng": 21.8724219
+        },
+        "mesto": "Niš",
+        "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Bubanj",
+        "wikiEn": "https://en.wikipedia.org/wiki/Bubanj_Memorial_Park",
+        "slika": "slike/spomenici/nis-spomen-park-bubanj.webp",
+        "slikaOdnos": 1.333,
+        "slikaPotpis": "FriedrickMILBarbarossa, Public domain",
+        "naziv": "Spomen-park Bubanj",
+        "nazivEn": "Bubanj Memorial Park",
+        "godina": "1963",
+        "autor": "Ivan Sabolić",
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "sisak-spomen-park-brezovica",
+        "koordinate": {
+          "lat": 45.5023549,
+          "lng": 16.4581434
+        },
+        "mesto": "Sisak (šuma Brezovica)",
+        "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Brezovica",
+        "slika": "slike/spomenici/sisak-spomen-park-brezovica.webp",
+        "slikaOdnos": 1.333,
+        "slikaPotpis": "Flammard, CC BY-SA 3.0",
+        "naziv": "Spomen-park Brezovica",
+        "nazivEn": "Brezovica Memorial Park",
+        "vrsta": "spomen-park",
+        "drzava": "Croatia"
+      },
+      {
+        "id": "pozarevac-spomen-park-cacalica",
+        "koordinate": {
+          "lat": 44.6130574,
+          "lng": 21.1990427
+        },
+        "mesto": "Požarevac",
+        "wiki": "https://sh.wikipedia.org/wiki/%C4%8Ca%C4%8Dalica",
+        "slika": "slike/spomenici/pozarevac-spomen-park-cacalica.webp",
+        "slikaOdnos": 1.333,
+        "slikaPotpis": "Bojan Cvetanović, CC BY-SA 4.0",
+        "naziv": "Spomen-park Čačalica",
+        "nazivEn": "Čačalica Memorial Park",
+        "godina": "1962",
+        "autor": "Bratislav Stojanović & S. Mišić",
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "cacak-spomen-park-borbe-i-pobede",
+        "koordinate": {
+          "lat": 43.877634,
+          "lng": 20.3355351
+        },
+        "mesto": "Čačak",
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%B1%D0%BE%D1%80%D0%B1%D0%B5_%D0%B8_%D0%BF%D0%BE%D0%B1%D0%B5%D0%B4%D0%B5",
+        "slika": "slike/spomenici/cacak-spomen-park-borbe-i-pobede.webp",
+        "slikaOdnos": 1.498,
+        "slikaPotpis": "Ванилица, CC BY-SA 4.0",
+        "naziv": "Spomen-park borbe i pobede",
+        "nazivEn": "Memorial Park of Struggle and Victory",
+        "godina": "1980",
+        "autor": "Bogdan Bogdanović",
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "kragujevac-spomen-park-kragujevacki-oktobar",
+        "koordinate": {
+          "lat": 44.0219918,
+          "lng": 20.8837459
+        },
+        "mesto": "Kragujevac",
+        "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Kragujeva%C4%8Dki_oktobar",
+        "slika": "slike/spomenici/kragujevac-spomen-park-kragujevacki-oktobar.webp",
+        "slikaOdnos": 0.651,
+        "slikaPotpis": "Струјајое, CC BY-SA 3.0",
+        "naziv": "Spomen-park Kragujevački oktobar",
+        "nazivEn": "Šumarice Memorial Park",
+        "godina": "1953",
+        "autor": "Mihajlo Mitrović & Radivoj Tomić",
+        "posveta": [
+          "Q685201"
+        ],
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "zagreb-spomen-park-dotrscina",
+        "koordinate": {
+          "lat": 45.8428194,
+          "lng": 16.027771
+        },
+        "mesto": "Zagreb (Dotrščina)",
+        "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Dotr%C5%A1%C4%8Dina",
+        "slika": "slike/spomenici/zagreb-spomen-park-dotrscina.webp",
+        "slikaOdnos": 1.333,
+        "slikaPotpis": "Plamen at Serbian Wikipedia, Public domain",
+        "naziv": "Spomen-park Dotrščina",
+        "nazivEn": "Dotrščina Memorial Park",
+        "godina": "1968",
+        "autor": "Vojin Bakić",
+        "natpis": "U ŠUMI ZVANOJ DOTORŠČINA OD 1941 DO 1945 GODINE OKUPATORI I NJIHOVE SLUGE MUČILI SU UBIJALI I U JAME BACALI HILJADE ZNANIH I NEZNANIH SINOVA I KĆERI NAŠE ZEMLJE I NEPOKORENOG ZAGREBA\nNEUNIŠTIVOJ USPOMENI BORACA I MUČENIKA POSVEĆENO JE SPOMEN GROBLJE I PARK REVOLUCIJE DOTORŠČINA\n\nNEPRESUŠNI IZVORI SNAGE, NESALOMIVA KRILA SLOBODE. HRABRI U SMRTI VJEČNI U ŽIVOTU. U DJELU ŽIVIH VAŠA DJELA TRAJU",
+        "posveta": "Antifašistima koje su strijeljale ustaše.",
+        "vrsta": "spomen-park",
+        "drzava": "Croatia"
+      },
+      {
+        "id": "kraljevo-park-14th-october",
+        "koordinate": {
+          "lat": 43.7305096,
+          "lng": 20.6918333
+        },
+        "googleCid": "5311183668449396164",
+        "mesto": "Kraljevo",
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%9A%D1%80%D0%B0%D1%99%D0%B5%D0%B2%D0%B0%D1%87%D0%BA%D0%B8_%D0%BE%D0%BA%D1%82%D0%BE%D0%B1%D0%B0%D1%80",
+        "slika": "slike/spomenici/kraljevo-park-14th-october.webp",
+        "slikaOdnos": 1.778,
+        "naziv": "Spomen-park Kraljevački oktobar",
+        "nazivEn": "Memorial Park \"14th of October\"",
+        "godina": "1970",
+        "autor": "Spasoje Krunić & Dragutin Kovačević",
+        "posveta": [
+          "Q12958349"
+        ],
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "jajinci-spomen-park",
+        "koordinate": {
+          "lat": 44.7306648,
+          "lng": 20.488984
+        },
+        "mesto": "Beograd (Jajinci)",
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%88%D0%B0%D1%98%D0%B8%D0%BD%D1%86%D0%B8",
+        "wikiEn": "https://en.wikipedia.org/wiki/Jajinci_Memorial_Park",
+        "slika": "slike/spomenici/jajinci-spomen-park.webp",
+        "slikaOdnos": 1.493,
+        "slikaPotpis": "Snežana Negovanović, CC BY-SA 3.0",
+        "naziv": "Spomen-park Jajinci",
+        "nazivEn": "Jajinci Memorial Park",
+        "godina": "1951-1988",
+        "autor": "Stevan Bodnarov & Vojin Stojić",
+        "posveta": [
+          "Q1561988"
+        ],
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      }
+    ],
+    "izmene": {
+      "rakov-potok": {
+        "opis": {
+          "sh": "Posvećeno žrtvama koje su ustaše ubijale u šumi Stupnički lug tokom Drugog svetskog rata. Spomenik-putokaz uz put vodi ka šumskoj stazi i zajedničkoj grobnici.",
+          "en": "Dedicated to victims killed by the Ustaše in Stupnički Lug forest during the Second World War. A roadside memorial marker leads to a forest path and a mass grave."
+        },
+        "adresa": "Šuma Stupnički lug; ulaz označen spomenikom-putokazom uz put",
+        "natpis": "VIDI GDJE POČIVA\nČETIRI STOTINE\nŽRTAVA FAŠIZMA\n1941. GODINE\nRAKOV POTOK",
+        "nazivEn": "Rakov Potok Memorial Park",
+        "slika": "slike/spomenici/rakov-potok.webp",
+        "slikaOdnos": 0.7504690431519699,
+        "slikaPotpis": "Inia Herenčić, Vizkultura (2026)"
+      },
+      "cerkno-spomenisko-obmocje-nob": {
+        "opis": {
+          "sh": "Spomeničko područje obuhvata zgrade u kojima su od kapitulacije Italije do oslobođenja delovale vojne, političke, privredne i kulturne ustanove partizanskog pokreta. Njihove uloge obeležene su spomen-pločama širom Cerkna.",
+          "en": "The memorial area encompasses buildings that housed military, political, economic and cultural institutions of the Partisan movement between Italy’s capitulation and liberation. Memorial plaques throughout Cerkno mark their wartime roles."
+        },
+        "nazivEn": "Cerkno Partisan Memorial Area"
+      },
+      "donja-trnova-spomen-park-pesaljevica-gaj": {
+        "opis": {
+          "sh": "Posvećeno ustanku 1941. i partizanskoj borbi donjotrnovskog kraja. Šumska celina na Pešaljevića gaju obuhvata zajednički grob i više spomen-ploča.",
+          "en": "Dedicated to the 1941 uprising and the Partisan struggle in the Donja Trnova area. The woodland memorial at Pešaljevića Gaj comprises a communal grave and several memorial plaques."
+        },
+        "adresa": "Pešaljevića gaj, šumski deo severno od izletišta"
+      },
+      "nis-spomen-park-bubanj": {
+        "opis": {
+          "sh": "Posvećeno žrtvama nacističkih streljanja na brdu Bubanj tokom Drugog svetskog rata, među kojima su bili zatočenici logora Crveni krst. Centralni spomenik čine tri stisnute pesnice, simbol otpora.",
+          "en": "Dedicated to victims of Nazi executions on Bubanj Hill during the Second World War, including prisoners of the Crveni Krst concentration camp. Three clenched fists form the central monument, symbolizing resistance."
+        }
+      },
+      "sisak-spomen-park-brezovica": {
+        "opis": {
+          "sh": "Posvećeno [Sisačkom partizanskom odredu](Q1858769), osnovanom 22. juna 1941. godine. Spomen-park u šumi Brezovica čuva sećanje na početak organizovanog antifašističkog otpora sisačkog kraja.",
+          "en": "Dedicated to the [Sisak Partisan Detachment](Q1858769), founded on 22 June 1941. The memorial park in Brezovica forest commemorates the beginning of organized antifascist resistance in the Sisak area."
+        },
+        "posveta": [
+          "Q1858769"
+        ]
+      },
+      "pozarevac-spomen-park-cacalica": {
+        "opis": {
+          "sh": "Posvećeno žrtvama streljanim na Čačalici i borcima Crvene armije poginulim u oslobođenju ovog dela Srbije. Park obuhvata spomen-zid žrtvama, kosturnicu crvenoarmejaca i skulpturu „Zvezda“.",
+          "en": "Dedicated to victims executed on Čačalica Hill and Red Army soldiers killed while liberating this part of Serbia. The park comprises a memorial wall, a Red Army ossuary and the sculpture “Star”."
+        },
+        "autor": "Bratislav Stojanović & Stanislav Mišić"
+      },
+      "cacak-spomen-park-borbe-i-pobede": {
+        "opis": {
+          "sh": "Posvećeno palim borcima i žrtvama fašizma čačanskog kraja 1941-1945. godine. Kamene forme na brdu iznad grada oblikuju memorijalnu celinu Bogdana Bogdanovića.",
+          "en": "Dedicated to fallen fighters and victims of fascism from the Čačak area in 1941-1945. Stone forms on the hill above the city make up Bogdan Bogdanović’s memorial composition."
+        }
+      },
+      "kragujevac-spomen-park-kragujevacki-oktobar": {
+        "opis": {
+          "sh": "Posvećeno žrtvama [masakra u Kragujevcu](Q685201), koje su nemačke okupacione snage streljale u oktobru 1941. godine. Park u Šumaricama obuhvata mesta masovnih grobnica, memorijalne skulpture i Muzej „21. oktobar“.",
+          "en": "Dedicated to victims of the [Kragujevac massacre](Q685201), executed by German occupation forces in October 1941. The park in Šumarice encompasses mass grave sites, memorial sculptures and the 21 October Museum."
+        }
+      },
+      "zagreb-spomen-park-dotrscina": {
+        "opis": {
+          "sh": "Posvećeno žrtvama koje su ustaše i okupacione snage ubijale na Dotrščini 1941-1945. godine. Šumsko spomen-područje čuva masovne grobnice i više zasebnih memorijalnih celina.",
+          "en": "Dedicated to victims killed by the Ustaše and occupying forces at Dotrščina in 1941-1945. The woodland memorial area preserves mass graves and several distinct memorial compositions."
+        }
+      },
+      "kraljevo-park-14th-october": {
+        "opis": {
+          "sh": "Posvećeno civilima koje su nemačke okupacione snage streljale u [masakru u Kraljevu](Q12958349) oktobra 1941. godine. Memorijal je uređen na mestu streljanja i sahranjivanja talaca.",
+          "en": "Dedicated to civilians executed by German occupation forces in the [Kraljevo massacre](Q12958349) in October 1941. The memorial occupies the site where the hostages were shot and buried."
+        }
+      },
+      "jajinci-spomen-park": {
+        "opis": {
+          "sh": "Posvećeno žrtvama [strelišta u Jajincima](Q1561988), gde su tokom nacističke okupacije ubijani zatočenici beogradskih logora i drugi civili. Memorijalni park obuhvata nekadašnje stratište i mesta masovnih grobnica.",
+          "en": "Dedicated to victims of the [Jajinci execution site](Q1561988), where prisoners from Belgrade’s camps and other civilians were killed during the Nazi occupation. The memorial park encompasses the former execution grounds and mass grave sites."
+        }
+      },
+      "suhopolje-spomen-kompleks-ive-lole-ribara": {
+        "wiki": "https://www.spomenikdatabase.org/glamoc",
+        "slika": "slike/spomenici/suhopolje-spomen-kompleks-ive-lole-ribara.webp",
+        "slikaOdnos": 1.4760147601476015,
+        "slikaPotpis": "Spomenik Database"
+      }
+    },
+    "dokazi": {
+      "rakov-potok": [
+        "https://vizkultura.hr/svjetlo-u-mraku-zaborava/"
+      ],
+      "nis-spomen-park-bubanj": [
+        "https://sh.wikipedia.org/wiki/Spomen-park_Bubanj"
+      ],
+      "sisak-spomen-park-brezovica": [
+        "https://sisak.hr/u-sumi-brezovica-svecano-obiljezen-dan-antifasisticke-borbe/"
+      ],
+      "pozarevac-spomen-park-cacalica": [
+        "https://sh.wikipedia.org/wiki/Čačalica",
+        "https://www.spomenikdatabase.org/pozarevac"
+      ],
+      "cacak-spomen-park-borbe-i-pobede": [
+        "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%B1%D0%BE%D1%80%D0%B1%D0%B5_%D0%B8_%D0%BF%D0%BE%D0%B1%D0%B5%D0%B4%D0%B5"
+      ],
+      "kragujevac-spomen-park-kragujevacki-oktobar": [
+        "https://sh.wikipedia.org/wiki/Spomen-park_Kragujeva%C4%8Dki_oktobar"
+      ],
+      "zagreb-spomen-park-dotrscina": [
+        "https://www.dotrscina.hr/wp-content/uploads/2024/03/SPOMEN-PODRUCJE-DOTRSCINA-INFO-LETAK.pdf",
+        "https://www.spomenikdatabase.org/dotrscina"
+      ],
+      "kraljevo-park-14th-october": [
+        "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%9A%D1%80%D0%B0%D1%99%D0%B5%D0%B2%D0%B0%D1%87%D0%BA%D0%B8_%D0%BE%D0%BA%D1%82%D0%BE%D0%B1%D0%B0%D1%80"
+      ],
+      "jajinci-spomen-park": [
+        "https://www.beograd.rs/lat/beoinfo-vesti/a104330/Obelezen-Dan-secanja-na-stradanje-Srba-Roma-i-Jevreja-na-stratistu-u-Jajincima.html"
+      ],
+      "suhopolje-spomen-kompleks-ive-lole-ribara": [
+        "https://www.spomenikdatabase.org/glamoc"
+      ],
+      "cerkno-spomenisko-obmocje-nob": [
+        "https://spomeniki.blogspot.com/2017/10/cerkno-spomenisko-obmocje-nob.html",
+        "https://situla.gov.si/SZ/eVRD_SZ_Cerkno_2008_02_00.pdf"
+      ],
+      "donja-trnova-spomen-park-pesaljevica-gaj": [
+        "https://www.spomenicinob.info/ugljevik",
+        "sačuvani pojedinačni članak Partisan Memorials Wiki: Donja Trnova - Spomen Kompleks Pešaljevića Gaj"
+      ]
+    },
+    "ishod": "Dopunjeno 12 zapisa: dve nove fotografije, 11 dvojezičnih opisa, natpis Rakovog Potoka, puna forma imena Stanislava Mišića, postojeća Q-posveta sisačkom odredu i adrese. Nema pomeranja tačaka ni promene vrste, godine ili istaknutosti.",
+    "fotografije": {
+      "rakov-potok": "Inia Herenčić, Vizkultura, reportaža o intervenciji 8.5.2026: izabrana dokumentarna fotografija postojećeg spomenika-putokaza, bez ljudi i privremene instalacije; natpis pročitan sa fotografije. Marko Tadić je autor privremene intervencije, nije pripisan stalnom parku.",
+      "suhopolje-spomen-kompleks-ive-lole-ribara": "Pregledane dve fotografije Spomenik Database, izabrana fotografija centralne Ostoјine skulpture u šumi. Prikazuje deo kompleksa; nije predstavljena kao poseban novi spomenik."
+    },
+    "dilema": "Suhopolje: izvor pominje prvo obeležje 1948, proširenje 1961 i muzej 1978 sa inicijalom N. Nešković; postojeća godina celine i autori nisu automatski menjani. Oštećenje nekadašnjeg muzeja nije preneto na stanje cele celine. Autorima parkova nisu pridodavani autori svake zasebne skulpture. Cerkno je disperzno istorijsko područje sa označenim zgradama, a ne jedan park; opis to razjašnjava, vrsta nije menjana u ovom prolazu.",
+    "odbijene_fotografije": {
+      "lijeva-rijeka-spomen-park": "Keširana slika prikazuje bistu vojvode Miljana Vukova Vešovića (1820-1886), nedovoljan dokaz o parku NOB-a; nije upisana.",
+      "donja-trnova-spomen-park-pesaljevica-gaj": "Keširana novinska fotografija prikazuje čoveka u prvom planu; nije upisana. Fotografije Jovića brda nisu zamenjene za drugu celinu Pešaljevića gaj.",
+      "cerkno-spomenisko-obmocje-nob": "Keširani istorijski panoramski kadar ne prikazuje jasno današnja obeležja; nije upisan."
+    }
+  },
+  {
+    "odluka": "sekovici-zekic-fotografija-2026-10-21",
+    "datum": "2026-10-21",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Споменик_у_Шековићима.jpg",
+    "fotografije": {
+      "sekovici-bista-milosa-zekica": "https://commons.wikimedia.org/wiki/File:Споменик_у_Шековићима.jpg"
+    },
+    "razresenaDilema": "opis fotografije na Commons-u kaže „u Milićima“, ali ime fajla, en spisak spomenika herojima u BiH, en.wiki članak o Šekovićima (bista kod gradske biblioteke) i Vreme (bista u centru Šekovića, gde je rođen i sahranjen) potvrđuju Šekoviće; u Milićima nema zapisa Zekićeve biste",
+    "dokazi": [
+      "https://en.wikipedia.org/wiki/%C5%A0ekovi%C4%87i",
+      "https://vreme.com/vreme-uzivanja/pradjed-mi-je-bio-jaci/"
+    ]
+  },
+  {
+    "odluka": "milici-duplikat-spomenika-palim-borcima-2026-10-21",
+    "datum": "2026-10-21",
+    "izvor": "https://www.spomenicinob.info/milici",
+    "spojeno": {
+      "milici-spomenik-palim-borcima-nob": "milici"
+    },
+    "dopunjeno": {
+      "milici": {
+        "adresa": "Kod OŠ „Aleksa Jakšić“",
+        "stanje": "ostecen"
+      }
+    },
+    "razlog": "isti autor (Dragiša Trifković), godina (1977) i mesto; spomenicinob.info ga smešta kod OŠ „Aleksa Jakšić“, a tačka zapisa milici je 81 m od škole u OSM-u",
+    "dilema": "stanje „oštećen“ preneto sa spomenicinob.info bez datuma opažanja"
+  },
+  {
+    "odluka": "medjuvodje-spomenici-pilotima-2026-10-21",
+    "datum": "2026-10-21",
+    "izvor": "https://www.spomenicinob.info/kozarskadubica",
+    "spojeno": {
+      "medjuvodje-spomenik-rudiju-cajavcu-i-franji-kluzu": "medjuvodje-uremovac-spomenik-kluzu-i-cajavecu"
+    },
+    "dopunjeno": {
+      "medjuvodje-spomenik-prvom-partizanskom-aerodromu": {},
+      "medjuvodje-uremovac-spomenik-kluzu-i-cajavecu": {
+        "godina": "1987",
+        "autor": "Dragoljub Đokić"
+      }
+    },
+    "razresenaDilema": "spomenicinob.info razlikuje tri objekta: obelisk Čajavecu i Kluzu 1951 (medjuvodje-spomenik-partizanskim-pilotima), spomen-park prvom partizanskom aerodromu 1985, Mladen Momčilović (medjuvodje-spomenik-prvom-partizanskom-aerodromu), i spomenik Čajavecu i Kluzu u Uremovcu 1987, Dragoljub Đokić (medjuvodje-uremovac-spomenik-kluzu-i-cajavecu); zapis bez lokacije je isti kao uremovački",
+    "dokazi": [
+      "https://www.spomenicinob.info/kozarskadubica",
+      "https://gradprijedor.com/drustvo/sjecanje-na-podvig-franje-kluza-i-rudija-cajavca"
+    ]
+  },
+  {
+    "odluka": "spomen-parkovi-drugi-paket-po-vaznosti-2026-10-21",
+    "datum": "2026-10-21",
+    "pre": [
+      {
+        "id": "jasenovac-spomen-podrucje-jasenovac",
+        "koordinate": {
+          "lat": 45.2795694,
+          "lng": 16.9295214
+        },
+        "mesto": "Jasenovac",
+        "slika": "slike/spomenici/jasenovac-spomen-podrucje-jasenovac.webp",
+        "slikaOdnos": 1.333,
+        "slikaPotpis": "Bern Bartsch, CC BY-SA 3.0",
+        "naziv": "Spomen-područje Jasenovac",
+        "nazivEn": "Jasenovac Memorial Site",
+        "posveta": [
+          "Q155032"
+        ],
+        "vrsta": "spomen-park",
+        "drzava": "Croatia"
+      },
+      {
+        "id": "jabuka",
+        "koordinate": {
+          "lat": 44.9286707,
+          "lng": 20.6337486
+        },
+        "googleCid": "4475422653904383589",
+        "mesto": "Jabuka",
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%A1%D1%82%D1%80%D0%B0%D1%82%D0%B8%D1%88%D1%82%D0%B5",
+        "slika": "slike/spomenici/jabuka.webp",
+        "slikaOdnos": 1.77,
+        "naziv": "Spomen-kompleks Stratište",
+        "nazivEn": "The Stratište Memorial Complex",
+        "godina": "1981",
+        "autor": "Nebojša Delja",
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "stuti",
+        "koordinate": {
+          "lat": 45.2861033,
+          "lng": 13.7548314
+        },
+        "googleCid": "432135085237711641",
+        "mesto": "Štuti",
+        "wiki": "https://hr.wikipedia.org/wiki/Spomen_podru%C4%8Dje_Ti%C4%8Dan",
+        "slika": "slike/spomenici/stuti.webp",
+        "slikaOdnos": 1.504,
+        "naziv": "Spomen-područje Tičan",
+        "nazivEn": "The Tičan Memorial Area",
+        "godina": "1965",
+        "vrsta": "spomen-park",
+        "drzava": "Croatia"
+      },
+      {
+        "id": "sibenik-spomen-park-subicevac",
+        "koordinate": {
+          "lat": 43.7424522,
+          "lng": 15.8971414
+        },
+        "mesto": "Šibenik (Šubićevac)",
+        "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_%C5%A0ubi%C4%87evac",
+        "slika": "slike/spomenici/sibenik-spomen-park-subicevac.webp",
+        "slikaOdnos": 1.333,
+        "slikaPotpis": "DobarSkroz, CC BY-SA 4.0",
+        "naziv": "Spomen-park Šubićevac",
+        "nazivEn": "Šubićevac Memorial Park",
+        "godina": "1962",
+        "autor": "Kosta Angeli Radovani & Zdenko Kolacio",
+        "vrsta": "spomen-park",
+        "drzava": "Croatia"
+      },
+      {
+        "id": "bobulja",
+        "koordinate": {
+          "lat": 42.5504479,
+          "lng": 19.1592996
+        },
+        "googleCid": "7836553889794336069",
+        "mesto": "Bobulja",
+        "slika": "slike/spomenici/bobulja.webp",
+        "slikaOdnos": 1.143,
+        "naziv": "Spomen-kompleks Ljutotuk",
+        "nazivEn": "Ljutotuk Memorial Complex",
+        "godina": "1975",
+        "autor": "Ranko Radović",
+        "vrsta": "spomen-park",
+        "drzava": "Montenegro"
+      },
+      {
+        "id": "gornji-milanovac",
+        "koordinate": {
+          "lat": 44.029984,
+          "lng": 20.4524494
+        },
+        "googleCid": "14319232559796109761",
+        "mesto": "Gornji Milanovac",
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%91%D1%80%D0%B4%D0%BE_%D0%BC%D0%B8%D1%80%D0%B0",
+        "slika": "slike/spomenici/gornji-milanovac.webp",
+        "slikaOdnos": 1.429,
+        "naziv": "Spomen-park Brdo mira",
+        "nazivEn": "'Brdo mira' Memorial Park",
+        "godina": "1962",
+        "autor": "Živorad Maksimović",
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "adasevci",
+        "koordinate": {
+          "lat": 45.049612,
+          "lng": 19.1779466
+        },
+        "googleCid": "6525967394472213067",
+        "mesto": "Adaševci",
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BE%D0%B1%D0%B5%D0%BB%D0%B5%D0%B6%D1%98%D0%B5_%D0%A1%D1%80%D0%B5%D0%BC%D1%81%D0%BA%D0%B8_%D1%84%D1%80%D0%BE%D0%BD%D1%82",
+        "slika": "slike/spomenici/adasevci.webp",
+        "slikaOdnos": 1.498,
+        "naziv": "Spomen-obeležje Sremski front",
+        "nazivEn": "Sremski Front Memorial Complex",
+        "godina": "1988",
+        "autor": "Miroslav Krstonošić & Jovan Soldatović",
+        "posveta": [
+          "Q3299011"
+        ],
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "dola",
+        "koordinate": {
+          "lat": 43.0584276,
+          "lng": 18.8359526
+        },
+        "googleCid": "12628008049543902703",
+        "mesto": "Dola",
+        "wiki": "https://www.spomenikdatabase.org/dola",
+        "slika": "slike/spomenici/dola.webp",
+        "slikaOdnos": 1.379,
+        "naziv": "Spomen-kompleks Dola",
+        "nazivEn": "Dola Memorial Complex",
+        "godina": "1977",
+        "autor": "Luka Tomanović & Aleksandar Prijić",
+        "posveta": [
+          "Q112968013"
+        ],
+        "vrsta": "spomen-park",
+        "drzava": "Montenegro"
+      },
+      {
+        "id": "zabalj-spomen-kompleks-crna-cuprija",
+        "koordinate": {
+          "lat": 45.401669,
+          "lng": 20.2028538
+        },
+        "mesto": "Žabalj",
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%A6%D1%80%D0%BD%D0%B0_%D0%8B%D1%83%D0%BF%D1%80%D0%B8%D1%98%D0%B0",
+        "slika": "slike/spomenici/zabalj-spomen-kompleks-crna-cuprija.webp",
+        "slikaOdnos": 1.646,
+        "slikaPotpis": "Mankidzanki, CC BY-SA 4.0",
+        "naziv": "Spomen-kompleks Crna Ćuprija",
+        "nazivEn": "\"Black Bridge\" Memorial Complex",
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "drakcici-spomen-park",
+        "koordinate": {
+          "lat": 43.735545,
+          "lng": 20.616363
+        },
+        "mesto": "Drakčići",
+        "naziv": "Spomen-park",
+        "godina": "1952",
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "koceljeva-spomen-park",
+        "koordinate": {
+          "lat": 44.465567,
+          "lng": 19.820216
+        },
+        "mesto": "Koceljeva",
+        "naziv": "Spomen-park",
+        "godina": "1952",
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "minicevo-spomen-park",
+        "koordinate": {
+          "lat": 43.684222,
+          "lng": 22.292333
+        },
+        "mesto": "Minićevo",
+        "naziv": "Spomen-park",
+        "godina": "1991",
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "prhovo-spomen-park",
+        "koordinate": {
+          "lat": 44.883162,
+          "lng": 20.003072
+        },
+        "mesto": "Prhovo",
+        "naziv": "Spomen-park",
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "podi-spomen-kompleks",
+        "koordinate": {
+          "lat": 42.463297,
+          "lng": 18.533783
+        },
+        "priblizno": true,
+        "mesto": "Podi",
+        "naziv": "Spomen-kompleks",
+        "godina": "1989",
+        "vrsta": "spomen-park",
+        "drzava": "Montenegro"
+      }
+    ],
+    "izmene": {
+      "jasenovac-spomen-podrucje-jasenovac": {
+        "opis": {
+          "sh": "Posvećeno žrtvama ustaškog [logora Jasenovac](Q155032). Spomen-područje obuhvata nekadašnji logorski prostor, masovne grobnice, spomenik „Cvet“ i Memorijalni muzej otvoren 1968. godine.",
+          "en": "Dedicated to victims of the Ustaše [Jasenovac concentration camp](Q155032). The memorial site encompasses the former camp grounds, mass graves, the Flower monument and the Memorial Museum opened in 1968."
+        },
+        "wiki": "https://www.jusp-jasenovac.hr/Default.aspx?sid=5028"
+      },
+      "jabuka": {
+        "opis": {
+          "sh": "Posvećeno Srbima, Jevrejima, Romima i drugim žrtvama koje su nacističke okupacione snage streljale na ovom mestu tokom Drugog svetskog rata. Kompleks je podignut na nekadašnjem stratištu između Pančeva i Jabuke.",
+          "en": "Dedicated to Serbs, Jews, Roma and other victims executed here by Nazi occupation forces during the Second World War. The complex marks the former execution site between Pančevo and Jabuka."
+        }
+      },
+      "stuti": {
+        "opis": {
+          "sh": "Posvećeno partizanima i meštanima višnjanskog kraja poginulim u borbi protiv nemačkih snaga kod Tičana u septembru 1943. godine. Kameni blokovi sa uklesanim simbolima poljoprivrednog alata povezuju sećanje na borbu sa životom istarskog sela.",
+          "en": "Dedicated to Partisans and residents of the Višnjan area killed fighting German forces near Tičan in September 1943. Stone blocks carved with agricultural tools connect remembrance of the struggle with the life of Istrian villages."
+        },
+        "autor": "Zdenko Sila"
+      },
+      "sibenik-spomen-park-subicevac": {
+        "opis": {
+          "sh": "Posvećeno rodoljubima i antifašistima koje su italijanske fašističke vlasti streljale na Šubićevcu 1941-1943. godine. Među njima su bili Rade Končar i njegovi saborci.",
+          "en": "Dedicated to patriots and antifascists executed by the Italian fascist authorities at Šubićevac in 1941-1943. Among them were Rade Končar and his comrades."
+        }
+      },
+      "bobulja": {
+        "opis": {
+          "sh": "Posvećeno palim borcima Narodnooslobodilačke borbe iz ovog dela Bjelopavlića. Kompleks Ranka Radovića čine betonski stubovi sa memorijalnim pločama.",
+          "en": "Dedicated to fallen fighters of the People’s Liberation Struggle from this part of Bjelopavlići. Ranko Radović’s complex consists of concrete pillars bearing memorial panels."
+        },
+        "wiki": "https://volimdanilovgrad.me/mjestani-ocistili-okolinu-memorijalnog-kompleksa-ljutotuk/"
+      },
+      "gornji-milanovac": {
+        "opis": {
+          "sh": "Posvećeno borcima i žrtvama Drugog svetskog rata, uključujući jugoslovenske zatočenike stradale u logorima u Norveškoj. Park obuhvata grobnice partizana i crvenoarmejaca, spomenike internircima i biste narodnih heroja.",
+          "en": "Dedicated to fighters and victims of the Second World War, including Yugoslav prisoners who died in camps in Norway. The park encompasses Partisan and Red Army graves, monuments to internees and busts of National Heroes."
+        }
+      },
+      "adasevci": {
+        "opis": {
+          "sh": "Posvećeno poginulim borcima na [Sremskom frontu](Q3299011) 1944-1945. godine. Memorijal objedinjuje skulpture, natpise sa imenima palih i muzejsku postavku o završnim borbama za oslobođenje Jugoslavije.",
+          "en": "Dedicated to fighters killed on the [Syrmian Front](Q3299011) in 1944-1945. The memorial brings together sculptures, inscriptions naming the fallen and a museum exhibition on the final battles for the liberation of Yugoslavia."
+        }
+      },
+      "dola": {
+        "opis": {
+          "sh": "Posvećeno civilnim žrtvama [masakra u Pivskoj župi](Q112968013), koje su nacističke snage ubile u Dolima 7. juna 1943. godine. Među stradalima bio je veliki broj dece.",
+          "en": "Dedicated to civilian victims of the [Doli Pivski massacre](Q112968013), killed by Nazi forces at Dola on 7 June 1943. Many of the victims were children."
+        }
+      },
+      "zabalj-spomen-kompleks-crna-cuprija": {
+        "opis": {
+          "sh": "Posvećeno žrtvama fašističkog terora i Narodnooslobodilačkoj borbi naroda Šajkaške. Kompleks na potesu Crna Ćuprija čuva sećanje na stradanje stanovnika žabaljskog kraja i Šajkaški partizanski odred.",
+          "en": "Dedicated to victims of fascist terror and the People’s Liberation Struggle of the Šajkaška region. The complex at Crna Ćuprija commemorates the suffering of residents of the Žabalj area and the Šajkaš Partisan Detachment."
+        },
+        "godina": "1962",
+        "autor": "Jovan Soldatović"
+      },
+      "drakcici-spomen-park": {
+        "opis": {
+          "sh": "Posvećeno borcima odreda „Jovo Kursula“ i prvoj upotrebi partizanske artiljerije u borbama za Kraljevo 1941. godine. Celina na Ružića brdu obuhvata spomen-kamen i izloženi top.",
+          "en": "Dedicated to fighters of the Jovo Kursula Detachment and the first use of Partisan artillery in the battles for Kraljevo in 1941. The memorial on Ružića Hill comprises a memorial stone and a displayed cannon."
+        },
+        "naziv": "Spomen-park Ružića brdo",
+        "nazivEn": "Ružića Hill Memorial Park",
+        "adresa": "Ružića brdo"
+      },
+      "koceljeva-spomen-park": {
+        "opis": {
+          "sh": "Posvećeno palim borcima Koceljeve i Subotice u Drugom svetskom ratu. Uz spomenik sa imenima poginulih nalazi se bista narodnog heroja Milorada Stanojlovića.",
+          "en": "Dedicated to fallen fighters from Koceljeva and Subotica during the Second World War. A bust of National Hero Milorad Stanojlović stands beside the monument bearing the names of the fallen."
+        },
+        "nazivEn": "Memorial Park"
+      },
+      "minicevo-spomen-park": {
+        "opis": {
+          "sh": "Posvećeno palim borcima i žrtvama ratova 1912-1918. i 1941-1945. godine, kao i narodnom heroju Milunu Miniću Šumadincu. Memorijalna celina otkrivena je 7. jula 1991. godine.",
+          "en": "Dedicated to fallen fighters and victims of the wars of 1912-1918 and 1941-1945, and to National Hero Milun Minić Šumadinac. The memorial was unveiled on 7 July 1991."
+        },
+        "nazivEn": "Memorial Park"
+      },
+      "prhovo-spomen-park": {
+        "opis": {
+          "sh": "Posvećeno palim borcima i žrtvama Prvog i Drugog svetskog rata iz Prhova. Uređeni prostor objedinjuje spomenike i ploče sa imenima stradalih meštana.",
+          "en": "Dedicated to fallen fighters and victims of the First and Second World Wars from Prhovo. The landscaped site brings together monuments and plaques bearing the names of local victims."
+        },
+        "nazivEn": "Memorial Park"
+      },
+      "podi-spomen-kompleks": {
+        "opis": {
+          "sh": "Posvećeno [Nikoli Đurkoviću](Q25468925), Savu Iliću, Dašu Pavičiću i Stijepu Šarencu, poginulim na Podima u januaru 1943. godine. Celina obuhvata memorijalnu kuću i spomen-ploču.",
+          "en": "Dedicated to [Nikola Đurković](Q25468925), Savo Ilić, Dašo Pavičić and Stijepo Šarenac, killed at Podi in January 1943. The complex includes a memorial house and a commemorative plaque."
+        },
+        "nazivEn": "Memorial Complex",
+        "posveta": [
+          "Q25468925"
+        ]
+      }
+    },
+    "dokazi": {
+      "jasenovac-spomen-podrucje-jasenovac": {
+        "url": "https://www.jusp-jasenovac.hr/Default.aspx?sid=5028",
+        "dopunski": "https://jusp-jasenovac.hr/Default.aspx?sid=5056",
+        "nalaz": "Zvanični istorijat spomen-područja i Memorijalnog muzeja. Godina osnivanja ustanove 1968. preneta u opis, ne zamenjuje samostalno godinu celog spomeničkog prostora."
+      },
+      "jabuka": {
+        "url": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%A1%D1%82%D1%80%D0%B0%D1%82%D0%B8%D1%88%D1%82%D0%B5"
+      },
+      "stuti": {
+        "url": "https://hr.wikipedia.org/wiki/Spomen_podru%C4%8Dje_Ti%C4%8Dan",
+        "dopunski": "https://tehnika.lzmk.hr/sila-zdenko/",
+        "nalaz": "Leksikografski zavod potvrđuje autora Zdenka Silu i 1965. za područje Tičan. Iz članka nisu preneti sporni detalji o Romelu/Afrika korpusu; opis ograničen na borce i meštane stradale u septembru 1943."
+      },
+      "sibenik-spomen-park-subicevac": {
+        "url": "https://sh.wikipedia.org/wiki/Spomen-park_%C5%A0ubi%C4%87evac"
+      },
+      "bobulja": {
+        "url": "https://volimdanilovgrad.me/mjestani-ocistili-okolinu-memorijalnog-kompleksa-ljutotuk/",
+        "kopija_wiki": "izvori/xiwl/deo-0024.json",
+        "nalaz": "Lokalni članak potvrđuje memorijal 337 palih, Ranka Radovića i otvaranje 13.7.1975. Na stranici Spomenik Database o Obadovom brijegu opis Ljutotuka pripada drugoj celini; tačke i autori nisu pomešani."
+      },
+      "gornji-milanovac": {
+        "url": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%91%D1%80%D0%B4%D0%BE_%D0%BC%D0%B8%D1%80%D0%B0"
+      },
+      "adasevci": {
+        "url": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BE%D0%B1%D0%B5%D0%BB%D0%B5%D0%B6%D1%98%D0%B5_%D0%A1%D1%80%D0%B5%D0%BC%D1%81%D0%BA%D0%B8_%D1%84%D1%80%D0%BE%D0%BD%D1%82"
+      },
+      "dola": {
+        "url": "https://parkpiva.com/saopstenje-za-javnost/",
+        "dopunski": "https://wapi.gov.me/download/45097246-c49e-4818-a06a-b3861105d8a2?version=1.0",
+        "nalaz": "Upravljač Parka prirode Piva i državni izveštaj potvrđuju 7. jun 1943, za razliku od pogrešnog 7. jula na Spomenik Database. Datum ispravljen pre novog opisa."
+      },
+      "zabalj-spomen-kompleks-crna-cuprija": {
+        "url": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%A6%D1%80%D0%BD%D0%B0_%D0%8B%D1%83%D0%BF%D1%80%D0%B8%D1%98%D0%B0"
+      },
+      "drakcici-spomen-park": {
+        "kopija_wiki": "izvori/xiwl/deo-0054.json",
+        "url": "https://www.rts.rs/page/stories/sr/story/57/srbija-danas/2730786/pocela-obnova-spomen-kompleksa-na-ruzica-brdu.html",
+        "nalaz": "Sačuvani pojedinačni članak opisuje spomen-kamen borcima i top prve partizanske artiljerije u borbama za Kraljevo; prenet naziv lokacije. Direktni RTS link nije bio dostupan."
+      },
+      "koceljeva-spomen-park": {
+        "kopija_wiki": "izvori/xiwl/deo-0104.json",
+        "url": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf",
+        "nalaz": "Pojedinačni Wiki članak navodi str. 161 knjige: pali borci Koceljeve i Subotice, bista Milorada Stanojlovića. Broj imena nije dodat."
+      },
+      "minicevo-spomen-park": {
+        "kopija_wiki": "izvori/xiwl/deo-0146.json",
+        "url": "https://podaci.com/_gRoute/_Vikend-u-opstini-Knjazevac-52587.php",
+        "nalaz": "Sačuvani pojedinačni članak: ratovi 1912-1918 i 1941-1945, Milun Minić, otkrivanje 7.7.1991."
+      },
+      "prhovo-spomen-park": {
+        "kopija_wiki": "izvori/xiwl/deo-0185.json",
+        "url": "https://pecinci.org/info/aktuelno.10.html?idvest=4122",
+        "nalaz": "Pojedinačni Wiki članak: spomenici palim borcima i žrtvama oba svetska rata. Nije potvrđena veza pretpostavljene Soldatovićeve skulpture ili današnje biste, pa autor nije dopisan."
+      },
+      "podi-spomen-kompleks": {
+        "kopija_wiki": "izvori/xiwl/deo-0178.json",
+        "url": "https://subnora.me/sjecanje-na-heroje-i-prvoborce/",
+        "nalaz": "SUBNOR, 24.1.2025: četiri imenovana borca; potvrđen Dašo Pavičić, ne Dapčević iz pogrešnog Wiki sažetka. Nikoli Đurkoviću pridružena postojeća Q-posveta. Nije promenjena približna tačka."
+      }
+    },
+    "ishod": "Dopunjeno 14 dvojezičnih opisa, autor Tičana i autor/godina Crne Ćuprije, nazivi i dve konkretne veze ka člancima. Zadržani svi postojeći ID-jevi, koordinate i fotografije.",
+    "dilema": "Fotografije iz sačuvanog xiwl indeksa za šest manjih parkova već su bile označene kao odbačene. Ponovnim pregledom potvrđeni razlozi; nijedna nije dodata. Klajić nema potvrđenu posvetu u dostupnom članku, pa nije proizvoljno opisan kao NOB; kandidat ostaje za posebno razrešenje. U Crnoj Ćupriji izvori navode januar/februar 1942, pa opis ne tvrdi tačan datum stratišta. Drakčići: 1952. spomen-kamen, kasniji top 1962/1964; godina nije menjana. Parkovi imaju više faza i autora; pojedinačni autori skulptura nisu automatski pripisivani čitavim parkovima."
+  },
+  {
+    "odluka": "ilirska-bistrica-statua-prekomorcima-2026-10-21",
+    "datum": "2026-10-21",
+    "izvor": "https://www.kamra.si/album-slovenije/prekomorci-so-dobili-spomenik-ilirska-bistrica-1973/",
+    "dopunjeno": {
+      "ilirska-bistrica-spomenik-tretji-prekomorski-briga": {
+        "autor": {
+          "staro": "Janez Lenasi",
+          "novo": "Jože Pohlen"
+        },
+        "godina": {
+          "staro": "1965",
+          "novo": "1973"
+        },
+        "adresa": "Park pred OŠ Dragotina Ketteja, Gregorčičeva cesta 8"
+      }
+    },
+    "razresenaDilema": "Partizanstvo (zapis 1367, izvori/partizanstvo/full-partisanmemorial.json): „dva metra visoka plastika partizana, kip Jožeta Pohlena“, posvećena Trećoj prekomorskoj udarnoj brigadi, otkrivena 1973 (Kamra); Lenassi 1965 je autor kocke na Hribu svobode (zapis ilirska-bistrica), što potvrđuju arhitektonski bilten i spomenikdatabase",
+    "dokazi": [
+      "https://www.spomenikdatabase.org/ilirska-bistrica",
+      "https://www.kamra.si/album-slovenije/prekomorci-so-dobili-spomenik-ilirska-bistrica-1973/"
+    ]
   }
 ]
