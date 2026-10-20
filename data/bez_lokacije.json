@@ -31281,7 +31281,7 @@
   },
   {
     "id": "kursumlsa-kameni-beleg",
-    "mesto": "Kuršumlša",
+    "mesto": "Kuršumlija",
     "naziv": "Kameni beleg",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia",
@@ -31425,20 +31425,12 @@
     "adresa": "Kameni beleg na Divljem brdu s natpisom: na ovom području partizani su odbijali pokušaje prodora neprijateljskih motorizovanih kolona, pešadije i konjice iz Valjeva"
   },
   {
-    "id": "izasske-cete-spomen-obelezje-na-bitvi",
-    "mesto": "Izašske Čete",
-    "naziv": "Spomen-obeležje na Bitvi",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia",
-    "adresa": "Spomen-obeležje na Bitvi. Ovde, na Bitvi, Lesnička partizanska četa pod komandom hrabrog Stanka Orelja napala je nemačku motorizovanu kolonu Z. septembra 1941. g"
-  },
-  {
     "id": "izasske-cete-spomen-beleg",
-    "mesto": "Izašske Čete",
-    "naziv": "Spomen-beleg",
+    "mesto": "Bogatić (opština)",
+    "naziv": "Spomen-beleg Emilu Šulentiću",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia",
-    "adresa": "Spomen-beleg na mestu gde su četnici marta 1942. godine ubili partizanskog puškomitraljesca Emila Šulentića."
+    "adresa": "Opština Bogatić, tačno naselje nije utvrđeno; mesto gde su četnici marta 1942. ubili partizanskog puškomitraljesca Emila Šulentića."
   },
   {
     "id": "debrec-spomen-cesma-palim-borcima-od-1941-1945",
@@ -31538,7 +31530,7 @@
   },
   {
     "id": "sudlrl-bista-milosa-milosevica",
-    "mesto": "Sudlrl",
+    "mesto": "Velika Plana",
     "naziv": "Bista Miloša Miloševića",
     "godina": "1975",
     "autor": "S. Jovanović",
@@ -31549,7 +31541,7 @@
   },
   {
     "id": "sudlrl-bista-svete-mladenovica",
-    "mesto": "Sudlrl",
+    "mesto": "Velika Plana",
     "naziv": "Bista Svete Mladenovića",
     "godina": "1979",
     "posveta": "Svete Mladenovića",
@@ -31891,25 +31883,24 @@
   },
   {
     "id": "zarozjc-spomen-cesma-na-pasinoj-ravni",
-    "mesto": "Zarožjc",
+    "mesto": "Zarožje",
     "naziv": "Spomen-česma na Pašinoj ravni",
     "godina": "1978",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia",
-    "adresa": "Spomen-česma na Pašinoj ravni. Izgrađena 1978. Ovde je Z. račanska četa 6. nOvembra 1941. godine, braneći ranjenike od četničkih napada, vodila borbu u kojoj je "
-  },
-  {
-    "id": "zarozjc-spomen-beleg",
-    "mesto": "Zarožjc",
-    "naziv": "Spomen-beleg",
-    "godina": "1972",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia",
-    "adresa": "Spomen-beleg na mestu zvanom Sekulićev most. Postavljen 1972. godine. Na njemu je zapis Slavka Vukosavljevića: Putniče, skini kapu i kaži Srbija ne zaboravlja svoje"
+    "adresa": "Spomen-česma na Pašinoj ravni. Izgrađena 1978. Ovde je Z. račanska četa 6. nOvembra 1941. godine, braneći ranjenike od četničkih napada, vodila borbu u kojoj je ",
+    "kandidati": [
+      {
+        "lat": 44.143556,
+        "lng": 19.668583,
+        "izvor": "https://www.xiwl.com/w/index.php/Zaro%C5%BEje_-_Spomen_%C4%8Cesma",
+        "opis": "Mogući isti objekat na Pašinoj ravni, 1978; Xiwl izričito navodi da identitet nije siguran. Ne spajati bez novog dokaza."
+      }
+    ]
   },
   {
     "id": "zarozjc-zajednicka-grobnica-u-kojoj-je-sahranjeno",
-    "mesto": "Zarožjc",
+    "mesto": "Lug",
     "naziv": "Zajednička grobnica partizana",
     "nazivEn": "Collective grave of Partisans",
     "opis": {
@@ -31921,24 +31912,18 @@
     "adresa": "Zajednička grobnica u kojoj je sahranjeno šest neidentifikovanih boraca poginulih u borbi za konačno oslobođenje Bajine Bašte i streljani partizani 1942. godine."
   },
   {
-    "id": "zarozjc-spomenik",
-    "mesto": "Zarožjc",
-    "naziv": "Spomenik",
-    "godina": "1967",
-    "autor": "Oskar Berbelja",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia",
-    "adresa": "Spomenik „Pomrlim bosanskim izbeglicama 1942. godine u lotru Bajine Bašte“. Podignut 1967. Vajar O. Berbelja. U izbegličkim logorima na području Bajine Bašte izg"
-  },
-  {
     "id": "zarozjc-spomenik-braci-nincic-miodragu",
-    "mesto": "Zarožjc",
-    "naziv": "Spomenik braći Ninčić Miodragu",
+    "mesto": "Lug",
+    "naziv": "Spomenik braći Ninčić",
     "godina": "1977",
     "autor": "O. Vučić",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia",
-    "adresa": "Spomenik braći Ninčić Miodragu, borcu 1. račanske čete, koga su četnici zarobili na Tari i streljali 27. januara 1942. Ljubomiru, sekretaru SK SKOJa, uhvaćenom i "
+    "adresa": "Spomenik braći Ninčić Miodragu, borcu 1. račanske čete, koga su četnici zarobili na Tari i streljali 27. januara 1942. Ljubomiru, sekretaru SK SKOJa, uhvaćenom i ",
+    "opis": {
+      "sh": "Posvećeno braći Ninčić, Miodragu, Ljubomiru i Božidaru, stradalim tokom Drugog svetskog rata.",
+      "en": "Dedicated to the brothers Miodrag, Ljubomir and Božidar Ninčić, killed during the Second World War."
+    }
   },
   {
     "id": "planina-tara-piramida-na-borovom-brdu",

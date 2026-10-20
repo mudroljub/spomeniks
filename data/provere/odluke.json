@@ -11838,7 +11838,7 @@
   {
     "odluka": "popovic-zuma-logicka-pretraga-sumnjivih",
     "datum": "2026-10-20",
-    "ishod": "izdvojeni-nalazi-bez-izmene-spomenika",
+    "ishod": "primenjene-potvrdjene-ispravke-u-novom-formatu",
     "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf",
     "metod": [
       "Po data/izvori.json izdvojeno svih 1497 sadašnjih unosa ovog izvora.",
@@ -12046,6 +12046,332 @@
         ],
         "razlog": "PDF 23 potvrđuje Guberevac i Ralju; OCR je preskočio njihova zaglavlja."
       }
-    ]
+    ],
+    "primena": {
+      "datum": "2026-10-20",
+      "format": "naziv:string; nazivEn:string; detalji i prevodi mape razdvojeni zajedničkim alatom zapis.py",
+      "spojeno": [
+        {
+          "id": "izasske-cete-spomen-obelezje-na-bitvi",
+          "cilj": "bogatic-spomenik-borcima-lesnicke-partizanske-cete",
+          "prethodniZapis": {
+            "id": "izasske-cete-spomen-obelezje-na-bitvi",
+            "mesto": "Izašske Čete",
+            "naziv": "Spomen-obeležje na Bitvi",
+            "vrsta": "spomen-obelezje",
+            "drzava": "Serbia",
+            "adresa": "Spomen-obeležje na Bitvi. Ovde, na Bitvi, Lesnička partizanska četa pod komandom hrabrog Stanka Orelja napala je nemačku motorizovanu kolonu Z. septembra 1941. g"
+          },
+          "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=81"
+        },
+        {
+          "id": "zarozjc-spomen-beleg",
+          "cilj": "lug-spomenik-nob",
+          "prethodniZapis": {
+            "id": "zarozjc-spomen-beleg",
+            "mesto": "Zarožjc",
+            "naziv": "Spomen-beleg",
+            "godina": "1972",
+            "vrsta": "spomen-obelezje",
+            "drzava": "Serbia",
+            "adresa": "Spomen-beleg na mestu zvanom Sekulićev most. Postavljen 1972. godine. Na njemu je zapis Slavka Vukosavljevića: Putniče, skini kapu i kaži Srbija ne zaboravlja svoje"
+          },
+          "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=101"
+        },
+        {
+          "id": "zarozjc-spomenik",
+          "cilj": "lug-spomenik-zrtvama-fasistickog-terora",
+          "prethodniZapis": {
+            "id": "zarozjc-spomenik",
+            "mesto": "Zarožjc",
+            "naziv": "Spomenik",
+            "godina": "1967",
+            "autor": "Oskar Berbelja",
+            "vrsta": "spomen-obelezje",
+            "drzava": "Serbia",
+            "adresa": "Spomenik „Pomrlim bosanskim izbeglicama 1942. godine u lotru Bajine Bašte“. Podignut 1967. Vajar O. Berbelja. U izbegličkim logorima na području Bajine Bašte izg"
+          },
+          "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=101"
+        },
+        {
+          "id": "kosjeric-spomenik-palim-borcima-narodnooslobodilac",
+          "cilj": "varda-spomenik-palim-borcima-u-narodnooslobodilack",
+          "prethodniZapis": {
+            "id": "kosjeric-spomenik-palim-borcima-narodnooslobodilac",
+            "koordinate": {
+              "lat": 43.99716,
+              "lng": 19.90712
+            },
+            "priblizno": true,
+            "mesto": "Kosjerić",
+            "naziv": "Spomenik NOB",
+            "nazivEn": "WWII memorial",
+            "opis": {
+              "sh": "Posvećeno palim borcima Narodnooslobodilačkog rata i žrtvama fašističkog terora 1941-1945; spomenik je na Trgu oslobođenja.",
+              "en": "Dedicated to fallen fighters of the People's Liberation War and victims of fascist terror of 1941-1945; the monument stands on Liberation Square."
+            },
+            "vrsta": "spomen-obelezje",
+            "drzava": "Serbia"
+          },
+          "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=102"
+        },
+        {
+          "id": "piroman-spomenik-borcima-u-nor-u-piromana-i-borovi",
+          "cilj": "piroman-spomenik-palim-borcima-i-zrtvama-fasistick",
+          "prethodniZapis": {
+            "id": "piroman-spomenik-borcima-u-nor-u-piromana-i-borovi",
+            "koordinate": {
+              "lat": 44.5514,
+              "lng": 20.15419
+            },
+            "priblizno": true,
+            "mesto": "Piroman",
+            "naziv": "Spomenik borcima u NOR-u Piromana i Borovića",
+            "godina": "1979",
+            "autor": "D. Bušić",
+            "posveta": "borcima u NOR-u Piromana i Borovića",
+            "vrsta": "spomen-obelezje",
+            "drzava": "Serbia"
+          },
+          "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=22"
+        },
+        {
+          "id": "gornja-gorevnica-spomenik-palim-u-oslobodilackim-r",
+          "cilj": "gornja-gorevnica-spomenik-palim-borcima",
+          "prethodniZapis": {
+            "id": "gornja-gorevnica-spomenik-palim-u-oslobodilackim-r",
+            "koordinate": {
+              "lat": 43.95808,
+              "lng": 20.28497
+            },
+            "priblizno": true,
+            "mesto": "Gornja Gorevnica",
+            "naziv": "Spomenik palim u oslobodilačkim ratovima",
+            "nazivEn": "Liberation Wars Fallen Monument",
+            "opis": {
+              "sh": "Posvećeno palima u oslobodilačkim ratovima 1912-1918 i 1941-1945.",
+              "en": "Dedicated to those who fell in the liberation wars of 1912-1918 and 1941-1945."
+            },
+            "godina": "1975",
+            "autor": "Živorad Maksimović",
+            "vrsta": "spomen-obelezje",
+            "drzava": "Serbia"
+          },
+          "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=60"
+        }
+      ],
+      "ispravljeno": [
+        {
+          "id": "izasske-cete-spomen-beleg",
+          "polja": {
+            "naziv": {
+              "pre": "Spomen-beleg",
+              "posle": "Spomen-beleg Emilu Šulentiću"
+            },
+            "adresa": {
+              "pre": "Spomen-beleg na mestu gde su četnici marta 1942. godine ubili partizanskog puškomitraljesca Emila Šulentića.",
+              "posle": "Opština Bogatić, tačno naselje nije utvrđeno; mesto gde su četnici marta 1942. ubili partizanskog puškomitraljesca Emila Šulentića."
+            },
+            "mesto": {
+              "pre": "Izašske Čete",
+              "posle": "Bogatić (opština)"
+            }
+          }
+        },
+        {
+          "id": "sudlrl-bista-milosa-milosevica",
+          "polja": {
+            "mesto": {
+              "pre": "Sudlrl",
+              "posle": "Velika Plana"
+            }
+          }
+        },
+        {
+          "id": "sudlrl-bista-svete-mladenovica",
+          "polja": {
+            "mesto": {
+              "pre": "Sudlrl",
+              "posle": "Velika Plana"
+            }
+          }
+        },
+        {
+          "id": "zarozjc-spomen-cesma-na-pasinoj-ravni",
+          "polja": {
+            "kandidati": {
+              "pre": null,
+              "posle": [
+                {
+                  "lat": 44.143556,
+                  "lng": 19.668583,
+                  "izvor": "https://www.xiwl.com/w/index.php/Zaro%C5%BEje_-_Spomen_%C4%8Cesma",
+                  "opis": "Mogući isti objekat na Pašinoj ravni, 1978; Xiwl izričito navodi da identitet nije siguran. Ne spajati bez novog dokaza."
+                }
+              ]
+            },
+            "mesto": {
+              "pre": "Zarožjc",
+              "posle": "Zarožje"
+            }
+          }
+        },
+        {
+          "id": "zarozjc-zajednicka-grobnica-u-kojoj-je-sahranjeno",
+          "polja": {
+            "mesto": {
+              "pre": "Zarožjc",
+              "posle": "Lug"
+            }
+          }
+        },
+        {
+          "id": "zarozjc-spomenik-braci-nincic-miodragu",
+          "polja": {
+            "opis": {
+              "pre": null,
+              "posle": {
+                "sh": "Posvećeno braći Ninčić, Miodragu, Ljubomiru i Božidaru, stradalim tokom Drugog svetskog rata.",
+                "en": "Dedicated to the brothers Miodrag, Ljubomir and Božidar Ninčić, killed during the Second World War."
+              }
+            },
+            "naziv": {
+              "pre": "Spomenik braći Ninčić Miodragu",
+              "posle": "Spomenik braći Ninčić"
+            },
+            "mesto": {
+              "pre": "Zarožjc",
+              "posle": "Lug"
+            }
+          }
+        },
+        {
+          "id": "kursumlsa-kameni-beleg",
+          "polja": {
+            "mesto": {
+              "pre": "Kuršumlša",
+              "posle": "Kuršumlija"
+            }
+          }
+        },
+        {
+          "id": "babajic-piramida-u-ostojica-sumi-u-kojoj-je-maja-1",
+          "polja": {
+            "opis": {
+              "pre": null,
+              "posle": {
+                "sh": "Posvećeno osnivanju Okružnog komiteta SKOJ-a u Ostojića šumi maja 1944. godine.",
+                "en": "Dedicated to the formation of the SKOJ District Committee in Ostojića Forest in May 1944."
+              }
+            },
+            "naziv": {
+              "pre": "Piramida u Ostojića šumi u kojoj je maja",
+              "posle": "Piramida u Ostojića šumi"
+            },
+            "nazivEn": {
+              "pre": null,
+              "posle": "Pyramid in Ostojića Forest"
+            }
+          }
+        },
+        {
+          "id": "bogatic-spomenik-borcima-lesnicke-partizanske-cete",
+          "polja": {
+            "opis": {
+              "pre": null,
+              "posle": {
+                "sh": "Posvećeno borcima Lešničke partizanske čete stradalim sa komandantom Stankom Oreljom u borbi na Bitvi 3. septembra 1941. godine.",
+                "en": "Dedicated to the fighters of the Lešnica Partisan Company killed with their commander Stanko Orelj in the battle at Bitva on 3 September 1941."
+              }
+            },
+            "posveta": {
+              "pre": "borcima Lešničke partizanske čete",
+              "posle": null
+            }
+          }
+        },
+        {
+          "id": "lug-spomenik-nob",
+          "polja": {
+            "opis": {
+              "pre": null,
+              "posle": {
+                "sh": "Posvećeno Dragoljubu Bešliću, komandiru Račanske čete, i Aliji Akanoviću, komandiru voda, poginulim januara 1942. godine.",
+                "en": "Dedicated to Dragoljub Bešlić, commander of the Rača Company, and Alija Akanović, a platoon commander, killed in January 1942."
+              }
+            }
+          }
+        },
+        {
+          "id": "lug-spomenik-zrtvama-fasistickog-terora",
+          "polja": {
+            "opis": {
+              "pre": null,
+              "posle": {
+                "sh": "Posvećeno bosanskim izbeglicama preminulim 1942. godine u logoru na području Bajine Bašte.",
+                "en": "Dedicated to Bosnian refugees who died in 1942 in a camp in the Bajina Bašta area."
+              }
+            }
+          }
+        },
+        {
+          "id": "varda-spomenik-palim-borcima-u-narodnooslobodilack",
+          "polja": {
+            "opis": {
+              "pre": {
+                "sh": "Posvećeno borcima palim u narodnooslobodilačkom ratu 1941-1945.",
+                "en": "Dedicated to fighters who fell in the People’s Liberation War in 1941-1945."
+              },
+              "posle": {
+                "sh": "Posvećeno trinaestorici boraca iz Varde poginulih u Narodnooslobodilačkom ratu 1941-1945.",
+                "en": "Dedicated to thirteen fighters from Varda killed in the People’s Liberation War of 1941-1945."
+              }
+            }
+          }
+        },
+        {
+          "id": "piroman-spomenik-palim-borcima-i-zrtvama-fasistick",
+          "polja": {
+            "opis": {
+              "pre": null,
+              "posle": {
+                "sh": "Posvećeno pedesetorici palih boraca i pet žrtava fašističkog terora.",
+                "en": "Dedicated to fifty fallen fighters and five victims of fascist terror."
+              }
+            }
+          }
+        },
+        {
+          "id": "gornja-gorevnica-spomenik-palim-borcima",
+          "polja": {
+            "opis": {
+              "pre": null,
+              "posle": {
+                "sh": "Posvećeno palima u oslobodilačkim ratovima 1912-1918 i 1941-1945.",
+                "en": "Dedicated to those who fell in the liberation wars of 1912-1918 and 1941-1945."
+              }
+            }
+          }
+        }
+      ],
+      "dokaziUparivanja": [
+        "Bogatić: lokalni Xiwl deo-0024, ista borba na Bitvi 3. septembra 1941. i Stanko Orelj; PDF list 81.",
+        "Lug: lokalni Xiwl deo-0128, ista imena poginulih kod Sekulinog mosta i 1972, odnosno bosanske izbeglice, Oskar Berbelja i 1967; PDF list 101.",
+        "Varda: oba knjiška unosa dolaze sa lista 102, ali zaglavlje Varda i trinaest poginulih pripadaju Vardi; opis Trga oslobođenja u Kosjeriću nije prenet.",
+        "Piroman: lokalni Xiwl deo-0175 i PDF list 22, isti autor D. Bušić, godina 1979 i 50 boraca sa pet žrtava terora.",
+        "Gornja Gorevnica: lokalni Xiwl deo-0068 i PDF list 60, isti autor Živorad Maksimović, godina 1975, oba razdoblja 1912-1918 i 1941-1945, plato kod škole."
+      ],
+      "otvoreno": [
+        {
+          "id": "zarozjc-spomen-cesma-na-pasinoj-ravni",
+          "kandidat": "zarozje-spomen-cesma",
+          "razlog": "Xiwl izričito označava identitet kao nesiguran; mesto ispravljeno, kandidat sačuvan bez spajanja."
+        },
+        {
+          "id": "izasske-cete-spomen-beleg",
+          "razlog": "Naslov i opštinski obuhvat ispravljeni prema odeljku Bogatić; tačno naselje i položaj belega Emilu Šulentiću nisu utvrđeni."
+        }
+      ]
+    }
   }
 ]
