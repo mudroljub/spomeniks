@@ -6,6 +6,8 @@ Radi po verovatnoći uspeha, ne redom kroz radni spisak: najpre konkretni objekt
 
 Pre upisa uporedi spomenike na mapi i spisak bez lokacije (`data/bez_lokacije.json`), alatom `alati/pretraga.py` (blizina tačke, isto mesto, zajedničke osnove reči), umesto novog skripta za poređenje. Naziv naselja i opšta posveta nisu dovoljan par. Potvrdi vrstu, posvetu, natpis, izgled i mikrolokaciju; ista osoba može imati zasebnu bistu, ploču i grob u istom mestu. Park i pojedinačno delo u njemu takođe mogu biti različiti zapisi.
 
+**Potvrda duplikata i različite godine (korisnik, 20.10.2026):** kada korisnik potvrdi da su dva zapisa duplikat, prihvati tu potvrdu; ne vraćaj zaključak na „verovatan duplikat“ samo zbog različitih godina. Razlika u godini sama po sebi nije dokaz drugog objekta, već nesaglasan podatak za ispravku. Za bistu Ahmeta Kobića u Brnjiku korisnik je potvrdio isti objekat i naložio stariju godinu, 1953; podatak 1983. ostaje u evidenciji porekla odluke, ne kao drugi marker.
+
 Za staru muzejsku adresu proveri današnju ustanovu i postavku. Ime zgrade ili njen centroid ne potvrđuju da je u njoj i dalje muzej NOB-a. Razlikuj raniji objekat od zamene: godina, autor, slika i lokacija ne prenose se automatski na novo delo.
 
 Ako tačka nije potvrđena, sačuvaj kandidata i razlog u radnom zapisu. Uklonjene objekte traži poslednje; i oni se upisuju kad je tačka poznata. Hrvatske kandidate proveri po postupku opstanka ispod; istorija odluka i dozvoljenog obima je u [hrvatskim beleškama](../../../../docs/PROVERA_RUSENJA_HRVATSKA.md).
