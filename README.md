@@ -25,13 +25,10 @@ POTPUNOST PODATKA:
 KVALITET PODATAKA:
 - fotografije korisnika Google mapa nemaju licencu za ponovnu objavu: naći zamenu sa slobodnom licencom, pa ukloniti Google slike
 - pri dopuni fotografija prednost dati umetničkim delima i sadržajnim memorijalnim celinama; obična groblja, jednostavni grobovi i ploče ostaju niži prioritet
-- Potraži sve naslove "spomen-dom" i prebaci ih da budu vrsta spomen-kuca
 
 UI
 - za vrste spomenika negde u aplikaciji koristimo jedninu negde množinu. prebaci svuda na jedninu da probam.
 - Search label se menja nakon stizanja glavnog paketa spomenika. to je loše. treba staviti loader umesto labele dok ne stignu svi, ili čak onemogućiti pretragu.
-- mala Spomen-kuća, često zapuštena i bez tačne lokacije, ne treba da ima istu važnost kao muzej. osmisliti novu vrstu
-- u info prozori možda podatak o autoru da stoji niže, ispod slike. proba da vidim
 
 REFAKTOR
 - code review i uklanjanje tehničkog duga
@@ -39,7 +36,7 @@ REFAKTOR
 OPTIMIZACIJA
 - na lošem wifi-ju prvo crtanje i dalje čeka biblioteku mape (144 KB); ostalo je optimizovano 2026-10-20 (merenje: `alati/merenje.mjs`, [alati](docs/ALATI.md))
 
-OBJAVLJIVANJE
+PRED OBJAVLJIVANJE
 - ručno postaviti `devMode` na `false`, pokrenuti `node alati/otisak.mjs` i proveriti rad bez interneta pre objave na GitHub Pages-u
 
 MOBILNA APLIKACIJA
