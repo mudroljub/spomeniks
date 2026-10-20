@@ -21,6 +21,16 @@ Postoje tri nivoa: bez lokacije, približno i tačno. Svaki prelaz na viši nivo
 
 Prvi prolaz bez zahteva: [približni zapisi](../data/provere/lociranje-priblizno-offline-2026-10-20.json) (11 preciziranih) i [zapisi bez lokacije](../data/provere/lociranje-bez-offline-2026-10-20.json) (10 na mapi, 3 pridružena grupama bisti).
 
+Drugi prolaz, sa OSM objektima preuzetim 20.10. (`izvori/osm/*-objekti-2026-10-20.json`: škole, domovi, verski objekti, groblja i sva obeležja):
+
+- Metod „jedinstven objekat iz adrese + obeležje do 80 m“ daje kod približnih zapisa samo neimenovana obeležja, koja nisu potvrda NOB posvete. Bez fotografije se ne prihvataju.
+- [Selo potvrđeno opštinom iz linka spomenicinob.info](../data/provere/lociranje-sela-opstina-2026-10-20.json): 10 zapisa je prešlo sa „bez lokacije“ na približnu tačku.
+- Većinu preostalih sela spisak naselja nema, jer su to zaseoci. [Uz GeoNames naselja i zaseoke za BiH](../data/provere/lociranje-zaseoci-geonames-2026-10-20.json) (`izvori/geonames/BA.txt`, jedan zahtev, ne zavisi od Overpass-a) prešlo je još 116 zapisa.
+- [Ostale republike](../data/provere/lociranje-sela-republike-2026-10-20.json), sa GeoNames naseljima: 142 zapisa.
+  - Kod Popović-Žume opština je iz OCR-a knjige (`izvori/knjige/popovic-zuma-1981/zapisi.json`, strana i mesto), pa se selo traži do 35 km od sedišta.
+  - Za ostale izvore selo mora biti jedino tog imena u državi.
+  - Gradovi i gradski delovi nisu obuhvaćeni.
+
 ## Saopštenja X 1974: primena 19.10.2026
 
 Potvrđeni podaci su upisani; samostalna analiza uklonjena po nalogu korisnika. [Dokazi upisa, spajanja i odbijenih uparivanja](../data/provere/saopstenja-x-1974-primena-2026-10-19.json).

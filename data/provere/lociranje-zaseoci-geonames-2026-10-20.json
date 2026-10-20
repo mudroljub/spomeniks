@@ -1,0 +1,1677 @@
+{
+  "datum": "2026-10-20",
+  "obim": "Nastavak sa naseljima i zaseocima iz GeoNames BA (download.geonames.org/export/dump/BA.zip, 20.10.2026). Zapisi bez lokacije sa spomenicinob.info (bez ploča, uklonjenih i srušenih), redom po važnosti vrste: selo jedino tog imena u BiH do 35 km od sedišta opštine iz linka izvora prelazi na mapu sa približnom tačkom. Kad adresa pominje školu, dom, crkvu, džamiju ili groblje i u krugu 2,5 km od centra sela je tačno jedan takav OSM objekat (preuzimanje 20.10.2026), tačka je taj objekat.",
+  "prebaceno": [
+    {
+      "id": "teocak-partizanska-bolnica",
+      "vrsta": "muzej",
+      "mesto": "Teočak",
+      "opstina": "Bihać",
+      "adresa": "Stanarevići, house of Simo Stanarević (former)",
+      "koordinate": {
+        "lat": 44.65811,
+        "lng": 16.12908
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/bihac"
+    },
+    {
+      "id": "drace-boraviste-josipa-broza-tita",
+      "vrsta": "muzej",
+      "mesto": "Drače",
+      "opstina": "Foča",
+      "adresa": "House of the Mušanović family",
+      "koordinate": {
+        "lat": 43.49493,
+        "lng": 18.56933
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/foca"
+    },
+    {
+      "id": "lovnica-mjesto-na-kojem-su-nijemci-zivo-spalili-26",
+      "vrsta": "muzej",
+      "mesto": "Lovnica",
+      "opstina": "Šekovići",
+      "adresa": "Watermill",
+      "koordinate": {
+        "lat": 44.31157,
+        "lng": 18.85512
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/sekovici"
+    },
+    {
+      "id": "orahovac-kuca-narodnog-heroja-radovana-sakotica",
+      "vrsta": "muzej",
+      "mesto": "Orahovac",
+      "opstina": "Trebinje",
+      "adresa": null,
+      "koordinate": {
+        "lat": 42.67874,
+        "lng": 18.47882
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/trebinje"
+    },
+    {
+      "id": "vrbanja-bista-danka-mitrova",
+      "vrsta": "bista",
+      "mesto": "Vrbanja",
+      "opstina": "Banja Luka",
+      "adresa": "Outside KUD Danko Mitrov",
+      "koordinate": {
+        "lat": 44.76459,
+        "lng": 17.24524
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/banjaluka"
+    },
+    {
+      "id": "vrbanja-bista-ajse-karabegovic",
+      "vrsta": "bista",
+      "mesto": "Vrbanja",
+      "opstina": "Banja Luka",
+      "adresa": "Elementary school",
+      "koordinate": {
+        "lat": 44.76459,
+        "lng": 17.24524
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/banjaluka"
+    },
+    {
+      "id": "han-kola-bista-branka-zagorca",
+      "vrsta": "bista",
+      "mesto": "Han Kola",
+      "opstina": "Banja Luka",
+      "adresa": "Elementary school",
+      "koordinate": {
+        "lat": 44.6956972,
+        "lng": 17.08432
+      },
+      "nacin": "jedini OSM objekat iz adrese (skola) u selu",
+      "osmObjekat": {
+        "vrsta": "skola",
+        "lat": 44.6956972,
+        "lng": 17.08432,
+        "osm": "w1174654313",
+        "naziv": "Osnovna škola \"Petar Kočić\""
+      },
+      "izvor": "https://www.spomenicinob.info/banjaluka"
+    },
+    {
+      "id": "delibasino-selo-bista-djure-sabljica",
+      "vrsta": "bista",
+      "mesto": "Delibašino selo",
+      "opstina": "Banja Luka",
+      "adresa": "Rehabilitation centre",
+      "koordinate": {
+        "lat": 44.80115,
+        "lng": 17.22996
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/banjaluka"
+    },
+    {
+      "id": "delibasino-selo-bista-dr-miroslava-zotovica",
+      "vrsta": "bista",
+      "mesto": "Delibašino selo",
+      "opstina": "Banja Luka",
+      "adresa": "Rehabilitation centre",
+      "koordinate": {
+        "lat": 44.80115,
+        "lng": 17.22996
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/banjaluka"
+    },
+    {
+      "id": "bravsko-bista-glise-race",
+      "vrsta": "bista",
+      "mesto": "Bravsko",
+      "opstina": "Bosanski Petrovac",
+      "adresa": null,
+      "koordinate": {
+        "lat": 44.54966,
+        "lng": 16.57805
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/bosanskipetrovac"
+    },
+    {
+      "id": "gornji-bukvik-bista-petra-kaurinovica",
+      "vrsta": "bista",
+      "mesto": "Gornji Bukvik",
+      "opstina": "Brčko",
+      "adresa": "Partisans' cemetery",
+      "koordinate": {
+        "lat": 44.88627,
+        "lng": 18.51449
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/brcko"
+    },
+    {
+      "id": "gornji-bukvik-bista-janka-vasica",
+      "vrsta": "bista",
+      "mesto": "Gornji Bukvik",
+      "opstina": "Brčko",
+      "adresa": "Partisans' cemetery",
+      "koordinate": {
+        "lat": 44.88627,
+        "lng": 18.51449
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/brcko"
+    },
+    {
+      "id": "gornji-bukvik-bista-jove-pajica",
+      "vrsta": "bista",
+      "mesto": "Gornji Bukvik",
+      "opstina": "Brčko",
+      "adresa": "Partisans' cemetery",
+      "koordinate": {
+        "lat": 44.88627,
+        "lng": 18.51449
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/brcko"
+    },
+    {
+      "id": "gornji-bukvik-bista-naste-nakica",
+      "vrsta": "bista",
+      "mesto": "Gornji Bukvik",
+      "opstina": "Brčko",
+      "adresa": "Partisans' cemetery",
+      "koordinate": {
+        "lat": 44.88627,
+        "lng": 18.51449
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/brcko"
+    },
+    {
+      "id": "balinovac-bista-mithata-hacama-acima",
+      "vrsta": "bista",
+      "mesto": "Balinovac",
+      "opstina": "Mostar",
+      "adresa": "Scout Hall (inside)",
+      "koordinate": {
+        "lat": 43.33791,
+        "lng": 17.79502
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/mostar"
+    },
+    {
+      "id": "balinovac-bista-lea-bruka",
+      "vrsta": "bista",
+      "mesto": "Balinovac",
+      "opstina": "Mostar",
+      "adresa": null,
+      "koordinate": {
+        "lat": 43.33791,
+        "lng": 17.79502
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/mostar"
+    },
+    {
+      "id": "agici-bista-davida-pajica-dake",
+      "vrsta": "bista",
+      "mesto": "Agići",
+      "opstina": "Novi Grad",
+      "adresa": "Agića Brdo",
+      "koordinate": {
+        "lat": 44.98917,
+        "lng": 15.97861
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/novigrad"
+    },
+    {
+      "id": "mrakovica-bista-dr-mladena-stojanovica",
+      "vrsta": "bista",
+      "mesto": "Mrakovica",
+      "opstina": "Prijedor",
+      "adresa": "Outside Vila Mrakovica",
+      "koordinate": {
+        "lat": 45.01278,
+        "lng": 16.9075
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/prijedor"
+    },
+    {
+      "id": "mrakovica-bista-josipa-mazara-sose",
+      "vrsta": "bista",
+      "mesto": "Mrakovica",
+      "opstina": "Prijedor",
+      "adresa": "Outside Vila Mrakovica",
+      "koordinate": {
+        "lat": 45.01278,
+        "lng": 16.9075
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/prijedor"
+    },
+    {
+      "id": "mrakovica-bista-esada-midzica",
+      "vrsta": "bista",
+      "mesto": "Mrakovica",
+      "opstina": "Prijedor",
+      "adresa": "Outside Vila Mrakovica",
+      "koordinate": {
+        "lat": 45.01278,
+        "lng": 16.9075
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/prijedor"
+    },
+    {
+      "id": "mrakovica-bista-skendera-kulenovica",
+      "vrsta": "bista",
+      "mesto": "Mrakovica",
+      "opstina": "Prijedor",
+      "adresa": "Outside Vila Mrakovica",
+      "koordinate": {
+        "lat": 45.01278,
+        "lng": 16.9075
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/prijedor"
+    },
+    {
+      "id": "puharska-bista-osmana-dzafica",
+      "vrsta": "bista",
+      "mesto": "Puharska",
+      "opstina": "Prijedor",
+      "adresa": null,
+      "koordinate": {
+        "lat": 44.99368,
+        "lng": 16.72565
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/prijedor"
+    },
+    {
+      "id": "gornja-crkvina-bista-djordja-perica-uce",
+      "vrsta": "bista",
+      "mesto": "Gornja Crkvina",
+      "opstina": "Šamac",
+      "adresa": "Crkvina elementary school",
+      "koordinate": {
+        "lat": 45.02389,
+        "lng": 18.42833
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/samac"
+    },
+    {
+      "id": "spionica-bista-ivana-markovica-irca",
+      "vrsta": "bista",
+      "mesto": "Špionica",
+      "opstina": "Srebrenik",
+      "adresa": "Špionica elementary school",
+      "koordinate": {
+        "lat": 44.76139,
+        "lng": 18.67222
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/srebrenik"
+    },
+    {
+      "id": "ugarci-bista-dragice-pravice",
+      "vrsta": "bista",
+      "mesto": "Ugarci",
+      "opstina": "Trebinje",
+      "adresa": null,
+      "koordinate": {
+        "lat": 42.81307,
+        "lng": 18.31079
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/trebinje"
+    },
+    {
+      "id": "dobrun-bista-hasana-veletovca",
+      "vrsta": "bista",
+      "mesto": "Dobrun",
+      "opstina": "Višegrad",
+      "adresa": "Elementary school (former)",
+      "koordinate": {
+        "lat": 43.74585,
+        "lng": 19.40119
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/visegrad"
+    },
+    {
+      "id": "teocak-spomenik-nob",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Teočak",
+      "opstina": "Bihać",
+      "adresa": "Along Vrtoče-Dubovsko road",
+      "koordinate": {
+        "lat": 44.65811,
+        "lng": 16.12908
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/bihac"
+    },
+    {
+      "id": "grmusa-spomenik-palim-borcima-i-zrtvama-fasisticko",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Grmuša",
+      "opstina": "Bihać",
+      "adresa": "Approx. 100 m east of Orthodox church",
+      "koordinate": {
+        "lat": 44.8950862,
+        "lng": 16.0054994
+      },
+      "nacin": "jedini OSM objekat iz adrese (crkva) u selu",
+      "osmObjekat": {
+        "vrsta": "crkva",
+        "lat": 44.8950862,
+        "lng": 16.0054994,
+        "osm": "w1266545790",
+        "naziv": ""
+      },
+      "izvor": "https://www.spomenicinob.info/bihac"
+    },
+    {
+      "id": "grmusa-spomenik-zrtvama-fasistickog-terora",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Grmuša",
+      "opstina": "Bihać",
+      "adresa": "Train station",
+      "koordinate": {
+        "lat": 44.88722,
+        "lng": 16.02136
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/bihac"
+    },
+    {
+      "id": "jasika-spomenik-borcima-palim-u-oslobodjenju-bihac",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Jasika",
+      "opstina": "Bihać",
+      "adresa": "Road between Izačić and Muslići",
+      "koordinate": {
+        "lat": 44.85695,
+        "lng": 15.79631
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/bihac"
+    },
+    {
+      "id": "vojevac-spomenik-zrtvama-fasistickog-terora",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Vojevac",
+      "opstina": "Bosanska Krupa",
+      "adresa": "House of Đukan Zec (former)",
+      "koordinate": {
+        "lat": 44.80217,
+        "lng": 16.2168
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/bosanskakrupa"
+    },
+    {
+      "id": "prkosi-spomenik-zrtvama-fasistickog-terora",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Prkosi",
+      "opstina": "Bosanski Petrovac",
+      "adresa": null,
+      "koordinate": {
+        "lat": 44.61621,
+        "lng": 16.12241
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/bosanskipetrovac"
+    },
+    {
+      "id": "prkosi-spomen-cesma-partizanskom-napadu-u-oktobru",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Prkosi",
+      "opstina": "Bosanski Petrovac",
+      "adresa": null,
+      "koordinate": {
+        "lat": 44.61621,
+        "lng": 16.12241
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/bosanskipetrovac"
+    },
+    {
+      "id": "uzelci-spomenik-palim-borcima",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Uzelci",
+      "opstina": "Bosanski Petrovac",
+      "adresa": "Alongside old road to Bosanski Petrovac",
+      "koordinate": {
+        "lat": 44.58843,
+        "lng": 16.34254
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/bosanskipetrovac"
+    },
+    {
+      "id": "medeno-polje-spomenik-palim-borcima",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Medeno Polje",
+      "opstina": "Bosanski Petrovac",
+      "adresa": null,
+      "koordinate": {
+        "lat": 44.56295,
+        "lng": 16.27359
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/bosanskipetrovac"
+    },
+    {
+      "id": "bravsko-spomenik-na-mjestu-logorovanja-bravskog-pa",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Bravsko",
+      "opstina": "Bosanski Petrovac",
+      "adresa": "Glišinom logor",
+      "koordinate": {
+        "lat": 44.54966,
+        "lng": 16.57805
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/bosanskipetrovac"
+    },
+    {
+      "id": "bukvik-spomenik-nob",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Bukvik",
+      "opstina": "Brčko",
+      "adresa": null,
+      "koordinate": {
+        "lat": 44.70649,
+        "lng": 18.53872
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/brcko"
+    },
+    {
+      "id": "bukvik-spomenik-formiranju-xvi-muslimanske-brigade",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Bukvik",
+      "opstina": "Brčko",
+      "adresa": "In front of Orthodox church",
+      "koordinate": {
+        "lat": 44.70649,
+        "lng": 18.53872
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/brcko"
+    },
+    {
+      "id": "grcica-spomenik-braci-cuskic",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Grčica",
+      "opstina": "Brčko",
+      "adresa": "Ul. Nikole Tesle",
+      "koordinate": {
+        "lat": 44.85819,
+        "lng": 18.81529
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/brcko"
+    },
+    {
+      "id": "bukvik-spomenik-na-mjestu-smrti-janka-vasica",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Bukvik",
+      "opstina": "Brčko",
+      "adresa": "Along road to Donji Bukvik",
+      "koordinate": {
+        "lat": 44.70649,
+        "lng": 18.53872
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/brcko"
+    },
+    {
+      "id": "bukvik-spomenik-na-mjestu-strijeljanja-partizanski",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Bukvik",
+      "opstina": "Brčko",
+      "adresa": "Close to church",
+      "koordinate": {
+        "lat": 44.70649,
+        "lng": 18.53872
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/brcko"
+    },
+    {
+      "id": "krbeta-spomenik-nob",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Krbeta",
+      "opstina": "Brčko",
+      "adresa": null,
+      "koordinate": {
+        "lat": 44.79447,
+        "lng": 18.88717
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/brcko"
+    },
+    {
+      "id": "donji-mracaj-spomen-cesma-zrtvama-fasistickog-tero",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Donji Mračaj",
+      "opstina": "Bugojno",
+      "adresa": "Village centre",
+      "koordinate": {
+        "lat": 43.96098,
+        "lng": 17.37026
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/bugojno"
+    },
+    {
+      "id": "gornji-mracaj-spomenik-palim-borcima-i-zrtvama-fas",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Gornji Mračaj",
+      "opstina": "Bugojno",
+      "adresa": null,
+      "koordinate": {
+        "lat": 43.96475,
+        "lng": 17.35464
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/bugojno"
+    },
+    {
+      "id": "vrhovska-spomenik-zrtvama-fasistickog-terora",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Vrhovska",
+      "opstina": "Bužim",
+      "adresa": "Varoška Rijeka",
+      "koordinate": {
+        "lat": 45.1163,
+        "lng": 16.0032
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/buzim"
+    },
+    {
+      "id": "vrhovska-spomenik-zrtvama-fasistickog-terora-2",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Vrhovska",
+      "opstina": "Bužim",
+      "adresa": "Popovića Brdo",
+      "koordinate": {
+        "lat": 45.1163,
+        "lng": 16.0032
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/buzim"
+    },
+    {
+      "id": "zaglavica-spomenik-ustanku",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Zaglavica",
+      "opstina": "Drvar",
+      "adresa": null,
+      "koordinate": {
+        "lat": 44.4304,
+        "lng": 16.34204
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/drvar"
+    },
+    {
+      "id": "podvucjak-spomenik-nob",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Podvučjak",
+      "opstina": "Drvar",
+      "adresa": "Elementary school",
+      "koordinate": {
+        "lat": 44.38389,
+        "lng": 16.23167
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/drvar"
+    },
+    {
+      "id": "ocrkavlje-spomenik-i-proleterskoj-brigadi",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Ocrkavlje",
+      "opstina": "Foča",
+      "adresa": null,
+      "koordinate": {
+        "lat": 43.51483,
+        "lng": 18.62625
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/foca"
+    },
+    {
+      "id": "donje-bare-spomenik-ii-dalmatinskoj-brigadi",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Donje Bare",
+      "opstina": "Foča",
+      "adresa": null,
+      "koordinate": {
+        "lat": 43.72332,
+        "lng": 18.85764
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/foca"
+    },
+    {
+      "id": "brezovaca-spomenik-prvoj-akciji-igmanskog-partizan",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Brezovača",
+      "opstina": "Hadžići",
+      "adresa": "Close to ossuary",
+      "koordinate": {
+        "lat": 43.79778,
+        "lng": 18.23944
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/hadzici"
+    },
+    {
+      "id": "vrelo-bosne-spomenik-igmanskom-marsu",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Vrelo Bosne",
+      "opstina": "Ilidža",
+      "adresa": "Car park",
+      "koordinate": {
+        "lat": 43.82659,
+        "lng": 18.2706
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/ilidza"
+    },
+    {
+      "id": "dracici-spomenik-palim-borcima",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Dračići",
+      "opstina": "Kakanj",
+      "adresa": null,
+      "koordinate": {
+        "lat": 44.18593,
+        "lng": 18.07262
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/kakanj"
+    },
+    {
+      "id": "nedavic-spomenik-zrtvama-fasistickog-terora",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Nedavić",
+      "opstina": "Kalinovik",
+      "adresa": null,
+      "koordinate": {
+        "lat": 43.45331,
+        "lng": 18.32509
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/kalinovik"
+    },
+    {
+      "id": "nedavic-spomen-cesma-nob",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Nedavić",
+      "opstina": "Kalinovik",
+      "adresa": null,
+      "koordinate": {
+        "lat": 43.45331,
+        "lng": 18.32509
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/kalinovik"
+    },
+    {
+      "id": "ljubine-spomen-cesma-palim-borcima",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Ljubine",
+      "opstina": "Ključ",
+      "adresa": null,
+      "koordinate": {
+        "lat": 44.5542,
+        "lng": 16.83792
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/kljuc"
+    },
+    {
+      "id": "rapta-spomenik-na-mjestu-smrti-hasana-kikica",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Rapta",
+      "opstina": "Kneževo",
+      "adresa": "Čemernica mountain",
+      "koordinate": {
+        "lat": 44.54695,
+        "lng": 17.2687
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/knezevo"
+    },
+    {
+      "id": "mostanica-spomenik-petru-popovicu-peciji",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Moštanica",
+      "opstina": "Kozarska Dubica",
+      "adresa": "Monastery",
+      "koordinate": {
+        "lat": 45.0898,
+        "lng": 16.85724
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/kozarskadubica"
+    },
+    {
+      "id": "mostanica-spomen-cesma-formiranju-pete-krajiske-ko",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Moštanica",
+      "opstina": "Kozarska Dubica",
+      "adresa": "Entrance to monastery, beside cemetery",
+      "koordinate": {
+        "lat": 45.088481,
+        "lng": 16.8595534
+      },
+      "nacin": "jedini OSM objekat iz adrese (groblje) u selu",
+      "osmObjekat": {
+        "vrsta": "groblje",
+        "lat": 45.088481,
+        "lng": 16.8595534,
+        "osm": "w353794931",
+        "naziv": ""
+      },
+      "izvor": "https://www.spomenicinob.info/kozarskadubica"
+    },
+    {
+      "id": "pogledjevo-spomenik-na-mjestu-partizanske-bolnice",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Pogleđevo",
+      "opstina": "Kozarska Dubica",
+      "adresa": "Property of the Trkulja family",
+      "koordinate": {
+        "lat": 45.07988,
+        "lng": 16.78174
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/kozarskadubica"
+    },
+    {
+      "id": "donje-vukovsko-spomenik-palim-borcima-i-zrtvama-fa",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Donje Vukovsko",
+      "opstina": "Kupres",
+      "adresa": "Katanići",
+      "koordinate": {
+        "lat": 43.91645,
+        "lng": 17.35071
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/kupres"
+    },
+    {
+      "id": "manojlovici-spomenik-palim-borcima-i-zrtvama-fasis",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Manojlovići",
+      "opstina": "Kupres",
+      "adresa": null,
+      "koordinate": {
+        "lat": 43.90136,
+        "lng": 17.37967
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/kupres"
+    },
+    {
+      "id": "kudilji-spomenik-palim-borcima-i-zrtvama-fasistick",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Kudilji",
+      "opstina": "Kupres",
+      "adresa": null,
+      "koordinate": {
+        "lat": 43.91812,
+        "lng": 17.32512
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/kupres"
+    },
+    {
+      "id": "sajkovic-spomenik-palim-borcima",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Sajković",
+      "opstina": "Livno",
+      "adresa": null,
+      "koordinate": {
+        "lat": 43.97551,
+        "lng": 16.64142
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/livno"
+    },
+    {
+      "id": "zajednice-spomenik-na-mjestu-sastanka-koji-su-odrz",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Zajednice",
+      "opstina": "Lopare",
+      "adresa": "Crossroads between Lopare, Vukosavci and Priboj",
+      "koordinate": {
+        "lat": 44.6223,
+        "lng": 18.87737
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/lopare"
+    },
+    {
+      "id": "cakalovac-spomenik-palim-borcima",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Čakalovac",
+      "opstina": "Maglaj",
+      "adresa": "Partisans' cemetery",
+      "koordinate": {
+        "lat": 44.55262,
+        "lng": 18.10575
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/maglaj"
+    },
+    {
+      "id": "mliniste-spomen-cesma-na-mjestu-pocetka-ofanzive-p",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Mlinište",
+      "opstina": "Mrkonjić Grad",
+      "adresa": null,
+      "koordinate": {
+        "lat": 44.26224,
+        "lng": 16.84728
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/mrkonjicgrad"
+    },
+    {
+      "id": "strbina-spomenik-nob",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Štrbina",
+      "opstina": "Mrkonjić Grad",
+      "adresa": null,
+      "koordinate": {
+        "lat": 44.38216,
+        "lng": 16.96061
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/mrkonjicgrad"
+    },
+    {
+      "id": "mliniste-spomen-voz-prve-partizanske-zeljeznicke-p",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Mlinište",
+      "opstina": "Mrkonjić Grad",
+      "adresa": "In front of former train station",
+      "koordinate": {
+        "lat": 44.26224,
+        "lng": 16.84728
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/mrkonjicgrad"
+    },
+    {
+      "id": "mliniste-spomen-cesma-titovom-rukovodjenju-vojnim",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Mlinište",
+      "opstina": "Mrkonjić Grad",
+      "adresa": "Beside 'Mali Raj' restaurant",
+      "koordinate": {
+        "lat": 44.26224,
+        "lng": 16.84728
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/mrkonjicgrad"
+    },
+    {
+      "id": "gornje-hrasno-spomenik-palim-borcima-i-zrtvama-fas",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Gornje Hrasno",
+      "opstina": "Neum",
+      "adresa": null,
+      "koordinate": {
+        "lat": 42.95658,
+        "lng": 17.91178
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/neum"
+    },
+    {
+      "id": "agici-spomenik-palim-borcima-i-zrtvama-fasistickog-2",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Agići",
+      "opstina": "Novi Grad",
+      "adresa": "Agića Brdo",
+      "koordinate": {
+        "lat": 44.98917,
+        "lng": 15.97861
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/novigrad"
+    },
+    {
+      "id": "mrakovica-spomenik-revoluciji",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Mrakovica",
+      "opstina": "Prijedor",
+      "adresa": null,
+      "koordinate": {
+        "lat": 45.01278,
+        "lng": 16.9075
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/prijedor"
+    },
+    {
+      "id": "mrakovica-spomen-cesma-pobjedi-iv-cete-1941-godine",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Mrakovica",
+      "opstina": "Prijedor",
+      "adresa": "Near 'Bijele vode' motel",
+      "koordinate": {
+        "lat": 45.01278,
+        "lng": 16.9075
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/prijedor"
+    },
+    {
+      "id": "svetinja-spomenik-partizanskoj-bolnici",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Svetinja",
+      "opstina": "Prijedor",
+      "adresa": null,
+      "koordinate": {
+        "lat": 45.01417,
+        "lng": 16.68344
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/prijedor"
+    },
+    {
+      "id": "mrakovica-spomen-cesma-pobjedi-v-cete-1941-godine",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Mrakovica",
+      "opstina": "Prijedor",
+      "adresa": "Source of the Dolinac",
+      "koordinate": {
+        "lat": 45.01278,
+        "lng": 16.9075
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/prijedor"
+    },
+    {
+      "id": "mrakovica-spomen-cesma-pobjedi-i-cete-1941-godine",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Mrakovica",
+      "opstina": "Prijedor",
+      "adresa": "Along main footpath",
+      "koordinate": {
+        "lat": 45.01278,
+        "lng": 16.9075
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/prijedor"
+    },
+    {
+      "id": "mrakovica-spomen-cesma-pobjedi-iii-cete-1941-godin",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Mrakovica",
+      "opstina": "Prijedor",
+      "adresa": "Below Hotel Monument",
+      "koordinate": {
+        "lat": 45.01278,
+        "lng": 16.9075
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/prijedor"
+    },
+    {
+      "id": "lovnica-spomenik-formiranju-seste-proleterske-isto",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Lovnica",
+      "opstina": "Šekovići",
+      "adresa": null,
+      "koordinate": {
+        "lat": 44.31157,
+        "lng": 18.85512
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/sekovici"
+    },
+    {
+      "id": "dikalji-spomenik-olgi-dedijer-2",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Dikalji",
+      "opstina": "Sokolac",
+      "adresa": null,
+      "koordinate": {
+        "lat": 43.91692,
+        "lng": 18.72411
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/sokolac"
+    },
+    {
+      "id": "crni-vrh-spomenik-zrtvama-fasistickog-terora",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Crni Vrh",
+      "opstina": "Tešanj",
+      "adresa": null,
+      "koordinate": {
+        "lat": 44.55378,
+        "lng": 18.00452
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/tesanj"
+    },
+    {
+      "id": "gornji-vitkovci-spomenik-palim-borcima",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Gornji Vitkovci",
+      "opstina": "Teslić",
+      "adresa": "Property of AD Vitkovci",
+      "koordinate": {
+        "lat": 44.67357,
+        "lng": 17.85636
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/teslic"
+    },
+    {
+      "id": "gornji-vitkovci-spomenik-palim-borcima-2",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Gornji Vitkovci",
+      "opstina": "Teslić",
+      "adresa": "Property of Anto Martinović (former), at crossroads",
+      "koordinate": {
+        "lat": 44.67357,
+        "lng": 17.85636
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/teslic"
+    },
+    {
+      "id": "plocnik-spomenik-odlasku-vojne-komande-u-birac-194",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Pločnik",
+      "opstina": "Tuzla",
+      "adresa": "Alongside road beside the orchard",
+      "koordinate": {
+        "lat": 44.55417,
+        "lng": 18.66278
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/tuzla"
+    },
+    {
+      "id": "mukat-spomenik-nob",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Mukat",
+      "opstina": "Ugljevik",
+      "adresa": "Ćetenište hill",
+      "koordinate": {
+        "lat": 44.67405,
+        "lng": 18.94644
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/ugljevik"
+    },
+    {
+      "id": "zalja-spomen-cesma-palim-borcima",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Žalja",
+      "opstina": "Vareš",
+      "adresa": null,
+      "koordinate": {
+        "lat": 44.08583,
+        "lng": 18.36056
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/vares"
+    },
+    {
+      "id": "jabucar-spomen-obelisk-295-palih-boraca-i-1868-zrt",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Jabučar",
+      "opstina": "Velika Kladuša",
+      "adresa": null,
+      "koordinate": {
+        "lat": 45.18801,
+        "lng": 16.00807
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/velikakladusa"
+    },
+    {
+      "id": "drmeljevo-spomenik-palim-borcima-iv-banijske-i-vii",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Drmeljevo",
+      "opstina": "Velika Kladuša",
+      "adresa": "Local cemetery",
+      "koordinate": {
+        "lat": 45.20054,
+        "lng": 15.81304
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/velikakladusa"
+    },
+    {
+      "id": "krivaca-spomenik-pernicka-cuprija",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Krivača",
+      "opstina": "Živinice",
+      "adresa": "Pernička Ćuprija",
+      "koordinate": {
+        "lat": 44.41647,
+        "lng": 18.75386
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/zivinice"
+    },
+    {
+      "id": "puhare-zajednicka-grobnica-48-boraca-i-srpske-prol",
+      "vrsta": "groblje",
+      "mesto": "Puhare",
+      "opstina": "Bijeljina",
+      "adresa": "Close to train tracks, in direction of school building",
+      "koordinate": {
+        "lat": 44.7338573,
+        "lng": 19.1693385
+      },
+      "nacin": "jedini OSM objekat iz adrese (skola) u selu",
+      "osmObjekat": {
+        "vrsta": "skola",
+        "lat": 44.7338573,
+        "lng": 19.1693385,
+        "osm": "w1274067866",
+        "naziv": ""
+      },
+      "izvor": "https://www.spomenicinob.info/bijeljina"
+    },
+    {
+      "id": "zvijerina-zajednicka-grobnica-palih-boraca",
+      "vrsta": "groblje",
+      "mesto": "Zvijerina",
+      "opstina": "Bileća",
+      "adresa": "Village cemetery",
+      "koordinate": {
+        "lat": 42.9391927,
+        "lng": 18.2749504
+      },
+      "nacin": "jedini OSM objekat iz adrese (groblje) u selu",
+      "osmObjekat": {
+        "vrsta": "groblje",
+        "lat": 42.9391927,
+        "lng": 18.2749504,
+        "osm": "w1467998604",
+        "naziv": ""
+      },
+      "izvor": "https://www.spomenicinob.info/bileca"
+    },
+    {
+      "id": "bravsko-kosturnica-palih-boraca",
+      "vrsta": "groblje",
+      "mesto": "Bravsko",
+      "opstina": "Bosanski Petrovac",
+      "adresa": null,
+      "koordinate": {
+        "lat": 44.54966,
+        "lng": 16.57805
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/bosanskipetrovac"
+    },
+    {
+      "id": "gornji-bukvik-kosturnica-85-palih-boraca-i-73-zrtv",
+      "vrsta": "groblje",
+      "mesto": "Gornji Bukvik",
+      "opstina": "Brčko",
+      "adresa": "Cemetery",
+      "koordinate": {
+        "lat": 44.88627,
+        "lng": 18.51449
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/brcko"
+    },
+    {
+      "id": "bukvik-partizansko-groblje",
+      "vrsta": "groblje",
+      "mesto": "Bukvik",
+      "opstina": "Brčko",
+      "adresa": "Cemetery",
+      "koordinate": {
+        "lat": 44.70649,
+        "lng": 18.53872
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/brcko"
+    },
+    {
+      "id": "grcica-zajednicka-grobnica-jevrejskih-zrtava-fasis",
+      "vrsta": "groblje",
+      "mesto": "Grčica",
+      "opstina": "Brčko",
+      "adresa": "Between main road and Bingo supermarket",
+      "koordinate": {
+        "lat": 44.85819,
+        "lng": 18.81529
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/brcko"
+    },
+    {
+      "id": "grcica-zajednicka-grobnica-jevrejskih-zrtava-fasis-2",
+      "vrsta": "groblje",
+      "mesto": "Grčica",
+      "opstina": "Brčko",
+      "adresa": null,
+      "koordinate": {
+        "lat": 44.85819,
+        "lng": 18.81529
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/brcko"
+    },
+    {
+      "id": "grcica-zajednicka-grobnica-oko-250-zrtava-fasistic",
+      "vrsta": "groblje",
+      "mesto": "Grčica",
+      "opstina": "Brčko",
+      "adresa": null,
+      "koordinate": {
+        "lat": 44.85819,
+        "lng": 18.81529
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/brcko"
+    },
+    {
+      "id": "zaglavica-zajednicka-grobnica-6-palih-boraca",
+      "vrsta": "groblje",
+      "mesto": "Zaglavica",
+      "opstina": "Drvar",
+      "adresa": "Close to elementary school",
+      "koordinate": {
+        "lat": 44.4304,
+        "lng": 16.34204
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/drvar"
+    },
+    {
+      "id": "ocrkavlje-zajednicka-grobnica-boraca-i-proleterske",
+      "vrsta": "groblje",
+      "mesto": "Ocrkavlje",
+      "opstina": "Foča",
+      "adresa": null,
+      "koordinate": {
+        "lat": 43.51483,
+        "lng": 18.62625
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/foca"
+    },
+    {
+      "id": "dobrigosce-zajednicka-grobnica-sa-24-pala-borca",
+      "vrsta": "groblje",
+      "mesto": "Dobrigošće",
+      "opstina": "Jablanica",
+      "adresa": null,
+      "koordinate": {
+        "lat": 43.67302,
+        "lng": 17.80172
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/jablanica"
+    },
+    {
+      "id": "donje-vukovsko-spomen-groblje-73-clana-porodice-ka",
+      "vrsta": "groblje",
+      "mesto": "Donje Vukovsko",
+      "opstina": "Kupres",
+      "adresa": "Katanića Bare",
+      "koordinate": {
+        "lat": 43.91645,
+        "lng": 17.35071
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/kupres"
+    },
+    {
+      "id": "rilic-kosturnica-palih-boraca",
+      "vrsta": "groblje",
+      "mesto": "Rilić",
+      "opstina": "Kupres",
+      "adresa": null,
+      "koordinate": {
+        "lat": 43.91334,
+        "lng": 17.26515
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/kupres"
+    },
+    {
+      "id": "gornja-kapavica-2-zajednicke-grobnice-sa-104-zrtve",
+      "vrsta": "groblje",
+      "mesto": "Gornja Kapavica",
+      "opstina": "Ljubinje",
+      "adresa": "Guvno, Kapavica Jama",
+      "koordinate": {
+        "lat": 42.95998,
+        "lng": 18.14499
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/ljubinje"
+    },
+    {
+      "id": "miljanovici-zajednicka-grobnica-palih-boraca",
+      "vrsta": "groblje",
+      "mesto": "Miljanovići",
+      "opstina": "Ljubinje",
+      "adresa": null,
+      "koordinate": {
+        "lat": 42.92059,
+        "lng": 18.05194
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/ljubinje"
+    },
+    {
+      "id": "brezove-dane-partizansko-groblje",
+      "vrsta": "groblje",
+      "mesto": "Brezove Dane",
+      "opstina": "Maglaj",
+      "adresa": null,
+      "koordinate": {
+        "lat": 44.53889,
+        "lng": 18.00556
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/maglaj"
+    },
+    {
+      "id": "gornji-skugric-partizansko-groblje",
+      "vrsta": "groblje",
+      "mesto": "Gornji Skugrić",
+      "opstina": "Modriča",
+      "adresa": "Close to elementary school",
+      "koordinate": {
+        "lat": 44.9056992,
+        "lng": 18.349081
+      },
+      "nacin": "jedini OSM objekat iz adrese (skola) u selu",
+      "osmObjekat": {
+        "vrsta": "skola",
+        "lat": 44.9056992,
+        "lng": 18.349081,
+        "osm": "w1524836527",
+        "naziv": "Osnovna škola \"Sutjeska\" - područna škola Skugrić"
+      },
+      "izvor": "https://www.spomenicinob.info/modrica"
+    },
+    {
+      "id": "strbina-zajednicka-grobnica-palih-boraca",
+      "vrsta": "groblje",
+      "mesto": "Štrbina",
+      "opstina": "Mrkonjić Grad",
+      "adresa": null,
+      "koordinate": {
+        "lat": 44.38216,
+        "lng": 16.96061
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/mrkonjicgrad"
+    },
+    {
+      "id": "bojista-zajednicka-grobnica-palih-boraca-i-zrtava",
+      "vrsta": "groblje",
+      "mesto": "Bojišta",
+      "opstina": "Novi Grad",
+      "adresa": "Ravnice",
+      "koordinate": {
+        "lat": 45.0575,
+        "lng": 16.41806
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/novigrad"
+    },
+    {
+      "id": "bistrica-kosturnica-sa-posmrtnim-ostacima-21-palog",
+      "vrsta": "groblje",
+      "mesto": "Bistrica",
+      "opstina": "Pale",
+      "adresa": "Right hand side of Pale - Jahorina road",
+      "koordinate": {
+        "lat": 43.76877,
+        "lng": 18.5492
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/pale"
+    },
+    {
+      "id": "podloznik-kosturnica-88-boraca-pracanskog-bataljon",
+      "vrsta": "groblje",
+      "mesto": "Podloznik",
+      "opstina": "Pale",
+      "adresa": "Dobra Voda",
+      "koordinate": {
+        "lat": 43.8283,
+        "lng": 18.74577
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/pale"
+    },
+    {
+      "id": "vitez-zajednicka-grobnica-palih-boraca-i-zrtava-fa",
+      "vrsta": "groblje",
+      "mesto": "Vitez",
+      "opstina": "Pale",
+      "adresa": null,
+      "koordinate": {
+        "lat": 43.80429,
+        "lng": 18.63996
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/pale"
+    },
+    {
+      "id": "kozin-partizansko-groblje",
+      "vrsta": "groblje",
+      "mesto": "Kozin",
+      "opstina": "Sanski Most",
+      "adresa": null,
+      "koordinate": {
+        "lat": 44.83046,
+        "lng": 16.38833
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/sanskimost"
+    },
+    {
+      "id": "spionica-partizansko-groblje",
+      "vrsta": "groblje",
+      "mesto": "Špionica",
+      "opstina": "Srebrenik",
+      "adresa": null,
+      "koordinate": {
+        "lat": 44.76139,
+        "lng": 18.67222
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/srebrenik"
+    },
+    {
+      "id": "poljice-partizansko-groblje",
+      "vrsta": "groblje",
+      "mesto": "Poljice",
+      "opstina": "Velika Kladuša",
+      "adresa": "Close to Saniteks factory",
+      "koordinate": {
+        "lat": 45.16181,
+        "lng": 15.97599
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/velikakladusa"
+    },
+    {
+      "id": "bukovlje-zajednicka-grobnica-10-palih-boraca",
+      "vrsta": "groblje",
+      "mesto": "Bukovlje",
+      "opstina": "Velika Kladuša",
+      "adresa": null,
+      "koordinate": {
+        "lat": 45.20866,
+        "lng": 15.9709
+      },
+      "nacin": "centar sela u opštini iz izvora",
+      "osmObjekat": null,
+      "izvor": "https://www.spomenicinob.info/velikakladusa"
+    },
+    {
+      "id": "sikulje-kosturnica-zrtava-fasistickog-terora",
+      "vrsta": "groblje",
+      "mesto": "Šikulje",
+      "opstina": "Vareš",
+      "adresa": "Beside local cemetery",
+      "koordinate": {
+        "lat": 44.1110767,
+        "lng": 18.3650223
+      },
+      "nacin": "jedini OSM objekat iz adrese (groblje) u selu",
+      "osmObjekat": {
+        "vrsta": "groblje",
+        "lat": 44.1110767,
+        "lng": 18.3650223,
+        "osm": "w177856543",
+        "naziv": ""
+      },
+      "izvor": "https://www.spomenicinob.info/vares"
+    }
+  ],
+  "ogranicenja": [
+    "Tačka je približna (priblizno: true): centar sela ili objekat iz adrese, ne sam spomenik.",
+    "Uklonjeni i srušeni spomenici nisu prebačeni, da mapa ne pokazuje približnu tačku nepostojećeg objekta.",
+    "Predgrađa i gradovi nisu obuhvaćeni (centar je predaleko)."
+  ]
+}
