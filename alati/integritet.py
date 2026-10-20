@@ -80,6 +80,18 @@ POZNATI_BLISKI_PAROVI = {frozenset(par) for par in [
     ('sombor-bista-kamenka-gagrcina', 'sombor-bista-vere-vrebalov'),
     ('sombor-bista-vere-vrebalov', 'sombor-bista-ivana-parcetica'),
     ('sombor-bista-ernea-kisa', 'sombor-bista-vujadina-sekulica-baneta'),
+    ('bela-crkva-start-uprising', 'bela-crkva-bista-mise-pantica'),
+    ('bela-crkva-start-uprising', 'bela-crkva-bista-cede-milosavljevica'),
+    ('bela-crkva-spomenicki-kompleks', 'bela-crkva-bista-mise-pantica'),
+    ('bela-crkva-spomenicki-kompleks', 'bela-crkva-bista-cede-milosavljevica'),
+    ('bela-crkva-bista-zikice-jovanovica', 'bela-crkva-bista-mise-pantica'),
+    ('bela-crkva-bista-zikice-jovanovica', 'bela-crkva-bista-cede-milosavljevica'),
+    ('bela-crkva-bista-mise-pantica', 'bela-crkva-bista-cede-milosavljevica'),
+    ('bela-crkva-start-uprising', 'bela-crkva-muzej-7-juli-1941'),
+    ('bela-crkva-spomenicki-kompleks', 'bela-crkva-muzej-7-juli-1941'),
+    ('bela-crkva-bista-zikice-jovanovica', 'bela-crkva-muzej-7-juli-1941'),
+    ('bela-crkva-bista-mise-pantica', 'bela-crkva-muzej-7-juli-1941'),
+    ('bela-crkva-bista-cede-milosavljevica', 'bela-crkva-muzej-7-juli-1941'),
 ]}
 cir = re.compile('[Ѐ-ӿ]')
 
@@ -267,7 +279,7 @@ for put in sorted(f for f in os.listdir('data/provere') if f.endswith('.json')):
             greske['izvestaj: redni broj umesto radniId'].append((put, o['radniIndeks']))
         if 'radniId' in o and o['radniId'] not in svi_ids:
             greske['izvestaj: radniId bez cilja'].append((put, o['radniId']))
-        if 'prebacenoNaMapu' in o and o['prebacenoNaMapu'] not in ids and o['prebacenoNaMapu'] not in arhiva_ids:
+        if 'prebacenoNaMapu' in o and o['prebacenoNaMapu'] not in svi_ids:
             greske['izvestaj: prebaceno na nepostojeci id'].append((put, o['prebacenoNaMapu']))
 # aplikacija prvo ucitava istaknute (vidljive na pocetnom zumu 7, tacne lokacije), pa ostale; zapis mora biti u pravom fajlu
 for s in istaknuti:

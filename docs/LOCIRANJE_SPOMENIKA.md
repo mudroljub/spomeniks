@@ -18,7 +18,7 @@ Razrešeni slovenački kandidati nisu duplikati: `podgora-2` je grobljanski spom
 
 ## Strategija lociranja (korisnik, 20.10.2026)
 
-Postoje tri nivoa: bez lokacije, približno i tačno. Svaki prelaz na viši nivo je dobitak.
+Postoje tri nivoa: bez lokacije, približno i tačno. Svaki prelaz na viši nivo je dobitak. Približno je dozvoljeno za vrstu bista ili važniju, a za ostale samo uz fotografiju ili konkretnu adresu položaja (20.10.2026); 1.481 približni zapis van BiH bez toga vraćen je u spisak bez lokacije, uz adrese vraćene iz istorije i knjiga (`priblizni-uz-dokaz-2026-10-20` u odlukama). U BiH je isto pravilo vraćeno u spisak bez lokacije još 764 zapisa (`priblizni-uz-dokaz-bih-2026-10-20`).
 
 - **Redosled po vrsti** prati `vaznostVrste` iz [utils/vaznost.js](../utils/vaznost.js): spomen-park, muzej, spomenik, spomen-groblje, statua, bista, spomen-obeležje, groblje. Ploče idu poslednje.
 - **Prvo bez zahteva.** Poredi se sa sačuvanim izvorima: Wiki stranica istog mesta, OSM objekat do 6 km od istoimenog naselja, zajedničke reči naziva. Prihvata se samo:

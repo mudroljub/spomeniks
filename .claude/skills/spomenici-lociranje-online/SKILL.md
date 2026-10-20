@@ -20,7 +20,7 @@ Za groblja, kosturnice i grupe slabo opisanih zapisa prvo traži regionalnu evid
 Spomenik se retko opisuje sam; o njemu piše ono čemu je posvećen. Redom:
 
 1. **Članak o heroju, jedinici ili događaju** na sr, hr ili bs Vikipediji (i ćirilica i latinica): „rođen u zaseoku…“, „rodna kuća je danas…“, „spomenik je podignut kod…“. Q-id i povezane strane daju i Commons kategoriju.
-2. **Commons**: kategorija heroja ili sela i `geosearch` oko sela; geotag fotografije daje kandidata, a položaj samog spomenika proverava se zasebno.
+2. **Commons**: prvo kategorija spomenika ili kompleksa (opisi fajlova često kažu gde stoji, npr. „ispred zgrade muzeja“), pa kategorija heroja ili sela; `geosearch` oko sela je dopuna; geotag fotografije daje kandidata, a položaj samog spomenika proverava se zasebno.
 3. **Lokalne vesti sa komemoracija**: „položeni vijenci kod spomen-kuće u…“, „obilježena godišnjica…“ — opština, SUBNOR/SABA, lokalni portali.
 4. **Sajt opštine, turističke zajednice, registri kulturnog nasleđa** (zavodi za zaštitu spomenika, komisije za nacionalne spomenike).
 5. **Google mape na jeziku i pismu mesta** (CDP, kao u skilu žetve), sa varijantama imena.

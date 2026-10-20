@@ -32,6 +32,8 @@ export interface Spomenik {
   priblizno?: boolean
   /** mesto, „Grad (deo grada)“, npr. "Beograd (Banjica)" */
   mesto: string
+  /** konkretan opis položaja ili adresa (npr. „Ispred osnovne škole“), na jeziku izvora; prikazuje se u prozoru spomenika */
+  adresa?: string
   /** domaći naziv, na jeziku i pismu države; bez poznatog imena samo vrsta („Spomenik“, „Spomen-ploča“) */
   naziv: string
   /** engleski naziv, samo kad se razlikuje od domaćeg; aplikacija ga preuzima samo na engleskom */
@@ -114,8 +116,6 @@ export interface Kandidat extends Koordinate {
  * `slika` je kopija u "slike/bez-lokacije/<ime>.webp" (400 px, uz `slikaPotpis` i `slikaOdnos`); pri prebacivanju u bazu prelazi u slike/spomenici/<id>.webp.
  * Izuzetak: u 54 starije stavke `slika` je ime fajla na Vikipediji, koji treba preuzeti. */
 export interface SpomenikBezLokacije extends Omit<Spomenik, 'koordinate'> {
-  /** adresa ili opis položaja, na jeziku izvora */
-  adresa?: string
   /** moguće, nepotvrđene lokacije */
   kandidati?: Kandidat[]
 }

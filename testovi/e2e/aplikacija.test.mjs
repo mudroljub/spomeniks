@@ -457,7 +457,7 @@ test('približne lokacije u Beloj Crkvi ne prekrivaju precizni spomenik', async 
         pozicija: marker.dajPoziciju(), koordinate: marker.spomen.koordinate,
       }
     })`)
-    assert.ok(rezultat.broj >= 3)
+    assert.ok(rezultat.broj >= 1)
     assert.equal(rezultat.preklapanja, 0, `preklapanje na zumu ${zum}`)
     assert.deepEqual(rezultat.pozicija, rezultat.koordinate)
   }

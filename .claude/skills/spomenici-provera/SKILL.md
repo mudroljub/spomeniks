@@ -91,7 +91,7 @@ Emulacija ne zamenjuje pravi telefon: za izmene izgleda reci korisniku da ih pro
 ### Prikaz i prijave korisnika
 
 - **Približne lokacije:** zadrži ikonicu spomenika, sa malim upitnikom preko sredine, malo spuštenim; bez isprekidanog kruga i bleđenja. Uz mesto, pre godine, piše „(bez tačne lokacije)“. Mapa i legenda koriste zajednički prikaz iz `utils/ikonice.js`, ne odvojene kopije oznake.
-- **Preklapanja:** približne ikonice odmakni od preciznih kada ima prostora; pomeraj samo prikaz, ne sačuvane koordinate ili odredište navigacije. Za proveru koristi Belu Crkvu (Mačva), gde uz precizni kompleks postoje tri približno locirane biste; proveri više zumova i otvaranje pravog zapisa.
+- **Preklapanja:** približne ikonice odmakni od preciznih kada ima prostora; pomeraj samo prikaz, ne sačuvane koordinate ili odredište navigacije. Za proveru koristi Belu Crkvu (Mačva), gde su uz precizni kompleks, biste i muzej približno locirana grobnica u porti crkve i okolna sela; proveri više zumova i otvaranje pravog zapisa.
 - **Prijava spomenika:** dovoljni su naziv i lokacija; fotografija, kategorija, opis i ostalo su opcioni, a dodavanje na Google mapu je bonus. Na ekranu je kratko uputstvo „Pošalji lokaciju i naziv spomenika“, a dodatna polja ostaju u pripremljenom mejlu. Adresu sastavljaj tek na klik za slanje ili kopiranje; ne ispisuj je unapred u stranici, stalnim `mailto:` linkovima ili dokumentaciji i ne predstavljaj ovo kao potpunu zaštitu od botova.
 
 ## 4. Brzina
