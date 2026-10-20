@@ -11353,5 +11353,112 @@
       }
     ],
     "granice": "Tačka škole je približna lokacija spomenika; sačuvani trajni ID, podaci i poreklo. Nema potvrde precizne tačke samog dela."
+  },
+  {
+    "odluka": "obuhvat-blazuj-zajednicka-grobnica-civila-strijeljanih-u-p",
+    "datum": "2026-10-20",
+    "id": "blazuj-zajednicka-grobnica-civila-strijeljanih-u-p",
+    "ishod": "uklonjeno-van-obuhvata",
+    "razlog": "Grobnica civila iz Prvog svetskog rata; katalog izričito razdvaja ovu grobnicu od zasebne grobnice žrtava fašističkog terora iz Butmira (1955), koja ostaje u zbirci.",
+    "izvori": [
+      "https://www.spomenicinob.info/ilidza"
+    ]
+  },
+  {
+    "odluka": "obuhvat-trnovac-spomenik-prvoj-zrtvi-austrougarske-okupaci",
+    "datum": "2026-10-20",
+    "id": "trnovac-spomenik-prvoj-zrtvi-austrougarske-okupaci",
+    "ishod": "uklonjeno-van-obuhvata",
+    "razlog": "Spomen-grobnica Saliha Tučića zvanog Sahaćija, pogubljenog 1878, podignuta 1958; godina gradnje ne čini je spomenikom NOB ili Drugog svetskog rata.",
+    "izvori": [
+      "https://www.spomenicinob.info/tuzla",
+      "https://www.bhstring.net/tuzlauslikama/tuzlarije/viewdanas.php?id=1251",
+      "https://www.pokazivac.com/salih-tucic-prva-zrtva-austrougarskog-okupacionog-rezima-u-tuzli/"
+    ]
+  },
+  {
+    "odluka": "jakopovac-provera-obuhvata",
+    "datum": "2026-10-20",
+    "id": "jakopovac",
+    "ishod": "otvoreno-bez-izmene",
+    "razlog": "Google mesto potvrđuje sačuvani naziv i tačku 46.0214351, 16.7874037, ali nema dostupne fotografije ni recenzije. Opštinski izveštaj o komemoraciji navodi žrtve Drugog svetskog rata i poraća, bez pouzdanog povezivanja pojedinačnih fotografija sa našom tačkom. Natpis nije potvrđen; nema dovoljno dokaza za uklanjanje ni promenu posvete. Kosturnica 40 boraca iz Hrženjakovog popisa ne sme se automatski poistovetiti sa ovim objektom.",
+    "izvori": [
+      "https://www.google.com/maps?cid=7082797380938047703",
+      "https://zrtopolovac.hr/2025/10/30/komemoracija-zrtvama-2-svjetskog-rata-i-poraca-3/",
+      "https://zrtopolovac.hr/wp-content/uploads/2025/10/Komemoracija8-scaled.jpg",
+      "https://zrtopolovac.hr/wp-content/uploads/2025/10/Komemoracija6-scaled.jpg",
+      "https://plusportal.hr/media/images/old_sb/Files/180319164051354/popis%20uklonjenih%20bisti%20i%20spomenika%20iz%20NOB-a.pdf",
+      "https://www.lag-sjeverna-bilogora.hr/defaultcont.asp?id=10&n=3"
+    ],
+    "dopuna": "LAG Sjeverna Bilogora navodi antifašističke spomenike u opštini i zasebnu ploču branitelju; opšti pregled ne potvrđuje posvetu objekta na našoj tački. Zapis ostaje nepromenjen."
+  },
+  {
+    "odluka": "popovic-zuma-str40-pomesani-unosi",
+    "datum": "2026-10-20",
+    "ishod": "spojen-fragment-ispravljena-mesta-povucene-pogresne-tacke",
+    "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=21",
+    "dokaz": "Lokalni sken PDF lista 21, štampana strana 40: Mladenovac (naselje) ima jedan unos o spomeniku palim 1912-1945, skulpturi od 4,5 m otkrivenoj oktobra 1963. Skulptura visoka nije zaseban objekat. Pod Malom Vrbicom je ploča na kući partizanske baze; spomenik iz 1963. u parku osnovne škole pripada sledećem zaglavlju Markovac. Rabrovac iz 1958. potvrđen i ostaje u obuhvatu.",
+    "prethodniZapisi": [
+      {
+        "id": "mladenovac-spomenik-palim-u-oslobodilackim-ratovim",
+        "koordinate": {
+          "lat": 44.44012,
+          "lng": 20.69415
+        },
+        "priblizno": true,
+        "mesto": "Mladenovac",
+        "naziv": {
+          "sh": "Spomenik palim u oslobodilačkim ratovima 1912-1945"
+        },
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "mladenovac-skulptura-visoka-4",
+        "koordinate": {
+          "lat": 44.44012,
+          "lng": 20.69415
+        },
+        "priblizno": true,
+        "mesto": "Mladenovac",
+        "naziv": {
+          "sh": "Skulptura visoka"
+        },
+        "godina": "1963",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "mala-vrbica-spomenik-palim-u-oslobodilackim-ratovi",
+        "koordinate": {
+          "lat": 44.46772,
+          "lng": 20.64649
+        },
+        "priblizno": true,
+        "mesto": "Mala Vrbica",
+        "naziv": {
+          "sh": "Spomenik palim u oslobodilačkim ratovima 1912-1945"
+        },
+        "godina": "1963",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      }
+    ],
+    "spajanje": {
+      "iz": "mladenovac-skulptura-visoka-4",
+      "u": "mladenovac-spomenik-palim-u-oslobodilackim-ratovim"
+    },
+    "otvoreno": [
+      {
+        "id": "mladenovac-spomenik-palim-u-oslobodilackim-ratovim",
+        "kandidat": "mladenovac-selo",
+        "razlog": "Potvrditi identitet prema godini, dimenzijama i tačnoj tački; sačuvani Google marker nije menjan."
+      },
+      {
+        "id": "mala-vrbica-spomenik-palim-u-oslobodilackim-ratovi",
+        "kandidat": "markovac-spomenik-palim-borcima",
+        "razlog": "Xiwl izričito razlikuje dva objekta kraj škole i ne zna na koji se odnosi knjiški unos; godina u njegovom zaglavlju 1964, u hronologiji 1963. Nema automatskog spajanja."
+      }
+    ]
   }
 ]

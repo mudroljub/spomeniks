@@ -13826,17 +13826,6 @@
     ]
   },
   {
-    "id": "blazuj-zajednicka-grobnica-civila-strijeljanih-u-p",
-    "mesto": "Blažuj",
-    "naziv": {
-      "sh": "Zajednička grobnica civila strijeljanih u Prvom svjetskom ratu",
-      "en": "Communal grave of civilians executed in First World War"
-    },
-    "vrsta": "groblje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Orthodox church"
-  },
-  {
     "id": "blazuj-zajednicka-grobnica-zrtava-fasistickog-tero",
     "mesto": "Blažuj",
     "naziv": {
@@ -29737,19 +29726,6 @@
     }
   },
   {
-    "id": "trnovac-spomenik-prvoj-zrtvi-austrougarske-okupaci",
-    "mesto": "Trnovac",
-    "naziv": {
-      "sh": "Spomenik prvoj žrtvi austrougarske okupacije",
-      "en": "Monument to the first victim of the Austro-Hungarian occupation"
-    },
-    "godina": "1958",
-    "stanje": "ostecen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Ul. prof. dr. Ibre Pašića bb."
-  },
-  {
     "id": "novi-grad-i-spomen-ploca-40-godisnjici-oktobarske",
     "mesto": "Novi Grad I",
     "naziv": {
@@ -39719,5 +39695,43 @@
     "vrsta": "bista",
     "drzava": "Croatia",
     "adresa": "Kesterčanekova ulica"
+  },
+  {
+    "id": "mladenovac-spomenik-palim-u-oslobodilackim-ratovim",
+    "mesto": "Mladenovac (selo)",
+    "naziv": {
+      "sh": "Spomenik palim u oslobodilačkim ratovima 1912-1945"
+    },
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia",
+    "adresa": "Na trgu u naselju Mladenovac; skulptura visoka 4,5 m, otkrivena oktobra 1963.",
+    "kandidati": [
+      {
+        "lat": 44.457814,
+        "lng": 20.7019111,
+        "izvor": "https://www.google.com/maps?cid=3507395289447165411",
+        "opis": "Mogući isti spomenik sa posvetama 1914-1918 i 1941-1945; fotografija potvrđuje dva rata, ali ne godinu otkrivanja niti konačno uparivanje."
+      }
+    ],
+    "godina": "1963"
+  },
+  {
+    "id": "mala-vrbica-spomenik-palim-u-oslobodilackim-ratovi",
+    "mesto": "Markovac",
+    "naziv": {
+      "sh": "Spomenik palim u oslobodilačkim ratovima 1912-1945"
+    },
+    "godina": "1963",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia",
+    "adresa": "U parku osnovne škole u Markovcu, opština Mladenovac; podignut 1963.",
+    "kandidati": [
+      {
+        "lat": 44.372722,
+        "lng": 20.649778,
+        "izvor": "https://www.xiwl.com/w/index.php/Markovac_%28Mladenovac%29_-_Spomenik_Palim_Borcima",
+        "opis": "Xiwl navodi dva obeležja kod škole, jedno preko puta, drugo u školskom dvorištu; nejasno na koje se knjiški unos odnosi."
+      }
+    ]
   }
 ]

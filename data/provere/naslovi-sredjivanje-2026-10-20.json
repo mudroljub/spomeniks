@@ -121,7 +121,12 @@
     },
     {
       "id": "blazuj-zajednicka-grobnica-civila-strijeljanih-u-p",
-      "razlog": "Grobnica civila iz Prvog svetskog rata; ne menjati u okviru redakture naslova, zasebno proveriti obuhvat projekta."
+      "razlog": "Grobnica civila iz Prvog svetskog rata; ne menjati u okviru redakture naslova, zasebno proveriti obuhvat projekta.",
+      "naknadnaProvera": {
+        "datum": "2026-10-20",
+        "ishod": "uklonjeno-van-obuhvata",
+        "odluka": "obuhvat-blazuj-zajednicka-grobnica-civila-strijeljanih-u-p"
+      }
     },
     {
       "id": "bogatic-spomenik-miki-mitrovicu-i-macvanskom-odredu",
@@ -345,7 +350,12 @@
     },
     {
       "id": "mala-vrbica-spomenik-palim-u-oslobodilackim-ratovi",
-      "razlog": "Zadržan konkretan, smislen naziv: puna posveta, jedinica, ime ili naziv iz registra; dužina sama nije razlog za izmenu."
+      "razlog": "Zadržan konkretan, smislen naziv: puna posveta, jedinica, ime ili naziv iz registra; dužina sama nije razlog za izmenu.",
+      "naknadnaProvera": {
+        "datum": "2026-10-20",
+        "odluka": "popovic-zuma-str40-pomesani-unosi",
+        "ishod": "ispravljeno-mesto-bez-potvrdjene-tacke"
+      }
     },
     {
       "id": "malesevci-spomen-obelisk-na-mjestu-partizanske-pob",
@@ -385,7 +395,12 @@
     },
     {
       "id": "mladenovac-spomenik-palim-u-oslobodilackim-ratovim",
-      "razlog": "Zadržan konkretan, smislen naziv: puna posveta, jedinica, ime ili naziv iz registra; dužina sama nije razlog za izmenu."
+      "razlog": "Zadržan konkretan, smislen naziv: puna posveta, jedinica, ime ili naziv iz registra; dužina sama nije razlog za izmenu.",
+      "naknadnaProvera": {
+        "datum": "2026-10-20",
+        "odluka": "popovic-zuma-str40-pomesani-unosi",
+        "ishod": "ispravljeno-mesto-bez-potvrdjene-tacke"
+      }
     },
     {
       "id": "mohorje-spominska-plosca-padlim-borcem-in-zrtvam",
@@ -601,7 +616,12 @@
     },
     {
       "id": "trnovac-spomenik-prvoj-zrtvi-austrougarske-okupaci",
-      "razlog": "Prepoznatljiv naziv sa bitnim vlastitim imenima ili nazivom celine; dužina sama nije razlog za promenu."
+      "razlog": "Prepoznatljiv naziv sa bitnim vlastitim imenima ili nazivom celine; dužina sama nije razlog za promenu.",
+      "naknadnaProvera": {
+        "datum": "2026-10-20",
+        "ishod": "uklonjeno-van-obuhvata",
+        "odluka": "obuhvat-trnovac-spomenik-prvoj-zrtvi-austrougarske-okupaci"
+      }
     },
     {
       "id": "tumbac",
@@ -726,12 +746,7 @@
       "razlog": "Opis izvađen iz naslova i OCR proveren prema lokalnom skenu knjige Popović–Žuma; čitljivi izvorni podaci sačuvani u opisu, originalni unos ostaje u izveštaju."
     }
   ],
-  "otvoreno": [
-    {
-      "id": "blazuj-zajednicka-grobnica-civila-strijeljanih-u-p",
-      "razlog": "Proveriti obuhvat: naziv govori o Prvom svetskom ratu. Zapis nije brisan u prolazu kroz naslove."
-    }
-  ],
+  "otvoreno": [],
   "istorija": {
     "commit": "0512ce8dc0d246820857355a17257919ca1cb445",
     "pocetniPopis": "data/provere/naslovi-preko-dva-reda-2026-10-20.json",

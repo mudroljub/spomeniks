@@ -2780,10 +2780,14 @@
       },
       "datumMapiranjaUKatalogu": "",
       "napomenaDatuma": "Datum mapiranja je katalogizacija, ne datum fotografije ni nova potvrda opstanka.",
-      "ishod": "ostaje-za-razresavanje",
-      "radniId": "blazuj-zajednicka-grobnica-civila-strijeljanih-u-p",
-      "prioritet": "postoji-prema-izvoru-traziti-lokaciju",
-      "nedostaje": "Precizna lokacija pravog objekta; proveriti datum i poreklo dokaza opstanka."
+      "ishod": "uklonjeno-van-obuhvata",
+      "prioritet": "zatvoreno",
+      "prethodniRadniId": "blazuj-zajednicka-grobnica-civila-strijeljanih-u-p",
+      "naknadnaProvera": {
+        "datum": "2026-10-20",
+        "odluka": "obuhvat-blazuj-zajednicka-grobnica-civila-strijeljanih-u-p",
+        "razlog": "Grobnica civila iz Prvog svetskog rata; katalog izričito razdvaja ovu grobnicu od zasebne grobnice žrtava fašističkog terora iz Butmira (1955), koja ostaje u zbirci."
+      }
     },
     {
       "mesto": "Blažuj",
