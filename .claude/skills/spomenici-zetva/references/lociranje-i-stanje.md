@@ -12,7 +12,7 @@ Za staru muzejsku adresu proveri današnju ustanovu i postavku. Ime zgrade ili n
 
 Istorijska uloga zgrade sama po sebi ne potvrđuje muzej, spomen-kuću ni spomen-ploču. Vrstu `muzej` ne određuj samo po nekadašnjoj postavci; potvrđena mala spomen-kuća prati vrstu `spomen-kuca` iz standarda. Ako je postavka preneta, sačuvaj to u opisu sa datumom dokaza, bez pretpostavke da se unutrašnjost može obići ili da ploča danas postoji (Donja Trnova, spomen-kuća „Oslobođenje“: reportaža iz 2023. potvrđuje prenos postavke u depo Muzeja Semberije).
 
-Ako tačka nije potvrđena, sačuvaj kandidata i razlog u radnom zapisu. Uklonjene objekte traži poslednje; i oni se upisuju kad je tačka poznata. Hrvatske kandidate proveri po postupku opstanka ispod; istorija odluka i dozvoljenog obima je u [hrvatskim beleškama](../../../../docs/PROVERA_RUSENJA_HRVATSKA.md).
+Ako tačka nije potvrđena, sačuvaj kandidata i razlog u radnom zapisu. Uklonjene objekte traži poslednje; i oni se upisuju kad je tačka poznata. Hrvatske kandidate proveri po postupku opstanka ispod; istorija odluka i dozvoljenog obima je u [hrvatskom odeljku lociranja](../../../../docs/LOCIRANJE_SPOMENIKA.md#hrvatska-rušenje-i-opstanak).
 
 ## Traženje i spajanje duplikata
 
@@ -65,4 +65,4 @@ Ploče se preskaču osim veoma bitnih; dokaz da ploča postoji ne znači da ulaz
 
 Postojeći `izvor` ne zamenjuj URL-om nove fotografije ili kasnije provere. Dopunske dokaze, stvarne datume, prethodni zapis, odluku i obrazloženje čuvaj mašinski čitljivo u `data/provere/`: pojedinačnu odluku kao novi zapis u zajedničkom `data/provere/odluke.json` (sa poljem `odluka`, kratkim imenom), a zbirni prolaz kroz mnogo stavki kao nov ključ u fajlu svoje vrste u `data/provere/`. `docs/` je za ljude: tamo ide sažetak i veza na izveštaj, ne pojedinačni dokazi (korisnik, 2026-10-18). Prazan izvor može se dopuniti potvrđenim izvorom.
 
-Stavke bez lokacije prebacuj alatom `alati/prebaci.py`, koji čuva ID, pa knjiške veze i radni ID-jevi ostaju tačni; pri spajanju ih preusmeri po [skilu provere](../../spomenici-provera/SKILL.md#veze-radnih-zapisa-i-knjiga). Istorijske rezultate i brojke upiši u [evidenciju lociranja](../../../../docs/LOCIRANJE_SPOMENIKA.md) ili [hrvatske provere](../../../../docs/PROVERA_RUSENJA_HRVATSKA.md), a postupke dopunjavaj ovde.
+Stavke bez lokacije prebacuj alatom `alati/prebaci.py`, koji čuva ID, pa knjiške veze i radni ID-jevi ostaju tačni; pri spajanju ih preusmeri po [skilu provere](../../spomenici-provera/SKILL.md#veze-radnih-zapisa-i-knjiga). Istorijske rezultate i brojke upiši u [evidenciju lociranja](../../../../docs/LOCIRANJE_SPOMENIKA.md) ili [hrvatski odeljak](../../../../docs/LOCIRANJE_SPOMENIKA.md#hrvatska-rušenje-i-opstanak), a postupke dopunjavaj ovde.

@@ -124,7 +124,7 @@ Pre nastavka proveriti zapis po ID-ju, mestu i izvoru: kasnija obrada je mogla r
 | Vučitrn, Cazin, Kneževo, Rakovačke Bare; Bogomila, Lazar Jauković | Položaj pravog objekta. Cazinski spomenik nije kuća Nurije Pozderca; kuća je već približno locirana. | [Prioritetni prolaz](../data/provere/lociranje.json#lociranje-prioritet-2026-10-16), [odluke](../data/provere/odluke.json). |
 | Palisad, sporni zid u Bečeju, bista u Kamenici; Lipovac kod Aleksinca | Identitet obeležja i podudaranje sa knjiškim opisom. Za Lipovac nije potvrđena veza sa belegom na Obloj glavi. | [Treći paket](../data/provere/wiki.json#wiki-propusti-paket3-2026-10-19), [peti paket](../data/provere/wiki.json#wiki-propusti-paket5-2026-10-19). |
 | Vučje, školski spomenik u Jablanici, Bojčinska šuma, Botoš, Slatina kod Šapca | Preciznija tačka samog objekta; postojeći približni položaj ne predstavljati kao precizan. | [Nastavak](../data/provere/wiki.json#wiki-propusti-nastavak-2026-10-19), [treći](../data/provere/wiki.json#wiki-propusti-paket3-2026-10-19) i [četvrti paket](../data/provere/wiki.json#wiki-propusti-paket4-2026-10-19). |
-| Zaton kod Šibenika | Dokaz opstanka. | [Provera rušenja](PROVERA_RUSENJA_HRVATSKA.md). |
+| Zaton kod Šibenika | Dokaz opstanka. | [Hrvatska: rušenje i opstanak](#hrvatska-rušenje-i-opstanak). |
 | Borba/Obnova na Voždovcu i unutrašnje delo Nebojše Mitrića u Užicu | Zaseban identitet i položaj; Mitrićevo delo nije Anastasijevićev spomenik ispred muzeja. | [Hronologija skulpture](../data/provere/izvori.json#skulptura-hronologija-2026-10-18). |
 
 ## Korisne odluke o muzejima i složenim celinama
@@ -156,7 +156,7 @@ Dokazi: [Pula](../data/provere/lociranje.json#lociranje-muzej-pula-2026-10-18), 
 | Raniji ciljani prolazi | [Završni](../data/provere/lociranje.json#lociranje-zavrsni-prolaz-2026-10-16), [prioritetni](../data/provere/lociranje.json#lociranje-prioritet-2026-10-16), [muzeji](../data/provere/lociranje.json#lociranje-muzeji-2026-10-16), [Husino](../data/provere/lociranje.json#lociranje-husino-2026-10-16), [kompleksi](../data/provere/lociranje.json#lociranje-kompleksi-2026-10-16). |
 | Grobni zapisi | [Prvi](../data/provere/lociranje.json#lociranje-groblja-2026-10-18), [drugi](../data/provere/lociranje.json#lociranje-groblja-drugi-2026-10-18), [zbirni pregled](../data/provere/groblja.json#groblja-zbirni-pregled-2026-10-18), [preciziranje](../data/provere/groblja.json#groblja-preciziranje-2026-10-18), [gradovi i offline nastavci](../data/provere/groblja.json#groblja-gradovi-2026-10-18). |
 | Preskočeni Wiki parovi | [Prvi uzorak](../data/provere/wiki.json#wiki-propusti-2026-10-18), [nastavak](../data/provere/wiki.json#wiki-propusti-nastavak-2026-10-19), [treći](../data/provere/wiki.json#wiki-propusti-paket3-2026-10-19), [četvrti](../data/provere/wiki.json#wiki-propusti-paket4-2026-10-19), [peti](../data/provere/wiki.json#wiki-propusti-paket5-2026-10-19). |
-| Hrvatska, istorijsko rušenje | [Status i otvoreni slučajevi](PROVERA_RUSENJA_HRVATSKA.md); obustavljeni širi obim ne tumačiti kao aktivan nalog. |
+| Hrvatska, istorijsko rušenje | [Status i otvoreni slučajevi](#hrvatska-rušenje-i-opstanak); obustavljeni širi obim ne tumačiti kao aktivan nalog. |
 | Obrađenost izvora | [Izvori](IZVORI.md); potpuni prepis knjige nije potvrda svih tačaka ili opstanka. |
 
 Sedmi [Wiki paket od 20 kandidata](../data/provere/wiki.json#wiki-propusti-paket7-2026-10-19), 19.10.2026: precizirani Remete, Borčec, Dubrava, Hum na Sutli, Mazin i kneževska spomen-grobnica. Četiri kandidata su drugi ili već postojeći objekti, a deset ostaje odloženo; razlozi i tačke kandidata su u izveštaju. Stanja nisu menjana, naročito kod Mazina: potvrda istorijskog položaja nije potvrda obnove.
@@ -168,6 +168,20 @@ Deveti [Wiki paket od 20 kandidata](../data/provere/wiki.json#wiki-propusti-pake
 Deseti [Wiki paket od 20 kandidata](../data/provere/wiki.json#wiki-propusti-paket10-2026-10-19), 19.10.2026: potvrđene tačne lokacije Jermenovaca, Pršinog spomenika u Poljanici Bistranskoj, Kečaninovog spomenika u Sloboštini, Šurića i obeležja na Buku kod Svilajnca. Tri kandidata već imaju precizan marker, jedan je drugi objekat, jedanaest je odloženo. U Poljanici su ispravljeni mesto (Bistranska) i vrsta (statua), uz isti ID i sačuvano uklanjanje. Samoš ima nesaglasne brojke žrtava, Međa protivrečne tačke, a model Donje Lopušnje nema koordinate u opisu. Stanja i izvori nisu menjani.
 
 Dve uzastopne ture po 50 kandidata, [jedanaesta](../data/provere/wiki.json#wiki-propusti-paket11-2026-10-19) i [dvanaesta](../data/provere/wiki.json#wiki-propusti-paket12-2026-10-19), 19.10.2026: potvrđeno 13 tačnih lokacija (Banatski Dvor, Balinović, Dugo Polje kod Sokobanje, Kažani, Masurica, Zapađe, Gorina, Perast, Rsovac, Dećeve, Preslap, Bovan i Božica). Još 20 kandidata već ima precizan marker, 17 se odnosi na druge objekte, 48 je odloženo, a 2 nisu uparena. Upisane su samo tačke i uklonjena približnost; stanja, godine, autori i prvobitni izvori su sačuvani. Modeli bez GPS-a nisu precizna potvrda; za česmu u Brodu Wiki povezuje model Simenkovog mehaništa, a u Čukljeniku nije razrešena NOB namena. Darda ima staru tačku pre preseljenja; Padina mogući sudar podnožja biste i spomenika; Pugled nesaglasne tačke i moguće dve celine. Te slučajeve ponavljati samo uz novi konkretan dokaz. Ispravljeno kodiranje razmaka u pomoćnom slikovnom upitu; merodavni su ponovljeni odgovori, ne raniji lažni nedostajući naslovi.
+
+## Hrvatska: rušenje i opstanak
+
+- **Šira provera opstanka je obustavljena po nalogu korisnika**; nastavak traži novu odluku o obimu, uz procenu rada i tokena. Dokazi po spomeniku: [49 unosa](../data/provere/hrvatska.json#hrvatska-49-2026-10-16), [trijaža ostalih](../data/provere/hrvatska.json#hrvatska-ostali-2026-10-16), [70 povezanih](../data/provere/hrvatska.json#hrvatska-povezani-70-2026-10-16), [pilot 20](../data/provere/hrvatska.json#hrvatska-pilot-20-2026-10-16), [Hrženjakove preskočene stavke](../data/provere/hrvatska.json#hrzenjak-preskoceni-2026-10-20); ranija istorija je u gitu (nekadašnji `docs/PROVERA_RUSENJA_HRVATSKA.md`).
+- Hrženjak 2002 (`data/knjige/hrzenjak-2002.json`, veza u `uparivanje`): srušeni i uklonjeni bez tačne tačke su u arhivi; od 916 stavki preskočenih bez potvrde opstanka 134 iz jedinstvenih sela su na mapi kao približne, a 28 sa našim spomenikom do 1,5 km čeka proveru duplikata (`hrzenjak-preskoceni-priblizni-2026-10-20` u odlukama).
+- Ne ponavljati: rangiranje „ostatka 792“ (prvo potvrđen knjiški par ili dojava sa terena, ne nagađanje po imenu sela); izbor sela samo po jedinstvenom imenu bez provere države (spisak naselja nema državu).
+
+| Otvoren slučaj | Poslednje poznato | Šta nedostaje |
+|---|---|---|
+| Garešnica, `garesnica` | [Vest](https://www.garesnica.garesnica.hr/index.php/vijesti/2275-sa-skupstine-garesnickih-antifasista.html) 31.3.2025: premeštanje ploča kod Doma zdravlja, parkovski spomenik postaje pozornica. | Dokaz izvršenih radova i tačka ploča. |
+| Krapanj, `krapanj` | Knjiga: rušenje 1992; [vest 2008](https://sabh.hr/wp-content/uploads/2021/05/Glas_broj_58.pdf): oštećena petokraka. | Datiran dokaz baš tog obeliska. |
+| Borovo naselje, `djeletovci-spomenik-nob` | Povučen zbog pogrešne tačke; obeležje iz 1946. postoji, [OSM kandidat](https://www.openstreetmap.org/node/2988662336) nije saglasan sa ortofotom. | Nezavisna tačka postolja. |
+| Vinkovci, `vinkovci`; Županja, `zupanja-bivsi-spomenik-nob` | Povučeni kao nepotvrđeni; Vinkovci su mešali dva spomenika. | Kasniji dokaz postojanja i tačke. |
+| Zaton kod Šibenika | — | Dokaz opstanka. |
 
 ## Šta ne ponavljati bez novog osnova
 
