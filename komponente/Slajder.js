@@ -70,7 +70,10 @@ style.textContent = `
     cursor: pointer;
   }
 
+  /* dok slika ne stigne, vidi se tamno polje umesto zamenskog teksta, koji ostaje za citace ekrana */
   div img {
+    background: #29241e;
+    color: transparent;
     display: block;
     height: calc(var(--visina-slajdera) - 24px);
     min-width: 96px;

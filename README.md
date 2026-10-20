@@ -31,7 +31,6 @@ UI
 - za vrste spomenika negde u aplikaciji koristimo jedninu negde množinu. prebaci svuda na jedninu da probam.
 - Search label se menja nakon stizanja glavnog paketa spomenika. to je loše. treba staviti loader umesto labele dok ne stignu svi, ili čak onemogućiti pretragu.
 - mala Spomen-kuća, često zapuštena i bez tačne lokacije, ne treba da ima istu važnost kao muzej. osmisliti novu vrstu
-- dok se učitavaju slike za donju traku vidi se samo crni tekst na providnoj pozadini, što je bespotrebno i ružno
 - u info prozori možda podatak o autoru da stoji niže, ispod slike. proba da vidim
 
 REFAKTOR
