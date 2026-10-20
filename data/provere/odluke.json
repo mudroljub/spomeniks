@@ -13502,5 +13502,568 @@
         "adresa": "Town park"
       }
     }
+  },
+  {
+    "odluka": "knjiga-ocr-lazna-mesta-i-istoimena-sela-2026-10-20",
+    "datum": "2026-10-20",
+    "dokaz": "Vizuelno pregledani skenovi Popovic-Zuma, PDF strane 15,27,30,31,41,42,44,48,90,100,106,107,112,113,147,149,151-154. Poredjenje sa sacuvanim Wiki clancima i alatima/pretraga.py. Za tacno uparena kosovska sela korisceni centri iz alati/naselja_osm.json uz opstinu iz skena, sa priblizno:true. Kad uparivanje nije pouzdano, pogresna tacka u drugom kraju uklonjena i ceo zapis sacuvan bez lokacije.",
+    "ispravke": [
+      {
+        "id": "partnzan-de-spomenik-na-zajednickoj-grobnici",
+        "pdfStrana": 30,
+        "pre": {
+          "mesto": "Partnzan De",
+          "adresa": "Spomenik na zajedničkoj grobnici na mesnom groblju. Poginuli borci u borbi 27. oktobra 1941. godine preneti su i",
+          "opis": null
+        },
+        "posle": {
+          "mesto": "Majdanpek",
+          "adresa": "Na zajedničkoj grobnici na mesnom groblju",
+          "opis": {
+            "sh": "Obeležava zajedničku grobnicu boraca poginulih u borbi 27. oktobra 1941. godine, čiji su posmrtni ostaci ovde preneti.",
+            "en": "Marks the collective grave of fighters killed in battle on 27 October 1941, whose remains were transferred here."
+          }
+        }
+      },
+      {
+        "id": "partnzan-de-spomenik-ranku-krivicu",
+        "pdfStrana": 30,
+        "pre": {
+          "mesto": "Partnzan De",
+          "adresa": "Spomenik Ranku Kriviću, skojevskom aktivisti, poginulom na okupiranoj teritoriji aprila 1944. godine prilikom izvršavanja zadatka.",
+          "opis": null,
+          "posveta": "Ranku Kriviću"
+        },
+        "posle": {
+          "mesto": "Majdanpek",
+          "adresa": null,
+          "opis": {
+            "sh": "Posvećeno Ranku Kriviću, skojevskom aktivisti poginulom u aprilu 1944. godine prilikom izvršavanja zadatka na okupiranoj teritoriji.",
+            "en": "Dedicated to Ranko Krivić, a Communist Youth activist killed in April 1944 while carrying out a mission in occupied territory."
+          },
+          "posveta": null
+        }
+      },
+      {
+        "id": "partnzan-de-kameni-beleg",
+        "pdfStrana": 30,
+        "pre": {
+          "mesto": "Partnzan De",
+          "adresa": "Kameni beleg na mestu gde su četnici ubili dvojicu aktivista NOP-a.",
+          "opis": null
+        },
+        "posle": {
+          "mesto": "Majdanpek",
+          "adresa": null,
+          "opis": {
+            "sh": "Obeležava mesto gde su četnici ubili dvojicu aktivista Narodnooslobodilačkog pokreta.",
+            "en": "Marks the site where Chetniks killed two activists of the People’s Liberation Movement."
+          }
+        }
+      },
+      {
+        "id": "radnika-sela-brestovca-spomen-kuca",
+        "pdfStrana": 31,
+        "pre": {
+          "mesto": "Radnika Sela Brestovca",
+          "naziv": "Spomen-kuća",
+          "nazivEn": null,
+          "adresa": "Spomen-kuća u kojoj je 1907. godine rođen Stanko Paunović, narodni heroj.",
+          "posveta": null
+        },
+        "posle": {
+          "mesto": "Brestovac (Negotin)",
+          "naziv": "Rodna kuća Stanka Paunovića",
+          "nazivEn": "Birthplace of Stanko Paunović",
+          "adresa": null,
+          "posveta": [
+            "Q703200"
+          ]
+        }
+      },
+      {
+        "id": "radnika-sela-brestovca-bista-stanka-paunovica",
+        "pdfStrana": 31,
+        "pre": {
+          "mesto": "Radnika Sela Brestovca",
+          "adresa": "Bista Stanka Paunovića, narodnog heroja u železničkoj radiošcai koja nosi njegovo ime. Postavljena jula 1951. godine. Vajar Lj. Popović."
+        },
+        "posle": {
+          "mesto": "Brestovac (Negotin)",
+          "adresa": "U železničkoj radionici „Stanko Paunović“"
+        }
+      },
+      {
+        "id": "skole-spomen-pojata-na-stevanskim-livadama",
+        "pdfStrana": 31,
+        "pre": {
+          "mesto": "Skole",
+          "adresa": "Spomen-pojata na Stevanskim livadama, mestu partizanskog logora, gde su jake neprijateljske jedinice okružile septembra 1941. godine delove Krajinskog odreda. U ",
+          "opis": null
+        },
+        "posle": {
+          "mesto": "Sikole",
+          "adresa": "Stevanske livade, mesto partizanskog logora",
+          "opis": {
+            "sh": "Obeležava partizanski logor u kojem su neprijateljske jedinice u septembru 1941. godine opkolile delove Krajinskog odreda; poginuli su Ljuba Nešić, politički komesar odreda, i deset partizana.",
+            "en": "Marks the Partisan camp where enemy forces surrounded units of the Krajina Detachment in September 1941; the detachment’s political commissar Ljuba Nešić and ten Partisans were killed."
+          }
+        }
+      },
+      {
+        "id": "ssarinska-banja-bista-zejnela-ajdinija-tose",
+        "pdfStrana": 42,
+        "pre": {
+          "mesto": "Sšarinska Banja",
+          "adresa": "Bista Zejnela Ajdinija-Toše, narodnog heroja, U parku. Postavljena 1956. godine. Vajar D. Nikolić. Zejnel Ajdini, pripadnik naprednog studentskog pokreta, učesni"
+        },
+        "posle": {
+          "mesto": "Sijarinska Banja",
+          "adresa": "U parku"
+        }
+      },
+      {
+        "id": "drzava-spomenik-palim-1941-1945",
+        "pdfStrana": 42,
+        "pre": {
+          "mesto": "Država",
+          "adresa": "Spomenik palim 1941-1945. U borbama 1944. godine poginulo je deset boraca Dikave.",
+          "opis": null,
+          "kandidati": null
+        },
+        "posle": {
+          "mesto": "Dikava",
+          "adresa": null,
+          "opis": {
+            "sh": "Posvećeno desetorici boraca iz Dikave poginulih u borbama 1944. godine.",
+            "en": "Dedicated to ten fighters from Dikava killed in battles in 1944."
+          },
+          "kandidati": [
+            {
+              "lat": 42.747972,
+              "lng": 22.157806,
+              "izvor": "https://www.xiwl.com/w/index.php/Dikava_-_Spomenik_NOB",
+              "opis": "Mogući isti spomenik iz 1966; identitet proveriti prema deset imena boraca iz knjige pre spajanja."
+            }
+          ]
+        }
+      },
+      {
+        "id": "darkovacko-livace-kameni-beleg",
+        "pdfStrana": 44,
+        "pre": {
+          "mesto": "Darkovačko Livaće",
+          "adresa": "Kameni beleg na mestu zločina bugarske okupatorske vojske. Ovde u šumovitom kršu našli su sklonište partizanski ranjenici, bugarska okupatorska vojska ušla im je",
+          "opis": null
+        },
+        "posle": {
+          "mesto": "Darkovačko Livađe",
+          "adresa": null,
+          "opis": {
+            "sh": "Obeležava mesto gde je bugarska okupatorska vojska u maju 1944. godine ubila šezdeset partizanskih ranjenika u njihovom skloništu.",
+            "en": "Marks the site where Bulgarian occupation forces killed sixty wounded Partisans in their shelter in May 1944."
+          }
+        }
+      },
+      {
+        "id": "rivni-bista-manojla-smiljanica",
+        "pdfStrana": 100,
+        "pre": {
+          "mesto": "Rivni",
+          "adresa": "Bista Manojla Smiljanića ispred zgrade osnovne škole koja nosi njegovo ime. Podignuta 1971. godine. Vajar M. Vergović. Manojlo Smiljanić, aktivista studentskog pok"
+        },
+        "posle": {
+          "mesto": "Ravni",
+          "adresa": "Ispred zgrade osnovne škole „Manojlo Smiljanić“"
+        }
+      },
+      {
+        "id": "gaje-vi-spomen-skola-posvecena-uspomeni-na-i-sumad",
+        "pdfStrana": 113,
+        "pre": {
+          "mesto": "Gaje Vi",
+          "adresa": "Spomen-škola posvećena uspomeni na I šumadijski partizanski odred."
+        },
+        "posle": {
+          "mesto": "Gornja Trešnjevica",
+          "adresa": null
+        }
+      },
+      {
+        "id": "majdanpek-bista",
+        "pdfStrana": 30,
+        "pre": {
+          "opis": {
+            "sh": "Bista u dvorištu škole koja je nosila njegovo ime, postavljena 1971. godine.",
+            "en": "A bust installed in 1971 in the courtyard of the school that bore his name."
+          }
+        },
+        "posle": {
+          "opis": {
+            "sh": "Bista u zgradi osnovne škole koja je nosila njegovo ime, postavljena 1971. godine.",
+            "en": "A bust installed in 1971 inside the primary school that bore his name."
+          }
+        }
+      },
+      {
+        "id": "barajevo-spomen-cesma",
+        "pdfStrana": 15,
+        "pre": {
+          "naziv": "Spomen-česma",
+          "nazivEn": null,
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomen-česma u Karauli",
+          "nazivEn": "Karaula Memorial Fountain",
+          "opis": {
+            "sh": "Česma iz 1951. godine u zaseoku Karaula nosi imena osmorice boraca poginulih 1944. godine.",
+            "en": "The fountain erected in 1951 in the hamlet of Karaula lists eight fighters killed in 1944."
+          }
+        }
+      },
+      {
+        "id": "barajevo-spomen-cesma-2",
+        "pdfStrana": 15,
+        "pre": {
+          "naziv": "Spomen-česma",
+          "nazivEn": null,
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomen-česma Bećirka",
+          "nazivEn": "Bećirka Memorial Fountain",
+          "opis": {
+            "sh": "Česma iz 1951. godine na mestu Bećirka u zaseoku Karaula nosi imena palih ratnika 1912-1918 i sedmorice boraca palih u Narodnooslobodilačkom ratu.",
+            "en": "The fountain erected in 1951 at Bećirka in the hamlet of Karaula lists fallen soldiers of 1912-1918 and seven fighters killed in the People’s Liberation War."
+          }
+        }
+      },
+      {
+        "id": "barajevo-spomen-cesma-behirka",
+        "pdfStrana": 15,
+        "pre": {
+          "naziv": "Spomen-česma Behirka"
+        },
+        "posle": {
+          "naziv": "Spomen-česma Bećirka"
+        }
+      },
+      {
+        "id": "belosevac-bista-zejnela-ajdinija",
+        "pdfStrana": 147,
+        "opstinaIPolozaj": "Opština Priština, park osnovne škole „Zejnel Ajdini“",
+        "pre": {
+          "lat": 44.26655,
+          "lng": 19.94625
+        },
+        "posle": null,
+        "ishod": "sacuvano-bez-lokacije-do-pouzdanog-uparivanja"
+      },
+      {
+        "id": "glogovac-bista-zejnela-salihua",
+        "pdfStrana": 149,
+        "opstinaIPolozaj": "Glogovac na Kosovu, ispred osnovne škole „Zejnel Salihu“",
+        "pre": {
+          "lat": 44.85897,
+          "lng": 19.41544
+        },
+        "posle": null,
+        "ishod": "sacuvano-bez-lokacije-do-pouzdanog-uparivanja"
+      },
+      {
+        "id": "novo-selo-spomenik-palim-1941-1945",
+        "pdfStrana": 149,
+        "opstinaIPolozaj": "Novo Selo u opštini Glogovac, u centru naselja",
+        "pre": {
+          "lat": 44.67444,
+          "lng": 19.34417
+        },
+        "posle": null,
+        "ishod": "sacuvano-bez-lokacije-do-pouzdanog-uparivanja"
+      },
+      {
+        "id": "vrelo-bista-husnije-zajmija",
+        "pdfStrana": 151,
+        "opstinaIPolozaj": "Vrelo u opštini Istok, ispred osnovne škole „Husni Zajmi“",
+        "pre": {
+          "lat": 44.5058,
+          "lng": 20.02732
+        },
+        "posle": {
+          "lat": 42.76962,
+          "lng": 20.40545
+        },
+        "ishod": "ispravljena-priblizna-tacka-sela"
+      },
+      {
+        "id": "velja-glava-spomen-cesma-na-kitki",
+        "pdfStrana": 151,
+        "opstinaIPolozaj": "Kitka kod Velje Glave, opština Kosovska Kamenica",
+        "pre": {
+          "lat": 43.49501,
+          "lng": 21.02993
+        },
+        "posle": null,
+        "ishod": "sacuvano-bez-lokacije-do-pouzdanog-uparivanja"
+      },
+      {
+        "id": "svirce-spomen-obelezje",
+        "pdfStrana": 151,
+        "opstinaIPolozaj": "Mesto Kapija kod Svirca, opština Kosovska Kamenica",
+        "pre": {
+          "lat": 42.97877,
+          "lng": 21.86269
+        },
+        "posle": null,
+        "ishod": "sacuvano-bez-lokacije-do-pouzdanog-uparivanja"
+      },
+      {
+        "id": "svirce-spomen-cesma",
+        "pdfStrana": 151,
+        "opstinaIPolozaj": "Kitka u Veljoj Glavi, opština Kosovska Kamenica",
+        "pre": {
+          "lat": 42.97877,
+          "lng": 21.86269
+        },
+        "posle": null,
+        "ishod": "sacuvano-bez-lokacije-do-pouzdanog-uparivanja"
+      },
+      {
+        "id": "rudine-spomen-kamen-obelezava-mesto-borbi-1944",
+        "pdfStrana": 152,
+        "opstinaIPolozaj": "Rudine, u knjizi pod opštinom Kosovska Mitrovica",
+        "pre": {
+          "lat": 43.71958,
+          "lng": 19.76106
+        },
+        "posle": {
+          "lat": 43.01771,
+          "lng": 20.74392
+        },
+        "ishod": "ispravljena-priblizna-tacka-sela"
+      },
+      {
+        "id": "vrelo-bista-stanka-burica",
+        "pdfStrana": 152,
+        "opstinaIPolozaj": "Vrelo u opštini Lipljan, u osnovnoj školi „Stanko Burić“",
+        "pre": {
+          "lat": 44.5058,
+          "lng": 20.02732
+        },
+        "posle": null,
+        "ishod": "sacuvano-bez-lokacije-do-pouzdanog-uparivanja"
+      },
+      {
+        "id": "vrelo-kameni-beleg",
+        "pdfStrana": 153,
+        "opstinaIPolozaj": "Vrelo u opštini Lipljan, mesto pogibije Stanka Burića i Mare Mirjačić",
+        "pre": {
+          "lat": 44.5058,
+          "lng": 20.02732
+        },
+        "posle": null,
+        "ishod": "sacuvano-bez-lokacije-do-pouzdanog-uparivanja"
+      },
+      {
+        "id": "sedlare-bista-idriz-ajete-u-osnovnoj-skoli",
+        "pdfStrana": 153,
+        "opstinaIPolozaj": "Sedlare u opštini Lipljan, osnovna škola „Idriz Ajeta“",
+        "pre": {
+          "lat": 44.19851,
+          "lng": 21.29386
+        },
+        "posle": {
+          "lat": 42.50386,
+          "lng": 20.91815
+        },
+        "ishod": "ispravljena-priblizna-tacka-sela"
+      },
+      {
+        "id": "ratkovac-spomenik-peki-tepavcevicu",
+        "pdfStrana": 153,
+        "opstinaIPolozaj": "Ratkovac u opštini Orahovac, park osnovne škole „Peko Tepavčević“",
+        "pre": {
+          "lat": 44.33554,
+          "lng": 20.09849
+        },
+        "posle": {
+          "lat": 42.41112,
+          "lng": 20.53852
+        },
+        "ishod": "ispravljena-priblizna-tacka-sela"
+      },
+      {
+        "id": "brestovik-spomenik-zrtvama-fasizma-2",
+        "pdfStrana": 154,
+        "opstinaIPolozaj": "Brestovik u opštini Peć",
+        "pre": {
+          "lat": 44.64485,
+          "lng": 20.76402
+        },
+        "posle": {
+          "lat": 42.70176,
+          "lng": 20.30246
+        },
+        "ishod": "ispravljena-priblizna-tacka-sela"
+      },
+      {
+        "id": "crni-vrh-spomen-obelezje",
+        "pdfStrana": 154,
+        "opstinaIPolozaj": "Crni Vrh u opštini Peć, kod osnovne škole",
+        "pre": {
+          "lat": 42.50816,
+          "lng": 22.16174
+        },
+        "posle": null,
+        "ishod": "sacuvano-bez-lokacije-do-pouzdanog-uparivanja"
+      },
+      {
+        "id": "grabovica-spomenik-palim-borcima",
+        "pre": {
+          "opis": null
+        },
+        "posle": {
+          "opis": {
+            "sh": "Posvećeno 118 ratnika palih u ratovima 1912-1918, sedamnaestorici boraca i devet žrtava fašizma iz Grabovice u Drugom svetskom ratu. Spomenik je otkriven 7. jula 1976. godine.",
+            "en": "Dedicated to 118 soldiers killed in the wars of 1912-1918, seventeen fighters and nine victims of fascism from Grabovica in the Second World War. The monument was unveiled on 7 July 1976."
+          }
+        }
+      },
+      {
+        "id": "sikole-spomenik-palim-borcima-i-zrtvama-fasizma",
+        "pre": {
+          "opis": null
+        },
+        "posle": {
+          "opis": {
+            "sh": "Posvećeno dvadeset pet boraca i žrtava fašističkog terora iz Sikola, palih 1941-1945. godine.",
+            "en": "Dedicated to twenty-five fighters and victims of fascist terror from Sikole who died in 1941-1945."
+          }
+        }
+      },
+      {
+        "id": "ravni-spomen-grobnica",
+        "pre": {
+          "opis": null
+        },
+        "posle": {
+          "opis": {
+            "sh": "U zajedničkoj grobnici sahranjeni su posmrtni ostaci žrtava fašizma i boraca poginulih u borbama na području Ravni u aprilu 1944. godine.",
+            "en": "The collective grave contains the remains of victims of fascism and fighters killed in battles around Ravni in April 1944."
+          }
+        }
+      },
+      {
+        "id": "lozovik-spomenik-palim-borcima",
+        "pre": {
+          "opis": null
+        },
+        "posle": {
+          "opis": {
+            "sh": "Posvećeno palim borcima Lozovika i crvenoarmejcima poginulim na području naselja 1944. godine. Spomenik je otkriven u avgustu 1945; iz sela je poginulo deset meštana u partizanskim jedinicama, a na ovom području 68 boraca NOVJ.",
+            "en": "Dedicated to fallen fighters from Lozovik and Red Army soldiers killed in the village area in 1944. The monument was unveiled in August 1945; ten villagers died in Partisan units and 68 Yugoslav Partisan fighters were killed in the area."
+          }
+        }
+      }
+    ],
+    "spajanja": [
+      {
+        "zadrzaniId": "grabovica-spomenik-palim-borcima",
+        "uklonjeniZapis": {
+          "id": "nasovne-organizacije-spomenik-palim-u-oslobodilack",
+          "mesto": "Nasovne Organizacije",
+          "naziv": "Spomenik palim u oslobodilačkim ratovima",
+          "nazivEn": "Liberation Wars Fallen Monument",
+          "opis": {
+            "sh": "Posvećeno palima u oslobodilačkim ratovima 1912-1918 i 1941-1945.",
+            "en": "Dedicated to those who fell in the liberation wars of 1912-1918 and 1941-1945."
+          },
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia",
+          "adresa": "Spomenik palim u oslobodilačkim ratovima 1912-1918. i 1941-1945. Otkriven 7. jula 1976. godine. U prvom svetskom ratu poginulo je sto osamnaest ratnika, za vrem"
+        },
+        "izvoriPre": {
+          "grabovica-spomenik-palim-borcima": "https://www.xiwl.com/w/index.php/Grabovica_%28Kladovo%29_-_Spomenik_Palim_Borcima",
+          "nasovne-organizacije-spomenik-palim-u-oslobodilack": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=27"
+        },
+        "potvrdaWiki": "Grabovica (Kladovo) - Spomenik Palim Borcima",
+        "dokaz": "PDF 27, str. 53: naslov Grabovica, 118 ratnika, 17 boraca i devet zrtava; Wiki izricito navodi iste brojeve i 7.7.1976. Fotografisani natpis Masovne organizacije grada Kladova nije mesto."
+      },
+      {
+        "zadrzaniId": "sikole-spomenik-palim-borcima-i-zrtvama-fasizma",
+        "uklonjeniZapis": {
+          "id": "skole-spomenik-palim-borcima-i-zrtvama-fasistickog",
+          "mesto": "Skole",
+          "naziv": "Spomenik NOB",
+          "nazivEn": "WWII memorial",
+          "opis": {
+            "sh": "Posvećeno palim borcima i žrtvama fašističkog terora 1941-1945.",
+            "en": "Dedicated to fallen fighters and victims of fascist terror in 1941-1945."
+          },
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia",
+          "adresa": "Spomenik palim borcima i žrtvama fašističkog terora 1941-1945. U borbi i pod fašističkim terorom palo je dvadeset pet meštana."
+        },
+        "izvoriPre": {
+          "sikole-spomenik-palim-borcima-i-zrtvama-fasizma": "https://www.xiwl.com/w/index.php/Sikole_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora",
+          "skole-spomenik-palim-borcima-i-zrtvama-fasistickog": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=31"
+        },
+        "potvrdaWiki": "Sikole - Spomenik Palim Borcima i Žrtvama Fašističkog Terora",
+        "dokaz": "PDF 31, str. 61: Sikole, 25 palih boraca i zrtava; Wiki vezuje bas taj opis sa 25 imena za locirani kameni spomenik u selu. Ne spaja se sa spomen-pojatom na Stevanskim livadama."
+      },
+      {
+        "zadrzaniId": "ravni-spomen-grobnica",
+        "uklonjeniZapis": {
+          "id": "rivni-spomenik-i-zajednicka-grobnica",
+          "mesto": "Rivni",
+          "naziv": "Spomenik i zajednička grobnica",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia",
+          "adresa": "Spomenik i zajednička grobnica. Ovde su sahranjeni posmrtni ostaci žrtava fašizma i poginulih boraca u borbama na tlu sela aprila 1944. godine."
+        },
+        "izvoriPre": {
+          "ravni-spomen-grobnica": "https://www.xiwl.com/w/index.php/Ravni_%28U%C5%BEice%29_-_Spomen_Grobnica",
+          "rivni-spomenik-i-zajednicka-grobnica": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=100"
+        },
+        "potvrdaWiki": "Ravni (Užice) - Spomen Grobnica",
+        "dokaz": "PDF 100, str. 198: Ravni, zrtve i borci poginuli aprila 1944; Wiki izricito citira ovaj zapis za grobnicu pored Tito Borovi parka i navodi da je Rivni pogresan prepis."
+      },
+      {
+        "zadrzaniId": "lozovik-spomenik-palim-borcima",
+        "uklonjeniZapis": {
+          "id": "milosevac-spomenik-palim-borcima-lozovika-i-crveno",
+          "koordinate": {
+            "lat": 44.44082,
+            "lng": 21.11039
+          },
+          "priblizno": true,
+          "mesto": "Miloševac",
+          "naziv": "Spomenik borcima Lozovika i crvenoarmejcima",
+          "nazivEn": "Lozovik Fighters and Red Army Soldiers Monument",
+          "opis": {
+            "sh": "Posvećeno palim borcima Lozovika i crvenoarmejcima poginulim u borbi na području naselja.",
+            "en": "Dedicated to fallen fighters from Lozovik and Red Army soldiers killed in fighting in the settlement area."
+          },
+          "godina": "1945",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        },
+        "izvoriPre": {
+          "lozovik-spomenik-palim-borcima": "https://www.xiwl.com/w/index.php/Lozovik_-_Spomenik_Palim_Borcima",
+          "milosevac-spomenik-palim-borcima-lozovika-i-crveno": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=90"
+        },
+        "potvrdaWiki": "Lozovik - Spomenik Palim Borcima",
+        "dokaz": "PDF 90, str. 179: odeljak Lozovik, avgust 1945, deset mestana i 68 boraca NOVJ, uz crvenoarmejce. Wiki izricito iste brojeve i stranu vezuje za locirani spomenik kod skole. Milosevac je samo potpis susedne fotografije."
+      }
+    ],
+    "preusmereneVeze": [],
+    "neSpajatiBezNovogDokaza": {
+      "Barajevo": "Wiki za Becirku izricito kaze Unclear if this is the right object; moguce dve razlicite cesme u Karauli. Naslovi razjasnjeni, tacni marker nije spojen sa kataloskim bez fotografije/natpisa.",
+      "Sikole": "Spomen-pojata i spomen-dom na Stevanskim livadama mogu biti razliciti delovi ili faze; nije dovoljan sam toponim.",
+      "Dikava": "Ispravljeno lazno mesto Drzava; locirani spomenik iz 1966 je kandidat, dok se ne potvrdi deset imena iz knjige.",
+      "Vrelo (Lipljan)": "Postoje dva sela Vrelo (Golesko i kod Gadimlja). Wiki potvrdu naziva pretpostavkom, pa su dva unosa sacuvana bez pogresne tacke kod Uba."
+    },
+    "ostalaPregledanaMesta": "Vladaje, Sokolje-Goc, Nova Topola i Velika Zupa zaselak Staro postoje u originalu; nisu ispravljana samo zato sto zvuce neobicno."
   }
 ]
