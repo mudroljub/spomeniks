@@ -6,7 +6,7 @@ import {naziviStanja, nazivSpomenika, malaSlika, navigacijaUrl} from '../utils/h
 import {t, jezik, nazivDrzave} from '../utils/jezik.js'
 import {dajRutu, dajNaziv, dajWiki, dajTuruId, postaviRutu, izaberiTuru, ukloniIzRute, pomeri, promeneRute} from '../utils/ruta.js'
 import {sastaviTure} from '../utils/ture.js'
-import {nivoiVaznosti, razresiPrag} from '../utils/vaznost.js'
+import {nivoiVaznosti, vaznostVrste, razresiPrag} from '../utils/vaznost.js'
 import {ucitajIzSkladista, sacuvajUSkladiste} from '../utils/skladiste.js'
 
 const boja = '#822323'
@@ -430,9 +430,20 @@ const najkraciRedosled = (polaziste, tacke) => {
 const prevedi = naziv => naziv?.[jezik] ?? naziv
 
 // svaka sledeca vrsta se dodaje prethodnim, pa rimski broj pokazuje nivo prikaza
-const rimski = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX']
+const rimskeCifre = /** @type {[number, string][]} */ ([[1000, 'M'], [900, 'CM'], [500, 'D'], [400, 'CD'], [100, 'C'], [90, 'XC'], [50, 'L'], [40, 'XL'], [10, 'X'], [9, 'IX'], [5, 'V'], [4, 'IV'], [1, 'I']])
+/** @param {number} broj */
+const rimskiBroj = broj => {
+  let oznaka = ''
+  for (const [vrednost, znak] of rimskeCifre) {
+    while (broj >= vrednost) {
+      oznaka += znak
+      broj -= vrednost
+    }
+  }
+  return oznaka
+}
 const imePraga = vrsta => t(vrsta === 'istaknut' ? 'istaknutiSpomenici' : vrsta)
-const nazivPraga = vrsta => `${imePraga(vrsta)} <span class="nivo">${rimski[nivoiVaznosti.indexOf(vrsta)]}</span>`
+const nazivPraga = vrsta => `${imePraga(vrsta)} <span class="nivo">${rimskiBroj(vaznostVrste[vrsta])}</span>`
 
 const otvoriStanicu = marker => mapa.fire('izbor', {marker, izRute: true})
 

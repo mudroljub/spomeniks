@@ -6,8 +6,9 @@ a sacuvaj_bazu sam raspoređuje zapise; izvori oba spiska čuvaju se u data/izvo
 a izvori stanja u data/izvori-stanja.json, povezani ID-jem spomenika.
 Provere lokacije i opstanka čuvaju se u data/provere-spomenika.json, takođe po ID-ju.
 Tip polja je u data/tipovi.d.ts; novo polje se dodaje i u REDOSLED, inače ga integritet.py prijavi."""
-import errno, hashlib, json, os, re, tempfile, threading, time
+import errno, hashlib, json, os, subprocess, tempfile, threading, time
 from contextlib import contextmanager
+from pathlib import Path
 
 _repo = os.path.normcase(os.path.realpath(os.path.join(os.path.dirname(__file__), '..')))
 BRAVA_PODATAKA = os.path.join(tempfile.gettempdir(), 'spomenici-' + hashlib.sha256(_repo.encode()).hexdigest()[:20] + '.lock')
@@ -74,9 +75,17 @@ IZVORI_STANJA = 'data/izvori-stanja.json'
 PROVERE_SPOMENIKA = 'data/provere-spomenika.json'
 POLJA_PROVERE = ('proveraLokacije', 'proveraOpstanka')
 ZUM_ISTAKNUTIH = 9
-# zum na kome se vrsta pojavljuje je samo u utils/vaznost.js, koji koristi i aplikacija
-_vaznost = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'utils', 'vaznost.js'), encoding='utf-8').read()
-ZUM_VRSTE = {k.strip("'"): int(v) for k, v in re.findall(r"('[\w-]+'|\w+):\s*(\d+)", re.search(r'zumVrste = \{([^}]*)\}', _vaznost).group(1))}
+
+
+def _ucitaj_zumove(putanja):
+    """Učitaj isti izračun kao aplikacija, nezavisno od sintakse JS konfiguracije."""
+    kod = 'const {zumVrste} = await import(process.argv[1]); process.stdout.write(JSON.stringify(zumVrste));'
+    rezultat = subprocess.run(['node', '--input-type=module', '--eval', kod, Path(putanja).resolve().as_uri()],
+                              check=True, capture_output=True, encoding='utf-8', timeout=10)
+    return json.loads(rezultat.stdout)
+
+
+ZUM_VRSTE = _ucitaj_zumove(Path(__file__).resolve().parent.parent / 'utils' / 'vaznost.js')
 
 
 def poredaj(zapis):

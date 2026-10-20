@@ -1,21 +1,40 @@
 // @ts-check
-// Redosled vrsta odredjuje vaznost; vrste mogu postati vidljive na istom zumu mape.
-export const zumVrste = {'spomen-park': 8, muzej: 8, spomenik: 9, 'spomen-groblje': 10, statua: 9, bista: 10, 'spomen-obelezje': 11, 'spomen-grob': 12, 'spomen-ploca': 12}
-export const vrstePoVaznosti = /** @type {import('../data/tipovi').Vrsta[]} */ (Object.keys(zumVrste))
-/** @type {(import('../data/tipovi').Vrsta | 'istaknut')[]} */
-export const nivoiVaznosti = ['istaknut', ...vrstePoVaznosti]
-export const vaznostVrste = Object.fromEntries(nivoiVaznosti.map((vrsta, i) => [vrsta, i]))
+// Izvorna važnost: manji broj znači viši prioritet svuda u interfejsu.
+export const vaznostVrste = {
+  istaknut: 1,
+  'spomen-park': 2,
+  muzej: 3,
+  spomenik: 4,
+  'spomen-groblje': 5,
+  statua: 6,
+  bista: 7,
+  'spomen-obelezje': 8,
+  groblje: 9,
+  'spomen-ploca': 10,
+}
+
+// Zum se dodeljuje nivou važnosti, a vrste ga nasleđuju preko svojih prioriteta.
+export const zumPoVaznosti = {1: 0, 2: 8, 3: 8, 4: 9, 5: 9, 6: 9, 7: 10, 8: 11, 9: 12, 10: 12}
+const poslednjiNivoZuma = Math.max(...Object.keys(zumPoVaznosti).map(Number))
+/** @param {number} vaznost */
+const zumVaznosti = vaznost => zumPoVaznosti[Math.min(vaznost, poslednjiNivoZuma)]
+export const nivoiVaznosti = /** @type {(import('../data/tipovi').Vrsta | 'istaknut')[]} */ (Object.keys(vaznostVrste).sort((a, b) => vaznostVrste[a] - vaznostVrste[b]))
+export const vrstePoVaznosti = /** @type {import('../data/tipovi').Vrsta[]} */ (nivoiVaznosti.filter(vrsta => vrsta !== 'istaknut'))
+export const zumVrste = Object.fromEntries(vrstePoVaznosti.map(vrsta => [vrsta, zumVaznosti(vaznostVrste[vrsta])]))
+const najnizaVaznost = Math.max(...Object.values(vaznostVrste))
 /** @param {Pick<import('../data/tipovi').Spomenik, 'vrsta' | 'istaknut'>} spomenik */
 export const vaznostSpomenika = spomenik => vaznostVrste[spomenik.istaknut ? 'istaknut' : spomenik.vrsta]
+/** @param {Pick<import('../data/tipovi').Spomenik, 'vrsta' | 'istaknut' | 'priblizno'>} spomenik */
+export const slojSpomenika = spomenik => spomenik.priblizno ? -10000 : (najnizaVaznost - vaznostSpomenika(spomenik)) * 1000
 /** @param {Pick<import('../data/tipovi').Spomenik, 'vrsta' | 'istaknut'>} spomenik */
-export const najmanjiZum = spomenik => spomenik.istaknut ? 0 : zumVrste[spomenik.vrsta]
+export const najmanjiZum = spomenik => zumVaznosti(vaznostSpomenika(spomenik))
 /** @param {Pick<import('../data/tipovi').Spomenik, 'vrsta' | 'istaknut'>} spomenik */
 export const pripadaVrsti = (spomenik, izbor) => izbor === 'istaknut' ? spomenik.istaknut === true : spomenik.vrsta === izbor
 export const podrazumevaniPrag = 'statua'
 
 // Stari izbor je bio broj zuma: sacuvaj ukljucenost cele tada izabrane grupe.
 export const razresiPrag = vrednost => {
-  const stariNazivi = {lokalni: 'spomen-obelezje', kompleks: 'spomen-park', groblje: 'spomen-groblje', ploca: 'spomen-ploca'}
+  const stariNazivi = {lokalni: 'spomen-obelezje', kompleks: 'spomen-park', 'spomen-grob': 'groblje', ploca: 'spomen-ploca'}
   const stariZumovi = {0: 'istaknut', 8: 'muzej', 9: 'statua', 10: 'bista', 11: 'spomen-obelezje', 12: 'spomen-ploca'}
   if (Object.hasOwn(stariNazivi, vrednost)) return stariNazivi[vrednost]
   if (nivoiVaznosti.includes(vrednost)) return vrednost

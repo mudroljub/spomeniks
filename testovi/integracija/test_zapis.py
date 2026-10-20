@@ -5,6 +5,7 @@ from pathlib import Path
 import subprocess
 import sys
 import tempfile
+import re
 import unittest
 from unittest.mock import patch
 
@@ -13,6 +14,29 @@ import zapis
 
 
 class ZapisTest(unittest.TestCase):
+    def test_promena_vaznosti_menja_zum_i_podelu_fajlova(self):
+        put = Path(zapis.__file__).resolve().parent.parent / 'utils' / 'vaznost.js'
+        kod = put.read_text(encoding='utf-8')
+        kod = re.sub(r"('spomen-park':\s*)2\b", r'\g<1>9', kod)
+        kod = re.sub(r'(groblje:\s*)9\b', r'\g<1>2', kod)
+        modul = self.folder / 'prioriteti.mjs'
+        modul.write_text(kod, encoding='utf-8')
+        zumovi = zapis._ucitaj_zumove(modul)
+        self.assertEqual(zumovi['groblje'], 8)
+        self.assertEqual(zumovi['spomen-park'], 12)
+        with patch.object(zapis, 'ZUM_VRSTE', zumovi):
+            self.assertTrue(zapis.u_istaknutima({'vrsta': 'groblje'}))
+            self.assertFalse(zapis.u_istaknutima({'vrsta': 'spomen-park'}))
+            self.assertTrue(zapis.u_istaknutima({'vrsta': 'spomen-park', 'istaknut': True}))
+
+    def test_formatiranje_js_konfiguracije_ne_menja_zumove(self):
+        put = Path(zapis.__file__).resolve().parent.parent / 'utils' / 'vaznost.js'
+        kod = put.read_text(encoding='utf-8').replace("'", '"')
+        kod = kod.replace('export const vaznostVrste = {', 'export const vaznostVrste =\n{')
+        modul = self.folder / 'dvostruki-navodnici.mjs'
+        modul.write_text(kod, encoding='utf-8')
+        self.assertEqual(zapis._ucitaj_zumove(modul), zapis.ZUM_VRSTE)
+
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
         self.addCleanup(self.tmp.cleanup)
