@@ -1161,6 +1161,64 @@
         "lat": 45.8272154,
         "lng": 15.9772469
       }
+    },
+    {
+      "id": "uzice-mozaik-spomenica-1941",
+      "vrsta": "spomen-obelezje",
+      "mesto": "Užice",
+      "adresa": "Narodno pozorište, Trg partizana",
+      "osmNaziv": "Трг партизана",
+      "osm": [
+        "w165019575"
+      ],
+      "koordinate": {
+        "lat": 43.8567714,
+        "lng": 19.8402617
+      },
+      "priblizno": true,
+      "prethodniZapis": {
+        "id": "uzice-mozaik-spomenica-1941",
+        "mesto": "Užice",
+        "naziv": {
+          "sh": "Mozaik „Spomenica 1941“"
+        },
+        "autor": "Marinko Benzon",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia",
+        "adresa": "Narodno pozorište, Trg partizana"
+      },
+      "dokaz": "Adresa iz izvora: Narodno pozorište, Trg partizana. Imenovana OSM površina trga je približna tačka; kolovoz istog imena nije korišćen. Tačan zid sa mozaikom nije potvrđen.",
+      "obliznjiZapisi": []
+    },
+    {
+      "id": "budva-bista-marka-f-stanisica",
+      "vrsta": "bista",
+      "mesto": "Budva",
+      "adresa": "gradski park",
+      "osmNaziv": "Gradski Park",
+      "osm": [
+        "w1167985084"
+      ],
+      "koordinate": {
+        "lat": 42.2799188,
+        "lng": 18.8372569
+      },
+      "priblizno": true,
+      "prethodniZapis": {
+        "id": "budva-bista-marka-f-stanisica",
+        "mesto": "Budva",
+        "naziv": {
+          "sh": "Bista Marka F. Stanišića"
+        },
+        "godina": "1985",
+        "autor": "Stevan Luketić",
+        "vrsta": "bista",
+        "drzava": "Montenegro",
+        "adresa": "gradski park",
+        "posveta": "Marka F. Stanišića"
+      },
+      "dokaz": "Adresa iz izvora: gradski park. Jedini imenovani Gradski Park u preuzetom skupu oko Budve; tačka je centar parka, ne podnožje biste.",
+      "obliznjiZapisi": []
     }
   ],
   "pridruzenoGrupi": [
@@ -1207,7 +1265,20 @@
     }
   ],
   "ogranicenja": [
-    "Kućni broj nije korišćen; tačka ulice nije tačka spomenika.",
-    "Srbija, Crna Gora i Makedonija nisu obrađene: Overpass je bio zauzet."
-  ]
+    "Kućni broj nije korišćen; tačka ulice, trga ili parka nije tačka spomenika.",
+    "Makedonija (Prilep) nije obrađena: preuzimanje nije završeno. Srbija i Crna Gora obrađene su u nastavku."
+  ],
+  "nastavak": {
+    "datum": "2026-10-20",
+    "preuzeto": {
+      "RS": 21662,
+      "ME": 853
+    },
+    "novihPribliznihTacaka": 2,
+    "novihPreciznihTacaka": 0,
+    "postupak": "Ponovljeno ranije pripremljeno zbirno preuzimanje. Pet starih odbijenih parova ostaje odbijeno. Pored automatskog nalaza Gradski Park u Budvi, ručno izdvojen Trg partizana iz drugog dela adrese užičkog mozaika; izabrana površina trga, ne kolovoz istog naziva.",
+    "preostalo": {
+      "MK": "Prilep: prvi server HTTP 502, čekanje rezervnog servera prekinuto bez podataka. Za nastavak preuzeti samo nedostajući osm-MK.json."
+    }
+  }
 }
