@@ -592,13 +592,28 @@ export default class Ruta extends HTMLElement {
     this.osveziTure()
   }
 
-  // nudi se samo tura sa bar tri stanice, a izabrana ostaje i kad prag smanji broj stanica
+  // Stanice svih tura traze se kroz sve spomenike, pa se spisak sastavlja tek kad se kartica tura vidi;
+  // izabrana tura se osvezava odmah, jer njene stanice stoje na mapi.
   osveziTure() {
-    const ture = sastaviTure(this.definicije, [...this.stavke.values()].map(s => s.spomenik), this.pragVaznosti)
-    this.prikaziSpisakTura(ture.filter(tura => tura.spomenici.length >= najmanjeStanica))
-    const aktivna = ture.find(tura => tura.id === dajTuruId())
-    if (aktivna && this.potpuniPodaci) izaberiTuru({...aktivna, spomenici: this.redosledTure(aktivna.spomenici)})
+    this.spisakZastareo = true
+    if (!this.panel.hidden && this.kartica === 'ture') this.osveziSpisakTura()
+    const definicija = this.definicije.find(d => d.id === dajTuruId())
+    if (definicija && this.potpuniPodaci) {
+      const [aktivna] = sastaviTure([definicija], this.spomenici(), this.pragVaznosti)
+      izaberiTuru({...aktivna, spomenici: this.redosledTure(aktivna.spomenici)})
+    }
     this.prikazi()
+  }
+
+  spomenici() {
+    return [...this.stavke.values()].map(s => s.spomenik)
+  }
+
+  // nudi se samo tura sa bar tri stanice, a izabrana ostaje i kad prag smanji broj stanica
+  osveziSpisakTura() {
+    this.spisakZastareo = false
+    const ture = sastaviTure(this.definicije, this.spomenici(), this.pragVaznosti)
+    this.prikaziSpisakTura(ture.filter(tura => tura.spomenici.length >= najmanjeStanica))
   }
 
   // cela Jugoslavija je prva, bez naslova, a ostale su po drzavi ili pokrajini: prvo oblasti, pa gradovi;
@@ -640,6 +655,7 @@ export default class Ruta extends HTMLElement {
 
   prikaziKarticu(kartica) {
     this.kartica = kartica
+    if (kartica === 'ture' && this.spisakZastareo) this.osveziSpisakTura()
     this.osveziKartice()
     this.panel.scrollTop = 0
   }

@@ -542,7 +542,7 @@ test('prag važnosti menja celu automatsku turu i pamti izbor bez ograničenja b
   const ruta = "document.querySelector('planer-rute').shadowRoot"
   const prag = "document.querySelector('planer-rute').pragVaznosti"
   const postaviPrag = vrsta => izvrsi(`{const r=${ruta};r.querySelector('#prag-vaznosti').click();r.querySelector('[data-prag="${vrsta}"]').click()}`)
-  const izaberi = naziv => izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura li')].find(li=>li.querySelector('.ime').textContent===${JSON.stringify(naziv)}).querySelector('button').click()`)
+  const izaberi = naziv => izvrsi(`${ruta}.querySelector('[data-kartica="ture"]').click(),[...${ruta}.querySelectorAll('#spisak-tura li')].find(li=>li.querySelector('.ime').textContent===${JSON.stringify(naziv)}).querySelector('button').click()`)
   await izvrsi(`${ruta}.querySelector('#dugme').click()`)
   await izvrsi(`${ruta}.querySelector('[data-kartica="ture"]').click()`)
   const imena = await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura .ime')].map(e=>e.textContent)`)
