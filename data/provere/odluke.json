@@ -11460,5 +11460,379 @@
         "razlog": "Xiwl izričito razlikuje dva objekta kraj škole i ne zna na koji se odnosi knjiški unos; godina u njegovom zaglavlju 1964, u hronologiji 1963. Nema automatskog spajanja."
       }
     ]
+  },
+  {
+    "odluka": "popovic-zuma-pogresna-zaglavlja-i-skulpture",
+    "datum": "2026-10-20",
+    "metod": "Izdvojeno 1505 zapisa po izvoru i pretraženi sumnjivi naslovi i ID-jevi; ručno pročitani skenovi PDF listova 55, 78, 125, 131, 133, 140, 142, 143 i 146. Ovo nije pojedinačna provera svih 1505 objekata.",
+    "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf",
+    "promene": [
+      {
+        "id": "guberevci-skulpturalna-kompozicija-visoka-5",
+        "ishod": "spojeno",
+        "cilj": "guca",
+        "pdfList": 55,
+        "prethodniZapis": {
+          "id": "guberevci-skulpturalna-kompozicija-visoka-5",
+          "koordinate": {
+            "lat": 43.76324,
+            "lng": 20.34477
+          },
+          "priblizno": true,
+          "mesto": "Guberevci",
+          "naziv": {
+            "sh": "Skulpturalna kompozicija visoka"
+          },
+          "godina": "1968",
+          "autor": "Oskar Berbelja",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        }
+      },
+      {
+        "id": "botos-skulpturalna-kompozicija-visoka-5",
+        "ishod": "spojeno",
+        "cilj": "elemir",
+        "pdfList": 131,
+        "prethodniZapis": {
+          "id": "botos-skulpturalna-kompozicija-visoka-5",
+          "koordinate": {
+            "lat": 45.30956,
+            "lng": 20.63827
+          },
+          "priblizno": true,
+          "mesto": "Botoš",
+          "naziv": {
+            "sh": "Skulpturalna kompozicija visoka"
+          },
+          "godina": "1972",
+          "autor": "Pavle Radovanović",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        }
+      },
+      {
+        "id": "botos-spomenik-borcima-palim-za-slobodu",
+        "ishod": "spojeno",
+        "cilj": "elemir-spomenik-zrtvama",
+        "pdfList": 131,
+        "prethodniZapis": {
+          "id": "botos-spomenik-borcima-palim-za-slobodu",
+          "koordinate": {
+            "lat": 45.30956,
+            "lng": 20.63827
+          },
+          "priblizno": true,
+          "mesto": "Botoš",
+          "naziv": {
+            "sh": "Spomenik „Borcima palim za slobodu“"
+          },
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        }
+      },
+      {
+        "id": "backa-palanka-obelisk-visok-8-m",
+        "ishod": "spojeno",
+        "cilj": "backa-palanka",
+        "pdfList": 125,
+        "prethodniZapis": {
+          "id": "backa-palanka-obelisk-visok-8-m",
+          "koordinate": {
+            "lat": 45.2501,
+            "lng": 19.38294
+          },
+          "priblizno": true,
+          "mesto": "Bačka Palanka",
+          "naziv": {
+            "sh": "Obelisk visok 8 m"
+          },
+          "godina": "1969",
+          "autor": "Milan Pališaški",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        }
+      },
+      {
+        "id": "valjevo-skulptura-heroizam-visoka-16-m",
+        "ishod": "spojeno",
+        "cilj": "valjevo-stjepan-filipovic",
+        "pdfList": 78,
+        "prethodniZapis": {
+          "id": "valjevo-skulptura-heroizam-visoka-16-m",
+          "koordinate": {
+            "lat": 44.27087,
+            "lng": 19.88633
+          },
+          "priblizno": true,
+          "mesto": "Valjevo",
+          "naziv": {
+            "sh": "Skulptura „Heroizam“ visoka 16 m"
+          },
+          "godina": "1967",
+          "autor": "Vojin Bakić",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        }
+      },
+      {
+        "id": "grgurevci-bronzana-figura-na-postolju-visoka-3",
+        "ishod": "spojeno",
+        "cilj": "grgurevci",
+        "pdfList": 142,
+        "prethodniZapis": {
+          "id": "grgurevci-bronzana-figura-na-postolju-visoka-3",
+          "koordinate": {
+            "lat": 45.10582,
+            "lng": 19.64652
+          },
+          "priblizno": true,
+          "mesto": "Grgurevci",
+          "naziv": {
+            "sh": "Bronzana figura na postolju visoka"
+          },
+          "godina": "1952",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        }
+      },
+      {
+        "id": "fruska-gora-skulptura-visoka-37-m",
+        "ishod": "spojeno",
+        "cilj": "iriski-venac",
+        "pdfList": 146,
+        "prethodniZapis": {
+          "id": "fruska-gora-skulptura-visoka-37-m",
+          "mesto": "Fruška Gora",
+          "naziv": {
+            "sh": "Skulptura visoka 37 m"
+          },
+          "autor": "Sreten Stojanović",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia",
+          "adresa": "Skulptura visoka 37 m — spomenik na Iriškom vencu. Otkrivena 7. jula 1953. godine. Vajar S. Stojanović. U četvorogodišnjoj borbi za pobedu narodne revolucije pal"
+        }
+      },
+      {
+        "id": "guberevci-bista",
+        "ishod": "ispravljeno-mesto-povucena-pogresna-tacka",
+        "pdfList": 55,
+        "prethodnoMesto": "Guberevci",
+        "prethodneKoordinate": {
+          "lat": 43.76324,
+          "lng": 20.34477
+        },
+        "mesto": "Guča"
+      },
+      {
+        "id": "guberevci-bista-dusana-jecmenica",
+        "ishod": "ispravljeno-mesto-povucena-pogresna-tacka",
+        "pdfList": 55,
+        "prethodnoMesto": "Guberevci",
+        "prethodneKoordinate": {
+          "lat": 43.76324,
+          "lng": 20.34477
+        },
+        "mesto": "Guča"
+      },
+      {
+        "id": "guberevci-bista-bogdana-kapelana",
+        "ishod": "ispravljeno-mesto-povucena-pogresna-tacka",
+        "pdfList": 55,
+        "prethodnoMesto": "Guberevci",
+        "prethodneKoordinate": {
+          "lat": 43.76324,
+          "lng": 20.34477
+        },
+        "mesto": "Guča"
+      },
+      {
+        "id": "guberevci-bista-cede-vasovica",
+        "ishod": "ispravljeno-mesto-povucena-pogresna-tacka",
+        "pdfList": 55,
+        "prethodnoMesto": "Guberevci",
+        "prethodneKoordinate": {
+          "lat": 43.76324,
+          "lng": 20.34477
+        },
+        "mesto": "Guča"
+      },
+      {
+        "id": "guberevci-bista-radomira-prelica",
+        "ishod": "ispravljeno-mesto-povucena-pogresna-tacka",
+        "pdfList": 55,
+        "prethodnoMesto": "Guberevci",
+        "prethodneKoordinate": {
+          "lat": 43.76324,
+          "lng": 20.34477
+        },
+        "mesto": "Guča"
+      },
+      {
+        "id": "botos-bista",
+        "ishod": "ispravljeno-mesto-povucena-pogresna-tacka",
+        "pdfList": 131,
+        "prethodnoMesto": "Botoš",
+        "prethodneKoordinate": {
+          "lat": 45.30956,
+          "lng": 20.63827
+        },
+        "mesto": "Elemir"
+      },
+      {
+        "id": "macvanska-mitrovica-obelisk-visok-8-m-spomenik-pal",
+        "ishod": "ispravljeno-mesto-povucena-pogresna-tacka",
+        "pdfList": 143,
+        "prethodnoMesto": "Mačvanska Mitrovica",
+        "prethodneKoordinate": {
+          "lat": 44.9666,
+          "lng": 19.59462
+        },
+        "mesto": "Martinci"
+      },
+      {
+        "id": "grgurevci-spomenik-palim-1941-1945",
+        "ishod": "ispravljeno-mesto-povucena-pogresna-tacka",
+        "pdfList": 142,
+        "prethodnoMesto": "Grgurevci",
+        "prethodneKoordinate": {
+          "lat": 45.10582,
+          "lng": 19.64652
+        },
+        "mesto": "Divoš"
+      },
+      {
+        "id": "krajisnik-skulptura-visoka-3",
+        "ishod": "naziv-prema-posveti",
+        "pdfList": 140,
+        "pre": {
+          "sh": "Skulptura visoka"
+        },
+        "posle": {
+          "sh": "Spomenik „Borcima, revoluciji, slobodi 1941-1945“"
+        }
+      },
+      {
+        "id": "vrdnik-bronzana-figura-visoka-2",
+        "ishod": "naziv-prema-posveti",
+        "pdfList": 133,
+        "pre": {
+          "sh": "Bronzana figura visoka"
+        },
+        "posle": {
+          "sh": "Spomenik palim 1941-1945"
+        }
+      },
+      {
+        "id": "stara-bingula-skulptura",
+        "ishod": "spojeno",
+        "cilj": "sasinci",
+        "pdfList": 143,
+        "prethodniZapis": {
+          "id": "stara-bingula-skulptura",
+          "koordinate": {
+            "lat": 45.14418,
+            "lng": 19.48522
+          },
+          "priblizno": true,
+          "mesto": "Stara Bingula",
+          "naziv": {
+            "sh": "Skulptura"
+          },
+          "godina": "1979",
+          "autor": "Pavle Radovanović",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        },
+        "dokaz": "Zaglavlje Šašinci, skulptura u parku iz 1979. i autor P. Radovanović; postojeća fotografija Susreta kurira potvrđuje skulpturalnu grupu."
+      },
+      {
+        "id": "secanj-spomenik-palim-borcima-za-oslobodjenje-od-o",
+        "ishod": "ispravljeno-mesto-povucena-pogresna-tacka",
+        "pdfList": 140,
+        "prethodnoMesto": "Sečanj",
+        "prethodneKoordinate": {
+          "lat": 45.36637,
+          "lng": 20.77238
+        },
+        "mesto": "Banatska Dubica"
+      },
+      {
+        "id": "secanj-spomenik-ziki-bukaceli-sekretaru-sk-kpj-ali",
+        "ishod": "ispravljeno-mesto-povucena-pogresna-tacka",
+        "pdfList": 140,
+        "prethodnoMesto": "Sečanj",
+        "prethodneKoordinate": {
+          "lat": 45.36637,
+          "lng": 20.77238
+        },
+        "mesto": "Banatska Dubica"
+      },
+      {
+        "id": "erdevik-zajednicka-grobnica-i-spomenik-na-podrucju",
+        "ishod": "ispravljeno-mesto-povucena-pogresna-tacka",
+        "pdfList": 146,
+        "prethodnoMesto": "Erdevik",
+        "prethodneKoordinate": {
+          "lat": 45.11578,
+          "lng": 19.41009
+        },
+        "mesto": "Ilinci"
+      },
+      {
+        "id": "kanjiza-spomenik-palim-1941-1945",
+        "ishod": "ispravljeno-mesto-povucena-pogresna-tacka",
+        "pdfList": 133,
+        "prethodnoMesto": "Kanjiža",
+        "prethodneKoordinate": {
+          "lat": 46.06571,
+          "lng": 20.05794
+        },
+        "mesto": "Velebit"
+      },
+      {
+        "id": "kanjiza-spomenik-palim-1943-1945",
+        "ishod": "ispravljen-ocr-godina-u-nazivu",
+        "pdfList": 133,
+        "pre": {
+          "sh": "Spomenik palim 1943-1945"
+        },
+        "posle": {
+          "sh": "Spomenik palim 1941-1945"
+        }
+      }
+    ],
+    "dopune": [
+      {
+        "id": "guca",
+        "autorPre": null,
+        "autorPosle": "Oskar Berbelja",
+        "pdfList": 55
+      },
+      {
+        "id": "sasinci",
+        "autorPre": null,
+        "autorPosle": "Pavle Radovanović",
+        "pdfList": 143
+      }
+    ],
+    "razlikeIzvora": [
+      "Valjevo: knjiških 1967 nije preneto preko postojećih 1960; identitet potvrđuju Vidrak, visina 16 m i Vojin Bakić.",
+      "Iriški venac: knjiških 1953 nije preneto preko postojeće akademski proverene 1951.",
+      "Grgurevci: knjiški 6. jun nije prenet preko postojećeg akademskog izvora koji navodi 5. jun."
+    ],
+    "otvoreno": [
+      {
+        "id": "vrdnik-bronzana-figura-visoka-2",
+        "kandidat": "vrdnik",
+        "razlog": "Knjiga potvrđuje figuru Save Sandića iz 1951. u parku; za spajanje sa preciznim markerom potrebna je fotografija ili drugi dokaz identiteta."
+      },
+      {
+        "id": "macvanska-mitrovica-obelisk-visok-8-m-spomenik-pal",
+        "kandidat": "martinci-spomenik-nob",
+        "razlog": "Mesto Martinci potvrđeno skenom; precizni marker sa X nema u zapisu godinu ni autora, pa nije automatski spojen."
+      }
+    ],
+    "nastavak": "Preostali opšti naslovi Skulptura, Reljef, Piramida i sumnjivi nazivi mesta traže pojedinačan pregled; kratkoća naziva sama nije dokaz greške."
   }
 ]

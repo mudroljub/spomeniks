@@ -38116,17 +38116,6 @@
     "adresa": "Spomenik palim 1941-1945. u parku, u Novom Žedniku."
   },
   {
-    "id": "fruska-gora-skulptura-visoka-37-m",
-    "mesto": "Fruška Gora",
-    "naziv": {
-      "sh": "Skulptura visoka 37 m"
-    },
-    "autor": "Sreten Stojanović",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia",
-    "adresa": "Skulptura visoka 37 m — spomenik na Iriškom vencu. Otkrivena 7. jula 1953. godine. Vajar S. Stojanović. U četvorogodišnjoj borbi za pobedu narodne revolucije pal"
-  },
-  {
     "id": "fruska-gora-kameni-beleg-na-hajduckom-bregu",
     "mesto": "Fruška Gora",
     "naziv": {
@@ -39733,5 +39722,148 @@
         "opis": "Xiwl navodi dva obeležja kod škole, jedno preko puta, drugo u školskom dvorištu; nejasno na koje se knjiški unos odnosi."
       }
     ]
+  },
+  {
+    "id": "guberevci-bista",
+    "mesto": "Guča",
+    "naziv": {
+      "sh": "Bista Branislava Obradovića Džambe"
+    },
+    "autor": "Živorad Maksimović",
+    "vrsta": "bista",
+    "drzava": "Serbia",
+    "adresa": "Ispred zgrade osnovne škole u Guči."
+  },
+  {
+    "id": "guberevci-bista-dusana-jecmenica",
+    "mesto": "Guča",
+    "naziv": {
+      "sh": "Bista Dušana Ječmenića"
+    },
+    "godina": "1971",
+    "autor": "R. Jovačević",
+    "posveta": "Dušana Ječmenića",
+    "vrsta": "bista",
+    "drzava": "Serbia",
+    "adresa": "Ispred zgrade osnovne škole u Guči."
+  },
+  {
+    "id": "guberevci-bista-bogdana-kapelana",
+    "mesto": "Guča",
+    "naziv": {
+      "sh": "Bista Bogdana Kapelana"
+    },
+    "godina": "1967",
+    "autor": "Stevan Bodnarov",
+    "posveta": "Bogdana Kapelana",
+    "vrsta": "bista",
+    "drzava": "Serbia",
+    "adresa": "Ispred zgrade osnovne škole u Guči."
+  },
+  {
+    "id": "guberevci-bista-cede-vasovica",
+    "mesto": "Guča",
+    "naziv": {
+      "sh": "Bista Čede Vasovića"
+    },
+    "godina": "1971",
+    "autor": "R. Jovančević",
+    "posveta": "Čede Vasovića",
+    "vrsta": "bista",
+    "drzava": "Serbia",
+    "adresa": "Ispred osnovne škole u Guči."
+  },
+  {
+    "id": "guberevci-bista-radomira-prelica",
+    "mesto": "Guča",
+    "naziv": {
+      "sh": "Bista Radomira Prelića"
+    },
+    "godina": "1974",
+    "autor": "N. Janković",
+    "posveta": "Radomira Prelića",
+    "vrsta": "bista",
+    "drzava": "Serbia",
+    "adresa": "Guča; bista komandanta oslobođenog mesta, postavljena 1974."
+  },
+  {
+    "id": "botos-bista",
+    "mesto": "Elemir",
+    "naziv": {
+      "sh": "Bista Svetozara Markovića Toze"
+    },
+    "autor": "Ljubica Berberski Tapavički",
+    "vrsta": "bista",
+    "drzava": "Serbia",
+    "adresa": "U holu škole koja nosi ime Svetozara Markovića Toze u Elemiru."
+  },
+  {
+    "id": "macvanska-mitrovica-obelisk-visok-8-m-spomenik-pal",
+    "mesto": "Martinci",
+    "naziv": {
+      "sh": "Spomenik palim 1941-1945"
+    },
+    "godina": "1975",
+    "autor": "B. Stojanović & Stevan Dukić",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia",
+    "adresa": "Martinci; obelisk visok 8 m, podignut 1975."
+  },
+  {
+    "id": "grgurevci-spomenik-palim-1941-1945",
+    "mesto": "Divoš",
+    "naziv": {
+      "sh": "Spomenik palim 1941-1945"
+    },
+    "godina": "1959",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia",
+    "adresa": "Bronzana figura na trgu u Divošu; postavljena 1959."
+  },
+  {
+    "id": "secanj-spomenik-palim-borcima-za-oslobodjenje-od-o",
+    "mesto": "Banatska Dubica",
+    "naziv": {
+      "sh": "Spomenik palim borcima NOB",
+      "en": "Monument to fallen Partisans"
+    },
+    "opis": {
+      "sh": "Posvećeno borcima palim za oslobođenje od okupatora 1941-1945.",
+      "en": "Dedicated to fighters who fell for liberation from the occupiers in 1941-1945."
+    },
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia",
+    "adresa": "Spomenik palim borcima za oslobođenje od okupatora, otkriven 7. jula 1949."
+  },
+  {
+    "id": "secanj-spomenik-ziki-bukaceli-sekretaru-sk-kpj-ali",
+    "mesto": "Banatska Dubica",
+    "naziv": {
+      "sh": "Spomenik Žiki Bukaceli sekretaru SK KPJ Alibunara"
+    },
+    "posveta": "Žiki Bukaceli sekretaru SK KPJ Alibunara",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia",
+    "adresa": "U ataru naselja; spomenik Žiki Bukaceli."
+  },
+  {
+    "id": "erdevik-zajednicka-grobnica-i-spomenik-na-podrucju",
+    "mesto": "Ilinci",
+    "naziv": {
+      "sh": "Zajednička grobnica i spomenik"
+    },
+    "vrsta": "groblje",
+    "drzava": "Serbia",
+    "adresa": "Zajednička grobnica i spomenik; na području naselja u borbama 1944. poginula su 22 borca NOVJ."
+  },
+  {
+    "id": "kanjiza-spomenik-palim-1941-1945",
+    "mesto": "Velebit",
+    "naziv": {
+      "sh": "Spomenik palim 1941-1945"
+    },
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia",
+    "adresa": "U parku osnovne škole u Velebitu."
   }
 ]
