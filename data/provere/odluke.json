@@ -11834,5 +11834,218 @@
       }
     ],
     "nastavak": "Preostali opšti naslovi Skulptura, Reljef, Piramida i sumnjivi nazivi mesta traže pojedinačan pregled; kratkoća naziva sama nije dokaz greške."
+  },
+  {
+    "odluka": "popovic-zuma-logicka-pretraga-sumnjivih",
+    "datum": "2026-10-20",
+    "ishod": "izdvojeni-nalazi-bez-izmene-spomenika",
+    "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf",
+    "metod": [
+      "Po data/izvori.json izdvojeno svih 1497 sadašnjih unosa ovog izvora.",
+      "Uparivanje po PDF listu i sličnosti trajnog ID-ja sa izvornim izvodom: 1400 dovoljno jasnih parova, 1382 pronađena početka teksta u OCR-u. Preostalih 97 neuparenih i 18 nepronađenih u OCR-u ne smatraju se proverenim.",
+      "Prethodno veliko zaglavlje u OCR-u dalo je 48 signala. To nisu 48 grešaka: kolone, potpisi fotografija, šira imena mesta i ranije ispravke daju lažne pogotke.",
+      "Posebno provereni neobični nazivi mesta i naslovi završeni usred rečenice; potvrđeno 12 zapisa sa problemom na skenovima.",
+      "Poređenje sa zapisima u krugu 30 km, istim autorom i godinom dalo je 16 parova; izdvojena dva para sa istim mestom. To su kandidati, ne potvrđeni duplikati."
+    ],
+    "procitaniPdfListovi": [
+      14,
+      23,
+      26,
+      59,
+      71,
+      80,
+      81,
+      85,
+      90,
+      94,
+      101,
+      102,
+      115,
+      120,
+      156
+    ],
+    "potvrdjeniProblemi": [
+      {
+        "pdfListovi": [
+          80,
+          81
+        ],
+        "ids": [
+          "izasske-cete-spomen-obelezje-na-bitvi",
+          "izasske-cete-spomen-beleg"
+        ],
+        "problem": "Natpis sa fotografije pretvoren u naziv mesta",
+        "dokaz": "Na kraju PDF lista 80 nalazi se fotografija sa tekstom o mačvanskoj četi; list 81 počinje obeležjem na Bitvi i belezima Emila Šulentića. Izašske Čete nije zaglavlje naselja. Pravo mesto i tačku proveriti posebno; ne zameniti automatski Bogatićem.",
+        "zateceno": [
+          {
+            "id": "izasske-cete-spomen-obelezje-na-bitvi",
+            "mesto": "Izašske Čete",
+            "naziv": "Spomen-obeležje na Bitvi"
+          },
+          {
+            "id": "izasske-cete-spomen-beleg",
+            "mesto": "Izašske Čete",
+            "naziv": "Spomen-beleg"
+          }
+        ]
+      },
+      {
+        "pdfListovi": [
+          90
+        ],
+        "ids": [
+          "sudlrl-bista-milosa-milosevica",
+          "sudlrl-bista-svete-mladenovica"
+        ],
+        "problem": "Nečitak OCR pretvoren u mesto Sudlrl",
+        "dokaz": "Obe biste su u odeljku Velika Plana, posle opisa zajedničke grobnice i pre zaglavlja Veliko Orašje. Miloš Milošević: škola koja nosi njegovo ime, 1975; Sveta Mladenović: preduzeće koje nosi njegovo ime, 1979.",
+        "zateceno": [
+          {
+            "id": "sudlrl-bista-milosa-milosevica",
+            "mesto": "Sudlrl",
+            "naziv": "Bista Miloša Miloševića"
+          },
+          {
+            "id": "sudlrl-bista-svete-mladenovica",
+            "mesto": "Sudlrl",
+            "naziv": "Bista Svete Mladenovića"
+          }
+        ]
+      },
+      {
+        "pdfListovi": [
+          101
+        ],
+        "ids": [
+          "zarozjc-spomen-cesma-na-pasinoj-ravni",
+          "zarozjc-spomen-beleg",
+          "zarozjc-zajednicka-grobnica-u-kojoj-je-sahranjeno",
+          "zarozjc-spomenik",
+          "zarozjc-spomenik-braci-nincic-miodragu"
+        ],
+        "problem": "Pogrešno pročitano mesto i nasleđeno zaglavlje preko više naselja",
+        "dokaz": "Česma na Pašinoj ravni pripada zaglavlju Zarožje. Beleg na Sekulinom mostu, zajednička grobnica, spomenik bosanskim izbeglicama i spomenik braći Ninčić nalaze se posle zaglavlja Lug. Nije dovoljno presloviti svih pet zapisa u Zarožje.",
+        "zateceno": [
+          {
+            "id": "zarozjc-spomen-cesma-na-pasinoj-ravni",
+            "mesto": "Zarožjc",
+            "naziv": "Spomen-česma na Pašinoj ravni"
+          },
+          {
+            "id": "zarozjc-spomen-beleg",
+            "mesto": "Zarožjc",
+            "naziv": "Spomen-beleg"
+          },
+          {
+            "id": "zarozjc-zajednicka-grobnica-u-kojoj-je-sahranjeno",
+            "mesto": "Zarožjc",
+            "naziv": "Zajednička grobnica partizana"
+          },
+          {
+            "id": "zarozjc-spomenik",
+            "mesto": "Zarožjc",
+            "naziv": "Spomenik"
+          },
+          {
+            "id": "zarozjc-spomenik-braci-nincic-miodragu",
+            "mesto": "Zarožjc",
+            "naziv": "Spomenik braći Ninčić Miodragu"
+          }
+        ]
+      },
+      {
+        "pdfListovi": [
+          71
+        ],
+        "ids": [
+          "kursumlsa-kameni-beleg"
+        ],
+        "problem": "Pogrešno pročitano mesto Kuršumlša",
+        "dokaz": "Sken daje Kuršumlija u potpisu fotografije, a tekst belega govori o četničkom napadu na partizansku četu u Kuršumliji.",
+        "zateceno": [
+          {
+            "id": "kursumlsa-kameni-beleg",
+            "mesto": "Kuršumlša",
+            "naziv": "Kameni beleg"
+          }
+        ]
+      },
+      {
+        "pdfListovi": [
+          102
+        ],
+        "ids": [
+          "kosjeric-spomenik-palim-borcima-narodnooslobodilac"
+        ],
+        "problem": "Preskočeno zaglavlje Varda",
+        "dokaz": "Unos sa posvetom palim 1941-1945. i podatkom o trinaest boraca iz sela nalazi se pod zaglavljem Varda, ne Kosjerić.",
+        "zateceno": [
+          {
+            "id": "kosjeric-spomenik-palim-borcima-narodnooslobodilac",
+            "mesto": "Kosjerić",
+            "naziv": "Spomenik NOB"
+          }
+        ]
+      },
+      {
+        "pdfListovi": [
+          85
+        ],
+        "ids": [
+          "babajic-piramida-u-ostojica-sumi-u-kojoj-je-maja-1"
+        ],
+        "problem": "Prekinuta rečenica prikazana kao naslov",
+        "dokaz": "Pun unos pod Babajićem govori o piramidi u Ostojića šumi i formiranju Okružnog komiteta SKOJ-a maja 1944. Naslov je odsečen pre godine i svrhe obeležja.",
+        "zateceno": [
+          {
+            "id": "babajic-piramida-u-ostojica-sumi-u-kojoj-je-maja-1",
+            "mesto": "Babajić",
+            "naziv": "Piramida u Ostojića šumi u kojoj je maja"
+          }
+        ]
+      }
+    ],
+    "moguciDuplikati": [
+      {
+        "ids": [
+          "piroman-spomenik-borcima-u-nor-u-piromana-i-borovi",
+          "piroman-spomenik-palim-borcima-i-zrtvama-fasistick"
+        ],
+        "razlog": "Isto mesto Piroman, autor D. Bušić i godina 1979; tačke su udaljene 1239 m. Proveriti da li je knjiška približna tačka duplikat drugog markera."
+      },
+      {
+        "ids": [
+          "gornja-gorevnica-spomenik-palim-u-oslobodilackim-r",
+          "gornja-gorevnica-spomenik-palim-borcima"
+        ],
+        "razlog": "Isto mesto Gornja Gorevnica, autor Živorad Maksimović i godina 1975; tačke su udaljene 1525 m. Različit obuhvat naslova nije dovoljan dokaz da su različiti objekti."
+      }
+    ],
+    "odbaceniPrimeri": [
+      {
+        "ids": [
+          "bor-spomen-dom-posvecen-onima",
+          "bor-bista-tome-milanovica",
+          "bor-bista-ive-lole-ribara",
+          "bor-bista-radomira-jovanovica-coceta"
+        ],
+        "razlog": "PDF 26 ima jasno zaglavlje Bor; prethodni Podgorac u OCR-u je lažan signal."
+      },
+      {
+        "ids": [
+          "cacak-bista-nade-jankovic",
+          "cacak-reljef",
+          "cacak-bista-milenka-niksica-na-116-nadgrobnoj-ploc"
+        ],
+        "razlog": "PDF 59: Ostra je potpis fotografije; tekst je nastavak odeljka Čačak."
+      },
+      {
+        "ids": [
+          "guberevac-spomenik-palim-1941-1945",
+          "ralja-spomenik-milosavu-vlajicu"
+        ],
+        "razlog": "PDF 23 potvrđuje Guberevac i Ralju; OCR je preskočio njihova zaglavlja."
+      }
+    ]
   }
 ]
