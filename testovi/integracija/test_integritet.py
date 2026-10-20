@@ -21,7 +21,7 @@ class IntegritetTest(unittest.TestCase):
     def proveri(self, zapisi, visak_slike=False, posvete=None, bez_lokacije=None, knjiga=None, razvrstaj=True, arhiva=None):
         with tempfile.TemporaryDirectory(prefix='spomenici-integritet-') as folder:
             koren = Path(folder)
-            for f in ('data/knjige', 'data/provere'):
+            for f in ('data/knjige', 'data/provere', 'data/van-mape', 'data/izvori'):
                 (koren / f).mkdir(parents=True)
             slike = koren / 'slike/spomenici'
             slike.mkdir(parents=True)
@@ -29,7 +29,7 @@ class IntegritetTest(unittest.TestCase):
             istaknuti = [s for s in zapisi if u_istaknutima(s) or not razvrstaj]
             ostali = [s for s in zapisi if s not in istaknuti]
             for ime, podaci in [('spomenici-istaknuti', istaknuti), ('spomenici-ostali', ostali), ('ture', []), ('autori', {}), ('posvete', posvete or {}),
-                                ('bez_lokacije', bez_lokacije or []), ('arhiva', arhiva or []), ('provere-spomenika', {}), ('izvori-stanja', {})]:
+                                ('van-mape/bez_lokacije', bez_lokacije or []), ('van-mape/arhiva', arhiva or []), ('provere/provere-spomenika', {}), ('izvori/izvori-stanja', {})]:
                 (koren / f'data/{ime}.json').write_text(json.dumps(podaci), encoding='utf8')
             if knjiga is not None:
                 (koren / 'data/knjige/test.json').write_text(json.dumps(knjiga), encoding='utf8')

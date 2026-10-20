@@ -7,9 +7,9 @@ Alati koji uvoze `zapis.py` takođe zahtevaju `node` na PATH-u: pri učitavanju 
 | Alat | Namena |
 |---|---|
 | `integritet.py` | Provera spomenika na mapi (oba fajla, i da je svaki zapis u pravom): polja, pismo, slike, duplikati na manje od 30 m; i spiska bez lokacije: jedinstveni ID-jevi u oba spiska i veze iz knjiga i izveštaja koje se razrešavaju. Pokreće se posle svake izmene podataka. |
-| `prebaci.py <ulaz.json>` | Prebacuje stavke iz `data/bez_lokacije.json` na mapu po ID-ju (`[{id, lat, lng, priblizno}]`); stavka zadržava ID, pa veze iz knjiga i izveštaja ostaju tačne. |
+| `prebaci.py <ulaz.json>` | Prebacuje stavke iz `data/van-mape/bez_lokacije.json` na mapu po ID-ju (`[{id, lat, lng, priblizno}]`); stavka zadržava ID, pa veze iz knjiga i izveštaja ostaju tačne. |
 | `pretraga.py` | Pronalaženje naših zapisa sa mape, iz spiska bez lokacije i iz arhive: po blizini tačke, po mestu i po zajedničkim osnovama reči u nazivu (ćirilica, latinica i OCR tekst se porede posle normalizacije). Modul za skripte uparivanja i komanda: `python -I alati/pretraga.py blizu <lat> <lng> [m]`, `mesto <mesto> [država]`, `naziv <tekst>`. |
-| `zapis.py` | Čitanje i upis podataka, zajednički za sve alate: `ucitaj_bazu` i `sacuvaj_bazu` za spomenike na mapi (raspoređuje ih u `data/spomenici-istaknuti.json` i `data/spomenici-ostali.json`), `sacuvaj_bez_lokacije`, `ucitaj_arhivu` i `sacuvaj_arhivu` za `data/arhiva.json` (zapisi koje aplikacija ne prikazuje), redosled polja (`poredaj`); polje `izvor` premeštaju u `data/izvori.json`. U Node-u isto čita `baza.mjs`. |
+| `zapis.py` | Čitanje i upis podataka, zajednički za sve alate: `ucitaj_bazu` i `sacuvaj_bazu` za spomenike na mapi (raspoređuje ih u `data/spomenici-istaknuti.json` i `data/spomenici-ostali.json`), `sacuvaj_bez_lokacije`, `ucitaj_arhivu` i `sacuvaj_arhivu` za `data/van-mape/arhiva.json` (zapisi koje aplikacija ne prikazuje), redosled polja (`poredaj`); polje `izvor` premeštaju u `data/izvori/izvori.json`. U Node-u isto čita `baza.mjs`. |
 | `commons_dodaj.py <spisak.json> <fajlovi.json>` | Dodaje spomenike ili fotografije sa Commons-a: preuzima sliku, pravi webp, potpis i mesto iz najbližeg naselja. |
 | `proveri.py <link>` | Iz Google linka čita ime, koordinate i id i nalazi najbliže spomenike u bazi. |
 | `upisi_cid.py <id> <link>` | Upisuje Google id i lokaciju postojećem spomeniku. |

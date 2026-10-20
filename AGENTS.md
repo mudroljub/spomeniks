@@ -1,6 +1,10 @@
 # Zajednički rad u projektu Spomenici
 
-Svaku odluku o podacima i aplikaciji meri iskustvom putnika (korisnik, 2026-10-20): mapa ne sme da ga vodi ka nečemu što ne može da nađe ili što mu ništa ne znači. Poznat i značajan spomenik sa tačnom lokacijom ostaje na mapi i kad je uklonjen, sa stanjem (npr. spomenik prvom partizanskom tenku u Kraljevu); sitni i neodređeni zapisi bez vrednosti za putnika čuvaju se u `data/arhiva.json`.
+Svaku odluku o podacima i aplikaciji meri iskustvom putnika (korisnik, 2026-10-20): mapa ne sme da ga vodi ka nečemu što ne može da nađe ili što mu ništa ne znači. Poznat i značajan spomenik sa tačnom lokacijom ostaje na mapi i kad je uklonjen, sa stanjem (npr. spomenik prvom partizanskom tenku u Kraljevu); sitni i neodređeni zapisi bez vrednosti za putnika čuvaju se u `data/van-mape/arhiva.json`.
+
+## Raspored podataka
+
+U `data/` su samo fajlovi koje aplikacija učitava i njihovi tipovi. Sve ostalo ide u podfoldere: podaci van mape (arhiva i bez lokacije) u `data/van-mape/`, izvori u `data/izvori/`, knjige u `data/knjige/`, a provere i beleške u `data/provere/`.
 
 ## Podela posla
 

@@ -14,7 +14,7 @@ import {ucitajBazu} from '../../alati/baza.mjs'
 const koren = new URL('../../', import.meta.url)
 const procitaj = fajl => JSON.parse(readFileSync(new URL(fajl, koren), 'utf8'))
 const baza = ucitajBazu()
-const bezLokacije = procitaj('data/bez_lokacije.json')
+const bezLokacije = procitaj('data/van-mape/bez_lokacije.json')
 
 test('svi izabrani linkovi prolaze proveru, a Topovske šupe imaju članak iz novina', () => {
   for (const s of baza) {
@@ -24,7 +24,7 @@ test('svi izabrani linkovi prolaze proveru, a Topovske šupe imaju članak iz no
   }
   const topovske = baza.find(s => s.id === 'beograd-spomen-park-topovske-supe')
   assert.equal(clanakSpomenika(topovske), 'https://www.danubeogradu.rs/2021/01/kultura-secanja-info-tabla-o-logoru-topovske-supe/')
-  assert.match(procitaj('data/izvori.json')[topovske.id], /openstreetmap/)
+  assert.match(procitaj('data/izvori/izvori.json')[topovske.id], /openstreetmap/)
   const biografija = baza.find(s => s.id === 'boris-kidric-square')
   assert.equal(clanakSpomenika(biografija), undefined)
 })

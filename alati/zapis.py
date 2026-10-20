@@ -5,10 +5,10 @@ vidljivi na početnom zumu 7, pa se crtaju odmah) i data/spomenici-ostali.json. 
 a sacuvaj_bazu sam raspoređuje zapise. Fajlovi mape imaju samo ono što aplikacija treba za mapu, pretragu i filtere;
 ono što se vidi samo u prozoru spomenika je u data/detalji.json, a engleski nazivi u data/prevodi-en.json (ID -> vrednost).
 ucitaj_bazu ih spaja u ceo zapis, a sacuvaj_bazu ih ponovo razdvaja, pa alati uvek rade sa celim zapisom.
-Izvori (data/izvori.json) i izvori stanja (data/izvori-stanja.json) su samo za alate: alat ih privremeno drži u zapisu
+Izvori (data/izvori/izvori.json) i izvori stanja (data/izvori/izvori-stanja.json) su samo za alate: alat ih privremeno drži u zapisu
 (izvor, stanjeIzvor), a funkcije za čuvanje ih izdvajaju.
-Provere lokacije i opstanka čuvaju se u data/provere-spomenika.json, takođe po ID-ju.
-Arhiva (data/arhiva.json, ucitaj_arhivu / sacuvaj_arhivu) čuva cele zapise koje aplikacija ne prikazuje, sa istim
+Provere lokacije i opstanka čuvaju se u data/provere/provere-spomenika.json, takođe po ID-ju.
+Arhiva (data/van-mape/arhiva.json, ucitaj_arhivu / sacuvaj_arhivu) čuva cele zapise koje aplikacija ne prikazuje, sa istim
 trajnim ID-jem, izvorima i proverama; ID je jedinstven u mapi, spisku bez lokacije i arhivi zajedno.
 Tip polja je u data/tipovi.d.ts; novo polje se dodaje i u REDOSLED, inače ga integritet.py prijavi."""
 import errno, hashlib, json, os, subprocess, tempfile, threading, time
@@ -77,11 +77,11 @@ REDOSLED = ['id', 'koordinate', 'priblizno', 'googleCid', 'mesto', 'izvor', 'wik
             'vrsta', 'istaknut', 'drzava']
 # polja za prozor spomenika, pretragu i filtere, koja ne trebaju za crtanje mape; u fajlovima mape ih nema, nego su u DETALJI
 POLJA_DETALJA = ('googleCid', 'wiki', 'wikiEn', 'slikaPotpis', 'opis', 'godina', 'autor', 'natpis', 'posveta')
-ISTAKNUTI, OSTALI, BEZ_LOKACIJE, IZVORI = 'data/spomenici-istaknuti.json', 'data/spomenici-ostali.json', 'data/bez_lokacije.json', 'data/izvori.json'
-ARHIVA = 'data/arhiva.json'
-IZVORI_STANJA = 'data/izvori-stanja.json'
+ISTAKNUTI, OSTALI, BEZ_LOKACIJE, IZVORI = 'data/spomenici-istaknuti.json', 'data/spomenici-ostali.json', 'data/van-mape/bez_lokacije.json', 'data/izvori/izvori.json'
+ARHIVA = 'data/van-mape/arhiva.json'
+IZVORI_STANJA = 'data/izvori/izvori-stanja.json'
 PREVODI_EN, DETALJI = 'data/prevodi-en.json', 'data/detalji.json'
-PROVERE_SPOMENIKA = 'data/provere-spomenika.json'
+PROVERE_SPOMENIKA = 'data/provere/provere-spomenika.json'
 POLJA_PROVERE = ('proveraLokacije', 'proveraOpstanka')
 ZUM_ISTAKNUTIH = 7  # pocetni zum mape (klase/mapa.js): prvi fajl ima samo ono sto se tada vidi
 

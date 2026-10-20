@@ -1,4 +1,4 @@
-# python -I alati/prebaci.py <ulaz.json>: prebacuje stavke iz data/bez_lokacije.json na mapu
+# python -I alati/prebaci.py <ulaz.json>: prebacuje stavke iz data/van-mape/bez_lokacije.json na mapu
 # ulaz: [{"id": ..., "lat": ..., "lng": ..., "priblizno": true|false}]; stavka zadržava svoj ID, pa veze iz knjiga
 # i izveštaja (cilj, radniId) ostaju tačne bez prepravke; lokalna slika prelazi u slike/spomenici/<id>.webp
 import json, os, shutil, sys
@@ -18,7 +18,7 @@ with zakljucani_podaci():
         if not u:
             ostaju.append(s)
             continue
-        # adresa i kandidati ne idu na mapu; izdvojene provere ostaju u data/provere-spomenika.json pod istim ID-jem
+        # adresa i kandidati ne idu na mapu; izdvojene provere ostaju u data/provere/provere-spomenika.json pod istim ID-jem
         z = {k: v for k, v in s.items() if k in REDOSLED}
         z['koordinate'] = {'lat': round(u['lat'], 7), 'lng': round(u['lng'], 7)}
         if u.get('priblizno'):

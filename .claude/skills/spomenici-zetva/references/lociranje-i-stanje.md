@@ -4,7 +4,7 @@
 
 Radi po verovatnoći uspeha, ne redom kroz radni spisak: najpre konkretni objekti, savremene adrese i precizne tačke. Centar sela, škole ili opštine nije koordinata spomenika. Kataloška oznaka „na mapi“ ne znači da je tačka precizna; proveri napomenu o njenom poreklu.
 
-Pre upisa uporedi spomenike na mapi i spisak bez lokacije (`data/bez_lokacije.json`), alatom `alati/pretraga.py` (blizina tačke, isto mesto, zajedničke osnove reči), umesto novog skripta za poređenje. Naziv naselja i opšta posveta nisu dovoljan par. Potvrdi vrstu, posvetu, natpis, izgled i mikrolokaciju; ista osoba može imati zasebnu bistu, ploču i grob u istom mestu. Park i pojedinačno delo u njemu takođe mogu biti različiti zapisi.
+Pre upisa uporedi spomenike na mapi i spisak bez lokacije (`data/van-mape/bez_lokacije.json`), alatom `alati/pretraga.py` (blizina tačke, isto mesto, zajedničke osnove reči), umesto novog skripta za poređenje. Naziv naselja i opšta posveta nisu dovoljan par. Potvrdi vrstu, posvetu, natpis, izgled i mikrolokaciju; ista osoba može imati zasebnu bistu, ploču i grob u istom mestu. Park i pojedinačno delo u njemu takođe mogu biti različiti zapisi.
 
 **Potvrda duplikata i različite godine (korisnik, 20.10.2026):** kada korisnik potvrdi da su dva zapisa duplikat, prihvati tu potvrdu; ne vraćaj zaključak na „verovatan duplikat“ samo zbog različitih godina. Razlika u godini sama po sebi nije dokaz drugog objekta niti nužno greška izvora: novija godina obično označava renoviranje, premeštanje, dogradnju ili zamenu. Kod potvrđenih duplikata zadrži stariju godinu kao godinu prvobitnog podizanja, a ostale godine i njihovo poreklo sačuvaj u postojećoj evidenciji odluka. Potvrđene kasnije faze sačuvaj u dvojezičnom opisu; bez dokaza ne izmišljaj šta se desilo novije godine. Brnjik je primer korisnikove potvrde: jedan zapis, godina 1953, uz sačuvan trag o 1983.
 
@@ -55,14 +55,14 @@ Razlikuj fizičko oštećenje od promene simbola ili opšte oznake oskvrnuća. P
 | očuvano ili obnovljeno, na tačnoj tački | zadržati; dokaz i njegov datum u evidenciji |
 | oštećeno, ali stoji | zadržati; `stanje: ostecen` samo uz dokaz o tom stanju |
 | premešteno | potvrđena današnja tačka; stara samo u evidenciji, bez drugog markera |
-| srušeno, uklonjeno ili u depou, bez dokaza povratka | ostaviti na mapi na poznatoj tački, sa `stanje` (`srusen`, `uklonjen`) i izvorom u `data/izvori-stanja.json`; uklonjeni koji nisu istaknuti, spomen-park, muzej ni spomenik i srušeni bez tačne tačke koji nisu istaknuti idu u `data/arhiva.json`; bez tačke u `data/bez_lokacije.json` |
-| nedovoljno dokaza | vratiti u `data/bez_lokacije.json`; ne označavati kao srušeno |
+| srušeno, uklonjeno ili u depou, bez dokaza povratka | ostaviti na mapi na poznatoj tački, sa `stanje` (`srusen`, `uklonjen`) i izvorom u `data/izvori/izvori-stanja.json`; uklonjeni koji nisu istaknuti, spomen-park, muzej ni spomenik i srušeni bez tačne tačke koji nisu istaknuti idu u `data/van-mape/arhiva.json`; bez tačke u `data/van-mape/bez_lokacije.json` |
+| nedovoljno dokaza | vratiti u `data/van-mape/bez_lokacije.json`; ne označavati kao srušeno |
 | drugi objekat ili duplikat | razdvojiti ili spojiti, uz očuvanje porekla |
 
 Ploče se preskaču osim veoma bitnih; dokaz da ploča postoji ne znači da ulazi u izbor. Sama provera ne odobrava nove promene izvan dogovorenog obima.
 
 ## Poreklo podataka i izveštaj
 
-Postojeći `izvor` ne zamenjuj URL-om nove fotografije ili kasnije provere. Dopunske dokaze, stvarne datume, prethodni zapis, odluku i obrazloženje čuvaj mašinski čitljivo u `data/provere/`: pojedinačnu odluku kao novi zapis u zajedničkom `data/provere/odluke.json` (sa poljem `odluka`, kratkim imenom), a poseban fajl pravi samo za zbirni prolaz kroz mnogo stavki. `docs/` je za ljude: tamo ide sažetak i veza na izveštaj, ne pojedinačni dokazi (korisnik, 2026-10-18). Prazan izvor može se dopuniti potvrđenim izvorom.
+Postojeći `izvor` ne zamenjuj URL-om nove fotografije ili kasnije provere. Dopunske dokaze, stvarne datume, prethodni zapis, odluku i obrazloženje čuvaj mašinski čitljivo u `data/provere/`: pojedinačnu odluku kao novi zapis u zajedničkom `data/provere/odluke.json` (sa poljem `odluka`, kratkim imenom), a zbirni prolaz kroz mnogo stavki kao nov ključ u fajlu svoje vrste u `data/provere/`. `docs/` je za ljude: tamo ide sažetak i veza na izveštaj, ne pojedinačni dokazi (korisnik, 2026-10-18). Prazan izvor može se dopuniti potvrđenim izvorom.
 
 Stavke bez lokacije prebacuj alatom `alati/prebaci.py`, koji čuva ID, pa knjiške veze i radni ID-jevi ostaju tačni; pri spajanju ih preusmeri po [skilu provere](../../spomenici-provera/SKILL.md#veze-radnih-zapisa-i-knjiga). Istorijske rezultate i brojke upiši u [evidenciju lociranja](../../../../docs/LOCIRANJE_SPOMENIKA.md) ili [hrvatske provere](../../../../docs/PROVERA_RUSENJA_HRVATSKA.md), a postupke dopunjavaj ovde.

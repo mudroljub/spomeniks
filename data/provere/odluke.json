@@ -8614,7 +8614,7 @@
     ],
     "dokaz": "Okrajni muzej NOB, osnovan 1951, zapoceo je u Želežnikarjevoj kući na Trgu svobode 4, a potom preselio u zgradu na Glavnem trgu, gde je i današnji Muzej Slovenj Gradec. Muzej ljudske revolucije bio je naziv od 1959; kontinuitet ustanove i Glavni trg 24 potvrđeni su. Tačka je koordinata kuće u evidenciji kulturne ba?tine.",
     "pomereneAktivneRadneReference": 43,
-    "izvestaj": "data/provere/lociranje-muzej-slovenj-gradec-2026-10-18.json"
+    "izvestaj": "data/provere/lociranje.json#lociranje-muzej-slovenj-gradec-2026-10-18"
   },
   {
     "odluka": "lociranje-muzej-narodne-revolucije-vis-2026-10-18",
@@ -13102,7 +13102,7 @@
         1
       ],
       [
-        "data\\provere\\groblja-zbirni-pregled-2026-10-18.json",
+        "data\\provere\\groblja.json#groblja-zbirni-pregled-2026-10-18",
         2
       ]
     ],
@@ -13195,7 +13195,7 @@
     ],
     "preusmereneVeze": [
       [
-        "data\\provere\\groblja-zbirni-pregled-2026-10-18.json",
+        "data\\provere\\groblja.json#groblja-zbirni-pregled-2026-10-18",
         2
       ]
     ],
@@ -16853,7 +16853,7 @@
     ],
     "preusmereneVeze": [
       {
-        "fajl": "data/provere/groblja-zbirni-pregled-2026-10-18.json",
+        "fajl": "data/provere/groblja.json#groblja-zbirni-pregled-2026-10-18",
         "veza": 1
       }
     ],
@@ -18448,7 +18448,7 @@
     "dokazi": [
       {
         "izvor": "izvori/spomenicinob/redovi.json, redovi 534–632",
-        "nalaz": "Pročitano svih 99 redova i poređeno sa sva tri spiska. Različite kuće u Pištalinama, tri lokaliteta Jezerskog, Vršeljak/Mosura i više lokaliteta Drenove Glavice nisu duplikati. Izvorni mikro-položaji potvrđeni istorijskim snimcima u data/provere/priblizno-sela-2026-10-18.json."
+        "nalaz": "Pročitano svih 99 redova i poređeno sa sva tri spiska. Različite kuće u Pištalinama, tri lokaliteta Jezerskog, Vršeljak/Mosura i više lokaliteta Drenove Glavice nisu duplikati. Izvorni mikro-položaji potvrđeni istorijskim snimcima u data/provere/lociranje.json#priblizno-sela-2026-10-18."
       },
       {
         "izvor": "izvori/xiwl/deo-0022.json i deo-0089.json",

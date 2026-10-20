@@ -108,7 +108,7 @@ export interface Kandidat extends Koordinate {
   opis: string
 }
 
-/** data/bez_lokacije.json: poznat spomenik koji još ne možemo da smestimo na mapu.
+/** data/van-mape/bez_lokacije.json: poznat spomenik koji još ne možemo da smestimo na mapu.
  * Ista polja kao Spomenik, bez koordinata, uz podatke koji pomažu da se spomenik pronađe. `id` je trajan i ostaje isti
  * kad stavka pređe na mapu, pa ga koriste veze iz knjiga (`cilj`) i izveštaja (`radniId`).
  * `slika` je kopija u "slike/bez-lokacije/<ime>.webp" (400 px, uz `slikaPotpis` i `slikaOdnos`); pri prebacivanju u bazu prelazi u slike/spomenici/<id>.webp.
@@ -120,11 +120,11 @@ export interface SpomenikBezLokacije extends Omit<Spomenik, 'koordinate'> {
   kandidati?: Kandidat[]
 }
 
-/** data/arhiva.json: zapis koji aplikacija ne prikazuje: uklonjen, a nije istaknut, spomen-park, muzej ni spomenik, ili srušen i neistaknut bez tačne tačke.
+/** data/van-mape/arhiva.json: zapis koji aplikacija ne prikazuje: uklonjen, a nije istaknut, spomen-park, muzej ni spomenik, ili srušen i neistaknut bez tačne tačke.
  * Isti `id` i polja kao Spomenik ili SpomenikBezLokacije, uz obavezno `stanje`; `slika` je u "slike/arhiva/<id>.webp". */
 export type SpomenikArhive = (Spomenik | SpomenikBezLokacije) & {stanje: Stanje}
 
-/** data/provere-spomenika.json: ID spomenika → provere, nezavisno od prelaska na mapu. */
+/** data/provere/provere-spomenika.json: ID spomenika → provere, nezavisno od prelaska na mapu. */
 export interface ProvereSpomenika {
   /** ishod pokušaja lociranja koji nije dao tačku: kada, iz kog izvora i šta je utvrđeno */
   proveraLokacije?: {datum: string, izvor: string, ishod: string, napomena?: string}

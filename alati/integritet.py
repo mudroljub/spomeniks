@@ -114,7 +114,7 @@ for s in d:
         if mala != s['slika'] and not os.path.exists(mala): greske['nema male slike (pokreni male_slike.py)'].append((i, mala))
     if s.get('slikaPotpis') and not s.get('slika'): greske['potpis bez slike'].append(i)
     if bool(s.get('slika')) != bool(s.get('slikaOdnos')): greske['slika bez odnosa (pokreni slike_odnos.py)'].append(i)
-    if 'izvor' in s: greske['izvor u bazi (pripada data/izvori.json)'].append(i)
+    if 'izvor' in s: greske['izvor u bazi (pripada data/izvori/izvori.json)'].append(i)
     for polje in ('wiki', 'wikiEn'):
         if polje in s and (not isinstance(s[polje], str) or not re.match(r'https?://', s[polje])): greske['los link'].append((i, polje, s[polje]))
     if s.get('googleCid') and not re.fullmatch(r'\d+', str(s['googleCid'])): greske['los googleCid'].append((i, s['googleCid']))
@@ -188,7 +188,7 @@ koriscene = {s.get('slika') for s in d}
 greske['slika koju niko ne koristi'] = sorted(slike - koriscene)
 
 # spisak bez lokacije: obavezna polja i lokalne slike; starije stavke imaju samo ime fajla na Vikipediji
-bez = json.load(open('data/bez_lokacije.json', encoding='utf8'))
+bez = json.load(open('data/van-mape/bez_lokacije.json', encoding='utf8'))
 # ID stavke bez lokacije je trajan i ostaje isti kad stavka pređe na mapu, pa mora biti jedinstven u oba spiska
 bez_ids = collections.Counter(s.get('id') for s in bez)
 for i, n in bez_ids.items():
@@ -232,9 +232,9 @@ for i, izvor_stanja in json.load(open(IZVORI_STANJA, encoding='utf8')).items():
 for j, s in enumerate(bez):
     oznaka = (s.get('id'), s.get('naziv'), s.get('mesto'))
     if not isinstance(s.get('naziv'), str) or not s['naziv'] or not s.get('mesto'): greske['bez lokacije: bez naziva ili mesta'].append(oznaka)
-    if 'izvor' in s: greske['izvor u spisku bez lokacije (pripada data/izvori.json)'].append(oznaka)
-    if 'stanjeIzvor' in s: greske['izvor stanja u spisku bez lokacije (pripada data/izvori-stanja.json)'].append(oznaka)
-    if any(polje in s for polje in POLJA_PROVERE): greske['provere u spisku bez lokacije (pripada data/provere-spomenika.json)'].append(oznaka)
+    if 'izvor' in s: greske['izvor u spisku bez lokacije (pripada data/izvori/izvori.json)'].append(oznaka)
+    if 'stanjeIzvor' in s: greske['izvor stanja u spisku bez lokacije (pripada data/izvori/izvori-stanja.json)'].append(oznaka)
+    if any(polje in s for polje in POLJA_PROVERE): greske['provere u spisku bez lokacije (pripada data/provere/provere-spomenika.json)'].append(oznaka)
     if s.get('vrsta') not in VRSTE: greske['bez lokacije: nepoznata vrsta'].append((oznaka, s.get('vrsta')))
     if 'istaknut' in s and type(s['istaknut']) is not bool: greske['bez lokacije: neispravno istaknut'].append(oznaka)
     if s.get('drzava') not in DRZAVE: greske['bez lokacije: nepoznata drzava'].append((oznaka, s.get('drzava')))
