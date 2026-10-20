@@ -64,7 +64,7 @@ export default class Marker {
     this.spomen = spomen
     this.pomak = pomak
     this.najmanjiZum = najmanjiZum(spomen)
-    this.razmera = spomen.istaknut ? 1.25 : razmeraVrste[spomen.vrsta] || 1
+    this.razmera = spomen.istaknut && spomen.vrsta === 'spomenik' ? 1.25 : razmeraVrste[spomen.vrsta] || 1
     this.izgled = izgledMarkera(spomen)
     this.pozicija = L.latLng(spomen.koordinate.lat, spomen.koordinate.lng)
   }

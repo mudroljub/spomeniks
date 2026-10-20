@@ -1,6 +1,7 @@
 import '../okruzenje.mjs'
 import {test} from 'node:test'
 import assert from 'node:assert/strict'
+import {existsSync} from 'node:fs'
 import {izgledMarkera, ikonicaSaOznakama, znak, znakVrste, senka, pribliznaOznaka} from '../../utils/ikonice.js'
 
 test('vrsta i stanje biraju sliku markera, a spomenik ostaje obelisk', () => {
@@ -13,6 +14,11 @@ test('vrsta i stanje biraju sliku markera, a spomenik ostaje obelisk', () => {
   assert.equal(izgledMarkera({vrsta: 'groblje'}).slika, 'slike/markeri/groblje-postoji.svg')
   assert.equal(izgledMarkera({vrsta: 'groblje', stanje: 'srusen'}).slika, 'slike/markeri/groblje-rusevina.svg')
   assert.equal(izgledMarkera({vrsta: 'groblje', stanje: 'uklonjen'}).slika, 'slike/markeri/groblje-uklonjen.svg')
+  for (const stanje of [undefined, 'srusen', 'uklonjen']) {
+    const izgled = izgledMarkera({vrsta: 'spomen-kuca', stanje})
+    assert.match(izgled.slika, /spomen-kuca-(postoji|rusevina|uklonjen)\.svg$/)
+    assert.ok(existsSync(new URL(`../../${izgled.slika}`, import.meta.url)))
+  }
 })
 
 test('ikonica uključuje senku, a upitnik i značka se dodaju samo kad treba', () => {

@@ -17,8 +17,9 @@ class ZapisTest(unittest.TestCase):
     def test_promena_vaznosti_menja_zum_i_podelu_fajlova(self):
         put = Path(zapis.__file__).resolve().parent.parent / 'utils' / 'vaznost.js'
         kod = put.read_text(encoding='utf-8')
-        kod = re.sub(r"('spomen-park':\s*)2\b", r'\g<1>9', kod)
-        kod = re.sub(r'(groblje:\s*)9\b', r'\g<1>2', kod)
+        prioritet_groblja = re.search(r'groblje:\s*(\d+)', kod).group(1)
+        kod = re.sub(r"('spomen-park':\s*)2\b", lambda m: m[1] + prioritet_groblja, kod)
+        kod = re.sub(r'(groblje:\s*)\d+\b', r'\g<1>2', kod)
         modul = self.folder / 'prioriteti.mjs'
         modul.write_text(kod, encoding='utf-8')
         zumovi = zapis._ucitaj_zumove(modul)
