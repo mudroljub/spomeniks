@@ -1,6 +1,6 @@
 ---
 name: spomenici-zetva
-description: Dobavljanje podataka za projekat Spomenici iz spoljnih izvora — novi spomenici, lokacije, fotografije, autori, godine i posvete sa Google mapa, Commons-a, OSM-a (Overpass, Nominatim), Vikipedije i Wikidate, registara i sajtova. Pravila prema serverima, postupci koji rade, pregled fotografija i obuhvat (samo NOB i Drugi svetski rat). Koristi ga uvek kad korisnik pošalje link ili članak o spomeniku, traži „dodaj“, „nađi sliku“, „nađi lokaciju“, „dopuni“, „posvećen je…“, ili kad prolaziš kroz `data/bez_lokacije.json` ili neki spisak spomenika.
+description: Dobavljanje podataka za projekat Spomenici iz spoljnih izvora — novi spomenici, lokacije, fotografije, autori, godine i posvete sa Google mapa, Commons-a, OSM-a (Overpass, Nominatim), Vikipedije i Wikidate, registara i sajtova. Pravila prema serverima, postupci koji rade, pregled fotografija i obuhvat (samo NOB i Drugi svetski rat). Koristi ga uvek kad korisnik pošalje link ili članak o spomeniku, traži „dodaj“, „nađi sliku“, „nađi lokaciju“, „dopuni“, „posvećen je…“, traži duplikate ili ispravku podataka, ili kad prolaziš kroz `data/bez_lokacije.json` ili neki spisak spomenika.
 ---
 
 # Žetva podataka
@@ -20,7 +20,7 @@ Na istim fajlovima istovremeno radi više agenata, pa se podaci čitaju i upisuj
 
 Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i otvoreni tragovi u [LOCIRANJE_SPOMENIKA.md](../../../docs/LOCIRANJE_SPOMENIKA.md), [PROVERA_RUSENJA_HRVATSKA.md](../../../docs/PROVERA_RUSENJA_HRVATSKA.md) i [DOPUNA_PODATAKA.md](../../../docs/DOPUNA_PODATAKA.md). Preuzeti izvori (knjige, registri, skenovi) čuvaju se u `izvori/` u korenu repozitorijuma, koja je u `.gitignore` (ne objavljuje se): `izvori/knjige/` (Zagreb 1981, Krapina 1966, Jokić 1986, Šibenik 1980, Hrženjak 2002 sa skenovima strana i indeks NOB) i `izvori/cg/`; tu idu i svi novi preuzeti izvori. U gitu je samo opis fascikle (`izvori/README.md`); na računaru gde fajlova nema ne preuzimaj sve ponovo, nego pitaj korisnika. Ranije jednokratne skripte su u `~/.claude/projects/<putanja repozitorijuma>/nazivi-alati`; otvori samo temu potrebnu za zadatak. Naziv dokumentacionog Markdown fajla prati naslov; pri promeni naslova preimenuj fajl i ažuriraj veze. Ponovljive postupke čitaj po potrebi:
 
-- [Lociranje, identitet i stanje](references/lociranje-i-stanje.md): pre prebacivanja radnog unosa na mapu ili razrešavanja starih podataka; odeljak o literaturi pri traženju knjiga, monografija i podataka o grobljima.
+- [Lociranje, identitet i stanje](references/lociranje-i-stanje.md): pre prebacivanja radnog unosa na mapu ili razrešavanja starih podataka; pri traženju i spajanju duplikata, naročito sa različitim godinama; odeljak o literaturi pri traženju knjiga, monografija i podataka o grobljima.
 - [Zbirne pretrage i fotografije](references/pretrage-i-fotografije.md): pri radu sa Partizanstvo API-jem, drugim izvorima, licencama i poreklom koordinata ili datumom snimka.
 - [Autori i posvete](references/autori-i-posvete.md): pri dopunjavanju autora i povezivanju sa Wikidatom.
 
@@ -43,6 +43,7 @@ Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i ot
 ## Postupci koji rade
 
 - **Nalaz se odmah upisuje, bez pitanja** (korisnik, 2026-10-19): svrha projekta je dodavanje podataka. Kad provera izvora nađe nove spomenike, nepovezane članke, fotografije ili druge pouzdane dopune, upiši ih odmah i javi šta je urađeno. Ne pitaj „da dodam?“ ni „da povežem?“. Pitaj samo kad je identitet ili izvor zaista sporan, ili kad posao prelazi pravila prema serverima i potrošnji.
+- **Potvrđen nalaz vodi do ispravke** (korisnik, 2026-10-20): u okviru odobrene provere podataka ispravi potvrđene greške i spoji potvrđene duplikate; spisak nalaza nije zamena za izvršenu ispravku. Ako korisnik izričito traži samo analizu ili predloge, poštuj taj obim. Otvorene kandidate odvoji od potvrđenih, a korisniku kratko javi šta je stvarno izmenjeno. Dokaze i nesaglasne stare vrednosti dopuni u postojećoj evidenciji odluka; u beleškama ostavi nerešene slučajeve, bez novog opširnog izveštaja za svaki prolaz.
 - **Svaki nov podatak se čuva, i kad je delimičan** (korisnik, 2026-10-19): slagalica se vremenom sklapa iz više izvora. Spomenik koji nemamo upisuje se sa onim što izvor daje (naziv, mesto, fotografija, posveta, adresa); bez tačke ide u `data/bez_lokacije.json`, a selo u izvoru daje približnu tačku. Nedostatak lokacije, godine ili autora nije razlog da se nalaz odbaci.
 
 - **Autor se upisuje punim imenom i prezimenom** (korisnik, 2026-10-19): inicijal („M. Ribnikar“) ili samo prezime je nepotpun podatak, a pronalaženje punog imena je prioritet. Kad izvor daje inicijal, prvo traži puno ime (isti autor u bazi, članak, registar), uz potvrdu da je to ista osoba; postupak je u [autorima i posvetama](references/autori-i-posvete.md#autori).

@@ -24,11 +24,7 @@ Spomenici na mapi su u dva fajla: `data/spomenici-istaknuti.json` (tačno locira
 
 Prolazi kad vrati izlazni status 0; stvarne greške i novi parovi na manje od 30 m vraćaju status 1. Poznati parovi (park i spomenik u njemu, grobnica i ploča na Senjaku) ostaju u ispisu, ali ne obaraju proveru: izuzeci su navedeni po tačnim ID-jevima u `POZNATI_BLISKI_PAROVI`, ne samo po ukupnom broju. Ako provera prijavi grešku, utvrdi da li je nastala tvojom izmenom; nemoj je automatski proglasiti poznatim izuzetkom.
 
-JSON se upisuje u formatu koji čuva čiste razlike u gitu (UTF-8, CRLF, uvlačenje 2):
-
-```python
-open(P, 'w', encoding='utf8', newline='').write(json.dumps(d, ensure_ascii=False, indent=2).replace('\n', '\r\n') + '\r\n')
-```
+Format JSON-a obezbeđuju funkcije iz `alati/zapis.py`: za spiskove koristi `sacuvaj_bazu` i `sacuvaj_bez_lokacije`, za ostale zajedničke JSON fajlove `upisi_json`. Zaključaj ceo ciklus čitanje–izmena–upis pomoću `zakljucani_podaci`; direktan upis preko `open(..., 'w')` ili `json.dump` zaobilazi ovu zaštitu. Ne formatiraj ručno izdvojene fajlove mape, detalja i prevoda.
 
 Posle upisa `git diff --stat` treba da pokaže samo redove koje si menjao; hiljade izmenjenih redova znače da je format pokvaren.
 
@@ -50,6 +46,8 @@ Prvi alat menja slike u `slike/spomenici/` i `slike/bez-lokacije/` bez ponovnog 
 Svaka stavka u `data/bez_lokacije.json` ima trajan `id`, jedinstven zajedno sa ID-jevima mape, i zadržava ga kad pređe na mapu (`python -I alati/prebaci.py <ulaz.json>`). Veze iz knjiga (`uparivanje`, `upareno`: `{"cilj": id}`) i izveštaja (`radniId`) zato ne treba pomerati pri prebacivanju ni brisanju drugih stavki. Kad stavku brišeš ili spajaš sa drugom, preusmeri veze na preživeli ID. Veza koja se pri prelasku sa rednih brojeva nije mogla potvrditi nosi `ciljNepouzdan: true`; ne briši tu oznaku bez novog dokaza. Istorijska polja poput `radniIndeksPre` ostaju kakva jesu, a redni brojevi se više ne upisuju.
 
 Uporedi rezultat sa snimkom pre promene: broj dodatih i uklonjenih stavki, ID-jeve, koordinate, GoogleCID, izvore i stanja. Promene moraju odgovarati odobrenom obimu i izveštaju. Integritet i testovi aplikacije ne potvrđuju identitet ili današnji opstanak spomenika; za to proveri pojedinačni dokaz i njegov datum po [postupku žetve](../spomenici-zetva/references/lociranje-i-stanje.md).
+
+Kod spajanja posebno proveri da svaki zadržani ID postoji tačno jednom u oba spiska zajedno, da su uklonjeni ID-jevi nestali i da nijedna aktivna veza ne vodi na njih. Broj suvišnih zapisa može biti veći od broja spojenih grupa. Proveri preneta polja, dogovorene godine, fotografije i potpise, preciznost tačaka i da su ostali zapisi nepromenjeni; uklonjene ID-jeve ne ostavljaj kao ključeve u izvorima, proverama, detaljima i prevodima. Istorijske snimke razlikuj od aktivnih veza. Zatim pokreni integritet i `git diff --check`, a provere aplikacije prema tabeli iznad.
 
 ## 2. Tipovi
 
