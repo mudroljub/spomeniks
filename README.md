@@ -27,7 +27,6 @@ POTPUNOST PODATKA:
 - uklanjati duplikate i greške koji su se uvukli u bazu
 
 UI
-- napraviti savremeni kriterijum za istaknute spomenike. videti koji su najpopularniji u svetu, najočuvaniji i najposećeniji.
 
 REFAKTOR
 - code review i uklanjanje tehničkog duga
