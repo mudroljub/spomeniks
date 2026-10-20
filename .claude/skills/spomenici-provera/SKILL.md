@@ -61,6 +61,8 @@ Kod je pisan bez tačke-zareza. Red koji počinje zagradom, npr. oznaka tipa `/*
 
 ## 3. Aplikacija
 
+**Testovi su pauzirani do odluke korisnika (2026-10-20): ne pokreći `node testovi/pokreni.mjs` ni njegove delove.** Proveru aplikacije radi snimkom ekrana (ispod). Kad korisnik ponovo dozvoli testove, važi sledeće.
+
 Prvo automatski testovi, u tri grupe u `testovi/`: `unit` (funkcije iz `utils/`, bez pregledača), `integracija` (stvarni podaci sa kodom i alati za upis) i `e2e` (glavni tokovi u Chrome-u bez prozora: mapa, prozor spomenika iz `#id`, pretraga, filteri, ruta, greške u aplikaciji; sam pokreće server i traje oko pola minuta):
 
 ```

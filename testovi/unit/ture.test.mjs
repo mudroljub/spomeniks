@@ -44,12 +44,13 @@ test('velika tura sa stalnim pragom ima samo istaknute spomenike, bez obzira na 
 })
 
 test('svaka vrsta ima zaseban prag, a podrazumevani uključuje statue bez bista', () => {
-  const vrste = ['spomen-ploca', 'groblje', 'bista', 'spomen-kuca', 'spomen-obelezje', 'statua', 'spomen-groblje', 'spomenik', 'muzej', 'spomen-park', 'istaknut']
+  const vrste = ['spomen-ploca', 'groblje', 'bista', 'reljef', 'spomen-kuca', 'spomen-obelezje', 'statua', 'spomen-groblje', 'spomenik', 'muzej', 'spomen-park', 'istaknut']
   const rows = vrste.map(v => spomenik(v, v === 'istaknut' ? 'spomenik' : v, {istaknut: v === 'istaknut'}))
   for (const [i, prag] of nivoiVaznosti.entries())
     assert.deepEqual(ids(izaberiStanice(rows, oblast, prag)), nivoiVaznosti.slice(0, i + 1))
   assert.equal(podrazumevaniPrag, 'statua')
-  assert.equal(nivoiVaznosti[nivoiVaznosti.indexOf('bista') + 1], 'spomen-kuca')
+  assert.equal(nivoiVaznosti[nivoiVaznosti.indexOf('bista') + 1], 'reljef')
+  assert.equal(nivoiVaznosti[nivoiVaznosti.indexOf('reljef') + 1], 'spomen-kuca')
   assert.equal(nivoiVaznosti[nivoiVaznosti.indexOf('spomen-kuca') + 1], 'spomen-obelezje')
   assert.ok(ids(izaberiStanice(rows, oblast, podrazumevaniPrag)).includes('statua'))
   assert.ok(ids(izaberiStanice(rows, oblast, podrazumevaniPrag)).includes('spomen-groblje'))

@@ -44,4 +44,6 @@ with zakljucani_podaci():
 
 U razvoju (`devMode` u `utils/podesavanja.js`) ne pravi se novo izdanje: ne pokreći `node alati/otisak.mjs`; otisak se računa samo pred objavu (README, OBJAVLJIVANJE; opis u `docs/ALATI.md`).
 
-Posle upisa proveri sopstvene ID-jeve i izmenjena polja i pokreni `python -I -B alati/integritet.py` i `git diff --check`. Za izmene koda ili alata za zapis pokreni `node testovi/pokreni.mjs` (unit i integracija); za promene interfejsa i `node testovi/pokreni.mjs e2e`. Svi e2e testovi traju nekoliko minuta, pa posle svake male izmene pokreni samo one za izmenjeni deo (`node testovi/pokreni.mjs e2e pretraga`, po delu naziva testa), a sve jednom, na kraju većeg posla.
+**Testovi su pauzirani do odluke korisnika (2026-10-20): niko ne pokreće `node testovi/pokreni.mjs` ni njegove delove.** Ostale provere ispod važe.
+
+Posle upisa proveri sopstvene ID-jeve i izmenjena polja i pokreni `python -I -B alati/integritet.py` i `git diff --check`. Kad korisnik ponovo dozvoli testove: za izmene koda ili alata za zapis pokreni `node testovi/pokreni.mjs` (unit i integracija); za promene interfejsa i `node testovi/pokreni.mjs e2e`. Svi e2e testovi traju nekoliko minuta, pa posle svake male izmene pokreni samo one za izmenjeni deo (`node testovi/pokreni.mjs e2e pretraga`, po delu naziva testa), a sve jednom, na kraju većeg posla.
