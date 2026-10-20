@@ -21,6 +21,7 @@ POTPUNOST PODATKA:
 - locirati spomenike bez lokacije i bez tačne lokacije ([lociranje](docs/LOCIRANJE_SPOMENIKA.md))
 - dodavati fotografije gde nedostaju ([obrađeni izvori fotografija](docs/IZVORI.md#commons-i-fotografije))
 - popunjavati druge atribute na osnovu dostupnih izvora ([dopuna podataka](docs/DOPUNA_PODATAKA.md)). prioritet su: autor, posveta, wiki...
+- potraži sliku za. Bista Zdravka Jovanovića, Joševa, Srbija, Autor: Vida Jocić
 
 KVALITET PODATAKA:
 - fotografije korisnika Google mapa nemaju licencu za ponovnu objavu: naći zamenu sa slobodnom licencom, pa ukloniti Google slike
@@ -28,7 +29,7 @@ KVALITET PODATAKA:
 
 UI
 - za vrste spomenika negde u aplikaciji koristimo jedninu negde množinu. prebaci svuda na jedninu da probam.
-- Search label se menja nakon stizanja glavnog paketa spomenika. to je loše. treba staviti loader umesto labele dok ne stignu svi, ili čak onemogućiti pretragu.
+- previše natrpano - text, linkovi, info... "D:\Pictures\Screenshots\Snimka zaslona 2026-10-20 170533.png"
 
 REFAKTOR
 - code review i uklanjanje tehničkog duga

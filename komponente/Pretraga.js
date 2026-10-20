@@ -50,6 +50,34 @@ style.textContent = `
     width: 36px;
   }
 
+  polje-pretraga :disabled {
+    cursor: progress;
+  }
+
+  polje-pretraga .dugme-filteri:disabled {
+    color: #aaa;
+  }
+
+  polje-pretraga .ucitava {
+    animation: okret 0.8s linear infinite;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    border-top-color: ${boja};
+    height: 16px;
+    left: 14px;
+    position: absolute;
+    top: 10px;
+    width: 16px;
+  }
+
+  polje-pretraga input:enabled + .ucitava {
+    display: none;
+  }
+
+  @keyframes okret {
+    to { transform: rotate(360deg); }
+  }
+
   polje-pretraga .dugme-filteri svg {
     height: 22px;
     width: 22px;
@@ -134,11 +162,15 @@ export default class Pretraga extends HTMLElement {
     this.polje.id = 'pretraga'
     this.polje.type = 'search'
     this.polje.enterKeyHint = 'search'
-    this.oznaciPolje()
 
     this.dugme = document.createElement('button')
     this.dugme.className = 'dugme-filteri'
     this.dugme.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg><span class="broj-filtera"></span>'
+    // do dolaska ostalih spomenika pretraga i filteri bi nasli samo istaknute, a broj u oznaci bi se promenio
+    this.polje.disabled = this.dugme.disabled = true
+    this.setAttribute('aria-busy', 'true')
+    this.ucitava = document.createElement('span')
+    this.ucitava.className = 'ucitava'
 
     this.rezultat = document.createElement('div')
     this.rezultat.className = 'rezultat'
@@ -164,20 +196,21 @@ export default class Pretraga extends HTMLElement {
   }
 
   connectedCallback() {
-    this.append(style, this.polje, this.dugme, this.rezultat)
+    this.append(style, this.polje, this.ucitava, this.dugme, this.rezultat)
   }
 
-  oznaciPolje() {
+  omoguci() {
+    this.polje.disabled = this.dugme.disabled = false
+    this.removeAttribute('aria-busy')
     this.polje.placeholder = `🔍 ${t('pretraga', this.stavke.length)}`
     this.polje.setAttribute('aria-label', t('pretraga', this.stavke.length))
   }
 
-  // spomenici koji stignu posle prvog crtanja ulaze u pretragu i filtere, uz zadrzanu frazu i izbor
+  // spomenici koji stignu posle prvog crtanja ulaze u pretragu i filtere
   dodaj(nove) {
     this.stavke = [...this.stavke, ...nove]
     this.filteri.dodaj(this.stavke)
     this.pocetnih = this.stavke.filter(({spomenik}) => this.filteri.odgovara(spomenik)).length
-    this.oznaciPolje()
     this.pretrazi()
   }
 

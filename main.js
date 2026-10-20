@@ -219,7 +219,7 @@ ucitajSpomenike('data/spomenici-istaknuti.json')
       pretraga.dodaj(nove)
       if (!otvoren) otvoriIzLinka(nove)
       document.documentElement.dataset.podaci = 'svi'
-    })
+    }).finally(() => pretraga.omoguci())
   })
   .catch(greska => {
     console.error(greska)

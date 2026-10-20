@@ -979,11 +979,13 @@ test('nepotpuno ucitavanje ne skracuje sacuvanu automatsku turu i daje tacnu por
     await pregledac.send('Page.navigate',{url:server.adresa})
     await sacekaj(`document.querySelector('polje-pretraga') && document.querySelector('planer-rute').definicije.length>0`,'prvi deo podataka')
     assert.deepEqual(await izvrsi(`JSON.parse(localStorage.getItem('spomenici-ruta'))`),sacuvana)
+    assert.equal(await izvrsi(`document.querySelector('polje-pretraga input').disabled`),true,'pretraga čeka ostale spomenike')
     // drugi deo se trazi tek malo posle prvog crtanja
     for(let i=0;i<100 && !zaustavljeni.length;i++)await sleep(50)
     for(const requestId of zaustavljeni)await pregledac.send('Fetch.fulfillRequest',{requestId,responseCode:503,body:''})
     for(let i=0;i<50 && !poruke.length;i++)await sleep(50)
     assert.match(poruke[0],/samo deo spomenika/)
+    assert.equal(await izvrsi(`document.querySelector('polje-pretraga input').disabled`),false,'bez ostalih pretražuju se istaknuti')
     assert.deepEqual(await izvrsi(`JSON.parse(localStorage.getItem('spomenici-ruta'))`),sacuvana)
   }finally{
     aktivno=false
