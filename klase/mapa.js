@@ -52,10 +52,11 @@ const najviseSuzenih = 400
 
 const najvazniji = marker => uvekVidljiv(marker) ? -1 : vaznostSpomenika(marker.spomen)
 
-// crtaju se samo obelisci na ekranu, sa pola ekrana rezerve za pomeranje, jer hiljade slika gusi slab telefon
+// crtaju se samo obelisci na ekranu, sa malom rezervom za pomeranje, jer hiljade slika gusi slab telefon;
+// veca rezerva je pri zumu skuplja od kratkog dopunjavanja ivica posle pomeranja
 // izdaleka su obelisci manji, da se manje preklapaju; ikonica pokazuje i oznake
 const osvezi = () => {
-  const granice = mapa.getBounds().pad(0.5)
+  const granice = mapa.getBounds().pad(0.15)
   const zum = mapa.getZoom()
   const naEkranu = []
   markeri.forEach(marker => {

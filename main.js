@@ -3,8 +3,6 @@ import Slika from './komponente/Slika.js'
 import Pretraga from './komponente/Pretraga.js'
 import Slajder from './komponente/Slajder.js'
 import Najblizi from './komponente/Najblizi.js'
-import Detalji from './komponente/Detalji.js'
-import Ruta from './komponente/Ruta.js'
 import Marker, {pomaciPribliznih} from './klase/Marker.js'
 import './komponente/PunEkran.js'
 import './komponente/Jezik.js'
@@ -20,9 +18,28 @@ import {devMode} from './utils/podesavanja.js'
 document.documentElement.lang = jezik
 
 const najblizi = new Najblizi()
-const ruta = new Ruta()
-document.querySelector('dugme-legenda').after(ruta, najblizi)
-const detalji = document.body.appendChild(new Detalji())
+document.querySelector('dugme-legenda').after(najblizi)
+
+// Prozor spomenika i ture se na pocetnom prikazu ne vide, pa se njihov kod preuzima tek posle prvog crtanja,
+// da na losoj vezi ne usporava biblioteku mape; izbor spomenika pre toga se zapamti i prikaze kad kod stigne.
+let javiPrvoCrtanje
+const prvoCrtanje = new Promise(resi => javiPrvoCrtanje = resi)
+let izborPre = null
+const pamtiIzbor = e => izborPre = e
+mapa.on('izbor', pamtiIzbor)
+const detalji = prvoCrtanje.then(() => import('./komponente/Detalji.js')).then(({default: Detalji}) => {
+  const prozor = document.body.appendChild(new Detalji())
+  mapa.off('izbor', pamtiIzbor)
+  if (izborPre?.marker) prozor.prikazi(izborPre.marker, izborPre.izRute)
+  return prozor
+})
+const ruta = prvoCrtanje.then(() => import('./komponente/Ruta.js')).then(({default: Ruta}) => {
+  const planer = new Ruta()
+  najblizi.before(planer)
+  return planer
+})
+// uvek sa trenutnim stanjem, pa redosled dolaska tura i spomenika nije bitan
+const osveziRutu = () => ruta.then(planer => planer.postavi(sveStavke, definicijeTura, potpuniPodaci))
 const slajder = new Slajder([])
 document.querySelector('#slajder-okvir').appendChild(slajder)
 let filtriraneStavke = []
@@ -119,9 +136,9 @@ const ucitajDodatak = (putanja, prazno) => ucitaj(putanja).catch(greska => {
 
 // prvo stizu spomenici vidljivi na pocetnim zumovima, da se mapa nacrta odmah, a ostali posle (alati/zapis.py);
 // priblizni su svi u drugom delu, pa im se pomaci racunaju zajedno
-// Veliki drugi deo se na pocetnom zumu ne vidi, pa se preuzima u pozadini cim se nacrtaju istaknuti
-// i ucitaju plocice pocetnog prikaza, da one dobiju celu brzinu veze; ne ceka nikakvu radnju korisnika.
-// Plocica koja ne stigne (bez signala) takodje zavrsava ucitavanje sloja.
+// Veliki drugi deo, autori, posvete i ture se na pocetnom prikazu ne vide, pa se preuzimaju u pozadini cim se
+// nacrtaju istaknuti i ucitaju plocice pocetnog prikaza, da one dobiju celu brzinu spore veze;
+// ne ceka se nikakva radnja korisnika. Plocica koja ne stigne (bez signala) takodje zavrsava ucitavanje sloja.
 const posleCrtanja = () => new Promise(resi => requestAnimationFrame(() => {
   const slojevi = []
   mapa.eachLayer(sloj => { if (sloj instanceof L.GridLayer && sloj.isLoading()) slojevi.push(sloj) })
@@ -131,15 +148,19 @@ let sveStavke = []
 let definicijeTura = []
 let spremni = false
 let potpuniPodaci = false
-ucitajDodatak('data/autori.json', {}).then(autori => {
-  detalji.postaviAutore(autori)
-})
-ucitajDodatak('data/posvete.json', {}).then(posvete => {
-  detalji.postaviPosvete(posvete)
-})
-ucitajDodatak('data/ture.json', []).then(ture => {
-  definicijeTura = ture
-  if (spremni) ruta.postavi(sveStavke, ture, potpuniPodaci)
+let javiCrtanje
+const nacrtano = new Promise(resi => javiCrtanje = resi)
+nacrtano.then(() => {
+  ucitajDodatak('data/autori.json', {}).then(autori => {
+    detalji.then(prozor => prozor.postaviAutore(autori))
+  })
+  ucitajDodatak('data/posvete.json', {}).then(posvete => {
+    detalji.then(prozor => prozor.postaviPosvete(posvete))
+  })
+  ucitajDodatak('data/ture.json', []).then(ture => {
+    definicijeTura = ture
+    if (spremni) osveziRutu()
+  })
 })
 addEventListener('hashchange', () => otvoriIzLinka(sveStavke))
 ucitaj('data/spomenici-istaknuti.json')
@@ -147,15 +168,17 @@ ucitaj('data/spomenici-istaknuti.json')
     const prve = spomenici.map(spomenik => praviStavku(spomenik))
     sveStavke = prve
     spremni = true
-    ruta.postavi(prve, definicijeTura, false)
+    osveziRutu()
     const pretraga = document.body.appendChild(new Pretraga(prve, render))
     const otvoren = otvoriIzLinka(prve)
-    return posleCrtanja().then(() => ucitaj('data/spomenici-ostali.json')).then(spomenici => {
+    requestAnimationFrame(javiPrvoCrtanje)
+    posleCrtanja().then(javiCrtanje)
+    return nacrtano.then(() => ucitaj('data/spomenici-ostali.json')).then(spomenici => {
       const pomaci = pomaciPribliznih(spomenici)
       const nove = spomenici.map(spomenik => praviStavku(spomenik, pomaci.get(spomenik)))
       sveStavke = [...prve, ...nove]
       potpuniPodaci = true
-      ruta.postavi(sveStavke, definicijeTura)
+      osveziRutu()
       pretraga.dodaj(nove)
       if (!otvoren) otvoriIzLinka(nove)
       document.documentElement.dataset.podaci = 'svi'
