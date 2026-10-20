@@ -2793,8 +2793,11 @@
     "mesto": "Ostrožac",
     "naziv": "Spomen-česma narodnom heroju Maksimu Kujundžiću",
     "nazivEn": "Fountain to commemorate NH Maksim Kujundžić",
+    "opis": {
+      "sh": "Česma iz 1955. posvećena Maksimu Kujundžiću i dalje je služila kao izvor vode, ali je spomen-ploča uklonjena. Kasnija ploča bez potvrđene memorijalne posvete nije dokaz obnove spomenika.",
+      "en": "The 1955 fountain dedicated to Maksim Kujundžić continued to supply water, but its commemorative plaque was removed. A later plaque without a confirmed commemorative dedication does not establish restoration of the memorial."
+    },
     "godina": "1955",
-    "posveta": "narodnom heroju Maksimu Kujundžiću",
     "stanje": "uklonjen",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
@@ -3083,20 +3086,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "dobro-spomenik-nob",
-    "koordinate": {
-      "lat": 43.783026,
-      "lng": 17.044098
-    },
-    "priblizno": true,
-    "mesto": "Dobro",
-    "naziv": "Spomenik NOB",
-    "godina": "1955",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "gorazde-spomen-kosturnica",
     "koordinate": {
       "lat": 43.662194,
@@ -3146,20 +3135,6 @@
     "godina": "1952",
     "stanje": "uklonjen",
     "vrsta": "groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "sarajevo-novi-grad-spomenik-partizanskom-aerodromu",
-    "koordinate": {
-      "lat": 43.871644,
-      "lng": 18.307425
-    },
-    "priblizno": true,
-    "mesto": "Sarajevo (Novi Grad)",
-    "naziv": "Spomenik partizanskom aerodromu",
-    "godina": "1957",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -6134,10 +6109,10 @@
     "naziv": "Spomen-ploča NOB",
     "nazivEn": "Memorial plaque",
     "opis": {
-      "sh": "Posvećeno palim borcima i žrtvama fašističkog terora.",
-      "en": "Dedicated to fallen fighters and victims of fascist terror."
+      "sh": "Posvećeno palim borcima i žrtvama fašističkog terora. Prvobitna bakarna ploča iz 1981. kod spomen-kuće Miladina Šurbata zamenjena je 1986; kasnija ploča je uklonjena.",
+      "en": "Dedicated to fallen fighters and victims of fascist terror. The original copper plaque from 1981 at the Miladin Šurbat Memorial House was replaced in 1986; the later plaque was removed."
     },
-    "godina": "1986",
+    "godina": "1981",
     "stanje": "uklonjen",
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina"
@@ -6149,10 +6124,10 @@
     "naziv": "Spomen-ploča Titovom sastanku",
     "nazivEn": "Tito’s Meeting Plaque",
     "opis": {
-      "sh": "Posvećeno sastanku koji je održao [Josip Broz Tito](Q9161) u januaru 1942. godine.",
-      "en": "Dedicated to the meeting held by [Josip Broz Tito](Q9161) in January 1942."
+      "sh": "Posvećeno sastanku koji je održao [Josip Broz Tito](Q9161) u januaru 1942. u kući Milana Đokića. Ploča je prvobitno postavljena 1947, zamenjena 1982, a kuća je uništena 1992. i sačuvani su samo temelji.",
+      "en": "Dedicated to the meeting held by [Josip Broz Tito](Q9161) in January 1942 at Milan Đokić’s house. The plaque was first installed in 1947 and replaced in 1982; the house was destroyed in 1992, leaving only its foundations."
     },
-    "godina": "1982",
+    "godina": "1947",
     "posveta": [
       "Q9161"
     ],
@@ -6477,7 +6452,7 @@
     "godina": "1981",
     "autor": "Oto Logo",
     "stanje": "uklonjen",
-    "vrsta": "spomen-obelezje",
+    "vrsta": "reljef",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -6699,7 +6674,11 @@
     "adresa": "In front of municipality building",
     "naziv": "Bista Miloša Ždere",
     "nazivEn": "Bust of NH Miloš Ždero",
-    "posveta": "Miloša Ždere",
+    "opis": {
+      "sh": "Bista je prvobitno bila na partizanskom groblju u Kupresu i postojala je pre 1960. Preneta je u Blagaj, odnosno Novo Selo, pre 1973, a kasnije je ukradena; sačuvano je postolje.",
+      "en": "The bust originally stood in the Partisan cemetery in Kupres and existed before 1960. It was moved to Blagaj, or Novo Selo, before 1973 and later stolen; its pedestal survives."
+    },
+    "godina": "pre 1960",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -6945,36 +6924,6 @@
     "posveta": "Marijana Primorca",
     "stanje": "uklonjen",
     "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "ljubuski-spomen-ploca-formiranju-mjesnog-ogranka-s",
-    "mesto": "Ljubuški",
-    "adresa": "House of Dela Boras (former)",
-    "naziv": "Spomen-ploča ogranku Socijalističke radničke partije",
-    "nazivEn": "Socialist Workers’ Party Branch Plaque",
-    "opis": {
-      "sh": "Posvećeno formiranju mesnog ogranka Socijalističke radničke partije 1919. godine.",
-      "en": "Dedicated to the formation of the local Socialist Workers’ Party branch in 1919."
-    },
-    "godina": "1959",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "ljubuski-spomen-ploca-na-mjestu-nekadasnje-narodne",
-    "mesto": "Ljubuški",
-    "adresa": "Post office, Hercega Stjepana Kosače 60",
-    "naziv": "Spomen-ploča nekadašnjoj Narodnoj biblioteci",
-    "nazivEn": "Former People’s Library Plaque",
-    "opis": {
-      "sh": "Obeležava mesto nekadašnje Narodne biblioteke osnovane 1935. godine.",
-      "en": "Marks the site of the former People’s Library founded in 1935."
-    },
-    "godina": "1959",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -7383,17 +7332,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "mostar-spomen-ploca-radnickom-samoupravljanju",
-    "mesto": "Mostar",
-    "adresa": "Tobacco factory (former); In storage",
-    "naziv": "Spomen-ploča radničkom samoupravljanju",
-    "nazivEn": "Plaque to commemorate workers' self-management",
-    "godina": "1960",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "mostar-bista-gojka-vukovica",
     "mesto": "Mostar",
     "naziv": "Bista Gojka Vukovića",
@@ -7443,17 +7381,6 @@
     ],
     "stanje": "uklonjen",
     "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "mostar-spomen-ploca-30-godisnjici-rkud-a-abrasevic",
-    "mesto": "Mostar",
-    "adresa": "Trg 1. maja, Archives of Herzegovina-Neretva Canton",
-    "naziv": "Spomen-ploča 30. godišnjici RKUD-a Abrašević",
-    "nazivEn": "Plaque to commemorate 30th anniversary of RKUD Abrašević",
-    "godina": "1956",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -7664,17 +7591,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "sarajevo-dobrinja-iv-bista-simona-bolivara",
-    "mesto": "Sarajevo (Dobrinja IV)",
-    "adresa": "Skender Kulenović elementary school, Bulevar Mimar Sinana bb.",
-    "naziv": "Bista Simona Bolivara",
-    "nazivEn": "Bust of Simon Bolivar",
-    "posveta": "Simona Bolivara",
-    "stanje": "uklonjen",
-    "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "sarajevo-brijesce-spomen-ploca-partizanskim-borcim",
     "mesto": "Sarajevo (Briješće)",
     "adresa": "Behaudin Selmanović elementary school, Viteška 6",
@@ -7729,9 +7645,12 @@
     "adresa": "Derviša Numića 70",
     "naziv": "Bista Alekse Bojovića Brka",
     "nazivEn": "Bust of Aleksa Bojović Brko",
-    "godina": "1974",
+    "opis": {
+      "sh": "Posvećeno Aleksi Bojoviću Brku; raniju bistu Save Bjeloševića zamenila je 1974. bista Pere Jelisića. Novija bista je nestala, a prema terenskom zapisu ostalo je samo postolje.",
+      "en": "Dedicated to Aleksa Bojović Brko; an earlier bust by Savo Bjelošević was replaced in 1974 by Pero Jelisić’s bust. The newer bust is missing; the field record reports only its pedestal surviving."
+    },
+    "godina": "pre 1974",
     "autor": "Pero Jelisić",
-    "posveta": "Alekse Bojovića Brka",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -7758,7 +7677,7 @@
     "godina": "1959",
     "autor": "Ranko Milanović",
     "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
+    "vrsta": "reljef",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -7806,9 +7725,12 @@
     "adresa": "Grbavica I elementary school",
     "naziv": "Bista Boriše Kovačevića",
     "nazivEn": "Bust of NH Boriša Kovačević",
-    "godina": "1977",
+    "opis": {
+      "sh": "Posvećeno Boriši Kovačeviću; raniju bistu Save Bjeloševića, nastalu pre 1974, zamenila je 1977. bista Luke Ilića. Novija bista više nije na mestu, a postolje je prema katalogu ostalo.",
+      "en": "Dedicated to Boriša Kovačević; Savo Bjelošević’s earlier bust, made before 1974, was replaced by Luka Ilić’s bust in 1977. The newer bust is missing; the catalogue records its pedestal as surviving."
+    },
+    "godina": "pre 1974",
     "autor": "Luka Ilić",
-    "posveta": "Boriše Kovačevića",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -7843,9 +7765,12 @@
     "adresa": "Bihaćka 2, Dom zdravlja Omer Maslić",
     "naziv": "Bista Omera Maslića",
     "nazivEn": "Bust of NH Omer Maslić",
+    "opis": {
+      "sh": "Bista Omera Maslića, rad Petra Krstića iz 1959, preneta je iz Kolodvorske ulice kod Doma zdravlja „Omer Maslić“ u Bihaćkoj ulici. Ukradena je 2018, a do avgusta 2019. uklonjeno je i postolje.",
+      "en": "Omer Maslić’s bust, made by Petar Krstić in 1959, was relocated from Kolodvorska Street to the Omer Maslić Health Centre on Bihaćka Street. It was stolen in 2018; its pedestal had also been removed by August 2019."
+    },
     "godina": "1959",
     "autor": "Petar Krstić",
-    "posveta": "Omera Maslića",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -8181,33 +8106,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "prijedor-spomenik-na-mjestu-bivseg-logora-za-inter",
-    "mesto": "Prijedor",
-    "adresa": "Ciglane",
-    "naziv": "Spomenik na mjestu bivšeg logora za interniranje",
-    "nazivEn": "Monument to commemorate site of former internment camp",
-    "godina": "1985",
-    "autor": "Alija Rešić",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "prijedor-spomen-ploca-formiranju-prve-celije-kpj-z-2",
-    "mesto": "Prijedor",
-    "adresa": "Ul. Kralja Petra I Oslobodioca, next to Radetića kula",
-    "naziv": "Spomen-ploča formiranju prve ćelije KPJ za Prijedor",
-    "nazivEn": "Plaque marking formation of the first KPJ cell for Prijedor",
-    "opis": {
-      "sh": "Obeležava formiranje prve ćelije KPJ za Prijedor 1940.",
-      "en": "Commemorates formation of the first KPJ cell for Prijedor in 1940."
-    },
-    "godina": "1959",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "ljubija-spomenik-ustanku-i-palim-rudarima",
     "mesto": "Ljubija",
     "adresa": "Town park",
@@ -8216,17 +8114,6 @@
     "godina": "1950",
     "stanje": "uklonjen",
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "ljubija-spomen-ploca-radnickom-strajku-1940-godine",
-    "mesto": "Ljubija",
-    "adresa": "Workers' club (former)",
-    "naziv": "Spomen-ploča radničkom štrajku 1940. godine",
-    "nazivEn": "Plaque to commemorate workers' strike of 1940",
-    "godina": "1980",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -11965,7 +11852,7 @@
     "godina": "1952",
     "autor": "Antun Augustinčić",
     "stanje": "uklonjen",
-    "vrsta": "spomen-obelezje",
+    "vrsta": "statua",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -12393,7 +12280,11 @@
     "adresa": "Town park",
     "naziv": "Partizansko groblje sa 66 palih boraca",
     "nazivEn": "Partisans' cemetery with 66 fallen fighters",
-    "godina": "1974",
+    "opis": {
+      "sh": "Groblje je postojalo pre 1960, a preuređeno je uz dodatak velike skulpture 1974. Memorijal je uništen 1995. godine.",
+      "en": "The cemetery existed before 1960 and was reorganized with a large sculpture in 1974. The memorial was destroyed in 1995."
+    },
+    "godina": "pre 1960",
     "stanje": "uklonjen",
     "vrsta": "groblje",
     "drzava": "Bosnia and Herzegovina"
@@ -12441,18 +12332,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "puracic-spomenik-palim-borcima-nor-a",
-    "mesto": "Puračić",
-    "adresa": "Village square",
-    "naziv": "Spomenik palim borcima NOR-a",
-    "nazivEn": "Monument to Fallen Fighters of the NOR",
-    "godina": "1949",
-    "autor": "Slavko Samek",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "osve-spomenik-67-zrtava-fasistickog-terora",
     "mesto": "Ošve",
     "naziv": "Spomenik 67 žrtava fašističkog terora",
@@ -12493,6 +12372,10 @@
     "adresa": "Rajlovac Barracks, Safeta Zajke bb.",
     "naziv": "Spomenik partizanskom aerodromu",
     "nazivEn": "Monument to Partisan airbase",
+    "opis": {
+      "sh": "Nekadašnje obeležje partizanskom aerodromu napravljeno je 1957. od avionskog krila u kasarni Rajlovac. Uništeno je pre 2009. godine; tačan nekadašnji položaj u krugu kasarne nije potvrđen.",
+      "en": "The former Partisan airfield memorial was made from an aircraft wing in 1957 at Rajlovac Barracks. It was destroyed before 2009; its exact former position within the barracks is unconfirmed."
+    },
     "godina": "1957",
     "stanje": "uklonjen",
     "vrsta": "spomen-obelezje",
@@ -13082,21 +12965,7 @@
     "godina": "1961",
     "autor": "Pavao Perić",
     "stanje": "uklonjen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "gornje-hrasno-spomen-kosturnica-zrtava-fasistickog",
-    "koordinate": {
-      "lat": 42.958349,
-      "lng": 17.908829
-    },
-    "mesto": "Gornje Hrasno",
-    "naziv": "Spomen-kosturnica žrtava fašističkog terora",
-    "nazivEn": "Memorial ossuary of Victims of Fascist Terror",
-    "godina": "1970",
-    "stanje": "uklonjen",
-    "vrsta": "groblje",
+    "vrsta": "statua",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -13122,6 +12991,20 @@
     "mesto": "Crkveno",
     "naziv": "Spomenik palim borcima NOB",
     "nazivEn": "Monument to fallen fighters of the NOB",
+    "stanje": "uklonjen",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "novi-travnik-spomenik-narodnom-heroju-djuri-pucaru",
+    "mesto": "Novi Travnik",
+    "naziv": "Spomenik narodnom heroju Đuri Pucaru Starom",
+    "nazivEn": "Monument to NH Đuro Pucar Stari",
+    "opis": {
+      "sh": "Katalog ga beleži kao nekadašnje obeležje Đuri Pucaru Starom. Današnji „Novotravnički čekić“ obnovljen je i u martu 2025. dobio je novu ploču o industrijskoj prošlosti grada, bez ranije lične posvete.",
+      "en": "The catalogue records it as a former memorial to Đuro Pucar Stari. The present “Novi Travnik Hammer” was restored and received a new plaque about the town’s industrial past in March 2025, without the former personal dedication."
+    },
+    "godina": "posle 1980",
     "stanje": "uklonjen",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"

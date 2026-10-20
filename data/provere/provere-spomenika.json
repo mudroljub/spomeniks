@@ -309,6 +309,13 @@
       "napomena": "Martinci; obelisk visok 8 m, podignut 1975. Prethodna približna tačka pripadala je pogrešnom naselju; tačka spomenika nije potvrđena."
     }
   },
+  "mala-novska-rujiska-bista-nepoznatog-narodnog-hero": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/novigrad",
+      "ishod": "Nema potvrđene adrese ni konkretne tačke. Katalog i dodatne mrežne pretrage nisu potvrdili objekat na ranijem približnom markeru."
+    }
+  },
   "mala-vrbica-spomenik-palim-u-oslobodilackim-ratovi": {
     "proveraLokacije": {
       "datum": "2026-10-20",
@@ -333,6 +340,13 @@
       "napomena": "Na trgu u naselju Mladenovac; skulptura visoka 4,5 m, otkrivena oktobra 1963. Mogući isti spomenik sa posvetama 1914-1918 i 1941-1945; fotografija potvrđuje dva rata, ali ne godinu otkrivanja niti konačno uparivanje."
     }
   },
+  "mliniste-muzej-partizanske-pruge": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "spomenicinob.info/mrkonjicgrad; dinarskogorje.com/kurozeb-kod-mliniscaronta.html",
+      "ishod": "Nepotvrđena lokacija zgrade; ranija tačka je centar naselja. Muzej ne funkcioniše."
+    }
+  },
   "muhovci-spomenik-strijeljanim-partizanima": {
     "proveraOpstanka": {
       "datum": "2026-10-16",
@@ -340,6 +354,13 @@
       "ishod": "nepotvrđen",
       "razlog": "Nedatirana reprodukcija štampane fotografije. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
       "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
+    }
+  },
+  "nova-kasaba-bista-hasana-brkica": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/milici",
+      "ishod": "Nema potvrđene adrese ni konkretne tačke. Katalog i dodatne mrežne pretrage nisu potvrdili objekat na ranijem približnom markeru."
     }
   },
   "piskavica-spomen-kosturnica-palih-boraca": {
@@ -529,6 +550,34 @@
       "izvor": "https://min-kulture.gov.hr/izdvojeno/kulturna-bastina/hrvatsko-vijece-za-kulturna-dobra/biljeske-sa-sjednica-21998/21998",
       "ishod": "istorijska-adresa-potvrđena-muzej-prestao-s-radom",
       "napomena": "Kapucinska 20 je sadašnja adresa, a Bihaćka 20 stara; raniji izvor navodi Ulicu V zemaljske konferencije 20. Evidencija uklonjenih spomenika navodi prestanak rada muzeja; tačne koordinate zgrade nisu proverene."
+    }
+  },
+  "novi-grad-sarajevo-spomen-kosturnica": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "spomenicinob.info i sačuvani Partisan Memorials Wiki; dopunske pretrage gde su dozvoljene",
+      "ishod": "Opis već dostupnog izvora izričito kaže da tačka možda predstavlja ruševinu zgrade, bez potvrde kosturnice; groblje bez slike nije dodatno istraživano na mreži."
+    }
+  },
+  "gornja-dubica-bista-ivana-ilaka": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "spomenicinob.info i sačuvani Partisan Memorials Wiki; dopunske pretrage gde su dozvoljene",
+      "ishod": "Katalog nema adresu, a mrežna pretraga nije našla konkretnu tačku; oznaka sela ne dokazuje lokaciju biste."
+    }
+  },
+  "pelagicevo-partizansko-groblje": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "spomenicinob.info i sačuvani Partisan Memorials Wiki; dopunske pretrage gde su dozvoljene",
+      "ishod": "Već dostupan opis navodi praznu livadu i samo istorijski kartografski marker, bez potvrde tačke današnjeg groblja; ne zaključuje se da su svi ostaci preneti."
+    }
+  },
+  "puharska-bista-osmana-dzafica": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "spomenicinob.info i sačuvani Partisan Memorials Wiki; dopunske pretrage gde su dozvoljene",
+      "ishod": "Katalog nema adresu ni fotografiju; dopunska pretraga nalazi istoimeno kulturno društvo, ali ne potvrđuje bistu na tački sela."
     }
   }
 }
