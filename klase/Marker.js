@@ -66,14 +66,26 @@ export default class Marker {
     this.najmanjiZum = najmanjiZum(spomen)
     this.razmera = spomen.istaknut ? 1.25 : razmeraVrste[spomen.vrsta] || 1
     this.izgled = izgledMarkera(spomen)
-    this.element = L
-      .marker([spomen.koordinate.lat, spomen.koordinate.lng], {
-        icon: dajIkonicu(this.izgled, 1, '', pomak, {priblizno: spomen.priblizno}),
-        zIndexOffset: slojSpomenika(spomen),
-      })
-      .on('click', () => this.otvoriProzor())
-    this.slojevi = [this.element]
-    if (imaMis) this.element.bindTooltip(() => opis(spomen), {direction: 'top', className: 'naziv-spomenika'})
+    this.pozicija = L.latLng(spomen.koordinate.lat, spomen.koordinate.lng)
+  }
+
+  // oznaka na mapi se pravi tek kad spomenik prvi put treba nacrtati, jer se vecina nikad ne prikaze
+  get element() {
+    if (!this.oznakaNaMapi) {
+      this.oznakaNaMapi = L
+        .marker(this.pozicija, {
+          icon: dajIkonicu(this.izgled, 1, '', this.pomak, {priblizno: this.spomen.priblizno}),
+          zIndexOffset: slojSpomenika(this.spomen),
+        })
+        .on('click', () => this.otvoriProzor())
+      if (imaMis) this.oznakaNaMapi.bindTooltip(() => opis(this.spomen), {direction: 'top', className: 'naziv-spomenika'})
+    }
+    return this.oznakaNaMapi
+  }
+
+  // nenacrtan spomenik nema sta da ukloni sa mape
+  get slojevi() {
+    return this.oznakaNaMapi ? [this.oznakaNaMapi] : []
   }
 
   // velicina zavisi od zuma, a izgled od oznaka
@@ -104,7 +116,7 @@ export default class Marker {
   }
 
   dajPoziciju() {
-    return this.element.getLatLng()
+    return this.pozicija
   }
 
   otvoriProzor() {

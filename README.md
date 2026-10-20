@@ -28,6 +28,8 @@ KVALITET PODATAKA:
 
 UI
 - za vrste spomenika negde u aplikaciji koristimo jedninu negde množinu. prebaci svuda na jedninu da probam.
+- Search label se menja nakon stizanja glavnog paketa spomenika. to je loše. treba staviti loader umesto labele dok ne stignu svi, ili čak onemogućiti pretragu.
+- mala Spomen-kuća, često zapuštena, ne treba da ima istu važnost kao muzej. osmisliti novu vrstu
 
 REFAKTOR
 - uklanjanje tehničkog duga

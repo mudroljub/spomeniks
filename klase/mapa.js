@@ -71,7 +71,7 @@ const osvezi = () => {
   naEkranu.forEach(marker => {
     const pomak = marker.spomen.priblizno ? raspored.pomeri(marker.okvirNaEkranu(zum)) : [0, 0]
     marker.osvezi(zum, izabran, pomak)
-    marker.slojevi.forEach(s => sloj.addLayer(s))
+    sloj.addLayer(marker.element)
   })
 }
 
