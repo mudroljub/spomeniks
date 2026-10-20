@@ -175,11 +175,8 @@ export default class Slajder extends HTMLElement {
   }
 
   dodajDogadjaje() {
-    this.mrdajLevo = this.mrdajLevo.bind(this)
-    this.mrdajDesno = this.mrdajDesno.bind(this)
-
-    this.strelicaLeva.addEventListener('click', this.mrdajDesno)
-    this.strelicaDesna.addEventListener('click', this.mrdajLevo)
+    this.strelicaLeva.addEventListener('click', () => this.mrdaj(-1))
+    this.strelicaDesna.addEventListener('click', () => this.mrdaj(1))
 
     this.traka.addEventListener('pointerdown', e => {
       this.prevuceno = false
@@ -231,19 +228,10 @@ export default class Slajder extends HTMLElement {
       })
   }
 
-  mrdaj(jelDesno) {
+  // smer -1 vraca na ranije slike, a 1 vodi na sledece
+  mrdaj(smer) {
     this.dodajSlikeAkoTreba()
-
-    const pomeraj = Math.round(this.traka.clientWidth / 2)
-    this.traka.scrollBy({left: jelDesno ? -pomeraj : pomeraj, behavior: 'smooth'})
-  }
-
-  mrdajDesno() {
-    this.mrdaj(true)
-  }
-
-  mrdajLevo() {
-    this.mrdaj(false)
+    this.traka.scrollBy({left: smer * Math.round(this.traka.clientWidth / 2), behavior: 'smooth'})
   }
 }
 

@@ -2319,12 +2319,16 @@
   {
     "id": "bijeljina-rodno-mjesto-narodnog-heroja-hamze-hamzi",
     "mesto": "Bijeljina",
-    "naziv": "Rodno mjesto narodnog heroja Hamze Hamzića",
-    "nazivEn": "Birthplace of NH Hamzo Hamzić",
-    "stanje": "uklonjen",
-    "vrsta": "muzej",
+    "naziv": "Spomen-kuća Hamze Hamzića",
+    "nazivEn": "Hamzo Hamzić Memorial House",
+    "stanje": "srusen",
+    "vrsta": "spomen-kuca",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Atinska 19"
+    "adresa": "Atinska 19",
+    "opis": {
+      "sh": "U rodnoj kući Hamze Hamzića nalazila se spomen-soba, od 1982. pod okriljem Muzeja Semberije. Prema katalogu, zgrada je srušena.",
+      "en": "Hamzo Hamzić’s birthplace housed a memorial room, under the Semberija Museum’s care from 1982. According to the catalogue, the building has been demolished."
+    }
   },
   {
     "id": "bijeljina-spomen-ploca-sastancima-odrzanim-u-kuci",
@@ -2788,10 +2792,14 @@
     "naziv": "Muzej „Crvena pravda“",
     "nazivEn": "Crvena Pravda museum",
     "godina": "1980-ih",
-    "stanje": "uklonjen",
+    "stanje": "zatvoren",
     "vrsta": "muzej",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Ul. Galac; Building now used by veterans' association"
+    "adresa": "Ulica Galac; nekadašnja muzejska zgrada",
+    "opis": {
+      "sh": "Muzej je osnovan tokom 1980-ih. Prema katalogu, postavka više ne postoji, a sačuvanu zgradu koristi boračko udruženje.",
+      "en": "The museum was established in the 1980s. According to the catalogue, the exhibition no longer exists and a veterans’ association uses the surviving building."
+    }
   },
   {
     "id": "batkovic-spomen-ploca-oblasnoj-konferenciji-skoj-a",
@@ -3229,10 +3237,14 @@
   {
     "id": "bileca-zgrada-bivseg-politickog-zatvora",
     "mesto": "Bileća",
-    "naziv": "Zgrada bivšeg političkog zatvora",
-    "nazivEn": "Building of former political prison",
-    "vrsta": "muzej",
-    "drzava": "Bosnia and Herzegovina"
+    "naziv": "Bivši politički zatvor",
+    "nazivEn": "Former Political Prison",
+    "vrsta": "spomen-kuca",
+    "drzava": "Bosnia and Herzegovina",
+    "opis": {
+      "sh": "Zgrada bivšeg političkog zatvora evidentirana kao memorijalna kuća. Nije potvrđeno da danas ima muzejsku postavku ili mogućnost posete.",
+      "en": "The former political prison building, recorded as a memorial house. A current museum exhibition or visitor access has not been confirmed."
+    }
   },
   {
     "id": "bileca-spomenik-clanovima-kpj-interniranim-u-zatvo",
@@ -4284,7 +4296,7 @@
   },
   {
     "id": "grmec-mountain-spomenik-zrtvama-fasistickog-terora",
-    "mesto": "Grmeč mountain",
+    "mesto": "Grmeč",
     "naziv": "Spomenik žrtvama fašističkog terora",
     "nazivEn": "Monument to Victims of Fascist Terror",
     "godina": "1983",
@@ -4992,7 +5004,7 @@
   },
   {
     "id": "grmec-mountain-spomenik-zrtvama-fasistickog-terora-2",
-    "mesto": "Grmeč mountain",
+    "mesto": "Grmeč",
     "naziv": "Spomenik žrtvama fašističkog terora",
     "nazivEn": "Monument to Victims of Fascist Terror",
     "godina": "1983",
@@ -6672,7 +6684,11 @@
     "nazivEn": "Memorial room to commemorate fallen fighters",
     "vrsta": "muzej",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Local museum"
+    "adresa": "Lokalni muzej; spomen-soba planirana 1989, bez potvrde otvaranja",
+    "opis": {
+      "sh": "Spomen-soba palim borcima pripremana je za otvaranje 1989. godine u lokalnom muzeju. Nije potvrđeno da je postavka otvorena niti da danas postoji.",
+      "en": "A memorial room dedicated to fallen fighters was being prepared for opening at the local museum in 1989. Its opening and present-day existence have not been confirmed."
+    }
   },
   {
     "id": "capljina-spomen-ploca-palim-tenkistima",
@@ -9663,18 +9679,8 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "ozren-hill-spomenik-na-mjestu-gdje-je-ranjen-tito",
-    "mesto": "Ozren hill",
-    "naziv": "Spomenik na mjestu gdje je ranjen Tito",
-    "nazivEn": "Monument to mark location where Tito was wounded",
-    "godina": "1987",
-    "autor": "Miodrag Živković",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "zelengora-mountain-spomen-ploca-logorovanju-vrhovn",
-    "mesto": "Zelengora mountain",
+    "mesto": "Zelengora",
     "naziv": "Spomen-ploča logorovanju Vrhovnog štaba",
     "nazivEn": "Plaque to mark encampment of the Supreme Command",
     "vrsta": "spomen-ploca",
@@ -9683,26 +9689,12 @@
   },
   {
     "id": "zelengora-mountain-logoriste-vrhovnog-staba",
-    "mesto": "Zelengora mountain",
+    "mesto": "Zelengora",
     "naziv": "Logorište Vrhovnog štaba",
     "nazivEn": "Encampment of the Supreme Command",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Mrčin Koliba"
-  },
-  {
-    "id": "ljubin-grob-spomenik-borbi-druge-cete-treceg-batal",
-    "mesto": "Ljubin Grob",
-    "naziv": "Spomenik borbi Druge čete Četvrte proleterske brigade",
-    "nazivEn": "Monument to the battle of the Second Company, Fourth Proletarian Brigade",
-    "opis": {
-      "sh": "Posvećeno borbi Druge čete Trećeg bataljona Četvrte proleterske brigade.",
-      "en": "Dedicated to the battle of the 2nd Company of the 3rd Battalion of the 4th Proletarian Brigade."
-    },
-    "godina": "1987",
-    "autor": "Miodrag Živković",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "priboj-spomen-ploca-na-mjestu-smrti-narodnog-heroj",
@@ -9733,12 +9725,16 @@
   },
   {
     "id": "kosur-hill-mjesto-velikog-bojista",
-    "mesto": "Košur hill",
-    "naziv": "Mjesto velikog bojišta",
-    "nazivEn": "Site of major battlefield",
+    "mesto": "Košur",
+    "naziv": "Spomen-obilježje na Košuru",
+    "nazivEn": "Košur Memorial",
     "godina": "pre 1975",
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "opis": {
+      "sh": "Katalog beleži obeležje podignuto pre 1975. u sećanje na bojište na Košuru; njegov oblik, tačna lokacija i današnje stanje nisu potvrđeni.",
+      "en": "The catalogue records a memorial created before 1975 commemorating the battlefield at Košur; its physical form, precise location and present condition have not been confirmed."
+    }
   },
   {
     "id": "vrbnica-spomen-ploca-na-mjestu-gdje-je-ivan-goran",
@@ -9757,24 +9753,18 @@
     "adresa": "House of Rade Vujičić (former)"
   },
   {
-    "id": "dragos-sedlo-spomenik-na-mjestu-partizanske-bolnic",
-    "mesto": "Dragoš Sedlo",
-    "naziv": "Spomenik na mjestu Partizanske bolnice",
-    "nazivEn": "Monument to mark site of Partisans' Hospital",
-    "godina": "1987",
-    "autor": "Miodrag Živković",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "ravno-borje-mjesto-partizanske-bolnice",
     "mesto": "Ravno Borje",
-    "naziv": "Mjesto partizanske bolnice",
-    "nazivEn": "Site of Partisans' Hospital",
+    "naziv": "Spomen-obilježje partizanskoj bolnici",
+    "nazivEn": "Partisan Hospital Memorial",
     "godina": "pre 1975",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "In woodland"
+    "adresa": "U šumi",
+    "opis": {
+      "sh": "Katalog beleži obeležje podignuto pre 1975. u sećanje na partizansku bolnicu u šumi na Ravnom borju; njegov oblik, tačna lokacija i današnje stanje nisu potvrđeni.",
+      "en": "The catalogue records a memorial created before 1975 commemorating a Partisan hospital in woodland at Ravno Borje; its physical form, precise location and present condition have not been confirmed."
+    }
   },
   {
     "id": "borovno-spomen-ploca-na-mjestu-gdje-su-poginuli-na",
@@ -9791,35 +9781,47 @@
   {
     "id": "mrkalj-klade-mjesto-logorovanja-vrhovnog-staba",
     "mesto": "Mrkalj Klade",
-    "naziv": "Mjesto logorovanja Vrhovnog štaba",
-    "nazivEn": "Site of encampment of the Supreme Command",
+    "naziv": "Spomen-obilježje Vrhovnom štabu",
+    "nazivEn": "Supreme Command Memorial",
     "godina": "pre 1975",
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "opis": {
+      "sh": "Katalog beleži obeležje podignuto pre 1975. u sećanje na logorovanje Vrhovnog štaba na Mrkalj kladama; njegov oblik, tačna lokacija i današnje stanje nisu potvrđeni.",
+      "en": "The catalogue records a memorial created before 1975 commemorating the Supreme Command’s encampment at Mrkalj Klade; its physical form, precise location and present condition have not been confirmed."
+    }
   },
   {
     "id": "vucevo-mountain-mjesto-partizanske-bolnice",
-    "mesto": "Vučevo mountain",
-    "naziv": "Mjesto partizanske bolnice",
-    "nazivEn": "Site of Partisans' Hospital",
+    "mesto": "Vučevo",
+    "naziv": "Spomen-obilježje bolnici kod Suhe gore",
+    "nazivEn": "Suha Gora Hospital Memorial",
     "godina": "pre 1975",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Suha Gora Koliba (former)"
+    "adresa": "Nekadašnja koliba Suha Gora",
+    "opis": {
+      "sh": "Katalog beleži obeležje podignuto pre 1975. u sećanje na partizansku bolnicu kod nekadašnje kolibe Suha Gora na Vučevu; njegov oblik, tačna lokacija i današnje stanje nisu potvrđeni.",
+      "en": "The catalogue records a memorial created before 1975 commemorating a Partisan hospital by the former Suha Gora hut on Vučevo; its physical form, precise location and present condition have not been confirmed."
+    }
   },
   {
     "id": "vucevo-mountain-mjesto-partizanske-bolnice-2",
-    "mesto": "Vučevo mountain",
-    "naziv": "Mjesto partizanske bolnice",
-    "nazivEn": "Site of Partisans' Hospital",
+    "mesto": "Vučevo",
+    "naziv": "Spomen-obilježje bolnici kod Duže kolibe",
+    "nazivEn": "Duža Koliba Hospital Memorial",
     "godina": "pre 1975",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Duža Koliba (former)"
+    "adresa": "Nekadašnja Duža koliba",
+    "opis": {
+      "sh": "Katalog beleži obeležje podignuto pre 1975. u sećanje na partizansku bolnicu kod nekadašnje Duže kolibe na Vučevu; njegov oblik, tačna lokacija i današnje stanje nisu potvrđeni.",
+      "en": "The catalogue records a memorial created before 1975 commemorating a Partisan hospital by the former Duža Koliba hut on Vučevo; its physical form, precise location and present condition have not been confirmed."
+    }
   },
   {
     "id": "maglic-mountain-spomen-ploca-bici-na-sutjesci",
-    "mesto": "Maglić mountain",
+    "mesto": "Maglić",
     "naziv": "Spomen-ploča bici na Sutjesci",
     "nazivEn": "Plaque to commemorate the Battle of Sutjeska",
     "godina": "1973",
@@ -10260,13 +10262,13 @@
     "naziv": "Spomen-soba Josipa Broza Tita",
     "nazivEn": "Josip Broz Tito Memorial Room",
     "opis": {
-      "sh": "Posvećeno boravku Josipa Broza Tita 1942. godine.",
-      "en": "Commemorates the stay of Josip Broz Tito in 1942."
+      "sh": "Spomen-soba u starom mlinu bila je posvećena boravku Josipa Broza Tita 1942. godine. Prema katalogu, mlin je u ruševinama.",
+      "en": "A memorial room in the old mill commemorated Josip Broz Tito’s stay in 1942. The catalogue reports that the mill is in ruins."
     },
-    "stanje": "uklonjen",
+    "stanje": "rusevine",
     "vrsta": "muzej",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Old mill"
+    "adresa": "Stari mlin"
   },
   {
     "id": "pribelja-spomen-ploca-palim-borcima-i-zrtvama-fasi",
@@ -12408,7 +12410,11 @@
     "stanje": "uklonjen",
     "vrsta": "muzej",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Ul. Svetog Luke"
+    "adresa": "Ulica Svetog Luke; uklonjene replike baraka",
+    "opis": {
+      "sh": "Replike baraka Vrhovnog štaba podignute su 1948. godine, a prema katalogu uklonjene tokom 1950-ih.",
+      "en": "Replicas of the Supreme Headquarters barracks were built in 1948 and, according to the catalogue, removed during the 1950s."
+    }
   },
   {
     "id": "jajce-spomen-ploca-boravku-josipa-broza-tita",
@@ -13639,7 +13645,7 @@
   },
   {
     "id": "prenj-mountain-spomen-ploca-borbama-koje-je-vodio",
-    "mesto": "Prenj mountain",
+    "mesto": "Prenj",
     "naziv": "Spomen-ploča borbama Mostarskog bataljona",
     "nazivEn": "Mostar Battalion battles plaque",
     "opis": {
@@ -14738,7 +14744,7 @@
   },
   {
     "id": "cincar-mountain-range-spomenik-komandnom-mjestu-ba",
-    "mesto": "Cincar mountain range",
+    "mesto": "Cincar",
     "naziv": "Spomenik komandnom mjestu bataljona „Vojin Zirojević“",
     "nazivEn": "Monument marking the Vojin Zirojević Battalion command post",
     "opis": {
@@ -14752,7 +14758,7 @@
   },
   {
     "id": "cincar-mountain-range-spomenik-komandnom-mjestu-ob",
-    "mesto": "Cincar mountain range",
+    "mesto": "Cincar",
     "naziv": "Spomenik komandnom mjestu tehničkog komiteta KPJ",
     "nazivEn": "Monument marking the KPJ technical committee command post",
     "opis": {
@@ -16207,7 +16213,11 @@
     "stanje": "uklonjen",
     "vrsta": "muzej",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Community Hall"
+    "adresa": "Društveni dom; spomen-soba uklonjena 1992.",
+    "opis": {
+      "sh": "Spomen-soba palim borcima i žrtvama fašističkog terora uređena je u društvenom domu 1985, a prema katalogu uklonjena 1992. godine.",
+      "en": "The memorial room dedicated to fallen fighters and victims of fascist terror was created in the community hall in 1985 and, according to the catalogue, removed in 1992."
+    }
   },
   {
     "id": "modrica-bista-vjekoslava-bakulica-2",
@@ -16460,7 +16470,7 @@
   },
   {
     "id": "cvrsnica-mountain-spomen-ploca-konferenciji-kpj-19",
-    "mesto": "Čvrsnica mountain",
+    "mesto": "Čvrsnica",
     "naziv": "Spomen-ploča konferenciji KPJ 1938. godine",
     "nazivEn": "Plaque to commemorate KPJ conference in 1938",
     "godina": "1968",
@@ -18858,11 +18868,16 @@
   },
   {
     "id": "spirici-stamparija-borba",
-    "mesto": "Špirići",
-    "naziv": "Štamparija „Borba“",
-    "nazivEn": "\"Borba\" printing house",
-    "vrsta": "muzej",
-    "drzava": "Bosnia and Herzegovina"
+    "mesto": "Drinić (Špirići)",
+    "naziv": "Spomen-kuća štamparije „Borba“",
+    "nazivEn": "Borba Printing House Memorial",
+    "vrsta": "spomen-kuca",
+    "drzava": "Bosnia and Herzegovina",
+    "adresa": "Kuća Drage Kecmana u zaseoku Špirići kod Drinića",
+    "opis": {
+      "sh": "U kući Drage Kecmana u zaseoku Špirići kod Drinića tokom rata radila je štamparija lista „Borba“. Katalog je evidentira kao spomen-kuću; današnja postavka i dostupnost nisu potvrđene.",
+      "en": "During the war, the newspaper Borba was printed in Drago Kecman’s house in Špirići near Drinić. The catalogue records a memorial house; a present-day exhibition and visitor access have not been confirmed."
+    }
   },
   {
     "id": "petrovo-spomen-ploca-pripremama-za-ustanak",
@@ -19319,7 +19334,7 @@
   },
   {
     "id": "projsa-mountain-spomenik-na-mjestu-staba-ii-knop-o",
-    "mesto": "Projsa mountain",
+    "mesto": "Projsa",
     "naziv": "Spomenik na mjestu štaba II KNOP odreda",
     "nazivEn": "Monument at site of HQ of II KNOP Detachment",
     "godina": "pre 1968",
@@ -19389,7 +19404,7 @@
   },
   {
     "id": "brusovac-mountain-spomenik-na-mjestu-staba-iv-bata",
-    "mesto": "Brusovac mountain",
+    "mesto": "Brusovac",
     "naziv": "Spomenik na mjestu štaba IV bataljona II KNOP odreda",
     "nazivEn": "Monument at location of HQ of IV Battalion of II KNOP Detachment",
     "vrsta": "spomen-obelezje",
@@ -21357,12 +21372,16 @@
   {
     "id": "lusci-palanka-rodno-mjesto-sime-miljusa",
     "mesto": "Lušci Palanka",
-    "naziv": "Rodno mjesto Sime Miljuša",
-    "nazivEn": "Birthplace of Simo Miljuš",
+    "naziv": "Spomen-kuća Sime Miljuša",
+    "nazivEn": "Simo Miljuš Memorial House",
     "godina": "pre 1985",
-    "stanje": "uklonjen",
-    "vrsta": "muzej",
-    "drzava": "Bosnia and Herzegovina"
+    "stanje": "rusevine",
+    "vrsta": "spomen-kuca",
+    "drzava": "Bosnia and Herzegovina",
+    "opis": {
+      "sh": "Rodna kuća Sime Miljuša bila je uređena kao muzej pre 1985. godine. Prema katalogu, zgrada je u ruševinama.",
+      "en": "Simo Miljuš’s birthplace was turned into a museum before 1985. The catalogue reports that the building is in ruins."
+    }
   },
   {
     "id": "lusci-palanka-spomen-ploca-komandi-za-bosansku-kra",

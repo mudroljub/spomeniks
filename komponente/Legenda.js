@@ -1,14 +1,14 @@
 // @ts-check
 import {mapa} from '../klase/mapa.js'
-import {upravljajPanelom} from '../utils/ui.js'
+import {stilPanela, upravljajPanelom} from '../utils/ui.js'
 import {t} from '../utils/jezik.js'
 import {izgledMarkera, znak, znakVrste, visinaObeliska} from '../utils/ikonice.js'
 import {nivoiVaznosti} from '../utils/vaznost.js'
 
-const boja = '#822323'
 
 const style = document.createElement('style')
 style.textContent = `
+  ${stilPanela}
   :host {
     font: 16px system-ui, sans-serif;
   }
@@ -31,15 +31,9 @@ style.textContent = `
   /* na telefonu panel dolazi odozdo, kao U blizini i Trenutna ruta */
   #panel {
     background: white;
-    border-radius: 12px 12px 0 0;
-    bottom: 0;
-    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
-    left: 0;
     max-height: 65%;
     overflow-y: auto;
     padding-bottom: var(--dno);
-    position: fixed;
-    right: 0;
     z-index: 1000;
   }
 
@@ -136,7 +130,7 @@ style.textContent = `
   }
 
   button:focus-visible {
-    outline: 2px solid ${boja};
+    outline: 2px solid var(--boja);
     outline-offset: 2px;
   }
 `

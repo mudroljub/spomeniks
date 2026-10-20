@@ -15,11 +15,20 @@ const znackeOznaka = {lista: {slika: 'slike/markeri/lista.svg', velicina: 1.6}, 
 // zuta zvezda za zeljene i zelena kvacica za posecene, jer je poseta uspeh koji treba da se vidi
 const velicinaZnacke = razmera => Math.max(10, Math.round(14 * razmera))
 
+// slika markera sa senkom, u pikselima
+export const velicinaSlike = ({sirina, visina}, razmera) =>
+  [Math.round((sirina + senka.levo + senka.desno) * razmera), Math.round((visina + senka.dole) * razmera)]
+
+const slikaZnaka = (izgled, razmera, stil) => {
+  const [sirina, visina] = velicinaSlike(izgled, razmera)
+  return `<img src="${izgled.slika}" width="${sirina}" height="${visina}" alt="" style="${stil}">`
+}
+
 export const ikonicaSaOznakama = ({slika, sirina, visina}, razmera, {priblizno = false, oznaka = null}) => {
   const px = vrednost => Math.round(vrednost * razmera)
   const osnova = velicinaZnacke(razmera)
   const znacka = oznaka && Math.round(osnova * znackeOznaka[oznaka].velicina)
-  return `<img src="${slika}" width="${px(sirina + senka.levo + senka.desno)}" height="${px(visina + senka.dole)}" alt="" style="display: block">`
+  return slikaZnaka({slika, sirina, visina}, razmera, 'display: block')
     + (priblizno ? `<img class="oznaka-priblizno" src="${pribliznaOznaka}" width="8" height="12" alt="" style="position: absolute; left: ${Math.max(0, px(senka.levo + sirina / 2) - 4)}px; top: ${Math.max(0, px(visina / 2) - 3)}px">` : '')
     + (oznaka ? `<img class="znacka-oznake" src="${znackeOznaka[oznaka].slika}" width="${znacka}" height="${znacka}" alt="" style="position: absolute; left: ${px(senka.levo + sirina / 2) - Math.round(znacka / 2)}px; top: ${Math.max(0, px(visina) - Math.round(osnova * 0.75 + znacka / 2))}px">` : '')
 }
@@ -31,7 +40,7 @@ export const znak = ({slika, sirina, visina}, visinaZnaka, {priblizno = false, o
   const margine = `margin: 0 -${px(senka.desno)}px -${px(senka.dole)}px -${px(senka.levo)}px`
   return priblizno || oznaka
     ? `<span style="position: relative; ${margine}">${ikonicaSaOznakama({slika, sirina, visina}, razmera, {priblizno, oznaka})}</span>`
-    : `<img src="${slika}" width="${px(sirina + senka.levo + senka.desno)}" height="${px(visina + senka.dole)}" alt="" style="${margine}">`
+    : slikaZnaka({slika, sirina, visina}, razmera, margine)
 }
 
 // istaknuti i obican spomenik razlikuju se samo velicinom znaka, a bista je malo manja od spomenika, kao na mapi;

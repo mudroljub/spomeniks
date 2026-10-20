@@ -1,13 +1,12 @@
 // @ts-check
 import {mapa} from '../klase/mapa.js'
-import {upravljajPanelom} from '../utils/ui.js'
+import {stilPanela, upravljajPanelom} from '../utils/ui.js'
 import {nestao, ruine, autoriSpomenika, normalizuj, escapeHtml} from '../utils/helpers.js'
 import {dajOznaku, promene} from '../utils/oznake.js'
 import {t, nazivDrzave} from '../utils/jezik.js'
 import {nivoiVaznosti, pripadaVrsti} from '../utils/vaznost.js'
 import {izgledMarkera, znak, znakVrste, visinaObeliska} from '../utils/ikonice.js'
 
-const boja = '#822323'
 
 // uklonjeni se ne prikazuju dok ih putnik ne izabere, jer niko ne putuje do spomenika kog nema
 const podrazumevano = {stanje: ['postoji', 'rusevine']}
@@ -56,23 +55,18 @@ const praviAutore = stavke => {
 
 const style = document.createElement('style')
 style.textContent = `
+  ${stilPanela}
   :host {
     font: 16px system-ui, sans-serif;
   }
 
   #panel {
     background: #fffdf8;
-    border-radius: 12px 12px 0 0;
-    bottom: 0;
-    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    left: 0;
     max-height: 85%;
     padding-bottom: var(--dno);
-    position: fixed;
-    right: 0;
     z-index: 1001;
   }
 
@@ -162,8 +156,8 @@ style.textContent = `
   }
 
   button.cip[aria-pressed="true"] {
-    background: ${boja};
-    border-color: ${boja};
+    background: var(--boja);
+    border-color: var(--boja);
     color: #fff;
   }
 
@@ -253,7 +247,7 @@ style.textContent = `
   #ponisti {
     background: none;
     border: none;
-    color: ${boja};
+    color: var(--boja);
     cursor: pointer;
     font: inherit;
     padding: 10px 0;
@@ -261,7 +255,7 @@ style.textContent = `
   }
 
   #prikazi {
-    background: ${boja};
+    background: var(--boja);
     border: none;
     border-radius: 20px;
     color: #fff;

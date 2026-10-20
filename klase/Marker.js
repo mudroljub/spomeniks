@@ -1,7 +1,7 @@
 // @ts-check
 import {mapa} from './mapa.js'
 import {dajOznaku} from '../utils/oznake.js'
-import {izgledMarkera, senka, ikonicaSaOznakama} from '../utils/ikonice.js'
+import {izgledMarkera, senka, velicinaSlike, ikonicaSaOznakama} from '../utils/ikonice.js'
 import {nazivSpomenika, escapeHtml} from '../utils/helpers.js'
 import {najmanjiZum, slojSpomenika} from '../utils/vaznost.js'
 
@@ -16,7 +16,7 @@ const dajIkonicu = ({slika, sirina, visina}, razmera, klasa, [dx, dy] = [0, 0], 
   const px = vrednost => Math.round(vrednost * razmera)
   const opcije = {
     iconUrl: slika,
-    iconSize: [px(sirina + senka.levo + senka.desno), px(visina + senka.dole)],
+    iconSize: velicinaSlike({sirina, visina}, razmera),
     iconAnchor: [px(senka.levo + sirina / 2 - dx), px(visina - dy)],
     tooltipAnchor: [px(dx), px(dy - visina)],
     className: `${klasa}${priblizno ? ' priblizna-lokacija' : ''}`,
@@ -92,9 +92,7 @@ export default class Marker {
   osvezi(zum, izabran, pomakSudara = [0, 0]) {
     const razmera = (razmeraZuma[zum] || 1) * this.razmera
     const oznaka = dajOznaku(this.spomen.id)
-    const klasa = [
-      izabran === this && 'izabran',
-    ].filter(Boolean).join(' ')
+    const klasa = izabran === this ? 'izabran' : ''
     const pomak = /** @type {[number, number]} */ ([(this.pomak?.[0] || 0) + pomakSudara[0] / razmera, (this.pomak?.[1] || 0) + pomakSudara[1] / razmera])
     const ikonica = dajIkonicu(this.izgled, razmera, klasa, pomak, {priblizno: this.spomen.priblizno, oznaka})
     // nova ikonica pravi novu sliku u DOM-u, pa samo kad se promeni

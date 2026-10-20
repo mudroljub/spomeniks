@@ -1,7 +1,7 @@
 // @ts-check
 import {mapa} from '../klase/mapa.js'
 import {navigacijaIkonica, znakVrste} from '../utils/ikonice.js'
-import {stilZaglavlja, upravljajPanelom} from '../utils/ui.js'
+import {stilZaglavlja, stilPanela, upravljajPanelom} from '../utils/ui.js'
 import {naziviStanja, nazivSpomenika, malaSlika, navigacijaUrl} from '../utils/helpers.js'
 import {t, jezik, nazivDrzave} from '../utils/jezik.js'
 import {dajRutu, dajNaziv, dajWiki, dajTuruId, postaviRutu, izaberiTuru, ukloniIzRute, pomeri, promeneRute} from '../utils/ruta.js'
@@ -9,7 +9,6 @@ import {sastaviTure} from '../utils/ture.js'
 import {nivoiVaznosti, vaznostVrste, razresiPrag} from '../utils/vaznost.js'
 import {ucitajIzSkladista, sacuvajUSkladiste} from '../utils/skladiste.js'
 
-const boja = '#822323'
 const najviseZaGoogle = 10 // ogranicenje jednog Google linka, ne broja stanica u turi
 const najmanjeStanica = 3 // manje od toga nije tura
 // drzave i pokrajine koje su u NOB imale svoj glavni stab, od zapada ka istoku
@@ -21,6 +20,7 @@ const ucitajPrag = () => razresiPrag(ucitajIzSkladista(kljucPraga))
 const style = document.createElement('style')
 style.textContent = `
   ${stilZaglavlja}
+  ${stilPanela}
   :host {
     font: 16px system-ui, sans-serif;
   }
@@ -30,7 +30,7 @@ style.textContent = `
   }
 
   #dugme {
-    background: ${boja};
+    background: var(--boja);
     border: none;
     border-radius: 22px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
@@ -44,14 +44,8 @@ style.textContent = `
 
   #panel {
     background: #fffdf8;
-    border-radius: 12px 12px 0 0;
-    bottom: 0;
-    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
-    left: 0;
     max-height: 65%;
     overflow-y: auto;
-    position: fixed;
-    right: 0;
     z-index: 1000;
   }
 
@@ -75,7 +69,7 @@ style.textContent = `
 
   /* kartice i zatvaranje su uvek vidljivi, i kad se spisak pomeri; tamno zaglavlje razlikuje rutu od prozora spomenika */
   header {
-    background: ${boja};
+    background: var(--boja);
     display: flex;
     padding-left: 4px;
     position: sticky;
@@ -140,7 +134,7 @@ style.textContent = `
 
   .navigacija {
     align-items: center;
-    color: ${boja};
+    color: var(--boja);
     display: inline-flex;
     flex: none;
     height: 44px;
@@ -154,12 +148,12 @@ style.textContent = `
   }
 
   .navigacija:focus-visible {
-    outline: 2px solid ${boja};
+    outline: 2px solid var(--boja);
     outline-offset: -3px;
   }
 
   .broj {
-    color: ${boja};
+    color: var(--boja);
     flex: none;
     font-weight: bold;
     min-width: 28px;
@@ -223,7 +217,7 @@ style.textContent = `
   .alati button {
     background: none;
     border: none;
-    color: ${boja};
+    color: var(--boja);
     min-height: 44px;
     padding: 0 12px;
     text-decoration: underline;
@@ -262,7 +256,7 @@ style.textContent = `
   }
 
   .glavna {
-    background: ${boja};
+    background: var(--boja);
     border-radius: 20px;
     box-sizing: border-box;
     color: #fff;
@@ -291,7 +285,6 @@ style.textContent = `
     text-transform: uppercase;
   }
 
-
   #vaznost {
     border-bottom: 1px solid #eee;
     display: flex;
@@ -315,7 +308,7 @@ style.textContent = `
   #prag-vaznosti {
     align-items: center;
     background: #fffdf8;
-    border: 1px solid #822323;
+    border: 1px solid var(--boja);
     border-radius: 6px;
     color: #333;
     cursor: pointer;
@@ -366,7 +359,7 @@ style.textContent = `
   }
 
   #opcije-praga [role="option"]:focus-visible {
-    outline: 2px solid ${boja};
+    outline: 2px solid var(--boja);
     outline-offset: -2px;
   }
 
@@ -381,11 +374,9 @@ style.textContent = `
   }
 `
 
-const tacka = ({lat, lng}) => `${lat},${lng}`
-
 // bez polazista Google Maps krece od trenutnog polozaja
 const googleUrl = spomenici => {
-  const stanice = spomenici.slice(0, najviseZaGoogle).map(s => tacka(s.koordinate))
+  const stanice = spomenici.slice(0, najviseZaGoogle).map(({koordinate: {lat, lng}}) => `${lat},${lng}`)
   const parametri = new URLSearchParams({api: '1', destination: stanice.pop()})
   if (stanice.length) parametri.set('waypoints', stanice.join('|'))
   return `https://www.google.com/maps/dir/?${parametri}`
@@ -430,18 +421,10 @@ const najkraciRedosled = (polaziste, tacke) => {
 const prevedi = naziv => naziv?.[jezik] ?? naziv
 
 // svaka sledeca vrsta se dodaje prethodnim, pa rimski broj pokazuje nivo prikaza
-const rimskeCifre = /** @type {[number, string][]} */ ([[1000, 'M'], [900, 'CM'], [500, 'D'], [400, 'CD'], [100, 'C'], [90, 'XC'], [50, 'L'], [40, 'XL'], [10, 'X'], [9, 'IX'], [5, 'V'], [4, 'IV'], [1, 'I']])
+const rimskeJedinice = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX']
+// nivoa vaznosti ima manje od 40, pa su dovoljne desetice i jedinice
 /** @param {number} broj */
-const rimskiBroj = broj => {
-  let oznaka = ''
-  for (const [vrednost, znak] of rimskeCifre) {
-    while (broj >= vrednost) {
-      oznaka += znak
-      broj -= vrednost
-    }
-  }
-  return oznaka
-}
+const rimskiBroj = broj => 'X'.repeat(Math.floor(broj / 10)) + rimskeJedinice[broj % 10]
 const nazivPraga = vrsta => `${t(vrsta)} <span class="nivo">${rimskiBroj(vaznostVrste[vrsta])}</span>`
 
 const otvoriStanicu = marker => mapa.fire('izbor', {marker, izRute: true})
@@ -459,7 +442,7 @@ export default class Ruta extends HTMLElement {
     super()
     this.stavke = new Map()
     this.pragVaznosti = ucitajPrag()
-    this.linija = L.polyline([], {color: boja, weight: 3, dashArray: '6 8', interactive: false})
+    this.linija = L.polyline([], {className: 'linija-rute', weight: 3, dashArray: '6 8', interactive: false})
     this.brojevi = L.layerGroup().addTo(mapa)
 
     this.dugme = document.createElement('button')

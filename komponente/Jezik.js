@@ -7,7 +7,7 @@ class Jezik extends HTMLElement {
     this.innerHTML = `
       <style>
         #jezik {
-          background: #822323;
+          background: var(--boja);
           border: 0;
           color: white;
           font: bold 12px system-ui, sans-serif;

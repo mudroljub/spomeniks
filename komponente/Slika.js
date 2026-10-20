@@ -1,5 +1,6 @@
 // @ts-check
 import {malaSlika, nazivSpomenika} from '../utils/helpers.js'
+import {t} from '../utils/jezik.js'
 
 export default class Slika extends HTMLElement {
 
@@ -13,7 +14,7 @@ export default class Slika extends HTMLElement {
     // velicina pre ucitavanja, da traka zna koliko slika staje i ne trazi visak
     this.slika.width = Math.round(116 * spomen.slikaOdnos)
     this.slika.height = 116
-    this.slika.alt = this.slika.title = `Spomenik ${spomen.mesto}`
+    this.slika.alt = this.slika.title = t('slikaSpomenika', spomen.mesto)
     this.slika.ondragstart = () => false // sprecava vucenje slike
     this.slika.onerror = () => this.style.display = 'none'
     this.naziv = document.createElement('small')

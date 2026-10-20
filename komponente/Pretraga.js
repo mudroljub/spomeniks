@@ -4,7 +4,6 @@ import {mapa} from '../klase/mapa.js'
 import {normalizuj, nazivSpomenika} from '../utils/helpers.js'
 import {t, nazivDrzave} from '../utils/jezik.js'
 
-const boja = '#822323'
 
 // font od 16px sprecava da iPhone uvecava stranicu pri kucanju
 const style = document.createElement('style')
@@ -62,7 +61,7 @@ style.textContent = `
     animation: okret 0.8s linear infinite;
     border: 2px solid #ccc;
     border-radius: 50%;
-    border-top-color: ${boja};
+    border-top-color: var(--boja);
     height: 16px;
     left: 14px;
     position: absolute;
@@ -84,16 +83,16 @@ style.textContent = `
   }
 
   polje-pretraga .dugme-filteri.aktivno {
-    background: ${boja};
+    background: var(--boja);
     color: #fff;
   }
 
   polje-pretraga .broj-filtera {
     background: #fff;
-    border: 1px solid ${boja};
+    border: 1px solid var(--boja);
     border-radius: 8px;
     box-sizing: border-box;
-    color: ${boja};
+    color: var(--boja);
     font: bold 11px/14px system-ui, sans-serif;
     min-width: 16px;
     padding: 0 3px;
@@ -119,7 +118,7 @@ style.textContent = `
   polje-pretraga .rezultat button {
     background: none;
     border: none;
-    color: ${boja};
+    color: var(--boja);
     cursor: pointer;
     font: inherit;
     padding: 0;

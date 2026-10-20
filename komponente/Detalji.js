@@ -1,7 +1,7 @@
 // @ts-check
 import {mapa} from '../klase/mapa.js'
 import {navigacijaIkonica} from '../utils/ikonice.js'
-import {stilZaglavlja, upravljajPanelom} from '../utils/ui.js'
+import {stilZaglavlja, stilPanela, upravljajPanelom} from '../utils/ui.js'
 import {mestoUrl, navigacijaUrl, escapeHtml, naziviStanja, nestao, autoriSpomenika, nazivSpomenika, bezbedanLink} from '../utils/helpers.js'
 import {dajOznaku, postaviOznaku, promene} from '../utils/oznake.js'
 import {uRuti, dodajURutu, ukloniIzRute, promeneRute} from '../utils/ruta.js'
@@ -9,27 +9,21 @@ import {jezik, t, nazivDrzave} from '../utils/jezik.js'
 import {prijavaUrl} from '../utils/prijava.js'
 import {clanakSpomenika} from '../utils/clanci.js'
 
-const boja = '#822323'
 
 const style = document.createElement('style')
 style.textContent = `
   ${stilZaglavlja}
+  ${stilPanela}
   :host {
     font: 16px system-ui, sans-serif;
   }
 
   #panel {
     background: #fffdf8;
-    border-radius: 12px 12px 0 0;
-    bottom: 0;
-    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
     box-sizing: border-box;
-    left: 0;
     max-height: 65%;
     overflow-y: auto;
     padding-bottom: var(--dno);
-    position: fixed;
-    right: 0;
     z-index: 1000;
   }
 
@@ -49,7 +43,7 @@ style.textContent = `
   #nazad {
     background: none;
     border: none;
-    color: ${boja};
+    color: var(--boja);
     cursor: pointer;
     font: inherit;
     min-height: 44px;
@@ -121,7 +115,7 @@ style.textContent = `
   }
 
   .stanje.nestao {
-    background: ${boja};
+    background: var(--boja);
     color: #fff;
   }
 
@@ -155,7 +149,7 @@ style.textContent = `
   }
 
   .opis svg {
-    color: ${boja};
+    color: var(--boja);
     flex: none;
     height: 22px;
     transition: transform 0.2s;
@@ -180,13 +174,13 @@ style.textContent = `
   }
 
   a {
-    color: ${boja};
+    color: var(--boja);
   }
 
   #dopuna {
     background: none;
     border: none;
-    color: ${boja};
+    color: var(--boja);
     cursor: pointer;
     font: inherit;
     min-height: 44px;
@@ -249,10 +243,10 @@ style.textContent = `
   .akcije a,
   .akcije button {
     background: none;
-    border: 1px solid ${boja};
+    border: 1px solid var(--boja);
     border-radius: 20px;
     box-sizing: border-box;
-    color: ${boja};
+    color: var(--boja);
     cursor: pointer;
     font: inherit;
     min-height: 40px;
@@ -273,13 +267,13 @@ style.textContent = `
   }
 
   .akcije .glavna {
-    background: ${boja};
+    background: var(--boja);
     color: #fff;
   }
 
   button:focus-visible,
   a:focus-visible {
-    outline: 2px solid ${boja};
+    outline: 2px solid var(--boja);
     outline-offset: 3px;
   }
 
@@ -342,7 +336,7 @@ style.textContent = `
   }
 
   .natpis summary {
-    color: ${boja};
+    color: var(--boja);
     cursor: pointer;
     line-height: 44px;
     min-height: 44px;
@@ -452,8 +446,6 @@ export default class Detalji extends HTMLElement {
   iscrtaj() {
     const spomen = this.marker.spomen
     const izRute = this.izRute
-    const podaci = [this.praviAutore(spomen), this.praviPosvetu(spomen), this.praviOpis(spomen)].filter(Boolean)
-
     const vise = clanakSpomenika(spomen, jezik)
 
     // naslov je naziv spomenika, a mesto stoji ispod
@@ -470,7 +462,7 @@ export default class Detalji extends HTMLElement {
       </header>
       <div class="sadrzaj">
         <p class="mesto"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 11.5 12 4.5l8.5 7M6 9.5V19.5h12V9.5M10 19.5v-5h4v5"/></svg>${[naziv ? escapeHtml(spomen.mesto) : '', escapeHtml(nazivDrzave(spomen.drzava || ''))].filter(Boolean).join(', ')}${spomen.priblizno ? ` (${t('priblizno').toLocaleLowerCase()})` : ''}${spomen.godina ? ` · ${escapeHtml(spomen.godina)}` : ''}</p>
-        ${podaci.map(red => `<p class="podaci">${red}</p>`).join('')}
+        ${this.redoviPodataka(spomen).map(red => `<p class="podaci">${red}</p>`).join('')}
         <p class="akcije">
           <a href="${escapeHtml(navigacijaUrl(spomen.koordinate))}" target="_blank" class="glavna ikona">${navigacijaIkonica}${t('navigacija')}</a>
           <a href="${escapeHtml(mestoUrl(spomen))}" target="_blank" class="ikona"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-6.5-5.8-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 15.2 12 21 12 21Z" stroke-linejoin="round"/><circle cx="12" cy="9.8" r="2.3"/></svg>${t('mesto')}</a>
@@ -519,10 +511,9 @@ export default class Detalji extends HTMLElement {
     if (!autori.length) return ''
     const imena = autori.map(ime => {
       const link = bezbedanLink(this.autori[ime])
-      const imeLink = link
+      return link
         ? `<a href="${escapeHtml(link)}" target="_blank">${escapeHtml(ime)}</a>`
         : escapeHtml(ime)
-      return imeLink
     }).join(' & ')
     return `${t(autori.length > 1 ? 'autori' : 'grupaAutor')}: ${imena}`
   }
@@ -538,7 +529,6 @@ export default class Detalji extends HTMLElement {
     return (jezik === 'en' ? opis?.en : opis?.sh) || ''
   }
 
-  // Zakasneli podaci ne zatvaraju povratak u rutu i ne pomeraju mapu ili skrol panela.
   // opis koji staje u dva reda nema strelicu ni otvaranje
   oznaciCeoOpis() {
     const opis = this.panel.querySelector('.opis')
@@ -546,11 +536,15 @@ export default class Detalji extends HTMLElement {
     if (tekst && tekst.scrollHeight <= tekst.clientHeight + 1) opis.classList.add('ceo')
   }
 
+  redoviPodataka(spomen) {
+    return [this.praviAutore(spomen), this.praviPosvetu(spomen), this.praviOpis(spomen)].filter(Boolean)
+  }
+
+  // zakasneli autori i posvete menjaju samo svoje redove, pa ostaju povratak u rutu, polozaj mape i skrol panela
   osveziPodatke() {
     if (!this.marker) return
     this.panel.querySelectorAll('.podaci').forEach(red => red.remove())
-    const redovi = [this.praviAutore(this.marker.spomen), this.praviPosvetu(this.marker.spomen), this.praviOpis(this.marker.spomen)].filter(Boolean)
-    this.panel.querySelector('.mesto').after(...redovi.map(html => {
+    this.panel.querySelector('.mesto').after(...this.redoviPodataka(this.marker.spomen).map(html => {
       const red = document.createElement('p')
       red.className = 'podaci'
       red.innerHTML = html

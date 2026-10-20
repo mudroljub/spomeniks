@@ -39,14 +39,26 @@ export const stilZaglavlja = `
   }
 
   .vise {
-    color: #822323;
+    color: var(--boja);
     font-size: 15px;
     font-weight: normal;
     white-space: nowrap;
   }
 
   .vise:focus-visible {
-    outline: 2px solid #822323;
+    outline: 2px solid var(--boja);
     outline-offset: 3px;
+  }
+`
+
+// Na telefonu panel izlazi odozdo preko cele sirine; visinu, pozadinu i mesto na sirem ekranu odredjuje komponenta.
+export const stilPanela = `
+  #panel {
+    border-radius: 12px 12px 0 0;
+    bottom: 0;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
+    left: 0;
+    position: fixed;
+    right: 0;
   }
 `

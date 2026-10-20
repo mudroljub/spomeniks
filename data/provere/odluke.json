@@ -14106,5 +14106,809 @@
     "dokaz": "Reporteri Oslobodjenja obisli su kucu; tekst potvrdjuje nekadasnji muzej od 1980-ih, zapusten objekat i prenos presa i opreme u depo Muzeja Semberije. Komisijina lista peticija takodje koristi naziv Spomen kuca Oslobodjenje. Ispravljena vrsta u spomen-kuca i opisni naslov; ne tvrdi se danasnji rad muzeja, prisustvo ploce niti pristup unutrasnjosti. Stanje nije proizvoljno oznaceno zatvoren ili srusen.",
     "srodniIdZaProveru": "ugljevik-cetkovic-spomen-kuca-oslobodjenje",
     "napomena": "OSM unos i ovaj zapis nisu automatski spojeni bez potvrde identiteta i tacke."
+  },
+  {
+    "odluka": "bosna-sistemska-provera-muzeji-i-memorijalne-kuce-2026-10-20",
+    "datum": "2026-10-20",
+    "obrazac": "Izvorni tip Memorial House nije Museum. Izvorno No ne znaci uvek uklonjen: razlikovati srusenu zgradu, rusevine, ukinutu postavku i novu namenu zgrade. Otvaranje samo planirano 1989 nije potvrda muzeja.",
+    "ispravke": [
+      {
+        "id": "jelec-boraviste-josipa-broza-tita",
+        "pre": {
+          "vrsta": "muzej",
+          "naziv": "Boravište Josipa Broza Tita",
+          "nazivEn": "Residence of Josip Broz Tito",
+          "opis": null
+        },
+        "posle": {
+          "vrsta": "spomen-kuca",
+          "naziv": "Spomen-kuća Josipa Broza Tita",
+          "nazivEn": "Josip Broz Tito Memorial House",
+          "opis": {
+            "sh": "Spomen-kuća vezana za boravak Josipa Broza Tita u Gozvi kod Jeleča. Današnja namena i dostupnost unutrašnjosti nisu potvrđene.",
+            "en": "A memorial house associated with Josip Broz Tito’s stay at Gozva near Jeleč. Its present use and public access to the interior have not been confirmed."
+          }
+        },
+        "izvor": "https://www.spomenicinob.info/foca",
+        "izvorniRed": {
+          "selo": "Jeleč",
+          "adresa": "Gozva",
+          "name": "Residence of Josip Broz Tito",
+          "vrsta": "Memorial House",
+          "year": "",
+          "author": "",
+          "postoji": "",
+          "mapirano": "",
+          "opis": "",
+          "opstina": "foca"
+        }
+      },
+      {
+        "id": "drace-boraviste-josipa-broza-tita",
+        "pre": {
+          "vrsta": "muzej",
+          "naziv": "Boravište Josipa Broza Tita",
+          "nazivEn": "Residence of Josip Broz Tito",
+          "opis": null
+        },
+        "posle": {
+          "vrsta": "spomen-kuca",
+          "naziv": "Spomen-kuća Josipa Broza Tita",
+          "nazivEn": "Josip Broz Tito Memorial House",
+          "opis": {
+            "sh": "Spomen-kuća porodice Mušanović u kojoj je boravio Josip Broz Tito. Katalog navodi da je već 1984. bila u lošem stanju; novije stanje i mogućnost obilaska nisu potvrđeni.",
+            "en": "The Mušanović family’s memorial house, where Josip Broz Tito stayed. The catalogue reports poor condition by 1984; its more recent condition and visitor access have not been confirmed."
+          }
+        },
+        "izvor": "https://www.spomenicinob.info/foca",
+        "izvorniRed": {
+          "selo": "Drače",
+          "adresa": "House of the Mušanović family",
+          "name": "Residence of Josip Broz Tito",
+          "vrsta": "Memorial House",
+          "year": "",
+          "author": "",
+          "postoji": "",
+          "mapirano": "",
+          "opis": "In poor condition by 1984",
+          "opstina": "foca"
+        }
+      },
+      {
+        "id": "bileca-zgrada-bivseg-politickog-zatvora",
+        "pre": {
+          "vrsta": "muzej",
+          "naziv": "Zgrada bivšeg političkog zatvora",
+          "nazivEn": "Building of former political prison",
+          "opis": null
+        },
+        "posle": {
+          "vrsta": "spomen-kuca",
+          "naziv": "Bivši politički zatvor",
+          "nazivEn": "Former Political Prison",
+          "opis": {
+            "sh": "Zgrada bivšeg političkog zatvora evidentirana kao memorijalna kuća. Nije potvrđeno da danas ima muzejsku postavku ili mogućnost posete.",
+            "en": "The former political prison building, recorded as a memorial house. A current museum exhibition or visitor access has not been confirmed."
+          }
+        },
+        "izvor": "https://www.spomenicinob.info/bileca",
+        "izvorniRed": {
+          "selo": "Bileća",
+          "adresa": "",
+          "name": "Building of former political prison",
+          "vrsta": "Memorial House",
+          "year": "",
+          "author": "",
+          "postoji": "",
+          "mapirano": "",
+          "opis": "",
+          "opstina": "bileca"
+        }
+      },
+      {
+        "id": "spirici-stamparija-borba",
+        "pre": {
+          "vrsta": "muzej",
+          "mesto": "Špirići",
+          "naziv": "Štamparija „Borba“",
+          "nazivEn": "\"Borba\" printing house",
+          "adresa": null,
+          "opis": null
+        },
+        "posle": {
+          "vrsta": "spomen-kuca",
+          "mesto": "Drinić (Špirići)",
+          "naziv": "Spomen-kuća štamparije „Borba“",
+          "nazivEn": "Borba Printing House Memorial",
+          "adresa": "Kuća Drage Kecmana u zaseoku Špirići kod Drinića",
+          "opis": {
+            "sh": "U kući Drage Kecmana u zaseoku Špirići kod Drinića tokom rata radila je štamparija lista „Borba“. Katalog je evidentira kao spomen-kuću; današnja postavka i dostupnost nisu potvrđene.",
+            "en": "During the war, the newspaper Borba was printed in Drago Kecman’s house in Špirići near Drinić. The catalogue records a memorial house; a present-day exhibition and visitor access have not been confirmed."
+          }
+        },
+        "izvor": "https://www.spomenicinob.info/petrovac",
+        "izvorniRed": {
+          "selo": "Špirići",
+          "adresa": "",
+          "name": "\"Borba\" printing house",
+          "vrsta": "Memorial House",
+          "year": "",
+          "author": "",
+          "postoji": "",
+          "mapirano": "",
+          "opis": "",
+          "opstina": "petrovac"
+        }
+      },
+      {
+        "id": "bijeljina-rodno-mjesto-narodnog-heroja-hamze-hamzi",
+        "pre": {
+          "vrsta": "muzej",
+          "stanje": "uklonjen",
+          "naziv": "Rodno mjesto narodnog heroja Hamze Hamzića",
+          "nazivEn": "Birthplace of NH Hamzo Hamzić",
+          "opis": null
+        },
+        "posle": {
+          "vrsta": "spomen-kuca",
+          "stanje": "srusen",
+          "naziv": "Spomen-kuća Hamze Hamzića",
+          "nazivEn": "Hamzo Hamzić Memorial House",
+          "opis": {
+            "sh": "U rodnoj kući Hamze Hamzića nalazila se spomen-soba, od 1982. pod okriljem Muzeja Semberije. Prema katalogu, zgrada je srušena.",
+            "en": "Hamzo Hamzić’s birthplace housed a memorial room, under the Semberija Museum’s care from 1982. According to the catalogue, the building has been demolished."
+          }
+        },
+        "izvor": "https://www.spomenicinob.info/bijeljina",
+        "izvorniRed": {
+          "selo": "Bijeljina",
+          "adresa": "Atinska 19",
+          "name": "Birthplace of NH Hamzo Hamzić",
+          "vrsta": "Memorial House",
+          "year": "",
+          "author": "",
+          "postoji": "No",
+          "mapirano": "October 2021",
+          "opis": "Existed prior to 1968. Contained a memorial room, which came under the patronage of Muzej Semberije in 1982. Building now demolished. Former address: Hamze Hamzića 19",
+          "opstina": "bijeljina"
+        }
+      },
+      {
+        "id": "lusci-palanka-rodno-mjesto-sime-miljusa",
+        "pre": {
+          "vrsta": "muzej",
+          "stanje": "uklonjen",
+          "naziv": "Rodno mjesto Sime Miljuša",
+          "nazivEn": "Birthplace of Simo Miljuš",
+          "opis": null
+        },
+        "posle": {
+          "vrsta": "spomen-kuca",
+          "stanje": "rusevine",
+          "naziv": "Spomen-kuća Sime Miljuša",
+          "nazivEn": "Simo Miljuš Memorial House",
+          "opis": {
+            "sh": "Rodna kuća Sime Miljuša bila je uređena kao muzej pre 1985. godine. Prema katalogu, zgrada je u ruševinama.",
+            "en": "Simo Miljuš’s birthplace was turned into a museum before 1985. The catalogue reports that the building is in ruins."
+          }
+        },
+        "izvor": "https://www.spomenicinob.info/sanskimost",
+        "izvorniRed": {
+          "selo": "Lušci Palanka",
+          "adresa": "",
+          "name": "Birthplace of Simo Miljuš",
+          "vrsta": "Museum",
+          "year": "",
+          "author": "",
+          "postoji": "No",
+          "mapirano": "",
+          "opis": "Created prior to 1985. Building now lies in ruins.",
+          "opstina": "sanskimost"
+        }
+      },
+      {
+        "id": "busija-spomen-soba-boravku-josipa-broza-tita-1942",
+        "pre": {
+          "stanje": "uklonjen",
+          "opis": {
+            "sh": "Posvećeno boravku Josipa Broza Tita 1942. godine.",
+            "en": "Commemorates the stay of Josip Broz Tito in 1942."
+          },
+          "adresa": "Old mill"
+        },
+        "posle": {
+          "stanje": "rusevine",
+          "opis": {
+            "sh": "Spomen-soba u starom mlinu bila je posvećena boravku Josipa Broza Tita 1942. godine. Prema katalogu, mlin je u ruševinama.",
+            "en": "A memorial room in the old mill commemorated Josip Broz Tito’s stay in 1942. The catalogue reports that the mill is in ruins."
+          },
+          "adresa": "Stari mlin"
+        },
+        "izvor": "https://www.spomenicinob.info/glamoc",
+        "izvorniRed": {
+          "selo": "Busija",
+          "adresa": "Old mill",
+          "name": "Memorial room to commemorate residence of Josip Broz Tito in 1942",
+          "vrsta": "Memorial Room",
+          "year": "",
+          "author": "",
+          "postoji": "No",
+          "mapirano": "",
+          "opis": "Mill lies in ruins today",
+          "opstina": "glamoc"
+        }
+      },
+      {
+        "id": "bijeljina-muzej-crvena-pravda",
+        "pre": {
+          "stanje": "uklonjen",
+          "opis": null,
+          "adresa": "Ul. Galac; Building now used by veterans' association"
+        },
+        "posle": {
+          "stanje": "zatvoren",
+          "opis": {
+            "sh": "Muzej je osnovan tokom 1980-ih. Prema katalogu, postavka više ne postoji, a sačuvanu zgradu koristi boračko udruženje.",
+            "en": "The museum was established in the 1980s. According to the catalogue, the exhibition no longer exists and a veterans’ association uses the surviving building."
+          },
+          "adresa": "Ulica Galac; nekadašnja muzejska zgrada"
+        },
+        "izvor": "https://www.spomenicinob.info/bijeljina",
+        "izvorniRed": {
+          "selo": "Bijeljina",
+          "adresa": "Ul. Galac",
+          "name": "Crvena Pravda museum",
+          "vrsta": "Museum",
+          "year": "",
+          "author": "",
+          "postoji": "No",
+          "mapirano": "January 2021",
+          "opis": "Museum created in 1980s. Building survives, but now used by veterans' association.",
+          "opstina": "bijeljina"
+        }
+      },
+      {
+        "id": "capljina-spomen-soba-palim-borcima",
+        "pre": {
+          "opis": null,
+          "adresa": "Local museum"
+        },
+        "posle": {
+          "opis": {
+            "sh": "Spomen-soba palim borcima pripremana je za otvaranje 1989. godine u lokalnom muzeju. Nije potvrđeno da je postavka otvorena niti da danas postoji.",
+            "en": "A memorial room dedicated to fallen fighters was being prepared for opening at the local museum in 1989. Its opening and present-day existence have not been confirmed."
+          },
+          "adresa": "Lokalni muzej; spomen-soba planirana 1989, bez potvrde otvaranja"
+        },
+        "izvor": "https://www.spomenicinob.info/capljina",
+        "izvorniRed": {
+          "selo": "Čapljina",
+          "adresa": "Local museum",
+          "name": "Memorial room to commemorate fallen fighters",
+          "vrsta": "Memorial Room",
+          "year": "",
+          "author": "",
+          "postoji": "",
+          "mapirano": "",
+          "opis": "Memorial room was being prepared for opening in 1989.",
+          "opstina": "capljina"
+        }
+      },
+      {
+        "id": "jajce-barake-vrhovnog-staba",
+        "pre": {
+          "opis": null,
+          "adresa": "Ul. Svetog Luke"
+        },
+        "posle": {
+          "opis": {
+            "sh": "Replike baraka Vrhovnog štaba podignute su 1948. godine, a prema katalogu uklonjene tokom 1950-ih.",
+            "en": "Replicas of the Supreme Headquarters barracks were built in 1948 and, according to the catalogue, removed during the 1950s."
+          },
+          "adresa": "Ulica Svetog Luke; uklonjene replike baraka"
+        },
+        "izvor": "https://www.spomenicinob.info/jajce",
+        "izvorniRed": {
+          "selo": "Jajce",
+          "adresa": "Ul. Svetog Luke",
+          "name": "Barracks of Supreme Command",
+          "vrsta": "Museum",
+          "year": "1948",
+          "author": "",
+          "postoji": "No",
+          "mapirano": "April 2019",
+          "opis": "Replica barracks constructed in 1948, but removed at some point during 1950s.",
+          "opstina": "jajce"
+        }
+      },
+      {
+        "id": "milosevac-spomen-soba-palih-boraca-i-zrtava-fasist",
+        "pre": {
+          "opis": null,
+          "adresa": "Community Hall"
+        },
+        "posle": {
+          "opis": {
+            "sh": "Spomen-soba palim borcima i žrtvama fašističkog terora uređena je u društvenom domu 1985, a prema katalogu uklonjena 1992. godine.",
+            "en": "The memorial room dedicated to fallen fighters and victims of fascist terror was created in the community hall in 1985 and, according to the catalogue, removed in 1992."
+          },
+          "adresa": "Društveni dom; spomen-soba uklonjena 1992."
+        },
+        "izvor": "https://www.spomenicinob.info/modrica",
+        "izvorniRed": {
+          "selo": "Miloševac",
+          "adresa": "Community Hall",
+          "name": "Memorial room of fallen fighters and Victims of Fascist Terror",
+          "vrsta": "Memorial Room",
+          "year": "1985",
+          "author": "",
+          "postoji": "No",
+          "mapirano": "",
+          "opis": "Removed in 1992.",
+          "opstina": "modrica"
+        }
+      }
+    ],
+    "dopunskiIzvorSpirici": "https://znaci.org/00003/682.pdf#page=233",
+    "ogranicenja": "Ne dodeljuju se nove tacne lokacije, rad muzeja ili savremeno stanje bez dokaza. Nedatirane napomene kataloga prenete su kao takve, bez izmisljanja godine poslednjeg obilaska. Memorial Room nije automatski pretvoren u spomen-kuca: za sobe u muzejima i kulturnim domovima potrebna je pojedinacna potvrda obuhvata."
+  },
+  {
+    "odluka": "bosna-sutjeska-duplikati-i-faze-2026-10-20",
+    "datum": "2026-10-20",
+    "izvori": [
+      "https://www.spomenicinob.info/foca",
+      "https://www.spomenikdatabase.org/sutjeska-monuments"
+    ],
+    "obrazac": "Istoimena naselja nisu dokaz lokacije; poređenje sa postojećom mapom razrešilo je četiri duplikata. Godina novije skulpture nije godina prvobitnog obeležja. Nepoznati istorijski lokaliteti bez dokaza nisu automatski locirani.",
+    "spajanja": [
+      {
+        "uklonjen": "donje-bare-spomenik-ii-dalmatinskoj-brigadi",
+        "zadrzan": "tjentiste-spomenik-2-dalmatinskoj-brigadi",
+        "preUklonjeni": {
+          "id": "donje-bare-spomenik-ii-dalmatinskoj-brigadi",
+          "koordinate": {
+            "lat": 43.72332,
+            "lng": 18.85764
+          },
+          "priblizno": true,
+          "mesto": "Donje Bare",
+          "naziv": "Spomenik II dalmatinskoj brigadi",
+          "nazivEn": "Monument to the II Dalmatian Brigade",
+          "godina": "1989",
+          "autor": "Miodrag Živković",
+          "posveta": [
+            "Q117668"
+          ],
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "izvorUklonjenog": "https://www.spomenicinob.info/foca",
+        "izvorZadrzanog": "https://www.openstreetmap.org/node/1786227785"
+      },
+      {
+        "uklonjen": "ljubin-grob-spomenik-borbi-druge-cete-treceg-batal",
+        "zadrzan": "vrbnica-spomenik-4-crnogorske-brigade",
+        "preUklonjeni": {
+          "id": "ljubin-grob-spomenik-borbi-druge-cete-treceg-batal",
+          "mesto": "Ljubin Grob",
+          "naziv": "Spomenik borbi Druge čete Četvrte proleterske brigade",
+          "nazivEn": "Monument to the battle of the Second Company, Fourth Proletarian Brigade",
+          "opis": {
+            "sh": "Posvećeno borbi Druge čete Trećeg bataljona Četvrte proleterske brigade.",
+            "en": "Dedicated to the battle of the 2nd Company of the 3rd Battalion of the 4th Proletarian Brigade."
+          },
+          "godina": "1987",
+          "autor": "Miodrag Živković",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "izvorUklonjenog": "https://www.spomenicinob.info/foca",
+        "izvorZadrzanog": "https://www.openstreetmap.org/node/9001894620"
+      },
+      {
+        "uklonjen": "dragos-sedlo-spomenik-na-mjestu-partizanske-bolnic",
+        "zadrzan": "tjentiste-spomenik-centralnoj-partizanskoj-bolnici",
+        "preUklonjeni": {
+          "id": "dragos-sedlo-spomenik-na-mjestu-partizanske-bolnic",
+          "mesto": "Dragoš Sedlo",
+          "naziv": "Spomenik na mjestu Partizanske bolnice",
+          "nazivEn": "Monument to mark site of Partisans' Hospital",
+          "godina": "1987",
+          "autor": "Miodrag Živković",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "izvorUklonjenog": "https://www.spomenicinob.info/foca",
+        "izvorZadrzanog": "https://www.openstreetmap.org/node/12073271624"
+      },
+      {
+        "uklonjen": "ozren-hill-spomenik-na-mjestu-gdje-je-ranjen-tito",
+        "zadrzan": "tjentiste-mjesto-ranjavanja-tita",
+        "preUklonjeni": {
+          "id": "ozren-hill-spomenik-na-mjestu-gdje-je-ranjen-tito",
+          "mesto": "Ozren hill",
+          "naziv": "Spomenik na mjestu gdje je ranjen Tito",
+          "nazivEn": "Monument to mark location where Tito was wounded",
+          "godina": "1987",
+          "autor": "Miodrag Živković",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "izvorUklonjenog": "https://www.spomenicinob.info/foca",
+        "izvorZadrzanog": "https://www.openstreetmap.org/node/12073100611"
+      }
+    ],
+    "ispravke": [
+      {
+        "id": "tjentiste-spomenik-2-dalmatinskoj-brigadi",
+        "pre": {
+          "mesto": "Tjentište",
+          "nazivEn": "Monument to a Partisan Brigade",
+          "godina": null,
+          "autor": null,
+          "opis": null
+        },
+        "posle": {
+          "mesto": "Donje Bare (Zelengora)",
+          "nazivEn": "2nd Dalmatian Brigade Monument",
+          "godina": "pre 1964",
+          "autor": "Miodrag Živković",
+          "opis": {
+            "sh": "Posvećeno [Drugoj dalmatinskoj brigadi](Q117668). Prvobitno obeležje postojalo je pre 1964, a sadašnja skulptura Miodraga Živkovića postavljena je 1989.",
+            "en": "Dedicated to the [2nd Dalmatian Brigade](Q117668). An earlier memorial existed before 1964; the present sculpture by Miodrag Živković was installed in 1989."
+          }
+        }
+      },
+      {
+        "id": "vrbnica-spomenik-4-crnogorske-brigade",
+        "pre": {
+          "mesto": "Vrbnica",
+          "nazivEn": "Monument to a Partisan Brigade",
+          "godina": null,
+          "autor": null,
+          "opis": null
+        },
+        "posle": {
+          "mesto": "Ljubin Grob (Zelengora)",
+          "nazivEn": "4th Montenegrin Brigade Monument",
+          "godina": "pre 1975",
+          "autor": "Miodrag Živković",
+          "opis": {
+            "sh": "Posvećeno borbi Druge čete Trećeg bataljona [Četvrte crnogorske brigade](Q12761191). Ranije obeležje postojalo je pre 1975, a sadašnja skulptura Miodraga Živkovića potiče iz 1987.",
+            "en": "Dedicated to the battle fought by the 2nd Company of the 3rd Battalion of the [4th Montenegrin Brigade](Q12761191). An earlier memorial existed before 1975; the present sculpture by Miodrag Živković dates from 1987."
+          }
+        }
+      },
+      {
+        "id": "tjentiste-spomenik-centralnoj-partizanskoj-bolnici",
+        "pre": {
+          "mesto": "Tjentište",
+          "vrsta": "spomen-obelezje",
+          "nazivEn": null,
+          "godina": null,
+          "autor": null,
+          "opis": null
+        },
+        "posle": {
+          "mesto": "Dragoš sedlo",
+          "vrsta": "spomenik",
+          "nazivEn": "Central Partisan Hospital Monument",
+          "godina": "1987",
+          "autor": "Miodrag Živković",
+          "opis": {
+            "sh": "Obeležava mesto partizanske bolnice na Dragoš sedlu; skulpturu je izradio Miodrag Živković 1987. godine.",
+            "en": "Marks the site of a Partisan hospital at Dragoš sedlo; Miodrag Živković created the sculpture in 1987."
+          }
+        }
+      },
+      {
+        "id": "tjentiste-mjesto-ranjavanja-tita",
+        "pre": {
+          "mesto": "Tjentište",
+          "naziv": "Mjesto ranjavanja Tita",
+          "nazivEn": null,
+          "vrsta": "spomen-obelezje",
+          "godina": null,
+          "autor": null,
+          "opis": null
+        },
+        "posle": {
+          "mesto": "Milinklade (Ozren, Sutjeska)",
+          "naziv": "Spomenik ranjavanju Josipa Broza Tita",
+          "nazivEn": "Josip Broz Tito Wounding Memorial",
+          "vrsta": "spomenik",
+          "godina": "1975",
+          "autor": "Miodrag Živković",
+          "opis": {
+            "sh": "Obeležava mesto gde je Josip Broz Tito ranjen 9. juna 1943. godine tokom [bitke na Sutjesci](Q1419973). Prvobitno obeležje potiče iz 1975, a sadašnje skulpture Miodraga Živkovića postavljene su 1987.",
+            "en": "Marks the place where Josip Broz Tito was wounded on 9 June 1943 during the [Battle of the Sutjeska](Q1419973). The original memorial dates from 1975; the present sculptures by Miodrag Živković were installed in 1987."
+          }
+        }
+      },
+      {
+        "id": "tjentiste-savin-grob",
+        "pre": {
+          "godina": "1987",
+          "opis": null
+        },
+        "posle": {
+          "godina": "1951",
+          "opis": {
+            "sh": "Posvećeno [Savi Kovačeviću](Q821495), poginulom u bici na Sutjesci. Prvobitno obeležje podignuto je 1951, a Miodrag Živković oblikovao je sadašnju celinu 1987. godine.",
+            "en": "Dedicated to [Sava Kovačević](Q821495), killed in the Battle of the Sutjeska. The original memorial was erected in 1951; Miodrag Živković designed the present ensemble in 1987."
+          }
+        }
+      },
+      {
+        "id": "tjentiste-grob-nurije-pozderca",
+        "pre": {
+          "godina": "1987",
+          "opis": null
+        },
+        "posle": {
+          "godina": "pre 1975",
+          "opis": {
+            "sh": "Grob [Nurije Pozderca](Q12756368), umrlog od rana u bici na Sutjesci. Prvobitno obeležje postojalo je pre 1975, a kasniju skulpturu izradio je Miodrag Živković 1987. godine.",
+            "en": "The grave of [Nurija Pozderac](Q12756368), who died of wounds sustained in the Battle of the Sutjeska. An earlier memorial existed before 1975; Miodrag Živković created the later sculpture in 1987."
+          }
+        }
+      },
+      {
+        "id": "tjentiste-spomenik-kragujevackom-bataljonu",
+        "pre": {
+          "godina": "1989",
+          "opis": null
+        },
+        "posle": {
+          "godina": "pre 1975",
+          "opis": {
+            "sh": "Posvećeno Kragujevačkom bataljonu i borcima Fočanske omladinske čete poginulim na Borovnu u [bici na Sutjesci](Q1419973). Ranije obeležje postojalo je pre 1975, a sadašnju skulpturu izradio je Miodrag Živković 1989. godine.",
+            "en": "Dedicated to the Kragujevac Battalion and Foča Youth Company fighters killed at Borovno during the [Battle of the Sutjeska](Q1419973). An earlier memorial existed before 1975; Miodrag Živković created the present sculpture in 1989."
+          }
+        }
+      },
+      {
+        "id": "zelengora-mountain-spomen-ploca-logorovanju-vrhovn",
+        "pre": {
+          "mesto": "Zelengora mountain"
+        },
+        "posle": {
+          "mesto": "Zelengora"
+        }
+      },
+      {
+        "id": "zelengora-mountain-logoriste-vrhovnog-staba",
+        "pre": {
+          "mesto": "Zelengora mountain"
+        },
+        "posle": {
+          "mesto": "Zelengora"
+        }
+      },
+      {
+        "id": "kosur-hill-mjesto-velikog-bojista",
+        "pre": {
+          "mesto": "Košur hill"
+        },
+        "posle": {
+          "mesto": "Košur"
+        }
+      },
+      {
+        "id": "vucevo-mountain-mjesto-partizanske-bolnice",
+        "pre": {
+          "mesto": "Vučevo mountain"
+        },
+        "posle": {
+          "mesto": "Vučevo"
+        }
+      },
+      {
+        "id": "vucevo-mountain-mjesto-partizanske-bolnice-2",
+        "pre": {
+          "mesto": "Vučevo mountain"
+        },
+        "posle": {
+          "mesto": "Vučevo"
+        }
+      },
+      {
+        "id": "maglic-mountain-spomen-ploca-bici-na-sutjesci",
+        "pre": {
+          "mesto": "Maglić mountain"
+        },
+        "posle": {
+          "mesto": "Maglić"
+        }
+      }
+    ],
+    "preusmereneVeze": []
+  },
+  {
+    "odluka": "bosna-foca-nepoznati-oblici-obelezja-2026-10-20",
+    "datum": "2026-10-20",
+    "izvor": "https://www.spomenicinob.info/foca",
+    "obrazac": "Katalog izričito navodi ranije obeležje, ali ne poznaje njegov fizički oblik. Naziv odvaja objekat od ratnog lokaliteta, opis prenosi ograničenja dokaza; približna tačka ne postaje precizna. Dve bolnice na Vučevu ostaju zasebne zbog različitih koliba.",
+    "ispravke": [
+      {
+        "id": "rataj-mjesto-logorovanja-vrhovnog-staba",
+        "pre": {
+          "naziv": "Mjesto logorovanja Vrhovnog štaba",
+          "nazivEn": "Encampment site of the Supreme Command",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomen-obilježje Vrhovnom štabu",
+          "nazivEn": "Supreme Command Memorial",
+          "opis": {
+            "sh": "Katalog beleži obeležje podignuto pre 1975. u sećanje na logorovanje Vrhovnog štaba na brdu Glavice kod Rataja; njegov oblik, tačna lokacija i današnje stanje nisu potvrđeni.",
+            "en": "The catalogue records a memorial created before 1975 commemorating the Supreme Command’s encampment on Glavice hill near Rataj; its physical form, precise location and present condition have not been confirmed."
+          }
+        }
+      },
+      {
+        "id": "vrbnica-logoriste-vrhovnog-staba",
+        "pre": {
+          "naziv": "Logorište Vrhovnog štaba",
+          "nazivEn": "Encampment of Supreme Command",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomen-obilježje Vrhovnom štabu",
+          "nazivEn": "Supreme Command Memorial",
+          "opis": {
+            "sh": "Katalog beleži obeležje podignuto pre 1975. u sećanje na logorovanje Vrhovnog štaba kod Vrbnice; njegov oblik, tačna lokacija i današnje stanje nisu potvrđeni.",
+            "en": "The catalogue records a memorial created before 1975 commemorating the Supreme Command’s encampment near Vrbnica; its physical form, precise location and present condition have not been confirmed."
+          }
+        }
+      },
+      {
+        "id": "kosur-hill-mjesto-velikog-bojista",
+        "pre": {
+          "naziv": "Mjesto velikog bojišta",
+          "nazivEn": "Site of major battlefield",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomen-obilježje na Košuru",
+          "nazivEn": "Košur Memorial",
+          "opis": {
+            "sh": "Katalog beleži obeležje podignuto pre 1975. u sećanje na bojište na Košuru; njegov oblik, tačna lokacija i današnje stanje nisu potvrđeni.",
+            "en": "The catalogue records a memorial created before 1975 commemorating the battlefield at Košur; its physical form, precise location and present condition have not been confirmed."
+          }
+        }
+      },
+      {
+        "id": "ravno-borje-mjesto-partizanske-bolnice",
+        "pre": {
+          "naziv": "Mjesto partizanske bolnice",
+          "nazivEn": "Site of Partisans' Hospital",
+          "opis": null,
+          "adresa": "In woodland"
+        },
+        "posle": {
+          "naziv": "Spomen-obilježje partizanskoj bolnici",
+          "nazivEn": "Partisan Hospital Memorial",
+          "opis": {
+            "sh": "Katalog beleži obeležje podignuto pre 1975. u sećanje na partizansku bolnicu u šumi na Ravnom borju; njegov oblik, tačna lokacija i današnje stanje nisu potvrđeni.",
+            "en": "The catalogue records a memorial created before 1975 commemorating a Partisan hospital in woodland at Ravno Borje; its physical form, precise location and present condition have not been confirmed."
+          },
+          "adresa": "U šumi"
+        }
+      },
+      {
+        "id": "mrkalj-klade-mjesto-logorovanja-vrhovnog-staba",
+        "pre": {
+          "naziv": "Mjesto logorovanja Vrhovnog štaba",
+          "nazivEn": "Site of encampment of the Supreme Command",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomen-obilježje Vrhovnom štabu",
+          "nazivEn": "Supreme Command Memorial",
+          "opis": {
+            "sh": "Katalog beleži obeležje podignuto pre 1975. u sećanje na logorovanje Vrhovnog štaba na Mrkalj kladama; njegov oblik, tačna lokacija i današnje stanje nisu potvrđeni.",
+            "en": "The catalogue records a memorial created before 1975 commemorating the Supreme Command’s encampment at Mrkalj Klade; its physical form, precise location and present condition have not been confirmed."
+          }
+        }
+      },
+      {
+        "id": "vucevo-mountain-mjesto-partizanske-bolnice",
+        "pre": {
+          "naziv": "Mjesto partizanske bolnice",
+          "nazivEn": "Site of Partisans' Hospital",
+          "opis": null,
+          "adresa": "Suha Gora Koliba (former)"
+        },
+        "posle": {
+          "naziv": "Spomen-obilježje bolnici kod Suhe gore",
+          "nazivEn": "Suha Gora Hospital Memorial",
+          "opis": {
+            "sh": "Katalog beleži obeležje podignuto pre 1975. u sećanje na partizansku bolnicu kod nekadašnje kolibe Suha Gora na Vučevu; njegov oblik, tačna lokacija i današnje stanje nisu potvrđeni.",
+            "en": "The catalogue records a memorial created before 1975 commemorating a Partisan hospital by the former Suha Gora hut on Vučevo; its physical form, precise location and present condition have not been confirmed."
+          },
+          "adresa": "Nekadašnja koliba Suha Gora"
+        }
+      },
+      {
+        "id": "vucevo-mountain-mjesto-partizanske-bolnice-2",
+        "pre": {
+          "naziv": "Mjesto partizanske bolnice",
+          "nazivEn": "Site of Partisans' Hospital",
+          "opis": null,
+          "adresa": "Duža Koliba (former)"
+        },
+        "posle": {
+          "naziv": "Spomen-obilježje bolnici kod Duže kolibe",
+          "nazivEn": "Duža Koliba Hospital Memorial",
+          "opis": {
+            "sh": "Katalog beleži obeležje podignuto pre 1975. u sećanje na partizansku bolnicu kod nekadašnje Duže kolibe na Vučevu; njegov oblik, tačna lokacija i današnje stanje nisu potvrđeni.",
+            "en": "The catalogue records a memorial created before 1975 commemorating a Partisan hospital by the former Duža Koliba hut on Vučevo; its physical form, precise location and present condition have not been confirmed."
+          },
+          "adresa": "Nekadašnja Duža koliba"
+        }
+      }
+    ]
+  },
+  {
+    "odluka": "bosna-domaci-nazivi-planinskih-lokaliteta-2026-10-20",
+    "datum": "2026-10-20",
+    "obrazac": "Uklonjeni preostali engleski geografski opisi iz polja mesto za BiH. Lokaliteti nisu pretvoreni u naselja niti su im dodate koordinate; trajni ID-jevi ostaju isti.",
+    "ispravke": [
+      {
+        "id": "gornji-svilaj-kadar-hill-spomenik-nob",
+        "pre": "Gornji Svilaj/Kadar Hill",
+        "posle": "Gornji Svilaj (Kadar)",
+        "izvor": "https://www.xiwl.com/w/index.php/Gornji_Svilaj_-_Spomenik_NOB"
+      },
+      {
+        "id": "grmec-mountain-spomenik-zrtvama-fasistickog-terora",
+        "pre": "Grmeč mountain",
+        "posle": "Grmeč",
+        "izvor": "https://www.spomenicinob.info/bosanskakrupa"
+      },
+      {
+        "id": "grmec-mountain-spomenik-zrtvama-fasistickog-terora-2",
+        "pre": "Grmeč mountain",
+        "posle": "Grmeč",
+        "izvor": "https://www.spomenicinob.info/bosanskipetrovac"
+      },
+      {
+        "id": "prenj-mountain-spomen-ploca-borbama-koje-je-vodio",
+        "pre": "Prenj mountain",
+        "posle": "Prenj",
+        "izvor": "https://www.spomenicinob.info/konjic"
+      },
+      {
+        "id": "cincar-mountain-range-spomenik-komandnom-mjestu-ba",
+        "pre": "Cincar mountain range",
+        "posle": "Cincar",
+        "izvor": "https://www.spomenicinob.info/livno"
+      },
+      {
+        "id": "cincar-mountain-range-spomenik-komandnom-mjestu-ob",
+        "pre": "Cincar mountain range",
+        "posle": "Cincar",
+        "izvor": "https://www.spomenicinob.info/livno"
+      },
+      {
+        "id": "cvrsnica-mountain-spomen-ploca-konferenciji-kpj-19",
+        "pre": "Čvrsnica mountain",
+        "posle": "Čvrsnica",
+        "izvor": "https://www.spomenicinob.info/mostar"
+      },
+      {
+        "id": "projsa-mountain-spomenik-na-mjestu-staba-ii-knop-o",
+        "pre": "Projsa mountain",
+        "posle": "Projsa",
+        "izvor": "https://www.spomenicinob.info/prijedor"
+      },
+      {
+        "id": "brusovac-mountain-spomenik-na-mjestu-staba-iv-bata",
+        "pre": "Brusovac mountain",
+        "posle": "Brusovac",
+        "izvor": "https://www.spomenicinob.info/prijedor"
+      }
+    ]
   }
 ]

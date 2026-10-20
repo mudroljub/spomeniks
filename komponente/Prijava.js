@@ -2,6 +2,7 @@
 import {mapa} from '../klase/mapa.js'
 import {t} from '../utils/jezik.js'
 import {mejl, prijavaUrl} from '../utils/prijava.js'
+import {stilPanela} from '../utils/ui.js'
 
 export default class Prijava extends HTMLElement {
   constructor() {
@@ -9,6 +10,7 @@ export default class Prijava extends HTMLElement {
     this.attachShadow({mode: 'open'})
     this.shadowRoot.innerHTML = `
       <style>
+        ${stilPanela}
         :host { font: 16px system-ui, sans-serif; }
         [hidden] { display: none !important; }
         button, a { -webkit-tap-highlight-color: transparent; }
@@ -19,26 +21,24 @@ export default class Prijava extends HTMLElement {
         }
         #dugme svg { height: 26px; width: 26px; }
         #panel {
-          background: #fffdf8; border-radius: 12px 12px 0 0;
-          bottom: 0; box-shadow: 0 -2px 8px #0005; box-sizing: border-box;
-          color: #333; left: 0; max-height: 75dvh; overflow-y: auto;
-          padding: 0 16px calc(16px + var(--dno)); position: fixed; right: 0; z-index: 1001;
+          background: #fffdf8; box-sizing: border-box; color: #333; max-height: 75dvh; overflow-y: auto;
+          padding: 0 16px calc(16px + var(--dno)); z-index: 1001;
         }
         header { align-items: center; display: flex; justify-content: space-between; gap: 12px; }
         h2 { color: #222; font-size: 20px; margin: 16px 0; }
         #zatvori { background: none; border: none; font-size: 28px; height: 44px; width: 44px; flex: none; }
         p { line-height: 1.5; margin: 0 0 12px; }
-        a { color: #822323; overflow-wrap: anywhere; }
+        a { color: var(--boja); overflow-wrap: anywhere; }
         #mejl {
-          background: #822323; border-radius: 22px; color: white; display: block;
+          background: var(--boja); border-radius: 22px; color: white; display: block;
           border: none; line-height: 24px; padding: 10px 16px; text-align: center; width: 100%;
         }
         .adresa { font-size: 14px; margin: 8px 0 16px; text-align: center; }
-        #kopiraj { background: none; border: none; color: #822323; min-height: 44px; text-decoration: underline; }
+        #kopiraj { background: none; border: none; color: var(--boja); min-height: 44px; text-decoration: underline; }
         #status { display: block; overflow-wrap: anywhere; }
         details { border-top: 1px solid #ddd; margin-top: 12px; padding-top: 8px; }
         summary { cursor: pointer; min-height: 44px; align-content: center; }
-        :focus-visible { outline: 2px solid #822323; outline-offset: 3px; }
+        :focus-visible { outline: 2px solid var(--boja); outline-offset: 3px; }
         @media (min-width: 600px) {
           #panel {
             border-radius: 12px; bottom: calc(var(--visina-slajdera) + var(--dno) + 10px);
