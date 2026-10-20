@@ -815,9 +815,30 @@ test('Prikazi odmah obradi poslednji unos i pomeri mapu na nove rezultate', asyn
   assert.deepEqual(rezultat.idsKasnije,rezultat.odmah.ids)
 })
 
+// rad bez signala postoji samo u objavljenoj aplikaciji, pa ga test ukljucuje zamenom podesavanja;
+// drugo otvaranje je pod workerom, a sledeci testovi u razvoju ga ponovo gase
+const uObjavljenoj = async () => {
+  const {send, slusaj} = pregledac
+  let aktivno = true
+  const telo = Buffer.from('export const devMode = false').toString('base64')
+  slusaj(m => {
+    if (aktivno && m.method === 'Fetch.requestPaused') send('Fetch.fulfillRequest', {requestId: m.params.requestId, responseCode: 200,
+      responseHeaders: [{name: 'Content-Type', value: 'text/javascript'}, {name: 'Cache-Control', value: 'no-store'}], body: telo}).catch(() => {})
+  })
+  await send('Fetch.enable', {patterns: [{urlPattern: '*utils/podesavanja.js'}]})
+  try {
+    await otvori()
+    await izvrsi('navigator.serviceWorker.ready.then(() => true)')
+    await otvori()
+    await sacekaj('navigator.serviceWorker.controller', 'service worker upravlja stranicom')
+  } finally {
+    aktivno = false
+    await send('Fetch.disable')
+  }
+}
+
 test('fotografija sa sajta se čuva za rad bez signala', async () => {
-  await otvori()
-  await sacekaj('navigator.serviceWorker.controller', 'service worker upravlja stranicom')
+  await uObjavljenoj()
   const url = await izvrsi(`(async () => {
     const s = [...document.querySelector('planer-rute').stavke.values()].find(x => x.dajSliku).spomenik
     const url = new URL(s.slika, location.href).href
@@ -880,8 +901,7 @@ test('zadrzani autori, posvete i ture ne blokiraju mapu i naknadno dopune otvore
 })
 
 test('stara fotografija se osvezi pod istim URL-om i nova ostaje dostupna bez mreze', async () => {
-  await otvori()
-  await sacekaj('navigator.serviceWorker.controller', 'service worker')
+  await uObjavljenoj()
   const putanja = 'slike/spomenici/podgaric.webp'
   const velicina = readFileSync(new URL('../../' + putanja, import.meta.url)).length
   const url = new URL(putanja, server.adresa).href

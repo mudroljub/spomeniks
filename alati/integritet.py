@@ -265,7 +265,11 @@ novi_bliski = [par for par in greske['manje od 30 m'] if frozenset(par[:2]) not 
 if novi_bliski:
     print(f'novi parovi manje od 30 m: {len(novi_bliski)}', novi_bliski[:8])
 otisak_ispravan = True
-if os.path.exists('sw.js'):
+# u razvoju (devMode) nema novih izdanja, pa se otisak proverava tek pred objavu
+def razvoj():
+    put = 'utils/podesavanja.js'
+    return os.path.exists(put) and re.search(r'devMode = true', open(put, encoding='utf8').read()) is not None
+if os.path.exists('sw.js') and not razvoj():
     import subprocess
     otisak_ispravan = subprocess.run(['node', os.path.join(os.path.dirname(__file__), 'otisak.mjs'), '--proveri']).returncode == 0
 sys.exit(1 if not otisak_ispravan or novi_bliski or any(v for k, v in greske.items() if k != 'manje od 30 m') else 0)

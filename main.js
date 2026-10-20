@@ -15,6 +15,7 @@ import {jezik, t} from './utils/jezik.js'
 import {mapa, postaviMarkere} from './klase/mapa.js'
 import {vaznostSpomenika} from './utils/vaznost.js'
 import {pratiIzdanje} from './utils/azuriranje.js'
+import {devMode} from './utils/podesavanja.js'
 
 document.documentElement.lang = jezik
 
@@ -101,7 +102,11 @@ const render = (stavke, suzeno, imaUslova) => {
 /* INIT */
 
 // rad bez signala
-if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').then(pratiIzdanje).catch(console.error)
+// u razvoju se gasi ranije instaliran worker i njegov komplet aplikacije, jer bi sluzio stare fajlove
+if (devMode) {
+  navigator.serviceWorker?.getRegistrations().then(registracije => registracije.forEach(r => r.unregister()))
+  globalThis.caches?.keys().then(imena => imena.filter(ime => ime.startsWith('spomenici-aplikacija-')).forEach(ime => caches.delete(ime)))
+} else if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').then(pratiIzdanje).catch(console.error)
 
 const ucitaj = putanja => fetch(putanja)
   .then(res => res.ok ? res.json() : Promise.reject(new Error(`${putanja}: HTTP ${res.status}`)))

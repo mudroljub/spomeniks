@@ -35,6 +35,6 @@ with zakljucani_podaci():
 
 ## Provera
 
-Posle izmene aplikacionog koda ili JSON podataka pokreni `node alati/otisak.mjs` pre provere integriteta; alat računa otisak resursa za offline keš (opis u `docs/ALATI.md`).
+U razvoju (`devMode` u `utils/podesavanja.js`) ne pravi se novo izdanje: ne pokreći `node alati/otisak.mjs`; otisak se računa samo pred objavu (README, OBJAVLJIVANJE; opis u `docs/ALATI.md`).
 
 Posle upisa proveri sopstvene ID-jeve i izmenjena polja i pokreni `python -I -B alati/integritet.py` i `git diff --check`. Za izmene koda ili alata za zapis pokreni `node testovi/pokreni.mjs` (unit i integracija); za promene interfejsa i `node testovi/pokreni.mjs e2e`.
