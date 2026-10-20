@@ -4244,7 +4244,7 @@
 {"id":"zrenjanin-potkovica-spomenik-zrtvama-fasistickog-t","koordinate":{"lat":45.3843247,"lng":20.3638785},"mesto":"Zrenjanin (Potkovica)","slikaOdnos":1.504,"naziv":"Spomenik žrtvama fašističkog terora","vrsta":"spomen-obelezje","drzava":"Serbia"},
 {"id":"cirikovac-spomen-ploca-streljanima-u-drugom-svetsk","koordinate":{"lat":44.6459657,"lng":21.2115478},"mesto":"Ćirikovac","naziv":"Spomen-ploča streljanima u Drugom svetskom ratu","vrsta":"spomen-ploca","drzava":"Serbia"},
 {"id":"cacak-ljubic-kej-spomenik-palim-igracima-borca-u-n","koordinate":{"lat":43.8965228,"lng":20.3412597},"mesto":"Čačak (Ljubić kej)","naziv":"Spomenik palim igračima Borca u NOR-u","vrsta":"spomen-obelezje","drzava":"Serbia"},
-{"id":"cacak-ljubic-spomenik-palim-borcima-1941-1945","koordinate":{"lat":43.9141242,"lng":20.3670182},"mesto":"Čačak (Ljubić)","naziv":"Spomenik palim borcima 1941-1945","vrsta":"spomen-obelezje","drzava":"Serbia"},
+{"id":"cacak-ljubic-spomenik-palim-borcima-1941-1945","koordinate":{"lat":43.9141242,"lng":20.3670182},"mesto":"Čačak (Ljubić)","slikaOdnos":0.75,"naziv":"Spomenik palim borcima 1941-1945","vrsta":"spomen-obelezje","drzava":"Serbia"},
 {"id":"sanac-spomenik-palim-borcima","koordinate":{"lat":43.624237,"lng":21.3545399},"mesto":"Šanac","naziv":"Spomenik palim borcima","vrsta":"spomen-obelezje","drzava":"Serbia"},
 {"id":"ajsevica-nob","koordinate":{"lat":45.9480274,"lng":13.7072529},"mesto":"Ajševica","naziv":"NOB","vrsta":"spomen-obelezje","drzava":"Slovenia"},
 {"id":"bojtina-v-spomin-padlim-kurirjem","koordinate":{"lat":46.4835493,"lng":15.5409187},"mesto":"Bojtina","slikaOdnos":0.627,"naziv":"V spomin padlim kurirjem","vrsta":"spomen-obelezje","drzava":"Slovenia"},
@@ -6934,7 +6934,7 @@
 {"id":"radosinj-spomen-cesma","koordinate":{"lat":42.932861,"lng":22.399417},"mesto":"Radosinj","slikaOdnos":1.778,"naziv":"Spomen-česma","vrsta":"spomen-obelezje","drzava":"Serbia"},
 {"id":"radojevo-stone-marker","koordinate":{"lat":45.7377362,"lng":20.7969919},"mesto":"Radojevo","slikaOdnos":0.75,"naziv":"Stone Marker","vrsta":"spomen-obelezje","drzava":"Serbia"},
 {"id":"radovce-spomenik-palim-borcima","koordinate":{"lat":42.580654,"lng":19.274685},"mesto":"Radovče","naziv":"Spomenik palim borcima","vrsta":"spomen-obelezje","drzava":"Montenegro"},
-{"id":"radovici-spomenik-palim-rodoljubima","koordinate":{"lat":42.397158,"lng":18.671289},"mesto":"Radovići","naziv":"Spomenik palim rodoljubima","vrsta":"spomen-obelezje","drzava":"Montenegro"},
+{"id":"radovici-spomenik-palim-rodoljubima","koordinate":{"lat":42.397158,"lng":18.671289},"mesto":"Radovići","slikaOdnos":0.563,"naziv":"Spomenik palim rodoljubima","vrsta":"spomen-obelezje","drzava":"Montenegro"},
 {"id":"radosevo-spomenik-palim-borcima","koordinate":{"lat":43.669298,"lng":19.943771},"mesto":"Radoševo","naziv":"Spomenik palim borcima","vrsta":"spomen-obelezje","drzava":"Serbia"},
 {"id":"radusa-spomen-cesma","koordinate":{"lat":43.844242,"lng":19.595264},"mesto":"Raduša","naziv":"Spomen-česma","vrsta":"spomen-obelezje","drzava":"Serbia"},
 {"id":"radosevac-spomen-cesma","koordinate":{"lat":43.090472,"lng":22.444917},"mesto":"Radoševac","naziv":"Spomen-česma","vrsta":"spomen-obelezje","drzava":"Serbia"},
@@ -7901,7 +7901,7 @@
 {"id":"rusjaci-spomenik-na-padnatite-borci","koordinate":{"lat":41.490355,"lng":21.155469},"mesto":"Русјаци","naziv":"Споменик на паднатите борци","vrsta":"spomen-obelezje","drzava":"Macedonia"},
 {"id":"vlahovic-spomenik-palim-borcima","koordinate":{"lat":45.312786,"lng":16.192358},"mesto":"Vlahović","naziv":"Spomenik palim borcima","stanje":"rusevine","vrsta":"spomen-obelezje","drzava":"Croatia"},
 {"id":"zaklopaca-spomenik-nob","koordinate":{"lat":43.695333,"lng":20.778667},"mesto":"Zaklopača","naziv":"Spomenik NOB","vrsta":"spomen-obelezje","drzava":"Serbia"},
-{"id":"badnjevac-spomenik-palim-borcima","koordinate":{"lat":44.130949,"lng":20.98125},"mesto":"Badnjevac","naziv":"Spomenik palim borcima","vrsta":"spomen-obelezje","drzava":"Serbia"},
+{"id":"badnjevac-spomenik-palim-borcima","koordinate":{"lat":44.130949,"lng":20.98125},"mesto":"Badnjevac","slikaOdnos":0.75,"naziv":"Spomenik palim borcima","vrsta":"spomen-obelezje","drzava":"Serbia"},
 {"id":"babanovac-spomen-obelisk","koordinate":{"lat":44.31162,"lng":17.570592},"mesto":"Babanovac","naziv":"Spomen-obelisk","stanje":"ostecen","vrsta":"spomen-obelezje","drzava":"Bosnia and Herzegovina"},
 {"id":"bastasi-spomenik-palim-borcima-i-zrtvama-fasistick","koordinate":{"lat":44.396646,"lng":16.322149},"mesto":"Bastasi","naziv":"Spomenik palim borcima i žrtvama fašističkog terora","vrsta":"spomen-obelezje","drzava":"Bosnia and Herzegovina"},
 {"id":"benakovac-spomenik-zrtvama-fasistickog-terora","koordinate":{"lat":44.799521,"lng":16.303085},"mesto":"Benakovac","naziv":"Spomenik žrtvama fašističkog terora","stanje":"ostecen","vrsta":"spomen-obelezje","drzava":"Bosnia and Herzegovina"},
@@ -9043,5 +9043,6 @@
 {"id":"beograd-dedinje-nosenje-ranjenika","koordinate":{"lat":44.788067,"lng":20.4520999},"priblizno":true,"mesto":"Beograd (Dedinje)","slikaOdnos":0.75,"naziv":"Nošenje ranjenika","vrsta":"statua","drzava":"Serbia"},
 {"id":"beograd-dedinje-ranjeni-kurir","koordinate":{"lat":44.788067,"lng":20.4520999},"priblizno":true,"mesto":"Beograd (Dedinje)","slikaOdnos":0.75,"naziv":"Ranjeni kurir","vrsta":"statua","drzava":"Serbia"},
 {"id":"smederevska-palanka-bista-radmile-siskovic","koordinate":{"lat":44.3722899,"lng":20.9580588},"priblizno":true,"mesto":"Smederevska Palanka","slikaOdnos":0.75,"naziv":"Bista Radmile Šišković","vrsta":"bista","drzava":"Serbia"},
-{"id":"novi-beograd-reljef-viktora-bubnja","koordinate":{"lat":44.8210539,"lng":20.4057768},"priblizno":true,"mesto":"Beograd (Novi Beograd)","slikaOdnos":0.75,"naziv":"Reljef Viktora Bubnja","vrsta":"reljef","drzava":"Serbia"}
+{"id":"novi-beograd-reljef-viktora-bubnja","koordinate":{"lat":44.8210539,"lng":20.4057768},"priblizno":true,"mesto":"Beograd (Novi Beograd)","slikaOdnos":0.75,"naziv":"Reljef Viktora Bubnja","vrsta":"reljef","drzava":"Serbia"},
+{"id":"gospodjinci-spomenik-423-puku","koordinate":{"lat":45.402222,"lng":19.985556},"mesto":"Gospođinci","slikaOdnos":1.333,"naziv":"Spomenik 423. vazduhoplovnom puku","vrsta":"spomenik","drzava":"Serbia"}
 ]
