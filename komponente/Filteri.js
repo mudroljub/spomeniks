@@ -7,19 +7,14 @@ import {t, nazivDrzave} from '../utils/jezik.js'
 import {nivoiVaznosti, pripadaVrsti} from '../utils/vaznost.js'
 import {izgledMarkera, znak, znakVrste, visinaObeliska} from '../utils/ikonice.js'
 
-
-// uklonjeni se ne prikazuju dok ih putnik ne izabere, jer niko ne putuje do spomenika kog nema
 const podrazumevano = {stanje: ['postoji', 'rusevine']}
 
 const pocetniIzbor = grupe => Object.fromEntries(grupe.map(g => [g.kljuc, new Set(podrazumevano[g.kljuc])]))
 
-// cipovi imaju umanjene znakove iz legende, da se vidi kako izabrano izgleda na mapi
 const razmeraZnaka = 0.6
 const obelisk = (stanje, oznake) => znak(izgledMarkera({vrsta: 'spomenik', stanje}), Math.round(visinaObeliska * razmeraZnaka), oznake)
 const stanjaZnaka = {rusevine: 'rusevine', nestao: 'uklonjen'}
 
-// unutar grupe vazi bilo koja izabrana opcija (ili), a izmedju grupa sve (i);
-// vrednosti su opcije grupe kojima spomenik pripada; drzave i autori su funkcije, jer se racunaju tek kad zatrebaju
 const praviGrupe = (drzave, autori) => [
   {kljuc: 'tip', naziv: t('grupaVrste'), opcije: Object.fromEntries(nivoiVaznosti.map(o => [o, t(o)])),
     vrednosti: s => nivoiVaznosti.filter(o => pripadaVrsti(s, o)), znak: o => znakVrste(o, razmeraZnaka)},
@@ -35,7 +30,6 @@ const praviGrupe = (drzave, autori) => [
     znak: o => obelisk(undefined, {oznaka: o})},
 ]
 
-// opcije drzava i autora prolaze kroz sve spomenike, pa se racunaju tek kad se filteri otvore, i samo jednom
 const lenjo = racunaj => {
   let vrednost
   return () => vrednost ??= racunaj()
@@ -46,7 +40,6 @@ const grupeZa = stavke => praviGrupe(
   lenjo(() => praviAutore(stavke)),
 )
 
-// autori sa bar tri dela, abecedno; ostale nalazi pretraga
 const praviAutore = stavke => {
   const brojDela = {}
   stavke.forEach(({spomenik}) => autoriSpomenika(spomenik).forEach(a => brojDela[a] = (brojDela[a] || 0) + 1))
@@ -172,7 +165,7 @@ style.textContent = `
     box-sizing: border-box;
     color: #333;
     font: inherit;
-    font-size: 16px; /* manji font na iPhone-u zumira stranicu pri kucanju */
+    font-size: 16px;
     min-height: 40px;
     padding: 6px 12px;
     width: 100%;
@@ -285,7 +278,6 @@ export default class Filteri extends HTMLElement {
     this.sadrzaj = this.panel.querySelector('.grupe')
     this.panel.querySelector('#zatvori').addEventListener('click', () => this.zatvori())
     this.panel.querySelector('#ponisti').addEventListener('click', () => this.ponisti())
-    // izbor opcija ne pomera mapu, a potvrda izbora pokazuje rezultate
     this.panel.querySelector('#prikazi').addEventListener('click', () => {
       this.zatvori()
       this.dispatchEvent(new Event('potvrda'))
@@ -299,7 +291,6 @@ export default class Filteri extends HTMLElement {
       const opcija = cilj.closest('[role="option"]')
       if (opcija) this.izaberiSaSpiska(opcija)
     })
-    // dodir ili klik bilo gde van padajuceg spiska ga zatvara
     this.panel.addEventListener('click', e => {
       if (this.otvorenSpisak && !/** @type {HTMLElement} */ (e.target).closest('.padajuci')) this.zatvoriSpisak()
     })
@@ -320,28 +311,22 @@ export default class Filteri extends HTMLElement {
     })
   }
 
-  // spomenici koji odgovaraju pretrazi; brojevi uz opcije se racunaju od njih
-  // kad stignu ostali spomenici, opcije drzava i autora se racunaju iz svih; izbor korisnika ostaje
   dodaj(stavke) {
     this.grupe = grupeZa(stavke)
     if (!this.panel.hidden) this.prikaziGrupe()
   }
 
-  // pretraga je spisak pronadjenih po frazi, a bez fraze su to svi spomenici
   postaviOsnovu(stavke, pretraga) {
     this.osnova = stavke
     this.pretraga = pretraga
     if (!this.panel.hidden) this.prikaziGrupe()
   }
 
-  // grupe iz osim se ne proveravaju
   odgovara(spomenik, ...osim) {
     return this.grupe.every(g => osim.includes(g.kljuc) || !this.izbor[g.kljuc].size ||
       g.vrednosti(spomenik).some(v => this.izbor[g.kljuc].has(v)))
   }
 
-  // trazeni spomenik se nalazi i kad je uklonjen: podrazumevani filter stanja samo rasterecuje praznu mapu,
-  // a stanje koje je korisnik sam izabrao vazi i u pretrazi
   izuzetak() {
     return this.pretraga && this.naPocetku('stanje') ? ['stanje'] : []
   }
@@ -350,14 +335,12 @@ export default class Filteri extends HTMLElement {
     return this.odgovara(spomenik, ...this.izuzetak())
   }
 
-  // grupa koju korisnik nije menjao
   naPocetku(kljuc) {
     const pocetno = podrazumevano[kljuc] || []
     const izabrano = this.izbor[kljuc]
     return izabrano.size === pocetno.length && pocetno.every(o => izabrano.has(o))
   }
 
-  // broje se izmene u odnosu na pocetni izbor
   brojAktivnih() {
     return this.grupe.reduce((zbir, {kljuc}) => {
       const pocetno = podrazumevano[kljuc] || []
@@ -378,7 +361,6 @@ export default class Filteri extends HTMLElement {
     this.prikaziGrupe()
     this.sadrzaj.querySelector('.spisak').scrollIntoView({block: 'nearest'})
     this.sadrzaj.querySelector('[role="option"][aria-selected="true"]').scrollIntoView({block: 'nearest'})
-    // na telefonu tastatura ne iskace sama, jer bi prekrila spisak
     if (matchMedia('(pointer: fine)').matches) this.sadrzaj.querySelector('.spisak input').focus()
   }
 
@@ -387,7 +369,6 @@ export default class Filteri extends HTMLElement {
     this.prikaziGrupe()
   }
 
-  // fokus se vraca na polje, da tastatura nastavi odatle
   vratiFokus(grupa) {
     this.sadrzaj.querySelector(`button.polje[data-grupa="${grupa}"]`).focus({preventScroll: true})
   }
@@ -399,7 +380,6 @@ export default class Filteri extends HTMLElement {
     this.vratiFokus(grupa)
   }
 
-  // kucanje samo sakriva stavke koje ne odgovaraju, da polje ne izgubi fokus
   filtrirajSpisak(tekst) {
     const trazeno = normalizuj(tekst.trim())
     const opcije = [...this.sadrzaj.querySelectorAll('[role="option"]')]
@@ -415,7 +395,6 @@ export default class Filteri extends HTMLElement {
     this.sadrzaj.querySelector('.spisak input').setAttribute('aria-activedescendant', opcija?.id || '')
   }
 
-  // tastatura kao kod obicnog padajuceg spiska: strelice, Enter i Escape
   tasterSpiska(e) {
     if (e.target.matches('button.polje') && e.key === 'ArrowDown' && !this.otvorenSpisak) {
       e.preventDefault()
@@ -444,7 +423,6 @@ export default class Filteri extends HTMLElement {
     }
   }
 
-  // padajuci spisak bira samo jednu opciju, a prazna vrednost je bez filtera
   izaberi(grupa, opcija) {
     const izabrano = this.izbor[grupa]
     izabrano.clear()
@@ -476,7 +454,6 @@ export default class Filteri extends HTMLElement {
 
   prikaziGrupe() {
     const izuzetak = this.izuzetak()
-    // broj za svaku opciju je koliko bi rezultata bilo kad bi se izabrala, uz ostale grupe kakve jesu
     const opcije = g => {
       const brojevi = new Map()
       for (const {spomenik} of this.osnova)

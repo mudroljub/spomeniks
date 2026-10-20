@@ -19,21 +19,16 @@ export const bezbedanLink = link => {
   } catch { return '' }
 }
 
-// engleski naziv stize posle prvog crtanja, i samo na engleskom (data/prevodi-en.json); do tada se vidi domaci
 /** @param {Pick<import('../data/tipovi').Spomenik, 'naziv' | 'nazivEn'>} spomenik */
 export const nazivSpomenika = ({naziv, nazivEn}) => (jezik === 'en' && bezLinkova(nazivEn)) || naziv || ''
 
-// umanjena slika (alati/male_slike.py) za trake i spiskove, gde je velika suvisna
 export const malaSlika = putanja => putanja.replace('slike/spomenici/', 'slike/male/')
 
-// vise autora jednog spomenika upisano je kao „Ime & Ime“
 /** @param {import('../data/tipovi').Spomenik} spomenik */
 export const autoriSpomenika = ({autor}) => autor ? autor.split(' & ') : []
 
-// uklonjen spomenik vise nema sta da se obidje; od srusenog obicno ostanu delovi
 export const nestao = stanje => stanje === 'uklonjen'
 
-// srusen se racuna kao ruine, jer obicno ostanu postolje ili delovi
 export const ruine = stanje => stanje === 'rusevine' || stanje === 'srusen'
 
 export function mestoUrl({koordinate: {lat, lng}, googleCid}) {
@@ -56,13 +51,12 @@ const cirilica = {
   џ: 'dz', ш: 's', ѓ: 'g', ќ: 'k', ѕ: 'dz',
 }
 
-// za pretragu: mala slova, latinica, bez dijakritika (Kadinjača = kadinjaca = Кадињача)
 export const normalizuj = tekst => tekst
   .toLowerCase()
   .replace(/[а-шѓќѕђјљњћџ]/g, z => cirilica[z] || z)
   .replace(/đ/g, 'dj')
   .normalize('NFD')
-  .replace(/\p{M}/gu, '') // uklanja kvacice i akcente
+  .replace(/\p{M}/gu, '')
 
 const entiteti = {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', '\'': '&#39;'}
 

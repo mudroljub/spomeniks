@@ -9,7 +9,6 @@ import {jezik, t, nazivDrzave} from '../utils/jezik.js'
 import {prijavaUrl} from '../utils/prijava.js'
 import {clanakSpomenika} from '../utils/clanci.js'
 
-
 const style = document.createElement('style')
 style.textContent = `
   ${stilZaglavlja}
@@ -39,7 +38,6 @@ style.textContent = `
     }
   }
 
-  /* povratak postoji samo na telefonu, gde prozor spomenika prekriva rutu */
   #nazad {
     background: none;
     border: none;
@@ -64,7 +62,6 @@ style.textContent = `
     }
   }
 
-  /* dugme za zatvaranje stoji u uglu, da svojom visinom ne odmakne tekst od naslova */
   header {
     padding: 12px 44px 0 16px;
     position: relative;
@@ -188,8 +185,6 @@ style.textContent = `
     text-decoration: underline;
   }
 
-  /* okvir unapred ima oblik slike (slikaOdnos), da prozor ne skoci kad se slika ucita;
-     uspravna slika nije visa od 4:3, da ne odgura dugmad ispod nje */
   .slika {
     aspect-ratio: 4 / 3;
     max-height: 75cqw;
@@ -208,7 +203,6 @@ style.textContent = `
     width: 100%;
   }
 
-  /* licenca slika sa Wikimedije trazi ime autora; stoji preko slike, da ne odvoji sliku od oznaka */
   figcaption {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 4px 0 0 0;
@@ -328,7 +322,6 @@ style.textContent = `
     color: #fff;
   }
 
-  /* natpis je sklopljen, da dugacak tekst ne odgura dugmad */
   .natpis {
     color: #444;
     font-size: 14px;
@@ -342,7 +335,6 @@ style.textContent = `
     min-height: 44px;
   }
 
-  /* novi red u natpisu je potpis, datum ili stih */
   .natpis p {
     margin: 0;
     white-space: pre-line;
@@ -352,7 +344,6 @@ style.textContent = `
     background: #f3e1dc;
   }
 
-  /* znak ima stalnu sirinu, da dugme ne promeni velicinu kad se pritisne */
   .akcije #ruta::before {
     content: '+';
     display: inline-block;
@@ -364,7 +355,6 @@ style.textContent = `
   }
 `
 
-// pomera mapu tako da izabrani spomenik ostane vidljiv pored panela
 const pokaziNaMapi = (marker, panel) => {
   const velicina = mapa.getSize()
   const okvir = panel.getBoundingClientRect()
@@ -375,14 +365,12 @@ const pokaziNaMapi = (marker, panel) => {
   mapa.panBy(unutarGranica(tacka.subtract(cilj)))
 }
 
-// pomeraj ne izlazi van granica mape; inace mapa ode preko granice pa se vrati (Slovenija je uz zapadnu)
 const unutarGranica = pomeraj => {
   const granice = mapa.options.maxBounds
   const zum = mapa.getZoom()
   const min = mapa.project(granice.getNorthWest(), zum)
   const max = mapa.project(granice.getSouthEast(), zum)
   const pogled = mapa.getPixelBounds()
-  // kad je oblast uza od ekrana, Leaflet je centrira, pa i pomeraj ide na sredinu
   const ogranici = (vrednost, najmanje, najvise) => najmanje > najvise
     ? Math.round((najmanje + najvise) / 2)
     : Math.min(Math.max(vrednost, najmanje), najvise)
@@ -411,7 +399,6 @@ export default class Detalji extends HTMLElement {
     mapa.on('click', () => this.marker && mapa.fire('izbor', {marker: null}))
     promene.addEventListener('promena', () => this.marker && this.osveziOznake())
     promeneRute.addEventListener('promena', () => this.marker && this.osveziRutu())
-    // opis se otvara i zatvara dodirom
     const prosiri = e => {
       const opis = e.target.closest?.('.opis')
       if (!opis || opis.classList.contains('ceo') || e.target.closest('a')) return
@@ -434,7 +421,6 @@ export default class Detalji extends HTMLElement {
     pokaziNaMapi(marker, this.panel)
   }
 
-  // detalji i engleski naziv stizu posle prvog crtanja, pa otvoren prozor dobija nov sadrzaj bez pomeranja mape i skrola
   osvezi() {
     if (!this.marker || this.panel.hidden) return
     const skrol = this.panel.scrollTop
@@ -448,7 +434,6 @@ export default class Detalji extends HTMLElement {
     const izRute = this.izRute
     const vise = clanakSpomenika(spomen, jezik)
 
-    // naslov je naziv spomenika, a mesto stoji ispod
     const naziv = escapeHtml(nazivSpomenika(spomen))
     this.panel.innerHTML = `
       ${izRute ? `<button id="nazad">‹ ${t('trenutnaRuta')}</button>` : ''}
@@ -489,7 +474,6 @@ export default class Detalji extends HTMLElement {
       location.href = prijavaUrl(spomen)
     })
     this.panel.querySelector('#nazad')?.addEventListener('click', () => mapa.fire('otvoriRutu'))
-    // ponovni dodir na izabranu oznaku je skida
     this.panel.querySelectorAll('[data-oznaka]').forEach(dugme => dugme.addEventListener('click', () =>
       postaviOznaku(spomen.id, dajOznaku(spomen.id) === dugme.dataset.oznaka ? null : dugme.dataset.oznaka)
     ))
@@ -500,7 +484,6 @@ export default class Detalji extends HTMLElement {
     this.osveziRutu()
   }
 
-  // link autora je u posebnom spisku, jer isti autor ima vise spomenika
   postaviAutore(autori) {
     this.autori = autori
     this.osveziPodatke()
@@ -518,7 +501,6 @@ export default class Detalji extends HTMLElement {
     return `${t(autori.length > 1 ? 'autori' : 'grupaAutor')}: ${imena}`
   }
 
-  // licnosti, jedinice i dogadjaji su u posebnom spisku, jer jedna posveta ima vise spomenika
   postaviPosvete(posvete) {
     this.posvete = posvete
     this.osveziPodatke()
@@ -529,7 +511,6 @@ export default class Detalji extends HTMLElement {
     return (jezik === 'en' ? opis?.en : opis?.sh) || ''
   }
 
-  // opis koji staje u dva reda nema strelicu ni otvaranje
   oznaciCeoOpis() {
     const opis = this.panel.querySelector('.opis')
     const tekst = opis?.querySelector('.tekst')
@@ -540,7 +521,6 @@ export default class Detalji extends HTMLElement {
     return [this.praviAutore(spomen), this.praviPosvetu(spomen), this.praviOpis(spomen)].filter(Boolean)
   }
 
-  // zakasneli autori i posvete menjaju samo svoje redove, pa ostaju povratak u rutu, polozaj mape i skrol panela
   osveziPodatke() {
     if (!this.marker) return
     this.panel.querySelectorAll('.podaci').forEach(red => red.remove())
@@ -559,7 +539,6 @@ export default class Detalji extends HTMLElement {
     return link ? `<a href="${escapeHtml(link)}" target="_blank">${tekst}</a>` : tekst
   }
 
-  // posveta povezana u opisu nema poseban red
   /** @param {Pick<import('../data/tipovi').Spomenik, 'posveta' | 'opis'>} spomen */
   praviPosvetu(spomen) {
     const {posveta = []} = spomen
@@ -572,7 +551,6 @@ export default class Detalji extends HTMLElement {
     return linkovi ? `${t('posveta')}: ${linkovi}` : ''
   }
 
-  // opis je skracen na dva reda i otvara se dodirom; [tekst](Q-id) je link posvete
   /** @param {Pick<import('../data/tipovi').Spomenik, 'opis'>} spomen */
   praviOpis(spomen) {
     const opis = this.opisSpomenika(spomen)

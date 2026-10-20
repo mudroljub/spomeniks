@@ -1,5 +1,4 @@
 // @ts-check
-// Prostorna mreza ogranicava proveru na oznake u neposrednoj blizini.
 export default class Raspored {
   constructor() {
     this.polja = new Map()
@@ -27,7 +26,6 @@ export default class Raspored {
   }
 
   pomeri(okvir) {
-    // Trazi najblize slobodno mesto, ali ne udaljava oznaku vise od 96 px.
     for (let r = 0; r <= 96; r += 16) {
       const koraka = r ? Math.ceil(2 * Math.PI * r / 16) : 1
       for (let i = 0; i < koraka; i++) {

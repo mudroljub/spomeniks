@@ -1,11 +1,9 @@
 // @ts-check
 import {ucitajIzSkladista, sacuvajUSkladiste} from './skladiste.js'
 
-// svaki spomenik ima najvise jednu oznaku, 'lista' ili 'posetio'; cuva se samo na ovom uredjaju
 const kljuc = 'spomenici-poseta'
 const vrsteOznaka = ['lista', 'posetio']
 
-// zapis koji nije objekat i nepoznate oznake se odbacuju, da ne pokvare prikaz
 const ucitaj = () => {
   try {
     const sacuvane = JSON.parse(ucitajIzSkladista(kljuc))

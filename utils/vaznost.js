@@ -1,5 +1,4 @@
 // @ts-check
-// Izvorna važnost: manji broj znači viši prioritet svuda u interfejsu.
 export const vaznostVrste = {
   istaknut: 1,
   'spomen-park': 2,
@@ -14,7 +13,6 @@ export const vaznostVrste = {
   'spomen-ploca': 11,
 }
 
-// Zum se dodeljuje nivou važnosti, a vrste ga nasleđuju preko svojih prioriteta.
 export const zumPoVaznosti = {1: 0, 2: 8, 3: 8, 4: 9, 5: 9, 6: 9, 7: 10, 8: 11, 9: 11, 10: 12, 11: 12}
 const poslednjiNivoZuma = Math.max(...Object.keys(zumPoVaznosti).map(Number))
 /** @param {number} vaznost */
@@ -33,7 +31,6 @@ export const najmanjiZum = spomenik => zumVaznosti(vaznostSpomenika(spomenik))
 export const pripadaVrsti = (spomenik, izbor) => izbor === 'istaknut' ? spomenik.istaknut === true : spomenik.vrsta === izbor
 export const podrazumevaniPrag = 'statua'
 
-// Stari izbor je bio broj zuma: sacuvaj ukljucenost cele tada izabrane grupe.
 export const razresiPrag = vrednost => {
   const stariNazivi = {lokalni: 'spomen-obelezje', kompleks: 'spomen-park', 'spomen-grob': 'groblje', ploca: 'spomen-ploca'}
   const stariZumovi = {0: 'istaknut', 8: 'muzej', 9: 'statua', 10: 'bista', 11: 'spomen-obelezje', 12: 'spomen-ploca'}

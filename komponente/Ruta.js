@@ -9,11 +9,10 @@ import {sastaviTure} from '../utils/ture.js'
 import {nivoiVaznosti, vaznostVrste, razresiPrag} from '../utils/vaznost.js'
 import {ucitajIzSkladista, sacuvajUSkladiste} from '../utils/skladiste.js'
 
-const najviseZaGoogle = 10 // ogranicenje jednog Google linka, ne broja stanica u turi
-const najmanjeStanica = 3 // manje od toga nije tura
-// drzave i pokrajine koje su u NOB imale svoj glavni stab, od zapada ka istoku
+const najviseZaGoogle = 10
+const najmanjeStanica = 3
 const grupeSpiska = ['Slovenia', 'Croatia', 'Bosnia and Herzegovina', 'Montenegro', 'Serbia', 'Vojvodina', 'Kosovo', 'Macedonia']
-const siroko = matchMedia('(min-width: 600px)') // ruta i spomenik mogu da stoje jedno pored drugog
+const siroko = matchMedia('(min-width: 600px)')
 const kljucPraga = 'spomenici-prag-tura'
 const ucitajPrag = () => razresiPrag(ucitajIzSkladista(kljucPraga))
 
@@ -49,7 +48,6 @@ style.textContent = `
     z-index: 1000;
   }
 
-  /* desno, iznad dugmadi dole, a prozor spomenika je levo */
   @media (min-width: 600px) {
     #panel {
       border-radius: 12px;
@@ -67,7 +65,6 @@ style.textContent = `
     font: inherit;
   }
 
-  /* kartice i zatvaranje su uvek vidljivi, i kad se spisak pomeri; tamno zaglavlje razlikuje rutu od prozora spomenika */
   header {
     background: var(--boja);
     display: flex;
@@ -199,7 +196,6 @@ style.textContent = `
     font-weight: 600;
   }
 
-  /* spisak mesta u turi staje u dva reda */
   .tura .opis {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
@@ -207,7 +203,6 @@ style.textContent = `
     overflow: hidden;
   }
 
-  /* svi alati rute su u jednom redu iznad naslova */
   .alati {
     display: flex;
     margin: 0;
@@ -227,7 +222,6 @@ style.textContent = `
     margin-left: auto;
   }
 
-  /* povratak na izbor ture je strelica, a ne podvucena akcija */
   .alati #nazad {
     text-decoration: none;
   }
@@ -246,7 +240,6 @@ style.textContent = `
     padding: 16px;
   }
 
-  /* glavna akcija je uvek pri dnu panela */
   footer {
     background: #fffdf8;
     border-top: 1px solid #ddd;
@@ -298,7 +291,6 @@ style.textContent = `
     flex-shrink: 0;
   }
 
-  /* spisak sa znakovima sa mape, jer obican padajuci spisak ne prikazuje slike */
   .izbor-praga {
     flex: 1;
     min-width: 0;
@@ -374,7 +366,6 @@ style.textContent = `
   }
 `
 
-// bez polazista Google Maps krece od trenutnog polozaja
 const googleUrl = spomenici => {
   const stanice = spomenici.slice(0, najviseZaGoogle).map(({koordinate: {lat, lng}}) => `${lat},${lng}`)
   const parametri = new URLSearchParams({api: '1', destination: stanice.pop()})
@@ -382,11 +373,9 @@ const googleUrl = spomenici => {
   return `https://www.google.com/maps/dir/?${parametri}`
 }
 
-// priblizno najkraci obilazak: uvek najbliza sledeca stanica, pa 2-opt okretanje deonica koje se ukrstaju
-// polaziste ostaje prvo, a vraca indekse ostalih tacaka redom obilaska
 const najkraciRedosled = (polaziste, tacke) => {
   const tacka = i => i < 0 ? polaziste : tacke[i]
-  const d = (i, j) => j === undefined ? 0 : tacka(i).distanceTo(tacka(j)) // put je otvoren, posle kraja nema deonice
+  const d = (i, j) => j === undefined ? 0 : tacka(i).distanceTo(tacka(j))
   const ostale = tacke.map((_, i) => i)
   const put = [-1]
   const cos = Math.cos(polaziste.lat * Math.PI / 180)
@@ -402,7 +391,7 @@ const najkraciRedosled = (polaziste, tacke) => {
     put.push(...ostale.splice(najbliza, 1))
   }
 
-  let popravljeno = tacke.length <= 100 // velike ture ostaju cele, bez skupe 2-opt obrade
+  let popravljeno = tacke.length <= 100
   while (popravljeno) {
     popravljeno = false
     for (let i = 1; i < put.length - 1; i++)
@@ -417,19 +406,15 @@ const najkraciRedosled = (polaziste, tacke) => {
   return put.slice(1)
 }
 
-// naziv ture ima verziju za svaki jezik; ruta sacuvana pre prevoda ima samo engleski tekst
 const prevedi = naziv => naziv?.[jezik] ?? naziv
 
-// svaka sledeca vrsta se dodaje prethodnim, pa rimski broj pokazuje nivo prikaza
 const rimskeJedinice = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX']
-// nivoa vaznosti ima manje od 40, pa su dovoljne desetice i jedinice
 /** @param {number} broj */
 const rimskiBroj = broj => 'X'.repeat(Math.floor(broj / 10)) + rimskeJedinice[broj % 10]
 const nazivPraga = vrsta => `${t(vrsta)} <span class="nivo">${rimskiBroj(vaznostVrste[vrsta])}</span>`
 
 const otvoriStanicu = marker => mapa.fire('izbor', {marker, izRute: true})
 
-// broj stanice stoji desno od podnozja obeliska, gde ga dodiruje linija rute
 const praviBroj = (marker, broj) => L
   .marker(marker.dajPoziciju(), {
     icon: L.divIcon({className: 'broj-stanice', html: broj, iconSize: [22, 22], iconAnchor: [-2, 20]}),
@@ -447,7 +432,7 @@ export default class Ruta extends HTMLElement {
 
     this.dugme = document.createElement('button')
     this.dugme.id = 'dugme'
-    this.dugme.hidden = true // do ucitavanja spomenika
+    this.dugme.hidden = true
     this.dugme.addEventListener('click', () => this.otvori())
 
     this.panel = document.createElement('section')
@@ -509,7 +494,6 @@ export default class Ruta extends HTMLElement {
     promeneRute.addEventListener('promena', () => this.prikazi())
     mapa.on('izbor', ({marker}) => marker && !siroko.matches && (this.panel.hidden = true))
     mapa.on('otvoriRutu', () => this.otvori())
-    // gotova tura izabrana pre lociranja se okrece cim se sazna odakle korisnik krece
     mapa.on('pozicija', ({latlng}) => {
       const prvaPozicija = !this.pozicija
       this.pozicija = latlng
@@ -517,7 +501,6 @@ export default class Ruta extends HTMLElement {
     })
   }
 
-  // izabrana vrsta stoji na dugmetu, sa svojim znakom
   prikaziPrag() {
     const opcija = this.panel.querySelector(`[data-prag="${this.pragVaznosti}"]`)
     this.panel.querySelectorAll('[data-prag]').forEach(o => o.setAttribute('aria-selected', String(o === opcija)))
@@ -537,7 +520,6 @@ export default class Ruta extends HTMLElement {
     this.osveziTure()
   }
 
-  // mis, dodir i tastatura kao kod obicnog padajuceg spiska; dodir van spiska ga zatvara
   povesiIzborPraga() {
     const dugme = this.panel.querySelector('#prag-vaznosti')
     const spisak = this.panel.querySelector('#opcije-praga')
@@ -574,8 +556,6 @@ export default class Ruta extends HTMLElement {
     this.osveziTure()
   }
 
-  // Stanice svih tura traze se kroz sve spomenike, pa se spisak sastavlja tek kad se kartica tura vidi;
-  // izabrana tura se osvezava odmah, jer njene stanice stoje na mapi.
   osveziTure() {
     this.spisakZastareo = true
     if (!this.panel.hidden && this.kartica === 'ture') this.osveziSpisakTura()
@@ -591,15 +571,12 @@ export default class Ruta extends HTMLElement {
     return [...this.stavke.values()].map(s => s.spomenik)
   }
 
-  // nudi se samo tura sa bar tri stanice, a izabrana ostaje i kad prag smanji broj stanica
   osveziSpisakTura() {
     this.spisakZastareo = false
     const ture = sastaviTure(this.definicije, this.spomenici(), this.pragVaznosti)
     this.prikaziSpisakTura(ture.filter(tura => tura.spomenici.length >= najmanjeStanica))
   }
 
-  // cela Jugoslavija je prva, bez naslova, a ostale su po drzavi ili pokrajini: prvo oblasti, pa gradovi;
-  // tura preko granice ide pod prvu navedenu drzavu, a gradska tura se prepoznaje po spisku naselja
   prikaziSpisakTura(ponudjene) {
     const iskorisceneSlike = new Set()
     const definicije = new Map(this.definicije.map(d => [d.id, d.oblast]))
@@ -623,12 +600,10 @@ export default class Ruta extends HTMLElement {
     this.panel.querySelector('#spisak-tura').replaceChildren(...jugoslavija.length ? [spisak(jugoslavija)] : [], ...poDrzavama)
   }
 
-  // id-jevi iz starijih podataka koji vise ne postoje se preskacu
   stanice() {
     return dajRutu().map(id => this.stavke.get(id)).filter(Boolean)
   }
 
-  // prazna ruta nema sta da pokaze, pa se otvaraju ture
   otvori() {
     if (!siroko.matches) mapa.fire('izbor', {marker: null})
     this.prikaziKarticu(this.stanice().length ? 'planer' : 'ture')
@@ -643,7 +618,6 @@ export default class Ruta extends HTMLElement {
   }
 
   osveziKartice() {
-    // izabrana tura sa stalnim pragom ne zavisi od izbora praga
     const stalniPrag = this.definicije?.find(d => d.id === dajTuruId())?.prag
     this.panel.querySelector('#vaznost').hidden = this.kartica === 'planer' && (!dajTuruId() || Boolean(stalniPrag))
     const broj = this.stanice().length
@@ -684,7 +658,6 @@ export default class Ruta extends HTMLElement {
     this.panel.querySelector('#nazad').hidden = !dajNaziv()
     this.panel.querySelector('.alati').hidden = !stanice.length
     this.panel.querySelector('footer').hidden = !stanice.length
-    // gotova tura je vec poredjana, pa umesto redosleda nudi povratak na ture
     this.panel.querySelector('#redosled').hidden = stanice.length < 3 || Boolean(dajNaziv())
   }
 
@@ -719,13 +692,11 @@ export default class Ruta extends HTMLElement {
     red.innerHTML = '<button class="naziv tura"><span class="tekst"><span class="ime"></span><span class="opis"></span></span></button>'
     const clanovi = spomenici.map(id => this.stavke.get(id)?.spomenik).filter(Boolean)
     const mesta = [...new Set(clanovi.map(s => s.mesto))]
-    // fotografija koju ranije ture nisu uzele, da se ture razlikuju na prvi pogled
     const slika = (clanovi.find(s => s.slika && !iskorisceneSlike.has(s.slika)) ?? clanovi.find(s => s.slika))?.slika
     iskorisceneSlike.add(slika)
     if (slika) red.querySelector('.tura').prepend(Object.assign(new Image(), {src: malaSlika(slika), alt: '', loading: 'lazy'}))
     red.querySelector('.ime').textContent = prevedi(naziv)
     const opisMesta = mesta.slice(0, 4).join(', ') + (mesta.length > 4 ? '…' : '')
-    // tura sa stalnim pragom umesto stanica navodi prag, jer ne prati izbor praga iznad spiska
     const prag = this.definicije.find(d => d.id === id)?.prag
     red.querySelector('.opis').textContent = prag ? t(prag) : t('stanice', clanovi.length) + (opisMesta ? `: ${opisMesta}` : '')
     red.querySelector('button').addEventListener('click', () => {
@@ -742,8 +713,6 @@ export default class Ruta extends HTMLElement {
     return this.usmeri([spomenici[0], ...najkraciRedosled(tacke[0], tacke.slice(1)).map(i => spomenici[i + 1])])
   }
 
-  // jedini izuzetak od pravila da mapa sama ne menja zum: izabrana tura je obicno van vidnog polja
-  // na telefonu panel prekriva vecinu mape, pa se zatvara da bi se tura videla cela
   pokaziTuru() {
     if (!siroko.matches) this.panel.hidden = true
     const desno = siroko.matches ? mapa.getSize().x - this.panel.getBoundingClientRect().left : 0
@@ -755,7 +724,6 @@ export default class Ruta extends HTMLElement {
     })
   }
 
-  // tura se obilazi od kraja koji je blizi korisniku; bez lokacije ostaje kako je
   usmeri(spomenici) {
     const pozicije = spomenici.map(id => this.stavke.get(id)?.marker.dajPoziciju()).filter(Boolean)
     if (!this.pozicija || pozicije.length < 2) return spomenici
@@ -763,7 +731,6 @@ export default class Ruta extends HTMLElement {
     return this.pozicija.distanceTo(poslednja) < this.pozicija.distanceTo(prva) ? [...spomenici].reverse() : spomenici
   }
 
-  // polazi od korisnika ako je lociran, inace prva stanica ostaje prva
   poredjaj() {
     const stanice = this.stanice()
     const tacke = stanice.map(({marker}) => marker.dajPoziciju())

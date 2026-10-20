@@ -1,5 +1,4 @@
 // @ts-check
-// Paneli ostaju nemodalni: mapa je dostupna, a Escape zatvara samo aktivni panel.
 export const upravljajPanelom = (panel, zatvori, naziv, dugme) => {
   panel.tabIndex = -1
   panel.setAttribute('role', 'region')
@@ -32,7 +31,6 @@ export const upravljajPanelom = (panel, zatvori, naziv, dugme) => {
   })
 }
 
-// Zajednicko zaglavlje za detalje spomenika i izabranu turu.
 export const stilZaglavlja = `
   h2 {
     font-size: 20px;
@@ -51,7 +49,6 @@ export const stilZaglavlja = `
   }
 `
 
-// Na telefonu panel izlazi odozdo preko cele sirine; visinu, pozadinu i mesto na sirem ekranu odredjuje komponenta.
 export const stilPanela = `
   #panel {
     border-radius: 12px 12px 0 0;

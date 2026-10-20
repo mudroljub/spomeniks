@@ -1,7 +1,6 @@
 // @ts-check
 import {ucitajIzSkladista, sacuvajUSkladiste} from './skladiste.js'
 
-// spomenici izabrani za put, redom obilaska, i ime gotove ture od koje je nastala; cuva se samo na ovom uredjaju
 const kljuc = 'spomenici-ruta'
 /** @type {{naziv: string | {sh: string, en: string}, spomenici: string[], wiki?: string, turaId?: string}} */
 const prazna = {naziv: '', spomenici: []}
@@ -47,7 +46,6 @@ export const dajNaziv = () => ruta.naziv
 export const dajWiki = () => ruta.wiki
 export const dajTuruId = () => ruta.turaId
 
-// izmena stanica zadrzava ime, jer je to i dalje ista ruta
 export const postaviRutu = spomenici => zameni(spomenici.length ? {...ruta, spomenici} : prazna)
 
 export const izaberiTuru = ({id, naziv, spomenici, wiki = ''}) => zameni({turaId: id, naziv, spomenici, wiki})
@@ -66,7 +64,6 @@ export const ukloniIzRute = id => {
   izmeniStanice(ruta.spomenici.filter(x => x !== id))
 }
 
-// pomera stanicu za jedno mesto napred (-1) ili nazad (1)
 export const pomeri = (id, smer) => {
   const i = ruta.spomenici.indexOf(id)
   const j = i + smer

@@ -4,20 +4,19 @@ import Raspored from '../utils/raspored.js'
 import {vaznostSpomenika} from '../utils/vaznost.js'
 
 const konfigMape = {
-  zoom: 7, // pri otvaranju se vide samo istaknuti spomenici; isti zum je ZUM_ISTAKNUTIH u alati/zapis.py
+  zoom: 7,
   minZoom: 6,
   center: [44.341667, 17.269444],
   scrollWheelZoom: false,
   maxBounds: [
-    [39, 10], // jug zapad
-    [49, 26]  // sever istok
+    [39, 10],
+    [49, 26]
   ],
-  maxBoundsViscosity: 1.0 // sprecava odskakanje
+  maxBoundsViscosity: 1.0
 }
 
-export const mapa = L.map('mapa', konfigMape) // singlton
+export const mapa = L.map('mapa', konfigMape)
 
-// touchpad: dva prsta pomeraju mapu, a stipanje (wheel sa ctrlKey) zumira oko kursora
 const pragZuma = 40
 let zbirZuma = 0
 
@@ -33,7 +32,6 @@ mapa.getContainer().addEventListener('wheel', e => {
   zbirZuma = 0
 }, {passive: false})
 
-// pozicija korisnika iznad markera, da je ne prekriju
 mapa.createPane('korisnik').style.zIndex = 650
 
 const sloj = L.layerGroup().addTo(mapa)
@@ -47,14 +45,10 @@ const uvekVidljiv = marker => marker === izabran || Boolean(dajOznaku(marker.spo
 
 const vidljiv = marker => suzeno || mapa.getZoom() >= marker.najmanjiZum || uvekVidljiv(marker)
 
-// pretraga jednog slova pogadja hiljade spomenika, pa na ekranu ostaju najvazniji, a ostali se pojave priblizavanjem
 const najviseSuzenih = 400
 
 const najvazniji = marker => uvekVidljiv(marker) ? -1 : vaznostSpomenika(marker.spomen)
 
-// crtaju se samo obelisci na ekranu, sa malom rezervom za pomeranje, jer hiljade slika gusi slab telefon;
-// veca rezerva je pri zumu skuplja od kratkog dopunjavanja ivica posle pomeranja
-// izdaleka su obelisci manji, da se manje preklapaju; ikonica pokazuje i oznake
 const osvezi = () => {
   const granice = mapa.getBounds().pad(0.15)
   const zum = mapa.getZoom()
@@ -76,7 +70,6 @@ const osvezi = () => {
   })
 }
 
-// moveend stize i posle zuma
 mapa.on('moveend', osvezi)
 promene.addEventListener('promena', osvezi)
 
@@ -85,7 +78,6 @@ mapa.on('izbor', ({marker}) => {
   osvezi()
 })
 
-// uklanjaju se samo oni kojih vise nema, da se zajednicki ne crtaju iznova
 export const postaviMarkere = (noviMarkeri, jeSuzeno) => {
   const ostaju = new Set(noviMarkeri)
   markeri.forEach(marker => ostaju.has(marker) || ukloni(marker))
@@ -94,7 +86,6 @@ export const postaviMarkere = (noviMarkeri, jeSuzeno) => {
   osvezi()
 }
 
-// pri radu na lokalnom serveru desno od dugmadi za zum pise trenutni zum; ne menja visinu dugmadi, ispod kojih je dugme jezika
 if (['localhost', '127.0.0.1'].includes(location.hostname)) {
   const prikaz = L.DomUtil.create('div', '', mapa.zoomControl.getContainer())
   prikaz.style.cssText = 'position: absolute; left: calc(100% + 4px); top: 50%; transform: translateY(-50%); background: #fff; padding: 1px 5px; border-radius: 4px; font: bold 12px sans-serif'
@@ -103,17 +94,15 @@ if (['localhost', '127.0.0.1'].includes(location.hostname)) {
   pisi()
 }
 
-// stari atlas
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
   attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
   maxZoom: 12,
 }).addTo(mapa)
 
-// izbliza detaljna mapa sa svim putevima, jer atlas ide samo do zuma 12
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   minZoom: 13,
   maxZoom: 18,
   className: 'izbliza',
-  referrerPolicy: 'strict-origin-when-cross-origin', // OSM odbija plocice bez referer-a, a stranica ga inace ne salje
+  referrerPolicy: 'strict-origin-when-cross-origin',
 }).addTo(mapa)

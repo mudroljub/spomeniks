@@ -47,7 +47,6 @@ class Lokator extends HTMLElement {
     if (this.trebaCentrirati) this.centriraj()
   }
 
-  // greska posle prvog polozaja je obicno kratak gubitak signala, pa se oznaka zadrzava
   prekini() {
     if (this.pozicija) return
     navigator.geolocation.clearWatch(this.pracenje)

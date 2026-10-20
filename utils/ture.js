@@ -3,7 +3,6 @@ import {vaznostVrste, vaznostSpomenika} from './vaznost.js'
 
 const kmPoStepenu = 111.195
 
-// Oblast putovanja prati koridor, a gradska tura ima granice grada.
 const rastojanjeOdDeonice = ([lat, lng], a, b) => {
   const x = kmPoStepenu * Math.cos((a[0] + b[0]) / 2 * Math.PI / 180)
   const dx = (b[1] - a[1]) * x, dy = (b[0] - a[0]) * kmPoStepenu
@@ -12,7 +11,6 @@ const rastojanjeOdDeonice = ([lat, lng], a, b) => {
   return Math.hypot(px - t * dx, py - t * dy)
 }
 
-// zrak od tacke ka istoku sece granicu oblasti neparan broj puta kad je tacka unutra
 const uPoligonu = ([lat, lng], poligon) => poligon.reduce((unutra, [lat1, lng1], i) => {
   const [lat2, lng2] = poligon[(i + 1) % poligon.length]
   return (lat1 > lat) !== (lat2 > lat) && lng < lng1 + (lat - lat1) * (lng2 - lng1) / (lat2 - lat1) ? !unutra : unutra
@@ -41,7 +39,7 @@ const proveriOblast = oblast => {
 /**
  * @param {import('../data/tipovi').Spomenik[]} spomenici
  * @param {import('../data/tipovi').OblastTure} oblast
- * @param {string} prag najniza ukljucena vrsta spomenika
+ * @param {string} prag
  */
 export const izaberiStanice = (spomenici, oblast, prag) => {
   const uOblasti = proveriOblast(oblast)

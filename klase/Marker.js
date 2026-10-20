@@ -5,12 +5,9 @@ import {izgledMarkera, senka, velicinaSlike, ikonicaSaOznakama} from '../utils/i
 import {nazivSpomenika, escapeHtml} from '../utils/helpers.js'
 import {najmanjiZum, slojSpomenika} from '../utils/vaznost.js'
 
-const razmeraZuma = {6: 0.5, 7: 0.55, 8: 0.65, 9: 0.8} // ostali zumovi pun obelisk
-// bista je umetnicko delo kao spomenik, samo je malo manja
+const razmeraZuma = {6: 0.5, 7: 0.55, 8: 0.65, 9: 0.8}
 const razmeraVrste = {'spomen-park': 1.25, 'spomen-groblje': 1.25, bista: 0.8, 'spomen-obelezje': 0.6, 'spomen-ploca': 0.6}
 
-// ruine i uklonjeni imaju sliku iste velicine, da se razlikuju po obliku, a ne samo po boji:
-// prelomljen obelisk i isprekidan obris onoga cega vise nema
 const ikonice = {}
 const dajIkonicu = ({slika, sirina, visina}, razmera, klasa, [dx, dy] = [0, 0], {priblizno = false, oznaka = null} = {}) => {
   const px = vrednost => Math.round(vrednost * razmera)
@@ -26,11 +23,8 @@ const dajIkonicu = ({slika, sirina, visina}, razmera, klasa, [dx, dy] = [0, 0], 
     : L.icon(opcije)
 }
 
-// na dodirnom ekranu nema prelaska misem, a dodir odmah otvara spomenik
 const imaMis = matchMedia('(hover: hover)').matches
 
-// vise pribliznih spomenika u istom selu deli istu tacku (centar sela), pa se razmicu u krug oko nje,
-// da se svaki vidi i otvara; pomak je u pikselima pri punoj velicini, pa krug ostaje isti na svakom zumu
 const razmakKruga = 14
 /** @param {import('../data/tipovi').Spomenik[]} spomenici */
 export const pomaciPribliznih = spomenici => {
@@ -58,7 +52,7 @@ export default class Marker {
 
   /**
    * @param {import('../data/tipovi').Spomenik} spomen
-   * @param {[number, number]} [pomak] razmak od zajednicke priblizne tacke, iz pomaciPribliznih
+   * @param {[number, number]} [pomak]
    */
   constructor(spomen, pomak) {
     this.spomen = spomen
@@ -69,7 +63,6 @@ export default class Marker {
     this.pozicija = L.latLng(spomen.koordinate.lat, spomen.koordinate.lng)
   }
 
-  // oznaka na mapi se pravi tek kad spomenik prvi put treba nacrtati, jer se vecina nikad ne prikaze
   get element() {
     if (!this.oznakaNaMapi) {
       this.oznakaNaMapi = L
@@ -83,19 +76,16 @@ export default class Marker {
     return this.oznakaNaMapi
   }
 
-  // nenacrtan spomenik nema sta da ukloni sa mape
   get slojevi() {
     return this.oznakaNaMapi ? [this.oznakaNaMapi] : []
   }
 
-  // velicina zavisi od zuma, a izgled od oznaka
   osvezi(zum, izabran, pomakSudara = [0, 0]) {
     const razmera = (razmeraZuma[zum] || 1) * this.razmera
     const oznaka = dajOznaku(this.spomen.id)
     const klasa = izabran === this ? 'izabran' : ''
     const pomak = /** @type {[number, number]} */ ([(this.pomak?.[0] || 0) + pomakSudara[0] / razmera, (this.pomak?.[1] || 0) + pomakSudara[1] / razmera])
     const ikonica = dajIkonicu(this.izgled, razmera, klasa, pomak, {priblizno: this.spomen.priblizno, oznaka})
-    // nova ikonica pravi novu sliku u DOM-u, pa samo kad se promeni
     if (ikonica !== this.element.options.icon) this.element.setIcon(ikonica)
   }
 

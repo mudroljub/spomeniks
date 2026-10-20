@@ -20,11 +20,8 @@ document.documentElement.lang = jezik
 const najblizi = new Najblizi()
 document.querySelector('dugme-legenda').after(najblizi)
 
-// Prozor spomenika i ture se na pocetnom prikazu ne vide, pa se njihov kod preuzima tek posle prvog crtanja,
-// da na losoj vezi ne usporava biblioteku mape; izbor spomenika pre toga se zapamti i prikaze kad kod stigne.
 let javiPrvoCrtanje
 const prvoCrtanje = new Promise(resi => javiPrvoCrtanje = resi)
-// na losoj vezi preuzimanje zna da pukne; pregledac pamti neuspeli uvoz, pa se ponavlja sa drugom adresom
 const uvezi = (putanja, pokusaj = 0) => import(pokusaj ? `${putanja}?pokusaj=${pokusaj}` : putanja)
   .catch(greska => {
     console.error(greska)
@@ -44,13 +41,10 @@ const ruta = prvoCrtanje.then(() => uvezi('./komponente/Ruta.js')).then(({defaul
   najblizi.before(planer)
   return planer
 })
-// uvek sa trenutnim stanjem, pa redosled dolaska tura i spomenika nije bitan
 const osveziRutu = () => ruta.then(planer => planer.postavi(sveStavke, definicijeTura, potpuniPodaci))
 const slajder = new Slajder([])
 document.querySelector('#slajder-okvir').appendChild(slajder)
 let filtriraneStavke = []
-
-/* FUNKCIJE */
 
 /**
  * @param {import('./data/tipovi').Spomenik} spomenik
@@ -59,12 +53,10 @@ let filtriraneStavke = []
 const praviStavku = (spomenik, pomak) => {
   const marker = new Marker(spomenik, pomak)
   let slika
-  // traka pravi sliku tek kad dodje na red, jer ih je hiljade
   const dajSliku = spomenik.slika && (() => slika ??= new Slika(spomenik, marker))
   return {spomenik, marker, dajSliku}
 }
 
-// neispravno kodiran #id (npr. #%) se ne odnosi ni na jedan spomenik
 const idIzLinka = () => {
   try {
     return decodeURIComponent(location.hash.slice(1))
@@ -73,7 +65,6 @@ const idIzLinka = () => {
   }
 }
 
-// link za deljenje (#id) otvara mapu na tom spomeniku; vraca da li je spomenik nadjen
 const otvoriIzLinka = stavke => {
   const id = idIzLinka()
   const stavka = id && stavke.find(({spomenik}) => spomenik.id === id)
@@ -87,7 +78,6 @@ const osveziSlajder = () => {
   const granice = mapa.getBounds()
   const stavke = filtriraneStavke
     .filter(({marker, dajSliku}) => dajSliku && granice.contains(marker.dajPoziciju()))
-    // id je ASCII, pa je obicno poredjenje isto sto i localeCompare, a mnogo brze kad je na ekranu cela drzava
     .sort((a, b) => vaznostSpomenika(a.spomenik) - vaznostSpomenika(b.spomenik) || (a.spomenik.id < b.spomenik.id ? -1 : a.spomenik.id > b.spomenik.id ? 1 : 0))
   slajder.postavi(stavke.map(({dajSliku}) => dajSliku), mapa.getZoom())
 }
@@ -103,7 +93,6 @@ mapa.on('movestart', () => {
   mapaSePomera = true
   otkaziSlajder()
 })
-// Touchpad salje moveend za svaki wheel korak; traka se menja tek kad se pokret zavrsi.
 mapa.on('moveend', () => {
   mapaSePomera = false
   otkaziSlajder()
@@ -123,10 +112,6 @@ const render = (stavke, suzeno, imaUslova) => {
   najblizi.postavi(stavke, imaUslova)
 }
 
-/* INIT */
-
-// rad bez signala
-// u razvoju se gasi ranije instaliran worker i njegov komplet aplikacije, jer bi sluzio stare fajlove
 if (devMode) {
   navigator.serviceWorker?.getRegistrations().then(registracije => registracije.forEach(r => r.unregister()))
   globalThis.caches?.keys().then(imena => imena.filter(ime => ime.startsWith('spomenici-aplikacija-')).forEach(ime => caches.delete(ime)))
@@ -135,22 +120,15 @@ if (devMode) {
 const ucitaj = putanja => fetch(putanja)
   .then(res => res.ok ? res.json() : Promise.reject(new Error(`${putanja}: HTTP ${res.status}`)))
 
-// slika na standardnoj putanji se u fajlu ne upisuje, nego je oznacava slikaOdnos (alati/zapis.py), da se manje preuzima
-/** @param {any[]} spomenici sirovi zapisi iz fajla @returns {import('./data/tipovi').Spomenik[]} */
+/** @param {any[]} spomenici @returns {import('./data/tipovi').Spomenik[]} */
 const saSlikama = spomenici => spomenici.map(s => s.slika === true || (!s.slika && s.slikaOdnos) ? Object.assign(s, {slika: `slike/spomenici/${s.id}.webp`}) : s)
 const ucitajSpomenike = putanja => ucitaj(putanja).then(saSlikama)
 
-// bez autora, posveta ili tura spomenici se ipak prikazuju, samo bez tih dodataka
 const ucitajDodatak = (putanja, prazno) => ucitaj(putanja).catch(greska => {
   console.error(greska)
   return prazno
 })
 
-// prvo stizu spomenici vidljivi na pocetnim zumovima, da se mapa nacrta odmah, a ostali posle (alati/zapis.py);
-// priblizni su svi u drugom delu, pa im se pomaci racunaju zajedno
-// Veliki drugi deo, autori, posvete i ture se na pocetnom prikazu ne vide, pa se preuzimaju u pozadini cim se
-// nacrtaju istaknuti i ucitaju plocice pocetnog prikaza, da one dobiju celu brzinu spore veze;
-// ne ceka se nikakva radnja korisnika. Plocica koja ne stigne (bez signala) takodje zavrsava ucitavanje sloja.
 const posleCrtanja = () => new Promise(resi => requestAnimationFrame(() => {
   const slojevi = []
   mapa.eachLayer(sloj => { if (sloj instanceof L.GridLayer && sloj.isLoading()) slojevi.push(sloj) })
@@ -163,8 +141,6 @@ let potpuniPodaci = false
 /** @type {Pretraga | undefined} */
 let pretraga
 
-// Za crtanje mape ne trebaju detalji (data/detalji.json: opis, autor, godina, linkovi...) ni engleski nazivi
-// (data/prevodi-en.json), pa stizu posle prvog crtanja i dopunjuju vec ucitane zapise i one koji tek stignu.
 /** @type {{detalji?: Record<string, Partial<import('./data/tipovi').Spomenik>>, prevodi?: Record<string, string>}} */
 const dopune = {}
 /** @param {import('./data/tipovi').Spomenik[]} spomenici */
@@ -195,7 +171,6 @@ nacrtano.then(() => {
     if (spremni) osveziRutu()
   })
   ucitajDodatak('data/detalji.json', {}).then(detalji => dodajDopune({detalji}))
-  // engleski nazivi samo na engleskom; do njihovog dolaska vidi se domaci naziv
   if (jezik === 'en') ucitajDodatak('data/prevodi-en.json', {}).then(prevodi => dodajDopune({prevodi}))
 })
 addEventListener('hashchange', () => otvoriIzLinka(sveStavke))

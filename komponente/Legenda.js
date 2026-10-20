@@ -5,7 +5,6 @@ import {t} from '../utils/jezik.js'
 import {izgledMarkera, znak, znakVrste, visinaObeliska} from '../utils/ikonice.js'
 import {nivoiVaznosti} from '../utils/vaznost.js'
 
-
 const style = document.createElement('style')
 style.textContent = `
   ${stilPanela}
@@ -28,7 +27,6 @@ style.textContent = `
     padding: 0 16px;
   }
 
-  /* na telefonu panel dolazi odozdo, kao U blizini i Trenutna ruta */
   #panel {
     background: white;
     max-height: 65%;
@@ -37,7 +35,6 @@ style.textContent = `
     z-index: 1000;
   }
 
-  /* na sirem ekranu stoji levo, na mestu svog dugmeta, koje se tada skriva */
   @media (min-width: 600px) {
     #panel {
       border-radius: 12px;
@@ -84,7 +81,6 @@ style.textContent = `
     text-transform: uppercase;
   }
 
-  /* sire nego vise: vrste u vise kolona, a manje grupe jedna pored druge */
   .stavke,
   .male-grupe {
     display: grid;
@@ -111,7 +107,6 @@ style.textContent = `
     width: 20px;
   }
 
-  /* na telefonu tri uze kolone, da panel bude nizak */
   @media (max-width: 599px) {
     .stavke,
     .male-grupe {
@@ -151,7 +146,6 @@ const maleGrupe = [
     + stavka(obelisk(undefined, {priblizno: true}), t('priblizno'))],
 ]
 
-// legenda je u donjem levom uglu mape i otvara se samo na zahtev, da ne zaklanja spomenike
 export default class Legenda extends HTMLElement {
   constructor() {
     super()

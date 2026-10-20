@@ -1,7 +1,6 @@
 :root {
   --boja: #822323;
   --visina-slajdera: 82px;
-  /* prostor za isecak ekrana i traku za pocetni ekran na iPhone-u */
   --vrh: env(safe-area-inset-top, 0px);
   --dno: env(safe-area-inset-bottom, 0px);
 }
@@ -13,16 +12,14 @@ html, body, #mapa {
 }
 
 body {
-  overflow: hidden; /* mapa zauzima ceo ekran, stranica se ne pomera */
-  height: 100dvh; /* prati traku pregledaca na telefonu */
+  overflow: hidden;
+  height: 100dvh;
 }
-
 
 img {
   max-width: 100%;
 }
 
-/* naziv na sirem ekranu stoji iznad reda dugmadi */
 h1 {
   bottom: 0;
   color: var(--boja);
@@ -40,12 +37,10 @@ h1 {
   z-index: 0;
 }
 
-/* sepija samo na podlozi mape, jer filter preko cele stranice koci pomeranje mape na telefonu */
 .leaflet-container .leaflet-tile {
   filter: sepia(31%);
 }
 
-/* izbliza je mapa presarena, bledo da se ikonice vide */
 .leaflet-container .izbliza .leaflet-tile {
   filter: sepia(20%) saturate(85%) brightness(102%) contrast(100%);
 }
@@ -61,8 +56,7 @@ h1 {
   height: 44px;
   line-height: 44px;
 }
-/* oznake sa uredjaja i izabran spomenik */
-/* naziv i mesto pri prelasku misem; dugi nazivi se lome u vise redova */
+
 .leaflet-tooltip.naziv-spomenika {
   max-width: 240px;
   text-align: center;
@@ -75,14 +69,13 @@ h1 {
   opacity: 1;
 }
 
-/* dugmad iznad slajdera: ruta, najblizi i lokacija u jednom redu */
 #dugmad-dole {
   align-items: center;
   bottom: calc(var(--visina-slajdera) + var(--dno) + 2px);
   display: flex;
   justify-content: flex-end;
   left: 10px;
-  pointer-events: none; /* mapa se pomera i izmedju dugmadi */
+  pointer-events: none;
   position: fixed;
   right: 8px;
   z-index: 1;
@@ -98,12 +91,10 @@ h1 {
   position: absolute;
 }
 
-/* na telefonu je ruta levo, a na sirem ekranu odmah do ostale dugmadi, ispod svog prozora */
 #dugmad-dole planer-rute {
   margin-right: auto;
 }
 
-/* legenda je u donjem levom uglu; na telefonu iznad reda, jer u redu nema mesta za sva dugmad */
 #dugmad-dole dugme-legenda {
   bottom: 52px;
   left: 0;
@@ -133,7 +124,6 @@ h1 {
   }
 }
 
-/* broj stanice na ruti */
 .leaflet-marker-icon.broj-stanice {
   background: var(--boja);
   border: 2px solid #fff;
@@ -153,7 +143,6 @@ h1 {
   display: block;
 }
 
-/* dugme samo nosi sliku, koja zadrzava svoj izgled i polozaj */
 .dugme-ikonica {
   background: none;
   border: none;
@@ -181,7 +170,6 @@ h1 {
   z-index: 1;
 }
 
-/* na telefonu donji levi ugao zauzimaju Legenda i Trenutna ruta, pa za naziv nema mesta */
 @media (max-width: 599px) {
   h1 {
     display: none;

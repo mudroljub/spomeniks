@@ -6,7 +6,6 @@ import {t} from '../utils/jezik.js'
 
 const brojNajblizih = 10
 
-// razdaljina je vazdusna, pa je priblizna
 const formatirajRazdaljinu = metara => metara < 1000
   ? `~${Math.round(metara / 10) * 10} m`
   : `~${Math.round(metara / 1000)} km`
@@ -137,14 +136,12 @@ export default class Najblizi extends HTMLElement {
     this.prikazi()
   }
 
-  // spisak se pravi tek kad je otvoren, a ne pri svakom GPS signalu i filtriranju
   prikazi() {
     if (!this.pozicija) return
     this.dugme.hidden = false
     if (!this.panel.hidden) this.popuni()
   }
 
-  // cuva se samo prvih nekoliko, umesto da se poreda cela baza
   popuni() {
     const najblize = []
     for (const stavka of this.stavke) {

@@ -4,8 +4,6 @@ import {mapa} from '../klase/mapa.js'
 import {normalizuj, nazivSpomenika} from '../utils/helpers.js'
 import {t, nazivDrzave} from '../utils/jezik.js'
 
-
-// font od 16px sprecava da iPhone uvecava stranicu pri kucanju
 const style = document.createElement('style')
 style.textContent = `
   polje-pretraga {
@@ -31,7 +29,6 @@ style.textContent = `
     padding: 0 44px 0 14px;
   }
 
-  /* filteri su ikonica na desnom kraju polja za pretragu */
   polje-pretraga .dugme-filteri {
     align-items: center;
     background: none;
@@ -135,9 +132,7 @@ style.textContent = `
 
 const polja = ['mesto', 'autor', 'godina', 'drzava']
 
-// kucanje pretrazuje tek kad zastane, a ne posle svakog slova
 const odlaganjePretrage = 250
-// jedno slovo pogadja hiljade spomenika; dva su dovoljna za mesta kao Ub i Ig
 const najmanjeSlova = 2
 
 const praviTekst = spomenik => normalizuj([
@@ -152,7 +147,6 @@ export default class Pretraga extends HTMLElement {
   constructor(stavke, callback) {
     super()
     this.stavke = stavke
-    // tekst za pretragu usporava otvaranje, pa se pravi pri prvom dodiru polja; jezik se menja uz ponovno ucitavanje
     this.tekstovi = new Map()
     this.callback = callback
     this.filtrirano = stavke
@@ -165,7 +159,6 @@ export default class Pretraga extends HTMLElement {
     this.dugme = document.createElement('button')
     this.dugme.className = 'dugme-filteri'
     this.dugme.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg><span class="broj-filtera"></span>'
-    // do dolaska ostalih spomenika pretraga i filteri bi nasli samo istaknute, a broj u oznaci bi se promenio
     this.polje.disabled = this.dugme.disabled = true
     this.setAttribute('aria-busy', 'true')
     this.ucitava = document.createElement('span')
@@ -205,7 +198,6 @@ export default class Pretraga extends HTMLElement {
     this.polje.setAttribute('aria-label', t('pretraga', this.stavke.length))
   }
 
-  // spomenici koji stignu posle prvog crtanja ulaze u pretragu i filtere
   dodaj(nove) {
     this.stavke = [...this.stavke, ...nove]
     this.filteri.dodaj(this.stavke)
@@ -213,15 +205,12 @@ export default class Pretraga extends HTMLElement {
     this.pretrazi()
   }
 
-  // u delovima, da tastatura i mapa ostanu glatki; spomenici koji stignu kasnije dobijaju tekst pri pretrazi
   pripremiTekstove(od = 0) {
     const deo = this.stavke.slice(od, od + 500)
     deo.forEach(stavka => this.tekst(stavka))
     if (deo.length) setTimeout(() => this.pripremiTekstove(od + deo.length))
   }
 
-  // autori, godine i engleski nazivi stizu posle prvog crtanja, pa se tekst za pretragu i autori u filterima prave ponovo;
-  // bez fraze rezultat od njih ne zavisi (filter autora pre toga nije ni postojao), pa se mapa ne crta iznova
   osveziDopune() {
     this.tekstovi.clear()
     this.filteri.dodaj(this.stavke)
@@ -247,10 +236,7 @@ export default class Pretraga extends HTMLElement {
     this.callback(this.filtrirano, suzeno, Boolean(fraza || this.filteri.brojAktivnih()))
   }
 
-  // kucanje i izbor filtera ne pomeraju mapu, a potvrda (Enter, Trazi na tastaturi telefona, Prikazi u filterima) pokazuje rezultate,
-  // van dugmadi na mapi: desno od zuma, ispod pretrage i iznad donjeg reda
   potvrdi() {
-    // Svaki nacin potvrde koristi poslednji unos, cak i pre isteka odlaganja.
     if (this.odlozena !== undefined) this.pretrazi()
     this.polje.blur()
     if (!this.filtrirano.length) return
@@ -266,7 +252,7 @@ export default class Pretraga extends HTMLElement {
 
   ponisti() {
     this.polje.value = ''
-    this.filteri.ponisti() // javlja promenu, pa se i pretraga ponovi
+    this.filteri.ponisti()
   }
 
   osveziPrikaz(suzeno) {

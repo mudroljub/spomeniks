@@ -6,7 +6,6 @@ const kljuc = 'spomenici-jezik'
 const domaci = ['sh', 'sr', 'hr', 'bs', 'cnr', 'sl', 'mk']
 const izPregledaca = () => navigator.languages.some(j => domaci.includes(j.split('-')[0].toLowerCase())) ? 'sh' : 'en'
 
-// bez skladista (privatni rezim i slicno) izbor ostaje u adresi stranice
 const izAdrese = () => new URLSearchParams(location.search).get('jezik')
 
 const izbor = izAdrese() ?? ucitajIzSkladista(kljuc)

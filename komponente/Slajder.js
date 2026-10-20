@@ -3,8 +3,6 @@ import {t} from '../utils/jezik.js'
 
 const style = document.createElement('style')
 
-// Citanje sirine prozora usred izmena stranice tera pregledac da odmah preracuna ceo raspored, pa se do prvog javljanja
-// posmatraca velicine trake koristi sirina ekrana uredjaja, koja ne zavisi od rasporeda.
 let sirinaTrake = screen.width
 const inicijalnoSlika = () => Math.max(1, Math.round(sirinaTrake / 70))
 
@@ -17,7 +15,6 @@ style.textContent = `
     width: 100%;
   }
 
-  /* svg umesto znaka iz fonta, jer veliki font strci ispod ekrana i pravi belu traku */
   .strelica {
     -moz-user-select: none;
     align-items: center;
@@ -70,7 +67,6 @@ style.textContent = `
     cursor: pointer;
   }
 
-  /* dok slika ne stigne, vidi se tamno polje umesto zamenskog teksta, koji ostaje za citace ekrana */
   div img {
     background: #29241e;
     color: transparent;
@@ -125,7 +121,6 @@ export default class Slajder extends HTMLElement {
   /** @type {ResizeObserver | undefined} */
   promenaVelicine
 
-  // slike su funkcije koje prave sliku, da se prave tek kad dodju na red
   constructor(slike) {
     super()
     this.slike = slike
@@ -228,7 +223,6 @@ export default class Slajder extends HTMLElement {
       })
   }
 
-  // smer -1 vraca na ranije slike, a 1 vodi na sledece
   mrdaj(smer) {
     this.dodajSlikeAkoTreba()
     this.traka.scrollBy({left: smer * Math.round(this.traka.clientWidth / 2), behavior: 'smooth'})

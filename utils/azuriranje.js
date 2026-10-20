@@ -5,8 +5,6 @@ const posalji = (worker, poruka) => new Promise((resi, odbij) => {
   worker.postMessage(poruka, [kanal.port2])
 })
 
-// Nova verzija se ukljucuje bez pitanja dok je aplikacija u pozadini, pa se stranica ponovo ucita neprimetno.
-// Do tada otvorena stranica radi sa svojim izdanjem, a neuspeh se ponavlja pri sledecem odlasku u pozadinu.
 export const pratiIzdanje = registracija => {
   let uToku = false
   const predji = async () => {
