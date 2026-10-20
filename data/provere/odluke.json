@@ -12373,5 +12373,52 @@
         }
       ]
     }
+  },
+  {
+    "odluka": "brnjik-bista-ahmeta-kobica-spojen-duplikat",
+    "datum": "2026-10-20",
+    "ishod": "spojen-duplikat",
+    "zadrzaniId": "brnjik-bista-ahmeta-kobica",
+    "uklonjeniId": "brnjik-bista-ahmeta-kobica-2",
+    "prethodniZapisi": [
+      {
+        "id": "brnjik-bista-ahmeta-kobica",
+        "koordinate": {
+          "lat": 44.7281,
+          "lng": 18.76668
+        },
+        "priblizno": true,
+        "mesto": "Brnjik",
+        "naziv": "Bista Ahmeta Kobića",
+        "nazivEn": "Bust of Ahmet Kobić",
+        "godina": "1983",
+        "autor": "Zaim Mešić",
+        "posveta": "Ahmeta Kobića",
+        "vrsta": "bista",
+        "drzava": "Bosnia and Herzegovina"
+      },
+      {
+        "id": "brnjik-bista-ahmeta-kobica-2",
+        "koordinate": {
+          "lat": 44.7281,
+          "lng": 18.76668
+        },
+        "priblizno": true,
+        "mesto": "Brnjik",
+        "naziv": "Bista Ahmeta Kobića",
+        "nazivEn": "Bust of Ahmet Kobić",
+        "godina": "1953",
+        "posveta": "Ahmeta Kobića",
+        "vrsta": "bista",
+        "drzava": "Bosnia and Herzegovina"
+      }
+    ],
+    "izvoriPre": {
+      "brnjik-bista-ahmeta-kobica": "https://www.spomenicinob.info/celic",
+      "brnjik-bista-ahmeta-kobica-2": "https://www.spomenicinob.info/celic"
+    },
+    "godina": "1953",
+    "dokaz": "Korisnik izricito potvrdio da je isti spomenik, razlicita godina je greska, i nalozio stariju godinu 1953. Katalog navodi 1983. uz Zaima Mesica i drugi red 1953; nesaglasnost sacuvana ovde. Autor, posveta, naziv i priblizna lokacija zadrzani.",
+    "veze": "Nema aktivnih cilj/radniId veza ka uklonjenom ID-ju; istorijski snimci ostaju."
   }
 ]
