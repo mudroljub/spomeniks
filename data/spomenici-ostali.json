@@ -176020,5 +176020,685 @@
     "posveta": "Vojislava Voje Radića, narodnog heroja",
     "vrsta": "bista",
     "drzava": "Serbia"
+  },
+  {
+    "id": "bihac-bista-kasima-cehajica",
+    "koordinate": {
+      "lat": 44.8051884,
+      "lng": 15.8646762
+    },
+    "priblizno": true,
+    "mesto": "Bihać",
+    "naziv": {
+      "sh": "Bista Kasima Čehajića",
+      "en": "Bust of Kasim Čehajić"
+    },
+    "godina": "1984",
+    "autor": "Vladimir Herljević",
+    "posveta": "Kasima Čehajića",
+    "stanje": "ostecen",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "bihac-spomen-reljef",
+    "koordinate": {
+      "lat": 44.8220488,
+      "lng": 15.8400794
+    },
+    "priblizno": true,
+    "mesto": "Bihać",
+    "naziv": {
+      "sh": "Spomen-reljef",
+      "en": "Memorial relief"
+    },
+    "godina": "1986",
+    "autor": "Vladimir Herljević",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "bihac-bista-vlade-obradovica",
+    "koordinate": {
+      "lat": 44.8051884,
+      "lng": 15.8646762
+    },
+    "priblizno": true,
+    "mesto": "Bihać",
+    "naziv": {
+      "sh": "Bista Vlade Obradovića",
+      "en": "Bust of NH Vlado Obradović"
+    },
+    "godina": "1984",
+    "autor": "Vladimir Herljević",
+    "posveta": [
+      "Q13554292"
+    ],
+    "stanje": "ostecen",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brcko-bista-mirka-filipovica",
+    "koordinate": {
+      "lat": 44.8790567,
+      "lng": 18.7971682
+    },
+    "priblizno": true,
+    "mesto": "Brčko",
+    "naziv": {
+      "sh": "Bista Mirka Filipovića",
+      "en": "Bust of NH Mirko Filipović"
+    },
+    "godina": "2008",
+    "autor": "Dragan Radaković",
+    "posveta": "Mirka Filipovića",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brcko-bista-janka-vasica",
+    "koordinate": {
+      "lat": 44.8790567,
+      "lng": 18.7971682
+    },
+    "priblizno": true,
+    "mesto": "Brčko",
+    "naziv": {
+      "sh": "Bista Janka Vasića",
+      "en": "Bust of Janko Vasić"
+    },
+    "godina": "2008",
+    "autor": "Dragan Radaković",
+    "posveta": "Janka Vasića",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brcko-bista-pere-cuskica",
+    "koordinate": {
+      "lat": 44.8790567,
+      "lng": 18.7971682
+    },
+    "priblizno": true,
+    "mesto": "Brčko",
+    "naziv": {
+      "sh": "Bista Pere Ćuskića",
+      "en": "Bust of NH Pero Ćuskić"
+    },
+    "godina": "2008",
+    "autor": "Dragan Radaković",
+    "posveta": "Pere Ćuskića",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brcko-bista-ahmeta-kobica",
+    "koordinate": {
+      "lat": 44.8790567,
+      "lng": 18.7971682
+    },
+    "priblizno": true,
+    "mesto": "Brčko",
+    "naziv": {
+      "sh": "Bista Ahmeta Kobića",
+      "en": "Bust of Ahmet Kobić"
+    },
+    "godina": "2008",
+    "autor": "Dragan Radaković",
+    "posveta": "Ahmeta Kobića",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brcko-bista-naste-nakica",
+    "koordinate": {
+      "lat": 44.8790567,
+      "lng": 18.7971682
+    },
+    "priblizno": true,
+    "mesto": "Brčko",
+    "naziv": {
+      "sh": "Bista Naste Nakića",
+      "en": "Bust of Nasto Nakić"
+    },
+    "godina": "2008",
+    "autor": "Dragan Radaković",
+    "posveta": "Naste Nakića",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brcko-bista-petra-kaurinovica",
+    "koordinate": {
+      "lat": 44.8790567,
+      "lng": 18.7971682
+    },
+    "priblizno": true,
+    "mesto": "Brčko",
+    "naziv": {
+      "sh": "Bista Petra Kaurinovića",
+      "en": "Bust of Petar Kaurinović"
+    },
+    "godina": "2008",
+    "autor": "Dragan Radaković",
+    "posveta": "Petra Kaurinovića",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brcko-bista-hase-burica",
+    "koordinate": {
+      "lat": 44.8790567,
+      "lng": 18.7971682
+    },
+    "priblizno": true,
+    "mesto": "Brčko",
+    "naziv": {
+      "sh": "Bista Hase Burića",
+      "en": "Bust of Haso Burić"
+    },
+    "godina": "2008",
+    "autor": "Dragan Radaković",
+    "posveta": "Hase Burića",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brcko-bista-borise-kovacevica-2",
+    "koordinate": {
+      "lat": 44.8790567,
+      "lng": 18.7971682
+    },
+    "priblizno": true,
+    "mesto": "Brčko",
+    "naziv": {
+      "sh": "Bista Boriše Kovačevića",
+      "en": "Bust of NH Boriša Kovačević"
+    },
+    "godina": "2008",
+    "autor": "Dragan Radaković",
+    "posveta": "Boriše Kovačevića",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brcko-bista-jelenke-vockic-2",
+    "koordinate": {
+      "lat": 44.8790567,
+      "lng": 18.7971682
+    },
+    "priblizno": true,
+    "mesto": "Brčko",
+    "naziv": {
+      "sh": "Bista Jelenke Voćkić",
+      "en": "Bust of Jelenka Voćkić"
+    },
+    "godina": "2008",
+    "autor": "Dragan Radaković",
+    "posveta": "Jelenke Voćkić",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brcko-bista-zaima-musanovica-2",
+    "koordinate": {
+      "lat": 44.8790567,
+      "lng": 18.7971682
+    },
+    "priblizno": true,
+    "mesto": "Brčko",
+    "naziv": {
+      "sh": "Bista Zaima Mušanovića",
+      "en": "Bust of Zaim Mušanović"
+    },
+    "posveta": "Zaima Mušanovića",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brcko-bista-veljka-lukica-kurjaka-2",
+    "koordinate": {
+      "lat": 44.8790567,
+      "lng": 18.7971682
+    },
+    "priblizno": true,
+    "mesto": "Brčko",
+    "naziv": {
+      "sh": "Bista Veljka Lukića Kurjaka",
+      "en": "Bust of NH Veljko Lukić Kurjak"
+    },
+    "posveta": "Veljka Lukića Kurjaka",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brcko-bista-hariza-suljica-2",
+    "koordinate": {
+      "lat": 44.8790567,
+      "lng": 18.7971682
+    },
+    "priblizno": true,
+    "mesto": "Brčko",
+    "naziv": {
+      "sh": "Bista Hariza Suljića",
+      "en": "Bust of Hariz Suljić"
+    },
+    "posveta": "Hariza Suljića",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brcko-bista-branka-kisica-2",
+    "koordinate": {
+      "lat": 44.8790567,
+      "lng": 18.7971682
+    },
+    "priblizno": true,
+    "mesto": "Brčko",
+    "naziv": {
+      "sh": "Bista Branka Kisića",
+      "en": "Bust of Branko Kisić"
+    },
+    "godina": "2008",
+    "autor": "Dragan Radaković",
+    "posveta": "Branka Kisića",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brcko-bista-safeta-salihodzica-2",
+    "koordinate": {
+      "lat": 44.8790567,
+      "lng": 18.7971682
+    },
+    "priblizno": true,
+    "mesto": "Brčko",
+    "naziv": {
+      "sh": "Bista Safeta Salihodžića",
+      "en": "Bust of Safet Salihodžić"
+    },
+    "godina": "2008",
+    "autor": "Dragan Radaković",
+    "posveta": "Safeta Salihodžića",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brcko-bista-tamare-begovic-2",
+    "koordinate": {
+      "lat": 44.8790567,
+      "lng": 18.7971682
+    },
+    "priblizno": true,
+    "mesto": "Brčko",
+    "naziv": {
+      "sh": "Bista Tamare Begović",
+      "en": "Bust of Tamara Begović"
+    },
+    "posveta": "Tamare Begović",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brcko-bista-zijaha-salihodzica-2",
+    "koordinate": {
+      "lat": 44.8790567,
+      "lng": 18.7971682
+    },
+    "priblizno": true,
+    "mesto": "Brčko",
+    "naziv": {
+      "sh": "Bista Zijaha Salihodžića",
+      "en": "Bust of Zijah Salihodžić"
+    },
+    "godina": "2008",
+    "autor": "Dragan Radaković",
+    "posveta": "Zijaha Salihodžića",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "bugojno-bista-mahmuta-busatlije",
+    "koordinate": {
+      "lat": 44.056474,
+      "lng": 17.448786
+    },
+    "priblizno": true,
+    "mesto": "Bugojno",
+    "naziv": {
+      "sh": "Bista Mahmuta Bušatlije",
+      "en": "Bust of NH Mahmut Bušatlija"
+    },
+    "godina": "pre 1963",
+    "autor": "Ljupko Antunović",
+    "posveta": "Mahmuta Bušatlije",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "bugojno-bista-stipe-djereka",
+    "koordinate": {
+      "lat": 44.056474,
+      "lng": 17.448786
+    },
+    "priblizno": true,
+    "mesto": "Bugojno",
+    "naziv": {
+      "sh": "Bista Stipe Đereka",
+      "en": "Bust of Stipo Đerek"
+    },
+    "godina": "1967-1975",
+    "posveta": "Stipe Đereka",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "bugojno-bista-vojina-paleksica",
+    "koordinate": {
+      "lat": 44.056474,
+      "lng": 17.448786
+    },
+    "priblizno": true,
+    "mesto": "Bugojno",
+    "naziv": {
+      "sh": "Bista Vojina Paleksića",
+      "en": "Bust of Vojin Paleksić"
+    },
+    "godina": "1967-1975",
+    "posveta": "Vojina Paleksića",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "donji-vakuf-bista-dusana-rakite",
+    "koordinate": {
+      "lat": 44.1419533,
+      "lng": 17.39252
+    },
+    "priblizno": true,
+    "mesto": "Donji Vakuf",
+    "naziv": {
+      "sh": "Bista Dušana Rakite",
+      "en": "Bust of NH Dušan Rakita"
+    },
+    "godina": "1963",
+    "posveta": "Dušana Rakite",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "donji-vakuf-spomenik-palim-borcima-i-zrtvama-fasis",
+    "koordinate": {
+      "lat": 44.1419533,
+      "lng": 17.39252
+    },
+    "priblizno": true,
+    "mesto": "Donji Vakuf",
+    "naziv": {
+      "sh": "Spomenik palim borcima i žrtvama fašističkog terora",
+      "en": "Monument to fallen fighters and Victims of Fascist Terror"
+    },
+    "godina": "1983",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "knezevo-bista-dujka-komljenovica",
+    "koordinate": {
+      "lat": 44.491751,
+      "lng": 17.378566
+    },
+    "priblizno": true,
+    "mesto": "Kneževo",
+    "naziv": {
+      "sh": "Bista Dujka Komljenovića",
+      "en": "Bust of NH Dujko Komljenović"
+    },
+    "godina": "1968-1975",
+    "posveta": "Dujka Komljenovića",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "kotor-varos-bista-rade-licine",
+    "koordinate": {
+      "lat": 44.6134238,
+      "lng": 17.3761274
+    },
+    "priblizno": true,
+    "mesto": "Kotor Varoš",
+    "naziv": {
+      "sh": "Bista Rade Ličine",
+      "en": "Bust of NH Rade Ličina"
+    },
+    "godina": "1969",
+    "posveta": "Rade Ličine",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "nevesinje-spomenik-porodici-colovic",
+    "koordinate": {
+      "lat": 43.2545221,
+      "lng": 18.1180384
+    },
+    "priblizno": true,
+    "mesto": "Nevesinje",
+    "naziv": {
+      "sh": "Spomenik porodici Čolović",
+      "en": "Monument to the Čolović family"
+    },
+    "godina": "1959",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "rudo-bista-filipa-kljajica-fice",
+    "koordinate": {
+      "lat": 43.6178868,
+      "lng": 19.3660898
+    },
+    "priblizno": true,
+    "mesto": "Rudo",
+    "naziv": {
+      "sh": "Bista Filipa Kljajića Fiće",
+      "en": "Bust of NH Filip Kljajić Fića"
+    },
+    "godina": "posle 1973",
+    "posveta": "Filipa Kljajića Fiće",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "zagreb-dotrscina-spomenik-zagrepcanima-poginulim-u-nob",
+    "koordinate": {
+      "lat": 45.8428194,
+      "lng": 16.027771
+    },
+    "priblizno": true,
+    "mesto": "Zagreb (Dotrščina)",
+    "naziv": {
+      "sh": "Spomenik Zagrepčanima poginulim u NOB-u 1941-1945"
+    },
+    "godina": "1991",
+    "autor": "Kosta Angeli Radovani",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "bihac-bista-ive-lole-ribara",
+    "koordinate": {
+      "lat": 44.817182,
+      "lng": 15.8765378
+    },
+    "priblizno": true,
+    "mesto": "Bihać",
+    "naziv": {
+      "sh": "Bista Ive Lole Ribara",
+      "en": "Bust of NH Ivo Lola Ribar"
+    },
+    "godina": "1979",
+    "autor": "Dušan Pašić",
+    "posveta": [
+      "Q1265884"
+    ],
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "kamenica-bista-ahmeta-fetahagica",
+    "koordinate": {
+      "lat": 44.8436677,
+      "lng": 15.8300659
+    },
+    "priblizno": true,
+    "mesto": "Kamenica",
+    "naziv": {
+      "sh": "Bista Ahmeta Fetahagića",
+      "en": "Bust of NH Ahmet Fetahagić"
+    },
+    "godina": "1967",
+    "autor": "Osman Beganović",
+    "posveta": "Ahmeta Fetahagića",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "bijeljina-bista-radojke-lakic",
+    "koordinate": {
+      "lat": 44.7584682,
+      "lng": 19.212291
+    },
+    "priblizno": true,
+    "mesto": "Bijeljina",
+    "naziv": {
+      "sh": "Bista Radojke Lakić",
+      "en": "Bust of NH Radojka Lakić"
+    },
+    "godina": "1985",
+    "autor": "Milovan Krstić",
+    "posveta": "Radojke Lakić",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "sarajevo-hrasno-bista-ivana-gorana-kovacica",
+    "koordinate": {
+      "lat": 43.849927,
+      "lng": 18.3823351
+    },
+    "priblizno": true,
+    "mesto": "Sarajevo (Hrasno)",
+    "naziv": {
+      "sh": "Bista Ivana Gorana Kovačića",
+      "en": "Bust of Ivan Goran Kovačić"
+    },
+    "godina": "1965",
+    "autor": "Josip Kostović",
+    "posveta": [
+      "Q835790"
+    ],
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "prijedor-bista-esada-midzica",
+    "koordinate": {
+      "lat": 44.9763081,
+      "lng": 16.7099086
+    },
+    "priblizno": true,
+    "mesto": "Prijedor",
+    "naziv": {
+      "sh": "Bista Esada Midžića",
+      "en": "Bust of NH Esad Midžić"
+    },
+    "godina": "1970",
+    "autor": "Ljubomir Stahov",
+    "posveta": "Esada Midžića",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "sarajevo-vratnik-bista-dzavida-haverica",
+    "koordinate": {
+      "lat": 43.8621236,
+      "lng": 18.4432293
+    },
+    "priblizno": true,
+    "mesto": "Sarajevo (Vratnik)",
+    "naziv": {
+      "sh": "Bista Džavida Haverića",
+      "en": "Bust of Džavid Haverić"
+    },
+    "godina": "pre 1974",
+    "autor": "Hajrudin Lojo",
+    "posveta": "Džavida Haverića",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "donji-vrbljani-spomen-kompleks",
+    "koordinate": {
+      "lat": 44.4169294,
+      "lng": 16.8164642
+    },
+    "priblizno": true,
+    "mesto": "Donji Vrbljani",
+    "naziv": {
+      "sh": "Spomen-kompleks",
+      "en": "Memorial complex"
+    },
+    "vrsta": "spomen-park",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "majdanpek-bista",
+    "koordinate": {
+      "lat": 44.4228938,
+      "lng": 21.9363709
+    },
+    "priblizno": true,
+    "mesto": "Majdanpek",
+    "naziv": {
+      "sh": "Bista"
+    },
+    "godina": "1971",
+    "autor": "Stojan Cvetković",
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "pristina-bista-mete-bajraktarija",
+    "koordinate": {
+      "lat": 42.6664728,
+      "lng": 21.1596015
+    },
+    "priblizno": true,
+    "mesto": "Priština",
+    "naziv": {
+      "sh": "Bista Mete Bajraktarija"
+    },
+    "godina": "1960",
+    "posveta": "Mete Bajraktarija",
+    "vrsta": "bista",
+    "drzava": "Kosovo"
+  },
+  {
+    "id": "pristina-bista-emina-durakua",
+    "koordinate": {
+      "lat": 42.6710111,
+      "lng": 21.1638297
+    },
+    "priblizno": true,
+    "mesto": "Priština",
+    "naziv": {
+      "sh": "Bista Emina Durakua"
+    },
+    "godina": "1961",
+    "posveta": "Emina Durakua",
+    "vrsta": "bista",
+    "drzava": "Kosovo"
   }
 ]

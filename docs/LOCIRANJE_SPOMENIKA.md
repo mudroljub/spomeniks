@@ -30,6 +30,8 @@ Drugi prolaz, sa OSM objektima preuzetim 20.10. (`izvori/osm/*-objekti-2026-10-2
   - Kod Popović-Žume opština je iz OCR-a knjige (`izvori/knjige/popovic-zuma-1981/zapisi.json`, strana i mesto), pa se selo traži do 35 km od sedišta.
   - Za ostale izvore selo mora biti jedino tog imena u državi.
   - Gradovi i gradski delovi nisu obuhvaćeni.
+- [Sidra iz adrese](../data/provere/lociranje-sidra-2026-10-20.json): adresa sa samo jednim mestom upućuje na naš precizni zapis u istom naselju (partizansko groblje, spomen-park, kosturnica, muzej) ili na imenovanu OSM školu (i staro ime, `old_name`, jer su škole menjale imena). Tako je prešlo 29 + 10 zapisa. Adrese sa više mesta (premeštanja) nisu korišćene.
+- Preostale adrese su uglavnom ulice (oko 380) i parkovi (oko 200). Za njih treba OSM sloj ulica i parkova po državi, a ne pretraga adresa jedne po jedne.
 
 ## Saopštenja X 1974: primena 19.10.2026
 
