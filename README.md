@@ -26,7 +26,7 @@ POTPUNOST PODATKA:
     - najsumnjiviji su podaci za bosnu. posebno stotine i hiljade njih bez poznatog statusa, vrste i lokacije. putnike i korisnike aplikacije to može ozbiljno da zavede. smisli kao to rešiti. možda da uvedemo kriterije za pouzdanost podataka?
 
 UI
-- možda ukinuti približno lociranje, pravi više štete nego koristi. ili ga ostaviti samo zajedno sa drugim dokazima (fotografija, adresa i slično)?
+- napraviti savremeni kriterijum za istaknute spomenike. videti koji su najpopularniji u svetu, najočuvaniji i najposećeniji.
 
 REFAKTOR
 - code review i uklanjanje tehničkog duga

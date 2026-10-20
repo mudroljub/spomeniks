@@ -120,8 +120,14 @@ export default class Marker {
     return this.oznakaNaMapi ? [this.oznakaNaMapi] : []
   }
 
-  osvezi(zum, izabran, pomakSudara = [0, 0]) {
+  // u suženoj pretrazi ikonice se ne smanjuju po zumu i vrsti, da se svaki rezultat vidi
+  razmeraNa(zum, suzeno = false) {
     const razmera = (razmeraZuma[zum] || 1) * this.razmera
+    return suzeno ? Math.max(razmera, 1) : razmera
+  }
+
+  osvezi(zum, izabran, pomakSudara = [0, 0], suzeno = false) {
+    const razmera = this.razmeraNa(zum, suzeno)
     const oznaka = dajOznaku(this.spomen.id)
     const klasa = izabran === this ? 'izabran' : ''
     const pomak = /** @type {[number, number]} */ ([(this.pomak?.[0] || 0) + pomakSudara[0] / razmera, (this.pomak?.[1] || 0) + pomakSudara[1] / razmera])
@@ -129,8 +135,8 @@ export default class Marker {
     if (ikonica !== this.element.options.icon) this.element.setIcon(ikonica)
   }
 
-  okvirNaEkranu(zum) {
-    const razmera = (razmeraZuma[zum] || 1) * this.razmera
+  okvirNaEkranu(zum, suzeno = false) {
+    const razmera = this.razmeraNa(zum, suzeno)
     const {x, y} = mapa.latLngToContainerPoint(this.dajPoziciju())
     const dx = (this.pomak?.[0] || 0) * razmera
     const dy = (this.pomak?.[1] || 0) * razmera

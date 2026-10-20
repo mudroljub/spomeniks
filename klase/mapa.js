@@ -62,10 +62,10 @@ const osvezi = () => {
     naEkranu.splice(najviseSuzenih).forEach(ukloni)
   }
   const raspored = new Raspored()
-  naEkranu.forEach(marker => marker.spomen.priblizno || raspored.dodaj(marker.okvirNaEkranu(zum)))
+  naEkranu.forEach(marker => marker.spomen.priblizno || raspored.dodaj(marker.okvirNaEkranu(zum, suzeno)))
   naEkranu.forEach(marker => {
-    const pomak = marker.spomen.priblizno ? raspored.pomeri(marker.okvirNaEkranu(zum)) : [0, 0]
-    marker.osvezi(zum, izabran, pomak)
+    const pomak = marker.spomen.priblizno ? raspored.pomeri(marker.okvirNaEkranu(zum, suzeno)) : [0, 0]
+    marker.osvezi(zum, izabran, pomak, suzeno)
     sloj.addLayer(marker.element)
   })
 }
