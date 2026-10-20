@@ -151,8 +151,8 @@ test('Više vodi na članak o spomeniku, a bez članka se ne prikazuje', async (
   }
   const neispravni = await izvrsi(`import('./utils/clanci.js').then(({jeClanak,clanakSpomenika}) =>
     [...document.querySelector('planer-rute').stavke.values()].flatMap(({spomenik:s}) => {
-      const greske = ['wiki','wikiEn','clanak'].filter(f=>s[f]&&!jeClanak(s[f]))
-      if (!s.wiki&&!s.wikiEn&&!s.clanak&&clanakSpomenika(s)) greske.push('rezervni izvor')
+      const greske = ['wiki','wikiEn'].filter(f=>s[f]&&!jeClanak(s[f]))
+      if (!s.wiki&&!s.wikiEn&&clanakSpomenika(s)) greske.push('rezervni izvor')
       return greske.map(f=>s.id+': '+f)
     }))`)
   assert.deepEqual(neispravni, [])

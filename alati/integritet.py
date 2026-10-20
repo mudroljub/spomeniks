@@ -115,7 +115,7 @@ for s in d:
     if s.get('slikaPotpis') and not s.get('slika'): greske['potpis bez slike'].append(i)
     if bool(s.get('slika')) != bool(s.get('slikaOdnos')): greske['slika bez odnosa (pokreni slike_odnos.py)'].append(i)
     if 'izvor' in s: greske['izvor u bazi (pripada data/izvori.json)'].append(i)
-    for polje in ('wiki', 'wikiEn', 'clanak'):
+    for polje in ('wiki', 'wikiEn'):
         if polje in s and (not isinstance(s[polje], str) or not re.match(r'https?://', s[polje])): greske['los link'].append((i, polje, s[polje]))
     if s.get('googleCid') and not re.fullmatch(r'\d+', str(s['googleCid'])): greske['los googleCid'].append((i, s['googleCid']))
     if s.get('godina') and not re.fullmatch(r'\d{4}(\s*[-–/]\s*\d{2,4})?|(pre|posle|oko) \d{4}|\d{3}0-ih', str(s['godina'])): greske['cudna godina'].append((i, s['godina']))

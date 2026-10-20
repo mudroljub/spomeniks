@@ -47,12 +47,12 @@ class IntegritetTest(unittest.TestCase):
         self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
         self.assertIn('nepoznata vrsta', r.stdout)
 
-    def test_clanak(self):
-        r = self.proveri([{**spomenik('test'), 'clanak': 'https://example.com/spomenik'}])
+    def test_wiki_van_vikipedije(self):
+        r = self.proveri([{**spomenik('test'), 'wiki': 'https://example.com/spomenik'}])
         self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
         for link in [42, '', 'javascript:alert(1)']:
             with self.subTest(link=link):
-                r = self.proveri([{**spomenik('test'), 'clanak': link}])
+                r = self.proveri([{**spomenik('test'), 'wiki': link}])
                 self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
                 self.assertIn('los link', r.stdout)
                 self.assertNotIn('Traceback', r.stderr)

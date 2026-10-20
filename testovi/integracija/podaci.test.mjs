@@ -18,9 +18,9 @@ const bezLokacije = procitaj('data/bez_lokacije.json')
 
 test('svi izabrani linkovi prolaze proveru, a Topovske šupe imaju članak iz novina', () => {
   for (const s of baza) {
-    for (const polje of ['wiki', 'wikiEn', 'clanak'])
+    for (const polje of ['wiki', 'wikiEn'])
       if (s[polje]) assert.ok(jeClanak(s[polje]), `${s.id}: ${s[polje]}`)
-    if (!s.wiki && !s.wikiEn && !s.clanak) assert.equal(clanakSpomenika(s), undefined)
+    if (!s.wiki && !s.wikiEn) assert.equal(clanakSpomenika(s), undefined)
   }
   const topovske = baza.find(s => s.id === 'beograd-spomen-park-topovske-supe')
   assert.equal(clanakSpomenika(topovske), 'https://www.danubeogradu.rs/2021/01/kultura-secanja-info-tabla-o-logoru-topovske-supe/')

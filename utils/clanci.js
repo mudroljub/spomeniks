@@ -18,10 +18,10 @@ export const jeClanak = adresa => {
   } catch { return false }
 }
 
-/** @param {Pick<import('../data/tipovi').Spomenik, 'wiki' | 'wikiEn' | 'clanak'>} spomenik */
+/** @param {Pick<import('../data/tipovi').Spomenik, 'wiki' | 'wikiEn'>} spomenik */
 export const clanakSpomenika = (spomenik, jezik = 'sh') => {
   const kandidati = jezik === 'en'
-    ? [spomenik.wikiEn, spomenik.wiki, spomenik.clanak]
-    : [spomenik.wiki, spomenik.clanak, spomenik.wikiEn]
+    ? [spomenik.wikiEn, spomenik.wiki]
+    : [spomenik.wiki, spomenik.wikiEn]
   return kandidati.find(jeClanak)
 }

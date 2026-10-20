@@ -19,15 +19,15 @@ test('mapa, fotografija, registar, knjiga i wiki spisak ne mogu postati Više', 
     'https://www.facebook.com/spomenicinobucrnojgori/', 'javascript:alert(1)',
   ]) {
     assert.equal(jeClanak(link), false, link)
-    assert.equal(clanakSpomenika({wiki: link, clanak: link}), undefined)
+    assert.equal(clanakSpomenika({wiki: link, wikiEn: link}), undefined)
   }
 })
 
 test('članak zadržava jezički prioritet bez zavisnosti od izvora', () => {
   const s = {wiki: 'https://sh.wikipedia.org/wiki/Galebova_krila',
-    wikiEn: 'https://en.wikipedia.org/wiki/Wings_of_a_Seagull',
-    clanak: 'https://example.com/galebova-krila', izvor: 'https://www.openstreetmap.org/node/1'}
+    wikiEn: 'https://en.wikipedia.org/wiki/Wings_of_a_Seagull', izvor: 'https://www.openstreetmap.org/node/1'}
   assert.equal(clanakSpomenika(s), s.wiki)
   assert.equal(clanakSpomenika(s, 'en'), s.wikiEn)
-  assert.equal(clanakSpomenika({clanak: s.clanak}), s.clanak)
+  // wiki moze biti i proveren clanak van Vikipedije
+  assert.equal(clanakSpomenika({wiki: 'https://example.com/galebova-krila'}), 'https://example.com/galebova-krila')
 })
