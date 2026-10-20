@@ -47,6 +47,14 @@
       "napomena": "Prethodna tačka bila je unutar školske parcele, oko 110 m od obeležja; zamenjena izričitom tačkom desno od ulaza u fiskulturnu salu."
     }
   },
+  "bjelajske-uvale-spomenik-zrtvama-fasistickog-teror": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/bosanskakrupa",
+      "ishod": "provereno",
+      "napomena": "Isti izvorni red 608, ista posveta i oblik zastave u Wiki kopijama Jasenica i Bjelajske Uvale. Tačka 44.754056,16.268778 izričito je opisana kao nasumična tačka na putu između naselja; obe ranije tačke odbačene."
+    }
+  },
   "borovo-naselje-djeletovci-sporna-lokacija-spomenik": {
     "proveraOpstanka": {
       "datum": "2026-10-16",
@@ -54,6 +62,14 @@
       "ishod": "nepotvrđena-destinacija",
       "razlog": "Naziv i opis Commons fotografije govore Borovo Naselje, a ugrađeni EXIF GPS i naš marker vode u Đeletovce. Datum snimanja je 10.4.2021. Fotografija obeliska sa zvezdom i srpom/čekićem odgovara opisu borovskog obeležja, ali nezavisna precizna tačka nije potvrđena. Izveštaj iz jula 2020. potvrđuje obnovu spomenika u Borovu naselju, ne ovu GPS tačku. Povučeno zbog nesaglasne lokacije, a ne zbog rušenja; zapis i fotografije ostaju sačuvani.",
       "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#nastavak-provere-hrvatske-identiteti-i-kasniji-dokazi-2026-10-16"
+    }
+  },
+  "bosanska-krupa-spomenik-na-mjestu-strijeljanja-lep": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/bosanskakrupa",
+      "ishod": "provereno",
+      "napomena": "Wiki deo-0027: položaj na uglu Prvomajske uz prugu potvrđen fotografijama i Street View. Cazin.NET, 24.12.2019, potvrđuje privremeno uklanjanje i vraćanje na obližnju novu lokaciju; nije bista Lepe Radić iz arhive."
     }
   },
   "botos-bista": {
@@ -163,6 +179,22 @@
       "napomena": "Guča; bista komandanta oslobođenog mesta, postavljena 1974. Prethodna približna tačka pripadala je pogrešnom naselju; tačka spomenika nije potvrđena."
     }
   },
+  "gudavac-spomenik-palim-borcima-i-zrtvama-fasistick": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/bosanskakrupa",
+      "ishod": "provereno",
+      "napomena": "Wiki deo-0077: spomenik kod raskrsnice u Gudavcu, vidljiv u Street View i označen na karti iz 1975. Katalog ga vodi pod Donjom Suvajom; ispravljeno selo i tačka."
+    }
+  },
+  "ivanjska-spomenik-nob": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/bosanskakrupa",
+      "ishod": "provereno",
+      "napomena": "Wiki deo-0084: obeležje severno od mosta preko Une, zapadno od puta; položaj potvrđen izgledom u Street View i istorijskom kartom. Ne mešati sa obeležjem kod nekadašnjeg doma u Glodini."
+    }
+  },
   "jazbine-spomenik-partizanskom-stozeru": {
     "proveraOpstanka": {
       "datum": "2026-10-16",
@@ -189,6 +221,30 @@
       "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
     }
   },
+  "klenovac-spomenik-strijeljanim-partizanima": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/bosanskipetrovac",
+      "ishod": "provereno",
+      "napomena": "Isti broj 77, isti datum stradanja i isto seosko groblje u dva unosa; Wiki deo-0102 povezuje sa opštinskom komemoracijom i fotografijom. Sačuvana približna tačka groblja, nije proglašena preciznim položajem groba."
+    }
+  },
+  "klenovac-spomenik-zrtvama-fasistickog-terora-2": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/bosanskipetrovac",
+      "ishod": "provereno",
+      "napomena": "Wiki deo-0102 izričito navodi nepoznat položaj i dva moguća Klenovca, jedan istočno od Bravska i drugi kod Bukovače. Centar sela nije potvrđena lokacija ovog obeležja."
+    }
+  },
+  "klenovac-spomenik-zrtvama-fasistickog-terora-3": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/bosanskipetrovac",
+      "ishod": "provereno",
+      "napomena": "Wiki deo-0102 izričito navodi nepoznat položaj i dva moguća Klenovca, jedan istočno od Bravska i drugi kod Bukovače. Centar sela nije potvrđena lokacija ovog obeležja."
+    }
+  },
   "kragujevac-srne": {
     "proveraLokacije": {
       "datum": "2026-10-16",
@@ -203,6 +259,14 @@
       "izvor": "https://www.xiwl.com/w/index.php/Kriva_Bara_-_Spomenik_NOB",
       "ishod": "ispravljena-preciznost-lokacije",
       "napomena": "Tačka konkretnog zamenskog obeležja iz 1985; sačuvano pre 1960 kao godina prvobitnog obeležja."
+    }
+  },
+  "krnjeusa-spomenik-nob": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/bosanskipetrovac",
+      "ishod": "provereno",
+      "napomena": "Wiki deo-0113: pet stubova/kubusa na raskrsnici pred mesnom zgradom, vidljivo u satelitskom snimku i Street View; potvrđen objekat umesto centra sela."
     }
   },
   "macvanska-mitrovica-obelisk-visok-8-m-spomenik-pal": {
@@ -246,6 +310,14 @@
       "napomena": "Preuzet izričit položaj konkretnog obeležja i opis mikrolokacije iz sačuvane Wiki stranice. Ovo nije dokaz današnjeg stanja."
     }
   },
+  "pistaline-spomenik-zrtvama-fasistickog-terora": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/bosanskakrupa",
+      "ishod": "provereno",
+      "napomena": "Povučena tačka centra Pištalina: izvor izričito navodi obalu Une, više od 10 km dalje. Wiki kopija deo-0176 takođe potvrđuje da položaj nije poznat."
+    }
+  },
   "prezid-zbitke-spomenik-danijelu-ozboltu": {
     "proveraOpstanka": {
       "datum": "2026-10-16",
@@ -273,6 +345,14 @@
       "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
     }
   },
+  "risovac-spomenik-zrtvama-fasistickog-terora": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/bosanskipetrovac",
+      "ishod": "provereno",
+      "napomena": "Wiki deo-0198 navodi nepoznatu tačku u šumi pod Risovom gredom. Okvirna tačka šumskog predela nije lokacija obeležja; zapis povučen sa mape bez promene zaključka o opstanku."
+    }
+  },
   "secanj-spomenik-palim-borcima-za-oslobodjenje-od-o": {
     "proveraLokacije": {
       "datum": "2026-10-20",
@@ -287,6 +367,30 @@
       "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=140",
       "ishod": "pogresno-zaglavlje-u-izvodu-ispravljeno",
       "napomena": "U ataru naselja; spomenik Žiki Bukaceli. Prethodna približna tačka pripadala je drugom naselju."
+    }
+  },
+  "smoljana-spomen-cesma-palim-borcima-i-zrtvama-fasi": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/bosanskipetrovac",
+      "ishod": "provereno",
+      "napomena": "Wiki deo-0212 razlikuje staru česmu pred školom od kosturnice iza škole; opis, fotografije i položaj iz Mapio određuju objekat. Uklonjena tačka centra sela oko 1,7 km dalje."
+    }
+  },
+  "suvaja-spomenik-na-mjestu-vojnog-skladista-i-strij": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/bosanskakrupa",
+      "ishod": "provereno",
+      "napomena": "Odbačena tačka istoimene Suvaje kod Bosanskog Petrovca. Wiki deo-0223 navodi šumu zapadno od Donje Suvaje i izričito nepoznat položaj; ni njena okvirna šumska tačka nije potvrđen objekat."
+    }
+  },
+  "suvaja-statua-narodnog-heroja-dusana-kosutica": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/bosanskakrupa",
+      "ishod": "provereno",
+      "napomena": "Ispravljeno istoimeno selo oko 25 km dalje. Sačuvana Wiki kopija deo-0223 i istorijska fotografija povezuju statuu sa spomenikom u Jasenici; položaj kod ruševine škole i foto-geotag nisu nezavisna precizna tačka statue."
     }
   },
   "tajcari-spomenik-prvom-zboru-za-odlazak-u-partizan": {

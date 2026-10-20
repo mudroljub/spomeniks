@@ -1,5 +1,7 @@
 # Zajednički rad u projektu Spomenici
 
+Svaku odluku o podacima i aplikaciji meri iskustvom putnika (korisnik, 2026-10-20): mapa ne sme da ga vodi ka nečemu što ne može da nađe ili što mu ništa ne znači. Poznat i značajan spomenik sa tačnom lokacijom ostaje na mapi i kad je uklonjen, sa stanjem (npr. spomenik prvom partizanskom tenku u Kraljevu); sitni i neodređeni zapisi bez vrednosti za putnika čuvaju se u `data/arhiva.json`.
+
 ## Podela posla
 
 - Pre izmene proveri `git status`, važeće tipove u `data/tipovi.d.ts` i pravila u `.claude/skills/spomenici-zetva/references/standard.md`.

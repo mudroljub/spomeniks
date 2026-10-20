@@ -1339,18 +1339,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "poplat-spomen-ploca-formiranju-poplatskog-partizan",
-    "mesto": "Poplat",
-    "naziv": "Spomen-ploča formiranju Poplatskog partizanskog odreda",
-    "nazivEn": "Plaque marking formation of the Poplat Partisan Detachment",
-    "godina": "1962",
-    "posveta": "formiranju Poplatskog partizanskog odreda",
-    "stanje": "srusen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "House of Ilija Mihić"
-  },
-  {
     "id": "poplat-spomenik-palim-borcima-nor-a-1941-1945",
     "mesto": "Poplat",
     "naziv": "Spomenik palim borcima NOR-a 1941-1945",
@@ -1360,28 +1348,6 @@
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Close to Zadružni Dom"
-  },
-  {
-    "id": "poplat-spomenik-palim-borcima",
-    "mesto": "Poplat",
-    "naziv": "Spomenik palim borcima",
-    "nazivEn": "Monument to fallen fighters",
-    "godina": "1951",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Visokovine"
-  },
-  {
-    "id": "poplat-spomen-ploca-zrtvama-fasistickog-terora",
-    "mesto": "Poplat",
-    "naziv": "Spomen-ploča žrtvama fašističkog terora",
-    "nazivEn": "Plaque to commemorate Victims of Fascist Terror",
-    "godina": "1961",
-    "stanje": "srusen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Bukovina pit"
   },
   {
     "id": "bitunja-spomen-ploca-zrtvama-fasistickog-terora-ub",
@@ -1953,18 +1919,6 @@
     "adresa": "Corner of Kneginje Milice & Svetog Save"
   },
   {
-    "id": "bijeljina-spomenik-39-palih-boraca-i-4-zrtve-fasis",
-    "mesto": "Bijeljina",
-    "naziv": "Spomenik 39 palih boraca i 4 žrtve fašističkog terora",
-    "nazivEn": "Monument to 39 fallen fighters and 4 Victims of Fascist Terror",
-    "godina": "1951",
-    "posveta": "39 palih boraca i 4 žrtve fašističkog terora",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Ul. 27. Marta 49"
-  },
-  {
     "id": "bijeljina-bista-nikole-spasojevica",
     "mesto": "Bijeljina",
     "naziv": "Bista Nikole Spasojevića",
@@ -1982,20 +1936,6 @@
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Jovan Dučić elementary school"
-  },
-  {
-    "id": "bijeljina-rodno-mjesto-narodnog-heroja-hamze-hamzi",
-    "mesto": "Bijeljina",
-    "naziv": "Spomen-kuća Hamze Hamzića",
-    "nazivEn": "Hamzo Hamzić Memorial House",
-    "stanje": "srusen",
-    "vrsta": "spomen-kuca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Atinska 19",
-    "opis": {
-      "sh": "U rodnoj kući Hamze Hamzića nalazila se spomen-soba, od 1982. pod okriljem Muzeja Semberije. Prema katalogu, zgrada je srušena.",
-      "en": "Hamzo Hamzić’s birthplace housed a memorial room, under the Semberija Museum’s care from 1982. According to the catalogue, the building has been demolished."
-    }
   },
   {
     "id": "amajlije-spomen-ploca-palim-borcima-i-zrtvama-fasi",
@@ -3193,17 +3133,6 @@
     "adresa": "Birthplace of NH Miro Popara"
   },
   {
-    "id": "crno-jezero-spomen-ploca-zrtvama-fasistickog-teror",
-    "mesto": "Crno Jezero",
-    "naziv": "Spomen-ploča žrtvama fašističkog terora",
-    "nazivEn": "Plaque to commemorate Victims of Fascist Terror",
-    "godina": "pre 1960",
-    "stanje": "srusen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Canyon wall"
-  },
-  {
     "id": "jasenica-spomen-ploca-sastanku-pravoslavnih-sveste",
     "mesto": "Jasenica",
     "naziv": "Spomen-ploča sastanku pravoslavnih sveštenika NOR-a",
@@ -3227,17 +3156,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "bosanska-krupa-spomenik-zrtvama-fasistickog-terora",
-    "mesto": "Bosanska Krupa",
-    "naziv": "Spomenik žrtvama fašističkog terora",
-    "nazivEn": "Monument to Victims of Fascist Terror",
-    "godina": "1972",
-    "autor": "Boško Karanović",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Dom Kulture"
-  },
-  {
     "id": "srednji-dubovik-spomen-ploca-na-mjestu-partizanske",
     "mesto": "Srednji Dubovik",
     "naziv": "Spomen-ploča na mjestu partizanske bolnice",
@@ -3250,12 +3168,16 @@
   {
     "id": "pistaline-spomen-ploca-na-mjestu-strijeljanja-zrta",
     "mesto": "Pištaline",
-    "naziv": "Spomen-ploča na mjestu strijeljanja žrtava fašističkog terora",
-    "nazivEn": "Plaque at site of execution of victims of fascist terror",
+    "naziv": "Spomen-ploča žrtvama u kući Mile Bursaća",
+    "nazivEn": "Mile Bursać House Victims Memorial",
     "godina": "1983",
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "House of Mile Bursać (former)"
+    "adresa": "House of Mile Bursać (former)",
+    "opis": {
+      "sh": "Posvećeno žrtvama fašističkog terora ubijenim na mestu nekadašnje kuće Mile Bursaća u Pištalinama; izvor navodi 96 žrtava.",
+      "en": "Dedicated to victims of fascist terror killed at the former house of Mile Bursać in Pištaline; the source lists 96 victims."
+    }
   },
   {
     "id": "bosanska-otoka-partizansko-groblje",
@@ -3495,42 +3417,58 @@
   {
     "id": "bosanska-krupa-spomenik-zrtvama-fasistickog-terora-3",
     "mesto": "Bosanska Krupa",
-    "naziv": "Spomenik žrtvama fašističkog terora",
-    "nazivEn": "Monument to Victims of Fascist Terror",
+    "naziv": "Spomenik žrtvama kod Kneževića bunara",
+    "nazivEn": "Kneževića Bunar Victims Memorial",
     "godina": "1983",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "MZ 27. Jul, Kneževića bunar"
+    "adresa": "MZ 27. Jul, Kneževića bunar",
+    "opis": {
+      "sh": "Posvećeno žrtvama fašističkog terora; izvor navodi 38 žrtava na ovom stratištu.",
+      "en": "Dedicated to victims of fascist terror; the source lists 38 victims at this execution site."
+    }
   },
   {
     "id": "bosanska-otoka-spomenik-zrtvama-fasistickog-terora",
     "mesto": "Bosanska Otoka",
-    "naziv": "Spomenik žrtvama fašističkog terora",
-    "nazivEn": "Monument to Victims of Fascist Terror",
+    "naziv": "Spomenik žrtvama u Ćevanušama",
+    "nazivEn": "Ćevanuše Victims Memorial",
     "godina": "1983",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Ćevanuše"
+    "adresa": "Ćevanuše",
+    "opis": {
+      "sh": "Posvećeno žrtvama fašističkog terora; izvor navodi 200 žrtava na ovom stratištu.",
+      "en": "Dedicated to victims of fascist terror; the source lists 200 victims at this execution site."
+    }
   },
   {
     "id": "bosanska-otoka-spomenik-zrtvama-fasistickog-terora-3",
     "mesto": "Bosanska Otoka",
-    "naziv": "Spomenik žrtvama fašističkog terora",
-    "nazivEn": "Monument to Victims of Fascist Terror",
+    "naziv": "Spomenik žrtvama u Vrletnici",
+    "nazivEn": "Vrletnica Victims Memorial",
     "godina": "1983",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Vrletnica, House of Mile Kozić (former)"
+    "adresa": "Vrletnica, House of Mile Kozić (former)",
+    "opis": {
+      "sh": "Posvećeno žrtvama fašističkog terora; izvor navodi 54 žrtve na ovom stratištu. Obeležava mesto nekadašnje kuće Mile Kozića.",
+      "en": "Dedicated to victims of fascist terror; the source lists 54 victims at this execution site. It marks the site of Mile Kozić’s former house."
+    }
   },
   {
     "id": "bosanska-otoka-spomenik-zrtvama-fasistickog-terora-4",
     "mesto": "Bosanska Otoka",
-    "naziv": "Spomenik žrtvama fašističkog terora",
-    "nazivEn": "Monument to Victims of Fascist Terror",
+    "naziv": "Spomenik žrtvama u Dugom Dolu",
+    "nazivEn": "Dugi Do Victims Memorial",
     "godina": "1983",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Brskavac, Dugi Do"
+    "adresa": "Brskavac, Dugi Do",
+    "opis": {
+      "sh": "Posvećeno žrtvama fašističkog terora; izvor navodi 260 žrtava na ovom stratištu. Lokalitet je naveden kao Brskavac, Dugi Do.",
+      "en": "Dedicated to victims of fascist terror; the source lists 260 victims at this execution site. The locality is listed as Brskavac, Dugi Do."
+    }
   },
   {
     "id": "grmec-mountain-spomenik-zrtvama-fasistickog-terora",
@@ -3576,15 +3514,6 @@
     "adresa": "Jezerska 3 (former)"
   },
   {
-    "id": "medeno-polje-spomen-avion-na-mjestu-aerodroma",
-    "mesto": "Medeno Polje",
-    "naziv": "Spomen-avion na mjestu aerodroma",
-    "nazivEn": "Memorial plane at site of airfield",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "gorincani-spomen-kosturnica",
     "mesto": "Gorinčani",
     "naziv": "Spomen-kosturnica",
@@ -3595,12 +3524,16 @@
   {
     "id": "vrtoce-spomenik-zrtvama-fasistickog-terora",
     "mesto": "Vrtoče",
-    "naziv": "Spomenik žrtvama fašističkog terora",
-    "nazivEn": "Monument to Victims of Fascist Terror",
+    "naziv": "Spomenik žrtvama na Galini",
+    "nazivEn": "Galina Victims Memorial",
     "godina": "1988-1989",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Galina"
+    "adresa": "Galina",
+    "opis": {
+      "sh": "Izvor navodi obeležje žrtvama fašističkog terora na Galini, bez potvrđene lokacije. Nije potvrđeno da je to isto obeležje kao porodični spomenik iz 1971. godine.",
+      "en": "The source lists a memorial to victims of fascist terror at Galina, without a confirmed location. Its identity with the 1971 family memorial has not been established."
+    }
   },
   {
     "id": "bosanski-petrovac-bista-zdravka-celara",
@@ -3613,7 +3546,11 @@
     ],
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Park in town centre; Patch of land in front of the municipality building"
+    "adresa": "Park in town centre; Patch of land in front of the municipality building",
+    "opis": {
+      "sh": "Bista Zdravka Čelara premeštena je iz gradskog parka na prostor ispred zgrade opštine.",
+      "en": "The bust of Zdravko Čelar was moved from the town park to the grounds in front of the municipal building."
+    }
   },
   {
     "id": "bosanski-petrovac-bista-radivoja-rodica",
@@ -3621,21 +3558,27 @@
     "naziv": "Bista Radivoja Rodića",
     "nazivEn": "Bust of NH Radivoj Rodić",
     "godina": "pre 1985",
-    "posveta": "Radivoja Rodića",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Park in town centre; Patch of land in front of the municipality building"
+    "adresa": "Park in town centre; Patch of land in front of the municipality building",
+    "opis": {
+      "sh": "Bista Radivoja Rodića premeštena je iz gradskog parka na prostor ispred zgrade opštine.",
+      "en": "The bust of Radivoj Rodić was moved from the town park to the grounds in front of the municipal building."
+    }
   },
   {
     "id": "bosanski-petrovac-bista-mahmuta-ibrahimpasica-mase",
     "mesto": "Bosanski Petrovac",
     "naziv": "Bista Mahmuta Ibrahimpašića Maše",
     "nazivEn": "Bust of NH Mahmut Ibrahimpašić Mašo",
-    "godina": "pre 1966",
-    "posveta": "Mahmuta Ibrahimpašića Maše",
+    "godina": "pre 1967",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Park in town centre; Patch of land in front of the municipality building"
+    "adresa": "Park in town centre; Patch of land in front of the municipality building",
+    "opis": {
+      "sh": "Bista Mahmuta Ibrahimpašića Maše premeštena je iz gradskog parka na prostor ispred zgrade opštine. Izvor potvrđuje da je izrađena najkasnije 1966. godine.",
+      "en": "The bust of Mahmut Ibrahimpašić Mašo was moved from the town park to the grounds in front of the municipal building. The source establishes that it was made no later than 1966."
+    }
   },
   {
     "id": "bosanski-petrovac-bista-miladina-zorica-garace",
@@ -3827,17 +3770,6 @@
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Park in town centre"
-  },
-  {
-    "id": "bosanski-petrovac-spomenik-nob",
-    "mesto": "Bosanski Petrovac",
-    "naziv": "Spomenik NOB",
-    "nazivEn": "Monument to the NOB",
-    "godina": "1958",
-    "autor": "Olga Jančić",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Behind Dom AFŽ; In front of the municipality building"
   },
   {
     "id": "bosanski-petrovac-spomen-ploca-na-mjestu-gdje-je-t",
@@ -4099,12 +4031,16 @@
   {
     "id": "vrtoce-spomenik-zrtvama-fasistickog-terora-2",
     "mesto": "Vrtoče",
-    "naziv": "Spomenik žrtvama fašističkog terora",
-    "nazivEn": "Monument to Victims of Fascist Terror",
+    "naziv": "Spomenik žrtvama porodica Galina i Atlagić",
+    "nazivEn": "Galina and Atlagić Families Victims Memorial",
     "godina": "1971",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Site of Galin family home (former)"
+    "adresa": "Site of Galin family home (former)",
+    "opis": {
+      "sh": "Posvećeno stradalim članovima porodica Galina i Atlagić na mestu nekadašnje porodične kuće; izvor navodi 31 žrtvu, među njima 28 ubijenih u julu 1944.",
+      "en": "Dedicated to the murdered members of the Galina and Atlagić families at the former family home; the source lists 31 victims, including 28 killed in July 1944."
+    }
   },
   {
     "id": "zdeni-do-spomenik-pobjedi-partizanskih-snaga-i-uni",
@@ -4128,20 +4064,6 @@
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Palež"
-  },
-  {
-    "id": "unista-spomen-ploca-drugoj-dalmatinskoj-proletersk",
-    "mesto": "Uništa",
-    "naziv": "Spomen-ploča Drugoj dalmatinskoj proleterskoj brigadi",
-    "nazivEn": "Plaque commemorating the 2nd Dalmatian Proletarian Brigade",
-    "godina": "pre 1962",
-    "posveta": [
-      "Q117668"
-    ],
-    "stanje": "srusen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Next to memorial hall"
   },
   {
     "id": "bosansko-grahovo-spomenik-poziv-na-ustanak",
@@ -5171,27 +5093,6 @@
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Modriča Brdo"
-  },
-  {
-    "id": "tasovcici-spomenik-koncentracionom-logoru-silos",
-    "mesto": "Tasovčići",
-    "naziv": "Spomenik koncentracionom logoru „Silos“",
-    "nazivEn": "Monument to commemorate the 'Silos' concentration camp",
-    "godina": "1984",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Modriča Brdo"
-  },
-  {
-    "id": "klepci-spomen-ploca-zrtvama-fasistickog-terora",
-    "mesto": "Klepci",
-    "naziv": "Spomen-ploča žrtvama fašističkog terora",
-    "nazivEn": "Plaque to commemorate Victims of Fascist Terror",
-    "stanje": "srusen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Edge of pit"
   },
   {
     "id": "dracevo-spomen-ploca-zrtvama-fasistickog-terora",
@@ -7715,18 +7616,6 @@
     "adresa": "Omladinska bb., municipality building"
   },
   {
-    "id": "ustikolina-bista-spasoja-dragovica",
-    "mesto": "Ustikolina",
-    "naziv": "Bista Spasoja Dragovića",
-    "nazivEn": "Bust of NH Spasoje Dragović",
-    "godina": "pre 1981",
-    "posveta": "Spasoja Dragovića",
-    "stanje": "srusen",
-    "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Elementary school"
-  },
-  {
     "id": "ustikolina-spomen-ploca-prelasku-drine-tokom-igman",
     "mesto": "Ustikolina",
     "naziv": "Spomen-ploča prelasku Drine tokom Igmanskog marša",
@@ -7747,17 +7636,6 @@
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Ul. Mehmeda Spahe 11"
-  },
-  {
-    "id": "fojnica-spomenik-palim-borcima",
-    "mesto": "Fojnica",
-    "naziv": "Spomenik palim borcima",
-    "nazivEn": "Monument to fallen fighters",
-    "godina": "1951",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Town park"
   },
   {
     "id": "pogorelica-spomen-cesma-palim-borcima-visocko-fojn",
@@ -8136,23 +8014,6 @@
     "adresa": "Art Gallery"
   },
   {
-    "id": "gornji-vakuf-spomen-ploca-prvom-oslobodjenju-gornj",
-    "mesto": "Gornji Vakuf",
-    "naziv": "Spomen-ploča prvom oslobođenju Gornjeg Vakufa",
-    "nazivEn": "First Liberation of Gornji Vakuf Plaque",
-    "opis": {
-      "sh": "Posvećeno prvom oslobođenju Gornjeg Vakufa od strane [IV crnogorske brigade](Q12761191).",
-      "en": "Dedicated to the first liberation of Gornji Vakuf by the [IV Montenegrin Brigade](Q12761191)."
-    },
-    "posveta": [
-      "Q12761191"
-    ],
-    "stanje": "srusen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Gradska Ul., former municipality building"
-  },
-  {
     "id": "donji-doborovci-spomen-ploca-na-mjestu-pogibije-16",
     "mesto": "Donji Doborovci",
     "naziv": "Spomen-ploča na mjestu pogibije 16 partizanskih boraca",
@@ -8347,28 +8208,6 @@
     "adresa": "Local clinic"
   },
   {
-    "id": "gradacac-bista-vojka-milovanovica",
-    "mesto": "Gradačac",
-    "naziv": "Bista Vojka Milovanovića",
-    "nazivEn": "Bust of Vojko Milovanović",
-    "posveta": "Vojka Milovanovića",
-    "stanje": "srusen",
-    "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Town park"
-  },
-  {
-    "id": "srnica-bista-vase-pelagica",
-    "mesto": "Srnica",
-    "naziv": "Bista Vase Pelagića",
-    "nazivEn": "Bust of Vasa Pelagić",
-    "posveta": "Vase Pelagića",
-    "stanje": "srusen",
-    "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Elementary school"
-  },
-  {
     "id": "gradacac-partizansko-groblje",
     "mesto": "Gradačac",
     "naziv": "Partizansko groblje",
@@ -8440,17 +8279,6 @@
     "godina": "1952-1954",
     "vrsta": "groblje",
     "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "gradiska-spomenik-nob",
-    "mesto": "Gradiška",
-    "naziv": "Spomenik NOB",
-    "nazivEn": "Monument to the NOB",
-    "godina": "1949",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "In front of municipal assembly building"
   },
   {
     "id": "gradiska-spomenik-palim-borcima",
@@ -9186,16 +9014,6 @@
     "adresa": "Kuk"
   },
   {
-    "id": "zijemlje-spomen-ploca-nob",
-    "mesto": "Zijemlje",
-    "naziv": "Spomen-ploča NOB",
-    "nazivEn": "Plaque to commemorate the NOB",
-    "stanje": "srusen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Elementary school"
-  },
-  {
     "id": "trebevic-spomen-ploca-narodnom-heroju-vasi-miskinu",
     "mesto": "Trebević",
     "naziv": "Spomen-ploča narodnom heroju Vasi Miskinu Crnom",
@@ -9225,17 +9043,6 @@
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Ul. Bitka za ranjenike"
-  },
-  {
-    "id": "jablanica-spomenik-prelasku-neretve",
-    "mesto": "Jablanica",
-    "naziv": "Spomenik prelasku Neretve",
-    "nazivEn": "Monument to commemorate the crossing of the Neretva",
-    "godina": "1952",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "West bank of river, close to bridge"
   },
   {
     "id": "jablanica-spomenik-palim-borcima",
@@ -9342,17 +9149,6 @@
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Drugog zasjedanja AVNOJ-a"
-  },
-  {
-    "id": "jajce-spomen-ploca-organizaciji-ustanka",
-    "mesto": "Jajce",
-    "naziv": "Spomen-ploča organizaciji ustanka",
-    "nazivEn": "Plaque to commemorate organization of the Uprising",
-    "godina": "1966",
-    "stanje": "srusen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Cluster of pine trees above waterfall"
   },
   {
     "id": "jajce-spomen-ploca-na-mjestu-vrhovnog-staba",
@@ -9692,18 +9488,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "kalesija-spomen-kosturnica-sa-413-palih-boraca",
-    "mesto": "Kalesija",
-    "naziv": "Spomen-kosturnica sa 413 palih boraca",
-    "nazivEn": "Memorial ossuary with 413 fallen fighters",
-    "godina": "1969",
-    "autor": "Aleksandar Kostić & Dragiša Trifković",
-    "stanje": "srusen",
-    "vrsta": "groblje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Dom Kulture"
-  },
-  {
     "id": "kalesija-bista-svetozara-vukovica-zarka",
     "mesto": "Kalesija",
     "naziv": "Bista Svetozara Vukovića Zarka",
@@ -9714,21 +9498,6 @@
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Dom Kulture; Tuzla"
-  },
-  {
-    "id": "kalesija-spomenik-na-mjestu-smrti-narodnog-heroja",
-    "mesto": "Kalesija",
-    "naziv": "Spomenik pogibiji Slobodana Bajića Paje i boraca",
-    "nazivEn": "Monument to Slobodan Bajić Paja and fallen fighters",
-    "opis": {
-      "sh": "Obeležava mesto smrti narodnog heroja Slobodana Bajića Paje i oko 50 boraca.",
-      "en": "Marks the place of death of People's Hero Slobodan Bajić Paja and approximately 50 fighters."
-    },
-    "godina": "1952",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Ul. Senada Mehdina Hodžića"
   },
   {
     "id": "kalinovik-spomen-ploca-porazu-cetnickih-snaga",
@@ -9804,19 +9573,6 @@
     "godina": "1961",
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "kiseljak-bista-rudija-cajavca",
-    "mesto": "Kiseljak",
-    "naziv": "Bista Rudija Čajavca",
-    "nazivEn": "Bust of NH Rudi Čajavec",
-    "godina": "pre 1966",
-    "autor": "Petar Krstić",
-    "posveta": "Rudija Čajavca",
-    "stanje": "srusen",
-    "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Elementary school"
   },
   {
     "id": "kiseljak-spomen-ploca-govoru-djure-djakovica-1921",
@@ -9910,17 +9666,6 @@
     "godina": "1966",
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "kljuc-spomenik-palim-borcima",
-    "mesto": "Ključ",
-    "naziv": "Spomenik palim borcima",
-    "nazivEn": "Monument to fallen fighters",
-    "godina": "1951",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Town centre"
   },
   {
     "id": "gornja-sanica-zajednicka-grobnica-zrtava-fasistick",
@@ -10032,20 +9777,6 @@
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Abandoned building"
-  },
-  {
-    "id": "kopljenica-spomen-ploca-palim-borcima-i-zrtvama-fa",
-    "mesto": "Kopljenica",
-    "naziv": "Spomen-ploča NOB",
-    "nazivEn": "Memorial plaque",
-    "opis": {
-      "sh": "Posvećeno palim borcima i žrtvama fašističkog terora.",
-      "en": "Dedicated to fallen fighters and victims of fascist terror."
-    },
-    "stanje": "srusen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Spomen Dom (former)"
   },
   {
     "id": "medjedje-brdo-spomen-ploca-stampanju-oslobodjenja",
@@ -10690,17 +10421,6 @@
     "adresa": "Elementary school"
   },
   {
-    "id": "slabinja-spomenik-zrtvama-fasistickog-terora",
-    "mesto": "Slabinja",
-    "naziv": "Spomenik žrtvama fašističkog terora",
-    "nazivEn": "Monument to Victims of Fascist Terror",
-    "godina": "1971",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Village centre"
-  },
-  {
     "id": "mirkovac-spomen-ploca-omladinskom-vojno-politickom",
     "mesto": "Mirkovac",
     "naziv": "Spomen-ploča omladinskom vojno-političkom kursu",
@@ -10808,17 +10528,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "kupres-partizansko-groblje-sa-66-palih-boraca",
-    "mesto": "Kupres",
-    "naziv": "Partizansko groblje sa 66 palih boraca",
-    "nazivEn": "Partisans' cemetery with 66 fallen fighters",
-    "godina": "1974",
-    "stanje": "srusen",
-    "vrsta": "groblje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Town park"
-  },
-  {
     "id": "kupres-bista-milosa-zdere",
     "mesto": "Kupres",
     "naziv": "Bista Miloša Ždere",
@@ -10828,15 +10537,6 @@
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Partisans' cemetery; Blagaj"
-  },
-  {
-    "id": "kupres-spomenik-oslobodjenju-kupresa",
-    "mesto": "Kupres",
-    "naziv": "Spomenik oslobođenju Kupresa",
-    "nazivEn": "Monument to the Liberation of Kupres",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "vukovsko-spomenik-180-zrtava-fasistickog-terora",
@@ -11106,39 +10806,6 @@
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Building of Rudnik Tušnica"
-  },
-  {
-    "id": "livno-spomen-ploca-oslobodjenju-livna",
-    "mesto": "Livno",
-    "naziv": "Spomen-ploča oslobođenju Livna",
-    "nazivEn": "Plaque to commemorate Liberation of Livno",
-    "stanje": "srusen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Municipality building"
-  },
-  {
-    "id": "livno-spomen-ploca-formiranju-prve-vazduhoplovne-b",
-    "mesto": "Livno",
-    "naziv": "Spomen-ploča prvoj vazduhoplovnoj bazi NOV i POJ",
-    "nazivEn": "First NOV and POJ Air Base Plaque",
-    "opis": {
-      "sh": "Posvećeno formiranju prve vazduhoplovne baze NOV i POJ u Livnu.",
-      "en": "Dedicated to the formation of the first NOV and POJ air base in Livno."
-    },
-    "stanje": "srusen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "House of the Baljka family, air base headquarters (former)"
-  },
-  {
-    "id": "livno-spomen-ploca-na-mjestu-sastanaka-vrhovnog-st",
-    "mesto": "Livno",
-    "naziv": "Spomen-ploča na mjestu sastanaka Vrhovnog štaba",
-    "nazivEn": "Memorial Plaque: Meeting place of Supreme Headquarters",
-    "stanje": "srusen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "livno-bista-ivana-gorana-kovacica",
@@ -11925,18 +11592,6 @@
     "adresa": "Marija Macan 8"
   },
   {
-    "id": "puracic-spomenik-palim-borcima-nor-a",
-    "mesto": "Puračić",
-    "naziv": "Spomenik palim borcima NOR-a",
-    "nazivEn": "Monument to Fallen Fighters of the NOR",
-    "godina": "1949",
-    "autor": "Slavko Samek",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Village square"
-  },
-  {
     "id": "gornje-crveno-brdo-grob-osmana-akeljica",
     "mesto": "Gornje Crveno Brdo",
     "slika": "slike/bez-lokacije/gornje-crveno-brdo-grob-osmana-akeljica.webp",
@@ -12006,17 +11661,6 @@
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Town library"
-  },
-  {
-    "id": "osve-spomenik-67-zrtava-fasistickog-terora",
-    "mesto": "Ošve",
-    "naziv": "Spomenik 67 žrtava fašističkog terora",
-    "nazivEn": "Monument to commemorate 67 Victims of Fascist Terror",
-    "godina": "1950-ih",
-    "posveta": "67 žrtava fašističkog terora",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "brezici-spomen-ploca-na-mjestu-smrti-11-boraca-ist",
@@ -12408,18 +12052,6 @@
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Opine 19"
-  },
-  {
-    "id": "mostar-spomen-ploca-palim-ucenicima",
-    "mesto": "Mostar",
-    "naziv": "Spomen-ploča palim učenicima",
-    "nazivEn": "Plaque to commemorate fallen students",
-    "godina": "1954",
-    "posveta": "palim učenicima",
-    "stanje": "srusen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Grammar School (inside)"
   },
   {
     "id": "mostar-spomen-ploca-sastanku-skoj-a-odrzanom-u-jul",
@@ -13452,29 +13084,6 @@
     "adresa": "Bridge over the Bosna river"
   },
   {
-    "id": "sarajevo-rajlovac-spomen-ploca-napadu-na-aerodrom",
-    "mesto": "Sarajevo (Rajlovac)",
-    "naziv": "Spomen-ploča napadu na aerodrom 1943. godine",
-    "nazivEn": "Plaque commemorating attack on aerodrome in 1943",
-    "godina": "1956",
-    "posveta": "napadu na aerodrom 1943. godine",
-    "stanje": "srusen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Rajlovac Barracks, Safeta Zajke bb."
-  },
-  {
-    "id": "sarajevo-rajlovac-spomenik-partizanskom-aerodromu",
-    "mesto": "Sarajevo (Rajlovac)",
-    "naziv": "Spomenik partizanskom aerodromu",
-    "nazivEn": "Monument to Partisan airbase",
-    "godina": "1957",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Rajlovac Barracks, Safeta Zajke bb."
-  },
-  {
     "id": "sarajevo-rajlovac-spomenik-napadu-na-aerodrom-1943",
     "mesto": "Sarajevo (Rajlovac)",
     "naziv": "Spomenik napadu na aerodrom 1943. godine",
@@ -13834,34 +13443,6 @@
     "adresa": "Elementary school"
   },
   {
-    "id": "prud-spomen-ploca-palim-borcima-i-zrtvama-fasistic",
-    "mesto": "Prud",
-    "naziv": "Spomen-ploča NOB",
-    "nazivEn": "Memorial plaque",
-    "opis": {
-      "sh": "Posvećeno palim borcima i žrtvama fašističkog terora.",
-      "en": "Dedicated to fallen fighters and victims of fascist terror."
-    },
-    "godina": "1989",
-    "stanje": "srusen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Community hall"
-  },
-  {
-    "id": "prud-bista-marka-masica",
-    "mesto": "Prud",
-    "naziv": "Bista Marka Mašića",
-    "nazivEn": "Bust of Marko Mašić",
-    "godina": "1989",
-    "autor": "Mato Andrić",
-    "posveta": "Marka Mašića",
-    "stanje": "srusen",
-    "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "In front of community hall"
-  },
-  {
     "id": "novi-grad-spomen-ploca-formiranju-komiteta-kpj-afz",
     "mesto": "Novi Grad",
     "naziv": "Spomen-ploča formiranju komiteta KPJ, AFŽ-a i USAOJ-a",
@@ -13937,20 +13518,6 @@
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Municipality building"
-  },
-  {
-    "id": "tolisa-bista-vladimira-nazora",
-    "mesto": "Tolisa",
-    "naziv": "Bista Vladimira Nazora",
-    "nazivEn": "Bust of Vladimir Nazor",
-    "godina": "1983",
-    "posveta": [
-      "Q380529"
-    ],
-    "stanje": "srusen",
-    "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Elementary school"
   },
   {
     "id": "budimlic-japra-spomen-ploca-palim-borcima",
@@ -14092,21 +13659,6 @@
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Elementary school"
-  },
-  {
-    "id": "bogovici-spomen-ploca-na-mjestu-gdje-se-tito-odmar",
-    "mesto": "Bogovići",
-    "naziv": "Spomen-ploča Titovom odmoru nakon Bitke na Sutjesci",
-    "nazivEn": "Plaque marking Tito's rest after the Battle of Sutjeska",
-    "opis": {
-      "sh": "Obeležava mesto gde se Tito odmarao nakon Bitke na Sutjesci.",
-      "en": "Marks the place where Tito rested following the Battle of Sutjeska."
-    },
-    "godina": "1975",
-    "stanje": "srusen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Tito's Cave"
   },
   {
     "id": "sjetlina-spomen-ploca-oslobodjenju-sjetline",
@@ -15315,18 +14867,6 @@
     "adresa": "Elementary school"
   },
   {
-    "id": "donji-vijacani-spomenik-anti-rukavini",
-    "mesto": "Donji Vijačani",
-    "naziv": "Spomenik Anti Rukavini",
-    "nazivEn": "Monument to Ante Rukavina",
-    "godina": "1975",
-    "posveta": "Anti Rukavini",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Brijezani"
-  },
-  {
     "id": "strpci-spomen-ploca-srednjobosanskoj-nou-brigadi",
     "mesto": "Štrpci",
     "naziv": "Spomen-ploča Srednjobosanskoj NOU brigadi",
@@ -16030,16 +15570,6 @@
     "adresa": "Train station"
   },
   {
-    "id": "sanski-most-sala-ii-zasjedanja-zavnobih-a-sa-muzej",
-    "mesto": "Sanski Most",
-    "naziv": "Sala II zasjedanja ZAVNOBiH-a sa muzejem",
-    "nazivEn": "Hall of II Session of ZAVNOBiH with museum",
-    "stanje": "srusen",
-    "vrsta": "muzej",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Stanična bb."
-  },
-  {
     "id": "sanski-most-spomen-ploca-na-mjestu-oblasnog-komite",
     "mesto": "Sanski Most",
     "naziv": "Spomen-ploča sjedištu oblasnog komiteta KPJ",
@@ -16120,17 +15650,6 @@
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Dom Kulture"
-  },
-  {
-    "id": "sanski-most-spomenik-nob-2",
-    "mesto": "Sanski Most",
-    "naziv": "Spomenik NOB",
-    "nazivEn": "Monument to the NOB",
-    "autor": "Đorđe Kreća",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "In front of ŠIP Sana"
   },
   {
     "id": "majkic-japra-partizansko-groblje",
@@ -16621,17 +16140,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "srbac-spomenik-palim-borcima-i-zrtvama-fasistickog",
-    "mesto": "Srbac",
-    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
-    "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
-    "godina": "1957",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Town park"
-  },
-  {
     "id": "srbac-bista-slobodana-mitrova-danka",
     "mesto": "Srbac",
     "naziv": "Bista Slobodana Mitrova Danka",
@@ -16785,16 +16293,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "srebrenica-spomen-ploca-zrtvama-fasistickog-terora",
-    "mesto": "Srebrenica",
-    "naziv": "Spomen-ploča žrtvama fašističkog terora",
-    "nazivEn": "Plaque to commemorate Victims of Fascist Terror",
-    "stanje": "srusen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Orthodox church"
-  },
-  {
     "id": "bibici-grob-narodnog-heroja-mihajla-bjelakovica",
     "mesto": "Bibići",
     "naziv": "Grob narodnog heroja Mihajla Bjelakovića",
@@ -16911,17 +16409,6 @@
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Exit of village on road to Cerik"
-  },
-  {
-    "id": "maoca-spomen-ploca-zrtvama-fasistickog-terora",
-    "mesto": "Maoča",
-    "naziv": "Spomen-ploča žrtvama fašističkog terora",
-    "nazivEn": "Plaque to commemorate Victims of Fascist Terror",
-    "godina": "1977",
-    "stanje": "srusen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "House of Stojan Stanković"
   },
   {
     "id": "gornja-tinja-spomen-ploca-palim-borcima-iz-gornje",
@@ -18755,34 +18242,6 @@
     "adresa": "Džafer mahala"
   },
   {
-    "id": "solana-spomenik-posjeti-josipa-broza-tita-1946-god",
-    "mesto": "Solana",
-    "naziv": "Spomenik posjeti Josipa Broza Tita 1946. godine",
-    "nazivEn": "Monument to commemorate visit by Josip Broz Tito in 1946",
-    "godina": "1985",
-    "autor": "Pero Jelisić",
-    "posveta": [
-      "Q9161"
-    ],
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Solana Tuzla"
-  },
-  {
-    "id": "solana-spomenik-palim-metalcima-i-mehanicarima",
-    "mesto": "Solana",
-    "naziv": "Spomenik palim metalcima i mehaničarima",
-    "nazivEn": "Monument to fallen metalworkers and mechanics",
-    "godina": "1986",
-    "autor": "Dragiša Trifković",
-    "posveta": "palim metalcima i mehaničarima",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Ul. XVIII hrvatske brigade 25"
-  },
-  {
     "id": "mosnik-spomen-ploca-nastavnicima-i-ucenicima-indus",
     "mesto": "Mosnik",
     "naziv": "Spomen-ploča palima iz Industrijske škole",
@@ -18885,20 +18344,6 @@
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Pazar elementary school, Pazar 1"
-  },
-  {
-    "id": "kreka-spomen-kuca-narodnog-heroja-mitra-trifunovic",
-    "mesto": "Kreka",
-    "naziv": "Spomen-kuća narodnog heroja Mitra Trifunovića Uče",
-    "nazivEn": "Memorial house of NH Mitar Trifunović Učo",
-    "godina": "1985",
-    "posveta": [
-      "Q4616422"
-    ],
-    "stanje": "srusen",
-    "vrsta": "spomen-kuca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Ul. Mitra Trifunovića Uče"
   },
   {
     "id": "mosnik-spomenik-rudarima-husinske-bune",
@@ -19204,17 +18649,6 @@
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Vuk Karadžić elementary school"
-  },
-  {
-    "id": "tutnjevac-spomenik-palim-borcima-i-zrtvama-fasisti-2",
-    "mesto": "Tutnjevac",
-    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
-    "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
-    "godina": "1980-ih",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Village crossroads, opposite house of Milorad Lakić"
   },
   {
     "id": "donja-trnova-spomen-ploca-na-mjestu-stamparije-obl",
@@ -19738,18 +19172,6 @@
     "adresa": "Trg Džemala Bijedića"
   },
   {
-    "id": "gornja-zimca-spomen-ploca-djordju-milanovicu",
-    "mesto": "Gornja Zimća",
-    "naziv": "Spomen-ploča Đorđu Milanoviću",
-    "nazivEn": "Plaque to commemorate Djordje Milanović",
-    "godina": "1970",
-    "posveta": "Đorđu Milanoviću",
-    "stanje": "srusen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Elementary school"
-  },
-  {
     "id": "porijecani-spomen-ploca-salki-beslagicu",
     "mesto": "Poriječani",
     "naziv": "Spomen-ploča Salki Bešlagiću",
@@ -19759,68 +19181,6 @@
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Train station"
-  },
-  {
-    "id": "visoko-bista-mehmeda-dzudze",
-    "mesto": "Visoko",
-    "naziv": "Bista Mehmeda Džudže",
-    "nazivEn": "Bust of Mehmed Džudžo",
-    "godina": "1975",
-    "autor": "Ranko Milanović",
-    "posveta": "Mehmeda Džudže",
-    "stanje": "srusen",
-    "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Town park"
-  },
-  {
-    "id": "visoko-bista-janka-balorde",
-    "mesto": "Visoko",
-    "naziv": "Bista Janka Balorde",
-    "nazivEn": "Bust of Janko Balorda",
-    "godina": "1975",
-    "autor": "Ranko Milanović",
-    "posveta": "Janka Balorde",
-    "stanje": "srusen",
-    "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Town park"
-  },
-  {
-    "id": "visoko-bista-mehe-patka",
-    "mesto": "Visoko",
-    "naziv": "Bista Mehe Patka",
-    "nazivEn": "Bust of Meho Patak",
-    "godina": "1975",
-    "autor": "Ranko Milanović",
-    "posveta": "Mehe Patka",
-    "stanje": "srusen",
-    "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Town park"
-  },
-  {
-    "id": "vratnica-spomen-reljef-ibrahima-zecevica",
-    "mesto": "Vratnica",
-    "naziv": "Spomen-reljef Ibrahima Zečevića",
-    "nazivEn": "Memorial relief of Ibrahim Zečević",
-    "godina": "1983",
-    "autor": "Milijanko Miholjčić",
-    "stanje": "srusen",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Community hall"
-  },
-  {
-    "id": "visoko-spomenik-neznanom-junaku",
-    "mesto": "Visoko",
-    "naziv": "Spomenik neznanom junaku",
-    "nazivEn": "Monument to the Unknown Hero",
-    "autor": "Iva Despić-Simonović",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Beside town hall"
   },
   {
     "id": "visoko-spomen-ploca-zrtvama-fasistickog-terora",
@@ -19865,16 +19225,6 @@
     "adresa": "Close to bridge"
   },
   {
-    "id": "stara-bila-kosturnica-palih-boraca",
-    "mesto": "Stara Bila",
-    "naziv": "Kosturnica palih boraca",
-    "nazivEn": "Ossuary of fallen fighters",
-    "godina": "1950",
-    "stanje": "srusen",
-    "vrsta": "groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "gornja-dubravica-spomenik-palim-borcima-nob",
     "mesto": "Gornja Dubravica",
     "naziv": "Spomenik palim borcima NOB",
@@ -19894,18 +19244,6 @@
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Workers' university"
-  },
-  {
-    "id": "stara-bila-bista-ranka-sipke",
-    "mesto": "Stara Bila",
-    "naziv": "Bista Ranka Šipke",
-    "nazivEn": "Bust of NH Ranko Šipka",
-    "godina": "pre 1966",
-    "posveta": "Ranka Šipke",
-    "stanje": "srusen",
-    "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Memorial park"
   },
   {
     "id": "vitez-spomen-ploca-radnickom-samoupravljanju",
@@ -20488,17 +19826,6 @@
     "adresa": "Elementary school"
   },
   {
-    "id": "serici-spomen-dom-4-juli",
-    "mesto": "Šerići",
-    "naziv": "Spomen-dom „4. juli“",
-    "nazivEn": "4th July Memorial Hall",
-    "godina": "1978",
-    "stanje": "srusen",
-    "vrsta": "spomen-kuca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Memorial hall"
-  },
-  {
     "id": "gornje-ponihovo-spomen-ploca-formiranju-prve-zenic",
     "mesto": "Gornje Ponihovo",
     "naziv": "Spomen-ploča formiranju Prve zeničke partizanske čete",
@@ -21024,16 +20351,6 @@
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia",
     "adresa": "Vrapče"
-  },
-  {
-    "id": "zagreb-gornje-vrapce-spomenik-palim-borcima",
-    "mesto": "Zagreb (Gornje Vrapče)",
-    "naziv": "Spomenik palim borcima",
-    "autor": "Pavle Perić",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Croatia",
-    "adresa": "Gornje Vrapče"
   },
   {
     "id": "krapina-spomen-kosturnica-palim-borcima",
@@ -25743,16 +25060,6 @@
     "adresa": "Na brijegu kraj raskršća Jasenovečke i Milcove ulice."
   },
   {
-    "id": "zvecevo-spomenik-glasu-slavonije",
-    "mesto": "Zvečevo",
-    "naziv": "Spomenik „Glasu Slavonije“",
-    "godina": "1963",
-    "stanje": "srusen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Croatia",
-    "adresa": "Kompleks na Zvečevu uništen devedesetih; tačno mesto nepoznato."
-  },
-  {
     "id": "varnici-spomenik-na-borbata-1944",
     "mesto": "Струмица (Варници)",
     "naziv": "Споменик на борбата кај Варници",
@@ -26306,5 +25613,122 @@
     "vrsta": "spomen-obelezje",
     "drzava": "Kosovo",
     "adresa": "Crni Vrh u opštini Peć, kod osnovne škole"
+  },
+  {
+    "id": "pistaline-spomenik-zrtvama-fasistickog-terora",
+    "mesto": "Pištaline",
+    "naziv": "Spomenik žrtvama na obali Une",
+    "nazivEn": "Una Riverbank Victims Memorial",
+    "godina": "1974",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina",
+    "opis": {
+      "sh": "Spomenik žrtvama fašističkog terora iz 1974. izvor smešta na obalu Une. Tačna lokacija nije potvrđena; centar Pištalina nalazi se više od 10 km od reke.",
+      "en": "The source places this 1974 memorial to victims of fascist terror on the bank of the Una. Its exact location is unconfirmed; the centre of Pištaline lies more than 10 km from the river."
+    },
+    "adresa": "Obala Une; izvor vodi pod Pištalinama, tačna lokacija nepoznata."
+  },
+  {
+    "id": "bjelajske-uvale-spomenik-zrtvama-fasistickog-teror",
+    "mesto": "Bjelajske Uvale",
+    "naziv": "Spomenik žrtvama strijeljanja 1943",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina",
+    "nazivEn": "1943 Execution Victims Memorial",
+    "opis": {
+      "sh": "Obeležava stratište preko 100 žrtava fašističkog terora ubijenih u zimu 1943. u šumi na području Jasenice i Bjelajskih uvala. Tačna lokacija nije utvrđena.",
+      "en": "Marks the execution site of over 100 victims of fascist terror killed in winter 1943 in woodland in the Jasenica–Bjelajske Uvale area. The exact location has not been established."
+    },
+    "adresa": "Šuma na području Jasenice/Bjelajskih uvala; položaj nije poznat."
+  },
+  {
+    "id": "suvaja-spomenik-na-mjestu-vojnog-skladista-i-strij",
+    "mesto": "Suvaja",
+    "naziv": "Spomenik strijeljanim žrtvama i vojnom skladištu",
+    "nazivEn": "Monument marking the execution site and military storage",
+    "opis": {
+      "sh": "Obeležava mesto vojnog skladišta i streljanja 23 žrtve fašističkog terora.",
+      "en": "Marks the site of military storage and execution of 23 victims of fascist terror."
+    },
+    "stanje": "ostecen",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina",
+    "adresa": "Šuma iznad Suvaje kod Bosanske Krupe, zapadno od Donje Suvaje; tačna lokacija nije poznata."
+  },
+  {
+    "id": "gornji-kriz-spomen-kosturnica-palih-boraca",
+    "mesto": "Gornji Križ",
+    "naziv": "Spomen-kosturnica palih boraca",
+    "stanje": "ostecen",
+    "vrsta": "spomen-groblje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "smrtici-spomenik-palim-borcima-i-zrtvama-fasizma",
+    "mesto": "Smrtići",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "stanje": "ostecen",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "ilici-vrelo-mreznice-spomen-obiljezje-umrlim-borci",
+    "mesto": "Ilići, Vrelo Mrežnice",
+    "naziv": "Spomen-obilježje umrlim borcima u partizanskoj bolnici Zbjeg",
+    "stanje": "ostecen",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "obljaj-spomenik-palim-borcima-i-zrtvama-fasizma",
+    "mesto": "Obljaj",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "stanje": "ostecen",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kostresa-spomenik-palim-borcima-i-civilnim-zrtvama",
+    "mesto": "Kostreša",
+    "naziv": "Spomenik palim borcima i civilnim žrtvama",
+    "godina": "1961",
+    "stanje": "ostecen",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "klenovac-spomenik-zrtvama-fasistickog-terora-2",
+    "mesto": "Klenovac",
+    "naziv": "Spomenik žrtvama porodice Vukobrat",
+    "nazivEn": "Vukobrat Family Victims Memorial",
+    "godina": "1988",
+    "stanje": "ostecen",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina",
+    "adresa": "Vukobrata; nije potvrđeno kom od dva lokaliteta Klenovac pripada."
+  },
+  {
+    "id": "klenovac-spomenik-zrtvama-fasistickog-terora-3",
+    "mesto": "Klenovac",
+    "naziv": "Spomenik žrtvama u Sabljićima",
+    "nazivEn": "Sabljići Victims Memorial",
+    "godina": "1988",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina",
+    "opis": {
+      "sh": "Posvećeno žrtvama fašističkog terora u Sabljićima; izvor navodi 61 žrtvu. Tačna lokacija nije potvrđena.",
+      "en": "Dedicated to victims of fascist terror in Sabljići; the source lists 61 victims. The exact location is unconfirmed."
+    },
+    "adresa": "Sabljići / Gornje polje, Klenovac; tačna lokacija nije potvrđena."
+  },
+  {
+    "id": "risovac-spomenik-zrtvama-fasistickog-terora",
+    "mesto": "Risovac",
+    "naziv": "Spomenik žrtvama fašističkog terora",
+    "nazivEn": "Monument to Victims of Fascist Terror",
+    "godina": "1983",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina",
+    "adresa": "Šuma kod jame pod Risovom gredom; tačna lokacija nepoznata."
   }
 ]

@@ -55,7 +55,7 @@ Razlikuj fizičko oštećenje od promene simbola ili opšte oznake oskvrnuća. P
 | očuvano ili obnovljeno, na tačnoj tački | zadržati; dokaz i njegov datum u evidenciji |
 | oštećeno, ali stoji | zadržati; `stanje: ostecen` samo uz dokaz o tom stanju |
 | premešteno | potvrđena današnja tačka; stara samo u evidenciji, bez drugog markera |
-| srušeno, uklonjeno ili u depou, bez dokaza povratka | ostaviti na mapi na poznatoj tački, sa `stanje` (`srusen`, `uklonjen`) i izvorom u `data/izvori-stanja.json`; uklonjeni koji nisu istaknuti, spomen-park, muzej ni spomenik idu u `data/arhiva.json`; bez tačke u `data/bez_lokacije.json` |
+| srušeno, uklonjeno ili u depou, bez dokaza povratka | ostaviti na mapi na poznatoj tački, sa `stanje` (`srusen`, `uklonjen`) i izvorom u `data/izvori-stanja.json`; uklonjeni koji nisu istaknuti, spomen-park, muzej ni spomenik i srušeni bez tačne tačke koji nisu istaknuti idu u `data/arhiva.json`; bez tačke u `data/bez_lokacije.json` |
 | nedovoljno dokaza | vratiti u `data/bez_lokacije.json`; ne označavati kao srušeno |
 | drugi objekat ili duplikat | razdvojiti ili spojiti, uz očuvanje porekla |
 

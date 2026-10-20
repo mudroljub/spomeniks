@@ -17728,5 +17728,1813 @@
       "drinjaca-spomen-ploca-drugom-majevickom-udarnom-ba",
       "lijesanj-spomen-ploca-stojanu-koraksicu"
     ]
+  },
+  {
+    "odluka": "hrzenjak-preskoceni-osm-2026-10-20",
+    "datum": "2026-10-20",
+    "dodato": [
+      {
+        "id": "mlini-spomenik-marku-marojici",
+        "oznaka": "C-0070-R5",
+        "tacka": "https://www.openstreetmap.org/node/6602848256",
+        "nalaz": "Ime OSM objekta odgovara Hrženjakovoj stavci; stajao 2002."
+      },
+      {
+        "id": "svetvincenat-spomenik-ruzi-petrovic",
+        "oznaka": "C-0085-57",
+        "tacka": "https://www.openstreetmap.org/node/8629561171",
+        "nalaz": "Ime OSM objekta odgovara Hrženjakovoj stavci; stajao 2002."
+      }
+    ],
+    "povezano": [
+      {
+        "oznaka": "C-0212-1",
+        "cilj": "kampor-spomen-groblje-logor-kampor",
+        "nalaz": "Ista celina logora Kampor; Hrženjak: stoji."
+      }
+    ],
+    "ogranicenje": "OSM objekat ne potvrđuje današnji opstanak; Mlini oštećen po Hrženjaku (1990–2000), Svetvinčenat obnovljen do 2002."
+  },
+  {
+    "odluka": "spomenicinob-redom-bosanskakrupa-2026-10-20",
+    "datum": "2026-10-20",
+    "izvor": "https://www.spomenicinob.info/bosanskakrupa",
+    "opstina": "bosanskakrupa",
+    "pregledanoIzvornihRedova": 99,
+    "spajanja": [
+      {
+        "uklonjen": "jasenica-spomenik-na-mjestu-strijeljanja-preko-100",
+        "zadrzan": "bjelajske-uvale-spomenik-zrtvama-fasistickog-teror",
+        "pre": {
+          "id": "jasenica-spomenik-na-mjestu-strijeljanja-preko-100",
+          "koordinate": {
+            "lat": 44.80385,
+            "lng": 16.25814
+          },
+          "priblizno": true,
+          "mesto": "Jasenica",
+          "naziv": "Spomenik žrtvama strijeljanja 1943",
+          "nazivEn": "Monument to victims of the 1943 executions",
+          "opis": {
+            "sh": "Obeležava mesto streljanja preko 100 žrtava fašističkog terora u zimu 1943. godine.",
+            "en": "Marks the site of execution of over 100 victims of fascist terror in winter 1943."
+          },
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "izvorUklonjenog": "https://www.spomenicinob.info/bosanskakrupa",
+        "izvorZadrzanog": "https://www.xiwl.com/w/index.php/Bjelajske_Uvale_-_Spomenik_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora"
+      },
+      {
+        "uklonjen": "jasenica-spomenik-palim-borcima",
+        "zadrzan": "suvaja-statua-narodnog-heroja-dusana-kosutica",
+        "pre": {
+          "id": "jasenica-spomenik-palim-borcima",
+          "koordinate": {
+            "lat": 44.80385,
+            "lng": 16.25814
+          },
+          "priblizno": true,
+          "mesto": "Jasenica",
+          "naziv": "Spomenik palim borcima",
+          "nazivEn": "Monument to fallen fighters",
+          "godina": "1954",
+          "autor": "Ante Ušljebrka",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "izvorUklonjenog": "https://www.spomenicinob.info/bosanskakrupa",
+        "izvorZadrzanog": "https://www.spomenicinob.info/bosanskakrupa"
+      },
+      {
+        "uklonjen": "donja-suvaja-spomenik-palim-borcima-i-zrtvama-fasi",
+        "zadrzan": "gudavac-spomenik-palim-borcima-i-zrtvama-fasistick",
+        "pre": {
+          "id": "donja-suvaja-spomenik-palim-borcima-i-zrtvama-fasi",
+          "koordinate": {
+            "lat": 44.80778,
+            "lng": 16.14934
+          },
+          "mesto": "Donja Suvaja",
+          "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+          "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+          "godina": "1961",
+          "stanje": "ostecen",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina",
+          "priblizno": true
+        },
+        "izvorUklonjenog": "https://www.spomenicinob.info/bosanskakrupa",
+        "izvorZadrzanog": "https://www.xiwl.com/w/index.php/Gudavac_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora"
+      }
+    ],
+    "izmene": [
+      {
+        "id": "suvaja-statua-narodnog-heroja-dusana-kosutica",
+        "pre": {
+          "autor": null,
+          "godina": null,
+          "koordinate": {
+            "lat": 44.61078,
+            "lng": 16.30988
+          },
+          "naziv": "Statua narodnog heroja Dušana Košutića",
+          "nazivEn": "Statue of NH Dušan Košutić",
+          "opis": null,
+          "posveta": "narodnog heroja Dušana Košutića",
+          "vrsta": "spomen-obelezje"
+        },
+        "posle": {
+          "autor": "Ante Ušljebrka",
+          "godina": "1954",
+          "koordinate": {
+            "lat": 44.81425,
+            "lng": 16.174333
+          },
+          "naziv": "Statua Dušana Košutića",
+          "nazivEn": "Dušan Košutić Statue",
+          "opis": {
+            "sh": "Statua Dušana Košutića potiče sa spomenika palim borcima iz 1954. ispred škole u Jasenici; posle 1978. premeštena je kod škole u Suvaji kod Bosanske Krupe. Sačuvana je bez glave i šaka, a tačka nekadašnje škole ostaje približna.",
+            "en": "The statue of Dušan Košutić comes from the 1954 fallen fighters memorial outside the school in Jasenica; after 1978 it was moved to the school in Suvaja near Bosanska Krupa. Its head and hands are missing, and the former school location remains approximate."
+          },
+          "posveta": null,
+          "vrsta": "statua"
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "bosanska-otoka-spomenik-zrtvama-fasistickog-terora-3",
+        "pre": {
+          "naziv": "Spomenik žrtvama fašističkog terora",
+          "nazivEn": "Monument to Victims of Fascist Terror",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomenik žrtvama u Vrletnici",
+          "nazivEn": "Vrletnica Victims Memorial",
+          "opis": {
+            "sh": "Posvećeno žrtvama fašističkog terora; izvor navodi 54 žrtve na ovom stratištu. Obeležava mesto nekadašnje kuće Mile Kozića.",
+            "en": "Dedicated to victims of fascist terror; the source lists 54 victims at this execution site. It marks the site of Mile Kozić’s former house."
+          }
+        },
+        "skupPre": "bez_lokacije",
+        "skupPosle": "bez_lokacije"
+      },
+      {
+        "id": "bjelajske-uvale-spomenik-zrtvama-fasistickog-teror",
+        "pre": {
+          "adresa": null,
+          "koordinate": {
+            "lat": 44.754056,
+            "lng": 16.268778
+          },
+          "naziv": "Spomenik žrtvama fašističkog terora",
+          "nazivEn": null,
+          "opis": null
+        },
+        "posle": {
+          "adresa": "Šuma na području Jasenice/Bjelajskih uvala; položaj nije poznat.",
+          "koordinate": null,
+          "naziv": "Spomenik žrtvama strijeljanja 1943",
+          "nazivEn": "1943 Execution Victims Memorial",
+          "opis": {
+            "sh": "Obeležava stratište preko 100 žrtava fašističkog terora ubijenih u zimu 1943. u šumi na području Jasenice i Bjelajskih uvala. Tačna lokacija nije utvrđena.",
+            "en": "Marks the execution site of over 100 victims of fascist terror killed in winter 1943 in woodland in the Jasenica–Bjelajske Uvale area. The exact location has not been established."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "bez_lokacije"
+      },
+      {
+        "id": "pistaline-spomen-ploca-na-mjestu-strijeljanja-zrta",
+        "pre": {
+          "naziv": "Spomen-ploča na mjestu strijeljanja žrtava fašističkog terora",
+          "nazivEn": "Plaque at site of execution of victims of fascist terror",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomen-ploča žrtvama u kući Mile Bursaća",
+          "nazivEn": "Mile Bursać House Victims Memorial",
+          "opis": {
+            "sh": "Posvećeno žrtvama fašističkog terora ubijenim na mestu nekadašnje kuće Mile Bursaća u Pištalinama; izvor navodi 96 žrtava.",
+            "en": "Dedicated to victims of fascist terror killed at the former house of Mile Bursać in Pištaline; the source lists 96 victims."
+          }
+        },
+        "skupPre": "bez_lokacije",
+        "skupPosle": "bez_lokacije"
+      },
+      {
+        "id": "bosanska-otoka-spomenik-zrtvama-fasistickog-terora-4",
+        "pre": {
+          "naziv": "Spomenik žrtvama fašističkog terora",
+          "nazivEn": "Monument to Victims of Fascist Terror",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomenik žrtvama u Dugom Dolu",
+          "nazivEn": "Dugi Do Victims Memorial",
+          "opis": {
+            "sh": "Posvećeno žrtvama fašističkog terora; izvor navodi 260 žrtava na ovom stratištu. Lokalitet je naveden kao Brskavac, Dugi Do.",
+            "en": "Dedicated to victims of fascist terror; the source lists 260 victims at this execution site. The locality is listed as Brskavac, Dugi Do."
+          }
+        },
+        "skupPre": "bez_lokacije",
+        "skupPosle": "bez_lokacije"
+      },
+      {
+        "id": "pistaline-spomenik-na-mjestu-strijeljanja-zrtava-f-3",
+        "pre": {
+          "naziv": "Spomenik na mjestu strijeljanja žrtava fašističkog terora",
+          "nazivEn": "Monument at site of execution of Victims of Fascist Terror",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomenik žrtvama u kući Milana Babića",
+          "nazivEn": "Milan Babić House Victims Memorial",
+          "opis": {
+            "sh": "Posvećeno žrtvama fašističkog terora ubijenim na mestu nekadašnje kuće Milana Babića u Pištalinama; izvor navodi 90 žrtava.",
+            "en": "Dedicated to victims of fascist terror killed at the former house of Milan Babić in Pištaline; the source lists 90 victims."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "bosanska-krupa-spomenik-zrtvama-fasistickog-terora",
+        "pre": {
+          "adresa": "Dom Kulture",
+          "koordinate": null,
+          "opis": null,
+          "vrsta": "spomen-obelezje"
+        },
+        "posle": {
+          "adresa": null,
+          "koordinate": {
+            "lat": 44.882711,
+            "lng": 16.159246
+          },
+          "opis": {
+            "sh": "Spomenik žrtvama fašističkog terora Boška Karanovića iz 1972. nalazi se iza Doma kulture. Centralni mozaik obnovljen je 2018; podni mozaici zabeleženi su kao neobnovljeni pri obilasku 2021.",
+            "en": "Boško Karanović’s 1972 memorial to victims of fascist terror stands behind the cultural centre. The central mosaic was restored in 2018; the pavement mosaics were recorded as unrestored during a 2021 visit."
+          },
+          "vrsta": "spomenik"
+        },
+        "skupPre": "bez_lokacije",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "drenova-glavica-spomenik-zrtvama-fasistickog-teror-2",
+        "pre": {
+          "naziv": "Spomenik žrtvama fašističkog terora",
+          "nazivEn": "Monument to Victims of Fascist Terror",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomenik žrtvama kod Bajrinog potoka",
+          "nazivEn": "Bajrin Potok Victims Memorial",
+          "opis": {
+            "sh": "Posvećeno žrtvama fašističkog terora; izvor navodi 60 žrtava na ovom stratištu.",
+            "en": "Dedicated to victims of fascist terror; the source lists 60 victims at this execution site."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "jezerski-spomenik-zrtvama-fasistickog-terora",
+        "pre": {
+          "naziv": "Spomenik žrtvama fašističkog terora",
+          "nazivEn": "Monument to Victims of Fascist Terror",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomenik žrtvama u Meniću",
+          "nazivEn": "Menić Victims Memorial",
+          "opis": {
+            "sh": "Posvećeno žrtvama fašističkog terora; izvor navodi 139 žrtava na ovom stratištu.",
+            "en": "Dedicated to victims of fascist terror; the source lists 139 victims at this execution site."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "vranjska-spomenik-zrtvama-fasistickog-terora",
+        "pre": {
+          "naziv": "Spomenik žrtvama fašističkog terora",
+          "nazivEn": "Monument to Victims of Fascist Terror",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomenik žrtvama u Vršeljku",
+          "nazivEn": "Vršeljak Victims Memorial",
+          "opis": {
+            "sh": "Posvećeno žrtvama fašističkog terora; izvor navodi 23 žrtve na ovom stratištu.",
+            "en": "Dedicated to victims of fascist terror; the source lists 23 victims at this execution site."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "gudavac-spomenik-palim-borcima-i-zrtvama-fasistick",
+        "pre": {
+          "nazivEn": null,
+          "opis": null,
+          "stanje": null
+        },
+        "posle": {
+          "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
+          "opis": {
+            "sh": "Spomenik iz 1961. kod raskrsnice u Gudavcu podigao je lokalni rudnik boksita. Ploče su polomljene i njihovi delovi nalaze se oko postolja.",
+            "en": "The 1961 memorial by the road junction in Gudavac was erected by the local bauxite mine. Its plaques are broken, with fragments around the base."
+          },
+          "stanje": "ostecen"
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "pistaline-spomenik-na-mjestu-strijeljanja-zrtava-f-4",
+        "pre": {
+          "naziv": "Spomenik na mjestu strijeljanja žrtava fašističkog terora",
+          "nazivEn": "Monument at site of execution of Victims of Fascist Terror",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomenik žrtvama u kući Mila Zorića Šoše",
+          "nazivEn": "Milo Zorić Šoša House Victims Memorial",
+          "opis": {
+            "sh": "Posvećeno žrtvama fašističkog terora ubijenim na mestu nekadašnje kuće Mila Zorića Šoše u Pištalinama; izvor navodi 121 žrtvu.",
+            "en": "Dedicated to victims of fascist terror killed at the former house of Milo Zorić Šoša in Pištaline; the source lists 121 victims."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "pistaline-spomenik-na-mjestu-strijeljanja-zrtava-f-6",
+        "pre": {
+          "naziv": "Spomenik na mjestu strijeljanja žrtava fašističkog terora",
+          "nazivEn": "Monument at site of execution of Victims of Fascist Terror",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomenik žrtvama u kući Mile Rašete",
+          "nazivEn": "Mile Rašeta House Victims Memorial",
+          "opis": {
+            "sh": "Posvećeno žrtvama fašističkog terora ubijenim na mestu nekadašnje kuće Mile Rašete u Pištalinama; izvor navodi 103 žrtve.",
+            "en": "Dedicated to victims of fascist terror killed at the former house of Mile Rašeta in Pištaline; the source lists 103 victims."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "bosanska-krupa-spomenik-na-mjestu-strijeljanja-lep",
+        "pre": {
+          "godina": "1971-1983",
+          "koordinate": {
+            "lat": 44.8880714,
+            "lng": 16.147479
+          },
+          "naziv": "Spomenik na mjestu strijeljanja Lepe Radić",
+          "nazivEn": "Monument to mark the site of execution of Lepa Radić",
+          "opis": null,
+          "priblizno": true
+        },
+        "posle": {
+          "godina": "pre 1965",
+          "koordinate": {
+            "lat": 44.886959,
+            "lng": 16.150731
+          },
+          "naziv": "Spomenik Lepi Radić",
+          "nazivEn": "Lepa Radić Memorial",
+          "opis": {
+            "sh": "Posvećeno [Lepi Radić](Q277282), obešenoj u Bosanskoj Krupi 1943; prvobitno obeležje postojalo je pre 1965. Današnji spomenik podignut je između 1971. i 1983. i 2019. pomeren zbog rekonstrukcije raskrsnice.",
+            "en": "Dedicated to [Lepa Radić](Q277282), who was hanged in Bosanska Krupa in 1943; the original marker existed before 1965. The present memorial was erected between 1971 and 1983 and moved nearby in 2019 during road junction reconstruction."
+          },
+          "priblizno": null
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "crno-jezero-spomenik-crna-ruka-zrtvama-fasistickog",
+        "pre": {
+          "naziv": "Spomenik „Crna ruka“ žrtvama fašističkog terora",
+          "nazivEn": "'Crna Ruka' monument to Victims of Fascist Terror",
+          "opis": null,
+          "vrsta": "spomen-obelezje"
+        },
+        "posle": {
+          "naziv": "Spomenik „Crna ruka“",
+          "nazivEn": "Crna Ruka Memorial",
+          "opis": {
+            "sh": "Bronzana skulptura ruke Ljupka Antunovića iz 1973. uništena je tokom rata 1992–1995; ostalo je betonsko postolje pored puta. Godina 1972. u drugim navodima odnosi se na model skulpture.",
+            "en": "Ljupko Antunović’s bronze hand sculpture from 1973 was destroyed during the 1992–1995 war; its concrete roadside pedestal remains. The 1972 date in other accounts refers to the model."
+          },
+          "vrsta": "spomenik"
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "bosanska-otoka-spomenik-zrtvama-fasistickog-terora",
+        "pre": {
+          "naziv": "Spomenik žrtvama fašističkog terora",
+          "nazivEn": "Monument to Victims of Fascist Terror",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomenik žrtvama u Ćevanušama",
+          "nazivEn": "Ćevanuše Victims Memorial",
+          "opis": {
+            "sh": "Posvećeno žrtvama fašističkog terora; izvor navodi 200 žrtava na ovom stratištu.",
+            "en": "Dedicated to victims of fascist terror; the source lists 200 victims at this execution site."
+          }
+        },
+        "skupPre": "bez_lokacije",
+        "skupPosle": "bez_lokacije"
+      },
+      {
+        "id": "pistaline-spomenik-na-mjestu-strijeljanja-zrtava-f-2",
+        "pre": {
+          "naziv": "Spomenik na mjestu strijeljanja žrtava fašističkog terora",
+          "nazivEn": "Monument at site of execution of Victims of Fascist Terror",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomenik žrtvama u kući Žarka Mandića",
+          "nazivEn": "Žarko Mandić House Victims Memorial",
+          "opis": {
+            "sh": "Posvećeno žrtvama fašističkog terora ubijenim na mestu nekadašnje kuće Žarka Mandića u Pištalinama; izvor navodi 86 žrtava.",
+            "en": "Dedicated to victims of fascist terror killed at the former house of Žarko Mandić in Pištaline; the source lists 86 victims."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "jezerski-spomenik-zrtvama-fasistickog-terora-2",
+        "pre": {
+          "naziv": "Spomenik žrtvama fašističkog terora",
+          "nazivEn": "Monument to Victims of Fascist Terror",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomenik žrtvama u kući Save Babića",
+          "nazivEn": "Savo Babić House Victims Memorial",
+          "opis": {
+            "sh": "Posvećeno žrtvama fašističkog terora; izvor navodi 78 žrtava na ovom stratištu.",
+            "en": "Dedicated to victims of fascist terror; the source lists 78 victims at this execution site."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "vranjska-spomenik-zrtvama-fasistickog-terora-2",
+        "pre": {
+          "naziv": "Spomenik žrtvama fašističkog terora",
+          "nazivEn": "Monument to Victims of Fascist Terror",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomenik žrtvama u Mosuri",
+          "nazivEn": "Mosura Victims Memorial",
+          "opis": {
+            "sh": "Posvećeno žrtvama fašističkog terora; izvor navodi 32 žrtve na ovom stratištu.",
+            "en": "Dedicated to victims of fascist terror; the source lists 32 victims at this execution site."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "suvaja-spomenik-na-mjestu-vojnog-skladista-i-strij",
+        "pre": {
+          "adresa": null,
+          "koordinate": {
+            "lat": 44.61078,
+            "lng": 16.30988
+          },
+          "priblizno": true
+        },
+        "posle": {
+          "adresa": "Šuma iznad Suvaje kod Bosanske Krupe, zapadno od Donje Suvaje; tačna lokacija nije poznata.",
+          "koordinate": null,
+          "priblizno": null
+        },
+        "skupPre": "mapa",
+        "skupPosle": "bez_lokacije"
+      },
+      {
+        "id": "pistaline-spomenik-na-mjestu-strijeljanja-zrtava-f-5",
+        "pre": {
+          "naziv": "Spomenik na mjestu strijeljanja žrtava fašističkog terora",
+          "nazivEn": "Monument at site of execution of Victims of Fascist Terror",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomenik žrtvama u kući Jovana Zeljkovića",
+          "nazivEn": "Jovan Zeljković House Victims Memorial",
+          "opis": {
+            "sh": "Posvećeno žrtvama fašističkog terora ubijenim na mestu nekadašnje kuće Jovana Zeljkovića u Pištalinama; izvor navodi 178 žrtava.",
+            "en": "Dedicated to victims of fascist terror killed at the former house of Jovan Zeljković in Pištaline; the source lists 178 victims."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "jezerski-spomenik-zrtvama-fasistickog-terora-3",
+        "pre": {
+          "naziv": "Spomenik žrtvama fašističkog terora",
+          "nazivEn": "Monument to Victims of Fascist Terror",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomenik žrtvama u Čejrecima",
+          "nazivEn": "Čejreci Victims Memorial",
+          "opis": {
+            "sh": "Posvećeno žrtvama fašističkog terora; izvor navodi 80 žrtava na ovom stratištu.",
+            "en": "Dedicated to victims of fascist terror; the source lists 80 victims at this execution site."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "pistaline-spomenik-zrtvama-fasistickog-terora",
+        "pre": {
+          "adresa": null,
+          "koordinate": {
+            "lat": 44.94049,
+            "lng": 16.08451
+          },
+          "naziv": "Spomenik žrtvama fašističkog terora",
+          "nazivEn": "Monument to Victims of Fascist Terror",
+          "opis": null,
+          "priblizno": true
+        },
+        "posle": {
+          "adresa": "Obala Une; izvor vodi pod Pištalinama, tačna lokacija nepoznata.",
+          "koordinate": null,
+          "naziv": "Spomenik žrtvama na obali Une",
+          "nazivEn": "Una Riverbank Victims Memorial",
+          "opis": {
+            "sh": "Spomenik žrtvama fašističkog terora iz 1974. izvor smešta na obalu Une. Tačna lokacija nije potvrđena; centar Pištalina nalazi se više od 10 km od reke.",
+            "en": "The source places this 1974 memorial to victims of fascist terror on the bank of the Una. Its exact location is unconfirmed; the centre of Pištaline lies more than 10 km from the river."
+          },
+          "priblizno": null
+        },
+        "skupPre": "mapa",
+        "skupPosle": "bez_lokacije"
+      },
+      {
+        "id": "pistaline-spomenik-na-mjestu-strijeljanja-zrtava-f-7",
+        "pre": {
+          "naziv": "Spomenik na mjestu strijeljanja žrtava fašističkog terora",
+          "nazivEn": "Monument at site of execution of Victims of Fascist Terror",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomenik žrtvama u Skenderiji",
+          "nazivEn": "Skenderija Victims Memorial",
+          "opis": {
+            "sh": "Obeležava stratište žrtava fašističkog terora u Skenderiji kod Pištalina; tačna lokacija nije potvrđena.",
+            "en": "Marks an execution site of victims of fascist terror in Skenderija near Pištaline; the exact location has not been confirmed."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "bosanska-krupa-safet-krupic",
+        "pre": {
+          "opis": null,
+          "posveta": "Safeta Krupića"
+        },
+        "posle": {
+          "opis": {
+            "sh": "Bista Safeta Krupića nalazi se kod Doma kulture. Postolje je otkriveno 1986, ali godina postavljanja biste nije potvrđena.",
+            "en": "The bust of Safet Krupić stands by the cultural centre. Its pedestal was unveiled in 1986, but the bust’s installation year is unconfirmed."
+          },
+          "posveta": null
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "drenova-glavica-kosturnica-palih-boraca-i-zrtava-f",
+        "pre": {
+          "opis": null
+        },
+        "posle": {
+          "opis": {
+            "sh": "Kosturnica palih boraca i žrtava fašističkog terora podignuta je 1954. i obnovljena 1966. godine.",
+            "en": "The ossuary for fallen fighters and victims of fascist terror was built in 1954 and renovated in 1966."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "drenova-glavica-spomenik-zrtvama-fasistickog-teror",
+        "pre": {
+          "naziv": "Spomenik žrtvama fašističkog terora",
+          "nazivEn": "Monument to Victims of Fascist Terror",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomenik žrtvama kod pruge",
+          "nazivEn": "Railway Site Victims Memorial",
+          "opis": {
+            "sh": "Posvećeno žrtvama fašističkog terora; izvor navodi 17 žrtava na ovom stratištu. Nalazi se kod pruge, na zemljištu porodice Jarić/Kajtaz.",
+            "en": "Dedicated to victims of fascist terror; the source lists 17 victims at this execution site. It stands by the railway on land belonging to the Jarić/Kajtaz family."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "bosanska-krupa-spomenik-zrtvama-fasistickog-terora-3",
+        "pre": {
+          "naziv": "Spomenik žrtvama fašističkog terora",
+          "nazivEn": "Monument to Victims of Fascist Terror",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomenik žrtvama kod Kneževića bunara",
+          "nazivEn": "Kneževića Bunar Victims Memorial",
+          "opis": {
+            "sh": "Posvećeno žrtvama fašističkog terora; izvor navodi 38 žrtava na ovom stratištu.",
+            "en": "Dedicated to victims of fascist terror; the source lists 38 victims at this execution site."
+          }
+        },
+        "skupPre": "bez_lokacije",
+        "skupPosle": "bez_lokacije"
+      },
+      {
+        "id": "bosanska-krupa",
+        "pre": {
+          "opis": null
+        },
+        "posle": {
+          "opis": {
+            "sh": "Partizansko spomen-groblje ispod tvrđave Stari grad uređeno je 1961. i temeljno obnovljeno 1968. Pored grobova sadrži i kenotafe.",
+            "en": "The Partisan memorial cemetery below Stari Grad fortress was established in 1961 and extensively renovated in 1968. It contains cenotaphs as well as graves."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "ivanjska-spomenik-nob",
+        "pre": {
+          "koordinate": {
+            "lat": 44.98666,
+            "lng": 16.24331
+          },
+          "priblizno": true
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 44.983528,
+            "lng": 16.243778
+          },
+          "priblizno": null
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "jasenica-partizansko-groblje-sa-85-palih-boraca",
+        "pre": {
+          "opis": null
+        },
+        "posle": {
+          "opis": {
+            "sh": "Na groblju iz 1961. sahranjeno je 85 palih boraca; centralni spomenik dodat je 1963. godine.",
+            "en": "The cemetery established in 1961 holds 85 fallen fighters; its central monument was added in 1963."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "pistaline-spomenik-na-mjestu-strijeljanja-zrtava-f",
+        "pre": {
+          "naziv": "Spomenik na mjestu strijeljanja žrtava fašističkog terora",
+          "nazivEn": "Monument at site of execution of Victims of Fascist Terror",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomenik žrtvama u kući Gojka Rokvića",
+          "nazivEn": "Gojko Rokvić House Victims Memorial",
+          "opis": {
+            "sh": "Posvećeno žrtvama fašističkog terora ubijenim na mestu nekadašnje kuće Gojka Rokvića u Pištalinama; izvor navodi 124 žrtve.",
+            "en": "Dedicated to victims of fascist terror killed at the former house of Gojko Rokvić in Pištaline; the source lists 124 victims."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      }
+    ],
+    "preusmereneVeze": [],
+    "dokazi": [
+      {
+        "izvor": "izvori/spomenicinob/redovi.json, redovi 534–632",
+        "nalaz": "Pročitano svih 99 redova i poređeno sa sva tri spiska. Različite kuće u Pištalinama, tri lokaliteta Jezerskog, Vršeljak/Mosura i više lokaliteta Drenove Glavice nisu duplikati. Izvorni mikro-položaji potvrđeni istorijskim snimcima u data/provere/priblizno-sela-2026-10-18.json."
+      },
+      {
+        "izvor": "izvori/xiwl/deo-0022.json i deo-0089.json",
+        "nalaz": "Jasenica/Bjelajske Uvale, preko 100 ubijenih u zimu 1943: isti memorijal, a precizna Wiki tačka izričito nasumična tačka puta. Objedinjeno bez lokacije; tačka nije sačuvana kao kandidat jer je odbačena."
+      },
+      {
+        "izvor": "izvori/xiwl/deo-0089.json i deo-0223.json",
+        "nalaz": "Spomenik iz 1954. sa statuom Dušana Košutića ispred škole u Jasenici, autor Ante Ušljebrka; statua premeštena kod škole u Suvaji posle 1978. Jedan zapis prati skulpturu; ne ostaje aktivan marker u Jasenici. Suvaja kod Bosanskog Petrovca nije mesto ove statue. Foto-geotag i ruševina škole daju samo približnu tačku."
+      },
+      {
+        "izvor": "izvori/xiwl/deo-0077.json i deo-0084.json",
+        "nalaz": "Gudavac: spomenik rudnika iz 1961. i Ivanjska: obeležje severno od mosta imaju opis izgleda, kartu i Street View; tačke ispravljene. Nesigurna identifikacija drugog spomenika kod doma u Glodini nije prihvaćena kao precizna tačka."
+      },
+      {
+        "izvor": "izvori/xiwl/deo-0027.json",
+        "nalaz": "Karanovićev spomenik iza Doma kulture (1972, centralni mozaik obnovljen 2018) ima zasebnu tačku, nije bista Safeta Krupića. Spomenik Lepi Radić nalazi se uz Prvomajsku i prugu, prvobitno obeležje pre 1965, novo 1971–1983. Prikaz strijeljanja ispravljen u vešanje."
+      },
+      {
+        "izvor": "https://www.cazin.net/vijesti/rekonstruirana-raskrsnica-sagradena-treca-traka",
+        "nalaz": "Izveštaj objavljen 24.12.2019. potvrđuje da su spomenici Lepi Radić i Amri Sedić posle radova vraćeni na obližnju novu lokaciju. Ne radi se o bisti Lepe Radić iz arhive."
+      },
+      {
+        "izvor": "izvori/xiwl/deo-0040.json",
+        "nalaz": "Crna ruka: bronzana skulptura poznatog autora, model 1972, spomenik 1973, uništen u ratu 1992–1995; postolje preostalo. Vrsta spomenik, stanje rusevine ostalo."
+      },
+      {
+        "izvor": "izvori/xiwl/deo-0077.json; slike/spomenici/gudavac-spomenik-palim-borcima-i-zrtvama-fasistick.webp",
+        "nalaz": "Postojeća fotografija potvrđuje isto vitko obeležje rudnika sa zvezdom i nedostajućim pločama. Spojen kataloški unos pod Donjom Suvajom sa postojećim preciznim foto-zapisom Gudavca; ostala 1961, postojeći ID i fotografija, preneti opis i stanje ostecen."
+      }
+    ],
+    "otvoreno": [
+      "Arhiva nije menjana i nijedan arhivirani zapis nije vraćen. Stara rodna ploča Dušana Košutića iz 1949. ostaje u arhivi, mlađa ploča u zasebnom zapisu; nema nezavisnog datiranog dokaza za vraćanje starog objekta.",
+      "Tri spomenika u Gornjim Petrovićima i grobnica: nisu spojeni samo po selu i 1965. godini, bez potvrde identiteta zasebnih opisa kod puta i groblja.",
+      "Bista Safeta Krupića u školi i bista kod Doma kulture: izvor ih navodi odvojeno; sada postoji jedan marker kod Doma. Bez potvrde da su zasebni predmeti ili da je predmet preseljen nije dodat još jedan zapis.",
+      "Približne tačke kuća u Pištalinama, lokaliteta Jezerskog i Drenove Glavice ostale su približne, bez pretpostavke današnjeg opstanka.",
+      "Moguća nekadašnja mesta još tri biste kod Doma kulture nisu dokaz da su biste ikada bile izrađene; postojeći arhivirani zapisi nisu pretvoreni u potvrđena dela."
+    ]
+  },
+  {
+    "odluka": "hrzenjak-preskoceni-priblizni-2026-10-20",
+    "datum": "2026-10-20",
+    "pravilo": "Korisnik 2026-10-20: stavke koje su 2002. stajale (uglavnom oštećene), iz jedinstvenog sela bez našeg spomenika, dodaju se kao približne tačke sa stanjem po Hrženjaku.",
+    "dodato": [
+      "gornji-kriz-spomen-kosturnica-palih-boraca",
+      "pobjenik-spomenik-palim-borcima-i-zrtvama-fasizma",
+      "ivanovo-polje-spomenik-palim-borcima-i-zrtvama-fas",
+      "ilovski-klokocevac-spomenik-palim-borcima-i-zrtvam",
+      "nova-ploscica-spomenik-palim-borcima-i-zrtvama-fas",
+      "smrtici-spomenik-palim-borcima-i-zrtvama-fasizma",
+      "lovcic-spomenik-cetvorici-palih-boraca",
+      "oriovcic-spomenik-nob-u",
+      "sumece-spomenik-palim-borcima-i-zrtvama-fasizma",
+      "sumece-spomen-cesma-palim-antifasistima",
+      "dunave-spomen-grobnica-petorice-prvoboraca",
+      "murine-spomenik-palim-borcima",
+      "kascerga-spomenik-palim-borcima",
+      "kavran-spomenik-palim-borcima",
+      "zeci-spomenik-borcima-i-zrtvama-fasistickog-terora",
+      "ilici-vrelo-mreznice-spomen-obiljezje-umrlim-borci",
+      "plitvicki-ljeskovac-spomenik-palim-borcima-i-zrtva",
+      "gardinovec-spomenik-palim-borcima-i-zrtvama-fasizm",
+      "djurdjanci-spomenik-palim-borcima-i-zrtvama-fasizm",
+      "gorjani-spomenik-palim-borcima-i-zrtvama-fasizma",
+      "semeljci-grobnica-sa-spomenikom-osloboditeljima-i",
+      "jagma-spomenik-palim-borcima-i-zrtvama-fasizma",
+      "gornja-sumetlica-spomenik-palim-borcima-i-zrtvama",
+      "jurkovac-spomenik-palim-borcima-i-civilnim-zrtvama",
+      "krndija-spomenik-benjaminu-vidasu-bendi",
+      "kutjevo-spomenik-nikoli-demonji-i-palim-borcima",
+      "rusevo-spomenik-s-grobnicom-boraca-xii-divizije-vi",
+      "sulkovci-spomenik-palim-borcima-i-zrtvama-fasizma",
+      "venje-spomenik-palim-borcima-i-prvoj-organizaciji",
+      "lic-spomenik-palim-borcima",
+      "lic-spomen-obiljezje-desanki-blazevic-i-andriji-st",
+      "obljaj-spomenik-palim-borcima-i-zrtvama-fasizma",
+      "paklenica-novska-spomenik-palim-borcima-i-zrtvama",
+      "bestrma-spomenik-palim-borcima-i-zrtvama-fasizma",
+      "kinjacka-spomenik-palim-borcima-i-zrtvama-fasistic",
+      "kostresa-spomenik-palim-borcima-i-civilnim-zrtvama",
+      "bast-borcima-i-civilnim-zrtvama",
+      "kostanje-u-spomen-13-poginulih-boraca",
+      "umcani-spomenik-palim-borcima-i-civilnim-zrtvama",
+      "margecan-spomen-kosturnica-palih-boraca",
+      "globocec-bista-antuna-blazica-simuna",
+      "kutovi-u-cast-16-palih-boraca-i-19-zrtava-fasizma",
+      "pusina-spomenik41-palom-borcu-i56-civilnih-zrtava",
+      "stari-gradac-palim-borcima-i-civilnim-zrtvama-iz-m",
+      "donje-bazije-palim-borcima-i-civilnim-zrtvama",
+      "medinci-palim-borcima-i-civilnim-zrtvama",
+      "nova-bukovica-poginulim-borcima-i-civilnim-zrtvama",
+      "spanat-palim-borcima-i-civilnim-zrtvama",
+      "vinkovacki-banovci-borcima-i-civilnim-zrtvama",
+      "bapska-palim-borcima-i-civilnim-zrtvama-iz-bapske",
+      "rajevo-selo-u-spomen-poginulim-borcima-i-civilnim",
+      "strosinci-poginulim-borcima-proboja-na-srijemskom",
+      "siskovci-spomen-cesma-u-cast-avnoj-a",
+      "stitar-u-spomen-poginulim-borcima-i-civilnim-zrtva",
+      "velika-ostrna-enik-zrtvama-fasizma",
+      "donja-kupcina-poginulim-borcima",
+      "donja-kupcina-spomenik-s-bistama-poginulih-boraca",
+      "donja-kupcina-spomen-bunar-formiranju-bataljona-kl",
+      "cvetnic-brdo-u-spom-en-formiranja-brigade-f-ogulin",
+      "kozjaca-poginu-im-borcim-a-siljakovma-kozlaca",
+      "lukinic-brdo-spom-enik-poginulim-borcim-a-na-mjes",
+      "kravarsko-poginulim-borcim-a-nob",
+      "pokupsko-palim-borcima-kraja",
+      "sumece-spomenik",
+      "kanfanar-golas-spomenik",
+      "zlatar-spomenik",
+      "zrmanja-spomenik",
+      "rusevo-groblje-spomenik",
+      "lic-spomen-obiljezje",
+      "blinja-spomenik",
+      "brnjeuska-spomenik",
+      "donji-kukuruzari-spomenik",
+      "gornja-mlinoga-spomenik",
+      "gornja-pastusa-spomenik",
+      "hrvatska-dubica-spomenik",
+      "jabukovac-spomenik",
+      "zivaja-spomen-obiljezje",
+      "zezevica-spomen-grobnica",
+      "donja-kupcina-spomen-obiljezje",
+      "donja-kupcina-spomen-obiljezje-2",
+      "donja-kupcina-spomenik",
+      "donja-kupcina-spomen-kamen-milanu-simicu-mraovicu",
+      "donja-kupcina-spomen-kamen-ivanu-kezmanu",
+      "stefanje-spomenik-palim-borcima-i-zrtvama-fasizma",
+      "velika-mlinska-spomenik-borcima-palim-za-oslobodje",
+      "sapci-spomenik-palim-borcima-i-civilnim-zrtvama",
+      "sibinj-spomen-grob-i-spomenik-terezi-magdic",
+      "sibinj-spomenik-palim-borcima-i-civilnim-zrtvama",
+      "sveta-marija-na-krasu-spomenik-palim-borcima",
+      "divsici-spomenik-zrtvama-fasistickog-terora",
+      "rakalj-spomenik-26-poginulih-antifasistickih-borac",
+      "semovci-spomen-kosturnica-palih-boraca",
+      "virje-spomenik-palim-borcima-i-zrtvama-fasistickog",
+      "marija-bistrica-spomenik-palim-borcima-i-rodoljubi",
+      "komic-spomenik-palim-borcima-i-zrtvama-fasizma",
+      "donji-hrascan-spomenik-palim-borcima-i-zrtvama-fas",
+      "drzimurec-spomenik-palim-borcima-i-zrtvama-fasizma",
+      "gornji-hrascan-spomenik-palim-borcima-i-zrtvama-fa",
+      "palinovec-spomenik-palim-borcima-i-zrtvama-fasizma",
+      "podturen-spomenik-palim-borcima-i-zrtvama-fasizma",
+      "branimirovac-spomenik-palim-borcima-i-zrtvama-fasi",
+      "gornja-obrijez-spomenik-palim-borcima-i-zrtvama-fa",
+      "puska-spomenik-palima-za-slobodu",
+      "brocice-spomenik-palim-borcima-i-zrtvama-fasizma",
+      "donji-hrastovac-spomenik-palim-borcima-i-zrtvama-f",
+      "kratecko-za-5-palih-boraca-i-15-civilnih-zrtava",
+      "topolovac-palim-borcima-i-civilnim-zrtvama",
+      "preloscica-spomenik-palim-borcima-i-zrtvama-fasist",
+      "slovinci-spomenik-palim-borcima-i-zrtvama-fasistic",
+      "splitska-palim-borcima-i-civilnim-zrtvama",
+      "brist-u-spomen-nob-e-i-poginulih-boraca",
+      "celina-palim-borcima-nor-a",
+      "srinjine-ipalim-borcima-i-civilnim-zrtvama",
+      "svinisce-spomenik21-poginulom-partizanu",
+      "svinisce-vlade-mimice-ubijenog-u-pisku",
+      "vinisce-palih-boraca-i-civilnih-zrtava",
+      "primosten-burnji-spomenik-palim-borcima-i-zrtvama",
+      "mikleus-kosturnica-sa-spomenikom-na-pravoslavnom-g",
+      "stari-jankovci-zeljeznicka-stanica-poginulim-borci",
+      "racinovci-za-19-poginulih-boraca",
+      "zemunik-donji-strijeljanim-rodoljubim-a",
+      "rugvica-u-cast-posavskog-odreda",
+      "opatinec-i-u-cast-poginulih-boraca-za-3-sela",
+      "otrusevec-ipoginulim-borcim-a-nob",
+      "grdanjci-palim-borcima-s-plocom",
+      "sveta-nedelja-spomenik-palim-borcima-i-zrtvama-fas",
+      "velika-mlaka-borcima",
+      "dubranec-u-spom-en-na-bitku-23-kol-1943",
+      "farkasevac-spomenik-palim-borcima-nob-a",
+      "sibinj-centar-spomenik",
+      "sibinj-kikovac-spomenik",
+      "umag-sv-marija-na-krasu-spomenik",
+      "budrovci-spomenik",
+      "seovica-spomen-obiljezje",
+      "malinska-spomenik",
+      "cepelis-spomenik",
+      "preloscica-spomenik",
+      "cacinci-spomen-grobnica",
+      "gorica-svetojanska-spomenik"
+    ],
+    "preskoceno": [
+      {
+        "oznaka": "C-0054-1",
+        "mesto": "Stara Gradiška",
+        "naziv": "Spomenik žrtvama fašizma starogradiškog područja",
+        "razlog": "naš spomenik do 1,5 km: ['stara-gradiska-spomenik-zrtvama-logora-i-kosturnic', 'gradiska', 'gradiska-spomen-park-slobode']"
+      },
+      {
+        "oznaka": "C-0082-33",
+        "mesto": "Tičan",
+        "naziv": "Spomenik 84 poginula partizana",
+        "razlog": "naš spomenik do 1,5 km: ['stuti']"
+      },
+      {
+        "oznaka": "C-0086-62",
+        "mesto": "Golaš",
+        "naziv": "Spomenik palim borcima",
+        "razlog": "naš spomenik do 1,5 km: ['kurili']"
+      },
+      {
+        "oznaka": "C-0112-203",
+        "mesto": "Lepavina",
+        "naziv": "Spomen-kosturnica palih boraca",
+        "razlog": "naš spomenik do 1,5 km: ['mali-grabicani-spomenik-palim-borcima']"
+      },
+      {
+        "oznaka": "C-0113-208",
+        "mesto": "Plavšinac",
+        "naziv": "Spomenik palim borcima",
+        "razlog": "naš spomenik do 1,5 km: ['novigrad-podravski-2']"
+      },
+      {
+        "oznaka": "C-0113-212",
+        "mesto": "Vlaislav",
+        "naziv": "Spomenik palim borcima",
+        "razlog": "naš spomenik do 1,5 km: ['novigrad-podravski']"
+      },
+      {
+        "oznaka": "C-0183-4",
+        "mesto": "Bukovčani",
+        "naziv": "Spomen-česma palim borcima i žrtvama fašizma",
+        "razlog": "naš spomenik do 1,5 km: ['skenderovci']"
+      },
+      {
+        "oznaka": "C-0222-1",
+        "mesto": "Stara Gradiška",
+        "naziv": "Spomenik s kosturnicom žrtava logora",
+        "razlog": "naš spomenik do 1,5 km: ['stara-gradiska-spomenik-zrtvama-logora-i-kosturnic', 'gradiska', 'gradiska-spomen-park-slobode']"
+      },
+      {
+        "oznaka": "C-0232-68",
+        "mesto": "Strmen",
+        "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+        "razlog": "naš spomenik do 1,5 km: ['lonja-spomenik-nob']"
+      },
+      {
+        "oznaka": "C-0242-30",
+        "mesto": "Mosor, Cikotina Lađa",
+        "naziv": "Spomen-obilježje partizanskoj bazi",
+        "razlog": "naš spomenik do 1,5 km: ['mosor-spomen-cesma-palim-borcima']"
+      },
+      {
+        "oznaka": "C-0285-116",
+        "mesto": "Aleksandrovac",
+        "naziv": "palim borcima i civilnim žrtvama",
+        "razlog": "naš spomenik do 1,5 km: ['aleksandrovac-spomenik-palim-borcima']"
+      },
+      {
+        "oznaka": "C-0295-163",
+        "mesto": "Vrbnica",
+        "naziv": "poginulim borcima i civilima iz mjesta",
+        "razlog": "naš spomenik do 1,5 km: ['vrbnica-logoriste-vrhovnog-staba', 'vrbnica-mjesto-pogibije-ivana-gorana-kovacica']"
+      },
+      {
+        "oznaka": "C-IDX-357-57",
+        "mesto": "Šumeće",
+        "naziv": "Spomen-obilježje",
+        "razlog": "nema vrste"
+      },
+      {
+        "oznaka": "C-IDX-362-58",
+        "mesto": "Plavšinac",
+        "naziv": "Spomen-obilježje",
+        "razlog": "naš spomenik do 1,5 km: ['novigrad-podravski-2']"
+      },
+      {
+        "oznaka": "C-IDX-373-20",
+        "mesto": "Dodoši",
+        "naziv": "Spomenik",
+        "razlog": "naš spomenik do 1,5 km: ['kraljevcani-spomenik-borcima-novj']"
+      },
+      {
+        "oznaka": "C-IDX-373-47",
+        "mesto": "Hajtić",
+        "naziv": "Spomenik",
+        "razlog": "naš spomenik do 1,5 km: ['sibine-spomenik-nob']"
+      },
+      {
+        "oznaka": "C-IDX-375-19",
+        "mesto": "Stara Gradiška",
+        "naziv": "Spomenik",
+        "razlog": "naš spomenik do 1,5 km: ['stara-gradiska-spomenik-zrtvama-logora-i-kosturnic', 'gradiska', 'gradiska-spomen-park-slobode']"
+      },
+      {
+        "oznaka": "C-0050-3",
+        "mesto": "Bodegraj",
+        "naziv": "Spomenik palim borcima i žrtvama fašizma",
+        "razlog": "naš spomenik do 1,5 km: ['okucani']"
+      },
+      {
+        "oznaka": "C-0070-R5",
+        "mesto": "Mlini",
+        "naziv": "Spomenik Marku Marojici",
+        "razlog": "naš spomenik do 1,5 km: ['mlini-spomenik-marku-marojici']"
+      },
+      {
+        "oznaka": "C-0085-57",
+        "mesto": "Svetvinčenat",
+        "naziv": "Spomenik Ruži Petrović",
+        "razlog": "naš spomenik do 1,5 km: ['svetvincenat-spomenik-ruzi-petrovic']"
+      },
+      {
+        "oznaka": "C-0109-178",
+        "mesto": "Kalinovac",
+        "naziv": "Spomenik palim borcima NOR-a",
+        "razlog": "naš spomenik do 1,5 km: ['djurdjevac-ciglana-spomenik-palim-borcima-kalinova']"
+      },
+      {
+        "oznaka": "C-0109-179",
+        "mesto": "Kalinovac",
+        "naziv": "Spomen-kosturnica palih boraca",
+        "razlog": "naš spomenik do 1,5 km: ['djurdjevac-ciglana-spomenik-palim-borcima-kalinova']"
+      },
+      {
+        "oznaka": "C-0181-2",
+        "mesto": "Filipovac",
+        "naziv": "Spomenik palim borcima i žrtvama fašizma",
+        "razlog": "naš spomenik do 1,5 km: ['lipik-spomen-kosturnica']"
+      },
+      {
+        "oznaka": "C-0190-1",
+        "mesto": "Mijači",
+        "naziv": "Spomen-česma osnivanju18.slavonske brigade",
+        "razlog": "naš spomenik do 1,5 km: ['kamenska']"
+      },
+      {
+        "oznaka": "C-0299-142",
+        "mesto": "Borovo Naselje",
+        "naziv": "poginulim borcima i oslobodiocima Borova",
+        "razlog": "naš spomenik do 1,5 km: ['vukovar-ii-kolonija-spomenik-palim-borcima']"
+      },
+      {
+        "oznaka": "C-0308-260",
+        "mesto": "Mali Iž, Knež",
+        "naziv": "Spomenik ustanku Iža",
+        "razlog": "naš spomenik do 1,5 km: ['knez-on-iz-island']"
+      },
+      {
+        "oznaka": "C-IDX-358-58",
+        "mesto": "Slano",
+        "naziv": "Spomen-obilježje",
+        "razlog": "nema vrste"
+      },
+      {
+        "oznaka": "C-IDX-372-47",
+        "mesto": "Trsat",
+        "naziv": "Spomen-grobnica",
+        "razlog": "naš spomenik do 1,5 km: ['rijeka-trsat-palim-borcima-nor-a', 'rijeka-patriots-rijeka', 'rijeka-susak-spomenik-palim-gimnazijalcima']"
+      }
+    ],
+    "stanja": {
+      "ostecen": 119,
+      "-": 19,
+      "srusen": 1
+    },
+    "vracenoBezLokacije": [
+      {
+        "id": "gornji-kriz-spomen-kosturnica-palih-boraca",
+        "razlog": "jedino istoimeno naselje u spisku je van Hrvatske: Slovenija"
+      },
+      {
+        "id": "ilici-vrelo-mreznice-spomen-obiljezje-umrlim-borci",
+        "razlog": "jedino istoimeno naselje u spisku je van Hrvatske: Ilići kod Mostara"
+      },
+      {
+        "id": "kostresa-spomenik-palim-borcima-i-civilnim-zrtvama",
+        "razlog": "jedino istoimeno naselje u spisku je van Hrvatske: BiH"
+      },
+      {
+        "id": "obljaj-spomenik-palim-borcima-i-zrtvama-fasizma",
+        "razlog": "jedino istoimeno naselje u spisku je van Hrvatske: Obljaj kod Bosanskog Grahova"
+      },
+      {
+        "id": "smrtici-spomenik-palim-borcima-i-zrtvama-fasizma",
+        "razlog": "jedino istoimeno naselje u spisku je van Hrvatske: BiH"
+      }
+    ]
+  },
+  {
+    "odluka": "arhiva-srusenih-bez-tacke-2026-10-20",
+    "datum": "2026-10-20",
+    "pravilo": "Srušeni spomenici koji nisu istaknuti, a nemaju tačnu lokaciju (približna tačka ili bez tačke), idu u arhivu: bez tačke ostatke niko ne može da nađe (korisnik, 2026-10-20).",
+    "saMape": [
+      "bugar-zajednicka-grobnica-palih-boraca",
+      "slobodnica-bista-stjepana-funarica",
+      "slobodnica-bista-ivana-senjuga",
+      "slobodnica-bista-stjepana-sekulica",
+      "slobodnica-bista-mike-babica",
+      "doli-spomenik-komandiru-eskadrile-majoru-arkadiju",
+      "donje-primislje-spomen-ambulanta-palim-borcima",
+      "kamesnica-spomenik-palim-borcima-s-grobnicom",
+      "barlete-spomenik-palim-borcima-i-civilnim-zrtvama",
+      "brlog-bista-petra-grubora",
+      "jezerane-bista-ljubice-gerovac",
+      "korenica-spomenik-nad-grobnicom-ranjenika-partizan",
+      "korenica-biste-vlade-cetkovica-i-stanise-opsenice",
+      "krivi-put-spomenik-poginulim-partizanima-iv-armije",
+      "licko-petrovo-selo-bista-nikole-bubala",
+      "pocitelj-spomenik-palim-borcima-divosela-ornica-ci",
+      "smiljan-bista-kate-pejnovic",
+      "smiljan-spomenik-nob",
+      "siroka-kula-spomenik-palim-borcima-i-civilnim-zrtv",
+      "udbina-biste-cetvorice-narodnih-heroja",
+      "bracevci-spomenik-palim-borcima-i-civilnim-zrtvama",
+      "budimci-spomenik-palim-borcima-i-civilnim-zrtvama",
+      "dopsin-spomenik-palim-borcima-i-civilnim-zrtvama",
+      "dopsin-spomenik-formiranju-kotarskog-komiteta-kph",
+      "djurdjenovac-spomenik-piramida-palim-borcima",
+      "erdut-spomenik-palim-borcima-i-civilnim-zrtvama",
+      "fericanci-spomenik-palim-borcima-i-civilnim-zrtvam",
+      "laslovo-spomenik-civilnim-zrtvama",
+      "levanjska-varos-spomen-grobnica-boraca-nob",
+      "londzica-spomen-obiljezje",
+      "normanci-spomenik-palim-borcima-i-civilnim-zrtvama",
+      "palaca-spomenik-za-19-palih-boraca-i-8-civilnih-zr",
+      "paucje-spomenik-palim-borcima-i-civilnim-zrtvama",
+      "paucje-spomen-obiljezje",
+      "slobodna-vlast-spomenik-josipu-ambrosu-i-regalu-va",
+      "slobodna-vlast-spomen-obiljezje",
+      "bolomace-spomen-kosturnica-civilnih-zrtava",
+      "brodski-drenovac-spomenik-palim-borcima-i-civilnim",
+      "bujavica-spomen-kosturnica-poginulih-stanovnika",
+      "busnovi-spomenik-nob",
+      "gornji-vrhovci-spomenik-zrtvama-ustaskog-pokolja-1",
+      "jeminovac-spomenik-nob",
+      "kukunjevac-spomenik-na-mjestu-osnivanja-noo-kukunj",
+      "kukunjevac-spomenik-na-mjestu-pogibije-narodnog-he",
+      "kusonje-spomenik-kotarskom-partijskom-savjetovanju",
+      "lucinci-spomenik-nob",
+      "ratkovica-spomen-obiljezje",
+      "rogulje-spomen-obiljezje",
+      "rogulje-spomen-bunar-palim-borcima-i-civilnim-zrtv",
+      "slobostina-spomen-grobnica-civilnih-zrtava-1942",
+      "snjegavic-spomenik-poginulim-borcima",
+      "bair-spomenik-poginulim-borcima-nob-i-civilnim-zrt",
+      "brestik-spomen-dom-i-spomenik-prvoj-proleterskoj-b",
+      "buzeta-spomenik-palim-borcima-i-civilnim-zrtvama",
+      "cukur-spomenik-palim-borcima-i-civilnim-zrtvama",
+      "donja-stupnica-spomenik-poginulim-borcima-i-civiln",
+      "drljaca-spomenik-palim-borcima-i-civilnim-zrtvama",
+      "kozarice-spomenik-poginulim-borcima-nob-i-civilnim",
+      "lovska-spomenik-poginulim-borcima-nob-i-civilnim-z",
+      "novi-grabovac-spomenik-poginulim-borcima-nob-i-civ",
+      "osekovo-spomenik-borcima-nob-i-civilnim-zrtvama",
+      "osekovo-spomenik-bici-na-humki",
+      "veliki-susnjar-spomenik-palim-borcima-i-civilnim-z",
+      "blato-na-cetini-spomenik-prvoj-omladinskoj-radnoj",
+      "dugi-rat-bista-slavka-kadica",
+      "dugi-rat-bista-pave-mandica",
+      "dugi-rat-bista-joze-marusica",
+      "suhac-spomen-obiljezje",
+      "vostane-spomenik-s-kosturnicom-civilnih-zrtava",
+      "zmijavci-spomenik-nob",
+      "icevo-spomen-kosturnica-palim-borcima-i-civilnim-z",
+      "donja-voca-spomenik-prvom-kotarskom-noo",
+      "gornji-miholjac-spomenik-palim-borcima-i-civilnim",
+      "humljani-spomenik-narodnom-heroju-josipu-ruzicki-k",
+      "miljevci-spomenik-piramida-palim-borcima-i-civilni",
+      "pitomaca-bista-luje-madjerica",
+      "rezovacke-krcevine-spomenik-palim-borcima-i-civiln",
+      "slatinski-drenovac-spomen-cesma-madjarskom-bataljo",
+      "slatinski-drenovac-spomen-cesma-palim-borcima",
+      "suhopolje-spomenik-palim-borcima-i-civilnim-zrtvam",
+      "gunja-spomenik-palim-borcima-i-sovjetskim-avijatic",
+      "ivankovo-spomen-cesma-palim-borcima-i-civilnim-zrt",
+      "nijemci-spomenik-borcima-vi-licke-divizije",
+      "nijemci-spomenik-palim-borcima",
+      "brgud-spomenik-palim-borcima-i-zrtvama-fasizma",
+      "brisevo-spomenik-palim-borcima-i-civilnim-zrtvama",
+      "donji-karin-spomenik-palim-borcima-i-civilnim-zrtv",
+      "smokovic-spomenik-palim-borcima-nor-a",
+      "ruca-bista-ivana-mladena",
+      "sveta-nedjelja-spomenik-nob",
+      "nova-gradiska-spomenik-s-grobnicom-narodnih-heroja",
+      "pazin-bista-olge-ban",
+      "matuzici-spomenik-palim-borcima-nob",
+      "drinovci-spomen-obelisk-na-mjestu-strijeljanja-cla",
+      "livno-skulptura-nosenje-ranjenika",
+      "mostar-spomenik-rudarima",
+      "jasikovac-spomenik-partizanskoj-bolnici-jasikovac",
+      "siroki-brijeg-spomenik-kameni-cvijet",
+      "hodovo-spomenik-palim-borcima-i-zrtvama-fasisticko",
+      "osijek-spomenik-palim-borcima-park-kulture",
+      "osijek-spomenik-sloboda-tvornica-secera",
+      "kinjacka-spomenik-palim-borcima-i-zrtvama-fasistic"
+    ],
+    "bezLokacije": [
+      "poplat-spomen-ploca-formiranju-poplatskog-partizan",
+      "poplat-spomenik-palim-borcima",
+      "poplat-spomen-ploca-zrtvama-fasistickog-terora",
+      "bijeljina-spomenik-39-palih-boraca-i-4-zrtve-fasis",
+      "bijeljina-rodno-mjesto-narodnog-heroja-hamze-hamzi",
+      "crno-jezero-spomen-ploca-zrtvama-fasistickog-teror",
+      "medeno-polje-spomen-avion-na-mjestu-aerodroma",
+      "unista-spomen-ploca-drugoj-dalmatinskoj-proletersk",
+      "tasovcici-spomenik-koncentracionom-logoru-silos",
+      "klepci-spomen-ploca-zrtvama-fasistickog-terora",
+      "ustikolina-bista-spasoja-dragovica",
+      "fojnica-spomenik-palim-borcima",
+      "gornji-vakuf-spomen-ploca-prvom-oslobodjenju-gornj",
+      "gradacac-bista-vojka-milovanovica",
+      "srnica-bista-vase-pelagica",
+      "gradiska-spomenik-nob",
+      "zijemlje-spomen-ploca-nob",
+      "jablanica-spomenik-prelasku-neretve",
+      "jajce-spomen-ploca-organizaciji-ustanka",
+      "kalesija-spomen-kosturnica-sa-413-palih-boraca",
+      "kalesija-spomenik-na-mjestu-smrti-narodnog-heroja",
+      "kiseljak-bista-rudija-cajavca",
+      "kljuc-spomenik-palim-borcima",
+      "kopljenica-spomen-ploca-palim-borcima-i-zrtvama-fa",
+      "slabinja-spomenik-zrtvama-fasistickog-terora",
+      "kupres-partizansko-groblje-sa-66-palih-boraca",
+      "kupres-spomenik-oslobodjenju-kupresa",
+      "livno-spomen-ploca-oslobodjenju-livna",
+      "livno-spomen-ploca-formiranju-prve-vazduhoplovne-b",
+      "livno-spomen-ploca-na-mjestu-sastanaka-vrhovnog-st",
+      "puracic-spomenik-palim-borcima-nor-a",
+      "osve-spomenik-67-zrtava-fasistickog-terora",
+      "mostar-spomen-ploca-palim-ucenicima",
+      "sarajevo-rajlovac-spomen-ploca-napadu-na-aerodrom",
+      "sarajevo-rajlovac-spomenik-partizanskom-aerodromu",
+      "prud-spomen-ploca-palim-borcima-i-zrtvama-fasistic",
+      "prud-bista-marka-masica",
+      "tolisa-bista-vladimira-nazora",
+      "bogovici-spomen-ploca-na-mjestu-gdje-se-tito-odmar",
+      "donji-vijacani-spomenik-anti-rukavini",
+      "sanski-most-sala-ii-zasjedanja-zavnobih-a-sa-muzej",
+      "sanski-most-spomenik-nob-2",
+      "srbac-spomenik-palim-borcima-i-zrtvama-fasistickog",
+      "srebrenica-spomen-ploca-zrtvama-fasistickog-terora",
+      "maoca-spomen-ploca-zrtvama-fasistickog-terora",
+      "solana-spomenik-posjeti-josipa-broza-tita-1946-god",
+      "solana-spomenik-palim-metalcima-i-mehanicarima",
+      "kreka-spomen-kuca-narodnog-heroja-mitra-trifunovic",
+      "tutnjevac-spomenik-palim-borcima-i-zrtvama-fasisti-2",
+      "gornja-zimca-spomen-ploca-djordju-milanovicu",
+      "visoko-bista-mehmeda-dzudze",
+      "visoko-bista-janka-balorde",
+      "visoko-bista-mehe-patka",
+      "vratnica-spomen-reljef-ibrahima-zecevica",
+      "visoko-spomenik-neznanom-junaku",
+      "stara-bila-kosturnica-palih-boraca",
+      "stara-bila-bista-ranka-sipke",
+      "serici-spomen-dom-4-juli",
+      "zagreb-gornje-vrapce-spomenik-palim-borcima",
+      "zvecevo-spomenik-glasu-slavonije"
+    ],
+    "poDrzavi": {
+      "Bosnia and Herzegovina": 66,
+      "Croatia": 96
+    }
+  },
+  {
+    "odluka": "spomenicinob-redom-bosanskipetrovac-2026-10-20",
+    "datum": "2026-10-20",
+    "opstina": "bosanskipetrovac",
+    "izvor": "https://www.spomenicinob.info/bosanskipetrovac",
+    "pregledanoIzvornihRedova": 101,
+    "spajanja": [
+      {
+        "uklonjen": "medeno-polje-spomenik-na-medenom-polju",
+        "zadrzan": "medeno-polje",
+        "pre": {
+          "id": "medeno-polje-spomenik-na-medenom-polju",
+          "koordinate": {
+            "lat": 44.580611,
+            "lng": 16.285028
+          },
+          "priblizno": true,
+          "mesto": "Medeno Polje",
+          "naziv": "Spomenik na Medenom Polju",
+          "nazivEn": "Monument on Medeno Polje",
+          "godina": "1974",
+          "stanje": "ostecen",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "izvorUklonjenog": "https://www.spomenicinob.info/bosanskipetrovac",
+        "izvorZadrzanog": "http://www.spomenikdatabase.org/medeno-polje"
+      },
+      {
+        "uklonjen": "bosanski-petrovac-spomenik-nob",
+        "zadrzan": "bosanski-petrovac-fallen-fighters",
+        "pre": {
+          "id": "bosanski-petrovac-spomenik-nob",
+          "mesto": "Bosanski Petrovac",
+          "naziv": "Spomenik NOB",
+          "nazivEn": "Monument to the NOB",
+          "godina": "1958",
+          "autor": "Olga Jančić",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina",
+          "adresa": "Behind Dom AFŽ; In front of the municipality building"
+        },
+        "izvorUklonjenog": "https://www.spomenicinob.info/bosanskipetrovac",
+        "izvorZadrzanog": "https://www.spomenicinob.info/bosanskipetrovac"
+      },
+      {
+        "uklonjen": "prkosi-spomenik-zrtvama-fasistickog-terora",
+        "zadrzan": "prkosi",
+        "pre": {
+          "id": "prkosi-spomenik-zrtvama-fasistickog-terora",
+          "koordinate": {
+            "lat": 44.61621,
+            "lng": 16.12241
+          },
+          "priblizno": true,
+          "mesto": "Prkosi",
+          "naziv": "Spomenik žrtvama fašističkog terora",
+          "nazivEn": "Monument to Victims of Fascist Terror",
+          "godina": "1989",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "izvorUklonjenog": "https://www.spomenicinob.info/bosanskipetrovac",
+        "izvorZadrzanog": "https://www.spomenicinob.info/bosanskipetrovac"
+      },
+      {
+        "uklonjen": "klenovac-spomenik-zrtvama-fasistickog-terora",
+        "zadrzan": "klenovac-spomenik-strijeljanim-partizanima",
+        "pre": {
+          "id": "klenovac-spomenik-zrtvama-fasistickog-terora",
+          "koordinate": {
+            "lat": 44.54734,
+            "lng": 16.61302
+          },
+          "priblizno": true,
+          "mesto": "Klenovac",
+          "naziv": "Spomenik žrtvama fašističkog terora",
+          "nazivEn": "Monument to Victims of Fascist Terror",
+          "godina": "1985",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "izvorUklonjenog": "https://www.spomenicinob.info/bosanskipetrovac",
+        "izvorZadrzanog": "https://www.spomenicinob.info/bosanskipetrovac"
+      }
+    ],
+    "izmene": [
+      {
+        "id": "bosanski-petrovac-fallen-fighters",
+        "pre": {
+          "autor": null,
+          "naziv": "Spomenici NOB u Bosanskom Petrovcu",
+          "nazivEn": "People's Liberation Struggle Monuments in Bosanski Petrovac",
+          "opis": {
+            "sh": "Posvećeno Narodnooslobodilačkoj borbi u Bosanskom Petrovcu.",
+            "en": "Dedicated to the People's Liberation Struggle in Bosanski Petrovac."
+          },
+          "wiki": "https://sh.wikipedia.org/wiki/Spomenici_Narodnooslobodila%C4%8Dkoj_borbi_u_Bosanskom_Petrovcu"
+        },
+        "posle": {
+          "autor": "Olga Jančić",
+          "naziv": "Skulptura „Porodica“",
+          "nazivEn": "Family Sculpture",
+          "opis": {
+            "sh": "Skulptura Olge Jančić prikazuje oca, majku i dete, a danas se nalazi ispred zgrade opštine. Ranije je stajala iza Doma AFŽ-a, zatim je tokom sedamdesetih premeštena u gradski park.",
+            "en": "Olga Jančić’s sculpture depicts a father, mother and child and now stands in front of the municipal building. It previously stood behind the AFŽ cultural centre before being moved to the town park during the 1970s."
+          },
+          "wiki": null
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "bosanski-petrovac-bista-radivoja-rodica",
+        "pre": {
+          "opis": null,
+          "posveta": "Radivoja Rodića"
+        },
+        "posle": {
+          "opis": {
+            "sh": "Bista Radivoja Rodića premeštena je iz gradskog parka na prostor ispred zgrade opštine.",
+            "en": "The bust of Radivoj Rodić was moved from the town park to the grounds in front of the municipal building."
+          },
+          "posveta": null
+        },
+        "skupPre": "bez_lokacije",
+        "skupPosle": "bez_lokacije"
+      },
+      {
+        "id": "suvaja-bista-dure-pecanca-djurekana",
+        "pre": {
+          "naziv": "Bista Dure Pećanca Đurekana",
+          "nazivEn": "Bust of NH Duro Pećanac Đurekan",
+          "opis": null,
+          "posveta": "Dure Pećanca Đurekana"
+        },
+        "posle": {
+          "naziv": "Bista Đure Pećanca Đurekana",
+          "nazivEn": "Đuro Pećanac Đurekan Bust",
+          "opis": {
+            "sh": "Nova bista [Đure Pećanca Đurekana](Q16082595) postavljena je 2023. kod crkve u Suvaji, kao zamena za nestalu bistu iz gradskog parka Bosanskog Petrovca. Ne predstavlja potvrdu povratka stare biste na njeno ranije mesto.",
+            "en": "A new bust of [Đuro Pećanac Đurekan](Q16082595) was installed by the church in Suvaja in 2023, replacing the missing bust from the Bosanski Petrovac town park. It does not establish that the old bust was returned to its former site."
+          },
+          "posveta": [
+            "Q16082595"
+          ]
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "vrtoce",
+        "pre": {
+          "autor": null,
+          "naziv": "Spomenik Narodnooslobodilačkoj borbi u Vrtoču",
+          "nazivEn": "Memorial Park to Fallen Fighters",
+          "opis": null
+        },
+        "posle": {
+          "autor": "Nebojša Latinović & Enver Kudić",
+          "naziv": "Spomenik NOB",
+          "nazivEn": "People’s Liberation Struggle Memorial",
+          "opis": {
+            "sh": "Spomenik iz 1971. nalazi se u memorijalnom prostoru sa imenima palih boraca i civilnih žrtava i izloženim topom. Celina je obnovljena 2011, posle vandalizma početkom dvehiljaditih.",
+            "en": "The 1971 memorial stands in a commemorative site with the names of fallen fighters and civilian victims and an artillery piece. The site was restored in 2011 after vandalism in the early 2000s."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "medeno-polje",
+        "pre": {
+          "godina": "1982",
+          "nazivEn": "Monument to the Partisan Air Squadron",
+          "opis": null,
+          "posveta": "Partizanskom aerodromu na Medenom Polju, korištenom za evakuaciju ranjenika 1943-1944.",
+          "stanje": null
+        },
+        "posle": {
+          "godina": "1974",
+          "nazivEn": "Partisan Airfield Memorial",
+          "opis": {
+            "sh": "Spomenik partizanskom aerodromu podignut je 1974, a njegove spomen-ploče su razbijene. Obližnji spomen-avion postavljen je na ovu lokaciju 1980. i kasnije uništen; ploča iz 1982. i starije obeležje od avionskog krila zasebni su objekti.",
+            "en": "The Partisan airfield memorial was erected in 1974, and its plaques have been smashed. The nearby memorial aircraft was moved here in 1980 and later destroyed; the 1982 plaque and the older aircraft-wing memorial are separate objects."
+          },
+          "posveta": null,
+          "stanje": "ostecen"
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "prkosi",
+        "pre": {
+          "godina": null,
+          "naziv": "Spomenik NOR-u",
+          "nazivEn": null,
+          "opis": null
+        },
+        "posle": {
+          "godina": "1989",
+          "naziv": "Spomenik žrtvama fašističkog terora",
+          "nazivEn": "Victims of Fascist Terror Memorial",
+          "opis": {
+            "sh": "Posvećeno civilnim žrtvama fašističkog terora; opštinski popis navodi 111 žrtava ubijenih 1943. godine.",
+            "en": "Dedicated to civilian victims of fascist terror; the municipal inventory lists 111 victims killed in 1943."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "bravsko",
+        "pre": {
+          "autor": null,
+          "opis": null
+        },
+        "posle": {
+          "autor": "Mirko Radulović",
+          "opis": {
+            "sh": "Spomenik Mirka Radulovića iz 1972. posvećen je palim borcima Bravske čete i civilnim žrtvama iz okolnih naselja.",
+            "en": "Mirko Radulović’s 1972 memorial commemorates fallen fighters of the Bravsko Company and civilian victims from surrounding settlements."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "vodjenica",
+        "pre": {
+          "godina": null,
+          "opis": null,
+          "posveta": "Vođeničkoj četi"
+        },
+        "posle": {
+          "godina": "1979",
+          "opis": {
+            "sh": "Spomenik Vođeničkoj četi iz 1979. ima četiri betonska kraka i oštećene spomen-ploče. U istoj celini sačuvano je i zasebno starije obeležje iz 1953. godine.",
+            "en": "The 1979 memorial to the Vođenica Company has four concrete fins and damaged memorial plaques. A separate older memorial from 1953 also survives at the site."
+          },
+          "posveta": null
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "medeno-polje-spomenik-palim-borcima",
+        "pre": {
+          "opis": null
+        },
+        "posle": {
+          "opis": {
+            "sh": "Izvor navodi spomenik podignut pre 1978. u sećanje na 57 palih boraca iz Medenog Polja i okolnih sela. Nije potvrđeno da je to isto obeležje kao spomenik aerodromu.",
+            "en": "The source lists a memorial erected before 1978 to 57 fallen fighters from Medeno Polje and neighbouring villages. Its identity with the airfield memorial has not been established."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "klenovac-spomenik-zrtvama-fasistickog-terora-3",
+        "pre": {
+          "adresa": null,
+          "koordinate": {
+            "lat": 44.54734,
+            "lng": 16.61302
+          },
+          "naziv": "Spomenik žrtvama fašističkog terora",
+          "nazivEn": "Monument to Victims of Fascist Terror",
+          "opis": null,
+          "priblizno": true
+        },
+        "posle": {
+          "adresa": "Sabljići / Gornje polje, Klenovac; tačna lokacija nije potvrđena.",
+          "koordinate": null,
+          "naziv": "Spomenik žrtvama u Sabljićima",
+          "nazivEn": "Sabljići Victims Memorial",
+          "opis": {
+            "sh": "Posvećeno žrtvama fašističkog terora u Sabljićima; izvor navodi 61 žrtvu. Tačna lokacija nije potvrđena.",
+            "en": "Dedicated to victims of fascist terror in Sabljići; the source lists 61 victims. The exact location is unconfirmed."
+          },
+          "priblizno": null
+        },
+        "skupPre": "mapa",
+        "skupPosle": "bez_lokacije"
+      },
+      {
+        "id": "vrtoce-spomenik-zrtvama-fasistickog-terora",
+        "pre": {
+          "naziv": "Spomenik žrtvama fašističkog terora",
+          "nazivEn": "Monument to Victims of Fascist Terror",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomenik žrtvama na Galini",
+          "nazivEn": "Galina Victims Memorial",
+          "opis": {
+            "sh": "Izvor navodi obeležje žrtvama fašističkog terora na Galini, bez potvrđene lokacije. Nije potvrđeno da je to isto obeležje kao porodični spomenik iz 1971. godine.",
+            "en": "The source lists a memorial to victims of fascist terror at Galina, without a confirmed location. Its identity with the 1971 family memorial has not been established."
+          }
+        },
+        "skupPre": "bez_lokacije",
+        "skupPosle": "bez_lokacije"
+      },
+      {
+        "id": "bosanski-petrovac-bista-zdravka-celara",
+        "pre": {
+          "opis": null
+        },
+        "posle": {
+          "opis": {
+            "sh": "Bista Zdravka Čelara premeštena je iz gradskog parka na prostor ispred zgrade opštine.",
+            "en": "The bust of Zdravko Čelar was moved from the town park to the grounds in front of the municipal building."
+          }
+        },
+        "skupPre": "bez_lokacije",
+        "skupPosle": "bez_lokacije"
+      },
+      {
+        "id": "klenovac-spomenik-zrtvama-fasistickog-terora-2",
+        "pre": {
+          "adresa": null,
+          "koordinate": {
+            "lat": 44.54734,
+            "lng": 16.61302
+          },
+          "naziv": "Spomenik žrtvama fašističkog terora",
+          "nazivEn": "Monument to Victims of Fascist Terror",
+          "priblizno": true
+        },
+        "posle": {
+          "adresa": "Vukobrata; nije potvrđeno kom od dva lokaliteta Klenovac pripada.",
+          "koordinate": null,
+          "naziv": "Spomenik žrtvama porodice Vukobrat",
+          "nazivEn": "Vukobrat Family Victims Memorial",
+          "priblizno": null
+        },
+        "skupPre": "mapa",
+        "skupPosle": "bez_lokacije"
+      },
+      {
+        "id": "vrtoce-spomenik-zrtvama-fasistickog-terora-2",
+        "pre": {
+          "naziv": "Spomenik žrtvama fašističkog terora",
+          "nazivEn": "Monument to Victims of Fascist Terror",
+          "opis": null
+        },
+        "posle": {
+          "naziv": "Spomenik žrtvama porodica Galina i Atlagić",
+          "nazivEn": "Galina and Atlagić Families Victims Memorial",
+          "opis": {
+            "sh": "Posvećeno stradalim članovima porodica Galina i Atlagić na mestu nekadašnje porodične kuće; izvor navodi 31 žrtvu, među njima 28 ubijenih u julu 1944.",
+            "en": "Dedicated to the murdered members of the Galina and Atlagić families at the former family home; the source lists 31 victims, including 28 killed in July 1944."
+          }
+        },
+        "skupPre": "bez_lokacije",
+        "skupPosle": "bez_lokacije"
+      },
+      {
+        "id": "smoljana-spomen-cesma-palim-borcima-i-zrtvama-fasi",
+        "pre": {
+          "koordinate": {
+            "lat": 44.60114,
+            "lng": 16.43213
+          },
+          "opis": {
+            "sh": "Posvećeno palim borcima i žrtvama fašističkog terora.",
+            "en": "Dedicated to fallen fighters and victims of fascist terror."
+          },
+          "priblizno": true
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 44.610832,
+            "lng": 16.4148
+          },
+          "opis": {
+            "sh": "Spomen-česma iz 1957. nalazi se ispred škole, odvojeno od kosturnice iz 1974. Obnovljena je 2010, ali više ne služi kao česma; prvobitno je imala bronzane figure partizana i partizanke.",
+            "en": "The 1957 memorial fountain stands in front of the school, separately from the 1974 ossuary. It was restored in 2010 but no longer functions as a fountain; it originally included bronze figures of a male and female Partisan."
+          },
+          "priblizno": null
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "krnjeusa-spomenik-nob",
+        "pre": {
+          "koordinate": {
+            "lat": 44.6901,
+            "lng": 16.22671
+          },
+          "priblizno": true
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 44.690248,
+            "lng": 16.22659
+          },
+          "priblizno": null
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "klenovac-spomenik-strijeljanim-partizanima",
+        "pre": {
+          "godina": null,
+          "naziv": "Spomenik strijeljanim partizanima",
+          "nazivEn": "Monument to executed partisans",
+          "opis": null
+        },
+        "posle": {
+          "godina": "1985",
+          "naziv": "Spomenik žrtvama strijeljanja 1941",
+          "nazivEn": "1941 Execution Victims Memorial",
+          "opis": {
+            "sh": "Na seoskom groblju obeležava stradanje 77 ljudi streljanih 28. jula 1941. Izvor beleži zamenu ploče pre 2020; označen je položaj groblja, a tačka samog obeležja ostaje približna.",
+            "en": "The memorial in the village cemetery commemorates 77 people executed on 28 July 1941. The source records a replacement plaque before 2020; the marked cemetery location remains approximate for the memorial itself."
+          }
+        },
+        "skupPre": "mapa",
+        "skupPosle": "mapa"
+      },
+      {
+        "id": "bosanski-petrovac-bista-mahmuta-ibrahimpasica-mase",
+        "pre": {
+          "godina": "pre 1966",
+          "opis": null,
+          "posveta": "Mahmuta Ibrahimpašića Maše"
+        },
+        "posle": {
+          "godina": "pre 1967",
+          "opis": {
+            "sh": "Bista Mahmuta Ibrahimpašića Maše premeštena je iz gradskog parka na prostor ispred zgrade opštine. Izvor potvrđuje da je izrađena najkasnije 1966. godine.",
+            "en": "The bust of Mahmut Ibrahimpašić Mašo was moved from the town park to the grounds in front of the municipal building. The source establishes that it was made no later than 1966."
+          },
+          "posveta": null
+        },
+        "skupPre": "bez_lokacije",
+        "skupPosle": "bez_lokacije"
+      },
+      {
+        "id": "risovac-spomenik-zrtvama-fasistickog-terora",
+        "pre": {
+          "adresa": null,
+          "koordinate": {
+            "lat": 44.755333,
+            "lng": 16.219806
+          },
+          "priblizno": true
+        },
+        "posle": {
+          "adresa": "Šuma kod jame pod Risovom gredom; tačna lokacija nepoznata.",
+          "koordinate": null,
+          "priblizno": null
+        },
+        "skupPre": "mapa",
+        "skupPosle": "bez_lokacije"
+      },
+      {
+        "id": "bukovaca-spomen-ploca-prvoj-oblasnoj-konferenciji",
+        "pre": {
+          "naziv": "Spomen-ploča prvoj oblasnoj konferenciji SKJ-a",
+          "nazivEn": "Plaque to the first regional SKJ conference",
+          "opis": {
+            "sh": "Posvećeno prvoj oblasnoj konferenciji SKJ-a u novembru 1942. godine.",
+            "en": "Dedicated to the first regional SKJ conference in November 1942."
+          }
+        },
+        "posle": {
+          "naziv": "Spomen-ploča Prvoj oblasnoj konferenciji SKOJ-a",
+          "nazivEn": "First Regional SKOJ Conference Plaque",
+          "opis": {
+            "sh": "Posvećeno Prvoj oblasnoj konferenciji SKOJ-a za Bosansku krajinu, održanoj u školi u Bukovači 10. novembra 1942. Kataloški navod SKJ bio je pogrešan; ploča ostaje u arhivi.",
+            "en": "Dedicated to the First Regional Conference of SKOJ for Bosanska Krajina, held in the Bukovača school on 10 November 1942. The catalogue’s reference to SKJ was incorrect; the plaque remains archived."
+          }
+        },
+        "skupPre": "arhiva",
+        "skupPosle": "arhiva"
+      }
+    ],
+    "preusmereneVeze": [],
+    "dokazi": [
+      {
+        "izvor": "izvori/spomenicinob/redovi.json, redovi 633–733",
+        "nalaz": "Pročitano svih 101 red i poređeno sa mapom, spiskom bez lokacije i arhivom. Klenovac 77 žrtava je isti objekat seoskog groblja, a Vukobrata i Sabljići su drugi lokaliteti. Bista Đure Pećanca u Suvaji iz 2023. novi je predmet na drugom mestu, ne povratak stare biste iz parka."
+      },
+      {
+        "izvor": "https://www.spomenikdatabase.org/medeno-polje; izvori/xiwl/deo-0138.json; slike/spomenici/medeno-polje.webp",
+        "nalaz": "Fotografija i opis prepoznatljive betonske skulpture potvrđuju da je glavni spomenik iz 1974, ne iz 1982 (godina zasebne ploče). Kataloški unos istog spomenika pogrešno je vezan za tačku uklonjenog avionskog krila. Objedinjen sa postojećim preciznim foto-zapisom. Uklonjeno krilo, uništen avion i njegova ploča ostaju zasebni i nisu vraćeni iz arhive."
+      },
+      {
+        "izvor": "izvori/xiwl/deo-0027.json; slike/spomenici/bosanski-petrovac-fallen-fighters.webp",
+        "nalaz": "Ista figuralna grupa muškarca, žene i deteta, Olga Jančić, danas ispred opštine. Spojen katalog 1958 sa postojećim foto-zapisom 1950; starija 1950 zadržana po pravilu korisnika, a konačna hronologija ostaje otvorena. Naziv regionalnog spiska spomenika nije naziv skulpture; opšti Wiki spisak uklonjen iz dugmeta Više."
+      },
+      {
+        "izvor": "https://doi.fil.bg.ac.rs/pdf/journals/f_zsmu/2025-21/f_zsmu-2025-21-8.pdf, Ana Ereš, 2025, str. 128 / PDF list 8",
+        "nalaz": "Skulptura Olge Jančić nazvana Family / Porodica u katalogu 1987; naučni članak navodi izradu 1955 i javno izlaganje 1970, a posvetu ne smatra potpuno razjašnjenom. Posebni reljefi Stojadinovića nisu poistovećeni sa Jančićkinom figurativnom grupom. U opisu nije izmišljena precizna posveta."
+      },
+      {
+        "izvor": "izvori/xiwl/deo-0186.json; slike/spomenici/prkosi.webp",
+        "nalaz": "Postojeći precizni zapis Prkosa i kataloški približan unos 1989 pokazuju istu kosu kamenu stelu. Opštinski popis navodi 111 žrtava stradalih 1943; zadržani fotografija, CID i precizna tačka."
+      },
+      {
+        "izvor": "izvori/xiwl/deo-0102.json",
+        "nalaz": "Dva Klenovca: kod Bravska i kod Bukovače/Drinića. Katalog i Wiki govore o istom grobljanskom obeležju 77 žrtava 28.7.1941, godina 1985 preneta u objedinjeni zapis, tačka ostaje približna. Nepotvrđeni položaji Vukobrata i Sabljića povučeni sa mape."
+      },
+      {
+        "izvor": "izvori/xiwl/deo-0212.json i deo-0113.json",
+        "nalaz": "Starija česma iz 1957. ispred škole u Smoljani odvojena je od kosturnice iz 1974. iza škole; ispravljena tačka česme. Krnjeuša: pet oblikovanih stubova/kubusa na raskrsnici potvrđuje konkretan objekat umesto centra sela."
+      },
+      {
+        "izvor": "https://fmks.gov.ba/download/zzs/ns8/28.pdf; https://znaci.org/00003/685.pdf, Vojo Banjac, Buktinje mladosti, str. 22",
+        "nalaz": "Oba dokumenta potvrđuju oblasno savetovanje/konferenciju SKOJ-a 10.11.1942. u školi u Bukovači. Pogrešan SKJ ispravljen u SKOJ u arhiviranom zapisu; stanje i skup nisu promenjeni."
+      },
+      {
+        "izvor": "izvori/xiwl/deo-0198.json",
+        "nalaz": "Risova greda: izričito nepoznata lokacija obeležja u šumi kod jame; okvirna tačka šumskog predela nije stvarna lokacija spomenika."
+      }
+    ],
+    "otvoreno": [
+      "Porodica: zadržana starija zatečena 1950 pri spajanju, ali akademski izvor daje 1955/1970, katalog 1958; potreban autorski katalog da se konačno razreši izrada, prvo postavljanje i kasnije selidbe.",
+      "Bravsko: spomenik Mirka Radulovića 1972 i kosturnica sa istim autorom/godinom nisu spojeni bez potvrde fizičkog obuhvata; opštinski popis navodi više memorijala.",
+      "Dve arhivirane biste Kate Pejnović (1967/1982) nisu spojene: izvor zamenu navodi kao mogućnost. Arhiva nije izvor za automatsko vraćanje.",
+      "Dva obeležja porodicama na Galini (1971 i 1988–1989) i spomenik 57 boraca u Medenom Polju ostaju odvojeni do potvrde identiteta.",
+      "Vođenica: staro obeležje iz 1953. i velika skulptura iz 1979. fizički su različiti i oba sačuvana; 1953 nije prepisana kao godina novije skulpture.",
+      "Gorinčani i Zdeni Do imaju dve istorijske tačke u šumi, bez dovoljno pouzdane potvrde identiteta i precizne lokacije za prenos bezlokacijskih zapisa na mapu.",
+      "Ploče kongresu sanitetskih radnika 1949/1960 nisu spojene samo po istoj posveti bez potvrde odnosa dve ploče."
+    ]
   }
 ]

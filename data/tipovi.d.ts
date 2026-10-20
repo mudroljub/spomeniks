@@ -120,7 +120,7 @@ export interface SpomenikBezLokacije extends Omit<Spomenik, 'koordinate'> {
   kandidati?: Kandidat[]
 }
 
-/** data/arhiva.json: zapis koji aplikacija ne prikazuje (uklonjen, a nije istaknut, spomen-park, muzej ni spomenik).
+/** data/arhiva.json: zapis koji aplikacija ne prikazuje: uklonjen, a nije istaknut, spomen-park, muzej ni spomenik, ili srušen i neistaknut bez tačne tačke.
  * Isti `id` i polja kao Spomenik ili SpomenikBezLokacije, uz obavezno `stanje`; `slika` je u "slike/arhiva/<id>.webp". */
 export type SpomenikArhive = (Spomenik | SpomenikBezLokacije) & {stanje: Stanje}
 
