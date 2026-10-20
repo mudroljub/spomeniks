@@ -4902,7 +4902,11 @@
     "stanje": "rusevine",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Modriča Brdo"
+    "adresa": "Modriča Brdo",
+    "opis": {
+      "sh": "Spomenik Alije Kučukalića iz 1974. na Modriča brdu uništen je 1992. Ruševine nisu isto što i obližnje partizansko groblje; precizan položaj ovog dela nije dovoljno potvrđen.",
+      "en": "Alija Kučukalić’s 1974 memorial on Modriča hill was destroyed in 1992. Its ruins are separate from the nearby partisan cemetery; the exact location of this work is not sufficiently confirmed."
+    }
   },
   {
     "id": "dracevo-spomen-ploca-zrtvama-fasistickog-terora",
@@ -4925,18 +4929,6 @@
     "godina": "1984",
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "capljina-spomen-cesma-palim-tenkistima",
-    "mesto": "Čapljina",
-    "naziv": "Spomen-česma palim tenkistima",
-    "nazivEn": "Fountain to fallen tank personnel",
-    "autor": "Hasan Dizdarević",
-    "posveta": "palim tenkistima",
-    "stanje": "ostecen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Beside old bridge over the Neretva"
   },
   {
     "id": "capljina-spomen-ploca-na-mjestu-rodjenja-milosa-pu",
@@ -5175,13 +5167,16 @@
     "naziv": "Spomen-ploča formiranju II muslimanske brigade",
     "nazivEn": "Plaque marking the formation of the II Muslim Brigade",
     "opis": {
-      "sh": "Posvećeno formiranju II muslimanske brigade Unske operativne grupe.",
-      "en": "Dedicated to the formation of the II Muslim Brigade of the Una Operative Group."
+      "sh": "Prvobitna ploča formiranju II muslimanske brigade Unske operativne grupe postavljena je 1978. Zamenjena je i neznatno premeštena početkom 2000-ih; tačan položaj novijeg obeležja nije potvrđen.",
+      "en": "The original plaque marking the formation of the Second Muslim Brigade of the Una Operational Group was installed in 1978. It was replaced and moved slightly in the early 2000s; the exact position of the newer memorial is unconfirmed."
     },
     "godina": "1978",
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Opposite new mosque"
+    "adresa": "Opposite new mosque",
+    "slika": "slike/bez-lokacije/pecigrad-spomen-ploca-formiranju-ii-muslimanske-br.webp",
+    "slikaPotpis": "Partisan Memorials Wiki",
+    "slikaOdnos": 0.75
   },
   {
     "id": "sturlic-spomen-ploca-nob",
@@ -5241,16 +5236,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "celic-spomen-park",
-    "mesto": "Čelić",
-    "naziv": "Spomen-park",
-    "nazivEn": "Memorial park",
-    "godina": "1954",
-    "vrsta": "spomen-park",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Village centre"
-  },
-  {
     "id": "sibosnica-spomen-ploca-palima-u-nob",
     "mesto": "Šibošnica",
     "naziv": "Spomen-ploča palima u NOB",
@@ -5293,23 +5278,6 @@
     "adresa": "Train station"
   },
   {
-    "id": "gornja-josavka-spomenik-na-mjestu-smrti-narodnog-h",
-    "mesto": "Gornja Jošavka",
-    "naziv": "Spomenik na mjestu smrti Mladena Stojanovića",
-    "nazivEn": "Mladen Stojanović Death Site Memorial",
-    "opis": {
-      "sh": "Obeležava mesto smrti narodnog heroja dr [Mladena Stojanovića](Q1263753).",
-      "en": "Marks the death site of National Hero Dr [Mladen Stojanović](Q1263753)."
-    },
-    "godina": "1963",
-    "posveta": [
-      "Q1263753"
-    ],
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Mlinska Rijeka"
-  },
-  {
     "id": "brezicani-spomen-ploca-palim-borcima-i-zrtvama-fas",
     "mesto": "Brezičani",
     "naziv": "Spomen-ploča NOB",
@@ -5340,11 +5308,14 @@
     "naziv": "Spomenik palim partizanskim borcima i članovima SKOJ-a",
     "nazivEn": "Monument to fallen Partisan fighters and SKOJ members",
     "godina": "1964",
-    "posveta": "palim partizanskim borcima i članovima SKOJ-a",
     "stanje": "ostecen",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Partisans' cemetery"
+    "adresa": "Partisans' cemetery",
+    "opis": {
+      "sh": "Centralno obeležje iz 1964. nalazi se na partizanskom delu groblja u Branešcima. Posvećeno je palim partizanima i skojevcima; tekst je jako izbledeo.",
+      "en": "The 1964 central memorial stands in the partisan section of Branešci cemetery. It commemorates fallen partisans and SKOJ members; the inscription is heavily faded."
+    }
   },
   {
     "id": "branesci-spomen-ploca-skupu-skoj-a",
@@ -5355,16 +5326,6 @@
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Elementary school"
-  },
-  {
-    "id": "gornja-josavka-spomenik-palim-borcima-i-zrtvama-fa",
-    "mesto": "Gornja Jošavka",
-    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
-    "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
-    "godina": "1985",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Dr. Mladen Stojanović elementary school"
   },
   {
     "id": "karac-spomen-ploca-sastanku-kpj-u-februaru-1941-go",
@@ -5447,10 +5408,13 @@
     "naziv": "Spomen-ploča Muhamedu Džudži",
     "nazivEn": "Plaque to commemorate Muhamed Džudža",
     "godina": "1956",
-    "posveta": "Muhamedu Džudži",
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Čekaluša 29"
+    "adresa": "Čekaluša 29",
+    "opis": {
+      "sh": "Prvobitna ploča Muhamedu Džudži iz 1956. u Čekaluši 29 zamenjena je novijom pločom. Godina 1956. odnosi se na prvobitno obeležje.",
+      "en": "The original 1956 plaque to Muhamed Džudža at Čekaluša 29 was replaced with a newer plaque. The year 1956 refers to the original memorial."
+    }
   },
   {
     "id": "nahorevo-spomen-ploca-formiranju-nahorevskog-parti",
@@ -5458,10 +5422,13 @@
     "naziv": "Spomen-ploča formiranju Nahorevskog partizanskog odreda",
     "nazivEn": "Nahorevo Partisan Detachment Formation Plaque",
     "godina": "1987",
-    "posveta": "formiranju Nahorevskog partizanskog odreda",
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Skakavac Planinarski Dom (former)"
+    "adresa": "Skakavac Planinarski Dom (former)",
+    "opis": {
+      "sh": "Ploča iz 1987. obeležava formiranje Nahorevskog partizanskog odreda kod nekadašnjeg planinarskog doma Skakavac. Dom je u ruševinama, a ploča je zabeležena 2016; današnji opstanak nije potvrđen.",
+      "en": "The 1987 plaque marks the formation of the Nahorevo Partisan Detachment at the former Skakavac mountain lodge. The lodge is ruined and the plaque was recorded in 2016; present survival is unconfirmed."
+    }
   },
   {
     "id": "sarajevo-trg-oslobodjenja-bista-ivana-krndelja",
@@ -5480,8 +5447,8 @@
     "naziv": "Spomen-ploča palim željezničarima",
     "nazivEn": "Plaque to fallen railway workers",
     "opis": {
-      "sh": "Posvećeno zaposlenima na železnici poginulim u NOB.",
-      "en": "Dedicated to railway workers who fell in the People’s Liberation Struggle."
+      "sh": "Ploča iz 1964. posvećena je železničarima poginulim u NOB-u, u glavnom ulazu zgrade u Musali 2. Možda je zamenila ploču iz 1950, ali identitet dveju ploča nije potvrđen.",
+      "en": "The 1964 plaque commemorates railway employees killed in WWII, inside the main entrance at Musala 2. It may have replaced a 1950 plaque, but identity of the two plaques is unconfirmed."
     },
     "godina": "1964",
     "vrsta": "spomen-ploca",
@@ -5718,20 +5685,6 @@
     "adresa": "Unknown University of Sarajevo property"
   },
   {
-    "id": "sarajevo-trg-oslobodjenja-spomen-ploca-predaji-sum",
-    "mesto": "Sarajevo (Trg Oslobođenja)",
-    "naziv": "Spomen-ploča samoupravljanju u šumarskom preduzeću",
-    "nazivEn": "Plaque to workers' self-management at the forestry company",
-    "opis": {
-      "sh": "Posvećeno predaji šumarskog preduzeća radničkom samoupravljanju.",
-      "en": "Dedicated to forestry company being handed over to workers' self-management."
-    },
-    "godina": "1960",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Titova 7, Forestry Administration (inside)"
-  },
-  {
     "id": "sarajevo-marijin-dvor-spomen-ploca-djuri-djakovicu",
     "mesto": "Sarajevo (Marijin Dvor)",
     "naziv": "Spomen-ploča Đuri Đakoviću",
@@ -5743,43 +5696,6 @@
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Hiseta, courtyard of \"Veletrgovina\" (former)"
-  },
-  {
-    "id": "sarajevo-trg-oslobodjenja-spomen-ploca-povodom-10",
-    "mesto": "Sarajevo (Trg Oslobođenja)",
-    "naziv": "Spomen-ploča povodom 10 godina radničkog samoupravljanja",
-    "nazivEn": "Plaque commemorating 10 years of workers' self-management",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Radićeva 8"
-  },
-  {
-    "id": "sarajevo-trg-oslobodjenja-spomen-ploca-povodom-10-2",
-    "mesto": "Sarajevo (Trg Oslobođenja)",
-    "naziv": "Spomen-ploča samoupravljanju u „Oslobođenju“",
-    "nazivEn": "Plaque to workers' self-management at Oslobođenje",
-    "opis": {
-      "sh": "Posvećeno desetogodišnjici radničkog samoupravljanja u „Oslobođenju“.",
-      "en": "Dedicated to ten years of workers' self-management at Oslobođenje."
-    },
-    "godina": "1960",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Titova 13, Oslobođenje offices (former), inside"
-  },
-  {
-    "id": "sarajevo-marijin-dvor-spomen-ploca-radnickom-samou",
-    "mesto": "Sarajevo (Marijin Dvor)",
-    "naziv": "Spomen-ploča radničkom samoupravljanju u Elektrodistribuciji",
-    "nazivEn": "Plaque to workers' self-management at Elektrodistribucija",
-    "opis": {
-      "sh": "Posvećeno radničkom samoupravljanju u Elektrodistribuciji „Vladimir Perić Valter“.",
-      "en": "Dedicated to workers' self-management of Elektrodistribucija \"Vladimir Perić Valter\"."
-    },
-    "godina": "1950",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Hiseta bb., Elektrodistribucija \"Vladimir Perić Valter\" (former)"
   },
   {
     "id": "sarajevo-bista-alije-hodzica",
@@ -19335,7 +19251,10 @@
     "autor": "Arfan Hozić",
     "posveta": "32 pala borca iz Zeničkog partizanskog odreda",
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "slika": "slike/bez-lokacije/smetovi-spomenik-32-pala-borca-iz-zenickog-partiza.webp",
+    "slikaPotpis": "Soman, Public domain",
+    "slikaOdnos": 0.749
   },
   {
     "id": "zenica-spomenik-196-zeljezara-koji-su-ucestvovali",
@@ -34191,15 +34110,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "ljubacevo-spomenik-palim-borcima-i-zrtvama-fasisti",
-    "mesto": "Ljubačevo",
-    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
-    "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
-    "godina": "1983",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "jagare-spomenik-v-bataljonu-3-korpusa-i-boravku-dj",
     "mesto": "Jagare",
     "naziv": "Spomenik V bataljonu 3. korpusa i Đuri Pucaru Starom",
@@ -35086,16 +34996,6 @@
     "adresa": "Počivala, Mrazovac, opština Bužim."
   },
   {
-    "id": "tasovcici-partizansko-groblje",
-    "mesto": "Tasovčići",
-    "naziv": "Partizansko groblje",
-    "nazivEn": "Partisans' cemetery",
-    "godina": "1964",
-    "autor": "Smiljan Klaić",
-    "vrsta": "groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "surmanci-spomenik-zrtvama-fasistickog-terora",
     "mesto": "Šurmanci",
     "naziv": "Spomenik žrtvama fašističkog terora",
@@ -35108,18 +35008,28 @@
   {
     "id": "gabela-spomen-kosturnica-zrtava-fasistickog-terora",
     "mesto": "Gabela",
-    "naziv": "Spomen-kosturnica žrtava fašističkog terora",
-    "nazivEn": "Memorial ossuary of Victims of Fascist Terror",
+    "naziv": "Spomen-kosturnica kod jame",
+    "nazivEn": "Memorial Ossuary by the Pit",
     "vrsta": "groblje",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "adresa": "Lokalitet Opuzen kod Gabele, uz jamu; tačan položaj nije potvrđen.",
+    "opis": {
+      "sh": "Istorijski zapis kosturnice žrtava fašističkog terora kod jame, na lokalitetu Opuzen u blizini Gabele. Tačan položaj nije potvrđen; razlikuje se od kosturnice na pravoslavnom groblju.",
+      "en": "A historical record of an ossuary for victims of fascist terror by a pit at the Opuzen site near Gabela. Its exact location is unconfirmed; it is separate from the ossuary at the Orthodox cemetery."
+    }
   },
   {
     "id": "gabela-spomen-kosturnica-zrtava-fasistickog-terora-2",
     "mesto": "Gabela",
-    "naziv": "Spomen-kosturnica žrtava fašističkog terora",
-    "nazivEn": "Memorial ossuary of Victims of Fascist Terror",
+    "naziv": "Spomen-kosturnica na pravoslavnom groblju",
+    "nazivEn": "Orthodox Cemetery Memorial Ossuary",
     "vrsta": "groblje",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "adresa": "Groblje uz pravoslavnu crkvu u Gabeli.",
+    "opis": {
+      "sh": "Kosturnica na groblju uz pravoslavnu crkvu čuva posmrtne ostatke žrtava prenete 1946. Obnovljena je 2008, uz dodat krst i nove natpise.",
+      "en": "The ossuary at the cemetery beside the Orthodox church holds victims’ remains transferred in 1946. It was restored in 2008, with a cross and new inscriptions added."
+    }
   },
   {
     "id": "prebilovci-spomenik-narodnom-heroju-danilu-soldati",
@@ -35151,23 +35061,18 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "coralici-zajednicka-grobnica-palih-boraca",
-    "mesto": "Ćoralići",
-    "naziv": "Zajednička grobnica palih boraca",
-    "nazivEn": "Collective grave of fallen fighters",
-    "godina": "1969",
-    "autor": "Vladimir Herljević",
-    "vrsta": "groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "coralici-spomenik-zrtvama-fasistickog-terora",
     "mesto": "Ćoralići",
     "naziv": "Spomenik žrtvama fašističkog terora",
     "nazivEn": "Monument to Victims of Fascist Terror",
     "godina": "1981",
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "adresa": "Selište, Ćoralići.",
+    "opis": {
+      "sh": "Spomenik iz 1981. na Selištu zamenjen je obnovljenim obeležjem 2018. To nije isto mesto kao grobnica u zaseoku Abdići.",
+      "en": "The 1981 memorial at Selište was replaced with a renewed memorial in 2018. It is separate from the grave in the hamlet of Abdići."
+    }
   },
   {
     "id": "coralici-zajednicka-grobnica-zrtava-fasistickog-te",
@@ -35176,7 +35081,12 @@
     "nazivEn": "Collective grave of Victims of Fascist Terror",
     "godina": "1981",
     "vrsta": "groblje",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "adresa": "Abdići, odnosno područje Begovih kafana kod Ćoralića; tačan položaj nije potvrđen.",
+    "opis": {
+      "sh": "Obeležje iz 1981. u zaseoku Abdići podseća na šezdesetoro civila ubijenih u avgustu 1941. Obnovljeno je 2017; tačna tačka na padini nije potvrđena.",
+      "en": "The 1981 memorial in the hamlet of Abdići commemorates sixty civilians killed in August 1941. It was renovated in 2017; its exact position on the slope is unconfirmed."
+    }
   },
   {
     "id": "cehici-zajednicka-grobnica-zrtava-fasistickog-tero",
@@ -35203,7 +35113,11 @@
     "nazivEn": "Ahmet Kobić memorial hall",
     "godina": "1979",
     "vrsta": "spomen-kuca",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "opis": {
+      "sh": "Spomen-dom Ahmeta Kobića iz 1979. i dalje postoji kao zgrada, ali više ne obavlja memorijalnu funkciju. Nije potvrđena postavka otvorena za posetioce.",
+      "en": "The 1979 Ahmet Kobić memorial hall survives as a building but no longer serves a memorial function. A display open to visitors is unconfirmed."
+    }
   },
   {
     "id": "sibosnica-spomenik-zrtvama-fasistickog-terora",
@@ -35211,7 +35125,12 @@
     "naziv": "Spomenik žrtvama fašističkog terora",
     "nazivEn": "Monument to Victims of Fascist Terror",
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "adresa": "Unutar spomen-parka u Šibošnici; tačka pojedinačnog spomenika nije potvrđena.",
+    "opis": {
+      "sh": "Spomenik unutar parka u Šibošnici posvećen je 128 žrtava fašističkog terora. Razlikuje se od obližnjeg memorijala palim borcima.",
+      "en": "The monument in Šibošnica memorial park commemorates 128 victims of fascist terror. It is separate from the nearby memorial to fallen fighters."
+    }
   },
   {
     "id": "sibosnica-spomen-obiljezje-palim-borcima-nor-a",
@@ -35220,7 +35139,12 @@
     "nazivEn": "Memorial to fallen fighters of the NOR",
     "stanje": "ostecen",
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "adresa": "Unutar spomen-parka u Šibošnici; tačka pojedinačnog memorijala nije potvrđena.",
+    "opis": {
+      "sh": "Memorijal unutar parka u Šibošnici posvećen je 101 palom borcu. Podatak o ranijoj kosturnici pre 1967. ne potvrđuje da je današnja celina iz iste godine.",
+      "en": "The memorial in Šibošnica park commemorates 101 fallen fighters. A record of an earlier ossuary before 1967 does not establish the construction date of the present structure."
+    }
   },
   {
     "id": "blizanci-spomen-kuca-ivana-krndelja",
@@ -38417,15 +38341,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "rujnica-zajednicka-grobnica-110-zrtava-fasistickog",
-    "mesto": "Rujnica",
-    "naziv": "Zajednička grobnica 110 žrtava fašističkog terora",
-    "nazivEn": "Collective grave of 110 Victims of Fascist Terror",
-    "godina": "1968",
-    "vrsta": "groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "crnaja-spomenik-nob",
     "mesto": "Crnaja",
     "naziv": "Spomenik NOB",
@@ -38450,7 +38365,12 @@
     "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
     "godina": "1982",
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "adresa": "Ispred lokalne prodavnice, severno od crkve u Popovcu; stara tačka crkvenog dvorišta nije današnji položaj.",
+    "opis": {
+      "sh": "Spomenik iz 1982. posvećen je palim borcima i žrtvama fašističkog terora. Iz crkvenog dvorišta premešten je ispred lokalne prodavnice između 2013. i 2019; današnja tačna tačka nije potvrđena.",
+      "en": "The 1982 memorial commemorates fallen fighters and victims of fascist terror. It was moved from the churchyard to the local shop between 2013 and 2019; its exact present position is unconfirmed."
+    }
   },
   {
     "id": "milosevo-spomen-cesma-narodnom-heroju-milosu-dujic",
@@ -38463,21 +38383,13 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "brezicani-zajednicka-grobnica-zrtava-fasistickog-t",
-    "mesto": "Brezičani",
-    "naziv": "Zajednička grobnica žrtava fašističkog terora",
-    "nazivEn": "Collective grave of Victims of Fascist Terror",
-    "vrsta": "groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "lipovac-spomenik-27-partizanskih-boraca-poginulih",
     "mesto": "Lipovac",
     "naziv": "Spomenik palim partizanima",
     "nazivEn": "Fallen Partisans Monument",
     "opis": {
-      "sh": "Posvećeno dvadesetsedmorici partizanskih boraca poginulih na ovom mestu 1942. godine.",
-      "en": "Dedicated to 27 Partisan fighters killed at this site in 1942."
+      "sh": "Istorijski zapis obeležja dvadeset sedmorici partizana poginulih 1942. Podignuto je pre 1966. uz granicu sa opštinom Kotor Varoš; odnos prema kasnijim spomenicima Lipovca nije potvrđen.",
+      "en": "A historical record of a memorial to twenty-seven partisans killed in 1942. It was erected before 1966 near the Kotor Varoš municipal boundary; its relationship to later Lipovac memorials is unconfirmed."
     },
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
@@ -38488,8 +38400,8 @@
     "naziv": "Spomenik palim partizanima",
     "nazivEn": "Fallen Partisans Monument",
     "opis": {
-      "sh": "Posvećeno dvadesetsedmorici partizanskih boraca poginulih 1942. godine.",
-      "en": "Dedicated to 27 Partisan fighters killed in 1942."
+      "sh": "Obeležje dvadeset sedmorici poginulih partizana kod nekadašnjeg Doma kulture zamenilo je raniji spomenik. Katalog navodi gradnju između 1969. i 1985. i zamenu 1988; identitet sa zasebno lociranim obeležjem nije potvrđen.",
+      "en": "The memorial to twenty-seven fallen partisans by the former community hall replaced an earlier monument. The catalogue records construction between 1969 and 1985 and replacement in 1988; identity with the separately located memorial is unconfirmed."
     },
     "godina": "1969-1985",
     "vrsta": "spomen-obelezje",
@@ -41496,5 +41408,33 @@
       "en": "The memorial near Kožvarice commemorates approximately 500 victims of fascist terror killed in 1941. The original 1961 memorial was replaced in 1979 and renovated in 2010; its exact location in Koprivnica forest is unconfirmed."
     },
     "adresa": "Kožvarice, Koprivnička šuma između Bugojna i Kupresa; tačan položaj nije potvrđen."
+  },
+  {
+    "id": "prebilovci-spomen-kosturnica-zrtava-fasistickog-te",
+    "mesto": "Prebilovci",
+    "naziv": "Nekadašnja kosturnica žrtava sa Morinog otoka",
+    "nazivEn": "Former Morin Otok Victims Ossuary",
+    "godina": "1960-ih",
+    "vrsta": "groblje",
+    "drzava": "Bosnia and Herzegovina",
+    "adresa": "Prebilovačko groblje, južno od crkve; mesto pojedinačne kosturnice nije potvrđeno.",
+    "opis": {
+      "sh": "Kosturnica iz 1960-ih čuvala je posmrtne ostatke žrtava sa Morinog otoka, prenete u crkvu 1991. Tačno mesto nekadašnje kosturnice unutar prebilovačkog groblja nije potvrđeno.",
+      "en": "The 1960s ossuary held the remains of victims from Morin Otok, transferred to the church in 1991. The exact position of the former ossuary within Prebilovci cemetery is unconfirmed."
+    }
+  },
+  {
+    "id": "pecigrad-spomenik-na-prvobitnom-mjestu-sahrane-nar",
+    "mesto": "Pećigrad",
+    "naziv": "Obeležje prvobitnog groba Ahmeta Fetahagića",
+    "nazivEn": "Ahmet Fetahagić Original Grave Marker",
+    "godina": "pre 1978",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina",
+    "adresa": "Muslimansko groblje u Pećigradu; tačno mesto prvobitnog groba nije potvrđeno.",
+    "opis": {
+      "sh": "Obeležava prvobitno mesto sahrane narodnog heroja Ahmeta Fetahagića na muslimanskom groblju. Tačan položaj nije potvrđen; prethodna tačka pripadala je drugom obeležju, posvećenom II muslimanskoj brigadi.",
+      "en": "Marks the original burial place of People’s Hero Ahmet Fetahagić in the Muslim cemetery. Its exact position is unconfirmed; the former point belonged to another memorial, dedicated to the Second Muslim Brigade."
+    }
   }
 ]

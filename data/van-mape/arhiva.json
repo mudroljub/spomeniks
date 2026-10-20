@@ -3114,6 +3114,10 @@
     },
     "mesto": "Jošavka",
     "naziv": "Spomenik mjestu zarobljavanja Mladena Stojanovića",
+    "opis": {
+      "sh": "Nekadašnje obeležje u crkvenoj porti označavalo je zarobljavanje [Mladena Stojanovića](Q1263753). Uklonjeno je; istorijski opis iz 1969. već je predlagao uklanjanje zbog stanja i grešaka u natpisu.",
+      "en": "The former memorial in the churchyard marked the capture of [Mladen Stojanović](Q1263753). It was removed; a 1969 historical account had already proposed removal because of its condition and inscription errors."
+    },
     "godina": "pre 1968",
     "posveta": [
       "Q1263753"
@@ -4612,7 +4616,10 @@
     "adresa": "Kralja I Petra Oslobodioca",
     "naziv": "Spomen-dom Druge proleterske brigade",
     "nazivEn": "Memorial hall of the 2nd Proletarian Brigade",
-    "posveta": "Druge proleterske brigade",
+    "opis": {
+      "sh": "Nekadašnji spomen-dom Druge proleterske brigade danas nosi ime Dom kulture „Filip Višnjić“. Muzejska zbirka preneta je u Niš; ovde više nije potvrđena stalna memorijalna postavka.",
+      "en": "The former memorial hall of the Second Proletarian Brigade is now the Filip Višnjić Cultural Centre. Its museum collection was transferred to Niš; a permanent memorial display is no longer confirmed here."
+    },
     "stanje": "uklonjen",
     "vrsta": "spomen-kuca",
     "drzava": "Bosnia and Herzegovina"
@@ -4654,8 +4661,11 @@
     "adresa": "Elementary school",
     "naziv": "Bista Jusufa Sabljakovića",
     "nazivEn": "Bust of Jusuf Sabljaković",
+    "opis": {
+      "sh": "Bista iz 1973. oštećena je vatrenim oružjem tokom rata 1992-1995. U depou je zabeležena 2018, dok je čekala obnovu; povratak na javno mesto nije potvrđen.",
+      "en": "The 1973 bust was damaged by gunfire during the 1992-1995 war. It was recorded in storage awaiting restoration in 2018; its return to a public location is unconfirmed."
+    },
     "godina": "1973",
-    "posveta": "Jusufa Sabljakovića",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -4666,6 +4676,10 @@
     "adresa": "Elementary school; Outside school, beside playground",
     "naziv": "Spomen-ploča palim borcima",
     "nazivEn": "Plaque to commemorate fallen fighters",
+    "opis": {
+      "sh": "Ploča palim borcima iz 1985. zabeležena je 2020. odložena napolju, pored školskog igrališta. Nije potvrđeno da je ponovo postavljena.",
+      "en": "The 1985 plaque to fallen fighters was recorded lying outside beside the school playground in 2020. Reinstallation is unconfirmed."
+    },
     "godina": "1985",
     "stanje": "uklonjen",
     "vrsta": "spomen-ploca",
@@ -4779,8 +4793,11 @@
     "adresa": "Elementary school",
     "naziv": "Bista Novaka Pivaševića",
     "nazivEn": "Bust of NH Novak Pivašević",
+    "opis": {
+      "sh": "Bista iz 1969. uklonjena je pre 2018. Iako je pominjano čuvanje u depou, prilikom terenskog obilaska u februaru 2025. nije mogla biti pronađena.",
+      "en": "The 1969 bust was removed before 2018. Although reportedly kept in storage, it could not be located during a site visit in February 2025."
+    },
     "godina": "1969",
-    "posveta": "Novaka Pivaševića",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -4792,24 +4809,6 @@
     "naziv": "Spomenik NOB",
     "nazivEn": "Monument to the NOB",
     "godina": "pre 1968",
-    "stanje": "uklonjen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "donja-josavka-spomenik-na-mjestu-zarobljavanja-nar",
-    "mesto": "Donja Jošavka",
-    "adresa": "Courtyard of Orthodox church",
-    "naziv": "Spomenik zarobljavanju Mladena Stojanovića",
-    "nazivEn": "Mladen Stojanović Capture Memorial",
-    "opis": {
-      "sh": "Obeležava mesto zarobljavanja narodnog heroja dr [Mladena Stojanovića](Q1263753).",
-      "en": "Marks the site where National Hero Dr [Mladen Stojanović](Q1263753) was captured."
-    },
-    "godina": "pre 1968",
-    "posveta": [
-      "Q1263753"
-    ],
     "stanje": "uklonjen",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
@@ -4884,10 +4883,14 @@
     "adresa": "Alipašina 41; History Museum of Bosnia & Herzegovina",
     "naziv": "Statua Đure Pucara Starog",
     "nazivEn": "Statue of Đuro Pucar Stari",
+    "opis": {
+      "sh": "Statua Vena Jerkovića iz 1984. uklonjena je sa prvobitnog mesta na Alipašinoj i preneta u Historijski muzej BiH. U muzejskoj bašti čuva se kao uklonjeni spomenik, a ne kao ponovo postavljena javna statua.",
+      "en": "Veno Jerković’s 1984 statue was removed from its original location on Alipašina Street and transferred to the History Museum of Bosnia and Herzegovina. It is kept in the museum garden as a removed monument, rather than a reinstated public statue."
+    },
     "godina": "1984",
     "autor": "Veno Jerković",
     "stanje": "uklonjen",
-    "vrsta": "spomen-obelezje",
+    "vrsta": "statua",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -4934,8 +4937,8 @@
     "naziv": "Spomen-ploča palim učenicima i nastavnicima",
     "nazivEn": "Plaque to fallen students and teachers",
     "opis": {
-      "sh": "Posvećeno bivšim učenicima i nastavnicima palim u NOB.",
-      "en": "Dedicated to former students and teachers who fell in the People’s Liberation Struggle."
+      "sh": "Ploča iz 1955. palim učenicima i nastavnicima prema katalogu i dalje je na izvornom mestu u Gimnaziji Obala, ali je zaklonjena stalnom postavkom. Nije dostupna kao vidljivo spomen-obeležje za posetioce.",
+      "en": "According to the catalogue, the 1955 plaque to fallen students and teachers remains in its original place at Gimnazija Obala but is concealed by a permanent display. It is not available as a visible memorial to visitors."
     },
     "godina": "1955",
     "stanje": "uklonjen",
@@ -4948,9 +4951,12 @@
     "adresa": "Obala Kulina Bana 3, Gimnazija Obala; Stored in school basement",
     "naziv": "Bista Pere Kosorića",
     "nazivEn": "Bust of NH Pero Kosorić",
+    "opis": {
+      "sh": "Bista Pere Kosorića iz 1981, delo Vladimira Herljevića, čuva se u podrumu Gimnazije Obala. Prvobitni postament više ne postoji; povratak biste u javni prostor nije potvrđen.",
+      "en": "Vladimir Herljević’s 1981 bust of Pero Kosorić is kept in the basement of Gimnazija Obala. The original pedestal no longer exists; return to public display is unconfirmed."
+    },
     "godina": "1981",
     "autor": "Vladimir Herljević",
-    "posveta": "Pere Kosorića",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -4976,6 +4982,10 @@
     "adresa": "Gradski park; Vraca Memorial Park",
     "naziv": "Spomen-grobnica 8 narodnih heroja",
     "nazivEn": "Memorial grave of 8 National Heroes",
+    "opis": {
+      "sh": "Nekadašnja grobnica osmorice narodnih heroja iz 1949. nalazila se u Velikom parku. Posmrtni ostaci preneti su na Vraca najkasnije 1981, gde je uređena nova memorijalna celina.",
+      "en": "The former 1949 grave of eight People’s Heroes stood in Veliki Park. Their remains were transferred to Vraca by 1981, where a new memorial complex was created."
+    },
     "godina": "1949",
     "stanje": "uklonjen",
     "vrsta": "groblje",
@@ -12874,6 +12884,25 @@
     "autor": "Milovan Krstić",
     "stanje": "uklonjen",
     "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "bivolje-brdo-spomen-obiljezje-civilima-koje-su-ubi",
+    "koordinate": {
+      "lat": 43.146834,
+      "lng": 17.78559
+    },
+    "priblizno": true,
+    "mesto": "Bivolje Brdo",
+    "naziv": "Spomen-obilježje civilima koje su ubile ustaške snage",
+    "nazivEn": "Memorial to civilians killed by Ustasha forces",
+    "opis": {
+      "sh": "Spomenik iz 1961. kod jame uništen je 1992; ostali su platforma i razbacani delovi. Tačan položaj ostataka nije potvrđen, pa prethodna procenjena tačka nije predstavljena kao precizna lokacija.",
+      "en": "The 1961 memorial by the pit was destroyed in 1992, leaving a platform and scattered fragments. The exact position of the remains is unconfirmed, so the former estimated point is not presented as an exact location."
+    },
+    "godina": "1961",
+    "stanje": "rusevine",
+    "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
   }
 ]
