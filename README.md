@@ -24,7 +24,6 @@ POTPUNOST PODATKA:
 - popunjavati druge atribute ([dopuna podataka](docs/DOPUNA_PODATAKA.md)). prioritet su: autor, posveta, wiki...
 - uklanjati duplikate i greške koji su se uvukli u bazu
     - najsumnjiviji su podaci za bosnu. posebno stotine i hiljade njih bez poznatog statusa, vrste i lokacije. putnike i korisnike aplikacije to može ozbiljno da zavede. smisli kao to rešiti. možda da uvedemo kriterije za pouzdanost podataka?
-- Simbolika u kamenu je spomenik, a Spomenički kompleks Bela Crkva je spomen-park. sve su se ikonice u tom kompleksu preklopile. treba ih malo odaljiti kada imaju istu ili veoma sliku lokaciju.
 
 UI
 - možda ukinuti približno lociranje, pravi više štete nego koristi. ili ga ostaviti samo zajedno sa drugim dokazima (fotografija, adresa i slično)?

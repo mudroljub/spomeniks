@@ -26,6 +26,12 @@ const dajIkonicu = ({slika, sirina, visina}, razmera, klasa, [dx, dy] = [0, 0], 
 const imaMis = matchMedia('(hover: hover)').matches
 
 const razmakKruga = 14
+const rasporediUKrug = (grupa, pomaci, razmak = razmakKruga, uKrugu = 4) => grupa.length > 1 && grupa.forEach((s, i) => {
+  const ugao = 2 * Math.PI * i / grupa.length - Math.PI / 2
+  const poluprecnik = razmak * Math.max(1, grupa.length / uKrugu)
+  pomaci.set(s, [Math.round(poluprecnik * Math.cos(ugao)), Math.round(poluprecnik * Math.sin(ugao))])
+})
+
 /** @param {import('../data/tipovi').Spomenik[]} spomenici */
 export const pomaciPribliznih = spomenici => {
   const grupe = new Map()
@@ -34,11 +40,45 @@ export const pomaciPribliznih = spomenici => {
     grupe.set(kljuc, [...grupe.get(kljuc) || [], s])
   })
   const pomaci = new Map()
-  grupe.forEach(grupa => grupa.length > 1 && grupa.forEach((s, i) => {
-    const ugao = 2 * Math.PI * i / grupa.length - Math.PI / 2
-    const poluprecnik = razmakKruga * Math.max(1, grupa.length / 4)
-    pomaci.set(s, [Math.round(poluprecnik * Math.cos(ugao)), Math.round(poluprecnik * Math.sin(ugao))])
-  }))
+  grupe.forEach(grupa => rasporediUKrug(grupa, pomaci))
+  return pomaci
+}
+
+const najbliziMetara = 30
+const razmakBliskih = 24 // oko širine ikonice, da se tačni spomenici ne preklapaju
+const metaraPoStepenu = 111320
+/**
+ * Tačni spomenici na istoj ili skoro istoj tački (npr. delovi jednog kompleksa) razmiču se u krug, da se ikonice ne preklope.
+ * @param {import('../data/tipovi').Spomenik[]} spomenici
+ */
+export const pomaciBliskih = spomenici => {
+  const tacni = spomenici.filter(s => !s.priblizno)
+  const korak = najbliziMetara / metaraPoStepenu
+  const celija = (lat, lng) => `${Math.floor(lat / korak)},${Math.floor(lng / korak)}`
+  const mreza = new Map()
+  tacni.forEach((s, i) => {
+    const kljuc = celija(s.koordinate.lat, s.koordinate.lng)
+    mreza.set(kljuc, [...mreza.get(kljuc) || [], i])
+  })
+  const roditelj = tacni.map((_, i) => i)
+  const koren = i => roditelj[i] === i ? i : (roditelj[i] = koren(roditelj[i]))
+  tacni.forEach((s, i) => {
+    const {lat, lng} = s.koordinate
+    const [y, x] = celija(lat, lng).split(',').map(Number)
+    for (let dy = -1; dy <= 1; dy++) for (let dx = -1; dx <= 1; dx++) {
+      (mreza.get(`${y + dy},${x + dx}`) || []).forEach(j => {
+        if (j <= i) return
+        const drugi = tacni[j].koordinate
+        const sever = (drugi.lat - lat) * metaraPoStepenu
+        const istok = (drugi.lng - lng) * metaraPoStepenu * Math.cos(lat * Math.PI / 180)
+        if (Math.hypot(sever, istok) <= najbliziMetara) roditelj[koren(j)] = koren(i)
+      })
+    }
+  })
+  const grupe = new Map()
+  tacni.forEach((s, i) => grupe.set(koren(i), [...grupe.get(koren(i)) || [], s]))
+  const pomaci = new Map()
+  grupe.forEach(grupa => rasporediUKrug(grupa, pomaci, razmakBliskih, 3))
   return pomaci
 }
 

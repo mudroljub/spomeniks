@@ -3,7 +3,7 @@ import Slika from './komponente/Slika.js'
 import Pretraga from './komponente/Pretraga.js'
 import Slajder from './komponente/Slajder.js'
 import Najblizi from './komponente/Najblizi.js'
-import Marker, {pomaciPribliznih} from './klase/Marker.js'
+import Marker, {pomaciPribliznih, pomaciBliskih} from './klase/Marker.js'
 import './komponente/PunEkran.js'
 import './komponente/Jezik.js'
 import './komponente/Legenda.js'
@@ -187,7 +187,9 @@ ucitajSpomenike('data/spomenici-istaknuti.json')
     return nacrtano.then(() => ucitajSpomenike('data/spomenici-ostali.json')).then(spomenici => {
       dopuni(spomenici)
       const pomaci = pomaciPribliznih(spomenici)
-      const nove = spomenici.map(spomenik => praviStavku(spomenik, pomaci.get(spomenik)))
+      const bliski = pomaciBliskih([...prve.map(stavka => stavka.spomenik), ...spomenici])
+      prve.forEach(({spomenik, marker}) => { if (bliski.has(spomenik)) marker.pomak = bliski.get(spomenik) })
+      const nove = spomenici.map(spomenik => praviStavku(spomenik, pomaci.get(spomenik) ?? bliski.get(spomenik)))
       sveStavke = [...prve, ...nove]
       potpuniPodaci = true
       osveziRutu()
