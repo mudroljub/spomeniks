@@ -4,7 +4,7 @@ import Raspored from '../utils/raspored.js'
 import {vaznostSpomenika} from '../utils/vaznost.js'
 
 const konfigMape = {
-  zoom: 8,
+  zoom: 7, // pri otvaranju se vide samo istaknuti spomenici
   minZoom: 6,
   center: [44.341667, 17.269444],
   scrollWheelZoom: false,

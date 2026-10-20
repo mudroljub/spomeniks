@@ -103,8 +103,9 @@ const render = (stavke, suzeno, imaUslova) => {
 // rad bez signala
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').then(pratiIzdanje).catch(console.error)
 
-const ucitaj = putanja => fetch(putanja)
+const procitaj = (putanja, odgovor) => odgovor
   .then(res => res.ok ? res.json() : Promise.reject(new Error(`${putanja}: HTTP ${res.status}`)))
+const ucitaj = putanja => procitaj(putanja, fetch(putanja))
 
 // bez autora, posveta ili tura spomenici se ipak prikazuju, samo bez tih dodataka
 const ucitajDodatak = (putanja, prazno) => ucitaj(putanja).catch(greska => {
@@ -114,9 +115,10 @@ const ucitajDodatak = (putanja, prazno) => ucitaj(putanja).catch(greska => {
 
 // prvo stizu spomenici vidljivi na pocetnim zumovima, da se mapa nacrta odmah, a ostali posle (alati/zapis.py);
 // priblizni su svi u drugom delu, pa im se pomaci racunaju zajedno
-const ostalo = ucitaj('data/spomenici-ostali.json')
-// Zahtev pocinje odmah, a njegova greska se obradjuje i ako prvi deo jos nije stigao.
-ostalo.catch(() => {})
+// Veliki drugi deo se preuzima odmah, ali cita tek posle prvog crtanja, da ga ne usporava.
+const ostaloOdgovor = fetch('data/spomenici-ostali.json')
+ostaloOdgovor.catch(() => {})
+const posleCrtanja = () => new Promise(resi => requestAnimationFrame(() => setTimeout(resi)))
 let sveStavke = []
 let definicijeTura = []
 let spremni = false
@@ -140,7 +142,7 @@ ucitaj('data/spomenici-istaknuti.json')
     ruta.postavi(prve, definicijeTura, false)
     const pretraga = document.body.appendChild(new Pretraga(prve, render))
     const otvoren = otvoriIzLinka(prve)
-    return ostalo.then(spomenici => {
+    return posleCrtanja().then(() => procitaj('data/spomenici-ostali.json', ostaloOdgovor)).then(spomenici => {
       const pomaci = pomaciPribliznih(spomenici)
       const nove = spomenici.map(spomenik => praviStavku(spomenik, pomaci.get(spomenik)))
       sveStavke = [...prve, ...nove]
