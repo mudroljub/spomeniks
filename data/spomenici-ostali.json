@@ -78,22 +78,6 @@
     "drzava": "Croatia"
   },
   {
-    "id": "zale-cemetery-internees-nob-fighters",
-    "koordinate": {
-      "lat": 46.0732429,
-      "lng": 14.531502
-    },
-    "mesto": "Ljubljana (Žale)",
-    "slika": "slike/spomenici/zale-cemetery-internees-nob-fighters.webp",
-    "slikaOdnos": 1.008,
-    "naziv": "Spomenik internirancem in borcem NOB",
-    "nazivEn": "Monument to Internees & NOB Fighters",
-    "godina": "1965",
-    "autor": "Janez Boljka",
-    "vrsta": "spomen-groblje",
-    "drzava": "Slovenia"
-  },
-  {
     "id": "vojsko",
     "koordinate": {
       "lat": 46.0488128,
@@ -109,23 +93,6 @@
     "autor": "Edvard Ravnikar",
     "vrsta": "spomen-groblje",
     "drzava": "Slovenia"
-  },
-  {
-    "id": "varazdin-cemetery",
-    "koordinate": {
-      "lat": 46.3088597,
-      "lng": 16.3233525
-    },
-    "googleCid": "6782396760263132789",
-    "mesto": "Varaždin (groblje)",
-    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BA%D0%BE%D1%81%D1%82%D1%83%D1%80%D0%BD%D0%B8%D1%86%D0%B0_%D1%83_%D0%92%D0%B0%D1%80%D0%B0%D0%B6%D0%B4%D0%B8%D0%BD%D1%83",
-    "slika": "slike/spomenici/varazdin-cemetery.webp",
-    "slikaOdnos": 1.429,
-    "naziv": "Spomen-kosturnica u Varaždinu",
-    "nazivEn": "Memorial Ossuary for Fallen Fighters",
-    "godina": "1961",
-    "vrsta": "spomen-groblje",
-    "drzava": "Croatia"
   },
   {
     "id": "novi-sad-cemetery",
@@ -196,22 +163,6 @@
     "drzava": "Kosovo"
   },
   {
-    "id": "golovec-hill-in-celje",
-    "koordinate": {
-      "lat": 46.242265,
-      "lng": 15.2706567
-    },
-    "googleCid": "5716175398451445271",
-    "mesto": "Celje (Golovec)",
-    "slika": "slike/spomenici/golovec-hill-in-celje.webp",
-    "slikaOdnos": 1.626,
-    "naziv": "Grobišče borcev NOB",
-    "nazivEn": "Cemetery to NOB Fighters",
-    "godina": "1961",
-    "vrsta": "spomen-groblje",
-    "drzava": "Slovenia"
-  },
-  {
     "id": "butel-cemetery-graveyard-fallen-fighters",
     "koordinate": {
       "lat": 42.0378158,
@@ -261,25 +212,6 @@
       "Q3299011"
     ],
     "stanje": "ostecen",
-    "vrsta": "spomen-groblje",
-    "drzava": "Croatia"
-  },
-  {
-    "id": "mirogoj-cemetery-tomb-people-s",
-    "koordinate": {
-      "lat": 45.8390867,
-      "lng": 15.9839664
-    },
-    "googleCid": "15904522372093608343",
-    "mesto": "Zagreb (Mirogoj)",
-    "wiki": "https://sh.wikipedia.org/wiki/Grobnica_narodnih_heroja_u_Zagrebu",
-    "slika": "slike/spomenici/mirogoj-cemetery-tomb-people-s.webp",
-    "slikaOdnos": 1.498,
-    "slikaPotpis": "SpeedyGonsales, CC BY-SA 3.0",
-    "naziv": "Grobnica narodnih heroja u Zagrebu",
-    "nazivEn": "Tomb of the People's Heroes",
-    "godina": "1968",
-    "autor": "Đuro Kavurić",
     "vrsta": "spomen-groblje",
     "drzava": "Croatia"
   },
@@ -335,38 +267,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "smoljana",
-    "koordinate": {
-      "lat": 44.6103857,
-      "lng": 16.4145707
-    },
-    "googleCid": "17967285053151777913",
-    "mesto": "Smoljana",
-    "slika": "slike/spomenici/smoljana.webp",
-    "slikaOdnos": 1.404,
-    "naziv": "Spomen-kosturnica",
-    "nazivEn": "Memorial ossuary",
-    "godina": "1974",
-    "autor": "Nebojša Latinović & Enver Kudić",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "bor-ossuary-at-new",
-    "koordinate": {
-      "lat": 44.0468875,
-      "lng": 22.1135996
-    },
-    "mesto": "Bor",
-    "slika": "slike/spomenici/bor-ossuary-at-new.webp",
-    "slikaOdnos": 1.444,
-    "naziv": "Spomen-kosturnica na Novom groblju",
-    "nazivEn": "Memorial Ossuary at the New Cemetery",
-    "godina": "1968",
-    "vrsta": "spomen-groblje",
-    "drzava": "Serbia"
-  },
-  {
     "id": "veliko-palanciste",
     "koordinate": {
       "lat": 45.0365045,
@@ -401,23 +301,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "seliste",
-    "koordinate": {
-      "lat": 43.285571,
-      "lng": 17.7530993
-    },
-    "googleCid": "17242807736852452150",
-    "mesto": "Selište",
-    "slika": "slike/spomenici/seliste.webp",
-    "slikaOdnos": 1.333,
-    "naziv": "Kosturnica oslobodilaca Kruševa i Mostara",
-    "nazivEn": "Ossuary of the Liberators of Kruševo and Mostar",
-    "godina": "1972",
-    "autor": "Hasan Dizdarević",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "jastrebarsko",
     "koordinate": {
       "lat": 45.6705975,
@@ -445,42 +328,6 @@
     "godina": "1985",
     "vrsta": "spomen-ploca",
     "drzava": "Montenegro"
-  },
-  {
-    "id": "turbe",
-    "koordinate": {
-      "lat": 44.2412118,
-      "lng": 17.5769204
-    },
-    "googleCid": "4107954806294536358",
-    "mesto": "Turbe",
-    "slika": "slike/spomenici/turbe.webp",
-    "slikaOdnos": 1.455,
-    "naziv": "Spomenik palim herojima Drugog svjetskog rata",
-    "nazivEn": "Turbe Memorial Park & Tomb",
-    "godina": "1974",
-    "autor": "Zlatko Ugljen & Petar Krstić",
-    "posveta": "palim herojima Drugog svjetskog rata",
-    "stanje": "ostecen",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "sokolac",
-    "koordinate": {
-      "lat": 43.9329271,
-      "lng": 18.7944133
-    },
-    "googleCid": "17898595529569052956",
-    "mesto": "Sokolac",
-    "slika": "slike/spomenici/sokolac.webp",
-    "slikaOdnos": 1.389,
-    "naziv": "Spomen-kosturnica boraca Romanije",
-    "nazivEn": "Memorial Ossuary of the Romanija Fighters",
-    "godina": "1951",
-    "autor": "Kapetanović & Kratović",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "radovljica",
@@ -547,23 +394,6 @@
     "nazivEn": "Partisan & Red Army Cemetery",
     "vrsta": "spomen-groblje",
     "drzava": "Serbia"
-  },
-  {
-    "id": "viktorovac-cemetery",
-    "koordinate": {
-      "lat": 45.4707163,
-      "lng": 16.377277
-    },
-    "googleCid": "13521566729731836027",
-    "mesto": "Sisak (Viktorovac)",
-    "slika": "slike/spomenici/viktorovac-cemetery.webp",
-    "slikaOdnos": 1.408,
-    "naziv": "Spomenik „Zastava”",
-    "nazivEn": "\"The Flag\" at Mem. Cem. to Heroes",
-    "godina": "1965",
-    "autor": "Antun Augustinčić",
-    "vrsta": "spomen-groblje",
-    "drzava": "Croatia"
   },
   {
     "id": "sisak-djecje-groblje",
@@ -938,22 +768,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "cakovec-cemetery",
-    "koordinate": {
-      "lat": 46.4021253,
-      "lng": 16.4542234
-    },
-    "googleCid": "5488355381303158222",
-    "mesto": "Čakovec (groblje)",
-    "slika": "slike/spomenici/cakovec-cemetery.webp",
-    "slikaOdnos": 1.399,
-    "naziv": "Spomenik palim partizanima „Tuga”",
-    "nazivEn": "Mem. to Fallen Partisans \"Mourning\"",
-    "godina": "1949",
-    "vrsta": "spomen-groblje",
-    "drzava": "Croatia"
-  },
-  {
     "id": "sabac-bista-vere-blagojevic",
     "koordinate": {
       "lat": 44.7555483,
@@ -1164,30 +978,6 @@
     "naziv": "Grobišče talcev",
     "vrsta": "spomen-groblje",
     "drzava": "Slovenia"
-  },
-  {
-    "id": "beograd-grobnica-narodnih-heroja",
-    "koordinate": {
-      "lat": 44.8219174,
-      "lng": 20.4488906
-    },
-    "googleCid": "3081485200427867855",
-    "mesto": "Beograd (Kalemegdan)",
-    "wiki": "https://sh.wikipedia.org/wiki/Grobnica_narodnih_heroja_na_Kalemegdanu",
-    "slika": "slike/spomenici/beograd-grobnica-narodnih-heroja.webp",
-    "slikaOdnos": 1.361,
-    "slikaPotpis": "Pinki, Public domain",
-    "naziv": "Grobnica narodnih heroja",
-    "godina": "1948",
-    "autor": "Bogdan Ignjatović",
-    "posveta": [
-      "Q1265884",
-      "Q1267791",
-      "Q1280534",
-      "Q453472"
-    ],
-    "vrsta": "spomen-groblje",
-    "drzava": "Serbia"
   },
   {
     "id": "koncarjeva-druzina",
@@ -2433,8 +2223,8 @@
     "googleCid": "11039648777070046899",
     "mesto": "Zrenj",
     "slika": "slike/spomenici/zrenj.webp",
-    "slikaOdnos": 1.778,
-    "slikaPotpis": "Google Maps",
+    "slikaOdnos": 1.55,
+    "slikaPotpis": "Ulf Heinsohn, CC BY 3.0",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
@@ -3154,8 +2944,8 @@
     "googleCid": "1947658207034820269",
     "mesto": "Žerjav",
     "slika": "slike/spomenici/zerjav-2.webp",
-    "slikaOdnos": 1.481,
-    "slikaPotpis": "Google Maps",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "dominkod, CC BY 3.0",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Slovenia"
@@ -4637,8 +4427,8 @@
     "googleCid": "13173272229246578605",
     "mesto": "Tugonica",
     "slika": "slike/spomenici/tugonica.webp",
-    "slikaOdnos": 0.56,
-    "slikaPotpis": "Google Maps",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Szeder László, CC BY-SA 4.0",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
@@ -4653,7 +4443,7 @@
     "mesto": "Jablaniške Laze",
     "slika": "slike/spomenici/jablaniske-laze.webp",
     "slikaOdnos": 1.333,
-    "slikaPotpis": "Google Maps",
+    "slikaPotpis": "dominkod, CC BY 3.0",
     "naziv": "Spomenik NOB Tisje",
     "vrsta": "spomen-obelezje",
     "drzava": "Slovenia"
@@ -5014,8 +4804,8 @@
     "googleCid": "983738834198213281",
     "mesto": "Male Žablje",
     "slika": "slike/spomenici/male-zablje.webp",
-    "slikaOdnos": 0.75,
-    "slikaPotpis": "Google Maps",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Lan G., CC BY-SA 4.0",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Slovenia"
@@ -5865,8 +5655,8 @@
     "googleCid": "11710726485137532693",
     "mesto": "Kisač",
     "slika": "slike/spomenici/kisac.webp",
-    "slikaOdnos": 0.5,
-    "slikaPotpis": "Google Maps",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "IvanKlinko, Public domain",
     "naziv": "Spomenik palim borcima u NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -5974,8 +5764,8 @@
     "googleCid": "10325012128907955091",
     "mesto": "Gračišće",
     "slika": "slike/spomenici/gracisce.webp",
-    "slikaOdnos": 1.702,
-    "slikaPotpis": "Google Maps",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Szeder László, CC BY-SA 4.0",
     "naziv": "Spomenik žrtvama NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
@@ -5989,8 +5779,8 @@
     "googleCid": "9398917538490934273",
     "mesto": "Lindar",
     "slika": "slike/spomenici/lindar.webp",
-    "slikaOdnos": 0.75,
-    "slikaPotpis": "Google Maps",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Szeder László, CC BY-SA 4.0",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
@@ -6053,7 +5843,7 @@
     "slikaPotpis": "Google Maps",
     "naziv": "Spomenik žrtvama fašističkog terora i palim borcima NOB",
     "godina": "1970",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -6364,8 +6154,8 @@
     "googleCid": "18154129537996020242",
     "mesto": "Čačak",
     "slika": "slike/spomenici/cacak-2.webp",
-    "slikaOdnos": 1.333,
-    "slikaPotpis": "Google Maps",
+    "slikaOdnos": 1.778,
+    "slikaPotpis": "Михаило Јовановић, CC BY-SA 4.0",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -6702,8 +6492,8 @@
     "googleCid": "1103918790062192763",
     "mesto": "Никифорово",
     "slika": "slike/spomenici/nikiforovo.webp",
-    "slikaOdnos": 0.562,
-    "slikaPotpis": "Google Maps",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Rašo, CC BY-SA 3.0",
     "naziv": "Споменик на паднатите борци од НОБ",
     "vrsta": "spomen-obelezje",
     "drzava": "Macedonia"
@@ -6774,8 +6564,8 @@
     "googleCid": "7887759527349523279",
     "mesto": "Завој",
     "slika": "slike/spomenici/zavoj.webp",
-    "slikaOdnos": 0.752,
-    "slikaPotpis": "Google Maps",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Kiril Simeonovski, CC BY-SA 4.0",
     "naziv": "Споменик на НОБ",
     "vrsta": "spomen-obelezje",
     "drzava": "Macedonia"
@@ -6834,8 +6624,8 @@
     "googleCid": "14399584199225820489",
     "mesto": "Подмочани",
     "slika": "slike/spomenici/podmocani.webp",
-    "slikaOdnos": 0.662,
-    "slikaPotpis": "Google Maps",
+    "slikaOdnos": 0.704,
+    "slikaPotpis": "Resnjari, CC BY-SA 4.0",
     "naziv": "Споменик на НОБ",
     "vrsta": "spomen-obelezje",
     "drzava": "Macedonia"
@@ -8605,8 +8395,8 @@
     "googleCid": "2427035105457828145",
     "mesto": "Knežević Kosa",
     "slika": "slike/spomenici/knezevic-kosa.webp",
-    "slikaOdnos": 0.748,
-    "slikaPotpis": "Google Maps",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Petar Milošević, CC BY-SA 4.0",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
@@ -8962,8 +8752,8 @@
     "googleCid": "10099195480915023926",
     "mesto": "Vrsine",
     "slika": "slike/spomenici/vrsine.webp",
-    "slikaOdnos": 1.333,
-    "slikaPotpis": "Google Maps",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "JiriMatejicek, CC BY-SA 4.0",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
@@ -9019,8 +8809,8 @@
     "googleCid": "11271880045822595516",
     "mesto": "Канино",
     "slika": "slike/spomenici/kanino.webp",
-    "slikaOdnos": 0.75,
-    "slikaPotpis": "Google Maps",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Kiril Simeonovski, CC BY-SA 4.0",
     "naziv": "Споменик на НОБ",
     "vrsta": "spomen-obelezje",
     "drzava": "Macedonia"
@@ -9303,8 +9093,8 @@
     "googleCid": "6743612791405194516",
     "mesto": "Krapanj",
     "slika": "slike/spomenici/krapanj.webp",
-    "slikaOdnos": 0.667,
-    "slikaPotpis": "Google Maps",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Luka Krstulović, CC BY-SA 2.5",
     "naziv": "Spomenik antifašističkim borcima",
     "godina": "1949",
     "autor": "Ante Skokandić",
@@ -9569,8 +9359,8 @@
     "googleCid": "2604570802597714472",
     "mesto": "Erdevik",
     "slika": "slike/spomenici/erdevik.webp",
-    "slikaOdnos": 1.333,
-    "slikaPotpis": "Google Maps",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
     "naziv": "Palim borcima i žrtvama fašizma u toku N.O. borbe",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -10403,8 +10193,8 @@
     "googleCid": "14240195812292191267",
     "mesto": "Banatsko Karađorđevo",
     "slika": "slike/spomenici/banatsko-karadjordjevo.webp",
-    "slikaOdnos": 1.498,
-    "slikaPotpis": "Google Maps",
+    "slikaOdnos": 1.504,
+    "slikaPotpis": "Sahara, Public domain",
     "naziv": "Spomenik palim borcima",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
@@ -11202,7 +10992,7 @@
     "mesto": "Lipa",
     "slika": "slike/spomenici/lipa.webp",
     "slikaOdnos": 1.333,
-    "slikaPotpis": "Google Maps",
+    "slikaPotpis": "Argo Navis, CC BY-SA 2.5",
     "naziv": "Spomenik žrtvama fašističkog terora 30.4.1944.",
     "posveta": "žrtvama fašističkog terora 30.4.1944.",
     "vrsta": "spomen-obelezje",
@@ -11900,8 +11690,8 @@
     "googleCid": "4531133726096179686",
     "mesto": "Радовиш",
     "slika": "slike/spomenici/radovis.webp",
-    "slikaOdnos": 0.75,
-    "slikaPotpis": "Google Maps",
+    "slikaOdnos": 0.563,
+    "slikaPotpis": "Zdravko, CC BY-SA 4.0",
     "naziv": "Споменик",
     "vrsta": "spomen-obelezje",
     "drzava": "Macedonia"
@@ -40731,45 +40521,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "tjentiste-savin-grob",
-    "koordinate": {
-      "lat": 43.3515558,
-      "lng": 18.678234
-    },
-    "googleCid": "3538812546431426152",
-    "mesto": "Tjentište",
-    "slika": "slike/spomenici/tjentiste-savin-grob.webp",
-    "slikaOdnos": 1.333,
-    "slikaPotpis": "Spomenik Database",
-    "naziv": "Grob Save Kovačevića",
-    "godina": "1987",
-    "autor": "Miodrag Živković",
-    "posveta": [
-      "Q821495"
-    ],
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "tjentiste-grob-nurije-pozderca",
-    "koordinate": {
-      "lat": 43.321427,
-      "lng": 18.7076858
-    },
-    "mesto": "Tjentište",
-    "slika": "slike/spomenici/tjentiste-grob-nurije-pozderca.webp",
-    "slikaOdnos": 1.498,
-    "slikaPotpis": "Spomenik Database",
-    "naziv": "Grob Nurije Pozderca",
-    "godina": "1987",
-    "autor": "Miodrag Živković",
-    "posveta": [
-      "Q12756368"
-    ],
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "tjentiste-mjesto-ranjavanja-tita",
     "koordinate": {
       "lat": 43.349602,
@@ -40781,25 +40532,6 @@
       "Q1419973"
     ],
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "tjentiste-spomenik-kragujevackom-bataljonu",
-    "koordinate": {
-      "lat": 43.3532566,
-      "lng": 18.7022455
-    },
-    "mesto": "Tjentište",
-    "slika": "slike/spomenici/tjentiste-spomenik-kragujevackom-bataljonu.webp",
-    "slikaOdnos": 1.498,
-    "slikaPotpis": "Spomenik Database",
-    "naziv": "Spomenik Kragujevačkom bataljonu",
-    "godina": "1989",
-    "autor": "Miodrag Živković",
-    "posveta": [
-      "Q1419973"
-    ],
-    "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -45414,20 +45146,6 @@
     "slikaPotpis": "Partizanstvo, CC BY 4.0",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
-    "drzava": "Slovenia"
-  },
-  {
-    "id": "senozeti-grobisce-padlih-na-murovici-1943",
-    "koordinate": {
-      "lat": 46.107406,
-      "lng": 14.7222295
-    },
-    "mesto": "Senožeti",
-    "slika": "slike/spomenici/senozeti-grobisce-padlih-na-murovici-1943.webp",
-    "slikaOdnos": 1.498,
-    "slikaPotpis": "Partizanstvo, CC BY 4.0",
-    "naziv": "Grobišče padlih na Murovici 1943",
-    "vrsta": "spomen-groblje",
     "drzava": "Slovenia"
   },
   {
@@ -50393,7 +50111,7 @@
     "naziv": "Grob Ivana Krkača",
     "godina": "1965",
     "posveta": "Ivana Krkača",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -50437,7 +50155,7 @@
     "slikaPotpis": "Partizanstvo, CC BY 4.0",
     "naziv": "Grob Ivice Catele",
     "posveta": "Ivice Catele",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -50533,7 +50251,7 @@
     "slikaPotpis": "Partizanstvo / Geopedija, CC BY 4.0",
     "naziv": "Grobišče padlih borcev in talcev",
     "godina": "1975",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Slovenia"
   },
   {
@@ -50564,7 +50282,7 @@
     "naziv": "Grobišče padlih borcev in žrtev NOB",
     "godina": "1959",
     "autor": "Jože Zamljen",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Slovenia"
   },
   {
@@ -50578,7 +50296,7 @@
     "slikaOdnos": 1.498,
     "slikaPotpis": "Partizanstvo, CC BY 4.0",
     "naziv": "Grobišče borcev Tomšičeve brigade",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Slovenia"
   },
   {
@@ -50662,7 +50380,7 @@
     "slikaOdnos": 0.75,
     "slikaPotpis": "Partizanstvo / Geopedija, CC BY 4.0",
     "naziv": "Grobišče padlih borcev NOV",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Slovenia"
   },
   {
@@ -50705,7 +50423,7 @@
     "slikaPotpis": "Partizanstvo / Geopedija, CC BY 4.0",
     "naziv": "Grob borcev XII. SNOUB",
     "posveta": "borcev XII. SNOUB",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Slovenia"
   },
   {
@@ -50719,7 +50437,7 @@
     "slikaOdnos": 1.333,
     "slikaPotpis": "Partizanstvo / Geopedija, CC BY 4.0",
     "naziv": "Grobišče padlih borcev in talcev",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Slovenia"
   },
   {
@@ -50763,7 +50481,7 @@
     "naziv": "Grobišče padlih borcev",
     "godina": "1948",
     "autor": "Gaiser",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Slovenia"
   },
   {
@@ -50858,7 +50576,7 @@
     "slikaPotpis": "Partizanstvo / Geopedija, CC BY 4.0",
     "naziv": "Grobišče padlih borcev",
     "godina": "1967",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Slovenia"
   },
   {
@@ -50887,7 +50605,7 @@
     "slikaPotpis": "Partizanstvo, CC BY 4.0",
     "naziv": "Grobišče štirih neznanih borcev IV. operativne cone",
     "autor": "Dušan Samec",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Slovenia"
   },
   {
@@ -50963,7 +50681,7 @@
     "slikaPotpis": "Partizanstvo, CC BY 4.0",
     "naziv": "Grobnica padlih borcev in žrtev NOB",
     "godina": "1964",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Slovenia"
   },
   {
@@ -51024,7 +50742,7 @@
     "slikaPotpis": "Partizanstvo, CC BY 4.0",
     "naziv": "Grobišče padlih borcev in žrtev fašističnega nasilja",
     "godina": "1950",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Slovenia"
   },
   {
@@ -51116,22 +50834,6 @@
     "godina": "1982",
     "autor": "Rudi Stopar",
     "vrsta": "spomen-ploca",
-    "drzava": "Slovenia"
-  },
-  {
-    "id": "kranj-grobisce-padlih-borcev-talcev-in-zrtev",
-    "koordinate": {
-      "lat": 46.2351237,
-      "lng": 14.3686701
-    },
-    "mesto": "Kranj",
-    "slika": "slike/spomenici/kranj-grobisce-padlih-borcev-talcev-in-zrtev.webp",
-    "slikaOdnos": 1.333,
-    "slikaPotpis": "Partizanstvo / Geopedija, CC BY 4.0",
-    "naziv": "Grobišče padlih borcev, talcev in žrtev fašizma",
-    "godina": "1965",
-    "autor": "Nande Jocif",
-    "vrsta": "spomen-groblje",
     "drzava": "Slovenia"
   },
   {
@@ -51770,7 +51472,7 @@
     "slikaPotpis": "Google Maps",
     "naziv": "Spomen-kosturnica streljanim Bokeljima, Hercegovcima i Dalmatincima",
     "posveta": "streljanim Bokeljima, Hercegovcima i Dalmatincima",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Montenegro"
   },
   {
@@ -55192,23 +54894,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "pridjel-donji-spomen-kosturnica",
-    "koordinate": {
-      "lat": 44.708248,
-      "lng": 18.091069
-    },
-    "mesto": "Pridjel Donji",
-    "slika": "slike/spomenici/pridjel-donji-spomen-kosturnica.webp",
-    "slikaOdnos": 0.75,
-    "slikaPotpis": "Partisan Memorials Wiki",
-    "naziv": "Spomen-kosturnica",
-    "nazivEn": "Memorial ossuary",
-    "godina": "1970",
-    "autor": "Asim Hotić & Savo Krivokapić",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "lipac-partizansko-groblje-i-kosturnica",
     "koordinate": {
       "lat": 44.717651,
@@ -56210,22 +55895,6 @@
     "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
     "godina": "1989",
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "gornji-podgradci-spomen-grobnica-69-palih-boraca-n",
-    "koordinate": {
-      "lat": 45.069059,
-      "lng": 17.060376
-    },
-    "mesto": "Gornji Podgradci",
-    "slika": "slike/spomenici/gornji-podgradci-spomen-grobnica-69-palih-boraca-n.webp",
-    "slikaOdnos": 0.75,
-    "slikaPotpis": "Partisan Memorials Wiki",
-    "naziv": "Spomen-grobnica 69 palih boraca NOR-a",
-    "nazivEn": "Memorial grave of 69 fallen fighters of the NOR",
-    "posveta": "69 palih boraca NOR-a",
-    "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -57611,7 +57280,7 @@
     "naziv": "Groblje preko 300 žrtava fašističkog terora",
     "nazivEn": "Cemetery of over 300 Victims of Fascist Terror",
     "godina": "1956",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -59539,7 +59208,7 @@
     "naziv": "Zajednička grobnica 22 žrtve fašističkog terora",
     "nazivEn": "Collective grave of 22 Victims of Fascist Terror",
     "godina": "1983",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -60648,7 +60317,7 @@
     "godina": "1951",
     "posveta": "37 palih boraca",
     "stanje": "ostecen",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -67568,7 +67237,7 @@
     "naziv": "Zajednička grobnica 15 žrtava fašističkog terora",
     "nazivEn": "Collective grave of 15 Victims of Fascist Terror",
     "godina": "1951",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -67584,7 +67253,7 @@
     "naziv": "Zajednička grobnica žrtava fašističkog terora",
     "nazivEn": "Collective grave of Victims of Fascist Terror",
     "godina": "1983",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -72894,22 +72563,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "modrica-spomen-kosturnica-partizanskih-boraca",
-    "koordinate": {
-      "lat": 44.954781,
-      "lng": 18.30142
-    },
-    "mesto": "Modriča",
-    "slika": "slike/spomenici/modrica-spomen-kosturnica-partizanskih-boraca.webp",
-    "slikaOdnos": 0.75,
-    "slikaPotpis": "Partisan Memorials Wiki",
-    "naziv": "Spomen-kosturnica partizanskih boraca",
-    "nazivEn": "Memorial ossuary of Partisan fighters",
-    "godina": "1952",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "modrica-spomenik-oslobodiocima-modrice-1943-godine",
     "koordinate": {
       "lat": 44.954823,
@@ -73074,7 +72727,7 @@
     "naziv": "Zajednička grobnica žrtava fašističkog terora",
     "nazivEn": "Collective grave of Victims of Fascist Terror",
     "godina": "1961",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -73276,23 +72929,6 @@
     "posveta": "I hercegovačkoj brigadi",
     "stanje": "uklonjen",
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "prijedor-masovna-grobnica-zrtava-fasistickog-teror",
-    "koordinate": {
-      "lat": 44.975017,
-      "lng": 16.717665
-    },
-    "mesto": "Prijedor",
-    "slika": "slike/spomenici/prijedor-masovna-grobnica-zrtava-fasistickog-teror.webp",
-    "slikaOdnos": 0.75,
-    "slikaPotpis": "Partisan Memorials Wiki",
-    "naziv": "Masovna grobnica žrtava fašističkog terora, željezničara i građana Prijedora",
-    "nazivEn": "Mass grave of Victims of Fascist Terror, railway workers, and citizens of Prijedor",
-    "godina": "1963",
-    "autor": "Hidajet Karabašić",
-    "vrsta": "spomen-groblje",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -74062,7 +73698,7 @@
     "naziv": "Spomen-kosturnica prvih učesnika ustanka",
     "nazivEn": "Memorial ossuary of first people involved in the Uprising",
     "godina": "1946",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -74250,23 +73886,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "josava-kosturnica-15-partizanskih-boraca",
-    "koordinate": {
-      "lat": 44.71561,
-      "lng": 18.135061
-    },
-    "mesto": "Jošava",
-    "slika": "slike/spomenici/josava-kosturnica-15-partizanskih-boraca.webp",
-    "slikaOdnos": 0.75,
-    "slikaPotpis": "Partisan Memorials Wiki",
-    "naziv": "Kosturnica 15 partizanskih boraca",
-    "nazivEn": "Ossuary of 15 Partisan fighters",
-    "godina": "1964",
-    "autor": "Drago Handanović",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "bukovica-mala-partizansko-groblje",
     "koordinate": {
       "lat": 44.757859,
@@ -74364,7 +73983,7 @@
     "naziv": "Zajednička grobnica 28 žrtava fašističkog terora",
     "nazivEn": "Collective grave of 28 Victims of Fascist Terror",
     "godina": "1961",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -74661,7 +74280,7 @@
     "slikaOdnos": 1.333,
     "slikaPotpis": "podaci.com",
     "naziv": "Spomen-grobnica",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Serbia"
   },
   {
@@ -74987,24 +74606,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "banja-luka-spomen-kosturnica",
-    "koordinate": {
-      "lat": 44.804089,
-      "lng": 17.183009
-    },
-    "googleCid": "11506355032137430269",
-    "mesto": "Banja Luka",
-    "slika": "slike/spomenici/banja-luka-spomen-kosturnica.webp",
-    "slikaOdnos": 0.445,
-    "slikaPotpis": "Google Maps",
-    "naziv": "Spomen-kosturnica",
-    "nazivEn": "Memorial ossuary of Victims of Fascist Terror",
-    "godina": "1965",
-    "autor": "Irfan Maglajlić",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "bar-spomenik-nob",
     "koordinate": {
       "lat": 42.095083,
@@ -75090,7 +74691,7 @@
     "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-kosturnica",
     "godina": "1962",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Serbia"
   },
   {
@@ -75296,7 +74897,7 @@
     "slikaOdnos": 1.333,
     "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomen-grobnica",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -75310,7 +74911,7 @@
     "slikaOdnos": 0.759,
     "slikaPotpis": "backipetrovac.rs",
     "naziv": "Spomen-grobnica",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Serbia"
   },
   {
@@ -75665,23 +75266,7 @@
     "slikaOdnos": 1.329,
     "slikaPotpis": "Generalni konzulat Srbije u Vukovaru",
     "naziv": "Spomen-kosturnica",
-    "vrsta": "spomen-groblje",
-    "drzava": "Croatia"
-  },
-  {
-    "id": "beli-manastir-spomen-kosturnica",
-    "koordinate": {
-      "lat": 45.767689,
-      "lng": 18.618335
-    },
-    "mesto": "Beli Manastir",
-    "slika": "slike/spomenici/beli-manastir-spomen-kosturnica.webp",
-    "slikaOdnos": 1.375,
-    "slikaPotpis": "Ana Mutnjaković / Dokumentacija Konzervatorskog odjela u Osijeku, Spomenici NOB na području Baranje (2022)",
-    "naziv": "Spomen-kosturnica",
-    "godina": "1957",
-    "autor": "Velibor Mačukatin",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -75818,7 +75403,7 @@
     "slikaPotpis": "Generalni konzulat Srbije u Vukovaru",
     "naziv": "Spomen-grobnica",
     "godina": "1966",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -76076,7 +75661,7 @@
     "slikaPotpis": "mnemagazin.me",
     "naziv": "Spomenik NOB",
     "godina": "1951",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-obelezje",
     "drzava": "Montenegro"
   },
   {
@@ -76637,7 +76222,7 @@
     "slikaPotpis": "Ana Mutnjaković / Dokumentacija Konzervatorskog odjela u Osijeku, Spomenici NOB na području Baranje (2022)",
     "naziv": "Spomen-kosturnica",
     "godina": "1963",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -77426,7 +77011,7 @@
     "slikaPotpis": "UABA Liburnije",
     "naziv": "Spomen-grobnica",
     "godina": "1960",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -78563,7 +78148,7 @@
     "slikaOdnos": 1.333,
     "slikaPotpis": "Generalni konzulat Srbije u Vukovaru",
     "naziv": "Spomen-grobnica",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -78623,7 +78208,7 @@
     "naziv": "Spomen-grobnica",
     "godina": "1961",
     "posveta": "Za 30 boraca poginulih u borbama za oslobođenje 1944-1945, sahranjenih u zajedničkoj grobnici.",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -78731,21 +78316,6 @@
     "godina": "1972",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "delnice-spomen-kosturnica",
-    "koordinate": {
-      "lat": 45.403326,
-      "lng": 14.804304
-    },
-    "mesto": "Delnice",
-    "slika": "slike/spomenici/delnice-spomen-kosturnica.webp",
-    "slikaOdnos": 1.509,
-    "slikaPotpis": "CroatianHistory.net",
-    "naziv": "Spomen-kosturnica",
-    "godina": "1955",
-    "vrsta": "spomen-groblje",
-    "drzava": "Croatia"
   },
   {
     "id": "debeli-lug-spomen-cesma",
@@ -79267,22 +78837,6 @@
     "godina": "1968",
     "vrsta": "spomen-obelezje",
     "drzava": "Montenegro"
-  },
-  {
-    "id": "dolz-grob-s-spomenikom-padlim",
-    "koordinate": {
-      "lat": 45.761413,
-      "lng": 15.248586
-    },
-    "mesto": "Dolž",
-    "slika": "slike/spomenici/dolz-grob-s-spomenikom-padlim.webp",
-    "slikaOdnos": 0.75,
-    "slikaPotpis": "Spomeniki, Blogspot",
-    "naziv": "Grob s spomenikom padlim",
-    "godina": "1964",
-    "autor": "Jože Zamljen",
-    "vrsta": "spomen-groblje",
-    "drzava": "Slovenia"
   },
   {
     "id": "dolno-dupeni-spomen-cesma",
@@ -79845,21 +79399,6 @@
     "autor": "David Kabalin",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
-  },
-  {
-    "id": "donja-trepca-spomen-kosturnica",
-    "koordinate": {
-      "lat": 43.899086,
-      "lng": 20.454061
-    },
-    "mesto": "Donja Trepca",
-    "slika": "slike/spomenici/donja-trepca-spomen-kosturnica.webp",
-    "slikaOdnos": 0.75,
-    "slikaPotpis": "Partisan Memorials Wiki",
-    "naziv": "Spomen-kosturnica",
-    "godina": "1961",
-    "vrsta": "spomen-groblje",
-    "drzava": "Serbia"
   },
   {
     "id": "donje-sokolovo-partizansko-groblje",
@@ -80846,21 +80385,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "drnis-spomen-kosturnica",
-    "koordinate": {
-      "lat": 43.855895,
-      "lng": 16.155307
-    },
-    "mesto": "Drniš",
-    "slika": "slike/spomenici/drnis-spomen-kosturnica.webp",
-    "slikaOdnos": 1.333,
-    "slikaPotpis": "Antifašistički vjesnik",
-    "naziv": "Spomen-kosturnica",
-    "godina": "1962",
-    "vrsta": "spomen-groblje",
-    "drzava": "Croatia"
-  },
-  {
     "id": "drijetanj-spomenik-nob",
     "koordinate": {
       "lat": 43.840505,
@@ -81434,22 +80958,6 @@
     "drzava": "Croatia"
   },
   {
-    "id": "gabrje-pod-gorjanci-grob-s-spomenikom-padlim",
-    "koordinate": {
-      "lat": 45.781358,
-      "lng": 15.273546
-    },
-    "mesto": "Gabrje pod Gorjanci",
-    "slika": "slike/spomenici/gabrje-pod-gorjanci-grob-s-spomenikom-padlim.webp",
-    "slikaOdnos": 0.75,
-    "slikaPotpis": "Spomeniki, Blogspot",
-    "naziv": "Grob s spomenikom padlim",
-    "godina": "1963",
-    "autor": "Franc Zagorc",
-    "vrsta": "spomen-groblje",
-    "drzava": "Slovenia"
-  },
-  {
     "id": "gacko-partizansko-groblje",
     "koordinate": {
       "lat": 43.159752,
@@ -81942,7 +81450,7 @@
     "slikaOdnos": 0.75,
     "slikaPotpis": "Rade Vesović, podaci.com",
     "naziv": "Spomen-grobnica",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Serbia"
   },
   {
@@ -82053,7 +81561,7 @@
     "slikaPotpis": "Bosansko-podrinjski kanton Goražde",
     "naziv": "Kolijevke partizansko groblje",
     "godina": "1985",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -82267,22 +81775,6 @@
     "godina": "1952",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
-  },
-  {
-    "id": "gorenje-gradisce-pri-sentjerneju-grob-s-spomenikom",
-    "koordinate": {
-      "lat": 45.844497,
-      "lng": 15.295901
-    },
-    "mesto": "Gorenje Gradišče pri Šentjerneju",
-    "slika": "slike/spomenici/gorenje-gradisce-pri-sentjerneju-grob-s-spomenikom.webp",
-    "slikaOdnos": 0.75,
-    "slikaPotpis": "Spomeniki, Blogspot",
-    "naziv": "Grob s spomenikom padlim borcem NOB",
-    "godina": "1962",
-    "autor": "Jože Zamljen",
-    "vrsta": "spomen-groblje",
-    "drzava": "Slovenia"
   },
   {
     "id": "kapavica-jama-gornja-kapavica",
@@ -83740,7 +83232,7 @@
     "naziv": "Spomen-grobnica",
     "godina": "1979",
     "posveta": "Za komandanta Osječke udarne brigade Milana Bobića i 11 boraca poginulih 1945.",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -84015,7 +83507,7 @@
     "slikaOdnos": 1.778,
     "slikaPotpis": "Fruškać",
     "naziv": "Mošin grob",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Serbia"
   },
   {
@@ -84518,20 +84010,6 @@
     "drzava": "Croatia"
   },
   {
-    "id": "hreljin-spomen-kosturnica",
-    "koordinate": {
-      "lat": 45.272754,
-      "lng": 14.605071
-    },
-    "mesto": "Hreljin",
-    "slika": "slike/spomenici/hreljin-spomen-kosturnica.webp",
-    "slikaOdnos": 1.246,
-    "slikaPotpis": "CroatianHistory.net",
-    "naziv": "Spomen-kosturnica",
-    "vrsta": "spomen-groblje",
-    "drzava": "Croatia"
-  },
-  {
     "id": "horgos-spomenik-palim-borcima",
     "koordinate": {
       "lat": 46.152778,
@@ -84691,7 +84169,7 @@
     "naziv": "Spomen-kosturnica na Brezovači",
     "godina": "1954",
     "autor": "Franc Vidmar",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -84875,7 +84353,7 @@
     "slikaOdnos": 0.634,
     "slikaPotpis": "Grad Ivanec",
     "naziv": "Spomen-grobnica",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -85751,7 +85229,7 @@
     "slikaOdnos": 1.375,
     "slikaPotpis": "Generalni konzulat Srbije u Vukovaru",
     "naziv": "Spomen-grobnica",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -85904,7 +85382,7 @@
     "naziv": "Grob Bojana Kraigherja in tovarišev",
     "godina": "1965",
     "autor": "Anton Valentinčič",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Slovenia"
   },
   {
@@ -86386,7 +85864,7 @@
     "slikaOdnos": 1.6,
     "slikaPotpis": "CroatianHistory.net",
     "naziv": "Spomen-kosturnica",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -87914,22 +87392,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "kraljevica-spomen-grobnica",
-    "koordinate": {
-      "lat": 45.278564,
-      "lng": 14.568967
-    },
-    "mesto": "Kraljevica",
-    "slika": "slike/spomenici/kraljevica-spomen-grobnica.webp",
-    "slikaOdnos": 1.333,
-    "slikaPotpis": "CroatianHistory.net",
-    "naziv": "Spomen-grobnica",
-    "godina": "1978",
-    "autor": "Maša Uravić",
-    "vrsta": "spomen-groblje",
-    "drzava": "Croatia"
-  },
-  {
     "id": "kraljev-vrh-spomenik-palim-borcima",
     "koordinate": {
       "lat": 45.944379,
@@ -88127,21 +87589,6 @@
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
-  },
-  {
-    "id": "krka-spomenik-z-grobnico-padlim-na-krki",
-    "koordinate": {
-      "lat": 45.881172,
-      "lng": 14.777676
-    },
-    "mesto": "Krka",
-    "slika": "slike/spomenici/krka-spomenik-z-grobnico-padlim-na-krki.webp",
-    "slikaOdnos": 1.307,
-    "slikaPotpis": "Spomeniki, Blogspot",
-    "naziv": "Spomenik z grobnico padlim na Krki",
-    "godina": "1960",
-    "vrsta": "spomen-groblje",
-    "drzava": "Slovenia"
   },
   {
     "id": "krnovo-spomen-cesma-krnovska-vrela",
@@ -88764,7 +88211,7 @@
     "slikaOdnos": 0.75,
     "slikaPotpis": "Generalni konzulat Srbije u Vukovaru",
     "naziv": "Spomen-grobnica",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -89755,7 +89202,7 @@
     "slikaOdnos": 0.75,
     "slikaPotpis": "Milos Damnjanovic, Partisan Memorials Wiki",
     "naziv": "Spomenik žrtvama fašističkog terora",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -89836,22 +89283,6 @@
     "naziv": "Spomen-česma",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
-  },
-  {
-    "id": "ljubljana-grob-padlih-v-nob-v-stepanji-vasi",
-    "koordinate": {
-      "lat": 46.052511,
-      "lng": 14.542062
-    },
-    "mesto": "Ljubljana",
-    "slika": "slike/spomenici/ljubljana-grob-padlih-v-nob-v-stepanji-vasi.webp",
-    "slikaOdnos": 1.333,
-    "slikaPotpis": "Spomeniki, Blogspot",
-    "naziv": "Grob padlih v NOB v Štepanji vasi",
-    "godina": "1950",
-    "autor": "Jože Plečnik",
-    "vrsta": "spomen-groblje",
-    "drzava": "Slovenia"
   },
   {
     "id": "ljubic-spomenik-14-srednjobosanske-brigade",
@@ -92330,7 +91761,7 @@
     "slikaOdnos": 0.833,
     "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-grobnica",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Montenegro"
   },
   {
@@ -92384,21 +91815,6 @@
     "mesto": "Mirca",
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
-    "drzava": "Croatia"
-  },
-  {
-    "id": "miocic-spomen-grobnica",
-    "koordinate": {
-      "lat": 43.881528,
-      "lng": 16.252583
-    },
-    "mesto": "Miočić",
-    "slika": "slike/spomenici/miocic-spomen-grobnica.webp",
-    "slikaOdnos": 1.333,
-    "slikaPotpis": "Antifašistički vjesnik",
-    "naziv": "Spomen-grobnica",
-    "stanje": "rusevine",
-    "vrsta": "spomen-groblje",
     "drzava": "Croatia"
   },
   {
@@ -92805,7 +92221,7 @@
     "slikaOdnos": 0.75,
     "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-grobnica",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Montenegro"
   },
   {
@@ -93658,7 +93074,7 @@
     "slikaPotpis": "Antifašistički vjesnik",
     "naziv": "Spomen-kosturnica",
     "godina": "1946",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -95271,21 +94687,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "perusic-spomen-kosturnica",
-    "koordinate": {
-      "lat": 44.649475,
-      "lng": 15.383674
-    },
-    "mesto": "Perušić",
-    "slika": "slike/spomenici/perusic-spomen-kosturnica.webp",
-    "slikaOdnos": 1.778,
-    "slikaPotpis": "Antifašistički vjesnik",
-    "naziv": "Spomen-kosturnica",
-    "godina": "1980",
-    "vrsta": "spomen-groblje",
-    "drzava": "Croatia"
-  },
-  {
     "id": "perlez-spomen-cesma",
     "koordinate": {
       "lat": 45.2095,
@@ -95603,21 +95004,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "pisece-grob-s-spomenikom-nob",
-    "koordinate": {
-      "lat": 46.005488,
-      "lng": 15.648365
-    },
-    "mesto": "Pišece",
-    "slika": "slike/spomenici/pisece-grob-s-spomenikom-nob.webp",
-    "slikaOdnos": 0.75,
-    "slikaPotpis": "Spomeniki, Blogspot",
-    "naziv": "Grob s spomenikom NOB",
-    "autor": "Karel Filipčič",
-    "vrsta": "spomen-groblje",
-    "drzava": "Slovenia"
-  },
-  {
     "id": "platicevo-spomenik-palim-borcima",
     "koordinate": {
       "lat": 44.821241,
@@ -95733,39 +95119,6 @@
     "godina": "1961",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
-  },
-  {
-    "id": "pljevlja-spomen-kosturnica-senjaku",
-    "koordinate": {
-      "lat": 43.363204,
-      "lng": 19.348096
-    },
-    "mesto": "Pljevlja",
-    "slika": "slike/spomenici/pljevlja-spomen-kosturnica-senjaku.webp",
-    "slikaOdnos": 0.787,
-    "slikaPotpis": "Partisan Memorials Wiki",
-    "naziv": "Spomen-kosturnica Senjaku",
-    "godina": "1985",
-    "autor": "Milovan Stevović",
-    "vrsta": "spomen-groblje",
-    "drzava": "Montenegro"
-  },
-  {
-    "id": "pljevlja-spomen-grobnica-bosku-buhi",
-    "koordinate": {
-      "lat": 43.354057,
-      "lng": 19.362736
-    },
-    "mesto": "Pljevlja",
-    "slika": "slike/spomenici/pljevlja-spomen-grobnica-bosku-buhi.webp",
-    "slikaOdnos": 0.75,
-    "slikaPotpis": "Partisan Memorials Wiki",
-    "naziv": "Spomen-grobnica Bošku Buhi",
-    "posveta": [
-      "Q1280823"
-    ],
-    "vrsta": "spomen-groblje",
-    "drzava": "Montenegro"
   },
   {
     "id": "pljevlja-spomen-cesma-vuka-knezevica",
@@ -95899,21 +95252,6 @@
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
-  },
-  {
-    "id": "podgrad-pod-mehovim-grob-s-spomenikom-padlim",
-    "koordinate": {
-      "lat": 45.734338,
-      "lng": 15.20186
-    },
-    "mesto": "Podgrad pod Mehovim",
-    "slika": "slike/spomenici/podgrad-pod-mehovim-grob-s-spomenikom-padlim.webp",
-    "slikaOdnos": 1.498,
-    "slikaPotpis": "Spomeniki, Blogspot",
-    "naziv": "Grob s spomenikom padlim",
-    "godina": "1963",
-    "vrsta": "spomen-groblje",
-    "drzava": "Slovenia"
   },
   {
     "id": "podgrad-pri-ljubljani-spomenik-na-meji-okupacijski",
@@ -97566,7 +96904,7 @@
     "slikaPotpis": "vecernjenovosti.ba",
     "naziv": "Spomen-kosturnica",
     "godina": "1958",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -98460,7 +97798,7 @@
     "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-grobnica",
     "godina": "1986",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -101210,20 +100548,6 @@
     "drzava": "Slovenia"
   },
   {
-    "id": "stopice-grob-s-spomenikom-padlim-borcem-in-zrtvam",
-    "koordinate": {
-      "lat": 45.769626,
-      "lng": 15.208992
-    },
-    "mesto": "Stopiče",
-    "slika": "slike/spomenici/stopice-grob-s-spomenikom-padlim-borcem-in-zrtvam.webp",
-    "slikaOdnos": 0.766,
-    "slikaPotpis": "Spomeniki, Blogspot",
-    "naziv": "Grob s spomenikom padlim borcem in žrtvam NOB",
-    "vrsta": "spomen-groblje",
-    "drzava": "Slovenia"
-  },
-  {
     "id": "struga-spomenik",
     "koordinate": {
       "lat": 41.197389,
@@ -101920,21 +101244,6 @@
     "naziv": "Споменик на НОБ",
     "vrsta": "spomen-obelezje",
     "drzava": "Macedonia"
-  },
-  {
-    "id": "sveti-vid-pri-cerknici-grobisce-neznanih-borcev-xv",
-    "koordinate": {
-      "lat": 45.8511369,
-      "lng": 14.4570772
-    },
-    "mesto": "Sveti Vid pri Cerknici",
-    "slika": "slike/spomenici/sveti-vid-pri-cerknici-grobisce-neznanih-borcev-xv.webp",
-    "slikaOdnos": 0.766,
-    "slikaPotpis": "Spomeniki, Blogspot",
-    "naziv": "Grobišče neznanih borcev XVIII. divizije",
-    "godina": "1961",
-    "vrsta": "spomen-groblje",
-    "drzava": "Slovenia"
   },
   {
     "id": "svinjarica-spomen-cesma",
@@ -102806,7 +102115,7 @@
     "slikaPotpis": "Partisan Memorials Wiki",
     "naziv": "Spomen-grobnica strijeljanih revolucionara Kreke",
     "godina": "1946",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -104169,7 +103478,7 @@
     "slikaOdnos": 0.562,
     "slikaPotpis": "Vijesti",
     "naziv": "Spomen-grobnica Gornje Polje",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Montenegro"
   },
   {
@@ -106403,7 +105712,7 @@
     "slikaPotpis": "Generalni konzulat Srbije u Vukovaru",
     "naziv": "Spomen-grobnica",
     "godina": "1949",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -107307,36 +106616,6 @@
     "drzava": "Croatia"
   },
   {
-    "id": "smarje-pri-sentjerneju-grob-s-spomenikom-padlim-bo",
-    "koordinate": {
-      "lat": 45.827764,
-      "lng": 15.343215
-    },
-    "mesto": "Šmarje pri Šentjerneju",
-    "slika": "slike/spomenici/smarje-pri-sentjerneju-grob-s-spomenikom-padlim-bo.webp",
-    "slikaOdnos": 0.666,
-    "slikaPotpis": "Spomeniki, Blogspot",
-    "naziv": "Grob s spomenikom padlim borcem in žrtvam",
-    "vrsta": "spomen-groblje",
-    "drzava": "Slovenia"
-  },
-  {
-    "id": "skocjan-grob-s-spomenikom-padlim-borcem-in-zrtvam",
-    "koordinate": {
-      "lat": 45.907431,
-      "lng": 15.290139
-    },
-    "mesto": "Škocjan",
-    "slika": "slike/spomenici/skocjan-grob-s-spomenikom-padlim-borcem-in-zrtvam.webp",
-    "slikaOdnos": 0.531,
-    "slikaPotpis": "Spomeniki, Blogspot",
-    "naziv": "Grob s spomenikom padlim borcem in žrtvam NOB",
-    "godina": "1964",
-    "autor": "Jože Zamljen",
-    "vrsta": "spomen-groblje",
-    "drzava": "Slovenia"
-  },
-  {
     "id": "sljivova-spomen-cesma",
     "koordinate": {
       "lat": 44.324694,
@@ -108040,7 +107319,7 @@
     "slikaOdnos": 1.688,
     "slikaPotpis": "Obeležja, WordPress",
     "naziv": "Grobnica",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Slovenia"
   },
   {
@@ -108147,20 +107426,6 @@
     "drzava": "Croatia"
   },
   {
-    "id": "majstori-spomen-grobnica-palih-boraca",
-    "koordinate": {
-      "lat": 42.3512428,
-      "lng": 18.8366781
-    },
-    "mesto": "Majstori",
-    "slika": "slike/spomenici/majstori-spomen-grobnica-palih-boraca.webp",
-    "slikaOdnos": 0.749,
-    "slikaPotpis": "Vijesti, StoryMap Mapa spomenika NOB",
-    "naziv": "Spomen-grobnica palih boraca",
-    "vrsta": "spomen-groblje",
-    "drzava": "Montenegro"
-  },
-  {
     "id": "dabar-partizansko-groblje",
     "koordinate": {
       "lat": 44.72625,
@@ -108222,24 +107487,7 @@
     "nazivEn": "Memorial ossuary of 63 fallen fighters",
     "godina": "1952",
     "posveta": "63 pala borca",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "vares-spomen-kosturnica",
-    "koordinate": {
-      "lat": 44.161635,
-      "lng": 18.325916
-    },
-    "mesto": "Vareš",
-    "slika": "slike/spomenici/vares-spomen-kosturnica.webp",
-    "slikaOdnos": 1.143,
-    "slikaPotpis": "Google Maps",
-    "naziv": "Spomen-kosturnica partizanskih boraca",
-    "nazivEn": "Memorial ossuary of Partisan fighters",
-    "godina": "1977",
-    "autor": "Zlatko Ugljen",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -108273,24 +107521,7 @@
     "naziv": "Masovna grobnica žrtava fašističkog terora",
     "nazivEn": "Mass grave of Victims of Fascist Terror",
     "godina": "1988",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "zepce-spomen-kosturnica",
-    "koordinate": {
-      "lat": 44.421838,
-      "lng": 18.040888
-    },
-    "mesto": "Žepče",
-    "slika": "slike/spomenici/zepce-spomen-kosturnica.webp",
-    "slikaOdnos": 1.176,
-    "slikaPotpis": "Google Maps",
-    "naziv": "Spomen-kosturnica palih boraca i žrtava fašističkog terora",
-    "nazivEn": "Memorial ossuary of fallen fighters and Victims of Fascist Terror",
-    "godina": "1974",
-    "autor": "Hazim Handžić",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -108306,24 +107537,7 @@
     "naziv": "Spomen-grobnica palih boraca",
     "nazivEn": "Memorial grave of fallen fighters",
     "godina": "pre 1979",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "dubica-urije-spomen-kosturnica",
-    "koordinate": {
-      "lat": 45.170898,
-      "lng": 16.815804
-    },
-    "mesto": "Dubica",
-    "slika": "slike/spomenici/dubica-urije-spomen-kosturnica.webp",
-    "slikaOdnos": 1.333,
-    "slikaPotpis": "Google Maps",
-    "naziv": "Spomen-kosturnica",
-    "nazivEn": "Memorial ossuary",
-    "godina": "1953",
-    "autor": "Stanko Jančić",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -111609,24 +110823,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "zvornik-spomen-kosturnica",
-    "koordinate": {
-      "lat": 44.384613,
-      "lng": 19.102863
-    },
-    "mesto": "Zvornik",
-    "slika": "slike/spomenici/zvornik-spomen-kosturnica.webp",
-    "slikaOdnos": 0.75,
-    "slikaPotpis": "Partisan Memorials Wiki",
-    "naziv": "Spomen-kosturnica boraca Prve proleterske brigade",
-    "autor": "Dragiša Trifković & Jusuf Begović & Mehmed Hrasnica",
-    "posveta": [
-      "Q2190675"
-    ],
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "badnjevac-spomenik-palim-borcima",
     "koordinate": {
       "lat": 44.130949,
@@ -112484,7 +111680,7 @@
     "slikaPotpis": "CroatianHistory.net",
     "naziv": "Spomen-grobnica",
     "godina": "1951",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -113393,39 +112589,6 @@
     "drzava": "Montenegro"
   },
   {
-    "id": "ilijas-alica-gaj-spomen-kosturnica",
-    "koordinate": {
-      "lat": 43.960984,
-      "lng": 18.270844
-    },
-    "mesto": "Ilijaš",
-    "slika": "slike/spomenici/ilijas-alica-gaj-spomen-kosturnica.webp",
-    "slikaOdnos": 0.75,
-    "slikaPotpis": "Partisan Memorials Wiki",
-    "naziv": "Kosturnica žrtava fašističkog terora",
-    "nazivEn": "Ossuary of Victims of Fascist Terror",
-    "godina": "1962",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "samac-kosturnica-palih-boraca-1990",
-    "koordinate": {
-      "lat": 45.061625,
-      "lng": 18.469405
-    },
-    "mesto": "Šamac",
-    "slika": "slike/spomenici/samac-kosturnica-palih-boraca-1990.webp",
-    "slikaOdnos": 0.75,
-    "slikaPotpis": "Partisan Memorials Wiki",
-    "naziv": "Spomen-kosturnica palih boraca i žrtava fašističkog terora",
-    "nazivEn": "Memorial ossuary of fallen fighters and Victims of Fascist Terror",
-    "godina": "1990",
-    "autor": "Zoran Jezdimirović & Slavko Kostić & Salko Grabovac",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "prijedor-urije-grobnica-833-zrtve",
     "koordinate": {
       "lat": 44.986235,
@@ -113438,25 +112601,7 @@
     "naziv": "Masovna grobnica 833 žrtve fašističkog terora",
     "nazivEn": "Mass grave of 833 Victims of Fascist Terror",
     "godina": "1985",
-    "vrsta": "spomen-groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "fojnica-spomen-kosturnica",
-    "koordinate": {
-      "lat": 43.9629195,
-      "lng": 17.9026748
-    },
-    "googleCid": "13830366579307149412",
-    "mesto": "Fojnica",
-    "slika": "slike/spomenici/fojnica-spomen-kosturnica.webp",
-    "slikaOdnos": 0.75,
-    "slikaPotpis": "Alma la Douce (@DouceAlma), X",
-    "naziv": "Spomen-kosturnica palih boraca",
-    "nazivEn": "Memorial ossuary of fallen fighters",
-    "godina": "1974",
-    "autor": "Ranko Milanović (reljef)",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -116754,7 +115899,7 @@
     "slikaPotpis": "Vanilica, CC BY-SA 4.0",
     "naziv": "Kosturnica palih boraca takovskog kraja",
     "godina": "1956",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -116772,7 +115917,7 @@
     "naziv": "Kosturnica crvenoarmejaca",
     "godina": "1956",
     "autor": "Živorad Maksimović",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -127426,7 +126571,7 @@
     "naziv": "Skupna grobnica palih boraca Bolmanske bitke",
     "godina": "oko 1960",
     "posveta": "Za 28 boraca VIII. i XV. vojvođanske udarne brigade poginulih u Bolmanskoj bici u martu 1945.",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -127459,7 +126604,7 @@
     "naziv": "Skupna grobnica 17 boraca NOR-a",
     "godina": "1961",
     "posveta": "Za 17 boraca poginulih u borbama za oslobođenje Baranje 1944-1945.",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -127557,7 +126702,7 @@
     "naziv": "Skupna grobnica palih boraca NOR-a",
     "godina": "1961",
     "posveta": "Za 31 nepoznatog borca poginulog u Bolmanskoj bici u martu 1945.",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -127573,7 +126718,7 @@
     "naziv": "Spomen-grobnica palih boraca NOR-a i žrtava fašističkog terora",
     "godina": "1973",
     "posveta": "Za sedmoricu nepoznatih boraca i Jovana Popovića poginule 1945. i žrtve fašističkog terora iz Kneževa.",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -127590,7 +126735,7 @@
     "naziv": "Spomen-grobnica palih boraca NOR-a i žrtava fašističkog terora",
     "godina": "1950-ih",
     "posveta": "Za poginule borce i žrtve fašističkog terora iz Kopačeva i trojicu nepoznatih boraca sahranjenih u grobnici.",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -127607,7 +126752,7 @@
     "naziv": "Spomen-grobnica boraca VIII. vojvođanske udarne brigade",
     "godina": "1981",
     "posveta": "Za borce VIII. vojvođanske udarne brigade poginule za oslobođenje Luga 1944.",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -127689,7 +126834,7 @@
     "slikaPotpis": "Ana Mutnjaković / Dokumentacija Konzervatorskog odjela u Osijeku, Spomenici NOB na području Baranje (2022)",
     "naziv": "Grob Jovana Lazića",
     "posveta": "Jovana Lazića",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -127725,7 +126870,7 @@
     "naziv": "Grob Branka Stupara",
     "posveta": "Branko Stupar, borac VIII. vojvođanske brigade, poginuo 7. januara 1945. na obali Drave.",
     "stanje": "ostecen",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomen-grob",
     "drzava": "Croatia"
   },
   {
@@ -129991,7 +129136,7 @@
     "naziv": "Grobnica narodnih heroja",
     "godina": "1981",
     "posveta": "26 narodnih heroja Sarajeva sahranjenih u grobnici.",
-    "vrsta": "spomen-groblje",
+    "vrsta": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {

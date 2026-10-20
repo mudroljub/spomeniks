@@ -11,6 +11,7 @@ Rezultati različitih prolaza mogu se preklapati. Aktuelne zapise proveravati u 
 Cilj: novi spomenici, fotografije, tačne lokacije i dopune iz pouzdanih javnih izvora. Prinos je procena na osnovu dosadašnjih paketa i izmerenog obima, ne garancija.
 
 - **Redosled po prinosu:** prvo izvori sa tačkama ili fotografijama za mnogo objekata odjednom, zatim katalozi sa opisom mesta, na kraju pojedinačni članci. Unutar istog prinosa prednost imaju važnije vrste spomenika (skil žetve).
+- **Prag za fotografije** (odluka korisnika, 2026-10-20): prednost imaju parkovi, muzeji, spomenici, statue, biste i potvrđene sadržajne memorijalne grobljanske celine. Jednostavni spomen-grobovi, spomen-obeležja i ploče ostaju niži prioritet. Stare zapise vrste `spomen-groblje` prvo razvrstati prema opisu i fotografiji: celina ostaje groblje, konkretno umetničko delo dobija svoju vrstu, jednostavan grob postaje `spomen-grob`.
 - **Proba pre celine:** iz novog izvora prvo uzorak od 20 stavki upoređen sa bazom; nastavak samo ako uzorak donese nove ili ispravljene zapise.
 - **Samo javni izvori:** ovde su samo izvori dostupni na mreži; štampana izdanja, registri na zahtev i bibliografski tragovi bez teksta se ne upisuju (korisnik, 2026-10-19).
 - **Zatvaranje:** posle rada ažurirati red u evidenciji ispod i ukloniti izvor iz ove tabele kad mu ne ostane posla.

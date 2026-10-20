@@ -23,7 +23,9 @@ POTPUNOST PODATKA:
 - popunjavati druge atribute na osnovu dostupnih izvora ([dopuna podataka](docs/DOPUNA_PODATAKA.md)). prioritet su: autor, posveta, wiki...
 
 KVALITET PODATAKA:
-- 523 slike su fotografije korisnika Google mapa, koje nemaju licencu za ponovnu objavu: naći zamenu sa slobodnom licencom, pa ukloniti Google slike
+- fotografije korisnika Google mapa nemaju licencu za ponovnu objavu: naći zamenu sa slobodnom licencom, pa ukloniti Google slike
+- nastaviti pregled zapisa vrste `spomen-groblje`: zadržati tu vrstu za celu uređenu memorijalnu celinu, a konkretno delo razvrstati kao `bista`, `statua` ili `spomenik`, jednostavan grob kao `spomen-grob`; odluku zasnivati na opisu i fotografijama, ne samo na veličini ili nazivu (prvi pregled 50 slovenačkih zapisa: 29 promenjeno, 9 zadržano, [12 za dodatnu proveru](data/provere/groblja-razvrstavanje-2026-10-20.json); preostalih 875 zapisa samo sa mape podeljeno je na [deset prolaza](data/provere/groblja-plan-deset-prolaza-2026-10-20.json), pet po 88 i pet po 87; [prolaz 1](data/provere/groblja-prolaz-01-2026-10-20.json): 35 promenjeno, 50 zadržano, 3 za dodatnu proveru; [prolaz 2](data/provere/groblja-prolaz-02-2026-10-20.json): 59 promenjeno, 23 zadržano, 6 za dodatnu proveru; slede prolazi 3–10 sa 699 zapisa; spisak bez lokacije nije u obuhvatu)
+- pri dopuni fotografija prednost dati umetničkim delima i sadržajnim memorijalnim celinama; jednostavni spomen-grobovi i ploče ostaju niži prioritet
 
 UI:
 - iz perspektive turiste koji obilazi ww2 spomenike bivše Jugoslavije (domaći i stranci): preispitati UI, prikazivanje po važnost podataka, prioritet vrsti spomenika, ponuđene ture i tome slično ([nalazi](docs/UI_TURISTA.md)).

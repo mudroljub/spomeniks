@@ -481,14 +481,14 @@ test('podrazumevani prag je statua i svaka vrsta je zasebna opcija', async () =>
   assert.match(await izvrsi(`${ruta}.querySelector('#prag-vaznosti').textContent`), /Statue/)
   const opcije = await izvrsi(`[...${ruta}.querySelectorAll('[data-prag]')].map(o=>({value:o.dataset.prag,label:o.textContent,znak:Boolean(o.querySelector('img'))}))`)
   assert.ok(opcije.every(o=>o.znak), 'svaka opcija ima znak sa mape')
-  assert.deepEqual(opcije.map(o=>o.value), ['istaknut','spomen-park','muzej','spomenik','statua','spomen-groblje','bista','spomen-obelezje','spomen-ploca'])
+  assert.deepEqual(opcije.map(o=>o.value), ['istaknut','spomen-park','muzej','spomenik','spomen-groblje','statua','bista','spomen-obelezje','spomen-grob','spomen-ploca'])
   assert.ok(opcije.every(o=>!o.label.includes('/')))
   await izvrsi(`${ruta}.querySelector('#dugme').click()`)
   await izvrsi(`${ruta}.querySelector('[data-kartica="ture"]').click()`)
   await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura li')].find(li=>li.querySelector('.ime').textContent==='Beograd u NOB').querySelector('button').click()`)
   const vrste = await izvrsi("import('./utils/ruta.js').then(m=>m.dajRutu().map(id=>document.querySelector('planer-rute').stavke.get(id).spomenik.vrsta))")
   assert.ok(vrste.includes('statua'))
-  assert.ok(!vrste.some(v=>['bista','spomen-obelezje','spomen-ploca'].includes(v)))
+  assert.ok(!vrste.some(v=>['bista','spomen-obelezje','spomen-grob','spomen-ploca'].includes(v)))
   await izvrsi("import('./utils/ruta.js').then(m=>m.postaviRutu([]))")
 })
 
@@ -501,7 +501,7 @@ test('prag važnosti menja celu automatsku turu i pamti izbor bez ograničenja b
   await izvrsi(`${ruta}.querySelector('#dugme').click()`)
   await izvrsi(`${ruta}.querySelector('[data-kartica="ture"]').click()`)
   const imena = await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura .ime')].map(e=>e.textContent)`)
-  assert.ok(imena.includes('Beograd u NOB') && !imena.includes('Banjaluka u NOB'), 'tura sa manje od tri stanice se ne nudi')
+  assert.ok(imena.includes('Beograd u NOB'), 'tura sa dovoljnim brojem stanica se nudi')
   // tura sa stalnim pragom umesto broja stanica navodi prag
   assert.ok(await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura .opis')].filter(o=>o.textContent!=='Istaknuti spomenici').every(o=>parseInt(o.textContent)>=3)`))
   assert.ok(await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura li')].some(li=>li.querySelector('.ime').textContent==='Jugoslavija u NOB'&&li.querySelector('.opis').textContent==='Istaknuti spomenici')`))
@@ -955,6 +955,23 @@ test('traka dopunjava fotografije nakon prosirenja ekrana bez rucnog pomeranja',
   } finally {
     await pregledac.send('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:2,mobile:true})
   }
+})
+
+test('spomen-grob ima zaseban filter, oznaku u legendi i marker', async () => {
+  await otvori()
+  await sacekaj("document.documentElement.dataset.podaci==='svi'", 'ucitani svi grobovi')
+  await izvrsi("document.querySelector('polje-pretraga .dugme-filteri').click()")
+  const root = "document.querySelector('panel-filteri').shadowRoot"
+  const cip = `${root}.querySelector('[data-grupa="tip"][data-opcija="spomen-grob"]')`
+  assert.match(await izvrsi(`${cip}.textContent`), /Spomen-grobovi/)
+  await izvrsi(`${cip}.click()`)
+  const vrste = await izvrsi("document.querySelector('polje-pretraga').filtrirano.map(s=>s.spomenik.vrsta)")
+  assert.ok(vrste.length > 0)
+  assert.ok(vrste.every(v=>v==='spomen-grob'))
+  await izvrsi(`${root}.querySelector('#prikazi').click()`)
+  await sacekaj("!!document.querySelector('.leaflet-marker-pane img[src*=\"spomen-grob-postoji.svg\"]')", 'marker groba posle potvrde')
+  await izvrsi("document.querySelector('dugme-legenda').shadowRoot.querySelector('button').click()")
+  assert.match(await izvrsi("document.querySelector('dugme-legenda').shadowRoot.textContent"), /Spomen-grob/)
 })
 
 test('bez grešaka u aplikaciji', () => {

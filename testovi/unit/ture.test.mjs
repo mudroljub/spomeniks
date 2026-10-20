@@ -44,12 +44,13 @@ test('velika tura sa stalnim pragom ima samo istaknute spomenike, bez obzira na 
 })
 
 test('svaka vrsta ima zaseban prag, a podrazumevani uključuje statue bez bista', () => {
-  const vrste = ['spomen-ploca', 'bista', 'spomen-obelezje', 'statua', 'spomen-groblje', 'spomenik', 'muzej', 'spomen-park', 'istaknut']
+  const vrste = ['spomen-ploca', 'spomen-grob', 'bista', 'spomen-obelezje', 'statua', 'spomen-groblje', 'spomenik', 'muzej', 'spomen-park', 'istaknut']
   const rows = vrste.map(v => spomenik(v, v === 'istaknut' ? 'spomenik' : v, {istaknut: v === 'istaknut'}))
   for (const [i, prag] of nivoiVaznosti.entries())
     assert.deepEqual(ids(izaberiStanice(rows, oblast, prag)), nivoiVaznosti.slice(0, i + 1))
   assert.equal(podrazumevaniPrag, 'statua')
   assert.ok(ids(izaberiStanice(rows, oblast, podrazumevaniPrag)).includes('statua'))
+  assert.ok(ids(izaberiStanice(rows, oblast, podrazumevaniPrag)).includes('spomen-groblje'))
   assert.ok(!ids(izaberiStanice(rows, oblast, podrazumevaniPrag)).includes('bista'))
 })
 
@@ -59,7 +60,7 @@ test('postojeći sačuvani grupisani izbor se čuva, a nov korisnik dobija statu
   assert.equal(razresiPrag('statua'), 'statua')
   for (const [pre, posle] of Object.entries({lokalni: 'spomen-obelezje', kompleks: 'spomen-park', groblje: 'spomen-groblje', ploca: 'spomen-ploca'}))
     assert.equal(razresiPrag(pre), posle)
-  for (const [pre, posle] of Object.entries({0: 'istaknut', 8: 'muzej', 9: 'spomen-groblje', 10: 'bista', 11: 'spomen-obelezje', 12: 'spomen-ploca'}))
+  for (const [pre, posle] of Object.entries({0: 'istaknut', 8: 'muzej', 9: 'statua', 10: 'bista', 11: 'spomen-obelezje', 12: 'spomen-ploca'}))
     assert.equal(razresiPrag(pre), posle)
 })
 

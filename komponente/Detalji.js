@@ -511,7 +511,7 @@ export default class Detalji extends HTMLElement {
   osveziRutu() {
     const dugme = this.panel.querySelector('#ruta')
     const dodat = uRuti(this.marker.spomen.id)
-    dugme.setAttribute('aria-pressed', dodat)
+    dugme.setAttribute('aria-pressed', String(dodat))
     dugme.textContent = t(dodat ? 'vecURuti' : 'dodajURutu')
   }
 
