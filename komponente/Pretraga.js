@@ -188,10 +188,12 @@ export default class Pretraga extends HTMLElement {
     if (deo.length) setTimeout(() => this.pripremiTekstove(od + deo.length))
   }
 
-  // autori, godine i engleski nazivi stizu posle prvog crtanja, pa se tekst za pretragu i filteri prave ponovo
+  // autori, godine i engleski nazivi stizu posle prvog crtanja, pa se tekst za pretragu i autori u filterima prave ponovo;
+  // bez fraze rezultat od njih ne zavisi (filter autora pre toga nije ni postojao), pa se mapa ne crta iznova
   osveziDopune() {
     this.tekstovi.clear()
-    this.dodaj([])
+    this.filteri.dodaj(this.stavke)
+    if (normalizuj(this.polje.value).length >= najmanjeSlova) this.pretrazi()
   }
 
   tekst(stavka) {

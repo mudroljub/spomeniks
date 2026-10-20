@@ -47,6 +47,8 @@ const otvori = async (hash = '') => {
   await pregledac.send('Page.navigate', {url: server.adresa + hash})
   await sacekaj("document.querySelectorAll('.leaflet-marker-pane img').length", 'obelisci na mapi')
   await sacekaj("document.documentElement.dataset.podaci === 'svi'", 'svi podaci')
+  // prozor spomenika i ture se preuzimaju posle prvog crtanja i pod opterecenjem mogu stici posle podataka
+  await sacekaj("!!(document.querySelector('planer-rute') && document.querySelector('detalji-spomenika'))", 'odlozeni paneli')
 }
 
 const BROJ = `document.body.innerText.match(/(\\d+) od \\d+/)?.[1]`

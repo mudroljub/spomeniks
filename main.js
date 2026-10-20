@@ -87,7 +87,8 @@ const osveziSlajder = () => {
   const granice = mapa.getBounds()
   const stavke = filtriraneStavke
     .filter(({marker, dajSliku}) => dajSliku && granice.contains(marker.dajPoziciju()))
-    .sort((a, b) => vaznostSpomenika(a.spomenik) - vaznostSpomenika(b.spomenik) || a.spomenik.id.localeCompare(b.spomenik.id))
+    // id je ASCII, pa je obicno poredjenje isto sto i localeCompare, a mnogo brze kad je na ekranu cela drzava
+    .sort((a, b) => vaznostSpomenika(a.spomenik) - vaznostSpomenika(b.spomenik) || (a.spomenik.id < b.spomenik.id ? -1 : a.spomenik.id > b.spomenik.id ? 1 : 0))
   slajder.postavi(stavke.map(({dajSliku}) => dajSliku), mapa.getZoom())
 }
 

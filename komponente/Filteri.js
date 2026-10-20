@@ -20,26 +20,32 @@ const obelisk = (stanje, oznake) => znak(izgledMarkera({vrsta: 'spomenik', stanj
 const stanjaZnaka = {rusevine: 'rusevine', nestao: 'uklonjen'}
 
 // unutar grupe vazi bilo koja izabrana opcija (ili), a izmedju grupa sve (i);
-// vrednosti su opcije grupe kojima spomenik pripada
+// vrednosti su opcije grupe kojima spomenik pripada; drzave i autori su funkcije, jer se racunaju tek kad zatrebaju
 const praviGrupe = (drzave, autori) => [
   {kljuc: 'tip', naziv: t('grupaVrste'), opcije: Object.fromEntries(nivoiVaznosti.map(o => [o, t(o)])),
     vrednosti: s => nivoiVaznosti.filter(o => pripadaVrsti(s, o)), znak: o => znakVrste(o, razmeraZnaka)},
-  {kljuc: 'autor', naziv: t('grupaAutor'), opcije: Object.fromEntries(autori.map(a => [a, a])), padajuci: true,
+  {kljuc: 'autor', naziv: t('grupaAutor'), get opcije() { return Object.fromEntries(autori().map(a => [a, a])) }, padajuci: true,
     vrednosti: autoriSpomenika},
   {kljuc: 'stanje', naziv: t('grupaStanje'), opcije: {postoji: t('postoji'), rusevine: t('ruine'), nestao: t('uklonjen')},
     vrednosti: s => [nestao(s.stanje) ? 'nestao' : ruine(s.stanje) ? 'rusevine' : 'postoji'],
     znak: o => obelisk(stanjaZnaka[o])},
-  {kljuc: 'drzava', naziv: t('grupaDrzava'), opcije: Object.fromEntries(drzave.map(d => [d, nazivDrzave(d)])),
+  {kljuc: 'drzava', naziv: t('grupaDrzava'), get opcije() { return Object.fromEntries(drzave().map(d => [d, nazivDrzave(d)])) },
     vrednosti: s => [s.drzava]},
   {kljuc: 'poseta', naziv: t('grupaPoseta'), opcije: {lista: t('lista'), posetio: t('posetio')},
     vrednosti: s => [dajOznaku(s.id)],
     znak: o => obelisk(undefined, {oznaka: o})},
 ]
 
-const grupeZa = stavke => {
-  const drzave = [...new Set(stavke.map(({spomenik}) => spomenik.drzava))].sort((a, b) => nazivDrzave(a).localeCompare(nazivDrzave(b)))
-  return praviGrupe(drzave, praviAutore(stavke))
+// opcije drzava i autora prolaze kroz sve spomenike, pa se racunaju tek kad se filteri otvore, i samo jednom
+const lenjo = racunaj => {
+  let vrednost
+  return () => vrednost ??= racunaj()
 }
+
+const grupeZa = stavke => praviGrupe(
+  lenjo(() => [...new Set(stavke.map(({spomenik}) => spomenik.drzava))].sort((a, b) => nazivDrzave(a).localeCompare(nazivDrzave(b)))),
+  lenjo(() => praviAutore(stavke)),
+)
 
 // autori sa bar tri dela, abecedno; ostale nalazi pretraga
 const praviAutore = stavke => {

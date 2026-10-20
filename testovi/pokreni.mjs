@@ -19,7 +19,9 @@ for (const grupa of izabrane) {
   const folder = grupe[grupa]
   const fajlovi = readdirSync(folder)
   console.log(`\n== ${grupa}`)
-  if (fajlovi.some(f => f.endsWith('.test.mjs'))) uspeh = pokreni(process.execPath, ['--test', `${folder}/*.test.mjs`]) && uspeh
+  // svaki e2e fajl pokrece svoj Chrome; istovremeno se otimaju o procesor i testovi sa rokom isticu
+  const redom = grupa === 'e2e' ? ['--test-concurrency=1'] : []
+  if (fajlovi.some(f => f.endsWith('.test.mjs'))) uspeh = pokreni(process.execPath, ['--test', ...redom, `${folder}/*.test.mjs`]) && uspeh
   if (fajlovi.some(f => /^test_.*\.py$/.test(f)))
     uspeh = pokreni('python', ['-I', '-B', '-m', 'unittest', 'discover', '-s', folder, '-p', 'test_*.py']) && uspeh
 }
