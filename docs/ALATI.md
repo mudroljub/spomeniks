@@ -23,7 +23,7 @@ Alati koji uvoze `zapis.py` takođe zahtevaju `node` na PATH-u: pri učitavanju 
 
 ## Testovi (fascikla `testovi/`)
 
-`node testovi/pokreni.mjs [unit|integracija|e2e|sve] [deo naziva testa]`; bez argumenta pokreće unit i integraciju (par sekundi), a deo naziva bira samo odgovarajuće testove (npr. `e2e pretraga`). Isto preko `npm test`, `npm run test:e2e` i `npm run test:sve` (`package.json` ima samo skripte, bez paketa).
+Testovi su pauzirani do odluke korisnika (2026-10-20; [AGENTS.md](../AGENTS.md#provera)). `node testovi/pokreni.mjs [unit|integracija|e2e|sve] [deo naziva testa]`; bez argumenta pokreće unit i integraciju (par sekundi), a deo naziva bira samo odgovarajuće testove (npr. `e2e pretraga`). Isto preko `npm test`, `npm run test:e2e` i `npm run test:sve` (`package.json` ima samo skripte, bez paketa).
 
 | Grupa | Sadržaj |
 |---|---|
