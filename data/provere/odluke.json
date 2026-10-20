@@ -25060,5 +25060,57 @@
       "Grob Darka Ribnikara": "pojedinačan nadgrobni spomenik",
       "bela-crkva-spomenik-ustanka-1941": "nije potvrđeno da je to Simbolika u kamenu"
     }
+  },
+  {
+    "odluka": "priblizni-duplikati-2026-10-20",
+    "datum": "2026-10-20",
+    "spojeno": [
+      {
+        "uklonjen": "kikinda-livnica-spomenik-formiranju-kikindskog-partizanskog-odreda",
+        "zadrzan": "kikinda-nob-obelisk",
+        "dokaz": "Ista fotografija oba zapisa: crni obelisk sa talasastim otvorom („Plamen“, 1981); približna tačka bila je 3 m od Google tačke.",
+        "izvorUklonjenog": "https://commons.wikimedia.org/wiki/File:Spomen_obelisk_Kikinda_02.jpg",
+        "prenetoPolja": [
+          "slika (Commons, CC BY-SA 4.0, zamenila Google fotografiju)",
+          "posveta"
+        ],
+        "pre": {
+          "slikaOdnos": 1.455,
+          "slikaPotpis": null,
+          "posveta": null
+        }
+      },
+      {
+        "uklonjen": "vocin-partizansko-groblje-ljutoc",
+        "zadrzan": "novo-zvecevo-partizansko-groblje-na-ljutocu",
+        "dokaz": "Isto partizansko groblje na Ljutoču (Partisan Memorials Wiki: Voćin – Partizansko groblje Ljutoč, 1981); zadržana tačna OSM tačka, 2,3 km od centra sela.",
+        "izvorUklonjenog": "https://www.xiwl.com/w/index.php/Vo%C4%87in_-_Partizansko_Groblje_Ljuto%C4%8D",
+        "prenetoPolja": [
+          "godina 1981",
+          "vrsta spomenik (centralni apstraktni spomenik od pet stubova, po pregledu groblja)"
+        ],
+        "pre": {
+          "vrsta": "groblje",
+          "godina": null
+        }
+      }
+    ]
+  },
+  {
+    "odluka": "duplikat-akaca-2026-10-20",
+    "datum": "2026-10-20",
+    "id": "novo-milosevo-piramida-na-rudini-akaci",
+    "pre": {
+      "koordinate": {
+        "lat": 45.72131,
+        "lng": 20.30175
+      },
+      "priblizno": true
+    },
+    "dokaz": "Ista fotografija https://commons.wikimedia.org/wiki/File:Spomenik_na_Ak%C4%8Di.jpg u oba zapisa; GPS snimka izbliza je tačka postojećeg zapisa akaca-spomenik. Uklonjeni približni zapis (centar Novog Miloševa, 3,2 km dalje) bio je iz Popović-Žume, str. 136, pod nazivom „Piramida na rudini Akači“, vrsta spomen-obelezje.",
+    "neprihvaceno": "Commons GPS za biste u Obrenovcu (53 i 63 m) i Crepaji (18 m) samo je tačka snimka uz već blisku približnu tačku; Brdo mira u Gornjem Milanovcu nema tačke pojedinačnih objekata, pa tri zapisa u parku ostaju na tački parka.",
+    "zadrzan": "akaca-spomenik",
+    "uklonjen": "novo-milosevo-piramida-na-rudini-akaci",
+    "izvorUklonjenog": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=136"
   }
 ]
