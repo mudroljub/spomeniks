@@ -8,6 +8,8 @@ ucitaj_bazu ih spaja u ceo zapis, a sacuvaj_bazu ih ponovo razdvaja, pa alati uv
 Izvori (data/izvori.json) i izvori stanja (data/izvori-stanja.json) su samo za alate: alat ih privremeno drži u zapisu
 (izvor, stanjeIzvor), a funkcije za čuvanje ih izdvajaju.
 Provere lokacije i opstanka čuvaju se u data/provere-spomenika.json, takođe po ID-ju.
+Arhiva (data/arhiva.json, ucitaj_arhivu / sacuvaj_arhivu) čuva cele zapise koje aplikacija ne prikazuje, sa istim
+trajnim ID-jem, izvorima i proverama; ID je jedinstven u mapi, spisku bez lokacije i arhivi zajedno.
 Tip polja je u data/tipovi.d.ts; novo polje se dodaje i u REDOSLED, inače ga integritet.py prijavi."""
 import errno, hashlib, json, os, subprocess, tempfile, threading, time
 from contextlib import contextmanager
@@ -76,6 +78,7 @@ REDOSLED = ['id', 'koordinate', 'priblizno', 'googleCid', 'mesto', 'izvor', 'wik
 # polja za prozor spomenika, pretragu i filtere, koja ne trebaju za crtanje mape; u fajlovima mape ih nema, nego su u DETALJI
 POLJA_DETALJA = ('googleCid', 'wiki', 'wikiEn', 'slikaPotpis', 'opis', 'godina', 'autor', 'natpis', 'posveta')
 ISTAKNUTI, OSTALI, BEZ_LOKACIJE, IZVORI = 'data/spomenici-istaknuti.json', 'data/spomenici-ostali.json', 'data/bez_lokacije.json', 'data/izvori.json'
+ARHIVA = 'data/arhiva.json'
 IZVORI_STANJA = 'data/izvori-stanja.json'
 PREVODI_EN, DETALJI = 'data/prevodi-en.json', 'data/detalji.json'
 PROVERE_SPOMENIKA = 'data/provere-spomenika.json'
@@ -174,6 +177,15 @@ def ucitaj_bez_lokacije():
     return _ucitaj(BEZ_LOKACIJE)
 
 
+@zakljucani_podaci()
+def ucitaj_arhivu():
+    return _ucitaj(ARHIVA)
+
+
+def _ids(*putanje):
+    return {s['id'] for putanja in putanje for s in _ucitaj(putanja)}
+
+
 # Izvori su samo za alate, pa su u zasebnim fajlovima (ID -> izvor). Putanje se citaju pri svakom pozivu,
 # da izolovana proba (zamena putanja u testu) ne pise u prave podatke.
 def _izdvoj_izvore(zapisi, ostali_ids):
@@ -189,8 +201,9 @@ def _izdvoj_izvore(zapisi, ostali_ids):
 @zakljucani_podaci()
 def sacuvaj_bazu(spomenici):
     """Upisuje cele zapise mape: osnovu u dva fajla po važnosti, detalje i engleske nazive u svoje fajlove, a izvore posebno."""
-    _izdvoj_izvore(spomenici, {s['id'] for s in _ucitaj(BEZ_LOKACIJE)})
-    _izdvoj_provere(spomenici, {s['id'] for s in _ucitaj(BEZ_LOKACIJE)})
+    ostali_ids = _ids(BEZ_LOKACIJE, ARHIVA)
+    _izdvoj_izvore(spomenici, ostali_ids)
+    _izdvoj_provere(spomenici, ostali_ids)
     osnove, detalji, prevodi = [], {}, {}
     for s in map(poredaj, spomenici):
         detalj = {k: s[k] for k in POLJA_DETALJA if k in s}
@@ -205,9 +218,18 @@ def sacuvaj_bazu(spomenici):
 
 @zakljucani_podaci()
 def sacuvaj_bez_lokacije(zapisi):
-    _izdvoj_izvore(zapisi, {s['id'] for s in ucitaj_bazu()})
-    _izdvoj_provere(zapisi, {s['id'] for s in ucitaj_bazu()})
+    ostali_ids = _ids(ISTAKNUTI, OSTALI, ARHIVA)
+    _izdvoj_izvore(zapisi, ostali_ids)
+    _izdvoj_provere(zapisi, ostali_ids)
     upisi_json(BEZ_LOKACIJE, zapisi)
+
+
+@zakljucani_podaci()
+def sacuvaj_arhivu(zapisi):
+    ostali_ids = _ids(ISTAKNUTI, OSTALI, BEZ_LOKACIJE)
+    _izdvoj_izvore(zapisi, ostali_ids)
+    _izdvoj_provere(zapisi, ostali_ids)
+    upisi_json(ARHIVA, [poredaj(s) for s in zapisi])
 
 
 def _izdvoj_provere(zapisi, ostali_ids):

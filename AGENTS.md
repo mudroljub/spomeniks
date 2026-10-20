@@ -26,7 +26,7 @@ with zakljucani_podaci():
 ```
 
 - Fajlove mape (`data/spomenici-istaknuti.json`, `data/spomenici-ostali.json`) nikad ne čitaj direktno (`json.load`, `JSON.parse`): u njima su samo polja za crtanje mape, a autor, godina, opis, posveta, natpis, linkovi, potpis slike i engleski naziv su u `data/detalji.json` i `data/prevodi-en.json`. Ceo zapis daju samo `ucitaj_bazu()` (u Node-u `ucitajBazu()` iz `alati/baza.mjs`), a `sacuvaj_bazu()` ga sam ponovo razdvaja.
-- Za spisak bez lokacije koristi `ucitaj_bez_lokacije()` i `sacuvaj_bez_lokacije()` u istom bloku. Pri prebacivanju između spiskova drži jednu bravu preko oba čitanja i oba upisa.
+- Za spisak bez lokacije koristi `ucitaj_bez_lokacije()` i `sacuvaj_bez_lokacije()`, a za arhivu `ucitaj_arhivu()` i `sacuvaj_arhivu()`, u istom bloku. Pri prebacivanju između spiskova drži jednu bravu preko oba čitanja i oba upisa.
 - Pripremljene izmene veži za ID i očekivane stare vrednosti polja koja menjaš. Ako je vrednost promenjena ili zapis nestao, preskoči konflikt i ponovo ga istraži; ne prepisuj ga automatski.
 - Ne čuvaj ceo spisak učitan tokom ranijeg istraživanja. Ponovo ga učitaj unutar brave i primeni samo nameravane izmene.
 - Ostale zajedničke JSON fajlove takođe čitaj i menjaj unutar `zakljucani_podaci()`, a piši pomoću `upisi_json()`. Ne piši direktno preko `open(..., 'w')` ili `json.dump`.

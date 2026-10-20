@@ -1,6 +1,6 @@
 import json, math, os, re, sys, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # zapis.py je pored alata
-from zapis import REDOSLED, ISTAKNUTI, OSTALI, IZVORI_STANJA, PROVERE_SPOMENIKA, POLJA_PROVERE, u_istaknutima, ucitaj_mapu
+from zapis import REDOSLED, ISTAKNUTI, OSTALI, IZVORI_STANJA, PROVERE_SPOMENIKA, POLJA_PROVERE, u_istaknutima, ucitaj_arhivu, ucitaj_mapu
 sys.stdout.reconfigure(encoding='utf-8')
 istaknuti, ostali = (ucitaj_mapu(f) for f in (ISTAKNUTI, OSTALI))
 d = istaknuti + ostali
@@ -194,8 +194,23 @@ bez_ids = collections.Counter(s.get('id') for s in bez)
 for i, n in bez_ids.items():
     if not i: greske['bez lokacije: bez id'].append(n)
     elif n > 1 or i in ids: greske['bez lokacije: isti id'].append(i)
-svi_ids = set(ids) | set(bez_ids)
-zapisi_po_id = {s['id']: s for s in d + bez if 'id' in s}
+arhiva = ucitaj_arhivu()
+arhiva_ids = collections.Counter(s.get('id') for s in arhiva)
+for i, n in arhiva_ids.items():
+    if not i: greske['arhiva: bez id'].append(n)
+    elif n > 1 or i in ids or i in bez_ids: greske['arhiva: isti id'].append(i)
+for s in arhiva:
+    oznaka = (s.get('id'), s.get('naziv'), s.get('mesto'))
+    if not isinstance(s.get('naziv'), str) or not s['naziv'] or not s.get('mesto'): greske['arhiva: bez naziva ili mesta'].append(oznaka)
+    if s.get('vrsta') not in VRSTE: greske['arhiva: nepoznata vrsta'].append((oznaka, s.get('vrsta')))
+    if s.get('drzava') not in DRZAVE: greske['arhiva: nepoznata drzava'].append((oznaka, s.get('drzava')))
+    if s.get('stanje') not in STANJA: greske['arhiva: bez poznatog stanja'].append((oznaka, s.get('stanje')))
+    if {'izvor', 'stanjeIzvor', *POLJA_PROVERE} & set(s): greske['arhiva: izdvojeni podaci u zapisu (sacuvaj_arhivu)'].append(oznaka)
+    k = s.get('koordinate')
+    if k is not None and not (isinstance(k.get('lat'), (int, float)) and isinstance(k.get('lng'), (int, float))): greske['arhiva: koordinate'].append(oznaka)
+    if str(s.get('slika', '')).startswith('slike/') and not os.path.exists(s['slika']): greske['arhiva: nema slike'].append((oznaka, s['slika']))
+svi_ids = set(ids) | set(bez_ids) | set(arhiva_ids)
+zapisi_po_id = {s['id']: s for s in d + bez + arhiva if 'id' in s}
 for i, provere in json.load(open(PROVERE_SPOMENIKA, encoding='utf8')).items():
     if (i not in svi_ids or not isinstance(provere, dict) or not provere
             or set(provere) - set(POLJA_PROVERE)):
@@ -230,7 +245,7 @@ for j, s in enumerate(bez):
     for kand in s.get('kandidati', []):
         if not isinstance(kand.get('lat'), (int, float)) or not isinstance(kand.get('lng'), (int, float)) or not kand.get('izvor'):
             greske['bez lokacije: los kandidat'].append(oznaka)
-# veze knjiga (cilj) i radni pokazivaci izvestaja (radniId) pokazuju na ID u bilo kom od dva spiska;
+# veze knjiga (cilj) i radni pokazivaci izvestaja (radniId) pokazuju na ID u bilo kom spisku;
 # cilj koji se nije mogao potvrditi pri prelasku sa rednih brojeva nosi ciljNepouzdan i moze biti prazan
 def veza_u_redu(u):
     return u.get('cilj') in svi_ids or (u.get('ciljNepouzdan') is True and u.get('cilj') is None)
@@ -252,7 +267,7 @@ for put in sorted(f for f in os.listdir('data/provere') if f.endswith('.json')):
             greske['izvestaj: redni broj umesto radniId'].append((put, o['radniIndeks']))
         if 'radniId' in o and o['radniId'] not in svi_ids:
             greske['izvestaj: radniId bez cilja'].append((put, o['radniId']))
-        if 'prebacenoNaMapu' in o and o['prebacenoNaMapu'] not in ids:
+        if 'prebacenoNaMapu' in o and o['prebacenoNaMapu'] not in ids and o['prebacenoNaMapu'] not in arhiva_ids:
             greske['izvestaj: prebaceno na nepostojeci id'].append((put, o['prebacenoNaMapu']))
 # aplikacija prvo ucitava istaknute (vidljive na pocetnom zumu 7, tacne lokacije), pa ostale; zapis mora biti u pravom fajlu
 for s in istaknuti:

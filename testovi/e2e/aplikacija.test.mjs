@@ -560,8 +560,8 @@ test('prag važnosti menja celu automatsku turu i pamti izbor bez ograničenja b
   const imena = await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura .ime')].map(e=>e.textContent)`)
   assert.ok(imena.includes('Beograd u NOB'), 'tura sa dovoljnim brojem stanica se nudi')
   // tura sa stalnim pragom umesto broja stanica navodi prag
-  assert.ok(await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura .opis')].filter(o=>o.textContent!=='Istaknuti spomenici').every(o=>parseInt(o.textContent)>=3)`))
-  assert.ok(await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura li')].some(li=>li.querySelector('.ime').textContent==='Jugoslavija u NOB'&&li.querySelector('.opis').textContent==='Istaknuti spomenici')`))
+  assert.ok(await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura .opis')].filter(o=>o.textContent!=='Istaknuti spomenik').every(o=>parseInt(o.textContent)>=3)`))
+  assert.ok(await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura li')].some(li=>li.querySelector('.ime').textContent==='Jugoslavija u NOB'&&li.querySelector('.opis').textContent==='Istaknuti spomenik')`))
   await postaviPrag('spomen-ploca')
   await izaberi('Beograd u NOB')
   const svi = await izvrsi("import('./utils/ruta.js').then(m=>m.dajRutu())")

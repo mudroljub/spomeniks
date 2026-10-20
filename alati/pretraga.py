@@ -1,4 +1,4 @@
-"""Pronalaženje i poređenje naših zapisa (baza i spisak bez lokacije), za uparivanje sa knjigama, registrima i drugim izvorima.
+"""Pronalaženje i poređenje naših zapisa (baza, spisak bez lokacije i arhiva), za uparivanje sa knjigama, registrima i drugim izvorima.
 
 Kao modul:
     sys.path.insert(0, 'alati'); from pretraga import Zapisi, norm, osnove
@@ -10,10 +10,10 @@ Iz komandne linije:
     python -I alati/pretraga.py blizu <lat> <lng> [metara]
     python -I alati/pretraga.py mesto <naziv mesta> [država]
     python -I alati/pretraga.py naziv <tekst>
-Svaki zapis nosi 'skup': 'mapa' ili 'bez_lokacije'."""
+Svaki zapis nosi 'skup': 'mapa', 'bez_lokacije' ili 'arhiva'."""
 import collections, json, math, os, re, sys, unicodedata
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # zapis.py je pored alata
-from zapis import BEZ_LOKACIJE, ucitaj_bazu
+from zapis import BEZ_LOKACIJE, ucitaj_arhivu, ucitaj_bazu
 
 LATINICA = dict(zip('абвгдђежзијклљмнњопрстћуфхцчџшѓќѕ',
                     ['a', 'b', 'v', 'g', 'd', 'dj', 'e', 'z', 'z', 'i', 'j', 'k', 'l', 'lj', 'm', 'n', 'nj', 'o', 'p', 'r', 's', 't',
@@ -48,7 +48,8 @@ def udaljenost(a, b, c, d):
 class Zapisi:
     def __init__(self):
         self.svi = [{**s, 'skup': 'mapa'} for s in ucitaj_bazu()] + \
-                   [{**s, 'skup': 'bez_lokacije'} for s in json.load(open(BEZ_LOKACIJE, encoding='utf-8'))]
+                   [{**s, 'skup': 'bez_lokacije'} for s in json.load(open(BEZ_LOKACIJE, encoding='utf-8'))] + \
+                   [{**s, 'skup': 'arhiva'} for s in ucitaj_arhivu()]
         self.po_id = {s['id']: s for s in self.svi}
         self.mreza = collections.defaultdict(list)  # ćelije od 0,01° (oko 1 km), za brzu pretragu po blizini
         for s in self.svi:

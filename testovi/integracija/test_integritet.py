@@ -18,7 +18,7 @@ def spomenik(sid, lat=44, lng=20):
 
 
 class IntegritetTest(unittest.TestCase):
-    def proveri(self, zapisi, visak_slike=False, posvete=None, bez_lokacije=None, knjiga=None, razvrstaj=True):
+    def proveri(self, zapisi, visak_slike=False, posvete=None, bez_lokacije=None, knjiga=None, razvrstaj=True, arhiva=None):
         with tempfile.TemporaryDirectory(prefix='spomenici-integritet-') as folder:
             koren = Path(folder)
             for f in ('data/knjige', 'data/provere'):
@@ -29,7 +29,7 @@ class IntegritetTest(unittest.TestCase):
             istaknuti = [s for s in zapisi if u_istaknutima(s) or not razvrstaj]
             ostali = [s for s in zapisi if s not in istaknuti]
             for ime, podaci in [('spomenici-istaknuti', istaknuti), ('spomenici-ostali', ostali), ('ture', []), ('autori', {}), ('posvete', posvete or {}),
-                                ('bez_lokacije', bez_lokacije or []), ('provere-spomenika', {}), ('izvori-stanja', {})]:
+                                ('bez_lokacije', bez_lokacije or []), ('arhiva', arhiva or []), ('provere-spomenika', {}), ('izvori-stanja', {})]:
                 (koren / f'data/{ime}.json').write_text(json.dumps(podaci), encoding='utf8')
             if knjiga is not None:
                 (koren / 'data/knjige/test.json').write_text(json.dumps(knjiga), encoding='utf8')
@@ -143,6 +143,18 @@ class IntegritetTest(unittest.TestCase):
                             ([{**stavka, 'id': 'x'}, {**stavka, 'id': 'x'}], 'bez lokacije: isti id')]:
             with self.subTest(poruka=poruka, bez=bez):
                 r = self.proveri([spomenik('test')], bez_lokacije=bez)
+                self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
+                self.assertIn(poruka, r.stdout)
+
+    def test_arhiva(self):
+        arhiviran = {**spomenik('arhiviran', 45), 'stanje': 'uklonjen'}
+        r = self.proveri([spomenik('test')], arhiva=[arhiviran], knjiga=[{'oznaka': 'A', 'uparivanje': {'cilj': 'arhiviran'}}])
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        for arhiva, poruka in [([{**arhiviran, 'id': 'test'}], 'arhiva: isti id'),
+                               ([{k: v for k, v in arhiviran.items() if k != 'stanje'}], 'arhiva: bez poznatog stanja'),
+                               ([{**arhiviran, 'izvor': 'https://example.org'}], 'arhiva: izdvojeni podaci')]:
+            with self.subTest(poruka=poruka):
+                r = self.proveri([spomenik('test')], arhiva=arhiva)
                 self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
                 self.assertIn(poruka, r.stdout)
 

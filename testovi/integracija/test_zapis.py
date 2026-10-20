@@ -13,7 +13,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2] / 'alati'))
 import zapis
 
 
-FAJLOVI_PODATAKA = ('ISTAKNUTI', 'OSTALI', 'BEZ_LOKACIJE', 'IZVORI', 'IZVORI_STANJA', 'PROVERE_SPOMENIKA', 'PREVODI_EN', 'DETALJI')
+FAJLOVI_PODATAKA = ('ISTAKNUTI', 'OSTALI', 'BEZ_LOKACIJE', 'ARHIVA', 'IZVORI', 'IZVORI_STANJA', 'PROVERE_SPOMENIKA', 'PREVODI_EN', 'DETALJI')
 
 
 class ZapisTest(unittest.TestCase):
@@ -207,6 +207,24 @@ class ZapisTest(unittest.TestCase):
                                                    'vrsta': 'spomenik', 'stanje': 'uklonjen'}])
             self.assertEqual(json.loads(Path(zapis.IZVORI).read_bytes()), {'isti-id': 'https://example.org/izvor'})
             self.assertEqual(json.loads(Path(zapis.IZVORI_STANJA).read_bytes()), {'isti-id': stanje})
+
+    def test_arhiviranje_cuva_ceo_zapis_izvore_i_provere(self):
+        stanje = {'naziv': 'Hrzenjak', 'godina': 2002, 'url': 'https://example.org/knjiga'}
+        provera = {'datum': '2026-10-20', 'izvor': 'https://example.org', 'ishod': 'uklonjena'}
+        ceo = {'id': 'bista', 'koordinate': {'lat': 45.5, 'lng': 18.7}, 'mesto': 'Grad', 'naziv': 'Bista', 'autor': 'Autor',
+               'stanje': 'uklonjen', 'vrsta': 'bista', 'drzava': 'Croatia'}
+        with self.izolovana_baza(), zapis.zakljucani_podaci():
+            zapis.sacuvaj_bazu([{**ceo, 'izvor': 'https://example.org/izvor', 'stanjeIzvor': stanje, 'proveraOpstanka': provera}])
+            mapa = zapis.ucitaj_bazu()
+            zapis.sacuvaj_arhivu(mapa)
+            zapis.sacuvaj_bazu([])
+            self.assertEqual(zapis.ucitaj_bazu(), [])
+            self.assertEqual(zapis.ucitaj_arhivu(), [ceo])
+            self.assertEqual(json.loads(Path(zapis.IZVORI).read_bytes()), {'bista': 'https://example.org/izvor'})
+            self.assertEqual(json.loads(Path(zapis.IZVORI_STANJA).read_bytes()), {'bista': stanje})
+            self.assertEqual(json.loads(Path(zapis.PROVERE_SPOMENIKA).read_bytes()), {'bista': {'proveraOpstanka': provera}})
+            zapis.sacuvaj_bez_lokacije([])
+            self.assertEqual(json.loads(Path(zapis.IZVORI).read_bytes()), {'bista': 'https://example.org/izvor'})
 
 
 if __name__ == '__main__':

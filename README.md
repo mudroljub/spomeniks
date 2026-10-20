@@ -26,6 +26,7 @@ POTPUNOST PODATKA:
 
 UI
 - previše natrpano - text, linkovi, info... "D:\Pictures\Screenshots\Snimka zaslona 2026-10-20 170533.png"
+- možda ukinuti približno lociranje, pravi više štete nego koristi. ili ga ostaviti samo zajedno sa drugim dokazima (fotografija, adresa i slično)?
 
 REFAKTOR
 - code review i uklanjanje tehničkog duga
