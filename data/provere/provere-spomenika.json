@@ -155,6 +155,13 @@
       "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
     }
   },
+  "gornja-dubica-bista-ivana-ilaka": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "spomenicinob.info i sačuvani Partisan Memorials Wiki; dopunske pretrage gde su dozvoljene",
+      "ishod": "Katalog nema adresu, a mrežna pretraga nije našla konkretnu tačku; oznaka sela ne dokazuje lokaciju biste."
+    }
+  },
   "grgurevci-spomenik-palim-1941-1945": {
     "proveraLokacije": {
       "datum": "2026-10-20",
@@ -363,6 +370,20 @@
       "ishod": "Nema potvrđene adrese ni konkretne tačke. Katalog i dodatne mrežne pretrage nisu potvrdili objekat na ranijem približnom markeru."
     }
   },
+  "novi-grad-sarajevo-spomen-kosturnica": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "spomenicinob.info i sačuvani Partisan Memorials Wiki; dopunske pretrage gde su dozvoljene",
+      "ishod": "Opis već dostupnog izvora izričito kaže da tačka možda predstavlja ruševinu zgrade, bez potvrde kosturnice; groblje bez slike nije dodatno istraživano na mreži."
+    }
+  },
+  "pelagicevo-partizansko-groblje": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "spomenicinob.info i sačuvani Partisan Memorials Wiki; dopunske pretrage gde su dozvoljene",
+      "ishod": "Već dostupan opis navodi praznu livadu i samo istorijski kartografski marker, bez potvrde tačke današnjeg groblja; ne zaključuje se da su svi ostaci preneti."
+    }
+  },
   "piskavica-spomen-kosturnica-palih-boraca": {
     "proveraLokacije": {
       "datum": "2026-10-20",
@@ -412,6 +433,13 @@
       "izvor": "https://www.xiwl.com/w/index.php/Pribinić_-_Partizansko_Groblje",
       "ishod": "potvrđena postojeća tačka",
       "napomena": "Ponovo pročitan ceo sačuvani članak. Groblje je povezano sa zasebnim Google unosom na44.6110827,17.6921115 (oko8m od naše tačke), topografskom kartom1977 i terenskim fotografijama2022. Napomena o nepoznatoj vezi sa spomenikom1957 nije sumnja u položaj groblja. Pregledan ulični snimak prilaza sa juga: ne koristi se kao dokaz današnjeg stanja ili pojedinačnih nadgrobnika. Veza sa spomenikom1957 nije potvrđena, pa nema spajanja."
+    }
+  },
+  "puharska-bista-osmana-dzafica": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "spomenicinob.info i sačuvani Partisan Memorials Wiki; dopunske pretrage gde su dozvoljene",
+      "ishod": "Katalog nema adresu ni fotografiju; dopunska pretraga nalazi istoimeno kulturno društvo, ali ne potvrđuje bistu na tački sela."
     }
   },
   "rijeka-spomenik-palim-borcima": {
@@ -550,34 +578,6 @@
       "izvor": "https://min-kulture.gov.hr/izdvojeno/kulturna-bastina/hrvatsko-vijece-za-kulturna-dobra/biljeske-sa-sjednica-21998/21998",
       "ishod": "istorijska-adresa-potvrđena-muzej-prestao-s-radom",
       "napomena": "Kapucinska 20 je sadašnja adresa, a Bihaćka 20 stara; raniji izvor navodi Ulicu V zemaljske konferencije 20. Evidencija uklonjenih spomenika navodi prestanak rada muzeja; tačne koordinate zgrade nisu proverene."
-    }
-  },
-  "novi-grad-sarajevo-spomen-kosturnica": {
-    "proveraLokacije": {
-      "datum": "2026-10-20",
-      "izvor": "spomenicinob.info i sačuvani Partisan Memorials Wiki; dopunske pretrage gde su dozvoljene",
-      "ishod": "Opis već dostupnog izvora izričito kaže da tačka možda predstavlja ruševinu zgrade, bez potvrde kosturnice; groblje bez slike nije dodatno istraživano na mreži."
-    }
-  },
-  "gornja-dubica-bista-ivana-ilaka": {
-    "proveraLokacije": {
-      "datum": "2026-10-20",
-      "izvor": "spomenicinob.info i sačuvani Partisan Memorials Wiki; dopunske pretrage gde su dozvoljene",
-      "ishod": "Katalog nema adresu, a mrežna pretraga nije našla konkretnu tačku; oznaka sela ne dokazuje lokaciju biste."
-    }
-  },
-  "pelagicevo-partizansko-groblje": {
-    "proveraLokacije": {
-      "datum": "2026-10-20",
-      "izvor": "spomenicinob.info i sačuvani Partisan Memorials Wiki; dopunske pretrage gde su dozvoljene",
-      "ishod": "Već dostupan opis navodi praznu livadu i samo istorijski kartografski marker, bez potvrde tačke današnjeg groblja; ne zaključuje se da su svi ostaci preneti."
-    }
-  },
-  "puharska-bista-osmana-dzafica": {
-    "proveraLokacije": {
-      "datum": "2026-10-20",
-      "izvor": "spomenicinob.info i sačuvani Partisan Memorials Wiki; dopunske pretrage gde su dozvoljene",
-      "ishod": "Katalog nema adresu ni fotografiju; dopunska pretraga nalazi istoimeno kulturno društvo, ali ne potvrđuje bistu na tački sela."
     }
   }
 }
