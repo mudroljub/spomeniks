@@ -24,7 +24,8 @@ class ZapisTest(unittest.TestCase):
         zumovi = zapis._ucitaj_zumove(modul)
         self.assertEqual(zumovi['groblje'], 8)
         self.assertEqual(zumovi['spomen-park'], 12)
-        with patch.object(zapis, 'ZUM_VRSTE', zumovi):
+        # granica prvog fajla je posebno podesavanje; ovde se proverava samo da je prate zumovi vrsta
+        with patch.object(zapis, 'ZUM_VRSTE', zumovi), patch.object(zapis, 'ZUM_ISTAKNUTIH', 9):
             self.assertTrue(zapis.u_istaknutima({'vrsta': 'groblje'}))
             self.assertFalse(zapis.u_istaknutima({'vrsta': 'spomen-park'}))
             self.assertTrue(zapis.u_istaknutima({'vrsta': 'spomen-park', 'istaknut': True}))
@@ -131,9 +132,9 @@ class ZapisTest(unittest.TestCase):
         with self.izolovana_baza(), zapis.zakljucani_podaci():
             zapis.sacuvaj_bazu(spomenici)
             self.assertEqual([s['id'] for s in json.loads(Path(zapis.ISTAKNUTI).read_bytes())],
-                             ['spomenik', 'istaknuta-bista'])
+                             ['istaknuta-bista'])
             self.assertEqual([s['id'] for s in json.loads(Path(zapis.OSTALI).read_bytes())],
-                             ['bista', 'priblizan'])
+                             ['spomenik', 'bista', 'priblizan'])
             self.assertEqual({s['id'] for s in zapis.ucitaj_bazu()}, {s['id'] for s in spomenici})
 
     def test_dopuna_i_brisanje_ne_gube_izvore_drugog_spiska(self):

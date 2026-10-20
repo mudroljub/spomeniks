@@ -253,7 +253,7 @@ for put in sorted(f for f in os.listdir('data/provere') if f.endswith('.json')):
             greske['izvestaj: radniId bez cilja'].append((put, o['radniId']))
         if 'prebacenoNaMapu' in o and o['prebacenoNaMapu'] not in ids:
             greske['izvestaj: prebaceno na nepostojeci id'].append((put, o['prebacenoNaMapu']))
-# aplikacija prvo ucitava istaknute (vidljive do zuma 9, tacne lokacije), pa ostale; zapis mora biti u pravom fajlu
+# aplikacija prvo ucitava istaknute (vidljive na pocetnom zumu 7, tacne lokacije), pa ostale; zapis mora biti u pravom fajlu
 for s in istaknuti:
     if not u_istaknutima(s): greske['u istaknutim, a pripada ostalima (sacuvaj_bazu)'].append(s.get('id'))
 for s in ostali:

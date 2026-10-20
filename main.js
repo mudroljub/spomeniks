@@ -103,9 +103,8 @@ const render = (stavke, suzeno, imaUslova) => {
 // rad bez signala
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').then(pratiIzdanje).catch(console.error)
 
-const procitaj = (putanja, odgovor) => odgovor
+const ucitaj = putanja => fetch(putanja)
   .then(res => res.ok ? res.json() : Promise.reject(new Error(`${putanja}: HTTP ${res.status}`)))
-const ucitaj = putanja => procitaj(putanja, fetch(putanja))
 
 // bez autora, posveta ili tura spomenici se ipak prikazuju, samo bez tih dodataka
 const ucitajDodatak = (putanja, prazno) => ucitaj(putanja).catch(greska => {
@@ -115,10 +114,14 @@ const ucitajDodatak = (putanja, prazno) => ucitaj(putanja).catch(greska => {
 
 // prvo stizu spomenici vidljivi na pocetnim zumovima, da se mapa nacrta odmah, a ostali posle (alati/zapis.py);
 // priblizni su svi u drugom delu, pa im se pomaci racunaju zajedno
-// Veliki drugi deo se preuzima odmah, ali cita tek posle prvog crtanja, da ga ne usporava.
-const ostaloOdgovor = fetch('data/spomenici-ostali.json')
-ostaloOdgovor.catch(() => {})
-const posleCrtanja = () => new Promise(resi => requestAnimationFrame(() => setTimeout(resi)))
+// Veliki drugi deo se na pocetnom zumu ne vidi, pa se preuzima u pozadini cim se nacrtaju istaknuti
+// i ucitaju plocice pocetnog prikaza, da one dobiju celu brzinu veze; ne ceka nikakvu radnju korisnika.
+// Plocica koja ne stigne (bez signala) takodje zavrsava ucitavanje sloja.
+const posleCrtanja = () => new Promise(resi => requestAnimationFrame(() => {
+  const slojevi = []
+  mapa.eachLayer(sloj => { if (sloj instanceof L.GridLayer && sloj.isLoading()) slojevi.push(sloj) })
+  Promise.all(slojevi.map(sloj => new Promise(gotov => sloj.once('load', gotov)))).then(resi)
+}))
 let sveStavke = []
 let definicijeTura = []
 let spremni = false
@@ -142,7 +145,7 @@ ucitaj('data/spomenici-istaknuti.json')
     ruta.postavi(prve, definicijeTura, false)
     const pretraga = document.body.appendChild(new Pretraga(prve, render))
     const otvoren = otvoriIzLinka(prve)
-    return posleCrtanja().then(() => procitaj('data/spomenici-ostali.json', ostaloOdgovor)).then(spomenici => {
+    return posleCrtanja().then(() => ucitaj('data/spomenici-ostali.json')).then(spomenici => {
       const pomaci = pomaciPribliznih(spomenici)
       const nove = spomenici.map(spomenik => praviStavku(spomenik, pomaci.get(spomenik)))
       sveStavke = [...prve, ...nove]

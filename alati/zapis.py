@@ -1,7 +1,7 @@
 """Čitanje i upis podataka, zajedničko za sve alate.
 
 Spomenici na mapi su u dva fajla koje aplikacija učitava redom: data/spomenici-istaknuti.json (tačno locirani spomenici
-vidljivi do zuma 9, pa se crtaju odmah) i data/spomenici-ostali.json. Alati rade sa celim spiskom (ucitaj_bazu),
+vidljivi na početnom zumu 7, pa se crtaju odmah) i data/spomenici-ostali.json. Alati rade sa celim spiskom (ucitaj_bazu),
 a sacuvaj_bazu sam raspoređuje zapise; izvori oba spiska čuvaju se u data/izvori.json,
 a izvori stanja u data/izvori-stanja.json, povezani ID-jem spomenika.
 Provere lokacije i opstanka čuvaju se u data/provere-spomenika.json, takođe po ID-ju.
@@ -74,7 +74,7 @@ ISTAKNUTI, OSTALI, BEZ_LOKACIJE, IZVORI = 'data/spomenici-istaknuti.json', 'data
 IZVORI_STANJA = 'data/izvori-stanja.json'
 PROVERE_SPOMENIKA = 'data/provere-spomenika.json'
 POLJA_PROVERE = ('proveraLokacije', 'proveraOpstanka')
-ZUM_ISTAKNUTIH = 9
+ZUM_ISTAKNUTIH = 7  # pocetni zum mape (klase/mapa.js): prvi fajl ima samo ono sto se tada vidi
 
 
 def _ucitaj_zumove(putanja):

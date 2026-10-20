@@ -20,7 +20,7 @@ Korisnik komituje sam i oslanja se na to da je izmena proverena kad kažeš da j
 python -I alati/integritet.py
 ```
 
-Spomenici na mapi su u dva fajla: `data/spomenici-istaknuti.json` (tačno locirani, vidljivi do zuma 9; aplikacija ih crta odmah) i `data/spomenici-ostali.json`. Čitaj i upisuj ih samo preko `ucitaj_bazu` i `sacuvaj_bazu` iz `alati/zapis.py` (u Node-u `ucitajBazu` iz `alati/baza.mjs`), koje same raspoređuju zapise; integritet prijavljuje zapis u pogrešnom fajlu.
+Spomenici na mapi su u dva fajla: `data/spomenici-istaknuti.json` (tačno locirani, vidljivi na početnom zumu 7; aplikacija ih crta odmah) i `data/spomenici-ostali.json`. Čitaj i upisuj ih samo preko `ucitaj_bazu` i `sacuvaj_bazu` iz `alati/zapis.py` (u Node-u `ucitajBazu` iz `alati/baza.mjs`), koje same raspoređuju zapise; integritet prijavljuje zapis u pogrešnom fajlu.
 
 Prolazi kad vrati izlazni status 0; stvarne greške i novi parovi na manje od 30 m vraćaju status 1. Poznati parovi (park i spomenik u njemu, grobnica i ploča na Senjaku) ostaju u ispisu, ali ne obaraju proveru: izuzeci su navedeni po tačnim ID-jevima u `POZNATI_BLISKI_PAROVI`, ne samo po ukupnom broju. Ako provera prijavi grešku, utvrdi da li je nastala tvojom izmenom; nemoj je automatski proglasiti poznatim izuzetkom.
 

@@ -11,7 +11,7 @@ Standard zapisa (polja, nazivi, vrste, obuhvat) je u `references/standard.md`. N
 
 Na istim fajlovima istovremeno radi više agenata, pa se podaci čitaju i upisuju samo zajedničkim funkcijama iz `alati/zapis.py`, nikad ručnim `json.dump` u fajlove podataka:
 
-- **Spomenici na mapi** su u `data/spomenici-istaknuti.json` (tačno locirani, vidljivi do zuma 9) i `data/spomenici-ostali.json`; `data/spomeniks.json` više ne postoji. Ceo spisak daje `ucitaj_bazu()`, a `sacuvaj_bazu(spisak)` sam stavlja svaki zapis u pravi fajl. U Node-u čita `ucitajBazu()` iz `alati/baza.mjs`.
+- **Spomenici na mapi** su u `data/spomenici-istaknuti.json` (tačno locirani, vidljivi na početnom zumu 7) i `data/spomenici-ostali.json`; `data/spomeniks.json` više ne postoji. Ceo spisak daje `ucitaj_bazu()`, a `sacuvaj_bazu(spisak)` sam stavlja svaki zapis u pravi fajl. U Node-u čita `ucitajBazu()` iz `alati/baza.mjs`.
 - **Spisak bez lokacije** (`data/bez_lokacije.json`) upisuje `sacuvaj_bez_lokacije(spisak)`. Svaka stavka ima trajan `id`, jedinstven zajedno sa mapom, koji zadržava kad pređe na mapu (`alati/prebaci.py`); veze iz knjiga i izveštaja (`cilj`, `radniId`) pokazuju na taj ID i ne pomeraju se.
 - **Izvor** zapisa se ne čuva u zapisu: alati ga upišu u polje `izvor`, a funkcije za upis ga premeste u `data/izvori.json` (ID → URL).
 - **Paralelan rad:** prati projektni `AGENTS.md`. Ceo ciklus čitanje–izmena–upis radi unutar `with zakljucani_podaci():` iz `alati/zapis.py`; za spisak bez lokacije koristi `ucitaj_bez_lokacije()`. Učitaj svežu bazu tek unutar brave, proveri očekivane stare vrednosti i primeni samo pripremljene izmene po ID-ju. Mreža i obrada slika idu pre zaključavanja; stara kopija cele baze se ne upisuje.
