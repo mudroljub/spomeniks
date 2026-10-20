@@ -34068,5 +34068,153 @@
       "Rijeka(Vitez) iPribinić: potrebna dodatna potvrda odnosa katastarskog/terenskog dokaza i same grobnice; nisu povučeni samo zbog upitne formulacije. KozaraJovića potvrđuje izvor na turističkoj karti; nije povučena.",
       "Nisu vraćani arhivirani objekti, izmišljene nove koordinate, dodavane fotografije ni masovno dopunjavani opisi bez konkretne greške."
     ]
+  },
+  {
+    "odluka": "bih-rizicne-lokacije-rijeka-pribinic-2026-10-20",
+    "datum": "2026-10-20",
+    "izmene": [
+      {
+        "id": "rijeka-spomenik-palim-borcima",
+        "pre": {
+          "id": "rijeka-spomenik-palim-borcima",
+          "koordinate": {
+            "lat": 44.145643,
+            "lng": 17.798028
+          },
+          "mesto": "Rijeka",
+          "naziv": "Spomenik palim borcima",
+          "godina": "1951",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "posle": {
+          "id": "rijeka-spomenik-palim-borcima",
+          "mesto": "Rijeka (Vitez)",
+          "naziv": "Spomenik palim borcima",
+          "godina": "1951",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina",
+          "kandidati": [
+            {
+              "lat": 44.145643,
+              "lng": 17.798028,
+              "izvor": "https://www.xiwl.com/w/index.php/Rijeka_(Vitez)_-_Spomenik_Palim_Borcima",
+              "opis": "Kandidat kod šumarije u Ulici Stjepana Radića, izveden iz stare katastarske parcele 1376/1 i poređenja podnožja. Izvor izričito ne potvrđuje da današnji objekat ima identitet i posvetu prvobitnog NOB spomenika; moguća zamena i promena posvete tokom 1990-ih."
+            }
+          ],
+          "opis": {
+            "sh": "Katalog beleži spomenik palim borcima krajiških brigada i žrtvama logora Kruščica iz 1951. Današnji identitet, posveta i očuvanost objekta kod šumarije nisu potvrđeni.",
+            "en": "The catalogue records a 1951 memorial to fallen fighters of the Krajina brigades and victims of the Kruščica camp. The present identity, dedication and condition of the object near the forestry offices remain unconfirmed."
+          },
+          "adresa": "Trag za proveru: kod šumarije, Ulica Stjepana Radića; stara parcela 1376/1."
+        },
+        "skupPre": "mapa",
+        "skupPosle": "bez_lokacije"
+      }
+    ],
+    "proverenoBezPromene": [
+      "pribinic-partizansko-groblje"
+    ],
+    "dokazi": [
+      "https://www.xiwl.com/w/index.php/Rijeka_(Vitez)_-_Spomenik_Palim_Borcima",
+      "https://www.xiwl.com/w/index.php/Pribinić_-_Partizansko_Groblje",
+      "https://www.kons.gov.ba/Content/Read/odluke-o-odbijanju"
+    ],
+    "zakljucci": [
+      "Rijeka: zvaničan spisak odbijenih predloga potvrđuje istorijski naziv i opštinu, ali ne potvrđuje današnji identitet objekta na tački. Neuspešno preuzimanje stare prijave i fotografije nije dokaz nestanka.",
+      "Pribinić: sačuvana tačka; nisu spojeni groblje1958 i zaseban spomenik1957 bez potvrde odnosa.",
+      "Fajlovi zatečeni sa Git oznakom konflikta već su bili razrešeni tokom istraživanja; tuđi sadržaj nije prepisivan niti je pravljen commit."
+    ]
+  },
+  {
+    "odluka": "enwiki-spisak-spomenika-heroja-makedonija-biste-2026-10-20",
+    "datum": "2026-10-20",
+    "izvor": "https://en.wikipedia.org/wiki/List_of_People%27s_Heroes_of_Yugoslavia_monuments_in_North_Macedonia",
+    "kopija": "izvori/pretrage/enwiki-heroji-srbija-2026-10-20/",
+    "dodato": [
+      {
+        "id": "ohrid-bista-na-mite-bogoevski",
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Bista_Mite_Bogoevski,_Ohrid.JPG"
+      },
+      {
+        "id": "skopje-bista-na-cvetan-dimov",
+        "fotografija": "https://commons.wikimedia.org/wiki/File:North-Macedonia_Skopje_Bust_of_Zvetan_Dimov.jpg"
+      },
+      {
+        "id": "kumanovo-bista-na-pero-georgievski-cico",
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Pero_Georgievski_-_Cico.jpg"
+      },
+      {
+        "id": "prilep-bista-na-ile-igeski-cvetan",
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Биста_-_Иле_Илески_-_Цвета.JPG"
+      },
+      {
+        "id": "strumica-bista-na-blagoj-jankov-muceto",
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Blagoj_Jankov_-_SR_statue.JPG"
+      },
+      {
+        "id": "skopje-spomenik-na-rade-jovcevski-korcagin",
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Раде_Јовчевски_Корчагин_(Споменик).jpg"
+      },
+      {
+        "id": "debar-bista-na-liman-kaba",
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Liman_Kaba.JPG"
+      },
+      {
+        "id": "skopje-bista-na-boris-kidric",
+        "fotografija": null
+      },
+      {
+        "id": "mavrovi-anovi-bista-na-zlate-malakovski",
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Zlate_Malakovski_-_bista.jpg"
+      },
+      {
+        "id": "kicevo-bista-na-mirko-milevski-uros",
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Mirko_Milevski-Kicevo.jpg"
+      },
+      {
+        "id": "debar-bista-na-ibe-palikukja",
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Ibe_Palikuka.JPG"
+      },
+      {
+        "id": "kicevo-bista-na-ibe-palikukja",
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Ibe_Palikuća,_Kičevo.JPG"
+      },
+      {
+        "id": "debar-bista-na-pance-poposki",
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Pance_Poposki.JPG"
+      },
+      {
+        "id": "dragomance-bista-na-hristijan-todorovski-karpos",
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Викиекспедиција_Козјачија_005.jpg"
+      },
+      {
+        "id": "prilep-bista-na-lazo-filiposki-lavski",
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Биста_-_Лазо_Филипоски_-_Лавски.JPG"
+      },
+      {
+        "id": "prilep-bista-na-kire-gavriloski-jane",
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Биста_-_Кире_Гаврилоски_-_Јане.JPG"
+      },
+      {
+        "id": "prilep-bista-na-borka-taleski",
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Биста_-_Борка_Талески.JPG"
+      },
+      {
+        "id": "prilep-bista-na-borka-veleski-levata",
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Биста_-_Борка_Велески_-_Левата.JPG"
+      },
+      {
+        "id": "prilep-bista-na-krume-volnaroski",
+        "fotografija": "https://commons.wikimedia.org/wiki/File:Биста_-_Круме_Волнароски.JPG"
+      }
+    ],
+    "tacke": "centar naselja (alati/naselja_osm.json), tačka Mogile na nepobedenite (zapis prilep) ili GPS fotografije; sve priblizno",
+    "preskoceno": {
+      "Bista_na_Boris_Kidric_vo_Skopje.jpg": "fotografija preeksponirana, bista se ne vidi; zapis dodat bez slike",
+      "Blazo_Todorovski_-_Ciceto,_bista_Kavadarci.jpg i Kiro_Krstev_-_Straso,_bista_Kavadarci.jpg": "Gradski park Kavadarci, pokriveno zapisom kavadarci-biste-narodnih-heroja",
+      "Radovan Kovačević, Slobodan Mitrov Danko, Vančo Prke (Gevgelija)": "pokriveno zapisom gevgelija-biste-narodnih-heroja",
+      "Mihailo Apostolski, Estreja Ovadija, Mite Bogoevski (Bolno), Rade Jovčevski (spomen-obeležje)": "već imamo"
+    }
   }
 ]

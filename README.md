@@ -16,6 +16,7 @@ live-server
 
 UNOS PODATAKA:
 - žetva izvora po [prioritetima](docs/IZVORI.md#prioriteti)
+- pretraživati kategorije spomenika, bisti, spomen-parkova i slično na wiki commons
 
 POTPUNOST PODATKA:
 - locirati spomenike ([lociranje](docs/LOCIRANJE_SPOMENIKA.md))
