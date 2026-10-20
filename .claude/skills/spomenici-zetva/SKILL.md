@@ -104,8 +104,8 @@ Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i ot
 ## Posvete
 
 - Spomeniku posvećenom događaju, logoru, bici ili ličnosti upisuje se Q-id u `posveta`, a stavka u `data/posvete.json`:
-  - `naziv` je naslov sh članka;
-  - `name` je engleski naziv sa Wikidate, kad se razlikuje;
+  - `naziv.sh` je naslov sh članka;
+  - `naziv.en` je engleski naziv sa Wikidate, kad se razlikuje;
   - `wiki` i `wikiEn` su linkovi.
 - Bez odgovarajućeg članka u isto polje `posveta` upiši kratak tekst o tome kome je spomenik posvećen, prema potvrđenom opisu ili natpisu. Tekst je običan string, bez HTML-a i bez novog unosa u `posvete.json`; povezane posvete ostaju spisak Q-id oznaka. Ne mešaj opis i Q-id oznake u istom spisku.
 - Stavka iz `posvete.json` koju više nijedan spomenik ne koristi kao povezanu posvetu briše se iz tog spiska.

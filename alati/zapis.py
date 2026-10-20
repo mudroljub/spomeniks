@@ -67,7 +67,7 @@ def zakljucani_podaci(cekaj=30):
         _brava_niti.release()
 
 REDOSLED = ['id', 'koordinate', 'priblizno', 'googleCid', 'mesto', 'izvor', 'wiki', 'wikiEn', 'clanak', 'slika', 'slikaOdnos', 'slikaPotpis',
-            'naziv', 'nazivEn', 'godina', 'autor', 'natpis', 'posveta', 'stanje',
+            'naziv', 'opis', 'godina', 'autor', 'natpis', 'posveta', 'stanje',
             'vrsta', 'istaknut', 'drzava']
 ISTAKNUTI, OSTALI, BEZ_LOKACIJE, IZVORI = 'data/spomenici-istaknuti.json', 'data/spomenici-ostali.json', 'data/bez_lokacije.json', 'data/izvori.json'
 IZVORI_STANJA = 'data/izvori-stanja.json'

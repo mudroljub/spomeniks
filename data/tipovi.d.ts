@@ -8,6 +8,12 @@ export type Vrsta = 'spomenik' | 'spomen-obelezje' | 'spomen-park' | 'spomen-gro
 /** prazno: nema podatka da spomenik nije očuvan (može biti i nepoznato) */
 export type Stanje = 'rusevine' | 'uklonjen' | 'ostecen' | 'zatvoren' | 'srusen'
 
+/** tekst po jeziku interfejsa; en samo kad se razlikuje od sh */
+export interface Prevod {
+  sh: string
+  en?: string
+}
+
 export interface Koordinate {
   lat: number
   lng: number
@@ -23,8 +29,11 @@ export interface Spomenik {
   priblizno?: boolean
   /** mesto, „Grad (deo grada)“, npr. "Beograd (Banjica)" */
   mesto: string
-  /** domaći naziv, na jeziku i pismu države; bez poznatog imena samo vrsta („Spomenik“, „Spomen-ploča“) */
-  naziv: string
+  /** sh: domaći naziv, na jeziku i pismu države; bez poznatog imena samo vrsta („Spomenik“, „Spomen-ploča“); en: engleski */
+  naziv: Prevod
+  /** jedna ili dve rečenice: šta se tu desilo ili čemu je posvećen; sh latinicom (i za Sloveniju i Makedoniju) i en, oba obavezna.
+   * „[tekst](Q-id)“ je link stavke iz `posveta`; tako povezana posveta nema poseban red. */
+  opis?: Prevod
   vrsta: Vrsta
   /** prednost na mapi i u turama, nezavisno od vrste i ikonice */
   istaknut?: boolean
@@ -43,8 +52,6 @@ export interface Spomenik {
   slikaOdnos?: number
   /** „Autor, licenca“ */
   slikaPotpis?: string
-  /** engleski naziv, samo kad se razlikuje od domaćeg */
-  nazivEn?: string
   /** godina podizanja za prikaz, npr. "1961", "1958-1960" ili "pre 1960" */
   godina?: string
   /** autori spojeni sa „ & “ */

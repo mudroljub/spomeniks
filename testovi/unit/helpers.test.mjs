@@ -2,7 +2,7 @@ import {postaviNavigator} from '../okruzenje.mjs'
 import {test} from 'node:test'
 import assert from 'node:assert/strict'
 import {
-  normalizuj, escapeHtml, nazivSpomenika, malaSlika, autoriSpomenika, nestao, ruine, mestoUrl, navigacijaUrl, bezbedanLink,
+  normalizuj, escapeHtml, nazivSpomenika, prevedi, malaSlika, autoriSpomenika, nestao, ruine, mestoUrl, navigacijaUrl, bezbedanLink,
 } from '../../utils/helpers.js'
 
 test('linkovi prihvataju samo apsolutne HTTP i HTTPS adrese', () => {
@@ -24,9 +24,15 @@ test('HTML znaci se bezbedno prikazuju kao tekst', () => {
 })
 
 test('domaći naziv ima prednost, a engleski se koristi bez linkova kad domaćeg nema', () => {
-  assert.equal(nazivSpomenika({naziv: 'Kameni cvijet', nazivEn: 'Stone Flower'}), 'Kameni cvijet')
-  assert.equal(nazivSpomenika({nazivEn: 'Monument to <a href="x">Tito</a>'}), 'Monument to Tito')
+  assert.equal(nazivSpomenika({naziv: {sh: 'Kameni cvijet', en: 'Stone Flower'}}), 'Kameni cvijet')
+  assert.equal(nazivSpomenika({naziv: {en: 'Monument to <a href="x">Tito</a>'}}), 'Monument to Tito')
   assert.equal(nazivSpomenika({}), '')
+})
+
+test('prevod daje tekst na jeziku interfejsa, a bez njega drugi jezik', () => {
+  assert.equal(prevedi({sh: 'Opis', en: 'Description'}), 'Opis')
+  assert.equal(prevedi({en: 'Description'}), 'Description')
+  assert.equal(prevedi(undefined), '')
 })
 
 test('mala slika je u zasebnoj fascikli, a autori su razdvojeni znakom &', () => {

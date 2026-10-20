@@ -2,7 +2,7 @@
 import {mapa} from '../klase/mapa.js'
 import {navigacijaIkonica} from '../utils/ikonice.js'
 import {stilZaglavlja, upravljajPanelom} from '../utils/ui.js'
-import {mestoUrl, navigacijaUrl, escapeHtml, naziviStanja, nestao, autoriSpomenika, nazivSpomenika, bezbedanLink} from '../utils/helpers.js'
+import {mestoUrl, navigacijaUrl, escapeHtml, naziviStanja, nestao, autoriSpomenika, nazivSpomenika, prevedi, bezbedanLink} from '../utils/helpers.js'
 import {dajOznaku, postaviOznaku, promene} from '../utils/oznake.js'
 import {uRuti, dodajURutu, ukloniIzRute, promeneRute} from '../utils/ruta.js'
 import {jezik, t, nazivDrzave} from '../utils/jezik.js'
@@ -137,6 +137,46 @@ style.textContent = `
     color: #666;
     font-size: 14px;
     margin-top: 2px;
+  }
+
+  .opis {
+    align-items: flex-end;
+    cursor: pointer;
+    display: flex;
+    gap: 4px;
+  }
+
+  .opis .tekst {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    line-clamp: 2;
+    overflow: hidden;
+  }
+
+  .opis svg {
+    color: ${boja};
+    flex: none;
+    height: 22px;
+    transition: transform 0.2s;
+    width: 22px;
+  }
+
+  .opis[aria-expanded="true"] .tekst {
+    -webkit-line-clamp: unset;
+    line-clamp: none;
+  }
+
+  .opis[aria-expanded="true"] svg {
+    transform: rotate(180deg);
+  }
+
+  .opis.ceo {
+    cursor: auto;
+  }
+
+  .opis.ceo svg {
+    display: none;
   }
 
   a {
@@ -377,12 +417,22 @@ export default class Detalji extends HTMLElement {
     mapa.on('click', () => this.marker && mapa.fire('izbor', {marker: null}))
     promene.addEventListener('promena', () => this.marker && this.osveziOznake())
     promeneRute.addEventListener('promena', () => this.marker && this.osveziRutu())
+    // opis se otvara i zatvara dodirom
+    const prosiri = e => {
+      const opis = e.target.closest?.('.opis')
+      if (!opis || opis.classList.contains('ceo') || e.target.closest('a')) return
+      if (e.type === 'keydown' && e.key !== 'Enter' && e.key !== ' ') return
+      e.preventDefault()
+      opis.setAttribute('aria-expanded', String(opis.getAttribute('aria-expanded') !== 'true'))
+    }
+    this.panel.addEventListener('click', prosiri)
+    this.panel.addEventListener('keydown', prosiri)
   }
 
   prikazi(marker, izRute) {
     this.marker = marker
     const spomen = marker.spomen
-    const podaci = [this.praviAutore(spomen), this.praviPosvetu(spomen)].filter(Boolean)
+    const podaci = [this.praviAutore(spomen), this.praviPosvetu(spomen), this.praviOpis(spomen)].filter(Boolean)
 
     const vise = clanakSpomenika(spomen, jezik)
 
@@ -438,6 +488,7 @@ export default class Detalji extends HTMLElement {
     this.osveziRutu()
 
     this.panel.hidden = false
+    this.oznaciCeoOpis()
     this.panel.scrollTop = 0
     history.replaceState(null, '', `#${encodeURIComponent(spomen.id)}`)
     pokaziNaMapi(marker, this.panel)
@@ -469,31 +520,50 @@ export default class Detalji extends HTMLElement {
   }
 
   // Zakasneli podaci ne zatvaraju povratak u rutu i ne pomeraju mapu ili skrol panela.
+  // opis koji staje u dva reda nema strelicu ni otvaranje
+  oznaciCeoOpis() {
+    const opis = this.panel.querySelector('.opis')
+    const tekst = opis?.querySelector('.tekst')
+    if (tekst && tekst.scrollHeight <= tekst.clientHeight + 1) opis.classList.add('ceo')
+  }
+
   osveziPodatke() {
     if (!this.marker) return
     this.panel.querySelectorAll('.podaci').forEach(red => red.remove())
-    const redovi = [this.praviAutore(this.marker.spomen), this.praviPosvetu(this.marker.spomen)].filter(Boolean)
+    const redovi = [this.praviAutore(this.marker.spomen), this.praviPosvetu(this.marker.spomen), this.praviOpis(this.marker.spomen)].filter(Boolean)
     this.panel.querySelector('.mesto').after(...redovi.map(html => {
       const red = document.createElement('p')
       red.className = 'podaci'
       red.innerHTML = html
       return red
     }))
+    this.oznaciCeoOpis()
   }
 
-  /** @param {Pick<import('../data/tipovi').Spomenik, 'posveta'>} spomen */
-  praviPosvetu({posveta = []}) {
-    if (typeof posveta === 'string') {
-      return posveta.trim() ? `${t('posveta')}: ${escapeHtml(posveta)}` : ''
-    }
-    const stavke = posveta.map(q => this.posvete[q]).filter(Boolean)
-    if (!stavke.length) return ''
-    const linkovi = stavke.map(p => {
-      const ime = jezik === 'en' && p.name || p.naziv
-      const link = bezbedanLink(jezik === 'en' && p.wikiEn || p.wiki)
-      return link ? `<a href="${escapeHtml(link)}" target="_blank">${escapeHtml(ime)}</a>` : escapeHtml(ime)
+  linkPosvete(q, tekst) {
+    const p = this.posvete[q]
+    const link = p && bezbedanLink(jezik === 'en' && p.wikiEn || p.wiki)
+    return link ? `<a href="${escapeHtml(link)}" target="_blank">${tekst}</a>` : tekst
+  }
+
+  // posveta povezana u opisu nema poseban red
+  /** @param {Pick<import('../data/tipovi').Spomenik, 'posveta' | 'opis'>} spomen */
+  praviPosvetu({posveta = [], opis}) {
+    if (typeof posveta === 'string') return posveta.trim() ? `${t('posveta')}: ${escapeHtml(posveta.trim())}` : ''
+    const uOpisu = opis ? prevedi(opis) : ''
+    const linkovi = posveta.filter(q => this.posvete[q] && !uOpisu.includes(`](${q})`)).map(q => {
+      const p = this.posvete[q]
+      return this.linkPosvete(q, escapeHtml(jezik === 'en' && p.naziv.en || p.naziv.sh))
     }).join(', ')
-    return `${t('posveta')}: ${linkovi}`
+    return linkovi ? `${t('posveta')}: ${linkovi}` : ''
+  }
+
+  // opis je skracen na dva reda i otvara se dodirom; [tekst](Q-id) je link posvete
+  /** @param {Pick<import('../data/tipovi').Spomenik, 'opis'>} spomen */
+  praviOpis({opis}) {
+    if (!opis) return ''
+    const tekst = escapeHtml(prevedi(opis)).replace(/\[([^\]]+)\]\((Q\d+)\)/g, (_, deo, q) => this.linkPosvete(q, deo))
+    return `<span class="opis" tabindex="0" aria-expanded="false"><span class="tekst">${tekst}</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></span>`
   }
 
   sakrij() {

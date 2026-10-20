@@ -4,7 +4,7 @@ import {readFileSync} from 'node:fs'
 import {createServer} from 'node:http'
 import {otvoriPregledac, sleep} from '../../alati/pregledac.mjs'
 
-test('novo izdanje ceka stare klijente i zatim koristi svoj komplet resursa u Chrome-u', {timeout: 30000}, async () => {
+test('novo izdanje ceka stare klijente, a u pozadini prelazi na svoj komplet resursa u Chrome-u', {timeout: 30000}, async () => {
   const kod = readFileSync(new URL('../../sw.js', import.meta.url), 'utf8')
   let izdanje = 'staro'
   const server = createServer((zahtev, odgovor) => {
@@ -75,8 +75,9 @@ test('novo izdanje ceka stare klijente i zatim koristi svoj komplet resursa u Ch
     await cekaj(() => izvrsiDrugu(`document.readyState==='complete' && !!navigator.serviceWorker.controller`))
     izdanje = 'trece'
     await b.izvrsi(`navigator.serviceWorker.getRegistration().then(r=>r.update()).then(()=>true)`)
-    await cekaj(() => b.izvrsi(`!!document.querySelector('.novo-izdanje button')`))
-    await b.izvrsi(`document.querySelector('.novo-izdanje button').click()`)
+    await cekaj(() => b.izvrsi(`navigator.serviceWorker.getRegistration().then(r=>!!r.waiting)`))
+    // odlazak aplikacije u pozadinu pokrece prelaz na novo izdanje
+    await b.izvrsi(`(Object.defineProperty(document,'visibilityState',{value:'hidden',configurable:true}),document.dispatchEvent(new Event('visibilitychange')),true)`)
     await cekaj(() => b.izvrsi(`document.body.textContent.startsWith('trece') && !!navigator.serviceWorker.controller`))
     assert.equal(await b.izvrsi(`fetch('main.js').then(r=>r.text())`),'trece:/main.js')
     assert.equal(await izvrsiDrugu(`fetch('main.js').then(r=>r.text())`),'novo:/main.js')

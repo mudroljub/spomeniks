@@ -1,5 +1,3 @@
-import {t} from './jezik.js'
-
 const posalji = (worker, poruka) => new Promise((resi, odbij) => {
   const kanal = new MessageChannel()
   const kraj = setTimeout(() => { kanal.port1.close(); odbij(new Error('Worker ne odgovara')) }, 5000)
@@ -7,37 +5,23 @@ const posalji = (worker, poruka) => new Promise((resi, odbij) => {
   worker.postMessage(poruka, [kanal.port2])
 })
 
+// Nova verzija se ukljucuje bez pitanja dok je aplikacija u pozadini, pa se stranica ponovo ucita neprimetno.
+// Do tada otvorena stranica radi sa svojim izdanjem, a neuspeh se ponavlja pri sledecem odlasku u pozadinu.
 export const pratiIzdanje = registracija => {
-  let panel
-  const ponudi = () => {
-    if (!registracija.waiting || !navigator.serviceWorker.controller || panel) return
-    panel = document.createElement('aside')
-    panel.className = 'novo-izdanje'
-    panel.setAttribute('role', 'status')
-    const tekst = document.createElement('span')
-    tekst.textContent = t('novoIzdanje')
-    const dugme = document.createElement('button')
-    dugme.textContent = t('osveziIzdanje')
-    dugme.onclick = async () => {
-      dugme.disabled = true
-      try {
-        const {izdanje} = await posalji(navigator.serviceWorker.controller, {vrsta: 'VERZIJA'})
-        const odgovor = await posalji(registracija.waiting, {vrsta: 'AKTIVIRAJ', prethodni: izdanje})
-        if (!odgovor.uspeh) throw new Error('Aktivacija nije uspela')
-      } catch {
-        tekst.textContent = t('azuriranjeGreska')
-        dugme.disabled = false
-      }
+  let uToku = false
+  const predji = async () => {
+    if (document.visibilityState !== 'hidden' || uToku || !registracija.waiting || !navigator.serviceWorker.controller) return
+    uToku = true
+    try {
+      const {izdanje} = await posalji(navigator.serviceWorker.controller, {vrsta: 'VERZIJA'})
+      await posalji(registracija.waiting, {vrsta: 'AKTIVIRAJ', prethodni: izdanje})
+    } catch {} finally {
+      uToku = false
     }
-    panel.append(tekst, dugme)
-    document.body.append(panel)
   }
   navigator.serviceWorker.addEventListener('message', e => {
     if (e.data?.vrsta === 'OSVEZI_IZDANJE') location.reload()
   })
   navigator.serviceWorker.controller?.postMessage({vrsta: 'SPREMAN'})
-  registracija.addEventListener('updatefound', () => {
-    registracija.installing?.addEventListener('statechange', ponudi)
-  })
-  ponudi()
+  document.addEventListener('visibilitychange', predji)
 }

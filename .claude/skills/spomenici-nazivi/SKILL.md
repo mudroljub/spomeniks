@@ -1,6 +1,6 @@
 ---
 name: spomenici-nazivi
-description: Određuje, prevodi i ujednačava domaće nazive spomenika i nazive tura u projektu Spomenici (polje `naziv` u data/spomenici-istaknuti.json, data/spomenici-ostali.json i data/bez_lokacije.json) — izvor naziva, jezik i pismo po državi, „Spomenik NOB“, biste u genitivu („Bista Ive Lole Ribara“), padeži skraćenica (NOB bez nastavka, SKOJ-a, ali „članovima KPJ“), partijski komiteti i jedinice, prevod engleskih opisa sa spomenicinob.info. Koristi ga uvek kad dodaješ spomenik, menjaš ili prevodiš naziv, pregledaš nazive na greške ili mešavinu engleskog, ili korisnik traži nazive tura (naselje/oblast u NOB, engleski in WW2), ili pita kako nešto treba da se zove, čak i kad pominje samo jedan spomenik.
+description: Određuje, prevodi i ujednačava domaće nazive spomenika i nazive tura u projektu Spomenici (polje `naziv.sh` u data/spomenici-istaknuti.json, data/spomenici-ostali.json i data/bez_lokacije.json) — izvor naziva, jezik i pismo po državi, „Spomenik NOB“, biste u genitivu („Bista Ive Lole Ribara“), padeži skraćenica (NOB bez nastavka, SKOJ-a, ali „članovima KPJ“), partijski komiteti i jedinice, prevod engleskih opisa sa spomenicinob.info. Koristi ga uvek kad dodaješ spomenik, menjaš ili prevodiš naziv, pregledaš nazive na greške ili mešavinu engleskog, ili korisnik traži nazive tura (naselje/oblast u NOB, engleski in WW2), ili pita kako nešto treba da se zove, čak i kad pominje samo jedan spomenik.
 ---
 
 # Nazivi spomenika i tura

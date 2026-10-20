@@ -152,9 +152,6 @@ const tekstovi = {
   filtriraniRezultati: {sh: 'Prema pretrazi i filterima', en: 'Matching search and filters'},
   locirajMe: {sh: 'Lociraj me', en: 'Locate me'},
   punEkran: {sh: 'Pun ekran', en: 'Full screen'},
-  novoIzdanje: {sh: 'Nova verzija je spremna.', en: 'A new version is ready.'},
-  osveziIzdanje: {sh: 'Osveži sve kartice', en: 'Refresh all tabs'},
-  azuriranjeGreska: {sh: 'Ažuriranje nije uspelo. Pokušaj ponovo.', en: 'Update failed. Please try again.'},
 }
 
 export const t = (kljuc, ...vrednosti) => {

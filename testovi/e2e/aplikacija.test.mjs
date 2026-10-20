@@ -171,6 +171,19 @@ test('posveta prikazuje tekst bez HTML-a i zadržava postojeće wiki linkove', a
   assert.equal(await sacekaj(`${red}?.querySelector('a')?.href`, 'wiki posveta posle opisa'), link)
 })
 
+test('posveta povezana u opisu je link u tekstu, bez posebnog reda, a opis se otvara dodirom', async () => {
+  await otvori('#kragujevac-sumarice-park')
+  const prozor = "document.querySelector('detalji-spomenika').shadowRoot"
+  const opis = `${prozor}.querySelector('.opis')`
+  const link = await sacekaj(`${opis}?.querySelector('a')?.href`, 'link posvete u opisu')
+  assert.match(link, /wikipedia\.org/)
+  assert.doesNotMatch(await izvrsi(`${opis}.textContent`), /[[\]]|Q\d/)
+  assert.equal(await izvrsi(`[...${prozor}.querySelectorAll('.podaci')].some(p => p.textContent.startsWith('Posvećeno:'))`), false)
+  const visine = await izvrsi(`(() => {const o = ${opis}; const pre = o.clientHeight; o.click(); return [pre, o.clientHeight, o.getAttribute('aria-expanded')]})()`)
+  assert.ok(visine[1] > visine[0], `opis se ne siri: ${visine}`)
+  assert.equal(visine[2], 'true')
+})
+
 test('pretraga suzi spomenike', async () => {
   await otvori()
   await izvrsi(`(() => { const p = document.querySelector('polje-pretraga input'); p.value = 'Tjentište'; p.dispatchEvent(new Event('input', {bubbles: true})) })()`)
@@ -627,7 +640,7 @@ test('naziv, natpis i imena autora prikazuju HTML kao tekst, a ne kao elemente',
     const tekst='<img src="x" onerror="window.nezeljeno=true"> & ćirilica Ђ'
     const original=marker.spomen
     try {
-      marker.spomen={...original,naziv:tekst,nazivEn:tekst,natpis:tekst,autor:tekst}
+      marker.spomen={...original,naziv:{sh:tekst,en:tekst},natpis:tekst,autor:tekst}
       d.prikazi(marker)
       const naslov=d.shadowRoot.querySelector('h2')
       const natpis=d.shadowRoot.querySelector('.natpis p')
@@ -932,7 +945,7 @@ test('neproveren link autora ili posvete se prikazuje samo kao tekst', async () 
   const rezultat=await izvrsi(`(()=>{
     const d=document.querySelector('detalji-spomenika')
     return [d.praviAutore({autor:'Nepoznat'}),(()=>{d.autori.Nepoznat='javascript:alert(1)';return d.praviAutore({autor:'Nepoznat'})})(),
-      (()=>{d.posvete.QPROBA={naziv:'Posveta',wiki:'data:text/html,test'};return d.praviPosvetu({posveta:['QPROBA']})})()]
+      (()=>{d.posvete.QPROBA={naziv:{sh:'Posveta'},wiki:'data:text/html,test'};return d.praviPosvetu({posveta:['QPROBA']})})()]
   })()`)
   assert.ok(rezultat.every(html=>!html.includes('<a ')))
 })

@@ -106,13 +106,15 @@ style.textContent = `
   }
 `
 
-const polja = ['mesto', 'naziv', 'nazivEn', 'autor', 'godina', 'drzava']
+const polja = ['mesto', 'autor', 'godina', 'drzava']
 
 // kucanje pretrazuje tek kad zastane, a ne posle svakog slova
 const odlaganjePretrage = 250
 
 const praviTekst = spomenik => normalizuj([
   ...polja.map(polje => spomenik[polje] || ''),
+  spomenik.naziv?.sh || '',
+  spomenik.naziv?.en || '',
   nazivDrzave(spomenik.drzava),
 ]
   .join(' ')

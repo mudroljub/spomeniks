@@ -79,6 +79,13 @@ POZNATI_BLISKI_PAROVI = {frozenset(par) for par in [
 ]}
 cir = re.compile('[Ѐ-ӿ]')
 
+
+def prevod_u_redu(p):
+    """{sh, en?}: neprazni tekstovi bez razmaka na krajevima; en samo kad se razlikuje od sh."""
+    return (isinstance(p, dict) and 'sh' in p and set(p) <= {'sh', 'en'} and p.get('en') != p['sh']
+            and all(isinstance(v, str) and v.strip() and v == v.strip() for v in p.values()))
+
+
 ids = collections.Counter(s.get('id') for s in d)
 for i, n in ids.items():
     if n > 1: greske['isti id'].append(i)
@@ -89,7 +96,7 @@ for s in d:
     if not isinstance(k.get('lat'), (int, float)) or not isinstance(k.get('lng'), (int, float)): greske['koordinate'].append(i)
     elif not (39 <= k['lat'] <= 47.5 and 13 <= k['lng'] <= 23.5) and s.get('drzava') != 'Italy': greske['van mape'].append((i, k))
     if not s.get('mesto'): greske['bez mesta'].append(i)
-    if not s.get('naziv'): greske['bez naziva'].append(i)
+    if not prevod_u_redu(s.get('naziv')): greske['naziv nije {sh, en}'].append((i, s.get('naziv')))
     if s.get('vrsta') not in VRSTE: greske['nepoznata vrsta'].append((i, s.get('vrsta')))
     if 'istaknut' in s and type(s['istaknut']) is not bool: greske['neispravno istaknut'].append(i)
     if 'stanje' in s and s['stanje'] not in STANJA: greske['nepoznato stanje'].append((i, s['stanje']))
@@ -109,7 +116,13 @@ for s in d:
     if s.get('googleCid') and not re.fullmatch(r'\d+', str(s['googleCid'])): greske['los googleCid'].append((i, s['googleCid']))
     if s.get('godina') and not re.fullmatch(r'\d{4}(\s*[-–/]\s*\d{2,4})?|(pre|posle|oko) \d{4}|\d{3}0-ih', str(s['godina'])): greske['cudna godina'].append((i, s['godina']))
     if 'priblizno' in s and s['priblizno'] is not True: greske['priblizno nije true'].append((i, s['priblizno']))
-    n = s.get('naziv') or ''
+    if 'opis' in s and not (prevod_u_redu(s['opis']) and 'en' in s['opis']): greske['opis nije {sh, en}'].append((i, s['opis']))
+    elif 'opis' in s and isinstance(s.get('posveta'), str): greske['opis i tekstualna posveta (spoji posvetu u opis)'].append(i)
+    elif 'opis' in s:
+        veze = [set(re.findall(r'\]\((Q\d+)\)', s['opis'][j])) for j in ('sh', 'en')]
+        posveta = s.get('posveta') if isinstance(s.get('posveta'), list) else []
+        if veze[0] != veze[1] or not veze[0] <= set(posveta): greske['opis: link van posvete ili razlicit po jeziku'].append((i, veze))
+    n = s['naziv'].get('sh') or '' if isinstance(s.get('naziv'), dict) else ''
     if n and s.get('drzava') != 'Macedonia' and cir.search(n): greske['cirilica van Makedonije'].append((i, n))
     if n and s.get('drzava') == 'Macedonia' and not cir.search(n): greske['latinica u Makedoniji'].append((i, n))
     if 'posveta' in s:
@@ -121,6 +134,8 @@ for s in d:
                 greske['posveta van posvete.json'].append((i, posveta))
         else:
             greske['neispravan oblik posvete'].append((i, posveta))
+for q, p in posvete.items():
+    if not isinstance(p, dict) or not prevod_u_redu(p.get('naziv')): greske['posveta: naziv nije {sh, en}'].append(q)
 # isto mesto dvaput; priblizne tacke (centar sela) namerno dele isto mesto
 def m(a, b):
     return 6371000 * math.acos(min(1, math.sin(math.radians(a['lat'])) * math.sin(math.radians(b['lat'])) + math.cos(math.radians(a['lat'])) * math.cos(math.radians(b['lat'])) * math.cos(math.radians(b['lng'] - a['lng']))))
@@ -196,7 +211,7 @@ for i, izvor_stanja in json.load(open(IZVORI_STANJA, encoding='utf8')).items():
         greske['neispravan izvor stanja'].append(i)
 for j, s in enumerate(bez):
     oznaka = (s.get('id'), s.get('naziv'), s.get('mesto'))
-    if not s.get('naziv') or not s.get('mesto'): greske['bez lokacije: bez naziva ili mesta'].append(oznaka)
+    if not prevod_u_redu(s.get('naziv')) or not s.get('mesto'): greske['bez lokacije: bez naziva ili mesta'].append(oznaka)
     if 'izvor' in s: greske['izvor u spisku bez lokacije (pripada data/izvori.json)'].append(oznaka)
     if 'stanjeIzvor' in s: greske['izvor stanja u spisku bez lokacije (pripada data/izvori-stanja.json)'].append(oznaka)
     if any(polje in s for polje in POLJA_PROVERE): greske['provere u spisku bez lokacije (pripada data/provere-spomenika.json)'].append(oznaka)

@@ -55,7 +55,7 @@ if __name__ == '__main__':
         while sid in postojeci:
             sid, k = f'{osnova}-{k}', k + 1
         postojeci.add(sid)
-        d.append({'id': sid, 'koordinate': {'lat': lat, 'lng': lng}, 'googleCid': cid, 'mesto': naslov, 'naziv': naziv, 'vrsta': vrsta, 'drzava': zemlja})
+        d.append({'id': sid, 'koordinate': {'lat': lat, 'lng': lng}, 'googleCid': cid, 'mesto': naslov, 'naziv': {'sh': naziv}, 'vrsta': vrsta, 'drzava': zemlja})
         print(sid, '|', naslov, '|', naziv)
     sacuvaj_bazu(d)
     print('ukupno', len(d))

@@ -76,16 +76,20 @@ class Zapisi:
     def slicni(naziv, zapisi):
         """Zapisi (ili parovi (udaljenost, zapis)) čiji naziv deli bar jednu osnovu reči sa datim nazivom."""
         trazene = osnove(naziv)
-        return [z for z in zapisi if trazene & osnove((z[1] if isinstance(z, tuple) else z).get('naziv'))]
+        return [z for z in zapisi if trazene & osnove(ime(z[1] if isinstance(z, tuple) else z))]
 
     def naziv(self, tekst):
         trazene = osnove(tekst)
-        return sorted((s for s in self.svi if trazene and trazene <= osnove(s.get('naziv'))), key=lambda s: s['id'])
+        return sorted((s for s in self.svi if trazene and trazene <= osnove(ime(s))), key=lambda s: s['id'])
+
+
+def ime(s):
+    return (s.get('naziv') or {}).get('sh')
 
 
 def opis(s, m=None):
     tacka = f"{s['koordinate']['lat']:.5f},{s['koordinate']['lng']:.5f}" if 'koordinate' in s else 'bez tačke'
-    return ' | '.join(str(x) for x in [f'{m} m' if m is not None else None, s['skup'], s['id'], s.get('mesto'), s.get('naziv'),
+    return ' | '.join(str(x) for x in [f'{m} m' if m is not None else None, s['skup'], s['id'], s.get('mesto'), ime(s),
                                          s.get('vrsta'), s.get('godina'), tacka] if x)
 
 
