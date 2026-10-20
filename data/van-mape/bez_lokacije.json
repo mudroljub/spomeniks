@@ -5730,7 +5730,11 @@
     "stanje": "ostecen",
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Car park of Bingo supermarket"
+    "adresa": "Car park of Bingo supermarket",
+    "opis": {
+      "sh": "Obeležava jamu Gaj/Međugorje na prostoru današnjeg parkinga marketa Bingo. Ploča je oštećivana i neznatno premeštana; njen tačan položaj nije potvrđen.",
+      "en": "Marks the Gaj/Međugorje pit on the site of the present Bingo supermarket car park. The plaque has been damaged and moved a short distance; its exact position is unconfirmed."
+    }
   },
   {
     "id": "sluzanj-spomen-ploca-zrtvama-fasistickog-terora",
@@ -5751,7 +5755,7 @@
     "posveta": "Ivana Krndelja",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Outside municipal assembly building"
+    "adresa": "Ispred zgrade nekadašnje skupštine opštine Čitluk."
   },
   {
     "id": "citluk-bista-jakova-dugandzica",
@@ -5772,7 +5776,7 @@
     "posveta": "Ivana Krndelja",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Elementary school (inside)"
+    "adresa": "U unutrašnjosti osnovne škole u Čitluku; dostupnost nije potvrđena."
   },
   {
     "id": "citluk-spomen-ploca-na-mjestu-rodjenja-narodnog-he",
@@ -5813,10 +5817,13 @@
     "nazivEn": "Bust of Vlado Šuput",
     "godina": "1960",
     "autor": "Drago Handanović",
-    "posveta": "Vlade Šuputa",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Gimnazija - inside building"
+    "adresa": "Gimnazija - inside building",
+    "opis": {
+      "sh": "Gipsana bista Vlade Šuputa, rad Drage Handanovića iz 1960, bila je u unutrašnjosti gimnazije. Razlikuje se od bronzane biste postavljene u dvorištu 1973; današnje stanje nije potvrđeno.",
+      "en": "Drago Handanović’s 1960 plaster bust of Vlado Šuput stood inside the gymnasium. It is distinct from the bronze bust installed in the courtyard in 1973; its present condition is unconfirmed."
+    }
   },
   {
     "id": "kalenderovci-spomen-kosturnica",
@@ -5827,7 +5834,11 @@
     "autor": "Stanko Milanović & Husnija Kurtagić",
     "vrsta": "groblje",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Approximately 70 metres northeast of elementary school; Near monument to 1992-95 war"
+    "adresa": "Approximately 70 metres northeast of elementary school; Near monument to 1992-95 war",
+    "opis": {
+      "sh": "Kosturnica iz 1953, rad Stanka Milanovića i Husnije Kurtagića, posvećena je palim borcima. Obnovljena je između 2017. i 2021; ne treba je mešati sa zasebnom grobnicom civilnih žrtava iz 1974.",
+      "en": "The 1953 ossuary by Stanko Milanović and Husnija Kurtagić commemorates fallen fighters. It was restored between 2017 and 2021 and is distinct from the 1974 communal grave of civilian victims."
+    }
   },
   {
     "id": "pojezna-spomen-ploca-palim-borcima",
@@ -5845,7 +5856,11 @@
     "godina": "1950",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Partisans' cemetery"
+    "adresa": "Unutar Partizanskog groblja, Ulica 1. maja.",
+    "opis": {
+      "sh": "Spomenik iz 1950. prenet je posle 1956. na Partizansko groblje u Ulici 1. maja. Tačka pojedinačnog obeležja unutar groblja nije potvrđena.",
+      "en": "The 1950 memorial was relocated after 1956 to the Partisan cemetery on 1. maja Street. The position of the individual memorial within the cemetery is unconfirmed."
+    }
   },
   {
     "id": "dubocac-spomenik-palim-borcima-i-zrtvama-fasistick",
@@ -6055,11 +6070,14 @@
     "naziv": "Bista Ismeta Kapetanovića",
     "nazivEn": "Bust of NH Ismet Kapetanović",
     "godina": "1959-1962",
-    "autor": "Zdenko Grgić",
-    "posveta": "Ismeta Kapetanovića",
+    "autor": "Zdenko Grgić & Drago Handanović",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Park of National Heroes"
+    "adresa": "Park of National Heroes",
+    "opis": {
+      "sh": "Prvobitna bista Zdenka Grgića, postavljena između 1959. i 1962, uklonjena je ili uništena tokom rata 1992–1995. Zamenjena je bistom Drage Handanovića, otkrivenom 2002.",
+      "en": "Zdenko Grgić’s original bust, installed between 1959 and 1962, was removed or destroyed during the 1992–1995 war. A replacement by Drago Handanović was unveiled in 2002."
+    }
   },
   {
     "id": "doboj-bista-milosa-kupresa",
@@ -6090,7 +6108,7 @@
     "mesto": "Doboj",
     "naziv": "Bista Todora Vujasinovića",
     "nazivEn": "Bust of Todor Vujasinović",
-    "godina": "2000",
+    "godina": "2002",
     "autor": "Drago Handanović",
     "posveta": "Todora Vujasinovića",
     "vrsta": "bista",
@@ -6102,7 +6120,7 @@
     "mesto": "Doboj",
     "naziv": "Bista Todora Panića",
     "nazivEn": "Bust of NH Todor Panić",
-    "godina": "2000",
+    "godina": "2002",
     "autor": "Drago Handanović",
     "posveta": "Todora Panića",
     "vrsta": "bista",
@@ -6117,18 +6135,22 @@
     "godina": "1952",
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Ul. Kralja Aleksandra"
+    "adresa": "Ul. Kralja Aleksandra",
+    "opis": {
+      "sh": "Prvobitna ploča Vladimiru Veseliću iz 1952. zamenjena je pločom od laminiranog lima. Nalazila se na objektu u Ulici kralja Aleksandra.",
+      "en": "The original 1952 plaque to Vladimir Veselić was replaced by a laminated sheet-metal plaque. It was attached to a building on Kralja Aleksandra Street."
+    }
   },
   {
     "id": "doboj-spomen-ploca-formiranju-omladinskog-komiteta",
     "mesto": "Doboj",
-    "naziv": "Spomen-ploča formiranju omladinskog komiteta KPJ",
-    "nazivEn": "Plaque marking the founding of the KPJ youth committee",
+    "naziv": "Spomen-ploča osnivanju SKOJ-a",
+    "nazivEn": "Plaque to the Founding of SKOJ",
     "opis": {
-      "sh": "Posvećeno formiranju omladinskog komiteta KPJ 1940. godine.",
-      "en": "Dedicated to the formation of the KPJ Youth Committee in 1940."
+      "sh": "Ploča obeležava osnivanje mesne organizacije SKOJ-a na omladinskoj konferenciji 22. oktobra 1940. Prva ploča iz 1949. zamenjena je 1986. pri obnovi kuće u Oslobodilačkoj 53.",
+      "en": "The plaque marks the founding of the local SKOJ organization at a youth conference on 22 October 1940. The original 1949 plaque was replaced in 1986 when the house at Oslobodilačka 53 was rebuilt."
     },
-    "godina": "1986",
+    "godina": "1949",
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Oslobodilačka 53"
@@ -6174,20 +6196,6 @@
     "adresa": "Sokolski Dom, Ul. Kralja Aleksandra"
   },
   {
-    "id": "doboj-spomen-ploca-65-godisnjici-strajka-zeljeznic",
-    "mesto": "Doboj",
-    "naziv": "Spomen-ploča godišnjici štrajka željezničara",
-    "nazivEn": "Plaque to the railway workers' strike anniversary",
-    "opis": {
-      "sh": "Posvećeno 65. godišnjici štrajka železničara.",
-      "en": "Dedicated to 65th anniversary of railway workers' strike."
-    },
-    "godina": "1985",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Svetog Save 71; In front of steam locomotive"
-  },
-  {
     "id": "trbuk-spomen-ploca-dusanki-vajic",
     "mesto": "Trbuk",
     "naziv": "Spomen-ploča Dušanki Vajić",
@@ -6197,21 +6205,6 @@
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Elementary school"
-  },
-  {
-    "id": "preslica-spomenik-ozrenskom-partizanskom-odredu",
-    "mesto": "Preslica",
-    "slika": "slike/bez-lokacije/preslica-spomenik-ozrenskom-partizanskom-odredu.webp",
-    "slikaOdnos": 1.333,
-    "slikaPotpis": "Andrew Lawler, spomenicinob.info",
-    "naziv": "Spomenik Ozrenskom partizanskom odredu",
-    "nazivEn": "Monument to the Ozren Partisan Detachment",
-    "godina": "1962",
-    "autor": "Petar Krstić",
-    "posveta": "Ozrenskom partizanskom odredu",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Picnic area"
   },
   {
     "id": "suho-polje-spomen-ploca-narodnom-heroju-simi-lukic",
@@ -6450,12 +6443,16 @@
   {
     "id": "drvar-spomen-park",
     "mesto": "Drvar",
-    "naziv": "Spomen-park",
-    "nazivEn": "Memorial park",
+    "naziv": "Spomen-park Šobića glavica",
+    "nazivEn": "Šobić Hill Memorial Park",
     "godina": "1967",
     "vrsta": "spomen-park",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Šobića Glavica"
+    "adresa": "Šobića Glavica",
+    "opis": {
+      "sh": "Spomen-park na Šobića glavici iz 1967. obuhvata ostatke glavnog spomenika, memorijalni zid, kosturnicu i prostor nekadašnje Aleje narodnih heroja. Oštećenja i nestanak pojedinačnih skulptura ne znače da je ceo prostor nestao.",
+      "en": "The 1967 memorial park on Šobić Hill contains the remains of the main monument, a memorial wall, an ossuary and the former Alley of People’s Heroes. Damage and the loss of individual sculptures do not mean that the entire site has disappeared."
+    }
   },
   {
     "id": "drvar-spomen-ploca-posvecena-palim-borcima",
@@ -6470,13 +6467,18 @@
   {
     "id": "drvar-spomen-kosturnica-oko-1200-zrtava-fasisticko",
     "mesto": "Drvar",
-    "naziv": "Spomen-kosturnica oko 1200 žrtava fašističkog terora",
-    "nazivEn": "Memorial ossuary of approx. 1200 Victims of Fascist Terror",
+    "naziv": "Spomen-kosturnica žrtava fašističkog terora",
+    "nazivEn": "Victims of Fascist Terror Memorial Ossuary",
     "godina": "1967",
     "autor": "Marijan Kocković",
     "vrsta": "groblje",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Šobića Glavica, to West of memorial park"
+    "adresa": "Šobića Glavica, to West of memorial park",
+    "opis": {
+      "sh": "Katalog beleži kosturnicu iz 1967. za oko 1.200 žrtava fašističkog terora, zapadno od glavnog spomenika na Šobića glavici. Teško je oštećena ili razorena 1996; njen zaseban tačan položaj nije potvrđen.",
+      "en": "The catalogue records a 1967 ossuary for about 1,200 victims of fascist terror west of the main monument on Šobić Hill. It was badly damaged or destroyed in 1996; its separate exact position is unconfirmed."
+    },
+    "stanje": "rusevine"
   },
   {
     "id": "drvar-kompleks-muzeja-25-maj",
@@ -6485,16 +6487,24 @@
     "nazivEn": "25 May Museum complex",
     "vrsta": "muzej",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Across River Unac from town centre"
+    "adresa": "Across River Unac from town centre",
+    "opis": {
+      "sh": "Kompleks Muzeja „25. maj“ obuhvata muzejske zgrade i Titovu pećinu na drugoj obali Unca. Izveštaj iz avgusta 2026. potvrđuje posete istorijskoj i etnografskoj postavci i pećini; tačke pojedinačnih objekata treba razlikovati.",
+      "en": "The 25 May Museum complex includes museum buildings and Tito’s Cave across the Unac River. An August 2026 report confirms visits to the historical and ethnographic exhibitions and the cave; the positions of its individual buildings should be distinguished."
+    }
   },
   {
     "id": "drvar-barake-pozadinskih-bataljona",
     "mesto": "Drvar",
+    "adresa": "25 May Museum complex",
     "naziv": "Barake pozadinskih bataljona",
     "nazivEn": "Barracks of rear battalions",
-    "vrsta": "muzej",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "25 May Museum complex"
+    "opis": {
+      "sh": "Katalog navodi barake pozadinskih bataljona u kompleksu Muzeja „25. maj“. Nije potvrđeno da su danas sačuvane i uređene kao zaseban muzej.",
+      "en": "The catalogue lists rear battalion barracks within the 25 May Museum complex. Their present survival and use as a separate museum have not been confirmed."
+    },
+    "vrsta": "spomen-obelezje",
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "drvar-spomen-ploca-palim-borcima",
@@ -6513,7 +6523,11 @@
     "godina": "1954",
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "25 May Museum complex"
+    "adresa": "25 May Museum complex",
+    "opis": {
+      "sh": "Ploča iz 1954. u kompleksu Muzeja „25. maj“ obeležava boravak Vrhovnog štaba. Katalog navodi da je prvobitna ploča zamenjena novijom.",
+      "en": "The 1954 plaque within the 25 May Museum complex commemorates the Supreme Headquarters’ stay. The catalogue records that the original plaque was replaced."
+    }
   },
   {
     "id": "drvar-spomen-ploca-osnivanju-ozn-e",
@@ -6521,10 +6535,13 @@
     "naziv": "Spomen-ploča osnivanju OZN-e",
     "nazivEn": "Plaque to commemorate establishement of OZNA",
     "godina": "1964",
-    "posveta": "osnivanju OZN-e",
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "25 May Museum complex"
+    "adresa": "25 May Museum complex",
+    "opis": {
+      "sh": "Prvobitna ploča osnivanju OZNA-e postavljena je 1964. Zamenjena je novijom na prednjoj strani zgrade u muzejskom kompleksu.",
+      "en": "The original plaque commemorating the founding of OZNA was installed in 1964. A newer plaque replaced it on the front of the building in the museum complex."
+    }
   },
   {
     "id": "drvar-spomen-staza-titovog-odlaska-iz-drvara",
@@ -6566,10 +6583,14 @@
     "mesto": "Drvar",
     "naziv": "Spomen-ploča na mjestu II kongresa USAOJ-a",
     "nazivEn": "Memorial Plaque: Location of II Congress of USAOJ",
-    "godina": "1954",
+    "godina": "1949",
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Cellulose factory (former)"
+    "adresa": "Cellulose factory (former)",
+    "opis": {
+      "sh": "Ploča obeležava mesto Drugog kongresa USAOJ-a u nekadašnjoj fabrici celuloze. Prvobitna ploča iz 1949. zamenjena je 1954.",
+      "en": "The plaque marks the site of the Second USAOJ Congress at the former cellulose factory. The original 1949 plaque was replaced in 1954."
+    }
   },
   {
     "id": "drvar-spomen-ploca-partizanskoj-radionici",
@@ -6612,38 +6633,54 @@
   {
     "id": "drvar-stab-saveznicke-misije",
     "mesto": "Drvar",
+    "adresa": "House of the Rodić family (former)",
     "naziv": "Štab savezničke misije",
     "nazivEn": "HQ of Allied Mission",
+    "opis": {
+      "sh": "Katalog beleži nekadašnju kuću porodice Rodić u kojoj je boravila saveznička misija. Nisu potvrđeni sačuvano spomen-obeležje, tačna lokacija ni mogućnost obilaska.",
+      "en": "The catalogue lists the former Rodić family house as an Allied mission headquarters. A surviving memorial, exact location and visitor access have not been confirmed."
+    },
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "House of the Rodić family (former)"
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "drvar-stab-britanske-saveznicke-misije",
     "mesto": "Drvar",
-    "naziv": "Štab britanske savezničke misije",
-    "nazivEn": "HQ of British Allied Mission",
+    "naziv": "Spomen-ploča britanskoj savezničkoj misiji",
+    "nazivEn": "British Allied Mission Plaque",
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "House of the Knežević family"
+    "adresa": "House of the Knežević family",
+    "opis": {
+      "sh": "Ploča na kući porodice Knežević obeležava boravak britanske savezničke misije. Razlikuje se od drugih kuća u kojima su bile smeštene savezničke misije; tačan položaj nije potvrđen.",
+      "en": "The plaque on the Knežević family house commemorates the British Allied mission’s stay. It is distinct from other houses used by Allied missions; its exact position is unconfirmed."
+    }
   },
   {
     "id": "drvar-stab-saveznicke-misije-2",
     "mesto": "Drvar",
+    "adresa": "House of the Grujić family (former)",
     "naziv": "Štab savezničke misije",
     "nazivEn": "HQ of Allied Mission",
+    "opis": {
+      "sh": "Katalog beleži nekadašnju kuću porodice Grujić u kojoj je boravila saveznička misija. Nisu potvrđeni sačuvano spomen-obeležje, tačna lokacija ni mogućnost obilaska.",
+      "en": "The catalogue lists the former Grujić family house as an Allied mission headquarters. A surviving memorial, exact location and visitor access have not been confirmed."
+    },
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "House of the Grujić family (former)"
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "drvar-stab-saveznicke-misije-3",
     "mesto": "Drvar",
+    "adresa": "House of the Sabljić family (former)",
     "naziv": "Štab savezničke misije",
     "nazivEn": "HQ of Allied Mission",
+    "opis": {
+      "sh": "Katalog beleži nekadašnju kuću porodice Sabljić u kojoj je boravila saveznička misija. Nisu potvrđeni sačuvano spomen-obeležje, tačna lokacija ni mogućnost obilaska.",
+      "en": "The catalogue lists the former Sabljić family house as an Allied mission headquarters. A surviving memorial, exact location and visitor access have not been confirmed."
+    },
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "House of the Sabljić family (former)"
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "sipovljani-spomen-ploca-oficirskoj-skoli",
@@ -6702,8 +6739,8 @@
     "naziv": "Spomen-ploča NOB",
     "nazivEn": "Memorial plaque",
     "opis": {
-      "sh": "Posvećeno palim borcima i žrtvama fašističkog terora.",
-      "en": "Dedicated to fallen fighters and victims of fascist terror."
+      "sh": "Ploča na nekadašnjoj školi posvećena je 58 palih boraca i osamnaestorici žrtava fašističkog terora. Zabeležena je 2011; današnje stanje nije potvrđeno.",
+      "en": "The plaque on the former school commemorates 58 fallen fighters and eighteen victims of fascist terror. It was recorded in 2011; its present condition is unconfirmed."
     },
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
@@ -6777,11 +6814,15 @@
   {
     "id": "zupica-spomen-ploca-centralnom-komitetu-kpj-za-pod",
     "mesto": "Župica",
-    "naziv": "Spomen-ploča Centralnom komitetu KPJ za područje Krajine",
-    "nazivEn": "Plaque commemorating Central Committee of the KPJ for the Krajina region",
+    "naziv": "Spomen-ploča partijskom rukovodstvu za Krajinu",
+    "nazivEn": "Krajina Party Leadership Plaque",
     "godina": "1953",
     "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "opis": {
+      "sh": "Ploča iz 1953. obeležava sedište partijskog rukovodstva za Bosansku krajinu. Tačan položaj i današnji opstanak obeležja nisu potvrđeni.",
+      "en": "The 1953 plaque marks the headquarters of the party leadership for Bosanska Krajina. The memorial’s exact position and present survival are unconfirmed."
+    }
   },
   {
     "id": "kamenica-spomen-ploca-formiranju-celije-kpj",
@@ -6802,18 +6843,25 @@
     "godina": "pre 1960",
     "vrsta": "groblje",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Spasovina cemetery"
+    "adresa": "Spasovina cemetery",
+    "opis": {
+      "sh": "Katalog beleži zajedničku grobnicu palih boraca na groblju Spasovina, nastalu pre 1960. Tačno mesto i današnje stanje nisu potvrđeni; obližnji grob Marije Bursać nije pouzdana tačka ove grobnice.",
+      "en": "The catalogue records a communal grave of fallen fighters at Spasovina cemetery, established before 1960. Its exact position and present condition are unconfirmed; the nearby grave of Marija Bursać does not locate this grave."
+    }
   },
   {
     "id": "drvar-bista-mike-bosnica",
     "mesto": "Drvar",
-    "naziv": "Bista Mike Bosnića",
-    "nazivEn": "Bust of NH Mika Bosnić",
+    "naziv": "Bista Mike Bosnić",
+    "nazivEn": "Bust of Mika Bosnić",
     "godina": "1981",
-    "posveta": "Mike Bosnića",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Alley of People's Heroes"
+    "adresa": "Alley of People's Heroes",
+    "opis": {
+      "sh": "Bista narodne heroine Mike Bosnić iz 1981. bila je deo Aleje narodnih heroja. Današnja lokacija i opstanak ovog pojedinačnog dela nisu potvrđeni.",
+      "en": "The 1981 bust of People’s Hero Mika Bosnić formed part of the Alley of People’s Heroes. The present location and survival of this individual work are unconfirmed."
+    }
   },
   {
     "id": "drvar-spomenik-palim-borcima-i-zrtvama-fasistickog",
@@ -6850,6 +6898,10 @@
     "mesto": "Drvar",
     "naziv": "Spomenik Josipu Brozu Titu",
     "nazivEn": "Monument to Josip Broz Tito",
+    "opis": {
+      "sh": "Gradnja Titovog spomenika u muzejskom parku prekinuta je 1991. Spomenik nije dovršen; zabeležen je samo betonski blok, a ne završena skulptura.",
+      "en": "Construction of the Tito memorial in the museum park stopped in 1991. The monument was never completed; only a concrete block was recorded, rather than a finished sculpture."
+    },
     "posveta": [
       "Q9161"
     ],
@@ -6869,17 +6921,6 @@
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "House of the Tadić family (former)"
-  },
-  {
-    "id": "cvjetnic-spomenik-nob",
-    "mesto": "Cvjetnić",
-    "naziv": "Spomenik NOB",
-    "nazivEn": "Monument to the NOB",
-    "godina": "1979",
-    "stanje": "ostecen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Sjenica"
   },
   {
     "id": "poljice-spomen-ploca-palim-borcima-i-zrtvama-fasis-2",
@@ -7017,34 +7058,45 @@
   {
     "id": "foca-grafit-s-titovim-portretom",
     "mesto": "Foča",
+    "adresa": "Next to bridge over the Ćehotina",
     "naziv": "Grafit s Titovim portretom",
     "nazivEn": "Graffiti portrait of Tito",
+    "opis": {
+      "sh": "Katalog beleži Titov portret Ismeta Mujezinovića iz 1942. kod mosta preko Ćehotine. Nisu potvrđeni opstanak originalnog crteža niti današnje obeležje koje bi posetilac mogao da pronađe.",
+      "en": "The catalogue records Ismet Mujezinović’s 1942 Tito portrait by the Ćehotina bridge. Neither the original drawing’s survival nor a present-day memorial that visitors could locate has been confirmed."
+    },
     "godina": "1942",
     "autor": "Ismet Mujezinović",
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Next to bridge over the Ćehotina"
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "brod-spomen-ploca-ii-dalmatinskoj-proleterskoj-bri",
-    "mesto": "Brod",
+    "mesto": "Brod (Foča)",
     "naziv": "Spomen-ploča II dalmatinskoj proleterskoj brigadi",
     "nazivEn": "Plaque to commemorate the II Dalmatian Proletarian Brigade",
-    "godina": "pre 1980",
+    "godina": "pre 1964",
     "posveta": [
       "Q117668"
     ],
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Bridge between Foča and Brod, close to Restoran 'Antik'"
+    "adresa": "Bridge between Foča and Brod, close to Restoran 'Antik'",
+    "opis": {
+      "sh": "Ploča kod mosta između Foče i Broda obnovljena je 2022. Zamenila je ranije obeležje postavljeno pre 1964; tačan položaj novije ploče nije potvrđen.",
+      "en": "The plaque by the bridge between Foča and Brod was restored in 2022. It replaced an earlier memorial installed before 1964; the newer plaque’s exact position is unconfirmed."
+    }
   },
   {
     "id": "rataj-grob-narodnog-heroja-nikole-marakovica-nine",
     "mesto": "Rataj",
-    "naziv": "Grob narodnog heroja Nikole Marakovića Nine",
-    "nazivEn": "Grave of NH Nikola Maraković Nina",
+    "naziv": "Nekadašnji grob Nikole Marakovića Nine",
+    "nazivEn": "Former Grave of Nikola Maraković Nina",
+    "opis": {
+      "sh": "Zapis se odnosi na nekadašnje mesto sahrane Nikole Marakovića Nine kod Rataja. Katalog navodi da su posmrtni ostaci pre 1991. preneti u Hrvatsku Kostajnicu; današnje obeležje starog groba nije potvrđeno.",
+      "en": "The record concerns Nikola Maraković Nina’s former burial site near Rataj. The catalogue states that his remains were moved to Hrvatska Kostajnica before 1991; a surviving marker at the former grave has not been confirmed."
+    },
     "godina": "pre 1969",
-    "posveta": "narodnog heroja Nikole Marakovića Nine",
     "vrsta": "groblje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -7062,6 +7114,10 @@
     "mesto": "Suha",
     "naziv": "Put II dalmatinske brigade",
     "nazivEn": "Route of the II Dalmatian Brigade",
+    "opis": {
+      "sh": "Katalog navodi trasu Druge dalmatinske brigade kod Suhe, bez opisa konkretnog spomenika ili ploče. Sačuvan objekat i tačna lokacija nisu potvrđeni.",
+      "en": "The catalogue lists the Second Dalmatian Brigade’s route at Suha without describing a specific monument or plaque. A surviving object and exact location are unconfirmed."
+    },
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -7070,6 +7126,10 @@
     "mesto": "Suha",
     "naziv": "Logorište Vrhovnog štaba",
     "nazivEn": "Encampment of the Supreme Command",
+    "opis": {
+      "sh": "Katalog navodi logorište Vrhovnog štaba kod Suhe, bez opisa konkretnog spomen-obeležja. Tačno mesto i današnji memorijalni sadržaj nisu potvrđeni.",
+      "en": "The catalogue lists the Supreme Headquarters’ encampment at Suha without describing a specific memorial. Its exact location and present commemorative features are unconfirmed."
+    },
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -7167,8 +7227,8 @@
     "naziv": "Spomen-ploča pogibiji Šerifa Loje i boraca Fočanske čete",
     "nazivEn": "Plaque to Šerif Lojo and fallen fighters of the Foča Company",
     "opis": {
-      "sh": "Obeležava mesto gde su poginuli narodni heroj Šerif Lojo i 12 pripadnika Fočanske omladinske čete.",
-      "en": "Marks the place where People's Hero Šerif Lojo and 12 members of the Foča Youth Company fell."
+      "sh": "Ploča obeležava pogibiju Šerifa Loje i dvanaestorice pripadnika Fočanske omladinske čete na Borovnu. Nije potvrđeno da li je sačuvana kao zaseban predmet uz kasniji Živkovićev memorijal.",
+      "en": "The plaque commemorates Šerif Lojo and twelve Foča Youth Company members killed at Borovno. Its survival as a separate object alongside the later Živković memorial has not been confirmed."
     },
     "vrsta": "spomen-ploca",
     "drzava": "Bosnia and Herzegovina"
@@ -7255,7 +7315,11 @@
     "godina": "pre 1981",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Humić, Partisans' cemetery"
+    "adresa": "Humić, Partisans' cemetery",
+    "opis": {
+      "sh": "Obeležje na Humiću posvećeno je šesnaestorici boraca Takovske čete Druge proleterske brigade, među njima Tihomiru Matijeviću. Postojalo je pre 1981, a obnovljeno ili zamenjeno 1986.",
+      "en": "The Humić memorial commemorates sixteen fighters of the Second Proletarian Brigade’s Takovo Company, including Tihomir Matijević. It existed before 1981 and was restored or replaced in 1986."
+    }
   },
   {
     "id": "foca-bista-ivana-gorana-kovacica",
@@ -7329,17 +7393,6 @@
     "godina": "pre 1958",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "ustikolina-spomen-ploca-i-proleterskoj-brigadi",
-    "mesto": "Ustikolina",
-    "naziv": "Spomen-ploča I proleterskoj brigadi",
-    "nazivEn": "Plaque to commemorate the I Proletarian Brigade",
-    "godina": "1954",
-    "posveta": "I proleterskoj brigadi",
-    "vrsta": "spomen-ploca",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Omladinska bb., municipality building"
   },
   {
     "id": "ustikolina-spomen-ploca-prelasku-drine-tokom-igman",
@@ -32218,14 +32271,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "banatsko-novo-selo-spomen-cesma",
-    "mesto": "Banatsko Novo Selo",
-    "naziv": "Spomen-česma",
-    "godina": "1957",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
-  },
-  {
     "id": "vojlovica-spomenik-palim-1941-1945",
     "mesto": "Pančevo (Vojlovica)",
     "naziv": "Spomenik palim 1941-1945",
@@ -35140,18 +35185,12 @@
     "naziv": "Spomen-kuća Ivana Krndelja",
     "nazivEn": "Memorial house of Ivan Krndelj",
     "godina": "1978",
-    "posveta": "Ivana Krndelja",
     "vrsta": "spomen-kuca",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "velika-socanica-spomenik-palim-borcima",
-    "mesto": "Velika Sočanica",
-    "naziv": "Spomenik palim borcima",
-    "nazivEn": "Monument to fallen fighters",
-    "godina": "1950",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "opis": {
+      "sh": "U rodnoj kući Ivana Krndelja muzejska postavka uređena je 1978. Današnja dostupnost kuće i opstanak postavke nisu potvrđeni.",
+      "en": "A museum exhibition was established in Ivan Krndelj’s birthplace in 1978. Present access to the house and the survival of the exhibition are unconfirmed."
+    }
   },
   {
     "id": "osinja-spomenik-nob",
@@ -35168,26 +35207,21 @@
     "nazivEn": "Monument to fallen fighters",
     "godina": "1951",
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "pojezna-spomenik-palim-borcima-i-zrtvama-fasistick",
-    "mesto": "Pojezna",
-    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
-    "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
-    "godina": "1987",
-    "autor": "Izet Đuzel",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "opis": {
+      "sh": "Starije obeležje iz 1951. zamenjeno je pre 2018, a uz noviju verziju dopunjene su pojedinačne spomen-ploče između 2020. i 2023. Ne treba ga mešati sa zasebnim Đuzelovim spomenikom iz 1987.",
+      "en": "The older 1951 memorial was replaced before 2018, with individual memorial plaques added between 2020 and 2023. It should not be confused with Đuzel’s separate 1987 monument."
+    }
   },
   {
     "id": "vrhovi-spomen-cesma-palim-borcima",
     "mesto": "Vrhovi",
     "naziv": "Spomen-česma palim borcima",
     "nazivEn": "Fountain to commemorate fallen fighters",
-    "godina": "1960-1961",
+    "godina": "pre 1972",
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "adresa": "Kod nekadašnje osnovne škole; lokacija i današnji opstanak nisu potvrđeni."
   },
   {
     "id": "velika-socanica-spomenik-palim-borcima-2",
@@ -35232,7 +35266,11 @@
     "nazivEn": "Fountain to commemorate place of capture of 3 Partisans",
     "godina": "1957",
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "opis": {
+      "sh": "Česma iz 1957. obeležavala je mesto zarobljavanja trojice partizana. Tačna lokacija i opstanak nisu potvrđeni; izvor opisuje gustu šumu istočno od sela i rizik od mina, pa se pretpostavljena tačka ne koristi za posetu.",
+      "en": "The 1957 fountain marked the capture of three Partisans. Its exact position and survival are unconfirmed; the source describes dense woodland east of the village and a mine risk, so the conjectured point is not used as a visitor destination."
+    }
   },
   {
     "id": "rudanka-partizansko-groblje-sa-14-palih-boraca",
@@ -35258,8 +35296,8 @@
     "naziv": "Spomen-obeležje prelasku Tita i Vrhovnog štaba",
     "nazivEn": "Tito and Supreme Headquarters Crossing Memorial",
     "opis": {
-      "sh": "Obeležava mesto gde su Tito i Vrhovni štab prešli glavni put.",
-      "en": "Marks the place where Tito and the Supreme Headquarters crossed the main road."
+      "sh": "Katalog beleži obeležje prelasku Tita i Vrhovnog štaba preko glavnog puta pre 1975. Tačan položaj, izgled i današnji opstanak nisu potvrđeni; most u Miljevini je samo nepotvrđena pretpostavka.",
+      "en": "The catalogue records a pre-1975 memorial marking Tito and the Supreme Headquarters crossing the main road. Its exact position, appearance and present survival are unconfirmed; the Miljevina bridge is only an unverified hypothesis."
     },
     "godina": "pre 1975",
     "vrsta": "spomen-obelezje",
@@ -35294,7 +35332,12 @@
       "Q16761390"
     ],
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "opis": {
+      "sh": "Spomenik iz 1952. u Igočama posvećen je Šestoj istočnobosanskoj brigadi. Katalog beleži čišćenje i obnovu oko 2023; tačna lokacija nije potvrđena.",
+      "en": "The 1952 memorial at Igoče commemorates the Sixth Eastern Bosnian Brigade. The catalogue records cleaning and restoration around 2023; the exact position is unconfirmed."
+    },
+    "adresa": "Igoče, kod Ćureva; tačna tačka nije potvrđena."
   },
   {
     "id": "tjentiste-spomenik-palim-borcima-vi-licke-divizije",
@@ -38404,16 +38447,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "bunar-spomenik-palim-borcima",
-    "mesto": "Bunar",
-    "naziv": "Spomenik palim borcima",
-    "nazivEn": "Monument to fallen fighters",
-    "godina": "1953",
-    "stanje": "ostecen",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "brezici-spomenik-palim-borcima-poginulim-u-borbi-s",
     "mesto": "Brezici",
     "naziv": "Spomenik borcima palim u borbi s četnicima",
@@ -38451,7 +38484,12 @@
     "naziv": "Spomenik palim borcima",
     "nazivEn": "Monument to fallen fighters",
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "opis": {
+      "sh": "Obeležje palim borcima nalazi se u prostoru koji meštani nazivaju i Podovi i Pasijak, pored kosturnice. Zasebno obeležje rata 1992–1995. dodato je uz njega između 2012. i 2017.",
+      "en": "The fallen fighters’ memorial stands beside the ossuary in an area locally called both Podovi and Pasijak. A separate 1992–1995 war memorial was added alongside it between 2012 and 2017."
+    },
+    "adresa": "Podovi/Pasijak, pored kosturnice uz glavni put; tačka pojedinačnog spomenika nije potvrđena."
   },
   {
     "id": "vrbnica-logoriste-vrhovnog-staba",
@@ -40609,17 +40647,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "ocrkavlje-spomenik-prvoj-proleterskoj-brigadi",
-    "mesto": "Ocrkavlje",
-    "naziv": "Spomenik Prvoj proleterskoj brigadi",
-    "godina": "pre 1958",
-    "posveta": [
-      "Q2190675"
-    ],
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "poljanica-spomenik-nob",
     "mesto": "Poljanica",
     "naziv": "Spomenik NOB",
@@ -40885,15 +40912,11 @@
     "nazivEn": "Monument to fallen fighters",
     "godina": "pre 1965",
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "drvar-spomen-grobnica",
-    "mesto": "Drvar",
-    "naziv": "Spomen-grobnica",
-    "godina": "pre 1960",
-    "vrsta": "groblje",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "opis": {
+      "sh": "Spomenik palim borcima zabeležen je pre 1965. Tačna lokacija i današnje stanje nisu potvrđeni; nasumična tačka na obodu Čitluka iz starije karte nije pouzdana lokacija objekta.",
+      "en": "A fallen fighters’ memorial was recorded before 1965. Its exact position and present condition are unconfirmed; an arbitrary point on the outskirts of Čitluk in an older map does not locate the object."
+    }
   },
   {
     "id": "ilidza-spomen-obelisk",
@@ -41095,9 +41118,12 @@
     "naziv": "Spomenik I proleterskoj brigadi",
     "nazivEn": "Monument to the I Proleterian Brigade",
     "godina": "pre 1958",
-    "posveta": "I proleterskoj brigadi",
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "opis": {
+      "sh": "Obeležje Prvoj proleterskoj brigadi postojalo je pre 1958. Tačan položaj i današnje stanje nisu potvrđeni; tačka sela ili obližnjeg groblja ne potvrđuje mesto spomenika.",
+      "en": "The First Proletarian Brigade memorial existed before 1958. Its exact position and present condition are unconfirmed; a village or nearby cemetery point does not locate the monument."
+    }
   },
   {
     "id": "ocrkavlje-zajednicka-grobnica-boraca-i-proleterske",

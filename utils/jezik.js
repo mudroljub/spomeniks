@@ -99,6 +99,7 @@ const tekstovi = {
   spomenik: {sh: 'Spomenik', en: 'Monument'},
   statua: {sh: 'Statua', en: 'Statue'},
   bista: {sh: 'Bista', en: 'Bust'},
+  reljef: {sh: 'Reljef', en: 'Relief'},
   'spomen-kuca': {sh: 'Spomen-kuća', en: 'Memorial house'},
   'spomen-obelezje': {sh: 'Spomen-obeležje', en: 'Memorial marker'},
   'spomen-ploca': {sh: 'Spomen-ploča', en: 'Memorial plaque'},

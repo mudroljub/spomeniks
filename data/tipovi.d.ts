@@ -3,7 +3,7 @@
 
 export type Drzava = 'Slovenia' | 'Croatia' | 'Bosnia and Herzegovina' | 'Serbia' | 'Montenegro' | 'Macedonia' | 'Kosovo' | 'Italy'
 
-export type Vrsta = 'spomenik' | 'spomen-obelezje' | 'spomen-park' | 'spomen-groblje' | 'muzej' | 'statua' | 'bista' | 'spomen-kuca' | 'groblje' | 'spomen-ploca'
+export type Vrsta = 'spomenik' | 'spomen-obelezje' | 'spomen-park' | 'spomen-groblje' | 'muzej' | 'statua' | 'bista' | 'reljef' | 'spomen-kuca' | 'groblje' | 'spomen-ploca'
 
 /** prazno: nema podatka da spomenik nije očuvan (može biti i nepoznato) */
 export type Stanje = 'rusevine' | 'uklonjen' | 'ostecen' | 'zatvoren' | 'srusen'

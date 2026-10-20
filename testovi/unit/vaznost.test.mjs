@@ -19,7 +19,7 @@ test('sama promena važnosti određuje redosled, slojeve i zum, uključujući je
     const s = {vrsta: vrsta === 'istaknut' ? 'spomenik' : vrsta, istaknut: vrsta === 'istaknut'}
     assert.equal(m.vaznostSpomenika(s), i + 1)
     assert.equal(m.slojSpomenika(s), (redosled.length - 1 - i) * 1000)
-    const zum = zumPoVaznosti[Math.min(i + 1, 10)]
+    const zum = zumPoVaznosti[Math.min(i + 1, Math.max(...Object.keys(zumPoVaznosti).map(Number)))]
     assert.equal(m.najmanjiZum(s), zum)
     if (!s.istaknut) assert.equal(m.zumVrste[vrsta], zum)
     assert.ok(m.slojSpomenika({...s, priblizno: true}) < m.slojSpomenika(s))
