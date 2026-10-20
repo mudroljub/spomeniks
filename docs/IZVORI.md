@@ -124,6 +124,8 @@ Originali, izbori i pregledi su u `izvori/pretrage/`, prema nazivu paketa u [pre
 
 ## Obrada knjiga
 
+- **Gradiška, JU Zavičajni muzej / SUBNOR, 2022:** *Spomen-obilježja gradiškim žrtvama oslobodilačkih ratova u 20. vijeku*, urednik Bojan Vujčić; lokalno `izvori/knjige/gradiska-subnor-2022.pdf` i tekst uz njega, [javni PDF](https://www.gradgradiska.com/wp-content/uploads/2025/09/Knjiga-SUBNOR-B5-finalna-verzija.pdf). Impresum potvrđuje 2022, ne 2025 iz URL-a. Primenjeno pri sistemskom pregledu 96 redova Gradiške 20.10.2026; [odluka](../data/provere/odluke.json#spomenicinob-redom-gradiska-2026-10-20). Fotografije uz tekstove str. 90/91 su zamenjene; čitati natpis i odvojiti ploču 1973. od spomenika 1982.
+
 **Čitanje dostupnog obima knjiga A–E je završeno 2026-10-16; F (Makedonija) je delimično obrađena.** Preostala lociranja i sporni identiteti ne zahtevaju ponovno prepisivanje cele knjige. Veze vode na trajne sirove zapise; oznaka „bez lokacije“ u njima nije nužno aktuelan broj preostalih zadataka.
 
 | Knjiga i izvor | Obrađen obim | Rezultat prvog unosa | Preostalo / ograničenje |

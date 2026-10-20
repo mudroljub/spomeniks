@@ -3104,7 +3104,12 @@
     },
     "priblizno": true,
     "mesto": "Goražde",
+    "adresa": "Kod nekadašnje železničke stanice",
     "naziv": "Spomen-kosturnica",
+    "opis": {
+      "sh": "Nekadašnja kosturnica kod železničke stanice postojala je pre 1966. i kasnije je uklonjena. Veza sa današnjim grobljem Kolijevke nije dovoljno potvrđena za spajanje zapisa.",
+      "en": "The former ossuary near the railway station existed before 1966 and was later removed. Its relationship to today’s Kolijevke cemetery is insufficiently established to merge the records."
+    },
     "godina": "pre 1966",
     "stanje": "uklonjen",
     "vrsta": "groblje",
@@ -5627,9 +5632,13 @@
   {
     "id": "gacko-bista-milete-okiljevica",
     "mesto": "Gacko",
-    "adresa": "Pedestal in Partisans' cemetery",
+    "adresa": "Postolje preneto u partizansko groblje",
     "naziv": "Bista Milete Okiljevića",
     "nazivEn": "Bust of NH Mileta Okiljević",
+    "opis": {
+      "sh": "Bista Milete Okiljevića je uklonjena; u partizansko groblje preneto je samo njeno postolje.",
+      "en": "The bust of Mileta Okiljević was removed; only its pedestal was relocated to the Partisan cemetery."
+    },
     "godina": "1962-1978",
     "posveta": [
       "Q31183113"
@@ -5641,11 +5650,14 @@
   {
     "id": "gacko-bista-obrena-supica",
     "mesto": "Gacko",
-    "adresa": "Pedestal in Partisans' cemetery",
+    "adresa": "Postolje preneto u partizansko groblje",
     "naziv": "Bista Obrena Šupića",
     "nazivEn": "Bust of NH Obren Šupić",
+    "opis": {
+      "sh": "Bista Obrena Šupića je uklonjena; u partizansko groblje preneto je samo njeno postolje.",
+      "en": "The bust of Obren Šupić was removed; only its pedestal was relocated to the Partisan cemetery."
+    },
     "godina": "1962-1979",
-    "posveta": "Obrena Šupića",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -5736,17 +5748,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "gorazde-kosturnica-palih-boraca",
-    "mesto": "Goražde",
-    "adresa": "Close to train station",
-    "naziv": "Kosturnica palih boraca",
-    "nazivEn": "Ossuary of fallen fighters",
-    "godina": "pre 1966",
-    "stanje": "uklonjen",
-    "vrsta": "groblje",
-    "drzava": "Bosnia and Herzegovina"
-  },
-  {
     "id": "ilovaca-bista-milana-simovica",
     "mesto": "Ilovača",
     "adresa": "Elementary school",
@@ -5761,11 +5762,14 @@
   {
     "id": "gornji-vakuf-bista-jure-mikulica",
     "mesto": "Gornji Vakuf",
-    "adresa": "High school centre",
+    "adresa": "Srednjoškolski centar, nekadašnji položaj",
     "naziv": "Bista Jure Mikulića",
     "nazivEn": "Bust of Jura Mikulić",
+    "opis": {
+      "sh": "Bista je uklonjena iz srednjoškolskog centra; preostalo je njeno postolje.",
+      "en": "The bust was removed from the secondary school centre; its pedestal remains."
+    },
     "godina": "1972-1990",
-    "posveta": "Jure Mikulića",
     "stanje": "uklonjen",
     "vrsta": "bista",
     "drzava": "Bosnia and Herzegovina"
@@ -12263,9 +12267,13 @@
   {
     "id": "fojnica-spomenik-palim-borcima",
     "mesto": "Fojnica",
-    "adresa": "Town park",
+    "adresa": "Gradski park, nekadašnji položaj",
     "naziv": "Spomenik palim borcima",
     "nazivEn": "Monument to fallen fighters",
+    "opis": {
+      "sh": "Spomenik iz 1951. u gradskom parku srušen je pre 1980. godine.",
+      "en": "The 1951 monument in the town park was demolished before 1980."
+    },
     "godina": "1951",
     "stanje": "srusen",
     "vrsta": "spomen-obelezje",
@@ -12313,9 +12321,13 @@
   {
     "id": "gradiska-spomenik-nob",
     "mesto": "Gradiška",
-    "adresa": "In front of municipal assembly building",
+    "adresa": "Ispred stare zgrade opštine, nekadašnji položaj",
     "naziv": "Spomenik NOB",
     "nazivEn": "Monument to the NOB",
+    "opis": {
+      "sh": "Spomenik NOB iz 1949. stajao je ispred stare opštinske zgrade. Srušen je pre 2010; nije potvrđen njegov prenos ili obnova.",
+      "en": "The 1949 National Liberation Struggle memorial stood outside the former municipal building. It was destroyed before 2010; its relocation or restoration has not been confirmed."
+    },
     "godina": "1949",
     "stanje": "srusen",
     "vrsta": "spomen-obelezje",
