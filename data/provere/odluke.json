@@ -12420,5 +12420,693 @@
     "godina": "1953",
     "dokaz": "Korisnik izricito potvrdio da je isti spomenik, razlicita godina je greska, i nalozio stariju godinu 1953. Katalog navodi 1983. uz Zaima Mesica i drugi red 1953; nesaglasnost sacuvana ovde. Autor, posveta, naziv i priblizna lokacija zadrzani.",
     "veze": "Nema aktivnih cilj/radniId veza ka uklonjenom ID-ju; istorijski snimci ostaju."
+  },
+  {
+    "odluka": "potvrdjeni-duplikati-ispravka-2026-10-20",
+    "datum": "2026-10-20",
+    "ishod": "spojeno-26-grupa-uklonjeno-27-duplikata",
+    "pravilo": "Po nalogu korisnika zadrzana starija godina; razlicita godina ne osporava potvrden identitet. Kod zamenskih ploca obe faze sacuvane u dvojezicnom opisu. Istrazivanje: lokalni Wiki i katalozi, knjiga Popovic-Zuma i uporedjene fotografije.",
+    "spajanja": [
+      {
+        "zadrzaniId": "kocani",
+        "uklonjeniId": [
+          "kocani-spomenik-na-slobodata"
+        ],
+        "razlikePre": {
+          "godina": {
+            "kocani": "1977",
+            "kocani-spomenik-na-slobodata": null
+          },
+          "autor": {
+            "kocani": "Gligor Čemerski & Radovan Rađenović",
+            "kocani-spomenik-na-slobodata": null
+          },
+          "koordinate": {
+            "kocani": {
+              "lat": 41.9188885,
+              "lng": 22.4070296
+            },
+            "kocani-spomenik-na-slobodata": {
+              "lat": 41.9189167,
+              "lng": 22.3998333
+            }
+          }
+        },
+        "godinaPosle": "1977",
+        "izvoriPre": {
+          "kocani": "http://www.spomenikdatabase.org/kocani",
+          "kocani-spomenik-na-slobodata": "https://commons.wikimedia.org/wiki/File%3ASpomenik_na_Slobodata_Kocani_Macedonia.jpg"
+        },
+        "arhiviraneSlike": [
+          "slike/spomenici/kocani-spomenik-na-slobodata.webp"
+        ],
+        "dokaz": "Obe postojeće fotografije prikazuju isti prepoznatljiv mozaik i betonski kompleks; tačke se razlikuju. Odabrati tačku konkretnog kompleksa pre spajanja."
+      },
+      {
+        "zadrzaniId": "cenej",
+        "uklonjeniId": [
+          "cenej-spomenik-novosadskom-partizanskom-odredu"
+        ],
+        "razlikePre": {
+          "godina": {
+            "cenej": "1971",
+            "cenej-spomenik-novosadskom-partizanskom-odredu": null
+          },
+          "autor": {
+            "cenej": "Pavle Radovanović",
+            "cenej-spomenik-novosadskom-partizanskom-odredu": null
+          },
+          "koordinate": {
+            "cenej": {
+              "lat": 45.3231541,
+              "lng": 19.8291041
+            },
+            "cenej-spomenik-novosadskom-partizanskom-odredu": {
+              "lat": 45.337788,
+              "lng": 19.831883
+            }
+          }
+        },
+        "godinaPosle": "1971",
+        "izvoriPre": {
+          "cenej": "http://www.spomenikdatabase.org/cenej",
+          "cenej-spomenik-novosadskom-partizanskom-odredu": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B0%D0%B4%D1%81%D0%BA%D0%BE%D0%BC_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%BC_%D0%BE%D0%B4%D1%80%D0%B5%D0%B4%D1%83_-_%D0%A7%D0%B5%D0%BD%D0%B5%D1%98.jpg"
+        },
+        "arhiviraneSlike": [
+          "slike/spomenici/cenej-spomenik-novosadskom-partizanskom-odredu.webp"
+        ],
+        "dokaz": "Fotografije prikazuju iste četiri kamene forme i isto polje; različite tačke i vrste. Sačuvati potvrđenu lokaciju, autora Pavla Radovanovića i 1971."
+      },
+      {
+        "zadrzaniId": "medvedjek",
+        "uklonjeniId": [
+          "medvedjek-spomenik-nob"
+        ],
+        "razlikePre": {
+          "godina": {
+            "medvedjek": null,
+            "medvedjek-spomenik-nob": "1971"
+          },
+          "koordinate": {
+            "medvedjek": {
+              "lat": 45.9246728,
+              "lng": 14.9355094
+            },
+            "medvedjek-spomenik-nob": {
+              "lat": 45.923971,
+              "lng": 14.937276
+            }
+          }
+        },
+        "godinaPosle": "1971",
+        "izvoriPre": {
+          "medvedjek": null,
+          "medvedjek-spomenik-nob": "https://eid.gov.si/S/10176"
+        },
+        "arhiviraneSlike": [
+          "slike/spomenici/medvedjek-spomenik-nob.webp"
+        ],
+        "dokaz": "Obe fotografije prikazuju istu figuru sa puškom, postament i raspored kamenova; drugi zapis ima [EID 10176](https://eid.gov.si/S/10176) i 1971. `medvedjek-2` sa kamenim knjigama nije ovaj objekat."
+      },
+      {
+        "zadrzaniId": "lavci-spomenik-na-nob",
+        "uklonjeniId": [
+          "lavci-spomenik-na-nob-2"
+        ],
+        "razlikePre": {
+          "koordinate": {
+            "lavci-spomenik-na-nob": {
+              "lat": 41.014591,
+              "lng": 21.3008917
+            },
+            "lavci-spomenik-na-nob-2": {
+              "lat": 41.014637,
+              "lng": 21.302094
+            }
+          }
+        },
+        "godinaPosle": null,
+        "izvoriPre": {
+          "lavci-spomenik-na-nob": "https://commons.wikimedia.org/wiki/File%3ASpomenik_od_NOB_-_Lavci.jpg",
+          "lavci-spomenik-na-nob-2": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BE_%D0%9B%D0%B0%D0%B2%D1%86%D0%B8.jpg"
+        },
+        "arhiviraneSlike": [
+          "slike/spomenici/lavci-spomenik-na-nob-2.webp"
+        ],
+        "dokaz": "Obe fotografije prikazuju isti reljef i karakterističnu betonsku konstrukciju; isti autor Aleksandar Jovanovski. Već zabeležen nalaz, sada ponovo vizuelno potvrđen; razrešiti oko 101 m razlike tačaka."
+      },
+      {
+        "zadrzaniId": "gornji-rinj-spomen-cesma",
+        "uklonjeniId": [
+          "gornji-rinj-spomen-cesma-2"
+        ],
+        "razlikePre": {
+          "koordinate": {
+            "gornji-rinj-spomen-cesma": {
+              "lat": 43.306944,
+              "lng": 22.296417
+            },
+            "gornji-rinj-spomen-cesma-2": {
+              "lat": 43.30656,
+              "lng": 22.2965
+            }
+          }
+        },
+        "godinaPosle": "1972",
+        "izvoriPre": {
+          "gornji-rinj-spomen-cesma": "https://www.xiwl.com/w/index.php/Gornji_Rinj_-_Spomen_%C4%8Cesma",
+          "gornji-rinj-spomen-cesma-2": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=68"
+        },
+        "arhiviraneSlike": [],
+        "dokaz": "Wiki izričito povezuje česmu sa istom knjiškom stavkom: 1972, tri partizanska odreda i savetovanje 15–16. januara 1942; tačke 43 m. [Terenski članak](https://www.pirotskikraj.com/arhiva-predloga/545) potvrđuje seosku česmu iz 1972."
+      },
+      {
+        "zadrzaniId": "vosanovac-spomen-cesma",
+        "uklonjeniId": [
+          "vosanovac-spomen-cesma-2"
+        ],
+        "razlikePre": {
+          "koordinate": {
+            "vosanovac-spomen-cesma": {
+              "lat": 44.334833,
+              "lng": 21.315151
+            },
+            "vosanovac-spomen-cesma-2": {
+              "lat": 44.33463,
+              "lng": 21.31597
+            }
+          }
+        },
+        "godinaPosle": "1973",
+        "izvoriPre": {
+          "vosanovac-spomen-cesma": "https://www.xiwl.com/w/index.php/Vo%C5%A1anovac_-_Spomen_%C4%8Cesma",
+          "vosanovac-spomen-cesma-2": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=94"
+        },
+        "arhiviraneSlike": [],
+        "dokaz": "Lokalna Wiki kopija i knjiga, sken `094-1.png`: 1973. i imena 30 poginulih boraca; ista knjiška referenca, tačke 69 m."
+      },
+      {
+        "zadrzaniId": "cetereze-spomen-cesma",
+        "uklonjeniId": [
+          "cetereze-spomen-cesma-2"
+        ],
+        "razlikePre": {
+          "koordinate": {
+            "cetereze-spomen-cesma": {
+              "lat": 44.371139,
+              "lng": 21.241389
+            },
+            "cetereze-spomen-cesma-2": null
+          }
+        },
+        "godinaPosle": "1954",
+        "izvoriPre": {
+          "cetereze-spomen-cesma": "https://www.xiwl.com/w/index.php/%C4%8Cetere%C5%BEe_-_Spomen_%C4%8Cesma",
+          "cetereze-spomen-cesma-2": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=92"
+        },
+        "arhiviraneSlike": [],
+        "dokaz": "Lokalna Wiki kopija izričito citira istu stavku knjige, sken `092-0.png`: 1954, dvanaest poginulih 1945, šest umrlih od rana. Drugi zapis je bez lokacije."
+      },
+      {
+        "zadrzaniId": "bijeljina-bista-fadila-jahica-spanca",
+        "uklonjeniId": [
+          "bijeljina-bista-fadila-jahica-spanca-2"
+        ],
+        "razlikePre": {},
+        "godinaPosle": "1971",
+        "izvoriPre": {
+          "bijeljina-bista-fadila-jahica-spanca": "https://www.spomenicinob.info/bijeljina",
+          "bijeljina-bista-fadila-jahica-spanca-2": "https://www.spomenicinob.info/bijeljina"
+        },
+        "arhiviraneSlike": [],
+        "dokaz": "Sačuvani redovi [Spomenici NOB](https://www.spomenicinob.info/bijeljina), `izvori/spomenicinob/redovi.json`: parkovski red izričito navodi raniju lokaciju u Muzeju Semberije; oba 1971, Milovan Krstić. Stara i nova adresa iste biste."
+      },
+      {
+        "zadrzaniId": "bijeljina-spomenik-palim-borcima-i-zrtvama-fasisti",
+        "uklonjeniId": [
+          "bijeljina-spomenik-palim-borcima-i-zrtvama-fasisti-4",
+          "bijeljina-spomenik-palim-borcima-i-zrtvama-fasisti-5"
+        ],
+        "razlikePre": {
+          "koordinate": {
+            "bijeljina-spomenik-palim-borcima-i-zrtvama-fasisti": {
+              "lat": 44.757944,
+              "lng": 19.204833
+            },
+            "bijeljina-spomenik-palim-borcima-i-zrtvama-fasisti-4": null,
+            "bijeljina-spomenik-palim-borcima-i-zrtvama-fasisti-5": {
+              "lat": 44.7518547,
+              "lng": 19.208806
+            }
+          }
+        },
+        "godinaPosle": "1984",
+        "izvoriPre": {
+          "bijeljina-spomenik-palim-borcima-i-zrtvama-fasisti": "https://www.xiwl.com/w/index.php/Bijeljina_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora_%28Knez_Ivo_od_Semberije%29",
+          "bijeljina-spomenik-palim-borcima-i-zrtvama-fasisti-4": "https://www.spomenicinob.info/bijeljina",
+          "bijeljina-spomenik-palim-borcima-i-zrtvama-fasisti-5": "https://www.spomenicinob.info/bijeljina"
+        },
+        "arhiviraneSlike": [],
+        "dokaz": "Jedan školski spomenik iz 1984. unet sa Wikija, iz kataloga bez tačke i približno na mapu. Wiki navodi baš ovu školu, 23.11.1984. i isti katalog kao izvor; zadržati precizan marker, preneti veze oba viška."
+      },
+      {
+        "zadrzaniId": "malesici-partizansko-groblje",
+        "uklonjeniId": [
+          "malesici-partizansko-groblje-2"
+        ],
+        "razlikePre": {
+          "godina": {
+            "malesici-partizansko-groblje": "1959",
+            "malesici-partizansko-groblje-2": "1969"
+          },
+          "autor": {
+            "malesici-partizansko-groblje": "Ostoja Radić & Abdulah Osmičević & Anton Šego",
+            "malesici-partizansko-groblje-2": "Ostoja Radić"
+          },
+          "koordinate": {
+            "malesici-partizansko-groblje": {
+              "lat": 44.73685,
+              "lng": 18.27609
+            },
+            "malesici-partizansko-groblje-2": {
+              "lat": 44.734556,
+              "lng": 18.278389
+            }
+          }
+        },
+        "godinaPosle": "1959",
+        "izvoriPre": {
+          "malesici-partizansko-groblje": "https://www.spomenicinob.info/gracanica",
+          "malesici-partizansko-groblje-2": "https://www.xiwl.com/w/index.php/Male%C5%A1i%C4%87i_-_Partizansko_Groblje"
+        },
+        "arhiviraneSlike": [],
+        "dokaz": "[Katalog Gračanice](https://www.spomenicinob.info/gracanica) i lokalna Wiki kopija opisuju isto groblje sa osam boraca i obnovom 2008. Wiki ima 1969. u zaglavlju, ali 26.6.1959. u sopstvenoj istoriji; navodi i ista tri autora."
+      },
+      {
+        "zadrzaniId": "magas-spomen-cesma",
+        "uklonjeniId": [
+          "magas-spomen-cesma-2"
+        ],
+        "razlikePre": {
+          "godina": {
+            "magas-spomen-cesma": "1966",
+            "magas-spomen-cesma-2": "1960"
+          },
+          "koordinate": {
+            "magas-spomen-cesma": {
+              "lat": 43.030722,
+              "lng": 21.591583
+            },
+            "magas-spomen-cesma-2": {
+              "lat": 43.03039,
+              "lng": 21.59053
+            }
+          }
+        },
+        "godinaPosle": "1960",
+        "izvoriPre": {
+          "magas-spomen-cesma": "https://www.xiwl.com/w/index.php/Maga%C5%A1_-_Spomen_%C4%8Cesma",
+          "magas-spomen-cesma-2": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=37"
+        },
+        "arhiviraneSlike": [],
+        "dokaz": "Wiki izričito navodi da knjiga za ovu istu česmu daje 1960, a natpis 1966; ista posveta za 16 boraca i 12 žrtava, knjiga PDF 37."
+      },
+      {
+        "zadrzaniId": "popsica-spomen-cesma",
+        "uklonjeniId": [
+          "popsica-spomen-cesma-2"
+        ],
+        "razlikePre": {
+          "godina": {
+            "popsica-spomen-cesma": "1970",
+            "popsica-spomen-cesma-2": "1977"
+          },
+          "koordinate": {
+            "popsica-spomen-cesma": {
+              "lat": 43.470861,
+              "lng": 21.951417
+            },
+            "popsica-spomen-cesma-2": {
+              "lat": 43.47049,
+              "lng": 21.95072
+            }
+          }
+        },
+        "godinaPosle": "1970",
+        "izvoriPre": {
+          "popsica-spomen-cesma": "https://www.xiwl.com/w/index.php/Pop%C5%A1ica_-_Spomen_%C4%8Cesma",
+          "popsica-spomen-cesma-2": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=76"
+        },
+        "arhiviraneSlike": [],
+        "dokaz": "Wiki izričito povezuje različite godine iz natpisa i knjige sa istom česmom; ista posveta jednom vojniku iz aprilskog rata, 14 boraca i 10 žrtava, knjiga PDF 76."
+      },
+      {
+        "zadrzaniId": "ljubatovica-spomen-cesma",
+        "uklonjeniId": [
+          "ljubatovica-spomen-cesma-2"
+        ],
+        "razlikePre": {
+          "godina": {
+            "ljubatovica-spomen-cesma": "1950",
+            "ljubatovica-spomen-cesma-2": "1957"
+          },
+          "koordinate": {
+            "ljubatovica-spomen-cesma": {
+              "lat": 43.253889,
+              "lng": 22.402528
+            },
+            "ljubatovica-spomen-cesma-2": {
+              "lat": 43.23929,
+              "lng": 22.40251
+            }
+          }
+        },
+        "godinaPosle": "1950",
+        "izvoriPre": {
+          "ljubatovica-spomen-cesma": "https://www.xiwl.com/w/index.php/Ljubatovica_%28Bela_Palanka%29_-_Spomen_%C4%8Cesma",
+          "ljubatovica-spomen-cesma-2": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=68"
+        },
+        "arhiviraneSlike": [],
+        "dokaz": "Wiki povezuje česmu iz terenskog članka sa istom knjiškom stavkom i devet boraca poginulih 1944. kod Goražda, PDF 68; napominje različite datume na česmi i ploči. Obe tačke su približne, ne preuzimati ih kao precizne."
+      },
+      {
+        "zadrzaniId": "ljubuski-spomen-kosturnica",
+        "uklonjeniId": [
+          "ljubuski-spomen-kosturnica-sa-posmrtnim-ostacima-7"
+        ],
+        "razlikePre": {
+          "godina": {
+            "ljubuski-spomen-kosturnica": "1958",
+            "ljubuski-spomen-kosturnica-sa-posmrtnim-ostacima-7": "1959"
+          },
+          "koordinate": {
+            "ljubuski-spomen-kosturnica": {
+              "lat": 43.196106,
+              "lng": 17.545138
+            },
+            "ljubuski-spomen-kosturnica-sa-posmrtnim-ostacima-7": null
+          },
+          "stanje": {
+            "ljubuski-spomen-kosturnica": "rusevine",
+            "ljubuski-spomen-kosturnica-sa-posmrtnim-ostacima-7": "uklonjen"
+          }
+        },
+        "godinaPosle": "1958",
+        "izvoriPre": {
+          "ljubuski-spomen-kosturnica": "https://www.xiwl.com/w/index.php/Ljubu%C5%A1ki_-_Spomen_Kosturnica",
+          "ljubuski-spomen-kosturnica-sa-posmrtnim-ostacima-7": "https://www.spomenicinob.info/ljubuski"
+        },
+        "arhiviraneSlike": [],
+        "dokaz": "Wiki direktno citira isti katalog: 78 palih boraca, tri narodna heroja, Marijan Kocković, gradski park i uklonjena statua."
+      },
+      {
+        "zadrzaniId": "prevlaka-spomen-kosturnica",
+        "uklonjeniId": [
+          "prevlaka-spomenik-sa-kosturnicom-zrtvama-fasistick"
+        ],
+        "razlikePre": {
+          "godina": {
+            "prevlaka-spomen-kosturnica": "1958",
+            "prevlaka-spomenik-sa-kosturnicom-zrtvama-fasistick": "1959"
+          },
+          "koordinate": {
+            "prevlaka-spomen-kosturnica": {
+              "lat": 42.396751,
+              "lng": 18.519306
+            },
+            "prevlaka-spomenik-sa-kosturnicom-zrtvama-fasistick": {
+              "lat": 45.66952,
+              "lng": 16.27224
+            }
+          },
+          "stanje": {
+            "prevlaka-spomen-kosturnica": "rusevine",
+            "prevlaka-spomenik-sa-kosturnicom-zrtvama-fasistick": null
+          }
+        },
+        "godinaPosle": "1958",
+        "izvoriPre": {
+          "prevlaka-spomen-kosturnica": "https://www.xiwl.com/w/index.php/Prevlaka_-_Spomen_Kosturnica",
+          "prevlaka-spomenik-sa-kosturnicom-zrtvama-fasistick": "https://www.hercegnovi.me/downloads/Kultura/REGISTAR%20SPOMEN%20OB%20O%20HN.pdf"
+        },
+        "arhiviraneSlike": [],
+        "dokaz": "Wiki citira baš [hercegnovski registar](https://www.hercegnovi.me/downloads/Kultura/REGISTAR%20SPOMEN%20OB%20O%20HN.pdf#page=60), Luku Tomanovića i iste žrtve 1942–1943; prenosi datum sa natpisa 4.7.1958. Registar daje 1959. **Drugi zapis je uz to pogrešno lociran kod istoimenog naselja u severnoj Hrvatskoj** (45.66952, 16.27224), umesto na poluostrvu (42.396751, 18.519306); ne zadržavati pogrešnu tačku pri spajanju."
+      },
+      {
+        "zadrzaniId": "ostra",
+        "uklonjeniId": [
+          "ostra-skulptura"
+        ],
+        "razlikePre": {
+          "godina": {
+            "ostra": "1969",
+            "ostra-skulptura": "1960"
+          },
+          "koordinate": {
+            "ostra": {
+              "lat": 43.9114755,
+              "lng": 20.5166155
+            },
+            "ostra-skulptura": {
+              "lat": 43.92015,
+              "lng": 20.51341
+            }
+          }
+        },
+        "godinaPosle": "1960",
+        "izvoriPre": {
+          "ostra": "http://www.spomenikdatabase.org/ostra",
+          "ostra-skulptura": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=61"
+        },
+        "arhiviraneSlike": [],
+        "dokaz": "Isti Spomenik hrabrima, Živković i Ličina, ista borba 5.3.1943, četrnaest poginulih i jedanaest preživelih. Originalni sken PDF 61 zaista štampa 1960; nije samo greška OCR-a. Savremeni [opis](https://www.spomenikdatabase.org/ostra) daje 1969. Ranije već zabeležen trag, sada potvrđen i na skenu."
+      },
+      {
+        "zadrzaniId": "celarevo",
+        "uklonjeniId": [
+          "celarevo-skulptura"
+        ],
+        "razlikePre": {
+          "godina": {
+            "celarevo": "1965",
+            "celarevo-skulptura": "1967"
+          },
+          "koordinate": {
+            "celarevo": {
+              "lat": 45.2717179,
+              "lng": 19.5216562
+            },
+            "celarevo-skulptura": {
+              "lat": 45.26967,
+              "lng": 19.52789
+            }
+          }
+        },
+        "godinaPosle": "1965",
+        "izvoriPre": {
+          "celarevo": null,
+          "celarevo-skulptura": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=125"
+        },
+        "arhiviraneSlike": [],
+        "dokaz": "Knjiška stavka PDF 125 izričito opisuje spomenik Zdravku Čelaru u parku, autora Zarina, sa imenima 210 boraca i 350 žrtava; to je naziv i autor postojećeg markera. Knjiga navodi A. i T. Zarina, dok oba naša zapisa imaju samo Aleksandra: proveriti i dopuniti autorstvo pri spajanju."
+      },
+      {
+        "zadrzaniId": "gacko-partizansko-groblje",
+        "uklonjeniId": [
+          "gacko-partizansko-groblje-2"
+        ],
+        "razlikePre": {
+          "godina": {
+            "gacko-partizansko-groblje": "1962",
+            "gacko-partizansko-groblje-2": "pre 1961"
+          },
+          "koordinate": {
+            "gacko-partizansko-groblje": {
+              "lat": 43.159752,
+              "lng": 18.536812
+            },
+            "gacko-partizansko-groblje-2": null
+          }
+        },
+        "godinaPosle": "pre 1961",
+        "izvoriPre": {
+          "gacko-partizansko-groblje": "https://www.xiwl.com/w/index.php/Gacko_-_Partizansko_Groblje",
+          "gacko-partizansko-groblje-2": "https://www.spomenicinob.info/gacko"
+        },
+        "arhiviraneSlike": [],
+        "dokaz": "Wiki izričito citira kataloško groblje, ploču I i II proleterskoj brigadi i istu kandidaturu za nacionalni spomenik iz 2003; navodi 1.9.1962, a katalog stariju granicu. Precizni marker već postoji, drugi zapis je bez lokacije."
+      },
+      {
+        "zadrzaniId": "rudo-spomen-ploca-sjedistu-kragujevackog-bataljona",
+        "uklonjeniId": [
+          "rudo-spomen-ploca-sjedistu-kragujevackog-bataljona-2"
+        ],
+        "razlikePre": {
+          "godina": {
+            "rudo-spomen-ploca-sjedistu-kragujevackog-bataljona": "1971",
+            "rudo-spomen-ploca-sjedistu-kragujevackog-bataljona-2": "1961"
+          }
+        },
+        "godinaPosle": "1961",
+        "izvoriPre": {
+          "rudo-spomen-ploca-sjedistu-kragujevackog-bataljona": "https://www.spomenicinob.info/rudo",
+          "rudo-spomen-ploca-sjedistu-kragujevackog-bataljona-2": "https://www.spomenicinob.info/rudo"
+        },
+        "arhiviraneSlike": [],
+        "dokaz": "[Izvor](https://www.spomenicinob.info/rudo) dva puta navodi isti štab Kragujevačkog bataljona, istu zgradu RTV Rudo, isti obilazak decembra 2023. i isto stanje. Razlikuje se samo godina."
+      },
+      {
+        "zadrzaniId": "dikalji-spomenik-olgi-dedijer",
+        "uklonjeniId": [
+          "dikalji-spomenik-olgi-dedijer-2"
+        ],
+        "razlikePre": {
+          "godina": {
+            "dikalji-spomenik-olgi-dedijer": "1945",
+            "dikalji-spomenik-olgi-dedijer-2": "1958"
+          },
+          "koordinate": {
+            "dikalji-spomenik-olgi-dedijer": {
+              "lat": 43.916398,
+              "lng": 18.720304
+            },
+            "dikalji-spomenik-olgi-dedijer-2": {
+              "lat": 43.91692,
+              "lng": 18.72411
+            }
+          }
+        },
+        "godinaPosle": "1945",
+        "izvoriPre": {
+          "dikalji-spomenik-olgi-dedijer": "https://www.xiwl.com/w/index.php/Dikalji_-_Spomenik_Olgi_Dedijer",
+          "dikalji-spomenik-olgi-dedijer-2": "https://www.spomenicinob.info/sokolac"
+        },
+        "arhiviraneSlike": []
+      },
+      {
+        "zadrzaniId": "sarajevo-kovacici-spomen-ploca-na-mjestu-sastanaka",
+        "uklonjeniId": [
+          "sarajevo-kovacici-spomen-ploca-na-mjestu-sastanaka-2"
+        ],
+        "razlikePre": {
+          "godina": {
+            "sarajevo-kovacici-spomen-ploca-na-mjestu-sastanaka": "1975",
+            "sarajevo-kovacici-spomen-ploca-na-mjestu-sastanaka-2": "1951"
+          }
+        },
+        "godinaPosle": "1951",
+        "izvoriPre": {
+          "sarajevo-kovacici-spomen-ploca-na-mjestu-sastanaka": "https://www.spomenicinob.info/novosarajevo",
+          "sarajevo-kovacici-spomen-ploca-na-mjestu-sastanaka-2": "https://www.spomenicinob.info/novosarajevo"
+        },
+        "arhiviraneSlike": []
+      },
+      {
+        "zadrzaniId": "hadzici-spomen-ploca-na-mjestu-rodjenja-slobodana",
+        "uklonjeniId": [
+          "hadzici-spomen-ploca-na-mjestu-rodjenja-slobodana-2"
+        ],
+        "razlikePre": {
+          "godina": {
+            "hadzici-spomen-ploca-na-mjestu-rodjenja-slobodana": "1952",
+            "hadzici-spomen-ploca-na-mjestu-rodjenja-slobodana-2": "1949"
+          }
+        },
+        "godinaPosle": "1949",
+        "izvoriPre": {
+          "hadzici-spomen-ploca-na-mjestu-rodjenja-slobodana": "https://www.spomenicinob.info/hadzici",
+          "hadzici-spomen-ploca-na-mjestu-rodjenja-slobodana-2": "https://www.spomenicinob.info/hadzici"
+        },
+        "arhiviraneSlike": []
+      },
+      {
+        "zadrzaniId": "tihaljina-spomen-ploca-formiranju-narodnooslobodil",
+        "uklonjeniId": [
+          "tihaljina-spomen-ploca-formiranju-narodnooslobodil-2"
+        ],
+        "razlikePre": {
+          "godina": {
+            "tihaljina-spomen-ploca-formiranju-narodnooslobodil": "1951",
+            "tihaljina-spomen-ploca-formiranju-narodnooslobodil-2": "1963"
+          },
+          "stanje": {
+            "tihaljina-spomen-ploca-formiranju-narodnooslobodil": null,
+            "tihaljina-spomen-ploca-formiranju-narodnooslobodil-2": "uklonjen"
+          }
+        },
+        "godinaPosle": "1951",
+        "izvoriPre": {
+          "tihaljina-spomen-ploca-formiranju-narodnooslobodil": "https://www.spomenicinob.info/grude",
+          "tihaljina-spomen-ploca-formiranju-narodnooslobodil-2": "https://www.spomenicinob.info/grude"
+        },
+        "arhiviraneSlike": []
+      },
+      {
+        "zadrzaniId": "gornje-vrbno-spomen-ploca-ubistvu-aktivista-kpj-iz",
+        "uklonjeniId": [
+          "gornje-vrbno-spomen-ploca-ubistvu-aktivista-kpj-iz-2"
+        ],
+        "razlikePre": {
+          "godina": {
+            "gornje-vrbno-spomen-ploca-ubistvu-aktivista-kpj-iz": "1953",
+            "gornje-vrbno-spomen-ploca-ubistvu-aktivista-kpj-iz-2": "1963"
+          }
+        },
+        "godinaPosle": "1953",
+        "izvoriPre": {
+          "gornje-vrbno-spomen-ploca-ubistvu-aktivista-kpj-iz": "https://www.spomenicinob.info/trebinje",
+          "gornje-vrbno-spomen-ploca-ubistvu-aktivista-kpj-iz-2": "https://www.spomenicinob.info/trebinje"
+        },
+        "arhiviraneSlike": []
+      },
+      {
+        "zadrzaniId": "sarajevo-trg-oslobodjenja-spomen-ploca-ucenicima-i-2",
+        "uklonjeniId": [
+          "sarajevo-trg-oslobodjenja-spomen-ploca-ucenicima-i-3"
+        ],
+        "razlikePre": {
+          "godina": {
+            "sarajevo-trg-oslobodjenja-spomen-ploca-ucenicima-i-2": "1981",
+            "sarajevo-trg-oslobodjenja-spomen-ploca-ucenicima-i-3": "1955"
+          }
+        },
+        "godinaPosle": "1955",
+        "izvoriPre": {
+          "sarajevo-trg-oslobodjenja-spomen-ploca-ucenicima-i-2": "https://www.spomenicinob.info/centarsarajevo",
+          "sarajevo-trg-oslobodjenja-spomen-ploca-ucenicima-i-3": "https://www.spomenicinob.info/centarsarajevo"
+        },
+        "arhiviraneSlike": []
+      },
+      {
+        "zadrzaniId": "sarajevo-trg-oslobodjenja-spomen-ploca-radnickom-s",
+        "uklonjeniId": [
+          "sarajevo-trg-oslobodjenja-spomen-ploca-radnickom-s-2"
+        ],
+        "razlikePre": {
+          "godina": {
+            "sarajevo-trg-oslobodjenja-spomen-ploca-radnickom-s": "1983",
+            "sarajevo-trg-oslobodjenja-spomen-ploca-radnickom-s-2": "1955"
+          }
+        },
+        "godinaPosle": "1955",
+        "izvoriPre": {
+          "sarajevo-trg-oslobodjenja-spomen-ploca-radnickom-s": "https://www.spomenicinob.info/centarsarajevo",
+          "sarajevo-trg-oslobodjenja-spomen-ploca-radnickom-s-2": "https://www.spomenicinob.info/centarsarajevo"
+        },
+        "arhiviraneSlike": []
+      }
+    ],
+    "preusmereneVeze": [
+      [
+        "data\\knjige\\jokic-1986.json",
+        1
+      ],
+      [
+        "data\\provere\\groblja-zbirni-pregled-2026-10-18.json",
+        2
+      ]
+    ],
+    "posebno": "Prevlaka: uklonjena pogresna tacka u severnoj Hrvatskoj; Malesici: preuzeta precizna tacka, sacuvana sva tri autora. Ljubuski: sacuvane rusevine celine umesto prenosenja uklanjanja same statue. Dikalji: 1945. i 1958. sacuvane kao dve faze. Celarevo: dodatni inicijal T. Zarina iz knjige ostaje bez promene dok puno ime nije potvrdjeno.",
+    "dokaziZamena": "Spomenicinob.info: novosarajevo, hadzici, grude, trebinje i centarsarajevo izricito povezuju originalne i zamenske ploce; sacuvani lokalni redovi u izvori/spomenicinob/redovi.json. Dikalji: Wiki povezuje prvobitno obelezje i skulpturu Milice Ribnikar."
   }
 ]
