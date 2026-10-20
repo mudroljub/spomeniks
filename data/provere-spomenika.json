@@ -88,6 +88,22 @@
       "napomena": "Mogući redovi grobova na satelitskom snimku nisu potvrđena tačka; označeno kao približno."
     }
   },
+  "bukvik-spomenik-na-mjestu-smrti-janka-vasica": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/brcko; Partisan Memorials Wiki, Bukvik",
+      "ishod": "Tačan položaj nije potvrđen; uklonjena tačka istoimenog sela izvan opštine Brčko.",
+      "napomena": "Sačuvan opis položaja; proizvoljna tačka puta ili crkve iz Wiki kopije nije preuzeta kao tačka objekta."
+    }
+  },
+  "bukvik-spomenik-na-mjestu-strijeljanja-partizanski": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/brcko; Partisan Memorials Wiki, Bukvik",
+      "ishod": "Tačan položaj nije potvrđen; uklonjena tačka istoimenog sela izvan opštine Brčko.",
+      "napomena": "Sačuvan opis položaja; proizvoljna tačka puta ili crkve iz Wiki kopije nije preuzeta kao tačka objekta."
+    }
+  },
   "celovci-spomenik-vinku-ozboltu": {
     "proveraOpstanka": {
       "datum": "2026-10-16",
@@ -95,6 +111,14 @@
       "ishod": "nepotvrđen",
       "razlog": "Nedatirana reprodukcija fotografije i natpisa iz štampe. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
       "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
+    }
+  },
+  "crni-lug-spomen-zid-zrtvama-fasistickog-terora": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/bosanskograhovo",
+      "ishod": "provereno",
+      "napomena": "Wiki deo-0040: potvrđen zid sa imenima ispred škole i reljefom, vidljiv u Street View; postojeća tačka označava objekat, ne centroid sela."
     }
   },
   "dragocaj-spomenik-palim-borcima-i-zrtvama": {
@@ -245,6 +269,14 @@
       "napomena": "Wiki deo-0102 izričito navodi nepoznat položaj i dva moguća Klenovca, jedan istočno od Bravska i drugi kod Bukovače. Centar sela nije potvrđena lokacija ovog obeležja."
     }
   },
+  "koprivnica-spomen-obiljezje-zrtvama-fasistickog-te": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "Partisan Memorials Wiki, Koprivnica (Bugojno) - Spomenik Žrtvama Fašističkog Terora",
+      "ishod": "Povučen nepotvrđen precizan položaj u šumi; izvor protivrečno pominje drugo mesto u šumi.",
+      "napomena": "Sačuvan objedinjeni opis Kožvarica, prvobitna godina 1961, zamena 1979 i obnova 2010; stara tačka ostaje u istorijskoj odluci."
+    }
+  },
   "kragujevac-srne": {
     "proveraLokacije": {
       "datum": "2026-10-16",
@@ -283,6 +315,14 @@
       "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=21",
       "ishod": "ispravljeno-mesto-bez-potvrdjene-tacke",
       "napomena": "U parku osnovne škole u Markovcu, opština Mladenovac; podignut 1963. Xiwl navodi dva obeležja kod škole, jedno preko puta, drugo u školskom dvorištu; nejasno na koje se knjiški unos odnosi."
+    }
+  },
+  "malo-ticevo-spomenik-olgi-prpi": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/bosanskograhovo",
+      "ishod": "provereno",
+      "napomena": "Wiki deo-0227 izričito navodi nepoznatu lokaciju na Šatoru i mogući sasvim drugi položaj; centroid Malog Tičeva nije lokacija pogibije. Zapis sačuvan bez lokacije."
     }
   },
   "mladenovac-spomenik-palim-u-oslobodilackim-ratovim": {
@@ -432,6 +472,14 @@
       "izvor": "https://www.spomenikdatabase.org/sutjeska-monuments",
       "ishod": "potvrdjen-identitet-i-postojeca-tacka",
       "napomena": "Kataloški zapis spojen sa postojećim markerom prema konkretnoj posveti, skulpturi i mikrolokaciji. Zadržana postojeća precizna tačka objekta; koordinate parkinga nisu korišćene."
+    }
+  },
+  "unista-spomen-dom-druge-dalmatinske-proleterske-br": {
+    "proveraLokacije": {
+      "datum": "2026-10-20",
+      "izvor": "https://www.spomenicinob.info/bosanskograhovo",
+      "ishod": "provereno",
+      "napomena": "Wiki deo-0234 daje tačku stele pored doma, ne potvrđenu tačku ulaza ili samog doma; oznaka približne lokacije vraćena. Katalog izričito navodi closed and boarded up."
     }
   },
   "urslja-gora-spomenik-borbama-za-konacno-oslobodjen": {

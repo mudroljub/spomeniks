@@ -72,11 +72,11 @@ def zakljucani_podaci(cekaj=30):
     finally:
         _brava_niti.release()
 
-REDOSLED = ['id', 'koordinate', 'priblizno', 'googleCid', 'mesto', 'izvor', 'wiki', 'wikiEn', 'slika', 'slikaOdnos', 'slikaPotpis',
+REDOSLED = ['id', 'koordinate', 'priblizno', 'googleCid', 'mesto', 'adresa', 'izvor', 'wiki', 'wikiEn', 'slika', 'slikaOdnos', 'slikaPotpis',
             'naziv', 'nazivEn', 'opis', 'godina', 'autor', 'natpis', 'posveta', 'stanje',
             'vrsta', 'istaknut', 'drzava']
 # polja za prozor spomenika, pretragu i filtere, koja ne trebaju za crtanje mape; u fajlovima mape ih nema, nego su u DETALJI
-POLJA_DETALJA = ('googleCid', 'wiki', 'wikiEn', 'slikaPotpis', 'opis', 'godina', 'autor', 'natpis', 'posveta')
+POLJA_DETALJA = ('googleCid', 'adresa', 'wiki', 'wikiEn', 'slikaPotpis', 'opis', 'godina', 'autor', 'natpis', 'posveta')
 ISTAKNUTI, OSTALI, BEZ_LOKACIJE, IZVORI = 'data/spomenici-istaknuti.json', 'data/spomenici-ostali.json', 'data/bez_lokacije.json', 'data/izvori.json'
 ARHIVA = 'data/arhiva.json'
 IZVORI_STANJA = 'data/izvori-stanja.json'

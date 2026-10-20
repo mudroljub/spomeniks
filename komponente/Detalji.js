@@ -130,6 +130,11 @@ style.textContent = `
     margin-top: 2px;
   }
 
+  .podaci a {
+    color: inherit;
+    text-decoration: none;
+  }
+
   .opis {
     align-items: flex-end;
     cursor: pointer;
@@ -518,7 +523,7 @@ export default class Detalji extends HTMLElement {
   }
 
   redoviPodataka(spomen) {
-    return [this.praviAutore(spomen), this.praviPosvetu(spomen), this.praviOpis(spomen)].filter(Boolean)
+    return [escapeHtml(spomen.adresa || ''), this.praviAutore(spomen), this.praviPosvetu(spomen), this.praviOpis(spomen)].filter(Boolean)
   }
 
   osveziPodatke() {

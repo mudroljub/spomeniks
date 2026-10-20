@@ -18,7 +18,7 @@ with zakljucani_podaci():
         if not u:
             ostaju.append(s)
             continue
-        # adresa i kandidati ne idu na mapu; izdvojene provere ostaju u data/provere-spomenika.json pod istim ID-jem
+        # kandidati ne idu na mapu, a adresa prelazi uz zapis; izdvojene provere ostaju u data/provere-spomenika.json pod istim ID-jem
         z = {k: v for k, v in s.items() if k in REDOSLED}
         z['koordinate'] = {'lat': round(u['lat'], 7), 'lng': round(u['lng'], 7)}
         if u.get('priblizno'):

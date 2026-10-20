@@ -25,7 +25,6 @@ POTPUNOST PODATKA:
     - najsumnjiviji su podaci za bosnu. posebno stotine i hiljade njih bez poznatog statusa, vrste i lokacije. putnike i korisnike aplikacije to može ozbiljno da zavede. smisli kao to rešiti. možda da uvedemo kriterije za pouzdanost podataka?
 
 UI
-- previše natrpano - text, linkovi, info... "D:\Pictures\Screenshots\Snimka zaslona 2026-10-20 170533.png"
 - možda ukinuti približno lociranje, pravi više štete nego koristi. ili ga ostaviti samo zajedno sa drugim dokazima (fotografija, adresa i slično)?
 
 REFAKTOR
