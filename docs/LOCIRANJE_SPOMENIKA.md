@@ -4,6 +4,23 @@ Otvoreni slučajevi, razrešeni identiteti koje ne treba ponovo unositi i veze k
 
 Raniji ciljani prolaz je završen, žetva CG zatvorena, a šira hrvatska provera obustavljena po odluci korisnika. Ove beleške same ne otvaraju novi zadatak; prioriteti izvora su u [IZVORI.md](IZVORI.md#prioriteti).
 
+## Strategija lociranja (korisnik, 20.10.2026)
+
+Postoje tri nivoa: bez lokacije, približno i tačno. Svaki prelaz na viši nivo je dobitak.
+
+- **Redosled po vrsti** prati `vaznostVrste` iz [utils/vaznost.js](../utils/vaznost.js): spomen-park, muzej, spomenik, spomen-groblje, statua, bista, spomen-obeležje, groblje. Ploče idu poslednje.
+- **Prvo bez zahteva.** Poredi se sa sačuvanim izvorima: Wiki stranica istog mesta, OSM objekat do 6 km od istoimenog naselja, zajedničke reči naziva. Prihvata se samo:
+  - tačka koja nije Wiki procena („exact location unknown“, „roughly“);
+  - tačka koja odgovara adresi iz izvora;
+  - tačka koja nije već naš zapis.
+
+  Bista na trgu sa grupom bisti pridružuje se grupnom markeru, kao kod Jove Bijelića.
+- **Zatim zbirni zahtevi**, uz pitanje korisniku sa servisom i brojem zahteva: novo OSM preuzimanje po državi (škole, domovi, crkve i neimenovana obeležja, za adrese tipa „ispred škole“) i Nominatim za gradske adrese.
+- **Pojedinačno istraživanje** samo za vrh liste (parkovi, muzeji, spomenici, statue).
+- **Google pretraga „bista <mesto>“ nije dobra za lociranje.** U probi je tačku dala za 1 od 90 bisti, ali je usput našla 4 spomenika kojih nemamo ([proba](../data/provere/google-biste-srbija-2026-10-20.json)).
+
+Prvi prolaz bez zahteva: [približni zapisi](../data/provere/lociranje-priblizno-offline-2026-10-20.json) (11 preciziranih) i [zapisi bez lokacije](../data/provere/lociranje-bez-offline-2026-10-20.json) (10 na mapi, 3 pridružena grupama bisti).
+
 ## Saopštenja X 1974: primena 19.10.2026
 
 Potvrđeni podaci su upisani; samostalna analiza uklonjena po nalogu korisnika. [Dokazi upisa, spajanja i odbijenih uparivanja](../data/provere/saopstenja-x-1974-primena-2026-10-19.json).
@@ -108,6 +125,7 @@ Dokazi: [Pula](../data/provere/lociranje-muzej-pula-2026-10-18.json), [Slovenj G
 | Obrađen skup | Izveštaji koje proveriti pre ponovnog rada |
 |---|---|
 | Približno lociranje u sela | [Prebačeni zapisi i izuzeci](../data/provere/priblizno-sela-2026-10-18.json); proveriti i kasnije razrešene identitete. |
+| Približni zapisi naspram sačuvanih Wiki i OSM tačaka | [Offline prolaz 20.10.](../data/provere/lociranje-priblizno-offline-2026-10-20.json): 11 preciziranih, 5 neodlučenih; ponoviti tek posle novog preuzimanja OSM-a ili Wiki-ja. |
 | Raniji ciljani prolazi | [Završni](../data/provere/lociranje-zavrsni-prolaz-2026-10-16.json), [prioritetni](../data/provere/lociranje-prioritet-2026-10-16.json), [muzeji](../data/provere/lociranje-muzeji-2026-10-16.json), [Husino](../data/provere/lociranje-husino-2026-10-16.json), [kompleksi](../data/provere/lociranje-kompleksi-2026-10-16.json). |
 | Grobni zapisi | [Prvi](../data/provere/lociranje-groblja-2026-10-18.json), [drugi](../data/provere/lociranje-groblja-drugi-2026-10-18.json), [zbirni pregled](../data/provere/groblja-zbirni-pregled-2026-10-18.json), [preciziranje](../data/provere/groblja-preciziranje-2026-10-18.json), [gradovi i offline nastavci](../data/provere/groblja-gradovi-2026-10-18.json). |
 | Preskočeni Wiki parovi | [Prvi uzorak](../data/provere/wiki-propusti-2026-10-18.json), [nastavak](../data/provere/wiki-propusti-nastavak-2026-10-19.json), [treći](../data/provere/wiki-propusti-paket3-2026-10-19.json), [četvrti](../data/provere/wiki-propusti-paket4-2026-10-19.json), [peti](../data/provere/wiki-propusti-paket5-2026-10-19.json). |
