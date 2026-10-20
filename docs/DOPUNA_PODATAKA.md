@@ -8,6 +8,8 @@ Po korisnikovom nalogu polje `mesto` usklađeno je sa makedonskom ćirilicom u *
 
 ## Autori
 
+- **Dopuna 20.10.2026:** Opovo: inicijali razrešeni u Radeta Stanković i Branko Bon, dodata 1964; Cirkulane: dodati Otmar Gaiser i Avgust Gaiser, kao i 1963. [Dokazi i prethodne vrednosti](../data/provere/autori-dopuna-2026-10-20.json). Prezime Gaiser u Markovcima ostaje nerazrešeno; podatak o Avgustu Gaiseru za ptujsku grobnicu sa obeliskom nije prenet na zapis čija fotografija prikazuje drugi oblik spomenika.
+
 - **Puna imena, prioritet od 19.10.2026:** dopunjena imena 67 autora u 214 zapisa i 34 stavke povezanih autora, prema akademskom imeniku, ULUS-u i stručnim katalozima. [Promene, izvori i 227 preostalih zapisa](../data/provere/autori-puna-imena-2026-10-19.json). Preostali spisak uključuje delimično dopunjene koautore i moguće radionice; nije spisak 227 različitih ljudi. Ne širiti automatski `D. Nikolić`, `N. Janković`, `S. Stojanović`, `M. Tomić`, `M. Vuković` i `A. Vasiljević`. Kod Nikolića dopunjeni samo datirani radovi pre 1966; konkretni dokazi razrešavaju Sretena Stojanovića na Iriškom vencu i Radetu Stankovića kod obalskih radnika. Izvorni oblici i atribucije ostaju zabeleženi; nije rađena opšta revizija autorstva.
 
 - **Saopštenja X 1974, primena 19.10.2026:** Aleji streljanih rodoljuba dodati Bogdan Bogdanović i Svetislav Ličina, Glavnjača zatim objedinjena sa postojećim markerom i ispravljen pogrešni Drago Tršar u Milorada Tepavca (1974), Železniku objavljeni Miša Popović i 1952; u Gornjem Milanovcu potvrđeni Ratomir Stojadinović i 1959, u Valjevu razdvojeni Logov Dudić na trgu (1971) i Vidin u parku. Borba i Vidin Dudić u nastavku preneti na tačne tačke. Kristalnom cvetu i kuriru u Stolicama dopunjene konkretne posvete. [Izvršene izmene i ranije vrednosti](../data/provere/saopstenja-x-1974-primena-2026-10-19.json); otvorene identifikacije su u [lokacijskim beleškama](LOCIRANJE_SPOMENIKA.md#saopštenja-x-1974-primena-19102026).
@@ -17,7 +19,7 @@ Po korisnikovom nalogu polje `mesto` usklađeno je sa makedonskom ćirilicom u *
 - **Makedonija, drugi paket 19.10.2026:** šest dopunjenih autora u Farišu, Kočanima, Krivoj Palanci, Dabnici, Skoplju i Strugi. U Dabnici su sačuvani Dimo Todorovski (original) i Sašo Poposki (replika iz 2019); ne prepisivati automatski 1972. kao godinu današnje skulpture. Kočani: Radovan Rađenović uz Gligora Čemerskog, knjiški oblik Ratko sačuvan u dokazima; 1977. završetak i 1981. otkrivanje nisu izjednačeni. [Dokazi i ranije vrednosti](../data/provere/makedonija-paket2-2026-10-19.json).
 
 - **Bez članka na Vikipediji** (ne tražiti ponovo bez novog izvora): Ante Kuduz, Belizar Bahorić, Lenko Pleština, Marijan Burger, Mirko Ostoja, Vuko Bombardelli i još desetak autora.
-- **Sporni parovi autor–delo:** Erzelj (Svetinino delo je 2 km od našeg), Repče/Trebnje, Domžale 1975, Kovor, Rečica ob Savinji, Topola, Jesenice 1960, Našice, Grobnica herojev u Ljubljani (Mihevc ili Ravnikar), Kragujevac („Otpora i slobode“, „Crvena zastava“), Opovo, Đurđevo, Božurnja, Podgradci i Križe.
+- **Sporni parovi autor–delo:** Erzelj (Svetinino delo je 2 km od našeg), Repče/Trebnje, Domžale 1975, Kovor, Rečica ob Savinji, Topola, Jesenice 1960, Našice, Grobnica herojev u Ljubljani (Mihevc ili Ravnikar), Kragujevac („Otpora i slobode“, „Crvena zastava“), Đurđevo, Božurnja, Podgradci i Križe.
 - Wikidata dela poznatih autora (oko 150) već su pregledana; nisu dala nova NOB dela.
 
 ## Godine
