@@ -1658,7 +1658,7 @@
 {"id":"otric-2","koordinate":{"lat":44.297789,"lng":16.088894},"mesto":"Otrić","slikaOdnos":1.333,"naziv":"Spomenik NOB","vrsta":"spomen-obelezje","drzava":"Croatia"},
 {"id":"kom","koordinate":{"lat":44.174017,"lng":16.051836},"mesto":"Kom","slikaOdnos":0.75,"naziv":"Spomenik NOB","vrsta":"spomen-obelezje","drzava":"Croatia"},
 {"id":"ocestovo","koordinate":{"lat":44.0484813,"lng":16.1413585},"mesto":"Oćestovo","slikaOdnos":1.333,"naziv":"Spomenik NOB","vrsta":"spomen-obelezje","drzava":"Croatia"},
-{"id":"cacak-2","koordinate":{"lat":43.9192267,"lng":20.4086851},"mesto":"Čačak","slikaOdnos":1.778,"naziv":"Spomenik NOB","vrsta":"spomen-obelezje","drzava":"Serbia"},
+{"id":"cacak-2","koordinate":{"lat":43.9192267,"lng":20.4086851},"mesto":"Čačak","slikaOdnos":1.778,"naziv":"Spomen-grobnica palih boraca i žrtava fašizma","vrsta":"spomen-obelezje","drzava":"Serbia"},
 {"id":"pale","koordinate":{"lat":43.7805301,"lng":18.5531683},"mesto":"Pale","slikaOdnos":1.333,"naziv":"Spomenik palim borcima NOB","vrsta":"spomen-obelezje","drzava":"Bosnia and Herzegovina"},
 {"id":"gradina","koordinate":{"lat":43.7712865,"lng":15.9657556},"mesto":"Gradina","slikaOdnos":0.468,"naziv":"Spomenik palim borcima NOB","vrsta":"spomen-obelezje","drzava":"Croatia"},
 {"id":"konarevo","koordinate":{"lat":43.6959216,"lng":20.5952702},"mesto":"Konarevo","slikaOdnos":0.75,"naziv":"Spomenik borcima NOB","vrsta":"spomen-obelezje","drzava":"Serbia"},
@@ -9030,5 +9030,10 @@
 {"id":"prilep-bista-na-kire-gavriloski-jane","koordinate":{"lat":41.3343038,"lng":21.5545342},"priblizno":true,"mesto":"Прилеп","slikaOdnos":0.749,"naziv":"Биста на Кире Гаврилоски Јане","vrsta":"bista","drzava":"Macedonia"},
 {"id":"prilep-bista-na-borka-taleski","koordinate":{"lat":41.3343038,"lng":21.5545342},"priblizno":true,"mesto":"Прилеп","slikaOdnos":0.749,"naziv":"Биста на Борка Талески","vrsta":"bista","drzava":"Macedonia"},
 {"id":"prilep-bista-na-borka-veleski-levata","koordinate":{"lat":41.3343038,"lng":21.5545342},"priblizno":true,"mesto":"Прилеп","slikaOdnos":0.749,"naziv":"Биста на Борка Велески Левата","vrsta":"bista","drzava":"Macedonia"},
-{"id":"prilep-bista-na-krume-volnaroski","koordinate":{"lat":41.3343038,"lng":21.5545342},"priblizno":true,"mesto":"Прилеп","slikaOdnos":0.749,"naziv":"Биста на Круме Волнароски","vrsta":"bista","drzava":"Macedonia"}
+{"id":"prilep-bista-na-krume-volnaroski","koordinate":{"lat":41.3343038,"lng":21.5545342},"priblizno":true,"mesto":"Прилеп","slikaOdnos":0.749,"naziv":"Биста на Круме Волнароски","vrsta":"bista","drzava":"Macedonia"},
+{"id":"beograd-dedinje-kurir","koordinate":{"lat":44.788067,"lng":20.4520999},"priblizno":true,"mesto":"Beograd (Dedinje)","slikaOdnos":0.75,"naziv":"Kurir","vrsta":"statua","drzava":"Serbia"},
+{"id":"beograd-dedinje-nosenje-ranjenika","koordinate":{"lat":44.788067,"lng":20.4520999},"priblizno":true,"mesto":"Beograd (Dedinje)","slikaOdnos":0.75,"naziv":"Nošenje ranjenika","vrsta":"statua","drzava":"Serbia"},
+{"id":"beograd-dedinje-ranjeni-kurir","koordinate":{"lat":44.788067,"lng":20.4520999},"priblizno":true,"mesto":"Beograd (Dedinje)","slikaOdnos":0.75,"naziv":"Ranjeni kurir","vrsta":"statua","drzava":"Serbia"},
+{"id":"smederevska-palanka-bista-radmile-siskovic","koordinate":{"lat":44.3722899,"lng":20.9580588},"priblizno":true,"mesto":"Smederevska Palanka","slikaOdnos":0.75,"naziv":"Bista Radmile Šišković","vrsta":"bista","drzava":"Serbia"},
+{"id":"novi-beograd-reljef-viktora-bubnja","koordinate":{"lat":44.8210539,"lng":20.4057768},"priblizno":true,"mesto":"Beograd (Novi Beograd)","slikaOdnos":0.75,"naziv":"Reljef Viktora Bubnja","vrsta":"reljef","drzava":"Serbia"}
 ]
