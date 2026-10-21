@@ -26264,7 +26264,10 @@
     "mesto": "Krvavec",
     "naziv": "Spomenik palim borcima",
     "vrsta": "spomen-obelezje",
-    "drzava": "Slovenia"
+    "drzava": "Slovenia",
+    "slika": "slike/bez-lokacije/krvavec-spomenik-palim-borcima.webp",
+    "slikaPotpis": "Ronnie Macdonald, CC BY 2.0",
+    "slikaOdnos": 1.333
   },
   {
     "id": "danilovgrad-spomen-kosturnica-palim-borcima",
@@ -41407,5 +41410,91 @@
     "slika": "slike/bez-lokacije/zelezna-reka-spomenik-na-padnatite-borci.webp",
     "slikaPotpis": "Raso mk, CC BY-SA 3.0",
     "slikaOdnos": 1.493
+  },
+  {
+    "id": "pohorje-pauckove-partizanske-bolnisnice",
+    "mesto": "Pohorje",
+    "naziv": "Paučkove partizanske bolnišnice",
+    "opis": {
+      "sh": "Posvećeno radu partizanskih bolnica i njihovog osoblja u ilegalnim uslovima tokom Drugog svetskog rata, na zapadnom Pohorju; spomenik kulture od državnog značaja od 1999.",
+      "en": "Dedicated to the work of the Partisan hospitals and their staff in clandestine conditions during the Second World War, on western Pohorje; a cultural monument of national importance since 1999."
+    },
+    "godina": "1989",
+    "vrsta": "spomen-park",
+    "drzava": "Slovenia",
+    "slika": "slike/bez-lokacije/pohorje-pauckove-partizanske-bolnisnice.webp",
+    "slikaPotpis": "Xyxyx, CC BY-SA 3.0",
+    "slikaOdnos": 1.504
+  },
+  {
+    "id": "ljubljana-spomenik-edvardu-kardelju",
+    "mesto": "Ljubljana",
+    "naziv": "Spomenik Edvardu Kardelju",
+    "godina": "1981",
+    "autor": "Drago Tršar",
+    "posveta": [
+      "Q268003"
+    ],
+    "vrsta": "spomenik",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ljubljana-spomenik-padlim-pionirjem",
+    "mesto": "Ljubljana",
+    "naziv": "Spomenik padlim pionirjem",
+    "godina": "1962",
+    "autor": "Zdenko Kalin",
+    "posveta": "Pionirjem, padlim v NOB.",
+    "vrsta": "spomenik",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zuzemberk-spomenik-ladu-ambrozicu",
+    "mesto": "Žužemberk",
+    "naziv": "Spomenik Ladu Ambrožiču",
+    "godina": "2005",
+    "posveta": [
+      "Q10950604"
+    ],
+    "vrsta": "spomenik",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zakojca-spomenik-francetu-bevku",
+    "mesto": "Zakojca",
+    "naziv": "Spomenik Francetu Bevku",
+    "posveta": [
+      "Q710497"
+    ],
+    "vrsta": "spomenik",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "cerkno-spomenik-franji-bojc-bidovec",
+    "mesto": "Cerkno",
+    "naziv": "Spomenik Franji Bojc Bidovec",
+    "posveta": "Franji Bojc Bidovec, upraviteljici partizanske bolnišnice Franja.",
+    "vrsta": "spomenik",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kamnik-spomenik-jakobu-moleku-mohorju",
+    "mesto": "Kamnik",
+    "naziv": "Spomenik Jakobu Moleku - Mohorju",
+    "posveta": [
+      "Q12747556"
+    ],
+    "vrsta": "spomenik",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "novo-mesto-spomenik-francu-rozmanu-stanetu",
+    "mesto": "Novo mesto",
+    "naziv": "Spomenik Francu Rozmanu - Stanetu",
+    "posveta": [
+      "Q854181"
+    ],
+    "vrsta": "spomenik",
+    "drzava": "Slovenia"
   }
 ]
