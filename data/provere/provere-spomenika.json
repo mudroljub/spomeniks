@@ -232,6 +232,14 @@
       "ishod": "Katalog nema adresu, a mrežna pretraga nije našla konkretnu tačku; oznaka sela ne dokazuje lokaciju biste."
     }
   },
+  "gornja-tuzla-spomenik-na-mjestu-smrti-narodnog-her": {
+    "proveraLokacije": {
+      "datum": "2026-10-21",
+      "izvor": "https://www.google.com/maps?cid=2237073904052057698",
+      "ishod": "postojeca-tacka-potkrepljena-novim-google-kartonom",
+      "napomena": "Zadržana postojeća OSM tačka 44.5647888,18.7519140. Novi Google karton Spomenik Mahmuta Bušatlije Buša, CID 2237073904052057698, daje 44.5648509,18.7517365 (15.7 m od naše tačke); fotografija autora Adem sa Google oznakom „Slika je snimljena: nov 2025“ pokazuje isti crveno-beli spomenik i isti natpis. Fotografija je samo pregledana; nije preuzeta za novu objavu. Stari Google CID 17876674845708593619 sada otvara prazan karton bez imena i fotografija, pa njegova tačka prepisana u Partisan Memorials Wiki nije osnova za pomeranje oko 378.6 m severnije. OSM istorija: node/11646434659, jedina verzija od 20.2.2024, autor musa58; changeset/147703491 ne navodi izvor merenja. Naša tačka je neposredno uz ucrtanu stazu way/1252957194. Obilazak Mirsada Saračevića od 15.2.2024 na Wikiloc-u navodi zasebne tačke „Spomenik / Mahmut Bušatlija“ i „S puta pogled na spomenik“; javni indeks je pročitan, ali GPS i fotografije nisu provereni jer sajt traži bezbednosnu verifikaciju, pa obilazak nije tretiran kao nezavisna potvrda tačnih koordinata. Razlika starih i novih kartografskih oznaka je razjašnjena u korist postojeće tačke; podudaranje OSM-a i Google-a nije dokaz njihove nezavisnosti ni geodetske tačnosti do jednog metra. Nije dokazana fizička selidba spomenika."
+    }
+  },
   "gornji-brajinci-spomenik-nob": {
     "proveraLokacije": {
       "datum": "2026-10-20",
@@ -819,12 +827,12 @@
       "izvestaj": "data/provere/odluke.json#spomenicinob-detaljno-4104-4324-2026-10-20"
     }
   },
-  "gornja-tuzla-spomenik-na-mjestu-smrti-narodnog-her": {
+  "gradacac-bista-hasana-kikica-2": {
     "proveraLokacije": {
       "datum": "2026-10-21",
-      "izvor": "https://www.google.com/maps?cid=2237073904052057698",
-      "ishod": "postojeca-tacka-potkrepljena-novim-google-kartonom",
-      "napomena": "Zadržana postojeća OSM tačka 44.5647888,18.7519140. Novi Google karton Spomenik Mahmuta Bušatlije Buša, CID 2237073904052057698, daje 44.5648509,18.7517365 (15.7 m od naše tačke); fotografija autora Adem sa Google oznakom „Slika je snimljena: nov 2025“ pokazuje isti crveno-beli spomenik i isti natpis. Fotografija je samo pregledana; nije preuzeta za novu objavu. Stari Google CID 17876674845708593619 sada otvara prazan karton bez imena i fotografija, pa njegova tačka prepisana u Partisan Memorials Wiki nije osnova za pomeranje oko 378.6 m severnije. OSM istorija: node/11646434659, jedina verzija od 20.2.2024, autor musa58; changeset/147703491 ne navodi izvor merenja. Naša tačka je neposredno uz ucrtanu stazu way/1252957194. Obilazak Mirsada Saračevića od 15.2.2024 na Wikiloc-u navodi zasebne tačke „Spomenik / Mahmut Bušatlija“ i „S puta pogled na spomenik“; javni indeks je pročitan, ali GPS i fotografije nisu provereni jer sajt traži bezbednosnu verifikaciju, pa obilazak nije tretiran kao nezavisna potvrda tačnih koordinata. Razlika starih i novih kartografskih oznaka je razjašnjena u korist postojeće tačke; podudaranje OSM-a i Google-a nije dokaz njihove nezavisnosti ni geodetske tačnosti do jednog metra. Nije dokazana fizička selidba spomenika."
+      "izvor": "https://historijagradacac.blogger.ba/2011/11/04/gimnazija-zgrada-iz-doba-austrougarske-uprave/",
+      "ishod": "veza-skolske-i-parkovske-biste-nepotvrdjena",
+      "napomena": "Dodatna provera 21.10.2026: sačuvana oba zapisa jer nema dokaza da označavaju isti fizički predmet. Spomenicinob zasebno navodi školsku bistu 1952 / Ivan Sabolić bez datuma terenskog potvrđivanja i bistu u parku 1958 sa spornim autorom. Mirza Avdičević 2011 opisuje postavljanje biste u polukružnom dvorištu gimnazije na Gradini školske 1958/59, navodi Mirka Ostoju i otkrivanje od Ive Andrića. To protivreči školskoj godini i autoru sažete tabele, ali ne dokazuje identitet sa parkovskom bistom, njeno premeštanje ni postojanje dva odlivka. Nije pronađena izvorna inventarna karta niti stara fotografija koja rešava vezu. Elaborat Zavoda str. 43 potvrđuje oblik i položaj parkovske biste, ali ne navodi autora ni godinu. Grad Gradačac izveštava o polaganju cveća u Gradskom parku 20.5.2026, objava 21.5.2026; fotografija potvrđuje isti lik, odeću, postolje i ploču kao u elaboratu. Zamenjena stara sitna fotografija jasnijom iz te galerije. Monografija Sadika Šehića Hasan Kikić: učitelj, borac, književnik (Glas, Banja Luka 1986; 26 PDF strana, digitalizacija NUB Tuzla) nije dala podatak koji razrešava identitet. Bibliografija Naše starine IV 1957, str.236, navodi Kikićevu bistu u Sarajevu 1952: taj podatak se ne prenosi na Gradačac. Sačuvane godine 1952 / 1958 i dosadašnje autorstvo bez novog pripisivanja. Školska ostaje van mape. Za nastavak je potrebna inventarna karta, školska spomenica sa fotografijom ili dokaz prenosa; ponavljanje istih opštih veb pretraga nema prinos."
     }
   }
 }
