@@ -1,12 +1,5 @@
 [
   {
-    "id": "vucitrn-spomenik-palim-borcima-i-zrtvama-fasizma",
-    "mesto": "Vučitrn",
-    "naziv": "Spomenik palim borcima i žrtvama fašizma",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Kosovo"
-  },
-  {
     "id": "rakovacke-bare-spomenik-zrtvama-fasizma",
     "mesto": "Rakovačke Bare",
     "naziv": "Spomenik žrtvama fašizma",
@@ -23055,7 +23048,10 @@
     "autor": "Milorad Berbakov",
     "vrsta": "spomen-park",
     "drzava": "Serbia",
-    "adresa": "Memorijalni kompleks na Rohalj bazama. Otkriven septembra 1973. godine. Projektant M. Berbakov. Na granitnom belegu je zapis: „ Uporište ustanka Vojvodine 1941-1"
+    "adresa": "Memorijalni kompleks na Rohalj bazama. Otkriven septembra 1973. godine. Projektant M. Berbakov. Na granitnom belegu je zapis: „ Uporište ustanka Vojvodine 1941-1",
+    "slika": "slike/bez-lokacije/fruska-gora-memorijalni-kompleks-na-rohalj-bazama.webp",
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
+    "slikaOdnos": 1.504
   },
   {
     "id": "fruska-gora-kameni-beleg",
@@ -23180,16 +23176,6 @@
     "vrsta": "spomen-obelezje",
     "drzava": "Kosovo",
     "adresa": "Spomen-obeležje na mestu gde se u noći 26/27. septembra 1942. godine sastala grupa boraca albanske narodnosti i obrazovala partizanski odred koji je nosio ime p"
-  },
-  {
-    "id": "vucitrn-spomenik-palim-1941-1945",
-    "mesto": "Vučitrn",
-    "naziv": "Spomenik palim 1941-1945",
-    "godina": "1960",
-    "autor": "L. Starčević",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Kosovo",
-    "adresa": "Spomenik palim 1941-1945. u parku osnovne škole. Podignut 1960. godine. Arh. L. Starčević Na spomeniku je dvojezični natpis. U borbi i pod fašističkim terorom p"
   },
   {
     "id": "nedakovac-spomenik-palim-borcima-i-zrtvama-fasizma",
@@ -23638,25 +23624,6 @@
     "vrsta": "spomen-obelezje",
     "drzava": "Kosovo",
     "adresa": "Spomenik na zajedničkoj grobnici. Otkriven 7. jula 1952. godine. U borbama na području Leposavića 1944. godine poginula je grupa boraca IV crnogorske brigade Ko"
-  },
-  {
-    "id": "lipljan-skulptura",
-    "mesto": "Lipljan",
-    "naziv": "Skulptura",
-    "godina": "1963",
-    "autor": "Ljubinka Savić Grasi",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Kosovo",
-    "adresa": "Skulptura ispred zgrade Skupštine opštine — spomenik palim borcima 1941-1945. Otkrivena oktobra 1963. godine. Vajar Lj. Grasi."
-  },
-  {
-    "id": "lipljan-spomen-groblje",
-    "mesto": "Lipljan",
-    "naziv": "Spomen-groblje",
-    "autor": "Miodrag Pecić",
-    "vrsta": "groblje",
-    "drzava": "Kosovo",
-    "adresa": "Spomen-groblje. Otvoreno 4. jula 1962. godine. Arh. M. Pecić. Na zidu je zapis: „Vi niste uzalud pali divni junaci. Imena vaša svetle pred nama kao bodreći znaci"
   },
   {
     "id": "gadile-bista-zejnela-ajdinija",
@@ -24222,9 +24189,13 @@
     "slikaOdnos": 0.75,
     "slikaPotpis": "Kizule, CC BY-SA 4.0",
     "naziv": "Spomenik Slavku Munćanu",
-    "posveta": "Slavku Munćanu.",
+    "posveta": [
+      "Q4167822"
+    ],
     "vrsta": "bista",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "autor": "Ekaterina Ristivojev",
+    "godina": "1955"
   },
   {
     "id": "cuprija-spomenik-miodragu-novakovicu-dzudzi",
@@ -24637,7 +24608,8 @@
     "mesto": "Rakoš",
     "naziv": "Spomen-grobnica žrtava fašizma",
     "vrsta": "groblje",
-    "drzava": "Kosovo"
+    "drzava": "Kosovo",
+    "posveta": "Za 63 rodoljuba koje su fašisti streljali na ovom mestu oktobra 1943."
   },
   {
     "id": "stranice-spomenik-zrtvama-fasizma",
@@ -26225,7 +26197,10 @@
     "godina": "1962",
     "posveta": "palim borcima na Sremskom frontu",
     "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "slika": "slike/bez-lokacije/susara-spomenik-palim-borcima-na-sremskom-frontu.webp",
+    "slikaPotpis": "susara, CC BY 3.0",
+    "slikaOdnos": 0.669
   },
   {
     "id": "supljak-spomenik-nob",
@@ -30802,7 +30777,10 @@
     "mesto": "Sremski Karlovci",
     "naziv": "Kameni beleg na Stražilovu",
     "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "slika": "slike/bez-lokacije/sremski-karlovci-kameni-beleg-na-strazilovu.webp",
+    "slikaPotpis": "Micki, CC BY-SA 3.0",
+    "slikaOdnos": 0.749
   },
   {
     "id": "ada-spomenik-jevrejskim-zrtvama-na-gradskom-groblj",
@@ -30881,10 +30859,14 @@
     "id": "nova-gajdobra-spomenik-palim-skojevcima-u-ataru-na",
     "mesto": "Nova Gajdobra",
     "naziv": "Spomenik palim skojevcima u ataru naselja",
-    "autor": "A. Vasiljević",
+    "autor": "Andreja Vasiljević & Miša Cvetičanin",
     "posveta": "palim skojevcima u ataru naselja",
     "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "slika": "slike/bez-lokacije/nova-gajdobra-spomenik-palim-skojevcima-u-ataru-na.webp",
+    "slikaPotpis": "Knoken, CC BY-SA 4.0",
+    "godina": "1975",
+    "slikaOdnos": 0.749
   },
   {
     "id": "parage-spomenik-porodici-sremac",
@@ -31071,7 +31053,8 @@
     "drzava": "Serbia",
     "slika": "slike/bez-lokacije/perlez-spomen-obelezje-u-ataru-naselja.webp",
     "slikaPotpis": "Vanjagenije, CC BY-SA 4.0",
-    "slikaOdnos": 0.749
+    "slikaOdnos": 0.749,
+    "godina": "1954"
   },
   {
     "id": "perlez-zajednicka-grobnica",
@@ -31156,7 +31139,10 @@
     "godina": "1966",
     "autor": "R. Matatunović",
     "vrsta": "groblje",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "slika": "slike/bez-lokacije/kikinda-zajednicka-grobnica-i-spomenik-na-mokrinsk.webp",
+    "slikaPotpis": "Vanjagenije, CC BY-SA 4.0",
+    "slikaOdnos": 1.333
   },
   {
     "id": "basaid-spomenik-zrtvama-fasizma",
@@ -31192,14 +31178,21 @@
     "godina": "1975",
     "autor": "Pavle Radovanović",
     "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "slika": "slike/bez-lokacije/padina-spomenik-palim-1941-1945.webp",
+    "slikaPotpis": "Mickey Mystique, CC BY-SA 4.0",
+    "slikaOdnos": 0.749
   },
   {
     "id": "samos-spomenik-palim-1941-1945",
     "mesto": "Samoš",
     "naziv": "Spomenik palim 1941-1945",
     "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "slika": "slike/bez-lokacije/samos-spomenik-palim-1941-1945.webp",
+    "slikaPotpis": "Nik994, CC BY-SA 4.0",
+    "godina": "1948",
+    "slikaOdnos": 1.333
   },
   {
     "id": "bavaniste-spomen-grobnica-zrtava-fasistickog-zloci",
@@ -31370,7 +31363,10 @@
     },
     "autor": "Božidar Jovović & Z. Pezeg",
     "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "slika": "slike/bez-lokacije/pancevo-skulptura-umiruci-borac-na-humki-spomen-ob.webp",
+    "slikaPotpis": "Knoken, CC BY-SA 4.0",
+    "slikaOdnos": 0.749
   },
   {
     "id": "vojlovica-spomenik-palim-1941-1945",
@@ -31379,7 +31375,10 @@
     "godina": "1961",
     "autor": "Stevan Bodnarov",
     "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "slika": "slike/bez-lokacije/vojlovica-spomenik-palim-1941-1945.webp",
+    "slikaPotpis": "Laslovarga, CC BY-SA 4.0",
+    "slikaOdnos": 0.749
   },
   {
     "id": "vojlovica-spomen-obelezje-u-ataru-naselja",
@@ -31429,7 +31428,10 @@
     "mesto": "Subotište",
     "naziv": "Spomenik palim 1941-1945",
     "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "slika": "slike/bez-lokacije/subotiste-spomenik-palim-1941-1945.webp",
+    "slikaPotpis": "Јелена Продановић, CC BY-SA 4.0",
+    "slikaOdnos": 1.333
   },
   {
     "id": "simanovci-spomen-skola-palim-1941-1945",
@@ -31628,7 +31630,10 @@
     "mesto": "Bosut",
     "naziv": "Spomenik palim 1941-1945",
     "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "slika": "slike/bez-lokacije/bosut-spomenik-palim-1941-1945.webp",
+    "slikaPotpis": "Ant83, Public domain",
+    "slikaOdnos": 1.333
   },
   {
     "id": "lacarak-spomenik-palim-borcima-novj",
@@ -31679,7 +31684,10 @@
     },
     "godina": "1978",
     "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "slika": "slike/bez-lokacije/novi-banovci-spomenik-palim-borcima-nor-a-i-zrtvam.webp",
+    "slikaPotpis": "Andrija1234567, GFDL",
+    "slikaOdnos": 0.749
   },
   {
     "id": "sirig-spomenik-zrtvama-okupatorskog-terora",
@@ -31726,7 +31734,11 @@
     },
     "godina": "1968",
     "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "slika": "slike/bez-lokacije/sanad-spomenik-palim-borcima-narodnooslobodilackog.webp",
+    "slikaPotpis": "Vesna Petković, CC BY-SA 4.0",
+    "autor": "Imre Dević",
+    "slikaOdnos": 0.444
   },
   {
     "id": "sid-spomen-dom-posvecen-uspomeni-na-pale-sidjane",
@@ -32889,7 +32901,10 @@
     "autor": "K. Terenca, B. Duranci",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia",
-    "adresa": "Skulptura „Nemirna ravnica “ spomenik palim 1941-1945. Podignut 1976. godine. Vajar K. Terenca. Arh. B. Duranci. U borbi i pod fašističkim terorom palo je sedam"
+    "adresa": "Skulptura „Nemirna ravnica “ spomenik palim 1941-1945. Podignut 1976. godine. Vajar K. Terenca. Arh. B. Duranci. U borbi i pod fašističkim terorom palo je sedam",
+    "slika": "slike/bez-lokacije/tavankut-skulptura-nemirna-ravnica-spomenik-palim.webp",
+    "slikaPotpis": "Knoken, CC BY-SA 4.0",
+    "slikaOdnos": 0.749
   },
   {
     "id": "tavankut-spomen-obelezje",
@@ -33014,16 +33029,6 @@
     "vrsta": "spomen-obelezje",
     "drzava": "Kosovo",
     "adresa": "Spomenik palim 1941-1945. Otkriven 1974. godine. Za pobedu narodne revolucije poginulo je osam boraca, pod fašističkim terorom palo je osamnaest žrtava."
-  },
-  {
-    "id": "vitomirica-obelisk-spomenik-palim-1941-1945",
-    "mesto": "Vitomirica",
-    "naziv": "Obelisk spomenik palim 1941-1945",
-    "godina": "1961",
-    "autor": "Radoslav Musa Miketić",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Kosovo",
-    "adresa": "Obelisk spomenik palim 1941-1945. Podignut 1961. godine. Vajar R. Miketić. Na spomeniku je zapis: „Jezikom oružja govorila su naša srca Kroz mržnju kazujući reči"
   },
   {
     "id": "vitomirica-spomen-obelezje",
@@ -41496,5 +41501,36 @@
     ],
     "vrsta": "spomenik",
     "drzava": "Slovenia"
+  },
+  {
+    "id": "aleksandrovo-spomen-cesma-milivoju-toskovu",
+    "mesto": "Aleksandrovo",
+    "naziv": "Spomen-česma Milivoju Toškovu",
+    "posveta": "Milivoju Toškovu, na mestu pogibije u ataru sela.",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Serbia",
+    "slika": "slike/bez-lokacije/aleksandrovo-spomen-cesma-milivoju-toskovu.webp",
+    "slikaPotpis": "Vanjagenije, CC BY-SA 4.0",
+    "slikaOdnos": 0.749
+  },
+  {
+    "id": "djakovica-spomenik-zrtvama-fasizma-obesenim-antifasistima",
+    "mesto": "Đakovica",
+    "naziv": "Spomenik žrtvama fašizma",
+    "posveta": "Desetorici antifašista obešenih 23. avgusta 1944.",
+    "vrsta": "spomenik",
+    "drzava": "Kosovo"
+  },
+  {
+    "id": "pec-spomenik-bori-vukmirovicu",
+    "mesto": "Peć",
+    "naziv": "Spomenik Bori Vukmiroviću",
+    "godina": "1952",
+    "autor": "Sreten Stojanović",
+    "posveta": [
+      "Q1562871"
+    ],
+    "vrsta": "spomenik",
+    "drzava": "Kosovo"
   }
 ]
