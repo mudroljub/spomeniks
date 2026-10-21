@@ -58604,5 +58604,588 @@
       "spomen-ploče (Alija Avdović 1961, rodna kuća Vere Jocić 1961, Singelić, Creševo, Bulačani, Raštak, Madžari 1971)": "ploče ispod praga",
       "Grigor Prličev, Goce Delčev, Trajko Popov, Filip II, žrtve 1945–1990, Igor Nikolovski, Boban Ivanović, Goran Stojmenović": "van obuhvata"
     }
+  },
+  {
+    "odluka": "zvanicna-evidencija-leskovac-sela-prvi-paket-2026-10-21",
+    "datum": "2026-10-21",
+    "izvor": "https://digitalizacija-zzsknis.rs/wp-content/uploads/2025/02/Memorijali_Leskovac.pdf",
+    "obuhvat": "22 postojeća zapisa: 21 ciljana izmena i jedna potvrda pojedinačnih polja bez promene. Ovo nije završetak celog seoskog kataloga. Dva generička radna zapisa ostaju nerazrešena.",
+    "izmene": [
+      {
+        "id": "babicko",
+        "pdf": 257,
+        "pre": {
+          "opis": {
+            "sh": "Spomen-dom otvoren 7. jula 1961. sa postavkom fotografija i dokumenata o Babičkom partizanskom odredu.",
+            "en": "Memorial hall opened on 7 July 1961 with an exhibition of photographs and documents about the Babička Partisan Detachment."
+          },
+          "adresa": null,
+          "stanje": null,
+          "stanjeIzvor": null,
+          "godina": "1961"
+        },
+        "posle": {
+          "godina": "1963",
+          "adresa": "Babina čuka, izvan naselja Babičko",
+          "stanje": "rusevine",
+          "stanjeIzvor": {
+            "naziv": "ZZSK Niš, Studija zaštite ratnih memorijala Leskovca",
+            "godina": 2023,
+            "url": "https://digitalizacija-zzsknis.rs/wp-content/uploads/2025/02/Memorijali_Leskovac.pdf"
+          },
+          "opis": {
+            "sh": "Spomen-dom Babičkog partizanskog odreda otvoren je 7. jula 1963. sa postavkom fotografija i dokumenata. Zavod je 2022. zabeležio da je zgrada opustošena, u ruševnom stanju i bez izložbene postavke.",
+            "en": "The memorial hall of the Babička Partisan Detachment opened on 7 July 1963 with an exhibition of photographs and documents. The heritage institute recorded the building as devastated and ruinous, with its exhibition removed, in 2022."
+          }
+        },
+        "obrisi": [],
+        "razlog": "Natpis i novinski isečak potvrđuju otvaranje 7.7.1963, ne 1961; terenski nalaz 28.6.2022 opisuje ruševine i odnetu postavku. PSS 2026 navodi sastajanje kod kuće, ali ne potvrđuje obnovu."
+      },
+      {
+        "id": "belanovce-spomenik-nob",
+        "pdf": 262,
+        "pre": {
+          "vrsta": "spomen-obelezje",
+          "wiki": null,
+          "opis": null,
+          "nazivEn": "WWII Monument",
+          "adresa": null,
+          "mesto": "Belanovce",
+          "naziv": "Spomenik NOB"
+        },
+        "posle": {
+          "vrsta": "reljef",
+          "mesto": "Belanovce (Leskovac)",
+          "naziv": "Spomenik streljanim meštanima",
+          "nazivEn": "Memorial to Executed Villagers",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D1%83_%D0%91%D0%B5%D0%BB%D0%B0%D0%BD%D0%BE%D0%B2%D1%86%D1%83",
+          "adresa": "Na uzvišenju u borovoj šumi pored sela",
+          "opis": {
+            "sh": "Posvećeno meštanima Belanovca streljanim 18. februara 1942. i ostalim stradalima u Drugom svetskom ratu. Bronzani reljef Stojana Cvetkovića otkriven je 6. jula 1969.",
+            "en": "Dedicated to the villagers of Belanovce executed on 18 February 1942 and others killed in World War II. Stojan Cvetković’s bronze relief was unveiled on 6 July 1969."
+          }
+        },
+        "obrisi": [],
+        "razlog": "Fotografija i bronzani reljef podudaraju se sa kartonom: Cvetkovićev spomenik kod Leskovca, natpis 6-VII-1969. Članak iz pogrešnog zapisa pripada ovom objektu; jun u članku je greška prema natpisu."
+      },
+      {
+        "id": "belanovce",
+        "pdf": 262,
+        "pre": {
+          "vrsta": "spomen-obelezje",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D1%83_%D0%91%D0%B5%D0%BB%D0%B0%D0%BD%D0%BE%D0%B2%D1%86%D1%83",
+          "opis": {
+            "sh": "Posvećeno stradalima u Drugom svetskom ratu; delo vajara Stojana Cvetkovića, otkriveno 6. juna 1969.",
+            "en": "Dedicated to those killed in WWII; by sculptor Stojan Cvetković, unveiled on 6 June 1969."
+          },
+          "nazivEn": "Monument to Fallen Fighters",
+          "mesto": "Belanovce",
+          "godina": "1969",
+          "autor": "Stojan Cvetković",
+          "naziv": "Spomenik palim borcima"
+        },
+        "posle": {
+          "mesto": "Belanovce (Vladičin Han)",
+          "vrsta": "spomen-ploca",
+          "naziv": "Spomen-ploča palim borcima",
+          "nazivEn": "Plaque to Fallen Fighters",
+          "opis": {
+            "sh": "Posvećeno borcima iz Belanovca poginulim u NOB-u 1941-1945; spomen-ploča je postavljena na zidu zgrade.",
+            "en": "Dedicated to fighters from Belanovce killed in the Partisan struggle of 1941–1945; the memorial plaque is mounted on a building wall."
+          }
+        },
+        "obrisi": [
+          "wiki",
+          "autor",
+          "godina"
+        ],
+        "razlog": "Nije duplikat: postojeća Google fotografija prikazuje zasebnu zidnu ploču kod Vladičinog Hana, a tekst, autor i godina su pogrešno preuzeti sa reljefa kod Leskovca. Tačka, CID i fotografija se čuvaju. Naselje potvrđuje lokalna OSM kopija i zvanični opštinski spisak naselja."
+      },
+      {
+        "id": "bobiste-spomenik-palim-borcima",
+        "pdf": 269,
+        "pre": {
+          "vrsta": "spomen-obelezje",
+          "opis": null,
+          "adresa": null
+        },
+        "posle": {
+          "vrsta": "spomenik",
+          "adresa": "U centru Bobišta",
+          "opis": {
+            "sh": "Posvećeno borcima iz Bobišta poginulim u Prvom i Drugom svetskom ratu. Slobodan Popović oblikovao je spomenik kao nerazvijeni cvetni pupoljak, simbol nedočekane slobode.",
+            "en": "Dedicated to fighters from Bobište killed in World Wars I and II. Slobodan Popović shaped the monument as an unopened flower bud, symbolising freedom the fallen did not live to see."
+          }
+        },
+        "obrisi": [],
+        "razlog": "Potvrđeno veliko autorsko delo Slobodana Popovića, stilizovani pupoljak; nestanak zasebne biste ne znači uklanjanje glavnog spomenika."
+      },
+      {
+        "id": "bogojevce-spomenik-u-bogojevcu",
+        "pdf": 273,
+        "pre": {
+          "vrsta": "spomen-obelezje",
+          "adresa": null
+        },
+        "posle": {
+          "vrsta": "spomenik",
+          "adresa": "U centru sela, na kružnom stepenastom platou"
+        },
+        "obrisi": [],
+        "razlog": "Karton potvrđuje autora, datum i koncentričnu autorsku kompoziciju; postojeća približna tačka ostaje."
+      },
+      {
+        "id": "bratmilovce-spomenik-u-bratmilovcu",
+        "pdf": 276,
+        "pre": {
+          "vrsta": "spomen-obelezje",
+          "opis": {
+            "sh": "Posvećeno jedanaestorici boraca iz Bratmilovca palih u NOR-u; spomen-obeležje u obliku sunca otkriveno je 29. novembra 1972.",
+            "en": "Dedicated to eleven fighters from Bratmilovce killed in WWII; the sun-shaped memorial was unveiled on 29 November 1972."
+          },
+          "adresa": null
+        },
+        "posle": {
+          "vrsta": "spomenik",
+          "adresa": "U centru sela",
+          "opis": {
+            "sh": "Posvećeno jedanaestorici boraca iz Bratmilovca palih u NOR-u; spomenik Đorđa Vasića u obliku sunca otkriven je novembra 1972. Jedanaest nejednakih zrakova simbolizuje njihove sudbine.",
+            "en": "Dedicated to eleven fighters from Bratmilovce killed in the Partisan struggle; Đorđe Vasić’s sun-shaped monument was unveiled in November 1972. Its eleven unequal rays symbolise their fates."
+          }
+        },
+        "obrisi": [],
+        "razlog": "Potvrđeno autorsko delo Đorđa Vasića. Dan otvaranja 19/29 novembra razlikuje se među izvorima; zadržani mesec i godina, bez izmišljene sigurnosti dana."
+      },
+      {
+        "id": "bunuski-cifluk-spomenik-u-bunuskom-cifluku",
+        "pdf": 289,
+        "pre": {
+          "vrsta": "spomen-obelezje",
+          "nazivEn": "Monument in Bunuški Čifluk",
+          "adresa": null,
+          "naziv": "Spomenik u Bunuškom Čifluku"
+        },
+        "posle": {
+          "vrsta": "spomenik",
+          "naziv": "Spomenik „Plamen“",
+          "nazivEn": "The Flame Monument",
+          "adresa": "U centru sela, kod škole"
+        },
+        "obrisi": [],
+        "razlog": "Karton i potpis fotogrametrije daju naziv Plamen i autora; visina 5,77 m, umetnički oblikovan spomenik."
+      },
+      {
+        "id": "velika-grabovnica-spomenik-palim-borcima-i-zrtvama",
+        "pdf": 291,
+        "pre": {
+          "vrsta": "spomen-obelezje",
+          "opis": {
+            "sh": "Posvećeno borcima iz Prvog i Drugog svetskog rata, sa bistama boraca Stamenkovića, Ilića i Kostića; otkriven 7. jula 1984.",
+            "en": "Dedicated to fighters of WWI and WWII, with busts of fighters Stamenković, Ilić and Kostić; unveiled on 7 July 1984."
+          },
+          "adresa": null
+        },
+        "posle": {
+          "vrsta": "spomenik",
+          "adresa": "U centru sela, kod OŠ „Vuk Karadžić“",
+          "opis": {
+            "sh": "Posvećeno borcima iz ratova 1912-1918. i 1941-1945. i žrtvama fašističkog terora; spomenik je otkriven 7. jula 1984. U celini su i biste Borka Stamenkovića i Stojana Ilića iz NOB-a, kao i kasnije dodata bista Saše Kostića, poginulog 1992.",
+            "en": "Dedicated to fighters of the wars of 1912–1918 and 1941–1945 and victims of fascist terror; the monument was unveiled on 7 July 1984. The ensemble includes busts of Partisans Borko Stamenković and Stojan Ilić, and a later bust of Saša Kostić, who died in 1992."
+          }
+        },
+        "obrisi": [],
+        "razlog": "Karton potvrđuje centralni oblikovani spomenik i otvaranje 1984. Saša Kostić je poginuo 1992, nije borac Drugog svetskog rata; prethodni opis je to pogrešno sugerisao."
+      },
+      {
+        "id": "vinarce",
+        "pdf": 311,
+        "pre": {
+          "opis": null,
+          "nazivEn": "Monument to Fallen WWII Fighters",
+          "adresa": null,
+          "godina": "1977",
+          "autor": null,
+          "naziv": "Spomenik palim borcima NOB"
+        },
+        "posle": {
+          "autor": "Đorđe Vasić",
+          "godina": "1976",
+          "naziv": "Spomenik palim u oslobodilačkim ratovima",
+          "nazivEn": "Monument to the Fallen in the Liberation Wars",
+          "adresa": "U centru Vinarca, na raskrsnici puteva ka Donjem Stopanju i Podrimcu",
+          "opis": {
+            "sh": "Posvećeno borcima iz Vinarca poginulim u Prvom i Drugom svetskom ratu i žrtvama fašističkog terora. Četiri betonska kraka, od kojih najviši doseže 11 metara, delo su Đorđa Vasića.",
+            "en": "Dedicated to fighters from Vinarce killed in World Wars I and II and victims of fascist terror. Its four concrete arms, the tallest reaching eleven metres, were designed by Đorđe Vasić."
+          }
+        },
+        "obrisi": [],
+        "razlog": "Karton potvrđuje Đorđa Vasića i otvaranje 11.10.1976; 1977 u postojećem zapisu ispravljeno prema konkretnoj istoriji dela."
+      },
+      {
+        "id": "leskovac-spomenik",
+        "pdf": 309,
+        "pre": {
+          "vrsta": "spomen-obelezje",
+          "opis": null,
+          "nazivEn": "Monument",
+          "adresa": null,
+          "godina": "1985",
+          "naziv": "Spomenik"
+        },
+        "posle": {
+          "vrsta": "spomenik",
+          "godina": "1975",
+          "naziv": "Spomenik napadu na leskovački aerodrom",
+          "nazivEn": "Memorial to the Attack on Leskovac Airfield",
+          "adresa": "Kod ulaza u leskovački aerodrom, Vinarce",
+          "opis": {
+            "sh": "Posvećeno napadu 11. srpske udarne brigade na leskovački aerodrom 2. juna 1944. Betonski spomenik Miodraga Stevanovića u obliku oborenog aviona podignut je 1975.",
+            "en": "Dedicated to the 11th Serbian Assault Brigade’s attack on Leskovac airfield on 2 June 1944. Miodrag Stevanović’s concrete monument, shaped like a downed aircraft, was erected in 1975."
+          }
+        },
+        "obrisi": [],
+        "razlog": "Potvrđen identitet prema postojećoj fotografiji avionskog oblika, položaju, autoru i natpisu. Natpis 27.6.1975, ne 1985."
+      },
+      {
+        "id": "vucje-poziv-na-ustanak",
+        "pdf": 328,
+        "pre": {
+          "adresa": null
+        },
+        "posle": {
+          "adresa": "U gradskom parku u centru Vučja"
+        },
+        "obrisi": [],
+        "razlog": "Potvrđeni autor, godina, oblik figure i park."
+      },
+      {
+        "id": "gorina-spomenik-palim-borcima",
+        "pdf": 336,
+        "pre": {
+          "opis": null,
+          "nazivEn": "Monument to Fallen Fighters",
+          "adresa": null,
+          "naziv": "Spomenik palim borcima"
+        },
+        "posle": {
+          "naziv": "Spomen-obeležje Vojislavu Nikolajeviću Čiplaku",
+          "nazivEn": "Memorial to Vojislav Nikolajević Čiplak",
+          "adresa": "U centru Gorine",
+          "opis": {
+            "sh": "Posvećeno Vojislavu Nikolajeviću Čiplaku, partizanu poginulom 1943; spomen-kamen postavljen je 26. februara 1973. U istoj celini nalazi se i njegova bronzana bista.",
+            "en": "Dedicated to Vojislav Nikolajević Čiplak, a Partisan killed in 1943; the memorial stone was installed on 26 February 1973. The ensemble also includes his bronze bust."
+          }
+        },
+        "obrisi": [],
+        "razlog": "Prvobitni kamen 1973 posvećen je Vojislavu Nikolajeviću Čiplaku, uz kasniju bistu; deo celine iz 1999 nije NOB. Ne pretvarati godinu kamena u godinu biste."
+      },
+      {
+        "id": "grdelica-spomenik-palim-borcima",
+        "pdf": 346,
+        "pre": {
+          "vrsta": "spomen-obelezje",
+          "opis": null,
+          "adresa": null
+        },
+        "posle": {
+          "vrsta": "spomenik",
+          "adresa": "U centru varošice, ispred zgrade mesne zajednice",
+          "opis": {
+            "sh": "Posvećeno borcima poginulim u Drugom svetskom ratu. Centralna forma podseća na rascvetali pupoljak, uz bronzanu ploču sa imenima poginulih.",
+            "en": "Dedicated to fighters killed in World War II. The central form resembles an opening flower bud, accompanied by a bronze plaque bearing the names of the fallen."
+          }
+        },
+        "obrisi": [],
+        "razlog": "Velika oblikovana kompozicija u centru, potvrđena fotografijom i tehničkim crtežom; ne izmišljati autora/godinu koje karton ne daje."
+      },
+      {
+        "id": "guberevac-spomenik-palim-borcima-u-nor-u-u-guberev",
+        "pdf": 360,
+        "pre": {
+          "vrsta": "spomen-obelezje",
+          "adresa": null
+        },
+        "posle": {
+          "vrsta": "spomenik",
+          "adresa": "Na ograđenom platou ispred zadružnog doma"
+        },
+        "obrisi": [],
+        "razlog": "Karton potvrđuje dva oblikovana pilona, autora i godinu; Stefan u jednoj rečenici je varijanta imena Stevan Sokolović, ne novi autor."
+      },
+      {
+        "id": "mirosevce",
+        "pdf": 407,
+        "pre": {
+          "nazivEn": "Monument to Fallen Fighters",
+          "adresa": null,
+          "naziv": "Spomenik u Miroševcu"
+        },
+        "posle": {
+          "naziv": "Spomenik poleta",
+          "nazivEn": "Monument of Ascent",
+          "adresa": "Na ulazu u Miroševce"
+        },
+        "obrisi": [],
+        "razlog": "Autorski naziv iz kartona je Spomenik poleta, uz potvrđene Đorđa Vasića i 1974."
+      },
+      {
+        "id": "petrovac-spomenik-palim-borcima",
+        "pdf": 420,
+        "pre": {
+          "vrsta": "spomen-obelezje",
+          "opis": null,
+          "adresa": null,
+          "mesto": "Petrovac"
+        },
+        "posle": {
+          "vrsta": "spomenik",
+          "mesto": "Petrovac (Leskovac)",
+          "adresa": "U centru sela",
+          "opis": {
+            "sh": "Posvećeno borcima palim u Prvom i Drugom svetskom ratu; spomenik Stevana Sokolovića otkriven je za Dan borca 1963. Masivne forme planina završavaju se motivom tri puške složene u kupu.",
+            "en": "Dedicated to fighters killed in World Wars I and II; Stevan Sokolović’s monument was unveiled for Fighters’ Day in 1963. Massive mountain-like forms culminate in three stacked rifles."
+          }
+        },
+        "obrisi": [],
+        "razlog": "Karton potvrđuje Stevana Sokolovića i 1963; oblikovani skulpturalni spomenik, ne obična ploča. Nepotvrđen radni zapis sa 1960 ne spajati bez dodatnog identiteta."
+      },
+      {
+        "id": "pecenjevce-spomenik-palima-u-drugom-svetskom-ratu",
+        "pdf": 424,
+        "pre": {
+          "vrsta": "spomen-obelezje",
+          "opis": null,
+          "nazivEn": "Monument to Those Fallen in WWII",
+          "adresa": null,
+          "godina": null,
+          "naziv": "Spomenik palima u Drugom svetskom ratu"
+        },
+        "posle": {
+          "vrsta": "spomenik",
+          "godina": "1964",
+          "naziv": "Spomenik palim u svetskim ratovima",
+          "nazivEn": "Monument to the Fallen in the World Wars",
+          "adresa": "U centru sela, ispred zgrade mesne kancelarije",
+          "opis": {
+            "sh": "Posvećeno borcima iz Pečenjevca poginulim u Prvom i Drugom svetskom ratu. Spomenik Stojana Cvetkovića otkriven je 12. oktobra 1964, a tekst je napisao književnik Tomislav N. Cvetković.",
+            "en": "Dedicated to fighters from Pečenjevce killed in World Wars I and II. Stojan Cvetković’s monument was unveiled on 12 October 1964, with a text by writer Tomislav N. Cvetković."
+          }
+        },
+        "obrisi": [],
+        "razlog": "Karton potvrđuje Stojana Cvetkovića, otvaranje 12.10.1964 i posvetu obema svetskim ratovima."
+      },
+      {
+        "id": "priboj-spomenik-nob",
+        "pdf": 443,
+        "pre": {
+          "vrsta": "spomen-obelezje",
+          "opis": null,
+          "adresa": null,
+          "mesto": "Priboj"
+        },
+        "posle": {
+          "vrsta": "spomenik",
+          "mesto": "Priboj (Leskovac)",
+          "adresa": "U centru sela, u memorijalnom kompleksu",
+          "opis": {
+            "sh": "Posvećeno borcima palim u oslobodilačkim ratovima 1912-1918. i 1941-1945. Spomenik Đorđa Vasića otkriven je 29. novembra 1974, a u celini je i bista Milutina Smiljkovića.",
+            "en": "Dedicated to fighters killed in the liberation wars of 1912–1918 and 1941–1945. Đorđe Vasić’s monument was unveiled on 29 November 1974; the ensemble also includes a bust of Milutin Smiljković."
+          }
+        },
+        "obrisi": [],
+        "razlog": "Oblikovana celina Đorđa Vasića, potvrđeni autor i 1974; bista je zaseban zapis pa je ne duplirati."
+      },
+      {
+        "id": "sisince-spomen-park",
+        "pdf": 480,
+        "pre": {
+          "vrsta": "spomen-obelezje",
+          "opis": null,
+          "nazivEn": "WWII Monument",
+          "adresa": null,
+          "autor": null,
+          "naziv": "Spomenik NOB"
+        },
+        "posle": {
+          "vrsta": "bista",
+          "naziv": "Bista Borivoja Miloševića",
+          "nazivEn": "Bust of Borivoje Milošević",
+          "autor": "Slobodan Popović",
+          "adresa": "U dvorištu škole, Cara Lazara 102",
+          "opis": {
+            "sh": "Posvećeno Borivoju Miloševiću Šiši, borcu Kukavičkog partizanskog odreda poginulom u januaru 1942. Bista Slobodana Popovića nalazi se uz spomen-ploče palim borcima i žrtvama fašističkog terora.",
+            "en": "Dedicated to Borivoje Milošević Šiša, a fighter of the Kukavica Partisan Detachment killed in January 1942. Slobodan Popović’s bust stands beside plaques to fallen fighters and victims of fascist terror."
+          }
+        },
+        "obrisi": [],
+        "razlog": "Karton identifikuje konkretno vajarsko delo, bistu Borivoja Miloševića, uz zasebne ploče. Autorstvo se odnosi na bistu, ne na celu školu ili ploče."
+      },
+      {
+        "id": "mirosevce-bista-borislava-stankovica-culavka-1919",
+        "pdf": 404,
+        "pre": {
+          "nazivEn": "Bust of Borislav Stanković Ćulavko 1919-1944",
+          "adresa": null,
+          "naziv": "Bista Borislava Stankovića Ćulavka 1919-1944"
+        },
+        "posle": {
+          "naziv": "Bista Borislava Stankovića Ćulavka",
+          "nazivEn": "Bust of Borislav Stanković Ćulavko",
+          "adresa": "Ispred Doma kulture u Miroševcu"
+        },
+        "obrisi": [],
+        "razlog": "Karton potvrđuje identitet i autora, daje položaj; godine života već su u opisu pa ne moraju da produžavaju naslov."
+      },
+      {
+        "id": "priboj-bista-milutina-smiljkovica",
+        "pdf": 442,
+        "pre": {
+          "godina": "1976",
+          "autor": "Đ. Vasić",
+          "adresa": null,
+          "mesto": "Priboj"
+        },
+        "posle": {
+          "autor": "Đorđe Vasić",
+          "godina": "1974",
+          "mesto": "Priboj (Leskovac)",
+          "adresa": "U memorijalnom kompleksu u centru sela"
+        },
+        "obrisi": [],
+        "razlog": "Pojedinačni karton biste eksplicitno potvrđuje Đorđa Vasića i otvaranje 29.11.1974, umesto ranije 1976."
+      }
+    ],
+    "fotografije": {
+      "babicko": {
+        "pdf": 257,
+        "izvor": "https://digitalizacija-zzsknis.rs/wp-content/uploads/2025/02/Memorijali_Leskovac.pdf",
+        "datumTerena": "2022-06-28"
+      },
+      "grdelica-spomenik-palim-borcima": {
+        "pdf": 346,
+        "izvor": "https://digitalizacija-zzsknis.rs/wp-content/uploads/2025/02/Memorijali_Leskovac.pdf",
+        "datumTerena": "2022-06-23"
+      },
+      "sisince-spomen-park": {
+        "pdf": 480,
+        "izvor": "https://digitalizacija-zzsknis.rs/wp-content/uploads/2025/02/Memorijali_Leskovac.pdf",
+        "datumTerena": "2022-06"
+      }
+    },
+    "potvrde": [
+      {
+        "id": "pecenjevce-bista-tihomira-rakica",
+        "pdf": 429,
+        "polja": [
+          "naziv",
+          "vrsta",
+          "adresa"
+        ],
+        "napomena": "Godina 1978 i inicijal autora nisu dodatno potvrđeni kartonom; nisu menjani."
+      }
+    ],
+    "odlozeno": [
+      {
+        "id": "petrovac-spomenik-palim-u-oslobodilackim-ratovima",
+        "nalaz": "Generična posveta, godina 1960 i bez fotografije: nema dovoljno za spajanje sa skulpturom iz 1963; različita godina sama nije dokaz da su različiti."
+      },
+      {
+        "id": "mirosevce-spomenik-palim-u-oslobodilackim-ratovima",
+        "nalaz": "1976 / P. Jović ne slažu se sa Poletom 1974 / Đorđe Vasić; nema dovoljno za spajanje bez izgleda ili konkretnijeg položaja."
+      }
+    ],
+    "dodatniDokazi": {
+      "belanovce": "Postojeća Google fotografija i CID 1482003926654865385, lokalna OSM tačka naselja 42.64733,21.95418; zvanični spisak naselja opštine Vladičin Han https://vladicinhan.org.rs/Opstine3/uploads/noviProjekti/Konkursi/2024/Avgust/oglas%202%20krug.pdf . Fotografski različito od kartona 262–263; nisu duplikati.",
+      "babicko": "PSS https://pss.rs/dan-pesacenja-2026/dan-pesacenja/2026/ navodi sastajanje kod kuće 2026, ne potvrđuje obnovu.",
+      "datumi": "PDF stranice su stvarne stranice celog PDF-a; štampane seoske stranice imaju pomeraj 246."
+    },
+    "napomena": "Svi ID-jevi, koordinate, CID-jevi, postojeće fotografije i preciznost tačaka su sačuvani. Belanovce kod Vladičinog Hana nije duplikat reljefa kod Leskovca: razdvojeni su pogrešno objedinjeni podaci. Status Babičkog je datiran nalaz iz 2022, publikovan 2023; noviji dokaz obnove nije pronađen."
+  },
+  {
+    "odluka": "registar-kulturnih-dobara-hr-2026-10-21",
+    "datum": "2026-10-21",
+    "izvor": "https://registar.kulturnadobra.hr/",
+    "obim": "API pretraga (vrste nepokretna pojedinačna i kulturnopovijesna cjelina) 5.495 stavki; izdvojeno 164 vezanih za NOB po nazivu, za sve preuzeti detalji i fotografije (izvori/pretrage/registar-kulturnih-dobara-hr-2026-10-21/)",
+    "pravilo": "upis u registar nije dokaz današnjeg opstanka: stari upisi (ROS/RST/RRI/RZG 1969–1978) uključuju spomenike uklonjene posle 1990; nove stavke na mapu samo uz savremeni zaštitni broj (Z-, L-) ili datiranu fotografiju posle 2000",
+    "dopunjeno": {
+      "pijavicino": {
+        "godina": {
+          "staro": "1987",
+          "novo": "1983"
+        }
+      },
+      "vocin-spomenik-palim-borcima": {
+        "autor": {
+          "staro": null,
+          "novo": "Nikola Kečanin"
+        },
+        "godina": {
+          "staro": null,
+          "novo": "1954"
+        }
+      },
+      "bijelo-brdo-spomen-kosturnica": {
+        "godina": {
+          "staro": null,
+          "novo": "1954"
+        }
+      },
+      "pozega-spomen-kosturnica-palim-oslobodiocima-grada": {
+        "autor": {
+          "staro": null,
+          "novo": "Mirko Ostoja"
+        },
+        "godina": {
+          "staro": null,
+          "novo": "1951"
+        }
+      },
+      "preko-spomenik-nob": {
+        "autor": {
+          "staro": null,
+          "novo": "Slavko Šoša"
+        }
+      },
+      "racisce-spomen-kosturnica": {
+        "autor": {
+          "staro": "Petar Palavičini",
+          "novo": "Petar Pallavicini"
+        }
+      },
+      "sali-spomenik-palim-borcima": {
+        "autor": {
+          "staro": null,
+          "novo": "Grga Antunac"
+        }
+      }
+    },
+    "fotografije": {
+      "vocin-spomenik-palim-borcima": "https://registar.kulturnadobra.hr/#/details/140606",
+      "horvati-spomenik-poginulim-borcima": "https://registar.kulturnadobra.hr/#/details/132259",
+      "slivno-spomenik-palim-borcima-i-zrtvama-fasisticko": "https://registar.kulturnadobra.hr/#/details/135302"
+    },
+    "dodato": [
+      "veliko-brdo-spomenik-palim-borcima",
+      "vinkovci-spomen-kosturnica-boraca-nor-a",
+      "vukovar-spomenik-palim-borcima-nor-a-crvenoj-armiji-i-zft",
+      "josavica-spomenik-zrtvama-fasistickog-terora-i-borcima-nor-a",
+      "nebojan-spomenik-zrtvama-fasistickog-terora-i-borcima-nor-a",
+      "moscenica-spomenik-zrtvama-fasistickog-terora-i-borcima-nor-a"
+    ],
+    "razlozi": {
+      "pijavicino": "registar: gradnja 1971–1983, svečano otvoren 16. 10. 1983 (Z-7979); stručni izvor ima prednost",
+      "racisce-spomen-kosturnica": "registar piše Petar Pallavicini",
+      "vinkovci-spomen-kosturnica-boraca-nor-a": "fotografija 30. 12. 2010 (Andrija Ćavar); autor fontane Ivan Križanac nije prenet jer nije jasno da li je autor i kosturnice",
+      "vukovar-spomenik-palim-borcima-nor-a-crvenoj-armiji-i-zft": "Z-7485, nastao 1986. na mestu prvobitnog spomenika; arhitekti Jandrić i Marušić",
+      "veliko-brdo-spomenik-palim-borcima": "fotografija 27. 1. 2011; reljef partizana koji pomaže ranjenom borcu",
+      "petrinjske stavke": "zaštićene odlukom Grada Petrinje 29. 9. 2014 (L-41, L-44, L-47); fotografije u registru su prazne, tačka nepoznata"
+    },
+    "kandidati": "ostale stavke registra koje nemamo (uglavnom skupne grobnice i partizanska groblja u Slavoniji, stari upisi 1970–1973) zabeležene su u izvori/pretrage/registar-kulturnih-dobara-hr-2026-10-21/nob.json; pre upisa potrebna potvrda opstanka",
+    "vanObuhvata": [
+      "Spomen-park Rudolfu Perešinu",
+      "Sabirni logor Velepromet",
+      "Skulptura Metalac tekstilcu",
+      "Mjesta masovnih grobnica iz Domovinskog rata"
+    ]
   }
 ]
