@@ -20069,21 +20069,6 @@
     ]
   },
   {
-    "id": "borovo-naselje-djeletovci-sporna-lokacija-spomenik",
-    "mesto": "Borovo Naselje / Đeletovci — sporna lokacija",
-    "naziv": "Spomenik NOB",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Croatia",
-    "kandidati": [
-      {
-        "lat": 45.184637,
-        "lng": 19.013116,
-        "izvor": "https://commons.wikimedia.org/wiki/File%3AWorld_War_II_monument_in_Borovo_Naselje.jpg",
-        "opis": "Ranija javna tačka, nepotvrđena ovom proverom; ne koristiti bez razrešenja identiteta i opstanka."
-      }
-    ]
-  },
-  {
     "id": "sekulari-spomenik-palim-borcima-sa-terena-sekulara",
     "mesto": "Šekulari",
     "slika": "slike/bez-lokacije/cg-sekulari.webp",
@@ -20233,14 +20218,6 @@
     "slikaOdnos": 1.46,
     "slikaPotpis": "Foto Lipa, Spomenici i spomen-obilježja NOR-a u opštini Danilovgrad (2017)",
     "naziv": "Spomenik braći Katnić",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Montenegro"
-  },
-  {
-    "id": "berane-spomenik-strijeljanim-borcima",
-    "mesto": "Berane",
-    "naziv": "Spomenik strijeljanim borcima",
-    "autor": "Radoslav Zeković",
     "vrsta": "spomen-obelezje",
     "drzava": "Montenegro"
   },
@@ -20826,16 +20803,6 @@
     "vrsta": "bista",
     "drzava": "Serbia",
     "adresa": "Bista Vukice Mitrović-Šunje, narodnog heroja. Postavljena 1979. godine ispred zgrade osnovne škole koja nosi njeno ime. Vajar R. Popivoda. Vukica Mitrović, istaknu"
-  },
-  {
-    "id": "za-okusatora-bista",
-    "mesto": "Beograd (Palilula)",
-    "naziv": "Bista Miroslava Jovanovića Mime",
-    "godina": "1958",
-    "autor": "Oskar Berbelja",
-    "vrsta": "bista",
-    "drzava": "Serbia",
-    "nazivEn": "Bust of Miroslav Jovanović Mima"
   },
   {
     "id": "za-okusatora-bista-djure-strugara",
@@ -23806,10 +23773,13 @@
     "slikaOdnos": 0.615,
     "slikaPotpis": "Flammard, CC BY-SA 3.0",
     "naziv": "Bista Ivanke Trohar",
-    "posveta": "Ivanka Trohar",
+    "posveta": [
+      "Q12752153"
+    ],
     "vrsta": "bista",
     "drzava": "Croatia",
-    "adresa": "Park heroja"
+    "adresa": "Park heroja",
+    "godina": "1981"
   },
   {
     "id": "vodnjan-spomenik-kod-doma-mladih",
@@ -24565,7 +24535,8 @@
     "mesto": "Dupilo",
     "naziv": "Spomenik palim borcima",
     "vrsta": "spomen-obelezje",
-    "drzava": "Montenegro"
+    "drzava": "Montenegro",
+    "posveta": "13 članova porodice Crnčević poginulih u NOB"
   },
   {
     "id": "pucisca-spomenik-palim-borcima",
@@ -24763,7 +24734,8 @@
     "mesto": "Grab",
     "naziv": "Spomen-grobnica palih boraca",
     "vrsta": "groblje",
-    "drzava": "Montenegro"
+    "drzava": "Montenegro",
+    "posveta": "borcima Zlatarskog NOP odreda poginulim u borbi s četnicima 15. maja 1942."
   },
   {
     "id": "gornje-dubrave-spomen-kosturnica",
@@ -31132,19 +31104,6 @@
     "id": "sumarak-piramida",
     "mesto": "Šumarak",
     "naziv": "Piramida",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
-  },
-  {
-    "id": "kula-spomenik-na-trgu-oslobodjenja-u-znak-zahvalno",
-    "mesto": "Kula",
-    "naziv": "Spomenik palim borcima NOR-a",
-    "nazivEn": "Monument to fallen Partisan fighters",
-    "opis": {
-      "sh": "Posvećeno borcima Narodnooslobodilačkog rata palim za slobodu; spomenik je na Trgu oslobođenja.",
-      "en": "Dedicated to fighters of the People's Liberation War who fell for freedom; the monument stands on Liberation Square."
-    },
-    "autor": "Stevan Bodnarov",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -41434,5 +41393,13 @@
     ],
     "vrsta": "spomenik",
     "drzava": "Kosovo"
+  },
+  {
+    "id": "bijela-gora-spomenik-zrtvama-fasizma",
+    "mesto": "Bijela Gora (Ulcinj)",
+    "naziv": "Spomenik žrtvama fašizma",
+    "posveta": "13 mještana koje su strijeljali njemački okupatori",
+    "vrsta": "spomenik",
+    "drzava": "Montenegro"
   }
 ]
