@@ -56094,5 +56094,889 @@
       "prijepolje-spomenik-narodnim-herojima": "prijepolje-spomenik-2"
     },
     "sacuvano": "Spojeni duplikat Prijepolja nije vraćen; njegov novi dvojezični opis prenet je zadržanom zapisu i uklonjena ponovljena tekstualna posveta. Sačuvane Q-posvete, sve nove fotografije, korekcije vrsta, statusi i engleski naslovi koji prate nova domaća imena. Rudo: izostavljena nepotvrđena godina1971 iz kratkog uvoda, zadržana ranije proverena godina1976. Tvrdnja najposećeniji muzej nije preneta bez datuma i merila."
+  },
+  {
+    "odluka": "krusevo-muzej-link-clanak-2026-10-21",
+    "datum": "2026-10-21",
+    "dopunjeno": {
+      "krusevo-zgrada-na-muzejot-na-nov": {
+        "wiki": {
+          "staro": "https://muzejkrusevo.mk/?page_id=1404",
+          "novo": "https://mk.wikipedia.org/wiki/%D0%97%D0%B3%D1%80%D0%B0%D0%B4%D0%B0_%D0%BD%D0%B0_%D0%9C%D1%83%D0%B7%D0%B5%D1%98%D0%BE%D1%82_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%92_%28%D0%9A%D1%80%D1%83%D1%88%D0%B5%D0%B2%D0%BE%29"
+        }
+      }
+    },
+    "razlog": "link sajta muzeja ima putanju „/“ sa upitom ?page_id=1404 (i kanonski je takav), pa ga jeClanak ne prihvata; mk.wiki ima članak o istoj zgradi; odluka korisnika: popravka u podacima, ne u kodu"
+  },
+  {
+    "odluka": "spomenici-sa-clankom-opisi-prvih-20-2026-10-21",
+    "datum": "2026-10-21",
+    "pre": {
+      "pozarevac": {
+        "opis": null
+      },
+      "kosute": {
+        "opis": null
+      },
+      "maribor-maribor-liberation": {
+        "opis": null,
+        "adresa": null
+      },
+      "gevgelija": {
+        "opis": null,
+        "autor": "Jordan Grabul"
+      },
+      "botun": {
+        "opis": null
+      },
+      "ulcinj-freedom": {
+        "opis": null,
+        "adresa": null
+      },
+      "zuzemberk": {
+        "opis": null
+      },
+      "plovanija": {
+        "opis": null
+      },
+      "donji-miholjac": {
+        "opis": null
+      },
+      "zaostrog": {
+        "opis": null,
+        "autor": null
+      },
+      "bratunac": {
+        "opis": null
+      },
+      "majdanpek": {
+        "opis": null,
+        "autor": null
+      },
+      "struga": {
+        "opis": null
+      },
+      "makarska": {
+        "opis": null
+      },
+      "slabinja": {
+        "opis": null
+      },
+      "andrijevica": {
+        "opis": null,
+        "adresa": null
+      },
+      "crni-kal": {
+        "opis": null
+      },
+      "brzece": {
+        "opis": null,
+        "autor": null
+      },
+      "vranjske-njive": {
+        "opis": null,
+        "autor": null
+      },
+      "gligino-brdo": {
+        "opis": null,
+        "autor": null
+      }
+    },
+    "dopunjeno": {
+      "pozarevac": {
+        "opis": {
+          "sh": "Posvećeno žrtvama fašizma i pobedi narodnooslobodilačke borbe, na brdu Čačalica gde su tokom okupacije streljani rodoljubi i civili. Čelična „Zvezda“ Milorada Tepavca podignuta je 1985. kao deo ranije uređenog spomen-parka.",
+          "en": "Dedicated to the victims of fascism and the victory of the Partisan struggle, on Čačalica Hill where resistance supporters and civilians were executed during the occupation. Milorad Tepavac’s steel “Star” was erected in 1985 within the existing memorial park."
+        }
+      },
+      "kosute": {
+        "opis": {
+          "sh": "Posvećeno [Prvom splitskom partizanskom odredu](Q12640709), čiji su borci u avgustu 1941. kod Košuta stradali u borbi i zarobljavanju. Trokraki betonski spomenik Vuka Bombardellija iz 1961. miniran je 1992, a na mestu su ostali njegovi delovi.",
+          "en": "Dedicated to the [1st Split Partisan Detachment](Q12640709), whose fighters were killed or captured near Košute in August 1941. Vuko Bombardelli’s three-pronged concrete monument, erected in 1961, was blown up in 1992, leaving broken sections at the site."
+        }
+      },
+      "maribor-maribor-liberation": {
+        "opis": {
+          "sh": "Posvećeno taocima i učesnicima otpora koje su nemačke okupacione snage streljale u Mariboru tokom Drugog svetskog rata. Na bronzanom spomeniku Slavka Tiheca sačuvane su reprodukcije objava o streljanju i oproštajnog pisma osuđenog Jožeta Fluksa.",
+          "en": "Dedicated to hostages and resistance members executed by German occupation forces in Maribor during the Second World War. Slavko Tihec’s bronze monument reproduces execution notices and the farewell letter of condemned prisoner Jože Fluks."
+        },
+        "adresa": "Trg svobode"
+      },
+      "gevgelija": {
+        "opis": {
+          "sh": "Posvećeno borbi za slobodu, od [Ilindanskog ustanka](Q1145682) do partizanskog otpora i [Gevgelijskog odreda „Sava Mihajlov“](Q12276166). „Cvet slobode“ prvobitno je postavljen na Vardarskom ridu, a kasnije premešten na Mrzenski rid.",
+          "en": "Dedicated to the struggle for freedom, from the [Ilinden Uprising](Q1145682) to Partisan resistance and the [Gevgelija “Sava Mihajlov” Detachment](Q12276166). The “Flower of Freedom” originally stood on Vardar Hill and was later moved to Mrzenski Hill."
+        },
+        "autor": "Jordan Grabul & Blagoj Kolev"
+      },
+      "botun": {
+        "opis": {
+          "sh": "Posvećeno borcima Debarce koji su učestvovali u [ustanku u Makedoniji](Q12905650) i borbi protiv okupatora. Dva betonska monolita obeležavaju južnu granicu slobodne teritorije koju su partizani stvorili 1943.",
+          "en": "Dedicated to the fighters of Debarca who took part in the [uprising in Macedonia](Q12905650) and the struggle against occupation. Two concrete monoliths mark the southern boundary of the liberated territory established by the Partisans in 1943."
+        }
+      },
+      "ulcinj-freedom": {
+        "opis": {
+          "sh": "Posvećeno palim borcima i civilnim žrtvama ulcinjskog kraja u narodnooslobodilačkoj borbi. Četiri betonske forme nalik krilima uzdižu se na Pristanskoj stijeni iznad Male plaže, kao središte zamišljenog memorijalnog kompleksa.",
+          "en": "Dedicated to fallen fighters and civilian victims from the Ulcinj area during the Partisan struggle. Four wing-like concrete forms rise on Pristanska stijena above Mala Plaža beach as the centrepiece of a planned memorial complex."
+        },
+        "adresa": "Pristanska stijena, Pinješ, iznad Male plaže"
+      },
+      "zuzemberk": {
+        "opis": {
+          "sh": "Posvećeno partizanima i aktivistima Osvobodilne fronte poginulim u Suhoj krajini tokom Drugog svetskog rata. Ispod spomenika na Cviblju nalazi se kosturnica, a na kamenim pločama uz njega ispisana su imena 1.144 stradalih.",
+          "en": "Dedicated to Partisans and Liberation Front activists killed in Suha Krajina during the Second World War. An ossuary lies beneath the monument on Cvibelj Hill, while stone panels beside it list the names of 1,144 victims."
+        }
+      },
+      "plovanija": {
+        "opis": {
+          "sh": "Posvećeno palim borcima i civilnim žrtvama fašizma iz Plovanije i okolnog dela Istre. Tri betonska krila spomenika ukrašena su mozaicima sa prizorima istarskog života, dok memorijalne ploče čuvaju imena stradalih.",
+          "en": "Dedicated to fallen fighters and civilian victims of fascism from Plovanija and the surrounding part of Istria. The monument’s three concrete fins bear mosaics depicting Istrian life, while memorial plaques preserve the victims’ names."
+        }
+      },
+      "donji-miholjac": {
+        "opis": {
+          "sh": "Posvećeno palim borcima i civilnim žrtvama miholjačkog kraja, kao i [Šestom slavonskom korpusu](Q1445288). Spomenik Stjepana Brlošića oblikovan je kao prelomljena trougaona ploha sa bronzanim reljefima borbe i stradanja.",
+          "en": "Dedicated to fallen fighters and civilian victims from the Donji Miholjac area and to the [6th Slavonian Corps](Q1445288). Stjepan Brlošić’s monument takes the form of a folded triangular plane with bronze reliefs of struggle and suffering."
+        }
+      },
+      "zaostrog": {
+        "opis": {
+          "sh": "Posvećeno poginulim zaostroškim partizanima i žrtvama narodnooslobodilačke borbe. Betonski spomenik Rudolfa Matutinovića na obali oblikovan je poput stilizovanog cveta, sa imenima stradalih i memorijalnim natpisima pri dnu.",
+          "en": "Dedicated to fallen Partisans from Zaostrog and victims of the Partisan struggle. Rudolf Matutinović’s concrete waterfront monument resembles a stylised flower, with victims’ names and commemorative inscriptions around its base."
+        },
+        "autor": "Rudolf Matutinović"
+      },
+      "bratunac": {
+        "opis": {
+          "sh": "Posvećeno palim borcima i civilnim žrtvama bratunačkog kraja u Drugom svetskom ratu. Središte memorijalnog prostora čini visoki obelisk Petra Krstića, sastavljen od metalnih cevi koje se sužavaju prema vrhu.",
+          "en": "Dedicated to fallen fighters and civilian victims from the Bratunac area during the Second World War. A tall obelisk by Petar Krstić, made of metal pipes tapering towards the top, forms the centre of the memorial space."
+        }
+      },
+      "majdanpek": {
+        "opis": {
+          "sh": "Posvećeno oslobodiocima Majdanpeka i borcima i civilima ovog kraja stradalim u narodnooslobodilačkoj borbi. Betonski obelisk Vojislava Vasiljevića podignut je na uzvišenju iznad grada, uz memorijalni zid.",
+          "en": "Dedicated to the liberators of Majdanpek and to local fighters and civilians who died during the Partisan struggle. Vojislav Vasiljević’s concrete obelisk stands on a hillside above the town, alongside a memorial wall."
+        },
+        "autor": "Vojislav Vasiljević"
+      },
+      "struga": {
+        "opis": {
+          "sh": "Spomenik u sećanje na 335 poginulih boraca iz struškog kraja i na učesnike narodnooslobodilačke borbe ovog područja. Betonski obelisk Vojislava Vasiljevića otkriven je 1974. povodom tridesete godišnjice oslobođenja Struge.",
+          "en": "Dedicated to 335 fallen fighters from the Struga area and to the region’s participants in the Partisan struggle. Vojislav Vasiljević’s concrete obelisk was unveiled in 1974 to mark the thirtieth anniversary of Struga’s liberation."
+        }
+      },
+      "makarska": {
+        "opis": {
+          "sh": "Posvećeno žrtvama Makarskog primorja stradalim u narodnooslobodilačkoj borbi. Spomenik na Glavici oblikovan je kao memorijalni trg i pozornica sa betonskim paravanima čiji reljefi simbolizuju rat i borbu.",
+          "en": "Dedicated to victims from the Makarska coast who died during the Partisan struggle. The monument on Glavica Hill forms a memorial square and stage with concrete screens whose reliefs evoke war and resistance."
+        }
+      },
+      "slabinja": {
+        "opis": {
+          "sh": "Posvećeno poginulim borcima i civilnim žrtvama fašizma iz Slabinje tokom Drugog svetskog rata. Monumentalna kompozicija Stanislava Mišića okružena je pločama koje beleže ratnu sudbinu sela i njegovih stanovnika.",
+          "en": "Dedicated to fallen fighters and civilian victims of fascism from Slabinja during the Second World War. Stanislav Mišić’s monumental composition is surrounded by plaques recording the wartime fate of the village and its inhabitants."
+        }
+      },
+      "andrijevica": {
+        "opis": {
+          "sh": "Posvećeno palim partizanskim borcima i civilnim žrtvama andrijevičkog kraja u Drugom svetskom ratu. Spomenik Vojislava Vujisića u parku Knjaževac oblikovan je sa šest visokih mermernih krakova.",
+          "en": "Dedicated to fallen Partisan fighters and civilian victims from the Andrijevica area during the Second World War. Vojislav Vujisić’s monument in Knjaževac Park is formed from six tall marble arms."
+        },
+        "adresa": "Park Knjaževac, ispred osnovne škole"
+      },
+      "crni-kal": {
+        "opis": {
+          "sh": "Posvećeno palim borcima iz okolnih istarskih sela i [prekomorskim brigadama](Q3446426), u kojima su se borili i ljudi iz ovog kraja. Tri kamene forme Eda Mihevca podsećaju na barke i povezuju memorijal sa pomorskim nasleđem Istre.",
+          "en": "Dedicated to fallen fighters from surrounding Istrian villages and to the [Overseas Brigades](Q3446426), which included men from this area. Edo Mihevc’s three stone forms resemble boats, linking the memorial to Istria’s maritime heritage."
+        }
+      },
+      "brzece": {
+        "opis": {
+          "sh": "Posvećeno partizanskoj pobedi u [Bici na Kopaoniku](Q130464154) u avgustu 1944, tokom prodora oslobodilačkih jedinica u Srbiju. Ispod spomenika na Mramoru nalazi se kripta sa posmrtnim ostacima 22 borca.",
+          "en": "Dedicated to the Partisan victory in the [Battle of Kopaonik](Q130464154) in August 1944 during the liberation forces’ advance into Serbia. A crypt beneath the Mramor monument contains the remains of 22 fighters."
+        },
+        "autor": "Života Radojčić"
+      },
+      "vranjske-njive": {
+        "opis": {
+          "sh": "Spomenik u sećanje na devetoricu zarobljenih partizana obešenih u decembru 1943. u Vranjskim Njivama. Delo Milorada Vukotića obeležava mesto njihovog pogubljenja u podnožju Veljeg brda.",
+          "en": "Dedicated to nine captured Partisans hanged at Vranjske Njive in December 1943. Milorad Vukotić’s monument marks the place of their execution at the foot of Velje Hill."
+        },
+        "autor": "Milorad Vukotić"
+      },
+      "gligino-brdo": {
+        "opis": {
+          "sh": "Posvećeno organizovanju partizanskog ustanka u ovom kraju u julu 1941. Spomenik Ahmeda Bešića na Gliginom brdu kod Dobrljina oblikovan je kao veliki betonski cvet, uz prostor nekadašnjeg amfiteatra.",
+          "en": "Dedicated to the organisation of the local Partisan uprising in July 1941. Ahmed Bešić’s monument on Gligino Hill near Dobrljin resembles a large concrete flower beside the former amphitheatre."
+        },
+        "autor": "Ahmed Bešić"
+      }
+    },
+    "izvori": {
+      "pozarevac": [
+        "https://www.spomenikdatabase.org/pozarevac"
+      ],
+      "kosute": [
+        "https://www.spomenikdatabase.org/kosute"
+      ],
+      "maribor-maribor-liberation": [
+        "https://www.spomenikdatabase.org/maribor"
+      ],
+      "gevgelija": [
+        "https://www.spomenikdatabase.org/gevgelija"
+      ],
+      "botun": [
+        "https://www.spomenikdatabase.org/botun"
+      ],
+      "ulcinj-freedom": [
+        "https://www.spomenikdatabase.org/ulcinj"
+      ],
+      "zuzemberk": [
+        "https://www.spomenikdatabase.org/zuzemberk"
+      ],
+      "plovanija": [
+        "https://www.spomenikdatabase.org/plovanija"
+      ],
+      "donji-miholjac": [
+        "https://www.spomenikdatabase.org/donji-miholjac"
+      ],
+      "zaostrog": [
+        "https://www.spomenikdatabase.org/zaostrog",
+        "https://bljesak.info/magazin/putujte-s-nama/zaostog-u-zavicaju-starca-milovana/448299"
+      ],
+      "bratunac": [
+        "https://www.spomenikdatabase.org/bratunac"
+      ],
+      "majdanpek": [
+        "https://www.spomenikdatabase.org/majdanpek"
+      ],
+      "struga": [
+        "https://www.spomenikdatabase.org/struga"
+      ],
+      "makarska": [
+        "https://hr.wikipedia.org/wiki/Spomenik_revoluciji_u_Makarskoj"
+      ],
+      "slabinja": [
+        "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BF%D0%B0%D0%BB%D0%B8%D0%BC_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D0%B8_%D0%B6%D1%80%D1%82%D0%B2%D0%B0%D0%BC%D0%B0_%D1%84%D0%B0%D1%88%D0%B8%D0%B7%D0%BC%D0%B0_%28%D0%A1%D0%BB%D0%B0%D0%B1%D0%B8%D1%9A%D0%B0%29",
+        "https://en.wikipedia.org/wiki/Slabinja_Monument",
+        "https://www.spomenikdatabase.org/slabinja"
+      ],
+      "andrijevica": [
+        "https://www.spomenikdatabase.org/andrijevica"
+      ],
+      "crni-kal": [
+        "https://www.spomenikdatabase.org/crni-kal"
+      ],
+      "brzece": [
+        "https://www.spomenikdatabase.org/brzece",
+        "https://www.rtvbrus.co.rs/medijski-projekti/mostovi-kulture-6-17550/"
+      ],
+      "vranjske-njive": [
+        "https://www.spomenikdatabase.org/vranjske-njive"
+      ],
+      "gligino-brdo": [
+        "https://www.spomenikdatabase.org/gligino-brdo"
+      ]
+    },
+    "ishod": "Dodato 20 sažetih dvojezičnih opisa spomenika koji imaju članak. Sačuvane sve postojeće Q-posvete, sa jednakim vezama u oba jezika; tekstualnih posveta u ovom paketu nije bilo. Dopunjeno šest autora (jedan koautor u Gevgeliji i pet prethodno praznih autora) i tri opisa položaja. Ostala polja i svi ostali zapisi ostali nepromenjeni.",
+    "razreseno": {
+      "brzece": "RTV Brus, Svetlana Eskić, 14.1.2025, izričito navodi puno ime vajara Života Radojčić; potvrđuje1969, bitku avgusta1944 i kriptu22borca. Raniji SDB dao samoŽ.Radojčić.",
+      "zaostrog": "Rudolf Matutinović potvrđen SDB, terenskom reportažom2024 i opisom postojeće Commons fotografije2026.",
+      "vranjske-njive": "SDB posebno razjašnjava pogrešno starije pripisivanje Svetlani Kani Radević: stvarni autor MiloradVukotić, prema istraživanju SlaviceStamatovićVučković.",
+      "andrijevica": "Opis forme proveren prema postojećoj fotografiji: šest mermernih krakova, bez izmišljene veze njihovih vrhova."
+    },
+    "dilema": {
+      "bratunac": "Postojeća1972, SDB1978; godina nije menjana, jer je raniji BiH prolaz već proveravao knjiške izvore.",
+      "gligino-brdo": "Postojeća1970, SDBne zna godinu i samo pretpostavlja kraj1970-ih; zadržana postojeća, bez unosa pretpostavke.",
+      "vranjske-njive": "Postojeća1970, SDBnavodi1970-e i sredinu decenije; tačna godina nije proizvoljno menjana.",
+      "slabinja": "SDBprepisuje548 sa ploče (107boraca+441civil), enWiki547; broj izostavljen iz opisa, čija je posveta jasna. SRWiki nije dostupan kroz pregled, korišćeni ENčlanak iSDB.",
+      "donji-miholjac": "SDBnavodi arhitektonsko učešće FranjeFerenčevića; nezavisna potvrda identiteta nije nađena i postojeći autor nije proširen nepotvrđenim imenom.",
+      "maribor-maribor-liberation": "SDBopisuje ranije nerealizovane konkurse sa različitim koautorima i izvedeno rešenje saBrankomKocmutom; autorstvo nije prošireno bez provere konkretne izvedene faze.",
+      "gevgelija": "SDBnavodi preseljenje2003, drugi pregled2005; opisu je sačuvana potvrđena činjenica preseljenja bez sporne godine.",
+      "stanje": "Postojeće oznake ruševina uKošutama iMajdanpeku i oštećenja uBratuncu sačuvane. Članci sadrže obilazak2017 i kasnije dopune, ali nisu tretirani kao današnja terenska potvrda svih stanja."
+    }
+  },
+  {
+    "odluka": "hrwiki-popis-antifasistickih-spomenika-2026-10-21",
+    "datum": "2026-10-21",
+    "izvor": "https://hr.wikipedia.org/wiki/Dodatak:Popis_antifa%C5%A1isti%C4%8Dkih_spomenika_u_Hrvatskoj",
+    "obim": "glavni spisak i 6 postojećih županijskih (Grad Zagreb, Istarska, Primorsko-goranska, Splitsko-dalmatinska, Dubrovačko-neretvanska, Osječko-baranjska); ostalih 15 županijskih stranica ne postoji. 166 redova; glavni spisak je prevod sr spiska, a županijski ga uglavnom ponavljaju; samo 5 fotografija nije bilo u sr spisku",
+    "dodato": [
+      "ogulin-bista-ljubice-gerovac (arhiva, uklonjena 1990-ih)"
+    ],
+    "dopunjeno": {
+      "osijek-spomenik-augustu-cesarcu": {
+        "slika": "Commons Spomenik_August_Cesarec-Osijek.JPG (2011)",
+        "autor": {
+          "staro": "Stjepan Gračanin",
+          "novo": "Stjepan Gračan"
+        },
+        "posveta": "Q761055"
+      },
+      "bakar": {
+        "slika": {
+          "staro": "Google Maps",
+          "novo": "Commons Frano_Krsinic_Ranjeni_borac_Bakar_13022013_2_roberta_f.jpg"
+        },
+        "godina": "1953"
+      },
+      "seget-donji": {
+        "slika": "Commons, 2. 5. 2023",
+        "autor": "Fabjan Bakulić",
+        "godina": "1954",
+        "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+        "stanje": {
+          "staro": "ostecen",
+          "novo": null,
+          "razlog": "fotografija 2023 prikazuje neoštećen spomenik; kasniji dokaz od Hrženjaka 2002",
+          "staroStanjeIzvor": {
+            "naziv": "Hrženjak",
+            "godina": 2002,
+            "url": "https://znaci.org/00003/736.php?broj=258"
+          }
+        }
+      },
+      "tican-spomen-podrucje": {
+        "autor": "Zdenko Sila",
+        "godina": "1965",
+        "wiki": "https://hr.wikipedia.org/wiki/Spomen_podru%C4%8Dje_Ti%C4%8Dan"
+      },
+      "ogulin-spomenik-zrtvama-fasizma": {
+        "posveta": "Galge, oko 500 žrtava; srušen 1992"
+      }
+    },
+    "razreseneDileme": {
+      "platak-spomenik-nob": "fotografija i Vulas 1970 pripadaju zapisu podhum (Podhumskim žrtvama, Soboli), ne Plataku; platak nije menjan",
+      "tito-s-birthplace-museum": "red je statua Tita (Augustinčić), ne muzej; statua već ima zapis"
+    }
+  },
+  {
+    "odluka": "mkwiki-kategorije-nob-2026-10-21",
+    "datum": "2026-10-21",
+    "izvor": "https://mk.wikipedia.org/wiki/Категорија:Споменици_од_НОБ_во_Македонија",
+    "obim": "kategorije Споменици од НОБ во Македонија, Спомен-костурници во Македонија, Партизански гробишта (bez potkategorija): 30 članaka; kopija u izvori/pretrage/mkwiki-kategorije-nob-2026-10-21/",
+    "dopunjeno": {
+      "tetovo": {
+        "wiki": {
+          "staro": null,
+          "novo": "https://mk.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%E2%80%9E%D0%9F%D0%BE%D0%B1%D0%B5%D0%B4%D0%B0%E2%80%9C_%28%D0%A2%D0%B5%D1%82%D0%BE%D0%B2%D0%BE%29"
+        }
+      },
+      "strumica-fallen-fighters": {
+        "wiki": {
+          "staro": null,
+          "novo": "https://mk.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%A0%D0%B5%D0%B2%D0%BE%D0%BB%D1%83%D1%86%D0%B8%D1%98%D0%B0%D1%82%D0%B0_%28%D0%A1%D1%82%D1%80%D1%83%D0%BC%D0%B8%D1%86%D0%B0%29"
+        },
+        "autor": {
+          "staro": "Ilija Adžmovski",
+          "novo": "Ilija Adžievski"
+        }
+      },
+      "gevgelija": {
+        "wiki": {
+          "staro": "https://www.spomenikdatabase.org/gevgelija",
+          "novo": "https://mk.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%E2%80%9E%D0%A1%D0%BB%D0%BE%D0%B1%D0%BE%D0%B4%D0%B0%E2%80%9C_%28%D0%9C%D1%80%D0%B7%D0%B5%D0%BD%D1%86%D0%B8%29"
+        }
+      },
+      "bitola-deported-jews": {
+        "wiki": {
+          "staro": null,
+          "novo": "https://mk.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%B4%D0%B5%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5_%D0%95%D0%B2%D1%80%D0%B5%D0%B8_%28%D0%91%D0%B8%D1%82%D0%BE%D0%BB%D0%B0%29"
+        }
+      },
+      "bitola-stara-carsija-2": {
+        "wiki": {
+          "staro": null,
+          "novo": "https://mk.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D1%87%D0%BA%D0%B8%D1%82%D0%B5_%D0%B7%D0%B0%D1%82%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D1%86%D0%B8_%28%D0%91%D0%B8%D1%82%D0%BE%D0%BB%D0%B0%29"
+        },
+        "autor": "Aleksandar Cane Jovanovski"
+      },
+      "bitola-partizanski-grobishta": {
+        "wiki": {
+          "staro": "https://frontline.mk/2024/01/23/vo-bitola-se-obnovuva-spomen-obelezh-eto-na-partizanskite-grobishta/",
+          "novo": "https://mk.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B8_%D0%B3%D1%80%D0%BE%D0%B1%D0%B8%D1%88%D1%82%D0%B0_%28%D0%91%D0%B8%D1%82%D0%BE%D0%BB%D0%B0%29"
+        }
+      },
+      "skopje-women-fighters": {
+        "wiki": {
+          "staro": null,
+          "novo": "https://mk.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%B6%D0%B5%D0%BD%D0%B0%D1%82%D0%B0-%D0%B1%D0%BE%D1%80%D0%B5%D1%86_%28%D0%A1%D0%BA%D0%BE%D0%BF%D1%98%D0%B5%29"
+        },
+        "autor": "Boro Mitričevski"
+      },
+      "skopje-strength-glory-victory": {
+        "wiki": {
+          "staro": null,
+          "novo": "https://mk.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%E2%80%9E%D0%A1%D0%B8%D0%BB%D0%B0%2C_%D0%A1%D0%BB%D0%B0%D0%B2%D0%B0_%D0%B8_%D0%9F%D0%BE%D0%B1%D0%B5%D0%B4%D0%B0%E2%80%9C_-_%D0%A1%D0%BA%D0%BE%D0%BF%D1%98%D0%B5"
+        }
+      },
+      "struga": {
+        "wiki": {
+          "staro": "https://www.spomenikdatabase.org/struga",
+          "novo": "https://mk.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%A0%D0%B5%D0%B2%D0%BE%D0%BB%D1%83%D1%86%D0%B8%D1%98%D0%B0%D1%82%D0%B0_%28%D0%A1%D1%82%D1%80%D1%83%D0%B3%D0%B0%29"
+        }
+      },
+      "ljubanista-spomen-obelezje-na-prespanskoto-sovetuv": {
+        "wiki": {
+          "staro": null,
+          "novo": "https://mk.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B7%D0%B0_%D0%9F%D1%80%D0%B5%D1%81%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D1%82%D0%BE_%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%83%D0%B2%D0%B0%D1%9A%D0%B5_%D0%BD%D0%B0_%D0%A6%D0%9A_%D0%BD%D0%B0_%D0%9A%D0%9F%D0%9C"
+        }
+      },
+      "gostivar-spomen-kosturnica": {
+        "wiki": {
+          "staro": null,
+          "novo": "https://mk.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BA%D0%BE%D1%81%D1%82%D1%83%D1%80%D0%BD%D0%B8%D1%86%D0%B0_%28%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D1%80%29"
+        }
+      },
+      "stip-deportiranite-evrei": {
+        "godina": {
+          "staro": "1978",
+          "novo": "1985"
+        }
+      }
+    },
+    "razreseneDileme": {
+      "stip-deportiranite-evrei": "mk.wiki: podignut 1985, Metodi Andonov; uz bazu dva izvora za 1985 naspram sr spiska 1978; vraćena 1985 (poništava raniju odluku dileme-godina-starija-2026-10-21 za ovaj zapis)",
+      "strumica-fallen-fighters": "mk.wiki: Spomenik na Revolucijata na ulazu u Gradski park, vajar Ilija Adžievski (u bazi pogrešno Adžmovski); ista kompozicija na fotografiji"
+    },
+    "vanObuhvata": {
+      "Спомен-костурница (Крива Паланка)": "srpski vojnici, Balkanski ratovi i Prvi svetski rat",
+      "Спомен-костурница (Горни Манастирец)": "pokolj 6. 1. 1912 (Balkanski ratovi)",
+      "Спомен-костурница (Удово)": "srpski vojnici 1915; zapis udovo-spomen-kosturnica uklonjen sa mape"
+    },
+    "otvoreno": {
+      "kriva-planaka / kriva-palanka-spomenik-na-padnatite-borci": "ista fotografija, tačke oko 300 m razmaknute; verovatan duplikat",
+      "Македонка, споменик на Револуцијата (Kumanovo)": "kompleks Koste Angelija Radovanija i Marijana Haberlea na Trgu Maršala Tita; nije jasno da li je to zapis kumanovo-ossuary (žena sa vencem, 1951) ili kumanovo-revolution; nije povezano"
+    },
+    "uklonjeno": {
+      "udovo-spomen-kosturnica": {
+        "razlog": "van obuhvata: mk.wiki Спомен-костурница (Удово), ista tačka (41.34331, 22.44325), podignuta srpskim vojnicima poginulim u valandovsko-udovskoj akciji 1915 i u Prvom svetskom ratu",
+        "zapis": {
+          "id": "udovo-spomen-kosturnica",
+          "koordinate": {
+            "lat": 41.3433056,
+            "lng": 22.44325
+          },
+          "mesto": "Удово",
+          "naziv": "Спомен-костурница",
+          "nazivEn": "Memorial Ossuary",
+          "vrsta": "groblje",
+          "drzava": "Macedonia"
+        },
+        "izvor": "http://uzkn.gov.mk/mk/wp-content/uploads/2024/11/REGISTRIRANO-NEDVIZNO-KULTURNO-NASLEDSTVO-2024-za-web-%D1%84%D0%B8%D0%BD%D0%B0%D0%BB.pdf",
+        "dokaz": "https://mk.wikipedia.org/wiki/Спомен-костурница_(Удово)"
+      }
+    }
+  },
+  {
+    "odluka": "spomenici-sa-clankom-opisi-zavrsni-21-2026-10-21",
+    "datum": "2026-10-21",
+    "pre": {
+      "ada": {
+        "opis": null,
+        "adresa": null
+      },
+      "mitrasinci": {
+        "opis": null
+      },
+      "otesevo": {
+        "opis": null,
+        "autor": "Jordan Grabul"
+      },
+      "zrenjanin": {
+        "opis": null
+      },
+      "titel": {
+        "opis": null,
+        "adresa": null
+      },
+      "lukovdol": {
+        "opis": null
+      },
+      "trubjela": {
+        "opis": null
+      },
+      "belgrade-cemetery": {
+        "opis": null,
+        "mesto": "Beograd (Novo groblje)",
+        "adresa": null
+      },
+      "obadov-brijeg": {
+        "opis": null
+      },
+      "kumanovo-revolution": {
+        "opis": null,
+        "autor": "Kosta Angeli Radovani",
+        "adresa": null
+      },
+      "zupa-niksicka": {
+        "opis": null,
+        "autor": null
+      },
+      "crnomelj": {
+        "opis": null,
+        "autor": "Jakob Savinšek",
+        "adresa": null
+      },
+      "peje-pec": {
+        "opis": null
+      },
+      "koprivnica": {
+        "opis": null
+      },
+      "slavonski-brod": {
+        "opis": null
+      },
+      "kikinda-victims-fascism": {
+        "opis": null
+      },
+      "golubac": {
+        "opis": null,
+        "adresa": null
+      },
+      "beograd-crvenoarmejac": {
+        "opis": null,
+        "adresa": null
+      },
+      "beograd-spomenik-mosi-pijade": {
+        "opis": null,
+        "adresa": "Grobnica narodnih heroja na Kalemegdanu"
+      },
+      "gornji-milanovac-spomenik-borbe": {
+        "opis": null,
+        "adresa": null
+      },
+      "beograd-banjica-spomenik-zrtvama-logora": {
+        "opis": null
+      }
+    },
+    "dopunjeno": {
+      "ada": {
+        "opis": {
+          "sh": "Posvećeno lokalnim partizanskim borcima i civilnim žrtvama fašističke okupacije. Apstraktna bronzana kompozicija Aleksandra Zarina podseća na uzdignute poljoprivredne alatke, kao simbol otpora seljaka.",
+          "en": "Dedicated to local Partisan fighters and civilian victims of fascist occupation. Aleksandar Zarin’s abstract bronze composition evokes raised farming tools as a symbol of peasant resistance."
+        },
+        "adresa": "Srpski park, uz katoličku crkvu"
+      },
+      "mitrasinci": {
+        "opis": {
+          "sh": "Posvećeno [50. makedonskoj diviziji NOVJ](Q1007943), formiranoj u okolini Mitrašinaca 1944. Spomenik Radovana Rađenovića podignut je 1974. povodom tridesete godišnjice njenog osnivanja, sa pet betonskih krakova koji se izvijaju ka nebu.",
+          "en": "Dedicated to the [50th Macedonian Partisan Division](Q1007943), formed near Mitrašinci in 1944. Radovan Rađenović’s monument was erected in 1974 for the thirtieth anniversary of its formation, with five concrete arms curving skywards."
+        }
+      },
+      "otesevo": {
+        "opis": {
+          "sh": "Posvećeno [Prespanskom savetovanju CK Komunističke partije Makedonije](Q12291399), održanom 2. avgusta 1943. kod Oteševa. Dve zakrivljene betonske forme spomenika uzdižu se na padini iznad Prespanskog jezera.",
+          "en": "Dedicated to the [Prespa Conference of the Communist Party of Macedonia Central Committee](Q12291399), held near Oteševo on 2 August 1943. The monument’s two curved concrete forms rise on a hillside above Lake Prespa."
+        },
+        "autor": "Jordan Grabul & Boro Josifovski"
+      },
+      "zrenjanin": {
+        "opis": {
+          "sh": "Posvećeno početku partizanskog ustanka u Vojvodini i osnivanju rukovodstva vojvođanskih partizanskih odreda 1941. Bronzana skulptura Mladena Marinkova oblikovana je kao raonik, povezujući otpor sa zemljom i radom vojvođanskih seljaka.",
+          "en": "Dedicated to the beginning of the Partisan uprising in Vojvodina and the establishment of the regional Partisan detachments’ leadership in 1941. Mladen Marinkov’s bronze sculpture takes the form of a ploughshare, linking resistance to the land and the work of Vojvodina’s peasants."
+        }
+      },
+      "titel": {
+        "opis": {
+          "sh": "Posvećeno palim borcima i civilnim žrtvama fašizma iz titelskog kraja, među njima i ubijenima u januarskoj raciji 1942. Betonski spomenik Jovana Soldatovića na obali Tise čine tri zakrivljena kraka usmerena jedan prema drugom.",
+          "en": "Dedicated to fallen fighters and civilian victims of fascism from the Titel area, including those killed in the January 1942 raids. Jovan Soldatović’s concrete monument on the Tisa riverbank consists of three curved arms pointing towards one another."
+        },
+        "adresa": "Kej na obali Tise"
+      },
+      "lukovdol": {
+        "opis": {
+          "sh": "Posvećeno pesniku i partizanu [Ivanu Goranu Kovačiću](Q835790), rođenom u Lukovdolu i ubijenom 1943. Apstraktni portret Vojina Bakića od nerđajućeg čelika postavljen je 1964. uz pesnikovu rodnu kuću, u okviru prostora sa amfiteatrom.",
+          "en": "Dedicated to the poet and Partisan [Ivan Goran Kovačić](Q835790), born in Lukovdol and killed in 1943. Vojin Bakić’s abstract stainless-steel portrait was erected in 1964 beside the poet’s birthplace within a setting that includes an amphitheatre."
+        }
+      },
+      "trubjela": {
+        "opis": {
+          "sh": "Posvećeno borcima i žrtvama rudinsko-trepačkog kraja iz oslobodilačkih ratova, uključujući narodnooslobodilačku borbu i žrtve fašističkog terora 1941-1945. Granitna kompozicija Slobodana Vukajlovića ima 22 stuba, memorijalne ploče i kosturnicu iza spomenika.",
+          "en": "Dedicated to fighters and victims from the Rudine–Trepča area in the liberation wars, including the Partisan struggle and victims of fascist terror in 1941–1945. Slobodan Vukajlović’s granite composition has 22 columns, memorial plaques and an ossuary behind the monument."
+        }
+      },
+      "belgrade-cemetery": {
+        "opis": {
+          "sh": "Posvećeno jevrejskim žrtvama fašizma i palim borcima u Drugom svetskom ratu. Spomenik Bogdana Bogdanovića na Sefardskom groblju čine dve velike kamene plohe sa jevrejskim simbolima, memorijalna staza i menora.",
+          "en": "Dedicated to Jewish victims of fascism and fallen fighters of the Second World War. Bogdan Bogdanović’s monument at the Sephardic Cemetery consists of two large stone walls with Jewish symbols, a memorial pathway and a menorah."
+        },
+        "mesto": "Beograd (Jevrejsko groblje)",
+        "adresa": "Sefardsko jevrejsko groblje"
+      },
+      "obadov-brijeg": {
+        "opis": {
+          "sh": "Posvećeno [Šestoj crnogorskoj udarnoj brigadi](Q16088819), koja je u novembru 1944. u ovom kraju vodila borbe protiv nemačkih snaga. Betonski spomenik Slobodana Vukajlovića na Obadovom brijegu oblikovan je kao stilizovana ptica.",
+          "en": "Dedicated to the [6th Montenegrin Strike Brigade](Q16088819), which fought German forces in this area in November 1944. Slobodan Vukajlović’s concrete monument on Obad Hill takes the form of a stylised bird."
+        }
+      },
+      "kumanovo-revolution": {
+        "opis": {
+          "sh": "Posvećeno borbi makedonskog naroda za slobodu, uključujući narodnooslobodilačku borbu. Celinu čine stilizovana figura „Makedonka“ i tri reljefna zida sa prizorima Ilindanskog ustanka, ratnog otpora i posleratne obnove.",
+          "en": "Dedicated to the Macedonian people’s struggle for freedom, including the Partisan liberation struggle. The ensemble consists of the stylised “Macedonian Woman” figure and three relief walls depicting the Ilinden Uprising, wartime resistance and postwar reconstruction."
+        },
+        "autor": "Kosta Angeli Radovani & Marijan Haberle",
+        "adresa": "Плоштад Маршал Тито"
+      },
+      "zupa-niksicka": {
+        "opis": {
+          "sh": "Posvećeno borcima [Pete proleterske crnogorske brigade](Q855731) poginulim u [Bici na Sutjesci](Q1419973) 1943. Betonski spomenik Ljuba Vojvodića podignut je u Carinama, nedaleko od manastira Svetog Luke.",
+          "en": "Dedicated to fighters of the [5th Montenegrin Proletarian Brigade](Q855731) killed in the [Battle of the Sutjeska](Q1419973) in 1943. Ljubo Vojvodić’s concrete monument stands in Carine, near St Luke’s Monastery."
+        },
+        "autor": "Ljubo Vojvodić"
+      },
+      "crnomelj": {
+        "opis": {
+          "sh": "Posvećeno palim partizanima i žrtvama fašizma iz Bele krajine, sa kosturnicom na brdu Griček. Memorijalnu celinu čine obelisk Marka Župančiča i reljefi Jakoba Savinšeka sa prizorima borbe i stradanja.",
+          "en": "Dedicated to fallen Partisans and victims of fascism from Bela Krajina, with an ossuary on Griček Hill. The memorial ensemble combines Marko Župančič’s obelisk with Jakob Savinšek’s reliefs depicting struggle and suffering."
+        },
+        "autor": "Jakob Savinšek & Marko Župančič",
+        "adresa": "Hrib Griček ob Zadružni cesti"
+      },
+      "peje-pec": {
+        "opis": {
+          "sh": "Posvećeno palim partizanskim borcima i žrtvama fašizma sa Kosova i Metohije. Aluminijumska grupa Ante Gržetića uklonjena je 2012, dok su postament i ostaci memorijalnog prostora na Karagaču sačuvani u ruševnom stanju.",
+          "en": "Dedicated to fallen Partisan fighters and victims of fascism from Kosovo and Metohija. Ante Gržetić’s aluminium sculptural group was removed in 2012, leaving the pedestal and remains of the memorial grounds on Karagač Hill in a ruined state."
+        }
+      },
+      "koprivnica": {
+        "opis": {
+          "sh": "Posvećeno žrtvama ustaškog [logora Danica](Q11295127), koji je u Koprivnici radio 1941-1942. Betonska kompozicija Lenka Pleštine poznata kao „Vješala“ deo je memorijalnog prostora uređenog na mestu nekadašnjeg logora.",
+          "en": "Dedicated to the victims of the Ustaša-run [Danica concentration camp](Q11295127), which operated in Koprivnica in 1941–1942. Lenko Pleština’s concrete “Gallows” composition forms part of the memorial grounds established at the former camp site."
+        }
+      },
+      "slavonski-brod": {
+        "opis": {
+          "sh": "Posvećeno palim partizanskim borcima slavonskobrodskog kraja. Bronzana figura borca sa zastavom, delo Dušana Džamonje iz 1951, uklonjena je iz parka Klasije tokom 1990-ih.",
+          "en": "Dedicated to fallen Partisan fighters from the Slavonski Brod area. Dušan Džamonja’s bronze figure of a fighter with a flag, erected in 1951, was removed from Klasije Park during the 1990s."
+        }
+      },
+      "kikinda-victims-fascism": {
+        "opis": {
+          "sh": "Posvećeno palim borcima i žrtvama fašizma iz Kikinde. Središnju figuru „Ranjenika“, koja rukom dodiruje grudi, prate dva bronzana reljefa Aleksandra Zarina sa prizorima oslobodilačke borbe.",
+          "en": "Dedicated to fallen fighters and victims of fascism from Kikinda. The central “Wounded Fighter” figure, with a hand against its chest, is flanked by two bronze reliefs by Aleksandar Zarin depicting the liberation struggle."
+        }
+      },
+      "golubac": {
+        "opis": {
+          "sh": "Posvećeno palim borcima golubačkog kraja iz oslobodilačkih ratova, uključujući Drugi svetski rat. Spomenik je 2024. restauriran i premešten sa gradskog trga u park.",
+          "en": "Dedicated to fallen fighters from the Golubac area in the liberation wars, including the Second World War. The monument was restored in 2024 and moved from the town square to a park."
+        },
+        "adresa": "Gradski park"
+      },
+      "beograd-crvenoarmejac": {
+        "opis": {
+          "sh": "Posvećeno vojnicima Crvene armije poginulim u oslobađanju Beograda 1944. Skulptura Antuna Augustinčića prikazuje vojnika sa puškom i postavljena je 1954. unutar Groblja oslobodilaca Beograda.",
+          "en": "Dedicated to Red Army soldiers killed in the liberation of Belgrade in 1944. Antun Augustinčić’s sculpture depicts a soldier with a rifle and was installed in 1954 inside the Cemetery of the Liberators of Belgrade."
+        },
+        "adresa": "Groblje oslobodilaca Beograda"
+      },
+      "beograd-spomenik-mosi-pijade": {
+        "opis": {
+          "sh": "Posvećeno [Moši Pijade](Q453472). Spomenik Branka Ružića otkriven je 7. jula 1969. u Makedonskoj ulici.",
+          "en": "Dedicated to [Moša Pijade](Q453472). Branko Ružić’s monument was unveiled on 7 July 1969 in Makedonska Street."
+        },
+        "adresa": "Makedonska ulica"
+      },
+      "gornji-milanovac-spomenik-borbe": {
+        "opis": {
+          "sh": "Posvećeno stradanju, težnji za slobodom i pobedi u oslobodilačkoj borbi. Celinu Ratomira Stojadinovića čine dva mermerna zida nalik otvorenoj knjizi, sa reljefima majke sa detetom i borca, i metalni obelisk u obliku munje.",
+          "en": "Dedicated to suffering, the pursuit of freedom and victory in the liberation struggle. Ratomir Stojadinović’s ensemble combines two marble walls resembling an open book, with reliefs of a mother and child and a fighter, and a metal obelisk shaped like lightning."
+        },
+        "adresa": "Trg kneza Mihaila"
+      },
+      "beograd-banjica-spomenik-zrtvama-logora": {
+        "opis": {
+          "sh": "Posvećeno zatočenicima i žrtvama [Banjičkog logora](Q698270). Spomenik Nikole Kolje Milunovića i Ane Viđen nalazi se ispred nekadašnjeg logora i čini ga zakrivljeni betonski zid sa skulpturalnim elementima i stihom Branka Miljkovića.",
+          "en": "Dedicated to the prisoners and victims of [Banjica concentration camp](Q698270). Nikola Kolja Milunović and Ana Viđen’s monument stands in front of the former camp and consists of a curved concrete wall with sculptural elements and a verse by Branko Miljković."
+        }
+      }
+    },
+    "izvori": {
+      "ada": [
+        "https://www.spomenikdatabase.org/ada"
+      ],
+      "mitrasinci": [
+        "https://www.spomenikdatabase.org/mitrasinci"
+      ],
+      "otesevo": [
+        "https://www.spomenikdatabase.org/otesevo"
+      ],
+      "zrenjanin": [
+        "https://www.spomenikdatabase.org/zrenjanin"
+      ],
+      "titel": [
+        "https://www.spomenikdatabase.org/titel"
+      ],
+      "lukovdol": [
+        "https://www.spomenikdatabase.org/lukovdol"
+      ],
+      "trubjela": [
+        "https://www.vijesti.me/vijesti/drustvo/525333/naprijed-u-pobjede-za-bolje-dane"
+      ],
+      "belgrade-cemetery": [
+        "https://www.spomenikdatabase.org/belgrade"
+      ],
+      "obadov-brijeg": [
+        "https://www.spomenikdatabase.org/obadov-brijeg"
+      ],
+      "kumanovo-revolution": [
+        "https://www.spomenikdatabase.org/kumanovo"
+      ],
+      "zupa-niksicka": [
+        "https://www.spomenikdatabase.org/zupa",
+        "https://sh.wikipedia.org/wiki/Bitka_na_Sutjesci"
+      ],
+      "crnomelj": [
+        "https://www.spomenikdatabase.org/crnomelj",
+        "https://www.zvkds.si/wp-content/uploads/2025/06/Sto-let-v-dobro-dediscine.pdf",
+        "https://partizanstvo.si/en/detail/partisanmemorial/735/"
+      ],
+      "peje-pec": [
+        "https://www.spomenikdatabase.org/peje-pec"
+      ],
+      "koprivnica": [
+        "https://www.spomenikdatabase.org/koprivnica",
+        "https://koprivnica.hr/wp-content/uploads/2024/03/Konzervatorska-podloga-GKC.pdf"
+      ],
+      "slavonski-brod": [
+        "https://www.spomenikdatabase.org/brod"
+      ],
+      "kikinda-victims-fascism": [
+        "https://www.spomenikdatabase.org/kikinda"
+      ],
+      "golubac": [
+        "https://recnaroda.co.rs/golubac-spomenik-palim-borcima-na-novoj-lokaciji/"
+      ],
+      "beograd-crvenoarmejac": [
+        "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D1%86%D1%80%D0%B2%D0%B5%D0%BD%D0%BE%D0%B0%D1%80%D0%BC%D0%B5%D1%98%D1%86%D1%83_%D1%83_%D0%91%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D1%83"
+      ],
+      "beograd-spomenik-mosi-pijade": [
+        "https://skulptura-hronologijaizlaganja.rs/spomenik-mosi-pijade-u-beogradu/"
+      ],
+      "gornji-milanovac-spomenik-borbe": [
+        "https://www.muzejgm.org/en/the-victory-monument-in-the-prince-mihailo-square/"
+      ],
+      "beograd-banjica-spomenik-zrtvama-logora": [
+        "https://www.spomenikdatabase.org/jajinci"
+      ]
+    },
+    "ishod": "Dopunjeno svih 21 preostalih spomenika sa člankom, bez opisa, opisima na oba jezika. Sačuvane sve postojeće Q-posvete i povezane u oba opisa; tekstualnih posveta nije bilo. Dopunjena četiri autora i devet opisa položaja. Koordinate, godine, stanja, fotografije, vrste, postojeći članci i poreklo podataka nisu menjani; ostali zapisi očuvani.",
+    "razreseno": {
+      "beograd-spomenik-mosi-pijade": "Pogrešna adresa Grobnica narodnih heroja na Kalemegdanu zamenjena Makedonskom ulicom, prema Hronologiji izlaganja skulpture. Branko Ružić, 7.7.1969; postojeća tačka i fotografija pripadaju spomeniku u Makedonskoj, ne grobnici.",
+      "belgrade-cemetery": "Sefardsko jevrejsko groblje nalazi se preko puta Novog groblja; mesto Beograd(Novo groblje) ispravljeno u Beograd(Jevrejsko groblje), bez pomeranja tačke.",
+      "kumanovo-revolution": "SDB glavno poglavlje govori o kosturnici1957 Stojanovića/Zordumisa. Ciljni zapis je dodatno poglavlje Monument to the Revolution1962: Makedonka i tri zida, Kosta Angeli Radovani i Marijan Haberle, na istoj tački kao postojeći zapis; dodat koautor.",
+      "crnomelj": "Koautor Marko Župančič potvrđen SDB, stručnom publikacijom ZVKDS i Partizanstvo.",
+      "otesevo": "Boro Josifovski potvrđen u SDB kao arhitekta izvedenog projekta, uz Jordana Grabula.",
+      "zupa-niksicka": "Dopunjen autor Ljubo Vojvodić. SDB pogrešno stavlja Sutjesku u jul1942; u opis preneta ispravna1943, proverena kroz članak o bici.",
+      "golubac": "Reportaža Reči naroda27.10.2024 izričito potvrđuje restauraciju i premeštaj sa trga u park; događaj ne menja godinu prvobitnog podizanja1967.",
+      "ada": "Stara /ada URL sada preusmerava na SDB Kikinda; korišćeno posebno poglavlje o Adi, ne glavni kikindski spomenik.",
+      "beograd-banjica-spomenik-zrtvama-logora": "Korišćeno posebno poglavlje o Banjičkom logoru, ne glavni spomenik Jajincima.",
+      "koprivnica": "Konzervatorska podloga grada potvrđuje1979 za Vješala i1981 za otvaranje celine Danica; postojeća1979 sačuvana."
+    },
+    "dilema": {
+      "zrenjanin": "Postojeća1982 već izabrana u ranijoj odluci o različitim godinama; SDB1985 nije prepisana preko nje.",
+      "slavonski-brod": "SDB navodi uklanjanje1995, drugi istorijski popisi daju1990-e; opisu je sačuvan samo potvrđeni period, postojećeuklonjen ostaje.",
+      "mitrasinci": "SDB u pasusu o otvaranju ima omašku17.9.1944 kao tridesetu godišnjicu, dok zaglavlje i ceo smisao potvrđuju1974; greška nije preneta.",
+      "golubac": "Autor nije potvrđen u članku; polje ostaje prazno.",
+      "stanje": "Nema proglašavanja starog terenskog obilaska potvrdom stanja2026; istorije rušenja i uklanjanja uključene tamo gde su potvrđene, postojeće oznake sačuvane."
+    }
+  },
+  {
+    "odluka": "spomenici-sa-clankom-opisi-naknadna-tri-2026-10-21",
+    "datum": "2026-10-21",
+    "pre": {
+      "skopje-women-fighters": {
+        "opis": null,
+        "adresa": null
+      },
+      "bitola-deported-jews": {
+        "opis": null,
+        "autor": null,
+        "adresa": null
+      },
+      "strumica-fallen-fighters": {
+        "opis": null,
+        "godina": null,
+        "adresa": null
+      }
+    },
+    "dopunjeno": {
+      "skopje-women-fighters": {
+        "opis": {
+          "sh": "Posvećeno [ženama učesnicama narodnooslobodilačke borbe](Q192045) iz Skoplja i Makedonije. Mermerni spomenik Bore Mitričevskog otkriven je 8. marta 1970. u parku „Žena borac“.",
+          "en": "Dedicated to [women who took part in the Partisan liberation struggle](Q192045) from Skopje and Macedonia. Boro Mitričevski’s marble monument was unveiled on 8 March 1970 in Woman Warrior Park."
+        },
+        "adresa": "Парк „Жена борец“, пред Градскиот трговски центар"
+      },
+      "bitola-deported-jews": {
+        "opis": {
+          "sh": "Posvećeno Jevrejima iz Bitolja deportovanim 1943. i ubijenim u nacističkim logorima. Kamena menora postavljena je 11. marta 1958. na mestu nekadašnje sinagoge Aragon, ispred današnjeg zdravstvenog doma „Dr Haim Abravanel“.",
+          "en": "Dedicated to the Jews of Bitola deported in 1943 and murdered in Nazi camps. The stone menorah was erected on 11 March 1958 at the site of the former Aragon synagogue, in front of today’s Dr Haim Abravanel Health Centre."
+        },
+        "autor": "Marika Mitrevska & Petar Peška",
+        "adresa": "Пред здравствениот дом „Д-р Хаим Абраванел“, на местото на синагогата Арагон"
+      },
+      "strumica-fallen-fighters": {
+        "opis": {
+          "sh": "Posvećeno palim borcima narodnooslobodilačke borbe iz Strumice. Spomenik Ilije Adžievskog čine mermerni stub sa reljefima učesnika borbe i dve aluminijumske figure palih boraca, na zajedničkoj platformi.",
+          "en": "Dedicated to fallen Partisan fighters from Strumica. Ilija Adžievski’s monument combines a marble column with reliefs of participants in the struggle and two aluminium figures of fallen fighters on a shared platform."
+        },
+        "godina": "1963",
+        "adresa": "На влезот во Градскиот парк"
+      }
+    },
+    "izvori": {
+      "skopje-women-fighters": "https://mk.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%B6%D0%B5%D0%BD%D0%B0%D1%82%D0%B0-%D0%B1%D0%BE%D1%80%D0%B5%D1%86_%28%D0%A1%D0%BA%D0%BE%D0%BF%D1%98%D0%B5%29",
+      "bitola-deported-jews": "https://mk.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%B4%D0%B5%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5_%D0%95%D0%B2%D1%80%D0%B5%D0%B8_%28%D0%91%D0%B8%D1%82%D0%BE%D0%BB%D0%B0%29",
+      "strumica-fallen-fighters": "https://mk.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%A0%D0%B5%D0%B2%D0%BE%D0%BB%D1%83%D1%86%D0%B8%D1%98%D0%B0%D1%82%D0%B0_%28%D0%A1%D1%82%D1%80%D1%83%D0%BC%D0%B8%D1%86%D0%B0%29"
+    },
+    "ishod": "Tokom završnog prolaza još tri zapisa dobila su konkretan članak; dopunjena dvojezičnim opisima, tri položaja, godinom1963 Strumica i autorima bitoljskog memorijala. Q-posveta ženama uNOB očuvana i povezana u oba jezika. Nisu menjane koordinate, fotografije, vrste i postojeći nazivi.",
+    "dilema": {
+      "bitola-deported-jews": "Wiki daje3351deportovanog u tekstu, natpis3013; broj nije proizvoljno izabran za opis. Za autore upisani arhitekta i autor ideje, MarikaMitrevska iPetarPeška; saradnici HaimAbravanel iNikoServini nisu proglašeni projektantima. Koordinata Wiki razlikuje se od postojeće tačke; nije prepisana preko već lociranog zapisa."
+    }
+  },
+  {
+    "odluka": "slwiki-spomeniki-nob-2026-10-21",
+    "datum": "2026-10-21",
+    "izvor": "https://sl.wikipedia.org/wiki/Kategorija:Grobi%C5%A1%C4%8Da_NOB",
+    "obim": "kategorija Grobišča NOB i pretraga naslova (NOB, padlim, talcem, partizanska bolnišnica, spomenik osvoboditve, kosturnica, spominski park): 102 članka, od toga oko 27 o spomenicima i bolnicama; kopija u izvori/pretrage/slwiki-spomeniki-nob-2026-10-21/",
+    "prebaceno": {
+      "pohorje-pauckove-partizanske-bolnisnice": "tačka iz sl.wiki članka (46.50111, 15.17), na zapadnom Pohorju kod zapisa legen-bolnisnica-trska-gora (40 m), koji je jedna od bolnica celine"
+    },
+    "dopunjeno": {
+      "komarna-vas": {
+        "wiki": {
+          "staro": null,
+          "novo": "https://sl.wikipedia.org/wiki/Partizanska_bolni%C5%A1nica_Zgornji_Hrastnik"
+        }
+      },
+      "kocevski-rog-partizanska-bolnisnica-pugled": {
+        "wiki": {
+          "staro": null,
+          "novo": "https://sl.wikipedia.org/wiki/Partizanska_bolni%C5%A1nica_Pugled"
+        }
+      },
+      "planina-pod-sumikom-partizanska-bolnisnica-jesen": {
+        "wiki": {
+          "staro": null,
+          "novo": "https://sl.wikipedia.org/wiki/Partizanska_bolni%C5%A1nica_Jesen"
+        }
+      },
+      "maribor-maribor-liberation": {
+        "wiki": {
+          "staro": "https://www.spomenikdatabase.org/maribor",
+          "novo": "https://sl.wikipedia.org/wiki/Spomenik_osvoboditve%2C_Maribor"
+        }
+      },
+      "pohorje-pauckove-partizanske-bolnisnice": {
+        "wiki": {
+          "staro": null,
+          "novo": "https://sl.wikipedia.org/wiki/Pau%C4%8Dkove_partizanske_bolni%C5%A1nice"
+        }
+      }
+    },
+    "nalaz": "svi spomenici iz sl.wiki članaka već postoje; Teharje (posleratne žrtve) i Gorica (Italija, Prvi svetski rat) van obuhvata"
   }
 ]
