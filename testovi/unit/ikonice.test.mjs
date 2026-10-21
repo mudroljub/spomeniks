@@ -15,6 +15,9 @@ test('vrsta i stanje biraju sliku markera, a spomenik ostaje obelisk', () => {
   assert.equal(izgledMarkera({vrsta: 'groblje', stanje: 'rusevine'}).slika, 'slike/markeri/groblje-rusevina.svg')
   assert.equal(izgledMarkera({vrsta: 'groblje', stanje: 'uklonjen'}).slika, 'slike/markeri/groblje-uklonjen.svg')
   for (const stanje of [undefined, 'rusevine', 'uklonjen']) {
+    const cesma = izgledMarkera({vrsta: 'spomen-cesma', stanje})
+    assert.match(cesma.slika, /spomen-cesma-(postoji|rusevina|uklonjen)\.svg$/)
+    assert.ok(existsSync(new URL(`../../${cesma.slika}`, import.meta.url)))
     const izgled = izgledMarkera({vrsta: 'spomen-kuca', stanje})
     assert.match(izgled.slika, /spomen-kuca-(postoji|rusevina|uklonjen)\.svg$/)
     assert.ok(existsSync(new URL(`../../${izgled.slika}`, import.meta.url)))

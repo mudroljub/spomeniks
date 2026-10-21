@@ -101,6 +101,7 @@ const tekstovi = {
   reljef: {sh: 'Reljef', en: 'Relief'},
   'spomen-kuca': {sh: 'Spomen-kuća', en: 'Memorial house'},
   'spomen-obelezje': {sh: 'Spomen-obeležje', en: 'Memorial marker'},
+  'spomen-cesma': {sh: 'Spomen-česma', en: 'Memorial fountain'},
   'spomen-ploca': {sh: 'Spomen-ploča', en: 'Memorial plaque'},
   'spomen-groblje': {sh: 'Spomen-groblje', en: 'Memorial cemetery'},
   groblje: {sh: 'Groblje', en: 'Cemetery'},

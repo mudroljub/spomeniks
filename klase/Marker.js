@@ -6,7 +6,7 @@ import {nazivSpomenika, escapeHtml} from '../utils/helpers.js'
 import {najmanjiZum, slojSpomenika} from '../utils/vaznost.js'
 
 const razmeraZuma = {6: 0.5, 7: 0.55, 8: 0.65, 9: 0.8}
-const razmeraVrste = {'spomen-park': 1.25, 'spomen-groblje': 1.25, bista: 0.8, 'spomen-obelezje': 0.6, 'spomen-ploca': 0.6}
+const razmeraVrste = {'spomen-park': 1.25, 'spomen-groblje': 1.25, bista: 0.8, 'spomen-obelezje': 0.6, 'spomen-cesma': 0.7, 'spomen-ploca': 0.6}
 
 const ikonice = {}
 const dajIkonicu = ({slika, sirina, visina}, razmera, klasa, [dx, dy] = [0, 0], {priblizno = false, oznaka = null} = {}) => {

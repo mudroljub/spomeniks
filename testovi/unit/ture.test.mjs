@@ -44,7 +44,7 @@ test('velika tura sa stalnim pragom ima samo istaknute spomenike, bez obzira na 
 })
 
 test('svaka vrsta ima zaseban prag, a podrazumevani uključuje statue bez bista', () => {
-  const vrste = ['spomen-ploca', 'groblje', 'bista', 'reljef', 'spomen-kuca', 'spomen-obelezje', 'statua', 'spomen-groblje', 'spomenik', 'muzej', 'spomen-park', 'istaknut']
+  const vrste = ['spomen-ploca', 'groblje', 'spomen-cesma', 'bista', 'reljef', 'spomen-kuca', 'spomen-obelezje', 'statua', 'spomen-groblje', 'spomenik', 'muzej', 'spomen-park', 'istaknut']
   const rows = vrste.map(v => spomenik(v, v === 'istaknut' ? 'spomenik' : v, {istaknut: v === 'istaknut'}))
   for (const [i, prag] of nivoiVaznosti.entries())
     assert.deepEqual(ids(izaberiStanice(rows, oblast, prag)), nivoiVaznosti.slice(0, i + 1))

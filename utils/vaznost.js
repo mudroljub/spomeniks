@@ -10,11 +10,12 @@ export const vaznostVrste = {
   reljef: 8,
   'spomen-kuca': 9,
   'spomen-obelezje': 10,
-  groblje: 11,
-  'spomen-ploca': 12,
+  'spomen-cesma': 11,
+  groblje: 12,
+  'spomen-ploca': 13,
 }
 
-export const zumPoVaznosti = {1: 0, 2: 8, 3: 8, 4: 9, 5: 9, 6: 9, 7: 10, 8: 11, 9: 11, 10: 11, 11: 12, 12: 12}
+export const zumPoVaznosti = {1: 0, 2: 8, 3: 8, 4: 9, 5: 9, 6: 9, 7: 10, 8: 11, 9: 11, 10: 11, 11: 11, 12: 12, 13: 12}
 const poslednjiNivoZuma = Math.max(...Object.keys(zumPoVaznosti).map(Number))
 /** @param {number} vaznost */
 const zumVaznosti = vaznost => zumPoVaznosti[Math.min(vaznost, poslednjiNivoZuma)]

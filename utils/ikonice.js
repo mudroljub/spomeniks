@@ -36,14 +36,14 @@ export const znak = ({slika, sirina, visina}, visinaZnaka, {priblizno = false, o
     : slikaZnaka({slika, sirina, visina}, razmera, margine)
 }
 
-const visineVrsta = {istaknut: 44, statua: 33, bista: 28, reljef: 19, 'spomen-kuca': 25, 'spomen-obelezje': 24, 'spomen-groblje': 29, muzej: 26, groblje: 23, 'spomen-ploca': 17}
+const visineVrsta = {istaknut: 44, statua: 33, bista: 28, reljef: 19, 'spomen-kuca': 25, 'spomen-obelezje': 24, 'spomen-cesma': 24, 'spomen-groblje': 29, muzej: 26, groblje: 23, 'spomen-ploca': 17}
 export const visinaObeliska = 34
 
 /** @param {import('../data/tipovi').Vrsta | 'istaknut'} vrsta */
 export const znakVrste = (vrsta, razmera = 1) =>
   znak(izgledMarkera({vrsta: vrsta === 'istaknut' ? 'spomenik' : vrsta}), Math.round((visineVrsta[vrsta] || visinaObeliska) * razmera))
 
-const velicine = {'spomen-park': [34, 50], 'spomen-groblje': [29, 32], 'spomen-kuca': [34, 38], 'spomen-obelezje': [20, 28], muzej: [34, 38], groblje: [20, 28], 'spomen-ploca': [22, 16], reljef: [22, 16], bista: [22, 35], statua: [24, 48]}
+const velicine = {'spomen-park': [34, 50], 'spomen-groblje': [29, 32], 'spomen-kuca': [34, 38], 'spomen-obelezje': [20, 28], 'spomen-cesma': [24, 30], muzej: [34, 38], groblje: [20, 28], 'spomen-ploca': [22, 16], reljef: [22, 16], bista: [22, 35], statua: [24, 48]}
 
 /** @param {Pick<import('../data/tipovi').Spomenik, 'vrsta' | 'stanje'>} spomenik */
 export const izgledMarkera = ({vrsta, stanje}) => {
