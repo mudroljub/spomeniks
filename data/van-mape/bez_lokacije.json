@@ -1078,17 +1078,6 @@
     "adresa": "Bus station"
   },
   {
-    "id": "banovici-murali-u-spomen-na-nob",
-    "mesto": "Banovići",
-    "naziv": "Murali u spomen na NOB",
-    "nazivEn": "Murals to commemorate the NOB",
-    "godina": "1967",
-    "autor": "Ismet Mujezinović",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Workers' hall"
-  },
-  {
     "id": "konjuh-spomenik-brojnim-borbama-vodjenim-na-konjuh",
     "mesto": "Konjuh",
     "naziv": "Spomenik borbama na Konjuhu",
@@ -7776,46 +7765,6 @@
     "adresa": "Corner of Hadžiefendijina and Josipa Šibera"
   },
   {
-    "id": "gradacac-bista-hasana-kikica",
-    "mesto": "Gradačac",
-    "naziv": "Bista Hasana Kikića",
-    "nazivEn": "Bust of Hasan Kikić",
-    "godina": "1958",
-    "posveta": "Hasan Kikić",
-    "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Town park"
-  },
-  {
-    "id": "gradacac-bista-pere-bosica",
-    "mesto": "Gradačac",
-    "naziv": "Bista Pere Bosića",
-    "nazivEn": "Bust of Pero Bosić",
-    "autor": "Ibrahim Bilajac",
-    "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Gradski park",
-    "opis": {
-      "sh": "Prvobitnu bistu Pere Bosića izradio je Ibrahim Bilajac. Zamenjena je posle 2012; autorstvo zamene nije potvrđeno.",
-      "en": "Ibrahim Bilajac made the original bust of Pero Bosić. It was replaced after 2012; the replacement’s authorship has not been confirmed."
-    }
-  },
-  {
-    "id": "gradacac-bista-josipa-sibera",
-    "mesto": "Gradačac",
-    "naziv": "Bista Josipa Šibera",
-    "nazivEn": "Bust of Josip Šiber",
-    "autor": "Ibrahim Bilajac",
-    "stanje": "ostecen",
-    "vrsta": "bista",
-    "drzava": "Bosnia and Herzegovina",
-    "adresa": "Gradski park",
-    "opis": {
-      "sh": "Bista Josipa Šibera, delo Ibrahima Bilajca u gradskom parku, ima više oštećenja od metaka.",
-      "en": "Ibrahim Bilajac’s bust of Josip Šiber in the town park has several bullet holes."
-    }
-  },
-  {
     "id": "gradacac-spomen-ploca-oblasnom-sjedistu-kpj-1943-1",
     "mesto": "Gradačac",
     "naziv": "Spomen-ploča oblasnom sjedištu KPJ 1943-1944",
@@ -7833,7 +7782,11 @@
     "godina": "1952",
     "vrsta": "spomen-obelezje",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Inside fortress"
+    "adresa": "Unutar stare gradačačke tvrđave",
+    "opis": {
+      "sh": "Posvećeno žrtvama Drugog svetskog rata. Obeležje sa mermernom pločom i imenima postavljeno je unutar tvrđave 1952.",
+      "en": "Dedicated to victims of World War II. The memorial, with a marble plaque bearing their names, was erected inside the fortress in 1952."
+    }
   },
   {
     "id": "srnice-spomen-ploca-na-mjestu-smrti-narodnog-heroj",
@@ -9280,9 +9233,16 @@
     "vrsta": "spomen-kuca",
     "drzava": "Bosnia and Herzegovina",
     "opis": {
-      "sh": "Zgrada obeležena pločom boravku Vrhovnog štaba i Tita uređena je kao spomen-kuća. Današnja ploča postavljena je oko 2011-2013.",
-      "en": "The building marked by a plaque to the stay of Supreme Headquarters and Tito has been converted into a memorial house. The present plaque was installed around 2011-2013."
-    }
+      "sh": "Spomen-kuća obeležava boravak [Josipa Broza Tita](Q9161) i Vrhovnog štaba od 1. do 15. jula 1943. Stalna postavka uređena je 2018. uz podršku Muzeja istočne Bosne, a obilazak spomen-sobe potvrđen je i u opštinskoj objavi iz 2024.",
+      "en": "The memorial house commemorates the stay of [Josip Broz Tito](Q9161) and the Supreme Headquarters from 1 to 15 July 1943. Its permanent exhibition was developed in 2018 with support from the Museum of Eastern Bosnia, and a visit to the memorial room was also documented by the municipality in 2024."
+    },
+    "adresa": "Kuća Muje i Timke Mazalović u Plahovićima",
+    "posveta": [
+      "Q9161"
+    ],
+    "slika": "slike/bez-lokacije/plahovici-spomen-ploca-boravku-vrhovnog-staba-i-ti.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Lawler i Mujkić, terenski izveštaj 2019"
   },
   {
     "id": "miljkovac-spomen-ploca-koju-je-postavilo-dobrovolj",
@@ -17343,20 +17303,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "trnovac-spomen-kompleks-slana-banja",
-    "mesto": "Tuzla (Slana Banja)",
-    "naziv": "Spomen-kompleks „Slana Banja“",
-    "nazivEn": "'Slana Banja' memorial complex",
-    "godina": "1959",
-    "autor": "Ismet Mujezinović & Dragiša Trifković & Pero Jelisić",
-    "vrsta": "spomen-park",
-    "drzava": "Bosnia and Herzegovina",
-    "opis": {
-      "sh": "Memorijalna celina od 1959. obuhvata grobnicu, obeležja borcima i žrtvama fašizma, umetnička dela i aleju bista. Ismet Mujezinović, Dragiša Trifković i Pero Jelisić autori su različitih delova; njihove godine i kasnija proširenja nisu godina jednog zajedničkog spomenika.",
-      "en": "Developed from 1959, the memorial complex includes a collective grave, memorials to fighters and victims of fascism, artworks and a bust avenue. Ismet Mujezinović, Dragiša Trifković and Pero Jelisić made different elements; their individual dates and later additions do not date one single shared monument."
-    }
-  },
-  {
     "id": "solana-bista-albina-herljevica",
     "mesto": "Solana",
     "naziv": "Bista Albina Herljevića",
@@ -20094,16 +20040,6 @@
         "opis": "StoryMap (Vijesti, čitaoci): „Spomenik u Dolima, Piva“: mesto stradanja 7. juna 1943; tačka nepotvrđena"
       }
     ]
-  },
-  {
-    "id": "igalo-spomenik-palim-borcima-u-nor-u-i-zrtvama-fas",
-    "mesto": "Igalo",
-    "naziv": "Spomenik palim borcima u NOR-u i žrtvama fašizma",
-    "godina": "1969",
-    "autor": "Milorad Petijević",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Montenegro",
-    "adresa": "Omladinski park u Igalu; sedam petougaonih ploča sa imenima palih oko mermernog cveta"
   },
   {
     "id": "igalo-spomen-cesma",
@@ -34053,19 +33989,6 @@
     "drzava": "Bosnia and Herzegovina"
   },
   {
-    "id": "brnjik-spomen-dom-ahmeta-kobica",
-    "mesto": "Brnjik",
-    "naziv": "Spomen-dom Ahmeta Kobića",
-    "nazivEn": "Ahmet Kobić memorial hall",
-    "godina": "1979",
-    "vrsta": "spomen-kuca",
-    "drzava": "Bosnia and Herzegovina",
-    "opis": {
-      "sh": "Spomen-dom Ahmeta Kobića iz 1979. i dalje postoji kao zgrada, ali više ne obavlja memorijalnu funkciju. Nije potvrđena postavka otvorena za posetioce.",
-      "en": "The 1979 Ahmet Kobić memorial hall survives as a building but no longer serves a memorial function. A display open to visitors is unconfirmed."
-    }
-  },
-  {
     "id": "sibosnica-spomenik-zrtvama-fasistickog-terora",
     "mesto": "Šibošnica",
     "naziv": "Spomenik žrtvama fašističkog terora",
@@ -41303,6 +41226,7 @@
   {
     "id": "bijela-gora-spomenik-zrtvama-fasizma",
     "mesto": "Bijela Gora (Ulcinj)",
+    "adresa": "Podnožje Bijele Gore (Mali i Bardh), nadomak Ulcinja",
     "naziv": "Spomenik žrtvama fašizma",
     "posveta": "13 mještana koje su strijeljali njemački okupatori",
     "vrsta": "spomenik",

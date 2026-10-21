@@ -31836,14 +31836,17 @@
         "tacka": "centar Sombora, priblizno"
       }
     ],
-    "dileme": {
-      "kupusina-bista-vukice-mitrovic": "Popović-Zuma 1981: „ispred preduzeća koje nosi njeno ime, postavljena 1976“; 2016. stoji na Trgu oslobođenja sa ostalim bistama, verovatno premeštena"
-    },
     "preskoceno": {
       "Bista_Milke_Grgurov_u_Somboru_01.jpg": "Milka Grgurova-Aleksić, glumica 19. veka",
       "Bista_Nikole_Petrovića_Pece_u_Somboru_01.jpg": "pozorišni reditelj (1932–1984), sr.wikipedia",
       "Bista_Dušana_Savića_Dode.JPG": "pretraga na mreži nije našla vezu sa NOB-om (Dom zdravlja „Dr Dušan Savić Doda“)",
       "Spomenik_Radivoju_Popoviću_u_Adi.jpg": "pretraga na mreži nije našla vezu sa NOB-om"
+    },
+    "razresenoKasnije": {
+      "kupusina-bista-vukice-mitrovic": {
+        "bilo": "Popović-Zuma 1981: „ispred preduzeća koje nosi njeno ime, postavljena 1976“; 2016. stoji na Trgu oslobođenja sa ostalim bistama, verovatno premeštena",
+        "resenje": "zapis je na Trgu oslobođenja u Apatinu gde ga pokazuje fotografija 2016; nekadašnje mesto ispred preduzeća je istorijski podatak"
+      }
     }
   },
   {
@@ -31941,10 +31944,16 @@
         "dokaz": "Fotografija Tommes 2015, Park istarskih velikana; približna tačka parka iz GPS-a fotografija."
       }
     ],
-    "otvoreno": [
-      "Borovo Naselje: File:World War II monument in Borovo Naselje.jpg ima GPS 45.184637, 19.013116 – moguća nezavisna tačka za povučeni zapis djeletovci-spomenik-nob; nije provereno.",
-      "Pazin: spomenik „Smrt fašizmu – sloboda narodu“ u istom parku i biste Jože Šurana i Vjekoslava Ivančića-Didija nisu upisane bez provere."
-    ]
+    "razresenoKasnije": {
+      "Borovo Naselje: File:World War II monument in Borovo Naselje": {
+        "bilo": "Borovo Naselje: File:World War II monument in Borovo Naselje.jpg ima GPS 45.184637, 19.013116 – moguća nezavisna tačka za povučeni zapis djeletovci-spomenik-nob; nije provereno.",
+        "resenje": "Borovo: rešeno 2026-10-21 (GPS fotografije lažan; fotografija dodeljena zapisu vukovar-ii-kolonija)"
+      },
+      "Pazin: spomenik „Smrt fašizmu – sloboda narodu“ u istom park": {
+        "bilo": "Pazin: spomenik „Smrt fašizmu – sloboda narodu“ u istom parku i biste Jože Šurana i Vjekoslava Ivančića-Didija nisu upisane bez provere.",
+        "resenje": "Pazin: dodati pazin-bista-vjekoslava-ivancica-didija i pazin-spomenik-smrt-fasizmu-sloboda-narodu (Commons, Tommes 2015); bista Jože Šurana već postoji"
+      }
+    }
   },
   {
     "odluka": "vrsta-reljef-iz-naziva-2026-10-20",
@@ -33027,10 +33036,7 @@
     "dileme": {
       "medvedja-bista": "Popović-Zuma navodi u Medveđi dve biste vajara D. Nikolića, jednu bez imena; Commons i en.wikipedia imaju u Medveđi biste Bukilića i Božidara Stojanovića, pa je neimenovana upisana kao Stojanovićeva",
       "ivanjica-bista-milosava-matovica": "fotografija Commons-a nosi ime Mićo Matović; uzeto da je to Milosav Matović",
-      "kucevo-spomenik-veljku-dugosevicu": "fotografija prikazuje i bistu Slobodana Jovića (zapis kucevo-bista-slobodana-jovica)",
-      "pirot-bista-milivoja-manica-albante": "možda isto što neimenovani zapis pirot-bista (1977)",
-      "nova-pazova-bista-dusana-vukasovica-diogena": "postoji i petrovcic-bista-dusana-vukasovica; Commons i en.wikipedia stavljaju ovu u Novu Pazovu",
-      "prijepolje-spomenik-narodnim-herojima": "možda isto što neimenovani zapisi prijepolje-spomenik ili prijepolje-spomenik-2"
+      "kucevo-spomenik-veljku-dugosevicu": "fotografija prikazuje i bistu Slobodana Jovića (zapis kucevo-bista-slobodana-jovica)"
     },
     "preskoceno": {
       "Radoinja,_Nova_Varoš_01.jpg": "bista se jedva vidi ispred zgrade škole",
@@ -33053,7 +33059,21 @@
       "prijepolje-bista-milica-rakica-mirka",
       "prijepolje-bista-save-erakovica-strahinje",
       "prijepolje-spomenik-i-grob-ratka-pavlovica"
-    ]
+    ],
+    "razresenoKasnije": {
+      "nova-pazova-bista-dusana-vukasovica-diogena": {
+        "bilo": "postoji i petrovcic-bista-dusana-vukasovica; Commons i en.wikipedia stavljaju ovu u Novu Pazovu",
+        "resenje": "zapis nova-pazova-bista-dusana-vukasovica-diogena više ne postoji (spojen ili uklonjen u kasnijoj odluci, 2026-10-21); dilema zatvorena"
+      },
+      "prijepolje-spomenik-narodnim-herojima": {
+        "bilo": "možda isto što neimenovani zapisi prijepolje-spomenik ili prijepolje-spomenik-2",
+        "resenje": "zapis prijepolje-spomenik-narodnim-herojima više ne postoji (spojen ili uklonjen u kasnijoj odluci, 2026-10-21); dilema zatvorena"
+      },
+      "pirot-bista-milivoja-manica-albante": {
+        "bilo": "možda isto što neimenovani zapis pirot-bista (1977)",
+        "resenje": "nije isto: neimenovani zapis pirot-bista je u međuvremenu imenovan kao Bista Predraga Boškovića Pavla (1977)"
+      }
+    }
   },
   {
     "odluka": "spomenicinob-brzi-prolaz-2198-4324-2026-10-20",
@@ -36010,13 +36030,18 @@
       "beograd-novi-beograd-biste-sedam-sekretara-skoj-a": "https://commons.wikimedia.org/wiki/File:Sedam_sekretara_SKOJ-a.JPG"
     },
     "dileme": {
-      "beograd-novi-beograd-bista-milentija-popovica": "Milentije Popović, partizan i posleratni političar; tačno mesto na Novom Beogradu nepoznato",
-      "za-okusatora-bista": "verovatno duplikat zapisa beograd-jovanovic (bista Miroslava Jovanovića Mime kod PTT škole na Palilulu, Commons Srednja tehnička PTT škola Beograd 08); nije spajano"
+      "beograd-novi-beograd-bista-milentija-popovica": "Milentije Popović, partizan i posleratni političar; tačno mesto na Novom Beogradu nepoznato"
     },
     "preskoceno": {
       "grobovi u Aleji narodnih heroja i na Novom groblju (Ranković, Vujošević, Goša, Milojević, Rodić, Agbaba, Oraovac, Karaivanov)": "groblje imamo na mapi",
       "ostale biste u kategoriji": "pisci, naučnici, vladari, političari pre 1941 (Tucović, Dušan Popović, Radovan Dragović, Abrašević) i strane ličnosti",
       "Spomenik Dušanu/Nebojši Jerkoviću u Beogradu": "pokriveno zapisom beograd-jerkovic"
+    },
+    "razresenoKasnije": {
+      "za-okusatora-bista": {
+        "bilo": "verovatno duplikat zapisa beograd-jovanovic (bista Miroslava Jovanovića Mime kod PTT škole na Palilulu, Commons Srednja tehnička PTT škola Beograd 08); nije spajano",
+        "resenje": "zapis za-okusatora-bista više ne postoji (spojen ili uklonjen u kasnijoj odluci, 2026-10-21); dilema zatvorena"
+      }
     }
   },
   {
@@ -37033,10 +37058,15 @@
       }
     },
     "dileme": {
-      "guca-bista-svetislava-nedovica": "Svetislav Nedović (1887–1963), učesnik Vukovarskog kongresa KPJ 1920; predratni revolucionarni pokret",
-      "kula-spomenik-na-trgu-oslobodjenja-u-znak-zahvalno": "verovatno isto što zapis kula (statua, 1951); Commons: Spomenik zahvalnosti borcima NOR-a u Kuli, Stevan Bodnarov; nije spajano"
+      "guca-bista-svetislava-nedovica": "Svetislav Nedović (1887–1963), učesnik Vukovarskog kongresa KPJ 1920; predratni revolucionarni pokret"
     },
-    "obim": "koren obiđen; seoska spomen-obeležja bez fotografije (Brdarica, Draginje, Jamena, Korman, Morović, Zminjak, Sirig, Skela, Surduk…) ostavljena za prolaz nižeg prioriteta"
+    "obim": "koren obiđen; seoska spomen-obeležja bez fotografije (Brdarica, Draginje, Jamena, Korman, Morović, Zminjak, Sirig, Skela, Surduk…) ostavljena za prolaz nižeg prioriteta",
+    "razresenoKasnije": {
+      "kula-spomenik-na-trgu-oslobodjenja-u-znak-zahvalno": {
+        "bilo": "verovatno isto što zapis kula (statua, 1951); Commons: Spomenik zahvalnosti borcima NOR-a u Kuli, Stevan Bodnarov; nije spajano",
+        "resenje": "zapis kula-spomenik-na-trgu-oslobodjenja-u-znak-zahvalno više ne postoji (spojen ili uklonjen u kasnijoj odluci, 2026-10-21); dilema zatvorena"
+      }
+    }
   },
   {
     "odluka": "commons-partizani-srbija-ostatak-2026-10-20",
@@ -39995,14 +40025,22 @@
     "opstanak": "fotografije od 2007. do 2021, dakle posle talasa rušenja 1990–2000",
     "dileme": {
       "sarengrad-spomenik-nob": "fotografija je centralni spomenik partizanskog groblja u Šarengradu; zapis je „Spomenik NOB“",
-      "osijek-spomenik-zrtvama-fasizma-majka-s-djetetom": "tačka je centar Osijeka; fotografija 2012",
-      "bracevci-spomenik-palim-borcima-i-civilnim-zrtvama": "u arhivi kao uklonjen, a Commons (2025) pokazuje antifašistički spomenik kod crkve u Bračevcima; možda obnovljen ili drugi; nije menjano",
-      "palaca-spomenik-za-19-palih-boraca-i-8-civilnih-zr": "u arhivi kao uklonjen, a Commons (2019, GPS 45.41076, 18.71939) pokazuje spomenik u Palači; nije menjano"
+      "osijek-spomenik-zrtvama-fasizma-majka-s-djetetom": "tačka je centar Osijeka; fotografija 2012"
     },
     "preskoceno": {
       "Kaštel Kambelovac, Kaštel Sućurac, Šljivoševci, Mikluševci, Tribunj, Drežnica, Ilok, Vrapče": "nije jasno kom od više zapisa u mestu pripada",
       "ploče (Split, Zagreb PTT, Mirkovci…), Srb 2025, Knin pre rušenja, Senj (mornari)": "ploča, skup ili nije NOB",
       "Rijeka, spomenik željezničarima (1954)": "nije provereno da li ga imamo pod drugim nazivom"
+    },
+    "razresenoKasnije": {
+      "bracevci-spomenik-palim-borcima-i-civilnim-zrtvama": {
+        "bilo": "u arhivi kao uklonjen, a Commons (2025) pokazuje antifašistički spomenik kod crkve u Bračevcima; možda obnovljen ili drugi; nije menjano",
+        "resenje": "vraćen iz arhive na mapu 2026-10-21"
+      },
+      "palaca-spomenik-za-19-palih-boraca-i-8-civilnih-zr": {
+        "bilo": "u arhivi kao uklonjen, a Commons (2019, GPS 45.41076, 18.71939) pokazuje spomenik u Palači; nije menjano",
+        "resenje": "vraćen iz arhive na mapu 2026-10-21"
+      }
     }
   },
   {
@@ -47765,11 +47803,16 @@
     "kopija": "izvori/pretrage/srwiki-spomenici-nob-2026-10-20/",
     "obim": "ponovljen prolaz: 38 fotografija galerije kojih nema u sh članku proverene prema zapisima; svi prikazani spomenici već imaju fotografije, osim parova navedenih u dilemama",
     "dileme": {
-      "medjuvodje-spomenik-partizanskim-pilotima / medjuvodje-uremovac-spomenik-kluzu-i-cajavecu": "isti posvećeni (Kluz i Čajavec), tačke 2 km razmaknute, prva približna; verovatno isti spomenik kod prvog partizanskog aerodroma, nije spajano bez potvrde mesta",
       "donja-trnova-spomen-groblje": "bez fotografije; galerijska fotografija Spomenik-Trnova_07.jpg prikazuje spomenik u groblju (zapis donja-trnova)"
     },
     "preskoceno": {
       "Ossario_Commemorativo_dei_Caduti_Slavi.jpg": "van bivše Jugoslavije"
+    },
+    "razresenoKasnije": {
+      "medjuvodje-spomenik-partizanskim-pilotima / medjuvodje-uremovac-spomenik-kluzu-i-cajavecu": {
+        "bilo": "isti posvećeni (Kluz i Čajavec), tačke 2 km razmaknute, prva približna; verovatno isti spomenik kod prvog partizanskog aerodroma, nije spajano bez potvrde mesta",
+        "resenje": "zapis medjuvodje-spomenik-partizanskim-pilotima više ne postoji (spojen ili uklonjen u kasnijoj odluci, 2026-10-21); dilema zatvorena"
+      }
     }
   },
   {
@@ -48735,7 +48778,6 @@
     "dileme": {
       "sekovici-bista-milosa-zekica": "en spisak stavlja bistu u Šekoviće, a Commons opis fotografije Споменик_у_Шековићима.jpg kaže „u Milićima“; fotografija nije upisana",
       "tuzla-tito": "spisak navodi 18 heroja u Slanoj Banji; povezani su samo oni sa člancima (Tito, Mijatović, Mičić, Ribar, Pijade, F. Herljević, Miljanović); en veza „Miloš Trifunović“ za Mitra Trifunovića Uču je pogrešna osoba",
-      "medjuvodje-uremovac-spomenik-kluzu-i-cajavecu / medjuvodje-spomenik-rudiju-cajavcu-i-franji-kluzu": "još dva zapisa posvećena Kluzu i Čajavecu u Međuvođu; nije potvrđeno da li su isti kao spomenik aerodromu",
       "sarajevo-trg-oslobodjenja-bista-*": "tačke su GPS fotografija (mesto snimanja)"
     },
     "preskoceno": {
@@ -48744,6 +48786,12 @@
       "Banja Luka, Trg palih boraca": "pokriveno zapisom banja-luka-biste-heroja",
       "Vraca, reljef sa Titovim citatom": "deo Spomen-parka Vraca",
       "Nevesinje": "četiri biste već postoje kao posebni zapisi"
+    },
+    "razresenoKasnije": {
+      "medjuvodje-uremovac-spomenik-kluzu-i-cajavecu / medjuvodje-spomenik-rudiju-cajavcu-i-franji-kluzu": {
+        "bilo": "još dva zapisa posvećena Kluzu i Čajavecu u Međuvođu; nije potvrđeno da li su isti kao spomenik aerodromu",
+        "resenje": "zapis medjuvodje-spomenik-rudiju-cajavcu-i-franji-kluzu više ne postoji (spojen ili uklonjen u kasnijoj odluci, 2026-10-21); dilema zatvorena"
+      }
     }
   },
   {
@@ -50832,15 +50880,26 @@
       "stip-deportiranite-evrei": "sr spisak: 1978; baza: 1985, Metodi Andonov; nije menjano",
       "vatasa-spomenik-na-strelanite-mladinci": "sr spisak 1962, baza 1963",
       "Trnica, Споменик палим борцима (Trnica_9.JPG)": "verovatno zapis trnica (Masakr vo Beličica, Dimo Todorovski 1972), nije potvrđeno",
-      "stip-spomenik / stip-partisan-s-necropolis": "oba Bogdan Bogdanović 1974, tačke 940 m razmaknute; moguć duplikat",
-      "rusjaci-spomenik-palim-borcima / rusjaci-spomenik-na-padnatite-borci": "isti naziv, tačke 1 km razmaknute; moguć duplikat",
-      "nove biste u Kičevu, Strugi, Kratovu, Strumici, Ohridu, Belčištu, Kruševu i Prilepu": "tačke su centri naselja ili GPS fotografije (priblizno)",
-      "andon-dukov Q20567088": "Wikidata ga opisuje kao slikara i nastavnika iz Ohrida; sr spisak ga vodi među istaknutim učesnicima NOP-a"
+      "nove biste u Kičevu, Strugi, Kratovu, Strumici, Ohridu, Belčištu, Kruševu i Prilepu": "tačke su centri naselja ili GPS fotografije (priblizno)"
     },
     "preskoceno": {
       "Memorial_Museum_of_CC_of_CPM_09.JPG": "Titova bista u unutrašnjosti muzeja u Tetovu",
       "partizanska groblja (Bitolj, Gostivar, Kočani, Tetovo)": "red bez fotografije, autora i godine; posveta opšta",
       "opšte posvete": "borcima NOVJ poginulim u NOB"
+    },
+    "razresenoKasnije": {
+      "stip-spomenik / stip-partisan-s-necropolis": {
+        "bilo": "oba Bogdan Bogdanović 1974, tačke 940 m razmaknute; moguć duplikat",
+        "resenje": "zapis stip-spomenik više ne postoji (spojen ili uklonjen u kasnijoj odluci, 2026-10-21); dilema zatvorena"
+      },
+      "rusjaci-spomenik-palim-borcima / rusjaci-spomenik-na-padnatite-borci": {
+        "bilo": "isti naziv, tačke 1 km razmaknute; moguć duplikat",
+        "resenje": "zapis rusjaci-spomenik-palim-borcima više ne postoji (spojen ili uklonjen u kasnijoj odluci, 2026-10-21); dilema zatvorena"
+      },
+      "andon-dukov Q20567088": {
+        "bilo": "Wikidata ga opisuje kao slikara i nastavnika iz Ohrida; sr spisak ga vodi među istaknutim učesnicima NOP-a",
+        "resenje": "zapis andon-dukov više ne postoji (spojen ili uklonjen u kasnijoj odluci, 2026-10-21); dilema zatvorena"
+      }
     }
   },
   {
@@ -51552,7 +51611,6 @@
     "novePosvete": [],
     "dileme": {
       "ljubljana-doprsni-kip-borisa-kidrica": "sr i sh spisak: spomenik Borisu Kidriču u Ljubljani, vajar Zdenko Kalin, 1960; naš zapis (eid.gov.si) navodi Borisa Kalina; nije potvrđeno da je isti objekat",
-      "dravograd": "Commons fotografija spomenika tragediji na Košenjaku ima GPS 34 m od zapisa dravograd (Spomenik NOB); verovatno isti objekat, nije menjano",
       "baza-20-secret-partisan-base": "sr spisak navodi biste Kvedera, Leskošeka, Mačeka i Rozmana u Bazi 20 (Kočevski Rog); deo muzejske celine, nisu dodate posebno",
       "krvavec-spomenik-palim-borcima": "Commons Krvavec_WW2_memorial.jpg ima GPS (46.0418, 13.7157) daleko od Krvavca; fotografija nije upisana",
       "nove stavke bez lokacije": "Kardelj, padli pionirji (Ljubljana), Ambrožič (Žužemberk), Bevk (Zakojca), Bojc Bidovec (Cerkno), Molek (Kamnik), Rozman (Novo mesto): samo mesto, autor i godina iz sr spiska; tačka i današnje stanje nisu provereni"
@@ -51562,6 +51620,12 @@
       "Josip Broz Tito, Ljubljana; Janko Premrl Vojko (mesto „?“)": "nema mesta ni podataka",
       "Kozlerjev gozd, Srednja Dobrava, Javorski Pil, Nova Gorica (Crvena armija)": "bez fotografije i podataka, opšte posvete",
       "opšte posvete i posvete na srpskom": "konkretne posvete za Sloveniju nisu prevođene; zapisi već imaju opise ili Q-posvete"
+    },
+    "razresenoKasnije": {
+      "dravograd": {
+        "bilo": "Commons fotografija spomenika tragediji na Košenjaku ima GPS 34 m od zapisa dravograd (Spomenik NOB); verovatno isti objekat, nije menjano",
+        "resenje": "zapis dravograd već nosi adresu Košenjak, opis tragedije i fotografiju; isti objekat"
+      }
     }
   },
   {
@@ -53189,15 +53253,26 @@
     "dileme": {
       "pec-spomenik-bori-vukmirovicu": "sr spisak navodi spomenik Bori Vukmiroviću u Peći (Sreten Stojanović, 1952); moguće da je deo zapisa pec-spomen-grobnica-porodice-vukmirovic-u-kojoj-je",
       "Karagač, Spomenik Revoluciji (1974)": "verovatno isti kao peje-pec (Spomenik revoluciji, Ante Gržetić 1972, park Karagač u Peći); nije dodato",
-      "vitomirica / vitomirica-obelisk-spomenik-palim-1941-1945": "spisak: vajar M. Miletić; baza: Radoslav (Musa) Miketić; dva zapisa verovatno isti objekat",
       "globocica-spomen-obelezje / globocica-spomenik-nob": "spisak navodi dva spomenika u Globočici: „Nošenje ranjenika“ (Ante Gržetić) i Spomenik NOR (Momčilo Krković); nije utvrđeno koji je koji zapis",
-      "lipljan-skulptura / lipljan-spomenik-palim-borcima": "oba Ljubinka Savić Grasi 1963 (spisak: „Ljubinka Gaši“); moguć duplikat",
-      "vucitrn-spomenik-palim-1941-1945 / vucitrn-spomenik-palima-u-drugom-svetskom-ratu": "oba L. Starčević 1960; moguć duplikat",
       "gjilan-gnjilane": "napomena spiska: premešten na drugu lokaciju 2017; tačka nije proverena",
       "razlike godina": "Kosovo Polje: spisak 1987, baza 1980; Brezovica i Landovica: spisak navodi i Miodraga Pecića kao arhitektu"
     },
     "preskoceno": {
       "opšte posvete": "borcima NOVJ, žrtvama fašizma"
+    },
+    "razresenoKasnije": {
+      "vitomirica / vitomirica-obelisk-spomenik-palim-1941-1945": {
+        "bilo": "spisak: vajar M. Miletić; baza: Radoslav (Musa) Miketić; dva zapisa verovatno isti objekat",
+        "resenje": "zapis vitomirica-obelisk-spomenik-palim-1941-1945 više ne postoji (spojen ili uklonjen u kasnijoj odluci, 2026-10-21); dilema zatvorena"
+      },
+      "lipljan-skulptura / lipljan-spomenik-palim-borcima": {
+        "bilo": "oba Ljubinka Savić Grasi 1963 (spisak: „Ljubinka Gaši“); moguć duplikat",
+        "resenje": "zapis lipljan-skulptura više ne postoji (spojen ili uklonjen u kasnijoj odluci, 2026-10-21); dilema zatvorena"
+      },
+      "vucitrn-spomenik-palim-1941-1945 / vucitrn-spomenik-palima-u-drugom-svetskom-ratu": {
+        "bilo": "oba L. Starčević 1960; moguć duplikat",
+        "resenje": "zapis vucitrn-spomenik-palim-1941-1945 više ne postoji (spojen ili uklonjen u kasnijoj odluci, 2026-10-21); dilema zatvorena"
+      }
     }
   },
   {
@@ -54937,13 +55012,16 @@
       }
     },
     "preskoceno": {
-      "Petrovac na Moru, Spomenik palim borcima (Vojin Stojić i Anton Kraljić)": "nije utvrđeno koji je objekat; Spomen-kompleks Lazareti je posvećen svim ratovima, a autori nisu potvrđeni drugim izvorom",
-      "Ulcinj, Spomenik palim borcima": "nije utvrđeno koji je objekat (ulcinj-freedom ili ulcinj-spomen-grobnica)",
       "Nikšić, Spomenik streljanim rodoljubima na Trebjesi": "moguće isto što i niksic-fallen-fighters (pod Trebjesom), ali posveta se razlikuje; nije spajano",
       "ostali redovi": "već upisani sa istim ili potpunijim podacima; spisak ima samo 8 fotografija i sve su već kod nas"
     },
-    "dilema": {
-      "bijela-gora-spomenik-zrtvama-fasizma": "Bijela Gora kod Ulcinja nije u naselja_osm; bez tačke"
+    "razreseneDileme": {
+      "Petrovac na Moru, Spomenik palim borcima (Vojin Stojić i Anton Kraljić)": "= petrovac-na-moru (Lazareti): katalog narodniheroji.me CG-NOB-0020 „Spomenik palim borcima Paštrovića“, na kom su kasnije postavljene i ploče za poginule 1912–1918; upisan autor sa sr spiska. Dilema: spomenikdatabase.org/ulcinj navodi „Aleksandar Prijić, Uroš Stojić i A. Kraljić, kasne 1960-e“ (xiwl: pre 1966); godina nije upisana",
+      "Ulcinj, Spomenik palim borcima": "sr spisak ga razlikuje od Spomenika Slobodi (ulcinj-freedom); najverovatnije ulcinj-spomen-grobnica (xiwl: ruševina na istočnom ulazu u grad, karta 1972), ali spisak ne daje nijedan podatak za prenos (bez autora, godine i posebne posvete), pa nema izmene",
+      "bijela-gora-spomenik-zrtvama-fasizma": "Bijela Gora je planina Mali i Bardh iznad Ulcinja (OSM peak, Bratica); spomenikdatabase.org/ulcinj: 13 mladića osumnjičenih da su partizani streljano u podnožju Bijele Gore, nadomak grada. Dodata adresa; tačka spomenika nije nađena (OSM bez objekta), ostaje bez lokacije"
+    },
+    "usput": {
+      "ulcinj-bista-baja-sekulica": "OSM node 12913887246 (tourism=artwork, artwork_type=bust, „Bajo Sekulic“, Đerane, Ulcinj), nađen pri traženju Bijele Gore; Bajo Sekulić, narodni heroj (sr.wikipedia, Q12748749); bez fotografije"
     }
   },
   {
@@ -55006,8 +55084,11 @@
       "https://nova.rs/kultura/tito-gradenje-kulta-kroz-umetnost/",
       "https://arhiva.nacional.hr/en/clanak/18452/sanader-mesic-and-racan-in-defense-of-tito"
     ],
-    "otvoreno": {
-      "Novi Bečej, Spomenik palim borcima NOB (M. Berbakov 1984, Commons Wiki.Vojvodina X Novi Bečej 242.jpg)": "nije u bazi; stoji odmah pored novi-becej"
+    "razresenoKasnije": {
+      "Novi Bečej, Spomenik palim borcima NOB (M. Berbakov 1984, Commons Wiki.Vojvodina X Novi Bečej 242.jpg)": {
+        "bilo": "nije u bazi; stoji odmah pored novi-becej",
+        "resenje": "dodat novi-becej-spomenik-palim-borcima-nob (približno, uz zapis novi-becej)"
+      }
     }
   },
   {
@@ -56544,10 +56625,6 @@
       "Спомен-костурница (Горни Манастирец)": "pokolj 6. 1. 1912 (Balkanski ratovi)",
       "Спомен-костурница (Удово)": "srpski vojnici 1915; zapis udovo-spomen-kosturnica uklonjen sa mape"
     },
-    "otvoreno": {
-      "kriva-planaka / kriva-palanka-spomenik-na-padnatite-borci": "ista fotografija, tačke oko 300 m razmaknute; verovatan duplikat",
-      "Македонка, споменик на Револуцијата (Kumanovo)": "kompleks Koste Angelija Radovanija i Marijana Haberlea na Trgu Maršala Tita; nije jasno da li je to zapis kumanovo-ossuary (žena sa vencem, 1951) ili kumanovo-revolution; nije povezano"
-    },
     "uklonjeno": {
       "udovo-spomen-kosturnica": {
         "razlog": "van obuhvata: mk.wiki Спомен-костурница (Удово), ista tačka (41.34331, 22.44325), podignuta srpskim vojnicima poginulim u valandovsko-udovskoj akciji 1915 i u Prvom svetskom ratu",
@@ -56565,6 +56642,16 @@
         },
         "izvor": "http://uzkn.gov.mk/mk/wp-content/uploads/2024/11/REGISTRIRANO-NEDVIZNO-KULTURNO-NASLEDSTVO-2024-za-web-%D1%84%D0%B8%D0%BD%D0%B0%D0%BB.pdf",
         "dokaz": "https://mk.wikipedia.org/wiki/Спомен-костурница_(Удово)"
+      }
+    },
+    "razresenoKasnije": {
+      "kriva-planaka / kriva-palanka-spomenik-na-padnatite-borci": {
+        "bilo": "ista fotografija, tačke oko 300 m razmaknute; verovatan duplikat",
+        "resenje": "zapis kriva-palanka-spomenik-na-padnatite-borci više ne postoji (spojen ili uklonjen u kasnijoj odluci, 2026-10-21); dilema zatvorena"
+      },
+      "Македонка, споменик на Револуцијата (Kumanovo)": {
+        "bilo": "kompleks Koste Angelija Radovanija i Marijana Haberlea na Trgu Maršala Tita; nije jasno da li je to zapis kumanovo-ossuary (žena sa vencem, 1951) ili kumanovo-revolution; nije povezano",
+        "resenje": "Muzej Kumanovo: „Makedonka“ je deo Spomenika Revoluciji (Kosta Angeli Radovani, 1962) = kumanovo-revolution; kumanovo-ossuary je posebna kosturnica"
       }
     }
   },
@@ -59240,15 +59327,24 @@
         "mala-dapcevica-partizansko-groblje-polum": {
           "registar": "ROS-0073-1970.",
           "datumFotografije": "29.12.2010"
+        },
+        "lokva-rogoznica-spomenik-palim-borcima": {
+          "registar": "130889 (upis 14.9.1976)",
+          "datumFotografije": "4.10.2017 (EXIF fotografije registra)"
         }
       },
       "odbaceno": {
         "Krndija/Seona (ROS-0525-1975)": "na fotografiji se ne vidi obeležje",
         "Zrinska, grobnica 32 žrtve (ROS-0177-1970)": "ista fotografija i lokacija kao spomenik u Zrinskoj; nije poseban zapis",
-        "Donje Kusonje, Donji Meljani, Obradovci, Stražeman, Donja Pištana, Zrinska ROS-0178-1970, Lokva Rogoznica": "bez fotografije ili datuma; opstanak nepotvrđen",
         "Setuš (Debeli brijest, Janeš 1981)": "spomenik Sisačkom odredu u Brezovici već postoji"
       },
-      "hrzenjak": "Hrženjak 2002 pokriva samo deo naselja; za Vrbanju beleži oštećen spomenik (isti objekat, fotografija 2011 pokazuje da stoji)"
+      "hrzenjak": "Hrženjak 2002 pokriva samo deo naselja; za Vrbanju beleži oštećen spomenik (isti objekat, fotografija 2011 pokazuje da stoji)",
+      "treciKrug": {
+        "lokva-rogoznica-spomenik-palim-borcima": "fotografija registra ima EXIF datum 4. 10. 2017 (statua stoji); Hrženjak za Lokvu Rogoznicu beleži samo srušene spomen-ploče, ne statuu; tačka sela (registar: uz cestu kod nekadašnje zgrade MZ); OSM memorial 13447531895 je u Zvečanju, 4 km severno, nije povezan",
+        "Donji Meljani (129639), Obradovci (129661), Stražeman (129621)": "ispod praga: grob privremeno obeležen, grob sa spomen-pločom, humke sa betonskim piramidama bez spomenika",
+        "Donje Kusonje (129638), Donja Pištana (129637)": "skupne grobnice sa malim obeliskom ili prizmom na groblju ili uz cestu; bez fotografije i bez dokaza opstanka; ispod praga za putnika",
+        "Zrinska/Brzaja (128322)": "spomenik 32 žrtvama u zaseoku Brzaja; fotografija registra prazna; OSM memorijal „Spomenik palim borcima Zrinska“ (Bubanj, zapis sibenik-spomenik-palim-borcima-zrinska) je 2,5 km od Brzaje, identitet nepotvrđen; nije dodat"
+      }
     }
   },
   {
@@ -61207,5 +61303,1363 @@
         }
       }
     }
+  },
+  {
+    "odluka": "tk-zvanicni-registri-prvi-paket-2026-10-21",
+    "datum": "2026-10-21",
+    "obuhvat": "Prvi ciljani paket Tuzlanskog kantona: devet postojećih zapisa; šest prebacivanja na mapu sa približnim tačkama; četiri fotografije. Nije završen detaljan prolaz svih 12 registara.",
+    "izmene": [
+      {
+        "id": "trnovac-spomen-kompleks-slana-banja",
+        "skup": "bez_lokacije",
+        "pre": {
+          "id": "trnovac-spomen-kompleks-slana-banja",
+          "mesto": "Tuzla (Slana Banja)",
+          "naziv": "Spomen-kompleks „Slana Banja“",
+          "nazivEn": "'Slana Banja' memorial complex",
+          "godina": "1959",
+          "autor": "Ismet Mujezinović & Dragiša Trifković & Pero Jelisić",
+          "vrsta": "spomen-park",
+          "drzava": "Bosnia and Herzegovina",
+          "opis": {
+            "sh": "Memorijalna celina od 1959. obuhvata grobnicu, obeležja borcima i žrtvama fašizma, umetnička dela i aleju bista. Ismet Mujezinović, Dragiša Trifković i Pero Jelisić autori su različitih delova; njihove godine i kasnija proširenja nisu godina jednog zajedničkog spomenika.",
+            "en": "Developed from 1959, the memorial complex includes a collective grave, memorials to fighters and victims of fascism, artworks and a bust avenue. Ismet Mujezinović, Dragiša Trifković and Pero Jelisić made different elements; their individual dates and later additions do not date one single shared monument."
+          }
+        },
+        "posle": {
+          "adresa": "Memorijalni deo šetališta Slana Banja, ispod Gradine",
+          "nazivEn": "Slana Banja Memorial Complex"
+        },
+        "obrisi": [
+          "autor"
+        ],
+        "izvori": [
+          "https://bastina.ba/wp-content/uploads/2021/04/Registar_dobara_Tuzla.pdf",
+          "https://tztz.ba/ba/spomenici-i-znamenitosti/",
+          "https://grad.tuzla.ba/vijesti/u-toku-radovi-na-obnovi-kompleksa-slana-banja/"
+        ],
+        "razlog": "Registar red 58 potvrđuje celu memorijalnu celinu, a zvanični turistički izvor opisuje grobnicu, staze i samostalna umetnička dela. Autor parka ne može biti zbir autora različitih delova: sva tri ranija imena ostaju u opisu. Nova fotografija platoa heroja iz 2024 sa GPS fotografa daje samo približnu tačku šire celine.",
+        "prebaci": {
+          "lat": 44.536828,
+          "lng": 18.687944,
+          "priblizno": true
+        }
+      },
+      {
+        "id": "gradacac-bista-hasana-kikica",
+        "skup": "bez_lokacije",
+        "pre": {
+          "id": "gradacac-bista-hasana-kikica",
+          "mesto": "Gradačac",
+          "naziv": "Bista Hasana Kikića",
+          "nazivEn": "Bust of Hasan Kikić",
+          "godina": "1958",
+          "posveta": "Hasan Kikić",
+          "vrsta": "bista",
+          "drzava": "Bosnia and Herzegovina",
+          "adresa": "Town park"
+        },
+        "posle": {
+          "adresa": "U Gradskom parku ispod tvrđave, prema čaršijskoj ulici",
+          "opis": {
+            "sh": "Posvećeno književniku i učesniku NOB-a Hasanu Kikiću. Bista se nalazi u Gradskom parku ispod gradačačke tvrđave.",
+            "en": "Dedicated to writer and Partisan Hasan Kikić. The bust stands in the town park below Gradačac Fortress."
+          }
+        },
+        "obrisi": [
+          "posveta"
+        ],
+        "izvori": [
+          "https://bastina.ba/wp-content/uploads/2021/04/Registar_dobara_GRADACAC.pdf",
+          "https://bastina.ba/wp-content/uploads/2011/02/izdavastvo_20141110_Elaborat_Gradacac.pdf"
+        ],
+        "razlog": "Registar red 41 i elaborat štampana 43/PDF 42 potvrđuju park pod tvrđavom i konkretnu bistu. Nije druga bista ispred srednje škole. Godina 1958 i nepotvrđeni autor se ne izvode iz godine elaborata.",
+        "prebaci": {
+          "lat": 44.8783276,
+          "lng": 18.4254498,
+          "priblizno": true
+        }
+      },
+      {
+        "id": "gradacac-bista-josipa-sibera",
+        "skup": "bez_lokacije",
+        "pre": {
+          "id": "gradacac-bista-josipa-sibera",
+          "mesto": "Gradačac",
+          "naziv": "Bista Josipa Šibera",
+          "nazivEn": "Bust of Josip Šiber",
+          "autor": "Ibrahim Bilajac",
+          "stanje": "ostecen",
+          "vrsta": "bista",
+          "drzava": "Bosnia and Herzegovina",
+          "adresa": "Gradski park",
+          "opis": {
+            "sh": "Bista Josipa Šibera, delo Ibrahima Bilajca u gradskom parku, ima više oštećenja od metaka.",
+            "en": "Ibrahim Bilajac’s bust of Josip Šiber in the town park has several bullet holes."
+          }
+        },
+        "posle": {
+          "adresa": "U Gradskom parku ispod tvrđave, prema čaršijskoj ulici"
+        },
+        "obrisi": [],
+        "izvori": [
+          "https://bastina.ba/wp-content/uploads/2021/04/Registar_dobara_GRADACAC.pdf",
+          "https://bastina.ba/wp-content/uploads/2011/02/izdavastvo_20141110_Elaborat_Gradacac.pdf"
+        ],
+        "razlog": "Fotografija i natpis identifikuju Josipa Šibera; jedan pasus istog elaborata omaškom piše Stjepan, ali ostatak teksta i natpis potvrđuju Josip. Oštećenje je ranije dokumentovano; stara fotografija ne briše sadašnje stanje.",
+        "prebaci": {
+          "lat": 44.8783276,
+          "lng": 18.4254498,
+          "priblizno": true
+        }
+      },
+      {
+        "id": "gradacac-bista-pere-bosica",
+        "skup": "bez_lokacije",
+        "pre": {
+          "id": "gradacac-bista-pere-bosica",
+          "mesto": "Gradačac",
+          "naziv": "Bista Pere Bosića",
+          "nazivEn": "Bust of Pero Bosić",
+          "autor": "Ibrahim Bilajac",
+          "vrsta": "bista",
+          "drzava": "Bosnia and Herzegovina",
+          "adresa": "Gradski park",
+          "opis": {
+            "sh": "Prvobitnu bistu Pere Bosića izradio je Ibrahim Bilajac. Zamenjena je posle 2012; autorstvo zamene nije potvrđeno.",
+            "en": "Ibrahim Bilajac made the original bust of Pero Bosić. It was replaced after 2012; the replacement’s authorship has not been confirmed."
+          }
+        },
+        "posle": {
+          "adresa": "U Gradskom parku ispod tvrđave, prema čaršijskoj ulici"
+        },
+        "obrisi": [
+          "autor"
+        ],
+        "izvori": [
+          "https://bastina.ba/wp-content/uploads/2021/04/Registar_dobara_GRADACAC.pdf",
+          "https://bastina.ba/wp-content/uploads/2011/02/izdavastvo_20141110_Elaborat_Gradacac.pdf",
+          "https://www.spomenicinob.info/gradacac"
+        ],
+        "razlog": "Elaborat pokazuje prazno postolje, a kasniji terenski opis potvrđuje zamensku bistu. Ibrahim Bilajac je autor prvobitne biste, ne potvrđeni autor zamene; ime ostaje u opisu. Nema dovoljno fotografije za zamensku bistu, stara fotografija praznog postolja se ne koristi.",
+        "prebaci": {
+          "lat": 44.8783276,
+          "lng": 18.4254498,
+          "priblizno": true
+        }
+      },
+      {
+        "id": "banovici-murali-u-spomen-na-nob",
+        "skup": "bez_lokacije",
+        "pre": {
+          "id": "banovici-murali-u-spomen-na-nob",
+          "mesto": "Banovići",
+          "naziv": "Murali u spomen na NOB",
+          "nazivEn": "Murals to commemorate the NOB",
+          "godina": "1967",
+          "autor": "Ismet Mujezinović",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina",
+          "adresa": "Workers' hall"
+        },
+        "posle": {
+          "vrsta": "spomenik",
+          "adresa": "U holu Radničkog doma, iznad ulaza u restoranski deo",
+          "opis": {
+            "sh": "Četiri murala Ismeta Mujezinovića prikazuju pobunu, borbu, pobedu i obnovu, povezujući radnički pokret sa NOB-om. Nalaze se u holu Radničkog doma.",
+            "en": "Ismet Mujezinović’s four murals depict rebellion, battle, victory and reconstruction, linking the workers’ movement with the Partisan struggle. They are inside the Workers’ Hall."
+          }
+        },
+        "obrisi": [],
+        "izvori": [
+          "https://bastina.ba/wp-content/uploads/2021/04/Registar_DOBARA_BANOVICI.pdf",
+          "https://www.spomenicinob.info/pdf/report/en/BANOVICI%20MUNICIPALITY.pdf"
+        ],
+        "razlog": "Registar red 18 potvrđuje Ismeta Mujezinovića i Radnički dom; lokalni terenski izveštaj PDF 15–16 potvrđuje četiri NOB murala, fotografije i stanje decembra 2018. Velika autorska slikana kompozicija je spomenik, ne reljef. Mural se ne pretvara u muzej niti se pretpostavlja stalni slobodan pristup unutrašnjosti.",
+        "prebaci": {
+          "lat": 44.40888,
+          "lng": 18.52924,
+          "priblizno": true
+        }
+      },
+      {
+        "id": "brnjik-bista-ahmeta-kobica",
+        "skup": "mapa",
+        "pre": {
+          "id": "brnjik-bista-ahmeta-kobica",
+          "koordinate": {
+            "lat": 44.7281,
+            "lng": 18.76668
+          },
+          "priblizno": true,
+          "mesto": "Brnjik",
+          "naziv": "Bista Ahmeta Kobića",
+          "nazivEn": "Bust of Ahmet Kobić",
+          "opis": {
+            "sh": "Bista Ahmeta Kobića nalazi se ispred nekadašnjeg spomen-doma u Brnjiku.",
+            "en": "The bust of Ahmet Kobić stands in front of the former memorial hall in Brnjik."
+          },
+          "godina": "1953",
+          "autor": "Zaim Mešić",
+          "vrsta": "bista",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "posle": {
+          "adresa": "Parcela Luka, ispred nekadašnjeg spomen-doma"
+        },
+        "obrisi": [],
+        "izvori": [
+          "https://bastina.ba/wp-content/uploads/2021/04/Registar_dobara_Celic.pdf"
+        ],
+        "razlog": "Red 23 potvrđuje Ahmeta Kobića Kobu, parcelu Luka i Brnjik. Korisnikova ranija odluka o starijoj godini 1953 ostaje; registar ne daje novu godinu.",
+        "prebaci": null
+      },
+      {
+        "id": "brnjik-spomen-dom-ahmeta-kobica",
+        "skup": "bez_lokacije",
+        "pre": {
+          "id": "brnjik-spomen-dom-ahmeta-kobica",
+          "mesto": "Brnjik",
+          "naziv": "Spomen-dom Ahmeta Kobića",
+          "nazivEn": "Ahmet Kobić memorial hall",
+          "godina": "1979",
+          "vrsta": "spomen-kuca",
+          "drzava": "Bosnia and Herzegovina",
+          "opis": {
+            "sh": "Spomen-dom Ahmeta Kobića iz 1979. i dalje postoji kao zgrada, ali više ne obavlja memorijalnu funkciju. Nije potvrđena postavka otvorena za posetioce.",
+            "en": "The 1979 Ahmet Kobić memorial hall survives as a building but no longer serves a memorial function. A display open to visitors is unconfirmed."
+          }
+        },
+        "posle": {
+          "adresa": "Parcela Luka, kod biste Ahmeta Kobića"
+        },
+        "obrisi": [],
+        "izvori": [
+          "https://bastina.ba/wp-content/uploads/2021/04/Registar_dobara_Celic.pdf"
+        ],
+        "razlog": "Red 22 razdvaja dom od biste na parceli Luka. Približna tačka preuzeta iz postojećeg zapisa biste ispred doma, ne kao precizna tačka zgrade. Opis da nema potvrđene memorijalne postavke ostaje.",
+        "prebaci": {
+          "lat": 44.7281,
+          "lng": 18.76668,
+          "priblizno": true
+        }
+      },
+      {
+        "id": "kladanj-spomenik-palim-borcima",
+        "skup": "mapa",
+        "pre": {
+          "id": "kladanj-spomenik-palim-borcima",
+          "koordinate": {
+            "lat": 44.225778,
+            "lng": 18.692583
+          },
+          "mesto": "Kladanj",
+          "naziv": "Spomenik palim borcima",
+          "nazivEn": "Monument to Fallen Fighters",
+          "godina": "1954",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "posle": {
+          "adresa": "Ispred zgrade Opštine Kladanj"
+        },
+        "obrisi": [],
+        "izvori": [
+          "https://bastina.ba/wp-content/uploads/2021/04/Registar_dobara_KLADANJ.pdf"
+        ],
+        "razlog": "Red 61 navodi obeležje NOB-a ispred opštine; zasebna bista Akifa Šeremeta nije ovaj objekat. Precizna postojeća tačka se ne menja.",
+        "prebaci": null
+      },
+      {
+        "id": "gradacac-spomenik-oslobodjenju-gradacca",
+        "skup": "bez_lokacije",
+        "pre": {
+          "id": "gradacac-spomenik-oslobodjenju-gradacca",
+          "mesto": "Gradačac",
+          "naziv": "Spomenik oslobođenju Gradačca",
+          "nazivEn": "Monument to the Liberation of Gradačac",
+          "godina": "1952",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina",
+          "adresa": "Inside fortress"
+        },
+        "posle": {
+          "adresa": "Unutar stare gradačačke tvrđave",
+          "opis": {
+            "sh": "Posvećeno žrtvama Drugog svetskog rata. Obeležje sa mermernom pločom i imenima postavljeno je unutar tvrđave 1952.",
+            "en": "Dedicated to victims of World War II. The memorial, with a marble plaque bearing their names, was erected inside the fortress in 1952."
+          }
+        },
+        "obrisi": [],
+        "izvori": [
+          "https://bastina.ba/wp-content/uploads/2021/04/Registar_dobara_GRADACAC.pdf",
+          "https://bastina.ba/wp-content/uploads/2011/02/izdavastvo_20141110_Elaborat_Gradacac.pdf"
+        ],
+        "razlog": "Registar red 42 i elaborat štampana 44/PDF 43 potvrđuju zasebno obeležje unutar utvrde i podizanje 1952; nije kosturnica 1969 u parku. Postojeća godina 1952 ostaje. Običan zid sa pločom ostaje nižeg prioriteta bez nove tačke.",
+        "prebaci": null
+      }
+    ],
+    "fotografije": {
+      "trnovac-spomen-kompleks-slana-banja": {
+        "slikaPotpis": "Emin Tarahija, CC0",
+        "slikaOdnos": 1.307,
+        "izvor": "https://commons.wikimedia.org/wiki/File:Spomenici_narodnim_herojima_iz_Drugog_svjetskog_rata,_Tuzla.jpg",
+        "datumSnimka": "2024-09-25"
+      },
+      "gradacac-bista-hasana-kikica": {
+        "slikaPotpis": "Zavod za zaštitu i korištenje naslijeđa TK, Elaborat Gradačac",
+        "slikaOdnos": 0.917,
+        "izvor": "https://bastina.ba/wp-content/uploads/2011/02/izdavastvo_20141110_Elaborat_Gradacac.pdf",
+        "datumSnimka": null
+      },
+      "gradacac-bista-josipa-sibera": {
+        "slikaPotpis": "Zavod za zaštitu i korištenje naslijeđa TK, Elaborat Gradačac",
+        "slikaOdnos": 0.833,
+        "izvor": "https://bastina.ba/wp-content/uploads/2011/02/izdavastvo_20141110_Elaborat_Gradacac.pdf",
+        "datumSnimka": null
+      },
+      "banovici-murali-u-spomen-na-nob": {
+        "slikaPotpis": "Andrew Lawler, spomenicinob.info",
+        "slikaOdnos": 1.843,
+        "izvor": "https://www.spomenicinob.info/pdf/report/en/BANOVICI%20MUNICIPALITY.pdf",
+        "datumSnimka": "2018-12"
+      }
+    },
+    "potvrde": [
+      {
+        "id": "tuzla-husino-miner-s",
+        "izvor": "https://bastina.ba/wp-content/uploads/2021/04/Registar_dobara_Tuzla.pdf",
+        "potvrdjeno": "Registar red 20: Husinski rudar kao zaseban nacionalni spomenik. Godina 2019 je godina zaštite, ne podizanja; 1956 i Ivan Sabolić nisu menjani."
+      },
+      {
+        "id": "gradacac",
+        "izvor": "https://bastina.ba/wp-content/uploads/2021/04/Registar_dobara_GRADACAC.pdf",
+        "potvrdjeno": "Red 39, kosturnica u parku. Izvorna 1969 i obnova 2007 nisu promenjene opštim opisom 1960-ih u elaboratu."
+      }
+    ],
+    "dileme": [
+      {
+        "id": "celic-spomenik-jusufu-kobicu",
+        "dilema": "Registar Čelića red 30 pogrešno ili nejasno navodi Šibošnicu, dok terenski izveštaj i Tihićev opis smeštaju spomenik iz 1982 na izlaz iz Čelića prema Brčkom. Zadržani mesto i precizna tačka; nema dokaza drugog spomenika.",
+        "izvori": [
+          "https://bastina.ba/wp-content/uploads/2021/04/Registar_dobara_Celic.pdf",
+          "https://www.spomenicinob.info/celic",
+          "https://mramorje.com/wp-content/uploads/2024/04/007-Spomici-NOR-u-i-revoluciji.pdf"
+        ]
+      },
+      {
+        "id": "banovici-murali-u-spomen-na-nob",
+        "dilema": "Terenski izveštaj, oslonjen na Begovićev stručni rad iz 2010, datira otkrivanje 1967 i beleži izvore sa ranim šezdesetim; turistički vodič navodi 1962. Godina nije prepisana bez razrešenja iste kompozicije/faze.",
+        "izvori": [
+          "https://starigrad.ba/userfiles/file/2014/6/0506_atrium.pdf"
+        ]
+      },
+      {
+        "id": "tuzla-alley-freedom-park",
+        "dilema": "Fotografija prikazuje niz crvenih tabli, a stručni opis Augustinčića i Mujezinovića odnosi se na kameni reljef sa tri borca. Nisu mehanički preneti autorstvo i godina sa celine/reljefa na fotografisani drugi element. Potrebna zasebna provera identiteta crvenog obeležja."
+      },
+      {
+        "nalaz": "Kladanjska bista Akifa Šeremeta nije dodata: sama evidencija ne potvrđuje NOB vezu, a biografija govori o smrti 1939. Nije svaki spomenik u registru NOB."
+      }
+    ],
+    "ogranicenje": "Nema novih spomenika ni vraćanja iz arhive. Sačuvane sve postojeće precizne tačke, svi ID-jevi i izvorni izvori; šest novih položaja na mapi su približni. Datum stare fotografije gradačačkih bista nije poznat; nije predstavljen kao novi terenski obilazak. Akif Šeremet nije automatski proglašen NOB ličnošću, a podatak iz registra o Jusufu Kobiću nije slepo nadjačao konkretan terenski opis.",
+    "prebacivanja": [
+      {
+        "id": "trnovac-spomen-kompleks-slana-banja",
+        "lat": 44.536828,
+        "lng": 18.687944,
+        "priblizno": true
+      },
+      {
+        "id": "gradacac-bista-hasana-kikica",
+        "lat": 44.8783276,
+        "lng": 18.4254498,
+        "priblizno": true
+      },
+      {
+        "id": "gradacac-bista-josipa-sibera",
+        "lat": 44.8783276,
+        "lng": 18.4254498,
+        "priblizno": true
+      },
+      {
+        "id": "gradacac-bista-pere-bosica",
+        "lat": 44.8783276,
+        "lng": 18.4254498,
+        "priblizno": true
+      },
+      {
+        "id": "banovici-murali-u-spomen-na-nob",
+        "lat": 44.40888,
+        "lng": 18.52924,
+        "priblizno": true
+      },
+      {
+        "id": "brnjik-spomen-dom-ahmeta-kobica",
+        "lat": 44.7281,
+        "lng": 18.76668,
+        "priblizno": true
+      }
+    ]
+  },
+  {
+    "odluka": "slana-banja-identitet-partizanske-brigade-2026-10-21",
+    "datum": "2026-10-21",
+    "id": "tuzla-alley-freedom-park",
+    "pre": {
+      "id": "tuzla-alley-freedom-park",
+      "koordinate": {
+        "lat": 44.5385186,
+        "lng": 18.6857368
+      },
+      "mesto": "Tuzla (Slana Banja)",
+      "slika": "slike/spomenici/tuzla-alley-freedom-park.webp",
+      "slikaOdnos": 1.778,
+      "slikaPotpis": "Wikimedia Commons",
+      "naziv": "Spomen-obilježje antifašističkim borcima 1941-1945",
+      "nazivEn": "Alley of Freedom Memorial Park",
+      "godina": "1959",
+      "autor": "Ismet Mujezinović",
+      "vrsta": "spomenik",
+      "drzava": "Bosnia and Herzegovina"
+    },
+    "posle": {
+      "id": "tuzla-alley-freedom-park",
+      "koordinate": {
+        "lat": 44.5385186,
+        "lng": 18.6857368
+      },
+      "mesto": "Tuzla (Slana Banja)",
+      "slika": "slike/spomenici/tuzla-alley-freedom-park.webp",
+      "slikaOdnos": 2.532,
+      "slikaPotpis": "Emin Tarahija, CC0",
+      "naziv": "Spomenik partizanskim brigadama",
+      "nazivEn": "Monument to the Partisan Brigades",
+      "autor": "Ismet Mujezinović",
+      "vrsta": "spomenik",
+      "drzava": "Bosnia and Herzegovina",
+      "adresa": "Ceremonijalni plato na šetalištu Slana Banja",
+      "opis": {
+        "sh": "Spomenik u obliku razvijenih zastava posvećen je jedinicama NOVJ koje su učestvovale u oslobađanju Tuzle. Na njemu su ploče sa nazivima brigada i odreda.",
+        "en": "The monument, shaped as unfurled flags, commemorates the Yugoslav partisan units that fought to liberate Tuzla. Its plaques bear the names of brigades and detachments."
+      }
+    },
+    "razresava": "tk-zvanicni-registri-prvi-paket-2026-10-21",
+    "zakljucak": "Ranije crveni, a na snimku iz 2024. beli zid sa zastavama isti je spomenik partizanskim brigadama i odredima. Nije kameni reljef sa tri borca, ceo park niti susedni spomenik jedinicama iz rata 1992-1995. Zadržani su ID, vrsta i precizne koordinate.",
+    "dokazi": [
+      {
+        "url": "https://bastina.ba/memorijalni-kompleks-slana-banja/?Itemid=376&id=78&option=com_content&view=article",
+        "datumTerena": "2014-04-10",
+        "datumObjave": "2014-04-15",
+        "nalaz": "Zavod zasebno popisuje spomenik brigadama i odredima koje su oslobodile Tuzlu 1943. (25 x 4,6 m) i kameni reljef sa tri borca (4 x 2 m). Relevantan popis dostupan u indeksiranom rezultatu; direktan pristup stranici vraća proveru posetioca."
+      },
+      {
+        "url": "https://grad.tuzla.ba/vijesti/obiljezavanje-76-godisnjice-ustanka-naroda-i-narodnosti-bosne-i-hercegovine/",
+        "godina": 2017,
+        "nalaz": "Gradski program koristi naziv Spomenik partizanskim brigadama; isto ime u zvaničnom protokolu Grada za 15. maj 2025."
+      },
+      {
+        "url": "https://grad.tuzla.ba/wp-content/uploads/2025/05/POZIVNICA-15.5.25_-1.pdf",
+        "godina": 2025,
+        "nalaz": "Partizanske brigade i tuzlanske jedinice 1992-1995. navedene su kao zasebna obeležja."
+      },
+      {
+        "url": "https://www.oslobodjenje.ba/vijesti/bih/partizanski-spomenici-su-prepusteni-zaboravu-590355/",
+        "godina": 2020,
+        "nalaz": "Direktno preneta izjava Jasmina Imamovića posebno pripisuje idejno rešenje zastava sa brigadama Ismetu Mujezinoviću i razdvaja ih od Augustinčićevog spomenika. Autor je zato potvrđen za ovaj objekat i sačuvan; nije preuzet sa turističkog opisa drugog reljefa."
+      },
+      {
+        "url": "https://tztz.ba/ba/spomenici-i-znamenitosti/",
+        "nalaz": "Zajedničko idejno rešenje Augustinčića i Mujezinovića u ovom tekstu odnosi se na zaseban reljef sa tri borca. Augustinčić nije dodat kao autor zida sa zastavama."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Spomenik_borcima_agresije_na_BiH,_Slana_Banja,_Tuzla.jpg",
+        "datumFotografije": "2024-09-25",
+        "autorFotografije": "Emin Tarahija",
+        "licenca": "CC0",
+        "nalaz": "Na originalu pročitan natpis posvećen jedinicama narodnooslobodilačke vojske koje su oslobađale grad. Silueta zastava, položaj ploča, stepenice i zgrada u pozadini poklapaju se sa starom crvenom fotografijom. Naslov Commons datoteke odnosi se na noviji spomenik desno; za naš prikaz izdvojen je levi NOB spomenik."
+      },
+      {
+        "url": "https://bastina.ba/wp-content/uploads/2015/01/sadrzaj_2015_20150108_spomenicko-nasljee-na-podrucju-grada-tuzle.pdf",
+        "godina": 2015,
+        "nalaz": "Indeksirani stručni tekst datira postepeno nastajanje celog kompleksa od 1959; ne potvrđuje godinu samog zida sa zastavama."
+      }
+    ],
+    "otvoreno": "Godina podizanja samog spomenika brigadama nije potvrđena; ranija 1959 sačuvana je u snimku pre izmene, ali nije više prikazana kao dokazana godina ovog objekta.",
+    "fotografija": {
+      "url": "https://commons.wikimedia.org/wiki/File:Spomenik_borcima_agresije_na_BiH,_Slana_Banja,_Tuzla.jpg",
+      "original": "izvori/pretrage/slana-banja-identitet-2026-10-21/borci-2024.jpg",
+      "isecak": "1700x670+880+1180",
+      "staraSacuvana": "izvori/pretrage/slana-banja-identitet-2026-10-21/pre-slika.webp"
+    }
+  },
+  {
+    "odluka": "muzej-kumanovo-spomenici-2026-10-21",
+    "datum": "2026-10-21",
+    "izvor": "https://kumanovomuseum.com/post/spomenici-na-kultura-vo-kumanovski-re",
+    "obim": "svi odeljci strane (NOB: Spomenik Revoluciji, Spomen-kosturnica, Menkova koliba; muzeji: Karpoševa kuća, ASNOM Pelince); ostalo (crkve, džamije, arheologija, Zebrnjak 1912) van obuhvata; fotografije strane nisu dostupne (ni arhiva)",
+    "dodato": [
+      "kumanovo-kuca-muzej-na-hristijan-todorovski-karpos"
+    ],
+    "izmenjeno": {
+      "kumanovo-ossuary": {
+        "staro": {
+          "godina": "1951",
+          "autor": "Kosta Angeli Radovani"
+        },
+        "novo": {
+          "godina": "1957",
+          "autor": "Zordumis & Sreten Stojanović"
+        },
+        "dokaz": "Muzej: kosturnica podignuta 1957. povodom 11. oktobra, arhitekt Zordumis i vajar Sreten Stojanović, obelisk i kosturnice; Google veza muzeja vodi na istu tačku. Dilema: mk.wikipedia (bez izvora) pripisuje ženu sa vencem Radovaniju, 1951; ime arhitekte nije nađeno"
+      },
+      "menkova-koliba": {
+        "novo": {
+          "godina": "oko 1981",
+          "posveta": "formiranje Karadačkog partizanskog odreda 12. 10. 1941"
+        },
+        "dokaz": "Muzej: „otkriven najverovatnije 1981“"
+      }
+    },
+    "potvrdjeno": {
+      "kumanovo-revolution": "Kosta Angeli Radovani, 1962, Trg Maršala Tita"
+    }
+  },
+  {
+    "odluka": "tk-razresenja-celic-banovici-gracanica-2026-10-21",
+    "datum": "2026-10-21",
+    "obuhvat": "Tri dopunjena zapisa i zasebna potvrda broja boraca u spomen-parku Čelić, prema izvornim kartonima i stručnim evidencijama.",
+    "izmene": [
+      {
+        "id": "celic-spomenik-jusufu-kobicu",
+        "pre": {
+          "id": "celic-spomenik-jusufu-kobicu",
+          "koordinate": {
+            "lat": 44.734719,
+            "lng": 18.820063
+          },
+          "mesto": "Čelić",
+          "naziv": "Spomenik Jusufu Kobiću",
+          "nazivEn": "Monument to Jusuf Kobić",
+          "godina": "1982",
+          "posveta": "Jusuf Kobić",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "posle": {
+          "id": "celic-spomenik-jusufu-kobicu",
+          "koordinate": {
+            "lat": 44.734719,
+            "lng": 18.820063
+          },
+          "mesto": "Čelić",
+          "naziv": "Spomenik Jusufu Kobiću",
+          "nazivEn": "Monument to Jusuf Kobić",
+          "godina": "1982",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina",
+          "adresa": "Na izlazu iz Čelića prema Brčkom, desno od puta",
+          "opis": {
+            "sh": "Posvećen Jusufu Kobiću, predratnom komunisti iz Brnjika koga su ustaše ubile 1941. godine. Obelisk iz 1982. stoji na uzvišenju uz put iz Čelića prema Brčkom, do kojeg vodi jedanaest stepenika.",
+            "en": "Dedicated to Jusuf Kobić, a pre-war communist from Brnjik killed by the Ustaše in 1941. The 1982 obelisk stands on a mound beside the road from Čelić towards Brčko, reached by eleven steps."
+          },
+          "natpis": "KOBIĆ AHMETA JUSUF\nROĐEN MARTA 1914 - POGINUO NOVEMBRA 1941",
+          "slika": "slike/spomenici/celic-spomenik-jusufu-kobicu.webp",
+          "slikaOdnos": 1.333,
+          "slikaPotpis": "Terenski izveštaj Andrewa Lawlera, 2019"
+        }
+      },
+      {
+        "id": "banovici-murali-u-spomen-na-nob",
+        "pre": {
+          "id": "banovici-murali-u-spomen-na-nob",
+          "koordinate": {
+            "lat": 44.40888,
+            "lng": 18.52924
+          },
+          "priblizno": true,
+          "mesto": "Banovići",
+          "adresa": "U holu Radničkog doma, iznad ulaza u restoranski deo",
+          "slika": "slike/spomenici/banovici-murali-u-spomen-na-nob.webp",
+          "slikaOdnos": 1.843,
+          "slikaPotpis": "Andrew Lawler, spomenicinob.info",
+          "naziv": "Murali u spomen na NOB",
+          "nazivEn": "Murals to commemorate the NOB",
+          "opis": {
+            "sh": "Četiri murala Ismeta Mujezinovića prikazuju pobunu, borbu, pobedu i obnovu, povezujući radnički pokret sa NOB-om. Nalaze se u holu Radničkog doma.",
+            "en": "Ismet Mujezinović’s four murals depict rebellion, battle, victory and reconstruction, linking the workers’ movement with the Partisan struggle. They are inside the Workers’ Hall."
+          },
+          "godina": "1967",
+          "autor": "Ismet Mujezinović",
+          "vrsta": "spomenik",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "posle": {
+          "id": "banovici-murali-u-spomen-na-nob",
+          "koordinate": {
+            "lat": 44.40888,
+            "lng": 18.52924
+          },
+          "priblizno": true,
+          "mesto": "Banovići",
+          "adresa": "U holu Radničkog doma, iznad ulaza u restoranski deo",
+          "slika": "slike/spomenici/banovici-murali-u-spomen-na-nob.webp",
+          "slikaOdnos": 1.843,
+          "slikaPotpis": "Andrew Lawler, spomenicinob.info",
+          "naziv": "Murali u spomen na NOB",
+          "nazivEn": "Murals to commemorate the NOB",
+          "opis": {
+            "sh": "Četiri zidna prizora prikazuju Husinsku bunu, odlazak rudara u NOB, oslobođenje i posleratnu izgradnju. Ismetu Mujezinoviću su pri izvođenju pomogli Mevludin Ekmečić i Pajo Garčev.",
+            "en": "The four wall paintings depict the Husino Rebellion, miners joining the Partisans, liberation and post-war reconstruction. Mevludin Ekmečić and Pajo Garčev assisted Ismet Mujezinović in their execution."
+          },
+          "godina": "1967",
+          "autor": "Ismet Mujezinović & Mevludin Ekmečić & Pajo Garčev",
+          "vrsta": "spomenik",
+          "drzava": "Bosnia and Herzegovina"
+        }
+      },
+      {
+        "id": "gracanica",
+        "pre": {
+          "id": "gracanica",
+          "koordinate": {
+            "lat": 44.7045012,
+            "lng": 18.3108349
+          },
+          "mesto": "Gračanica",
+          "adresa": "Trg Maršala Tita",
+          "slika": "slike/spomenici/gracanica.webp",
+          "slikaOdnos": 1.338,
+          "slikaPotpis": "Wikimedia Commons",
+          "naziv": "Spomen-kosturnica",
+          "nazivEn": "Monument and Memorial Ossuary",
+          "opis": {
+            "sh": "Spomenik iz 1951. pretvoren je u kosturnicu 1955. Obnovljen je 2008, kada su postavljene nove ploče sa znatno izmenjenim tekstovima.",
+            "en": "The 1951 monument was converted into an ossuary in 1955. It was restored in 2008, when new plaques with substantially altered texts were installed."
+          },
+          "godina": "1951",
+          "autor": "Alfred Pilc & Danko Lazić & Mehmed Fazlić",
+          "vrsta": "statua",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "posle": {
+          "id": "gracanica",
+          "koordinate": {
+            "lat": 44.7045012,
+            "lng": 18.3108349
+          },
+          "mesto": "Gračanica",
+          "adresa": "Centralni gradski park, Alije Izetbegovića (nekada Trg Maršala Tita)",
+          "slika": "slike/spomenici/gracanica.webp",
+          "slikaOdnos": 1.338,
+          "slikaPotpis": "Wikimedia Commons",
+          "naziv": "Spomen-kosturnica",
+          "nazivEn": "Monument and Memorial Ossuary",
+          "opis": {
+            "sh": "Spomenik je podignut 1951, a u kosturnicu su 7. aprila 1955. preneti posmrtni ostaci 121 borca NOR-a. Obnovljen je 2008, kada su postavljene nove ploče sa znatno izmenjenim tekstovima.",
+            "en": "The monument was erected in 1951, and the remains of 121 Partisan fighters were transferred to the ossuary on 7 April 1955. It was restored in 2008, when new plaques with substantially altered texts were installed."
+          },
+          "godina": "1951",
+          "autor": "Alfred Pilc & Danko Lazić & Mehmed Fazlić",
+          "vrsta": "statua",
+          "drzava": "Bosnia and Herzegovina"
+        }
+      }
+    ],
+    "razresenja": [
+      {
+        "id": "celic-spomenik-jusufu-kobicu",
+        "zakljucak": "Lokacija je Čelić, ne Šibošnica. Sačuvani mesto, tačka i godina 1982; dodati adresa, opis, fotografija i doslovan tekst nove ploče. Uklonjena tekstualna posveta jer je objedinjena sa opisom.",
+        "izvori": [
+          {
+            "url": "https://mramorje.com/wp-content/uploads/2024/04/007-Spomici-NOR-u-i-revoluciji.pdf",
+            "datumKartona": "1990-12-04",
+            "karton": "I-4",
+            "nalaz": "Izvorni karton Zavoda izričito navodi Čelić, izlaz prema Brčkom i podizanje 1982. Primljen indeksirani tekst; neposredno preuzimanje PDF-a nije uspelo zbog nevažećeg TLS imena, bez isključivanja provere sertifikata."
+          },
+          {
+            "url": "https://www.spomenicinob.info/pdf/report/en/CELIC%20MUNICIPALITY.pdf",
+            "godinaIzdanja": 2019,
+            "strane": "11-12",
+            "datumFotografije": "2018-09",
+            "nalaz": "Terenski snimci obeliska i nove ploče potvrđuju isto delo u Čeliću; prepoznatljivi kanelirani stub, kockasti vrh, humka i 11 stepenika. Autor fotografije nije imenovan uz pojedinačni snimak; potpis navodi izveštaj, ne pretpostavljenog fotografa."
+          },
+          {
+            "url": "https://bastina.ba/wp-content/uploads/2021/04/Registar_dobara_Celic.pdf",
+            "red": 30,
+            "neslaganje": "Sažeti popis navodi Šibošnicu; konkretan izvorni karton i terenski opis imaju prednost."
+          }
+        ],
+        "ogranicenje": "Mesec smrti nije pouzdano razrešen: karton kaže početak oktobra, dok novija ploča na fotografiji kaže novembra 1941. Opis navodi samo godinu; natpis doslovno čuva ono što piše na fotografisanoj ploči. Koordinate su sačuvane, a nisu novim GPS merenjem dodatno potvrđene."
+      },
+      {
+        "id": "banovici-murali-u-spomen-na-nob",
+        "zakljucak": "Zadržana 1967: neposredno pročitan stručni rad Zavoda, a ne samo pozivanje preko terenskog izveštaja. Dopunjeni učesnici izvođenja i preciznije opisani motivi.",
+        "izvori": [
+          {
+            "url": "https://bastina.ba/wp-content/uploads/2011/02/sadrzaj_2011_zbornik_radova.pdf",
+            "autor": "Senad Begović",
+            "godina": 2010,
+            "clanak": "Zidna dekoracija u Radničkom domu u Banovićima",
+            "strane": "241-244, naročito 243 (PDF 244)",
+            "nalaz": "Izričito datira kompoziciju 1967, dimenzije 12 x 3 m; izdvaja četiri motiva i navodi da su pri izvođenju u Bristolu i Radničkom domu Mujezinoviću pomogli Mevludin Ekmečić i Pajo Garčev. U opisu su njihove uloge sačuvane."
+          },
+          {
+            "url": "https://banovici.gov.ba/wp-content/uploads/2023/05/Rjesenje-Mural.pdf",
+            "godina": 2023,
+            "nalaz": "Rešenje Zavoda identifikuje jednu kompoziciju sa četiri scene, 12 x 3 m, u foajeu Radničkog doma, k.č.384 K.O. Banovići. Godine 2016 i 2023 odnose se na evidenciju i postupak zaštite; sanacija pukotina i patiniranje izvedeni su 2010-2011. Te godine nisu godina nastanka. Prethodna zaštita iz 2023. ograničena je na najduže tri godine, zato nije predstavljena kao potvrđeni sadašnji pravni status."
+          },
+          {
+            "url": "https://starigrad.ba/userfiles/file/2014/6/0506_atrium.pdf",
+            "neslaganje": "Turistički vodič navodi 1962 i drugačije dimenzije; sačuvano kao nesaglasan podatak. Prednost ima konkretan stručni rad iz 2010, uz potvrdu identiteta u novijem rešenju. Nije izmišljena ranija faza da bi se godine pomirile."
+          }
+        ],
+        "ogranicenje": "Nije potvrđena precizna tačka; približna tačka ostaje označena kao približna. Stari podatak o oštećenju nije predstavljen kao nova terenska potvrda."
+      },
+      {
+        "id": "gracanica",
+        "zakljucak": "1951 je podizanje spomenika, 1955 prenos u kosturnicu, a 2008 obnova. Sačuvani godina 1951 i Alfred Pilc; oblici Filc/File sa novije ploče i turističkih pregleda nisu prihvaćeni kao drugi autor. Dodati savremena adresa i datum prenosa sa 121 sahranjenim.",
+        "izvori": [
+          {
+            "url": "https://visitgracanica.ba/turisticke-destinacije/centralni-gradski-park",
+            "nalaz": "Zvanični turistički portal potvrđuje prenos 121 borca 7. aprila 1955. i ulicu Alije Izetbegovića; oblik Filc je preuzet sa novije ploče, dok izostanak 1951 ne znači da spomenik tada nije postojao."
+          },
+          {
+            "url": "https://www.spomenicinob.info/pdf/report/en/GRACANICA%20MUNICIPALITY.pdf",
+            "godinaIzdanja": 2020,
+            "strane": "26-28",
+            "nalaz": "Terenski izveštaj razlikuje spomenik 1951, kosturnicu 1955 i obnovu 2008; transkripcija stare i nove ploče, pozivanje na Hamzić i Ćurić 1985, str.98-105. Jasno označava Filc kao grešku za Pilc; Danko Lazić i Mehmed Fazlić odnose se na druge delove celine i ostaju sačuvani."
+          },
+          {
+            "url": "https://www.slovenci-zagreb.hr/wp-content/uploads/2014/03/slovenske_boje.pdf",
+            "nalaz": "Stručni umetnički katalog beleži vajara Alfreda Pilca, školovanog i diplomiranog u Zagrebu; nije izmišljen zaseban Alfred Filc."
+          }
+        ]
+      }
+    ],
+    "potvrde": [
+      {
+        "id": "mahale",
+        "zakljucak": "Ostaje 77 boraca vojvođanskih brigada. Sažeta tabela izveštaja pogrešno daje 73; detaljno poglavlje i fotografisana glavna ploča navode 77. Nema nove izmene ovog već ispravnog zapisa.",
+        "izvor": "https://www.spomenicinob.info/pdf/report/en/CELIC%20MUNICIPALITY.pdf",
+        "strane": "13-17, naročito natpis na strani 15",
+        "pre": {
+          "id": "mahale",
+          "koordinate": {
+            "lat": 44.7215233,
+            "lng": 18.8170266
+          },
+          "googleCid": "13898916928764460895",
+          "mesto": "Čelić",
+          "slika": "slike/spomenici/mahale.webp",
+          "slikaOdnos": 1.329,
+          "slikaPotpis": "Izveštaj Andrewa Lawlera, 2019 (snimak 2018)",
+          "naziv": "Spomen-park Čelić",
+          "nazivEn": "Čelić Memorial Park",
+          "opis": {
+            "sh": "Spomen-park iz 1954. obuhvata kosturnicu vojvođanskih boraca, stepeništa sa grobnim obeležjima i spomen-česmu. Glavna ploča posvećena je sedamdeset sedmorici boraca vojvođanskih brigada.",
+            "en": "The 1954 memorial park includes an ossuary for Vojvodina brigade fighters, stairways lined with grave markers and a memorial fountain. Its main plaque commemorates seventy-seven fighters of the Vojvodina brigades."
+          },
+          "godina": "1954",
+          "vrsta": "spomen-park",
+          "drzava": "Bosnia and Herzegovina"
+        }
+      }
+    ],
+    "ogranicenje": "Bez novih ID-jeva, prebacivanja iz arhive ili pomeranja postojećih koordinata. Jedna nova fotografija: Jusuf Kobić, izveštaj iz 2019, snimak septembar 2018. Nerešen mesec smrti Jusufa Kobića sačuvan je uz dokaze."
+  },
+  {
+    "odluka": "herceg-novi-studija-zastite-spomen-obiljezja-2026-10-21",
+    "datum": "2026-10-21",
+    "izvor": "https://www.hercegnovi.me/files/plans/studija%20KD%20OHN_mape%20POTPISANO20192019%20%281%29.pdf",
+    "obim": "kartoni 67–89 (spomen-biste, monumentalna spomen-obilježja, spomen-ploče), štampane str. oko 113–122; lokalna kopija izvori/cg/herceg-novi-studija-zastite-2018.txt",
+    "prebaceno": {
+      "igalo-spomenik-palim-borcima-u-nor-u-i-zrtvama-fas": "GPS kartona 74 (park u Igalu, Milorad Petijević, runolist od belog betona); godina: studija „otkriven 1970“, registar 2016: 1969 — zadržana starija (dilema)"
+    },
+    "izmenjeno": {
+      "podi-spomen-kompleks": {
+        "staro": {
+          "koordinate": {
+            "lat": 42.463297,
+            "lng": 18.533783
+          },
+          "priblizno": true
+        },
+        "dokaz": "karton 87: GPS 42°27′38.47″ 18°32′9.62″, zaseok Tušupi, mesto pogibije N. Đurkovića, stara i nova spomen-ploča"
+      }
+    },
+    "potvrdjeno": {
+      "herceg-novi-spomenik-nikoli-djurkovicu": "karton 67 (Luka Tomanović, park kod Sv. Antuna)",
+      "herceg-novi-bista-dasa-pavicica": "karton 68, Đorđe Angelovski, GPS 0 m",
+      "zelenika-bista-ilije-kisica": "karton 70, GPS 0 m",
+      "krusevice-bista-mica-vavica": "karton 71, GPS 6 m",
+      "herceg-novi": "karton 73: Nikola Dobrović i Luka Tomanović, Savinska dubrava",
+      "djenovici-spomen-cesma": "karton 75",
+      "baosici": "karton 76 (česma kod Doma kulture), 7 m",
+      "kameno-spomen-kosturnica": "karton 77 (Tajni klanac), 16 m",
+      "baosici-spomen-kosturnica": "karton 80 (Dupci), 5 m",
+      "prevlaka-spomen-kosturnica": "karton 82 (1958)"
+    },
+    "napomene": {
+      "karton 79 (Kameno, KP 562)": "GPS kartona pada na zapis ratisevina (Google mesto), 2,8 km od centra Kamena; karton 78 (Ratiševina) nema GPS; verovatno zamenjene tačke u studiji, zapisi nisu menjani",
+      "herceg-novi-savina-bista-milana-vukovica": "karton 69: bronzana bista u holu škole; ostaje bez lokacije (unutrašnji prostor škole), kandidat tačke već upisan",
+      "karton 72 (Savina, 1914–1916)": "van obuhvata (Prvi svetski rat)",
+      "kartoni 81, 83–89": "spomen-ploče, ispod praga; 86 i 83 van obuhvata"
+    }
+  },
+  {
+    "odluka": "kladanj-zivinice-deset-zapisa-2026-10-21",
+    "datum": "2026-10-21",
+    "obuhvat": "Deset postojećih zapisa: pet na području Kladnja i pet na području Živinica. Osam ciljano dopunjeno/ispravljeno, dva pregledana bez izmene.",
+    "provere": [
+      {
+        "id": "plahovici-kompleks-titova-pecina",
+        "pre": {
+          "id": "plahovici-kompleks-titova-pecina",
+          "koordinate": {
+            "lat": 44.2335951,
+            "lng": 18.6668903
+          },
+          "googleCid": "5755263135321886130",
+          "mesto": "Plahovići",
+          "wiki": "https://federalna.ba/titova-pecina-kod-kladnja-vazno-mjesto-u-historijskom-toku-obnove-drzavnosti-bih-dlnnc",
+          "slika": "slike/spomenici/plahovici-kompleks-titova-pecina.webp",
+          "slikaOdnos": 0.75,
+          "slikaPotpis": "Google Maps",
+          "naziv": "Kompleks „Titova pećina“",
+          "nazivEn": "Tito’s Cave Memorial Complex",
+          "opis": {
+            "sh": "Obeležava boravak [Josipa Broza Tita](Q9161) i Vrhovnog štaba u Plahovićima tokom leta 1943. Memorijalnu celinu čine pećine i spomen-ploče, među kojima je i obeležje iz 1951.",
+            "en": "Marks the stay of [Josip Broz Tito](Q9161) and the Supreme Headquarters at Plahovići in the summer of 1943. The memorial area comprises caves and commemorative plaques, including a marker from 1951."
+          },
+          "godina": "1951",
+          "posveta": [
+            "Q9161"
+          ],
+          "vrsta": "spomen-park",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "posle": {
+          "id": "plahovici-kompleks-titova-pecina",
+          "koordinate": {
+            "lat": 44.2335951,
+            "lng": 18.6668903
+          },
+          "googleCid": "5755263135321886130",
+          "mesto": "Plahovići",
+          "wiki": "https://federalna.ba/titova-pecina-kod-kladnja-vazno-mjesto-u-historijskom-toku-obnove-drzavnosti-bih-dlnnc",
+          "slika": "slike/spomenici/plahovici-kompleks-titova-pecina.webp",
+          "slikaOdnos": 0.75,
+          "slikaPotpis": "Google Maps",
+          "naziv": "Kompleks „Titova pećina“",
+          "nazivEn": "Tito’s Cave Memorial Complex",
+          "opis": {
+            "sh": "Obeležava boravak [Josipa Broza Tita](Q9161) i Vrhovnog štaba u Plahovićima tokom leta 1943. Memorijalnu celinu čine pećine i spomen-ploče, među kojima je i obeležje iz 1951.",
+            "en": "Marks the stay of [Josip Broz Tito](Q9161) and the Supreme Headquarters at Plahovići in the summer of 1943. The memorial area comprises caves and commemorative plaques, including a marker from 1951."
+          },
+          "godina": "1951",
+          "posveta": [
+            "Q9161"
+          ],
+          "vrsta": "spomen-park",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "izvori": [
+          "https://www.spomenicinob.info/pdf/report/en/KLADANJ%20MUNICIPALITY.pdf",
+          "https://www.spomenicinob.info/kladanj",
+          "https://bastina.ba/wp-content/uploads/2021/04/Registar_dobara_KLADANJ.pdf",
+          "https://federalna.ba/titova-pecina-kod-kladnja-vazno-mjesto-u-historijskom-toku-obnove-drzavnosti-bih-dlnnc"
+        ],
+        "straneIzvestaja": "21-25",
+        "ishod": "Dve pećine i memorijalne ploče odgovaraju fotografiji, nazivu i vrsti. Registar red 65 potvrđuje ploču na pećini; ne spaja se sa zasebnom kućom (red 66). Precizna tačka i fotografija ostaju.",
+        "otvoreno": "HTML tabela izričito daje 1951 za staru ploču, dok detaljni PDF kaže da precizan datum nije poznat i razmatra okvir pre 1962. Postojeća 1951 zadržana prema eksplicitnoj tabeli izvora, bez menjanja u 2012 (novija ploča). Potrebna izvorna dokumentacija za konačnu proveru 1951."
+      },
+      {
+        "id": "konjuh-spomen-zona-korita",
+        "pre": {
+          "id": "konjuh-spomen-zona-korita",
+          "koordinate": {
+            "lat": 44.338944,
+            "lng": 18.601222
+          },
+          "priblizno": true,
+          "mesto": "Konjuh",
+          "adresa": "Uz planinarsku stazu iz Mačkovca; obeležja na više mesta, položaj zone je približan.",
+          "slika": "slike/spomenici/konjuh-spomen-zona-korita.webp",
+          "slikaOdnos": 1.778,
+          "slikaPotpis": "pir-moll.de",
+          "naziv": "Spomen-zona Korita",
+          "nazivEn": "Korita Memorial Zone",
+          "opis": {
+            "sh": "Memorijalna zona obuhvata dva kenotafa i grob Peje Markovića, obnovljen 2009. Dragiša Trifković izradio je reljef koji više nije sačuvan; autorstvo svih obeležja zone nije potvrđeno.",
+            "en": "The memorial zone includes two cenotaphs and Pejo Marković’s grave, restored in 2009. Dragiša Trifković created a relief that no longer survives; authorship of all memorials in the zone is unconfirmed."
+          },
+          "godina": "1978",
+          "vrsta": "spomen-park",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "posle": {
+          "id": "konjuh-spomen-zona-korita",
+          "koordinate": {
+            "lat": 44.338944,
+            "lng": 18.601222
+          },
+          "priblizno": true,
+          "mesto": "Konjuh",
+          "adresa": "Uz planinarsku stazu iz Mačkovca; obeležja na više mesta, položaj zone je približan.",
+          "slika": "slike/spomenici/konjuh-spomen-zona-korita.webp",
+          "slikaOdnos": 1.778,
+          "slikaPotpis": "pir-moll.de",
+          "naziv": "Spomen-zona Korita",
+          "nazivEn": "Korita Memorial Zone",
+          "opis": {
+            "sh": "Memorijalna zona obuhvata dva kenotafa i grob [Peje Markovića](Q16380642), čije je obeležje podignuto 1978. i obnovljeno 2009. Dragiša Trifković izradio je nekadašnji reljef na grobu; nije potvrđen kao autor svih obeležja zone.",
+            "en": "The memorial zone includes two cenotaphs and the grave of [Pejo Marković](Q16380642), whose memorial was erected in 1978 and restored in 2009. Dragiša Trifković made the former relief on the grave; he has not been confirmed as the author of all memorials in the zone."
+          },
+          "godina": "1978",
+          "vrsta": "spomen-park",
+          "drzava": "Bosnia and Herzegovina",
+          "posveta": [
+            "Q16380642"
+          ]
+        },
+        "izvori": [
+          "https://www.spomenicinob.info/pdf/report/en/ZIVINICE%20MUNICIPALITY.pdf",
+          "https://bastina.ba/wp-content/uploads/2024/01/Evidencija-dobara-ZIVINICE.pdf"
+        ],
+        "straneIzvestaja": "25-30",
+        "ishod": "Evidencija Zavoda red 44 potvrđuje memorijalna Korita na Konjuhu; detaljni izveštaj potvrđuje NOB karakter, dva kenotafa i grob Peje Markovića. Fotografija prikazuje stvarni grob, ne uništeni Trifkovićev reljef niti drugu jamsku lokaciju u Hercegovini. U opisu 1978 vezana izričito za grob, a 2009 za obnovu. Ne dodaju se godine 1964 sa ilustracije drugog Trifkovićevog rada niti tipografska 1968 iz jednog reda stare studije. Približna tačka celine ostaje; autorstvo cele zone nije pripisano Trifkoviću."
+      },
+      {
+        "id": "zivinice",
+        "pre": {
+          "id": "zivinice",
+          "koordinate": {
+            "lat": 44.4526923,
+            "lng": 18.6389317
+          },
+          "mesto": "Živinice",
+          "adresa": "Brdo iznad fudbalskog stadiona, preko mosta",
+          "slika": "slike/spomenici/zivinice.webp",
+          "slikaOdnos": 1.333,
+          "slikaPotpis": "Wikimedia Commons",
+          "naziv": "Partizansko spomen-groblje",
+          "nazivEn": "Partisan Memorial Cemetery",
+          "opis": {
+            "sh": "Groblje je formirano 1957, spomenički elementi i ulazna ploča dodati su 1959, nadgrobne ploče 1968, a spomen-zid 1973–1974. Nalazi se na brdu iznad fudbalskog stadiona.",
+            "en": "The cemetery was established in 1957; memorial elements and the entrance plaque were added in 1959, grave markers in 1968, and the memorial wall in 1973–1974. It lies on the hill overlooking the football stadium."
+          },
+          "godina": "1957",
+          "vrsta": "spomen-groblje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "posle": {
+          "id": "zivinice",
+          "koordinate": {
+            "lat": 44.4526923,
+            "lng": 18.6389317
+          },
+          "mesto": "Živinice",
+          "adresa": "Brdo iznad fudbalskog stadiona, preko mosta",
+          "slika": "slike/spomenici/zivinice.webp",
+          "slikaOdnos": 1.333,
+          "slikaPotpis": "Wikimedia Commons",
+          "naziv": "Partizansko spomen-groblje",
+          "nazivEn": "Partisan Memorial Cemetery",
+          "opis": {
+            "sh": "Groblje je formirano 1957, spomenički elementi i ulazna ploča dodati su 1959, nadgrobne ploče 1968, a spomen-zid 1973–1974. Nalazi se na brdu iznad fudbalskog stadiona.",
+            "en": "The cemetery was established in 1957; memorial elements and the entrance plaque were added in 1959, grave markers in 1968, and the memorial wall in 1973–1974. It lies on the hill overlooking the football stadium."
+          },
+          "godina": "1957",
+          "vrsta": "spomen-groblje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "izvori": [
+          "https://www.spomenicinob.info/pdf/report/en/ZIVINICE%20MUNICIPALITY.pdf",
+          "https://gradzivinice.ba/wp-content/uploads/2021/05/PLAN-NABAVKI-ZA-2021.-GODINU.pdf"
+        ],
+        "straneIzvestaja": "6-10",
+        "ishod": "Bez izmene: fotografija pokazuje spomen-zid i obelisk istog groblja, vrsta spomen-groblje i 1957 kao početak sahranjivanja odgovaraju detaljnom izveštaju. Kasnije ploče i zid ne menjaju godinu osnivanja. Nabavka iz 2021 navodi plan sanacije Karaula, ali sama ne dokazuje izvedene radove ili današnje stanje."
+      },
+      {
+        "id": "djurdjevik-spomen-reljef-kod-rudnika-djurdjevik",
+        "pre": {
+          "id": "djurdjevik-spomen-reljef-kod-rudnika-djurdjevik",
+          "koordinate": {
+            "lat": 44.40537,
+            "lng": 18.6665
+          },
+          "priblizno": true,
+          "mesto": "Đurđevik",
+          "adresa": "Unutrašnjost zgrade uprave rudnika Đurđevik",
+          "slika": "slike/spomenici/djurdjevik-spomen-reljef-kod-rudnika-djurdjevik.webp",
+          "slikaOdnos": 1.786,
+          "slikaPotpis": "Andrew Lawler, spomenicinob.info",
+          "naziv": "Spomen-reljef kod rudnika Đurđevik",
+          "nazivEn": "Memorial Relief at Đurđevik Mine",
+          "opis": {
+            "sh": "Reljef Dragiše Trifkovića iz 1966. nalazi se u unutrašnjosti zgrade uprave rudnika Đurđevik. Javni pristup nije potvrđen.",
+            "en": "Dragiša Trifković’s 1966 relief is inside the Đurđevik mine administration building. Public access has not been confirmed."
+          },
+          "godina": "1966",
+          "autor": "Dragiša Trifković",
+          "vrsta": "reljef",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "posle": {
+          "id": "djurdjevik-spomen-reljef-kod-rudnika-djurdjevik",
+          "koordinate": {
+            "lat": 44.40537,
+            "lng": 18.6665
+          },
+          "priblizno": true,
+          "mesto": "Đurđevik",
+          "adresa": "Unutrašnjost zgrade uprave rudnika Đurđevik",
+          "slika": "slike/spomenici/djurdjevik-spomen-reljef-kod-rudnika-djurdjevik.webp",
+          "slikaOdnos": 1.786,
+          "slikaPotpis": "Andrew Lawler, spomenicinob.info",
+          "naziv": "Otpor rudara okupatoru 1941-1945",
+          "nazivEn": "Miners’ Resistance to the Occupier 1941–1945",
+          "opis": {
+            "sh": "Bronzani reljef Dragiše Trifkovića iz 1966. posvećen je rudarima Đurđevika poginulim u borbi protiv okupatora i prikazuje otpor rudara. Nalazi se u zgradi uprave rudnika; javni pristup nije potvrđen.",
+            "en": "Dragiša Trifković’s 1966 bronze relief commemorates miners from Đurđevik killed fighting the occupiers and depicts miners’ resistance. It is inside the mine administration building; public access has not been confirmed."
+          },
+          "godina": "1966",
+          "autor": "Dragiša Trifković",
+          "vrsta": "reljef",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "izvori": [
+          "https://www.spomenicinob.info/pdf/report/en/ZIVINICE%20MUNICIPALITY.pdf"
+        ],
+        "straneIzvestaja": "18",
+        "ishod": "Pronađen stvarni naziv Otpor rudara okupatoru 1941-1945 i dopunjena posveta rudarima. Fotografija odgovara bronzanom reljefu i pratećoj ploči od 21.12.1966. Autor Dragiša Trifković, unutrašnja lokacija i oznaka približne tačke ostaju. Odsustvo posebnog reda u sažetoj evidenciji Živinica nije dokaz nepostojanja."
+      },
+      {
+        "id": "pepici-spomenik-formiranju-kladanjskog-nop-odreda",
+        "pre": {
+          "id": "pepici-spomenik-formiranju-kladanjskog-nop-odreda",
+          "koordinate": {
+            "lat": 44.265972,
+            "lng": 18.754389
+          },
+          "priblizno": true,
+          "mesto": "Pepići",
+          "slika": "slike/spomenici/pepici-spomenik-formiranju-kladanjskog-nop-odreda.webp",
+          "slikaOdnos": 0.611,
+          "slikaPotpis": "Andrew Lawler, spomenicinob.info",
+          "naziv": "Spomenik formiranju Kladanjskog NOP odreda",
+          "nazivEn": "Monument to the Formation of the Kladanj NOP Detachment",
+          "opis": {
+            "sh": "Posvećeno formiranju Kladanjskog partizanskog odreda.",
+            "en": "Dedicated to the formation of the Kladanj Partisan Detachment."
+          },
+          "godina": "1961",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "posle": {
+          "id": "pepici-spomenik-formiranju-kladanjskog-nop-odreda",
+          "koordinate": {
+            "lat": 44.265972,
+            "lng": 18.754389
+          },
+          "priblizno": true,
+          "mesto": "Pepići",
+          "slika": "slike/spomenici/pepici-spomenik-formiranju-kladanjskog-nop-odreda.webp",
+          "slikaOdnos": 0.611,
+          "slikaPotpis": "Andrew Lawler, spomenicinob.info",
+          "naziv": "Spomenik formiranju Kladanjskog NOP odreda",
+          "nazivEn": "Monument to the Formation of the Kladanj NOP Detachment",
+          "opis": {
+            "sh": "Obeležava mesto formiranja Kladanjskog partizanskog odreda. Kamena stela podignuta je 1961, povodom dvadesetogodišnjice ustanka.",
+            "en": "Marks the formation site of the Kladanj Partisan Detachment. The stone stele was erected in 1961 to mark the twentieth anniversary of the uprising."
+          },
+          "godina": "1961",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina",
+          "adresa": "Između sela Pepići i Pelemiši, prema granici opštine Šekovići"
+        },
+        "izvori": [
+          "https://www.spomenicinob.info/pdf/report/en/KLADANJ%20MUNICIPALITY.pdf"
+        ],
+        "straneIzvestaja": "49-51",
+        "ishod": "Identitet kamene stele, godina 1961 i fotografija potvrđeni; dodat položaj između Pepića i Pelemiša.",
+        "otvoreno": "Natpis navodi septembar 1943 za formiranje odreda; Zavod 1990 i Savić 1971, str.611, prema izveštaju upozoravaju na razliku u odnosu na vreme posle oslobođenja Tuzle 2. oktobra. Opis zato ne ponavlja sporni mesec kao utvrđenu činjenicu."
+      },
+      {
+        "id": "gracanica-spomenik-palim-borcima-tuzlanskog-nop-od",
+        "pre": {
+          "id": "gracanica-spomenik-palim-borcima-tuzlanskog-nop-od",
+          "koordinate": {
+            "lat": 44.397672,
+            "lng": 18.7667
+          },
+          "mesto": "Gračanica (Živinice)",
+          "adresa": "Kod škole u zaseoku Zelenika",
+          "slika": "slike/spomenici/gracanica-spomenik-palim-borcima-tuzlanskog-nop-od.webp",
+          "slikaOdnos": 1.333,
+          "slikaPotpis": "Andrew Lawler, spomenicinob.info",
+          "naziv": "Spomenik palim borcima Tuzlanskog NOP odreda",
+          "nazivEn": "Monument to Fallen Fighters of the Tuzla NOP Detachment",
+          "opis": {
+            "sh": "Posvećeno palim borcima Tuzlanskog partizanskog odreda.",
+            "en": "Dedicated to fallen fighters of the Tuzla Partisan Detachment."
+          },
+          "godina": "1990",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "posle": {
+          "id": "gracanica-spomenik-palim-borcima-tuzlanskog-nop-od",
+          "koordinate": {
+            "lat": 44.397672,
+            "lng": 18.7667
+          },
+          "mesto": "Gračanica (Živinice)",
+          "adresa": "Kod škole u zaseoku Zelenika",
+          "slika": "slike/spomenici/gracanica-spomenik-palim-borcima-tuzlanskog-nop-od.webp",
+          "slikaOdnos": 1.333,
+          "slikaPotpis": "Andrew Lawler, spomenicinob.info",
+          "naziv": "Spomenik palim borcima Tuzlanskog NOP odreda",
+          "nazivEn": "Monument to Fallen Fighters of the Tuzla NOP Detachment",
+          "opis": {
+            "sh": "Posvećeno borcima i rukovodiocima Tuzlanskog partizanskog odreda poginulim na ovom području u decembru 1943. Spomenik kod škole podignut je 4. jula 1990. godine.",
+            "en": "Dedicated to fighters and commanders of the Tuzla Partisan Detachment killed in this area in December 1943. The monument beside the school was erected on 4 July 1990."
+          },
+          "godina": "1990",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "izvori": [
+          "https://www.spomenicinob.info/pdf/report/en/ZIVINICE%20MUNICIPALITY.pdf"
+        ],
+        "straneIzvestaja": "33-34",
+        "ishod": "Fotografija pokazuje isto obeležje kod škole. Posveta precizirana na decembar 1943, a 4.7.1990 je podizanje, ne ratni događaj. Razlikuje se od grada Gračanice na drugoj lokaciji. Precizna tačka ostaje; istorijsko oštećenje podnožja iz 2018 nije automatski proglašeno današnjim stanjem."
+      },
+      {
+        "id": "kladanj-spomenik-palim-borcima",
+        "pre": {
+          "id": "kladanj-spomenik-palim-borcima",
+          "koordinate": {
+            "lat": 44.225778,
+            "lng": 18.692583
+          },
+          "mesto": "Kladanj",
+          "adresa": "Ispred zgrade Opštine Kladanj",
+          "naziv": "Spomenik palim borcima",
+          "nazivEn": "Monument to Fallen Fighters",
+          "godina": "1954",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "posle": {
+          "id": "kladanj-spomenik-palim-borcima",
+          "koordinate": {
+            "lat": 44.225778,
+            "lng": 18.692583
+          },
+          "mesto": "Kladanj",
+          "adresa": "U centru Kladnja, uz Dom kulture",
+          "naziv": "Spomenik palim borcima",
+          "nazivEn": "Monument to Fallen Fighters",
+          "godina": "1954",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina",
+          "opis": {
+            "sh": "Posvećen borcima Kladnja i okoline koji su poginuli u NOR-u 1941-1945. Spomenik je podignut 1954, a njegovo ograđeno podnožje obnovljeno je 2013. godine.",
+            "en": "Dedicated to fighters from Kladanj and the surrounding area who died in the 1941–1945 liberation war. The monument was erected in 1954, and its enclosed base was renovated in 2013."
+          },
+          "slika": "slike/spomenici/kladanj-spomenik-palim-borcima.webp",
+          "slikaOdnos": 1.613,
+          "slikaPotpis": "Lawler i Mujkić, terenski izveštaj 2019"
+        },
+        "izvori": [
+          "https://www.spomenicinob.info/pdf/report/en/KLADANJ%20MUNICIPALITY.pdf",
+          "https://bastina.ba/wp-content/uploads/2021/04/Registar_dobara_KLADANJ.pdf"
+        ],
+        "straneIzvestaja": "6-10",
+        "ishod": "Fotografija savremenog obeliska/stеле iz 2018, posveta, izvorna godina 1954 i obnova ograđenog podnožja 2013. Registar red 61 daje položaj ispred opštine, a terenska fotografija neposredno prikazuje Dom kulture; adresa dopunjena prepoznatljivim orijentirom bez pomeranja tačke."
+      },
+      {
+        "id": "miljkovac-spomen-obiljezje-palim-borcima-vi-istocn",
+        "pre": {
+          "id": "miljkovac-spomen-obiljezje-palim-borcima-vi-istocn",
+          "koordinate": {
+            "lat": 44.279261,
+            "lng": 18.619634
+          },
+          "priblizno": true,
+          "mesto": "Miljkovac",
+          "slika": "slike/spomenici/miljkovac-spomen-obiljezje-palim-borcima-vi-istocn.webp",
+          "slikaOdnos": 1.444,
+          "slikaPotpis": "Andrew Lawler, spomenicinob.info",
+          "naziv": "Spomen-obilježje palim borcima VI istočnobosanske brigade",
+          "nazivEn": "Memorial to Fallen Fighters of the VI Eastern Bosnian Brigade",
+          "opis": {
+            "sh": "Obeležje borcima VI istočnobosanske brigade iz 1952. obnovljeno je sa novom pločom 2011. Tačka je približna, izvedena iz karte izvora i potvrde šireg lokaliteta.",
+            "en": "The 1952 memorial to fighters of the VI Eastern Bosnian Brigade was rebuilt with a new plaque in 2011. Its point is approximate, derived from the source map and confirmation of the wider site."
+          },
+          "godina": "1952",
+          "posveta": [
+            "Q16761390"
+          ],
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "posle": {
+          "id": "miljkovac-spomen-obiljezje-palim-borcima-vi-istocn",
+          "koordinate": {
+            "lat": 44.279261,
+            "lng": 18.619634
+          },
+          "priblizno": true,
+          "mesto": "Miljkovac",
+          "slika": "slike/spomenici/miljkovac-spomen-obiljezje-palim-borcima-vi-istocn.webp",
+          "slikaOdnos": 0.877,
+          "slikaPotpis": "Lawler i Mujkić, terenski izveštaj 2019",
+          "naziv": "Spomen-obilježje palim borcima VI istočnobosanske brigade",
+          "nazivEn": "Memorial to Fallen Fighters of the VI Eastern Bosnian Brigade",
+          "opis": {
+            "sh": "Posvećeno borcima [VI istočnobosanske brigade](Q16761390) poginulim u borbama u avgustu 1942. Spomen-obeležje iz 1952. obnovljeno je i dobilo novu ploču 2011; ne označava mesto njihovih grobova.",
+            "en": "Dedicated to fighters of the [6th Eastern Bosnian Brigade](Q16761390) killed in fighting in August 1942. The 1952 memorial was restored and received a new plaque in 2011; it does not mark their burial place."
+          },
+          "godina": "1952",
+          "posveta": [
+            "Q16761390"
+          ],
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina",
+          "adresa": "U šumi na Miljkovcu, uz planinarsku stazu u Zaštićenom pejzažu Konjuh"
+        },
+        "izvori": [
+          "https://www.spomenicinob.info/pdf/report/en/KLADANJ%20MUNICIPALITY.pdf",
+          "https://bastina.ba/wp-content/uploads/2021/04/Registar_dobara_KLADANJ.pdf"
+        ],
+        "straneIzvestaja": "32-35",
+        "ishod": "Registar razlikuje obeležje (62) i drugu ploču (63), bez spajanja. Fotografija koju smo prikazivali nosi datum 03/12/2011 i pokazuje prazno ležište tokom obnove; zamenjena je slikom 10c iz 2019. koja pokazuje novu ploču. Spomenik nije stvarna zajednička grobnica: detaljni izveštaj izričito razlikuje obeležje od udaljenih grobova. Godina 1952 i približna tačka ostaju."
+      },
+      {
+        "id": "krivaca-spomenik-pernicka-cuprija",
+        "pre": {
+          "id": "krivaca-spomenik-pernicka-cuprija",
+          "koordinate": {
+            "lat": 44.41647,
+            "lng": 18.75386
+          },
+          "priblizno": true,
+          "mesto": "Krivača",
+          "slika": "slike/spomenici/krivaca-spomenik-pernicka-cuprija.webp",
+          "slikaOdnos": 0.693,
+          "slikaPotpis": "Andrew Lawler, spomenicinob.info",
+          "naziv": "Spomenik „Pernička Ćuprija“",
+          "nazivEn": "“Pernička Ćuprija” Monument",
+          "opis": {
+            "sh": "Posvećeno borcima poginulim 20. januara 1944. kod Perničke ćuprije. Spomenik je podignut 1987; ploča je kasnije zamenjena, prema izvoru posle 2002.",
+            "en": "Dedicated to fighters killed near Pernička Ćuprija on 20 January 1944. The monument was erected in 1987; its plaque was later replaced, after 2002 according to the source."
+          },
+          "godina": "1987",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina"
+        },
+        "posle": {
+          "id": "krivaca-spomenik-pernicka-cuprija",
+          "koordinate": {
+            "lat": 44.41647,
+            "lng": 18.75386
+          },
+          "priblizno": true,
+          "mesto": "Krivača",
+          "slika": "slike/spomenici/krivaca-spomenik-pernicka-cuprija.webp",
+          "slikaOdnos": 0.693,
+          "slikaPotpis": "Andrew Lawler, spomenicinob.info",
+          "naziv": "Spomenik „Pernička Ćuprija“",
+          "nazivEn": "“Pernička Ćuprija” Monument",
+          "opis": {
+            "sh": "Posvećeno borcima poginulim 20. januara 1944. kod Perničke ćuprije. Na ploči je navedena godina podizanja 1987, ali datum njene kasnije zamene nije utvrđen.",
+            "en": "Dedicated to fighters killed near Pernička Ćuprija on 20 January 1944. The plaque gives 1987 as the monument’s erection date, but the date of its later replacement has not been established."
+          },
+          "godina": "1987",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Bosnia and Herzegovina",
+          "adresa": "Na obali Spreče, kod Pijerničke ćuprije u Krivači"
+        },
+        "izvori": [
+          "https://www.spomenicinob.info/pdf/report/en/ZIVINICE%20MUNICIPALITY.pdf"
+        ],
+        "straneIzvestaja": "35-37",
+        "ishod": "Tri betonska kraka i šestougaona baza odgovaraju fotografiji. Dodat položaj na Spreči i lokalni oblik Pijernička u adresi, bez nametanja novog naslova. Uklonjena neosnovana donja granica posle 2002 za zamenu ploče: članak iz 2002 govori o stanju i potrebi obnove, a izveštaj ne utvrđuje godinu zamene. Godina 1987 sa ploče ostaje."
+      },
+      {
+        "id": "plahovici-spomen-ploca-boravku-vrhovnog-staba-i-ti",
+        "pre": {
+          "id": "plahovici-spomen-ploca-boravku-vrhovnog-staba-i-ti",
+          "mesto": "Plahovići",
+          "naziv": "Spomen-kuća Vrhovnog štaba i Tita",
+          "nazivEn": "Supreme Headquarters and Tito Memorial House",
+          "vrsta": "spomen-kuca",
+          "drzava": "Bosnia and Herzegovina",
+          "opis": {
+            "sh": "Zgrada obeležena pločom boravku Vrhovnog štaba i Tita uređena je kao spomen-kuća. Današnja ploča postavljena je oko 2011-2013.",
+            "en": "The building marked by a plaque to the stay of Supreme Headquarters and Tito has been converted into a memorial house. The present plaque was installed around 2011-2013."
+          }
+        },
+        "posle": {
+          "id": "plahovici-spomen-ploca-boravku-vrhovnog-staba-i-ti",
+          "mesto": "Plahovići",
+          "naziv": "Spomen-kuća Vrhovnog štaba i Tita",
+          "nazivEn": "Supreme Headquarters and Tito Memorial House",
+          "vrsta": "spomen-kuca",
+          "drzava": "Bosnia and Herzegovina",
+          "opis": {
+            "sh": "Spomen-kuća obeležava boravak [Josipa Broza Tita](Q9161) i Vrhovnog štaba od 1. do 15. jula 1943. Stalna postavka uređena je 2018. uz podršku Muzeja istočne Bosne, a obilazak spomen-sobe potvrđen je i u opštinskoj objavi iz 2024.",
+            "en": "The memorial house commemorates the stay of [Josip Broz Tito](Q9161) and the Supreme Headquarters from 1 to 15 July 1943. Its permanent exhibition was developed in 2018 with support from the Museum of Eastern Bosnia, and a visit to the memorial room was also documented by the municipality in 2024."
+          },
+          "adresa": "Kuća Muje i Timke Mazalović u Plahovićima",
+          "posveta": [
+            "Q9161"
+          ],
+          "slika": "slike/bez-lokacije/plahovici-spomen-ploca-boravku-vrhovnog-staba-i-ti.webp",
+          "slikaOdnos": 1.333,
+          "slikaPotpis": "Lawler i Mujkić, terenski izveštaj 2019"
+        },
+        "izvori": [
+          "https://www.spomenicinob.info/pdf/report/en/KLADANJ%20MUNICIPALITY.pdf",
+          "https://www.spomenicinob.info/kladanj",
+          "https://bastina.ba/wp-content/uploads/2021/04/Registar_dobara_KLADANJ.pdf",
+          "https://www.kladanj.ba/obilje%C5%BEena-manifestacija-%E2%80%9Edani-titove-pe%C4%87ine%E2%80%9C-u-kladnju.html"
+        ],
+        "straneIzvestaja": "26-28",
+        "ishod": "Registar red 66 razlikuje kuću od pećine. Uklonjen opis koji tvrdi približno 2011-2013 za ploču: PDF na osnovu fotografija navodi da je postojala pre 2011, a oko 2013 odnosi se na poređenje sa drugom pločom u Kladnju. Tačan datum ostaje nepoznat. Postavka uređena 2018, opštinska objava 2024 potvrđuje obilazak spomen-sobe. Nova fotografija spoljašnjosti iz jula 2019. Tačka nije izmišljena; zapis ostaje bez lokacije."
+      }
+    ],
+    "fotografije": [
+      {
+        "id": "kladanj-spomenik-palim-borcima",
+        "izvor": "https://www.spomenicinob.info/pdf/report/en/KLADANJ%20MUNICIPALITY.pdf",
+        "strana": 6,
+        "oznaka": "1b",
+        "godinaFotografije": 2018,
+        "fotograf": "Nije naveden uz pojedinačan snimak; potpis navodi izveštaj Lawlera i Mujkića."
+      },
+      {
+        "id": "plahovici-spomen-ploca-boravku-vrhovnog-staba-i-ti",
+        "izvor": "https://www.spomenicinob.info/pdf/report/en/KLADANJ%20MUNICIPALITY.pdf",
+        "strana": 27,
+        "oznaka": "8c",
+        "datumFotografije": "2019-07",
+        "fotograf": "Nije naveden uz pojedinačan snimak; potpis navodi izveštaj Lawlera i Mujkića."
+      },
+      {
+        "id": "miljkovac-spomen-obiljezje-palim-borcima-vi-istocn",
+        "izvor": "https://www.spomenicinob.info/pdf/report/en/KLADANJ%20MUNICIPALITY.pdf",
+        "strana": 33,
+        "oznaka": "10c",
+        "godinaFotografije": 2019,
+        "fotograf": "Nije naveden uz pojedinačan snimak; potpis navodi izveštaj Lawlera i Mujkića.",
+        "staraSacuvana": "C:\\Users\\d_pavlica\\OneDrive - Wargaming.net\\Documents\\GitHub\\spomenici\\izvori\\pretrage\\kladanj-zivinice-10-2026-10-21\\miljkovac-pre.webp"
+      }
+    ],
+    "ogranicenje": "Sažeti registri Zavoda ne daju detaljne kartone za svih deset objekata; upoređeni su sa detaljnim izveštajima koji koriste studije Zavoda 1987/1990 i terenske fotografije, uz konkretne novije opštinske objave. Nema novih ID-jeva, vraćanja iz arhive, novih markera, pomeranja koordinata ili menjanja preciznosti. Dva neslaganja izvora o datiranju sačuvana su u otvorenim napomenama."
   }
 ]
