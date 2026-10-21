@@ -51496,5 +51496,537 @@
       "pula-istrian-uprising": "pocrnjen i išaran ustaškim znakovima"
     },
     "zadrzano": "ostali preneti nalazi iz hrvatska-povezani-70-2026-10-16 opisuju fizičko oštećenje (skinuta zvezda, razbijena ploča, miniranje, nestale biste) i ostaju"
+  },
+  {
+    "odluka": "srwiki-spisak-spomenika-nob-slovenija-2026-10-21",
+    "datum": "2026-10-21",
+    "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%98%D0%B8",
+    "kopija": "izvori/pretrage/enwiki-heroji-srbija-2026-10-20/",
+    "obim": "ponovljen prolaz: svi podaci spiska i za stavke koje već imamo (posvete iz članaka o herojima, vajari iz napomena, adrese iz napomena, fotografije zapisa bez slike, duplikati)",
+    "spojeno": {},
+    "dodato": [
+      "pohorje-pauckove-partizanske-bolnisnice",
+      "ljubljana-spomenik-edvardu-kardelju",
+      "ljubljana-spomenik-padlim-pionirjem",
+      "zuzemberk-spomenik-ladu-ambrozicu",
+      "zakojca-spomenik-francetu-bevku",
+      "cerkno-spomenik-franji-bojc-bidovec",
+      "kamnik-spomenik-jakobu-moleku-mohorju",
+      "novo-mesto-spomenik-francu-rozmanu-stanetu"
+    ],
+    "fotografije": {
+      "pohorje-pauckove-partizanske-bolnisnice": "https://commons.wikimedia.org/wiki/File:Paučkove_bolnice.JPG"
+    },
+    "dopunjeno": {
+      "kocevje-spominski-park-herojev": {
+        "posveta": [
+          null,
+          [
+            "Q15984007",
+            "Q18544949",
+            "Q12788631",
+            "Q65202430",
+            "Q97328915",
+            "Q4505375",
+            "Q20966054"
+          ]
+        ]
+      },
+      "ljubljana-tone-tomsic": {
+        "autor": "Boris Kalin"
+      },
+      "slovenski-javornik": {
+        "autor": "Drago Tršar"
+      },
+      "kropa": {
+        "autor": "Albert Sušnik & Marija Keržič & Stane Keržič",
+        "godina": "1966"
+      },
+      "murska-sobota": {
+        "autor": "Zdenko Kalin & Feri Novak"
+      },
+      "franja-partisan-hospital": {
+        "wiki": "https://sh.wikipedia.org/wiki/Partizanska_bolnica_Franja"
+      }
+    },
+    "posvete": {},
+    "novePosvete": [],
+    "dileme": {
+      "ljubljana-doprsni-kip-borisa-kidrica": "sr i sh spisak: spomenik Borisu Kidriču u Ljubljani, vajar Zdenko Kalin, 1960; naš zapis (eid.gov.si) navodi Borisa Kalina; nije potvrđeno da je isti objekat",
+      "dravograd": "Commons fotografija spomenika tragediji na Košenjaku ima GPS 34 m od zapisa dravograd (Spomenik NOB); verovatno isti objekat, nije menjano",
+      "baza-20-secret-partisan-base": "sr spisak navodi biste Kvedera, Leskošeka, Mačeka i Rozmana u Bazi 20 (Kočevski Rog); deo muzejske celine, nisu dodate posebno",
+      "krvavec-spomenik-palim-borcima": "Commons Krvavec_WW2_memorial.jpg ima GPS (46.0418, 13.7157) daleko od Krvavca; fotografija nije upisana",
+      "nove stavke bez lokacije": "Kardelj, padli pionirji (Ljubljana), Ambrožič (Žužemberk), Bevk (Zakojca), Bojc Bidovec (Cerkno), Molek (Kamnik), Rozman (Novo mesto): samo mesto, autor i godina iz sr spiska; tačka i današnje stanje nisu provereni"
+    },
+    "preskoceno": {
+      "Bistriški jarek, Koprivna": "fajlovi fotografija ne postoje na Commons-u; nema drugih podataka osim opšte posvete",
+      "Josip Broz Tito, Ljubljana; Janko Premrl Vojko (mesto „?“)": "nema mesta ni podataka",
+      "Kozlerjev gozd, Srednja Dobrava, Javorski Pil, Nova Gorica (Crvena armija)": "bez fotografije i podataka, opšte posvete",
+      "opšte posvete i posvete na srpskom": "konkretne posvete za Sloveniju nisu prevođene; zapisi već imaju opise ili Q-posvete"
+    }
+  },
+  {
+    "odluka": "spomen-parkovi-sesti-paket-obuhvat-i-vrste-2026-10-21",
+    "datum": "2026-10-21",
+    "pre": [
+      {
+        "id": "komarna-vas",
+        "koordinate": {
+          "lat": 45.6773256,
+          "lng": 15.0585807
+        },
+        "googleCid": "102324588681362599",
+        "mesto": "Komarna Vas",
+        "slika": "slike/spomenici/komarna-vas.webp",
+        "slikaOdnos": 1.336,
+        "slikaPotpis": "Rude, CC BY-SA 3.0",
+        "naziv": "Partizanska bolnišnica Zgornji Hrastnik",
+        "vrsta": "spomen-park",
+        "drzava": "Slovenia"
+      },
+      {
+        "id": "jelendol",
+        "koordinate": {
+          "lat": 45.7061111,
+          "lng": 15.0338889
+        },
+        "mesto": "Jelendol",
+        "wiki": "https://sl.wikipedia.org/wiki/Partizanska_bolni%C5%A1nica_Jelendol",
+        "slika": "slike/spomenici/jelendol.webp",
+        "slikaOdnos": 1.747,
+        "slikaPotpis": "Uroš Novina from Semič, Slovenia, CC BY 2.0",
+        "naziv": "Partizanska bolnišnica Jelendol",
+        "godina": "1943",
+        "vrsta": "spomen-park",
+        "drzava": "Slovenia"
+      },
+      {
+        "id": "trojstveni-markovac-lug",
+        "koordinate": {
+          "lat": 45.90679,
+          "lng": 16.87044
+        },
+        "mesto": "Trojstveni Markovac",
+        "wiki": "https://hr.wikipedia.org/wiki/Spomen_podru%C4%8Dje_Lug",
+        "slika": "slike/spomenici/trojstveni-markovac-lug.webp",
+        "slikaOdnos": 1.333,
+        "slikaPotpis": "Bjelovaracskm, CC BY-SA 4.0",
+        "naziv": "Spomen-područje Lug",
+        "vrsta": "spomen-park",
+        "drzava": "Croatia"
+      },
+      {
+        "id": "gornja-stubica-peresin",
+        "koordinate": {
+          "lat": 45.97471,
+          "lng": 16.01797
+        },
+        "mesto": "Gornja Stubica",
+        "wiki": "https://hr.wikipedia.org/wiki/Spomen-park_Rudolfu_Pere%C5%A1inu",
+        "slika": "slike/spomenici/gornja-stubica-peresin.webp",
+        "slikaOdnos": 1.498,
+        "slikaPotpis": "Jerry Gunner, CC BY 2.0",
+        "naziv": "Spomen-park Rudolfu Perešinu",
+        "posveta": [
+          "Q2003778"
+        ],
+        "vrsta": "spomen-park",
+        "drzava": "Croatia"
+      },
+      {
+        "id": "ustica",
+        "koordinate": {
+          "lat": 45.2622222,
+          "lng": 16.9002778
+        },
+        "mesto": "Uštica",
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A0%D0%BE%D0%BC%D1%81%D0%BA%D0%B8_%D0%BC%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D1%98%D0%B0%D0%BB%D0%BD%D0%B8_%D1%86%D0%B5%D0%BD%D1%82%D0%B0%D1%80_%D0%A3%D1%88%D1%82%D0%B8%D1%86%D0%B0",
+        "slika": "slike/spomenici/ustica.webp",
+        "slikaOdnos": 0.752,
+        "slikaPotpis": "MirkoS18, CC BY 4.0",
+        "naziv": "Romski memorijalni centar Uštica",
+        "vrsta": "spomen-park",
+        "drzava": "Croatia"
+      },
+      {
+        "id": "bor-spomen-pojate-partizanski-bivak",
+        "koordinate": {
+          "lat": 44.101333,
+          "lng": 22.201944
+        },
+        "mesto": "Bor",
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD_%D0%BF%D0%BE%D1%98%D0%B0%D1%82%D0%B5_%E2%80%9E%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B8_%D0%B1%D0%B8%D0%B2%D0%B0%D0%BA%E2%80%9D",
+        "slika": "slike/spomenici/bor-spomen-pojate-partizanski-bivak.webp",
+        "slikaOdnos": 1.835,
+        "slikaPotpis": "Nepoznat autor, CC BY-SA 3.0",
+        "naziv": "Spomen-pojate „Partizanski bivak“",
+        "nazivEn": "Partisan Bivouac Memorial Huts",
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "cacak-memorijalni-kompleks-ljubic",
+        "koordinate": {
+          "lat": 43.915701,
+          "lng": 20.372566
+        },
+        "mesto": "Čačak (Ljubić)",
+        "slika": "slike/spomenici/cacak-memorijalni-kompleks-ljubic.webp",
+        "slikaOdnos": 0.667,
+        "slikaPotpis": "BrankaVV, CC BY-SA 4.0",
+        "naziv": "Memorijalni kompleks Ljubić",
+        "nazivEn": "Ljubić Memorial Complex",
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "molat-memorijalna-cjelina-bivseg-logora",
+        "koordinate": {
+          "lat": 44.2165,
+          "lng": 14.8791
+        },
+        "mesto": "Molat (Uvala Jazi)",
+        "slika": "slike/spomenici/molat-memorijalna-cjelina-bivseg-logora.webp",
+        "slikaOdnos": 1.333,
+        "slikaPotpis": "nikola_pu, CC BY-SA 3.0",
+        "naziv": "Povijesno-memorijalna cjelina bivšeg koncentracijskog logora",
+        "nazivEn": "Memorial Site of the Former Concentration Camp",
+        "vrsta": "spomen-park",
+        "drzava": "Croatia"
+      },
+      {
+        "id": "teharje-spominski-park",
+        "koordinate": {
+          "lat": 46.2373645,
+          "lng": 15.3179857
+        },
+        "mesto": "Teharje",
+        "slika": "slike/spomenici/teharje-spominski-park.webp",
+        "slikaOdnos": 0.75,
+        "slikaPotpis": "Partisan Memorials Wiki",
+        "naziv": "Spominski park",
+        "nazivEn": "Memorial Park",
+        "godina": "2004",
+        "autor": "Marko Mušič",
+        "vrsta": "spomen-park",
+        "drzava": "Slovenia"
+      },
+      {
+        "id": "gornji-garevci-spomen-kompleks-partizanske-bolnice",
+        "koordinate": {
+          "lat": 45.05134,
+          "lng": 16.83452
+        },
+        "mesto": "Gornji Garevci",
+        "naziv": "Spomen-kompleks partizanske bolnice",
+        "nazivEn": "Partisan hospital memorial complex",
+        "vrsta": "spomen-park",
+        "drzava": "Bosnia and Herzegovina"
+      },
+      {
+        "id": "lusci-palanka-dom-djuro-djakovic",
+        "koordinate": {
+          "lat": 44.745684,
+          "lng": 16.432172
+        },
+        "mesto": "Lušci Palanka",
+        "naziv": "Dom „Đuro Đaković“",
+        "vrsta": "spomen-park",
+        "drzava": "Bosnia and Herzegovina"
+      },
+      {
+        "id": "stari-brod-spomen-kompleks",
+        "koordinate": {
+          "lat": 43.871062,
+          "lng": 19.211716
+        },
+        "mesto": "Stari Brod",
+        "slika": "slike/spomenici/stari-brod-spomen-kompleks.webp",
+        "slikaOdnos": 2.21,
+        "slikaPotpis": "visegradturizam.com",
+        "naziv": "Spomen-kompleks",
+        "nazivEn": "Memorial Complex",
+        "godina": "2008",
+        "vrsta": "spomen-park",
+        "drzava": "Bosnia and Herzegovina"
+      },
+      {
+        "id": "mali-idjos-park-secanja-na-holokaust",
+        "koordinate": {
+          "lat": 45.703939,
+          "lng": 19.673956
+        },
+        "mesto": "Mali Iđoš",
+        "slika": "slike/spomenici/mali-idjos-park-secanja-na-holokaust.webp",
+        "slikaOdnos": 1.333,
+        "slikaPotpis": "telepapatija.wordpress.com",
+        "naziv": "Park sećanja na Holokaust",
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      },
+      {
+        "id": "bela-palanka-park-heroja",
+        "koordinate": {
+          "lat": 43.215667,
+          "lng": 22.312722
+        },
+        "mesto": "Bela Palanka",
+        "naziv": "Park heroja",
+        "vrsta": "spomen-park",
+        "drzava": "Serbia"
+      }
+    ],
+    "prethodniIzvori": {
+      "komarna-vas": null,
+      "jelendol": "https://znaci.org/00003/920.pdf#page=159",
+      "trojstveni-markovac-lug": null,
+      "gornja-stubica-peresin": null,
+      "ustica": null,
+      "bor-spomen-pojate-partizanski-bivak": null,
+      "cacak-memorijalni-kompleks-ljubic": "https://commons.wikimedia.org/wiki/File%3AMemorijalni_kompleks_Ljubic_kraj_Cacka_%282%29.jpg",
+      "molat-memorijalna-cjelina-bivseg-logora": "https://registar.kulturnadobra.hr/api/kulturno-dobro/detail/Z-7029",
+      "teharje-spominski-park": "https://www.xiwl.com/w/index.php/Teharje_-_Spominski_Park",
+      "gornji-garevci-spomen-kompleks-partizanske-bolnice": "https://www.spomenicinob.info/prijedor",
+      "lusci-palanka-dom-djuro-djakovic": "https://znaci.org/00003/920.pdf#page=116",
+      "stari-brod-spomen-kompleks": "https://www.xiwl.com/w/index.php/Stari_Brod_-_Spomen_Kompleks",
+      "mali-idjos-park-secanja-na-holokaust": "https://www.xiwl.com/w/index.php/Mali_I%C4%91o%C5%A1_-_Park_Se%C4%87anja_na_Holokaust",
+      "bela-palanka-park-heroja": "https://www.xiwl.com/w/index.php/Bela_Palanka_-_Park_Heroja"
+    },
+    "dopunjeno": {
+      "komarna-vas": {
+        "opis": {
+          "sh": "Sačuvana partizanska bolnica u Kočevskom rogu, namenjena lečenju teških ranjenika tokom Drugog svetskog rata. Drvene barake i prateća obeležja čine muzejsku celinu kojom upravlja Dolenjski muzej.",
+          "en": "A preserved Partisan hospital in Kočevski Rog used to treat seriously wounded patients during the Second World War. The wooden huts and associated memorials form a museum site managed by the Dolenjska Museum."
+        },
+        "vrsta": "muzej",
+        "nazivEn": "Zgornji Hrastnik Partisan Hospital"
+      },
+      "jelendol": {
+        "opis": {
+          "sh": "Sačuvana partizanska bolnica koja je tokom Drugog svetskog rata delovala u skrovitim šumama Kočevskog roga. Bolničke barake danas su deo memorijalnih lokaliteta kojima upravlja Dolenjski muzej.",
+          "en": "A preserved Partisan hospital that operated in the secluded forests of Kočevski Rog during the Second World War. Its hospital huts are now part of the memorial sites managed by the Dolenjska Museum."
+        },
+        "vrsta": "muzej",
+        "nazivEn": "Jelendol Partisan Hospital"
+      },
+      "ustica": {
+        "opis": {
+          "sh": "Posvećeno Romima ubijenim u ustaškom [logoru Jasenovac](Q155032). Celina obuhvata istorijsko romsko groblje sa masovnim grobnicama i noviji memorijalni centar.",
+          "en": "Dedicated to Roma murdered in the Ustaša [Jasenovac concentration camp](Q155032). The site comprises the historic Roma cemetery with mass graves and a more recent memorial centre."
+        },
+        "posveta": [
+          "Q155032"
+        ]
+      },
+      "bor-spomen-pojate-partizanski-bivak": {
+        "opis": {
+          "sh": "Obeležava partizanski bivak i stradanje [Stevana Đorđevića Novaka](Q12759666) i skojevca Borivoja Colića Joce u julu 1943. Memorijal se nalazi kod Donje Bele Reke, uz Prevodski potok.",
+          "en": "Commemorates a Partisan bivouac and the deaths of [Stevan Đorđević Novak](Q12759666) and youth resistance activist Borivoj Colić Joca in July 1943. The memorial stands near Donja Bela Reka, beside Prevodski Stream."
+        },
+        "posveta": [
+          "Q12759666"
+        ],
+        "godina": "1979",
+        "adresa": "Kod Donje Bele Reke, Prevodski potok"
+      },
+      "cacak-memorijalni-kompleks-ljubic": {
+        "opis": {
+          "sh": "Memorijal obuhvata spomenik Boju na Ljubiću 1815. i obeležja oslobodilačkih ratova, uključujući NOB i crvenoarmejce poginule pri oslobođenju Čačka. U celini su i grobovi železničara i radnika poginulih tokom Drugog svetskog rata.",
+          "en": "The memorial includes a monument to the 1815 Battle of Ljubić and memorials to wars of liberation, including the Partisan struggle and Red Army soldiers who fell liberating Čačak. The site also contains graves of railway workers and other workers killed during the Second World War."
+        }
+      },
+      "molat-memorijalna-cjelina-bivseg-logora": {
+        "opis": {
+          "sh": "Posvećeno zatočenicima italijanskog fašističkog logora u uvali Jazi, koji je delovao 1942–1943. Memorijalna celina čuva ostatke logora i sećanje na zatočenike i stradale civile.",
+          "en": "Dedicated to prisoners of the Italian fascist camp in Jazi Bay, which operated in 1942–1943. The memorial site preserves camp remains and the memory of its prisoners and civilian victims."
+        }
+      },
+      "gornji-garevci-spomen-kompleks-partizanske-bolnice": {
+        "opis": {
+          "sh": "Obeležava mesto partizanske bolnice na Kozari. Memorijalna celina obuhvata i zajedničku grobnicu palih boraca, obeleženu 1961.",
+          "en": "Marks the site of a Partisan hospital on Kozara. The memorial area also includes a common grave of fallen fighters, marked in 1961."
+        },
+        "adresa": "Vitlovska, kod sastava Gračanice i Mlječanice"
+      },
+      "lusci-palanka-dom-djuro-djakovic": {
+        "opis": {
+          "sh": "Dom je podignut u znak sećanja na poginule partizanske borce sa područja Lušci Palanke. Memorijalna posveta zgrade potvrđena je u vodiču spomenika revolucije iz 1986.",
+          "en": "The hall was built in memory of fallen Partisan fighters from the Lušci Palanka area. Its memorial dedication is documented in the 1986 guide to monuments of the revolution."
+        },
+        "vrsta": "spomen-obelezje",
+        "nazivEn": "Đuro Đaković Memorial Hall"
+      },
+      "stari-brod-spomen-kompleks": {
+        "opis": {
+          "sh": "Posvećeno srpskim civilima koje su ustaše ubile u Starom Brodu i okolini u proleće 1942, dok su pokušavali da pređu Drinu. Memorijal uz reku obuhvata kapelu, muzej i skulpturalne prikaze stradanja izbeglica.",
+          "en": "Dedicated to Serbian civilians killed by the Ustaša in Stari Brod and its surroundings in spring 1942 while trying to cross the Drina. The riverside memorial includes a chapel, a museum and sculptures depicting the suffering of refugees."
+        },
+        "naziv": "Spomen-kompleks Stari Brod",
+        "nazivEn": "Stari Brod Memorial Complex",
+        "wiki": "https://visegradturizam.com/atrakcije/spomen-kompleks-stari-brod/"
+      },
+      "bela-palanka-park-heroja": {
+        "opis": {
+          "sh": "Posvećeno poginulim borcima NOB i žrtvama fašizma iz belopalanačkog kraja. Na kružnom platou u parku Vrelo nalaze se biste narodnih heroja i spomen-ploče.",
+          "en": "Dedicated to fallen Partisan fighters and victims of fascism from the Bela Palanka area. A circular platform in Vrelo Park contains busts of People’s Heroes and memorial plaques."
+        },
+        "nazivEn": "Heroes’ Park",
+        "adresa": "Park Vrelo, kružni plato sa bistama"
+      }
+    },
+    "uklonjenoVanObuhvata": [
+      "gornja-stubica-peresin",
+      "teharje-spominski-park",
+      "trojstveni-markovac-lug"
+    ],
+    "uklonjeneNepovezanePosvete": {
+      "Q2003778": {
+        "naziv": {
+          "sh": "Rudolf Perešin"
+        },
+        "wiki": "https://sh.wikipedia.org/wiki/Rudolf_Pere%C5%A1in",
+        "wikiEn": "https://en.wikipedia.org/wiki/Rudolf_Pere%C5%A1in"
+      }
+    },
+    "sacuvaneFotografije": [
+      {
+        "id": "teharje-spominski-park",
+        "izvornaPutanja": "slike\\spomenici\\teharje-spominski-park.webp",
+        "sacuvano": "izvori\\pretrage\\spomen-parkovi-paket6-2026-10-21\\pre-spomenici-teharje-spominski-park.webp",
+        "sha256": "ab04a708432c81a37f3b5882693c3efb84d7341554f28005724173ba406d7d0c"
+      },
+      {
+        "id": "teharje-spominski-park",
+        "izvornaPutanja": "slike\\male\\teharje-spominski-park.webp",
+        "sacuvano": "izvori\\pretrage\\spomen-parkovi-paket6-2026-10-21\\pre-male-teharje-spominski-park.webp",
+        "sha256": "4cecd3b3cba5f5f4c9480a143132307a900fd3d57cd4ff303303733a83c404f7"
+      },
+      {
+        "id": "gornja-stubica-peresin",
+        "izvornaPutanja": "slike\\spomenici\\gornja-stubica-peresin.webp",
+        "sacuvano": "izvori\\pretrage\\spomen-parkovi-paket6-2026-10-21\\pre-spomenici-gornja-stubica-peresin.webp",
+        "sha256": "a4852931d759469a1d6648f4440c2d2d7e81b4dccdb5e4f25eb5b2a240df6012"
+      },
+      {
+        "id": "gornja-stubica-peresin",
+        "izvornaPutanja": "slike\\male\\gornja-stubica-peresin.webp",
+        "sacuvano": "izvori\\pretrage\\spomen-parkovi-paket6-2026-10-21\\pre-male-gornja-stubica-peresin.webp",
+        "sha256": "3f02176cb6e8d7b7bac96396ec488f90dbe7035b85926efd7c4a4d49cd261fcd"
+      },
+      {
+        "id": "trojstveni-markovac-lug",
+        "izvornaPutanja": "slike\\spomenici\\trojstveni-markovac-lug.webp",
+        "sacuvano": "izvori\\pretrage\\spomen-parkovi-paket6-2026-10-21\\pre-spomenici-trojstveni-markovac-lug.webp",
+        "sha256": "445820b31387a67e1d6dae43462cc981b2b75aea983285dc375bbbeb7e84fd0e"
+      },
+      {
+        "id": "trojstveni-markovac-lug",
+        "izvornaPutanja": "slike\\male\\trojstveni-markovac-lug.webp",
+        "sacuvano": "izvori\\pretrage\\spomen-parkovi-paket6-2026-10-21\\pre-male-trojstveni-markovac-lug.webp",
+        "sha256": "705229852d48ffb17a877ebf8d2685ee22e42824fd252322f65e24a41f551272"
+      }
+    ],
+    "izvori": {
+      "komarna-vas": {
+        "url": "https://www.dolenjskimuzej.si/lokacije/kocevski-rog/",
+        "nalaz": "Muzejski upravljač potvrđuje sačuvane bolničke barake i muzejsku celinu. Nije odbačeno kao gola istorijska bolnica bez spomenika; vrsta muzej, bez pretpostavke autora i godine muzealizacije."
+      },
+      "jelendol": {
+        "url": "https://www.dolenjskimuzej.si/lokacije/kocevski-rog/",
+        "nalaz": "Ista muzejska ustanova potvrđuje sačuvanu i zaštićenu bolnicu kao lokalitet za posetu. Postojeća godina1943 sačuvana kao ratni nastanak, bez izmišljanja nove godine."
+      },
+      "ustica": {
+        "url": "https://rmcu.hr/romski-logor-i-romsko-groblje-ustica/",
+        "dopunski": "https://jusp-jasenovac.hr/Default.aspx?sid=7127",
+        "nalaz": "Groblje nije novo obeležje posle1990: JUSP potvrđuje da je istorijsko romsko groblje Uštica bilo u sastavu spomen-područja pre1991. Zadržana istorijska celina uz noviji centar; ne pripisuje joj se godina nastanka nove zgrade. Bez prenošenja spornih procena broja žrtava."
+      },
+      "bor-spomen-pojate-partizanski-bivak": {
+        "url": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD_%D0%BF%D0%BE%D1%98%D0%B0%D1%82%D0%B5_%E2%80%9E%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B8_%D0%B1%D0%B8%D0%B2%D0%B0%D0%BA%E2%80%9D",
+        "kopija": "Donja_Bela_Reka__Bor__-_Spomenik_Partizanski_Bivak.txt",
+        "nalaz": "Potvrđeni bivak i dva stradala u julu1943. Godina1979 potvrđena i u Popović-Žuma1981,str.52; autor je tamo samo R.Radović pa se ne proširuje u Radomir."
+      },
+      "cacak-memorijalni-kompleks-ljubic": {
+        "url": "https://turizamcacak.rs/en/touriste-offer/memorials",
+        "dopunski": "https://fr.wikipedia.org/wiki/Ensemble_comm%C3%A9moratif_de_la_colline_de_Ljubi%C4%87",
+        "nalaz": "Ne uklanja se samo zbog dominantnog Tanaska Rajića/1815. Detaljniji članak, pozivajući se na kultura.rs, navodi grobove NOB, Radomira Đurakića i crvenoarmejce. Celina zato uključuje potvrđeni WWII deo.1938 Milovan Krstić pripada pojedinačnom ranijem spomeniku, ne celoj celini."
+      },
+      "molat-memorijalna-cjelina-bivseg-logora": {
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/full/2018_03_28_577.html",
+        "dopunski": "https://www.nmz.hr/files/file/IZDANJA/B-153.pdf",
+        "nalaz": "Službeni registar potvrđuje memorijalnu celinu; Narodni muzej Zadar logor1942–1943. Muzejski dokumentacijski centar2022 navodi materijalne ostatke i izložbu po najavi. Ne obećava se da je postavka stalno otvorena."
+      },
+      "gornji-garevci-spomen-kompleks-partizanske-bolnice": {
+        "kopija": "Gornji_Garevci_-_Spomen-Kompleks_Partizanske_Bolnice.txt",
+        "dopunski": "izvori/spomenicinob/redovi.json",
+        "nalaz": "Postoji uređena memorijalna celina i grobnica, ne samo lokacija nekadašnje bolnice.1961 odnosi se na grobnicu; nije automatski godina celog prostora. Adresa iz izvornog terenskog reda."
+      },
+      "lusci-palanka-dom-djuro-djakovic": {
+        "kopija": "izvori/knjige/jokic-1986/fokus-1-120.txt",
+        "dopunski": "https://www.sluzbeniglasnikusk.com/files/sl_glasnik_2011/sl_gl_br_15.pdf",
+        "nalaz": "Jokić izričito navodi dom u spomen537 palih boraca, pa ostaje NOB memorijal. Nije park ni potvrđeni muzej, a nije ni nekadašnja stambena spomen-kuća; spomen-obelezje. Službeni glasnik2011 navodi Dom kulture Đuro Đaković u Lušci Palanci; današnja memorijalna postavka/natpis nije potvrđena."
+      },
+      "stari-brod-spomen-kompleks": {
+        "url": "https://visegradturizam.com/atrakcije/spomen-kompleks-stari-brod/",
+        "nalaz": "Turistička organizacija potvrđuje civilne žrtve zločina1942, kapelu i muzej2019/skulpture. Najstarija godina2008 zadržana; noviji muzej nije početak celog memorijala. Zgrada muzeja ne menja automatski vrstu cele obalne celine."
+      },
+      "bela-palanka-park-heroja": {
+        "kopija": "Bela_Palanka_-_Park_Heroja.txt",
+        "dopunski": "https://www.gdeputovati.rs/bela-palanka/sta-videti/belopalanacko-vrelo/",
+        "nalaz": "Posveta borcima i žrtvama, kružni plato i više bisti potvrđuju parkovsku celinu. Pretpostavka iz Wiki posle1981 nije upisana kao godina."
+      },
+      "trojstveni-markovac-lug": {
+        "url": "https://www.bjelovar.hr/lug-2014/",
+        "nalaz": "Grad Bjelovar: posleratna stradanja1945 i grobnica2006. Izvan dogovorenog obuhvata; nije NOB spomen-park."
+      },
+      "gornja-stubica-peresin": {
+        "url": "https://hr.wikipedia.org/wiki/Spomen-park_Rudolfu_Pere%C5%A1inu",
+        "dopunski": "https://radio-stubica.hr/zagorcima-velika-hvala-ucinili-su-mnogo-kako-se-ime-rudolfa-peresina-ne-bi-zaboravilo/",
+        "nalaz": "Pilot Rudolf Perešin i rat1991–1995; park2004/bista1999. Izvan obuhvata, bez promene drugih NOB obeležja u Gornjoj Stubici."
+      },
+      "teharje-spominski-park": {
+        "url": "https://pisrs.si/pregledPredpisa?id=ODLO1764&tab=analiticni",
+        "dopunski": "https://arhiv.celje.si/8-staticne-strani/7423-povojni-poboji-spominski-park-teharje",
+        "nalaz": "Državni akt izričito određuje posvetu žrtvama posleratnih pokolja; Park2004 nije spomenik NOB."
+      },
+      "mali-idjos-park-secanja-na-holokaust": {
+        "url": "https://www.vhmproject.org/en/Locations",
+        "kopija": "Mali_Iđoš_-_Park_Sećanja_na_Holokaust.txt",
+        "nalaz": "Nekadašnje jevrejsko groblje pretvoreno u park; godina prvog spomenika nije potvrđena. Wiki2019 navodi samo kao moguće čitanje novije ulazne ploče; to nije dokaz da je celo obeležje nastalo posle1990. Zapis ostaje nepromenjen do razrešenja."
+      }
+    },
+    "ishod": "Pregledano14 zapisa:10 dopunjeno,3 povučena kao van obuhvata,1 otvoren za proveru godine. Sačuvani ID-jevi i tačke zadržanih objekata; bolnice Jelendol i Zgornji Hrastnik muzejske celine, dom Lušci Palanka spomen-obelezje. Nije izmišljeno fizičko uklanjanje radi arhivskog statusa.",
+    "dilema": "Mali Iđoš: starost centralnog memorijala naspram novije ulazne ploče. Lušci Palanka: istorijska memorijalna posveta doma potvrđena1986, današnja posveta na zgradi nije posebno potvrđena. Muzejske bolnice sačuvane kao celine, tačka pojedinačne barake nije nova nezavisno potvrđena. Uštica: ne poistovećivati staro memorijalno groblje i novi centar; celo istorijsko mesto nije novo obeležje posle1990."
+  },
+  {
+    "odluka": "slovenija-dileme-razresene-2026-10-21",
+    "datum": "2026-10-21",
+    "dodato": [
+      "ljubljana-spomenik-borisu-kidricu",
+      "nova-gorica-bista-borisa-kidrica"
+    ],
+    "dopunjeno": {
+      "dravograd": {
+        "adresa": "Košenjak",
+        "godina": "1966",
+        "opis": "iz sr spiska (posveta) i Commons kategorije „1966 monuments and memorials“"
+      }
+    },
+    "fotografije": {
+      "krvavec-spomenik-palim-borcima": "https://commons.wikimedia.org/wiki/File:Krvavec_WW2_memorial.jpg"
+    },
+    "razreseneDileme": {
+      "ljubljana-doprsni-kip-borisa-kidrica": "dva objekta: centralni spomenik Borisu Kidriču na Prešernovoj (Zdenko Kalin i arhitekt Boris Kobe, 1960; OSM čvor 3813810482, Wikidata Q60356198, COBISS izveštaj P6-0061 2013 o natečaju koji je dobio Zdenko Kalin) i naš doprsni kip Borisa Kalina na Bežigradu (eid.gov.si); dodat centralni spomenik",
+      "nova-gorica-bista-borisa-kidrica": "nađeno usput u OSM-u (Zdenko Kalin, 9. 6. 1981, izvor spomeniki.blogspot.com)",
+      "dravograd": "fotografija Košenjak_-_spomenik_tregediji_med_NOB.jpg istovetna je fotografiji zapisa, a tačke su 34 m razmaknute; isti spomenik na Košenjaku",
+      "krvavec-spomenik-palim-borcima": "natpis na kamenoj zvezdi pominje Ambrož i Krvavec, a Commons kategorija je Ambrož pod Krvavcem; GPS fotografije (46.0418, 13.7157) je pogrešan i nije prenet"
+    },
+    "dokazi": [
+      "https://cris.cobiss.net/ecris/si/en/project/report/6315/WORLD/YEAR/2013",
+      "https://www.openstreetmap.org/node/3813810482",
+      "https://www.openstreetmap.org/node/11607801713"
+    ],
+    "preskoceno": {
+      "OSM čvor 4083612406": "bista Francea Kidriča (istoričar književnosti, Boris Kalin), van obuhvata"
+    }
   }
 ]
