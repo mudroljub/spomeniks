@@ -49574,7 +49574,7 @@
   {
     "odluka": "istaknuti-fotografije-vikipedija-2026-10-21",
     "datum": "2026-10-21",
-    "napomena": "Istaknuti spomenici bez potpisa fotografije: tri postojeće fotografije su iste kao glavna slika članka na Vikipediji (dodat samo potpis), 26 zamenjeno glavnom slikom članka sa Commons-a, uz autora i licencu. Iz Wikidate (P18 ili Commons kategorija) dodato još sedam (Veles je ista fotografija); bez zamene ostaju Tjentište, Novi Travnik i Sremska Mitrovica (slika u članku ne prikazuje spomenik dovoljno dobro), kao i zapisi čiji članak nema sliku ili je wiki veza spomenikdatabase.",
+    "napomena": "Istaknuti spomenici bez potpisa fotografije: tri postojeće fotografije su iste kao glavna slika članka na Vikipediji (dodat samo potpis), 26 zamenjeno glavnom slikom članka sa Commons-a, uz autora i licencu. Iz Wikidate (P18 ili Commons kategorija) dodato još sedam (Veles je ista fotografija); bez zamene ostaju Tjentište, Novi Travnik i Sremska Mitrovica (slika u članku ne prikazuje spomenik dovoljno dobro), kao i zapisi čiji članak nema sliku ili je wiki veza spomenikdatabase. Pretragom Commons-a po nazivu dodati Dotrščina (ista fotografija), Sajmište, Ilirska Bistrica, Avala i Prosinačke žrtve; za Tjentište, Dražgoše, Grahovo i Velenje nađene slike ne prikazuju glavni spomenik dovoljno dobro.",
     "fajlovi": {
       "novi-sad": {
         "commons": "File:Spomenik žrtvama racije.jpg",
@@ -49785,6 +49785,36 @@
         "potpis": "Sonjabgd, CC BY-SA 3.0",
         "zamenjena": true,
         "izvor": "sr.wikipedia.org/wiki/Споменици_Народноослободилачке_борбе"
+      },
+      "dotrscina": {
+        "commons": "File:Dotrscina spomenik 1.jpg",
+        "potpis": "Plamen, Public domain",
+        "zamenjena": false,
+        "izvor": "pretraga Commons-a po nazivu"
+      },
+      "sajmiste": {
+        "commons": "File:Spomenik žrtvama logora Sajmište.jpg",
+        "potpis": "AndjelaD1, CC BY-SA 4.0",
+        "zamenjena": true,
+        "izvor": "pretraga Commons-a po nazivu"
+      },
+      "ilirska-bistrica": {
+        "commons": "File:Monumentalni spomenik na Hribu svobode.jpg",
+        "potpis": "Bojan Marušič, CC0",
+        "zamenjena": true,
+        "izvor": "pretraga Commons-a po nazivu"
+      },
+      "avala": {
+        "commons": "File:Avala-1.jpg",
+        "potpis": "Ujambor, CC BY-SA 3.0",
+        "zamenjena": true,
+        "izvor": "pretraga Commons-a po nazivu"
+      },
+      "zagreb-december-victims": {
+        "commons": "File:Spomenik Prosinačkim žrtvama.jpg",
+        "potpis": "DobarSkroz, CC BY-SA 4.0",
+        "zamenjena": true,
+        "izvor": "pretraga Commons-a po nazivu"
       }
     }
   },
