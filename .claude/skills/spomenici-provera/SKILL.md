@@ -16,6 +16,8 @@ Korisnik komituje sam i oslanja se na to da je izmena proverena kad kažeš da j
 
 ## 1. Podaci
 
+Za činjeničnu proveru podataka prvi izbor su **zvanični registri i stručne evidencije**, po [zajedničkom pravilu kvaliteta](../spomenici-zetva/references/standard.md#zvanični-registri-kao-osnova-kvaliteta). Uporedi relevantna polja konkretnog zapisa sa dostupnim kartonom, zabeleži potvrdu ili razliku i razreši je prema dokazima; uspešan `integritet.py` potvrđuje tehničku ispravnost, ne tačnost autora, godine, vrste, lokacije ili opstanka.
+
 ```
 python -I alati/integritet.py
 ```

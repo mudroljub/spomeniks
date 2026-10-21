@@ -2,6 +2,14 @@
 
 Obavezno za svaki novi ili izmenjen spomenik.
 
+## Zvanični registri kao osnova kvaliteta
+
+**Najviši prioritet izvora** (korisnik, 2026-10-21): zvanični registri i stručne evidencije nadležnih zavoda, ministarstava i lokalnih uprava prvi su izbor za žetvu, dopunu, proveru i činjenični integritet postojećih podataka. Ne ocenjuj njihov prinos samo po broju novih spomenika: potvrđeni identiteti, razrešeni duplikati i ispravke naziva, vrste, autora, godine, posvete ili lokacije takođe su rezultat. Unutar ove grupe zadrži projektni redosled važnosti spomenika. Dostupne izvore i obuhvat prethodne obrade proveri u [planu izvora](../../../../docs/IZVORI.md#plan-stručnih-evidencija--21102026).
+
+Prvenstvo izvora ne znači slepo prepisivanje: proveri da karton govori o istom objektu i razdvoji datum izdanja, terena, podizanja i obnove. Dokumentovana greška u registru ili noviji konkretan dokaz imaju prednost nad pogrešnim/starim podatkom; razliku i obrazloženje sačuvaj uz postojeću evidenciju odluka. Odsustvo iz registra ne dokazuje nepostojanje ili uklanjanje, a upis ne potvrđuje današnji opstanak. Ne zamenjuj potvrđene precizne koordinate grubom tačkom registra. Automatska provera strukture i veza ostaje obavezna, ali sama ne potvrđuje činjeničnu tačnost.
+
+## Pravila zapisa
+
 - **Efikasnost pregleda groblja** (korisnik, 2026-10-20): za zapise bez fotografije koristiti samo već dostupan dovoljno jasan opis konkretnog objekta, bez dodatnih mrežnih pretraga. Nejasni zapisi privremeno dobijaju vrstu `groblje`, nižeg prioriteta, do boljeg dokaza; to nije potvrda da nemaju umetničke elemente. `spomen-groblje` zahteva potvrđenu oblikovanu memorijalnu celinu za obilazak. Detaljan pregled obuhvatio je mapu ([pojedinačne odluke](../../../../data/provere/groblja.json#groblja-dve-vrste-2026-10-20)); po naknadnom zahtevu korisnika svih 205 grobljanskih zapisa bez lokacije prebačeno je u `groblje`, bez pojedinačnog istraživanja ([dopuna](../../../../data/provere/groblja.json#groblja-bez-lokacije-2026-10-20)).
 
 - **Redosled polja:** `id, koordinate{lat,lng}, priblizno, googleCid, mesto, adresa, izvor, wiki, wikiEn, slika, slikaOdnos, slikaPotpis, naziv, nazivEn, opis, godina, autor, natpis, posveta, stanje, vrsta, istaknut, drzava`. Prazna polja se izostavljaju. Stavka u `data/van-mape/bez_lokacije.json` počinje istim trajnim `id`, napravljenim jednom iz mesta i naziva, i zadržava ga pri prelasku na mapu.

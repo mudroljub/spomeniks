@@ -7,6 +7,8 @@ description: Dobavljanje podataka za projekat Spomenici iz spoljnih izvora — n
 
 Standard zapisa (polja, nazivi, vrste, obuhvat) je u `references/standard.md`. Nazive određuje skil `spomenici-nazivi`, a posle svake izmene proveru radi skil `spomenici-provera`. Obrađeni izvori i nalazi se zapisuju u beleške projekta, da se posao ne ponavlja.
 
+**Prvo zvanični registri i stručne evidencije:** najviši prioritet imaju i za nove unose i za proveru/ispravku postojećih, prema [pravilu kvaliteta](references/standard.md#zvanični-registri-kao-osnova-kvaliteta). Mali broj novih markera nije razlog da se preskoči korisna provera podataka iz registra.
+
 ## Rad sa podacima
 
 Na istim fajlovima istovremeno radi više agenata, pa se podaci čitaju i upisuju samo zajedničkim funkcijama iz `alati/zapis.py`, nikad ručnim `json.dump` u fajlove podataka:

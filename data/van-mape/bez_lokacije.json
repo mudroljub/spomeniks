@@ -19071,7 +19071,10 @@
     ],
     "vrsta": "spomenik",
     "drzava": "Croatia",
-    "adresa": "groblje Mirogoj, židovsko groblje"
+    "adresa": "groblje Mirogoj, židovsko groblje",
+    "slika": "slike/bez-lokacije/zagreb-mirogoj-spomenik-zidovima-zrtvama-logora-ja.webp",
+    "slikaPotpis": "Petra-81, CC BY-SA 4.0",
+    "slikaOdnos": 0.563
   },
   {
     "id": "zagreb-mirogoj-grobovi-palih-boraca",
@@ -24784,13 +24787,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "arbanasko-spomenik-na-nob",
-    "mesto": "Арбанашко",
-    "naziv": "Споменик на НОБ",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Macedonia"
-  },
-  {
     "id": "bajinci-spomen-cesma-pavlova-gramada",
     "mesto": "Bajinci",
     "naziv": "Spomen-česma Pavlova gramada",
@@ -24975,13 +24971,6 @@
     "godina": "1989",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
-  },
-  {
-    "id": "dolna-bosava-spomen-cesma",
-    "mesto": "Долна Бошава",
-    "naziv": "Спомен-чешма",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Macedonia"
   },
   {
     "id": "donja-lopusnja-spomenik-nob",
@@ -25533,22 +25522,6 @@
     "drzava": "Croatia"
   },
   {
-    "id": "orese-spomen-cesma",
-    "mesto": "Ореше",
-    "naziv": "Спомен-чешма",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Macedonia"
-  },
-  {
-    "id": "osoj-spomenik-na-padnatite-borci",
-    "mesto": "Осој",
-    "naziv": "Споменик на паднатите борци",
-    "godina": "1981",
-    "autor": "Tomislav Sekovski",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Macedonia"
-  },
-  {
     "id": "ostrozin-spomenik-nob",
     "mesto": "Ostrožin",
     "naziv": "Spomenik NOB",
@@ -25837,13 +25810,6 @@
     "godina": "1947",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
-  },
-  {
-    "id": "stenje-spomenik-na-padnatite-borci",
-    "mesto": "Стење",
-    "naziv": "Споменик на паднатите борци",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Macedonia"
   },
   {
     "id": "stojnik-spomenik-palim-borcima-i-zrtvama-fasistick",
@@ -30828,7 +30794,10 @@
     "mesto": "Grabovo",
     "naziv": "Spomenik palim 1941-1945",
     "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "slika": "slike/bez-lokacije/grabovo-spomenik-palim-1941-1945.webp",
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
+    "slikaOdnos": 1.498
   },
   {
     "id": "susek-spomen-dom-posvecen-palim-1941-1945",
@@ -31544,15 +31513,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "belegis-bronzana-figura-spomenik-palim-1941-1945",
-    "mesto": "Belegiš",
-    "naziv": "Bronzana figura spomenik palim 1941-1945",
-    "godina": "1956",
-    "autor": "Milan Lukić",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
-  },
-  {
     "id": "novi-banovci-spomenik-palim-borcima-nor-a-i-zrtvam",
     "mesto": "Novi Banovci",
     "naziv": "Spomenik NOB",
@@ -31921,14 +31881,6 @@
     "drzava": "Croatia"
   },
   {
-    "id": "dalj-spomenik-palim-borcima",
-    "mesto": "Dalj",
-    "naziv": "Spomenik palim borcima NOR-a i žrtvama fašističkog terora",
-    "godina": "1984",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Croatia"
-  },
-  {
     "id": "dalj-spomen-cesma-palim-borcima",
     "mesto": "Dalj",
     "naziv": "Spomen-česma palim borcima NOR-a",
@@ -32106,13 +32058,6 @@
     "naziv": "Spomen-dom „Bratstvo-jedinstvo“",
     "vrsta": "spomen-kuca",
     "drzava": "Croatia"
-  },
-  {
-    "id": "bogomila-spomenik-na-bogomilskata-epopeja",
-    "mesto": "Богомила",
-    "naziv": "Споменик на Богомилската епопеја",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Macedonia"
   },
   {
     "id": "gerovo-mladje-spomenik-diverzantskoj-akciji-1941-g",
@@ -41387,5 +41332,60 @@
     "posveta": "13 mještana koje su strijeljali njemački okupatori",
     "vrsta": "spomenik",
     "drzava": "Montenegro"
+  },
+  {
+    "id": "preseka-spomenik-na-nob",
+    "mesto": "Пресека",
+    "naziv": "Споменик на НОБ",
+    "nazivEn": "WWII Monument",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Macedonia",
+    "slika": "slike/bez-lokacije/preseka-spomenik-na-nob.webp",
+    "slikaPotpis": "Zocky00, CC BY-SA 4.0",
+    "slikaOdnos": 1.778
+  },
+  {
+    "id": "raklis-bista-na-ilija-aleksov",
+    "mesto": "Раклиш",
+    "naziv": "Биста на Илија Алексов",
+    "nazivEn": "Bust of Ilija Aleksov",
+    "vrsta": "bista",
+    "drzava": "Macedonia",
+    "slika": "slike/bez-lokacije/raklis-bista-na-ilija-aleksov.webp",
+    "slikaPotpis": "Kiril Simeonovski, CC BY-SA 4.0",
+    "slikaOdnos": 0.75
+  },
+  {
+    "id": "raklis-spomenik-na-nob",
+    "mesto": "Раклиш",
+    "naziv": "Споменик на НОБ",
+    "nazivEn": "WWII Monument",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Macedonia",
+    "slika": "slike/bez-lokacije/raklis-spomenik-na-nob.webp",
+    "slikaPotpis": "Kiril Simeonovski, CC BY-SA 4.0",
+    "slikaOdnos": 0.75
+  },
+  {
+    "id": "dolno-trogerci-spomenik-na-nob",
+    "mesto": "Долно Трогерци",
+    "naziv": "Споменик на НОБ",
+    "nazivEn": "WWII Monument",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Macedonia",
+    "slika": "slike/bez-lokacije/dolno-trogerci-spomenik-na-nob.webp",
+    "slikaPotpis": "Kiril Simeonovski, CC BY-SA 4.0",
+    "slikaOdnos": 0.75
+  },
+  {
+    "id": "zlatinci-spomenik-na-nob",
+    "mesto": "Златинци",
+    "naziv": "Споменик на НОБ",
+    "nazivEn": "WWII Monument",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Macedonia",
+    "slika": "slike/bez-lokacije/zlatinci-spomenik-na-nob.webp",
+    "slikaPotpis": "M.pvsk, CC BY-SA 4.0",
+    "slikaOdnos": 1.509
   }
 ]
