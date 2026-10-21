@@ -57970,5 +57970,639 @@
       "Klenoec (193–195)": "zapis klenoec već ima fotografiju",
       "Pusta Kula": "mesto nije utvrđeno"
     }
+  },
+  {
+    "odluka": "registar-kriva-palanka-2026-10-21",
+    "datum": "2026-10-21",
+    "izvor": "https://www.krivapalanka.gov.mk/wp-content/uploads/2022/02/registar-na-memorijalni-spomenici-i-spomen-obelezja.csv",
+    "obim": "svih 32 stavke opštinskog registra (CSV, UTF-16; kopija izvori/pretrage/strucne-evidencije-2026-10-21/kriva-palanka.csv)",
+    "potvrdjeno": {
+      "kriva-planaka": "naziv, bronza, ispred opštinske zgrade, godina 1967 (08.10.1967); dopunjena adresa",
+      "konopnica-spomenik-na-nob": "spomen-ploča kod crkve Sv. Teodor Tiron (2003) postoji u registru"
+    },
+    "dodato": [
+      "kriva-palanka-bista-na-hristijan-todorovski-karpos",
+      "kriva-palanka-skrljava-spomen-cesma",
+      "krklja-spomenik-na-zrtvite-od-krivopalanecki-partizanski-odred",
+      "mala-crcorija-spomen-obelezje-na-pobedata",
+      "ogut-spomen-obelezje-na-zaginatite-borci",
+      "borovo-kuceski-preslap-spomen-obelezje"
+    ],
+    "preskoceno": {
+      "spomen-ploče (12 stavki ispred opštine i po selima)": "ispod praga za nove zapise",
+      "spomen-kosturnica srpskim vojnicima, Gorče Petrov, Joakim Krčovski, 2001. godina, Mile Krstevski (avionska nesreća 2004)": "van obuhvata",
+      "grob trojice partizana u Moždivnjaku (1944)": "pojedinačan grob bez spomenika",
+      "Čupino Brdo, spomenik zbratimljenih naroda": "moguće isti objekat kao cupino-brdo-spomen-cesma (xiwl); nije potvrđeno"
+    },
+    "otvoreno": {
+      "kriva-palanka-spomenik-vera-jocik": "registar navodi istu adresu kao opštinska zgrada (Sv. Joakim Osogovski 175), a GPS fotografije zapisa je oko 700 m zapadnije od spomenika ispred opštine; tačka nije menjana"
+    }
+  },
+  {
+    "odluka": "zvanicne-evidencije-leskovac-koprivnica-2026-10-21",
+    "datum": "2026-10-21",
+    "izvor": "https://digitalizacija-zzsknis.rs/wp-content/uploads/2025/02/Memorijali_Leskovac.pdf",
+    "obuhvat": {
+      "leskovac": "22 gradske NOB jedinice: 17 bista, dva memorijala, statua, kuća i česma; dodatno odbačen Diskić kao van NOB. Nisu obrađeni svi seoski kartoni, ploče, uništeni/nelocirani objekti ni cela studija.",
+      "koprivnica": {
+        "pdfStrana": 431,
+        "pregled": "Pretražen ceo izvučeni tekst; detaljno pročitani memorijalna baština 173–176, valorizacija 192–193, popis dobara 213–214, zaštita 249–250 i relevantne napomene o javnoj plastici 145–146. Stranice teksta se poklapaju sa štampanim stranicama ove podloge.",
+        "povezaniZapisi": 4,
+        "noviZapisi": 0,
+        "bezLokacijeArhiva": "Pretraga Zapisi() učitava mapu, bez lokacije i arhivu; nema dodatnog odgovarajućeg zapisa za četiri identifikovane jedinice.",
+        "ogranicenje": "Podloga navodi ukupno šest povijesno-memorijalnih cjelina, ali to NISU šest NOB spomenika: uključuje istorijska groblja i etnološko raskršće. Ne tvrditi da je pregledana kompletna koprivnička NOB baština."
+      }
+    },
+    "izmene": [
+      {
+        "id": "leskovac-dubocica",
+        "pdf": 173,
+        "pre": {
+          "vrsta": "spomen-obelezje",
+          "naziv": "Spomenik žrtvama Drugog svetskog rata",
+          "nazivEn": "Monument to WWII Victims"
+        },
+        "posle": {
+          "vrsta": "spomenik",
+          "naziv": "Memorijalni kompleks Arapova dolina",
+          "nazivEn": "Arapova Dolina Memorial"
+        },
+        "razlog": "Bogdanovićevo delo potvrđeno kartonom i fotografijama; nije neodređeno obeležje."
+      },
+      {
+        "id": "leskovac-bista-stanimira-veljkovica-zeleta",
+        "pdf": 195,
+        "pre": {
+          "autor": "B. Pavlović",
+          "opis": {
+            "sh": "Bista narodnog heroja [Stanimira Veljkovića Zeleta](Q16380587), otkrivena 10. oktobra 1953. u dvorištu Gimnazije.",
+            "en": "Bust of people's hero [Stanimir Veljković Zele](Q16380587), unveiled on 10 October 1953 in the high school courtyard."
+          }
+        },
+        "posle": {
+          "autor": "Dušan Nikolić",
+          "opis": {
+            "sh": "Posvećeno narodnom heroju [Stanimiru Veljkoviću Zeletu](Q16380587); bista u krugu istoimene fabrike otkrivena je 7. jula 1954. Drugi primerak nalazi se u dvorištu Gimnazije.",
+            "en": "Dedicated to People’s Hero [Stanimir Veljković Zele](Q16380587); the bust at the factory named after him was unveiled on 7 July 1954. Another cast stands in the grammar school courtyard."
+          }
+        },
+        "razlog": "Karton fabričkog primerka i natpis potvrđuju Dušana Nikolića i 7.7.1954; prethodni opis greškom govori o školskom primerku."
+      },
+      {
+        "id": "leskovac-bista-vlade-djordjevica",
+        "pdf": 186,
+        "pre": {
+          "godina": null,
+          "adresa": null
+        },
+        "posle": {
+          "godina": "1953",
+          "adresa": "U parku 9 Jugovića na Hisaru"
+        },
+        "razlog": "Godina na natpisu i adresa u kartonu."
+      },
+      {
+        "id": "leskovac-hisar-bista-blagoja-nikolica",
+        "pdf": 190,
+        "pre": {
+          "adresa": null
+        },
+        "posle": {
+          "adresa": "U parku 9 Jugovića na Hisaru"
+        },
+        "razlog": "Karton potvrđuje park, Dušana Nikolića i godinu 1953."
+      },
+      {
+        "id": "leskovac-hisar-bista-koste-stamenkovica",
+        "pdf": 188,
+        "pre": {
+          "adresa": null
+        },
+        "posle": {
+          "adresa": "U parku 9 Jugovića na Hisaru"
+        },
+        "razlog": "Karton potvrđuje park, autora i godinu 1951."
+      },
+      {
+        "id": "leskovac-bista-mare-djordjevic-cuculike",
+        "pdf": 192,
+        "pre": {
+          "godina": null,
+          "autor": null,
+          "adresa": null,
+          "opis": {
+            "sh": "Posvećeno Mari Đorđević Ćućuliki, sekretaru Okružnog komiteta KPJ za Leskovac.",
+            "en": "Dedicated to Mara Đorđević Ćućulika, secretary of the Leskovac district committee of the Communist Party."
+          }
+        },
+        "posle": {
+          "godina": "1984",
+          "autor": "Rade Dimitrijević",
+          "adresa": "U kompleksu nekadašnje fabrike „Leteks“",
+          "opis": {
+            "sh": "Posvećeno Mari Đorđević Ćućuliki, tekstilnoj radnici, članu Okružnog komiteta KPJ i sekretaru partijske ćelije u štofari. Bista je otkrivena 6. jula 1984. povodom stogodišnjice leskovačke tekstilne industrije.",
+            "en": "Dedicated to Mara Đorđević Ćućulika, a textile worker, district Communist Party committee member and secretary of the factory’s Party cell. The bust was unveiled on 6 July 1984 for the centenary of Leskovac’s textile industry."
+          }
+        },
+        "razlog": "Karton: član OK i sekretar fabričke ćelije, ne sekretar celog OK; autor Rade Dimitrijević, 1984."
+      },
+      {
+        "id": "leskovac-bista-radeta-metalca",
+        "pdf": 200,
+        "pre": {
+          "godina": null,
+          "adresa": null
+        },
+        "posle": {
+          "godina": "1955",
+          "adresa": "Ispred Tehničke škole „Rade Metalac“"
+        },
+        "razlog": "Izvorni natpis u kartonu sadrži datum 7.7.1955; adresa je konkretna škola."
+      },
+      {
+        "id": "leskovac-bista-milice-pavlovic",
+        "pdf": 222,
+        "pre": {
+          "adresa": null
+        },
+        "posle": {
+          "adresa": "Ispred Škole za tekstil i dizajn"
+        },
+        "razlog": "Karton potvrđuje posvetu i konkretnu školu; ne potvrđuje postojeći inicijal autora ni godinu, koje ne menjamo."
+      },
+      {
+        "id": "leskovac-bista-trajka-stamenkovica",
+        "pdf": 224,
+        "pre": {
+          "adresa": null
+        },
+        "posle": {
+          "adresa": "U dvorištu OŠ „Trajko Stamenković“"
+        },
+        "razlog": "Potvrđena bista u školskom dvorištu; 1984 je početak rada škole, nije godina biste."
+      },
+      {
+        "id": "leskovac-bista-blagoja-kostica",
+        "pdf": 220,
+        "pre": {
+          "adresa": null
+        },
+        "posle": {
+          "adresa": "Na trgu u Podvrcu, mesna zajednica „Marko Crni“"
+        },
+        "razlog": "Identitet i mikrolokacija potvrđeni kartonom; postojeći datum i autor nisu potvrđeni ovim kartonom."
+      },
+      {
+        "id": "leskovac-bista-stojana-ljubica",
+        "pdf": 218,
+        "pre": {
+          "adresa": null
+        },
+        "posle": {
+          "adresa": "U Gradskom parku u centru Leskovca"
+        },
+        "razlog": "Karton potvrđuje bistu, Dušana Nikolića, godinu 1953 i gradski park."
+      },
+      {
+        "id": "leskovac-kuca-koste-stamenkovica",
+        "pdf": 210,
+        "pre": {
+          "godina": null,
+          "adresa": null
+        },
+        "posle": {
+          "godina": "1969",
+          "adresa": "Topličkog ustanka 25"
+        },
+        "razlog": "Godina otvaranja memorijalnog muzeja, ne godina izgradnje kuće početkom XX veka."
+      },
+      {
+        "id": "leskovac-spomen-cesma-u-leskovcu",
+        "pdf": 214,
+        "pre": {
+          "adresa": null
+        },
+        "posle": {
+          "adresa": "Svetoilijska 1, ispred apoteke „Sutjeska“, leva obala Veternice"
+        },
+        "razlog": "Karton potvrđuje adresu i braću Milunović; odsustvo Stankovića nije dovoljan dokaz da ga uklonimo iz postojećeg autorstva."
+      },
+      {
+        "id": "leskovac-spomenik-kosti-stamenkovicu",
+        "pdf": 207,
+        "pre": {
+          "vrsta": "spomen-obelezje",
+          "nazivEn": null,
+          "adresa": null,
+          "opis": null,
+          "koordinate": null,
+          "priblizno": null
+        },
+        "posle": {
+          "vrsta": "statua",
+          "nazivEn": "Monument to Kosta Stamenković",
+          "adresa": "U Gradskom parku u centru Leskovca",
+          "opis": {
+            "sh": "Posvećeno narodnom heroju [Kosti Stamenkoviću](Q13639018); statua Dušana Nikolića u Gradskom parku otkrivena je 11. oktobra 1988.",
+            "en": "Dedicated to People’s Hero [Kosta Stamenković](Q13639018); Dušan Nikolić’s statue in the City Park was unveiled on 11 October 1988."
+          },
+          "koordinate": {
+            "lat": 42.9947038,
+            "lng": 21.9462113
+          },
+          "priblizno": true
+        },
+        "razlog": "Cela ljudska figura potvrđena fotografijom; karton određuje gradski park. UTM je pomoćna približna tačka dok se položaj ne potvrdi nezavisno."
+      },
+      {
+        "id": "leskovac-bista-tome-kostica",
+        "pdf": 198,
+        "pre": {
+          "autor": null,
+          "godina": null,
+          "adresa": "Naselje „Toma Kostić“",
+          "koordinate": null,
+          "priblizno": null
+        },
+        "posle": {
+          "autor": "Aleksandar Šakić",
+          "godina": "1985",
+          "adresa": "U krugu nekadašnje fabrike „Toma Kostić“",
+          "koordinate": {
+            "lat": 43.0129742,
+            "lng": 21.9397426
+          },
+          "priblizno": true
+        },
+        "razlog": "Karton i fotografija potvrđuju identitet, autora, podizanje i fabriku; ne stanbeno naselje. UTM ostaje približno."
+      },
+      {
+        "id": "koprivnica-izvidnica",
+        "pre": {
+          "adresa": null,
+          "opis": null,
+          "vrsta": "spomenik"
+        },
+        "posle": {
+          "vrsta": "statua",
+          "adresa": "Spomen-područje Danica, Đelekovečka cesta 7a",
+          "opis": {
+            "sh": "Bronzana figura partizana u izviđanju, delo Ivana Sabolića, prvobitno je postavljena 1955. na Zrinskom trgu. Godine 1991. premeštena je u Spomen-područje Danica.",
+            "en": "Ivan Sabolić’s bronze figure of a partisan scout was originally installed in Zrinski Square in 1955. It was moved to the Danica Memorial Area in 1991."
+          }
+        },
+        "obrisi": [],
+        "dokazi": [
+          {
+            "url": "https://koprivnica.hr/wp-content/uploads/2024/03/Konzervatorska-podloga-GKC.pdf",
+            "pdfStrana": 173,
+            "stampa": 173,
+            "dokaz": "Izvidnica, Ivan Sabolić, prvobitno Zrinski trg od 1955; danas sastavni deo Danice. U izvoru je pogrešna završna godina 1992."
+          },
+          {
+            "url": "https://koprivnica.hr/wp-content/uploads/2024/03/Konzervatorska-podloga-GKC.pdf",
+            "pdfStrana": 213,
+            "stampa": 213,
+            "dokaz": "Adresa Danice: Đelekovečka cesta 7a."
+          },
+          {
+            "url": "https://gaa.mhz.hr/storage/upload/calendar_activities/anali_32-35_-_za_web_12652.pdf",
+            "pdfStrana": [
+              189,
+              190,
+              191
+            ],
+            "stampa": [
+              187,
+              188,
+              189
+            ],
+            "dokaz": "Špoljar, Muzej grada Koprivnice: uklanjanje u aprilu 1991, poziva se na Glas Podravine 5.4.1991. Fotografija 3 na PDF191/štamp189 prikazuje celu klečeću ljudsku figuru; pregledana lokalna slika izvidnica-189.png."
+          }
+        ],
+        "razlog": "Tačka ostaje nepromenjena: podloga potvrđuje kompleks, ne pojedinačni položaj statue. Godina 1955 i autor ostaju. Noviji zvanični gradski tekst https://kreativna.koprivnica.hr/fotogalerija-izlozbe-padaj-silo-i-nepravdo/ (9.6.2026) nezavisno potvrđuje premeštanje 1991. Ne unositi 1992 iz podloge."
+      },
+      {
+        "id": "koprivnica-spomenik-stradalim-zidovima",
+        "pre": {
+          "adresa": null,
+          "autor": null,
+          "godina": null,
+          "opis": null
+        },
+        "posle": {
+          "godina": "1975",
+          "autor": "Slavko Löwy",
+          "adresa": "Židovsko groblje, Varaždinska cesta 74a",
+          "opis": {
+            "sh": "Spomenik na Židovskom groblju posvećen je 214 pripadnika koprivničke jevrejske zajednice stradalih u fašističkim logorima tokom Drugog svetskog rata. Nastao je 1975. preoblikovanjem ranijeg spomenika žrtvama Prvog svetskog rata, dela arhitekte Slavka Löwyja.",
+            "en": "The monument in the Jewish cemetery commemorates 214 members of Koprivnica’s Jewish community who perished in fascist camps during World War II. It was created in 1975 by adapting an earlier World War I memorial designed by architect Slavko Löwy."
+          }
+        },
+        "obrisi": [],
+        "dokazi": [
+          {
+            "url": "https://koprivnica.hr/wp-content/uploads/2024/03/Konzervatorska-podloga-GKC.pdf",
+            "pdfStrana": 175,
+            "stampa": 175,
+            "dokaz": "Spomenik Prvog svetskog rata Slavka Löwyja proširen i preoblikovan 1975 u memorijal 214 žrtava fašizma iz koprivničke zajednice."
+          },
+          {
+            "url": "https://koprivnica.hr/wp-content/uploads/2024/03/Konzervatorska-podloga-GKC.pdf",
+            "pdfStrana": 213,
+            "stampa": 213,
+            "dokaz": "Židovsko groblje, Varaždinska cesta 74a, Z-3544."
+          },
+          {
+            "url": "https://zidovska-opcina-cakovec.hr/wp-content/uploads/2023/06/Zbornik-2012.pdf",
+            "pdfStrana": [
+              154,
+              166
+            ],
+            "dokaz": "Draženka Jalšić Ernečić, Muzej grada Koprivnice: 1975 SUBNOR dodaje ploču 214 žrtvama; zaključak eksplicitno pripisuje Slavku Löwyju i memorijal iz 1975, ne samo prvobitni spomenik."
+          }
+        ],
+        "razlog": "1975 je prva godina ovog memorijala Drugom svetskom ratu; raniji objekat je bio samo WWI i nije prvobitno WWII obeležje. Ne upisivati godinu 1934 kao godinu našeg WWII memorijala. Autorstvo preoblikovanja je dodatno potvrđeno kustoskinjinim radom, a ne izvedeno iz samog autorstva ranijeg spomenika. Vrsta i koordinate se ne menjaju."
+      },
+      {
+        "id": "koprivnica",
+        "pre": {
+          "adresa": null
+        },
+        "posle": {
+          "adresa": "Spomen-područje Danica, Đelekovečka cesta 7a"
+        },
+        "obrisi": [],
+        "dokazi": [
+          {
+            "url": "https://koprivnica.hr/wp-content/uploads/2024/03/Konzervatorska-podloga-GKC.pdf",
+            "pdfStrana": [
+              173,
+              213
+            ],
+            "stampa": [
+              173,
+              213
+            ],
+            "dokaz": "Vješala (Galge), Lenko Pleština 1979; deo Danice sa adresom Đelekovečka cesta 7a."
+          }
+        ],
+        "razlog": "Godina, autor, naziv, vrsta i opis su potvrđeni; pojedinačna precizna tačka nije potvrđena podlogom i ostaje bez promene."
+      },
+      {
+        "id": "koprivnica-spomen-podrucje-danica",
+        "pre": {
+          "adresa": null,
+          "autor": "Lenko Pleština",
+          "opis": {
+            "sh": "Posvećeno zatočenicima ustaškog [logora Danica](Q11295127), koji je u Koprivnici delovao 1941–1942. Spomen-područje uređeno je na prostoru nekadašnjeg logora, uz očuvanu zgradu logoraša.",
+            "en": "Dedicated to the prisoners of the Ustaša [Danica concentration camp](Q11295127), which operated in Koprivnica in 1941–1942. The memorial area occupies the former camp grounds and includes a surviving prisoners’ building."
+          }
+        },
+        "posle": {
+          "adresa": "Đelekovečka cesta 7a",
+          "opis": {
+            "sh": "Posvećeno zatočenicima ustaškog [logora Danica](Q11295127), koji je u Koprivnici delovao 1941–1942. Memorijalni prostor otvoren je 1981. prema projektu Lenka Pleštine, uz očuvanu zgradu logoraša i dela više autora.",
+            "en": "Dedicated to the prisoners of the Ustaša [Danica concentration camp](Q11295127), which operated in Koprivnica in 1941–1942. The memorial grounds opened in 1981 to a design by Lenko Pleština and include a surviving prisoners’ building and works by several artists."
+          }
+        },
+        "obrisi": [
+          "autor"
+        ],
+        "dokazi": [
+          {
+            "url": "https://koprivnica.hr/wp-content/uploads/2024/03/Konzervatorska-podloga-GKC.pdf",
+            "pdfStrana": [
+              173,
+              213
+            ],
+            "stampa": [
+              173,
+              213
+            ],
+            "dokaz": "Celina otvorena 1981, Lenko Pleština osmislio projekt adaptacije 1979. Danica obuhvata Vješala Lenka Pleštine i Izvidnicu Ivana Sabolića."
+          }
+        ],
+        "razlog": "Zasebna urednička ispravka po standardu: park dobija autora samo ako su sva dela jednog autora. Polje autor=Lenko Pleština nije pun podatak za park sa delima različitih autora; potvrđeni projektant se zato čuva u opisu. Ako roditelj proceni da ovo pravilo ne obuhvata kasnije unesenu samostalnu skulpturu, može izostaviti samo ovo brisanje i izmenu opisa. Godina 1981 i posveta ostaju."
+      }
+    ],
+    "novi": [
+      {
+        "zapis": {
+          "id": "leskovac-bista-milentija-popovica",
+          "mesto": "Leskovac",
+          "naziv": "Bista Milentija Popovića",
+          "nazivEn": "Bust of Milentije Popović",
+          "koordinate": {
+            "lat": 43.0001539,
+            "lng": 21.9316953
+          },
+          "priblizno": true,
+          "adresa": "U međublokovskoj zelenoj površini u naselju Dubočica",
+          "vrsta": "bista",
+          "drzava": "Serbia",
+          "izvor": "https://digitalizacija-zzsknis.rs/wp-content/uploads/2025/02/Memorijali_Leskovac.pdf"
+        },
+        "pdf": 226,
+        "razlog": "Potvrđeni natpis, fotografija, mikrolokacija i situacioni plan. UTM karta ne navodi CRS; izvedena tačka ostaje označena kao približna. Godine života se ne prepisuju kao godina podizanja."
+      },
+      {
+        "zapis": {
+          "id": "leskovac-bista-slavke-nedic-milojevic",
+          "mesto": "Leskovac",
+          "naziv": "Bista Slavke Nedić Milojević",
+          "nazivEn": "Bust of Slavka Nedić Milojević",
+          "koordinate": {
+            "lat": 42.9908448,
+            "lng": 21.956542
+          },
+          "priblizno": true,
+          "adresa": "U dvorištu Doma učenika srednjih škola, Kajmakčalanska 24",
+          "vrsta": "bista",
+          "drzava": "Serbia",
+          "izvor": "https://digitalizacija-zzsknis.rs/wp-content/uploads/2025/02/Memorijali_Leskovac.pdf",
+          "godina": "1978",
+          "autor": "Dušan Nikolić"
+        },
+        "pdf": 228,
+        "razlog": "Potvrđeni natpis, fotografija, mikrolokacija i situacioni plan. UTM karta ne navodi CRS; izvedena tačka ostaje označena kao približna. Godine života se ne prepisuju kao godina podizanja."
+      }
+    ],
+    "potvrdeBezIzmene": [
+      {
+        "id": "leskovac",
+        "pdf": 165,
+        "polja": [
+          "naziv",
+          "autor",
+          "godina",
+          "vrsta",
+          "opis"
+        ]
+      },
+      {
+        "id": "leskovac-bista-stanimira-veljkovica-zeleta-gimnazija",
+        "pdf": 205,
+        "polja": [
+          "naziv",
+          "autor",
+          "vrsta",
+          "adresa"
+        ],
+        "napomena": "Ne preuzimati fabrički UTM; postojeća 1953 ostaje, naslov 1942 je godina smrti."
+      }
+    ],
+    "potvrdeKoprivnica": [
+      {
+        "id": "koprivnica",
+        "potvrdjenaPolja": {
+          "naziv": "Vješala",
+          "godina": "1979",
+          "autor": "Lenko Pleština",
+          "vrsta": "spomenik",
+          "posveta": [
+            "Q11295127"
+          ]
+        },
+        "izvorStrana": 173,
+        "napomena": "Tačka nije nezavisno potvrđena; godina 1981 odnosi se na celinu, ne na Vješala."
+      },
+      {
+        "id": "koprivnica-spomen-podrucje-danica",
+        "potvrdjenaPolja": {
+          "naziv": "Spomen-područje Danica",
+          "godina": "1981",
+          "vrsta": "spomen-park",
+          "posveta": [
+            "Q11295127"
+          ]
+        },
+        "izvorStrana": 173,
+        "napomena": "Projektant adaptacije Pleština 1979; godina projekta se ne prepisuje preko otvaranja 1981."
+      },
+      {
+        "id": "koprivnica-izvidnica",
+        "potvrdjenaPolja": {
+          "naziv": "Izvidnica",
+          "godina": "1955",
+          "autor": "Ivan Sabolić"
+        },
+        "izvorStrana": 173,
+        "napomena": "Borac je figura, pa predlog menja vrstu. Podloga potvrđuje danas Danicu, ne preciznu tačku."
+      },
+      {
+        "id": "koprivnica-spomenik-stradalim-zidovima",
+        "potvrdjenaPolja": {
+          "naziv": "Spomenik stradalim Židovima"
+        },
+        "izvorStrana": 175,
+        "napomena": "Potvrđena posveta i pripadnost židovskom groblju; nijedna precizna koordinata nije data."
+      }
+    ],
+    "odlozeno": [
+      {
+        "naziv": "Bista Koste Stamenkovića u fabrici",
+        "pdf": 202,
+        "nalaz": "Nema biste na postamentu 14.7.2022; nema postojećeg para; ne unositi kao očuvanu."
+      },
+      {
+        "naziv": "Bista Koste Stamenkovića kod kuće",
+        "pdf": 211,
+        "nalaz": "U depou muzeja posle pokušaja krađe, prema studiji; ne praviti turističku tačku za nepostojeću bistu u dvorištu."
+      },
+      {
+        "naziv": "Bista Lepše Stamenković",
+        "pdf": 216,
+        "nalaz": "Bista iz štamparije Napredak, 1985, Đorđe Vasić; čuva se u muzeju. Odloženo kao uklonjeno iz javnog prostora."
+      },
+      {
+        "naziv": "Bista Jovana Diskića",
+        "pdf": 230,
+        "nalaz": "Van NOB izbora; ne unositi godinu smrti 1963 kao godinu biste."
+      }
+    ],
+    "otvorenoKoprivnica": [
+      {
+        "tema": "Gradsko groblje Pri Svetom Duhu",
+        "izvorStrana": [
+          174,
+          213
+        ],
+        "nalaz": "Podloga usput navodi Spomen obilježje poginulima u Drugom svjetskom ratu i spomen kosturnicu, ali bez imenovanja, autora ili pojedinačnih lokacija.",
+        "odluka": "Nema dodavanja ili spajanja sa koprivnica-kusticev-breg-spomen-kosturnica-palim-b bez dodatnog dokaza identiteta."
+      },
+      {
+        "tema": "Stanje Danice i grobalja",
+        "izvorStrana": [
+          193,
+          249
+        ],
+        "nalaz": "Opšte napomene o propadanju pojedinih delova i potrebi održavanja 2022.",
+        "odluka": "Ne postavljati stanje=ostecen na sve objekte; izvor ne identifikuje koji su konkretni elementi oštećeni."
+      },
+      {
+        "tema": "Obuhvat javne plastike",
+        "izvorStrana": [
+          145,
+          193,
+          250,
+          431
+        ],
+        "nalaz": "Studija tvrdi da je evidentirala javnu plastiku, ali dostupni tekstualni PDF nije pojedinačni NOB katalog i nema kompletne kartone javne plastike. Grafički prilozi su samo navedeni u sadržaju.",
+        "odluka": "Preostali zapisi Herešin, Reka, Jagnjedovec i podolički spomenik nisu potvrđeni niti opovrgnuti pukim izostankom u ovom PDF-u."
+      }
+    ],
+    "utm": {
+      "kontrole": [
+        {
+          "id": "leskovac-bista-stanimira-veljkovica-zeleta",
+          "m": 131.1,
+          "izvedeno": {
+            "lat": 43.0077836,
+            "lng": 21.9423875
+          }
+        },
+        {
+          "id": "leskovac-bista-mare-djordjevic-cuculike",
+          "m": 103.2,
+          "izvedeno": {
+            "lat": 43.0046368,
+            "lng": 21.9417872
+          }
+        },
+        {
+          "id": "leskovac-bista-trajka-stamenkovica",
+          "m": 3.0,
+          "izvedeno": {
+            "lat": 42.9993591,
+            "lng": 21.9275488
+          }
+        }
+      ],
+      "napomena": "UTM34 tumačenje potvrđuje odgovarajuće lokacije; dve fabričke kontrolne tačke odstupaju 103 i 131 m. Četiri nove/prebačene tačke su zato priblizno:true; nijedna postojeća precizna tačka nije menjana. Godine života iz naslova kartona nisu godine podizanja."
+    },
+    "prebaceni": [
+      "leskovac-spomenik-kosti-stamenkovicu",
+      "leskovac-bista-tome-kostica"
+    ]
+  },
+  {
+    "odluka": "registar-gazi-baba-2026-10-21",
+    "datum": "2026-10-21",
+    "izvor": "https://data.gov.mk/dataset/pernctap-ha-memopnjajihn-cttomehnun-n-cttomeh-obejiexja",
+    "obim": "ilustrovani PDF registar opštine Gazi Baba, 22 strane, svih 20 jedinica (kopija izvori/pretrage/strucne-evidencije-2026-10-21/gazi-baba.pdf; isečci fotografija u gazi-baba-isecci/)",
+    "dodato": [
+      "skopje-gazi-baba-spomenik-na-metodija-andonov-cento",
+      "skopje-avtokomanda-bista-na-stiv-naumov",
+      "skopje-hipodrom-bista-na-vera-jocik",
+      "skopje-cento-bista-na-dane-krapcev",
+      "skopje-madzari-bista-na-naum-naumovski-borce"
+    ],
+    "tacke": "dvorišta škola po Nominatim tačkama škola; Čento: približna tačka ulice Južnomoravske brigade (park nije mapiran)",
+    "napomena": "skopje-karpos-1-bista-na-dame-krapcev (Debar Maalo) je druga bista iste osobe (mk.wiki: Дане Крапчев → Даме Крапчев); skopje-metodija-andonov-cento je statua Skopje 2014 u centru, drugi objekat",
+    "preskoceno": {
+      "spomen-ploče (Alija Avdović 1961, rodna kuća Vere Jocić 1961, Singelić, Creševo, Bulačani, Raštak, Madžari 1971)": "ploče ispod praga",
+      "Grigor Prličev, Goce Delčev, Trajko Popov, Filip II, žrtve 1945–1990, Igor Nikolovski, Boban Ivanović, Goran Stojmenović": "van obuhvata"
+    }
   }
 ]

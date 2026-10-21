@@ -208,22 +208,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "leskovac-spomenik-kosti-stamenkovicu",
-    "mesto": "Leskovac",
-    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%9A%D0%BE%D1%81%D1%82%D0%B8_%D0%A1%D1%82%D0%B0%D0%BC%D0%B5%D0%BD%D0%BA%D0%BE%D0%B2%D0%B8%D1%9B%D1%83",
-    "slika": "slike/bez-lokacije/leskovac-spomenik-kosti-stamenkovicu.webp",
-    "slikaOdnos": 0.75,
-    "slikaPotpis": "Omladinskiklubanciki, CC BY-SA 4.0",
-    "naziv": "Spomenik Kosti Stamenkoviću",
-    "godina": "1988",
-    "autor": "Dušan Nikolić",
-    "posveta": [
-      "Q13639018"
-    ],
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
-  },
-  {
     "id": "arilje-spomenik-palim-borcima-u-arilju",
     "mesto": "Arilje",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BF%D0%B0%D0%BB%D0%B8%D0%BC_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D1%83_%D0%90%D1%80%D0%B8%D1%99%D1%83",
@@ -24064,18 +24048,6 @@
     "adresa": "Osnovna škola"
   },
   {
-    "id": "leskovac-bista-tome-kostica",
-    "mesto": "Leskovac",
-    "slika": "slike/bez-lokacije/leskovac-bista-tome-kostica.webp",
-    "slikaOdnos": 0.75,
-    "slikaPotpis": "Geograf208, CC BY-SA 4.0",
-    "naziv": "Bista Tome Kostića",
-    "posveta": "Toma Kostić",
-    "vrsta": "bista",
-    "drzava": "Serbia",
-    "adresa": "Naselje „Toma Kostić“"
-  },
-  {
     "id": "vrsac-spomenik-slavku-muncanu",
     "mesto": "Vršac",
     "slika": "slike/bez-lokacije/vrsac-spomenik-slavku-muncanu.webp",
@@ -41387,5 +41359,56 @@
     "slika": "slike/bez-lokacije/zlatinci-spomenik-na-nob.webp",
     "slikaPotpis": "M.pvsk, CC BY-SA 4.0",
     "slikaOdnos": 1.509
+  },
+  {
+    "id": "kriva-palanka-skrljava-spomen-cesma",
+    "mesto": "Крива Паланка (Скрљава)",
+    "adresa": "ул. Вера Јоциќ бб, м.в. Болничка ливада",
+    "naziv": "Спомен-чешма",
+    "nazivEn": "Memorial Fountain",
+    "godina": "1979",
+    "posveta": "35 години од Првото заседание на АСНОМ",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "krklja-spomenik-na-zrtvite-od-krivopalanecki-partizanski-odred",
+    "mesto": "Кркља",
+    "adresa": "м.в. Споменик",
+    "naziv": "Споменик на жртвите од Кривопаланечкиот партизански одред",
+    "nazivEn": "Monument to the Victims of the Kriva Palanka Partisan Detachment",
+    "posveta": "жртвите од Кривопаланечкиот партизански одред",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "mala-crcorija-spomen-obelezje-na-pobedata",
+    "mesto": "Мала Црцорија",
+    "adresa": "м.в. Ширина",
+    "naziv": "Спомен-обележје на победата на Третата македонска ударна бригада",
+    "nazivEn": "Memorial to the Victory of the Third Macedonian Strike Brigade",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "ogut-spomen-obelezje-na-zaginatite-borci",
+    "mesto": "Огут",
+    "naziv": "Спомен-обележје на загинатите борци од Метежево, Огут и Нерав",
+    "nazivEn": "Memorial to Fallen Fighters of Meteževo, Ogut and Nerav",
+    "godina": "1991",
+    "posveta": "загинатите борци 1941–1945 од Метежево, Огут и Нерав",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "borovo-kuceski-preslap-spomen-obelezje",
+    "mesto": "Борово (Кучешки Преслап)",
+    "adresa": "м.в. Кучешки Преслап, атар на селото",
+    "naziv": "Спомен-обележје на разоружувањето на 29. бугарска дивизија",
+    "nazivEn": "Memorial to the Disarming of the Bulgarian 29th Division",
+    "godina": "1975",
+    "posveta": "победата и разоружувањето на 29. бугарска дивизија",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Macedonia"
   }
 ]
