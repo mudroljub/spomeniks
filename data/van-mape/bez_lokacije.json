@@ -7786,7 +7786,10 @@
     "opis": {
       "sh": "Posvećeno žrtvama Drugog svetskog rata. Obeležje sa mermernom pločom i imenima postavljeno je unutar tvrđave 1952.",
       "en": "Dedicated to victims of World War II. The memorial, with a marble plaque bearing their names, was erected inside the fortress in 1952."
-    }
+    },
+    "slika": "slike/bez-lokacije/gradacac-spomenik-oslobodjenju-gradacca.webp",
+    "slikaOdnos": 1.278,
+    "slikaPotpis": "Zavod za zaštitu naslijeđa TK, Elaborat Gradačac"
   },
   {
     "id": "srnice-spomen-ploca-na-mjestu-smrti-narodnog-heroj",
@@ -7842,12 +7845,12 @@
     "nazivEn": "Monument to fallen fighters",
     "godina": "1961",
     "autor": "Mirko Ostoja",
-    "vrsta": "spomen-obelezje",
+    "vrsta": "statua",
     "drzava": "Bosnia and Herzegovina",
-    "adresa": "Kod ambulante",
+    "adresa": "Kod ambulante, uz školu, severno od regionalnog puta — ranije zabeležen položaj",
     "opis": {
-      "sh": "Spomenik Mirka Ostoje iz 1961. prvobitno je stajao na više lokacija u centru Gradačca. Posle 1992. prenet je u Zelinju Donju, kod ambulante.",
-      "en": "Mirko Ostoja’s 1961 monument previously stood at several locations in central Gradačac. After 1992 it was relocated to Zelinja Donja, by the clinic."
+      "sh": "Skulptura Mirka Ostoje iz 1961, posvećena palim borcima, prvobitno je stajala na više lokacija u centru Gradačca. Posle 1992. preneta je kod ambulante u Zelinji Donjoj, gde je zabeležena 2019.",
+      "en": "Mirko Ostoja’s 1961 sculpture commemorating fallen fighters previously stood at several locations in central Gradačac. After 1992 it was relocated beside the clinic in Zelinja Donja, where it was recorded in 2019."
     }
   },
   {
@@ -9242,7 +9245,7 @@
     ],
     "slika": "slike/bez-lokacije/plahovici-spomen-ploca-boravku-vrhovnog-staba-i-ti.webp",
     "slikaOdnos": 1.333,
-    "slikaPotpis": "Lawler i Mujkić, terenski izveštaj 2019"
+    "slikaPotpis": "Andrew Lawler, spomenicinob.info"
   },
   {
     "id": "miljkovac-spomen-ploca-koju-je-postavilo-dobrovolj",
@@ -20078,18 +20081,6 @@
     ]
   },
   {
-    "id": "topolovo-spomen-obiljezje",
-    "mesto": "Topolovo",
-    "slika": "slike/bez-lokacije/cg-topolovo.webp",
-    "slikaOdnos": 1.46,
-    "slikaPotpis": "Foto Lipa, Spomenici i spomen-obilježja NOR-a u opštini Danilovgrad (2017)",
-    "naziv": "Spomen-obilježje",
-    "godina": "1984",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Montenegro",
-    "adresa": "Topolovo (Mosori), planina Topolovo; mesto smotre bataljona „Bijeli Pavle“ 20. novembra 1941. Ne koristiti Google tačku naselja kao tačku spomenika."
-  },
-  {
     "id": "danilovgrad-kosturnica",
     "mesto": "Danilovgrad",
     "slika": "slike/bez-lokacije/cg-danilovgrad-kosturnica.webp",
@@ -24683,14 +24674,6 @@
     "drzava": "Montenegro"
   },
   {
-    "id": "zabljak-spomen-cesma-palim-borcima-pitomina-i-bosa",
-    "mesto": "Žabljak",
-    "naziv": "Spomen-česma palim borcima Pitomina i Bosače",
-    "posveta": "palim borcima Pitomina i Bosače",
-    "vrsta": "spomen-cesma",
-    "drzava": "Montenegro"
-  },
-  {
     "id": "ajdanov-spomenik-nob",
     "mesto": "Ajdanov",
     "naziv": "Spomenik NOB",
@@ -24722,14 +24705,6 @@
     "naziv": "Spomenik NOB",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
-  },
-  {
-    "id": "becici-spomenik-poginulim-rodoljubima-becica",
-    "mesto": "Bečići",
-    "naziv": "Spomenik poginulim rodoljubima Bečića",
-    "posveta": "poginulim rodoljubima Bečića",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Montenegro"
   },
   {
     "id": "biljaca-spomen-cesma",
@@ -25254,13 +25229,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "krnovo-spomenik-palim-borcima",
-    "mesto": "Krnovo",
-    "naziv": "Spomenik palim borcima",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Montenegro"
-  },
-  {
     "id": "krnjevo-spomenik-milanu-krsljaninu",
     "mesto": "Krnjevo",
     "naziv": "Spomenik Milanu Kršljaninu",
@@ -25293,14 +25261,6 @@
     "naziv": "Spomenik žrtvama fašizma",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
-  },
-  {
-    "id": "lepetani-spomenik-poginulim-borcima",
-    "mesto": "Lepetani",
-    "naziv": "Spomenik poginulim borcima",
-    "godina": "1959",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Montenegro"
   },
   {
     "id": "gvozdac-spomen-cesma-2",
@@ -25367,22 +25327,6 @@
     "godina": "1955",
     "vrsta": "spomen-cesma",
     "drzava": "Serbia"
-  },
-  {
-    "id": "meljak-spomen-piramida-u-vrbi",
-    "mesto": "Meljak",
-    "naziv": "Spomen-piramida u Vrbi",
-    "godina": "1959",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Montenegro"
-  },
-  {
-    "id": "meljak-spomenik-nob",
-    "mesto": "Meljak",
-    "naziv": "Spomenik NOB",
-    "godina": "1951",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Montenegro"
   },
   {
     "id": "meljak-spomenik-meljackoj-partizanskoj-ceti",
@@ -25477,14 +25421,6 @@
     "naziv": "Spomen-česma",
     "vrsta": "spomen-cesma",
     "drzava": "Serbia"
-  },
-  {
-    "id": "pasiglav-spomenik-zrtvama-cetnickog-terora",
-    "mesto": "Pasiglav",
-    "naziv": "Spomenik žrtvama četničkog terora",
-    "godina": "1979",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Montenegro"
   },
   {
     "id": "pasuljanske-livade-spomenik-partizanskom-odredu",
@@ -25627,14 +25563,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "rudnica-spomenik-prvoj-partizanskoj-konferenciji",
-    "mesto": "Rudnica",
-    "naziv": "Spomenik Prvoj partizanskoj konferenciji",
-    "godina": "1981",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Montenegro"
-  },
-  {
     "id": "sakule-spomenik-nob",
     "mesto": "Sakule",
     "naziv": "Spomenik NOB",
@@ -25649,14 +25577,6 @@
     "godina": "1974",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
-  },
-  {
-    "id": "sela-spomenik-palim-borcima-i-zrtvama-rata",
-    "mesto": "Sela",
-    "naziv": "Spomenik palim borcima i žrtvama rata",
-    "godina": "1956",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Montenegro"
   },
   {
     "id": "seliste-spomen-cesma-2",
@@ -25801,14 +25721,6 @@
     "drzava": "Macedonia"
   },
   {
-    "id": "ujnice-spomenik-palim-borcima-i-zrtvama-rata",
-    "mesto": "Ujniče",
-    "naziv": "Spomenik palim borcima i žrtvama rata",
-    "godina": "1953",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Montenegro"
-  },
-  {
     "id": "ujevac-spomenik-nob",
     "mesto": "Ujevac",
     "naziv": "Spomenik NOB",
@@ -25892,13 +25804,6 @@
     "drzava": "Macedonia"
   },
   {
-    "id": "vrtoc-polje-spomenik-nob",
-    "mesto": "Vrtoč Polje",
-    "naziv": "Spomenik NOB",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Montenegro"
-  },
-  {
     "id": "zabrnjica-spomen-cesma",
     "mesto": "Zabrnjica",
     "naziv": "Spomen-česma",
@@ -25936,13 +25841,6 @@
     "godina": "1963",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
-  },
-  {
-    "id": "stitari-spomenik-nob",
-    "mesto": "Štitari",
-    "naziv": "Spomenik NOB",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Montenegro"
   },
   {
     "id": "sugrin-spomen-cesma",
@@ -36388,7 +36286,12 @@
     "nazivEn": "Monument to fallen fighters of the NOR",
     "godina": "1951",
     "vrsta": "spomen-obelezje",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "adresa": "U dvorištu Osnovne škole „Gornja Tuzla“, uz bistu Abdurahmana Saračevića Ace",
+    "opis": {
+      "sh": "Posvećeno palim borcima NOR-a iz Gornje Tuzle. Ploča sa prvobitnog spomenika iz 1951. na Trgu oslobođenja sačuvana je na zamenskom obeležju kod osnovne škole.",
+      "en": "Dedicated to fallen People’s Liberation War fighters from Gornja Tuzla. The plaque from the original 1951 monument on Liberation Square was retained on a replacement memorial at the elementary school."
+    }
   },
   {
     "id": "simin-han-spomenik-palim-borcima-srpskih-brigada",
@@ -41460,5 +41363,333 @@
     "vrsta": "spomenik",
     "drzava": "Serbia",
     "slikaOdnos": 0.816
+  },
+  {
+    "id": "podgorica-bista-ivana-milutinovica",
+    "mesto": "Podgorica",
+    "adresa": "U parku",
+    "naziv": "Bista Ivana Milutinovića",
+    "nazivEn": "Bust of Ivan Milutinović",
+    "posveta": "Ivan Milutinović",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "podgorica-bista-buda-tomovica",
+    "mesto": "Podgorica",
+    "adresa": "Ispred Doma omladine",
+    "naziv": "Bista Buda Tomovića",
+    "nazivEn": "Bust of Budo Tomović",
+    "posveta": "Budo Tomović",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "podgorica-bista-djine-vrbice",
+    "mesto": "Podgorica",
+    "adresa": "U parku",
+    "naziv": "Bista Đine Vrbice",
+    "nazivEn": "Bust of Đina Vrbica",
+    "posveta": "Đina Vrbica",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "podgorica-bista-marka-radovica",
+    "mesto": "Podgorica",
+    "adresa": "U auli Tehničke škole",
+    "naziv": "Bista Marka Radovića",
+    "nazivEn": "Bust of Marko Radović",
+    "posveta": "Marko Radović",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "podgorica-bista-milorada-muse-burzana",
+    "mesto": "Podgorica",
+    "adresa": "U auli škole „Milorad Musa Burzan“",
+    "naziv": "Bista Milorada Muse Burzana",
+    "nazivEn": "Bust of Milorad Musa Burzan",
+    "posveta": "Milorad Musa Burzan",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "podgorica-bista-mitra-bakica",
+    "mesto": "Podgorica",
+    "adresa": "Ispred zgrade Skupštine opštine",
+    "naziv": "Bista Mitra Bakića",
+    "nazivEn": "Bust of Mitar Bakić",
+    "posveta": "Mitar Bakić",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "podgorica-bista-mose-pijade",
+    "mesto": "Podgorica",
+    "adresa": "Ispred zgrade Skupštine opštine",
+    "naziv": "Bista Moše Pijade",
+    "nazivEn": "Bust of Moša Pijade",
+    "posveta": "Moša Pijade",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "donja-gorica-bista-raka-mugose",
+    "mesto": "Donja Gorica",
+    "adresa": "Dvorište Mjesne kancelarije",
+    "naziv": "Bista Raka Mugoše",
+    "nazivEn": "Bust of Rako Mugoša",
+    "posveta": "Rako Mugoša",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "podgorica-bista-sava-pejanovica",
+    "mesto": "Podgorica",
+    "adresa": "U auli škole „Savo Pejanović“",
+    "naziv": "Bista Sava Pejanovića",
+    "nazivEn": "Bust of Savo Pejanović",
+    "posveta": "Savo Pejanović",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "podgorica-bista-stanka-dragojevica",
+    "mesto": "Podgorica",
+    "adresa": "Na skveru stadiona „Budućnost“",
+    "naziv": "Bista Stanka Dragojevića",
+    "nazivEn": "Bust of Stanko Dragojević",
+    "posveta": "Stanko Dragojević",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "podgorica-bista-ivana-cekovica",
+    "mesto": "Podgorica",
+    "adresa": "Dvorište OŠ „Ivan Čeković“",
+    "naziv": "Bista Ivana Čekovića",
+    "nazivEn": "Bust of Ivan Čeković",
+    "posveta": "Ivan Čeković",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "podgorica-bista-bora-cetkovica",
+    "mesto": "Podgorica",
+    "adresa": "U auli škole „Boro Ćetković“",
+    "naziv": "Bista Bora Ćetkovića",
+    "nazivEn": "Bust of Boro Ćetković",
+    "posveta": "Boro Ćetković",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "tuzi-bista-mahmuta-lekica",
+    "mesto": "Tuzi",
+    "adresa": "U hodniku škole „Mahmut Lekić“",
+    "naziv": "Bista Mahmuta Lekića",
+    "nazivEn": "Bust of Mahmut Lekić",
+    "posveta": "Mahmut Lekić",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "konik-spomen-groblje",
+    "mesto": "Podgorica (Konik)",
+    "naziv": "Spomen-groblje",
+    "nazivEn": "Memorial Cemetery",
+    "vrsta": "groblje",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "trijepac-spomenik-palim-borcima",
+    "mesto": "Trijepac",
+    "naziv": "Spomenik palim borcima u NOR-u 1941–1945",
+    "nazivEn": "Monument to Fighters Fallen in the Liberation War 1941–1945",
+    "vrsta": "spomenik",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "bajice-spomen-dom",
+    "mesto": "Bajice",
+    "naziv": "Spomen-dom",
+    "nazivEn": "Memorial Hall",
+    "vrsta": "spomen-kuca",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "petnjik-spomen-obelisk-palim-borcima",
+    "mesto": "Petnjik",
+    "naziv": "Spomen-obelisk palim borcima",
+    "nazivEn": "Memorial Obelisk to Fallen Fighters",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "berane-bista-ivana-milutinovica",
+    "mesto": "Berane",
+    "naziv": "Bista Ivana Milutinovića",
+    "nazivEn": "Bust of Ivan Milutinović",
+    "posveta": "Ivan Milutinović",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "berane-bista-radmile-nedic",
+    "mesto": "Berane",
+    "adresa": "Na groblju u Beranama",
+    "naziv": "Bista Radmile Nedić",
+    "nazivEn": "Bust of Radmila Nedić",
+    "posveta": "Radmila Nedić",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "jasikovac-spomen-obelisk-strijeljanim-rodoljubima",
+    "mesto": "Jasikovac",
+    "naziv": "Spomen-obelisk strijeljanim rodoljubima",
+    "nazivEn": "Memorial Obelisk to Executed Patriots",
+    "posveta": "devet rodoljuba strijeljanih 17. 12. 1941",
+    "vrsta": "spomen-obelezje",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "kaludra-spomen-grobnica-novakovicu",
+    "mesto": "Kaludra",
+    "adresa": "Kape iznad Kaludre",
+    "naziv": "Spomen-grobnica Novakoviću",
+    "nazivEn": "Memorial Tomb of Novaković",
+    "posveta": "Novaković, vodnik XVII krajiške brigade",
+    "vrsta": "groblje",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "bijelo-polje-bista-tomasa-zizica",
+    "mesto": "Bijelo Polje",
+    "naziv": "Bista Tomaša Žižića",
+    "nazivEn": "Bust of Tomaš Žižić",
+    "posveta": "Tomaš Žižić",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "ljesnica-spomenik-palim-borcima-i-zrtvama-rata",
+    "mesto": "Lješnica",
+    "naziv": "Spomenik palim borcima i žrtvama rata",
+    "nazivEn": "Monument to Fallen Fighters and War Victims",
+    "vrsta": "spomenik",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "przno-spomen-cesma-stani-vukovic",
+    "mesto": "Pržno",
+    "naziv": "Spomen-česma Stani P. Vuković",
+    "nazivEn": "Memorial Fountain to Stana P. Vuković",
+    "posveta": "Stana P. Vuković",
+    "vrsta": "spomen-cesma",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "crkvine-grob-i-spomenik-baja-sekulica",
+    "mesto": "Crkvine",
+    "naziv": "Grob i spomenik Baja Sekulića",
+    "nazivEn": "Grave and Monument of Bajo Sekulić",
+    "posveta": [
+      "Q12748749"
+    ],
+    "vrsta": "spomenik",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "risan-bista-nikole-djurkovica-i-save-ilica",
+    "mesto": "Risan",
+    "naziv": "Bista Nikole Đurkovića i Save Ilića",
+    "nazivEn": "Bust of Nikola Đurković and Savo Ilić",
+    "posveta": [
+      "Q25468925"
+    ],
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "risan-bista-veljka-drobnjakovica",
+    "mesto": "Risan",
+    "adresa": "Na ulazu u OŠ „Veljko Drobnjaković“",
+    "naziv": "Bista Veljka Drobnjakovića",
+    "nazivEn": "Bust of Veljko Drobnjaković",
+    "posveta": "Veljko Drobnjaković",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "niksic-bista-radoja-dakica",
+    "mesto": "Nikšić",
+    "naziv": "Bista Radoja Dakića",
+    "nazivEn": "Bust of Radoje Dakić",
+    "posveta": "Radoje Dakić",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "niksic-bista-sava-kovacevica",
+    "mesto": "Nikšić",
+    "naziv": "Bista Sava Kovačevića",
+    "nazivEn": "Bust of Savo Kovačević",
+    "posveta": "Savo Kovačević",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "gradac-bista-radoja-kontica",
+    "mesto": "Gradac",
+    "naziv": "Bista Radoja Kontića",
+    "nazivEn": "Bust of Radoje Kontić",
+    "posveta": "Radoje Kontić",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "citluk-bista-velimira-jakica",
+    "mesto": "Čitluk",
+    "naziv": "Bista Velimira Jakića",
+    "nazivEn": "Bust of Velimir Jakić",
+    "posveta": "Velimir Jakić",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "citluk-bista-vladimira-knezevica",
+    "mesto": "Čitluk",
+    "naziv": "Bista Vladimira Kneževića",
+    "nazivEn": "Bust of Vladimir Knežević",
+    "posveta": "Vladimir Knežević",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "borovo-bista-zivka-dzuvera",
+    "mesto": "Borovo",
+    "naziv": "Bista Živka Džuvera",
+    "nazivEn": "Bust of Živko Džuver",
+    "posveta": "Živko Džuver",
+    "vrsta": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "zabre-spomen-cesma-palim-borcima",
+    "mesto": "Zabre",
+    "naziv": "Spomen-česma poginulim borcima sela Zabre",
+    "nazivEn": "Memorial Fountain to the Fallen of Zabre",
+    "vrsta": "spomen-cesma",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "timar-spomen-cesma",
+    "mesto": "Timar",
+    "naziv": "Spomen-česma",
+    "nazivEn": "Memorial Fountain",
+    "vrsta": "spomen-cesma",
+    "drzava": "Montenegro"
   }
 ]

@@ -240,6 +240,14 @@
       "napomena": "Ista 1971 i bolnica III korpusa u Wiki članku; ploča je na samostalnom nosaču.; Razrešena posveta; tačka istorijske karte nije potvrđena.; Wiki navodi samo moguću tačku prema znaku na karti iz 1975, bez potvrde objekta.; Wiki navodi samo moguću tačku prema znaku na karti iz 1975, bez potvrde objekta."
     }
   },
+  "gornji-bucik-partizansko-groblje": {
+    "proveraLokacije": {
+      "datum": "2026-10-21",
+      "izvor": "https://banovici.gov.ba/wp-content/uploads/2021/04/Sl_Glasnik_OB_04_21.pdf",
+      "ishod": "premestanje-planirano-izvrsenje-i-nova-tacka-nepotvrdjeni",
+      "napomena": "Dodatna provera 21.10.2026: odluka RMU Banovići 545/21 od 11.1.2021 (broj i godina prema spisku tendera; obrazac skena ima neusaglašenu godinu) bira GPP Banovići i SM Transkop za izmještanje NOR obeležja i sanaciju ploče vage, nabavka 565-7-3-515-3-417/20. Izbor izvođača nije dokaz izvedenih radova. Glasnik 4/2021, PDF str. 58–60: stara parcela 127 Brdo; planirani deo parcele 813 Lugavije, KO Bučik Gornji, 250 m²; priložen nacrt sa stepeništem, saglasnost Zavoda 02/19-87/20 od 17.3.2020. Nacrt nema geografsku mrežu i nije dokaz izgradnje. Pregledan Esri snimak stare tačke; metapodaci navode 30.5.2025, rezoluciju 0,34 m i tačnost 5 m; vegetacija i razmera ne dopuštaju pouzdanu identifikaciju grobnih oznaka ni zaključak o uklanjanju. Javni katastarski preglednik traži registraciju. Godišnji izveštaj rudnika za 2021 i arhiva lista Rudar vratili su HTTP 429; pristup nije ponavljan. Današnji položaj i izvršenje premeštanja ostaju nepotvrđeni; postojeća tačka i upozorenje putniku sačuvani. Ne poistovećivati sa porodičnim grobljem 129/2 i njegovom novom parcelom 1034 KO Omazići."
+    }
+  },
   "gornji-vitkovci-spomenik-palim-borcima": {
     "proveraOpstanka": {
       "datum": "2026-10-20",
@@ -809,6 +817,14 @@
       "ishod": "povučena stara tačka",
       "razlog": "Lokalni svedok i Wiki obilazak potvrđuju premeštanje 2023, tačna nova tačka statue nije izmišljena.; Stara tačka u Malom parku više nije mesto statue; novo odredište potvrđeno, precizna tačka nije.",
       "izvestaj": "data/provere/odluke.json#spomenicinob-detaljno-4104-4324-2026-10-20"
+    }
+  },
+  "gornja-tuzla-spomenik-na-mjestu-smrti-narodnog-her": {
+    "proveraLokacije": {
+      "datum": "2026-10-21",
+      "izvor": "https://www.google.com/maps?cid=2237073904052057698",
+      "ishod": "postojeca-tacka-potkrepljena-novim-google-kartonom",
+      "napomena": "Zadržana postojeća OSM tačka 44.5647888,18.7519140. Novi Google karton Spomenik Mahmuta Bušatlije Buša, CID 2237073904052057698, daje 44.5648509,18.7517365 (15.7 m od naše tačke); fotografija autora Adem sa Google oznakom „Slika je snimljena: nov 2025“ pokazuje isti crveno-beli spomenik i isti natpis. Fotografija je samo pregledana; nije preuzeta za novu objavu. Stari Google CID 17876674845708593619 sada otvara prazan karton bez imena i fotografija, pa njegova tačka prepisana u Partisan Memorials Wiki nije osnova za pomeranje oko 378.6 m severnije. OSM istorija: node/11646434659, jedina verzija od 20.2.2024, autor musa58; changeset/147703491 ne navodi izvor merenja. Naša tačka je neposredno uz ucrtanu stazu way/1252957194. Obilazak Mirsada Saračevića od 15.2.2024 na Wikiloc-u navodi zasebne tačke „Spomenik / Mahmut Bušatlija“ i „S puta pogled na spomenik“; javni indeks je pročitan, ali GPS i fotografije nisu provereni jer sajt traži bezbednosnu verifikaciju, pa obilazak nije tretiran kao nezavisna potvrda tačnih koordinata. Razlika starih i novih kartografskih oznaka je razjašnjena u korist postojeće tačke; podudaranje OSM-a i Google-a nije dokaz njihove nezavisnosti ni geodetske tačnosti do jednog metra. Nije dokazana fizička selidba spomenika."
     }
   }
 }

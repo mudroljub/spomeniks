@@ -93,6 +93,7 @@ POZNATI_BLISKI_PAROVI = {frozenset(par) for par in [
     ('bela-crkva-bista-mise-pantica', 'bela-crkva-muzej-7-juli-1941'),
     ('bela-crkva-bista-cede-milosavljevica', 'bela-crkva-muzej-7-juli-1941'),
     ('crepaja', 'crepaja-bista-save-zebeljana'),
+    ('cetinje-bista-jovana-tomasevica', 'cetinje-bista-marka-masanovica'),
 ]}
 cir = re.compile('[Ѐ-ӿ]')
 
