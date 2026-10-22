@@ -107,6 +107,16 @@ Po korisnikovom nalogu polje `mesto` usklađeno je sa makedonskom ćirilicom u *
 
 - Parkovi i pojedinačna dela razdvojeni su u Boriku, Jajincima, Dotrščini, Danici, Beloj Crkvi, Šubićevcu i Crnoj Ćupriji. Grahovo ostaje jedna Živkovićeva celina.
 - Otvoreno: tačka „Vješala“ u Danici nije potvrđena (zapis stoji kod „Izvidnice“); Rajčetićev lokvanj u Crnoj Ćupriji nema lokaciju; Brdo mira i Jadovno preskočeni zbog nejasnog identiteta slike i tačke.
+- **Prolaz po važnosti, 21.10.2026:** u devet paketa pregledano 129 neistaknutih spomen-parkova na mapi: dvojezični opisi, nove fotografije, autori, godine i posvete; sedam celina povučeno kao van obuhvata (među njima Džamonjin park, Bukovička banja i Mali Iđoš). Odluke `spomen-parkovi-*-2026-10-21` u [evidenciji](../data/provere/odluke.json); nerazrešene godine i autori pojedinih delova su u poljima `dilema`.
+
+## Muzeji
+
+- **Prolaz 21.10.2026:** svih 54 muzeja dobilo je dvojezičan opis; 11 nekadašnjih kuća razvrstano kao `spomen-kuca`, zatvorene postavke označene, dodato osam fotografija. Odluke `muzeji-*-2026-10-21`; neproverena dostupnost i otvorene godine su u poljima `dilema` i `otvoreno`.
+
+## Opisi i vrste
+
+- **Spomenici sa člankom, 21.10.2026:** 196 opisa iz uvoda članaka na Vikipediji (`opisi-iz-vikipedije-2026-10-21`) i još 71 sažet opis iz članaka i Spomenik Database (odluke `*-sa-clankom-opisi-*-2026-10-21`), uz dopune autora i adresa.
+- **Partisan Memorials Wiki, 22.10.2026:** 55 zapisa razvrstano kao `statua` ili `bista` prema opisu glavnog objekta (`vrsta-statua-bista-iz-xiwl-opisa-2026-10-22`); BiH izuzeta.
 
 ## Posvete
 

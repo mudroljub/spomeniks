@@ -67748,5 +67748,86 @@
       "ocuvano": "Ponovo upoređeno svih 60 zapisa ovog nastavka sa početnim snimkom: razlike tačno odgovaraju nameravanim poljima; koordinate, preciznost, Google identiteti, slike i istaknutost nisu menjani.",
       "ogranicenja": "Završen je pregled, ne terenska potvrda opstanka i pristupa svakom objektu 2026; konkretne izvorne dileme ostaju uz ID-jeve. Pauzirani testovi i otisak izdanja nisu pokretani."
     }
+  },
+  {
+    "odluka": "rs-nasledje-glavne-slike-kuce-heroja-2026-10-22",
+    "datum": "2026-10-22",
+    "izvor": "Informacioni sistem nepokretnih kulturnih dobara (nasledje.gov.rs), javni spisak /media/glavna_slika/ (4.320 fajlova) i /media/odluka_o_utvrdjivanju/ (4.988); aplikacija sistema nije dostupna (podrazumevana CFWheels strana)",
+    "obim": "nazivi fajlova glavnih slika filtrirani na NOB (oko 250 objekata) i upoređeni sa mapom, spiskom bez lokacije i arhivom; preuzete 34 fotografije i 7 odluka; kopije u izvori/pretrage/nasledje-2026-10-22/",
+    "fotografije": [
+      "kuca-narodnog-heroja-milorad-bondzulic",
+      "kuca-narodnog-heroja-stevan-colovic",
+      "kuca-narodnog-heroja-bogoljub-cukic",
+      "kuca-narodnog-heroja-darinka-radovic",
+      "kuca-narodnog-heroja-anka-matic-grozda",
+      "rodna-kuca-narodnog-heroja-dimitrije-lazarov-rasa",
+      "kuca-narodnog-heroja-aleksa-markisic",
+      "kuca-narodnog-heroja-milenko-hadzic",
+      "pancevo-logor-svilara",
+      "rodna-kuca-narodnog-heroja-slobodan-jovic",
+      "rodna-kuca-narodnog-heroja-dobrosav-radosavljevic-narod",
+      "kuca-narodnog-heroja-sava-jovanovic-sirogojno",
+      "rodna-kuca-narodnog-heroja-vera-miscevic",
+      "rodna-kuca-narodnog-heroja-stevan-divnin-baba",
+      "sakar-spomen-kuca-nor-a",
+      "rodna-kuca-narodnog-heroja-stojan-ljubic",
+      "kuca-narodnog-heroja-stanko-paunovic"
+    ],
+    "saSpiskaBezLokacije": {
+      "svrljig-grob-sa-spomenikom-narodnog-heroja-dr-mile": "fotografija registra; centar Svrljiga, približno",
+      "donja-mutnica-spomen-kuca-u-kojoj-je-1915": "registar: kuća NH Branka Krsmanovića (rođen 1915) u Donjoj Mutnici; naziv i posveta dopunjeni",
+      "turija-spomen-kuca": "registar: Turija – kuća značajna za NOB; Turija kod Srbobrana"
+    },
+    "dodato": {
+      "kuca-narodnog-heroja-vojimir-milovanovic": "Dobri Do, Lunovo Selo (Užice); tačka zaseoka Lunovo Selo",
+      "rodna-kuca-narodnog-heroja-vlada-aksentijevic": "Obrenovac, rešenje ZZNPSK 372/50",
+      "rodna-kuca-narodnog-heroja-zarko-zrenjanin": "Izbište, Žarka Zrenjanina 38 (rešenje PZZSK 01-36/8-70)",
+      "rodna-kuca-narodnog-heroja-radivoj-cirpanov": "Čurug",
+      "rodna-kuca-narodnog-heroja-djordje-zlicic": "Đurđevo (rešenje PZZSK 02-538/1-81); kuća je prezidana, ploča na zidu",
+      "kuca-narodnog-heroja-petar-lekovic": "Rečice (rešenje ZZNPSK 1056/49)",
+      "rodna-kuca-narodnog-heroja-janko-cmelik": "Stara Pazova (rešenje 205/50)",
+      "kuca-narodnog-heroja-sima-pogacarevic": "Vranje (rešenje 840/49)",
+      "kuca-narodnog-heroja-tihomir-matijevic": "bez lokacije: Lunjevica (rešenje ZZNPSK 433/50); fotografija registra snimljena izdaleka, nije upisana"
+    },
+    "spojeno": {
+      "vujanovo-spomen-kuca": "rodna-kuca-narodnog-heroja-stojan-ljubic",
+      "radnika-sela-brestovca-spomen-kuca": "kuca-narodnog-heroja-stanko-paunovic",
+      "krcedin-spomen-prostor": "krcedin-spomenik-nob (Spomen-prostor na obali Dunava, Kalakača; ista fotografija registra)"
+    },
+    "ispravljeno": {
+      "rodna-kuca-narodnog-heroja-dimitrije-lazarov-rasa": {
+        "staro": {
+          "mesto": "Beočin",
+          "koordinate": {
+            "lat": 45.210403,
+            "lng": 19.719594
+          }
+        },
+        "novo": {
+          "mesto": "Čerević",
+          "priblizno": true
+        },
+        "dokaz": "registar: Kuća NH Dimitrija Lazarova u Čereviću; sr.wiki: rodni Čerević"
+      },
+      "rodna-kuca-narodnog-heroja-stojan-ljubic": {
+        "staro": {
+          "mesto": "Bojnik"
+        },
+        "novo": {
+          "mesto": "Vujanovo"
+        }
+      }
+    },
+    "odbaceno": {
+      "radicevic-partizanska-baza-veliki-lublin": "na fotografiji livada, objekat izdaleka",
+      "bela-voda-spomenik-palim-borcima": "Spomenički kompleks Bele Vode nije potvrđen kao NOB",
+      "donje-konjuvce-spomen-kuca-u-kojoj-je-1913": "kuća Đuke Dinić (rođena 1914 po Vikipediji) nije pouzdano isti zapis; fotografija ruševine",
+      "Kuća Alekse Pušeljića, Čačak": "predsednik opštine 1888, van obuhvata (glavna slika registra pogrešno navodi narodnog heroja)",
+      "Kuća Momčila Rankovića, Rajac (Negotin)": "radnički pokret 1912–1939, van obuhvata",
+      "Kuća NH Jovana Mitića Đorđa i Spomen-kuća, Toponica": "više istoimenih sela, mesto nije razrešeno",
+      "Kuća NH Živana Maričića (Žiča, Kruševica)": "dva registarska objekta, par sa našim zapisom nije razrešen",
+      "Gučevo, Lazarevac, Prnjavor, Cer, Mačkov kamen": "Prvi svetski rat"
+    },
+    "dilema": "Godine rođenja u nazivima Popović-Žume (Ljubić 1919, Konjuvce 1913) razlikuju se od Vikipedije; mesto Brestovac kod Negotina potvrđuje par Paunovića. Tačke svih novih kuća su približne (centar naselja); adrese iz odluka nisu čitljive bez OCR-a."
   }
 ]

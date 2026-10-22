@@ -259,14 +259,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "svrljig-grob-sa-spomenikom-narodnog-heroja-dr-mile",
-    "mesto": "Svrljig",
-    "naziv": "Grob sa spomenikom narodnog heroja dr Milenka Hadžića",
-    "posveta": "sa spomenikom narodnog heroja dr Milenka Hadžića",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
-  },
-  {
     "id": "banja-luka-bista-karla-rojca-2",
     "mesto": "Banja Luka",
     "naziv": "Bista Karla Rojca",
@@ -20997,17 +20989,6 @@
     "adresa": "Kameni beleg u ataru naselja na mestu gde su četnici decembra 1943. godine ubili Momčila Rankovića, sekretara SK SKOJa negotinskog sreza i zaklali dvojicu pripad"
   },
   {
-    "id": "radnika-sela-brestovca-spomen-kuca",
-    "mesto": "Brestovac (Negotin)",
-    "naziv": "Rodna kuća Stanka Paunovića",
-    "vrsta": "spomen-kuca",
-    "drzava": "Serbia",
-    "nazivEn": "Birthplace of Stanko Paunović",
-    "posveta": [
-      "Q703200"
-    ]
-  },
-  {
     "id": "radnika-sela-brestovca-bista-stanka-paunovica",
     "mesto": "Brestovac (Negotin)",
     "naziv": "Bista Stanka Paunovića",
@@ -21271,14 +21252,6 @@
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia",
     "adresa": "Obelisk visok 7 m — spomenik palim u oslobodilačkim ratovima 1912-1918. i 1941-1945. Podignut 1979. godine. Vajar Đ. Vasić. U godinama oslobodilačkih ratova pal"
-  },
-  {
-    "id": "vujanovo-spomen-kuca",
-    "mesto": "Vujanovo",
-    "naziv": "Spomen-kuća",
-    "vrsta": "spomen-kuca",
-    "drzava": "Serbia",
-    "adresa": "Spomen-kuća u kojoj je 1919. godine rođen Stojan Ljubić, narodni heroj."
   },
   {
     "id": "vujanovo-spomenik-na-grobu-stojana-ljubica",
@@ -28998,13 +28971,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "donja-mutnica-spomen-kuca-u-kojoj-je-1915",
-    "mesto": "Donja Mutnica",
-    "naziv": "Spomen-kuća",
-    "vrsta": "spomen-kuca",
-    "drzava": "Serbia"
-  },
-  {
     "id": "donja-mutnica-zajednicka-grobnica-i-spomenik",
     "mesto": "Donja Mutnica",
     "naziv": "Zajednička grobnica i spomenik",
@@ -29565,13 +29531,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "krcedin-spomen-prostor",
-    "mesto": "Krčedin",
-    "naziv": "Spomen-prostor",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
-  },
-  {
     "id": "novi-karlovci-spomen-dom",
     "mesto": "Novi Karlovci",
     "naziv": "Spomen-dom",
@@ -30075,13 +30034,6 @@
     "mesto": "Srbobran",
     "naziv": "Zajednička grobnica streljanih na gradskom groblju",
     "vrsta": "groblje",
-    "drzava": "Serbia"
-  },
-  {
-    "id": "turija-spomen-kuca",
-    "mesto": "Turija",
-    "naziv": "Spomen-kuća",
-    "vrsta": "spomen-kuca",
     "drzava": "Serbia"
   },
   {
@@ -40369,5 +40321,14 @@
     "nazivEn": "Memorial Fountain",
     "vrsta": "spomen-cesma",
     "drzava": "Croatia"
+  },
+  {
+    "id": "kuca-narodnog-heroja-tihomir-matijevic",
+    "mesto": "Lunjevica",
+    "naziv": "Kuća narodnog heroja Tihomira Matijevića",
+    "nazivEn": "House of People’s Hero Tihomir Matijević",
+    "posveta": "Tihomir Matijević",
+    "vrsta": "spomen-kuca",
+    "drzava": "Serbia"
   }
 ]
