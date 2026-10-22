@@ -2,6 +2,16 @@
 
 Otvorena pitanja i odluke koje sprečavaju ponovni rad pri dopuni autora, godina i posveta postojećih spomenika. Postupci su u [skilu](../.claude/skills/spomenici-zetva/references/autori-i-posvete.md), pojedinačne odluke sa dokazima u [`data/provere/odluke.json`](../data/provere/odluke.json), a istorija prolaza u gitu.
 
+## Provera istaknutih lokaliteta (2026-10-22)
+
+Završen je pregled **76/76 istaknutih lokaliteta (100%)** u pet paketa: 8 + 8 + 12 + 25 + 23. Ispravljeno ili dopunjeno **66 jedinstvenih zapisa**, a deset je zadržano bez promene jer dostupni dokazi nisu opravdali izmenu. Prvenstvo su imali zvanični registri, stručni katalozi i radovi, upravljači muzeja i parkova, opštine i autorska dokumentacija; dopunski terenski izvori korišćeni su uz navedena ograničenja.
+
+Najvažnije ispravke: zatvaranje Franje posle nevremena 2023, osnivanje muzeja Užice 1946, osnivačka faza Kumrovca 1952, godina Ostre 1969, razdvajanje grobnih ostataka i simboličkih urni u Prilepu, pogrešni brojevi na Slobodištu i grobljima u Beogradu i Sremskoj Mitrovici. Dopunjeni su izostavljeni autori, adrese i uslovi obilaska; jasnije su opisani ostaci u Korenici, Makljenu i devastirani muzejski sadržaji. Razdvojeni su pojedinačne skulpture, ranija obeležja, kasnije dogradnje i čitavi kompleksi, uključujući Boška Buhu. Precizne koordinate, Google identiteti, fotografije i istaknutost nisu menjani.
+
+Odluka `istaknuti-slovenija-uzice-2026-10-22` u [postojećoj evidenciji](../data/provere/odluke.json) čuva plan sa svih 76 ID-jeva i praznim spiskom preostalih; odluke `istaknuti-muzeji-drugi-paket-2026-10-22`, `istaknuti-rizik-2026-10-22`, `istaknuti-region-2026-10-22` i `istaknuti-srbija-2026-10-22` čuvaju dokaze, stare vrednosti i pojedinačna ograničenja. **100% označava završen pregled zapisa, ne potvrdu svakog polja ili današnjeg fizičkog stanja.** Otvoreni su, između ostalog, odnos datuma 1955/1959 u Kraljevu, početak memorijalizacije Stolica pre uređenja 1980/1981, nezavisna potvrda Stankovićevog koautorstva na Žabljaku i aktuelni režimi pojedinih enterijera (Bihać, Kolašin); nisu pretvoreni u izmišljene sigurne činjenice. Predlozi obnove nisu proglašavani završenim radovima.
+
+Provere: integritet 9.419 spomenika prolazi sa 74 ranije poznata bliska para; `git diff --check` bez grešaka. Prikaz svih 76 lokaliteta proveren je na telefonu 390 × 844 na oba jezika, sa učitanim slikama i bez prelivanja; reprezentativni snimci pregledani su vizuelno. Pauzirani testovi i otisak izdanja nisu pokretani.
+
 ## Sistemski pregled spomenicinob.info (2026-10-20)
 
 Završeni su **prvi pregled po signalima rizika i detaljan pojedinačni pregled svih 4.324 izvorna reda (100%, 140 opština)**, zaključno sa Pilicom u opštini Zvornik. Provereni su duplikati, različite godine istog objekta, izričite zamene, uklanjanja i premeštanja, vrste, obuhvat i nepotvrđene lokacije. Završetak prolaza nije potvrda svih istorijskih podataka niti današnjeg opstanka svakog objekta; konkretne nerešene veze i nesaglasnosti ostaju u evidenciji odluka. Identitet kandidata potvrđuje se adresom, posvetom i istorijom, uz poređenje mape, spiska bez lokacije i arhive; arhivirani objekat ne vraća se bez potvrde da postoji ili je obnovljen i vraćen.
