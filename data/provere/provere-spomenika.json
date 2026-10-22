@@ -199,6 +199,14 @@
       "napomena": "Preuzet izričit položaj konkretnog obeležja i opis mikrolokacije iz sačuvane Wiki stranice. Ovo nije dokaz današnjeg stanja."
     }
   },
+  "dub": {
+    "proveraLokacije": {
+      "datum": "2026-10-22",
+      "izvor": "https://tivat.travel/wp-content/uploads/2020/06/KATALOG-1.pdf",
+      "ishod": "potvrdjena-tacka-i-ispravljeno-mesto",
+      "napomena": "Karton26 na PDF str.34 daje 42°24′44.77″N,18°44′42.25″E, oko 1.0 m od postojeće Google tačke. Google karton sa sačuvanim CID-om izričito navodi adresu Kavač. Sačuvana koordinata, ID dub i CID; naziv sela ispravljen iz Dub u Kavač. Tačka i karton ne potvrđuju identitet ranije nepovezane fotografije."
+    }
+  },
   "erdevik-zajednicka-grobnica-i-spomenik-na-podrucju": {
     "proveraLokacije": {
       "datum": "2026-10-20",
@@ -377,6 +385,30 @@
       "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=133",
       "ishod": "pogresno-zaglavlje-u-izvodu-ispravljeno",
       "napomena": "U parku osnovne škole u Velebitu. Prethodna približna tačka pripadala je drugom naselju."
+    }
+  },
+  "kastel-gomilica-spomen-kosturnica": {
+    "proveraLokacije": {
+      "datum": "2026-10-22",
+      "izvor": "https://api.uredjenazemlja.hr/services/inspire/cp_wms/wms",
+      "ishod": "potvrdjena-parcela",
+      "napomena": "Javni DGU WMS GetFeatureInfo na postojećoj tački vraća k.č.581/2, šifru k.o.338532; broj parcele i katastarska opština odgovaraju tabeli9 na str.24 usvojenog gradskog inventara 44/2024. Uz Tuđmanovu cestu, pokraj župne crkve; mikrolokacija opisana u izveštaju iz 2011. Potvrđeno pripadanje evidentiranoj parceli, ne novo geodetsko merenje položaja skulpture. Postojeća tačka i oznaka preciznosti sačuvane."
+    }
+  },
+  "kastel-kambelovac": {
+    "proveraLokacije": {
+      "datum": "2026-10-22",
+      "izvor": "https://api.uredjenazemlja.hr/services/inspire/cp_wms/wms",
+      "ishod": "potvrdjena-parcela",
+      "napomena": "Javni DGU WMS GetFeatureInfo na postojećoj tački vraća k.č.1746/1, šifru k.o.313467; broj parcele i katastarska opština odgovaraju tabeli9 na str.24 usvojenog gradskog inventara 44/2024. Trg Brce, tabela javnih prometnih površina na str.19. Potvrđeno pripadanje evidentiranoj parceli, ne novo geodetsko merenje položaja skulpture. Postojeća tačka i oznaka preciznosti sačuvane."
+    }
+  },
+  "kastel-luksic-spomenik-palim-borcima": {
+    "proveraLokacije": {
+      "datum": "2026-10-22",
+      "izvor": "https://api.uredjenazemlja.hr/services/inspire/cp_wms/wms",
+      "ishod": "potvrdjena-parcela",
+      "napomena": "Javni DGU WMS GetFeatureInfo na postojećoj tački vraća k.č.68, šifru k.o.313475; broj parcele i katastarska opština odgovaraju tabeli9 na str.24 usvojenog gradskog inventara 44/2024. Novi park, tabela javnih zelenih površina na str.22. Potvrđeno pripadanje evidentiranoj parceli, ne novo geodetsko merenje položaja skulpture. Postojeća tačka i oznaka preciznosti sačuvane."
     }
   },
   "kavaliri-spomenik-strijeljanim-zrtvama-fasizma": {

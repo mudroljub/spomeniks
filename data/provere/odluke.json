@@ -65888,7 +65888,12 @@
         "pdfStrane": [
           34
         ],
-        "nalaz": "GPS kartona Kavač (1960) gotovo je identičan postojećoj tački zapisa Dub, ali njegova Google fotografija prikazuje potpuno drugačije delo od obeliska u katalogu. Ne prepisivati mesto/godinu/sliku niti dodavati drugi marker na istu tačku dok se ne razreše CID i identitet."
+        "nalaz": "GPS kartona Kavač (1960) gotovo je identičan postojećoj tački zapisa Dub, ali njegova Google fotografija prikazuje potpuno drugačije delo od obeliska u katalogu. Ne prepisivati mesto/godinu/sliku niti dodavati drugi marker na istu tačku dok se ne razreše CID i identitet.",
+        "naknadnaProvera": {
+          "datum": "2026-10-22",
+          "odluka": "dub-kavac-identitet-i-fotografija-2026-10-22",
+          "ishod": "Lokacija identifikovana kao Kavač, GPS i CID sačuvani. Nepotvrđena fotografija zamenjena slikom konkretnog obeliska iz stručnog kataloga; stara slika nije pripisana drugom mestu bez dokaza."
+        }
       },
       {
         "id": "mrcevac-spomenik-zrtvama-drugog-svjetskog-rata",
@@ -66094,5 +66099,181 @@
     },
     "ogranicenja": "Postojeće tačke, njihove oznake preciznosti, stanja, fotografije i godine sačuvani. Izostanak bisti ili spomenika iz popisa nije tumačen kao uklanjanje. Drugim redovima prilepskog registra nije automatski pripisan NOB značaj.",
     "radniMaterijal": "izvori/pretrage/novi-registri-2026-10-22/"
+  },
+  {
+    "odluka": "kastela-tri-parcele-luksic-obnova-2026-10-22",
+    "datum": "2026-10-22",
+    "obuhvat": "Tri postojeća kaštelanska spomenika, povezivanje tačaka sa katastarskim parcelama iz usvojene službene evidencije; tri dopune adresa, autor i opis obnove za Lukšić, jedna nova fotografija. Bez novih markera ili promene koordinata.",
+    "izvori": [
+      "https://kastela.hr/wp-content/uploads/datoteke/dokumenti/sluzbeni-glasnici/2024/sluzbeni-glasnik-broj-44.pdf",
+      "https://geoportal.dgu.hr/cms/podaci-i-servisi/",
+      "https://api.uredjenazemlja.hr/services/inspire/cp_wms/wms",
+      "https://www.portal.hr/novosti/aktualnosti/75202-udruga-aba-kastela-obiljezila-dan-oslobodenja-kastela-otkrivanjem-spomen-ploce-i-polaganjem-cvijeca",
+      "https://slobodnadalmacija.hr/dalmacija/kastel-gomilica-kosturnicu-preselite-spomenik-ne-dirajte-135001"
+    ],
+    "parcele": [
+      {
+        "id": "kastel-luksic-spomenik-palim-borcima",
+        "koordinateUpita": {
+          "lat": 43.552135,
+          "lng": 16.361899
+        },
+        "parcela": "68",
+        "maticniBrojKO": "313475",
+        "upit": "https://api.uredjenazemlja.hr/services/inspire/cp_wms/wms?service=WMS&version=1.3.0&request=GetFeatureInfo&layers=CP.CadastralParcel&query_layers=CP.CadastralParcel&styles=&crs=EPSG%3A4326&bbox=43.552035%2C16.361799%2C43.552235%2C16.361999&width=101&height=101&i=50&j=50&format=image%2Fpng&info_format=text%2Fplain&feature_count=5",
+        "rezultat": "Results for FeatureType 'http://cp_wms:CP.CadastralParcel':\n--------------------------------------------\nID = 16744856\nGEOMETRY = [GEOMETRY (Polygon) with 30 points]\nBROJ_CESTICE = 68\nMATICNI_BROJ_KO = 313475\n--------------------------------------------\n",
+        "vezaSaRegistrom": "Novi park, tabela javnih zelenih površina na str.22",
+        "izmenjenaPolja": {
+          "adresa": {
+            "pre": null,
+            "posle": "Na Trgu hrvatske mladeži, kod sjevernog ulaza u Novi park"
+          },
+          "autor": {
+            "pre": null,
+            "posle": "Ante Despot"
+          },
+          "opis": {
+            "pre": null,
+            "posle": {
+              "sh": "Posvećeno palim borcima Kaštela u Narodnooslobodilačkoj borbi. Statua iz 1957. vraćena je na svoje mesto 2019, a nova spomen-ploča otkrivena je 27. oktobra 2023.",
+              "en": "Dedicated to the fallen fighters of Kaštela in the People’s Liberation War. The 1957 statue was returned to its site in 2019, and a new memorial plaque was unveiled on 27 October 2023."
+            }
+          },
+          "slika": {
+            "pre": null,
+            "posle": "slike/spomenici/kastel-luksic-spomenik-palim-borcima.webp"
+          },
+          "slikaOdnos": {
+            "pre": null,
+            "posle": 0.458
+          },
+          "slikaPotpis": {
+            "pre": null,
+            "posle": "Portal grada Kaštela, 27.10.2023."
+          }
+        }
+      },
+      {
+        "id": "kastel-kambelovac",
+        "koordinateUpita": {
+          "lat": 43.5487274,
+          "lng": 16.3846516
+        },
+        "parcela": "1746/1",
+        "maticniBrojKO": "313467",
+        "upit": "https://api.uredjenazemlja.hr/services/inspire/cp_wms/wms?service=WMS&version=1.3.0&request=GetFeatureInfo&layers=CP.CadastralParcel&query_layers=CP.CadastralParcel&styles=&crs=EPSG%3A4326&bbox=43.548627399999994%2C16.3845516%2C43.5488274%2C16.3847516&width=101&height=101&i=50&j=50&format=image%2Fpng&info_format=text%2Fplain&feature_count=5",
+        "rezultat": "Results for FeatureType 'http://cp_wms:CP.CadastralParcel':\n--------------------------------------------\nID = 16744257\nGEOMETRY = [GEOMETRY (Polygon) with 135 points]\nBROJ_CESTICE = 1746/1\nMATICNI_BROJ_KO = 313467\n--------------------------------------------\n",
+        "vezaSaRegistrom": "Trg Brce, tabela javnih prometnih površina na str.19",
+        "izmenjenaPolja": {
+          "adresa": {
+            "pre": null,
+            "posle": "Na trgu Brce"
+          }
+        }
+      },
+      {
+        "id": "kastel-gomilica-spomen-kosturnica",
+        "koordinateUpita": {
+          "lat": 43.54897,
+          "lng": 16.397241
+        },
+        "parcela": "581/2",
+        "maticniBrojKO": "338532",
+        "upit": "https://api.uredjenazemlja.hr/services/inspire/cp_wms/wms?service=WMS&version=1.3.0&request=GetFeatureInfo&layers=CP.CadastralParcel&query_layers=CP.CadastralParcel&styles=&crs=EPSG%3A4326&bbox=43.548869999999994%2C16.397141%2C43.54907%2C16.397341&width=101&height=101&i=50&j=50&format=image%2Fpng&info_format=text%2Fplain&feature_count=5",
+        "rezultat": "Results for FeatureType 'http://cp_wms:CP.CadastralParcel':\n--------------------------------------------\nID = 40687306\nGEOMETRY = [GEOMETRY (Polygon) with 20 points]\nBROJ_CESTICE = 581/2\nMATICNI_BROJ_KO = 338532\n--------------------------------------------\n",
+        "vezaSaRegistrom": "Uz Tuđmanovu cestu, pokraj župne crkve; mikrolokacija opisana u izveštaju iz 2011",
+        "izmenjenaPolja": {
+          "adresa": {
+            "pre": null,
+            "posle": "Uz Cestu dr. Franje Tuđmana, pokraj župne crkve"
+          }
+        }
+      }
+    ],
+    "luksic": {
+      "izvor": "https://www.portal.hr/novosti/aktualnosti/75202-udruga-aba-kastela-obiljezila-dan-oslobodenja-kastela-otkrivanjem-spomen-ploce-i-polaganjem-cvijeca",
+      "datumDokaza": "2023-10-27",
+      "nalaz": "Izvorni izveštaj Petre Klarić prenosi izjavu predsednika Udruge ABA Kaštela: autor Ante Despot, podizanje 1957, povratak četiri godine ranije (2019), otkrivanje nove ploče na Trgu hrvatske mladeži 27.10.2023. Fotogalerija pokazuje celu statuu na postamentu u parkovskom okruženju. Ranije uklanjanje nije današnje stanje; 2023 nije godina podizanja.",
+      "fotografija": "https://www.portal.hr/images/stories/novosti/2023/10/aba_kastela/galerija/nob-01.jpg",
+      "potpis": "Portal grada Kaštela; autor fotografije nije izričito naveden u originalu. Sekundarni prenos pripisuje fotografije Ivani Topić, ali to nije dodato bez potvrde u izvorniku."
+    },
+    "ogranicenja": "WMS potvrđuje parcelu ispod postojeće tačke, ne prisustvo spomenika 2026 ni precizan položaj unutar parcele. Ortofoto sloj 2023 pregledan za sva tri mesta; bez zasebnog potvrđenog datuma snimanja i bez određivanja novih tačaka iz senki. Za Gomilicu predlog premeštanja kosturnice iz 2011 nije proglašen izvršenjem; sadržaj grobnice i današnji položaj posmrtnih ostataka nisu utvrđeni ovom proverom. WFS GetFeature na uskom WGS84 okviru istekao, nije ponavljan; lakši dokumentovani WMS radio je za sva tri upita.",
+    "radniMaterijal": "izvori/pretrage/kastela-parcele-2026-10-22/"
+  },
+  {
+    "odluka": "dub-kavac-identitet-i-fotografija-2026-10-22",
+    "datum": "2026-10-22",
+    "id": "dub",
+    "obuhvat": "Jedan postojeći zapis Dub/Kavač: ispravljeni mesto i naslov, dodati godina, adresa i dvojezični opis; zamenjena nepotvrđena fotografija. Bez novih markera, promene tačke, preciznosti, vrste ili CID-a.",
+    "izvori": [
+      "https://tivat.travel/wp-content/uploads/2020/06/KATALOG-1.pdf",
+      "https://www.google.com/maps?cid=12330117572832892969",
+      "https://radiokotor.info/clanak/servisneInformacije/zatvoren-dio-puta-kroz-kava%C4%8C-u-utorak-3.oktobra/0"
+    ],
+    "dokazi": [
+      {
+        "izvor": "https://tivat.travel/wp-content/uploads/2020/06/KATALOG-1.pdf",
+        "pdfStrana": 34,
+        "karton": 26,
+        "nalaz": "Kavač, obelisk sa zidanom bazom, podignut1960, šest imena na natpisu; fotografije i GPS istog kartona. GPS skoro identičan postojećoj tački, razlika 1.0 m."
+      },
+      {
+        "izvor": "https://www.google.com/maps?cid=12330117572832892969",
+        "datumProvere": "2026-10-22",
+        "nalaz": "Otvoren sačuvani CID u pregledniku; karton Spomenik palim borcima otvara 42.4124324,18.7450579 i adresu CP6W+X2F, Kavač. Google naziv vrste spomen-park nije prenet u našu klasifikaciju. Fotografije na kartonu nisu bile učitane: to samo po sebi ne dokazuje da ne postoje."
+      },
+      {
+        "izvor": "https://radiokotor.info/clanak/servisneInformacije/zatvoren-dio-puta-kroz-kava%C4%8C-u-utorak-3.oktobra/0",
+        "datumDokaza": "2023-10-02",
+        "nalaz": "Objavljena odluka Sekretarijata za investicije Opštine Kotor 18-334/23-24347/2 navodi raskrsnicu od spomenika Palim Borcima prema Tivat Heights u Kavaču. Parcela346 odnosi se na put, ne na parcelu samog spomenika."
+      }
+    ],
+    "izmenjenaPolja": {
+      "mesto": {
+        "pre": "Dub",
+        "posle": "Kavač"
+      },
+      "adresa": {
+        "pre": null,
+        "posle": "Uz lokalni put Trojica–Kavač–Gradiošnica, sa zapadne strane puta"
+      },
+      "naziv": {
+        "pre": "Spomenik palim borcima",
+        "posle": "Spomenik palim borcima i žrtvama fašizma"
+      },
+      "nazivEn": {
+        "pre": "Monument to Fallen Fighters",
+        "posle": "Monument to Fallen Fighters and Victims of Fascism"
+      },
+      "godina": {
+        "pre": null,
+        "posle": "1960"
+      },
+      "opis": {
+        "pre": null,
+        "posle": {
+          "sh": "Posvećeno palim borcima i žrtvama fašizma iz Kavača, sa imenima šestoro stradalih 1944. Spomenik je 1960. podigao Opštinski odbor Saveza boraca Kotora.",
+          "en": "Dedicated to fallen fighters and victims of fascism from Kavač, with the names of six people who died in 1944. The municipal veterans’ association of Kotor erected the monument in 1960."
+        }
+      },
+      "slikaOdnos": {
+        "pre": 1.333,
+        "posle": 1.026
+      },
+      "slikaPotpis": {
+        "pre": "Google Maps",
+        "posle": "Magdalena Radunović & Bratislav Radunović, Montemisija / TO Tivat, 2019"
+      }
+    },
+    "fotografija": {
+      "izvor": "https://tivat.travel/wp-content/uploads/2020/06/KATALOG-1.pdf",
+      "pdfStrana": 34,
+      "izbor": "Desna fotografija kartona26, vizuelno pregledana; fotografi navedeni u impresumu kataloga.",
+      "prethodniSHA256": "cd0900e4d784cc078e710d89565c6e4f17b62a4fe15e1f2bb75a1a96a61651cc",
+      "novaSHA256": "f3562df005d33055b268c5bc6b96eb155dce12e171ae8b850e99cec9e840c5e5",
+      "napomena": "Prethodna fotografija prikazuje drugačiji beli spomenik sa reljefnom figurom i nije pouzdano povezana sa ovom lokacijom. Njeno tačno poreklo nije utvrđeno i nije pretpostavljeno da predstavlja drugi spomenik u Dubu. Sačuvana lokalno; fotografija iz Dobrote pregledana i odbačena kao par. Godina2019 u potpisu je izdanje kataloga, ne potvrđen datum svakog snimka."
+    },
+    "ogranicenja": "Ne pretpostavlja se da u selu Dub ne postoji neki drugi spomenik. Ne pravi se novi zapis na osnovu nepoznate slike. Katalog i datirani pomen iz2023 nisu terenska potvrda fizičkog stanja2026; stanje nije menjano.",
+    "radniMaterijal": "izvori/pretrage/dub-kavac-2026-10-22/"
   }
 ]
