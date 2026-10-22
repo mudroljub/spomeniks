@@ -613,6 +613,14 @@
       "napomena": "Ponovo pročitan ceo sačuvani članak. Groblje je povezano sa zasebnim Google unosom na44.6110827,17.6921115 (oko8m od naše tačke), topografskom kartom1977 i terenskim fotografijama2022. Napomena o nepoznatoj vezi sa spomenikom1957 nije sumnja u položaj groblja. Pregledan ulični snimak prilaza sa juga: ne koristi se kao dokaz današnjeg stanja ili pojedinačnih nadgrobnika. Veza sa spomenikom1957 nije potvrđena, pa nema spajanja."
     }
   },
+  "prilep-spomenik-na-metodija-satorov-sarlo": {
+    "proveraLokacije": {
+      "datum": "2026-10-22",
+      "izvor": "https://www.prilep.gov.mk/wp-content/uploads/2022/03/spomen-obelezhja-opshtina-prilep.csv",
+      "ishod": "priblizno-trg-bez-gps-a",
+      "napomena": "Opštinski registar navodi trg bez koordinata; tačka preuzeta iz približnog položaja istog trga uz postojeći spomenik Čentu. To nisu iste statue. Ne koristiti ovu tačku kao izmereni položaj Šarlove skulpture."
+    }
+  },
   "puharska-bista-osmana-dzafica": {
     "proveraLokacije": {
       "datum": "2026-10-20",
@@ -725,6 +733,30 @@
       "izvor": "https://www.xiwl.com/w/index.php/Teočak_(Bihać)_-_Spomenik_NOB",
       "ishod": "potvrdjen-identitet-duplikata",
       "napomena": "Postojeća precizna tačka je oko 3 m od položaja iz Wiki kopije; fotografija pokazuje ista dva kamena stuba i kameno postolje. Zadržani su tačka, Google mesto i fotografija."
+    }
+  },
+  "tivat-bista-save-kovacevica": {
+    "proveraLokacije": {
+      "datum": "2026-10-22",
+      "izvor": "https://tivat.travel/wp-content/uploads/2020/06/KATALOG-1.pdf",
+      "ishod": "priblizno-zgrada-muzeja",
+      "napomena": "Nova bronzana bista iz 1981, fotografisana u muzejskoj zbirci prema katalogu 2019. Tačka označava muzej i zato je približna; nije tvrdnja o tačnom položaju biste u postavci ni novoj potvrdi opstanka 2026. Ne vraća se nikakva arhivirana bista."
+    }
+  },
+  "tivat-spomenik-objesenim-rodoljubima": {
+    "proveraLokacije": {
+      "datum": "2026-10-22",
+      "izvor": "https://tivat.travel/wp-content/uploads/2020/06/KATALOG-1.pdf",
+      "ishod": "gps-kartona-sa-mikrolokacijom",
+      "napomena": "Novi samostalni kameni spomenik iz 1956. Izgled, posveta i GPS ga razlikuju od obližnjeg spomenika Tivćanima iz 1951 (47 m), pa nije duplikat."
+    }
+  },
+  "tivat-spomenik-spasicu-i-maseri": {
+    "proveraLokacije": {
+      "datum": "2026-10-22",
+      "izvor": "https://tivat.travel/wp-content/uploads/2020/06/KATALOG-1.pdf",
+      "ishod": "gps-kartona-sa-mikrolokacijom",
+      "napomena": "Novo autorsko delo u Velikom gradskom parku, odvojeno od obeležja na Brdima. Autor Luka Tomanović potvrđen engleskim opštinskim registrom. Datum 10.9.1952 u engleskoj tabeli naspram 10.10.1952 u DOCX-u/katalogu: sigurna godina 1952 upisana bez spornog dana. Opstanak potvrđen zvaničnom komemoracijom 17.4.2026. Nova tačka potiče iz izričitog GPS-a kartona sa mikrolokacijom i fotografijom."
     }
   },
   "tjentiste-mjesto-ranjavanja-tita": {
