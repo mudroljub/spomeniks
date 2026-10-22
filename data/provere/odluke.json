@@ -64104,5 +64104,141 @@
         "naselje-glozdak-bista-momcila-popovica": "OSM bista Momčila Popovića je na tački zapisa aleksinac-bista-momcila-popovica (0 m)"
       }
     }
+  },
+  {
+    "odluka": "rs-registar-kuce-narodnih-heroja-2026-10-22",
+    "datum": "2026-10-22",
+    "izvor": "Centralni registar RZZSK preko Wikidate (P4245); heritage.gov.rs nedostupan (održavanje portala eUprava)",
+    "dodato": {
+      "kuca-narodnog-heroja-stanko-paunovic": "СК 465",
+      "kuca-narodnog-heroja-jezdimir-lovic": "СК 487",
+      "kuca-narodnog-heroja-momir-pucarevic": "СК 518",
+      "kuca-narodnog-heroja-aleksa-markisic": "СК 760",
+      "kuca-narodnog-heroja-vladimir-radovanovic": "СК 194",
+      "kuca-narodnog-heroja-sava-jovanovic-sirogojno": "СК 533",
+      "kuca-narodnog-heroja-bogoljub-cukic": "СК 491",
+      "rodna-kuca-narodnog-heroja-stojan-ljubic": "СК 679",
+      "rodna-kuca-narodnog-heroja-sava-muncan": "СК 1781",
+      "kuca-narodnog-heroja-milenko-hadzic": "СК 2189",
+      "rodna-kuca-narodnog-heroja-slobodan-jovic": "СК 973",
+      "kuca-narodnog-heroja-dragan-jevtic": "СК 490",
+      "kuca-narodnog-heroja-ratko-mitrovic": "СК 478",
+      "rodna-kuca-narodnog-heroja-bosko-vrebalov": "СК 1998",
+      "kuca-narodnog-heroja-darinka-radovic": "СК 455",
+      "rodna-kuca-narodnog-heroja-stevica-jovanovic": "СК 1976",
+      "rodna-kuca-narodnog-heroja-pavle-pap": "СК 1978",
+      "kuca-narodnog-heroja-milica-pavlovic": "СК 488",
+      "kuca-narodnog-heroja-servo-mihalj": "СК 1996",
+      "kuca-narodnog-heroja-anka-matic-grozda": "СК 1583",
+      "kuca-narodnog-heroja-stevan-colovic": "СК 192",
+      "kuca-narodnog-heroja-milorad-bondzulic": "СК 193",
+      "rodna-kuca-narodnog-heroja-dobrosav-radosavljevic-narod": "СК 1572",
+      "rodna-kuca-narodnog-heroja-stevan-petrovic-brile": "СК 1576",
+      "rodna-kuca-narodnog-heroja-vera-miscevic": "СК 1577",
+      "rodna-kuca-narodnog-heroja-dimitrije-lazarov-rasa": "СК 1857",
+      "rodna-kuca-narodnog-heroja-stevan-divnin-baba": "СК 1869",
+      "rodna-kuca-narodnog-heroja-jovan-veselinov-zarko": "СК 1997"
+    },
+    "metod": "kandidati iz izvori/pretrage/wlm-srbija-2026-10-19/nob-uparivanje.json ponovo upoređeni sa bazom; koordinate P625, mesto Nominatim, fotografije Commons (P18/WLM)",
+    "preskoceno": {
+      "Mačkov kamen, Cer, Gučevo, Javor, Ibarski junaci, Toplički ustanak, spomenici Prvog svetskog rata i ranijih ratova": "van obuhvata",
+      "zgrade u ulicama Maršala Tita (Jagodina, Niš, Vrbas), ambari, crkve, groblja istaknutih ličnosti": "nisu NOB spomenici",
+      "Krušik, Boško Buha (Jabuka), Bela Crkva, Crna Ćuprija, Zlatibor, Ritopek, Novi Sad, logor Zrenjanin": "već postoje; tačke registra 340–2.200 m od naših, nisu menjane bez provere",
+      "kuće bez koordinata (Petar Leković ×2, Radivoje Jovanović Bradonja, Vlada Aksentijević, Živan Maričić, srušena kuća Boška Palkovljevića)": "nema tačke; nisu dodate"
+    }
+  },
+  {
+    "odluka": "ilok-ppug-2019-2026-10-22",
+    "datum": "2026-10-22",
+    "izvor": "https://www.ilok.hr/baza-podataka/dokumenti/uploads/akti-gv/2020-02-28/III_ID_PPUG_Ilok_ODLUKA_2019.pdf",
+    "obim": "čl. o kulturnim dobrima: zaštićena (R-219, R-225, R-376) i evidentirana memorijalna obilježja; kopija izvori/hr/ilok-ppug-2019.pdf",
+    "dodato": [
+      "ilok-bista-slavise-vajnera-cice",
+      "ilok-spomenik-zrtvama-drugog-svjetskog-rata-iteks",
+      "mohovo-spomen-cesma"
+    ],
+    "potvrdjeno": {
+      "ilok-spomen-grobnica-boraca-crvene-armije": "R-219 Spomenik palim borcima Crvene armije, Gornji grad",
+      "ilok-bista-ive-lole-ribara": "evidentirana, Gornji grad",
+      "sarengrad": "R-376 Groblje palih boraca NOR, mjesno groblje Šarengrad"
+    },
+    "napomena": "plan 2019. nije samostalan dokaz opstanka, pa su novi zapisi bez lokacije; R-225 (spomenik palim borcima NOR, pravoslavno groblje Ilok) verovatno je ilok-spomen-kosturnica, nije potvrđeno",
+    "preskoceno": {
+      "spomen-ploče (Iteks, Slovački dom, Ilok-turist, Mohovo)": "ispod praga",
+      "grob N. Stajića, Mohovo": "pojedinačan grob",
+      "Bapska, spomen-križ": "Domovinski rat, van obuhvata"
+    }
+  },
+  {
+    "odluka": "vraca-kons-i-strucna-provera-2026-10-22",
+    "datum": "2026-10-22",
+    "obuhvat": "Dva postojeća zapisa u kompleksu Vraca; dopuna prema odluci KONS-a i neposrednom stručnom istraživanju. Bez novih markera, promena koordinata ili preuzimanja fotografija.",
+    "provere": [
+      {
+        "id": "sarajevo-vraca-park",
+        "ishod": "KONS odluka 07.1-02-192/04-5 od 5.5.2005 potvrđuje obuhvat memorijalnog parka, godinu i troje autora; potvrđen datum otvaranja 25.11.1981 i uloga tvrđave kao stratišta. Dodati mikrolokacija i kontekst, bez promene autora, vrste, istaknutosti ili tačke.",
+        "izmenjenaPolja": {
+          "adresa": {
+            "pre": null,
+            "posle": "Na severnim padinama Trebevića, oko austrougarske tvrđave na Vracama"
+          },
+          "opis": {
+            "pre": {
+              "sh": "Posvećeno Sarajlijama poginulim u Narodnooslobodilačkoj borbi i žrtvama fašizma.",
+              "en": "Dedicated to the people of Sarajevo who died in the liberation war and to the victims of fascism."
+            },
+            "posle": {
+              "sh": "Posvećeno Sarajlijama poginulim u Narodnooslobodilačkoj borbi i žrtvama fašizma. Kompleks je otvoren 25. novembra 1981. oko austrougarske tvrđave, koja je tokom Drugog svetskog rata služila kao stratište.",
+              "en": "Dedicated to the people of Sarajevo who died in the liberation war and to the victims of fascism. The complex opened on 25 November 1981 around an Austro-Hungarian fortress used as an execution site during World War II."
+            }
+          }
+        },
+        "izvori": [
+          "http://aplikacija.kons.gov.ba/kons/public/uploads/odluke_bos/Sarajevo_Vraca%20BH.doc",
+          "https://scindeks-clanci.ceon.rs/data/pdf/1821-3952/2024/1821-39522403403K.pdf"
+        ]
+      },
+      {
+        "id": "sarajevo-vraca-grobnica-narodnih-heroja",
+        "ishod": "Ispravljeno poistovećivanje 26 uklesanih imena sa brojem sahranjenih i prenošenje naziva današnjeg obeležja na grobnicu iz 1949. KONS razlikuje staru grobnicu, ekshumaciju, prenos 1981 i novo obeležje; ne navodi da su svih 26 heroja tu sahranjeni. Lejla Kahrović Handžić, SAJ 16(3), 2024, štampana str.417 / PDF str.15, izričito pripisuje centralnu prizmu Luki Iliću. Ta strana neposredno pregledana kao slika. Dodati autor i adresa unutar kompleksa; godina današnjeg dela ostaje 1981.",
+        "izmenjenaPolja": {
+          "adresa": {
+            "pre": null,
+            "posle": "Na vrhu stepenastih terasa posvećenih palim borcima, u Spomen-parku Vraca"
+          },
+          "autor": {
+            "pre": null,
+            "posle": "Luka Ilić"
+          },
+          "opis": {
+            "pre": {
+              "sh": "Grobnica 26 narodnih heroja Sarajeva podignuta je 1949. u Velikom parku, a 1981. preneta u Spomen-park Vraca. Imena heroja uklesana su na granitnim gromadama oko centralne prizme.",
+              "en": "The tomb of 26 people’s heroes of Sarajevo was built in the Great Park in 1949 and moved to Vraca Memorial Park in 1981. The heroes’ names are carved on granite boulders around a central prism."
+            },
+            "posle": {
+              "sh": "Posvećeno narodnim herojima Sarajeva, sa imenima 26 poginulih na granitnim blokovima oko centralne prizme. U kosturnicu su 1981. preneti posmrtni ostaci iz grobnice podignute 1949. u Velikom parku.",
+              "en": "Dedicated to the People’s Heroes of Sarajevo, with the names of 26 fallen heroes on granite blocks around a central prism. In 1981, remains from the tomb built in Veliki Park in 1949 were transferred to the ossuary."
+            }
+          }
+        },
+        "izvori": [
+          "http://aplikacija.kons.gov.ba/kons/public/uploads/odluke_bos/Sarajevo_Vraca%20BH.doc",
+          "https://scindeks-clanci.ceon.rs/data/pdf/1821-3952/2024/1821-39522403403K.pdf"
+        ]
+      }
+    ],
+    "stanje": {
+      "izvor": "https://scindeks-clanci.ceon.rs/data/pdf/1821-3952/2024/1821-39522403403K.pdf",
+      "izdanje": "SAJ 16(3), 2024; prihvaćeno 18.12.2024; objavljeno u digitalnom obliku 2025.",
+      "datumTerena": "2024-01-20 / 2024-01-23 / 2024-02-21",
+      "nalaz": "Studija dokumentuje park, pojedinačna oštećenja, nedostajuću levu ruku skulpture Ženi borcu i zatvorenu tvrđavu. Ne prenositi ovo automatski kao današnje stanje celog parka.",
+      "novijiDokaz": {
+        "izvor": "https://www.sarajevo.ba/hr/article/15861/6-travanj-izaslanstvo-grada-sarajeva-odalo-pocast-i-polozilo-cvijece",
+        "datum": "2026-04-06",
+        "nalaz": "Zvanična objava navodi posetu i polaganje cveća na Vracama; potvrđuje komemorativnu upotrebu, ne potpunu obnovu ni dostupnost tvrđave."
+      }
+    },
+    "ogranicenja": "Broj stvarno sahranjenih nije utvrđen ovom proverom. KONS navodi 26 imena, ali njegov nabrajajući niz u prepisu sadrži manje stavki: spisak imena nije automatski prenet. Poznati autori parka potvrđeni odlukom; Luka Ilić dodat samo konkretnoj centralnoj prizmi. Arhivirani zapisi starih grobnica nisu vraćani ni spajani.",
+    "radniMaterijal": "izvori/pretrage/vraca-2026-10-22/"
   }
 ]
