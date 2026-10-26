@@ -26675,5 +26675,522 @@
       }
     ],
     "preskoceno": []
+  },
+  "fotografije-identitet-2026-10-26": {
+    "datum": "2026-10-26",
+    "metod": "Sličnost dHash/aHash 5890 postojećih fotografija: 1261 važniji zapis poređen sa celim skupom. Svih 10 kandidatskih parova pojedinačno provereno prema obliku, natpisu, izvorima i obuhvatu; slike nisu korišćene kao samostalan dokaz duplikata. Dodatno vizuelno pregledane kontakt-table svih 76 istaknutih sa fotografijom; to nije potpuna spoljna provera tih 76 identiteta.",
+    "brojevi": {
+      "fotografijaUPretrazi": 5890,
+      "vaznijihPoredjenih": 1261,
+      "istaknutihVizuelnoPregledano": 76,
+      "kandidatskihParova": 10,
+      "pogresnihFotografija": 6,
+      "zamenjeno": 3,
+      "uklonjenoDoBoljeFotografije": 3,
+      "spojenoDuplikata": 3,
+      "novihPribliznihMarkera": 1,
+      "novihPreciznihLokacija": 0,
+      "mapaPre": 9469,
+      "mapaPosle": 9467,
+      "bezPre": 3792,
+      "bezPosle": 3791,
+      "drugiZapisiNepromenjeni": true
+    },
+    "stavke": {
+      "jasenak-spomenik-narodnooslobodilacke-borbe": {
+        "ishod": "pogresna-slika-uklonjena",
+        "dokaz": "Fotografija prikazuje palog borca kod šumarije na 45.2312, a ovaj zapis je zaseban kameni spomenik Ruka sa trouglastim vrhom na raskrsnici južno od sela. Glas antifašista 78 (1.3.2012), str. 30, fotografijom i opisom potvrđuje ovaj objekat i obnovu 2011. Dostupni novi kadar je grupni portret koji zaklanja donji deo spomenika; nije objavljen.",
+        "izvori": [
+          "https://sabh.hr/wp-content/uploads/2021/05/Glas_broj_78.pdf#page=30",
+          "https://commons.wikimedia.org/wiki/File:Jasenak_-_Spomenik_palim_borcima_NOB.JPG"
+        ],
+        "ostaje": "Fotografija ovog kamenog obeležja bez grupe ljudi.",
+        "prethodniZapis": {
+          "id": "jasenak-spomenik-narodnooslobodilacke-borbe",
+          "koordinate": {
+            "lat": 45.2086771,
+            "lng": 15.0296479
+          },
+          "mesto": "Jasenak",
+          "slika": "slike/spomenici/jasenak-spomenik-narodnooslobodilacke-borbe.webp",
+          "slikaOdnos": 0.749,
+          "slikaPotpis": "Flammard, CC BY-SA 3.0",
+          "naziv": "Spomenik Narodnooslobodilačke borbe",
+          "nazivEn": "WWII Monument",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Croatia"
+        },
+        "prethodniIzvor": "https://www.openstreetmap.org/node/4241016151"
+      },
+      "grohote-spomenik-nob": {
+        "ishod": "slika-zamenjena",
+        "dokaz": "Istorijska figura pripada drugom zapisu u centru Grohota. Ploča sa imenima poginulih u desantu 10.5.1944. izričito nosi istu posvetu i godinu 1985. kao opis savremenog obeležja; Commons snimak autora August Dominus od 16.9.2017.",
+        "izvori": [
+          "https://commons.wikimedia.org/wiki/File:Partizanski_spomenik_na_otoku_%C5%A0olti.jpg"
+        ],
+        "slikaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Partizanski_spomenik_na_otoku_%C5%A0olti.jpg",
+        "datumSnimanja": "2017-09-16",
+        "prethodniZapis": {
+          "id": "grohote-spomenik-nob",
+          "koordinate": {
+            "lat": 43.394194,
+            "lng": 16.290389
+          },
+          "mesto": "Grohote",
+          "slika": "slike/spomenici/grohote-spomenik-nob.webp",
+          "slikaOdnos": 0.749,
+          "slikaPotpis": "Joadl, CC BY-SA 3.0 at",
+          "naziv": "Spomenik NOB",
+          "nazivEn": "WWII Monument",
+          "godina": "1985",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Croatia"
+        },
+        "prethodniIzvor": "https://www.xiwl.com/w/index.php/Grohote_-_Spomenik_NOB"
+      },
+      "marija-bistrica-spomenik-palim-borcima-i-rodoljubi": {
+        "ishod": "slika-zamenjena",
+        "dokaz": "Zid sa reljefom pripada Tugonici. Iz originalnog skena Hrženjak 2002, sken 120 / štampana str. 96, figura 286, izdvojena je fotografija pune figure u Mariji Bistrici. Fotograf nije imenovan; priređivač knjige nije proglašen fotografom. Istorijski kadar ne potvrđuje današnje stanje niti preciznu lokaciju.",
+        "izvori": [
+          "https://znaci.org/00003/736.php?broj=120"
+        ],
+        "datumSnimanja": null,
+        "obradjeno": "0120.jpg, crop 900x1110+1380+1090",
+        "prethodniZapis": {
+          "id": "marija-bistrica-spomenik-palim-borcima-i-rodoljubi",
+          "koordinate": {
+            "lat": 46.00463,
+            "lng": 16.11921
+          },
+          "priblizno": true,
+          "mesto": "Marija Bistrica",
+          "slika": "slike/spomenici/marija-bistrica-spomenik-palim-borcima-i-rodoljubi.webp",
+          "slikaOdnos": 0.749,
+          "slikaPotpis": "Szeder László, CC BY-SA 4.0",
+          "naziv": "Spomenik palim borcima i rodoljubima",
+          "nazivEn": "Monument to Fallen Fighters and Patriots",
+          "stanje": "ostecen",
+          "vrsta": "statua",
+          "drzava": "Croatia"
+        },
+        "prethodniIzvor": "https://znaci.org/00003/736.php?broj=120"
+      },
+      "zrenjanin-spomenik-streljanim-rodoljubima": {
+        "ishod": "slika-zamenjena",
+        "dokaz": "Slika je prikazivala Guvno u Gradnulici, delo Tibora Bencea, umesto Berbakovljeva tri obeliska na Žitnom trgu. Zavodov izveštaj o obnovi 2021. potvrđuje autora, 1986, položaj, 30 obešenih rodoljuba i fotografiju celog predmeta.",
+        "izvori": [
+          "https://www.zrenjaninheritage.com/archives/21118"
+        ],
+        "slikaUrl": "https://www.zrenjaninheritage.com/wp-content/uploads/2021/11/Spomenik-na-%C5%BDitnom-trgu-u-Zrenjaninu-sajt.jpg",
+        "datumObjave": "2021-10-25",
+        "datumSnimanja": null,
+        "prethodniZapis": {
+          "id": "zrenjanin-spomenik-streljanim-rodoljubima",
+          "koordinate": {
+            "lat": 45.3783065,
+            "lng": 20.3989734
+          },
+          "mesto": "Zrenjanin",
+          "adresa": "Žitni trg",
+          "slika": "slike/spomenici/zrenjanin-spomenik-streljanim-rodoljubima.webp",
+          "slikaOdnos": 1.333,
+          "slikaPotpis": "Vanjagenije, CC BY-SA 4.0",
+          "naziv": "Spomenik streljanim rodoljubima",
+          "nazivEn": "Monument to Executed Patriots",
+          "godina": "1986",
+          "autor": "Milorad Berbakov",
+          "vrsta": "spomenik",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://www.openstreetmap.org/node/12886695370"
+      },
+      "radanovci-mesto-pogibije-zikice-jovanovica-spanca": {
+        "ishod": "pogresna-slika-uklonjena",
+        "dokaz": "Postojeća fotografija je novija Protićeva figura 1981, oko 500 m jugozapadno. Ovaj OSM zapis i sačuvana Wiki stranica originalnog spomenika opisuju kameni obelisk sa zvezdom u ogradi, prepoznatljiv i na dve terenske fotografije sa Wikiloca; planinarski savez opisuje prilaz preko Ćirovina. Kadrovi sa Wikiloca imaju planinare ispred objekta i nisu objavljeni.",
+        "izvori": [
+          "https://www.openstreetmap.org/node/11954128677",
+          "https://www.wikiloc.com/hiking-trails/taorska-vrela-taorsko-brdo-kruzna-63346880",
+          "https://www.wikiloc.com/hiking-trails/taorska-vrela-99492240",
+          "https://pss.rs/terenipp/taorska-vrela-s-radanovci-spomenik-zikici-jovanovicu-spancu-taorska-vrela/"
+        ],
+        "ostaje": "Čist kadar kamenog obeliska, ne bronzane figure iz 1981.",
+        "prethodniZapis": {
+          "id": "radanovci-mesto-pogibije-zikice-jovanovica-spanca",
+          "koordinate": {
+            "lat": 44.0898867,
+            "lng": 19.8447188
+          },
+          "mesto": "Radanovci",
+          "slika": "slike/spomenici/radanovci-mesto-pogibije-zikice-jovanovica-spanca.webp",
+          "slikaOdnos": 0.669,
+          "slikaPotpis": "AdamRadosavljevic, CC BY-SA 3.0",
+          "naziv": "Mesto pogibije Žikice Jovanovića - Španca",
+          "nazivEn": "Site of the Death of Žikica Jovanović Španac",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://www.openstreetmap.org/node/11954128677"
+      },
+      "sremski-mihaljevci": {
+        "ishod": "pogresna-slika-uklonjena-razliciti-objekti",
+        "dokaz": "Google CID 6904417933873319493 i javni pregled potvrđuju park Posavskom odredu u ataru na postojećoj tački, sa samostalnom pločom i dodatnim elementima u zelenilu. Dodeljena fotografija je seoski spomenik kod pošte, 2,4 km severozapadno. Nisu spojeni i precizna tačka parka nije menjana; Google fotografija nije preuzeta za aplikaciju.",
+        "izvori": [
+          "https://www.google.com/maps?cid=6904417933873319493"
+        ],
+        "ostaje": "Fotografija parka Posavskom odredu iz izvora koji dozvoljava preuzimanje.",
+        "prethodniZapis": {
+          "id": "sremski-mihaljevci",
+          "koordinate": {
+            "lat": 44.8392867,
+            "lng": 20.0505239
+          },
+          "googleCid": "6904417933873319493",
+          "mesto": "Sremski Mihaljevci",
+          "slika": "slike/spomenici/sremski-mihaljevci.webp",
+          "slikaOdnos": 1.333,
+          "slikaPotpis": "Јелена Продановић, CC BY-SA 4.0",
+          "naziv": "Spomenik NOR-u – Posavski partizanski odred",
+          "nazivEn": "WWII Monument – Posavina Partisan Detachment",
+          "posveta": [
+            "Q11161272"
+          ],
+          "vrsta": "statua",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": null
+      },
+      "gospodjinci-spomenik-avionu-soko-522": {
+        "ishod": "duplikat-spojen",
+        "ciljniId": "gospodjinci-spomenik-423-puku",
+        "dokaz": "Isti avion na istoj tački; prvobitni Commons opis izričito kaže da je Soko 522 pretvoren u spomenik 423. puku. Zadržan precizniji postojeći ID i fotografija, preneta adresa; članak o diviziji uklonjen iz wiki jer nije članak o spomeniku.",
+        "izvori": [
+          "https://commons.wikimedia.org/wiki/File:Soko_522_Gospo%C4%91inci.jpg"
+        ],
+        "prethodniZapis": {
+          "id": "gospodjinci-spomenik-avionu-soko-522",
+          "koordinate": {
+            "lat": 45.40222,
+            "lng": 19.98556
+          },
+          "priblizno": true,
+          "mesto": "Gospođinci",
+          "adresa": "Spomen-park „Eskadrila“, u ataru sela",
+          "slika": "slike/spomenici/gospodjinci-spomenik-avionu-soko-522.webp",
+          "slikaOdnos": 1.333,
+          "slikaPotpis": "BokicaK, CC BY-SA 3.0",
+          "naziv": "Spomenik avionu Soko 522",
+          "nazivEn": "Monument to the Soko 522 Aircraft",
+          "vrsta": "spomenik",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://commons.wikimedia.org/wiki/File:Soko_522_Gospođinci.jpg",
+        "prethodneProvereDuplikataPreneteNaCilj": {
+          "proveraLokacije": {
+            "datum": "2026-10-23",
+            "izvor": "Sačuvani OSM/Wiki podaci i pojedinačni dokazi u lociranje.json#lociranje-prioriteti-2026-10-23-3-vazniji",
+            "ishod": "bez-nove-potvrde",
+            "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 45.40222, \"lng\": 19.98556}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
+          }
+        }
+      },
+      "mazuciste-spomenik-na-padnatite-borci": {
+        "ishod": "duplikat-spojen",
+        "ciljniId": "mazuciste",
+        "dokaz": "Oba zapisa prikazuju istu figuru sa podignutim rukama u istoj memorijalnoj celini. Autorska evidencija Spomenik Database razlikuje ovaj kompleks na Pesjobrdcu od drugih prilepskih spomenika i potvrđuje Branka Koneskog, 1978, kriptu i Borku Taleskog. Zadržana precizna tačka; približni centar sela nije preuzet.",
+        "izvori": [
+          "https://www.spomenikdatabase.org/prilep",
+          "https://commons.wikimedia.org/wiki/File:Споменик_на_паднатите_борци_-_Прилеп_1.JPG"
+        ],
+        "prethodniZapis": {
+          "id": "mazuciste-spomenik-na-padnatite-borci",
+          "koordinate": {
+            "lat": 41.38422,
+            "lng": 21.50073
+          },
+          "priblizno": true,
+          "mesto": "Мажучиште",
+          "slika": "slike/spomenici/mazuciste-spomenik-na-padnatite-borci.webp",
+          "slikaOdnos": 1.333,
+          "slikaPotpis": "Tashkoskim, CC BY-SA 3.0",
+          "naziv": "Споменик на паднатите борци",
+          "nazivEn": "Monument to Fallen Fighters",
+          "opis": {
+            "sh": "Posvećeno borcima partizanskog odreda „Borka Taleski“.",
+            "en": "Dedicated to the fighters of the \"Borka Taleski\" Partisan Detachment."
+          },
+          "vrsta": "spomenik",
+          "drzava": "Macedonia"
+        },
+        "prethodniIzvor": "https://commons.wikimedia.org/wiki/File:Споменик_на_паднатите_борци_-_Прилеп_1.JPG",
+        "prethodneProvereDuplikataPreneteNaCilj": {}
+      },
+      "tican-spomen-podrucje": {
+        "ishod": "duplikat-spojen",
+        "ciljniId": "stuti",
+        "dokaz": "Isti članak o području, ista godina i autor, sedam kamenih blokova i istovetan Commons kadar. LZMK potvrđuje Silin memorijal Tićan 1965. Zadržana precizna tačka i postojeći naziv Tičan; dopunjen fotograf Dean72.",
+        "izvori": [
+          "https://hr.wikipedia.org/wiki/Spomen_podru%C4%8Dje_Ti%C4%8Dan",
+          "https://tehnika.lzmk.hr/sila-zdenko/",
+          "https://commons.wikimedia.org/wiki/File:Ti%C4%87an_WWII_monument.JPG"
+        ],
+        "prethodniZapis": {
+          "id": "tican-spomen-podrucje",
+          "koordinate": {
+            "lat": 45.29072,
+            "lng": 13.74878
+          },
+          "priblizno": true,
+          "mesto": "Tićan",
+          "adresa": "Kod raskrižja Tićan, u blizini Višnjana",
+          "wiki": "https://hr.wikipedia.org/wiki/Spomen_podru%C4%8Dje_Ti%C4%8Dan",
+          "slika": "slike/spomenici/tican-spomen-podrucje.webp",
+          "slikaOdnos": 1.504,
+          "slikaPotpis": "Dean72, CC BY-SA 3.0",
+          "naziv": "Spomen-područje Tićan",
+          "nazivEn": "Tićan Memorial Area",
+          "opis": {
+            "sh": "Spomen-područje u sećanje na 84 borca i civila poginula u sukobu sa nemačkim snagama kod Tićana 11. septembra 1943. godine. Zdenko Sila oblikovao je sedam kamenih blokova sa urezanim motivima zemljoradničkog alata.",
+            "en": "A memorial area commemorating 84 fighters and civilians killed in clashes with German forces near Tićan on 11 September 1943. Zdenko Sila designed seven stone blocks engraved with farming-tool motifs."
+          },
+          "godina": "1965",
+          "autor": "Zdenko Sila",
+          "vrsta": "spomen-park",
+          "drzava": "Croatia"
+        },
+        "prethodniIzvor": "https://commons.wikimedia.org/wiki/File:Tićan_WWII_monument.JPG",
+        "prethodneProvereDuplikataPreneteNaCilj": {
+          "proveraLokacije": {
+            "datum": "2026-10-23",
+            "izvor": "Sačuvani OSM/Wiki podaci i pojedinačni dokazi u lociranje.json#lociranje-prioriteti-2026-10-23-3-vazniji",
+            "ishod": "bez-nove-potvrde",
+            "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 45.29072, \"lng\": 13.74878}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
+          }
+        }
+      },
+      "valjevo-park-vide-jocic": {
+        "ishod": "zajednicki-kontekst-bez-spajanja",
+        "dokaz": "Park i pojedinačna puna figura Dragojla Dudića jesu različiti obuhvati; ista slika prikazuje jedno delo u tom parku. Nema pogrešne identifikacije koja bi zahtevala uklanjanje.",
+        "izvori": [
+          "https://commons.wikimedia.org/wiki/File:Spomenici,_Valjevo_003.jpg"
+        ],
+        "prethodniZapis": {
+          "id": "valjevo-park-vide-jocic",
+          "koordinate": {
+            "lat": 44.2693337,
+            "lng": 19.879025
+          },
+          "googleCid": "12451597901664238244",
+          "mesto": "Valjevo",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%BA_%D0%92%D0%B8%D0%B4%D0%B5_%D0%88%D0%BE%D1%86%D0%B8%D1%9B",
+          "slika": "slike/spomenici/valjevo-park-vide-jocic.webp",
+          "slikaOdnos": 0.667,
+          "slikaPotpis": "Ванилица, CC BY-SA 4.0",
+          "naziv": "Park Vide Jocić",
+          "nazivEn": "Vida Jocić Park",
+          "opis": {
+            "sh": "U parku na Jadru nalaze se biste narodnih heroja i revolucionara valjevskog kraja, postavljene 1959, i spomenik [Dragojlu Dudiću](Q1565909). Skulpture su rad Vide Jocić, po kojoj park nosi ime.",
+            "en": "The park at Jadar contains busts of People’s Heroes and revolutionaries from the Valjevo area, installed in 1959, and a monument to [Dragojlo Dudić](Q1565909). The sculptures are by Vida Jocić, after whom the park is named."
+          },
+          "autor": "Vida Jocić",
+          "posveta": [
+            "Q1565909"
+          ],
+          "vrsta": "spomen-park",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": null
+      },
+      "valjevo-dudic": {
+        "ishod": "ranija-sumnja-zatvorena",
+        "dokaz": "U početnom stanju ovog prolaza fotografije Logovog spomenika na trgu i Vidinog spomenika u parku već prikazuju različite skulpture. Nisu menjane; zatvorena je zastarela tvrdnja iz beleške.",
+        "izvori": [
+          "https://www.kolubarske.rs/kolumne/izredakcije/kako-se-dragojlo-nasao-u-vidinom-parku"
+        ],
+        "prethodniZapis": {
+          "id": "valjevo-dudic",
+          "koordinate": {
+            "lat": 44.2705433,
+            "lng": 19.8875953
+          },
+          "mesto": "Valjevo",
+          "adresa": "Gradski trg, kod zgrade Gradske skupštine",
+          "wiki": "https://www.kolubarske.rs/kolumne/izredakcije/kako-se-dragojlo-nasao-u-vidinom-parku",
+          "slika": "slike/spomenici/valjevo-dudic.webp",
+          "slikaOdnos": 0.667,
+          "slikaPotpis": "Ванилица, CC BY-SA 4.0",
+          "naziv": "Spomenik narodnom heroju Dragojlu Dudiću",
+          "nazivEn": "Monument to People's Hero Dragojlo Dudić",
+          "opis": {
+            "sh": "Posvećeno [Dragojlu Dudiću](Q1565909), prvom predsedniku Narodnooslobodilačkog odbora Srbije. Ovo je spomenik Ota Loga na Gradskom trgu, različit od rada Vide Jocić u parku na Jadru.",
+            "en": "Dedicated to [Dragojlo Dudić](Q1565909), the first president of Serbia’s People’s Liberation Committee. This is Oto Logo’s monument on the City Square, distinct from Vida Jocić’s sculpture in the park in Jadar."
+          },
+          "godina": "1971",
+          "autor": "Oto Logo",
+          "posveta": [
+            "Q1565909"
+          ],
+          "vrsta": "statua",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://www.openstreetmap.org/node/1064600347"
+      },
+      "valjevo-bista-milosa-dudica": {
+        "ishod": "ispravljen-fotograf",
+        "dokaz": "Prvobitni Commons wikitext u author navodi fotografa User:Ванилица i zaseban Creator:Vida Jocić. Izvedeni Artist metapodatak pogrešno vodi samo na vajarku; potpis ispravljen bez promene autorstva biste.",
+        "izvori": [
+          "https://commons.wikimedia.org/wiki/File:Spomenici,_Valjevo_008.jpg"
+        ],
+        "datumSnimanja": "2017-03-29",
+        "prethodniZapis": {
+          "id": "valjevo-bista-milosa-dudica",
+          "koordinate": {
+            "lat": 44.2698472,
+            "lng": 19.8799972
+          },
+          "priblizno": true,
+          "mesto": "Valjevo",
+          "adresa": "Park Vide Jocić",
+          "slika": "slike/spomenici/valjevo-bista-milosa-dudica.webp",
+          "slikaOdnos": 0.667,
+          "slikaPotpis": "Vida Jocić, CC BY-SA 4.0",
+          "naziv": "Bista Miloša Dudića",
+          "nazivEn": "Bust of Miloš Miša Dudić",
+          "autor": "Vida Jocić",
+          "posveta": [
+            "Q12755442"
+          ],
+          "vrsta": "bista",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://commons.wikimedia.org/wiki/File:Spomenici,_Valjevo_008.jpg"
+      },
+      "sremski-mihaljevci-bronzana-figura-spomenik-palim": {
+        "ishod": "prebacen-priblizno-odvojen-od-parka",
+        "dokaz": "Katalog Popović–Žuma 1981, PDF 139 / štampana str. 276, i sačuvana Wiki stranica potvrđuju seosku figuru Bodnarova 1957. kod pošte. Terenski izveštaj Roberta Čobana 2022. dokumentuje krađu bronze 2016. i zamensku figuru; opštinska fotografija iz maja 2024. potvrđuje preživeli reljef i izmenjeni vrh. Na mapu prenet isti trajni ID sa približnom tačkom kod pošte iz Wiki opisa, ne kao novo potvrđeno podnožje. Fotografija ostaje istorijska, pre krađe.",
+        "izvori": [
+          "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=139",
+          "https://vreme.com/mozaik/spomenik-iz-kojeg-raste-drvo/",
+          "https://www.pecinci.org/info/aktuelno.10.html?naslov=Polozeni_venci_na_spomen_obelezja_u_Sremskim_Mihaljevcima&idvest=19814"
+        ],
+        "ostaje": "Precizno podnožje kod pošte i čist noviji kadar sa izmenjenom figurom.",
+        "prethodniZapis": {
+          "id": "sremski-mihaljevci-bronzana-figura-spomenik-palim",
+          "mesto": "Sremski Mihaljevci",
+          "naziv": "Bronzana figura spomenik palim 1941-1945",
+          "godina": "1957",
+          "autor": "Stevan Bodnarov",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia",
+          "slika": "slike/bez-lokacije/sremski-mihaljevci-bronzana-figura-spomenik-palim.webp",
+          "slikaPotpis": "Јелена Продановић, CC BY-SA 4.0",
+          "slikaOdnos": 1.333
+        },
+        "prethodniIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=139"
+      }
+    },
+    "spojeno": {
+      "gospodjinci-spomenik-avionu-soko-522": "gospodjinci-spomenik-423-puku",
+      "mazuciste-spomenik-na-padnatite-borci": "mazuciste",
+      "tican-spomen-podrucje": "stuti"
+    },
+    "prethodniCiljevi": {
+      "mazuciste": {
+        "id": "mazuciste",
+        "koordinate": {
+          "lat": 41.3738461,
+          "lng": 21.5025965
+        },
+        "googleCid": "14151523487418617840",
+        "mesto": "Мажучиште",
+        "slika": "slike/spomenici/mazuciste.webp",
+        "slikaOdnos": 1.333,
+        "slikaPotpis": "Wikimedia Commons",
+        "naziv": "Борецот",
+        "nazivEn": "Mausoleum to Fallen Fighters",
+        "godina": "1978",
+        "vrsta": "statua",
+        "drzava": "Macedonia"
+      },
+      "gospodjinci-spomenik-423-puku": {
+        "id": "gospodjinci-spomenik-423-puku",
+        "koordinate": {
+          "lat": 45.402222,
+          "lng": 19.985556
+        },
+        "mesto": "Gospođinci",
+        "wiki": "https://sr.wikipedia.org/wiki/42._%D0%B2%D0%B0%D0%B7%D0%B4%D1%83%D1%85%D0%BE%D0%BF%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%98%D1%83%D1%80%D0%B8%D1%88%D0%BD%D0%B0_%D0%B4%D0%B8%D0%B2%D0%B8%D0%B7%D0%B8%D1%98%D0%B0_%D0%9D%D0%9E%D0%92%D0%88",
+        "slika": "slike/spomenici/gospodjinci-spomenik-423-puku.webp",
+        "slikaOdnos": 1.333,
+        "slikaPotpis": "BokicaK, CC BY-SA 3.0",
+        "naziv": "Spomenik 423. vazduhoplovnom puku",
+        "nazivEn": "Monument to the 423rd Aviation Regiment",
+        "opis": {
+          "sh": "Posvećeno 423. jurišnom puku 42. vazduhoplovne jurišne divizije NOVJ, stacioniranom i u Gospođincima; spomenik je avion Soko 522.",
+          "en": "Dedicated to the 423rd Assault Regiment of the Partisan 42nd Air Assault Division, also based in Gospođinci; the monument is a Soko 522 aircraft."
+        },
+        "vrsta": "spomenik",
+        "drzava": "Serbia"
+      },
+      "stuti": {
+        "id": "stuti",
+        "koordinate": {
+          "lat": 45.2861033,
+          "lng": 13.7548314
+        },
+        "googleCid": "432135085237711641",
+        "mesto": "Štuti",
+        "wiki": "https://hr.wikipedia.org/wiki/Spomen_podru%C4%8Dje_Ti%C4%8Dan",
+        "slika": "slike/spomenici/stuti.webp",
+        "slikaOdnos": 1.504,
+        "slikaPotpis": "Wikimedia Commons",
+        "naziv": "Spomen-područje Tičan",
+        "nazivEn": "The Tičan Memorial Area",
+        "opis": {
+          "sh": "Posvećeno partizanima i meštanima višnjanskog kraja poginulim u borbi protiv nemačkih snaga kod Tičana u septembru 1943. godine. Kameni blokovi sa uklesanim simbolima poljoprivrednog alata povezuju sećanje na borbu sa životom istarskog sela.",
+          "en": "Dedicated to Partisans and residents of the Višnjan area killed fighting German forces near Tičan in September 1943. Stone blocks carved with agricultural tools connect remembrance of the struggle with the life of Istrian villages."
+        },
+        "godina": "1965",
+        "autor": "Zdenko Sila",
+        "vrsta": "spomen-park",
+        "drzava": "Croatia"
+      }
+    },
+    "preusmereneVeze": [],
+    "lokalniDokazi": "C:/Users/d_pavlica/OneDrive - Wargaming.net/Documents/GitHub/spomenici/izvori/pretrage/fotografije-identitet-2026-10-26",
+    "izmenjeniId": [
+      "gospodjinci-spomenik-423-puku",
+      "grohote-spomenik-nob",
+      "jasenak-spomenik-narodnooslobodilacke-borbe",
+      "marija-bistrica-spomenik-palim-borcima-i-rodoljubi",
+      "mazuciste",
+      "radanovci-mesto-pogibije-zikice-jovanovica-spanca",
+      "sremski-mihaljevci",
+      "sremski-mihaljevci-bronzana-figura-spomenik-palim",
+      "stuti",
+      "valjevo-bista-milosa-dudica",
+      "zrenjanin-spomenik-streljanim-rodoljubima"
+    ],
+    "preostaloFotografija": [
+      "jasenak-spomenik-narodnooslobodilacke-borbe",
+      "radanovci-mesto-pogibije-zikice-jovanovica-spanca",
+      "sremski-mihaljevci"
+    ],
+    "ogranicenja": "Sličnost ne otkriva pogrešnu fotografiju ako se ne ponavlja u bazi. Današnji opstanak svih spomenika nije proveren; nepoznat datum fotografije nije zamenjen datumom objave ili preuzimanja.",
+    "provere": {
+      "integritet": "prošao, 9467 zapisa; 98 poznatih bliskih parova",
+      "diffCheck": "prošao",
+      "obradaSlika": "metapodaci 0 za uklanjanje; četiri sličice napravljene; svi odnosi provereni, bez dodatnih izmena",
+      "prikaz": {
+        "zapisa": 11,
+        "snimaka": 22,
+        "jezici": [
+          "sh",
+          "en"
+        ],
+        "gresaka": 0
+      },
+      "testovi": "Nisu pokretani, po odluci korisnika od 20.10.2026.",
+      "poredjenjeBaznogStanja": "Ostali zapisi i postojeće koordinate/Google mesta sačuvani; samo izdvojeni seoski spomenik dobio je novu približnu tačku."
+    }
   }
 }

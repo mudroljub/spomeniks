@@ -946,12 +946,12 @@
       "izvestaj": "data/provere/odluke.json#spomenicinob-detaljno-3665-4103-2026-10-20"
     }
   },
-  "gospodjinci-spomenik-avionu-soko-522": {
+  "gospodjinci-spomenik-423-puku": {
     "proveraLokacije": {
-      "datum": "2026-10-23",
-      "izvor": "Sačuvani OSM/Wiki podaci i pojedinačni dokazi u lociranje.json#lociranje-prioriteti-2026-10-23-3-vazniji",
-      "ishod": "bez-nove-potvrde",
-      "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 45.40222, \"lng\": 19.98556}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
+      "datum": "2026-10-26",
+      "izvor": "data/provere/fotografije.json#fotografije-identitet-2026-10-26",
+      "ishod": "zadrzana-precizna-tacka",
+      "napomena": "Potvrđen identitet spojenog duplikata; zadržana postojeća precizna tačka i Google mesto ako postoji. Ovo nije nova potvrda podnožja; prethodna provera približnog duplikata sačuvana je u izveštaju."
     }
   },
   "gradacac-bista-hasana-kikica": {
@@ -2813,6 +2813,14 @@
       "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 45.77274, \"lng\": 19.1147}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
     }
   },
+  "sremski-mihaljevci-bronzana-figura-spomenik-palim": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/fotografije.json#fotografije-identitet-2026-10-26",
+      "ishod": "priblizno",
+      "napomena": "Kod pošte u centru sela; Wiki položaj nije proglašen preciznim podnožjem. Odvojeno od parka Posavskom odredu u ataru."
+    }
+  },
   "srijemske-laze-spomen-kosturnica-boraca": {
     "proveraLokacije": {
       "datum": "2026-10-23",
@@ -2860,6 +2868,14 @@
       "izvor": "https://registar.kulturnadobra.hr/#/details/134439",
       "ishod": "Potvrđena dopuna položaja ili podataka",
       "napomena": "Geometrija kartona 134439 i ortofoto određuju konkretno groblje/parcela; prethodna tačka bila je na drugom mestu. Položaj pojedinačne grobnice nije potvrđen, približnost se čuva."
+    }
+  },
+  "stuti": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/fotografije.json#fotografije-identitet-2026-10-26",
+      "ishod": "zadrzana-precizna-tacka",
+      "napomena": "Potvrđen identitet spojenog duplikata; zadržana postojeća precizna tačka i Google mesto ako postoji. Ovo nije nova potvrda podnožja; prethodna provera približnog duplikata sačuvana je u izveštaju."
     }
   },
   "subotica-bista-djure-pucara-starog": {
@@ -2925,14 +2941,6 @@
       "izvor": "https://www.xiwl.com/w/index.php/Teočak_(Bihać)_-_Spomenik_NOB",
       "ishod": "potvrdjen-identitet-duplikata",
       "napomena": "Postojeća precizna tačka je oko 3 m od položaja iz Wiki kopije; fotografija pokazuje ista dva kamena stuba i kameno postolje. Zadržani su tačka, Google mesto i fotografija."
-    }
-  },
-  "tican-spomen-podrucje": {
-    "proveraLokacije": {
-      "datum": "2026-10-23",
-      "izvor": "Sačuvani OSM/Wiki podaci i pojedinačni dokazi u lociranje.json#lociranje-prioriteti-2026-10-23-3-vazniji",
-      "ishod": "bez-nove-potvrde",
-      "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 45.29072, \"lng\": 13.74878}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
     }
   },
   "tivat-bista-save-kovacevica": {
@@ -3313,6 +3321,14 @@
       "ishod": "povučena stara tačka",
       "razlog": "Lokalni svedok i Wiki obilazak potvrđuju premeštanje 2023, tačna nova tačka statue nije izmišljena.; Stara tačka u Malom parku više nije mesto statue; novo odredište potvrđeno, precizna tačka nije.",
       "izvestaj": "data/provere/odluke.json#spomenicinob-detaljno-4104-4324-2026-10-20"
+    }
+  },
+  "mazuciste": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/fotografije.json#fotografije-identitet-2026-10-26",
+      "ishod": "zadrzana-precizna-tacka",
+      "napomena": "Potvrđen identitet spojenog duplikata; zadržana postojeća precizna tačka i Google mesto ako postoji. Ovo nije nova potvrda podnožja; prethodna provera približnog duplikata sačuvana je u izveštaju."
     }
   }
 }

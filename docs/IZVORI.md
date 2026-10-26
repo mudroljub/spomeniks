@@ -6,6 +6,8 @@ Uređeno **2026-10-23**. Jedan dokument za izvore: na vrhu [prioriteti](#priorit
 
 Rezultati različitih prolaza mogu se preklapati. Aktuelne zapise proveravati u bazi i spisku bez lokacije; istorijski brojevi nisu današnji preostali skup.
 
+Ciljana provera identiteta fotografija **26.10.2026.**: svih deset sumnjivih parova iz poređenja 1.261 važnijeg zapisa sa 5.890 postojećih fotografija provereno je pojedinačno, uz Commons izvorne opise/licence, karton Zavoda u Zrenjaninu, Hrženjakov sken 120, SABH bilten 78/2012, prilepski stručni pregled i terenske izvore. Rezultat: tri zamene i tri uklanjanja pogrešnih slika, tri spojena duplikata i jedan približan prelazak na mapu; bez novih preciznih podnožja. Preostaju odgovarajuće fotografije kamenog spomenika u Jasenku, obeliska u Radanovcima i parka Posavskom odredu, uz preciziranje seoskog spomenika kod pošte. Ovo nije ponovna obrada celih sajtova ni potvrda identiteta svih fotografija; [obuhvat i pojedinačni dokazi](../data/provere/fotografije.json#fotografije-identitet-2026-10-26).
+
 ## Prioriteti
 
 Cilj: novi spomenici, fotografije, tačne lokacije i dopune iz pouzdanih javnih izvora. Prinos je procena na osnovu dosadašnjih paketa i izmerenog obima, ne garancija.
