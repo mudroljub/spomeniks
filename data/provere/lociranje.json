@@ -26730,5 +26730,728 @@
       "proveraPrikaza": "Snimljeni prozori svih 87 izmenjenih javnih ID-jeva na telefonu 390×844, sh/en (174 snimka), bez izuzetaka i nedostajućih očekivanih slika; dodatna dva snimka konačne tačke Mirogoja.",
       "testovi": "Pauzirani po korisnikovom pravilu; nisu pokretani."
     }
+  },
+  "identiteti-33-rs-mk-2026-10-26": {
+    "datum": "2026-10-26",
+    "obim": "Svih 26 mogućih duplikata i sedam dvosmislenih zapisa iz odluke rs-mk-bez-lokacije-xiwl-tacke-2026-10-21; stare brojke su istorijski obim.",
+    "izvori": [
+      "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf",
+      "https://zbornik.cacakmuzej.org.rs/files/zbornik/4/ZRNMC_04_14.pdf",
+      "https://sr.wikipedia.org/wiki/Споменик_на_Градини",
+      "https://www.turistickiklub.com/sadrzaj/selo-brajici",
+      "https://bujanovacke.co.rs/2023/10/09/u-vrbanu-kod-bujanovca-odata-posta-partizanima-stradalim-u-drugom-svetskom-ratu/",
+      "https://www.mc.kcbor.net/gornjane-obelezilo-godisnjicu-oslobodenja/",
+      "https://rtvbor.rs/75-godina-od-oslobodjenja-gornjana-u-drugom-svetskom-ratu/",
+      "https://fliphtml5.com/khvk/zeda"
+    ],
+    "metod": "Originalni skenovi kataloga 1981, muzejski katalog 1974, sve povezane sačuvane Wiki stranice uključujući stvarne izvorne URL-ove, fotografije i ciljane mrežne provere. Wiki procene nikad nisu računane kao precizna podnožja.",
+    "stavke": {
+      "donji-milanovac-spomenik": {
+        "ishod": "ostaje-bez-lokacije",
+        "ciljniId": "donji-milanovac-spomenik",
+        "dokaz": "Knjiga, str. 59/PDF 30: zajednička grobnica pre izgradnje spomenika iz 1983. Wiki samo pretpostavlja zamenu; nije dokaz istog predmeta. Štampana 1941. uz XXV diviziju nije preneta kao činjenica.",
+        "prethodniZapis": {
+          "id": "donji-milanovac-spomenik",
+          "mesto": "Donji Milanovac",
+          "naziv": "Spomenik",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia",
+          "adresa": "Spomenik na zajedničkoj grobU borbama XXV divizije novj na tlu ovog kraja poginula je septembra 1941. godine grupa boraca."
+        },
+        "prethodniIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=30"
+      },
+      "selo-kosjeric-spomen-cesma": {
+        "ishod": "ostaje-bez-lokacije",
+        "ciljniId": "selo-kosjeric-spomen-cesma",
+        "dokaz": "Knjiga str. 204/PDF 103: Dunjića kapija, 1972; nije Bara/Lisa niti Klupe.",
+        "prethodniZapis": {
+          "id": "selo-kosjeric-spomen-cesma",
+          "mesto": "Selo Kosjerić",
+          "naziv": "Spomen-česma",
+          "godina": "1972",
+          "vrsta": "spomen-cesma",
+          "drzava": "Serbia",
+          "adresa": "Spomen-česma kod Dunjića kapije. Podignuta 1972. godine. Na ovom mestu aktivisti NOP-a održavali su sastanke na kojima su vršili pripreme za formiranje partizansk"
+        },
+        "prethodniIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=103"
+      },
+      "selo-kosjeric-spomen-cesma-2": {
+        "ishod": "ostaje-bez-lokacije",
+        "ciljniId": "selo-kosjeric-spomen-cesma-2",
+        "dokaz": "Lisa/Grbića glavica je jak kandidat za česmu Bara. Originalna Wikiloc slika pokazuje deo natpisa o zboru/govorima 1941, ali krošnja skriva ključni deo; Wiki izričito kaže very likely. Za spajanje ostaje pročitati ceo natpis ili potvrditi mikrotoponim nezavisnim planom.",
+        "prethodniZapis": {
+          "id": "selo-kosjeric-spomen-cesma-2",
+          "mesto": "Selo Kosjerić",
+          "naziv": "Spomen-česma",
+          "vrsta": "spomen-cesma",
+          "drzava": "Serbia",
+          "adresa": "Spomen-česma na mestu zvanom Lisa gde je održan partizanski zbor 1941. godine na Grbića glavici i pozvan narod ovog kraja u borbu protiv okupatora."
+        },
+        "prethodniIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=103"
+      },
+      "selo-kosjeric-spomen-cesma-3": {
+        "ishod": "ostaje-bez-lokacije",
+        "ciljniId": "selo-kosjeric-spomen-cesma-3",
+        "dokaz": "Knjiga str. 204/PDF 103: Klupe na Crnokosi, 1955, zasebno od Dunjića kapije i Lise.",
+        "prethodniZapis": {
+          "id": "selo-kosjeric-spomen-cesma-3",
+          "mesto": "Selo Kosjerić",
+          "naziv": "Spomen-česma",
+          "godina": "1955",
+          "vrsta": "spomen-cesma",
+          "drzava": "Serbia",
+          "adresa": "Spomen-česma na mestu zvanom Klupe na Crnokosi posvećena palim 1941-1945. Podignuta 1955. godine."
+        },
+        "prethodniIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=103"
+      },
+      "zlakusa-spomenik-na-gradini": {
+        "ishod": "spojen",
+        "ciljniId": "dreznik-spomenik-bici-na-dreznickoj-gradini",
+        "dokaz": "Isti piramidalni spomenik na vrhu Drežnička gradina: članak, primarna fotografija Vladimira Mijailovića i OSM položaj; 1950, obnova 1976. Sačuvan postojeći marker i njegova tačka.",
+        "prethodniZapis": {
+          "id": "zlakusa-spomenik-na-gradini",
+          "mesto": "Zlakusa",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%93%D1%80%D0%B0%D0%B4%D0%B8%D0%BD%D0%B8",
+          "naziv": "Spomenik na Gradini",
+          "godina": "1950",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%93%D1%80%D0%B0%D0%B4%D0%B8%D0%BD%D0%B8"
+      },
+      "brzohode-spomen-cesma": {
+        "ishod": "prebacen-priblizno",
+        "ciljniId": "brzohode-spomen-cesma",
+        "dokaz": "Česma 1957. je stepenasti kameni zid ispred prodavnica. Susedni spomenik ima tri crna stuba i potiče iz vremena posle 1981; dva objekta, približno 15 m. Lokacija česme ostaje približna.",
+        "prethodniZapis": {
+          "id": "brzohode-spomen-cesma",
+          "mesto": "Brzohode",
+          "naziv": "Spomen-česma",
+          "godina": "1957",
+          "vrsta": "spomen-cesma",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://www.xiwl.com/w/index.php/Brzohode_-_Spomen_%C4%8Cesma"
+      },
+      "kijevac-spomen-cesma-palim-borcima": {
+        "ishod": "ostaje-bez-lokacije",
+        "ciljniId": "kijevac-spomen-cesma-palim-borcima",
+        "dokaz": "Izvorni URL kaže Babušnica; 1982, šumska staza, borba 23.4.1944. Nije česma 1981. u Surdulici ni česma 1963. u centru Kijevca. Wiki tačka je izričito pretpostavljena, zato ostaje kandidat van mape.",
+        "prethodniZapis": {
+          "id": "kijevac-spomen-cesma-palim-borcima",
+          "mesto": "Kijevac",
+          "naziv": "Spomen-česma palim borcima",
+          "godina": "1982",
+          "vrsta": "spomen-cesma",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://www.xiwl.com/w/index.php/Kijevac_%28Babu%C5%A1nica%29_-_Spomen_%C4%8Cesma_Palim_Borcima"
+      },
+      "krnjevo-spomenik-milanu-krsljaninu": {
+        "ishod": "prebacen-priblizno",
+        "ciljniId": "krnjevo-spomenik-milanu-krsljaninu",
+        "dokaz": "Knjiga str. 179/PDF 90 i lokalni pregled Krnjevo razlikuju bistu Milana Kršljanina 1945. i česmu 1955. Bista dobija približnu mikrolokaciju, ne koordinatu česme; puno ime vajara M. Petrovića nije potvrđeno.",
+        "prethodniZapis": {
+          "id": "krnjevo-spomenik-milanu-krsljaninu",
+          "mesto": "Krnjevo",
+          "naziv": "Spomenik Milanu Kršljaninu",
+          "godina": "1945",
+          "autor": "M. Petrović",
+          "posveta": "Milanu Kršljaninu",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://www.xiwl.com/w/index.php/Krnjevo_-_Spomenik_Milanu_Kr%C5%A1ljaninu"
+      },
+      "medja-spomenik-palim-borcima": {
+        "ishod": "ostaje-bez-lokacije",
+        "ciljniId": "medja-spomenik-palim-borcima",
+        "dokaz": "Međa kod Žitišta, park, 12 boraca, 1957; Banatski Dvor ima crni stepenasti obelisk, 1954. Wiki pogrešno ponavlja istu koordinatu za različita sela i sam izražava sumnju u sliku. Tačka nije preneta.",
+        "prethodniZapis": {
+          "id": "medja-spomenik-palim-borcima",
+          "mesto": "Međa",
+          "naziv": "Spomenik palim borcima",
+          "godina": "1957",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://www.xiwl.com/w/index.php/Me%C4%91a_%28%C5%BDiti%C5%A1te%29_-_Spomenik_Palim_Borcima"
+      },
+      "panevlje-spomen-cesma": {
+        "ishod": "prebacen-priblizno",
+        "ciljniId": "panevlje-spomen-cesma",
+        "dokaz": "Originalni sken str. 79/PDF 40 potvrđuje školsku česmu 1979, ne uvezenu 1978. Druga česma iz 1957. je zapadno od sela. Preneta približno u prostor škole, oblik nije potvrđen; inicijal B. Cvetkovića nije proširen bez dokaza.",
+        "prethodniZapis": {
+          "id": "panevlje-spomen-cesma",
+          "mesto": "Panevlje",
+          "naziv": "Spomen-česma",
+          "godina": "1978",
+          "autor": "B. Cvetković",
+          "vrsta": "spomen-cesma",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://www.xiwl.com/w/index.php/Panevlje_-_Spomen_%C4%8Cesma"
+      },
+      "krnjaca-spomenik-rodoljubima-iz-krnjace-palim-u-os": {
+        "ishod": "prebacen-priblizno",
+        "ciljniId": "krnjaca-spomenik-rodoljubima-iz-krnjace-palim-u-os",
+        "dokaz": "Knjiga str. 26/PDF 14 odvojeno popisuje spomenik 36 rodoljuba i bistu Zage Malivuk; Wiki opisuje kameni blok ispred biste. Približna tačka školskog dvorišta, ne potvrđeno podnožje bloka.",
+        "prethodniZapis": {
+          "id": "krnjaca-spomenik-rodoljubima-iz-krnjace-palim-u-os",
+          "mesto": "Krnjača",
+          "naziv": "Spomenik palim rodoljubima Krnjače",
+          "nazivEn": "Krnjača Fallen Patriots Monument",
+          "opis": {
+            "sh": "Posvećeno rodoljubima iz Krnjače palim u oslobodilačkoj borbi 1941-1945.",
+            "en": "Dedicated to patriots from Krnjača who fell in the liberation struggle in 1941-1945."
+          },
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=14"
+      },
+      "bistrica-spomen-cesma-2": {
+        "ishod": "spojen",
+        "ciljniId": "bistrica-spomen-cesma",
+        "dokaz": "Ista česma na Bistričkoj reci kod Lazarevca, posvećena borbi 28.8.1941. Postojeća vrsta bista bila je pogrešna: izvor opisuje zidanu česmu, ne poprsje.",
+        "prethodniZapis": {
+          "id": "bistrica-spomen-cesma-2",
+          "mesto": "Bistrica",
+          "naziv": "Spomen-česma",
+          "vrsta": "spomen-cesma",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=19"
+      },
+      "gornjane-spomen-cesma-2": {
+        "ishod": "ostaje-bez-lokacije",
+        "ciljniId": "gornjane-spomen-cesma-2",
+        "dokaz": "Knjiga str. 52/PDF 27: česma 1977, 24 palih boraca; Wiki opisuje dva krila i centralni stub. Postojeća fotografija i OSM marker prikazuju drugi blok uz crkvu. Lokalne vesti 2010/2019 pominju više obeležja. Bez identifikacione fotografije česme ne spajati i ne proglasiti tačku 13 m dalje preciznom.",
+        "prethodniZapis": {
+          "id": "gornjane-spomen-cesma-2",
+          "mesto": "Gornjane",
+          "naziv": "Spomen-česma",
+          "godina": "1977",
+          "vrsta": "spomen-cesma",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=27"
+      },
+      "sarbanovac-spomen-cesma-2": {
+        "ishod": "ostaje-bez-lokacije",
+        "ciljniId": "sarbanovac-spomen-cesma-2",
+        "dokaz": "Originalni sken str. 57/PDF 29 pripada opštini Knjaževac, ne Boru. Česma 1952. posvećena je 10 streljanih pripadnika NOP-a i jednom borcu; nije borska česma 1954. niti pretpostavljena zamena u Boru.",
+        "prethodniZapis": {
+          "id": "sarbanovac-spomen-cesma-2",
+          "mesto": "Šarbanovac",
+          "naziv": "Spomen-česma",
+          "godina": "1952",
+          "vrsta": "spomen-cesma",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=29"
+      },
+      "muzinac-spomenik": {
+        "ishod": "ostaje-bez-lokacije",
+        "ciljniId": "muzinac-spomenik",
+        "dokaz": "Originalni sken str. 62/PDF 32 potvrđuje Dušanku Spasić, mesto pogibije na Bukoviku, 1954. Drugi spomenik 1980. ispred škole je opšteg karaktera i drugačijeg izgleda. Nisu duplikati.",
+        "prethodniZapis": {
+          "id": "muzinac-spomenik",
+          "mesto": "Mužinac",
+          "naziv": "Spomenik",
+          "godina": "1954",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=32"
+      },
+      "kamenica-spomen-cesma-2": {
+        "ishod": "spojen",
+        "ciljniId": "druzetici-spomen-cesma",
+        "dokaz": "Knjiga str. 100/PDF 51 i originalna Commons fotografija Kamenica 029.JPG: česma 1967, spomen odvođenju meštana 4.7.1943, danas marker Družetići/Kamenica kod Gornjeg Milanovca. Nije Kamenica kod Kraljeva 1957.",
+        "prethodniZapis": {
+          "id": "kamenica-spomen-cesma-2",
+          "mesto": "Kamenica",
+          "naziv": "Spomen-česma",
+          "godina": "1967",
+          "vrsta": "spomen-cesma",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=51"
+      },
+      "gornji-dubac-spomen-cesma-izginulim-borcima-nor-a": {
+        "ishod": "spojen",
+        "ciljniId": "gornji-dubac-spomen-cesma",
+        "dokaz": "Muzejski katalog Milovana Vulovića, ZRNMC 4 (1974), str. 276-277/PDF 4-5: ista česma u centru, kameno korito, dve ploče, osam boraca i 38 žrtava, doslovan natpis 1955. Wiki 1959. i broj 16 nisu prihvaćeni.",
+        "prethodniZapis": {
+          "id": "gornji-dubac-spomen-cesma-izginulim-borcima-nor-a",
+          "mesto": "Gornji Dubac",
+          "naziv": "Spomen-česma NOB",
+          "nazivEn": "Memorial fountain",
+          "opis": {
+            "sh": "Posvećeno palim borcima NOR-a i žrtvama fašističkog terora, 1941-1945.",
+            "en": "Dedicated to fallen fighters of the National Liberation War and victims of fascist terror, 1941-1945."
+          },
+          "godina": "1955",
+          "vrsta": "spomen-cesma",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=54"
+      },
+      "milicevci-spomen-obelezje": {
+        "ishod": "spojen",
+        "ciljniId": "medjuvrsje-spomen-cesma-2",
+        "dokaz": "Postojeći marker medjuvrsje-spomen-cesma-2 zapravo ima izvor Milićevci - Spomenik NOB, istog autora i tačku na Prokopu. Knjiga str. 119/PDF 60 i muzejski opis borbe 5.9.1941 potvrđuju identitet. Ispravljeni mesto i vrsta, ID i tačka sačuvani; istorijska ploča iz 1964. ne dokazuje godinu kasnije skulpture.",
+        "prethodniZapis": {
+          "id": "milicevci-spomen-obelezje",
+          "mesto": "Milićevci",
+          "naziv": "Spomen-obeležje",
+          "autor": "Nj. Vojnović",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=60"
+      },
+      "kijevac-spomen-cesma-3": {
+        "ishod": "spojen",
+        "ciljniId": "kijevac-spomen-cesma-2",
+        "dokaz": "Originalni sken str. 134/PDF 68: Kijevac kod Babušnice, 1963, četiri borca i 17 žrtava. To je postojeći kijevac-spomen-cesma-2, ne Surdulica.",
+        "prethodniZapis": {
+          "id": "kijevac-spomen-cesma-3",
+          "mesto": "Kijevac",
+          "naziv": "Spomen-česma",
+          "godina": "1963",
+          "vrsta": "spomen-cesma",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=68"
+      },
+      "resnik-spomen-cesma-pog-inulim-borcima-na-frontu-o": {
+        "ishod": "spojen",
+        "ciljniId": "stol-spomen-cesma",
+        "dokaz": "Prelom originalne strane 134/PDF 68: naslov STOL stoji iznad česme 1949. Pogrešno preuzet prethodni naslov Resnik. Isti natpis i broj pet boraca + 43 žrtve kao postojeća česma u Stolu; nije Resnik kod Sokobanje 1969.",
+        "prethodniZapis": {
+          "id": "resnik-spomen-cesma-pog-inulim-borcima-na-frontu-o",
+          "mesto": "Resnik",
+          "naziv": "Spomen-česma",
+          "godina": "1949",
+          "vrsta": "spomen-cesma",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=68"
+      },
+      "seone-spomen-cesma-palim-borcima-i-zrtvama-fasisti": {
+        "ishod": "ostaje-bez-lokacije",
+        "ciljniId": "seone-spomen-cesma-palim-borcima-i-zrtvama-fasisti",
+        "dokaz": "Originalna str. 178/PDF 90 razlikuje česmu 1954. (12+4) od kamenog belega na Orešcu 1946. (pet aktivista NOP-a). Wiki marker Orešca nije lokacija česme i ima nepouzdanu godinu 1945; nije menjan bez novog dokaza.",
+        "prethodniZapis": {
+          "id": "seone-spomen-cesma-palim-borcima-i-zrtvama-fasisti",
+          "mesto": "Seone",
+          "naziv": "Spomen-česma „Palim borcima i žrtvama fašističkog terora“",
+          "godina": "1954",
+          "vrsta": "spomen-cesma",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=90"
+      },
+      "sige-spomen-cesma-2": {
+        "ishod": "ostaje-bez-lokacije",
+        "ciljniId": "sige-spomen-cesma-2",
+        "dokaz": "Originalna str. 183/PDF 92 odvojeno navodi česmu Jovanu Šerbanoviću 1951. i česmu ratnicima oba svetska rata 1973. Druga nije zamena prve po samoj godini.",
+        "prethodniZapis": {
+          "id": "sige-spomen-cesma-2",
+          "mesto": "Sige",
+          "naziv": "Spomen-česma",
+          "godina": "1951",
+          "vrsta": "spomen-cesma",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=92"
+      },
+      "majur-spomen-cesma-2": {
+        "ishod": "ostaje-bez-lokacije",
+        "ciljniId": "majur-spomen-cesma-2",
+        "dokaz": "Originalna str. 236/PDF 119 potvrđuje česmu 1955. sa imenima 8 vojnika Aprilskog rata i 36 boraca NOR-a. Mapirani šumski izvor 1950. navodno obeležava Beličku četu; Wiki tu vezu samo pretpostavlja. Nisu spojeni.",
+        "prethodniZapis": {
+          "id": "majur-spomen-cesma-2",
+          "mesto": "Majur",
+          "naziv": "Spomen-česma",
+          "godina": "1955",
+          "vrsta": "spomen-cesma",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=119"
+      },
+      "vucje-spomen-cesma-u-vucju": {
+        "ishod": "prebacen-priblizno",
+        "ciljniId": "vucje-spomen-cesma-u-vucju",
+        "dokaz": "Postojeće slike pokazuju samostalnu česmu-obelisk iz 1951. i drugu figuralnu skulpturu 1959. Dve različite celine na suprotnim stranama reke/kod mosta. Wiki/mapio položaj prihvaćen kao približan, bez tvrdnje o preciznom podnožju; nije pomešana sa Teokarevićevom česmom iz članka 2023.",
+        "prethodniZapis": {
+          "id": "vucje-spomen-cesma-u-vucju",
+          "mesto": "Vučje",
+          "wiki": "https://sr.wikipedia.org/wiki/Спомен-чесма_у_Вучју",
+          "naziv": "Spomen-česma u Vučju",
+          "godina": "1951",
+          "vrsta": "spomen-cesma",
+          "drzava": "Serbia",
+          "slika": "slike/bez-lokacije/vucje-spomen-cesma-u-vucju.webp",
+          "slikaPotpis": "Omladinskiklubanciki, CC BY-SA 4.0",
+          "slikaOdnos": 0.667
+        },
+        "prethodniIzvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D1%87%D0%B5%D1%81%D0%BC%D0%B0_%D1%83_%D0%92%D1%83%D1%87%D1%98%D1%83"
+      },
+      "valnis-spomen-cesma-3": {
+        "ishod": "spojen",
+        "ciljniId": "vojnici-spomen-cesma",
+        "dokaz": "Originalna str. 133/PDF 67: između Valniša i opisa česme je naslov VOJNICI. Česma u Vojnicima 1966. nosi 29 imena iz Prvog i osam iz Drugog svetskog rata, pa je spojena sa postojećim zapisom u Vojnicima, ne sa Valnišem 1972.",
+        "prethodniZapis": {
+          "id": "valnis-spomen-cesma-3",
+          "mesto": "Valniš",
+          "naziv": "Spomen-česma",
+          "godina": "1966",
+          "vrsta": "spomen-cesma",
+          "drzava": "Serbia",
+          "adresa": "Spomen-česma u centru naselja „Palim borcima sela Vojnici u prvom svetskom ratu od 19121918. Godine i žrtvama palim u drugom svetskom ratu od 1941. do 1945. “ Iz"
+        },
+        "prethodniIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=67"
+      },
+      "raklis-spomenik-na-nob": {
+        "ishod": "spojen",
+        "ciljniId": "radovis-spomenik-na-nob",
+        "dokaz": "Obe lokalne Commons slike imaju potpuno isti natpis, imena šestorke i datum 11.10.1987. Sačuvan mapirani ID i tačka, mesto ispravljeno u Раклиш; slika celog predmeta zamenjuje krupni plan. Wiki pretpostavka 1997. nije preneta.",
+        "prethodniZapis": {
+          "id": "raklis-spomenik-na-nob",
+          "mesto": "Раклиш",
+          "naziv": "Споменик на НОБ",
+          "nazivEn": "WWII Monument",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Macedonia",
+          "slika": "slike/bez-lokacije/raklis-spomenik-na-nob.webp",
+          "slikaPotpis": "Kiril Simeonovski, CC BY-SA 4.0",
+          "slikaOdnos": 0.75
+        },
+        "prethodniIzvor": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%A0%D0%B0%D0%BA%D0%BB%D0%B8%D1%88.jpg"
+      },
+      "brajici-spomenik-palim-borcima-i-zrtvama-fasistick": {
+        "ishod": "ostaje-bez-lokacije",
+        "ciljniId": "brajici-spomenik-palim-borcima-i-zrtvama-fasistick",
+        "dokaz": "Turistički klub izričito navodi dva objekta: spomenik ratnicima oba rata i kosturnicu. Wiki fotografije opisuju tri apstraktne ploče i bistu; tačka je izričito centar zaseoka, ne mesto objekta. Nije spojen sa kosturnicom iz 1951; ostaje van mape bez dovoljno konkretnog položaja.",
+        "prethodniZapis": {
+          "id": "brajici-spomenik-palim-borcima-i-zrtvama-fasistick",
+          "mesto": "Brajići",
+          "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://www.xiwl.com/w/index.php/Braji%C4%87i_%28Gornji_Milanovac%29_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora"
+      },
+      "vezicevo-spomen-cesma-palim-borcima": {
+        "ishod": "prebacen-priblizno",
+        "ciljniId": "vezicevo-spomen-cesma-palim-borcima",
+        "dokaz": "Wiki opisuje česmu sa imenima i portretima istočno od Doma, ratovi 1912-18 i 1941-45. Razlikuje se od druge fotografisane česme blizu škole; približna tačka, bez spajanja sa knjiškom stavkom 1953.",
+        "prethodniZapis": {
+          "id": "vezicevo-spomen-cesma-palim-borcima",
+          "mesto": "Vezičevo",
+          "naziv": "Spomen-česma palim borcima",
+          "godina": "1954",
+          "vrsta": "spomen-cesma",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://www.xiwl.com/w/index.php/Vezi%C4%8Devo_-_Spomen_%C4%8Cesma_Palim_Borcima"
+      },
+      "vezicevo-spomen-cesma": {
+        "ishod": "prebacen-priblizno",
+        "ciljniId": "vezicevo-spomen-cesma",
+        "dokaz": "Druga Wiki stranica, poseban snimak dokumentarca X0I-b759O64 u 45:51, druga tačka oko 215 m zapadno uz školu. Naslov je ranije uparen sa pogrešnom Wiki stranicom. Dve česme ostaju odvojeno; oba godišta 1954 iz Wiki nisu automatski prepravljena.",
+        "prethodniZapis": {
+          "id": "vezicevo-spomen-cesma",
+          "mesto": "Vezičevo",
+          "naziv": "Spomen-česma",
+          "godina": "1954",
+          "vrsta": "spomen-cesma",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://www.xiwl.com/w/index.php/Vezi%C4%8Devo_-_Spomen_%C4%8Cesma"
+      },
+      "vrban-spomenik-palim-borcima": {
+        "ishod": "ostaje-bez-lokacije",
+        "ciljniId": "vrban-spomenik-palim-borcima",
+        "dokaz": "Isti spomenik borbi 8.10.1942, deset poginulih partizana, 1977, potvrđen knjigom str. 74/PDF 38 i terenskim tekstom Bujanovačke 9.10.2023. Tačka Wiki je nagađanje na Veterniku, ne potvrđeno mesto; bez prenosa na mapu.",
+        "prethodniZapis": {
+          "id": "vrban-spomenik-palim-borcima",
+          "mesto": "Vrban",
+          "naziv": "Spomenik palim borcima",
+          "godina": "1977",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://www.xiwl.com/w/index.php/Vrban_%28Bujanovac%29_-_Spomenik_Palim_Borcima"
+      },
+      "vrban-spomen-obelezje": {
+        "ishod": "spojen",
+        "ciljniId": "vrban-spomenik-palim-borcima",
+        "dokaz": "Isti katalogom opisani spomenik 1977. na mestu borbe Vranjskog odreda 8.10.1942; spojen sa konkretnije imenovanim zapisom Vrban, bez izmišljanja lokacije.",
+        "prethodniZapis": {
+          "id": "vrban-spomen-obelezje",
+          "mesto": "Vrban",
+          "naziv": "Spomen-obeležje",
+          "godina": "1977",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=38"
+      },
+      "brajici-spomenik-zrtvama-cetnickog-terora": {
+        "ishod": "spojen",
+        "ciljniId": "brajici-spomen-kosturnica",
+        "dokaz": "Originalna str. 99/PDF 50 navodi da su kosti žrtava uzidane u temelje ove spomen-kosturnice. Wiki kosturnica nosi istu godinu, događaj i centar sela; spojen samo taj unos, ne apstraktni spomenik oba rata.",
+        "prethodniZapis": {
+          "id": "brajici-spomenik-zrtvama-cetnickog-terora",
+          "mesto": "Brajići",
+          "naziv": "Spomenik žrtvama četničkog terora",
+          "godina": "1951",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        },
+        "prethodniIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=50"
+      },
+      "vezicevo-spomen-cesma-palim-u-narodnooslobodilacko": {
+        "ishod": "ostaje-bez-lokacije",
+        "ciljniId": "vezicevo-spomen-cesma-palim-u-narodnooslobodilacko",
+        "dokaz": "Originalna str. 187/PDF 94 navodi dve česme: 1953. sa 19 imena boraca NOR-a i 1954. palim meštanima. Video opisi potvrđuju dve česme, ali ne daju pouzdano prebrojavanje imena ni vezu godišta sa jednom od njih. Treća knjiška stavka ostaje nerešena, bez trećeg markera.",
+        "prethodniZapis": {
+          "id": "vezicevo-spomen-cesma-palim-u-narodnooslobodilacko",
+          "mesto": "Vezičevo",
+          "naziv": "Spomen-česma palima u NOR-u",
+          "nazivEn": "Memorial fountain to the fallen in the liberation war",
+          "opis": {
+            "sh": "Posvećeno palima u narodnooslobodilačkom ratu 1941-1945.",
+            "en": "Dedicated to those who fell in the People’s Liberation War in 1941-1945."
+          },
+          "godina": "1953",
+          "vrsta": "spomen-cesma",
+          "drzava": "Serbia",
+          "adresa": "Spomen-česma „Palim u narodnooslobodilačkom ratu 19411945. “ Izgrađena 1953. godine. Na zidu česme su imena devetnaest pog inulih boraca iz sela."
+        },
+        "prethodniIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=94"
+      }
+    },
+    "spojeno": {
+      "zlakusa-spomenik-na-gradini": "dreznik-spomenik-bici-na-dreznickoj-gradini",
+      "bistrica-spomen-cesma-2": "bistrica-spomen-cesma",
+      "gornji-dubac-spomen-cesma-izginulim-borcima-nor-a": "gornji-dubac-spomen-cesma",
+      "milicevci-spomen-obelezje": "medjuvrsje-spomen-cesma-2",
+      "kijevac-spomen-cesma-3": "kijevac-spomen-cesma-2",
+      "valnis-spomen-cesma-3": "vojnici-spomen-cesma",
+      "resnik-spomen-cesma-pog-inulim-borcima-na-frontu-o": "stol-spomen-cesma",
+      "raklis-spomenik-na-nob": "radovis-spomenik-na-nob",
+      "brajici-spomenik-zrtvama-cetnickog-terora": "brajici-spomen-kosturnica",
+      "vrban-spomen-obelezje": "vrban-spomenik-palim-borcima",
+      "kamenica-spomen-cesma-2": "druzetici-spomen-cesma"
+    },
+    "prebacenoPriblizno": [
+      "brzohode-spomen-cesma",
+      "krnjevo-spomenik-milanu-krsljaninu",
+      "panevlje-spomen-cesma",
+      "krnjaca-spomenik-rodoljubima-iz-krnjace-palim-u-os",
+      "vucje-spomen-cesma-u-vucju",
+      "vezicevo-spomen-cesma",
+      "vezicevo-spomen-cesma-palim-borcima"
+    ],
+    "novePrecizneLokacije": 0,
+    "prethodniCiljevi": {
+      "radovis-spomenik-na-nob": {
+        "id": "radovis-spomenik-na-nob",
+        "koordinate": {
+          "lat": 41.6302222,
+          "lng": 22.4821944
+        },
+        "mesto": "Радовиш",
+        "slika": "slike/spomenici/radovis-spomenik-na-nob.webp",
+        "slikaOdnos": 1.333,
+        "slikaPotpis": "Тиверополник, CC BY-SA 4.0",
+        "naziv": "Споменик на НОБ",
+        "nazivEn": "WWII Monument",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Macedonia"
+      },
+      "stol-spomen-cesma": {
+        "id": "stol-spomen-cesma",
+        "koordinate": {
+          "lat": 43.039139,
+          "lng": 22.46825
+        },
+        "mesto": "Stol",
+        "slika": "slike/spomenici/stol-spomen-cesma.webp",
+        "slikaOdnos": 1.333,
+        "slikaPotpis": "Pirotski kraj",
+        "naziv": "Spomen-česma",
+        "nazivEn": "Memorial Fountain",
+        "godina": "1949",
+        "vrsta": "spomen-cesma",
+        "drzava": "Serbia"
+      },
+      "brajici-spomen-kosturnica": {
+        "id": "brajici-spomen-kosturnica",
+        "koordinate": {
+          "lat": 44.082199,
+          "lng": 20.20659
+        },
+        "mesto": "Brajići",
+        "naziv": "Spomen-kosturnica",
+        "nazivEn": "Memorial Ossuary",
+        "godina": "1951",
+        "vrsta": "spomenik",
+        "drzava": "Serbia"
+      },
+      "bistrica-spomen-cesma": {
+        "id": "bistrica-spomen-cesma",
+        "koordinate": {
+          "lat": 44.360256,
+          "lng": 20.352545
+        },
+        "mesto": "Bistrica",
+        "naziv": "Spomen-česma",
+        "nazivEn": "Memorial Fountain",
+        "vrsta": "bista",
+        "drzava": "Serbia"
+      },
+      "vojnici-spomen-cesma": {
+        "id": "vojnici-spomen-cesma",
+        "koordinate": {
+          "lat": 43.1125,
+          "lng": 22.445083
+        },
+        "mesto": "Vojnici",
+        "slika": "slike/spomenici/vojnici-spomen-cesma.webp",
+        "slikaOdnos": 1.778,
+        "slikaPotpis": "Pirotski kraj",
+        "naziv": "Spomen-česma",
+        "nazivEn": "Memorial Fountain",
+        "godina": "1966",
+        "vrsta": "spomen-cesma",
+        "drzava": "Serbia"
+      },
+      "medjuvrsje-spomen-cesma-2": {
+        "id": "medjuvrsje-spomen-cesma-2",
+        "koordinate": {
+          "lat": 43.96925,
+          "lng": 20.367861
+        },
+        "mesto": "Međuvršje",
+        "naziv": "Spomen-česma",
+        "nazivEn": "Memorial Fountain",
+        "autor": "Nj. Vojnović",
+        "vrsta": "spomen-cesma",
+        "drzava": "Serbia"
+      },
+      "dreznik-spomenik-bici-na-dreznickoj-gradini": {
+        "id": "dreznik-spomenik-bici-na-dreznickoj-gradini",
+        "koordinate": {
+          "lat": 43.7839842,
+          "lng": 19.9367998
+        },
+        "mesto": "Drežnik",
+        "naziv": "Spomenik bici na Drežničkoj gradini",
+        "nazivEn": "Monument to the Battle of Drežnička Gradina",
+        "opis": {
+          "sh": "Posvećeno bici na Drežničkoj gradini.",
+          "en": "Dedicated to the Battle of Drežnička Gradina."
+        },
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "gornji-dubac-spomen-cesma": {
+        "id": "gornji-dubac-spomen-cesma",
+        "koordinate": {
+          "lat": 43.664917,
+          "lng": 20.362028
+        },
+        "mesto": "Gornji Dubac",
+        "naziv": "Spomen-česma",
+        "nazivEn": "Memorial Fountain",
+        "godina": "1959",
+        "vrsta": "spomen-cesma",
+        "drzava": "Serbia"
+      },
+      "kijevac-spomen-cesma-2": {
+        "id": "kijevac-spomen-cesma-2",
+        "koordinate": {
+          "lat": 43.017917,
+          "lng": 22.497306
+        },
+        "mesto": "Kijevac",
+        "naziv": "Spomen-česma",
+        "nazivEn": "Memorial Fountain",
+        "godina": "1963",
+        "vrsta": "spomen-cesma",
+        "drzava": "Serbia"
+      },
+      "druzetici-spomen-cesma": {
+        "id": "druzetici-spomen-cesma",
+        "koordinate": {
+          "lat": 44.013686,
+          "lng": 20.132216
+        },
+        "mesto": "Družetići",
+        "naziv": "Spomen-česma",
+        "nazivEn": "Memorial Fountain",
+        "godina": "1967",
+        "vrsta": "spomen-cesma",
+        "drzava": "Serbia"
+      }
+    },
+    "slike": {
+      "dreznik-spomenik-bici-na-dreznickoj-gradini": {
+        "autor": "Vladimir Mijailović",
+        "izvor": "http://www.zlakusa.com/wp-content/uploads/2013/03/Vladimir-Mijailovic-Spomenik-na-Gradini-1.jpg",
+        "datumSnimanja": "nije poznat; URL 2013/03"
+      },
+      "druzetici-spomen-cesma": {
+        "autor": "Јелена Продановић",
+        "licenca": "CC BY-SA 4.0",
+        "izvor": "https://commons.wikimedia.org/wiki/File:Kamenica_029.JPG",
+        "datumSnimanja": "2014-05-02"
+      },
+      "radovis-spomenik-na-nob": {
+        "izvor": "https://commons.wikimedia.org/wiki/File:Споменик_на_НОБ_во_Раклиш.jpg",
+        "napomena": "Postojeća slika celog predmeta preneta sa duplikata. Raniji krupni plan i poreklo sačuvani u lokalnim izvorima."
+      }
+    },
+    "brojevi": {
+      "pregledano": 33,
+      "spojeno": 11,
+      "prebacenoPriblizno": 7,
+      "ostaloBezLokacije": 15,
+      "mapaPre": 9462,
+      "mapaPosle": 9469,
+      "bezPre": 3810,
+      "bezPosle": 3792,
+      "drugiZapisiNepromenjeni": true
+    },
+    "preusmereneVeze": [],
+    "provera": {
+      "integritet": "prosao",
+      "diffCheck": "prosao",
+      "prikazTelefon": {
+        "sirina": 390,
+        "visina": 844,
+        "zapisa": 17,
+        "jezici": [
+          "sh",
+          "en"
+        ],
+        "snimaka": 34,
+        "izuzeci": 0,
+        "slike": "sve ocekivane ucitane",
+        "vizuelno": "pregledane montaze svih 17 zapisa na sh i uzorka na en"
+      },
+      "testovi": "pauzirani po odluci korisnika; nisu pokretani",
+      "izmenaPoslePregleda": {
+        "id": "panevlje-spomen-cesma",
+        "polje": "nazivEn",
+        "vrednost": "Memorial Fountain"
+      }
+    }
   }
 }

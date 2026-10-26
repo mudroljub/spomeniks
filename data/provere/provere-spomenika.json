@@ -335,6 +335,14 @@
       "napomena": "U holu škole koja nosi ime Svetozara Markovića Toze u Elemiru. Prethodna približna tačka pripadala je pogrešnom naselju; tačka spomenika nije potvrđena."
     }
   },
+  "brajici-spomenik-palim-borcima-i-zrtvama-fasistick": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26",
+      "ishod": "ostaje-bez-lokacije",
+      "napomena": "Turistički klub izričito navodi dva objekta: spomenik ratnicima oba rata i kosturnicu. Wiki fotografije opisuju tri apstraktne ploče i bistu; tačka je izričito centar zaseoka, ne mesto objekta. Nije spojen sa kosturnicom iz 1951; ostaje van mape bez dovoljno konkretnog položaja."
+    }
+  },
   "bratac-spomenik-borcima-bratackog-odreda-poginulim": {
     "proveraLokacije": {
       "datum": "2026-10-21",
@@ -349,6 +357,14 @@
       "izvor": "https://digitalizacija-zzsknis.rs/wp-content/uploads/2025/02/Memorijali_Leskovac.pdf",
       "ishod": "Pribli?na lokacija proverena; podno?je nije potvr?eno",
       "napomena": "Karton PDF278: stara ?kola/vrti? i fotografija biste. Kro?nje zaklanjaju postament; nije zamenjena ta?kom zgrade."
+    }
+  },
+  "brzohode-spomen-cesma": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26",
+      "ishod": "prebacen-priblizno",
+      "napomena": "Česma 1957. je stepenasti kameni zid ispred prodavnica. Susedni spomenik ima tri crna stuba i potiče iz vremena posle 1981; dva objekta, približno 15 m. Lokacija česme ostaje približna."
     }
   },
   "budacka-rijeka-spomenicko-mjesto-cukur": {
@@ -599,6 +615,14 @@
       "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 45.54757, \"lng\": 15.80786}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
     }
   },
+  "donji-milanovac-spomenik": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26",
+      "ishod": "ostaje-bez-lokacije",
+      "napomena": "Knjiga, str. 59/PDF 30: zajednička grobnica pre izgradnje spomenika iz 1983. Wiki samo pretpostavlja zamenu; nije dokaz istog predmeta. Štampana 1941. uz XXV diviziju nije preneta kao činjenica."
+    }
+  },
   "donji-orlovci": {
     "proveraLokacije": {
       "datum": "2026-10-21",
@@ -790,6 +814,14 @@
       "izvor": "https://www.google.com/maps?cid=2237073904052057698",
       "ishod": "postojeca-tacka-potkrepljena-novim-google-kartonom",
       "napomena": "Zadržana postojeća OSM tačka 44.5647888,18.7519140. Novi Google karton Spomenik Mahmuta Bušatlije Buša, CID 2237073904052057698, daje 44.5648509,18.7517365 (15.7 m od naše tačke); fotografija autora Adem sa Google oznakom „Slika je snimljena: nov 2025“ pokazuje isti crveno-beli spomenik i isti natpis. Fotografija je samo pregledana; nije preuzeta za novu objavu. Stari Google CID 17876674845708593619 sada otvara prazan karton bez imena i fotografija, pa njegova tačka prepisana u Partisan Memorials Wiki nije osnova za pomeranje oko 378.6 m severnije. OSM istorija: node/11646434659, jedina verzija od 20.2.2024, autor musa58; changeset/147703491 ne navodi izvor merenja. Naša tačka je neposredno uz ucrtanu stazu way/1252957194. Obilazak Mirsada Saračevića od 15.2.2024 na Wikiloc-u navodi zasebne tačke „Spomenik / Mahmut Bušatlija“ i „S puta pogled na spomenik“; javni indeks je pročitan, ali GPS i fotografije nisu provereni jer sajt traži bezbednosnu verifikaciju, pa obilazak nije tretiran kao nezavisna potvrda tačnih koordinata. Razlika starih i novih kartografskih oznaka je razjašnjena u korist postojeće tačke; podudaranje OSM-a i Google-a nije dokaz njihove nezavisnosti ni geodetske tačnosti do jednog metra. Nije dokazana fizička selidba spomenika."
+    }
+  },
+  "gornjane-spomen-cesma-2": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26",
+      "ishod": "ostaje-bez-lokacije",
+      "napomena": "Knjiga str. 52/PDF 27: česma 1977, 24 palih boraca; Wiki opisuje dva krila i centralni stub. Postojeća fotografija i OSM marker prikazuju drugi blok uz crkvu. Lokalne vesti 2010/2019 pominju više obeležja. Bez identifikacione fotografije česme ne spajati i ne proglasiti tačku 13 m dalje preciznom."
     }
   },
   "gornje-dubrave-spomen-kosturnica": {
@@ -1252,6 +1284,14 @@
       "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 41.5089, \"lng\": 20.95852}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
     }
   },
+  "kijevac-spomen-cesma-palim-borcima": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26",
+      "ishod": "ostaje-bez-lokacije",
+      "napomena": "Izvorni URL kaže Babušnica; 1982, šumska staza, borba 23.4.1944. Nije česma 1981. u Surdulici ni česma 1963. u centru Kijevca. Wiki tačka je izričito pretpostavljena, zato ostaje kandidat van mape."
+    }
+  },
   "kikinda-bista-zore-krdzalic-zage": {
     "proveraLokacije": {
       "datum": "2026-10-23",
@@ -1428,12 +1468,28 @@
       "napomena": "{\"opis\": \"м.в. Споменик\", \"osm\": {\"osm\": [{\"osm\": \"https://www.openstreetmap.org/node/6349721704\", \"koordinate\": {\"lat\": 41.7213441, \"lng\": 22.6569551}, \"metara\": null, \"zajednickeOsnove\": [\"odred\", \"parti\"], \"qPodudaranje\": false, \"tags\": {\"historic\": \"memorial\", \"inscription\": \"Малешевскиот (Малешки) народноослободителен одред бил територијална партизанска единица на НОВ и ПОМ. Формиран е во месноста Паруца, кота 1356 на пл. Плачковица и делувал од 25 август до ноември 1944. Одредот е формиран од 50 борци од Малешевијата. Ги нап\", \"memorial\": \"plaque\", \"name\": \"Споменик на Малешевскиот (Малешки) народноослободителен одред\"}, \"fajl\": \"izvori/osm/MK-spomen-obelezja.json\", \"blizuNasih\": [{\"metara\": 0, \"id\": \"smilanci-spomenik-na-malesevskiot-maleski-narodnoo\", \"vrsta\": \"spomen-ploca\", \"priblizno\": false}]}], \"sidro\": null, \"ishod\": \"Kandidati traže proveru identiteta\"}, \"zaključak\": \"Nije potvrđena tačka pojedinačnog objekta; registar i postojeća približna tačka ne dokazuju podnožje.\"}"
     }
   },
+  "krnjaca-spomenik-rodoljubima-iz-krnjace-palim-u-os": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26",
+      "ishod": "prebacen-priblizno",
+      "napomena": "Knjiga str. 26/PDF 14 odvojeno popisuje spomenik 36 rodoljuba i bistu Zage Malivuk; Wiki opisuje kameni blok ispred biste. Približna tačka školskog dvorišta, ne potvrđeno podnožje bloka."
+    }
+  },
   "krnjeusa-spomenik-nob": {
     "proveraLokacije": {
       "datum": "2026-10-20",
       "izvor": "https://www.spomenicinob.info/bosanskipetrovac",
       "ishod": "provereno",
       "napomena": "Wiki deo-0113: pet stubova/kubusa na raskrsnici pred mesnom zgradom, vidljivo u satelitskom snimku i Street View; potvrđen objekat umesto centra sela."
+    }
+  },
+  "krnjevo-spomenik-milanu-krsljaninu": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26",
+      "ishod": "prebacen-priblizno",
+      "napomena": "Knjiga str. 179/PDF 90 i lokalni pregled Krnjevo razlikuju bistu Milana Kršljanina 1945. i česmu 1955. Bista dobija približnu mikrolokaciju, ne koordinatu česme; puno ime vajara M. Petrovića nije potvrđeno."
     }
   },
   "krusevac-bista-mirka-tomica": {
@@ -1660,6 +1716,14 @@
       "napomena": "Martinci; obelisk visok 8 m, podignut 1975. Prethodna približna tačka pripadala je pogrešnom naselju; tačka spomenika nije potvrđena."
     }
   },
+  "majur-spomen-cesma-2": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26",
+      "ishod": "ostaje-bez-lokacije",
+      "napomena": "Originalna str. 236/PDF 119 potvrđuje česmu 1955. sa imenima 8 vojnika Aprilskog rata i 36 boraca NOR-a. Mapirani šumski izvor 1950. navodno obeležava Beličku četu; Wiki tu vezu samo pretpostavlja. Nisu spojeni."
+    }
+  },
   "mala-crcorija-spomen-obelezje-na-pobedata": {
     "proveraLokacije": {
       "datum": "2026-10-23",
@@ -1713,6 +1777,14 @@
       "izvor": "https://www.spomenicinob.info/",
       "ishod": "bez potvrđene tačke",
       "napomena": "Wiki ne zna da li kartografska tačka pripada Gornjoj ili Donjoj Kukauši; objekat nije pouzdano identifikovan.; Wiki ne zna da li kartografska tačka pripada Gornjoj ili Donjoj Kukauši; objekat nije pouzdano identifikovan."
+    }
+  },
+  "medja-spomenik-palim-borcima": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26",
+      "ishod": "ostaje-bez-lokacije",
+      "napomena": "Međa kod Žitišta, park, 12 boraca, 1957; Banatski Dvor ima crni stepenasti obelisk, 1954. Wiki pogrešno ponavlja istu koordinatu za različita sela i sam izražava sumnju u sliku. Tačka nije preneta."
     }
   },
   "miletkovo-bista-na-risto-dinov": {
@@ -1777,6 +1849,14 @@
       "ishod": "nepotvrđen",
       "razlog": "Nedatirana reprodukcija štampane fotografije. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
       "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
+    }
+  },
+  "muzinac-spomenik": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26",
+      "ishod": "ostaje-bez-lokacije",
+      "napomena": "Originalni sken str. 62/PDF 32 potvrđuje Dušanku Spasić, mesto pogibije na Bukoviku, 1954. Drugi spomenik 1980. ispred škole je opšteg karaktera i drugačijeg izgleda. Nisu duplikati."
     }
   },
   "nakovo-bista-miladina-zorica-garace": {
@@ -2000,6 +2080,14 @@
       "izvor": "Sačuvani OSM/Wiki podaci i pojedinačni dokazi u lociranje.json#lociranje-prioriteti-2026-10-23-3-vazniji",
       "ishod": "precizirano",
       "napomena": "{\"izvor\": \"https://www.openstreetmap.org/node/12809826243\", \"lokalnaKopija\": \"izvori/osm/BA-objekti-2026-10-20.json\", \"tags\": {\"artwork_type\": \"bust\", \"name\": \"Milan Simović\", \"tourism\": \"artwork\"}, \"potvrda\": \"Imenovani pojedinačni objekat, ista posveta i vrsta; adresa i postojeća fotografija poklapaju se sa konkretnim parkom/ustanovom, ne samo sa gradom.\", \"razlika\": \"Bista 12809826243, ne susedni spomenik 12809826241. Fotografija spomenicinob prikazuje bistu.\"}"
+    }
+  },
+  "panevlje-spomen-cesma": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26",
+      "ishod": "prebacen-priblizno",
+      "napomena": "Originalni sken str. 79/PDF 40 potvrđuje školsku česmu 1979, ne uvezenu 1978. Druga česma iz 1957. je zapadno od sela. Preneta približno u prostor škole, oblik nije potvrđen; inicijal B. Cvetkovića nije proširen bez dokaza."
     }
   },
   "pazin-bista-joze-surana": {
@@ -2492,6 +2580,14 @@
       "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 43.844125, \"lng\": 18.398925}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
     }
   },
+  "sarbanovac-spomen-cesma-2": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26",
+      "ishod": "ostaje-bez-lokacije",
+      "napomena": "Originalni sken str. 57/PDF 29 pripada opštini Knjaževac, ne Boru. Česma 1952. posvećena je 10 streljanih pripadnika NOP-a i jednom borcu; nije borska česma 1954. niti pretpostavljena zamena u Boru."
+    }
+  },
   "secanj-spomenik-palim-borcima-za-oslobodjenje-od-o": {
     "proveraLokacije": {
       "datum": "2026-10-20",
@@ -2516,6 +2612,38 @@
       "napomena": "{\"izvor\": \"GeoNames BA, lokalna kopija izvori\", \"potvrda\": \"Naselje Šekovići; park ispred biblioteke nije posebno kartiran\", \"identitet\": \"https://www.spomenicinob.info/sekovici\", \"fotografija\": \"slike/bez-lokacije/sekovici-bista-milosa-zekica.webp\"}"
     }
   },
+  "selo-kosjeric-spomen-cesma": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26",
+      "ishod": "ostaje-bez-lokacije",
+      "napomena": "Knjiga str. 204/PDF 103: Dunjića kapija, 1972; nije Bara/Lisa niti Klupe."
+    }
+  },
+  "selo-kosjeric-spomen-cesma-2": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26",
+      "ishod": "ostaje-bez-lokacije",
+      "napomena": "Lisa/Grbića glavica je jak kandidat za česmu Bara. Originalna Wikiloc slika pokazuje deo natpisa o zboru/govorima 1941, ali krošnja skriva ključni deo; Wiki izričito kaže very likely. Za spajanje ostaje pročitati ceo natpis ili potvrditi mikrotoponim nezavisnim planom."
+    }
+  },
+  "selo-kosjeric-spomen-cesma-3": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26",
+      "ishod": "ostaje-bez-lokacije",
+      "napomena": "Knjiga str. 204/PDF 103: Klupe na Crnokosi, 1955, zasebno od Dunjića kapije i Lise."
+    }
+  },
+  "seone-spomen-cesma-palim-borcima-i-zrtvama-fasisti": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26",
+      "ishod": "ostaje-bez-lokacije",
+      "napomena": "Originalna str. 178/PDF 90 razlikuje česmu 1954. (12+4) od kamenog belega na Orešcu 1946. (pet aktivista NOP-a). Wiki marker Orešca nije lokacija česme i ima nepouzdanu godinu 1945; nije menjan bez novog dokaza."
+    }
+  },
   "sermenin-bista-na-dimitar-georgiev-milan": {
     "proveraLokacije": {
       "datum": "2026-10-23",
@@ -2538,6 +2666,14 @@
       "izvor": "https://registar.kulturnadobra.hr/#/details/128323",
       "ishod": "Spojen potvrđeni duplikat",
       "napomena": "Zadržan sibenik-spomenik-palim-borcima-zrinska; dokaz i prethodna polja u izveštaju paketa."
+    }
+  },
+  "sige-spomen-cesma-2": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26",
+      "ishod": "ostaje-bez-lokacije",
+      "napomena": "Originalna str. 183/PDF 92 odvojeno navodi česmu Jovanu Šerbanoviću 1951. i česmu ratnicima oba svetska rata 1973. Druga nije zamena prve po samoj godini."
     }
   },
   "siljkovaca-zajednicka-grobnica-zrtava-fasistickog": {
@@ -2976,6 +3112,30 @@
       "napomena": "Zadržan veliki-brdo-spomenik-palim-borcima; dokaz i prethodna polja u izveštaju paketa."
     }
   },
+  "vezicevo-spomen-cesma": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26",
+      "ishod": "prebacen-priblizno",
+      "napomena": "Druga Wiki stranica, poseban snimak dokumentarca X0I-b759O64 u 45:51, druga tačka oko 215 m zapadno uz školu. Naslov je ranije uparen sa pogrešnom Wiki stranicom. Dve česme ostaju odvojeno; oba godišta 1954 iz Wiki nisu automatski prepravljena."
+    }
+  },
+  "vezicevo-spomen-cesma-palim-borcima": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26",
+      "ishod": "prebacen-priblizno",
+      "napomena": "Wiki opisuje česmu sa imenima i portretima istočno od Doma, ratovi 1912-18 i 1941-45. Razlikuje se od druge fotografisane česme blizu škole; približna tačka, bez spajanja sa knjiškom stavkom 1953."
+    }
+  },
+  "vezicevo-spomen-cesma-palim-u-narodnooslobodilacko": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26",
+      "ishod": "ostaje-bez-lokacije",
+      "napomena": "Originalna str. 187/PDF 94 navodi dve česme: 1953. sa 19 imena boraca NOR-a i 1954. palim meštanima. Video opisi potvrđuju dve česme, ali ne daju pouzdano prebrojavanje imena ni vezu godišta sa jednom od njih. Treća knjiška stavka ostaje nerešena, bez trećeg markera."
+    }
+  },
   "vilica-gumno-spomenik-pobjedi-3-marta-1943-godine": {
     "proveraLokacije": {
       "datum": "2026-10-20",
@@ -3017,6 +3177,14 @@
       "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 43.609797, \"lng\": 17.981612}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
     }
   },
+  "vrban-spomenik-palim-borcima": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26",
+      "ishod": "ostaje-bez-lokacije",
+      "napomena": "Isti spomenik borbi 8.10.1942, deset poginulih partizana, 1977, potvrđen knjigom str. 74/PDF 38 i terenskim tekstom Bujanovačke 9.10.2023. Tačka Wiki je nagađanje na Veterniku, ne potvrđeno mesto; bez prenosa na mapu."
+    }
+  },
   "vrbanja-spomenik-palim-borcima-nor-a-i-zft": {
     "proveraLokacije": {
       "datum": "2026-10-23",
@@ -3039,6 +3207,14 @@
       "izvor": "https://www.spomenikdatabase.org/sutjeska-monuments",
       "ishod": "potvrdjen-identitet-i-postojeca-tacka",
       "napomena": "Kataloški zapis spojen sa postojećim markerom prema konkretnoj posveti, skulpturi i mikrolokaciji. Zadržana postojeća precizna tačka objekta; koordinate parkinga nisu korišćene."
+    }
+  },
+  "vucje-spomen-cesma-u-vucju": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26",
+      "ishod": "prebacen-priblizno",
+      "napomena": "Postojeće slike pokazuju samostalnu česmu-obelisk iz 1951. i drugu figuralnu skulpturu 1959. Dve različite celine na suprotnim stranama reke/kod mosta. Wiki/mapio položaj prihvaćen kao približan, bez tvrdnje o preciznom podnožju; nije pomešana sa Teokarevićevom česmom iz članka 2023."
     }
   },
   "vukovar-sapudl-spomen-kosturnica-zrtava-fasizma": {

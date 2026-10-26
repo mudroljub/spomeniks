@@ -8,7 +8,7 @@ Raniji ciljani prolaz je završen, žetva CG zatvorena, a šira hrvatska provera
 
 Po zahtevu korisnika obrađeno je svih šest pobrojanih grupa redom. Rezultat je **21 nova precizna lokacija**: 18 ranije približnih zapisa je precizirano, dva zapisa su prešla sa spiska bez lokacije na preciznu tačku, a jedna nova bronzana bista je dodata; uz to su **36 zapisa prebačeno na mapu (34 približno, dva precizno)** i **11 duplikata spojeno**. Ove brojke se preklapaju: precizni prelasci sa spiska bez lokacije ulaze u oba zbira.
 
-Mapa sada ima **9.461 zapis**, spisak bez lokacije **3.810**, a približnih markera ima **1.259** (pre prolaza: 9.431 / 3.850 / 1.249). Veći broj približnih markera posledica je prebacivanja poznatih bisti, kuća i drugih važnijih predmeta na potvrđeno naselje, park ili ustanovu; to nisu nova precizna podnožja. Uporedna provera svih zapisa sa početnim stanjem potvrdila je da ostali zapisi nisu menjani.
+Mapa je po završetku tog prolaza imala **9.461 zapis**, spisak bez lokacije **3.810**, a približnih markera bilo je **1.259** (pre prolaza: 9.431 / 3.850 / 1.249). Veći broj približnih markera posledica je prebacivanja poznatih bisti, kuća i drugih važnijih predmeta na potvrđeno naselje, park ili ustanovu; to nisu nova precizna podnožja. Uporedna provera svih zapisa sa početnim stanjem potvrdila je da ostali zapisi nisu menjani.
 
 | Red | Skup i početna procena | Završeni obim i rezultat | Šta ostaje bez nove potvrde |
 |---|---|---|---|
@@ -21,7 +21,31 @@ Mapa sada ima **9.461 zapis**, spisak bez lokacije **3.810**, a približnih mark
 
 **Granica završenog posla:** završen je navedeni pregled svih šest grupa i probni obim novih publikacija, a ne lociranje svih 3.810 preostalih zapisa niti čitanje celog Titomenika i svih grobnih jedinica. Šira hrvatska provera i opšta žetva CG nisu ponovo otvarane. Izvori i stvarna obrađenost su u [IZVORI.md](IZVORI.md); novi precizni položaji, približni položaji, duplikati i nerešeni identiteti vode se odvojeno u dokazima.
 
-**Sledeći smisleni dokazi:** tačna današnja katastarska parcela uz fotografiju spomenika, imenovana tačka pojedinačne biste ili nova fotografija koja rešava identitet. Ponavljanje iste opšte pretrage, neimenovanog OSM čvora, centroida sela/škole i već odbijenog uparivanja nema novu vrednost. Ranija grupa 26 mogućih duplikata i sedam dvosmislenih identiteta iz odluke `rs-mk-bez-lokacije-xiwl-tacke-2026-10-21` ostaje otvorena evidencija, a ne 33 dokazana duplikata.
+**Sledeći smisleni dokazi:** tačna današnja katastarska parcela uz fotografiju spomenika, imenovana tačka pojedinačne biste ili nova fotografija koja rešava identitet. Ponavljanje iste opšte pretrage, neimenovanog OSM čvora, centroida sela/škole i već odbijenog uparivanja nema novu vrednost. Grupa 26 mogućih duplikata i sedam dvosmislenih identiteta iz odluke `rs-mk-bez-lokacije-xiwl-tacke-2026-10-21` pregledana je 26.10; ishod je u nastavku.
+
+## Provera 33 sporna identiteta — 26.10.2026.
+
+Pregledana su sva 33 početna zapisa: **11 potvrđenih duplikata je spojeno, sedam zasebnih objekata je prešlo na približne lokacije, a 15 zapisa ostaje bez lokacije**. Nema novih potvrđenih preciznih podnožja. Mapa posle ovog prolaza ima 9.469 zapisa, spisak bez lokacije 3.792; pre prolaza 9.462 / 3.810, uključujući prethodno unetu Mevludinovu ploču u Drveniku. Ostali zapisi upoređeni su sa početnim stanjem i nisu menjani. [Pojedinačni dokazi, ranije vrednosti i preostale dileme](../data/provere/lociranje.json#identiteti-33-rs-mk-2026-10-26).
+
+Spojeni su Gradina/Zlakusa, Bistrica kod Lazarevca, Gornji Dubac, Prokop u Milićevcima, česma iz 1963. u Kijevcu kod Babušnice, Vojnici, Stol, Rakliš, brajićka kosturnica, dva opisa istog obeležja u Vrbanu i česma Družetići/Kamenica. Sačuvani su postojeći ID-jevi i potvrđene tačke; uklonjeni su duplikati sa spiska bez lokacije. Ispravljeni su pogrešni naslovi sela iz preloma knjige: Vojnici nisu Valniš, Stol nije Resnik, a Šarbanovac iz 1952. pripada Knjaževcu, ne Boru. Prokop je bio pogrešno imenovan kao česma u Međuvršju. Gornjem Dupcu vraćena je muzejski potvrđena 1955, školskoj česmi u Panevlju originalno štampana 1979; Rakliš nosi datum 11.10.1987, vidljiv na obe fotografije. Dodate su fotografije Gradine i Družetića, a Raklišu preneta postojeća slika celog objekta.
+
+Na približne tačke preneti su zasebna česma u Brzohodama, bista Milana Kršljanina u Krnjevu, školska česma u Panevlju, kameni blok rodoljubima Krnjače, česma u Vučju i dve različite česme u Vezičevu. Adrese i opisi pomažu njihovom razlikovanju; tačke fotografa, školsko dvorište i procene iz snimaka nisu predstavljene kao precizna podnožja. Bliski parovi česma/spomenik u Brzohodama, česma/bista u Krnjevu i blok/bista u Krnjači evidentirani su kao različiti objekti, ne kao dozvola za druga spajanja.
+
+Preostalih 15 obrađenih zapisa traži konkretan novi dokaz:
+
+- **Selo Kosjerić, tri česme:** Dunjića kapija (1972), Lisa/Grbića glavica i Klupe na Crnokosi (1955) različiti su knjiški opisi. Lisa je jak kandidat za postojeću česmu Bara; listovi zaklanjaju ključni deo natpisa na izvornoj Wikiloc fotografiji. Pročitati ceo natpis ili potvrditi mikrotoponim pre spajanja.
+- **Vezičevo, knjiška česma iz 1953:** potvrđeno je 19 palih boraca i postojanje dve različite česme, ali nije potvrđeno kojoj pripada taj natpis; treći marker nije napravljen. Datum 1954. u oba Wiki opisa nije razlog da se sve tri stavke spoje.
+- **Donji Milanovac:** staru zajedničku grobnicu iz kataloga 1981. povezati sa spomenikom iz 1983. samo uz dokaz prenosa ili zamene; Wiki to samo pretpostavlja. Štampana 1941. uz XXV diviziju nije prihvaćena kao istorijski tačna godina.
+- **Međa kod Žitišta:** traži se njen park i spomenik dvanaestorici boraca iz 1957; prepisana Wiki tačka leži u Banatskom Dvoru i nije prihvaćena.
+- **Kijevac kod Babušnice, 1982:** posebna česma uz šumsku stazu; nema potvrde tačke. Nije česma 1963. u centru istog sela niti česma 1981. kod Surdulice.
+- **Mužinac:** traži se spomenik Dušanki Spasić iz 1954. na mestu njene pogibije na Bukoviku; opšti spomenik kod škole iz 1980. nije isti objekat.
+- **Sige:** posebna česma Jovanu Šerbanoviću iz 1951, čiji natpis upućuje 200 m južno na mesto pogibije; nije česma borcima oba rata iz 1973.
+- **Šarbanovac kod Knjaževca:** česma iz 1952. za deset streljanih pripadnika NOP-a i jednog borca; ne koristiti tačku istoimenog sela kod Bora.
+- **Gornjane:** česma iz 1977. sa dva krila i centralnim stubom traži sopstvenu identifikacionu fotografiju i podnožje; susedni blok uz crkvu nije automatski njen duplikat.
+- **Seone:** česma iz 1954. za 12 boraca i četiri žrtve nije obelisk na Orešcu podignut 1946. za pet ubijenih aktivista NOP-a.
+- **Majur kod Jagodine:** česma iz 1955. za osam vojnika Aprilskog rata i 36 boraca NOR-a nije potvrđeno povezana sa šumskom česmom/izvorom iz 1950.
+- **Brajići:** apstraktni spomenik ratnicima oba rata i žrtvama fašizma ostaje odvojen od kosturnice iz 1951; Wiki sam kaže da tačka pokazuje zaseok, ne objekat.
+- **Vrban:** dva knjiška/Wiki opisa objedinjena su u jedan zapis za borbu 8.10.1942. i spomenik iz 1977; procenjena tačka na Veterniku nije potvrđena lokacija.
 
 ## Duplikati: ispravke i otvoreni slučajevi (20.10.2026)
 

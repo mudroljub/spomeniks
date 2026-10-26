@@ -20505,10 +20505,14 @@
   {
     "id": "donji-milanovac-spomenik",
     "mesto": "Donji Milanovac",
-    "naziv": "Spomenik",
-    "vrsta": "spomen-obelezje",
+    "naziv": "Spomenik na zajedničkoj grobnici",
+    "vrsta": "groblje",
     "drzava": "Serbia",
-    "adresa": "Spomenik na zajedničkoj grobU borbama XXV divizije novj na tlu ovog kraja poginula je septembra 1941. godine grupa boraca."
+    "nazivEn": "Common Grave Memorial",
+    "opis": {
+      "sh": "Posvećeno borcima XXV divizije NOVJ sahranjenim u zajedničkoj grobnici.",
+      "en": "Dedicated to fighters of the 25th Partisan Division buried in a common grave."
+    }
   },
   {
     "id": "jasikovo-spomenik-palim-1941-1945",
@@ -21953,7 +21957,11 @@
     "godina": "1972",
     "vrsta": "spomen-cesma",
     "drzava": "Serbia",
-    "adresa": "Spomen-česma kod Dunjića kapije. Podignuta 1972. godine. Na ovom mestu aktivisti NOP-a održavali su sastanke na kojima su vršili pripreme za formiranje partizansk"
+    "adresa": "Kod Dunjića kapije",
+    "opis": {
+      "sh": "Posvećeno mestu sastanaka aktivista NOP-a koji su pripremali formiranje partizanskih jedinica. Česma je podignuta 1972.",
+      "en": "Dedicated to the meeting place of liberation movement activists preparing the formation of Partisan units. The fountain was erected in 1972."
+    }
   },
   {
     "id": "selo-kosjeric-spomen-cesma-2",
@@ -21961,7 +21969,11 @@
     "naziv": "Spomen-česma",
     "vrsta": "spomen-cesma",
     "drzava": "Serbia",
-    "adresa": "Spomen-česma na mestu zvanom Lisa gde je održan partizanski zbor 1941. godine na Grbića glavici i pozvan narod ovog kraja u borbu protiv okupatora."
+    "adresa": "Lisa, na Grbića glavici",
+    "opis": {
+      "sh": "Posvećeno partizanskom zboru održanom 1941. na Grbića glavici, gde je narod pozvan u borbu protiv okupatora.",
+      "en": "Dedicated to the 1941 Partisan gathering at Grbića glavica, where local people were called to fight the occupiers."
+    }
   },
   {
     "id": "selo-kosjeric-spomen-cesma-3",
@@ -21970,7 +21982,11 @@
     "godina": "1955",
     "vrsta": "spomen-cesma",
     "drzava": "Serbia",
-    "adresa": "Spomen-česma na mestu zvanom Klupe na Crnokosi posvećena palim 1941-1945. Podignuta 1955. godine."
+    "adresa": "Klupe na Crnokosi",
+    "opis": {
+      "sh": "Posvećeno palima 1941-1945. Česma je podignuta 1955. na mestu Klupe na Crnokosi.",
+      "en": "Dedicated to those who fell in 1941-1945. The fountain was erected in 1955 at Klupe on Crnokosa."
+    }
   },
   {
     "id": "selo-kosjeric-spomen-cesma-posvecena-svetozaru-bla",
@@ -23855,15 +23871,6 @@
     ]
   },
   {
-    "id": "zlakusa-spomenik-na-gradini",
-    "mesto": "Zlakusa",
-    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%93%D1%80%D0%B0%D0%B4%D0%B8%D0%BD%D0%B8",
-    "naziv": "Spomenik na Gradini",
-    "godina": "1950",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
-  },
-  {
     "id": "radoboj-spomen-kosturnica-nepoznatim-borcima-nor-a",
     "mesto": "Radoboj",
     "naziv": "Spomen-kosturnica nepoznatim borcima NOR-a",
@@ -24020,14 +24027,6 @@
     "drzava": "Croatia"
   },
   {
-    "id": "brzohode-spomen-cesma",
-    "mesto": "Brzohode",
-    "naziv": "Spomen-česma",
-    "godina": "1957",
-    "vrsta": "spomen-cesma",
-    "drzava": "Serbia"
-  },
-  {
     "id": "brzohode-spomenik-nob",
     "mesto": "Brzohode",
     "naziv": "Spomenik NOB",
@@ -24132,7 +24131,11 @@
     "naziv": "Spomen-česma palim borcima",
     "godina": "1982",
     "vrsta": "spomen-cesma",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "opis": {
+      "sh": "Posvećeno borcima Sedme srpske brigade i Pirotskog partizanskog odreda poginulim 23. aprila 1944. i palim borcima i žrtvama fašizma iz Kijevca kod Babušnice.",
+      "en": "Dedicated to fighters of the Seventh Serbian Brigade and Pirot Partisan Detachment killed on 23 April 1944, and to fallen fighters and victims of fascism from Kijevac near Babušnica."
+    }
   },
   {
     "id": "kloka-spomenik-nob",
@@ -24179,16 +24182,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "krnjevo-spomenik-milanu-krsljaninu",
-    "mesto": "Krnjevo",
-    "naziv": "Spomenik Milanu Kršljaninu",
-    "godina": "1945",
-    "autor": "M. Petrović",
-    "posveta": "Milanu Kršljaninu",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
-  },
-  {
     "id": "lokov-spomenik-na-padnatite-borci",
     "mesto": "Локов",
     "naziv": "Споменик на паднатите борци",
@@ -24216,7 +24209,12 @@
     "naziv": "Spomenik palim borcima",
     "godina": "1957",
     "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "adresa": "U parku u Međi kod Žitišta",
+    "opis": {
+      "sh": "Posvećeno dvanaestorici palih boraca iz Međe kod Žitišta. Spomenik je otkriven 7. jula 1957.",
+      "en": "Dedicated to twelve fallen fighters from Međa near Žitište. The monument was unveiled on 7 July 1957."
+    }
   },
   {
     "id": "opatija-spomenik",
@@ -24225,15 +24223,6 @@
     "godina": "1955",
     "vrsta": "spomen-obelezje",
     "drzava": "Croatia"
-  },
-  {
-    "id": "panevlje-spomen-cesma",
-    "mesto": "Panevlje",
-    "naziv": "Spomen-česma",
-    "godina": "1978",
-    "autor": "B. Cvetković",
-    "vrsta": "spomen-cesma",
-    "drzava": "Serbia"
   },
   {
     "id": "pasuljanske-livade-spomenik-partizanskom-odredu",
@@ -24330,28 +24319,16 @@
     "drzava": "Macedonia"
   },
   {
-    "id": "vezicevo-spomen-cesma-palim-borcima",
-    "mesto": "Vezičevo",
-    "naziv": "Spomen-česma palim borcima",
-    "godina": "1954",
-    "vrsta": "spomen-cesma",
-    "drzava": "Serbia"
-  },
-  {
-    "id": "vezicevo-spomen-cesma",
-    "mesto": "Vezičevo",
-    "naziv": "Spomen-česma",
-    "godina": "1954",
-    "vrsta": "spomen-cesma",
-    "drzava": "Serbia"
-  },
-  {
     "id": "vrban-spomenik-palim-borcima",
     "mesto": "Vrban",
     "naziv": "Spomenik palim borcima",
     "godina": "1977",
     "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "opis": {
+      "sh": "Posvećeno desetorici partizana poginulih pri proboju iz obruča nakon bugarskog napada na logor Vranjskog odreda „Sima Pogačarević“ 8. oktobra 1942.",
+      "en": "Dedicated to ten Partisans killed while breaking out of an encirclement after the Bulgarian attack on the camp of the Vranje “Sima Pogačarević” Detachment on 8 October 1942."
+    }
   },
   {
     "id": "vrbjani-spomenik",
@@ -24459,18 +24436,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "krnjaca-spomenik-rodoljubima-iz-krnjace-palim-u-os",
-    "mesto": "Krnjača",
-    "naziv": "Spomenik palim rodoljubima Krnjače",
-    "nazivEn": "Krnjača Fallen Patriots Monument",
-    "opis": {
-      "sh": "Posvećeno rodoljubima iz Krnjače palim u oslobodilačkoj borbi 1941-1945.",
-      "en": "Dedicated to patriots from Krnjača who fell in the liberation struggle in 1941-1945."
-    },
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
-  },
-  {
     "id": "cukarica-spomenik-palim-radnicima-1941-1945",
     "mesto": "Čukarica",
     "naziv": "Spomenik palim radnicima 1941-1945",
@@ -24555,13 +24520,6 @@
       "en": "The monument stands on the communal grave of Nikola Vujačić and Dimitrije Đurđević-Diša."
     },
     "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
-  },
-  {
-    "id": "bistrica-spomen-cesma-2",
-    "mesto": "Bistrica",
-    "naziv": "Spomen-česma",
-    "vrsta": "spomen-cesma",
     "drzava": "Serbia"
   },
   {
@@ -24877,7 +24835,12 @@
     "naziv": "Spomen-česma",
     "godina": "1977",
     "vrsta": "spomen-cesma",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "adresa": "Na trgu ispred crkve, uz Dom kulture",
+    "opis": {
+      "sh": "Posvećeno 24 poginula borca iz Gornjana. Česma je podignuta 1977.",
+      "en": "Dedicated to 24 fallen fighters from Gornjane. The fountain was erected in 1977."
+    }
   },
   {
     "id": "donja-bela-reka-spomen-beleg",
@@ -25103,11 +25066,15 @@
   },
   {
     "id": "sarbanovac-spomen-cesma-2",
-    "mesto": "Šarbanovac",
+    "mesto": "Šarbanovac (Knjaževac)",
     "naziv": "Spomen-česma",
     "godina": "1952",
     "vrsta": "spomen-cesma",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "opis": {
+      "sh": "Posvećeno desetorici pripadnika NOP-a koje su domaći izdajnici streljali u novembru 1942. i jednom palom borcu. Česma je podignuta 1952. u Šarbanovcu kod Knjaževca.",
+      "en": "Dedicated to ten liberation movement members executed by local collaborators in November 1942 and one fallen fighter. The fountain was erected in 1952 in Šarbanovac near Knjaževac."
+    }
   },
   {
     "id": "sesti-gabar-spomenik-palim-1941-1945",
@@ -25128,10 +25095,15 @@
   {
     "id": "muzinac-spomenik",
     "mesto": "Mužinac",
-    "naziv": "Spomenik",
+    "naziv": "Spomenik Dušanki Spasić",
     "godina": "1954",
     "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "nazivEn": "Dušanka Spasić Memorial",
+    "opis": {
+      "sh": "Posvećeno Dušanki Spasić, borkinji XXIII divizije NOVJ poginuloj u borbama na Bukoviku u avgustu 1944. Spomenik je podignut 1954. na mestu njene pogibije.",
+      "en": "Dedicated to Dušanka Spasić, a fighter of the 23rd Partisan Division killed in the fighting on Bukovik in August 1944. The monument was erected in 1954 at the place where she was killed."
+    }
   },
   {
     "id": "resnik-spomen-obelezje",
@@ -25244,14 +25216,6 @@
     "id": "bujanovac-kameni-beleg",
     "mesto": "Bujanovac",
     "naziv": "Kameni beleg",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
-  },
-  {
-    "id": "vrban-spomen-obelezje",
-    "mesto": "Vrban",
-    "naziv": "Spomen-obeležje",
-    "godina": "1977",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -25782,14 +25746,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "brajici-spomenik-zrtvama-cetnickog-terora",
-    "mesto": "Brajići",
-    "naziv": "Spomenik žrtvama četničkog terora",
-    "godina": "1951",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
-  },
-  {
     "id": "brajici-spomen-obelezje-na-drenovom-vrhu-mestu-cet",
     "mesto": "Brajići",
     "naziv": "Spomen-obeležje na Drenovom vrhu mestu četničkog zločina",
@@ -25853,14 +25809,6 @@
     "naziv": "Skulptura na postolju",
     "autor": "Živorad Maksimović",
     "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
-  },
-  {
-    "id": "kamenica-spomen-cesma-2",
-    "mesto": "Kamenica",
-    "naziv": "Spomen-česma",
-    "godina": "1967",
-    "vrsta": "spomen-cesma",
     "drzava": "Serbia"
   },
   {
@@ -26030,19 +25978,6 @@
     "naziv": "Spomenik Radomiru Vasiću i Francu Kosecu",
     "posveta": "Radomiru Vasiću i Francu Kosecu",
     "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
-  },
-  {
-    "id": "gornji-dubac-spomen-cesma-izginulim-borcima-nor-a",
-    "mesto": "Gornji Dubac",
-    "naziv": "Spomen-česma NOB",
-    "nazivEn": "Memorial fountain",
-    "opis": {
-      "sh": "Posvećeno palim borcima NOR-a i žrtvama fašističkog terora, 1941-1945.",
-      "en": "Dedicated to fallen fighters of the National Liberation War and victims of fascist terror, 1941-1945."
-    },
-    "godina": "1955",
-    "vrsta": "spomen-cesma",
     "drzava": "Serbia"
   },
   {
@@ -26289,14 +26224,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "milicevci-spomen-obelezje",
-    "mesto": "Milićevci",
-    "naziv": "Spomen-obeležje",
-    "autor": "Nj. Vojnović",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
-  },
-  {
     "id": "preljina-spomenik-palim-borcima-za-slobodu-1941-19",
     "mesto": "Preljina",
     "naziv": "Spomenik palim borcima za slobodu 1941-1945",
@@ -26365,22 +26292,6 @@
     },
     "autor": "D. Bogdanović",
     "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
-  },
-  {
-    "id": "kijevac-spomen-cesma-3",
-    "mesto": "Kijevac",
-    "naziv": "Spomen-česma",
-    "godina": "1963",
-    "vrsta": "spomen-cesma",
-    "drzava": "Serbia"
-  },
-  {
-    "id": "resnik-spomen-cesma-pog-inulim-borcima-na-frontu-o",
-    "mesto": "Resnik",
-    "naziv": "Spomen-česma",
-    "godina": "1949",
-    "vrsta": "spomen-cesma",
     "drzava": "Serbia"
   },
   {
@@ -27285,7 +27196,11 @@
     "naziv": "Spomen-česma „Palim borcima i žrtvama fašističkog terora“",
     "godina": "1954",
     "vrsta": "spomen-cesma",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "opis": {
+      "sh": "Posvećeno dvanaestorici boraca poginulih 1944. i četirima žrtvama fašizma. Česma je podignuta 1954.",
+      "en": "Dedicated to twelve fighters killed in 1944 and four victims of fascism. The fountain was erected in 1954."
+    }
   },
   {
     "id": "seone-spomen-obelezje-na-madzarskoj-ravni",
@@ -27377,10 +27292,15 @@
   {
     "id": "sige-spomen-cesma-2",
     "mesto": "Sige",
-    "naziv": "Spomen-česma",
+    "naziv": "Spomen-česma Jovanu Šerbanoviću",
     "godina": "1951",
     "vrsta": "spomen-cesma",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "nazivEn": "Jovan Šerbanović Memorial Fountain",
+    "opis": {
+      "sh": "Posvećeno Jovanu Šerbanoviću, poginulom 1944. Natpis česme iz 1951. navodi da je mesto njegove pogibije 200 metara južno od česme.",
+      "en": "Dedicated to Jovan Šerbanović, killed in 1944. The inscription on the 1951 fountain states that the place where he was killed lies 200 metres south of the fountain."
+    }
   },
   {
     "id": "kucevo-spomen-kuca",
@@ -28630,7 +28550,11 @@
     "naziv": "Spomen-česma",
     "godina": "1955",
     "vrsta": "spomen-cesma",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "opis": {
+      "sh": "Posvećeno osmorici vojnika poginulih u Aprilskom ratu 1941. i 36 palih boraca NOR-a. Česma je podignuta 1955.",
+      "en": "Dedicated to eight soldiers killed in the April War of 1941 and 36 fallen Partisan fighters. The fountain was erected in 1955."
+    }
   },
   {
     "id": "milosevo-spomen-beleg",
@@ -29776,18 +29700,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "vucje-spomen-cesma-u-vucju",
-    "mesto": "Vučje",
-    "wiki": "https://sr.wikipedia.org/wiki/Спомен-чесма_у_Вучју",
-    "naziv": "Spomen-česma u Vučju",
-    "godina": "1951",
-    "vrsta": "spomen-cesma",
-    "drzava": "Serbia",
-    "slika": "slike/bez-lokacije/vucje-spomen-cesma-u-vucju.webp",
-    "slikaPotpis": "Omladinskiklubanciki, CC BY-SA 4.0",
-    "slikaOdnos": 0.667
-  },
-  {
     "id": "ozrem-spomenik",
     "mesto": "Ozrem",
     "naziv": "Spomenik",
@@ -30258,15 +30170,6 @@
     "adresa": "Spomen-dom na čijoj se fasadi nalazi ploča s natpisom: „Ovaj dom podig oše građani Loboderčani leta 1970. i posvetišeratnicima palim za slobodu domovine 1914-19"
   },
   {
-    "id": "valnis-spomen-cesma-3",
-    "mesto": "Valniš",
-    "naziv": "Spomen-česma",
-    "godina": "1966",
-    "vrsta": "spomen-cesma",
-    "drzava": "Serbia",
-    "adresa": "Spomen-česma u centru naselja „Palim borcima sela Vojnici u prvom svetskom ratu od 19121918. Godine i žrtvama palim u drugom svetskom ratu od 1941. do 1945. “ Iz"
-  },
-  {
     "id": "leskovica-spomenik-na-golubinjaku-posvecen-uspomen",
     "mesto": "Leskovica",
     "naziv": "Spomenik streljanim rodoljubima na Golubinjaku",
@@ -30446,13 +30349,12 @@
     "naziv": "Spomen-česma palima u NOR-u",
     "nazivEn": "Memorial fountain to the fallen in the liberation war",
     "opis": {
-      "sh": "Posvećeno palima u narodnooslobodilačkom ratu 1941-1945.",
-      "en": "Dedicated to those who fell in the People’s Liberation War in 1941-1945."
+      "sh": "Posvećeno devetnaestorici boraca iz sela palih u Narodnooslobodilačkom ratu 1941-1945. Prema katalogu iz 1981, česma je podignuta 1953.",
+      "en": "Dedicated to nineteen villagers killed in the Partisan liberation war of 1941-1945. According to the 1981 catalogue, the fountain was erected in 1953."
     },
     "godina": "1953",
     "vrsta": "spomen-cesma",
-    "drzava": "Serbia",
-    "adresa": "Spomen-česma „Palim u narodnooslobodilačkom ratu 19411945. “ Izgrađena 1953. godine. Na zidu česme su imena devetnaest pog inulih boraca iz sela."
+    "drzava": "Serbia"
   },
   {
     "id": "vitovnica-spomenik-palim-borcima-od-1941-1945",
@@ -39253,17 +39155,6 @@
     "vrsta": "bista",
     "drzava": "Macedonia",
     "slika": "slike/bez-lokacije/raklis-bista-na-ilija-aleksov.webp",
-    "slikaPotpis": "Kiril Simeonovski, CC BY-SA 4.0",
-    "slikaOdnos": 0.75
-  },
-  {
-    "id": "raklis-spomenik-na-nob",
-    "mesto": "Раклиш",
-    "naziv": "Споменик на НОБ",
-    "nazivEn": "WWII Monument",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Macedonia",
-    "slika": "slike/bez-lokacije/raklis-spomenik-na-nob.webp",
     "slikaPotpis": "Kiril Simeonovski, CC BY-SA 4.0",
     "slikaOdnos": 0.75
   },
