@@ -14,6 +14,32 @@ DRZAVE = {'Slovenia', 'Croatia', 'Bosnia and Herzegovina', 'Serbia', 'Montenegro
 POZNATA = set(REDOSLED)
 # Ranije proverene celine i pojedinacna obelezja na istoj lokaciji.
 POZNATI_BLISKI_PAROVI = {frozenset(par) for par in [
+    # Pojedinačno imenovane biste u prilepskoj Aleji heroja, zasebna bista uz
+    # kosturnicu na Palama i bista u parku Vide Jocić (lociranje, 23.10.2026).
+    ('valjevo-park-vide-jocic', 'valjevo-bista-milice-pavlovic-dare'),
+    ('pale-spomen-kosturnica-boraca-s-pala-i-okoline-sa', 'pale-bista-milana-simovica'),
+    ('prilep-bista-na-ile-igeski-cvetan', 'prilep-bista-na-kire-gavriloski-jane'),
+    ('prilep-bista-na-ile-igeski-cvetan', 'prilep-bista-na-borka-taleski'),
+    ('prilep-bista-na-ile-igeski-cvetan', 'prilep-bista-na-orde-copela'),
+    ('prilep-bista-na-ile-igeski-cvetan', 'prilep-mogila-bista-na-kuzman-josifovski-pitu'),
+    ('prilep-bista-na-lazo-filiposki-lavski', 'prilep-bista-na-borka-veleski-levata'),
+    ('prilep-bista-na-lazo-filiposki-lavski', 'prilep-bista-na-krume-volnaroski'),
+    ('prilep-bista-na-lazo-filiposki-lavski', 'prilep-mogila-bista-na-rampo-levkov'),
+    ('prilep-bista-na-kire-gavriloski-jane', 'prilep-bista-na-borka-taleski'),
+    ('prilep-bista-na-kire-gavriloski-jane', 'prilep-bista-na-orde-copela'),
+    ('prilep-bista-na-borka-taleski', 'prilep-bista-na-orde-copela'),
+    ('prilep-bista-na-borka-taleski', 'prilep-mogila-bista-na-kuzman-josifovski-pitu'),
+    ('prilep-bista-na-borka-veleski-levata', 'prilep-bista-na-krume-volnaroski'),
+    ('prilep-bista-na-borka-veleski-levata', 'prilep-mogila-bista-na-kuzman-josifovski-pitu'),
+    ('prilep-bista-na-borka-veleski-levata', 'prilep-mogila-bista-na-rampo-levkov'),
+    ('prilep-bista-na-krume-volnaroski', 'prilep-mogila-bista-na-rampo-levkov'),
+    ('prilep-bista-na-orde-copela', 'prilep-mogila-bista-na-kuzman-josifovski-pitu'),
+    ('prilep-mogila-bista-na-kuzman-josifovski-pitu', 'prilep-mogila-bista-na-rampo-levkov'),
+    ('prilep-bista-na-lazo-filiposki-lavski', 'prilep-mogila-bista-na-mirce-acev'),
+    ('prilep-bista-na-borka-taleski', 'prilep-mogila-bista-na-mirce-acev'),
+    ('prilep-bista-na-borka-veleski-levata', 'prilep-mogila-bista-na-mirce-acev'),
+    ('prilep-mogila-bista-na-kuzman-josifovski-pitu', 'prilep-mogila-bista-na-mirce-acev'),
+    ('prilep-mogila-bista-na-rampo-levkov', 'prilep-mogila-bista-na-mirce-acev'),
     ('nis', 'nis-spomen-park-bubanj'),
     ('senturska-gora-grob-franca-dobovska', 'senturska-gora-druzinski-grob-avzvakarjevih'),
     ('senturska-gora-grob-franca-dobovska', 'senturska-gora-grob-franca-anzica'),
