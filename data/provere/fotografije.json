@@ -27170,11 +27170,7 @@
       "valjevo-bista-milosa-dudica",
       "zrenjanin-spomenik-streljanim-rodoljubima"
     ],
-    "preostaloFotografija": [
-      "jasenak-spomenik-narodnooslobodilacke-borbe",
-      "radanovci-mesto-pogibije-zikice-jovanovica-spanca",
-      "sremski-mihaljevci"
-    ],
+    "preostaloFotografija": [],
     "ogranicenja": "Sličnost ne otkriva pogrešnu fotografiju ako se ne ponavlja u bazi. Današnji opstanak svih spomenika nije proveren; nepoznat datum fotografije nije zamenjen datumom objave ili preuzimanja.",
     "provere": {
       "integritet": "prošao, 9467 zapisa; 98 poznatih bliskih parova",
@@ -27191,6 +27187,154 @@
       },
       "testovi": "Nisu pokretani, po odluci korisnika od 20.10.2026.",
       "poredjenjeBaznogStanja": "Ostali zapisi i postojeće koordinate/Google mesta sačuvani; samo izdvojeni seoski spomenik dobio je novu približnu tačku."
+    },
+    "nastavakFotografija": "data/provere/fotografije.json#fotografije-zamene-tri-2026-10-26"
+  },
+  "fotografije-zamene-tri-2026-10-26": {
+    "datum": "2026-10-26",
+    "obuhvat": "Tri preostala zapisa bez fotografije iz provere identiteta; sva tri dobila odgovarajuću fotografiju. Nisu korišćene Google fotografije, generisane slike ni uklanjanje ljudi sa kadrova.",
+    "brojevi": {
+      "pregledanoZapisa": 3,
+      "dodatoFotografija": 3,
+      "preostalo": 0,
+      "promenjenoKoordinata": 0,
+      "novihMarkera": 0
+    },
+    "stavke": {
+      "radanovci-mesto-pogibije-zikice-jovanovica-spanca": {
+        "pre": {
+          "id": "radanovci-mesto-pogibije-zikice-jovanovica-spanca",
+          "koordinate": {
+            "lat": 44.0898867,
+            "lng": 19.8447188
+          },
+          "mesto": "Radanovci",
+          "adresa": "Kameni obelisk sa petokrakom na uzvišenju severoistočno od novijeg spomen-parka",
+          "naziv": "Mesto pogibije Žikice Jovanovića - Španca",
+          "nazivEn": "Site of the Death of Žikica Jovanović Španac",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        },
+        "promene": {
+          "slika": "slike/spomenici/radanovci-mesto-pogibije-zikice-jovanovica-spanca.webp",
+          "slikaOdnos": 0.75,
+          "slikaPotpis": "Zastitimo Dobrinju i Okolinu, Facebook"
+        },
+        "dokaz": {
+          "fajl": "radanovci-fb.jpg",
+          "potpis": "Zastitimo Dobrinju i Okolinu, Facebook",
+          "url": "https://www.facebook.com/photo/?fbid=961266119526555&set=pcb.961266356193198",
+          "datumObjave": "2025-03-29",
+          "datumSnimanja": null,
+          "dokaz": "Ceo kameni obelisk sa petokrakom, crnom pločom i kovanom ogradom, bez ljudi. Oblik, raspored kamenih blokova i ograda odgovaraju ranije pregledanim terenskim kadrovima sa Wikiloca; nije bronzana figura u novijem parku.",
+          "slikaUrl": "https://scontent-sof1-1.xx.fbcdn.net/v/t39.30808-6/487159847_961266126193221_8516587581833178846_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s1200x1600&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=JgihgSOaCxEQ7kNvwFuoIp2&_nc_oc=AdpHzvT_Lx7nS8xwfppdQCdVHbOG3_AhQ_FcXpn-0-AdherJemc4U7jMiyts6IANeFM&_nc_zt=23&_nc_ht=scontent-sof1-1.xx&_nc_gid=RE-ZntJg0C_YeSYDFq0wdw&_nc_ss=7e289&oh=00_AQNH90hjqE873l5jQ9zoSeDRjTrtBRrtIRDI9Wt4Hvq4Yw&oe=6AE52260",
+          "licenca": null,
+          "napomenaLicence": "Nije navedena otvorena licenca; mala rezolucija uz izvor po pravilu projekta."
+        }
+      },
+      "jasenak-spomenik-narodnooslobodilacke-borbe": {
+        "pre": {
+          "id": "jasenak-spomenik-narodnooslobodilacke-borbe",
+          "koordinate": {
+            "lat": 45.2086771,
+            "lng": 15.0296479
+          },
+          "mesto": "Jasenak",
+          "adresa": "Na križanju cesta Jasenak–Drežnica i Novi Vinodolski",
+          "naziv": "Spomenik Narodnooslobodilačke borbe",
+          "nazivEn": "WWII Monument",
+          "opis": {
+            "sh": "Kameno obeležje partizanskim akcijama protiv italijanskih snaga 5. i 16. septembra 1941. Obnovljeno je 2011. godine.",
+            "en": "A stone memorial to Partisan actions against Italian forces on 5 and 16 September 1941. It was restored in 2011."
+          },
+          "vrsta": "spomen-obelezje",
+          "drzava": "Croatia"
+        },
+        "promene": {
+          "godina": "1952",
+          "opis": {
+            "sh": "Kameno obeležje partizanskim akcijama protiv italijanskih snaga u septembru 1941. Obnovljeno je 2011. godine.",
+            "en": "A stone memorial to Partisan actions against Italian forces in September 1941. It was restored in 2011."
+          },
+          "slika": "slike/spomenici/jasenak-spomenik-narodnooslobodilacke-borbe.webp",
+          "slikaOdnos": 0.857,
+          "slikaPotpis": "Bajmok Dreznica, Facebook"
+        },
+        "dokaz": {
+          "fajl": "jasenak-fb.jpg",
+          "potpis": "Bajmok Dreznica, Facebook",
+          "url": "https://www.facebook.com/photo/?fbid=631318284522317&set=a.115149959472488",
+          "datumObjave": "2021-09-18",
+          "datumSnimanja": null,
+          "dokaz": "Ceo kameni spomenik sa trouglastim vrhom. Natpis potvrđuje akcije protiv italijanskih snaga i podizanje 12.10.1952; datum druge akcije na ploči je 15.IX.1941, za razliku od 16.9. u SABH biltenu. Na javnoj stranici je fotografija dostupna bez prijavljivanja; raniji običan HTTP odgovor davao je samo okvir stranice. Datum iz CDN imena nije proglašen datumom snimanja.",
+          "slikaUrl": "https://scontent-sof1-2.xx.fbcdn.net/v/t39.30808-6/471330945_1351951855792286_8368928915712144460_n.jpg?stp=dst-jpg_tt6&cstp=mx600x800&ctp=s600x800&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7daXcEfjbskQ7kNvwG309e9&_nc_oc=Adq8MKa33un0KFyLBrjWyNJDePkKk6yYu9v6gCPjUm6gDLxjWimXifCMWcKHaNK0tnI&_nc_zt=23&_nc_ht=scontent-sof1-2.xx&_nc_gid=IUA3OOTBrK-CC1-7ZRFMaw&_nc_ss=7e289&oh=00_AQMgr093HXaZRXM_LfZoANVfgJ-Bg31p_J56fX2XafD7sw&oe=6AE50409",
+          "licenca": null,
+          "napomenaLicence": "Nije navedena otvorena licenca; mala rezolucija uz izvor po pravilu projekta."
+        }
+      },
+      "sremski-mihaljevci": {
+        "pre": {
+          "id": "sremski-mihaljevci",
+          "koordinate": {
+            "lat": 44.8392867,
+            "lng": 20.0505239
+          },
+          "googleCid": "6904417933873319493",
+          "mesto": "Sremski Mihaljevci",
+          "adresa": "U ataru, južno od sela; odvojeno od spomenika kod pošte",
+          "naziv": "Spomenik NOR-u – Posavski partizanski odred",
+          "nazivEn": "WWII Monument – Posavina Partisan Detachment",
+          "posveta": [
+            "Q11161272"
+          ],
+          "vrsta": "spomen-park",
+          "drzava": "Serbia"
+        },
+        "promene": {
+          "mesto": "Karlovčić",
+          "adresa": "Uz put prema Sremskim Mihaljevcima, severno od sela",
+          "posveta": null,
+          "opis": {
+            "sh": "Park sa dva obeležja: pločom o formiranju Posavskog odreda u Donjem Sremu i kamenom posvećenim Vladi Obradoviću Kamenom i još petoro boraca poginulih 2. juna 1944.",
+            "en": "A park with two memorials: a plaque marking the formation of the Posavina Detachment in Lower Srem and a stone dedicated to Vlada Obradović Kameni and five other fighters killed on 2 June 1944."
+          },
+          "slika": "slike/spomenici/sremski-mihaljevci.webp",
+          "slikaOdnos": 1.498,
+          "slikaPotpis": "Nenad Glišić, Moja Vojvodina, moj dom"
+        },
+        "dokaz": {
+          "fajl": "park-fb-1.jpg",
+          "potpis": "Nenad Glišić, Moja Vojvodina, moj dom",
+          "url": "https://www.facebook.com/photo/?fbid=698363570209425&set=a.698362730209509",
+          "datumObjave": "2014-04-25",
+          "datumSnimanja": "2014-03",
+          "dokaz": "Pregled cele celine sa dva obeležja, bez ljudi: beli stub sa pločom o formiranju Posavskog odreda i prirodna stena sa pločom za šest poginulih 2.6.1944. Autor i mesec su u izvornom potpisu fotografije; identitet fotografa i stranice potvrđuje intervju 013info iz 2018. Natpis i položaj odgovaraju opštinskim fotografijama iz 2022. i sačuvanom Wiki opisu, oko 8 m od postojeće tačke.",
+          "slikaUrl": "https://scontent-sof1-2.xx.fbcdn.net/v/t39.30808-6/545285077_24635128096106304_888253178369340805_n.jpg?stp=dst-jpg_tt6&cstp=mx640x427&ctp=s640x427&_nc_cat=111&ccb=1-7&_nc_sid=cf85f3&_nc_ohc=fMRjTFGtR3cQ7kNvwHnDDOZ&_nc_oc=AdqbbSDmmeE7joYjI9Wvqxaft5zKvnTyhB6UVkTjcW9FOrXW9LTvH9bSU-bFZXXNalc&_nc_zt=23&_nc_ht=scontent-sof1-2.xx&_nc_gid=ZNy3_nPU9eaWcvjui53cvA&_nc_ss=7e289&oh=00_AQOMejbulOlBLM3WA9Y8WmHA1i6IRZbXRNX2sJ0pr2yAGg&oe=6AE505BF",
+          "licenca": null,
+          "napomenaLicence": "Nije navedena otvorena licenca; mala rezolucija uz izvor po pravilu projekta."
+        },
+        "dopunskiIzvori": [
+          "https://www.pecinci.org/info/aktuelno.10.html?idvest=16490",
+          "https://www.pecinci.org/info/aktuelno.10.html?idvest=22610",
+          "https://www.facebook.com/photo/?fbid=698363603542755&set=a.698362730209509",
+          "https://www.facebook.com/photo/?fbid=698363620209420&set=a.698362730209509",
+          "https://013info.rs/pancevo/drustvo/putujuci-fotograf-nenad-glisic-75-godisnjak-koji-zeli-da-sacuva-vojvodinu/",
+          "https://sh.wikipedia.org/wiki/Posavski_partizanski_odred"
+        ],
+        "ispravkaPosvete": "Uklonjena Q11161272: njen članak vodi na odred Koče Popovića u Srbiji 1941, a natpis konkretnog parka govori o odredu Donjeg Srema 1942. Zamenjeno konkretnim dvojezičnim opisom, bez menjanja zajedničke stavke posvete koju koriste drugi zapisi. Opštinski izvori i terenski opis smeštaju park kod Karlovčića; ID i postojeća tačka ostaju."
+      }
+    },
+    "provereno": {
+      "ostaliZapisiNepromenjeni": true,
+      "tackeGoogleMestaIStanjaSacuvani": true
+    },
+    "provere": {
+      "integritet": "Prošao, 9467 zapisa; samo ranije poznati bliski parovi.",
+      "diffCheck": "Prošao.",
+      "slike": "Tri slike 400 px, pravilno orijentisane, očišćene i sa obnovljenim sličicama; slikaOdnos proveren.",
+      "prikaz": "Svih 3 zapisa na telefonu 390×844, sh i en, 6 snimaka, bez grešaka.",
+      "poredjenje": "Samo nameravana polja tri zapisa; sva postojeća mesta na mapi, Google CID, stanja i ostali zapisi sačuvani.",
+      "testovi": "Nisu pokretani po odluci korisnika od 20.10.2026."
     }
   }
 }
