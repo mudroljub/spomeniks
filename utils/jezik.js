@@ -162,4 +162,6 @@ const drzave = {
   Slovenia: 'Slovenija',
 }
 
-export const nazivDrzave = drzava => jezik === 'sh' ? drzave[drzava] || drzava : drzava
+export const domaciNazivDrzave = drzava => drzave[drzava] || drzava
+
+export const nazivDrzave = drzava => jezik === 'sh' ? domaciNazivDrzave(drzava) : drzava

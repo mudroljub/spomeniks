@@ -171,7 +171,7 @@ nacrtano.then(() => {
     if (spremni) osveziRutu()
   })
   ucitajDodatak('data/detalji.json', {}).then(detalji => dodajDopune({detalji}))
-  if (jezik === 'en') ucitajDodatak('data/prevodi-en.json', {}).then(prevodi => dodajDopune({prevodi}))
+  ucitajDodatak('data/prevodi-en.json', {}).then(prevodi => dodajDopune({prevodi}))
 })
 addEventListener('hashchange', () => otvoriIzLinka(sveStavke))
 ucitajSpomenike('data/spomenici-istaknuti.json')

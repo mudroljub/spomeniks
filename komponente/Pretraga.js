@@ -1,8 +1,8 @@
 // @ts-check
 import Filteri from './Filteri.js'
 import {mapa} from '../klase/mapa.js'
-import {normalizuj, nazivSpomenika} from '../utils/helpers.js'
-import {t, nazivDrzave} from '../utils/jezik.js'
+import {normalizuj} from '../utils/helpers.js'
+import {t, domaciNazivDrzave} from '../utils/jezik.js'
 
 const style = document.createElement('style')
 style.textContent = `
@@ -137,8 +137,9 @@ const najmanjeSlova = 2
 
 const praviTekst = spomenik => normalizuj([
   ...polja.map(polje => spomenik[polje] || ''),
-  nazivSpomenika(spomenik),
-  nazivDrzave(spomenik.drzava),
+  spomenik.naziv || '',
+  spomenik.nazivEn || '',
+  domaciNazivDrzave(spomenik.drzava),
 ]
   .join(' ')
   .replace(/<[^>]*>/g, ''))
