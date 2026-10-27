@@ -33,10 +33,10 @@
   },
   "banatski-despotovac-spomen-park": {
     "proveraLokacije": {
-      "datum": "2026-10-23",
-      "izvor": "Sačuvani OSM/Wiki podaci i pojedinačni dokazi u lociranje.json#lociranje-prioriteti-2026-10-23-3-vazniji",
+      "datum": "2026-10-27",
+      "izvor": "data/provere/lociranje.json#lociranje-proba-pet-2026-10-27",
       "ishod": "bez-nove-potvrde",
-      "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 45.36445, \"lng\": 20.66286}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
+      "napomena": "Trg Dušana Ćubića je potvrđen adresarom grada i terenskim člankom iz avgusta 2025, ali tačno mesto memorijala nije potvrđeno. Prvi Google rezultat je park Dušana Jovanovića u Beogradu, odbijen. Drugi vraća generičke spomenike iz više mesta, a satelit trga ne identifikuje pouzdano niz ploča i bistu sa naše fotografije. Sačuvani despotovac.png i despotovac-lokalno.png; marker nije pomeran."
     }
   },
   "banja-luka-spomenik-radnicima-fabrike-duhana-palim": {
@@ -631,6 +631,14 @@
       "napomena": "GPS Muzeja Kozare i fotografija potvrđuju Gornje Orlovce; raniji opis Donjih Orlovaca prenet na marker kalata."
     }
   },
+  "donji-vrbljani-spomen-kompleks": {
+    "proveraLokacije": {
+      "datum": "2026-10-27",
+      "izvor": "data/provere/lociranje.json#lociranje-drugih-pet-2026-10-27",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Terenski izvor razlikuje kompleks kod škole Desanka Maksimović u Donjim Vrbljanima od spomenika u Ulici Rade Jovanića u Gornjem Ribniku. Google kandidat 44.4183363,16.8196654 pripada potonjem i odbijen je. Potrebna je potvrđena tačka školskog kompleksa; ništa nije pomerano."
+    }
+  },
   "dragocaj-spomenik-palim-borcima-i-zrtvama": {
     "proveraLokacije": {
       "datum": "2026-10-20",
@@ -928,6 +936,30 @@
       "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 44.02432, \"lng\": 20.46004}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
     }
   },
+  "gornji-milanovac-spomenik-na-zajednickoj-grobnici": {
+    "proveraLokacije": {
+      "datum": "2026-10-27",
+      "izvor": "data/provere/lociranje.json#lociranje-proba-pet-2026-10-27",
+      "ishod": "suzena-priblizna-lokacija",
+      "napomena": "Muzej potvrđuje dve susedne identične kosturnice u zajedničkoj ogradi. Tačka je sužena sa opšteg položaja parka na potvrđenu zajedničku celinu, ali priblizno ostaje true: nije nezavisno potvrđeno koje je podnožje takovske kosturnice. Godina 1956. ostaje, dodat muzejski potvrđen autor. Google rezultat kod Požarevca je odbijen."
+    }
+  },
+  "gornji-milanovac-spomenik-na-zajednickoj-grobnici-2": {
+    "proveraLokacije": {
+      "datum": "2026-10-27",
+      "izvor": "data/provere/lociranje.json#lociranje-proba-pet-2026-10-27",
+      "ishod": "precizirano",
+      "napomena": "Pojedinačni Google karton imenuje kosturnicu palih crvenoarmejaca na Brdu mira; satelitski prikaz i fotografija ograde sa granatama odgovaraju zajedničkoj celini dve kosturnice opisanoj u muzeju. Nije gradsko groblje ili Norveška kuća. Muzej izričito daje 1962. i Desimira Žižovića Buina za kosturnice; ranija 1956. i Živorad Maksimović bili su pogrešno preneti. Maksimovićev spomenik internircima iz 1973. je drugo delo. Sačuvani crvenoarmejci-karton.png i crvenoarmejci-potvrda.png."
+    }
+  },
+  "gornji-milanovac-spomenik-takovskim-internircima-u": {
+    "proveraLokacije": {
+      "datum": "2026-10-27",
+      "izvor": "data/provere/lociranje.json#lociranje-proba-pet-2026-10-27",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Muzej potvrđuje bronzani spomenik Živorada Maksimovića iz 1973, koji prikazuje naša fotografija, i razlikuje ga od zasebnog betonskog memorijala 33 Takovcima. Google vraća park, muzeje i Norvešku kuću; nijedan rezultat nije pojedinačna bronzana skulptura. Tačka celog parka nije proglašena podnožjem. Sačuvan internirci.png; marker nije pomeran."
+    }
+  },
   "gornji-vitkovci-spomenik-palim-borcima": {
     "proveraOpstanka": {
       "datum": "2026-10-20",
@@ -1104,6 +1136,14 @@
       "izvor": "https://registar.kulturnadobra.hr/",
       "ishod": "Spojen potvrđeni duplikat",
       "napomena": "Zadržan ivanovic-jarak-spomenik-zrtvama-fasistickog-terora; dokaz i prethodna polja u izveštaju paketa."
+    }
+  },
+  "izbista-spomen-park": {
+    "proveraLokacije": {
+      "datum": "2026-10-27",
+      "izvor": "data/provere/lociranje.json#lociranje-drugih-pet-2026-10-27",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Sačuvana Wiki stranica izričito označava tačku kao procenu prema drugom, neratnom objektu. Google opšti rezultat je Sečanica kod Niša, a stari CID 9563289780052591285 ne otvara potvrđen karton memorijala. Bez nezavisne fotografije i tačke ništa nije pomerano."
     }
   },
   "jabuka-bista-dragana-kovacevica": {
@@ -1636,6 +1676,22 @@
       "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 44.22533, \"lng\": 20.23994}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
     }
   },
+  "ljubljana-spomenik-ustanovitvi-vos-of": {
+    "proveraLokacije": {
+      "datum": "2026-10-27",
+      "izvor": "data/provere/lociranje.json#lociranje-drugih-pet-2026-10-27",
+      "ishod": "precizirano",
+      "napomena": "EŠD 5683, terenski opis i postojeća fotografija uspravnog kamenog bloka potvrđuju isti spomenik na uglu Medvedove i Frankopanske. Koordinate Partizanstva i izvedenog registra razlikuju se manje od 2 m. Preuzeta tačka Partizanstva zaokružena na 7 decimala; gradski akt potvrđuje Medvedovu. Godina 1979. je godina podizanja, a 1941. osnivanja službe. Google opšti rezultati nisu korišćeni."
+    }
+  },
+  "logatec-spominsko-znamenje-zrtvama-crne-roke-pri-j": {
+    "proveraLokacije": {
+      "datum": "2026-10-27",
+      "izvor": "data/provere/lociranje.json#lociranje-drugih-pet-2026-10-27",
+      "ishod": "duplikat-spojen",
+      "napomena": "EŠD 21519, ime žrtava, ponor Jačka, kamena piramida, crvena zvezda i ploča potvrđuju isti objekat. Zadržani postojeći precizan ID, tačka i 1957. godina. Tačka Partizanstva je oko 28 m od postojeće i nije preuzeta. Postojeća slika preciznog zapisa je jednobojni sivi kadar; zamenjena je korisnom fotografijom szerenke iz duplikata, uz prenet potpis. Datum ubistva nije upisan zbog neslaganja 23. marta i 4. aprila u izvoru. Fotografija ne potvrđuje današnje stanje."
+    }
+  },
   "lokva-rogoznica-spomenik-palim-borcima": {
     "proveraLokacije": {
       "datum": "2026-10-23",
@@ -2001,6 +2057,14 @@
       "datum": "2026-10-20",
       "izvor": "https://www.spomenicinob.info/milici",
       "ishod": "Nema potvrđene adrese ni konkretne tačke. Katalog i dodatne mrežne pretrage nisu potvrdili objekat na ranijem približnom markeru."
+    }
+  },
+  "novi-becej-spomenik-palim-borcima-nob": {
+    "proveraLokacije": {
+      "datum": "2026-10-27",
+      "izvor": "data/provere/lociranje.json#lociranje-drugih-pet-2026-10-27",
+      "ishod": "dopunjeno-bez-preciziranja",
+      "napomena": "Duranci 1988, odrednica za Novi Bečej 1984, potvrđuje arhitektu Milorada Berbakova, naziv Cvet jedinstva, pet latica i park ispod nasipa uz spomenik crvenoarmejcima; oblik odgovara postojećoj fotografiji. Približna tačka ostaje: na satelitskom snimku objekat nije pouzdano identifikovan u krošnjama. Google rezultat iz Bečeja je drugi grad, a pretraga naziva vraća nepovezane objekte."
     }
   },
   "novi-beograd-bista-zarka-zrenjanina": {
@@ -3300,10 +3364,10 @@
   },
   "zrenjanin-spomen-park-na-bagljasu": {
     "proveraLokacije": {
-      "datum": "2026-10-23",
-      "izvor": "Sačuvani OSM/Wiki podaci i pojedinačni dokazi u lociranje.json#lociranje-prioriteti-2026-10-23-3-vazniji",
-      "ishod": "bez-nove-potvrde",
-      "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 45.383639, \"lng\": 20.364796}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [{\"naslov\": \"Zrenjanin - Spomen-Park Na Bagljašu\", \"tekst\": \"{{Spomenik Page Header\\n |  Spomenik Name = \\n | Header Picture = ZrenjaninSpomenParkBagljas05.jpg\\n}}\\n\\n= Basic Info =\\n{{Spomenik\\n |        Name = Spomen-Park Na Bagljašu\\n |    Location = [[Zrenjanin]]\\n | Municipality = Zrenjanin\\n | Adm. Entity = Central Banat District\\n |     Country = Serbia\\n |      Coords = 45.3836393,20.3647956\\n |       Image = ZrenjaninSpomenParkBagljas04.jpg\\n |        Size = ca. 12-15m tall\\n |    Material = Concrete\\n |       Style = Abstract\\n |   Condition = neglected\\n |    Designer = Aleksandar Milovanov\\n |       Built = 1954\\n | Interesting = Medium\\n |   Reference = www.zrenjaninheritage.com/archives/5043\\n}}\\n== Notes ==\\n* The memorial park is located in the part of the city called \\\"Bagljaš\\\", in the street on January 9th. It is made by the \\\"memorial-crypt\\\" for the Red Army and the Monument to the Victims of the Fascist Terror.\\n** Both monuments were designed by the architects [[Aleksandar Milovanov]] and [[Aleksandar Petricic]]. \\n** The monument to the victims of fascism was erected already in 1945 according to the main reference, according to [https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf this 1981 source, p.260] it dates to 1954, which because of the design seems more likely\\n** The memorial crypt for the Red Army was completed in 1962. The remains, originally buried at the memorial [[Zrenjanin - Žitni Trg]], were placed here.\\n\\n<br><br>\\n\\n= Physical aspects: Objects, Style, Shape & Materials =\\n\\n== Objects ==\\n\\n{{Object Table\\n | Custom Caption = \\n | Table Rows =\\n{{Object Row\\n |           Image = ZrenjaninSpomenParkBagljas04.jpg\\n |     Object Name = Monument to the Victims of Fascism\\n |     Description = Rectangular concrete obelisk flanked by two stone columns, on a cemented stone slab\\n |            Size = ca. 12-15m tall\\n |       Condition = nwglected\\n |        Material = Concrete\\n |           Notes = in front of the obelisk is an engraved black granite plate displaying the name of the monument and names of the victims. All the objects are placed on a platform with steps\\n}}\\n{{Object Row\\n |           Image = ZrenjaninSpomenParkBagljas05.jpg\\n |     Object Name = Crypt for Fallen Fighters of the Red Army\\n |     Description = Concrete tomb with two pointed wing walls. Above the mound on the profiled concrete foundation stands a stylized Russian hat of \\\"ear\\\".\\n |            Size = ca. 5m wide\\n |       Condition = nwglected\\n |        Material = Concrete\\n |           Notes = holds the the mortal remains of 220 fallen fighters of the Red Army. During the renovation, a memorial black granite plaque was placed with the names of all dead Red Army soldiers engraved in gold\\n}}\\n}}\\n\\n== Style & Shape ==\\n\\n== Materials ==\\n\\n{{Material List\\n |Caption=Materials of {{PAGENAME}}\\n | Concrete\\n | Cemented rocks\\n | Granite\\n}}\\n\\n= Location & Directions =\\n{{Location\\n |        Latitude = 45.3836393\\n |       Longitude = 20.3647956\\n |      Directions = In a park, E of the center, ca 20 min walk from center of town, and ca. 40 from bus station.\\n |      Gmap Notes = The park is clearly visible on googlemaps and has its own entry (without pics)\\n | Streetview Link = https://www.google.com/maps/@45.3836393,20.3647956,3a,60y,325.54h,89.82t/data=!3m6!1e1!3m4!1spEJEbeNBDDvag0ycZE-82g!2e0!7i13312!8i6656\\n |  Seperate Entry = https://www.google.com/maps/place/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA+%D0%BD%D0%B0+%D0%91%D0%B0%D0%B3%D1%99%D0%B0%D1%88%D1%83,+Slobodana+Penezic%CC%81a,+Zrenjanin,+Serbia/@45.3848179,20.3635781,432m/data=!3m1!1e3!4m5!3m4!1s0x475adb9fcd95e6fd:0xfafbb44083e0111!8m2!3d45.384873!4d20.3639283\\n | Other Map Links = \\n | Other Map Notes = \\n}}\\n\\n\\n= History and Background =\\n\\n== Commemoration ==\\n* The monuments in Bagljaš Memorial Park are dedicated to the executed patriots in 1941 and the Red Army fighters who died in the liberation struggle of the city in October 1944.  (see http://www.zrenjanin.rs/1-275-79-0/WWII-and-SFR-Yugoslavia, http://www.zrenjanin.rs/1-120-21-0/Spomenici)\\n* The obelisk commemorates and marks the site where, on July 31, 1941, German fascists shot 91 freedom fighters. The kosturnica holds the remains of 211 soldiers and officers of the Red Army who fell in the October battles of 1944 on the territory of central Banat. (https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf, p.260)\\n\\n== Design, build and condition ==\\n\\n{{Condition Table\\n | Custom Caption = \\n | Table Rows =\\n{{Condition Row\\n |   Year = 1954\\n |   Date = October 1954\\n |  Event = Obelisk built\\n |  Notes = or 1945?\\n}}\\n{{Condition Row\\n |   Year = 1962\\n |   Date = 28.10.1962\\n |  Event = Remains placed in crypt\\n |  Notes = \\n}}\\n{{Condition Row\\n |   Year = \\n |   Date = \\n |  Event = \\n |  Notes = \\n}}\\n}}\\n\\n= Gallery =\\n* External Links to pics:\\n** https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf, p.260/261 - historical pic\\n** [https://static.wixstatic.com/media/e73a14_ba613097c669491ab0d21a8aea9672ff~mv2.jpg Spomenik Database - historical pic crypt]\\n** [http://www.zrenjaninheritage.com/wp-content/uploads/2013/05/1.jpg zrenjaninheritage.com 2013]\\n** [https://www.facebook.com/photo/?fbid=10234285498907632&set=gm.4403511793312249&idorvanity=1589047768092013 fb 2026] - aerial view\\n\\n{{Gallery\\n | Custom Caption = \\n | Table Rows =\\n{{Image Row\\n |      Image 1 = ZrenjaninSpomenParkBagljas01.jpg\\n |    Caption 1 = \\n |      Image 2 = ZrenjaninSpomenParkBagljas03.jpg\\n |    Caption 2 = \\n |      Image 3 = ZrenjaninSpomenParkBagljas05.jpg\\n |    Caption 3 = \\n |      Image 4 = \\n |    Caption 4 = \\n}}\\n{{Image Row\\n |      Image 1 = ZrenjaninSpomenParkBagljas02.jpg\\n |    Caption 1 = \\n |      Image 2 = ZrenjaninSpomenParkBagljas04.jpg\\n |    Caption 2 = (and yes, that's a stork nest including stork, on top)\\n |      Image 3 = ZrenjaninSpomenParkBagljas06.jpg\\n |    Caption 3 = \\n |      Image 4 = \\n |    Caption 4 = \\n}}\\n}}\\n\\n= References, links & further reading =\\n* [[:Special:Whatlinkshere/{{PAGENAME}}|Links to this page]]\\n* http://www.zrenjanin.rs/1-275-79-0/WWII-and-SFR-Yugoslavia\\n* http://www.zrenjaninheritage.com/archives/5043\\n* http://www.zrenjanin.rs/1-120-21-0/Spomenici\\n* http://inappropriatemonuments.org/en/monuments-map/\\n* https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf, p.260\\n* https://www.facebook.com/groups/partizanskispomenici/posts/4403511793312249/\", \"koordinate\": {\"lat\": 45.3836393, \"lng\": 20.3647956}, \"fajl\": \"izvori/xiwl/deo-0259.json\", \"metara\": 0, \"zajednickeOsnove\": [\"baglj\", \"spome\"]}], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
+      "datum": "2026-10-27",
+      "izvor": "data/provere/lociranje.json#lociranje-proba-pet-2026-10-27",
+      "ishod": "precizirano",
+      "napomena": "Zavod potvrđuje identitet celog parka sa obeliskom i kosturnicom. Imenovani Google karton i pregled satelitskog prikaza potvrđuju stvarni park severno od stare približne tačke. Nova tačka je položaj parkovske celine, ne novo podnožje obeliska ili kosturnice. Nije zasebno obeležje Potkovica udaljeno 61 m. Sačuvani bagljas.png i bagljas-potvrda.png."
     }
   },
   "zuberin-spomenik-palim-borcima-i-zrtvama-fasistick": {

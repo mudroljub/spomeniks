@@ -4,6 +4,14 @@ Otvoreni slučajevi, razrešeni identiteti koje ne treba ponovo unositi i veze k
 
 Raniji ciljani prolaz je završen, žetva CG zatvorena, a šira hrvatska provera obustavljena po odluci korisnika. Ove beleške same ne otvaraju novi zadatak; prioriteti izvora su u [IZVORI.md](IZVORI.md#prioriteti).
 
+## Nastavak na još pet markera — 27.10.2026.
+
+Precizirana je lokacija spomenika osnivanju VOS-a u Ljubljani, na uglu Medvedove i Frankopanske, i dopunjena godina 1979. Logaški zapis Pirnatu i Trčku spojen je sa postojećim preciznim obeležjem pri Jački: tačka i trajni ID su sačuvani, a siva zamenska slika zamenjena korisnom fotografijom iz duplikata. Novom Bečeju dopunjeni su puno ime arhitekte Milorada Berbakova, opis i prilaz; njegova tačka, Donji Vrbljani i Izbišta ostaju približni. [Svih pet ishoda, prethodne vrednosti i odbačeni kandidati](../data/provere/lociranje.json#lociranje-drugih-pet-2026-10-27) sačuvani su radi izbegavanja ponovljenih opštih pretraga; ovaj ciljani uzorak ne procenjuje uspešnost cele baze.
+
+## Proba preciziranja pet važnijih markera — 27.10.2026.
+
+Potvrđene su lokacija celog spomen-parka na Bagljašu (pomerena oko 153 m sa stare približne tačke) i imenovani karton crvenoarmejske kosturnice na Brdu mira; takovska kosturnica sužena je na istu ograđenu celinu, uz zadržano `priblizno`, bez tvrdnje o pojedinačnom podnožju. Despotovački park i bronzani spomenik internircima ostali su bez nove potvrde tačke; Google rezultati za druga mesta, Norvešku kuću i ceo park odbijeni su. Muzejski izvor potvrdio je Desimira Žižovića Buina za obe kosturnice i 1962. za crvenoarmejsku, umesto ranijih 1956. i Živorada Maksimovića; [prethodne vrednosti, svih pet ishoda i ograničenja](../data/provere/lociranje.json#lociranje-proba-pet-2026-10-27) čuvaju se u postojećoj evidenciji, a namerno izabran mali uzorak nije procena uspešnosti za celu bazu.
+
 ## Identitet fotografija — 26.10.2026.
 
 Provereno svih deset sumnjivih parova iz poređenja 1.261 važnijeg zapisa sa 5.890 fotografija. Potvrđeno šest pogrešnih fotografija: zamenjene su Grohote 1985, Žitni trg u Zrenjaninu i Marija Bistrica (istorijski kadar iz Hrženjaka 2002), a pogrešne slike privremeno uklonjene sa kamenog spomenika u Jasenku, izvornog obeliska u Radanovcima i parka Posavskom odredu kod Sremskih Mihaljevaca. [Pojedinačni dokazi i stare vrednosti](../data/provere/fotografije.json#fotografije-identitet-2026-10-26).
