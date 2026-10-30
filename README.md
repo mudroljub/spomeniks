@@ -33,5 +33,5 @@ PRED OBJAVLJIVANJE
 - ručno postaviti `devMode` na `false`, pokrenuti `node alati/otisak.mjs` i proveriti rad bez interneta pre objave na GitHub Pages-u
 
 MOBILNA APLIKACIJA
-- napraviti android aplikaciju nakon završetka obrade podataka ([plan](docs/ANDROID_APLIKACIJA.md))
+- napraviti android aplikaciju ([plan](docs/ANDROID_APLIKACIJA.md))
 - pre objave uskladiti izbor i keširanje pločica: planirana zamena OSM-a za bliske zumove nije sprovedena, a servisni radnik vraća keširane OSM pločice bez roka ([nalaz](docs/ANDROID_APLIKACIJA.md))
