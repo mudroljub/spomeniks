@@ -19,6 +19,7 @@ UNOS PODATAKA:
 
 POTPUNOST PODATKA:
 - locirati spomenike ([lociranje](docs/LOCIRANJE_SPOMENIKA.md))
+  - prioritetno locirati spomenike Beograda bez tačne lokacije
 - dodavati fotografije ([obrađeni izvori fotografija](docs/IZVORI.md#commons-i-fotografije))
 - popunjavati druge atribute ([dopuna podataka](docs/DOPUNA_PODATAKA.md)). prioritet su: autor, posveta, wiki...
 - uklanjati duplikate i greške koji su se uvukli u bazu
