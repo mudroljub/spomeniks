@@ -68298,5 +68298,41 @@
       "prikaz": "Svih 20 zapisa otvoreno na telefonu 390 x 844 na oba jezika; nazivi, godine, adrese i slike u?itani bez horizontalnog prelivanja. Reprezentativni snimci pregledani vizuelno.",
       "testovi": "Pauzirani testovi i otisak izdanja nisu pokretani."
     }
+  },
+  {
+    "odluka": "novi-sad-kosta-sokica-2026-11-09",
+    "datum": "2026-11-09",
+    "ishod": "dva-nova-zapisa",
+    "idjevi": [
+      "novi-sad-reljef-koste-sokice",
+      "novi-sad-grob-koste-sokice"
+    ],
+    "lokalniIzvor": "izvori/kosta-sokica-2026-11-09/",
+    "izvori": [
+      "https://sr.wikipedia.org/wiki/Коста_Шокица",
+      "https://commons.wikimedia.org/wiki/File:Kosta_Šokica_NS1.jpg",
+      "https://commons.wikimedia.org/wiki/File:Гроб_Косте_Шокице.jpg",
+      "https://commons.wikimedia.org/wiki/File:Kosta_Šokica_NS2.jpg",
+      "https://commons.wikimedia.org/wiki/File:Kosta_Šokica_NS4.jpg",
+      "https://znaci.org/zb/4_1_6.pdf#page=139",
+      "https://www.wikidata.org/wiki/Q110045520"
+    ],
+    "dokaz": "Korisnik dostavio opis i četiri fotografije. Provereno protiv tri Commons fotografije reljefa i ulice (Subnorns, 15.10.2022) i fotografije groba (Subnorns, 30.8.2022); sve CC BY-SA 4.0. Autor originalnog reljefa, godina 1972, nestanak 2015. i replika iz 2022. potvrđeni u članku o Kosti Šokici. Natpisi prepisani sa dostavljenih fotografija, uz spajanje reči prelomljenih na ploči.",
+    "datumSmrti": {
+      "biografija": "26. novembar 1941",
+      "natpisPloce": "26.XII 1941.",
+      "osnov": "Zbornik dokumenata i podataka o NOR, tom I, knjiga 6, Vojnoistoriski institut JNA, Beograd 1955, štampana strana 145 / PDF 139, fusnota 12 izričito navodi 26. novembar 1941. Korisnik prihvatio biografski datum i doslovno čuvanje drugačijeg natpisa."
+    },
+    "lokacija": {
+      "novi-sad-reljef-koste-sokice": "Približna tačka preuzeta iz GPS fotografija reljefa NS1 i NS2 (45.267161, 19.843096); to je tačka fotografa, ne potvrđena tačka fasade. NS4 prikazuje obližnju tablu ulice na 45.267388, 19.843049 i nije korišćena kao tačka reljefa.",
+      "novi-sad-grob-koste-sokice": "Fotografija i članak potvrđuju Spomen-groblje boraca NOR-a, ali ne tačan položaj groba. Približna tačka celine preuzeta iz postojećeg novi-sad-cemetery, koji ostaje nepromenjen."
+    },
+    "granice": "Oba zapisa imaju priblizno: true. Godina podizanja i autor pojedinačnog groba nisu potvrđeni i nisu preuzeti sa celine groblja. Datumi iz metapodataka odnose se na izvorne fotografije, ne na datum dostavljanja. Fotografija table ulice služi kao izvor lokacije, nije zaseban spomenik.",
+    "validacija": {
+      "podaci": "Dodata dva zapisa; svi raniji zapisi nepromenjeni. Integritet i git diff --check prolaze; isti skup od 98 poznatih bliskih parova.",
+      "slike": "Dve velike slike i dve male; metapodaci bez viska, slikaOdnos potvrden alatima.",
+      "prikaz": "Oba zapisa otvorena na oba jezika na telefonu 390 x 844: fotografije ucitane, bez JS izuzetaka i horizontalnog prelivanja; snimci pregledani.",
+      "testovi": "Pauzirani testovi i otisak izdanja nisu pokretani."
+    }
   }
 ]
