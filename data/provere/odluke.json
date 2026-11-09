@@ -68334,5 +68334,114 @@
       "prikaz": "Oba zapisa otvorena na oba jezika na telefonu 390 x 844: fotografije ucitane, bez JS izuzetaka i horizontalnog prelivanja; snimci pregledani.",
       "testovi": "Pauzirani testovi i otisak izdanja nisu pokretani."
     }
+  },
+  {
+    "odluka": "novi-sad-rotkvarija-ploca-i-pano-2026-11-09",
+    "datum": "2026-11-09",
+    "ishod": "dopuna-postojeceg-i-novo-obelezje",
+    "prethodniZapis": {
+      "id": "novi-sad-almaski-kraj-spomen-ploca",
+      "koordinate": {
+        "lat": 45.258423,
+        "lng": 19.840338
+      },
+      "mesto": "Novi Sad (Almaški kraj)",
+      "slika": "slike/spomenici/novi-sad-almaski-kraj-spomen-ploca.webp",
+      "slikaOdnos": 1.333,
+      "slikaPotpis": "Vanjagenije, CC BY-SA 4.0",
+      "naziv": "Spomen-ploča",
+      "nazivEn": "Memorial Plaque",
+      "vrsta": "spomen-ploca",
+      "drzava": "Serbia"
+    },
+    "noviZapisi": [
+      {
+        "id": "novi-sad-almaski-kraj-spomen-ploca",
+        "mesto": "Novi Sad (Rotkvarija)",
+        "adresa": "Vojvode Petra Bojovića 6, na fasadi bivše kasarne.",
+        "wiki": "https://www.021.rs/novi-sad/vesti/287332/foto-zaboravljena-80-godisnjica-od-pogubljenja-antifasista-u-kasarni-u-vojvode-bojovica",
+        "naziv": "Spomen-ploča obešenim antifašistima",
+        "nazivEn": "Plaque to the Hanged Anti-fascists",
+        "godina": "1954",
+        "opis": {
+          "sh": "Posvećeno petorici antifašista koje je mađarski okupator obesio 15. oktobra 1941. u krugu kasarne. Ploča je postavljena 17. oktobra 1954, povodom desetogodišnjice oslobođenja Novog Sada.",
+          "en": "Dedicated to five anti-fascists hanged by the Hungarian occupying forces in the barracks on 15 October 1941. The plaque was unveiled on 17 October 1954 to mark the tenth anniversary of the liberation of Novi Sad."
+        },
+        "natpis": "ОВДЕ СУ 15 ОКТОБРА 1941.\nФАШИСТИЧКИ ОКУПАТОРИ ИЗВРШИЛИ МАСОВНО ВЕШАЊЕ НАЈБОЉИХ СИНОВА НЕУСТРАШИВИХ РОДОЉУБА СЛОБОДАРСКОГ НОВОГ САДА И НЕПОКОРЕНЕ ВОЈВОДИНЕ\n\n17 ОКТОБАР 1954\nПОВОДОМ ДЕСЕТОГОДИШЊИЦЕ ОСЛОБОЂЕЊА\nГРАЂАНИ НОВОГ САДА"
+      },
+      {
+        "id": "novi-sad-spomen-obelezje-borcima-rotkvarije",
+        "koordinate": {
+          "lat": 45.258423,
+          "lng": 19.840338
+        },
+        "priblizno": true,
+        "mesto": "Novi Sad (Rotkvarija)",
+        "adresa": "Vojvode Petra Bojovića 6, u dvorištu bivše kasarne, uz pano sa istorijskim fotografijama.",
+        "izvor": "https://www.021.rs/novi-sad/vesti/287332/foto-zaboravljena-80-godisnjica-od-pogubljenja-antifasista-u-kasarni-u-vojvode-bojovica",
+        "wiki": "https://www.021.rs/novi-sad/vesti/287332/foto-zaboravljena-80-godisnjica-od-pogubljenja-antifasista-u-kasarni-u-vojvode-bojovica",
+        "slika": "slike/spomenici/novi-sad-spomen-obelezje-borcima-rotkvarije.webp",
+        "slikaOdnos": 0.858,
+        "slikaPotpis": "Korisnički prilog, autor nije naveden",
+        "naziv": "Spomen-obeležje borcima Rotkvarije",
+        "nazivEn": "Memorial to the Resistance Fighters of Rotkvarija",
+        "opis": {
+          "sh": "Posvećeno Đorđu Radujkovu, Đuli Vargi, Palu Karasu, Ivanu Kočiju i Rudolfu Klausu, učesnicima antifašističkog otpora koje je mađarski okupator obesio 15. oktobra 1941. u ovoj kasarni. Mesna zajednica „Rotkvarija“ postavila je 1977. spomen-ploču, uz koju stoji pano sa istorijskim fotografijama pogubljenja.",
+          "en": "Dedicated to Đorđe Radujkov, Đula Varga, Pal Karas, Ivan Koči and Rudolf Klaus, resistance fighters hanged by the Hungarian occupying forces at these barracks on 15 October 1941. The Rotkvarija local community erected the plaque in 1977; a display of historical photographs of the executions stands beside it."
+        },
+        "godina": "1977",
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      }
+    ],
+    "izvorProvere": "https://www.021.rs/novi-sad/vesti/287332/foto-zaboravljena-80-godisnjica-od-pogubljenja-antifasista-u-kasarni-u-vojvode-bojovica",
+    "lokalniIzvor": "izvori/rotkvarija-2026-11-09/",
+    "dokaz": "Dostavljeni opis i šest fotografija. Fasadna ploča iz 1954. vizuelno je ista kao postojeća Commons fotografija Vanjagenija; zadržani ID, precizna tačka, slika, potpis i izvor. Ploča iz 1977. i pano čine zasebno dvorišno obeležje sa pet imena. Terenska reportaža 021.rs od 15.10.2021. nezavisno potvrđuje oba obeležja, godine i događaj. Sadržaj se odnosi na pogubljenje 15.10.1941, ne na januarsku raciju 1942.",
+    "lokacija": "Ispravljeno mesto iz Almaškog kraja u Rotkvariju, prema adresi i mesnoj zajednici u dostavljenom opisu i natpisu. Postojeća precizna tačka fasadne ploče ostaje. Za dvorišnu celinu koristi se ista tačka kompleksa sa priblizno: true: fotografija nema GPS i položaj panoa u dvorištu nije utvrđen.",
+    "materijali": [
+      {
+        "fajl": "opis.txt",
+        "sha256": "1b2eba2f9084c229de4ab436e5b4bd45e043f08761044bc772b4a3a75778e606",
+        "upotreba": "Sačuvan original; iskorišćeni adresa, događaj, pet imena i godine postavljanja. Širi istorijski uvod sačuvan kao izvor, bez pretrpavanja prozora spomenika."
+      },
+      {
+        "fajl": "35714.jpg",
+        "sha256": "679ed54b653a69202ab0560e27f4659d194da86e027ad68a86f8cb55624ba069",
+        "upotreba": "Proveren i prepisan natpis fasadne ploče; original nije kopiran jer je postojeća frontalna fotografija bolja."
+      },
+      {
+        "fajl": "35715.jpg",
+        "sha256": "415aec8eeda694332595b788893941956d2c000fe3c7dc728fa65d72da239c5b",
+        "upotreba": "Jedina sačuvana nova fotografija: cela dvorišna celina, devet istorijskih fotografija i spomen-ploča; isecanje, WebP 400 px i mala slika za aplikaciju."
+      },
+      {
+        "fajl": "35716.jpg",
+        "sha256": "a10a156037f8dc324b437fe559c67c7f08f79174fa299b24803d55ef7727077c",
+        "upotreba": "Detalj panoa: Rudolf Klaus. Potpis je delom oštećen; nije dopunjavan nagađanjem. Kopija nije sačuvana."
+      },
+      {
+        "fajl": "35717.jpg",
+        "sha256": "e6a66218cefab00269857e42742a782eb372ffd14305b2529cf22f9c1fd12fff",
+        "upotreba": "Detalj panoa: Đula Varga, član OK KPJ za južnu Bačku; tekst kaže da je pri mučenju i vešanju ostao prkosan i prenosi okupatorovu rečenicu „Smrtnu kaznu dvostruku je zaslužio“. Kopija nije sačuvana."
+      },
+      {
+        "fajl": "35718.jpg",
+        "sha256": "75b47121f6a54f690ca1047557ff6bfb360d4a9f7782665b2d1ac45c38a0d1fd",
+        "upotreba": "Detalj panoa: Ivan Koči, član OK KPJ za južnu Bačku, jedan od organizatora ustanka i učesnik u diverzantskim akcijama. Kopija nije sačuvana."
+      },
+      {
+        "fajl": "35719.jpg",
+        "sha256": "196a058bd1f783c393b4a7033c73f2807d440eba9a16982e842b454542f0e0ef",
+        "upotreba": "Detalj panoa: Đorđe Radujkov, član partije, učestvovao u paljevini žita; fotografija i potpis prikazuju zarobljenje pri unošenju paklene mašine u kasarni. Delovi teksta nečitki; kopija nije sačuvana."
+      }
+    ],
+    "istorijskiKontekst": "Prema dostavljenom tekstu, 13.10.1941. na smrt su osuđeni Đula Varga, Ivan Koči, Đorđe Radujkov, Rudolf Klaus, Pal Karas, Lajoš Larkin i Vera Pavlović; poslednje dvoje pomilovano 14.10, uz kazne 15 i 12 godina robije, a ostala petorica obešena 15.10.1941. Ovi detalji sačuvani su kao podaci dostavljenog izvora; reportaža 021 potvrđuje petoricu, datum i diverzantske aktivnosti, ne sve pojedinosti suđenja.",
+    "granice": "Po naknadnom zahtevu korisnika ne čuvaju se sve slike, samo potrebna fotografija celine. Fotograf i datum novih fotografija nisu poznati; EXIF je prazan, potpis ne izmišlja autora ni licencu. Godina ploče ne dokazuje godinu postavljanja panoa. Ne pripisuje se autorstvo spomenika bez izvora. Obična fotografija fizičkog panoa nije nov nezavisan spomenik po svakom istorijskom snimku.",
+    "validacija": {
+      "podaci": "Dopunjen jedan postojeci i dodat jedan novi zapis; ostali zapisi nepromenjeni. Integritet i git diff --check prolaze; isti skup 98 poznatih bliskih parova.",
+      "slike": "Jedna nova velika i mala slika, bez viska metapodataka; odnosi slika potvrdeni. Sacuvana samo potrebna izvorna fotografija celine i opis; kopije uporedjene SHA-256 otiskom.",
+      "prikaz": "Oba zapisa otvorena na telefonu 390 x 844 na oba jezika, fotografije ucitane, bez JS izuzetaka i horizontalnog prelivanja; snimci pregledani.",
+      "testovi": "Pauzirani testovi i otisak izdanja nisu pokretani."
+    }
   }
 ]

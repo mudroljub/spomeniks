@@ -4473,7 +4473,7 @@
 {"id":"divlje-cesma-na-lazar-velkov-i-dose-smilevski","koordinate":{"lat":41.927571,"lng":21.769338},"mesto":"Дивље","slikaOdnos":0.667,"naziv":"Чешма на Лазар Велков и Досе Смилевски","vrsta":"spomen-obelezje","drzava":"Macedonia"},
 {"id":"futog-spomenik-borcima-nob","koordinate":{"lat":45.237225,"lng":19.7065028},"mesto":"Futog","slikaOdnos":0.75,"naziv":"Spomenik borcima NOB","vrsta":"spomen-obelezje","drzava":"Serbia"},
 {"id":"futog-veternik-spomenik-palim-borcima","koordinate":{"lat":45.2493667,"lng":19.7551528},"mesto":"Futog (Veternik)","slikaOdnos":0.75,"naziv":"Spomenik palim borcima","vrsta":"spomen-obelezje","drzava":"Serbia"},
-{"id":"novi-sad-almaski-kraj-spomen-ploca","koordinate":{"lat":45.258423,"lng":19.840338},"mesto":"Novi Sad (Almaški kraj)","slikaOdnos":1.333,"naziv":"Spomen-ploča","vrsta":"spomen-ploca","drzava":"Serbia"},
+{"id":"novi-sad-almaski-kraj-spomen-ploca","koordinate":{"lat":45.258423,"lng":19.840338},"mesto":"Novi Sad (Rotkvarija)","slikaOdnos":1.333,"naziv":"Spomen-ploča obešenim antifašistima","vrsta":"spomen-ploca","drzava":"Serbia"},
 {"id":"budimlic-japra-spomenik-zrtvama-fasistickog-terora","koordinate":{"lat":44.8836098,"lng":16.4283333},"mesto":"Budimlić Japra","slikaOdnos":0.75,"naziv":"Spomenik žrtvama fašističkog terora","vrsta":"spomen-obelezje","drzava":"Bosnia and Herzegovina"},
 {"id":"pletvar-spomenik-na-nob","koordinate":{"lat":41.367533,"lng":21.653811},"mesto":"Плетвар","slikaOdnos":1.333,"naziv":"Споменик на НОБ","vrsta":"spomen-obelezje","drzava":"Macedonia"},
 {"id":"prilep-carsija-bista-na-dusko-naumoski","koordinate":{"lat":41.3419915,"lng":21.5572848},"mesto":"Прилеп (Чаршија)","slikaOdnos":0.526,"naziv":"Биста на Душко Наумоски","vrsta":"bista","drzava":"Macedonia"},
@@ -9390,5 +9390,6 @@
 {"id":"vucje-spomen-cesma-u-vucju","koordinate":{"lat":42.866266,"lng":21.911426},"priblizno":true,"mesto":"Vučje","slikaOdnos":0.667,"naziv":"Spomen-česma u Vučju","vrsta":"spomen-cesma","drzava":"Serbia"},
 {"id":"sremski-mihaljevci-bronzana-figura-spomenik-palim","koordinate":{"lat":44.85906,"lng":20.038342},"priblizno":true,"mesto":"Sremski Mihaljevci","slikaOdnos":1.333,"naziv":"Spomenik palim borcima i žrtvama fašističkog terora","stanje":"ostecen","vrsta":"statua","drzava":"Serbia"},
 {"id":"novi-sad-reljef-koste-sokice","koordinate":{"lat":45.267161,"lng":19.843096},"priblizno":true,"mesto":"Novi Sad","slikaOdnos":0.613,"naziv":"Reljef Koste Šokice","vrsta":"reljef","drzava":"Serbia"},
-{"id":"novi-sad-grob-koste-sokice","koordinate":{"lat":45.2732298,"lng":19.7947691},"priblizno":true,"mesto":"Novi Sad (Gradsko groblje)","slikaOdnos":0.795,"naziv":"Grob Koste Šokice","vrsta":"groblje","drzava":"Serbia"}
+{"id":"novi-sad-grob-koste-sokice","koordinate":{"lat":45.2732298,"lng":19.7947691},"priblizno":true,"mesto":"Novi Sad (Gradsko groblje)","slikaOdnos":0.795,"naziv":"Grob Koste Šokice","vrsta":"groblje","drzava":"Serbia"},
+{"id":"novi-sad-spomen-obelezje-borcima-rotkvarije","koordinate":{"lat":45.258423,"lng":19.840338},"priblizno":true,"mesto":"Novi Sad (Rotkvarija)","slikaOdnos":0.858,"naziv":"Spomen-obeležje borcima Rotkvarije","vrsta":"spomen-obelezje","drzava":"Serbia"}
 ]
