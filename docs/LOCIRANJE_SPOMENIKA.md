@@ -1,14 +1,53 @@
 # Lociranje spomenika
 
-Otvoreni slučajevi, razrešeni identiteti koje ne treba ponovo unositi i veze ka dokazima. Aktuelni skup je u `data/van-mape/bez_lokacije.json` i približnim markerima mape; stare brojke prolaza nisu današnji preostali obim. Prioritet je verovatnoća uspeha uz konkretan izvor, ne redosled tabele.
+Otvoreni slučajevi, razrešeni identiteti koje ne treba ponovo unositi i veze ka dokazima. Aktuelni skup je u `data/van-mape/bez_lokacije.json` i približnim markerima mape; stare brojke prolaza nisu današnji preostali obim. Prioritet je važnost zajedno sa šansom nalaženja uz konkretan izvor; izgledni spomenici idu pre bisti.
 
 Raniji ciljani prolaz je završen, žetva CG zatvorena, a šira hrvatska provera obustavljena po odluci korisnika. Ove beleške same ne otvaraju novi zadatak; prioriteti izvora su u [IZVORI.md](IZVORI.md#prioriteti).
 
+## Tura od 10 važnijih spomenika — 9.11.2026.
+
+Pregledano svih deset, bez bisti: **tri potvrđene lokacije i sedam približnih**. Koordinate nisu pomerane; za tri je prihvaćena potvrđena mala celina po korisnikovom pravilu. Slanoj Banji dopunjen je opis prilaza. [Dokazi, prethodne vrednosti i sledeći potreban dokaz za svaki predmet](../data/provere/lociranje.json#vazniji-deset-2026-11-09).
+
+| Predmet | Ishod | Nalaz i granica |
+|---|---|---|
+| Bela Crkva (Mačva) — Spomenik na zajedničkoj grobnici | Potvrđeno | Dokument Ministarstva prosvete potvrđuje Stambolićevu grobnicu u maloj porti; OSM crkvu na postojećoj tački. To je lokacija porte, ne izmereno podnožje. |
+| Donji Vrbljani — Spomen-kompleks | Ostaje približno | Razdvojene centralna škola u Gornjem Ribniku i područna škola u Donjim Vrbljanima. Isti naziv škole nije dovoljan; postojeće sidro ne potvrđuje područnu školu. |
+| Sarajevo (Vraca) — Grobnica narodnih heroja | Ostaje približno | Terenski opis izdvaja istočni kraj gornjeg platoa, ali nije geografski uparen sa tačkom. Opšti park i parking nisu lokacija grobnice. |
+| Tuzla — Spomen-kompleks Slana Banja | Potvrđeno | Zavod TK, postojeća fotografija i imenovani OSM plato potvrđuju užu celinu Tita i 18 narodnih heroja sa prilazom Partizanskom groblju. Nije prihvaćen ceo veliki park kao sidro. |
+| Babići — Spomen-kosturnica | Ostaje približno | Terenska evidencija potvrđuje identitet; škola i kosturnica nisu locirane u pregledanoj karti. |
+| Bogojevce — Spomenik u Bogojevcu | Ostaje približno | Originalna Commons fotografija nema GPS u dostupnim metapodacima; kružni plato nije geografski uparen. |
+| Slatina (Leskovac) — Spomenik palim borcima Padeža i Slatine | Ostaje približno | Proverene ranije beleške o stručnom kartonu; nova karta nema sidro. Novi pristup PDF-u nije uspeo i ne računa se kao nov pregled kartona. |
+| Banovići — Murali u spomen na NOB | Ostaje približno | Potvrđen Radnički dom u Alije Izetbegovića, uz različite kućne brojeve. Kandidat iz WorldPlaces nije nezavisno potvrđena tačka zgrade; nije prepisan. |
+| Prždevo — Spomenik NOB na Prždevskim Lakima | Ostaje približno | Razdvojen spomenik uz magistralu od seoskih spomen-česama; postojeća tačka je centar sela. |
+| Nevesinje — Spomenik Blagoju Paroviću | Potvrđeno | Terenska evidencija iz 2025. potvrđuje preseljenje na malo Partizansko groblje; imenovani OSM obuhvat sadrži postojeću tačku. Rušenje centralnog elementa groblja nije dokaz uklanjanja statue. |
+
+Ova tura je završena. Sedam nerešenih predmeta ne ponavljati istim opštim pretragama; nedostajući konkretni dokazi sačuvani su uz svaki ID. Ponovno čitanje cele baze potvrđuje samo tri nameravane izmene, a `git diff --check` prolazi. `integritet.py` je pokrenut i vraća status 1: preostaju opis uz tekstualnu posvetu reljefa Vere Pavlović i 22 druga bliska para, van ova tri izmenjena zapisa. Dva proverena para iz ove ture dodata su po tačnim ID-jevima u postojeću evidenciju izuzetaka (groblje/statua u Nevesinju i kompleks/biste u Tuzli); blizina ne znači duplikat. Testovi ostaju pauzirani, a raniji problem pokretanja Chrome-a ograničava vizuelnu proveru aplikacije; nije predstavljena kao uspešna.
+
+## Kikinda, Iđoš i Stara Pazova: tri školske biste — 9.11.2026.
+
+Sve tri oznake premeštene su sa približnih centara na potvrđene današnje škole i uklonjena je oznaka `priblizno`: Zora Krdžalić Zaga u Kikindi na Svetosavsku 57 (oko 768 m), Milivoj Omorac u Iđošu na Milivoja Omorca 40 (318 m), Pinki u Staroj Pazovi na Vuka Karadžića 4 (944 m). Prihvaćen je položaj ustanove, bez tvrdnje o izmerenom podnožju. Identitet potvrđuju fotografije i opisi, adrese školski/opštinski izvori, a položaje adresni i imenovani OSM objekti. Pinkijeva škola ima i drugu bistu posvećenu učiteljicama; nije pomešana sa patronom.
+
+Kikindskoj bisti dopunjeni su Miroslava Kojić i 1979: autorku potvrđuje školski časopis, a prvobitnu godinu postament na fotografiji. Ponovno otkrivanje 4.4.2023. nije prepisano kao prvobitna godina; razlika prema strategiji koja navodi Mirjanu Kojić sačuvana je uz prednost neposrednog školskog izvora. [Svi dokazi, stari podaci i granice](../data/provere/lociranje.json#tri-skole-kikinda-idjos-pazova-2026-11-09).
+
+## Niš: pet bisti u potvrđenoj maloj celini — 9.11.2026.
+
+Pregledano šest bisti Parka heroja NOB-a. Uklonjena je oznaka `priblizno` za Sretena Mladenovića Miku, Miodraga Stanimirovića Miju, Stanka Paunovića, Filipa Kljajića Fiću i Konrada Žilnika Slobodana. Stručni pregled na sajtu Istorijskog arhiva Niš, terenski članci i pojedinačne fotografije potvrđuju grupu oko „Iskre slobode“; postojeća tačka je u toj maloj celini, oko 5 m od ucrtanog centralnog spomenika, pa nije pomerana. Zasebni zapisi bisti ostaju; zajednička lokacija nije dokaz duplikata. [Dokazi i prethodne vrednosti](../data/provere/lociranje.json#nis-park-heroja-pet-bisti-2026-11-09).
+
+Bista Filipa Filipovića ostala je neizmenjena: natpis i Commons potvrđuju osobu 1878–1938, a medijski zbirni naziv „šest narodnih heroja iz Drugog svetskog rata“ nije tačan za tu osobu. Otvoreno je pitanje njenog samostalnog obuhvata u projektu naspram pripadnosti sadašnjoj memorijalnoj celini; nije predstavljena kao dodatno uspešno lociran NOB predmet. Ne ponavljati lociranje ostalih pet radi merenja podnožja.
+
 ## Prioriteti za preostale približne lokacije — 9.11.2026.
 
-Početni obuhvat bio je **953 približna zapisa vrste bista ili važnije** (737 bisti i 216 drugih važnijih objekata). Posle provere deset kandidata ispod ostaje **947 važnijih približnih zapisa** (737 bisti i 210 drugih); ukupno svih približnih markera je 1.241. Sedam preciziranja uključuje i „88 sadnica“, koje je ispod praga važnijih, pa se broj važnijih smanjio za šest. Redosled grupa je procena prema dokazima, bez procenata uspeha; nije spisak bez lokacije.
+Početni obuhvat bio je **953 približna zapisa vrste bista ili važnije** (737 bisti i 216 drugih važnijih objekata). Posle prvih deset kandidata ostalo je 947, posle pet niških bisti 942, posle tri školske biste 939, a nakon ture od deset važnijih spomenika iznad ostaje **936 važnijih približnih zapisa** (729 bisti i 207 drugih); ukupno svih približnih markera je 1.230. Sedam preciziranja prvog paketa uključuje i „88 sadnica“, koje je ispod praga važnijih, pa se broj važnijih tada smanjio za šest. Redosled grupa je procena prema dokazima, bez procenata uspeha; nije spisak bez lokacije.
 
-### Redosled grupa
+### Izbor po važnosti i šansi — pravilo za naredne ture
+
+Raditi u **turama po 10 pregledanih predmeta** (korisnik, 9.11.2026), uz ishod za svaki i zajedničku završnu proveru. Prethodna tri predložena kandidata dopunjena su sa još sedam i obrađena u zatvorenoj turi iznad. Ne računati deset predmeta kao obećanje deset uspešnih lociranja.
+
+**Najpre važniji spomenici, ne novi paket bisti.** Od preostalih 936 važnijih približnih zapisa, 207 je iznad vrste bista. To nije 207 jednako izglednih kandidata: prvo se biraju oni sa konkretnom ustanovom, uskom celinom ili stručnim kartonom, uz proveru ranijih ishoda.
+
+Ako prvi kandidat nema novi dokaz ni primenjivo novo pravilo, sačuvati razlog i preći na sledeći važniji izgledan predmet. Čento, Banatski Despotovac i Izbišta iz završenog paketa ne ponavljaju se bez već navedenog novog traga. Biste dolaze posle ovog izbora, osim usputnih pouzdanih dopuna iz istog izvora. Ovim planom nije ponovo otvorena obustavljena šira hrvatska provera ili opšta žetva CG.
+
+### Tragovi za procenu šanse unutar slične važnosti
 
 | Prioritet | Koji slučajevi | Šansa i razlog | Šta proveriti pre promene |
 |---|---|---|---|
@@ -19,7 +58,7 @@ Početni obuhvat bio je **953 približna zapisa vrste bista ili važnije** (737 
 | 5 | Samo naselje, generička adresa ili ranije odbijeni kandidati | **Niska** bez novog traga | Tražiti konkretan stručni karton ili terensku fotografiju; ne ponavljati iste opšte pretrage |
 | 6 | Uklonjeni, zatvoreni, preseljeni ili nejasnog identiteta | **Najniža za rutinsko lociranje** | Najpre potvrditi šta putnik danas može naći; značajni uklonjeni spomenici sa poznatom tačkom ostaju po pravilima projekta |
 
-Prvenstvo zvaničnih i stručnih izvora važi u svim grupama. Unutar slične šanse prednost imaju važnija dela, zatim zajednički izvor za više predmeta. Veliki broj bisti nije razlog da se svih 737 traži pojedinačno. Za ranije proverene zapise nastavak mora imati novi dokaz ili jasno primenjivo novo pravilo. Šira hrvatska provera i opšta žetva CG ostaju obustavljene; kandidat iz tih oblasti ne otvara automatski novu granu posla.
+Prvenstvo zvaničnih i stručnih izvora važi u svim grupama. Ova tabela procenjuje šansu unutar slične važnosti i ne stavlja laku bistu ispred izglednog važnijeg spomenika. Zajednički izvor je prednost tek uz uvažavanje važnosti predmeta. Za ranije proverene zapise nastavak mora imati novi dokaz ili jasno primenjivo novo pravilo. Šira hrvatska provera i opšta žetva CG ostaju obustavljene; kandidat iz tih oblasti ne otvara automatski novu granu posla.
 
 ### Provera svih deset kandidata — završeno 9.11.2026.
 

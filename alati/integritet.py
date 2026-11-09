@@ -14,6 +14,11 @@ DRZAVE = {'Slovenia', 'Croatia', 'Bosnia and Herzegovina', 'Serbia', 'Montenegro
 POZNATA = set(REDOSLED)
 # Ranije proverene celine i pojedinacna obelezja na istoj lokaciji.
 POZNATI_BLISKI_PAROVI = {frozenset(par) for par in [
+    # Potvrđene celine i njihovi delovi: lociranje.json#vazniji-deset-2026-11-09.
+    # Preseljena Parovićeva statua nije centralni spomenik groblja; plato bisti
+    # je navigaciono sidro šireg kompleksa Slana Banja, ne njegov duplikat.
+    ('nevesinje', 'nevesinje-spomenik-blagoju-parovicu'),
+    ('tuzla-tito', 'trnovac-spomen-kompleks-slana-banja'),
     # Pojedinačno imenovane biste u prilepskoj Aleji heroja, zasebna bista uz
     # kosturnicu na Palama i bista u parku Vide Jocić (lociranje, 23.10.2026).
     ('valjevo-park-vide-jocic', 'valjevo-bista-milice-pavlovic-dare'),

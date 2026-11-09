@@ -6,6 +6,10 @@ Svaku odluku o podacima i aplikaciji meri iskustvom putnika (korisnik, 2026-10-2
 
 **Evidencija rada** (korisnik, 9.11.2026): ne praviti novi `TODO.md` za pakete provera. Prioritete i ishode ažurirati u postojećem tematskom dokumentu (za lokacije `docs/LOCIRANJE_SPOMENIKA.md`), a pojedinačne dokaze u postojećoj evidenciji provera; završeni paket ne ostavljati kao budući posao.
 
+**Prioritet lociranja** (korisnik, 9.11.2026): važnost i šansu nalaženja ocenjuj zajedno, uz prednost spomenika nad bistama. Prvo biraj izgledne važnije spomenike, memorijalne celine i statue prema projektnoj važnosti, a unutar te grupe konkretan dokaz i verovatnoću uspeha. Ne prelazi na paket bisti samo zato što je lakši dok postoje izgledni važniji predmeti. Predmet bez novog traga ne ponavljaj unedogled; tada pređi na sledeći smislen kandidat. Biste se mogu usput dopuniti iz istog izvora.
+
+**Ture lociranja** (korisnik, 9.11.2026): radi u turama od po 10 predmeta, izabranih prema važnosti i šansi nalaženja. Deset znači deset pregledanih predmeta, ne deset obaveznih uspeha: za svaki sačuvaj potvrđenu izmenu ili obrazložen nerešen ishod, pa proveri i prijavi celu turu. Ne završavaj turu nakon prva dva ili tri lakša slučaja.
+
 ## Raspored podataka
 
 U `data/` su samo fajlovi koje aplikacija učitava i njihovi tipovi. Sve ostalo ide u podfoldere: podaci van mape (arhiva i bez lokacije) u `data/van-mape/`, izvori u `data/izvori/`, knjige u `data/knjige/`, a provere i beleške u `data/provere/`.

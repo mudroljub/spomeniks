@@ -29191,5 +29191,559 @@
       }
     ],
     "lokalneKopije": "izvori/pretrage/deset-lokacija-2026-11-09/"
+  },
+  "nis-park-heroja-pet-bisti-2026-11-09": {
+    "datum": "2026-11-09",
+    "obim": "Pregledano šest postojećih fotografisanih bisti u Parku heroja u Nišu. Pet precizirano prema potvrđenoj maloj celini; Filip Filipović ostao neizmenjen uz dilemu obuhvata. Nema novih objekata ili slika.",
+    "dokaz": "Stručni pregled ratnih memorijala Niša Nikole Arsića i Đorđa Stošića na sajtu Istorijskog arhiva potvrđuje zajedničku celinu oko Iskre slobode i preseljenje tri biste 2014. Terenski medijski izvori iz 2014. i 2025. potvrđuju današnji položaj grupe u parku kod hotela Park. Svih šest naših slika vizuelno pregledano uz natpise; opisi i poreklo provereni zbirnim Commons upitom. Autor i godina nisu automatski prepisivani na celu grupu.",
+    "lokacija": "Aktuelni OSM way 624107656 obuhvata park uz Nišavu, a node 5893177411 spomenik napadu u hotelu Park, odnosno Iskru slobode, na 43.3227120,21.8974079. Postojeća zajednička tačka bisti 43.3226722,21.8973689 udaljena je oko 5 m od tog sidra i u odgovarajućoj maloj memorijalnoj celini; nije pomerana. Ne prihvata se cela Tvrđava preko reke niti široki obuhvat keja. Ovo je lokacija grupe, ne merenje pojedinačnih podnožja.",
+    "izvori": [
+      {
+        "url": "https://www.arhivnis.rs/Izdavacka%20delatnost/Pescanik/P-17/Nikola%20Arsic%20Djordje%20StosicS.pdf",
+        "nalaz": "Pregled ratnih memorijala na teritoriji grada Niša, Arsić i Stošić, Peščanik 17/18, 2019. Potvrđuje sastav memorijalne celine i događaj 9.5.2014. PDF tekst ima neispravno mapiranje fontova; indeksirani pasus i bibliografski naslov korišćeni ciljano, bez tvrdnje da je ceo rad pročitan."
+      },
+      {
+        "url": "https://www.juznevesti.com/drustvo/park-heroja-nob-a-u-nisu/",
+        "nalaz": "Terenski članak iz 2014. potvrđuje preseljenje bisti Filipovića, Paunovića i Kljajića uz postojeću grupu i Iskru slobode."
+      },
+      {
+        "url": "https://nimedia.rs/uskoro-na-portalu-nimedia-serijal-o-parku-heroja/",
+        "nalaz": "Objava 23.8.2025. navodi svih šest bisti u istom parku. Zbirna oznaka svih kao heroja Drugog svetskog rata nije prihvaćena kao pojedinačna biografska potvrda."
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/624107656",
+        "nalaz": "Preuzet svež ograničen isečak OSM-a; položaj parka, ne imenovane pojedinačne biste."
+      },
+      {
+        "url": "https://www.openstreetmap.org/node/5893177411",
+        "nalaz": "Imenovan spomenik bombaškom napadu u hotelu Park, prostorno sidro male memorijalne celine."
+      }
+    ],
+    "fotografije": [
+      {
+        "naslov": "File:Filip Filipović P4170115.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Filip_Filipovi%C4%87_P4170115.jpg"
+      },
+      {
+        "naslov": "File:Filip Kljajić Fića.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Filip_Kljaji%C4%87_Fi%C4%87a.jpg"
+      },
+      {
+        "naslov": "File:Narodni heroj Konrad Zilnik Slobodan.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Narodni_heroj_Konrad_Zilnik_Slobodan.jpg"
+      },
+      {
+        "naslov": "File:Narodni heroj Miodrag Mija Stamenkovic.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Narodni_heroj_Miodrag_Mija_Stamenkovic.jpg"
+      },
+      {
+        "naslov": "File:Narodni heroj Sreten Mladenovic Mika.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Narodni_heroj_Sreten_Mladenovic_Mika.jpg"
+      },
+      {
+        "naslov": "File:People's hero Stanko Paunovic.P4170120.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:People%27s_hero_Stanko_Paunovic.P4170120.jpg"
+      }
+    ],
+    "ishodi": [
+      {
+        "id": "nis-bista-sretena-mladenovica-mike",
+        "pre": {
+          "koordinate": {
+            "lat": 43.3226722,
+            "lng": 21.8973689
+          },
+          "priblizno": true
+        },
+        "slikaPregledana": true,
+        "ishod": "precizirano-na-potvrdjenu-malu-memorijalnu-celinu",
+        "posle": {
+          "koordinate": {
+            "lat": 43.3226722,
+            "lng": 21.8973689
+          },
+          "priblizno": null
+        }
+      },
+      {
+        "id": "nis-bista-miodraga-stanimirovica-mije",
+        "pre": {
+          "koordinate": {
+            "lat": 43.3226722,
+            "lng": 21.8973689
+          },
+          "priblizno": true
+        },
+        "slikaPregledana": true,
+        "ishod": "precizirano-na-potvrdjenu-malu-memorijalnu-celinu",
+        "posle": {
+          "koordinate": {
+            "lat": 43.3226722,
+            "lng": 21.8973689
+          },
+          "priblizno": null
+        }
+      },
+      {
+        "id": "nis-bista-stanka-paunovica",
+        "pre": {
+          "koordinate": {
+            "lat": 43.3226722,
+            "lng": 21.8973689
+          },
+          "priblizno": true
+        },
+        "slikaPregledana": true,
+        "ishod": "precizirano-na-potvrdjenu-malu-memorijalnu-celinu",
+        "posle": {
+          "koordinate": {
+            "lat": 43.3226722,
+            "lng": 21.8973689
+          },
+          "priblizno": null
+        }
+      },
+      {
+        "id": "nis-bista-filipa-filipovica",
+        "pre": {
+          "koordinate": {
+            "lat": 43.3226722,
+            "lng": 21.8973689
+          },
+          "priblizno": true
+        },
+        "slikaPregledana": true,
+        "ishod": "bez-promene-otvoren-obuhvat",
+        "dilema": "Fotografija natpisa i Commons opis potvrđuju Filipa Filipovića 1878–1938, a ne poginulog učesnika NOB. Noviji članak sve biste zbirno naziva narodnim herojima iz Drugog svetskog rata, što za ovu osobu ne važi. Bista je uključena u današnju celinu Parka heroja, ali treba razrešiti njen samostalni obuhvat u projektu, pre označavanja ovog zapisa kao uspešno lociranog NOB predmeta. Nije promenjena niti uklonjena u ovom paketu.",
+        "posle": {
+          "koordinate": {
+            "lat": 43.3226722,
+            "lng": 21.8973689
+          },
+          "priblizno": true
+        }
+      },
+      {
+        "id": "nis-bista-filipa-kljajica-fice",
+        "pre": {
+          "koordinate": {
+            "lat": 43.3226722,
+            "lng": 21.8973689
+          },
+          "priblizno": true
+        },
+        "slikaPregledana": true,
+        "ishod": "precizirano-na-potvrdjenu-malu-memorijalnu-celinu",
+        "posle": {
+          "koordinate": {
+            "lat": 43.3226722,
+            "lng": 21.8973689
+          },
+          "priblizno": null
+        }
+      },
+      {
+        "id": "nis-bista-konrada-zilnika-slobodana",
+        "pre": {
+          "koordinate": {
+            "lat": 43.3226722,
+            "lng": 21.8973689
+          },
+          "priblizno": true
+        },
+        "slikaPregledana": true,
+        "ishod": "precizirano-na-potvrdjenu-malu-memorijalnu-celinu",
+        "posle": {
+          "koordinate": {
+            "lat": 43.3226722,
+            "lng": 21.8973689
+          },
+          "priblizno": null
+        }
+      }
+    ],
+    "granice": "Zajednička tačka ne znači duplikate: pet različitih osoba i centralni spomenik ostaju zasebni zapisi. Nije utvrđeno svako podnožje. Novosti o planiranoj sanaciji 2026. ne dokazuju da je sanacija izvedena; stanje nije menjano. Izvorni izvori, fotografije, autori i godine sačuvani.",
+    "lokalneKopije": "izvori/pretrage/nis-park-heroja-2026-11-09/"
+  },
+  "tri-skole-kikinda-idjos-pazova-2026-11-09": {
+    "datum": "2026-11-09",
+    "obim": "Tri postojeće biste sa fotografijama; potvrđene današnje ustanove i njihove adrese. Tri oznake pomerene sa centara naselja na škole i uklonjeno priblizno. Kikindi dopunjeni autor i prvobitna godina. Nema novih objekata ni slika.",
+    "ishodi": [
+      {
+        "id": "kikinda-bista-zore-krdzalic-zage",
+        "dokaz": "Zvanični kontakt ustanove potvrđuje Svetosavsku 57; školski časopis Studentska bajka 7/2023, PDF list 28, potvrđuje ponovno otkrivanje biste 4.4.2023. i autorku Miroslavu Kojić. Na postojećoj fotografiji od 22.4.2023. prepoznaju se ličnost, postament i godina 1979. OSM way 1120862693 ima istu adresu i obris zgrade; upisana srednja tačka temena te zgrade. Položaj je ustanova, ne izmereno podnožje. Koordinate centra Google iframe prikaza nisu prepisane kao tačka spomenika.",
+        "izvori": [
+          "https://vaspitacka.edu.rs/kontakt/",
+          "https://vaspitacka.edu.rs/wp-content/uploads/2023/10/Studentska-bajka-broj-7-2023.pdf#page=28",
+          "https://www.openstreetmap.org/way/1120862693",
+          "https://commons.wikimedia.org/wiki/File:Bista_Zore_Krdžalić_Zage_u_Kikindi,_2023.jpg"
+        ],
+        "neslaganja": "Strategija razvoja Kikinde na banat.rs navodi Mirjanu Kojić; prednost ima direktni školski izvor o svojoj penzionisanoj profesorki, Miroslavi Kojić. Godina 2023 označava ponovno postavljanje, nije zamenila godinu prvobitnog podizanja 1979 sa postamenta. Nije izveden zaključak da se bista danas vodi kao uklonjena na osnovu stare vesti o krađi 2015.",
+        "pre": {
+          "priblizno": true,
+          "koordinate": {
+            "lat": 45.83001,
+            "lng": 20.46531
+          },
+          "adresa": "Ispred Visoke škole za obrazovanje vaspitača",
+          "autor": null,
+          "godina": null
+        },
+        "posle": {
+          "priblizno": null,
+          "koordinate": {
+            "lat": 45.8252078,
+            "lng": 20.4581824
+          },
+          "adresa": "Ispred Visoke škole strukovnih studija za obrazovanje vaspitača, Svetosavska 57",
+          "autor": "Miroslava Kojić",
+          "godina": "1979"
+        },
+        "pomakMetara": 768,
+        "ishod": "precizirano-na-potvrdjenu-ustanovu"
+      },
+      {
+        "id": "idjos-bista-milivoja-omorca",
+        "dokaz": "Današnja škola na svojoj kontakt stranici potvrđuje Milivoja Omorca 40. Postojeća Commons fotografija prikazuje bistu sa imenom Milivoja Omorca i školsku zgradu, a izvorni opis izričito kaže da je ispred istoimene škole. OSM adresni node 11681885038 sa istim brojem i ulicom daje položaj ustanove. Autor Miroslava Kojić sačuvan; školska 1952. je godina dobijanja imena ustanove, ne godina biste.",
+        "izvori": [
+          "https://www.milivojomorac.edu.rs/kontakt/",
+          "https://commons.wikimedia.org/wiki/File:Spomen_bista_Milivoja_Omorca,_Iđoš.jpg",
+          "https://www.openstreetmap.org/node/11681885038"
+        ],
+        "pre": {
+          "priblizno": true,
+          "koordinate": {
+            "lat": 45.82433,
+            "lng": 20.31518
+          },
+          "adresa": "Ispred škole „Milivoj Omorac“"
+        },
+        "posle": {
+          "priblizno": null,
+          "koordinate": {
+            "lat": 45.825596,
+            "lng": 20.3188616
+          },
+          "adresa": "Ispred OŠ „Milivoj Omorac“, Milivoja Omorca 40"
+        },
+        "pomakMetara": 318,
+        "ishod": "precizirano-na-potvrdjenu-ustanovu"
+      },
+      {
+        "id": "stara-pazova-bista-boska-palkovljevica-pinkija",
+        "dokaz": "Opštinski imenik potvrđuje današnju školu u Vuka Karadžića 4. Školska objava o polaganju venca izričito govori o bisti njenog patrona; Commons fotografija Nenada Glišića prikazuje Pinkijevo ime i školsku zgradu. OSM way 907563613, verzija 9, check_date 4.10.2026, potvrđuje imenovanu školu i adresu. Prihvaćena Nominatim tačka upravo tog objekta, ne generički rezultat grada. Nije pomešana sa drugom bistom posvećenom učiteljicama, otkrivenom u istoj školi 2016.",
+        "izvori": [
+          "https://www.opstina-starapazova.rs/rs/opstina-stara-pazova/obrazovanje/osnovne-skole.html",
+          "https://www.ospinki.edu.rs/index.php?limitstart=2135&option=com_content&view=frontpage",
+          "https://www.openstreetmap.org/way/907563613",
+          "https://commons.wikimedia.org/wiki/File:Spomenik_Bosku_Palkovljevicu_Pinkiju,_Stara_Pazova.jpg"
+        ],
+        "pre": {
+          "priblizno": true,
+          "koordinate": {
+            "lat": 44.98461,
+            "lng": 20.15888
+          },
+          "adresa": "Ispred osnovne škole"
+        },
+        "posle": {
+          "priblizno": null,
+          "koordinate": {
+            "lat": 44.9855597,
+            "lng": 20.1708109
+          },
+          "adresa": "Ispred OŠ „Boško Palkovljević Pinki“, Vuka Karadžića 4"
+        },
+        "pomakMetara": 944,
+        "ishod": "precizirano-na-potvrdjenu-ustanovu"
+      }
+    ],
+    "granice": "Prihvaćen položaj konkretne ustanove po korisnikovom kriterijumu, ne pojedinačna podnožja. Izvorni izvori i fotografije sačuvani; godina dobijanja imena škole nije godina podizanja biste. Za veći OSM zahtev Stare Pazove dobijen je 400, pa korišćeni manji isečak i pojedinačan imenovani objekat.",
+    "lokalneKopije": "izvori/pretrage/tri-skole-2026-11-09/"
+  },
+  "vazniji-deset-2026-11-09": {
+    "datum": "2026-11-09",
+    "obim": "Pregledano 10 važnijih objekata bez bisti: 3 potvrđene male celine i 7 bez dovoljne nove potvrde. Nema novih spomenika, slika ili premeštanja koordinata.",
+    "ishodi": [
+      {
+        "id": "bogojevce-spomenik-u-bogojevcu",
+        "ishod": "ostaje-priblizno",
+        "dokaz": "Članak o konkretnom spomeniku potvrđuje identitet, autora i otkrivanje 13.12.1985. Proveren original File:Selo Bogojevce 6.jpg preko Commons API: opis i autor odgovaraju, ali nema koordinata ni GPS metapodataka u odgovoru. OSM isečak nema imenovan objekat. Opis centra sela i kružnog platoa nije geografski uparen sa određenom malom celinom; postojeća tačka ostaje centar sela.",
+        "izvori": [
+          "https://sr.wikipedia.org/wiki/Споменик_у_Богојевцу",
+          "https://commons.wikimedia.org/wiki/File:Selo_Bogojevce_6.jpg"
+        ],
+        "pre": {
+          "koordinate": {
+            "lat": 43.05007,
+            "lng": 21.96036
+          },
+          "priblizno": true,
+          "adresa": "U centru sela, na kružnom stepenastom platou"
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 43.05007,
+            "lng": 21.96036
+          },
+          "priblizno": true,
+          "adresa": "U centru sela, na kružnom stepenastom platou"
+        },
+        "sledeciDokaz": "Geolocirana fotografija kružnog platoa ili katastarski/stručni karton sa položajem."
+      },
+      {
+        "id": "babici-spomen-kosturnica",
+        "ishod": "ostaje-priblizno",
+        "dokaz": "Ponovo pročitana terenska evidencija Gračanice: Babići, kosturnica 1985, Jusuf Omerčićević; zaseban karton u izveštaju. Trenutni OSM isečak nema imenovanu školu ni kosturnicu; Nominatim upit za školu nije vratio objekat. Raniji opis uz put Gračanica–Vis i blizu škole nije dovoljan za prihvatanje centra sela kao tačke male određene celine. Obnova 2022. nije dokaz lokacije.",
+        "izvori": [
+          "https://www.spomenicinob.info/gracanica",
+          "https://www.spomenicinob.info/pdf/report/en/GRACANICA%20MUNICIPALITY.pdf#page=8"
+        ],
+        "pre": {
+          "koordinate": {
+            "lat": 44.73513,
+            "lng": 18.30465
+          },
+          "priblizno": true,
+          "adresa": "Pored puta Gračanica–Vis, u neposrednoj blizini osnovne škole"
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 44.73513,
+            "lng": 18.30465
+          },
+          "priblizno": true,
+          "adresa": "Pored puta Gračanica–Vis, u neposrednoj blizini osnovne škole"
+        },
+        "sledeciDokaz": "Položaj škole ili geolocirana fotografija obnovljene kosturnice."
+      },
+      {
+        "id": "sarajevo-vraca-grobnica-narodnih-heroja",
+        "ishod": "ostaje-priblizno",
+        "dokaz": "Terenski pregled Spomenik Database razdvaja grobnicu, tvrđavu, večni plamen i spomenik ženama; grobnicu smešta na istočni kraj gornjeg platoa uz vrh stepenica. OSM daje obuhvat celog parka, približno 365 × 548 m, bez imenovane grobnice ili užeg platoa. Opis je koristan za dolazak, ali postojeća tačka nije nezavisno uparena sa tom užom celinom. Nisu preuzete opšte koordinate parka ili parkinga kao grobnica.",
+        "izvori": [
+          "https://www.spomenikdatabase.org/sarajevo",
+          "https://www.openstreetmap.org/way/23697320",
+          "https://tragovimamarsala.rs/wp-content/uploads/2022/12/PRILOG-2-Tragovima-Marsala-final-studija-2019.pdf"
+        ],
+        "pre": {
+          "koordinate": {
+            "lat": 43.844125,
+            "lng": 18.398925
+          },
+          "priblizno": true,
+          "adresa": "Na vrhu stepenastih terasa posvećenih palim borcima, u Spomen-parku Vraca"
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 43.844125,
+            "lng": 18.398925
+          },
+          "priblizno": true,
+          "adresa": "Na vrhu stepenastih terasa posvećenih palim borcima, u Spomen-parku Vraca"
+        },
+        "sledeciDokaz": "Georeferenciran plan gornjeg platoa ili GPS/fotografija konkretne grobnice."
+      },
+      {
+        "id": "nevesinje-spomenik-blagoju-parovicu",
+        "ishod": "precizirano-na-potvrdjenu-celinu",
+        "dokaz": "Terenska evidencija Andrewa Lawlera, mapirano septembra 2025, potvrđuje preseljenje statue 2009. na Partizansko groblje. Imenovani OSM park way 1554790432 obuhvata postojeću tačku; granice su približno 207 × 121 m. Prihvaćena mala određena celina, ne pojedinačno podnožje. Podatak da je centralni element groblja porušen između juna 2022. i juna 2025. ne odnosi se automatski na Parovićevu statuu; stanje statue nije menjano.",
+        "izvori": [
+          "https://www.spomenicinob.info/nevesinje",
+          "https://www.openstreetmap.org/way/1554790432"
+        ],
+        "pre": {
+          "koordinate": {
+            "lat": 43.254584,
+            "lng": 18.118025
+          },
+          "priblizno": true,
+          "adresa": "Partizansko spomen-groblje; premešten sa gradskog trga 2009."
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 43.254584,
+            "lng": 18.118025
+          },
+          "priblizno": null,
+          "adresa": "Partizansko spomen-groblje; premešten sa gradskog trga 2009."
+        }
+      },
+      {
+        "id": "donji-vrbljani-spomen-kompleks",
+        "ishod": "ostaje-priblizno",
+        "dokaz": "Izvor razlikuje kompleks u Donjim Vrbljanima uz Desanku Maksimović od NOB spomenika u Gornjem Ribniku u ulici Rade Jovanića. Opštinska mreža škola iz 2022. potvrđuje centralnu Desanku Maksimović u Gornjem Ribniku i područnu devetorazrednu školu u Donjim Vrbljanima. Postojeća tačka vezana je za OSM way 843632259 u Gornjem Ribniku; isto ime škole ne potvrđuje da je to tražena područna škola. Nominatim nije našao područnu školu; nije prepisana obližnja imenovana NOB tačka 44.4183363,16.8196654. Ostaje približno dok se ne utvrdi baš područna škola ili kompleks u Donjim Vrbljanima.",
+        "izvori": [
+          "https://www.spomenicinob.info/ribnik",
+          "https://cms.bitlab.host/api/data/72/documents/1546/Slu%C5%BEbeni%20Glasnik%20br.%201-22.pdf",
+          "https://www.openstreetmap.org/way/843632259"
+        ],
+        "pre": {
+          "koordinate": {
+            "lat": 44.4169294,
+            "lng": 16.8164642
+          },
+          "priblizno": true,
+          "adresa": "Kod Osnovne škole „Desanka Maksimović“, uz igralište"
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 44.4169294,
+            "lng": 16.8164642
+          },
+          "priblizno": true,
+          "adresa": "Kod Osnovne škole „Desanka Maksimović“, uz igralište"
+        },
+        "sledeciDokaz": "Položaj područne škole u Donjim Vrbljanima, uz fotografiju ili plan kompleksa."
+      },
+      {
+        "id": "przdevo-przdevski-laki-spomenik-na-nob",
+        "ishod": "ostaje-priblizno",
+        "dokaz": "Vest o obeležavanju 6.10.2017. razlikuje spomenik na Prždevskim Lakima od spomen-česama u Prždevu i Besvici. Postojeća tačka potiče od centra sela, ne od spomenika uz magistralu. Aktuelni OSM isečak daje crkvu Sv. Atanasija, bez odgovarajućeg spomenika. Nije preuzet položaj crkve niti česme za čeličnu kulu autora Tome Andreevskog.",
+        "izvori": [
+          "https://a1on.mk/macedonia/odbelezhani-73-godini-od-strelanjeto-partizani-i-selani-vo-przhdevo-i-besvica/",
+          "https://afterart.org/wp-content/uploads/2018/09/gjorg-trajkovski_pregled-na-spomenitsite-vo-sr-makedonija.pdf#page=18"
+        ],
+        "pre": {
+          "koordinate": {
+            "lat": 41.42028,
+            "lng": 22.16641
+          },
+          "priblizno": true,
+          "adresa": "Прждевски Лаки, десно од магистралата Скопје–Гевгелија; челична кула со меѓупросторни релјефи; борби во октомври 1944."
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 41.42028,
+            "lng": 22.16641
+          },
+          "priblizno": true,
+          "adresa": "Прждевски Лаки, десно од магистралата Скопје–Гевгелија; челична кула со меѓупросторни релјефи; борби во октомври 1944."
+        },
+        "sledeciDokaz": "Geolocirana fotografija čelične kule ili tačan položaj Prždevskih Laka uz magistralu."
+      },
+      {
+        "id": "bela-crkva-spomenik-na-zajednickoj-grobnici",
+        "ishod": "precizirano-na-potvrdjenu-celinu",
+        "dokaz": "Potvrđena mala porta crkve Sv. Đorđa. Dokument Ministarstva prosvete iz 2024. izričito vezuje partizansku grobnicu Miluna Stambolića za ovu portu; OSM way 443770883 potvrđuje crkvu na postojećoj tački. Pregledana postojeća fotografija: oblikovano granitno obeležje, nije Bogdanovićeva Simbolika u kamenu niti grob žandarma. Prihvaćena lokacija porte po novom kriterijumu; tačka crkve služi za dolazak u malu celinu, nije izmereno podnožje.",
+        "izvori": [
+          "https://ecec.mpn.gov.rs/wp-content/uploads/2024/08/ESMP_radovi_Krupanj.pdf",
+          "https://www.openstreetmap.org/way/443770883",
+          "https://www.ekapija.com/browse/view/10454/crkva-svetog-djordja-i-spomenicki-kompleks-bela-crkva-krupanj"
+        ],
+        "pre": {
+          "koordinate": {
+            "lat": 44.394859,
+            "lng": 19.479855
+          },
+          "priblizno": true,
+          "adresa": "Porta crkve Sv. Đorđa"
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 44.394859,
+            "lng": 19.479855
+          },
+          "priblizno": null,
+          "adresa": "Porta crkve Sv. Đorđa"
+        }
+      },
+      {
+        "id": "slatina-leskovac-spomenik-palim-borcima",
+        "ishod": "ostaje-priblizno",
+        "dokaz": "Proverena ranija evidencija: stručni karton na PDF listu 454 i dodatni satelitski isečak već su pregledani, ali nije uparen konkretan plato/dvorište. Aktuelni OSM isečak i dalje nema imenovan objekat ili ustanovu. Novi pokušaj pristupa izvornom PDF-u preko veb alata nije uspeo; to nije novi pregled kartona. Novo pravilo o malom parku ne može se primeniti dok sama celina nije identifikovana.",
+        "izvori": [
+          "https://digitalizacija-zzsknis.rs/wp-content/uploads/2025/02/Memorijali_Leskovac.pdf#page=454"
+        ],
+        "pre": {
+          "koordinate": {
+            "lat": 42.876582,
+            "lng": 22.0228766
+          },
+          "priblizno": true,
+          "adresa": "U centru sela"
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 42.876582,
+            "lng": 22.0228766
+          },
+          "priblizno": true,
+          "adresa": "U centru sela"
+        },
+        "sledeciDokaz": "Položaj platoa iz stručnog kartona ili fotografija sa prepoznatljivim okolnim objektima."
+      },
+      {
+        "id": "banovici-murali-u-spomen-na-nob",
+        "ishod": "ostaje-priblizno",
+        "dokaz": "Terenska evidencija potvrđuje murale u Radničkom domu; publikacija projekta ATRIUM na sajtu Općine Stari Grad navodi Alije Izetbegovića 30, dok se u imenicima pojavljuju 33 i 68. Operator RMU Banovići potvrđuje rad jedinice Radnički dom, ali kontakt Armije BiH 52 je adresa preduzeća, ne dokaz položaja murala. WorldPlaces daje kandidata 44.40686,18.52586 (oko 349 m od starog markera), uz mnogo očigledno generičkih okolnih unosa; nije dovoljan jedini dokaz tačke zgrade. Nominatim nije našao dom, a OSM ga ne imenuje. Kandidat nije prenet na mapu. Neslaganje godine 1962. u ATRIUM prema 1967. u terenskoj evidenciji sačuvano; godina nije menjana.",
+        "izvori": [
+          "https://www.spomenicinob.info/banovici",
+          "https://starigrad.ba/userfiles/file/2014/6/0506_atrium.pdf",
+          "https://www.rmub.ba/standard-usluge",
+          "https://bosnia-and-herzegovina.worldplaces.me/review/90355743-radnicki-dom.html",
+          "https://hr.cybo.com/BA-biz/radni%C4%8Dki-dom"
+        ],
+        "pre": {
+          "koordinate": {
+            "lat": 44.40888,
+            "lng": 18.52924
+          },
+          "priblizno": true,
+          "adresa": "U holu Radničkog doma, iznad ulaza u restoranski deo"
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 44.40888,
+            "lng": 18.52924
+          },
+          "priblizno": true,
+          "adresa": "U holu Radničkog doma, iznad ulaza u restoranski deo"
+        },
+        "sledeciDokaz": "Pouzdana tačka same zgrade Radničkog doma u Alije Izetbegovića; razrešiti brojeve 30/33/68."
+      },
+      {
+        "id": "trnovac-spomen-kompleks-slana-banja",
+        "ishod": "precizirano-na-potvrdjenu-celinu",
+        "dokaz": "Zavod TK u terenskom opisu iz 2014. izdvaja plato sa bistama, Josipa Broza Tita i 18 narodnih heroja, stepenište i Partizansko groblje. Postojeća fotografija prikazuje baš kružni plato sa bistama. OSM way 1232158239 imenuje tu malu celinu; postojeća tačka je oko 15 m zapadno od njenog zapadnog oboda, pri prilazu. Zadržana kao prilaz potvrđenoj užoj memorijalnoj celini; nije prihvaćen centar celog velikog parka. Zapis obuhvata kompleks, a plato je navigaciono sidro; nisu spojeni pojedinačni spomenici niti promenjene godine ili autori delova.",
+        "izvori": [
+          "https://bastina.ba/memorijalni-kompleks-slana-banja/",
+          "https://www.openstreetmap.org/way/1232158239",
+          "https://www.spomenicinob.info/tuzla"
+        ],
+        "pre": {
+          "koordinate": {
+            "lat": 44.536828,
+            "lng": 18.687944
+          },
+          "priblizno": true,
+          "adresa": "Memorijalni deo šetališta Slana Banja, ispod Gradine"
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 44.536828,
+            "lng": 18.687944
+          },
+          "priblizno": null,
+          "adresa": "Memorijalni plato sa bistama Tita i 18 narodnih heroja i prilaz Partizanskom groblju, Slana Banja"
+        }
+      }
+    ],
+    "granice": "Potvrđena mala celina prihvaćena po pravilu korisnika; ne tvrdi se merenje pojedinačnih podnožja. Izvorni izvori ostaju sačuvani. Neuspešan mrežni pristup nije pregled sadržaja. Postojeće nerešene tačke nisu potvrđene samim nedostatkom novih dokaza.",
+    "lokalneKopije": "izvori/pretrage/vazniji-deset-2026-11-09/",
+    "provera": {
+      "ponovnoCitanje": "Cela baza jednaka pripremljenoj; promenjena samo tri ID-ja i polja priblizno/adresa.",
+      "integritet": {
+        "status": 1,
+        "preostalo": "Tekstualna posveta uz opis: novi-sad-reljef-vere-pavlovic; 22 druga bliska para, van tri izmenjena ID-ja.",
+        "izuzeci": [
+          "nevesinje / nevesinje-spomenik-blagoju-parovicu",
+          "tuzla-tito / trnovac-spomen-kompleks-slana-banja"
+        ]
+      },
+      "diffCheck": 0,
+      "testovi": "Nisu pokretani, prema pauzi korisnika.",
+      "ekran": "Nije provereno; ranije dokumentovan pad Chrome-a."
+    }
   }
 }

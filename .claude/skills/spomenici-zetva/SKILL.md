@@ -30,6 +30,10 @@ Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i ot
 
 **Pri nastavku lociranja** prvo proveri [pouke iz deset lokacija](references/lociranje-i-stanje.md#pouke-iz-provere-deset-lokacija-9112026): primenu novog kriterijuma na stare ishode, razliku parka i celog kompleksa i izbor odredišta van zgrada. Identitet slike proverava se i po natpisu, ne samo po naslovu Commons fajla; [primer pogrešnog uparivanja](references/pretrage-i-fotografije.md#identitet-fotografije-pre-preuzimanja-tačke).
 
+**Izbor paketa za lociranje:** spomenici i memorijalne celine imaju prednost nad bistama; važnost se kombinuje sa konkretnim izgledima za nalaženje. Ne biraj novi paket bisti samo radi lakšeg rezultata dok postoje izgledni važniji kandidati; [pravilo prioriteta](references/lociranje-i-stanje.md#prioritet-i-potvrda-tačke).
+
+**Obim ture lociranja** (korisnik, 9.11.2026): po 10 pregledanih predmeta prema dogovorenom prioritetu. Za svaki upiši potvrđen nalaz ili razlog nerešenog ishoda; završi proveru i izveštaj za celu turu, bez prekidanja nakon nekoliko lakih predmeta. Broj uspešnih lociranja nije unapred zadat.
+
 ## Pravila prema serverima
 
 - **Zahtevi:**
