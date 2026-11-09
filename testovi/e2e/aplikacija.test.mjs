@@ -576,12 +576,26 @@ test('prag važnosti menja celu automatsku turu i pamti izbor bez ograničenja b
   assert.equal(await izvrsi(prag), 'istaknut')
   assert.deepEqual(new Set(await izvrsi("import('./utils/ruta.js').then(m=>m.dajRutu())")), new Set(istaknuti))
   await postaviPrag('spomen-ploca')
-  await izaberi('Banjaluka u NOB')
+  // Prava gradska tura može dobiti istaknut spomenik dopunom baze.
+  await izvrsi(`(() => {
+    const r = document.querySelector('planer-rute')
+    const ids = ${JSON.stringify(svi.slice(0, 3))}
+    const stavke = ids.map(id => {
+      const stavka = r.stavke.get(id)
+      return {...stavka, spomenik: {...stavka.spomenik, istaknut: false, vrsta: 'spomen-ploca', drzava: 'Serbia'}}
+    })
+    r.postavi(stavke, [{id: 'test-prazna-tura', naziv: {sh: 'Probna tura', en: 'Test tour'}, oblast: {drzave: ['Serbia']}}])
+  })()`)
+  await izaberi('Probna tura')
+  assert.equal(await izvrsi(`${ruta}.querySelectorAll('#stanice li').length`), 3)
   await postaviPrag('istaknut')
   assert.equal(await izvrsi(`${ruta}.querySelectorAll('#stanice li').length`), 0)
+  assert.deepEqual(await izvrsi("import('./utils/ruta.js').then(m=>m.dajRutu())"), [])
+  assert.equal(await izvrsi("import('./utils/ruta.js').then(m=>m.dajTuruId())"), 'test-prazna-tura')
+  assert.equal(await izvrsi(`${ruta}.querySelector('#prazna').hidden`), false)
   assert.equal(await izvrsi(`${ruta}.querySelector('#vaznost').hidden`), false)
   await postaviPrag('spomen-ploca')
-  assert.ok(await izvrsi(`${ruta}.querySelectorAll('#stanice li').length`) > 0)
+  assert.equal(await izvrsi(`${ruta}.querySelectorAll('#stanice li').length`), 3)
   await izvrsi("import('./utils/ruta.js').then(m=>m.ukloniIzRute(m.dajRutu()[0]))")
   const rucna = await izvrsi("import('./utils/ruta.js').then(m=>m.dajRutu())")
   await postaviPrag('istaknut')
