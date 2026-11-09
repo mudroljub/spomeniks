@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="sh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer">
+  <title>Spomeniks – privatnost / privacy</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <style>
+    :root { color-scheme: light dark; --naglasak: #822323; }
+    body { margin: 0 auto; max-width: 42rem; padding: 1.5rem 1rem 3rem; font: 1rem/1.6 system-ui, sans-serif; background: Canvas; color: CanvasText; }
+    h1 { color: var(--naglasak); font-size: 1.6rem; margin-bottom: .25rem; }
+    h2 { font-size: 1.15rem; margin-top: 2rem; }
+    a { color: inherit; }
+    .datum { opacity: .7; margin-top: 0; }
+    section + section { border-top: 1px solid color-mix(in srgb, CanvasText 20%, transparent); margin-top: 2.5rem; }
+  </style>
+</head>
+
+<body>
+  <section lang="sh">
+    <h1>Politika privatnosti</h1>
+    <p class="datum">Važi od 9. novembra 2026.</p>
+    <p>Spomeniks je besplatna aplikacija sa mapom spomenika iz Drugog svetskog rata u bivšoj Jugoslaviji. Nema naloge, reklame ni praćenje korisnika i ne prikuplja lične podatke.</p>
+
+    <h2>Lokacija</h2>
+    <p>Ako dozvolite pristup lokaciji, aplikacija je koristi samo na vašem uređaju, da prikaže gde ste na mapi i koji su spomenici najbliži. Lokacija se nikome ne šalje i ne čuva se.</p>
+
+    <h2>Podaci na uređaju</h2>
+    <p>Izabrani jezik, spomenike koje ste označili i rutu koju sastavite aplikacija čuva samo u skladištu pregledača na vašem uređaju. Ti podaci ne napuštaju uređaj i brišu se brisanjem podataka aplikacije.</p>
+
+    <h2>Spoljne usluge</h2>
+    <p>Aplikacija se učitava sa GitHub Pages, a podloge mape sa servera Esri (ArcGIS) i Stadia Maps. Kao i kod svake veb stranice, ti serveri pri preuzimanju vide IP adresu uređaja i deo mape koji se učitava, po svojim pravilima privatnosti. Linkovi ka Google ili Apple mapama, člancima i izvorima otvaraju se u tim aplikacijama ili sajtovima, a prijava ispravke otvara vaš program za e-poštu; tek tada im šaljete ono što sami izaberete.</p>
+
+    <h2>Kontakt</h2>
+    <p>Pitanja o privatnosti: <a class="mejl"></a></p>
+  </section>
+
+  <section lang="en">
+    <h1>Privacy policy</h1>
+    <p class="datum">Effective 9 November 2026.</p>
+    <p>Spomeniks is a free app with a map of World War II monuments in former Yugoslavia. It has no accounts, ads or user tracking and does not collect personal data.</p>
+
+    <h2>Location</h2>
+    <p>If you allow location access, the app uses it only on your device, to show where you are on the map and which monuments are nearest. Your location is never sent anywhere or stored.</p>
+
+    <h2>Data on your device</h2>
+    <p>The chosen language, monuments you mark and the route you build are kept only in the browser storage on your device. This data never leaves the device and is removed when you clear the app’s data.</p>
+
+    <h2>External services</h2>
+    <p>The app is served from GitHub Pages, and map tiles come from Esri (ArcGIS) and Stadia Maps. As with any web page, these servers see your device’s IP address and the map area being loaded, under their own privacy policies. Links to Google or Apple Maps, articles and sources open in those apps or sites, and reporting a correction opens your email app; only then do you send them what you choose.</p>
+
+    <h2>Contact</h2>
+    <p>Privacy questions: <a class="mejl"></a></p>
+  </section>
+
+  <script>
+    const mejl = String.fromCharCode(109, 117, 100, 114, 111, 108, 106, 117, 98, 64, 103, 109, 97, 105, 108, 46, 99, 111, 109)
+    for (const a of document.querySelectorAll('.mejl')) {
+      a.href = `mailto:${mejl}`
+      a.textContent = mejl
+    }
+  </script>
+</body>
+
+</html>
