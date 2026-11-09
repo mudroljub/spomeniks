@@ -1835,6 +1835,14 @@
       "napomena": "Wiki ne zna da li kartografska tačka pripada Gornjoj ili Donjoj Kukauši; objekat nije pouzdano identifikovan.; Wiki ne zna da li kartografska tačka pripada Gornjoj ili Donjoj Kukauši; objekat nije pouzdano identifikovan."
     }
   },
+  "mazuciste": {
+    "proveraLokacije": {
+      "datum": "2026-10-26",
+      "izvor": "data/provere/fotografije.json#fotografije-identitet-2026-10-26",
+      "ishod": "zadrzana-precizna-tacka",
+      "napomena": "Potvrđen identitet spojenog duplikata; zadržana postojeća precizna tačka i Google mesto ako postoji. Ovo nije nova potvrda podnožja; prethodna provera približnog duplikata sačuvana je u izveštaju."
+    }
+  },
   "medja-spomenik-palim-borcima": {
     "proveraLokacije": {
       "datum": "2026-10-26",
@@ -3385,14 +3393,6 @@
       "ishod": "povučena stara tačka",
       "razlog": "Lokalni svedok i Wiki obilazak potvrđuju premeštanje 2023, tačna nova tačka statue nije izmišljena.; Stara tačka u Malom parku više nije mesto statue; novo odredište potvrđeno, precizna tačka nije.",
       "izvestaj": "data/provere/odluke.json#spomenicinob-detaljno-4104-4324-2026-10-20"
-    }
-  },
-  "mazuciste": {
-    "proveraLokacije": {
-      "datum": "2026-10-26",
-      "izvor": "data/provere/fotografije.json#fotografije-identitet-2026-10-26",
-      "ishod": "zadrzana-precizna-tacka",
-      "napomena": "Potvrđen identitet spojenog duplikata; zadržana postojeća precizna tačka i Google mesto ako postoji. Ovo nije nova potvrda podnožja; prethodna provera približnog duplikata sačuvana je u izveštaju."
     }
   }
 }

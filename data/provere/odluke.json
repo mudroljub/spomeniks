@@ -68658,5 +68658,85 @@
       "prikaz": "Oba zapisa otvorena na oba jezika na telefonu 390 x 844, slike ucitane, bez JS izuzetaka i horizontalnog prelivanja; snimci pregledani.",
       "testovi": "Pauzirani testovi i otisak izdanja nisu pokretani."
     }
+  },
+  {
+    "odluka": "novi-sad-olga-petrov-reljef-2026-11-09",
+    "datum": "2026-11-09",
+    "ishod": "dopuna-postojeceg-zapisa",
+    "prethodniZapis": {
+      "id": "novi-sad-severni-telep-spomen-kuca-narodnog-heroja",
+      "koordinate": {
+        "lat": 45.245942,
+        "lng": 19.8253197
+      },
+      "mesto": "Novi Sad (Severni Telep)",
+      "naziv": "Spomen-kuća narodnog heroja Olge Petrov",
+      "nazivEn": "Memorial House of People's Hero Olga Petrov",
+      "posveta": [
+        "Q12756494"
+      ],
+      "vrsta": "spomen-ploca",
+      "drzava": "Serbia"
+    },
+    "posle": {
+      "id": "novi-sad-severni-telep-spomen-kuca-narodnog-heroja",
+      "koordinate": {
+        "lat": 45.245942,
+        "lng": 19.8253197
+      },
+      "mesto": "Novi Sad",
+      "naziv": "Reljef Olge Petrov",
+      "nazivEn": "Relief of Olga Petrov",
+      "posveta": [
+        "Q12756494"
+      ],
+      "vrsta": "reljef",
+      "drzava": "Serbia",
+      "adresa": "Cara Dušana 27, na fasadi Spomen-kuće Olge Petrov; u zgradi je od 2023. Mesna zajednica „7. juli“.",
+      "wiki": "https://imovina.novisad.rs/radovi-na-uredjenju-poslovnog-prostora-u-ulici-cara-dusana-27-u-novom-sadu/",
+      "slika": "slike/spomenici/novi-sad-severni-telep-spomen-kuca-narodnog-heroja.webp",
+      "slikaOdnos": 1.316,
+      "slikaPotpis": "Korisnički prilog, autor nije naveden",
+      "opis": {
+        "sh": "Posvećeno [Olgi Petrov](Q12756494), učiteljici, učesnici NOB i narodnom heroju, streljanoj u Jajincima 9. maja 1942. Portretni reljef postavljen je 1981. na fasadi njene spomen-kuće.",
+        "en": "Dedicated to [Olga Petrov](Q12756494), a teacher, resistance activist and People’s Hero executed at Jajinci on 9 May 1942. The portrait relief was installed on the façade of her memorial house in 1981."
+      },
+      "godina": "1981",
+      "autor": "Julijana Kiš",
+      "natpis": "NARODNI HEROJ\nOLGA PETROV\n1920-1942\n\n„DA, JA SAM OLGA PETROV\nVOLIM SVOJU DOMOVINU I SVOJ NAROD IZNAD SVEGA.\nBORILA SAM SE ZA SLOBODU I ONA ĆE DOĆI.\nPONOSNO UMIREM ZA KPJ“"
+    },
+    "lokalniIzvor": "izvori/olga-petrov-novi-sad-2026-11-09/",
+    "izvori": [
+      "https://www.openstreetmap.org/node/11730286488",
+      "https://imovina.novisad.rs/radovi-na-uredjenju-poslovnog-prostora-u-ulici-cara-dusana-27-u-novom-sadu/",
+      "https://www.021.rs/novi-sad/vesti/343244/mesna-zajednica-7-juli-ima-nove-prostorije-u-cara-dusana",
+      "https://skupstina.novisad.rs/wp-content/uploads/2023/06/izvestaj-o-radu-i-poslovanju-gradske-biblioteke-za-2022.pdf",
+      "https://vreme.com/mozaik/julijana-iz-proklete-sume/"
+    ],
+    "dokaz": "Dostavljeni opis navodi autora Julijanu Kiš i godinu 1981; fotografije potvrđuju portretni reljef, natpis i fasadu. Gradska uprava za imovinu potvrđuje Spomen-kuću Olge Petrov na Cara Dušana 27 i obnovu fasade i krova 2022. Reportaža 021 od 8.6.2023 potvrđuje novu namenu zgrade kao MZ 7. juli na istoj adresi. Bibliotečki izveštaj potvrđuje da je na adresi ranije bio fond Zavičajne zbirke. Vreme potvrđuje puno ime vajarke Julijane Kiš, ali ne i njeno autorstvo ovog dela; autorstvo i 1981. potiču iz dostavljenog teksta.",
+    "identitet": "Zadržan postojeći ID i precizna OSM tačka 45.245942,19.8253197; izvorni OSM objekat već ima historic=memorial i memorial=plaque, iako je ime bilo Spomen-kuća. Zapis sada identifikuje konkretno delo na fasadi, vrste reljef. Zaštićena spomen-kuća nije osporena: sačuvana je u opisu i adresi, uz potvrđenu novu namenu. Nije napravljen drugi marker iste lokacije. Ne potvrđuje se muzejska postavka ili mogućnost obilaska unutrašnjosti. Uklonjen nepotvrđen deo grada Severni Telep; mesto je Novi Sad, a ID nije preimenovan.",
+    "materijali": [
+      {
+        "fajl": "opis.txt",
+        "sha256": "c5ea87a1dbd518118aea34c79bb5ae149a5d64e31f8a867202a87a3101a84c5b",
+        "sacuvan": true
+      },
+      {
+        "fajl": "134162351_1484307695293526_9045103226977647482_n.jpg",
+        "sha256": "b8da3c46827acc2b441e86a87efb1becd913226d8be14b38ec7b7b5e8fa34c24",
+        "sacuvan": false
+      },
+      {
+        "fajl": "133967586_1484307751960187_7611308140734528302_n.jpg",
+        "sha256": "01f08d8ff08bb4dea5e55f15147bf77b2baf0ce2599f6d934fee6cf5f0cbfb2b",
+        "sacuvan": true
+      },
+      {
+        "fajl": "133734737_1484308101960152_3515717925871357101_n.jpg",
+        "sha256": "71f65771029293ce12b0185068072940481ddc3cfb2328e9a3201f7321b33424",
+        "sacuvan": false
+      }
+    ],
+    "granice": "Sačuvani opis i jedna potrebna fotografija reljefa; šira fasada i drugi snimak pregledani za identitet bez dodatnih kopija. Autor i datum fotografija nisu poznati. Naslov i natpis daju 1920–1942, dok jedan pasus dostavljenog teksta greškom navodi rođenje 1921; puna godina rođenja nije upisana u opis, natpis ostaje doslovan. Popravljena vrsta, naziv, mesto i dodati nedostajući podaci; koordinate, izvorni izvor i povezana posveta nisu menjani."
   }
 ]
