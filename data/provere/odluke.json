@@ -68738,5 +68738,58 @@
       }
     ],
     "granice": "Sačuvani opis i jedna potrebna fotografija reljefa; šira fasada i drugi snimak pregledani za identitet bez dodatnih kopija. Autor i datum fotografija nisu poznati. Naslov i natpis daju 1920–1942, dok jedan pasus dostavljenog teksta greškom navodi rođenje 1921; puna godina rođenja nije upisana u opis, natpis ostaje doslovan. Popravljena vrsta, naziv, mesto i dodati nedostajući podaci; koordinate, izvorni izvor i povezana posveta nisu menjani."
+  },
+  {
+    "odluka": "novi-sad-reljef-vlade-zivanovica-2026-11-09",
+    "datum": "2026-11-09",
+    "ishod": "novi-zapis",
+    "noviZapis": {
+      "id": "novi-sad-reljef-vlade-zivanovica",
+      "koordinate": {
+        "lat": 45.2709244,
+        "lng": 19.8368574
+      },
+      "priblizno": true,
+      "mesto": "Novi Sad",
+      "adresa": "U Ulici Vlade Živanovića na Salajci; tačna zgrada nije utvrđena.",
+      "izvor": "https://sr.wikipedia.org/wiki/Владимир_Живановић_Влада",
+      "wiki": "https://sr.wikipedia.org/wiki/Владимир_Живановић_Влада",
+      "slika": "slike/spomenici/novi-sad-reljef-vlade-zivanovica.webp",
+      "slikaPotpis": "Korisnički prilog, autor nije naveden",
+      "naziv": "Reljef Vlade Živanovića",
+      "nazivEn": "Relief of Vlada Živanović",
+      "opis": {
+        "sh": "Posvećeno [Vladimiru Živanoviću Vladi](Q110047080), sekretaru Okružnog komiteta KPJ za južnu Bačku, koji je umro 28. septembra 1941. posle mučenja u zatvoru. Spomen-ploča sa portretnim reljefom postavljena je 1975. u ulici koja nosi njegovo ime.",
+        "en": "Dedicated to [Vladimir Živanović Vlada](Q110047080), secretary of the District Committee of the Communist Party for South Bačka, who died on 28 September 1941 after torture in prison. The plaque with his portrait relief was installed in 1975 in the street named after him."
+      },
+      "godina": "1975",
+      "autor": "Pavle Radovanović",
+      "posveta": [
+        "Q110047080"
+      ],
+      "natpis": "SEKRETAR OKRUŽNOG\nKOMITETA KPJ ZA JU-\nŽNU BAČKU\nORGANIZATOR NAR-\nODNOOSLOBODILAČKE\nBORBE U JUŽNOJ BA-\nČKOJ\n\nVLADA ŽIVANOVIĆ\n3. II 1898 – 28. IX 1941",
+      "vrsta": "reljef",
+      "drzava": "Serbia"
+    },
+    "lokalniIzvor": "izvori/vlada-zivanovic-novi-sad-2026-11-09/",
+    "izvori": [
+      "https://sr.wikipedia.org/wiki/Владимир_Живановић_Влада",
+      "https://www.openstreetmap.org/way/80993838"
+    ],
+    "dokaz": "Dostavljeni opis (isti tekst kao sr Vikipedija, odeljak Sećanje) navodi ploču sa reljefnim likom iz 1975. u Ulici Vlade Živanovića i autora, novosadskog vajara Pavla Radovanovića. Fotografija potvrđuje portretni reljef i natpis latinicom.",
+    "lokacija": "Ulica Vlade Živanovića je na Salajci (OSM put 80993838, oko 200 m); tačka je sredina ulice prema Nominatimu, sa priblizno. Ni OSM ni pretraga na mreži nisu dali zgradu; Overpass za zgrade u ulici nije odgovorio (502/prazan odgovor).",
+    "vrsta": "Portretni reljef na ploči znači vrstu reljef, prema standardu, kao kod reljefa Koste Šokice i Koste Nađa.",
+    "dilema": "Opis kaže da je umro u Bačkoj Topoli, a zatim da je umro u novosadskoj bolnici; u opis je upisan samo datum smrti. Opis ga naziva rođenim Novosađaninom, a rođen je u Starim Šovama (Ravno); taj deo nije prenet.",
+    "materijali": [
+      {
+        "fajl": "opis.txt",
+        "sha256": "9bf51b6eb8709bf47bc45035a3accc59f4e780677c3addb78d24226dc6dbe6a5"
+      },
+      {
+        "fajl": "120359396_1403544310036532_7934187390211499003_n.jpg",
+        "sha256": "194f7cd906ce71e1366a29027de374cfe56ca64440c01dbf93c177d84d8ba63a"
+      }
+    ],
+    "granice": "Fotograf i datum fotografije nisu navedeni. Natpis je prepisan sa fotografije, sa prelomima redova kao na ploči; deo slova je slabo čitljiv, ali se slaže sa tekstom u opisu."
   }
 ]
