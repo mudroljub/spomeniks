@@ -4,7 +4,30 @@ Otvoreni slučajevi, razrešeni identiteti koje ne treba ponovo unositi i veze k
 
 Raniji ciljani prolaz je završen, žetva CG zatvorena, a šira hrvatska provera obustavljena po odluci korisnika. Ove beleške same ne otvaraju novi zadatak; prioriteti izvora su u [IZVORI.md](IZVORI.md#prioriteti).
 
-## Tura od 10 važnijih spomenika — 9.11.2026.
+## Tura sa strožim izborom: pet od deset — 9.11.2026.
+
+**Pouka posle ture:** dostignut prag 5/10 ne dokazuje da je napor bio opravdan, jer svi upiti i vreme nisu mereni. Sledeći izbor treba osloniti na postojeću adresu, registarski identifikator ili potvrđenu malu celinu, uz beleženje ukupnog napora i promene pristupa; neuspešne preliminarne pretrage ne skrivati izvan skora. Postupak je sačuvan u [pravilima izbora ture](../.claude/skills/spomenici-zetva/references/lociranje-i-stanje.md#izbor-ture-i-cena-potvrde), a konkretni API pozivi u [referenci hrvatskog registra](../.claude/skills/spomenici-zetva/references/pretrage-i-fotografije.md#hrvatski-registar-karton-i-geometrija).
+
+**Potvrđeno 5/10 (50%)**, bez bisti: Klanjec, Pazin, Ljubljana, Vrbanja i Pučišća. Četiri predmeta ostaju približna, a pogrešna oznaka Vere Kotorke iz centra Kočana vraćena je na spisak bez lokacije: izvori je smeštaju na Ponikvu, u mesto Lokven. Taj prenos nije šesta potvrđena lokacija. [Izbor, svi prethodni i završni podaci, pojedinačni izvori i granice](../data/provere/lociranje.json#izbor-deset-prag-polovina-2026-11-09).
+
+Izbor je zasnovan na konkretnim muzejima, registarskim kartonima/EŠD-ovima, malim određenim celinama i originalnim fotografijama, uz prednost spomenicima nad bistama. Predmeti prethodne neuspešne ture nisu ponavljani. Zajednički hrvatski geoportal dao je male geometrije za dva unapred identifikovana kartona; primenjeno je novo pravilo male celine, bez zahteva da se pod krošnjama izmeri postament. Nije ponovo otvorena šira hrvatska provera.
+
+| Predmet | Ishod | Presudan dokaz ili prepreka |
+|---|---|---|
+| Klanjec — Tito | Potvrđeno, ista tačka | Muzejski karton GA-371, fotografija konkretne statue i današnja galerija na Trgu Antuna Mihanovića 10; prihvaćena ustanova. |
+| Pazin — „Smrt fašizmu – sloboda narodu“ | Potvrđeno, ista lokacija | Centralna skulptura na fotografiji, GPS i mali imenovani Park istarskih velikana; razdvojen od Parka narodnog ustanka. |
+| Ljubljana — pali pitomci Učiteljskog doma | Potvrđeno, pomereno oko 1,55 km | EŠD 5684, Žibertova 27, isti spomenik na fotografiji i mali ulazni plato. Dvosmisleni GPS fotografije nije preuzet. |
+| Vrbanja — pali borci i žrtve fašizma | Potvrđeno, pomereno oko 34 m | Karton 131675, parcela 100/1 i službena geometrija malog parka; tačka parka, ne izmereno podnožje. |
+| Pučišća — pali borci | Potvrđeno, ista tačka | Karton 136226, konzervatorska fotografija i mali obuhvat memorijala uz obalu; preostali zahtev za podnožjem više nije potreban. |
+| Veles — Panko Brašnar | Ostaje približno | GPS fotografa na ulici nije uparen sa kružnim platoom uz garnizon; opštinski opis ostaje koristan nov trag. |
+| Veles — Kočo Racin, zapis „2“ | Ostaje približno | Razdvojene statue kod gimnazije i naspram sat-kule; školska lokacija nije prepisana drugom delu. |
+| Vinorača — Milan Mijalković | Ostaje približno | Fotografija nema upotrebljiv GPS, a školski park u Jagodini je drugi spomenik; centar sela nije dovoljno sidro. |
+| Sremski Mihaljevci — pali borci i žrtve fašizma | Ostaje približno | Potvrđeni centar i pošta ne potvrđuju određeni plato; razlikovan od parka na izlasku ka Karlovčiću. |
+| Kočani/Ponikva — Vera Kotorka | Ispravljena pogrešna oznaka; bez lokacije | Vesti sa komemoracija i fotografija potvrđuju planinski spomenik na Ponikvi; sačuvani ID i fotografija, uklonjena oznaka iz centra Kočana. |
+
+Provereni su nameravani ID-jevi i ceo ponovni upis; fotografija pri prenosu sačuvana je bez promene bajtova. `git diff --check` prolazi. `integritet.py` i pre i posle ture vraća status 1 zbog istog opisa uz tekstualnu posvetu reljefa Vere Pavlović i 22 druga bliska para. Tri nova bliska para proverena su fotografijama kao različita dela i navedena pojedinačno u postojećim izuzecima: pazinski centralni spomenik uz dve biste i ljubljanska figura uz zapis čija fotografija prikazuje obeležje sa kuglom; tačka tog drugog ljubljanskog obeležja ovde nije potvrđena. Testovi ostaju pauzirani; nova vizuelna provera aplikacije nije rađena zbog ranije dokumentovanog problema sa Chrome-om.
+
+## Prethodna tura od 10 važnijih spomenika — 9.11.2026.
 
 Pregledano svih deset, bez bisti: **tri potvrđene lokacije i sedam približnih**. Koordinate nisu pomerane; za tri je prihvaćena potvrđena mala celina po korisnikovom pravilu. Slanoj Banji dopunjen je opis prilaza. [Dokazi, prethodne vrednosti i sledeći potreban dokaz za svaki predmet](../data/provere/lociranje.json#vazniji-deset-2026-11-09).
 
@@ -37,13 +60,15 @@ Bista Filipa Filipovića ostala je neizmenjena: natpis i Commons potvrđuju osob
 
 ## Prioriteti za preostale približne lokacije — 9.11.2026.
 
-Početni obuhvat bio je **953 približna zapisa vrste bista ili važnije** (737 bisti i 216 drugih važnijih objekata). Posle prvih deset kandidata ostalo je 947, posle pet niških bisti 942, posle tri školske biste 939, a nakon ture od deset važnijih spomenika iznad ostaje **936 važnijih približnih zapisa** (729 bisti i 207 drugih); ukupno svih približnih markera je 1.230. Sedam preciziranja prvog paketa uključuje i „88 sadnica“, koje je ispod praga važnijih, pa se broj važnijih tada smanjio za šest. Redosled grupa je procena prema dokazima, bez procenata uspeha; nije spisak bez lokacije.
+Početni obuhvat bio je **953 približna zapisa vrste bista ili važnije** (737 bisti i 216 drugih važnijih objekata). Posle prvih deset kandidata ostalo je 947, posle pet niških bisti 942, posle tri školske biste 939, a nakon prethodne ture sa tri potvrde 936. Posle nove ture sa pet potvrda i jednim prenosom pogrešnog markera van mape ostaje **930 važnijih približnih zapisa na mapi** (729 bisti i 201 drugih); ukupno svih približnih markera je 1.224. Prenos van mape ne računa se kao potvrđena lokacija. Sedam preciziranja prvog paketa uključuje i „88 sadnica“, koje je ispod praga važnijih, pa se broj važnijih tada smanjio za šest. Redosled grupa je procena prema dokazima; ovo nije spisak bez lokacije.
 
 ### Izbor po važnosti i šansi — pravilo za naredne ture
 
 Raditi u **turama po 10 pregledanih predmeta** (korisnik, 9.11.2026), uz ishod za svaki i zajedničku završnu proveru. Prethodna tri predložena kandidata dopunjena su sa još sedam i obrađena u zatvorenoj turi iznad. Ne računati deset predmeta kao obećanje deset uspešnih lociranja.
 
-**Najpre važniji spomenici, ne novi paket bisti.** Od preostalih 936 važnijih približnih zapisa, 207 je iznad vrste bista. To nije 207 jednako izglednih kandidata: prvo se biraju oni sa konkretnom ustanovom, uskom celinom ili stručnim kartonom, uz proveru ranijih ishoda.
+**Prag opravdanog napora je najmanje 50% potvrđenih lokacija** (korisnik, 9.11.2026). Pre ture proveriti ranije ishode i kvalitet konkretnog traga; ne popunjavati desetku iscrpljenim predmetima bez novog dokaza. Preliminarno istraživanje i neuspešni pokušaji jesu deo napora, a ispravka identiteta, kandidat ili prenos pogrešne oznake van mape nisu uspešna lokacija. Ako dokazi ne podržavaju izgledan prinos, promeniti izvor ili izbor pre nastavka istim putem; kriterijum potvrde se ne spušta radi procenta.
+
+**Najpre važniji spomenici, ne novi paket bisti.** Od preostalih 930 važnijih približnih zapisa na mapi, 201 je iznad vrste bista. To nije 201 jednako izglednih kandidata: prvo se biraju oni sa konkretnom ustanovom, uskom celinom ili stručnim kartonom, uz proveru ranijih ishoda.
 
 Ako prvi kandidat nema novi dokaz ni primenjivo novo pravilo, sačuvati razlog i preći na sledeći važniji izgledan predmet. Čento, Banatski Despotovac i Izbišta iz završenog paketa ne ponavljaju se bez već navedenog novog traga. Biste dolaze posle ovog izbora, osim usputnih pouzdanih dopuna iz istog izvora. Ovim planom nije ponovo otvorena obustavljena šira hrvatska provera ili opšta žetva CG.
 

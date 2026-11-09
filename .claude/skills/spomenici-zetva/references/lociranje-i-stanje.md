@@ -8,6 +8,15 @@
 
 Radi po verovatnoći uspeha, ne redom kroz radni spisak: najpre konkretni objekti, savremene adrese i precizne tačke. Centar naselja ili opštine nije potvrda mesta spomenika. **Potvrđena ustanova** (korisnikov kriterijum primenjen 9.11.2026): kada je konkretan spomenik potvrđen u današnjoj školi, klinici ili muzeju, položaj te ustanove dovoljan je bez merenja podnožja ili zida; nije dovoljna samo istoimena ili nekadašnja ustanova. Navedi da li je predmet u dvorištu ili unutrašnjosti kada je to poznato. Kataloška oznaka „na mapi“ ne znači da je tačka precizna; proveri napomenu o njenom poreklu.
 
+### Izbor ture i cena potvrde
+
+- **Najmanje 50% je prag, ne dokaz efikasnosti** (korisnik, 9.11.2026): radi u turama po deset i odvojeno beleži potvrđene lokacije, kandidate, razrešene identitete i sklonjene pogrešne oznake. U procenu napora uključi preliminarne pretrage, neuspele zahteve i vreme; poslednji prolaz nije merio sve te troškove, pa njegovih 5/10 ne dokazuje dobar odnos rezultata i vremena.
+- **Plan prethodi detaljnoj pretrazi:** za kandidata navedi važnost, konkretan izvor položaja, raniji ishod i razlog zašto sada ima bolju šansu. Prednost imaju postojeći registarski broj/EŠD, imenovana današnja ustanova i već potvrđena mala celina. Sama fotografija bez GPS-a ili naziv „centar sela“ slabiji su tragovi; ne popunjavaj njima desetku radi broja. Ne izmišljaj procente pouzdanosti.
+- **Ne popravljaj skor promenom imenitelja:** čuvaj prvobitni izbor i stvarno pregledane predmete. Ako menjaš izbor ili metod, zabeleži zašto i prethodno utrošen napor; neuspešni pokušaji ne nestaju iz izveštaja. Iscrpljene slučajeve ponovi samo uz novi dokaz ili jasno primenjivo novo pravilo.
+- **Menjaj izvor čim se pokaže prepreka:** kada nema GPS-a, ustanova nije ista ili je satelitski detalj zaklonjen, pređi na konkretnu adresu, registarski karton ili plan. Više opštih upita i veći broj preuzetih slika nisu napredak bez novog podatka o položaju. Za više predmeta iz istog registra koristi isti provereni postupak, uz pojedinačnu proveru identiteta.
+
+Primeri i ograničenja: `data/provere/lociranje.json#izbor-deset-prag-polovina-2026-11-09`. Klanjec je razrešen potvrđenom galerijom, Pazin malim imenovanim parkom, Ljubljana EŠD-om i adresom, a Vrbanja i Pučišća malom geometrijom konkretnog memorijala. GPS fotografa i obližnja pošta nisu razrešili ostale predmete. Postupak za [hrvatski geoportal](pretrage-i-fotografije.md#hrvatski-registar-karton-i-geometrija) čuva se na jednom mestu.
+
 ### Pouke iz provere deset lokacija 9.11.2026.
 
 - **Novo pravilo menja red prioriteta:** prvo pregledaj predmete odložene samo zbog neizmerenog podnožja u već potvrđenoj maloj celini ili ustanovi. Ishod „bez nove potvrde“ po starom kriterijumu nije automatski nerešiv slučaj. Zadrži razliku između nove prihvaćene preciznosti i novog terenskog merenja.

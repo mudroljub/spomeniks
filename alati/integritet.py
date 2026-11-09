@@ -14,6 +14,13 @@ DRZAVE = {'Slovenia', 'Croatia', 'Bosnia and Herzegovina', 'Serbia', 'Montenegro
 POZNATA = set(REDOSLED)
 # Ranije proverene celine i pojedinacna obelezja na istoj lokaciji.
 POZNATI_BLISKI_PAROVI = {frozenset(par) for par in [
+    # Različita dela potvrđena fotografijama, lociranje.json#izbor-deset-prag-polovina-2026-11-09.
+    # Pazinske biste dele sidro malog parka sa centralnom skulpturom.
+    ('pazin-spomenik-smrt-fasizmu-sloboda-narodu', 'pazin-bista-save-vukelica'),
+    ('pazin-spomenik-smrt-fasizmu-sloboda-narodu', 'pazin-bista-joakima-rakovca'),
+    # Kamena stena sa mladenačkom figurom nije obeležje sa kuglom iz drugog zapisa;
+    # izuzetak sprečava lažnu prijavu duplikata, ne potvrđuje tačku drugog obeležja.
+    ('ljubljana-spodnja-siska', 'ljubljana-spomenik-padlim-gojencem-uciteljskega-dom'),
     # Potvrđene celine i njihovi delovi: lociranje.json#vazniji-deset-2026-11-09.
     # Preseljena Parovićeva statua nije centralni spomenik groblja; plato bisti
     # je navigaciono sidro šireg kompleksa Slana Banja, ne njegov duplikat.

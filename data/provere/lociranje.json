@@ -29745,5 +29745,552 @@
       "testovi": "Nisu pokretani, prema pauzi korisnika.",
       "ekran": "Nije provereno; ranije dokumentovan pad Chrome-a."
     }
+  },
+  "izbor-deset-prag-polovina-2026-11-09": {
+    "datum": "2026-11-09",
+    "obim": "Deset važnijih predmeta bez bisti; pet potvrđenih lokacija (50%), četiri ostaju približna, jedna pogrešna oznaka preneta na spisak bez lokacije.",
+    "plan": "Prvo pregledane vrste i postojeći tragovi u celom preostalom skupu; prednost konkretnim ustanovama, EŠD/registarskim kartonima, malim celinama i originalnim fotografijama. Iscrpljeni kandidati prethodne ture nisu ponovljeni. Isti katalog se koristi zbirno. Provera originalnih metapodataka i karte deo je stvarnog napora i ne isključuje se iz ocene prinosa.",
+    "pragKorisnika": "Najmanje pet potvrđenih lokacija od deset pregledanih; ispravke, kandidati i uklanjanje pogrešne oznake nisu dodatne uspešne lokacije. Ne snižavati kriterijum radi procenta.",
+    "ishodi": [
+      {
+        "razlogIzbora": "Statua; konkretna današnja galerija i originalna fotografija, primenjiv kriterijum ustanove.",
+        "dokaz": "Muzejski karton GA-371 potvrđuje konkretan odliv Tita u šinjelu u zbirci Galerije Antuna Augustinčića, ustupljen galeriji 2004. Commons fotografija iz 2013. izričito navodi ovu galeriju i prikazuje isti tip statue. Galerija potvrđuje adresu Trg Antuna Mihanovića 10; OSM way 242164729 ima isto ime i adresu, a postojeća tačka je u njegovom obuhvatu. Prihvaćena lokacija muzeja i malog okolnog parka, ne pojedinačni postament. Ne prepisuje se godina prvog kumrovečkog odlivka kao godina postavljanja u Klanjcu.",
+        "izvori": [
+          "https://www.gaa.mhz.hr/fundus-s69/1265",
+          "https://commons.wikimedia.org/wiki/File:Maršal_Tito,_Klanjec.JPG",
+          "https://www.openstreetmap.org/way/242164729"
+        ],
+        "id": "klanjec-spomenik-josipu-brozu-titu",
+        "vrsta": "statua",
+        "ishod": "potvrdjena-lokacija",
+        "pre": {
+          "id": "klanjec-spomenik-josipu-brozu-titu",
+          "koordinate": {
+            "lat": 46.0506848,
+            "lng": 15.7422635
+          },
+          "priblizno": true,
+          "mesto": "Klanjec",
+          "adresa": "Galerija Antuna Augustinčića, Trg Antuna Mihanovića 10",
+          "slika": "slike/spomenici/klanjec-spomenik-josipu-brozu-titu.webp",
+          "slikaOdnos": 0.75,
+          "slikaPotpis": "Flammard, CC BY-SA 3.0",
+          "naziv": "Spomenik Josipu Brozu Titu",
+          "nazivEn": "Statue of Josip Broz Tito",
+          "autor": "Antun Augustinčić",
+          "posveta": [
+            "Q9161"
+          ],
+          "vrsta": "statua",
+          "drzava": "Croatia",
+          "izvor": "https://commons.wikimedia.org/wiki/File:Mar%C5%A1al_Tito,_Klanjec.JPG"
+        },
+        "posle": {
+          "id": "klanjec-spomenik-josipu-brozu-titu",
+          "koordinate": {
+            "lat": 46.0506848,
+            "lng": 15.7422635
+          },
+          "mesto": "Klanjec",
+          "adresa": "Galerija Antuna Augustinčića, Trg Antuna Mihanovića 10",
+          "slika": "slike/spomenici/klanjec-spomenik-josipu-brozu-titu.webp",
+          "slikaOdnos": 0.75,
+          "slikaPotpis": "Flammard, CC BY-SA 3.0",
+          "naziv": "Spomenik Josipu Brozu Titu",
+          "nazivEn": "Statue of Josip Broz Tito",
+          "autor": "Antun Augustinčić",
+          "posveta": [
+            "Q9161"
+          ],
+          "vrsta": "statua",
+          "drzava": "Croatia"
+        }
+      },
+      {
+        "razlogIzbora": "Statua narodnog heroja; originalna terenska Commons fotografija iz 2019, potencijal GPS-a i lokalnog sidra.",
+        "dokaz": "Pregledana fotografija potvrđuje celu figuru i natpis, ali Commons odgovor nema koordinate. Lokalni opis sela potvrđuje obeležje u centru, bez određene adrese; aktuelni OSM isečak nema imenovano obeležje. Školski park iz pomoravskog članka odnosi se na drugu postavku u Jagodini i nije iskorišćen za vinoračku statuu.",
+        "izvori": [
+          "https://commons.wikimedia.org/wiki/File:Wiki_Šumadija_XVI_Vinorača_672.jpg",
+          "https://www.autentik.net/jagodina/selo/vinoraca.php",
+          "https://www.pomoravlje.rs/spomenici/"
+        ],
+        "sledeciDokaz": "Položaj male celine i kuća oko statue iz fotografije; GPS drugog terenskog snimka.",
+        "id": "vinoraca-spomenik-milanu-mijalkovicu",
+        "vrsta": "statua",
+        "ishod": "ostaje-priblizno",
+        "pre": {
+          "id": "vinoraca-spomenik-milanu-mijalkovicu",
+          "koordinate": {
+            "lat": 43.966333,
+            "lng": 21.231167
+          },
+          "priblizno": true,
+          "mesto": "Vinorača",
+          "slika": "slike/spomenici/vinoraca-spomenik-milanu-mijalkovicu.webp",
+          "slikaOdnos": 0.667,
+          "slikaPotpis": "Ванилица, CC BY-SA 4.0",
+          "naziv": "Spomenik Milanu Mijalkoviću",
+          "nazivEn": "Monument to Milan Mijalković",
+          "posveta": "Milanu Mijalkoviću Čiči",
+          "vrsta": "statua",
+          "drzava": "Serbia",
+          "izvor": "https://commons.wikimedia.org/wiki/File:Wiki_Šumadija_XVI_Vinorača_672.jpg"
+        },
+        "posle": {
+          "id": "vinoraca-spomenik-milanu-mijalkovicu",
+          "koordinate": {
+            "lat": 43.966333,
+            "lng": 21.231167
+          },
+          "priblizno": true,
+          "mesto": "Vinorača",
+          "slika": "slike/spomenici/vinoraca-spomenik-milanu-mijalkovicu.webp",
+          "slikaOdnos": 0.667,
+          "slikaPotpis": "Ванилица, CC BY-SA 4.0",
+          "naziv": "Spomenik Milanu Mijalkoviću",
+          "nazivEn": "Monument to Milan Mijalković",
+          "posveta": "Milanu Mijalkoviću Čiči",
+          "vrsta": "statua",
+          "drzava": "Serbia"
+        }
+      },
+      {
+        "razlogIzbora": "Statua sa fotografijom i vezom ka tačnoj jedinici slovenačkog registra EŠD 5684.",
+        "dokaz": "Zvanična turistička organizacija potvrđuje Žibertovu 27, a službeni akt iz 2003. EŠD 5684, parcelu 1204 KO Spodnja Šiška i kamenu stenu sa mladenačkom figurom. Registarski prepis JavniPodatki daje položaj 46.06315,14.49953 ispred te zgrade; OSM way 197399442 potvrđuje broj 27, danas Center Hare Krišna. Postojeća Commons fotografija iz 2020. prikazuje spomenik pred istom zgradom i označena je EŠD-om 5684. Njeni GPS podaci označeni su kao ambiguous i nisu korišćeni. Prihvaćen konkretan mali ulazni plato, ne stara tačka u centru Ljubljane. Obližnji zapis ljubljana-spodnja-siska na svojoj fotografiji prikazuje drugo obeležje sa kuglom; nije spojen samo zbog blizine, njegov položaj nije potvrđen ovom proverom.",
+        "izvori": [
+          "https://www.visitljubljana.com/en/poi/monument-to-the-miner",
+          "https://ised.gov.si/statika/Predpisi/p1305_1.pdf",
+          "https://javnipodatki.si/kulturna-dediscina/enota/ljubljana-spomenik-v-nob-padlim-gojencem-uciteljskega-doma",
+          "https://www.openstreetmap.org/way/197399442",
+          "https://commons.wikimedia.org/wiki/File:Spomenik_v_NOB_padlim_gojencem_Učiteljskega_doma_-_Pred.jpg"
+        ],
+        "id": "ljubljana-spomenik-padlim-gojencem-uciteljskega-dom",
+        "vrsta": "statua",
+        "ishod": "potvrdjena-lokacija",
+        "pre": {
+          "id": "ljubljana-spomenik-padlim-gojencem-uciteljskega-dom",
+          "koordinate": {
+            "lat": 46.05003,
+            "lng": 14.50693
+          },
+          "priblizno": true,
+          "mesto": "Ljubljana",
+          "slika": "slike/spomenici/ljubljana-spomenik-padlim-gojencem-uciteljskega-dom.webp",
+          "slikaOdnos": 1.333,
+          "slikaPotpis": "AwesomeSauceLtd, CC BY-SA 4.0",
+          "naziv": "Spomenik v NOB padlim gojencem Učiteljskega doma",
+          "nazivEn": "Monument to Teachers' Hostel Students Fallen in WWII",
+          "vrsta": "statua",
+          "drzava": "Slovenia",
+          "izvor": "https://commons.wikimedia.org/wiki/File:Spomenik_v_NOB_padlim_gojencem_Učiteljskega_doma_-_Pred.jpg"
+        },
+        "posle": {
+          "id": "ljubljana-spomenik-padlim-gojencem-uciteljskega-dom",
+          "koordinate": {
+            "lat": 46.06315,
+            "lng": 14.49953
+          },
+          "mesto": "Ljubljana",
+          "adresa": "Žibertova ulica 27, ploščad pred nekdanjim Učiteljskim domom",
+          "slika": "slike/spomenici/ljubljana-spomenik-padlim-gojencem-uciteljskega-dom.webp",
+          "slikaOdnos": 1.333,
+          "slikaPotpis": "AwesomeSauceLtd, CC BY-SA 4.0",
+          "naziv": "Spomenik v NOB padlim gojencem Učiteljskega doma",
+          "nazivEn": "Monument to Teachers' Hostel Students Fallen in WWII",
+          "vrsta": "statua",
+          "drzava": "Slovenia"
+        }
+      },
+      {
+        "razlogIzbora": "Velika autorska statua sa GPS fotografijom i opštinskim opisom konkretnog platoa.",
+        "dokaz": "Opštinski razvojni plan 2024–2027, PDF list 94, opisuje plato uz garnizon Alekso Demnievski-Bauman, autora i godinu 2004. Originalni Commons GPS označava fotografa. Pribavljeni OSM isečak nema imenovan spomenik ili plato; satelitski isečak prikazuje ulicu na GPS tački, bez jednoznačnog uparivanja kružnog postamenta i uređenja iz pregledane fotografije. Sam GPS nije pretvoren u potvrđeno podnožje.",
+        "izvori": [
+          "https://veles.gov.mk/downloads/2024/noemvri/Integriran%20lokalen%20razvoen%20plan%20Veles%202024%202027.pdf#page=94",
+          "https://commons.wikimedia.org/wiki/File:Panko_Brashnar_monument_Veles.jpg"
+        ],
+        "sledeciDokaz": "Imenovana tačka ili plan baš platoa uz garnizon; fotografija koja ga geografski povezuje.",
+        "id": "veles-spomenik-na-panko-brasnar",
+        "vrsta": "statua",
+        "ishod": "ostaje-priblizno",
+        "pre": {
+          "id": "veles-spomenik-na-panko-brasnar",
+          "koordinate": {
+            "lat": 41.71389,
+            "lng": 21.76372
+          },
+          "priblizno": true,
+          "mesto": "Велес",
+          "slika": "slike/spomenici/veles-spomenik-na-panko-brasnar.webp",
+          "slikaOdnos": 0.749,
+          "slikaPotpis": "Urum, CC BY-SA 3.0",
+          "naziv": "Споменик на Панко Брашнар",
+          "nazivEn": "Monument to Panko Brašnar",
+          "godina": "2004",
+          "autor": "Petar Hadži Boškov",
+          "posveta": [
+            "Q3397171"
+          ],
+          "vrsta": "statua",
+          "drzava": "Macedonia",
+          "izvor": "https://commons.wikimedia.org/wiki/File:Panko_Brashnar_monument_Veles.jpg"
+        },
+        "posle": {
+          "id": "veles-spomenik-na-panko-brasnar",
+          "koordinate": {
+            "lat": 41.71389,
+            "lng": 21.76372
+          },
+          "priblizno": true,
+          "mesto": "Велес",
+          "slika": "slike/spomenici/veles-spomenik-na-panko-brasnar.webp",
+          "slikaOdnos": 0.749,
+          "slikaPotpis": "Urum, CC BY-SA 3.0",
+          "naziv": "Споменик на Панко Брашнар",
+          "nazivEn": "Monument to Panko Brašnar",
+          "godina": "2004",
+          "autor": "Petar Hadži Boškov",
+          "posveta": [
+            "Q3397171"
+          ],
+          "vrsta": "statua",
+          "drzava": "Macedonia"
+        }
+      },
+      {
+        "razlogIzbora": "Autorska statua sa originalnom fotografijom; opštinski plan razdvaja dve statue u istom gradu.",
+        "dokaz": "Opštinski plan 2024–2027 razlikuje stariju Todorovskog statuu kod gimnazije od Serafimovskog iz 2002. preko puta gradske sat-kule. Originalna Commons fotografija nema GPS. Trenutni OSM isečak oko stare tačke prikazuje gimnaziju i park; to samo po sebi ne potvrđuje Serafimovskog delo naspram sat-kule. Nisu prenete školske koordinate između različitih statua. Pokušaj slike PDF lista nije dao čitljiv snimak i ne računa se kao vizuelno poređenje sa ilustracijom plana.",
+        "izvori": [
+          "https://veles.gov.mk/downloads/2024/noemvri/Integriran%20lokalen%20razvoen%20plan%20Veles%202024%202027.pdf#page=94",
+          "https://commons.wikimedia.org/wiki/File:Кочо_Рацин_-Велес.jpg"
+        ],
+        "sledeciDokaz": "Uparivanje konkretne statue iz 2002. sa geolociranim platoom naspram sat-kule.",
+        "id": "veles-spomenik-na-koco-racin-2",
+        "vrsta": "statua",
+        "ishod": "ostaje-priblizno",
+        "pre": {
+          "id": "veles-spomenik-na-koco-racin-2",
+          "koordinate": {
+            "lat": 41.71887,
+            "lng": 21.77057
+          },
+          "priblizno": true,
+          "mesto": "Велес",
+          "slika": "slike/spomenici/veles-spomenik-na-koco-racin-2.webp",
+          "slikaOdnos": 0.667,
+          "slikaPotpis": "Raso mk, CC BY-SA 3.0",
+          "naziv": "Споменик на Кочо Рацин",
+          "nazivEn": "Monument to Kočo Racin",
+          "godina": "2002",
+          "autor": "Tome Serafimovski",
+          "posveta": [
+            "Q797666"
+          ],
+          "vrsta": "statua",
+          "drzava": "Macedonia",
+          "izvor": "https://commons.wikimedia.org/wiki/File:Кочо_Рацин_-Велес.jpg"
+        },
+        "posle": {
+          "id": "veles-spomenik-na-koco-racin-2",
+          "koordinate": {
+            "lat": 41.71887,
+            "lng": 21.77057
+          },
+          "priblizno": true,
+          "mesto": "Велес",
+          "slika": "slike/spomenici/veles-spomenik-na-koco-racin-2.webp",
+          "slikaOdnos": 0.667,
+          "slikaPotpis": "Raso mk, CC BY-SA 3.0",
+          "naziv": "Споменик на Кочо Рацин",
+          "nazivEn": "Monument to Kočo Racin",
+          "godina": "2002",
+          "autor": "Tome Serafimovski",
+          "posveta": [
+            "Q797666"
+          ],
+          "vrsta": "statua",
+          "drzava": "Macedonia"
+        }
+      },
+      {
+        "razlogIzbora": "Spomenik sa originalnom fotografijom; preliminarna provera otkrila konkretnu Ponikvu umesto grada.",
+        "dokaz": "Pregledana fotografija pokazuje izdvojeni planinski spomenik, a vesti o polaganju venaca 2015, 2017. i 2018. izričito navode Ponikvu i mesto Lokven. Brošura opštine Kočani indeksirana je sa vilom 70 m od spomenika, ali originalni URL vraća 404; brošura nije pročitana. Commons nema GPS; postojeća oznaka u centru Kočana ne odgovara dokumentovanom mestu. Vraćeno na spisak bez lokacije, sa istim ID-jem, fotografijom i posvetom; nije predstavljeno kao uspešno lociranje ili uklanjanje spomenika.",
+        "izvori": [
+          "https://www.kumanovonews.mk/index.php/vesti/veteranite-pred-spomenikot-na-vera-kotorka",
+          "https://www.kumanovonews.mk/index.php/vesti/veteranite-pred-spomenikot-na-vera-kotorka-na-ponikva",
+          "https://www.kumanovonews.mk/index.php/vesti/odbelezana-74-godisninata-od-zaginuvanjeto-na-vera-kotorka",
+          "https://commons.wikimedia.org/wiki/File:Spomenik_vera_kotorka.jpg"
+        ],
+        "sledeciDokaz": "Tačka konkretnog spomenika u mestu Lokven na Ponikvi; ne centar Kočana ni centar izletišta.",
+        "id": "kocani-spomenik-na-vera-kotorka",
+        "vrsta": "spomenik",
+        "ishod": "ispravljena-pogresna-lokacija-van-mape",
+        "pre": {
+          "id": "kocani-spomenik-na-vera-kotorka",
+          "koordinate": {
+            "lat": 41.92113,
+            "lng": 22.41142
+          },
+          "priblizno": true,
+          "mesto": "Кочани",
+          "slika": "slike/spomenici/kocani-spomenik-na-vera-kotorka.webp",
+          "slikaOdnos": 1.333,
+          "slikaPotpis": "Ajta, CC BY-SA 3.0",
+          "naziv": "Споменик на Вера Которка",
+          "nazivEn": "Monument to Vera Kotorka",
+          "posveta": [
+            "Q12275095"
+          ],
+          "vrsta": "spomenik",
+          "drzava": "Macedonia",
+          "izvor": "https://commons.wikimedia.org/wiki/File:Spomenik_vera_kotorka.jpg"
+        },
+        "posle": {
+          "id": "kocani-spomenik-na-vera-kotorka",
+          "mesto": "Кочани",
+          "slika": "slike/bez-lokacije/kocani-spomenik-na-vera-kotorka.webp",
+          "slikaOdnos": 1.333,
+          "slikaPotpis": "Ajta, CC BY-SA 3.0",
+          "naziv": "Споменик на Вера Которка",
+          "nazivEn": "Monument to Vera Kotorka",
+          "posveta": [
+            "Q12275095"
+          ],
+          "vrsta": "spomenik",
+          "drzava": "Macedonia",
+          "adresa": "Пониква, месност Локвен; точната локација на споменикот не е потврдена"
+        }
+      },
+      {
+        "razlogIzbora": "Spomenik sa konzervatorskom fotografijom; karton imenuje mali park, ulice i parcelu. Novo pravilo uklanja staru prepreku podnožja pod krošnjama.",
+        "dokaz": "Službeni karton 131675 / ROS-0226-1971. potvrđuje piramidu sa petokrakom u malom parku, parcelu 100/1 KO Vrbanja i današnju adresu Trg dr. Franje Tuđmana; opis koristi starije nazive Otočka i Zelena. Prostorni plan 2025. potvrđuje isti predmet i parcelu 100. Geoportal daje konkretan poligon približno 36 × 45 m u EPSG:3765. Transformisane su sve tačke preko ArcGIS GeometryServer, sačuvani sirovi odgovori. Izabrana sredina četiri različita temena unutar malog parka, oko 34 m od prethodne tačke na ulici. To je park kao odredište, ne izmereno podnožje. Pregledana fotografija odgovara piramidi, vazi i stepenastoj bazi iz kartona.",
+        "izvori": [
+          "https://registar.kulturnadobra.hr/api/kulturno-dobro/detail/ROS-0226-1971.",
+          "https://geoportal.kulturnadobra.hr/api/kulturno-dobro/get-geometrija-by-kd-id/131675",
+          "https://www.opcina-vrbanja.hr/wp-content/uploads/2025/07/ID-PPUO-Vrbanja_Obrazlozenje.pdf"
+        ],
+        "id": "vrbanja-spomenik-palim-borcima-nor-a-i-zft",
+        "vrsta": "spomenik",
+        "ishod": "potvrdjena-lokacija",
+        "pre": {
+          "id": "vrbanja-spomenik-palim-borcima-nor-a-i-zft",
+          "koordinate": {
+            "lat": 44.98213,
+            "lng": 18.9279
+          },
+          "priblizno": true,
+          "mesto": "Vrbanja",
+          "adresa": "Mali park na križanju Otočke i Zelene ulice",
+          "slika": "slike/spomenici/vrbanja-spomenik-palim-borcima-nor-a-i-zft.webp",
+          "slikaOdnos": 0.75,
+          "slikaPotpis": "Andrija Ćavar, Registar kulturnih dobara RH",
+          "naziv": "Spomenik palim borcima NOR-a i žrtvama fašističkog terora",
+          "nazivEn": "Monument to Fallen WWII Fighters and Victims of Fascist Terror",
+          "vrsta": "spomenik",
+          "drzava": "Croatia",
+          "izvor": "https://registar.kulturnadobra.hr/#/details/131675"
+        },
+        "posle": {
+          "id": "vrbanja-spomenik-palim-borcima-nor-a-i-zft",
+          "koordinate": {
+            "lat": 44.9823027,
+            "lng": 18.9282525
+          },
+          "mesto": "Vrbanja",
+          "adresa": "Mali park na Trgu dr. Franje Tuđmana",
+          "slika": "slike/spomenici/vrbanja-spomenik-palim-borcima-nor-a-i-zft.webp",
+          "slikaOdnos": 0.75,
+          "slikaPotpis": "Andrija Ćavar, Registar kulturnih dobara RH",
+          "naziv": "Spomenik palim borcima NOR-a i žrtvama fašističkog terora",
+          "nazivEn": "Monument to Fallen WWII Fighters and Victims of Fascist Terror",
+          "vrsta": "spomenik",
+          "drzava": "Croatia"
+        }
+      },
+      {
+        "razlogIzbora": "Autorski spomenik; originalna fotografija sa GPS-om i određen mali park.",
+        "dokaz": "Pregledana fotografija prikazuje centralno obeležje sa natpisom Smrt fašizmu / sloboda narodu, ne neku bistu. Original ima GPS i object location 45.240741,13.937053. Imenovani OSM poligon 169699345 potvrđuje mali Park istarskih velikana na toj tački. Gradska strategija zelene infrastrukture navodi memorijal u ovom parku; lokalni Kulturno društvo Pazin opisuje centralnu figuru sa podignutim rukama i razlikuje je od bisti. Ne meša se sa imenovanim spomenikom u drugom Parku narodnog ustanka. Prihvaćen mali park; 8 decimala normalizovano na 7, bez stvarnog pomeranja.",
+        "izvori": [
+          "https://www.pazin.hr/wp-content/uploads/Gradsko-vijece-materijali-za-sjednice/Odluka_o_donosenju_Strategije_razvoja_plave_i_zelene_infrastrukture_GP_do_2030.pdf",
+          "https://www.kdpdi.hr/index.php/hr/kviz-dragi-nas-pazin/literatura-za-dragi-nas-pazin",
+          "https://commons.wikimedia.org/wiki/File:Pazin_Park_Smrt_Fasizmu_Sloboda_Narodu.jpg",
+          "https://www.openstreetmap.org/way/169699345"
+        ],
+        "id": "pazin-spomenik-smrt-fasizmu-sloboda-narodu",
+        "vrsta": "spomenik",
+        "ishod": "potvrdjena-lokacija",
+        "pre": {
+          "id": "pazin-spomenik-smrt-fasizmu-sloboda-narodu",
+          "koordinate": {
+            "lat": 45.24074097,
+            "lng": 13.93705308
+          },
+          "priblizno": true,
+          "mesto": "Pazin",
+          "adresa": "Park istarskih velikana",
+          "slika": "slike/spomenici/pazin-spomenik-smrt-fasizmu-sloboda-narodu.webp",
+          "slikaOdnos": 0.749,
+          "slikaPotpis": "Tommes, CC BY-SA 4.0",
+          "naziv": "Spomenik „Smrt fašizmu – sloboda narodu“",
+          "nazivEn": "“Death to Fascism – Freedom to the People” Memorial",
+          "posveta": "žrtvama fašizma",
+          "vrsta": "spomenik",
+          "drzava": "Croatia",
+          "izvor": "https://commons.wikimedia.org/wiki/File:Pazin_Park_Smrt_Fasizmu_Sloboda_Narodu.jpg"
+        },
+        "posle": {
+          "id": "pazin-spomenik-smrt-fasizmu-sloboda-narodu",
+          "koordinate": {
+            "lat": 45.240741,
+            "lng": 13.9370531
+          },
+          "mesto": "Pazin",
+          "adresa": "Park istarskih velikana",
+          "slika": "slike/spomenici/pazin-spomenik-smrt-fasizmu-sloboda-narodu.webp",
+          "slikaOdnos": 0.749,
+          "slikaPotpis": "Tommes, CC BY-SA 4.0",
+          "naziv": "Spomenik „Smrt fašizmu – sloboda narodu“",
+          "nazivEn": "“Death to Fascism – Freedom to the People” Memorial",
+          "posveta": "žrtvama fašizma",
+          "vrsta": "spomenik",
+          "drzava": "Croatia"
+        }
+      },
+      {
+        "razlogIzbora": "Statua sa službenim kartonom, fotografijom i malom geometrijom zaštite; ranije odložena samo zbog neizmerenog podnožja.",
+        "dokaz": "Službeni karton 136226 / Z-7209 identifikuje Michielijevu bronzanu majku na kamenom postamentu sa dva reljefa, na ulazu u mesnu valu, i parcelu 3904/1. Pregledana postojeća konzervatorska fotografija potvrđuje ovu figuru i obalu. Geoportal vraća mali obuhvat spomenika, približno 83 × 84 m, oko staze i zelenila uz more. Postojeća tačka je unutar tog obuhvata. Po novom kriterijumu prihvaćena mala konkretna memorijalna celina za dolazak, bez merenja podnožja. Konzervatorska fotografija je iz 2011; registar nije proglašen terenskom proverom opstanka iz 2026.",
+        "izvori": [
+          "https://registar.kulturnadobra.hr/api/kulturno-dobro/detail/Z-7209",
+          "https://geoportal.kulturnadobra.hr/api/kulturno-dobro/get-geometrija-by-kd-id/136226"
+        ],
+        "id": "pucisca-spomenik-palim-borcima",
+        "vrsta": "statua",
+        "ishod": "potvrdjena-lokacija",
+        "pre": {
+          "id": "pucisca-spomenik-palim-borcima",
+          "koordinate": {
+            "lat": 43.3501863,
+            "lng": 16.7370924
+          },
+          "priblizno": true,
+          "mesto": "Pučišća",
+          "adresa": "Na ulazu u mesnu valu, uz obalu",
+          "slika": "slike/spomenici/pucisca-spomenik-palim-borcima.webp",
+          "slikaOdnos": 0.753,
+          "slikaPotpis": "Konzervatorski odjel, Registar kulturnih dobara RH",
+          "naziv": "Spomenik palim borcima",
+          "godina": "1957",
+          "autor": "Valerij Michieli",
+          "vrsta": "statua",
+          "drzava": "Croatia",
+          "izvor": "https://registar.kulturnadobra.hr/api/kulturno-dobro/detail/Z-7209"
+        },
+        "posle": {
+          "id": "pucisca-spomenik-palim-borcima",
+          "koordinate": {
+            "lat": 43.3501863,
+            "lng": 16.7370924
+          },
+          "mesto": "Pučišća",
+          "adresa": "Na ulazu u mesnu valu, uz obalu",
+          "slika": "slike/spomenici/pucisca-spomenik-palim-borcima.webp",
+          "slikaOdnos": 0.753,
+          "slikaPotpis": "Konzervatorski odjel, Registar kulturnih dobara RH",
+          "naziv": "Spomenik palim borcima",
+          "godina": "1957",
+          "autor": "Valerij Michieli",
+          "vrsta": "statua",
+          "drzava": "Croatia"
+        }
+      },
+      {
+        "razlogIzbora": "Velika autorska statua sa reljefom, određenom poštom u centru i novijim terenskim člankom.",
+        "dokaz": "Terenski članak Dnevnika iz 2022. potvrđuje spomenik sa reljefom u centru i razlikuje ga od Spomen-parka Posavskom odredu na izlasku ka Karlovčiću. OSM node 8932625601 potvrđuje poštu u Prhovačkoj 2 u blizini. Stara fotografija prikazuje raniju bronzanu figuru pred žutom zgradom, a podatak o krađi i zameni sačuvan je u zapisu. Tačka pošte i sam centar bez geografski uparenog platoa ne potvrđuju lokaciju spomenika; nije povećana preciznost samo zbog blizine pošte.",
+        "izvori": [
+          "https://www.dnevnik.rs/lat/vojvodina/biciklom-kroz-vojvodinu-prhovo-sremski-mihalevci-i-karlovcic-07-08-2022",
+          "https://www.openstreetmap.org/node/8932625601",
+          "https://vreme.com/mozaik/spomenik-iz-kojeg-raste-drvo/"
+        ],
+        "sledeciDokaz": "Geolocirana sadašnja fotografija platoa sa reljefom, ili plan centra sa označenim spomenikom.",
+        "id": "sremski-mihaljevci-bronzana-figura-spomenik-palim",
+        "vrsta": "statua",
+        "ishod": "ostaje-priblizno",
+        "pre": {
+          "id": "sremski-mihaljevci-bronzana-figura-spomenik-palim",
+          "koordinate": {
+            "lat": 44.85906,
+            "lng": 20.038342
+          },
+          "priblizno": true,
+          "mesto": "Sremski Mihaljevci",
+          "adresa": "U centru sela, kod pošte",
+          "slika": "slike/spomenici/sremski-mihaljevci-bronzana-figura-spomenik-palim.webp",
+          "slikaOdnos": 1.333,
+          "slikaPotpis": "Јелена Продановић, CC BY-SA 4.0 — pre krađe 2016.",
+          "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+          "nazivEn": "Monument to Fallen Fighters and Victims of Fascism",
+          "opis": {
+            "sh": "Spomenik sa reljefom i postamentom u centru sela. Bronzana figura borca ukradena je 2016. i zamenjena manjom figurom dečaka; fotografija prikazuje raniji izgled.",
+            "en": "A memorial with a relief and pedestal in the village centre. The bronze fighter was stolen in 2016 and replaced with a smaller figure of a boy; the photograph shows the earlier appearance."
+          },
+          "godina": "1957",
+          "autor": "Stevan Bodnarov",
+          "stanje": "ostecen",
+          "vrsta": "statua",
+          "drzava": "Serbia",
+          "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=139"
+        },
+        "posle": {
+          "id": "sremski-mihaljevci-bronzana-figura-spomenik-palim",
+          "koordinate": {
+            "lat": 44.85906,
+            "lng": 20.038342
+          },
+          "priblizno": true,
+          "mesto": "Sremski Mihaljevci",
+          "adresa": "U centru sela, kod pošte",
+          "slika": "slike/spomenici/sremski-mihaljevci-bronzana-figura-spomenik-palim.webp",
+          "slikaOdnos": 1.333,
+          "slikaPotpis": "Јелена Продановић, CC BY-SA 4.0 — pre krađe 2016.",
+          "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+          "nazivEn": "Monument to Fallen Fighters and Victims of Fascism",
+          "opis": {
+            "sh": "Spomenik sa reljefom i postamentom u centru sela. Bronzana figura borca ukradena je 2016. i zamenjena manjom figurom dečaka; fotografija prikazuje raniji izgled.",
+            "en": "A memorial with a relief and pedestal in the village centre. The bronze fighter was stolen in 2016 and replaced with a smaller figure of a boy; the photograph shows the earlier appearance."
+          },
+          "godina": "1957",
+          "autor": "Stevan Bodnarov",
+          "stanje": "ostecen",
+          "vrsta": "statua",
+          "drzava": "Serbia"
+        }
+      }
+    ],
+    "granice": "Hrvatski obuhvat ograničen na četiri konkretna kandidata, bez ponovnog otvaranja šire obustavljene provere. Geometrija zaštite prihvaćena samo za male identifikovane celine, ne kao opšte pravilo za sve parcele. Satelitski kadrovi nisu dokaz kada je predmet zaklonjen; Esri je vratio NoData i nije korišćen kao uspešna provera. Google Maps HTML nije dao tačke; nisu izmišljene. Nema novih fotografija ili testova.",
+    "lokalneKopije": "izvori/pretrage/izbor-deset-2026-11-09/",
+    "slikaPriPrenosu": {
+      "sha256": "d5225a7b48d3988a3de99506238678669d4a1686ed9960489a4899514c96d5ce",
+      "postupak": "Velika slika premeštena bez promene bajtova u slike/bez-lokacije; mala sačuvana u lokalnim izvorima. Nema brisanja originalne fotografije."
+    },
+    "provera": {
+      "ponovnoCitanje": "Pet potvrđenih ID-jeva i jedan preneti potpuno upoređeni sa očekivanim zapisima; cela ponovo učitana baza upoređena pre završnog zapisa evidencije.",
+      "diffCheck": 0,
+      "integritetPre": {
+        "status": 1,
+        "tekstualnaPosveta": [
+          "novi-sad-reljef-vere-pavlovic"
+        ],
+        "novihBliskihParova": 22
+      },
+      "integritetPosle": {
+        "status": 1,
+        "tekstualnaPosveta": [
+          "novi-sad-reljef-vere-pavlovic"
+        ],
+        "novihBliskihParova": 22
+      },
+      "izuzeci": "Tri dodatna para proverena su kao različita dela; vidi pojedinačne ID-jeve u alati/integritet.py.",
+      "testovi": "Pauzirani po instrukciji korisnika; nisu pokretani.",
+      "aplikacija": "Nije vizuelno proverena; ranije dokumentovan problem Chrome-a."
+    }
   }
 }

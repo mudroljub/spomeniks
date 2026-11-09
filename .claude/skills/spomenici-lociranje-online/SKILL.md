@@ -40,9 +40,11 @@ Spomenik se retko opisuje sam; o njemu piše ono čemu je posvećen. Redom:
 - Ulica u prisvojnom obliku je ista ulica kao zvanični naziv u genitivu (korisnik, 2026-11-09): „Visarionova 3“ je Episkopa Visariona 3, „Pupinova“ Bulevar Mihajla Pupina. Kad Nominatim ne nađe prisvojni oblik, traži osnovu imena (sa titulom ili imenom i prezimenom) i ne beleži to kao dilemu.
 - Fotografija: GPS iz metapodataka (skil žetve) i poređenje sa Street View-om/Google fotografijama mesta.
 - Tačka je tačna kad opis jednoznačno pokazuje na jedan objekat; inače se zapis samo pomera bliže i `priblizno` ostaje.
-- Više dela u istom parku ili kompleksu (statue u parku Muzeja Jugoslavije) ne dobijaju tačnu tačku dok svako nema svoju: zajednička tačka bez `priblizno` daje markere jedan preko drugog, a integritet pada na novom paru bližem od 30 m (2026-11-09).
+- Za potvrđen konkretan predmet u lociranom malom parku ili današnjoj ustanovi primeni [važeći kriterijum preciznosti](../spomenici-zetva/references/lociranje-i-stanje.md#prioritet-i-potvrda-tačke): pojedinačno podnožje nije uslov. Veliki park traži uži položaj. Bliski markeri zahtevaju proveru različitih predmeta; izuzetak integriteta ne potvrđuje lokaciju drugog zapisa niti opravdava spajanje po blizini.
 - Svaki trag, i neuspeh sa razlogom, upiši u `data/provere/odluke.json`, da se sledeći put ne ponavlja.
 
 ## Prinos
+
+Pre izbora i tokom ture primenjuj [pravila izbora i cene potvrde](../spomenici-zetva/references/lociranje-i-stanje.md#izbor-ture-i-cena-potvrde): deset predmeta, najmanje 50% potvrđenih lokacija, uz praćenje neuspešnih pokušaja i utrošenog napora. Prag ne opravdava dugo istraživanje radi dostizanja procenta niti promenu kriterijuma ili imenitelja.
 
 Posle svakih 5 pojedinačnih pretraga, odnosno završenog probnog dokumenta pri obradi literature, proveri prinos. Odvojeno broji potvrđene tačke, razrešene identitete/duplikate i kandidate. Ako nema korisnog novog dokaza, promeni pristup ili izvor; ne nastavljaj istim putem i ne predstavljaj samo preuzimanje ili čitanje kao uspešno lociranje.

@@ -13,6 +13,16 @@ Pre nove mrežne pretrage pogledaj [obrađene izvore](../../../../docs/IZVORI.md
 - Adrese iz starih izvora često su na kasnije preimenovanim ulicama; OSM kućni broj tada ne potvrđuje par bez starog i novog imena ulice.
 - Za Overpass, kada upit po administrativnoj oblasti ne radi, probaj manji pravougaonik ili sačuvani skup; poštuj pravilo zaustavljanja i najviše jednog ponavljanja posle greške iz glavnog skila.
 
+## Hrvatski registar: karton i geometrija
+
+Proveren postupak u turi `izbor-deset-prag-polovina-2026-11-09`; pre novog zahteva proveri sačuvane odgovore. Prazan odgovor na upit sa numeričkim ID-jem ne dokazuje da karton ne postoji.
+
+1. Karton: `https://registar.kulturnadobra.hr/api/kulturno-dobro/detail/<registarski-broj>`; na primer `Z-7209` ili `ROS-0226-1971.`. Polje `kulturnoDobroId` je numerički ključ, različit od registarskog broja. Uporedi naziv, opis, fotografiju i katastarsku česticu.
+2. Geometrija tog kartona: `https://geoportal.kulturnadobra.hr/api/kulturno-dobro/get-geometrija-by-kd-id/<kulturnoDobroId>`. Odgovor je JSON string sa WKT geometrijom. U proverenom geoportalu izvorni koordinatni sistem je EPSG:3765; pre ponovne upotrebe proveri konfiguraciju, ne tumači metre kao geografsku širinu i dužinu.
+3. Po potrebi atributna pretraga: `https://geoportal.kulturnadobra.hr/api/kulturno-dobro/atributna?id=<registarski-broj>` ili `kdNaziv=<naziv>&gradOpcina=<matični-broj>`. `Geometrija: null` u ovom odgovoru nije konačan dokaz da nema geometrije: za nju postoji zaseban poziv iz prethodnog koraka.
+
+Sačuvaj izvorni WKT, koordinatni sistem, način transformacije i rezultat u WGS84. Proveri obuhvat na karti: mala određena memorijalna celina može biti dovoljna po korisnikovom kriterijumu, a velika parcela zaštite nije automatski precizna lokacija spomenika. Ne tvrdi da je centroid podnožje, ulaz ili prohodna staza. Registar i stara konzervatorska fotografija nisu današnji terenski nalaz o opstanku.
+
 ## Partizanstvo: zbirni sloj, pa pojedinačni opis
 
 - Prvo potraži već sačuvani odgovor. U ranijim turama korišćeni su `https://partizanstvo.si/api/brief/partisanmemorial/` za slovenački i `https://partizanstvo.si/api/brief/croatianpartisanmemorial/` za hrvatski sloj. Brojevi preuzetih tačaka su istorija u dokumentaciji, ne očekivani današnji obim API-ja.
