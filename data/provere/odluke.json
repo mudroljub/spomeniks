@@ -68580,5 +68580,83 @@
       "prikaz": "Prozor otvoren na oba jezika na telefonu 390 x 844; slika ucitana, bez JS izuzetaka i horizontalnog prelivanja; snimci pregledani.",
       "testovi": "Pauzirani testovi i otisak izdanja nisu pokretani."
     }
+  },
+  {
+    "odluka": "novi-sad-zivko-radovanovic-2026-11-09",
+    "datum": "2026-11-09",
+    "ishod": "nova-ploca-i-dopuna-odreda",
+    "noviZapis": {
+      "id": "novi-sad-ploca-zivku-radovanovicu",
+      "koordinate": {
+        "lat": 45.256364,
+        "lng": 19.8517133
+      },
+      "mesto": "Novi Sad",
+      "adresa": "Na fasadi stare zgrade Muzeja Vojvodine (Dunavska 35), uz Ulicu Žarka Vasiljevića.",
+      "izvor": "https://skulptura-hronologijaizlaganja.rs/h-content/uploads/2022/08/Spomenici-narodnooslobodilacke-borbe-i-revolucije-SR-Srbije1941-45.-Part2-hronologijaizlaganja.pdf",
+      "slika": "slike/spomenici/novi-sad-ploca-zivku-radovanovicu.webp",
+      "slikaOdnos": 1.747,
+      "slikaPotpis": "Korisnički prilog, autor nije naveden",
+      "naziv": "Spomen-ploča Živku Radovanoviću",
+      "nazivEn": "Memorial Plaque to Živko Radovanović",
+      "opis": {
+        "sh": "Posvećeno Živku Radovanoviću, pripadniku Novosadskog partizanskog odreda zarobljenom 26. jula 1941. kod Čeneja i obešenom 2. avgusta u dvorištu ove zgrade. Ploču je 1969. postavio Odbor za proslavu pedesetogodišnjice SKOJ-a.",
+        "en": "Dedicated to Živko Radovanović, a member of the Novi Sad Partisan Detachment captured near Čenej on 26 July 1941 and hanged in this building’s courtyard on 2 August. The committee marking the fiftieth anniversary of the League of Communist Youth of Yugoslavia installed the plaque in 1969."
+      },
+      "godina": "1969",
+      "natpis": "ŽIVKO RADOVANOVIĆ\n30.VI.1920\n\nČLAN DIVERZANTSKE GRUPE ZAROBLJEN U ATARU NOVOG SADA. PRVI NOVOSADSKI PARTIZAN KOJI JE OSUĐEN NA SMRT OBEŠEN U DVORIŠTU OVE ZGRADE\n2.VIII.1941 GODINE\n\n1969 ODBOR ZA PROSLAVU 50. GODIŠNJICE SKOJ",
+      "vrsta": "spomen-ploca",
+      "drzava": "Serbia"
+    },
+    "dopuna": {
+      "id": "cenej",
+      "pre": {
+        "sh": "Posvećeno [Novosadskom partizanskom odredu](Q110046889), na mestu gde je 26. jula 1941. počela oružana borba. Četiri menhira od opeke Pavla Radovanovića otkrivena su 1971.",
+        "en": "Dedicated to the [Novi Sad Partisan Detachment](Q110046889), at the site where the armed struggle began on 26 July 1941. Pavle Radovanović's four brick menhirs were unveiled in 1971."
+      },
+      "posle": {
+        "sh": "Posvećeno [Novosadskom partizanskom odredu](Q110046889), na mestu oružanog sukoba 26. jula 1941, kada je zarobljen Živko Radovanović, kasnije obešen u Novom Sadu. Četiri menhira od opeke Pavla Radovanovića otkrivena su 1971.",
+        "en": "Dedicated to the [Novi Sad Partisan Detachment](Q110046889), at the site of the armed clash on 26 July 1941 in which Živko Radovanović was captured and later hanged in Novi Sad. Pavle Radovanović’s four brick menhirs were unveiled in 1971."
+      }
+    },
+    "lokalniIzvor": "izvori/zivko-radovanovic-2026-11-09/",
+    "izvori": [
+      "https://skulptura-hronologijaizlaganja.rs/h-content/uploads/2022/08/Spomenici-narodnooslobodilacke-borbe-i-revolucije-SR-Srbije1941-45.-Part2-hronologijaizlaganja.pdf",
+      "https://www.planplus.rs/muzej-vojvodine/1380",
+      "https://znaci.org/00001/4_1_6.pdf",
+      "https://www.pisi.co.rs/h-content/uploads/2020/03/Jugosloveni-u-Ma--arskim-zatvorima-i-logorima-pisi.pdf",
+      "https://skulptura-hronologijaizlaganja.rs/spomenik-novosadskom-partizanskom-odredu-cenej-novi-sad/"
+    ],
+    "dokaz": "Dostavljeni opis i fotografije. Natpis identifikuje Živka Radovanovića i godinu postavljanja 1969; u širem snimku vidi se ulična tabla Žarka Vasiljevića. Zbornik Vojnoistoriskog instituta, tom I, knjiga 6, navodi vešanje 2.8.1941; monografija o jugoslovenskim zatvorenicima u Mađarskoj potvrđuje zarobljavanje u sukobu kod Čeneja i vešanje 2.8.1941. Stručna hronologija potvrđuje Pavla Radovanovića i 1971. za postojeći spomenik odredu.",
+    "lokacija": "PlanPlus karton Muzeja Vojvodine, Dunavska 35–37, daje tačku 45.2563640307181,19.851713267824; korišćena tačka stare muzejske zgrade, prema korisnikovom kriterijumu da je položaj potvrđene ustanove dovoljan. Fasada uz Žarka Vasiljevića, prema fotografiji. Nije ista zgrada kao postojeći moderni muzej u Dunavskoj 37, pa njegov zapis i precizna tačka nisu menjani.",
+    "materijali": [
+      {
+        "fajl": "opis.txt",
+        "sha256": "e6c2dc6796070adf62ea42c547c5b450324773d792c5b201beb6f41be68955d8",
+        "sacuvan": true
+      },
+      {
+        "fajl": "35709.jpg",
+        "sha256": "b435fe2172c973408f9f3ae103be29294184b3d8d385b05a15949a79a87dad2a",
+        "sacuvan": false
+      },
+      {
+        "fajl": "35710.jpg",
+        "sha256": "de8f7c3add6017a693a26176aae82bff940ad7972d83063348a3c0f2b2d5c2d8",
+        "sacuvan": false
+      },
+      {
+        "fajl": "35712.jpg",
+        "sha256": "bb241c39c65f2e02d2c4e55d0b28f5635a1cefa7a9634711d49f295439a04bd0",
+        "sacuvan": true
+      }
+    ],
+    "granice": "Sačuvani samo opis i čitljiva fotografija ploče. Širi snimak upotrebljen za identifikaciju ulice; redundantna kopija nije čuvana. Portret nije fotografija spomenika i nije upotrebljen u aplikaciji. Doslovni natpis ima 30.VI.1920 i 2.VIII.1941; OCR kataloga pogrešno čita mesec kao VII i reči kao „u šapcu“. Pomen „narodnog heroja“ u ratnom listu iz 1941. nije tretiran kao dokaz formalno dodeljenog ordena. Autor ploče i datum fotografije nisu potvrđeni. Postojeći odred već ima autora, godinu, fotografiju i tačku; dopunjen je samo opis, bez dupliranja markera.",
+    "validacija": {
+      "podaci": "Dodata jedna ploca i dopunjen samo opis postojeceg odreda; ostali zapisi nepromenjeni. Integritet i git diff --check prolaze, bez novih bliskih parova.",
+      "slike": "Jedna nova velika i mala fotografija, bez viska metapodataka; odnos potvrdjen alatima. Sacuvani opis i samo potrebna fotografija.",
+      "prikaz": "Oba zapisa otvorena na oba jezika na telefonu 390 x 844, slike ucitane, bez JS izuzetaka i horizontalnog prelivanja; snimci pregledani.",
+      "testovi": "Pauzirani testovi i otisak izdanja nisu pokretani."
+    }
   }
 ]
