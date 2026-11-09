@@ -68925,5 +68925,82 @@
       }
     ],
     "granice": "Fotograf i datum fotografije nisu navedeni. Ploča je samo sa tekstom, pa je vrsta spomen-ploča, kao kod ploče Živku Radovanoviću. Mesto smrti (Maršamsk) iz opisa nije upisano."
+  },
+  {
+    "odluka": "novi-sad-biste-u-centru-2026-11-09",
+    "datum": "2026-11-09",
+    "ishod": "tri-lokacije-i-adresa",
+    "prethodneKoordinate": {
+      "novi-sad-bista-slobodana-bajica-paje": {
+        "lat": 45.25513,
+        "lng": 19.84518
+      },
+      "novi-sad-bista-sonje-marinkovic": {
+        "lat": 45.25513,
+        "lng": 19.84518
+      },
+      "novi-sad-bista-otmara-majera": {
+        "lat": 45.25513,
+        "lng": 19.84518
+      },
+      "novi-sad-bista-branka-bajica": {
+        "lat": 45.25513,
+        "lng": 19.84518
+      }
+    },
+    "izmene": {
+      "novi-sad-bista-slobodana-bajica-paje": "Tačka zgrade Studentskog doma „Slobodan Bajić“ (OSM relacija 2955597); Popović-Zuma 1981: „u parku studentskog doma koji nosi njegovo ime“.",
+      "novi-sad-bista-sonje-marinkovic": "Tačka OŠ „Sonja Marinković“, Puškinova 28 (OSM put 145053081); opis Commons fotografije: „u istoimenoj osnovnoj školi“. OSM čvor 12405021846 u Ulici Sonje Marinković je spomen-ploča, drugi objekat.",
+      "novi-sad-bista-otmara-majera": "Tačka zgrade Foruma, Vojvode Mišića 1 (OSM čvor 2989177550); Popović-Zuma 1981: „u holu zgrade radne organizacije Forum“.",
+      "novi-sad-bista-branka-bajica": "Dodata adresa iz Popović-Zuma 1981 („u zgradi kino kluba, Trg Lenjina 10“); tačka ostaje približna."
+    },
+    "izvori": [
+      "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=122",
+      "https://commons.wikimedia.org/wiki/File:Spomenik_Sonji_Marinkovic,_Novi_Sad.jpg",
+      "https://www.planplus.rs/osnovna-skola-sonja-marinkovic/1318"
+    ],
+    "dilema": "Za biste Otmara Majera i Branka Bajića nema novijeg dokaza da su i danas na mestu iz 1981. Trg Lenjina u Novom Sadu nije pronađen pod današnjim imenom."
+  },
+  {
+    "odluka": "beograd-biste-po-ustanovama-2026-11-09",
+    "datum": "2026-11-09",
+    "ishod": "cetiri-lokacije",
+    "prethodneKoordinate": {
+      "beograd-bista-nade-dimic": {
+        "lat": 44.8444,
+        "lng": 20.4124
+      },
+      "beograd-zemun-bista-rade-koncara": {
+        "lat": 44.83696,
+        "lng": 20.39555
+      },
+      "novi-beograd-bista-zarka-zrenjanina": {
+        "lat": 44.8288757,
+        "lng": 20.4162381
+      },
+      "beograd-spomenik-braci-stamenkovic": {
+        "lat": 44.817222,
+        "lng": 20.485278
+      }
+    },
+    "izmene": {
+      "beograd-bista-nade-dimic": "Zemunska gimnazija, Gradski park 1 (OSM put 402835785).",
+      "beograd-zemun-bista-rade-koncara": "OŠ „Rade Končar“, Zlatiborska 44 (OSM put 259278975); stara tačka je već bila oko 40 m od škole.",
+      "novi-beograd-bista-zarka-zrenjanina": "OŠ „Kralj Aleksandar I“, Aleksinačkih rudara 22 (OSM put 301771488); stara tačka je bila oko 40 m od zgrade.",
+      "beograd-spomenik-braci-stamenkovic": "Zgrada UK „Vlada Divljan“, Mitropolita Petra 8 (OSM put 395468084); stara tačka je bila GPS snimka fotografije zgrade, oko 90 m dalje."
+    },
+    "izvori": [
+      "https://en.wikipedia.org/wiki/List_of_People%27s_Heroes_of_Yugoslavia_monuments_in_Serbia",
+      "https://nominatim.openstreetmap.org"
+    ],
+    "dokaz": "Postojeće adrese (Commons opisi i spisak spomenika narodnim herojima) jednoznačno imenuju ustanovu; tačka je tačka te zgrade po OSM-u.",
+    "nereseno": {
+      "beograd-bista-ravijojle-jankovic": "Vojnomedicinski centar „Slavija“ nije nađen u OSM-u ni pretragom.",
+      "beograd-zemun-bista-lazara-savatica": "Fotografija je u zatvorenom prostoru sa zastavama, verovatno u OŠ „Lazar Savatić“ (Kej oslobođenja 27), ali to nije potvrđeno.",
+      "beograd-novi-beograd-bista-milentija-popovica": "Fotografija pokazuje bistu pored pijace među blokovima; pijaca nije utvrđena.",
+      "beograd-spomenik-davidu-pajicu-daki": "Krug firme u Venizelosovoj nije nađen u OSM-u.",
+      "beograd-dedinje-kurir": "Korisnik 2026-11-09: park Muzeja Jugoslavije je dovoljno tačna adresa, ali obe statue i marker muzeja imaju istu tačku (0 m), pa integritet pada; priblizno ostaje dok se ne dobiju posebne tačke u parku (OSM tourism=artwork, Overpass nije odgovarao).",
+      "beograd-dedinje-nosenje-ranjenika": "Korisnik 2026-11-09: park Muzeja Jugoslavije je dovoljno tačna adresa, ali obe statue i marker muzeja imaju istu tačku (0 m), pa integritet pada; priblizno ostaje dok se ne dobiju posebne tačke u parku (OSM tourism=artwork, Overpass nije odgovarao)."
+    }
   }
 ]
