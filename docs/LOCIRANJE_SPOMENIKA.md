@@ -4,6 +4,20 @@ Otvoreni slučajevi, razrešeni identiteti koje ne treba ponovo unositi i veze k
 
 Raniji ciljani prolaz je završen, žetva CG zatvorena, a šira hrvatska provera obustavljena po odluci korisnika. Ove beleške same ne otvaraju novi zadatak; prioriteti izvora su u [IZVORI.md](IZVORI.md#prioriteti).
 
+## Beograd: provera svih preostalih 13 zapisa — 9.11.2026.
+
+Provereno je svih 13 zapisa preostalih posle probe ispod. Precizirana je bista Milentija Popovića u Bloku 23, a neodređeni „Kameni beleg“ identifikovan je i prenet na mapu kao spomen-obeležje za 192 poginula Beograđanina u Karađorđevom parku. Dodate su fotografije tog obeležja i borčanskog spomenika. Spojena su tri potvrđena duplikata: reljef Viktora Bubnja sa postojećim preciznim zapisom, spomen-groblje 1941–1944 sa Alejom streljanih rodoljuba i borčanski spomenik NOVJ/Crvenoj armiji sa postojećim markerom pogrešno nazvanim „Košutnjak“. Trajni ID-jevi i precizne tačke ciljeva su sačuvani, aktivne veze preusmerene. [Ishodi svih 13, prethodne vrednosti, izvori i granice](../data/provere/lociranje.json#beograd-preostalih-trinaest-2026-11-09).
+
+**Osam zapisa i dalje traži potvrdu precizne tačke:** ploča bivaku u Bojčinskoj šumi (imenovana OSM tačka je novi, vizuelno nepotvrđen kandidat); „Kurir“ i „Nošenje ranjenika“ (potvrđen park, ne pojedinačna podnožja); Daka (potvrđena ponovna postavka u Novom Dorćolu, ali plan nije izvedeni geodetski snimak); biste Đure Strugara i Miloša Matijevića Mrše (preseljena odnosno ugašena škola, bez potvrde današnjeg položaja predmeta); zatvoreni Muzej saniteta NOB (istorijska zgrada nije pouzdano identifikovana); zbirni spomen-belezi na Batajničkom drumu (više objekata za ukupno 17 žrtava, ne poistovećivati sa poznatim spomenikom desetorici na Goveđem brodu). Uz ranije približno lociranih „88 sadnica“, u ovom početnom beogradskom skupu preostaje devet zapisa bez potvrđene precizne tačke.
+
+Muzejski katalog ispravlja dataciju konkretnog „Nošenja ranjenika“ na 1946, umesto ranijeg opisa serije 1952–1983. Za Milentija je 1973. godina nagrade, pa nije prepisana kao godina postavljanja. Za Aleju je broj sahranjenih sačuvan kao neslaganje izvora (1.057/1.052), uz neutralan opis; za Borču su noviji terenski nalaz iz 2023. i izmena natpisa razdvojeni od starih kataloških brojki.
+
+## Beograd: proba tri lokacije — 9.11.2026.
+
+Bista Ravijojle Janković premeštena je sa pogrešne tačke u centru na VMC „Slavija“, Pasterova 3; bista Lazara Savatića na školu u Keju oslobođenja 27, uz upozorenje da je u unutrašnjosti škole. Položaj potvrđene ustanove prihvaćen je po novijem korisnikovom kriterijumu za kliniku, školu i muzej; pojedinačno podnožje ili zid nisu izmereni. Ovo menja raniji stroži kriterijum u beleškama ispod samo za ovako potvrđene ustanove.
+
+„88 sadnica“ prenet je sa spiska bez lokacije na mapu, uz školu „20. oktobar“ u Bloku 70. Dve fotografije imaju gotovo isti GPS položaj, ali je tačka ostala **približna**, jer GPS fotografa ne potvrđuje podnožje. [Prethodne vrednosti, izvori i granice provere](../data/provere/lociranje.json#beograd-tri-lokacije-2026-11-09): obrađena su tri od 16 početnih beogradskih zapisa, ostalih 13 nije proveravano u ovom prolazu.
+
 ## Nastavak na još pet markera — 27.10.2026.
 
 Precizirana je lokacija spomenika osnivanju VOS-a u Ljubljani, na uglu Medvedove i Frankopanske, i dopunjena godina 1979. Logaški zapis Pirnatu i Trčku spojen je sa postojećim preciznim obeležjem pri Jački: tačka i trajni ID su sačuvani, a siva zamenska slika zamenjena korisnom fotografijom iz duplikata. Novom Bečeju dopunjeni su puno ime arhitekte Milorada Berbakova, opis i prilaz; njegova tačka, Donji Vrbljani i Izbišta ostaju približni. [Svih pet ishoda, prethodne vrednosti i odbačeni kandidati](../data/provere/lociranje.json#lociranje-drugih-pet-2026-10-27) sačuvani su radi izbegavanja ponovljenih opštih pretraga; ovaj ciljani uzorak ne procenjuje uspešnost cele baze.

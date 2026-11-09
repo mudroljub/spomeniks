@@ -18883,14 +18883,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "beograd-spomen-groblje-palim-borcima-u-beogradu-19",
-    "mesto": "Beograd",
-    "naziv": "Spomen-groblje palim borcima u Beogradu 1941–1944",
-    "vrsta": "groblje",
-    "drzava": "Serbia",
-    "adresa": "Novo groblje, Ruzveltova ulica"
-  },
-  {
     "id": "bubanj-spomenik-12-srpskih-cura",
     "mesto": "Bubanj",
     "naziv": "Spomenik 12 srpskih cura",
@@ -20382,7 +20374,7 @@
     ],
     "vrsta": "bista",
     "drzava": "Serbia",
-    "adresa": "U auli škole „Đuro Strugar“, Braće Grima 6"
+    "adresa": "Prema katalogu 1981: u auli OŠ „Đuro Strugar“, Braće Grima 6. Škola je 1969. preseljena u Milutina Milankovića 148; današnji položaj ove biste nije potvrđen."
   },
   {
     "id": "za-okusatora-bista-milosa-matijevica-mrse",
@@ -20392,7 +20384,7 @@
     "posveta": "Miloš Matijević-Mrša",
     "vrsta": "bista",
     "drzava": "Serbia",
-    "adresa": "U osnovnoj školi „Miloš Matijević Mrša“, Donska 29"
+    "adresa": "Prema katalogu 1981: u tadašnjoj OŠ „Miloš Matijević Mrša“, Donska 29. U zgradi u Donskoj 27–29 danas je Farmaceutsko-fizioterapeutska škola; sadašnji položaj biste nije potvrđen."
   },
   {
     "id": "visnjica-bista-ivana-milutinovica",
@@ -23383,22 +23375,6 @@
     "adresa": "Pasterova bb, zgrada Vojno-higijenskog zavoda u nekadašnjem krugu VMA; muzej prestao da radi nakon preseljenja VMA 1981. godine."
   },
   {
-    "id": "beograd-spomenik-88-sadnica",
-    "mesto": "Beograd (Novi Beograd)",
-    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_88_%D1%81%D0%B0%D0%B4%D0%BD%D0%B8%D1%86%D0%B0_%D0%BD%D0%B0_%D0%9D%D0%BE%D0%B2%D0%BE%D0%BC_%D0%91%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D1%83",
-    "naziv": "Spomenik 88 sadnica",
-    "godina": "1980-ih",
-    "posveta": [
-      "Q9161"
-    ],
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia",
-    "adresa": "Blok 70, šetalište Lazaro Kardenasa, pored OŠ „20. oktobar“.",
-    "slika": "slike/bez-lokacije/beograd-spomenik-88-sadnica.webp",
-    "slikaPotpis": "Aleksamil, CC0",
-    "slikaOdnos": 0.749
-  },
-  {
     "id": "fruska-gora-spomenik-trojici-partizana",
     "mesto": "Fruška gora (Debele lipe)",
     "slika": "slike/bez-lokacije/fruska-gora-spomenik-trojici-partizana.webp",
@@ -24395,13 +24371,6 @@
     "drzava": "Croatia"
   },
   {
-    "id": "beograd-komeni-beleg",
-    "mesto": "Beograd",
-    "naziv": "Kameni beleg",
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
-  },
-  {
     "id": "stari-grad-spomenik-palim-obalskim-radnicima-u-tok",
     "mesto": "Stari grad",
     "naziv": "Spomenik palim obalskim radnicima",
@@ -24424,14 +24393,6 @@
       "sh": "Posvećeno palim borcima NOR-a i žrtvama fašističkog terora.",
       "en": "Dedicated to fallen fighters of the National Liberation War and victims of fascist terror."
     },
-    "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
-  },
-  {
-    "id": "borca-spomenik-palim-borcima-novj-i-crvene-armije",
-    "mesto": "Beograd (Borča)",
-    "naziv": "Spomenik palim borcima NOVJ i Crvene armije",
-    "posveta": "palim borcima NOVJ i Crvene armije",
     "vrsta": "spomen-obelezje",
     "drzava": "Serbia"
   },
@@ -24499,9 +24460,15 @@
   {
     "id": "zemun-spomen-belezi-na-batajnickom-drumu-obelezava",
     "mesto": "Beograd (Zemun)",
-    "naziv": "Spomen-belezi na batajničkom drumu obeležavaju mesta",
+    "naziv": "Spomen-belezi streljanim meštanima na Batajničkom drumu",
     "vrsta": "spomen-obelezje",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "nazivEn": "Memorial Markers to Residents Executed on Batajnica Road",
+    "adresa": "Duž Batajničkog druma; pojedinačna mesta iz kataloškog zbirnog zapisa nisu utvrđena.",
+    "opis": {
+      "sh": "Katalog iz 1981. navodi više obeležja mesta gde su okupatori streljali ukupno sedamnaest meštana Batajnice i Zemuna; pojedinačni položaji nisu potvrđeni.",
+      "en": "The 1981 catalogue lists several markers at sites where the occupiers executed a total of seventeen residents of Batajnica and Zemun; their individual locations have not been confirmed."
+    }
   },
   {
     "id": "lazarevac-reljef",

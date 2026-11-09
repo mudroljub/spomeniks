@@ -27774,5 +27774,996 @@
       "drugiZapisiNepromenjeni": true,
       "testovi": "Nisu pokretani; pauzirani nalogom korisnika"
     }
+  },
+  "beograd-tri-lokacije-2026-11-09": {
+    "datum": "2026-11-09",
+    "obim": "Ciljana proba tri od 16 beogradskih zapisa bez potvrđene lokacije; dva precizirana na ustanovu i jedan prenet na približnu tačku. Ostalih 13 nije obrađeno u ovom prolazu.",
+    "pre": {
+      "beograd-bista-ravijojle-jankovic": {
+        "id": "beograd-bista-ravijojle-jankovic",
+        "koordinate": {
+          "lat": 44.81781,
+          "lng": 20.4569
+        },
+        "priblizno": true,
+        "mesto": "Beograd",
+        "adresa": "Na zgradi Vojnomedicinskog centra „Slavija“",
+        "slika": "slike/spomenici/beograd-bista-ravijojle-jankovic.webp",
+        "slikaOdnos": 0.601,
+        "slikaPotpis": "Wikimedia Commons, CC0",
+        "naziv": "Bista Ravijojle Janković",
+        "nazivEn": "Bust of Ravijojla Janković Rava",
+        "posveta": [
+          "Q12758033"
+        ],
+        "vrsta": "bista",
+        "drzava": "Serbia"
+      },
+      "beograd-zemun-bista-lazara-savatica": {
+        "id": "beograd-zemun-bista-lazara-savatica",
+        "koordinate": {
+          "lat": 44.8444,
+          "lng": 20.4124
+        },
+        "priblizno": true,
+        "mesto": "Beograd (Zemun)",
+        "slika": "slike/spomenici/beograd-zemun-bista-lazara-savatica.webp",
+        "slikaOdnos": 0.733,
+        "slikaPotpis": "Wikimedia Commons, CC0",
+        "naziv": "Bista Lazara Savatića",
+        "nazivEn": "Bust of Lazar Savatić",
+        "posveta": [
+          "Q3219996"
+        ],
+        "vrsta": "bista",
+        "drzava": "Serbia"
+      },
+      "beograd-spomenik-88-sadnica": {
+        "id": "beograd-spomenik-88-sadnica",
+        "mesto": "Beograd (Novi Beograd)",
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_88_%D1%81%D0%B0%D0%B4%D0%BD%D0%B8%D1%86%D0%B0_%D0%BD%D0%B0_%D0%9D%D0%BE%D0%B2%D0%BE%D0%BC_%D0%91%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D1%83",
+        "naziv": "Spomenik 88 sadnica",
+        "godina": "1980-ih",
+        "posveta": [
+          "Q9161"
+        ],
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia",
+        "adresa": "Blok 70, šetalište Lazaro Kardenasa, pored OŠ „20. oktobar“.",
+        "slika": "slike/bez-lokacije/beograd-spomenik-88-sadnica.webp",
+        "slikaPotpis": "Aleksamil, CC0",
+        "slikaOdnos": 0.749
+      }
+    },
+    "posle": {
+      "beograd-bista-ravijojle-jankovic": {
+        "id": "beograd-bista-ravijojle-jankovic",
+        "koordinate": {
+          "lat": 44.8011226,
+          "lng": 20.4598538
+        },
+        "mesto": "Beograd",
+        "adresa": "Na zgradi Vojnomedicinskog centra „Slavija“, Pasterova 3.",
+        "slika": "slike/spomenici/beograd-bista-ravijojle-jankovic.webp",
+        "slikaOdnos": 0.601,
+        "slikaPotpis": "Wikimedia Commons, CC0",
+        "naziv": "Bista Ravijojle Janković",
+        "nazivEn": "Bust of Ravijojla Janković Rava",
+        "posveta": [
+          "Q12758033"
+        ],
+        "vrsta": "bista",
+        "drzava": "Serbia"
+      },
+      "beograd-spomenik-88-sadnica": {
+        "id": "beograd-spomenik-88-sadnica",
+        "koordinate": {
+          "lat": 44.800567,
+          "lng": 20.396097
+        },
+        "priblizno": true,
+        "mesto": "Beograd (Novi Beograd)",
+        "adresa": "Blok 70, šetalište Lazaro Kardenasa, pored OŠ „20. oktobar“.",
+        "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_88_%D1%81%D0%B0%D0%B4%D0%BD%D0%B8%D1%86%D0%B0_%D0%BD%D0%B0_%D0%9D%D0%BE%D0%B2%D0%BE%D0%BC_%D0%91%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D1%83",
+        "slika": "slike/spomenici/beograd-spomenik-88-sadnica.webp",
+        "slikaOdnos": 0.749,
+        "slikaPotpis": "Aleksamil, CC0",
+        "naziv": "Spomenik 88 sadnica",
+        "nazivEn": "88 Seedlings Memorial",
+        "opis": {
+          "sh": "Obeležje posvećeno [Josipu Brozu Titu](Q9161), podignuto u akciji „88 sadnica za druga Tita“, pored OŠ „20. oktobar“.",
+          "en": "A memorial to [Josip Broz Tito](Q9161), erected during the “88 seedlings for Comrade Tito” campaign beside the 20 October Primary School."
+        },
+        "godina": "1980-ih",
+        "posveta": [
+          "Q9161"
+        ],
+        "vrsta": "spomen-obelezje",
+        "drzava": "Serbia"
+      },
+      "beograd-zemun-bista-lazara-savatica": {
+        "id": "beograd-zemun-bista-lazara-savatica",
+        "koordinate": {
+          "lat": 44.8455586,
+          "lng": 20.415064
+        },
+        "mesto": "Beograd (Zemun)",
+        "adresa": "U OŠ „Lazar Savatić“, Kej oslobođenja 27; bista je u unutrašnjosti škole.",
+        "slika": "slike/spomenici/beograd-zemun-bista-lazara-savatica.webp",
+        "slikaOdnos": 0.733,
+        "slikaPotpis": "Wikimedia Commons, CC0",
+        "naziv": "Bista Lazara Savatića",
+        "nazivEn": "Bust of Lazar Savatić",
+        "posveta": [
+          "Q3219996"
+        ],
+        "vrsta": "bista",
+        "drzava": "Serbia"
+      }
+    },
+    "izvori": {
+      "vmc": "https://www.cvmu.mod.gov.rs/lat/194/vojnomedicinski-centar-slavija-194",
+      "vmc-mapa": "https://www.planplus.rs/centar-vojnomedicinskih-ustanova-beograd-vojnomedicinski-centar-slavija/102182",
+      "skola": "https://lazarsavatic.edu.rs/o-nama/",
+      "skola-bista": "https://www.mirandre.com/drzavne-osnovne-skole/zemun",
+      "skola-mapa": "https://www.planplus.rs/osnovna-skola-lazar-savatic/4221"
+    },
+    "commons": [
+      "https://commons.wikimedia.org/wiki/File:Spomenik_88_sadnica%2C_Blok_70%2C_Novi_Beograd%2C_januar_2015.jpg",
+      "https://commons.wikimedia.org/wiki/File:Spomenik_88_sadnica%2C_Blok_70%2C_Novi_Beograd%2C_novembar_2018.jpg"
+    ],
+    "lokalniIzvori": "izvori/beograd-lokacije-2026-11-09/",
+    "dokaz": {
+      "beograd-bista-ravijojle-jankovic": "Postojeći zapis i fotografija sa posvetnom pločom vezuju bistu za VMC Slavija. Zvanični sajt potvrđuje Pasterovu 3; PlanPlus daje tačku imenovane ustanove. Prethodna tačka u centru grada bila je pogrešna.",
+      "beograd-zemun-bista-lazara-savatica": "Mirandre izričito navodi bistu u školi Lazar Savatić; postojeća fotografija prikazuje unutrašnjost škole. Zvanični školski sajt potvrđuje Kej oslobođenja 27, PlanPlus daje tačku ustanove. Godina osnivanja škole nije godina podizanja biste.",
+      "beograd-spomenik-88-sadnica": "Dve fotografije istog obeležja iz januara 2015. i novembra 2018. imaju GPS tačke 44.800583,20.396111 i 44.800567,20.396097. Opisi navode Blok 70, šetalište Lazaro Kardenasa i školu 20. oktobar; postojeća fotografija vizuelno potvrđuje kameno obeležje."
+    },
+    "granice": "Za biste se koristi položaj potvrđene ustanove po korisnikovom kriterijumu prihvaćenom za kliniku, školu i muzej; nije izmereno pojedinačno podnožje niti deo zida. Bista Lazara Savatića je unutra: pristup može zavisiti od škole. GPS fotografija 88 sadnica nije potvrđeno podnožje i ostaje priblizno=true. Fotografije i stari izvori sačuvani, trajni ID nije promenjen. Autor biste iz sekundarnog imenika nije preuzet bez stručne potvrde; sadašnji opstanak nije potvrđen novim terenom."
+  },
+  "beograd-preostalih-trinaest-2026-11-09": {
+    "datum": "2026-11-09",
+    "obim": "Svih13 preostalih beogradskih zapisa iz prethodne probe; bez tvrdnje da su svi dobili preciznu tačku.",
+    "rezultat": {
+      "preciziranaBista": 1,
+      "noviMarkerSaSpiskaBezLokacije": 1,
+      "spojeniDuplikati": 3,
+      "proverenoBezPotvrdePrecizneTacke": 8
+    },
+    "ishodi": [
+      {
+        "id": "za-okusatora-bista-djure-strugara",
+        "ishod": "bez-potvrdjene-danasnje-lokacije",
+        "izmene": {
+          "adresa": "Prema katalogu 1981: u auli OŠ „Đuro Strugar“, Braće Grima 6. Škola je 1969. preseljena u Milutina Milankovića 148; današnji položaj ove biste nije potvrđen."
+        },
+        "izvori": [
+          "https://djurostrugar.edu.rs/историја-школе/",
+          "https://www.sistory.si/media/uploads/2024-10-16/680c4a572f42e38d84ae.pdf",
+          "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=13"
+        ],
+        "dokaz": "Katalog Popović–Žuma1981, PDF13/štampane24–25, navodi DVE biste: na Novom Beogradu u IIIbulevar48 i na Paliluli u Braće Grima6. Vizuelno pročitan sken. Zvanična istorija škole potvrđuje preseljenje1969, ali ne govori o preseljenju biste; stari školski adresar1959 navodi Braće Grima32, pa broj6 ne treba samostalno ispravljati bez razrešenja.",
+        "granice": "Ne unositi novi marker škole na Novom Beogradu niti spajati dve biste samo po imenu. Potrebna fotografija ili potvrda škole gde je bista i da li ima dva primerka.",
+        "pre": {
+          "id": "za-okusatora-bista-djure-strugara",
+          "mesto": "Beograd",
+          "naziv": "Bista Đure Strugara",
+          "posveta": [
+            "Q1563157"
+          ],
+          "vrsta": "bista",
+          "drzava": "Serbia",
+          "adresa": "U auli škole „Đuro Strugar“, Braće Grima 6"
+        },
+        "posle": {
+          "id": "za-okusatora-bista-djure-strugara",
+          "mesto": "Beograd",
+          "naziv": "Bista Đure Strugara",
+          "posveta": [
+            "Q1563157"
+          ],
+          "vrsta": "bista",
+          "drzava": "Serbia",
+          "adresa": "Prema katalogu 1981: u auli OŠ „Đuro Strugar“, Braće Grima 6. Škola je 1969. preseljena u Milutina Milankovića 148; današnji položaj ove biste nije potvrđen."
+        }
+      },
+      {
+        "id": "za-okusatora-bista-milosa-matijevica-mrse",
+        "ishod": "istorijska-zgrada-poznata-opstanak-biste-nepotvrdjen",
+        "izmene": {
+          "adresa": "Prema katalogu 1981: u tadašnjoj OŠ „Miloš Matijević Mrša“, Donska 29. U zgradi u Donskoj 27–29 danas je Farmaceutsko-fizioterapeutska škola; sadašnji položaj biste nije potvrđen."
+        },
+        "izvori": [
+          "https://farmafizio.edu.rs/wp-content/uploads/2025/09/GP_FFS_2025_2026.pdf",
+          "https://slgl.pravno-informacioni-sistem.rs/api/Prins/viewAct/679466",
+          "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=13"
+        ],
+        "dokaz": "Originalni katalog jasno navodi Donska29, postavljena1965. Vladina odluka ukida školu30.6.2002. Zvanični godišnji plan2025/26 nove škole potvrđuje da od2003 koristi zgradu stare škole i da je zgrada rekonstruisana; ne potvrđuje bistu.",
+        "granice": "Ne navoditi školsku tačku kao potvrđenu lokaciju biste posle gašenja škole i rekonstrukcije bez novog dokaza.",
+        "pre": {
+          "id": "za-okusatora-bista-milosa-matijevica-mrse",
+          "mesto": "Beograd",
+          "naziv": "Bista Miloša Matijevića-Mrše",
+          "godina": "1965",
+          "posveta": "Miloš Matijević-Mrša",
+          "vrsta": "bista",
+          "drzava": "Serbia",
+          "adresa": "U osnovnoj školi „Miloš Matijević Mrša“, Donska 29"
+        },
+        "posle": {
+          "id": "za-okusatora-bista-milosa-matijevica-mrse",
+          "mesto": "Beograd",
+          "naziv": "Bista Miloša Matijevića-Mrše",
+          "godina": "1965",
+          "posveta": "Miloš Matijević-Mrša",
+          "vrsta": "bista",
+          "drzava": "Serbia",
+          "adresa": "Prema katalogu 1981: u tadašnjoj OŠ „Miloš Matijević Mrša“, Donska 29. U zgradi u Donskoj 27–29 danas je Farmaceutsko-fizioterapeutska škola; sadašnji položaj biste nije potvrđen."
+        }
+      },
+      {
+        "id": "beograd-novi-beograd-bista-milentija-popovica",
+        "ishod": "precizna-imenovana-osm-tacka",
+        "izmene": {
+          "koordinate": {
+            "lat": 44.8071001,
+            "lng": 20.4244027
+          },
+          "priblizno": null,
+          "adresa": "Blok 23, ispred malog tržnog centra kod Mesne zajednice „Gazela“, Ulica Milentija Popovića.",
+          "wiki": "https://sr.wikipedia.org/wiki/Спомен-биста_Милентију_Поповићу_у_Београду",
+          "autor": "Nikola Janković",
+          "posveta": [
+            "Q1272866"
+          ]
+        },
+        "izvori": [
+          "https://api.openstreetmap.org/api/0.6/node/9997969397.json",
+          "https://sr.wikipedia.org/wiki/Спомен-биста_Милентију_Поповићу_у_Београду",
+          "https://www.kg.ac.rs/Docs/koka.pdf",
+          "https://www.novosti.rs/vesti/beograd.74.html:828216-Beogradske-price-Nastanak-Ulice-Milentija-Popovica",
+          "https://24sedam.rs/beograd/vesti/79514/zaboravljeni-simboli-beograda-da-li-znate-gde-se-nalaze-vecna-vatra-i-spomenici-mosi-pijade-i-milentiju-popovicu/vest"
+        ],
+        "dokaz": "OSMnode9997969397 imenovan je baš Bista Milentija Popovića, memorial=bust, wikidataQ97330106 je spomenik, ne osoba; wikipedia pojedinačni članak. Izvorni OSM JSON sačuvan i2026-10-20 lokalno; ponovo proverena APItačka sada. Novosti2019 i članci2021 opisuju bistu u Bloku23. Wikičlanak potvrđuje autora; univerzitetska biografija potvrđuje nagradu za njegovo beogradsko delo1973.",
+        "granice": "1973 je potvrđena godina nagrade; nije nezavisno potvrđena godina postavljanja ovog odlivka. Wiki i24sedam kažu I, univerzitetII nagrada: ne prepisivati stepen nagrade niti zaključivati godinu postavljanja. PosvetaQ1272866 proverena enWikipedia pageprops; postojeća tekstualna posveta može da pređe na povezanu nakon dodavanja u posvete.json.",
+        "pre": {
+          "id": "beograd-novi-beograd-bista-milentija-popovica",
+          "koordinate": {
+            "lat": 44.8133,
+            "lng": 20.41834
+          },
+          "priblizno": true,
+          "mesto": "Beograd (Novi Beograd)",
+          "slika": "slike/spomenici/beograd-novi-beograd-bista-milentija-popovica.webp",
+          "slikaOdnos": 0.563,
+          "slikaPotpis": "Ljiljana Sundać, CC BY-SA 4.0",
+          "naziv": "Bista Milentija Popovića",
+          "nazivEn": "Bust of Milentije Popović",
+          "posveta": "Milentije Popović",
+          "vrsta": "bista",
+          "drzava": "Serbia"
+        },
+        "posle": {
+          "id": "beograd-novi-beograd-bista-milentija-popovica",
+          "koordinate": {
+            "lat": 44.8071001,
+            "lng": 20.4244027
+          },
+          "mesto": "Beograd (Novi Beograd)",
+          "adresa": "Blok 23, ispred malog tržnog centra kod Mesne zajednice „Gazela“, Ulica Milentija Popovića.",
+          "wiki": "https://sr.wikipedia.org/wiki/Спомен-биста_Милентију_Поповићу_у_Београду",
+          "slika": "slike/spomenici/beograd-novi-beograd-bista-milentija-popovica.webp",
+          "slikaOdnos": 0.563,
+          "slikaPotpis": "Ljiljana Sundać, CC BY-SA 4.0",
+          "naziv": "Bista Milentija Popovića",
+          "nazivEn": "Bust of Milentije Popović",
+          "autor": "Nikola Janković",
+          "posveta": [
+            "Q1272866"
+          ],
+          "vrsta": "bista",
+          "drzava": "Serbia"
+        }
+      },
+      {
+        "id": "novi-beograd-reljef-viktora-bubnja",
+        "ishod": "potvrdjeni-duplikat-postojeceg-preciznog-zapisa",
+        "izmene": {},
+        "izvori": [
+          "https://commons.wikimedia.org/wiki/File:Viktor_Bubanj_Beograd.JPG",
+          "https://www.openstreetmap.org/node/10027652420",
+          "https://forum.beobuild.rs/threads/spomenici.82/page-119"
+        ],
+        "dokaz": "Obe lokalne fotografije vizuelno prikazuju istu fotografiju identičnog reljefa, na istom postolju, uz istu fasadu i apoteku; razlikuju se samo kodiranje/odnos0.749 i0.750. Original Commons Viktor Bubanj Beograd.JPG je isti snimak i ima kategoriju Reliefs in Belgrade. Precizni postojeći zapis odgovara imenovanom OSMnode10027652420,44.8237875,20.4064339, u arhiviranom RSobjekti2026-10-20. Ne zamenjivati postojeću tačku grubom približnom ulicom.",
+        "granice": "Pri spajanju preusmeriti sve trajne veze sa uklonjenogID, očuvati izvor i proveru u evidenciji odluka. PrecizniID i njegova fotografija ostaju; duplikat i njegovu malu sliku obrisati tek posle provere veza. Autor i godina nisu potvrđeni.",
+        "pre": {
+          "id": "novi-beograd-reljef-viktora-bubnja",
+          "koordinate": {
+            "lat": 44.8210539,
+            "lng": 20.4057768
+          },
+          "priblizno": true,
+          "mesto": "Beograd (Novi Beograd)",
+          "adresa": "Ulica Narodnih heroja",
+          "slika": "slike/spomenici/novi-beograd-reljef-viktora-bubnja.webp",
+          "slikaOdnos": 0.75,
+          "slikaPotpis": "Pinki, Public domain",
+          "naziv": "Reljef Viktora Bubnja",
+          "nazivEn": "Relief of Viktor Bubanj",
+          "posveta": "Viktoru Bubnju",
+          "vrsta": "reljef",
+          "drzava": "Serbia"
+        },
+        "posle": {
+          "id": "beograd-bista-viktora-bubnja",
+          "koordinate": {
+            "lat": 44.8237875,
+            "lng": 20.4064339
+          },
+          "mesto": "Beograd (Novi Beograd)",
+          "adresa": "Ulica Narodnih heroja",
+          "slika": "slike/spomenici/beograd-bista-viktora-bubnja.webp",
+          "slikaOdnos": 0.749,
+          "slikaPotpis": "Pinki, Public domain",
+          "naziv": "Reljef Viktora Bubnja",
+          "nazivEn": "Relief of Viktor Bubanj",
+          "posveta": [
+            "Q181814"
+          ],
+          "vrsta": "reljef",
+          "drzava": "Serbia"
+        }
+      },
+      {
+        "id": "beograd-dedinje-kurir",
+        "ishod": "potvrđen park, bez položaja pojedinačne skulpture",
+        "izmene": {
+          "adresa": "Park skulptura Muzeja Jugoslavije, Mihaila Mike Jankovića 6."
+        },
+        "izvori": [
+          "https://muzej-jugoslavije.org/wp-content/uploads/2025/09/2024-Nasledje-Jugoslavije-compressed-21mb.pdf#page=147",
+          "https://muzej-jugoslavije.org/muzej-jugoslavije-otvara-park-skulptura-za-sve-sugradjane/",
+          "https://commons.wikimedia.org/wiki/File:Kurir-Stevan_Bodnarov.jpg"
+        ],
+        "dokaz": "Zvanični muzejski katalog, štampane strane 290–291 (PDF list 147): Kurir, Stevan Bodnarov, 1953, bronza 180 cm, potpis S. Bodnarov 1953, poklon SR Srbije Titu nepoznate godine, inv. br. 1-2-566. Commons potvrđuje isti identitet i Muzej 25. maj. Fotografija nema koordinate.",
+        "granice": "Postojeća tačka je tačka celog muzeja, a park ima dvadeset skulptura. Bez plana pojedinačnih skulptura ili geolocirane fotografije ne tvrditi da je ovo precizno podnožje. 1953 je godina dela, godina dolaska u park je nepoznata.",
+        "pre": {
+          "id": "beograd-dedinje-kurir",
+          "koordinate": {
+            "lat": 44.788067,
+            "lng": 20.4520999
+          },
+          "priblizno": true,
+          "mesto": "Beograd (Dedinje)",
+          "adresa": "Park Muzeja istorije Jugoslavije",
+          "slika": "slike/spomenici/beograd-dedinje-kurir.webp",
+          "slikaOdnos": 0.75,
+          "slikaPotpis": "Plamen, Public domain",
+          "naziv": "Kurir",
+          "nazivEn": "Courier",
+          "godina": "1953",
+          "autor": "Stevan Bodnarov",
+          "vrsta": "statua",
+          "drzava": "Serbia"
+        },
+        "posle": {
+          "id": "beograd-dedinje-kurir",
+          "koordinate": {
+            "lat": 44.788067,
+            "lng": 20.4520999
+          },
+          "priblizno": true,
+          "mesto": "Beograd (Dedinje)",
+          "adresa": "Park skulptura Muzeja Jugoslavije, Mihaila Mike Jankovića 6.",
+          "slika": "slike/spomenici/beograd-dedinje-kurir.webp",
+          "slikaOdnos": 0.75,
+          "slikaPotpis": "Plamen, Public domain",
+          "naziv": "Kurir",
+          "nazivEn": "Courier",
+          "godina": "1953",
+          "autor": "Stevan Bodnarov",
+          "vrsta": "statua",
+          "drzava": "Serbia"
+        }
+      },
+      {
+        "id": "beograd-dedinje-nosenje-ranjenika",
+        "ishod": "potvrđen park i ispravljen identitet varijante, bez podnožja",
+        "izmene": {
+          "adresa": "Park skulptura Muzeja Jugoslavije, Mihaila Mike Jankovića 6.",
+          "godina": "1946",
+          "opis": {
+            "sh": "Prva verzija kompozicije Antuna Augustinčića, izrađena 1946. kao poklon građana Zagreba [Josipu Brozu Titu](Q9161) za godišnjicu oslobođenja grada. Dve figure pridržavaju ranjenika, kao simbol partizanske brige o ranjenima.",
+            "en": "The first version of Antun Augustinčić’s composition, made in 1946 as a gift from the citizens of Zagreb to [Josip Broz Tito](Q9161) for the anniversary of the city’s liberation. Two figures support a wounded fighter, symbolising the Partisans’ care for the wounded."
+          },
+          "posveta": [
+            "Q9161"
+          ],
+          "natpis": "Врховном команданту славне југословенске армије, маршалу Титу, у знак захвалности. Грађани града Загреба, 08. 05. 1945. – 08. 05. 1946."
+        },
+        "izvori": [
+          "https://muzej-jugoslavije.org/wp-content/uploads/2025/09/2024-Nasledje-Jugoslavije-compressed-21mb.pdf#page=146",
+          "https://zkvh.org.rs/izdavastvo-post/aktivnosti-zavoda/tragovi-hrvatskih-kipara-u-srbiji-antun-augustincic-na-zajednickom-kalendaru-za-rujan-2025",
+          "https://commons.wikimedia.org/wiki/File:Nosenje_ranjenika-Augustincic.jpg"
+        ],
+        "dokaz": "Zvanični katalog, štampane strane 288–289 (PDF list146), inv. br.1-2-520: Nošenje ranjenika1946, bronza190cm, potpis Augustinčić1946, poklon građana Zagreba8.5.1946; citiran je doslovan natpis pločice. Prva definitivna varijanta, namenski dar Titu. Stručna ustanova ZKVH 2025 potvrđuje varijantu1946 u Parku skulptura.",
+        "granice": "Postojeći opis „serija1952–1983“ nije odgovarajuća datacija ovog primerka i treba ga zameniti; wiki članak o ostalim odlivcima zadržati samo ako je tretiran kao članak o celom delu. Fotografija nemaGPS. Godina1946 potvrđuje nastanak i poklon, ne današnji raspored parka.",
+        "pre": {
+          "id": "beograd-dedinje-nosenje-ranjenika",
+          "koordinate": {
+            "lat": 44.788067,
+            "lng": 20.4520999
+          },
+          "priblizno": true,
+          "mesto": "Beograd (Dedinje)",
+          "adresa": "Park Muzeja istorije Jugoslavije",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%9D%D0%BE%D1%88%D0%B5%D1%9A%D0%B5_%D1%80%D0%B0%D1%9A%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_(%D1%81%D0%BA%D1%83%D0%BB%D0%BF%D1%82%D1%83%D1%80%D0%B0)",
+          "slika": "slike/spomenici/beograd-dedinje-nosenje-ranjenika.webp",
+          "slikaOdnos": 0.75,
+          "slikaPotpis": "Plamen, Public domain",
+          "naziv": "Nošenje ranjenika",
+          "nazivEn": "Carrying the Wounded",
+          "opis": {
+            "sh": "Skulptura iz serije Antuna Augustinčića (1952-1983) koja simbolizuje brigu partizana o ranjenicima u ratu 1941-1945.",
+            "en": "A sculpture from Antun Augustinčić's series (1952-1983) symbolizing the Partisans' care for the wounded in the war of 1941-1945."
+          },
+          "autor": "Antun Augustinčić",
+          "vrsta": "statua",
+          "drzava": "Serbia"
+        },
+        "posle": {
+          "id": "beograd-dedinje-nosenje-ranjenika",
+          "koordinate": {
+            "lat": 44.788067,
+            "lng": 20.4520999
+          },
+          "priblizno": true,
+          "mesto": "Beograd (Dedinje)",
+          "adresa": "Park skulptura Muzeja Jugoslavije, Mihaila Mike Jankovića 6.",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%9D%D0%BE%D1%88%D0%B5%D1%9A%D0%B5_%D1%80%D0%B0%D1%9A%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_(%D1%81%D0%BA%D1%83%D0%BB%D0%BF%D1%82%D1%83%D1%80%D0%B0)",
+          "slika": "slike/spomenici/beograd-dedinje-nosenje-ranjenika.webp",
+          "slikaOdnos": 0.75,
+          "slikaPotpis": "Plamen, Public domain",
+          "naziv": "Nošenje ranjenika",
+          "nazivEn": "Carrying the Wounded",
+          "opis": {
+            "sh": "Prva verzija kompozicije Antuna Augustinčića, izrađena 1946. kao poklon građana Zagreba [Josipu Brozu Titu](Q9161) za godišnjicu oslobođenja grada. Dve figure pridržavaju ranjenika, kao simbol partizanske brige o ranjenima.",
+            "en": "The first version of Antun Augustinčić’s composition, made in 1946 as a gift from the citizens of Zagreb to [Josip Broz Tito](Q9161) for the anniversary of the city’s liberation. Two figures support a wounded fighter, symbolising the Partisans’ care for the wounded."
+          },
+          "godina": "1946",
+          "autor": "Antun Augustinčić",
+          "natpis": "Врховном команданту славне југословенске армије, маршалу Титу, у знак захвалности. Грађани града Загреба, 08. 05. 1945. – 08. 05. 1946.",
+          "posveta": [
+            "Q9161"
+          ],
+          "vrsta": "statua",
+          "drzava": "Serbia"
+        }
+      },
+      {
+        "id": "beograd-spomenik-davidu-pajicu-daki",
+        "ishod": "potvrđena ponovna postavka u Novom Dorćolu, još nema potvrđene današnje geotačke",
+        "izmene": {
+          "adresa": "U kompleksu „Novi Dorćol“, na mestu nekadašnje fabrike „David Pajić Daka“, Venizelosova 29–33.",
+          "nazivEn": "Bust of David Pajić Daka",
+          "opis": {
+            "sh": "Bista [Davida Pajića Dake](Q166071) sačuvana je pri preuređenju nekadašnje fabrike liftova i ponovo postavljena unutar kompleksa „Novi Dorćol“.",
+            "en": "The bust of [David Pajić Daka](Q166071) was preserved during the redevelopment of the former lift factory and reinstalled within the Novi Dorćol complex."
+          }
+        },
+        "izvori": [
+          "https://www.saint-gobain.rs/en/node/7351",
+          "https://www.novidorcol.rs/o-projektu/",
+          "https://static.beograd.rs/Binary/3834/Zahtev-Venizelosova.pdf#page=174",
+          "https://commons.wikimedia.org/wiki/File:David_Pajić_Daka.JPG"
+        ],
+        "dokaz": "Investitor planira očuvanje postojeće biste i vraćanje u kompleks. Projektni partner Saint-Gobain izričito potvrđuje da je bista postavljena unutar kompleksa. Zvanični gradski plan2021, list174, prikazuje skulpturu slovomG u zelenom ostrvu uz severoistočnu stranu rekonstruisane Platnare, kraj interne saobraćajnice koja izlazi na Venizelosovu. Gradsko obaveštenje2021 potvrđuje bivšu fabriku na Venizelosovoj29, KP1158/2 KOStariGrad.",
+        "granice": "Dve faze gradnje na2ha menjaju raspored. Tačka starog zapisa potiče samo od ulice. Ne tretirati je kao potvrđenu novu tačku biste; projekat nije izvedeni snimak. Stara Commonsfotografija nemaGPS. Podnožje na planu moguće dalje georeferencirati preko Platnare i izvedene situacije; ovu operaciju nisam uradio.",
+        "pre": {
+          "id": "beograd-spomenik-davidu-pajicu-daki",
+          "koordinate": {
+            "lat": 44.81936,
+            "lng": 20.47618
+          },
+          "priblizno": true,
+          "mesto": "Beograd (Stari grad)",
+          "adresa": "Venizelosova ulica, u krugu firme „David Pajić Daka“",
+          "slika": "slike/spomenici/beograd-spomenik-davidu-pajicu-daki.webp",
+          "slikaOdnos": 0.576,
+          "slikaPotpis": "Goldfinger, CC BY-SA 3.0 RS",
+          "naziv": "Spomenik Davidu Pajiću Daki",
+          "godina": "1959",
+          "posveta": [
+            "Q166071"
+          ],
+          "vrsta": "bista",
+          "drzava": "Serbia"
+        },
+        "posle": {
+          "id": "beograd-spomenik-davidu-pajicu-daki",
+          "koordinate": {
+            "lat": 44.81936,
+            "lng": 20.47618
+          },
+          "priblizno": true,
+          "mesto": "Beograd (Stari grad)",
+          "adresa": "U kompleksu „Novi Dorćol“, na mestu nekadašnje fabrike „David Pajić Daka“, Venizelosova 29–33.",
+          "slika": "slike/spomenici/beograd-spomenik-davidu-pajicu-daki.webp",
+          "slikaOdnos": 0.576,
+          "slikaPotpis": "Goldfinger, CC BY-SA 3.0 RS",
+          "naziv": "Spomenik Davidu Pajiću Daki",
+          "nazivEn": "Bust of David Pajić Daka",
+          "opis": {
+            "sh": "Bista [Davida Pajića Dake](Q166071) sačuvana je pri preuređenju nekadašnje fabrike liftova i ponovo postavljena unutar kompleksa „Novi Dorćol“.",
+            "en": "The bust of [David Pajić Daka](Q166071) was preserved during the redevelopment of the former lift factory and reinstalled within the Novi Dorćol complex."
+          },
+          "godina": "1959",
+          "posveta": [
+            "Q166071"
+          ],
+          "vrsta": "bista",
+          "drzava": "Serbia"
+        }
+      },
+      {
+        "id": "beograd-muzej-saniteta-nob",
+        "ishod": "potvrđeno zatvaranje, bez pouzdano identifikovane zgrade za mapu",
+        "izmene": {},
+        "izvori": [
+          "https://sr.wikipedia.org/wiki/Музеј_санитета_НОБ-а",
+          "https://phaidrabg.bg.ac.rs/view/o:9975"
+        ],
+        "dokaz": "Wiki članak zasnovan na disertaciji Jelene JovanovićSimić (Muzealizacija istorije medicine uSrbiji,2015,str192–195): otvoren27.10.1955 u zgradi Vojno-higijenskog zavoda u kruguVMA, Pasterovabb; posle preseljenjaVMA1981 više ne radi. Univerzitetski repozitorijum potvrđuje disertaciju i autora.",
+        "granice": "Nije potvrđeno koja današnja zgrada odgovara istorijskom Vojno-higijenskom zavodu, niti opstaje li postavka na mestu dostupnom putniku. Pasterovabb i cela staraVMA nisu dovoljni za preciznu tačku. Ne koristiti VMCSlavija/Pasterova3 niti novuVMACrnotravska17 kao zamenu bez dokaza.",
+        "pre": {
+          "id": "beograd-muzej-saniteta-nob",
+          "mesto": "Beograd (Vračar)",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%9C%D1%83%D0%B7%D0%B5%D1%98_%D1%81%D0%B0%D0%BD%D0%B8%D1%82%D0%B5%D1%82%D0%B0_%D0%9D%D0%9E%D0%91-%D0%B0",
+          "naziv": "Muzej saniteta NOB",
+          "godina": "1955",
+          "stanje": "zatvoren",
+          "vrsta": "muzej",
+          "drzava": "Serbia",
+          "adresa": "Pasterova bb, zgrada Vojno-higijenskog zavoda u nekadašnjem krugu VMA; muzej prestao da radi nakon preseljenja VMA 1981. godine."
+        },
+        "posle": {
+          "id": "beograd-muzej-saniteta-nob",
+          "mesto": "Beograd (Vračar)",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%9C%D1%83%D0%B7%D0%B5%D1%98_%D1%81%D0%B0%D0%BD%D0%B8%D1%82%D0%B5%D1%82%D0%B0_%D0%9D%D0%9E%D0%91-%D0%B0",
+          "naziv": "Muzej saniteta NOB",
+          "godina": "1955",
+          "stanje": "zatvoren",
+          "vrsta": "muzej",
+          "drzava": "Serbia",
+          "adresa": "Pasterova bb, zgrada Vojno-higijenskog zavoda u nekadašnjem krugu VMA; muzej prestao da radi nakon preseljenja VMA 1981. godine."
+        }
+      },
+      {
+        "id": "beograd-spomen-groblje-palim-borcima-u-beogradu-19",
+        "ishod": "potvrđen duplikat, spojiti sa belgrade-s-new-cemetery",
+        "spojitiU": "belgrade-s-new-cemetery",
+        "izvori": [
+          "https://istorija20veka.rs/podizanje-spomen-groblja-borcima-u-okupiranom-beogradu-1941-1944/",
+          "https://www.arhivamodernizma.com/aleja-streljanih-rodoljuba-u-beogradu/",
+          "https://znaci.org/00003/920.pdf#page=45"
+        ],
+        "dokaz": "OriginalniPetkovićev unos je Spomen-groblje palim borcima uBeogradu1941–1944 naNovomgroblju. Primarni arhivski rad2026 eksplicitno kaže da Spomen-groblje borcima uokupiranomBeogradu1941–1944 najčešće nosi ime Groblje/Aleja streljanih rodoljuba, arhitektiBogdanBogdanović iSvetislavLičina, otvoreno20.10.1959. Isto mesto/godina/autori uArhiviModernizma; to je već naš belgrade-s-new-cemetery sa fotografijom i tačkom.",
+        "granice": "Razlika broja posmrtnih ostataka: postojećiopis1057, novi arhivski rad1052. Ne poistovećivati sa Grobljem oslobodilacaBeograda1944 preko putaNovoggroblja; to je1954, drugiautori i druga celina. Predlog zadržati postojeći trajniID/tačku/fotografiju, ukloniti duplikat bezlokacije, uopis staviti neutralno „više od hiljadu“ ili dodatno istražiti neslaganje; evidenciju izvora obaID sačuvati uodluci.",
+        "pre": {
+          "id": "beograd-spomen-groblje-palim-borcima-u-beogradu-19",
+          "mesto": "Beograd",
+          "naziv": "Spomen-groblje palim borcima u Beogradu 1941–1944",
+          "vrsta": "groblje",
+          "drzava": "Serbia",
+          "adresa": "Novo groblje, Ruzveltova ulica"
+        },
+        "posle": {
+          "id": "belgrade-s-new-cemetery",
+          "koordinate": {
+            "lat": 44.807902,
+            "lng": 20.4873669
+          },
+          "googleCid": "5605490533968787820",
+          "mesto": "Beograd (Novo groblje)",
+          "adresa": "Aleja streljanih rodoljuba, u okviru Novog groblja, Ruzveltova ulica.",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%90%D0%BB%D0%B5%D1%98%D0%B0_%D1%81%D1%82%D1%80%D0%B5%D1%99%D0%B0%D0%BD%D0%B8%D1%85_%D1%80%D0%BE%D0%B4%D0%BE%D1%99%D1%83%D0%B1%D0%B0_1941%E2%80%941944._%D0%BD%D0%B0_%D0%9D%D0%BE%D0%B2%D0%BE%D0%BC_%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D1%83_%D1%83_%D0%91%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D1%83",
+          "slika": "slike/spomenici/belgrade-s-new-cemetery.webp",
+          "slikaOdnos": 1.639,
+          "slikaPotpis": "Wikimedia Commons",
+          "naziv": "Aleja streljanih rodoljuba",
+          "nazivEn": "The Alley of the Executed Patriots",
+          "opis": {
+            "sh": "Memorijalna grobnica sa posmrtnim ostacima više od hiljadu ljudi stradalih tokom okupacije Beograda, uređena 1959. Pet bronzanih stubova podseća na rodoljube obešene na Terazijama 1941.",
+            "en": "A memorial grave holding the remains of more than a thousand people killed during the occupation of Belgrade, laid out in 1959. Five bronze posts recall the patriots hanged at Terazije in 1941."
+          },
+          "godina": "1959",
+          "autor": "Bogdan Bogdanović & Svetislav Ličina",
+          "vrsta": "spomen-groblje",
+          "drzava": "Serbia"
+        }
+      },
+      {
+        "id": "progar-spomen-ploca-partizanskom-bivaku",
+        "ishod": "približno; imenovana OSM tačka ostaje kandidat",
+        "izmene": {
+          "adresa": "U Bojčinskoj šumi, uz put prema Ašanji; prema opisu oko 2 km od lugarnice."
+        },
+        "izvori": [
+          "https://www.openstreetmap.org/node/10744888449",
+          "https://en.wikipedia.org/wiki/Forest_of_Bojcin",
+          "https://www.danas.rs/vesti/beograd/bojcinska-suma-izmedju-uzivanja-i-borbe-za-slobodu/",
+          "https://beogradskonasledje.rs/skpz-po-opstinama/surcin/"
+        ],
+        "dokaz": "Fotografija iste ploče na Commonsu ima GPS fotografa 44.731804,20.155728, što je poreklo postojeće približne tačke. OSM node10744888449 označava Spomenik „Partizanske baze“ na 44.7384091,20.1460236. Opisi jasno razlikuju ovu ploču iz1963 u unutrašnjosti šume od visokog spomenika prvoj borbi na ulazu, iz1960.",
+        "kandidat": {
+          "lat": 44.7384091,
+          "lng": 20.1460236,
+          "izvor": "https://www.openstreetmap.org/node/10744888449",
+          "opis": "Imenovan spomenik Partizanske baze; nije vizuelno potvrđeno da je baš postojeća ploča."
+        },
+        "granice": "OSM nema fotografiju, natpis ni godinu. Razlika oko1km u odnosu na GPS fotografije ne rešava se automatskim prepisivanjem. Ne koristiti tačku šume ili ulaznog spomenika kao potvrđeno podnožje; stara tačka ostaje približna.",
+        "pre": {
+          "id": "progar-spomen-ploca-partizanskom-bivaku",
+          "koordinate": {
+            "lat": 44.731803,
+            "lng": 20.155728
+          },
+          "priblizno": true,
+          "mesto": "Beograd (Progar)",
+          "slika": "slike/spomenici/progar-spomen-ploca-partizanskom-bivaku.webp",
+          "slikaOdnos": 1.498,
+          "slikaPotpis": "Тајга, CC BY-SA 3.0",
+          "naziv": "Spomen-ploča partizanskom bivaku u Bojčinskoj šumi",
+          "nazivEn": "Memorial Plaque to the Partisan Camp in Bojčin Forest",
+          "opis": {
+            "sh": "Posvećeno partizanskom logoru, bazama i osmatračnicama Prvog sremskog odreda u Bojčinskoj šumi od 1942. do oslobođenja.",
+            "en": "Dedicated to the camp, bases and lookouts of the 1st Srem Detachment in Bojčin Forest from 1942 until liberation."
+          },
+          "godina": "1963",
+          "vrsta": "spomen-ploca",
+          "drzava": "Serbia"
+        },
+        "posle": {
+          "id": "progar-spomen-ploca-partizanskom-bivaku",
+          "koordinate": {
+            "lat": 44.731803,
+            "lng": 20.155728
+          },
+          "priblizno": true,
+          "mesto": "Beograd (Progar)",
+          "adresa": "U Bojčinskoj šumi, uz put prema Ašanji; prema opisu oko 2 km od lugarnice.",
+          "slika": "slike/spomenici/progar-spomen-ploca-partizanskom-bivaku.webp",
+          "slikaOdnos": 1.498,
+          "slikaPotpis": "Тајга, CC BY-SA 3.0",
+          "naziv": "Spomen-ploča partizanskom bivaku u Bojčinskoj šumi",
+          "nazivEn": "Memorial Plaque to the Partisan Camp in Bojčin Forest",
+          "opis": {
+            "sh": "Posvećeno partizanskom logoru, bazama i osmatračnicama Prvog sremskog odreda u Bojčinskoj šumi od 1942. do oslobođenja.",
+            "en": "Dedicated to the camp, bases and lookouts of the 1st Srem Detachment in Bojčin Forest from 1942 until liberation."
+          },
+          "godina": "1963",
+          "vrsta": "spomen-ploca",
+          "drzava": "Serbia"
+        }
+      },
+      {
+        "id": "beograd-komeni-beleg",
+        "ishod": "identifikovan i lociran pojedinačni spomenik; prenet na mapu",
+        "izmene": {
+          "koordinate": {
+            "lat": 44.7970524,
+            "lng": 20.4657716
+          },
+          "adresa": "Karađorđev park, kod mesta nekadašnjeg skloništa.",
+          "naziv": "Spomen-obeležje za 192 poginula Beograđanina",
+          "nazivEn": "Memorial to 192 Belgraders Killed in the Bombing",
+          "wiki": "https://sr.wikipedia.org/wiki/Спомен_обележје_за_192_погинула_Београђанина",
+          "godina": "1975",
+          "vrsta": "spomen-ploca",
+          "opis": {
+            "sh": "Posvećeno 192 građanina poginula u skloništu u Karađorđevom parku tokom nemačkog bombardovanja 6. aprila 1941. Obeležje su novembra 1975. postavili građani Beograda.",
+            "en": "Dedicated to 192 civilians killed in a shelter in Karađorđe’s Park during the German bombing on 6 April 1941. The memorial was erected by the citizens of Belgrade in November 1975."
+          },
+          "natpis": "ОВДЕ У КАРАЂОРЂЕВОМ ПАРКУ\nПОГИНУЛА СУ СТО ДЕВЕДЕСЕТ ДВА\nНЕДУЖНА ГРАЂАНИНА ОД\nИЗНЕНАДНОГ НАПАДА\nНЕМАЧКИХ ФАШИСТИЧКИХ\nАВИОНА 6. АПРИЛА 1941. ГОДИНЕ\n\nНОВЕМБРА 1975. ГОД.\nГРАЂАНИ БЕОГРАДА",
+          "slika": "slike/spomenici/beograd-komeni-beleg.webp",
+          "slikaOdnos": 1.778,
+          "slikaPotpis": "Ljiljana Sundać, CC BY-SA 4.0"
+        },
+        "izvori": [
+          "https://www.openstreetmap.org/node/9991245656",
+          "https://sr.wikipedia.org/wiki/Спомен_обележје_за_192_погинула_Београђанина",
+          "https://www.tob.rs/rs/vracar-kat",
+          "https://commons.wikimedia.org/wiki/Category:A_memorial_for_192_killed_Belgraders"
+        ],
+        "dokaz": "Katalog Popović–Žuma1981, štampana17/PDF9, ima pun natpis za192 građanina u Karađorđevom parku. Sken vizuelno pročitan. Isti broj, natpis i mesto na fotografiji Ljiljane Sundać iz2020. Imenovani OSM node9991245656 vezan je za isti pojedinačni članak i Commons kategoriju; njegov položaj nije centroid parka. Zvanična turistička organizacija potvrđuje ovu ploču.",
+        "granice": "Datum novembar1975 pročitan sa fotografije; autor dela nije potvrđen. Trajni stariID ostaje radi postojećih veza.",
+        "pre": {
+          "id": "beograd-komeni-beleg",
+          "mesto": "Beograd",
+          "naziv": "Kameni beleg",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        },
+        "posle": {
+          "id": "beograd-komeni-beleg",
+          "koordinate": {
+            "lat": 44.7970524,
+            "lng": 20.4657716
+          },
+          "mesto": "Beograd",
+          "adresa": "Karađorđev park, kod mesta nekadašnjeg skloništa.",
+          "wiki": "https://sr.wikipedia.org/wiki/Спомен_обележје_за_192_погинула_Београђанина",
+          "slika": "slike/spomenici/beograd-komeni-beleg.webp",
+          "slikaOdnos": 1.778,
+          "slikaPotpis": "Ljiljana Sundać, CC BY-SA 4.0",
+          "naziv": "Spomen-obeležje za 192 poginula Beograđanina",
+          "nazivEn": "Memorial to 192 Belgraders Killed in the Bombing",
+          "opis": {
+            "sh": "Posvećeno 192 građanina poginula u skloništu u Karađorđevom parku tokom nemačkog bombardovanja 6. aprila 1941. Obeležje su novembra 1975. postavili građani Beograda.",
+            "en": "Dedicated to 192 civilians killed in a shelter in Karađorđe’s Park during the German bombing on 6 April 1941. The memorial was erected by the citizens of Belgrade in November 1975."
+          },
+          "godina": "1975",
+          "natpis": "ОВДЕ У КАРАЂОРЂЕВОМ ПАРКУ\nПОГИНУЛА СУ СТО ДЕВЕДЕСЕТ ДВА\nНЕДУЖНА ГРАЂАНИНА ОД\nИЗНЕНАДНОГ НАПАДА\nНЕМАЧКИХ ФАШИСТИЧКИХ\nАВИОНА 6. АПРИЛА 1941. ГОДИНЕ\n\nНОВЕМБРА 1975. ГОД.\nГРАЂАНИ БЕОГРАДА",
+          "vrsta": "spomen-ploca",
+          "drzava": "Serbia"
+        }
+      },
+      {
+        "id": "borca-spomenik-palim-borcima-novj-i-crvene-armije",
+        "ishod": "potvrđen duplikat postojećeg borčanskog spomenika; spojen",
+        "izmene": {},
+        "izvori": [
+          "https://udi.rs/wp-content/uploads/2024/12/Godisnjak-1-2024-korice.pdf#page=66",
+          "https://www.xiwl.com/w/index.php/Bor%C4%8Da_-_Spomenik_Palim_Borcima",
+          "https://www.planplus.rs/osnovna-skola-stevan-sremac/5684"
+        ],
+        "dokaz": "Izvorni sačuvani xiwl karton Borča - Spomenik Palim Borcima izričito citira isti Popović–Žuma katalog i isti spomenik borcima NOVJ i Crvene armije,14.10.1945,u dvorištu škole Stevan Sremac. Košutnjak je greška njegovog zaglavlja, dok opis,dvorište,godina i posveta odgovaraju novom terenskom radu Angeline Banković. Rad2024 potvrđuje isti spomenik, školu i fotografsko stanje2023. Zadržana je postojeća precizna tačka umesto nove tačke škole.",
+        "granice": "Katalog1981 navodi24 meštana i34 crvenoarmejca, terenski rad2023 i današnji natpis26 i36; rad izričito opisuje promenu natpisa. Stare brojke sačuvane u dokazu, u opisu su26 i36 prema novom terenskom nalazu. Nije novi obilazak2026.",
+        "pre": {
+          "id": "borca-spomenik-palim-borcima-novj-i-crvene-armije",
+          "mesto": "Beograd (Borča)",
+          "naziv": "Spomenik palim borcima NOVJ i Crvene armije",
+          "posveta": "palim borcima NOVJ i Crvene armije",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        },
+        "posle": {
+          "id": "borca-spomenik-palim-borcima-kosutnjak",
+          "koordinate": {
+            "lat": 44.873139,
+            "lng": 20.455194
+          },
+          "mesto": "Beograd (Borča)",
+          "adresa": "U dvorištu OŠ „Stevan Sremac“, Trg oslobođenja 3.",
+          "slika": "slike/spomenici/borca-spomenik-palim-borcima-kosutnjak.webp",
+          "slikaOdnos": 1.498,
+          "slikaPotpis": "Angelina Banković, Godišnjak za društvenu istoriju 1/2024",
+          "naziv": "Spomenik palim borcima NOVJ i Crvene armije",
+          "nazivEn": "Memorial to Fallen Yugoslav and Red Army Fighters",
+          "opis": {
+            "sh": "Otkriven 14. oktobra 1945, nad grobnicom boraca poginulih pri oslobođenju Borče. Prema terenskom istraživanju iz 2023, na spomeniku su navedeni 26 meštana i 36 boraca Crvene armije.",
+            "en": "Unveiled on 14 October 1945 above the grave of fighters killed during the liberation of Borča. According to field research from 2023, the monument lists 26 local residents and 36 Red Army soldiers."
+          },
+          "godina": "1945",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        }
+      },
+      {
+        "id": "zemun-spomen-belezi-na-batajnickom-drumu-obelezava",
+        "ishod": "popravljen prekinut naziv; zbirni zapis ostaje bez potvrđene tačke",
+        "izmene": {
+          "naziv": "Spomen-belezi streljanim meštanima na Batajničkom drumu",
+          "nazivEn": "Memorial Markers to Residents Executed on Batajnica Road",
+          "adresa": "Duž Batajničkog druma; pojedinačna mesta iz kataloškog zbirnog zapisa nisu utvrđena.",
+          "opis": {
+            "sh": "Katalog iz 1981. navodi više obeležja mesta gde su okupatori streljali ukupno sedamnaest meštana Batajnice i Zemuna; pojedinačni položaji nisu potvrđeni.",
+            "en": "The 1981 catalogue lists several markers at sites where the occupiers executed a total of seventeen residents of Batajnica and Zemun; their individual locations have not been confirmed."
+          }
+        },
+        "izvori": [
+          "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=17",
+          "https://www.batajnica.com/opste-informacije/",
+          "https://beogradskevesti.info/spomenik-streljanim-rodoljubima-u-zemunu/"
+        ],
+        "dokaz": "Izvorni katalog navodi više spomen-belega i17 streljanih meštana, a ne jedan identifikovan objekat. Mrežna provera daje postojeći spomenik desetorici na Goveđem brodu,1968,u Veterinarskom zavodu; njega već imamo kao borca-sutjeska-spomenik-streljanim-rodoljubima.",
+        "granice": "Deset i sedamnaest žrtava i jedan naspram više objekata nisu isti obuhvat. Bez dodatnog dokaza ne spajati sve sa Goveđim brodom niti izmišljati pojedinačne koordinate.",
+        "pre": {
+          "id": "zemun-spomen-belezi-na-batajnickom-drumu-obelezava",
+          "mesto": "Beograd (Zemun)",
+          "naziv": "Spomen-belezi na batajničkom drumu obeležavaju mesta",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        },
+        "posle": {
+          "id": "zemun-spomen-belezi-na-batajnickom-drumu-obelezava",
+          "mesto": "Beograd (Zemun)",
+          "naziv": "Spomen-belezi streljanim meštanima na Batajničkom drumu",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia",
+          "nazivEn": "Memorial Markers to Residents Executed on Batajnica Road",
+          "adresa": "Duž Batajničkog druma; pojedinačna mesta iz kataloškog zbirnog zapisa nisu utvrđena.",
+          "opis": {
+            "sh": "Katalog iz 1981. navodi više obeležja mesta gde su okupatori streljali ukupno sedamnaest meštana Batajnice i Zemuna; pojedinačni položaji nisu potvrđeni.",
+            "en": "The 1981 catalogue lists several markers at sites where the occupiers executed a total of seventeen residents of Batajnica and Zemun; their individual locations have not been confirmed."
+          }
+        }
+      }
+    ],
+    "spajanja": [
+      {
+        "uklonjeniId": "novi-beograd-reljef-viktora-bubnja",
+        "zadrzaniId": "beograd-bista-viktora-bubnja",
+        "stariIzvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_%D0%9D%D0%9E%D0%91_%D1%83_%D0%A1%D1%80%D0%B1%D0%B8%D1%98%D0%B8",
+        "zadrzaniIzvor": "https://commons.wikimedia.org/wiki/File:Viktor_Bubanj_Beograd.JPG",
+        "stareProvere": null
+      },
+      {
+        "uklonjeniId": "beograd-spomen-groblje-palim-borcima-u-beogradu-19",
+        "zadrzaniId": "belgrade-s-new-cemetery",
+        "stariIzvor": "https://znaci.org/00003/920.pdf#page=45",
+        "zadrzaniIzvor": null,
+        "stareProvere": null
+      },
+      {
+        "uklonjeniId": "borca-spomenik-palim-borcima-novj-i-crvene-armije",
+        "zadrzaniId": "borca-spomenik-palim-borcima-kosutnjak",
+        "stariIzvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=14",
+        "zadrzaniIzvor": "https://www.xiwl.com/w/index.php/Bor%C4%8Da_-_Spomenik_Palim_Borcima",
+        "stareProvere": null
+      }
+    ],
+    "dopuneCiljeva": {
+      "beograd-bista-viktora-bubnja": {
+        "pre": {
+          "id": "beograd-bista-viktora-bubnja",
+          "koordinate": {
+            "lat": 44.8237875,
+            "lng": 20.4064339
+          },
+          "mesto": "Beograd (Novi Beograd)",
+          "adresa": "Ulica Narodnih heroja",
+          "slika": "slike/spomenici/beograd-bista-viktora-bubnja.webp",
+          "slikaOdnos": 0.749,
+          "slikaPotpis": "Pinki, Public domain",
+          "naziv": "Bista Viktora Bubnja",
+          "nazivEn": "Bust of Viktor Bubanj",
+          "posveta": [
+            "Q181814"
+          ],
+          "vrsta": "bista",
+          "drzava": "Serbia"
+        },
+        "posle": {
+          "id": "beograd-bista-viktora-bubnja",
+          "koordinate": {
+            "lat": 44.8237875,
+            "lng": 20.4064339
+          },
+          "mesto": "Beograd (Novi Beograd)",
+          "adresa": "Ulica Narodnih heroja",
+          "slika": "slike/spomenici/beograd-bista-viktora-bubnja.webp",
+          "slikaOdnos": 0.749,
+          "slikaPotpis": "Pinki, Public domain",
+          "naziv": "Reljef Viktora Bubnja",
+          "nazivEn": "Relief of Viktor Bubanj",
+          "posveta": [
+            "Q181814"
+          ],
+          "vrsta": "reljef",
+          "drzava": "Serbia"
+        }
+      },
+      "belgrade-s-new-cemetery": {
+        "pre": {
+          "id": "belgrade-s-new-cemetery",
+          "koordinate": {
+            "lat": 44.807902,
+            "lng": 20.4873669
+          },
+          "googleCid": "5605490533968787820",
+          "mesto": "Beograd (Novo groblje)",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%90%D0%BB%D0%B5%D1%98%D0%B0_%D1%81%D1%82%D1%80%D0%B5%D1%99%D0%B0%D0%BD%D0%B8%D1%85_%D1%80%D0%BE%D0%B4%D0%BE%D1%99%D1%83%D0%B1%D0%B0_1941%E2%80%941944._%D0%BD%D0%B0_%D0%9D%D0%BE%D0%B2%D0%BE%D0%BC_%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D1%83_%D1%83_%D0%91%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D1%83",
+          "slika": "slike/spomenici/belgrade-s-new-cemetery.webp",
+          "slikaOdnos": 1.639,
+          "slikaPotpis": "Wikimedia Commons",
+          "naziv": "Aleja streljanih rodoljuba",
+          "nazivEn": "The Alley of the Executed Patriots",
+          "opis": {
+            "sh": "Masovna grobnica sa posmrtnim ostacima 1.057 ljudi stradalih tokom okupacije Beograda, uređena 1959. Pet bronzanih stubova podseća na partizane obešene na Terazijama 1941.",
+            "en": "Mass grave holding the remains of 1,057 people killed during the occupation of Belgrade, laid out in 1959. Five bronze posts recall the Partisans hanged at Terazije in 1941."
+          },
+          "godina": "1959",
+          "autor": "Bogdan Bogdanović & Svetislav Ličina",
+          "vrsta": "spomen-groblje",
+          "drzava": "Serbia"
+        },
+        "posle": {
+          "id": "belgrade-s-new-cemetery",
+          "koordinate": {
+            "lat": 44.807902,
+            "lng": 20.4873669
+          },
+          "googleCid": "5605490533968787820",
+          "mesto": "Beograd (Novo groblje)",
+          "adresa": "Aleja streljanih rodoljuba, u okviru Novog groblja, Ruzveltova ulica.",
+          "wiki": "https://sr.wikipedia.org/wiki/%D0%90%D0%BB%D0%B5%D1%98%D0%B0_%D1%81%D1%82%D1%80%D0%B5%D1%99%D0%B0%D0%BD%D0%B8%D1%85_%D1%80%D0%BE%D0%B4%D0%BE%D1%99%D1%83%D0%B1%D0%B0_1941%E2%80%941944._%D0%BD%D0%B0_%D0%9D%D0%BE%D0%B2%D0%BE%D0%BC_%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D1%83_%D1%83_%D0%91%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D1%83",
+          "slika": "slike/spomenici/belgrade-s-new-cemetery.webp",
+          "slikaOdnos": 1.639,
+          "slikaPotpis": "Wikimedia Commons",
+          "naziv": "Aleja streljanih rodoljuba",
+          "nazivEn": "The Alley of the Executed Patriots",
+          "opis": {
+            "sh": "Memorijalna grobnica sa posmrtnim ostacima više od hiljadu ljudi stradalih tokom okupacije Beograda, uređena 1959. Pet bronzanih stubova podseća na rodoljube obešene na Terazijama 1941.",
+            "en": "A memorial grave holding the remains of more than a thousand people killed during the occupation of Belgrade, laid out in 1959. Five bronze posts recall the patriots hanged at Terazije in 1941."
+          },
+          "godina": "1959",
+          "autor": "Bogdan Bogdanović & Svetislav Ličina",
+          "vrsta": "spomen-groblje",
+          "drzava": "Serbia"
+        }
+      },
+      "borca-spomenik-palim-borcima-kosutnjak": {
+        "pre": {
+          "id": "borca-spomenik-palim-borcima-kosutnjak",
+          "koordinate": {
+            "lat": 44.873139,
+            "lng": 20.455194
+          },
+          "mesto": "Beograd (Borča)",
+          "naziv": "Spomenik palim borcima Kosutnjak",
+          "nazivEn": "Monument to Fallen Fighters, Košutnjak",
+          "opis": {
+            "sh": "Posvećeno palim borcima sa Košutnjaka.",
+            "en": "Dedicated to fallen fighters from Košutnjak."
+          },
+          "godina": "1945",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        },
+        "posle": {
+          "id": "borca-spomenik-palim-borcima-kosutnjak",
+          "koordinate": {
+            "lat": 44.873139,
+            "lng": 20.455194
+          },
+          "mesto": "Beograd (Borča)",
+          "adresa": "U dvorištu OŠ „Stevan Sremac“, Trg oslobođenja 3.",
+          "slika": "slike/spomenici/borca-spomenik-palim-borcima-kosutnjak.webp",
+          "slikaOdnos": 1.498,
+          "slikaPotpis": "Angelina Banković, Godišnjak za društvenu istoriju 1/2024",
+          "naziv": "Spomenik palim borcima NOVJ i Crvene armije",
+          "nazivEn": "Memorial to Fallen Yugoslav and Red Army Fighters",
+          "opis": {
+            "sh": "Otkriven 14. oktobra 1945, nad grobnicom boraca poginulih pri oslobođenju Borče. Prema terenskom istraživanju iz 2023, na spomeniku su navedeni 26 meštana i 36 boraca Crvene armije.",
+            "en": "Unveiled on 14 October 1945 above the grave of fighters killed during the liberation of Borča. According to field research from 2023, the monument lists 26 local residents and 36 Red Army soldiers."
+          },
+          "godina": "1945",
+          "vrsta": "spomen-obelezje",
+          "drzava": "Serbia"
+        }
+      }
+    },
+    "preusmereneVeze": [
+      {
+        "fajl": "data/knjige/jokic-1986.json",
+        "broj": 1
+      },
+      {
+        "fajl": "data/provere/groblja.json",
+        "broj": 1
+      }
+    ],
+    "lokalniDokazi": [
+      "izvori/beograd-preostali-2026-11-09/",
+      "izvori/beograd-skole-2026-11-09/",
+      "izvori/beograd-muzeji-2026-11-09/"
+    ],
+    "granice": "Novi podaci ne potvrđuju današnji terenski opstanak bez datuma izvora. Prethodno dodate dve ustanovske tačke i88sadnica nisu ponovo menjani. Približna tačka muzeja ili kompleksa ostaje približna za pojedinačne skulpture. Broj1057 u postojećem opisu Aleje i1052 u novom arhivskom radu sačuvani kao neslaganje; opis je neutralan višeodhiljadu. Milentiju1973nijeupisana jer potvrđuje nagradu,nenužnopostavljanje.",
+    "provera": {
+      "mobilniPrikaz": "Svih9 promenjenih markera, oba jezika (18 prikaza),390×844: slike učitane,bez JS izuzetaka i horizontalnog prelivanja; snimci tri ključna prikaza vizuelno pregledani.",
+      "slike": "Bez EXIF promena,napravljene2male slike,odnosi slika nepromenjeni.",
+      "integritet": "Završava sa kodom1 zbog ranije postojećeg spoja opisa i tekstualne posvete novi-sad-reljef-vere-pavlovic; zapis nije menjan. Prijavljuje98postojećih bliskih parova,kao pre ovog prolaza. Nema novih strukturnih/veznih grešaka.",
+      "testovi": "Nisu pokretani, po važećoj korisnikovoj pauzi."
+    }
   }
 }

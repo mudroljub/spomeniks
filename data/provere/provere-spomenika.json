@@ -145,18 +145,18 @@
   },
   "beograd-dedinje-kurir": {
     "proveraLokacije": {
-      "datum": "2026-10-23",
-      "izvor": "Sačuvani OSM/Wiki podaci i pojedinačni dokazi u lociranje.json#lociranje-prioriteti-2026-10-23-3-vazniji",
-      "ishod": "spojeno",
-      "napomena": "{\"potvrda\": \"Identična skulptura na fotografijama u parku Muzeja Jugoslavije, ista posveta i autor; oba profila opisuju isto mesto.\", \"pregled\": \"izvori/pretrage/lociranje-prioriteti-2026-10-23/muzej-parovi.jpg\"}"
+      "datum": "2026-11-09",
+      "izvor": "https://muzej-jugoslavije.org/wp-content/uploads/2025/09/2024-Nasledje-Jugoslavije-compressed-21mb.pdf#page=147",
+      "ishod": "potvrđen park, bez položaja pojedinačne skulpture",
+      "napomena": "Postojeća tačka je tačka celog muzeja, a park ima dvadeset skulptura. Bez plana pojedinačnih skulptura ili geolocirane fotografije ne tvrditi da je ovo precizno podnožje. 1953 je godina dela, godina dolaska u park je nepoznata."
     }
   },
   "beograd-dedinje-nosenje-ranjenika": {
     "proveraLokacije": {
-      "datum": "2026-10-23",
-      "izvor": "Sačuvani OSM/Wiki podaci i pojedinačni dokazi u lociranje.json#lociranje-prioriteti-2026-10-23-3-vazniji",
-      "ishod": "spojeno",
-      "napomena": "{\"potvrda\": \"Identična skulptura na fotografijama u parku Muzeja Jugoslavije, ista posveta i autor; oba profila opisuju isto mesto.\", \"pregled\": \"izvori/pretrage/lociranje-prioriteti-2026-10-23/muzej-parovi.jpg\"}"
+      "datum": "2026-11-09",
+      "izvor": "https://muzej-jugoslavije.org/wp-content/uploads/2025/09/2024-Nasledje-Jugoslavije-compressed-21mb.pdf#page=146",
+      "ishod": "potvrđen park i ispravljen identitet varijante, bez podnožja",
+      "napomena": "Postojeći opis „serija1952–1983“ nije odgovarajuća datacija ovog primerka i treba ga zameniti; wiki članak o ostalim odlivcima zadržati samo ako je tretiran kao članak o celom delu. Fotografija nemaGPS. Godina1946 potvrđuje nastanak i poklon, ne današnji raspored parka."
     }
   },
   "beograd-dedinje-ranjeni-kurir": {
@@ -165,6 +165,14 @@
       "izvor": "Sačuvani OSM/Wiki podaci i pojedinačni dokazi u lociranje.json#lociranje-prioriteti-2026-10-23-3-vazniji",
       "ishod": "spojeno",
       "napomena": "{\"potvrda\": \"Identična skulptura na fotografijama u parku Muzeja Jugoslavije, ista posveta i autor; oba profila opisuju isto mesto.\", \"pregled\": \"izvori/pretrage/lociranje-prioriteti-2026-10-23/muzej-parovi.jpg\"}"
+    }
+  },
+  "beograd-muzej-saniteta-nob": {
+    "proveraLokacije": {
+      "datum": "2026-11-09",
+      "izvor": "https://sr.wikipedia.org/wiki/Музеј_санитета_НОБ-а",
+      "ishod": "potvrđeno zatvaranje, bez pouzdano identifikovane zgrade za mapu",
+      "napomena": "Nije potvrđeno koja današnja zgrada odgovara istorijskom Vojno-higijenskom zavodu, niti opstaje li postavka na mestu dostupnom putniku. Pasterovabb i cela staraVMA nisu dovoljni za preciznu tačku. Ne koristiti VMCSlavija/Pasterova3 niti novuVMACrnotravska17 kao zamenu bez dokaza."
     }
   },
   "beograd-spomenik-braci-stamenkovic": {
@@ -177,10 +185,10 @@
   },
   "beograd-spomenik-davidu-pajicu-daki": {
     "proveraLokacije": {
-      "datum": "2026-10-23",
-      "izvor": "Sačuvani OSM/Wiki podaci i pojedinačni dokazi u lociranje.json#lociranje-prioriteti-2026-10-23-3-vazniji",
-      "ishod": "približno",
-      "napomena": "{\"izvor\": \"Sačuvani RS OSM putevi 676130929, 676130933, 969548950\", \"potvrda\": \"Venizelosova ulica u Beogradu; nije potvrđen položaj biste unutar fabrike\", \"identitet\": \"https://commons.wikimedia.org/wiki/File:David_Paji%C4%87_Daka.JPG\", \"fotografija\": \"slike/bez-lokacije/beograd-spomenik-davidu-pajicu-daki.webp\"}"
+      "datum": "2026-11-09",
+      "izvor": "https://www.saint-gobain.rs/en/node/7351",
+      "ishod": "potvrđena ponovna postavka u Novom Dorćolu, još nema potvrđene današnje geotačke",
+      "napomena": "Dve faze gradnje na2ha menjaju raspored. Tačka starog zapisa potiče samo od ulice. Ne tretirati je kao potvrđenu novu tačku biste; projekat nije izvedeni snimak. Stara Commonsfotografija nemaGPS. Podnožje na planu moguće dalje georeferencirati preko Platnare i izvedene situacije; ovu operaciju nisam uradio."
     }
   },
   "beograd-zemun-bista-rade-koncara": {
@@ -2469,6 +2477,14 @@
       "napomena": "{\"opis\": \"Плоштад „Методија Андонов Ченто“; приближна точка на плоштадот\", \"osm\": {\"osm\": [], \"sidro\": {\"lat\": 41.346252, \"lng\": 21.552833}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"zaključak\": \"Nije potvrđena tačka pojedinačnog objekta; registar i postojeća približna tačka ne dokazuju podnožje.\"}"
     }
   },
+  "progar-spomen-ploca-partizanskom-bivaku": {
+    "proveraLokacije": {
+      "datum": "2026-11-09",
+      "izvor": "https://www.openstreetmap.org/node/10744888449",
+      "ishod": "približno; imenovana OSM tačka ostaje kandidat",
+      "napomena": "OSM nema fotografiju, natpis ni godinu. Razlika oko1km u odnosu na GPS fotografije ne rešava se automatskim prepisivanjem. Ne koristiti tačku šume ili ulaznog spomenika kao potvrđeno podnožje; stara tačka ostaje približna."
+    }
+  },
   "prokuplje-bista-ratka-pavlovica-cicke": {
     "proveraLokacije": {
       "datum": "2026-10-23",
@@ -3305,6 +3321,22 @@
       "napomena": "Zadržan vukovar-sapudl-spomen-kosturnica-zrtava-fasizma; dokaz i prethodna polja u izveštaju paketa."
     }
   },
+  "za-okusatora-bista-djure-strugara": {
+    "proveraLokacije": {
+      "datum": "2026-11-09",
+      "izvor": "https://djurostrugar.edu.rs/историја-школе/",
+      "ishod": "bez-potvrdjene-danasnje-lokacije",
+      "napomena": "Ne unositi novi marker škole na Novom Beogradu niti spajati dve biste samo po imenu. Potrebna fotografija ili potvrda škole gde je bista i da li ima dva primerka."
+    }
+  },
+  "za-okusatora-bista-milosa-matijevica-mrse": {
+    "proveraLokacije": {
+      "datum": "2026-11-09",
+      "izvor": "https://farmafizio.edu.rs/wp-content/uploads/2025/09/GP_FFS_2025_2026.pdf",
+      "ishod": "istorijska-zgrada-poznata-opstanak-biste-nepotvrdjen",
+      "napomena": "Ne navoditi školsku tačku kao potvrđenu lokaciju biste posle gašenja škole i rekonstrukcije bez novog dokaza."
+    }
+  },
   "zabrdje-bista-nepoznate-osobe": {
     "proveraOpstanka": {
       "datum": "2026-10-20",
@@ -3360,6 +3392,14 @@
       "izvor": "Sačuvani OSM/Wiki podaci i pojedinačni dokazi u lociranje.json#lociranje-prioriteti-2026-10-23-3-vazniji",
       "ishod": "bez-nove-potvrde",
       "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 44.19767, \"lng\": 21.78513}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
+    }
+  },
+  "zemun-spomen-belezi-na-batajnickom-drumu-obelezava": {
+    "proveraLokacije": {
+      "datum": "2026-11-09",
+      "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=17",
+      "ishod": "popravljen prekinut naziv; zbirni zapis ostaje bez potvrđene tačke",
+      "napomena": "Deset i sedamnaest žrtava i jedan naspram više objekata nisu isti obuhvat. Bez dodatnog dokaza ne spajati sve sa Goveđim brodom niti izmišljati pojedinačne koordinate."
     }
   },
   "zrenjanin-bista-zarka-turinskog": {
