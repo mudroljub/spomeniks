@@ -68443,5 +68443,84 @@
       "prikaz": "Oba zapisa otvorena na telefonu 390 x 844 na oba jezika, fotografije ucitane, bez JS izuzetaka i horizontalnog prelivanja; snimci pregledani.",
       "testovi": "Pauzirani testovi i otisak izdanja nisu pokretani."
     }
+  },
+  {
+    "odluka": "novi-sad-spasavanje-borskih-logorasa-2026-11-09",
+    "datum": "2026-11-09",
+    "ishod": "novi-zapis",
+    "noviZapis": {
+      "id": "novi-sad-ploca-spasavanju-borskih-logorasa",
+      "mesto": "Novi Sad",
+      "adresa": "Hajduk Veljkova 1, na fasadi zgrade Očne i ORL klinike u okviru Kliničkog centra Vojvodine.",
+      "naziv": "Spomen-ploča spasavanju borskih logoraša",
+      "nazivEn": "Plaque Commemorating the Rescue of Bor Camp Prisoners",
+      "opis": {
+        "sh": "Obeležava spasavanje oko dvadeset jevrejskih logoraša iz Mađarske, koje su mladi medicinari sakrili u novosadskoj bolnici tokom marša smrti iz Borskog rudnika u oktobru 1944. Dvojezičnu ploču na srpskom i mađarskom postavili su Klinički centar i Jevrejska opština Novi Sad u oktobru 2002.",
+        "en": "Commemorates the rescue of about twenty Jewish prisoners from Hungary, hidden by young medical workers in Novi Sad Hospital during the death march from the Bor mine in October 1944. The Clinical Centre and the Jewish Community of Novi Sad installed the Serbian and Hungarian plaque in October 2002."
+      },
+      "godina": "2002",
+      "natpis": "У ОВОЈ ЗГРАДИ СПАШЕНО ЈЕ ОКО ДВАДЕСЕТ ЈЕВРЕЈСКИХ ЛОГОРАША ИЗ МАЂАРСКЕ НА ПУТУ СМРТИ ИЗ БОРСКОГ РУДНИКА\n\nОКТОБРА 2002.\nКЛИНИЧКИ ЦЕНТАР НОВИ САД\nЈЕВРЕЈСКА ОПШТИНА НОВИ САД\n\nEBBEN AZ ÉPÜLETBEN MENTETTEK MEG KB. HÚSZ MAGYARORSZÁGI ZSIDÓ TÁBORLAKÓT A BORI BÁNYÁBÓL A HALÁLBA VEZETŐ ÚTON\n\n2002.OKTÓBERE\nKLINIKAI KÖZPONT NOVI SAD\nZSIDÓ KÖZÖSSÉG NOVI SAD",
+      "vrsta": "spomen-ploca",
+      "drzava": "Serbia",
+      "koordinate": {
+        "lat": 45.2505365,
+        "lng": 19.8237265
+      },
+      "izvor": "https://klub.danas.rs/wp-content/uploads/2020/12/25.09.2002.pdf-ebook.pdf",
+      "slika": "slike/spomenici/novi-sad-ploca-spasavanju-borskih-logorasa.webp",
+      "slikaOdnos": 1.97,
+      "slikaPotpis": "Korisnički prilog, autor nije naveden"
+    },
+    "lokalniIzvor": "izvori/borski-logorasi-novi-sad-2026-11-09/",
+    "izvori": [
+      "https://klub.danas.rs/wp-content/uploads/2020/12/25.09.2002.pdf-ebook.pdf",
+      "https://www.politika.rs/sr/clanak/6587/spasilac-iz-jevrejske-kolone-smrti",
+      "https://www.savezjos.org/files/jevrejski-pregled-04.pdf",
+      "https://www.alims.gov.rs/wp-content/uploads/2023/08/Dnevni-red-za-sajt_6.9.2023.pdf",
+      "https://www.planplus.rs/klinika-za-ocne-bolesti-kcv/598"
+    ],
+    "dokaz": "Politikin razgovor sa spasiocem Dušanom Jovanovićem iz 2007 potvrđuje spasavanje i suteren zgrade ORL i oftalmologije. Jevrejski pregled, april 2009, potvrđuje njegovo učešće. Fotografije zgrade i ploče podudaraju se; nemaju EXIF/GPS.",
+    "godina": "Natpis na fotografiji 35723.jpg i najava u Danasu od 25.9.2002 potvrđuju 2002; 2022 u dostavljenom opisu je greška. Najava ne potvrđuje tačan dan svečanog postavljanja, pa je godina 2002, bez pretpostavljenog dana.",
+    "materijali": [
+      {
+        "fajl": "opis.txt",
+        "sha256": "edee1c53dc089887d8bb455c140435d89e303a5d4b4ab82d5a270a16af435fe6",
+        "sacuvan": true
+      },
+      {
+        "fajl": "35723.jpg",
+        "sha256": "fbc8fb0d1312d6f2959a8a8d2e00c26a42a8d33f756a0d3b6f40461014dbb7b0",
+        "sacuvan": true
+      },
+      {
+        "fajl": "35724.jpg",
+        "sha256": "3fb1b011a1270817776ef61e8f6c40a891d15a0665ddc539ccf4b3eeafdaa165",
+        "sacuvan": false
+      },
+      {
+        "fajl": "35725.jpg",
+        "sha256": "1980207996a0946e13accb177169199773bb7fd9740a540689d5af488709a139",
+        "sacuvan": false
+      },
+      {
+        "fajl": "35726.jpg",
+        "sha256": "d9be8a7c72c82c7dc91a2b457665df0fa8c16c4aac9af923010aa721b7838075",
+        "sacuvan": false
+      },
+      {
+        "fajl": "35727.jpg",
+        "sha256": "8fc3fe338dd2b4e12ae107844d75bab97757c045aef0488cdeb8d98cb4612315",
+        "sacuvan": false
+      }
+    ],
+    "lokacija": "PlanPlus karton Klinike za ocne bolesti KCV, Hajduk Veljkova 1, daje 45.250536527654,19.8237265488596. Korisnik 9.11.2026. izricito prihvatio polozaj klinike kao dovoljno precizan za ovu plocu; oznaka priblizno uklonjena, koordinate nisu menjane. Nije dodatno izmeren polozaj same ploce na fasadi.",
+    "obuhvat": "Korisnik 9.11.2026. izričito uklonio zabranu obeležja Holokausta postavljenih posle 1990, zatim naložio dovršavanje unosa. Ne radi se o pojedinačnom izuzetku: standard i povezane napomene već su usklađeni.",
+    "granice": "Sačuvani samo opis i potrebna čitljiva fotografija ploče, prema korisnikovom zahtevu. Natpis prenet na srpskom i mađarskom. Autor i datum fotografije nisu poznati. Najava postavljanja u Danasu nije dokaz tačnog dana svečanosti. Ostali spomenici pomenuti u istorijskom uvodu (Bor, Radnoti, kosturnica) već postoje i nisu menjani bez novih konkretnih dokaza.",
+    "validacija": {
+      "podaci": "Dodat jedan zapis; svi prethodni zapisi nepromenjeni. Integritet i git diff --check prolaze, bez novih bliskih parova.",
+      "slike": "Jedna velika i mala fotografija; bez viska metapodataka, slikaOdnos potvrdjen alatima.",
+      "prikaz": "Prozor na oba jezika na telefonu 390 x 844: slika ucitana, bez JS izuzetaka i horizontalnog prelivanja; snimci pregledani.",
+      "testovi": "Pauzirani testovi i otisak izdanja nisu pokretani."
+    }
   }
 ]
