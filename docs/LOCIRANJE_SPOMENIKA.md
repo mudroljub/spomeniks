@@ -4,6 +4,54 @@ Otvoreni slučajevi, razrešeni identiteti koje ne treba ponovo unositi i veze k
 
 Raniji ciljani prolaz je završen, žetva CG zatvorena, a šira hrvatska provera obustavljena po odluci korisnika. Ove beleške same ne otvaraju novi zadatak; prioriteti izvora su u [IZVORI.md](IZVORI.md#prioriteti).
 
+## Prioriteti za preostale približne lokacije — 9.11.2026.
+
+Početni obuhvat bio je **953 približna zapisa vrste bista ili važnije** (737 bisti i 216 drugih važnijih objekata). Posle provere deset kandidata ispod ostaje **947 važnijih približnih zapisa** (737 bisti i 210 drugih); ukupno svih približnih markera je 1.241. Sedam preciziranja uključuje i „88 sadnica“, koje je ispod praga važnijih, pa se broj važnijih smanjio za šest. Redosled grupa je procena prema dokazima, bez procenata uspeha; nije spisak bez lokacije.
+
+### Redosled grupa
+
+| Prioritet | Koji slučajevi | Šansa i razlog | Šta proveriti pre promene |
+|---|---|---|---|
+| 1 | Ranije potvrđena mala celina, odložena samo zato što nije izmereno podnožje | **Najviša**: novo pravilo može razrešiti postojeći dokaz bez nove opšte pretrage | Da je tačka zaista u toj maloj celini i da se dokaz odnosi na konkretan objekat; veliki park se ne prihvata kao celina za svaki njegov spomenik |
+| 2 | Imenovan park, trg ili potvrđena ustanova, uz fotografiju konkretnog dela | **Visoka do srednja**: postoji prepoznatljiv cilj | Potvrditi položaj i obuhvat parka ili današnje ustanove; adresa u zapisu nije sama po sebi potvrda; razlikovati nekadašnju i današnju školu |
+| 3 | Zvanični karton sa parcelom ili kućnim brojem | **Srednja do visoka**, kada javna karta omogućava uparivanje | Da parcela/adresa važi za isti predmet i današnje stanje; široka parcela nije automatski precizna tačka |
+| 4 | Fotografija konkretnog objekta, bez korisne adrese | **Srednja** ako original ima GPS ili prepoznatljive susedne objekte | Original i metapodaci, natpis i okolne zgrade; GPS fotografa prihvatljiv za potvrđen mali park, ne automatski za veliku oblast |
+| 5 | Samo naselje, generička adresa ili ranije odbijeni kandidati | **Niska** bez novog traga | Tražiti konkretan stručni karton ili terensku fotografiju; ne ponavljati iste opšte pretrage |
+| 6 | Uklonjeni, zatvoreni, preseljeni ili nejasnog identiteta | **Najniža za rutinsko lociranje** | Najpre potvrditi šta putnik danas može naći; značajni uklonjeni spomenici sa poznatom tačkom ostaju po pravilima projekta |
+
+Prvenstvo zvaničnih i stručnih izvora važi u svim grupama. Unutar slične šanse prednost imaju važnija dela, zatim zajednički izvor za više predmeta. Veliki broj bisti nije razlog da se svih 737 traži pojedinačno. Za ranije proverene zapise nastavak mora imati novi dokaz ili jasno primenjivo novo pravilo. Šira hrvatska provera i opšta žetva CG ostaju obustavljene; kandidat iz tih oblasti ne otvara automatski novu granu posla.
+
+### Provera svih deset kandidata — završeno 9.11.2026.
+
+Lista je prvobitno imala devet predmeta; kao deseti obrađen je Spomenik 88 sadnica, uz najavu korisniku. **Sedam lokacija precizirano je, tri ostaju približne.** Nema novih spomenika ni fotografija. Tačke parka/ustanove prihvaćene su prema korisnikovom kriterijumu; nisu predstavljene kao izmerena podnožja. [Prethodne vrednosti, svi izvori, odbačeni kandidati i granice svakog ishoda](../data/provere/lociranje.json#deset-prioriteta-novi-kriterijum-2026-11-09).
+
+| Red | Predmet i ID | Rezultat | Osnova i granica |
+|---|---|---|---|
+| 1 | Gornji Milanovac — Kosturnica palih boraca takovskog kraja (`gornji-milanovac-spomenik-na-zajednickoj-grobnici`) | Precizirano, ista tačka | Muzej već potvrđuje malu zajedničku ograđenu celinu dveju kosturnica; ne mora se meriti pojedinačno podnožje. |
+| 2 | Beograd — Kurir (`beograd-dedinje-kurir`) | Precizirano, pomereno 224 m | Imenovani OSM objekat u Parku skulptura; stara tačka je bila na zgradi Muzeja 25. maj. |
+| 3 | Beograd — Nošenje ranjenika (`beograd-dedinje-nosenje-ranjenika`) | Precizirano, pomereno oko 146 m | Potvrđeno delo u konkretnom malom Parku skulptura. Navigaciona tačka na pešačkoj stazi u parku, izvan zgrada; nije podnožje niti tačka celog muzeja. |
+| 4 | Leskovac — Spomenik Kosti Stamenkoviću (`leskovac-spomenik-kosti-stamenkovicu`) | Precizirano, ista tačka | Potvrđen centralni mali park i južni deo posle preseljenja 2019; nije bista kod spomen-kuće. |
+| 5 | Skoplje — Spomenik Metodiji Andonovu Čentu (`skopje-gazi-baba-spomenik-na-metodija-andonov-cento`) | Ostaje približno | Registar potvrđuje park i ulicu, ali nije povezan sa konkretnim OSM parkom; novi park iz 2022. nije automatski park statue iz 2002. Potrebna fotografija koja razrešava koji je park. |
+| 6 | Skoplje — Spomenik Radu Jovčevskom Korčaginu (`skopje-spomenik-na-rade-jovcevski-korcagin`) | Precizirano, ista tačka | Potvrđeno dvorište gimnazije i današnja škola; primenjen kriterijum ustanove. Nije obeležje rodne kuće kod Narodne banke. |
+| 7 | Novi Bečej — Spomenik palim borcima NOB (`novi-becej-spomenik-palim-borcima-nob`) | Precizirano, ista tačka | Stručni katalog i aktuelna karta potvrđuju park ispod nasipa uz crvenoarmejski spomenik. Neimenovani OSM objekat nije samostalni dokaz identiteta. |
+| 8 | Banatski Despotovac — Spomen-park (`banatski-despotovac-spomen-park`) | Ostaje približno | Gradska vest potvrđuje trg, Commons zgradu kulturnog centra i memorijal. Nema GPS-a; dva bliska OSM parka nisu pouzdano uparena sa fotografijom. Sledeći dokaz je položaj zgrade kulturnog centra uz memorijal. |
+| 9 | Izbišta — Spomen-park (`izbista-spomen-park`) | Ostaje približno; odbijene pogrešne fotografije | Commons slike naslovljene kao NOB imaju natpis o 1903. i Ilindenskom ustanku. Nisu česma i dve biste iz našeg opisa; GPS nije prenet niti su slike objavljene. Potreban dokaz konkretnog NOB memorijala. |
+| 10 | Beograd — Spomenik 88 sadnica (`beograd-spomenik-88-sadnica`) | Precizirano, pomereno 25 m | Imenovani OSM objekat sa odgovarajućom Wikidata stavkom, uz ranije potvrđene fotografije i školu. |
+
+Ovaj paket je završen; tri nerešena predmeta ne ponavljati bez navedenog novog dokaza. Stariji zatvoreni plan od 23.10. niže ostaje istorija tadašnjeg prolaza, a ne red za automatsko ponavljanje.
+
+## Čestereg: potvrđen centralni park i autor — 9.11.2026.
+
+Spomenik `cestereg-spomenik-palim-borcima-i-zrtvama-fasistickog-terora` pomeren je oko 146 m na 45.5624440, 20.5310830, uz uklonjenu oznaku približnosti. Prostorni plan Žitišta potvrđuje kompleks iz 1982, autora Bojana Maraža i parcelu 622/1; dve Commons fotografije potvrđuju iste memorijalne ploče, bistu i crkvu u malom parku. GPS fotografa prihvaćen je za lociran mali park po korisnikovom pravilu, bez tvrdnje o podnožju. Dopunjeni su autor i adresa. Zaseban zapis biste Trive Latinovića ostaje; autor uređenja kompleksa nije automatski pripisan bisti. [Dokazi i stare vrednosti](../data/provere/lociranje.json#cestereg-park-lociranje-2026-11-09).
+
+## Menoš: oznaka premeštena iz centra sela u park — 9.11.2026.
+
+Spomen-park `srpska-crnja-spomen-park-u-ataru-naselja` pomeren je oko 1.461 m sa približne tačke u centru sela na imenovani OSM poligon parka Menoš (45.7379270, 20.6999125). Opštinska odluka iz 2025. potvrđuje javni park na parceli 1683/1, u ulici Milete Jakšića; opis NOB potiče iz ranije pročitanog stručnog kataloga. Predmet zapisa je ceo park, pa je oznaka približnosti uklonjena; ovo nije potvrda pojedinačnog podnožja niti svih istorijskih memorijalnih elemenata. [Izvori, prethodne vrednosti i granice](../data/provere/lociranje.json#menos-park-lociranje-2026-11-09). OSM obuhvat nije katastarska geometrija; u podatke nije preneto neslaganje površina u opštinskoj odluci.
+
+## Botoš: potvrđen mali park dovoljan za lociranje — 9.11.2026.
+
+Za statuu `botos-skulptura` nacrt uređajne osnove Botoša iz 2025. potvrđuje park na parceli 555/2 KO Botoš (PDF list 65). Fotografije Rada Vesovića od 4.9.2021. potvrđuju identitet objekta. Po novom korisnikovom pravilu lociran mali park dovoljan je bez merenja podnožja: uklonjena je oznaka `priblizno`, uz iste koordinate. Dopunjeni su adresa i potpis fotografije; godina i autor nisu menjani. [Dokazi, neslaganje prezimena autora i primena novog pravila](../data/provere/lociranje.json#botos-park-parcela-2026-11-09). Raniji zahtev za dodatnim merenjem podnožja više nije otvoreni posao lociranja Botoša.
+
 ## Beograd: provera svih preostalih 13 zapisa — 9.11.2026.
 
 Provereno je svih 13 zapisa preostalih posle probe ispod. Precizirana je bista Milentija Popovića u Bloku 23, a neodređeni „Kameni beleg“ identifikovan je i prenet na mapu kao spomen-obeležje za 192 poginula Beograđanina u Karađorđevom parku. Dodate su fotografije tog obeležja i borčanskog spomenika. Spojena su tri potvrđena duplikata: reljef Viktora Bubnja sa postojećim preciznim zapisom, spomen-groblje 1941–1944 sa Alejom streljanih rodoljuba i borčanski spomenik NOVJ/Crvenoj armiji sa postojećim markerom pogrešno nazvanim „Košutnjak“. Trajni ID-jevi i precizne tačke ciljeva su sačuvani, aktivne veze preusmerene. [Ishodi svih 13, prethodne vrednosti, izvori i granice](../data/provere/lociranje.json#beograd-preostalih-trinaest-2026-11-09).

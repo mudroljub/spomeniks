@@ -28,7 +28,7 @@ export interface Spomenik {
   id: string
   /** 7 decimala */
   koordinate: Koordinate
-  /** tačka je približna (npr. centar sela), a ne potvrđeno mesto spomenika */
+  /** tačka je približna (npr. centar sela); potvrđen mali park sa spomenikom dovoljan je bez ove oznake, veliki park zahteva uži položaj */
   priblizno?: boolean
   /** mesto, „Grad (deo grada)“, npr. "Beograd (Banjica)" */
   mesto: string

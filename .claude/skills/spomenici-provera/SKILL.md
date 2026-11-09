@@ -90,6 +90,8 @@ Za izraz:
 - filteri se iscrtavaju tek kad se otvore, pa ih prvo otvori ikonicom filtera u polju za pretragu;
 - tooltip na prelazak mišem ne postoji uz dodir; za njega treba Chrome bez emulacije dodira i `Input.dispatchMouseEvent`.
 
+Ako se CDP veza prekine pre učitavanja stranice, to nije dokaz kvara aplikacije. U prolazu 9.11.2026. direktni headless Chrome prijavio je i pad GPU procesa: vizuelna provera tada nije završena. Razlikuj taj neuspeh alata od uspešnog integriteta i provere podataka, jasno navedi granicu provere i ne ponavljaj isti neuspešan postupak bez novog razloga niti radi usputne izmene aplikacije. Ovaj nalaz nije trajna tvrdnja da pregledač ne radi u budućoj sesiji.
+
 Emulacija ne zamenjuje pravi telefon: za izmene izgleda reci korisniku da ih proveri na svom.
 
 ### Prikaz i prijave korisnika

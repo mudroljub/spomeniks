@@ -39,6 +39,12 @@ Kad OCR ne daje pouzdan natpis, čitaj sken na najmanje 150 dpi. Fotografija nat
 
 Posle rada ažuriraj odgovarajući red u [evidenciji izvora](../../../../docs/IZVORI.md): datum, tačno obrađen skup i vrstu posla, rezultat, preostali deo i uslov za ponavljanje. Razlikuj preuzet, delimično obrađen i završen prolaz; ako obim nije poznat, napiši to. Nemoj ponovo prepisivati ceo izvor radi nekoliko otvorenih identiteta.
 
+## Identitet fotografije pre preuzimanja tačke
+
+Pouka iz Izbišta (9.11.2026): naslov Commons fajla i njegova kategorija mogu pogrešno navoditi NOB. Fotografije `Споменик на НОБ во Избишта.jpg` i `Споменик на НОБ во Избишта 2.jpg` imaju čitljiv natpis o borbi 31.1.1903. i Ilindenskom ustanku; njihova bliska GPS tačka nije dokaz položaja našeg NOB memorijala. Pre preuzimanja slike ili koordinata pogledaj delo i natpis, uporedi događaj, oblik i okolinu; ako se ne slažu, sačuvaj odbačeni par i razlog da se isti pogrešan trag ne ponavlja.
+
+Kod metapodataka razlikuj stvarne GPSLatitude/GPSLongitude od samog `GPSVersionID`, koji ne daje položaj. Više slika istog autora sa istom tačkom nije više nezavisnih merenja. Za ovakvu grupu koristi zbirni Commons upit za koordinate, opis i metapodatke, pa preuzmi samo potrebne snimke. Geografsko poreklo tačke i obuhvat prostora ocenjuju se prema [pravilima lociranja](lociranje-i-stanje.md#prioritet-i-potvrda-tačke).
+
 ## Fotografija i datum dokaza
 
 Proveri natpis, oblik i okolinu konkretnog objekta. GPS i ime fajla služe kao kandidati; nesaglasnost sa opisom znači da tačka još nije potvrđena. Ne preuzimaj automatski opis slike kao činjenicu.

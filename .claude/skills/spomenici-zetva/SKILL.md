@@ -28,6 +28,8 @@ Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i ot
 - [Zbirne pretrage i fotografije](references/pretrage-i-fotografije.md): pri radu sa Partizanstvo API-jem, drugim izvorima, licencama i poreklom koordinata ili datumom snimka.
 - [Autori i posvete](references/autori-i-posvete.md): pri dopunjavanju autora i povezivanju sa Wikidatom.
 
+**Pri nastavku lociranja** prvo proveri [pouke iz deset lokacija](references/lociranje-i-stanje.md#pouke-iz-provere-deset-lokacija-9112026): primenu novog kriterijuma na stare ishode, razliku parka i celog kompleksa i izbor odredišta van zgrada. Identitet slike proverava se i po natpisu, ne samo po naslovu Commons fajla; [primer pogrešnog uparivanja](references/pretrage-i-fotografije.md#identitet-fotografije-pre-preuzimanja-tačke).
+
 ## Pravila prema serverima
 
 - **Zahtevi:**
@@ -83,6 +85,7 @@ Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i ot
   - Hrženjakov nalaz o rušenju ili uklanjanju ima prednost nad starijim opisom; promeniti ga može samo konkretan kasniji dokaz obnove ili premeštanja (šta, kada, gde). Izostanak iz Hrženjaka ne znači da spomenik stoji;
   - nedatirana fotografija, aktivan marker na karti i OSM objekat ne potvrđuju da spomenik danas postoji;
   - izvorni `izvor` zapisa se čuva; kasniji dokaz opstanka ne zamenjuje ga.
+- **Dovoljno precizna lokacija u parku** (korisnik, 9.11.2026): potvrđen spomenik u konkretnom lociranom malom parku nema oznaku `priblizno`; podnožje ne mora biti posebno izmereno. Veliki park poput Šumarica zahteva uži položaj. Merilo je da putnik lako pronađe objekat, bez proizvoljnog praga površine ili metara; [detalji i GPS fotografa](references/lociranje-i-stanje.md#prioritet-i-potvrda-tačke).
 - **Kada približna tačka ide na mapu** (korisnik, 2026-10-20): dovoljan je jedan od dva uslova:
   - vrsta je bista ili važnija (prag važnosti `bista` iz `utils/vaznost.js`), i bez fotografije;
   - postoji dokaz po kome putnik prepoznaje ili nalazi spomenik: fotografija ili konkretna `adresa` (kod škole, ispred doma, groblje, ulica); `opis` to nije.

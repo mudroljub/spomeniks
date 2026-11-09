@@ -2,7 +2,19 @@
 
 ## Prioritet i potvrda tačke
 
-Radi po verovatnoći uspeha, ne redom kroz radni spisak: najpre konkretni objekti, savremene adrese i precizne tačke. Centar sela, škole ili opštine nije koordinata spomenika. Kataloška oznaka „na mapi“ ne znači da je tačka precizna; proveri napomenu o njenom poreklu.
+**Mali park je dovoljno precizna lokacija** (korisnik, 9.11.2026): kada je potvrđeno da je konkretan spomenik u lociranom malom parku, položaj tog parka dovoljan je bez oznake `priblizno`; ne traži se tačno podnožje statue. Merilo je da putnik lako pronađe objekat. U velikim parkovima poput Šumarica mora se potvrditi uži položaj, jer samo lociranje parka nije dovoljno. Ne postavljaj proizvoljnu granicu površine ili broja metara. GPS fotografa može podržati lociranje malog parka kada fotografija i drugi izvori potvrđuju objekat i park; sam GPS bez te veze nije potvrda. Ovo pravilo ima prednost nad starijim beleškama koje za male parkove zahtevaju podnožje (uključujući raniju proveru Botoša).
+
+Radi po verovatnoći uspeha, ne redom kroz radni spisak: najpre konkretni objekti, savremene adrese i precizne tačke. Centar naselja ili opštine nije potvrda mesta spomenika. **Potvrđena ustanova** (korisnikov kriterijum primenjen 9.11.2026): kada je konkretan spomenik potvrđen u današnjoj školi, klinici ili muzeju, položaj te ustanove dovoljan je bez merenja podnožja ili zida; nije dovoljna samo istoimena ili nekadašnja ustanova. Navedi da li je predmet u dvorištu ili unutrašnjosti kada je to poznato. Kataloška oznaka „na mapi“ ne znači da je tačka precizna; proveri napomenu o njenom poreklu.
+
+### Pouke iz provere deset lokacija 9.11.2026.
+
+- **Novo pravilo menja red prioriteta:** prvo pregledaj predmete odložene samo zbog neizmerenog podnožja u već potvrđenoj maloj celini ili ustanovi. Ishod „bez nove potvrde“ po starom kriterijumu nije automatski nerešiv slučaj. Zadrži razliku između nove prihvaćene preciznosti i novog terenskog merenja.
+- **Imenovani park je konkretan prostor:** razlikuj mali Park skulptura od celog Muzeja Jugoslavije, a zajedničku ogradu dveju kosturnica od celog Brda mira. Isti naziv ličnosti, ulice ili parka ne potvrđuje da je to prostor iz izvora. Novi park iz 2022. ne locira sam po sebi statuu iz 2002.
+- **Odredište mora pomoći putniku:** centroid parka može pasti u zgradu (u ovom prolazu u Kuću cveća). Kad podnožje nije poznato, a mali park jeste dovoljan, izaberi potvrđen prilaz ili ucrtanu pešačku stazu unutar parka i van zgrada; zabeleži da je to odredište za park, ne podnožje statue. Ne izmišljaj ulaz ili prohodnost koju karta ne potvrđuje.
+- **Aktuelni OSM može rešiti stari promašaj:** ako lokalna kopija nije imala imenovan objekat, pre nove široke pretrage proveri svež ograničen isečak. U ovom prolazu imenovane tačke Kurira i „88 sadnica“ dale su upotrebljiv položaj; neimenovani objekti ostali su samo kandidati. Poštuj pravila prema serverima; sačuvaj ID/verziju i lokalnu kopiju.
+- **Blizina nije duplikat:** ista prihvaćena tačka male celine može pripadati kosturnicama ili kompleksu i bisti. Upozorenje integriteta o maloj udaljenosti zahteva proveru identiteta, ne automatsko spajanje. Zabeleži razlog zadržavanja zasebnih predmeta.
+
+Dokazi i granice ovih primera: `data/provere/lociranje.json#deset-prioriteta-novi-kriterijum-2026-11-09`. Ovo su pouke postupka, ne dozvola za automatsko uklanjanje oznake `priblizno` svim parkovima i školama.
 
 Pre upisa uporedi spomenike na mapi i spisak bez lokacije (`data/van-mape/bez_lokacije.json`), alatom `alati/pretraga.py` (blizina tačke, isto mesto, zajedničke osnove reči), umesto novog skripta za poređenje. Naziv naselja i opšta posveta nisu dovoljan par. Potvrdi vrstu, posvetu, natpis, izgled i mikrolokaciju; ista osoba može imati zasebnu bistu, ploču i grob u istom mestu. Park i pojedinačno delo u njemu takođe mogu biti različiti zapisi.
 

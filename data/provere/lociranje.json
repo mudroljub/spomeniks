@@ -28765,5 +28765,431 @@
       "integritet": "Završava sa kodom1 zbog ranije postojećeg spoja opisa i tekstualne posvete novi-sad-reljef-vere-pavlovic; zapis nije menjan. Prijavljuje98postojećih bliskih parova,kao pre ovog prolaza. Nema novih strukturnih/veznih grešaka.",
       "testovi": "Nisu pokretani, po važećoj korisnikovoj pauzi."
     }
+  },
+  "botos-park-parcela-2026-11-09": {
+    "datum": "2026-11-09",
+    "id": "botos-skulptura",
+    "obim": "Jedna statua; provera položaja i fotografije. Bez nove precizne tačke.",
+    "pre": {
+      "koordinate": {
+        "lat": 45.310755,
+        "lng": 20.639636
+      },
+      "priblizno": true,
+      "autor": "Stevan Dukić",
+      "godina": "1959",
+      "slikaPotpis": "podaci.com",
+      "adresa": null
+    },
+    "izmene": {
+      "adresa": "U parku u centru sela, parcela 555/2 KO Botoš",
+      "slikaPotpis": "Rade Vesović, podaci.com"
+    },
+    "ishod": "Potvrđen park i parcela 555/2, ne podnožje statue. Koordinate i priblizno=true ostaju.",
+    "izvori": [
+      {
+        "url": "https://zrenjanin.rs/wp-content/uploads/2025/10/Tekst-UO-BOTOS-NACRT-javni-uvid.pdf#page=65",
+        "nalaz": "Nacrt uređajne osnove 2025, PDF list 65: spomenik u parku na parceli 555/2 KO Botoš. Nije izvedeni geodetski snimak."
+      },
+      {
+        "url": "https://www.zrenjaninheritage.com/vajarstvo-i-spomenicko-naslede",
+        "nalaz": "Zavod evidentira spomenik žrtvama fašističkog terora i palim borcima sela Botoš, bez tačke."
+      },
+      {
+        "url": "https://podaci.com/srbija/lokacije/Spomenik-palim-borcima-Botos.html",
+        "nalaz": "Četiri fotografije Rada Vesovića od 4.9.2021. potvrđuju identitet i park. Fotografija cele statue odgovara našoj slici. GPS fotografa: 45.310672,20.639736; 45.310638,20.639744; 45.310638,20.639741. Ovo nisu potvrđene tačke podnožja."
+      }
+    ],
+    "dilema": "Indeksirani tekst Popović–Zuma navodi S. Đukić, a baza Stevan Dukić. Hronologija izlaganja potvrđuje vajara Stevana Dukića, ali njen izložbeni karton sam ne povezuje autora sa ovom statuom. Autor nije menjan. Godina 1959 ostaje prema stručnom katalogu (otkrivanje 4.7.1959); opšti katalog podaci.com pominje 1949 i nema prednost.",
+    "dodatniIzvori": [
+      "https://skulptura-hronologijaizlaganja.rs/h-content/uploads/2022/08/Spomenici-narodnooslobodilacke-borbe-i-revolucije-SR-Srbije1941-45.-Part2-hronologijaizlaganja.pdf",
+      "https://skulptura-hronologijaizlaganja.rs/https-skulptura-hronologijaizlaganja-rs-stevan-dukic-izlozba-vajarskih-radova-narodni-muzej-zrenjanin-30-septembar/"
+    ],
+    "ogranicenja": [
+      "Overpass Kumi nije odgovorio u roku; nema OSM nalaza.",
+      "botos.info: greška HTTPS sertifikata, sadržaj nije pročitan.",
+      "Nisu pribavljeni geometrija parcele ni ortofoto sa prepoznatim podnožjem."
+    ],
+    "sledece": "Geometrija parcele 555/2 i detaljan konzervatorski karton ili georeferenciran snimak podnožja; bez ponavljanja opštih pretraga.",
+    "lokalneKopije": "izvori/pretrage/botos-lociranje-2026-11-09/",
+    "primenaNovogPravila": {
+      "datum": "2026-11-09",
+      "odlukaKorisnika": "Potvrdjen mali park dovoljan je za preciznu lokaciju; podnozje nije potrebno meriti.",
+      "pre": {
+        "priblizno": true
+      },
+      "posle": {
+        "priblizno": null
+      },
+      "koordinate": {
+        "lat": 45.310755,
+        "lng": 20.639636
+      },
+      "ishod": "Oznaka pribliznosti uklonjena na osnovu potvrde konkretnog malog parka i korisnikovog prihvatanja preciznosti za Botos. Koordinate nisu menjane. Raniji zahtev za podnozjem vise ne vazi za ovu lokaciju."
+    }
+  },
+  "menos-park-lociranje-2026-11-09": {
+    "datum": "2026-11-09",
+    "id": "srpska-crnja-spomen-park-u-ataru-naselja",
+    "pre": {
+      "koordinate": {
+        "lat": 45.72625,
+        "lng": 20.69127
+      },
+      "priblizno": true,
+      "adresa": "Lokalitet Menoš, u ataru Srpske Crnje"
+    },
+    "posle": {
+      "koordinate": {
+        "lat": 45.737927,
+        "lng": 20.6999125
+      },
+      "adresa": "Park Menoš, ulica Milete Jakšića, parcela 1683/1 KO Srpska Crnja",
+      "priblizno": null
+    },
+    "pomakMetara": 1461,
+    "ishod": "Oznaka pomerena iz centra sela u imenovani park Menoš; uklonjena priblizno. Predmet zapisa je ceo spomen-park, ne pojedinačna statua. Potvrđeno ime, ulica i park, bez tvrdnje o podnožju ili geometriji katastarske parcele.",
+    "izvori": [
+      {
+        "url": "https://www.novacrnja.rs/media/files/public_docs/%D0%A1%D0%BB%D1%83%D0%B6%D0%B1%D0%B5%D0%BD%D0%B8%20%D0%BB%D0%B8%D1%81%D1%82%20%D0%B1%D1%80%D0%BE%D1%98%2021/25/SL_2125.pdf#page=24",
+        "nalaz": "Službeni list 21/2025, odluka 75 od 2.9.2025, PDF listovi 24–25: javni park Menoš, parcela 1683/1 KO Srpska Crnja, ulica Milete Jakšića. Član 1 daje 41070 m², obrazloženje 41063 m²; neslaganje nije prepisano u podatke."
+      },
+      {
+        "url": "https://www.novacrnja.rs/sr-latn/vesti/vra%C4%87en-park-meno%C5%A1-dr%C5%BEavi-srbiji-2025-7-15",
+        "nalaz": "Opštinska objava 15.7.2025. potvrđuje park i sadrži fotografije. Fotografija M1 vizuelno pregledana: drvoredi i travnata površina uz put. Kopija sačuvana među izvorima, nije objavljena kao slika spomenika."
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/1115221908",
+        "nalaz": "OSM way 1115221908, verzija 2, name=Менош, leisure=park. Preuzet lokalni OSM isečak preko API-ja. Izračunat centroid poligona 45.7379270,20.6999125; ulica Milete Jakšića uz zapadnu ivicu odgovara službenoj adresi. OSM poligon nije katastarska geometrija; njegov obuhvat se ne izjednačava sa površinom parcele iz odluke."
+      },
+      {
+        "url": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=136",
+        "nalaz": "Ranije pročitana i evidentirana strana 270 povezuje spomen-park sa Menošem kao zbornim mestom partizanskih grupa. Ne meša se sa zasebnim spomen-grobljem u centru sela."
+      }
+    ],
+    "granice": "Lociran je ceo park. Noviji opštinski izvori potvrđuju park kao javnu zelenu površinu, ne svaki istorijski memorijalni element. Nije potvrđena zasebna spomen-ploča, pojedinačno podnožje ni tačan ulaz; opis NOB ostaje iz stručnog kataloga. Izvorni izvor zapisa sačuvan.",
+    "lokalneKopije": "izvori/pretrage/menos-lociranje-2026-11-09/"
+  },
+  "cestereg-park-lociranje-2026-11-09": {
+    "datum": "2026-11-09",
+    "id": "cestereg-spomenik-palim-borcima-i-zrtvama-fasistickog-terora",
+    "pre": {
+      "koordinate": {
+        "lat": 45.5626,
+        "lng": 20.53295
+      },
+      "priblizno": true,
+      "autor": null,
+      "adresa": null,
+      "godina": "1982"
+    },
+    "posle": {
+      "koordinate": {
+        "lat": 45.562444,
+        "lng": 20.531083
+      },
+      "autor": "Bojan Maraž",
+      "adresa": "U parku u centru sela, pored crkve, parcela 622/1 KO Čestereg",
+      "priblizno": null
+    },
+    "pomakMetara": 146,
+    "ishod": "Potvrđen mali park i konkretno delo, oznaka pomerena na GPS fotografija. Uklonjeno priblizno prema korisnikovom pravilu od 9.11.2026, bez tvrdnje o geodetski izmerenom podnožju. Dopunjeni autor i adresa; godina ostaje 1982.",
+    "izvori": [
+      {
+        "url": "https://mail.zitiste.org/download/dokumenta/planovi%20i%20strategije/2022/PPO%20ZITISTE%20-%20USVOJEN%20PLAN.pdf#page=177",
+        "nalaz": "Usvojeni Prostorni plan opštine Žitište 2021–2035, PDF list 177 (štampana strana 145): kompleks sa imenima žrtava Drugog svetskog rata i bistom Trive Latinovića u centralnom parku, parcela 622/1 KO Čestereg. Autor Bojan Maraž, podignut 1982."
+      },
+      {
+        "url": "https://www.slovenska-biografija.si/oseba/sbi925060/",
+        "nalaz": "Stručna biografija Bojana Maraža navodi uređenje i oblikovanje spomen-parka u Česteregu 1981/82. Potvrđuje puno ime i autorstvo; 1981/82 je period projektovanja, ne zamena za godinu podizanja 1982."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:World_War_II_memorial_%C4%8Cestereg.jpg",
+        "nalaz": "Fotografija Vanjagenija od 11.4.2026. odgovara postojećoj slici i pokazuje memorijalne ploče neposredno uz crkvu, u malom parku. Šablon Location: 45.562444,20.531083."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:World_War_II_memorial_%C4%8Cestereg_6.jpg",
+        "nalaz": "Vizuelno pregledan širi kadar: iste ploče, bista Trive Latinovića i ista crkva u jednom malom prostoru; isti GPS i datum. Potvrda identiteta kompleksa, ne nezavisno geodetsko merenje."
+      }
+    ],
+    "bliskiZapisi": "Bista Trive Latinovića već ima istu GPS tačku; zaseban zapis konkretne biste ostaje, jer kompleks i njegov skulptorski deo nisu automatski duplikati. Bista Mladena Stojanovića je zasebna, oko 104 m dalje, i nije menjana. Autorstvo uređenja kompleksa nije automatski preneto na bistu.",
+    "granice": "Parcela nije pribavljena kao geometrija; broj parcele potiče iz plana. GPS je fotografova pozicija, prihvaćena za potvrđen mali park. OSM isečak nema imenovan park ili memorijal i nije dokaz tačke. Nove fotografije nisu objavljene.",
+    "lokalneKopije": "izvori/pretrage/cestereg-lociranje-2026-11-09/"
+  },
+  "deset-prioriteta-novi-kriterijum-2026-11-09": {
+    "datum": "2026-11-09",
+    "obim": "Devet kandidata sa liste i deseti, Spomenik 88 sadnica, dodat uz najavu korisniku. Sedam preciziranih, tri ostala približna. Nema novih zapisa ni slika.",
+    "ishodi": [
+      {
+        "id": "gornji-milanovac-spomenik-na-zajednickoj-grobnici",
+        "ishod": "precizirano-po-kriterijumu-male-celine",
+        "dokaz": "Muzej potvrđuje dve susedne kosturnice u zajedničkoj ogradi. Prethodna provera 27.10. već je suzila tačku na ovu celinu. Po novom korisnikovom pravilu nije potrebno nezavisno izmeriti koje je podnožje takovske kosturnice. Ne prihvata se ceo veliki park Brdo mira, već ova konkretna ograđena celina.",
+        "izvori": [
+          "https://www.muzejgm.org/brdo-mira/",
+          "data/provere/lociranje.json#lociranje-proba-pet-2026-10-27"
+        ],
+        "pre": {
+          "koordinate": {
+            "lat": 44.0295705,
+            "lng": 20.4536401
+          },
+          "priblizno": true
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 44.0295705,
+            "lng": 20.4536401
+          },
+          "priblizno": null
+        },
+        "pomakMetara": 0
+      },
+      {
+        "id": "beograd-dedinje-kurir",
+        "ishod": "precizirano-na-imenovanu-osm-tacku",
+        "dokaz": "Aktuelni OSM isečak sadrži imenovanu statuu Kurir, node 11214220502, u malom Parku skulptura. Muzejski katalog i Commons identifikuju Bodnarovljevo delo. Stara tačka je bila na zgradi Muzeja 25. maj, izvan imenovanog Parka skulptura; pomerena je na imenovani objekat. Nije korišćen Ranjeni kurir, koji je drugi objekat.",
+        "izvori": [
+          "https://www.openstreetmap.org/node/11214220502",
+          "https://www.openstreetmap.org/way/985174805",
+          "https://muzej-jugoslavije.org/wp-content/uploads/2025/09/2024-Nasledje-Jugoslavije-compressed-21mb.pdf#page=147",
+          "https://commons.wikimedia.org/wiki/File:Kurir-Stevan_Bodnarov.jpg"
+        ],
+        "pre": {
+          "koordinate": {
+            "lat": 44.788067,
+            "lng": 20.4520999
+          },
+          "priblizno": true
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 44.7861477,
+            "lng": 20.4512352
+          },
+          "priblizno": null
+        },
+        "pomakMetara": 224
+      },
+      {
+        "id": "beograd-dedinje-nosenje-ranjenika",
+        "ishod": "precizirano-na-mali-park",
+        "dokaz": "Muzejski katalog i stručni ZKVH članak potvrđuju ovo delo u Parku skulptura. Imenovani OSM park way 985174805 ima obuhvat oko 210 x 140 m, odvojen od šireg muzejskog kompleksa. Tačka je na ucrtanoj pešačkoj stazi way 146656839 unutar tog malog parka, izvan obrisa zgrada, kao odredište za park; nije podnožje statue. Centroid poligona pada u Kuću cveća i zato nije korišćen za konačnu navigacionu tačku. Primena korisnikovog kriterijuma za mali potvrđen park.",
+        "izvori": [
+          "https://www.openstreetmap.org/way/985174805",
+          "https://muzej-jugoslavije.org/wp-content/uploads/2025/09/2024-Nasledje-Jugoslavije-compressed-21mb.pdf#page=146",
+          "https://zkvh.org.rs/izdavastvo-post/aktivnosti-zavoda/tragovi-hrvatskih-kipara-u-srbiji-antun-augustincic-na-zajednickom-kalendaru-za-rujan-2025",
+          "https://muzej-jugoslavije.org/muzej-jugoslavije-otvara-park-skulptura-za-sve-sugradjane/",
+          "https://www.openstreetmap.org/way/146656839"
+        ],
+        "pre": {
+          "koordinate": {
+            "lat": 44.788067,
+            "lng": 20.4520999
+          },
+          "priblizno": true
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 44.7867515,
+            "lng": 20.4520295
+          },
+          "priblizno": null
+        },
+        "pomakMetara": 146
+      },
+      {
+        "id": "leskovac-spomenik-kosti-stamenkovicu",
+        "ishod": "precizirano-na-mali-park",
+        "dokaz": "Gradski turistički program potvrđuje statuu iz 1988. u centralnom parku. Vest iz decembra 2019. potvrđuje premeštanje u južni deo istog parka, kod Garnizona; to se razlikuje od biste kod spomen-kuće vraćene 2025. OSM park way 879777352 obuhvata oko 120 x 185 m. Postojeća tačka je u južnom delu tog parka i nije menjana; uklonjeno priblizno po novom pravilu. Ne prihvata se neimenovana OSM statua kao identifikovana tačka ovog dela.",
+        "izvori": [
+          "https://novi.gradleskovac.org/wp-content/uploads/2022/12/FINALProgram_razvoja_turizma_grada_Leskovca_2020-2025.pdf",
+          "https://naslovi.net/2019-12-24/juzne-vesti/izmesteni-spomenici-tomi-zdravkovicu-i-kosti-stamenkovicu-u-leskovcu/24661145",
+          "https://www.openstreetmap.org/way/879777352"
+        ],
+        "pre": {
+          "koordinate": {
+            "lat": 42.9947038,
+            "lng": 21.9462113
+          },
+          "priblizno": true
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 42.9947038,
+            "lng": 21.9462113
+          },
+          "priblizno": null
+        },
+        "pomakMetara": 0
+      },
+      {
+        "id": "skopje-gazi-baba-spomenik-na-metodija-andonov-cento",
+        "ishod": "ostaje-priblizno",
+        "dokaz": "Zvanični registar, PDF list 2, potvrđuje spomenik iz 2002. u parku na ulici Južnomoravskih brigada. OSM daje imenovan park Metodija Andonov-Čento, way 228746642, južno od sadašnje tačke, ali uz drugu imenovanu ulicu. Vesti o novom parku iz 2022. u Južnomoravskih brigada nisu potvrda da je to park spomenika iz 2002. Bez fotografskog ili službenog povezivanja ne pomerati oznaku na istoimeni park.",
+        "kandidat": {
+          "lat": 42.0061207,
+          "lng": 21.5024731,
+          "izvor": "https://www.openstreetmap.org/way/228746642",
+          "status": "nepotvrđen isti park"
+        },
+        "izvori": [
+          "https://gazibaba.gov.mk/wp-content/uploads/2025/04/registar-spomenici2.pdf#page=2",
+          "https://www.openstreetmap.org/way/228746642",
+          "https://skopjeinfo.mk/chento-dobiva-nov-park-na-povrshina-od-5000-metri-kvadratni"
+        ],
+        "pre": {
+          "koordinate": {
+            "lat": 42.0080677,
+            "lng": 21.5022713
+          },
+          "priblizno": true
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 42.0080677,
+            "lng": 21.5022713
+          },
+          "priblizno": true
+        },
+        "pomakMetara": 0
+      },
+      {
+        "id": "skopje-spomenik-na-rade-jovcevski-korcagin",
+        "ishod": "precizirano-na-potvrdjenu-ustanovu",
+        "dokaz": "Fotografija prikazuje bronzanu statuu, a institucionalna biografija izričito smešta spomenik u dvorište istoimene gimnazije i razlikuje ga od spomenika kod rodne kuće u kompleksu Narodne banke. Aktuelni OSM way 175451790 potvrđuje gimnaziju i adresu Treta makedonska brigada 9; postojeća tačka je u školskom krugu. Primena korisnikovog već prihvaćenog kriterijuma za potvrđene škole, bez merenja podnožja. korcagin.mk je predškolska ustanova, ne sajt gimnazije; njena biografija je sekundarni institucionalni dokaz, dok je sajt gimnazije rjk.edu.mk.",
+        "izvori": [
+          "https://korcagin.mk/za-patronot/",
+          "https://rjk.edu.mk/",
+          "https://www.openstreetmap.org/way/175451790",
+          "https://commons.wikimedia.org/wiki/File:Раде_Јовчевски_Корчагин_(Споменик).jpg"
+        ],
+        "pre": {
+          "koordinate": {
+            "lat": 41.9905758,
+            "lng": 21.4380952
+          },
+          "priblizno": true
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 41.9905758,
+            "lng": 21.4380952
+          },
+          "priblizno": null
+        },
+        "pomakMetara": 0
+      },
+      {
+        "id": "novi-becej-spomenik-palim-borcima-nob",
+        "ishod": "precizirano-na-mali-park",
+        "dokaz": "Ranije pročitan Duranci 1988. potvrđuje Cvet jedinstva, autora i park ispod nasipa uz spomenik crvenoarmejcima. Aktuelni OSM way 1136469721 potvrđuje usku parkovsku celinu uz Tisu; imenovani crvenoarmejski spomenik je node 12872859292. Postojeća tačka ostaje uz tu celinu. Neimenovani node 12872859293 na oko 4 m od naše tačke jeste dodatni kandidat, ali nije samostalna potvrda identiteta. Po pravilu potvrđenog malog prostora ne traži se pojedinačno podnožje cveta.",
+        "izvori": [
+          "data/provere/lociranje.json#lociranje-drugih-pet-2026-10-27",
+          "https://skulptura-hronologijaizlaganja.rs/h-content/uploads/1988/05/Bela-Duranci-Spomenici-revolucije-u-Vojvodini-1988-hronologijaizlaganja.pdf",
+          "https://www.openstreetmap.org/way/1136469721",
+          "https://www.openstreetmap.org/node/12872859292",
+          "https://commons.wikimedia.org/wiki/File:Wiki.Vojvodina_X_Novi_Bečej_242.jpg"
+        ],
+        "pre": {
+          "koordinate": {
+            "lat": 45.5945103,
+            "lng": 20.1315091
+          },
+          "priblizno": true
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 45.5945103,
+            "lng": 20.1315091
+          },
+          "priblizno": null
+        },
+        "pomakMetara": 0
+      },
+      {
+        "id": "banatski-despotovac-spomen-park",
+        "ishod": "ostaje-priblizno",
+        "dokaz": "Gradska objava od 2.8.2025. potvrđuje komemoraciju na Trgu Dušana Ćubića. Pregledana Commons fotografija prikazuje ploče i bistu neposredno uz zgradu kulturnog centra. Commons zbir od šest fotografija nema geografske koordinate ni EXIF GPS tačku (samo GPSVersionID). OSM sadrži Park Prisajedinjenja oko sadašnje tačke i drugi mali park sa neimenovanim memorijalom severno od crkve; nije dokazano koji prostor odgovara zgradi i našoj fotografiji. Ne poistovećivati ih samo zato što su blizu trga.",
+        "kandidat": {
+          "lat": 45.3649099,
+          "lng": 20.6617033,
+          "izvor": "https://www.openstreetmap.org/node/11073083563",
+          "status": "neimenovan memorijal bez vizuelnog para"
+        },
+        "izvori": [
+          "https://starisajt.zrenjanin.rs/sr-lat/vesti/2025/08/u-banatskom-despotovcu-obelezeno-je-danas-80-godina-dolaska-kolonista-u-banat",
+          "https://commons.wikimedia.org/wiki/File:Banatski_Despotovac_spomenin_Narodnom_heroju_Dušanu_Ćubiću_okružen_zelenilom.jpg",
+          "https://www.openstreetmap.org/node/11073083563",
+          "https://www.openstreetmap.org/way/688896506"
+        ],
+        "pre": {
+          "koordinate": {
+            "lat": 45.36445,
+            "lng": 20.66286
+          },
+          "priblizno": true
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 45.36445,
+            "lng": 20.66286
+          },
+          "priblizno": true
+        },
+        "pomakMetara": 0
+      },
+      {
+        "id": "izbista-spomen-park",
+        "ishod": "ostaje-priblizno-odbijeno-pogresno-uparivanje",
+        "dokaz": "Nađene dve Commons fotografije Kirila Simeonovskog od 8.9.2024. sa GPS 41.131405,21.004549, naslovljene kao NOB. Obe su vizuelno pregledane: natpis govori o borbi od 31.1.1903. i Ilindenskom ustanku, ne o NOB-u. Nisu fotografije našeg opisanog memorijala sa česmom i dvema bistama. Članak o selu takođe razlikuje Ilindensko obeležje od NOB ploče. GPS nije prenet, slike nisu objavljene; ostaje potreban dokaz konkretnog NOB objekta. Rezultati za Izbište kod Vršca su drugo naselje i odbijeni.",
+        "izvori": [
+          "https://commons.wikimedia.org/wiki/File:Споменик_на_НОБ_во_Избишта.jpg",
+          "https://commons.wikimedia.org/wiki/File:Споменик_на_НОБ_во_Избишта_2.jpg",
+          "https://makedonskosonce.com/24210/",
+          "https://www.xiwl.com/w/index.php/Izbishta_-_Memorial_Park"
+        ],
+        "pre": {
+          "koordinate": {
+            "lat": 41.131306,
+            "lng": 21.004528
+          },
+          "priblizno": true
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 41.131306,
+            "lng": 21.004528
+          },
+          "priblizno": true
+        },
+        "pomakMetara": 0
+      },
+      {
+        "id": "beograd-spomenik-88-sadnica",
+        "ishod": "precizirano-na-imenovanu-osm-tacku",
+        "dokaz": "Aktuelni OSM node 12926143904 nosi tačno ime Spomenik 88 sadnica, odgovarajuću Wikidata stavku i članak. Dve ranije pregledane Commons fotografije potvrđuju isti objekat uz OŠ 20. oktobar i šetalište Lazaro Kardenasa. Tačka je pomerena oko 25 m sa GPS fotografa na imenovan objekat. Nije korišćena tačka cele škole ili Savskog keja.",
+        "izvori": [
+          "https://www.openstreetmap.org/node/12926143904",
+          "https://commons.wikimedia.org/wiki/File:Spomenik_88_sadnica,_Blok_70,_Novi_Beograd,_novembar_2018.jpg",
+          "https://commons.wikimedia.org/wiki/File:Spomenik_88_sadnica,_Blok_70,_Novi_Beograd,_januar_2015.jpg"
+        ],
+        "pre": {
+          "koordinate": {
+            "lat": 44.800567,
+            "lng": 20.396097
+          },
+          "priblizno": true
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 44.8006598,
+            "lng": 20.3958088
+          },
+          "priblizno": null
+        },
+        "pomakMetara": 25
+      }
+    ],
+    "lokalneKopije": "izvori/pretrage/deset-lokacija-2026-11-09/"
   }
 }

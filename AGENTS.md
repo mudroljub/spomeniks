@@ -2,6 +2,10 @@
 
 Svaku odluku o podacima i aplikaciji meri iskustvom putnika (korisnik, 2026-10-20): mapa ne sme da ga vodi ka nečemu što ne može da nađe ili što mu ništa ne znači. Poznat i značajan spomenik sa tačnom lokacijom ostaje na mapi i kad je uklonjen, sa stanjem (npr. spomenik prvom partizanskom tenku u Kraljevu); sitni i neodređeni zapisi bez vrednosti za putnika čuvaju se u `data/van-mape/arhiva.json`.
 
+**Dovoljna preciznost lokacije** (korisnik, 9.11.2026): ako je potvrđeno da se spomenik nalazi u konkretnom lociranom malom parku, to je dovoljno za preciznu lokaciju bez `priblizno`; nije potrebno potvrditi pojedinačno podnožje. Merilo je da putnik u tom prostoru lako pronađe spomenik. Za velike parkove poput Šumarica sam položaj parka nije dovoljan: potrebna je uža lokacija. Ne uvodi proizvoljan prag površine ili udaljenosti.
+
+**Evidencija rada** (korisnik, 9.11.2026): ne praviti novi `TODO.md` za pakete provera. Prioritete i ishode ažurirati u postojećem tematskom dokumentu (za lokacije `docs/LOCIRANJE_SPOMENIKA.md`), a pojedinačne dokaze u postojećoj evidenciji provera; završeni paket ne ostavljati kao budući posao.
+
 ## Raspored podataka
 
 U `data/` su samo fajlovi koje aplikacija učitava i njihovi tipovi. Sve ostalo ide u podfoldere: podaci van mape (arhiva i bez lokacije) u `data/van-mape/`, izvori u `data/izvori/`, knjige u `data/knjige/`, a provere i beleške u `data/provere/`.
