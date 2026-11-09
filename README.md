@@ -34,4 +34,3 @@ PRED OBJAVLJIVANJE
 
 MOBILNA APLIKACIJA
 - napraviti android aplikaciju ([plan](docs/ANDROID_APLIKACIJA.md))
-- pre objave uskladiti izbor i keširanje pločica: planirana zamena OSM-a za bliske zumove nije sprovedena, a servisni radnik vraća keširane OSM pločice bez roka ([nalaz](docs/ANDROID_APLIKACIJA.md))

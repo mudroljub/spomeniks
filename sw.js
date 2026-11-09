@@ -3,11 +3,12 @@
 const VERZIJA = 'd86bc790101323922219'
 const APLIKACIJA = `spomenici-aplikacija-${VERZIJA}`
 const MAPA = 'spomenici-mapa'
+const MAPA_IZBLIZA = 'spomenici-mapa-izbliza'
 const SLIKE = 'spomenici-slike'
 const KLIJENTI = 'spomenici-klijenti'
 const rokSlike = 24 * 60 * 60 * 1000
 
-const najviseUnosa = {[MAPA]: 4000, [SLIKE]: 1500}
+const najviseUnosa = {[MAPA]: 4000, [MAPA_IZBLIZA]: 700, [SLIKE]: 1500}
 
 // Komplet aplikacije se cuva pri instalaciji; fotografije i plocice mape tokom obilaska.
 const fajlovi = [
@@ -94,7 +95,7 @@ const ocistiIzdanja = async (sva = false) => {
 }
 
 self.addEventListener('activate', e => e.waitUntil((async () => {
-  await Promise.all([skrati(MAPA), skrati(SLIKE)])
+  await Promise.all([skrati(MAPA), skrati(MAPA_IZBLIZA), skrati(SLIKE)])
   await ocistiIzdanja(true)
   const veze = await caches.open(KLIJENTI)
   for (const klijent of await nasiKlijenti())
@@ -119,7 +120,8 @@ self.addEventListener('message', e => {
   })().catch(() => e.ports?.[0]?.postMessage({uspeh: false})))
 })
 
-const jeMapa = url => /tile\.openstreetmap\.org|server\.arcgisonline\.com/.test(url.hostname)
+const jeMapa = url => url.hostname === 'server.arcgisonline.com'
+const jeMapaIzbliza = url => url.hostname === 'tiles.stadiamaps.com'
 const jeSlika = url => url.origin === location.origin && /\/slike\/(spomenici|male)\//.test(url.pathname)
 
 // brise najstarije unose kad ih ima previse
@@ -166,7 +168,7 @@ const prvoKes = async (e, ime) => {
   const sacuvano = await kes.match(zahtev.url)
   const sveza = sacuvano && sacuvano.headers.get('X-Spomenici-Izdanje') === VERZIJA
     && Date.now() - Number(sacuvano.headers.get('X-Spomenici-Provereno')) < rokSlike
-  if (sacuvano && (ime === MAPA || sveza)) return sacuvano
+  if (sacuvano && (ime !== SLIKE || sveza)) return sacuvano
   // cors umesto no-cors, da bi odgovor mogao da se sacuva bez preteranog zauzimanja prostora
   const mreza = fetch(zahtev.url, {
     mode: 'cors',
@@ -195,6 +197,7 @@ self.addEventListener('fetch', e => {
   if (e.request.method !== 'GET') return
   const url = new URL(e.request.url)
   if (jeMapa(url)) e.respondWith(prvoKes(e, MAPA))
+  else if (jeMapaIzbliza(url)) e.respondWith(prvoKes(e, MAPA_IZBLIZA))
   else if (jeSlika(url)) e.respondWith(prvoKes(e, SLIKE))
   else if (url.origin === location.origin) e.respondWith(izIzdanja(e))
 })
