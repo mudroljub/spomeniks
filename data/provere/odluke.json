@@ -68791,5 +68791,56 @@
       }
     ],
     "granice": "Fotograf i datum fotografije nisu navedeni. Natpis je prepisan sa fotografije, sa prelomima redova kao na ploči; deo slova je slabo čitljiv, ali se slaže sa tekstom u opisu."
+  },
+  {
+    "odluka": "novi-sad-reljef-vere-pavlovic-2026-11-09",
+    "datum": "2026-11-09",
+    "ishod": "novi-zapis",
+    "noviZapis": {
+      "id": "novi-sad-reljef-vere-pavlovic",
+      "koordinate": {
+        "lat": 45.2453561,
+        "lng": 19.8363628
+      },
+      "mesto": "Novi Sad",
+      "adresa": "Gogoljeva 1, na zgradi Mesne zajednice „Vera Pavlović“; ploča je 1976. prvobitno postavljena u Ulici Vere Pavlović.",
+      "izvor": "https://sr.wikipedia.org/wiki/Вера_Павловић",
+      "wiki": "https://sr.wikipedia.org/wiki/Вера_Павловић",
+      "slika": "slike/spomenici/novi-sad-reljef-vere-pavlovic.webp",
+      "slikaPotpis": "Korisnički prilog, autor nije naveden",
+      "naziv": "Reljef Vere Pavlović",
+      "nazivEn": "Relief of Vera Pavlović",
+      "opis": {
+        "sh": "Posvećeno Veri Pavlović, studentkinji medicine i sekretaru Reonskog komiteta SKOJ-a u Novom Sadu 1941, koja je posle zatvora u Mađarskoj ubijena u logoru Ravensbrik 1945. Spomen-ploča sa portretnim reljefom postavljena je 1976. u ulici koja nosi njeno ime, a danas je na zgradi mesne zajednice nazvane po njoj.",
+        "en": "Dedicated to Vera Pavlović, a medical student and secretary of the district committee of the Communist Youth League in Novi Sad in 1941, who was killed in the Ravensbrück camp in 1945 after imprisonment in Hungary. The plaque with her portrait relief was installed in 1976 in the street named after her and is now on the building of the local community office that bears her name."
+      },
+      "godina": "1976",
+      "autor": "Pavle Radovanović",
+      "posveta": "Vera Pavlović",
+      "natpis": "VERA PAVLOVIĆ\n1921–1945\nSTUDENT, REVOLUCIONAR, ČLAN KPJ,\n1941. GODINE SEKRETAR REONSKOG KOMITETA SKOJ-a\nHEROJSKI UMRLA U LOGORU RAVENSBRIK",
+      "vrsta": "reljef",
+      "drzava": "Serbia"
+    },
+    "lokalniIzvor": "izvori/vera-pavlovic-novi-sad-2026-11-09/",
+    "izvori": [
+      "https://sr.wikipedia.org/wiki/Вера_Павловић",
+      "https://www.openstreetmap.org/way/294851466"
+    ],
+    "dokaz": "Dostavljeni opis navodi ploču sa reljefnim likom, autora Pavla Radovanovića, 1976. i današnje mesto na zgradi MZ „Vera Pavlović“ u Gogoljevoj 1, uz tekst natpisa. Fotografija potvrđuje portretni reljef i natpis latinicom. Sr Vikipedija potvrđuje ličnost i da ulica i mesna zajednica nose njeno ime.",
+    "lokacija": "Nominatim daje zgradu Gogoljeva 1 (OSM put 294851466, MZ Vera Pavlović, Grbavica); tačka je tačka zgrade, ne zida sa pločom.",
+    "vrsta": "Portretni reljef na ploči znači vrstu reljef, prema standardu, kao kod ostalih novosadskih reljefa istog dana.",
+    "posvetaNapomena": "Vera Pavlović ima članak na sr Vikipediji, ali bez Wikidata stavke, pa je posveta upisana kao tekst.",
+    "dilema": "Opis kaže da je odrasla u Novom Sadu i da je imala 24 godine; Vikipedija daje rođenje u Bijeljini 26.2.1921. i smrt u Ravensbriku 29.4.1945. Mesto rođenja nije upisano u opis.",
+    "materijali": [
+      {
+        "fajl": "opis.txt",
+        "sha256": "40de39b7eb7d98ddcb61f4174a2a78dc09181a11e3a62101c489bceecf5d30c0"
+      },
+      {
+        "fajl": "134378262_1484429871947975_2323098717456598080_n.jpg",
+        "sha256": "a09d2da77e83add7632aa0f7804563f614628a80ae7b1518f43092eb9c8295c8"
+      }
+    ],
+    "granice": "Fotograf i datum fotografije nisu navedeni; fotografija je mutna i desni kraj ploče je odsečen, pa je natpis prenet iz dostavljenog teksta i proveren koliko je čitljiv. Prelomi redova natpisa nisu doslovni."
   }
 ]
