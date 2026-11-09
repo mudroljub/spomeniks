@@ -37,6 +37,7 @@ Spomenik se retko opisuje sam; o njemu piše ono čemu je posvećen. Redom:
 ## Od teksta do tačke
 
 - Opis mesta se pretvara u objekat: škola, dom, crkva, groblje, raskršće, zaselak — jedan zbirni Overpass upit za sve stavke, zatim Nominatim za adresu.
+- Ulica u prisvojnom obliku je ista ulica kao zvanični naziv u genitivu (korisnik, 2026-11-09): „Visarionova 3“ je Episkopa Visariona 3, „Pupinova“ Bulevar Mihajla Pupina. Kad Nominatim ne nađe prisvojni oblik, traži osnovu imena (sa titulom ili imenom i prezimenom) i ne beleži to kao dilemu.
 - Fotografija: GPS iz metapodataka (skil žetve) i poređenje sa Street View-om/Google fotografijama mesta.
 - Tačka je tačna kad opis jednoznačno pokazuje na jedan objekat; inače se zapis samo pomera bliže i `priblizno` ostaje.
 - Svaki trag, i neuspeh sa razlogom, upiši u `data/provere/odluke.json`, da se sledeći put ne ponavlja.

@@ -68842,5 +68842,88 @@
       }
     ],
     "granice": "Fotograf i datum fotografije nisu navedeni; fotografija je mutna i desni kraj ploče je odsečen, pa je natpis prenet iz dostavljenog teksta i proveren koliko je čitljiv. Prelomi redova natpisa nisu doslovni."
+  },
+  {
+    "odluka": "novi-sad-biste-toza-lola-pinki-2026-11-09",
+    "datum": "2026-11-09",
+    "ishod": "dve-lokacije-i-arhiviranje",
+    "prethodneKoordinate": {
+      "novi-sad-bista-svetozara-markovica-narodnog-heroja": {
+        "lat": 45.25513,
+        "lng": 19.84518
+      },
+      "novi-sad-bista-ive-lole-ribara": {
+        "lat": 45.25513,
+        "lng": 19.84518
+      },
+      "novi-sad-bista-boska-palkovljevica-pinkija": {
+        "lat": 45.25513,
+        "lng": 19.84518
+      }
+    },
+    "izmene": {
+      "novi-sad-bista-svetozara-markovica-narodnog-heroja": "Približna tačka centra grada zamenjena zgradom Bulevar Mihajla Pupina 6 (OSM put 132580124); dodata adresa; naziv „Bista Svetozara Markovića narodnog heroja“ promenjen u „Bista Svetozara Markovića Toze“, kao engleski naziv i korisnikov opis.",
+      "novi-sad-bista-ive-lole-ribara": "Približna tačka centra grada zamenjena zgradom OŠ „Ivo Lola Ribar“, Kraljevića Marka 2a (OSM put 293174679); dodata adresa.",
+      "novi-sad-bista-boska-palkovljevica-pinkija": "Stanje uklonjen; bista nije istaknuta, pa je po pravilu za uklonjene biste prebačena u arhivu zajedno sa slikom."
+    },
+    "izvori": [
+      "Prijava korisnika 2026-11-09",
+      "https://www.openstreetmap.org/way/132580124",
+      "https://www.openstreetmap.org/way/293174679"
+    ],
+    "dokaz": "Korisnik je javio da je bista Toze u zgradi Dnevnika, Bulevar Mihajla Pupina 6, bista Ive Lole Ribara u istoimenoj školi u Kraljevića Marka 2a, a da je Pinkijeva bista, nekada ispred preduzeća Pinki, ukradena. Adrese su potvrđene Nominatimom.",
+    "granice": "Tačke su tačke zgrada, ne mesta biste u unutrašnjosti. Pretraga na mreži nije našla vest o krađi Pinkijeve biste ni datum krađe; stanje se zasniva na prijavi korisnika, a url u izvoru stanja je fotografija biste dok je stajala."
+  },
+  {
+    "odluka": "novi-sad-ploca-slobodanu-kovacevicu-profi-2026-11-09",
+    "datum": "2026-11-09",
+    "ishod": "novi-zapis",
+    "noviZapis": {
+      "id": "novi-sad-ploca-slobodanu-kovacevicu-profi",
+      "koordinate": {
+        "lat": 45.2597748,
+        "lng": 19.8531677
+      },
+      "mesto": "Novi Sad",
+      "adresa": "Episkopa Visariona 3 na Podbari (u izvoru Visarionova 3), danas Srednjoškolski dom „Brankovo kolo“.",
+      "izvor": "https://sr.wikipedia.org/wiki/Слободан_Ковачевић_Профа",
+      "wiki": "https://sr.wikipedia.org/wiki/Слободан_Ковачевић_Профа",
+      "slika": "slike/spomenici/novi-sad-ploca-slobodanu-kovacevicu-profi.webp",
+      "slikaPotpis": "Korisnički prilog, autor nije naveden",
+      "naziv": "Spomen-ploča Slobodanu Kovačeviću Profi",
+      "nazivEn": "Memorial Plaque to Slobodan Kovačević Profa",
+      "opis": {
+        "sh": "Posvećeno [Slobodanu Kovačeviću Profi](Q110045570), tehničkom rukovodiocu ilegalne štamparije Pokrajinskog komiteta KPJ za Vojvodinu 1941, koji je u ovoj zgradi živeo i radio od 1940. Uhapšen je u septembru 1941, osuđen na doživotnu robiju i umro je u maju 1943. Ploču su 1971. postavile mesne organizacije SKJ i SUBNOR-a Podbare, prema zamisli Jovana Bikickog i Milutina Vraneša.",
+        "en": "Dedicated to [Slobodan Kovačević Profa](Q110045570), technical head of the clandestine printing press of the Communist Party’s Provincial Committee for Vojvodina in 1941, who lived and worked in this building from 1940. He was arrested in September 1941, sentenced to life imprisonment and died in May 1943. The plaque was installed in 1971 by the local Communist League and veterans’ organisations of Podbara, designed by Jovan Bikicki and Milutin Vraneš."
+      },
+      "godina": "1971",
+      "autor": "Jovan Bikicki, Milutin Vraneš",
+      "posveta": [
+        "Q110045570"
+      ],
+      "natpis": "U OVOJ ZGRADI JE ŽIVEO\nI RADIO OD MAJA 1940.\nSLOBODAN KOVAČEVIĆ\n-PROFA ČLAN KPJ I TEH-\nNIČKI RUKOVODILAC\nŠTAMPARIJE PK KPJ ZA\nVOJVODINU 1941. UHAPŠEN\nSEPTEMBRA 1941. OSUĐEN\nNA DOŽIVOTNU ROBIJU\nUMRO MAJA 1943.\n\n1941–1971\n\nMESNA ORGANIZACIJA SKJ\nI SUBNOR-a PODBARA",
+      "vrsta": "spomen-ploca",
+      "drzava": "Serbia"
+    },
+    "lokalniIzvor": "izvori/slobodan-kovacevic-profa-novi-sad-2026-11-09/",
+    "izvori": [
+      "https://sr.wikipedia.org/wiki/Слободан_Ковачевић_Профа",
+      "https://www.openstreetmap.org/way/145050995",
+      "Prijava korisnika 2026-11-09"
+    ],
+    "dokaz": "Dostavljeni opis navodi ploču iz 1971. na zgradi u Visarionovoj 3, idejno rešenje slikara Jovana Bikickog i oficira JNA Milutina Vraneša, i tekst natpisa. Fotografija potvrđuje natpis doslovno, sa potpisom mesnih organizacija SKJ i SUBNOR-a Podbara.",
+    "lokacija": "Korisnik je 2026-11-09 potvrdio da je Visarionova današnja Episkopa Visariona. Episkopa Visariona 3 je na Podbari (OSM put 145050995, dom učenika „Brankovo kolo“), u skladu sa potpisom SUBNOR-a Podbara. Tačka je tačka zgrade.",
+    "dilema": "Opis kaže da je škola u kojoj je radio bila u zgradi „Privrednika“, a ploča da je u ovoj zgradi živeo i radio; nije potvrđeno da je „Brankovo kolo“ nekadašnja zgrada Privrednika.",
+    "materijali": [
+      {
+        "fajl": "opis.txt",
+        "sha256": "35156da4643603d3bd96603d7c3c3f542b265531f82aef444c9d43ef0195fa5e"
+      },
+      {
+        "fajl": "119975152_1396540844070212_2885469951814214827_n.jpg",
+        "sha256": "bbe010e1eb7316b2a8dd266444abb30b7c010239ba5534b4801a9cd38173ffb8"
+      }
+    ],
+    "granice": "Fotograf i datum fotografije nisu navedeni. Ploča je samo sa tekstom, pa je vrsta spomen-ploča, kao kod ploče Živku Radovanoviću. Mesto smrti (Maršamsk) iz opisa nije upisano."
   }
 ]
