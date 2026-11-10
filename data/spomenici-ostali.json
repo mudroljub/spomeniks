@@ -789,7 +789,7 @@
 {"id":"kal-koritnica-spomenik-brigada-ivan-gradnik","koordinate":{"lat":46.3134736,"lng":13.6127326},"mesto":"Kal-Koritnica","slikaOdnos":1.286,"naziv":"Spomenik brigada »Ivan Gradnik«","vrsta":"spomenik","drzava":"Slovenia"},
 {"id":"nova-gora-spomenik-padlim-in-ranjenim-cankarjeve-b","koordinate":{"lat":46.014073,"lng":14.949893},"mesto":"Nova Gora","slikaOdnos":0.75,"naziv":"Spomenik padlim in ranjenim Cankarjeve brigade 1941-1945","vrsta":"spomenik","drzava":"Slovenia"},
 {"id":"lezimir-spomenik-6-istocnobosanskoj-brigadi","koordinate":{"lat":45.1389058,"lng":19.5948292},"mesto":"Ležimir","naziv":"Spomenik 6. Istočnobosanskoj brigadi","vrsta":"spomenik","drzava":"Serbia"},
-{"id":"vrbnica-spomenik-4-crnogorske-brigade","koordinate":{"lat":43.3767981,"lng":18.5973233},"mesto":"Ljubin Grob (Zelengora)","naziv":"Spomenik 4. crnogorske brigade","vrsta":"spomenik","drzava":"Bosnia and Herzegovina"},
+{"id":"vrbnica-spomenik-4-crnogorske-brigade","koordinate":{"lat":43.3767981,"lng":18.5973233},"mesto":"Ljubin Grob (Zelengora)","slikaOdnos":1.333,"naziv":"Spomenik 4. crnogorske brigade","vrsta":"spomenik","drzava":"Bosnia and Herzegovina"},
 {"id":"volarje-v-spomin-na-boje-gregorciceve-brigade","koordinate":{"lat":46.1923062,"lng":13.6685282},"mesto":"Volarje","slikaOdnos":1.333,"naziv":"V spomin na boje Gregorčičeve brigade","vrsta":"spomenik","drzava":"Slovenia"},
 {"id":"tjentiste-spomenik-prvoj-dalmatinskoj-brigadi","koordinate":{"lat":43.340702,"lng":18.691336},"mesto":"Tjentište","slikaOdnos":0.749,"naziv":"Spomenik Prvoj dalmatinskoj brigadi","vrsta":"spomenik","drzava":"Bosnia and Herzegovina"},
 {"id":"sekovici-spomenik-6-proleterskoj-istocnobosanskoj","koordinate":{"lat":44.3020821,"lng":18.8535989},"mesto":"Šekovići","naziv":"Spomenik 6. proleterskoj istočnobosanskoj NOU brigadi","vrsta":"spomenik","drzava":"Bosnia and Herzegovina"},
@@ -9396,8 +9396,8 @@
 {"id":"novi-sad-ploca-slobodanu-kovacevicu-profi","koordinate":{"lat":45.2597748,"lng":19.8531677},"mesto":"Novi Sad","slikaOdnos":1.102,"naziv":"Spomen-ploča Slobodanu Kovačeviću Profi","vrsta":"spomen-ploca","drzava":"Serbia"},
 {"id":"beograd-spomenik-88-sadnica","koordinate":{"lat":44.8006598,"lng":20.3958088},"mesto":"Beograd (Novi Beograd)","slikaOdnos":0.749,"naziv":"Spomenik 88 sadnica","vrsta":"spomen-obelezje","drzava":"Serbia"},
 {"id":"beograd-komeni-beleg","koordinate":{"lat":44.7970524,"lng":20.4657716},"mesto":"Beograd","slikaOdnos":1.778,"naziv":"Spomen-obeležje za 192 poginula Beograđanina","vrsta":"spomen-ploca","drzava":"Serbia"},
-{"id":"zenica-statua-narodnog-heroja-hasana-brkica","koordinate":{"lat":44.2122778,"lng":17.9078889},"mesto":"Zenica","naziv":"Statua narodnog heroja Hasana Brkića","vrsta":"statua","drzava":"Bosnia and Herzegovina"},
-{"id":"jajce-statua-mose-pijade","koordinate":{"lat":44.3382408,"lng":17.2680898},"mesto":"Jajce","naziv":"Statua Moše Pijade","vrsta":"statua","drzava":"Bosnia and Herzegovina"},
+{"id":"zenica-statua-narodnog-heroja-hasana-brkica","koordinate":{"lat":44.2122778,"lng":17.9078889},"mesto":"Zenica","slikaOdnos":1.498,"naziv":"Statua narodnog heroja Hasana Brkića","vrsta":"statua","drzava":"Bosnia and Herzegovina"},
+{"id":"jajce-statua-mose-pijade","koordinate":{"lat":44.3382408,"lng":17.2680898},"mesto":"Jajce","slikaOdnos":1.493,"naziv":"Statua Moše Pijade","vrsta":"statua","drzava":"Bosnia and Herzegovina"},
 {"id":"ljubljana-spomenik-edvardu-kardelju","koordinate":{"lat":46.05079,"lng":14.49986},"mesto":"Ljubljana","slikaOdnos":1.504,"naziv":"Spomenik Edvardu Kardelju","vrsta":"spomenik","drzava":"Slovenia"},
 {"id":"drvar-spomen-park","koordinate":{"lat":44.3741222,"lng":16.3830429},"mesto":"Drvar","naziv":"Spomen-park Šobića glavica","vrsta":"spomen-park","drzava":"Bosnia and Herzegovina"}
 ]

@@ -27432,5 +27432,66 @@
       "aplikacija": "Pokušaj snimka telefona nije završen: Emulation.setTouchEmulationEnabled, veza sa pregledačem prekinuta pre učitavanja aplikacije. Nije potvrđen prikaz u pregledaču.",
       "testovi": "Nisu pokretani, prema pauzi korisnika."
     }
+  },
+  "fotografije-ljubin-jajce-zenica-2026-11-10": {
+    "datum": "2026-11-10",
+    "obuhvat": "Sva tri korisniku predložena kandidata: Ljubin Grob, Moša Pijade u Jajcu i Hasan Brkić u Zenici.",
+    "pregledano": 3,
+    "dodatoFotografija": 3,
+    "promene": [
+      {
+        "id": "vrbnica-spomenik-4-crnogorske-brigade",
+        "stranica": "https://www.spomenikdatabase.org/sutjeska-monuments",
+        "slikaIzvor": "https://static.wixstatic.com/media/e73a14_ea680b18655b4d5e9b83535147cf77fc~mv2.jpg",
+        "datumDokaza": null,
+        "licenca": "Slobodna licenca nije potvrđena; naveden izvor i dostupni autor.",
+        "proveraIdentiteta": "Galerija izričito označena Monument at Ljubin Grob; potvrđena bela apstraktna skulptura Živkovića. Commons snimak Ljubin Grob - panoramio prikazuje drugo kameno obeležje i nije upotrebljen.",
+        "sha256Izvornika": "9b75e7878ddaa8dfb9887dccdd239e43fb459d8cb837069243473e480694392d",
+        "pre": {},
+        "posle": {
+          "slika": "slike/spomenici/vrbnica-spomenik-4-crnogorske-brigade.webp",
+          "slikaOdnos": 1.333,
+          "slikaPotpis": "Spomenik Database"
+        }
+      },
+      {
+        "id": "jajce-statua-mose-pijade",
+        "stranica": "https://almiracatovic.wordpress.com/2010/10/13/jajce/",
+        "slikaIzvor": "https://almiracatovic.wordpress.com/wp-content/uploads/2010/10/jajce.almiracatovic-26-1.jpg",
+        "datumDokaza": "Objava 13.10.2010, ažurirana 11.5.2025; datum snimanja nije utvrđen.",
+        "licenca": "Slobodna licenca nije potvrđena; naveden izvor i dostupni autor.",
+        "proveraIdentiteta": "Fotografija označena kao Moša Pijade pred ulazom u muzej AVNOJ-a; vidljiva oštećenja i položaj figure odgovaraju lokalnom primerku. Sačuvan vodeni žig autorke; ne zaključuje se novo stanje ili godina podizanja.",
+        "sha256Izvornika": "02ec92c0b91199c8ca06488bc1cb24172a86dc5e4e250594320acc153fc2afd9",
+        "pre": {},
+        "posle": {
+          "slika": "slike/spomenici/jajce-statua-mose-pijade.webp",
+          "slikaOdnos": 1.493,
+          "slikaPotpis": "Almira Ćatović"
+        }
+      },
+      {
+        "id": "zenica-statua-narodnog-heroja-hasana-brkica",
+        "stranica": "https://www.klix.ba/magazin/kultura/okamenjena-proslost-na-bistama-u-zenici-decenijama-svjedoci-o-herojima-i-vrijednim-radnicima/180417017",
+        "slikaIzvor": "https://www.072info.com/wp-content/uploads/180417017.8_xxl.jpg",
+        "datumDokaza": "2018-04-21 (datum izvornog članka)",
+        "licenca": "Slobodna licenca nije potvrđena; naveden izvor i dostupni autor.",
+        "proveraIdentiteta": "Cela stojeća figura u parku ispred direkcije Željezare. Izvorni Klix članak imenuje Brkića i park, stručni rad Mirze Džananovića Wandering Monuments of Zenica, Geoadria 29/2 (2024), str. 194, potvrđuje premeštanje. Druge fotografije galerije prikazuju biste i nisu korišćene. Vodeni žig Klix ostaje.",
+        "sha256Izvornika": "ced8245f44c60d8648db342abe4951de4ac8119ef2b207543abb089e04752e2a",
+        "pre": {},
+        "posle": {
+          "slika": "slike/spomenici/zenica-statua-narodnog-heroja-hasana-brkica.webp",
+          "slikaOdnos": 1.498,
+          "slikaPotpis": "E. M. / Klix.ba"
+        }
+      }
+    ],
+    "provera": "Upoređeni svi puni zapisi pre i posle; izmenjena samo polja slika, slikaOdnos i slikaPotpis na tri navedena ID-ja. Lokacije i stanje nisu menjani.",
+    "zavrsnaProvera": {
+      "slike": "Vizuelno pregledani izvornici i konačne slike; potvrđene tri velike WebP širine 400 px i tri male visine 116 px, potpisi i odnosi.",
+      "integritet": "Isti rezultat pre i posle: raniji problem opis/tekstualna posveta novi-sad-reljef-vere-pavlovic i 26 ranije zabeleženih bliskih parova. Ovaj paket nije uveo nove probleme.",
+      "diffCheck": "prolazi",
+      "aplikacija": "Nije ponavljan isti neuspešan pokušaj snimka iz prethodnog paketa bez novog razloga; prikaz u pregledaču nije potvrđen.",
+      "testovi": "Nisu pokretani prema korisnikovoj pauzi."
+    }
   }
 }
