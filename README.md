@@ -15,7 +15,7 @@ live-server
 ## TODO
 
 POTPUNOST PODATKA:
-- dodavati fotografije ([obrađeni izvori fotografija](docs/IZVORI.md#commons-i-fotografije))
+- dodavati fotografije ([lista prioriteta](docs/FOTOGRAFIJE_PRIORITETI.md), [obrađeni izvori fotografija](docs/IZVORI.md#commons-i-fotografije))
 - popunjavati druge atribute ([dopuna podataka](docs/DOPUNA_PODATAKA.md)). prioritet su: autor, posveta, wiki...
 - uklanjati duplikate i greške koji su se uvukli u bazu
 

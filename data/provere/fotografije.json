@@ -27539,5 +27539,180 @@
       "aplikacija": "Prikaz u pregledacu nije potvrdjen; isti prethodni pad CDP veze nije ponavljan bez novog razloga.",
       "testovi": "Nisu pokretani prema korisnikovoj pauzi."
     }
+  },
+  "fotografije-redom-prvih10-2026-11-10": {
+    "datum": "2026-11-10",
+    "obuhvat": "Prvih deset aktivne liste od 166 kandidata, bez preskakanja.",
+    "pregledano": 10,
+    "dodatoFotografija": 8,
+    "redosled": [
+      "ljubosina-spomenik-ustanka-i-nor-a",
+      "medjuvodje-uremovac-spomenik-kluzu-i-cajavecu",
+      "slobostina-spomenik-zrtvama-fasizma",
+      "split-spomen-park-lovinac",
+      "bitola-stara-carsija-2",
+      "makarska-vila-irena-party-school-museum",
+      "ada-spomenik-palim-borcima",
+      "beograd-spomen-groblje-streljanih-1944",
+      "kumodraz-spomenik-palim-borcima-i-zrtvama-fasizma",
+      "bosanska-bojna-spomenik-palim-borcima"
+    ],
+    "promene": [
+      {
+        "redniBrojPre": 1,
+        "id": "ljubosina-spomenik-ustanka-i-nor-a",
+        "stranica": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/245/",
+        "slikaIzvor": "https://partizanstvo.si/media/croatianpartisanmemorial/245/sPOMENIK%20LJUBO%C5%A0INA.jpg",
+        "datumDokaza": null,
+        "licenca": "CC BY 4.0 prema API-ju galerije",
+        "proveraIdentiteta": "Arhivski crno-beli snimak sa izvornim natpisom Spomenik ustanka i NOR-a u Ljubošini, Z. Cara. API galerije potvrđuje CC BY 4.0, ne navodi fotografa ni datum.",
+        "sha256Izvornika": "3528c219da8c7e5863b35c9eee52a367e39fa12c1d86347a900c13dd41bb4c6e",
+        "pre": {},
+        "posle": {
+          "slika": "slike/spomenici/ljubosina-spomenik-ustanka-i-nor-a.webp",
+          "slikaOdnos": 0.712,
+          "slikaPotpis": "Partizanstvo / Geopedija, CC BY 4.0, istorijski snimak"
+        }
+      },
+      {
+        "redniBrojPre": 2,
+        "id": "medjuvodje-uremovac-spomenik-kluzu-i-cajavecu",
+        "stranica": "https://www.spomenikdatabase.org/gornji-jelovac",
+        "slikaIzvor": "https://static.wixstatic.com/media/e73a14_382cbbb1e3034790977d442f6c439482~mv2.jpg",
+        "datumDokaza": null,
+        "licenca": "Slobodna licenca nije potvrđena; naveden dostupan autor i izvor.",
+        "proveraIdentiteta": "Photo 7 je izričito potpisana Monument to Čajavec & Kluz at Uremovac, Credit: Nikola Karakas. Putanja sadrži Odžinci i koordinate 45.111115,16.761794 koje odgovaraju lokaciji u tekstu; skulptura prikazuje uzlet aviona. Odbačene susedne slike Mladena Stojanovića i aviona na aerodromu.",
+        "sha256Izvornika": "6b2ce9be2b89236ed0f88523f7aaef1d5fd66ec4e19af7dbeeb9aacf77af97ff",
+        "pre": {},
+        "posle": {
+          "slika": "slike/spomenici/medjuvodje-uremovac-spomenik-kluzu-i-cajavecu.webp",
+          "slikaOdnos": 0.871,
+          "slikaPotpis": "Nikola Karakas, Spomenik Database"
+        }
+      },
+      {
+        "redniBrojPre": 3,
+        "id": "slobostina-spomenik-zrtvama-fasizma",
+        "stranica": "https://antifasisticki-vjesnik.org/hr/spomenici/3/Spomenici_propadaju_zrtve_fasizma_se_zaboravljaju_a_Vlada_vas_novac_salje_u_Kanadu_/296/",
+        "slikaIzvor": "https://antifasisticki-vjesnik.org/userfiles/images/antifasisticki_vjesnik/news/Spomenici_propadaju_zrtve_fasizma_se_zaboravljaju_a_Vlada_vas_novac_salje_u_Kanadu_/slobostinap1.png",
+        "datumDokaza": null,
+        "licenca": "CC BY-SA 3.0 prema oznaci sajta",
+        "proveraIdentiteta": "Leva polovina poređenja prikazuje Kečaninovu majku i dete pre rušenja. Isečena leva polovina, bez desnog savremenog prizora praznog postamenta; nije zamenjena drugom Kolaciovom kosturnicom u istom selu. Datum snimanja nije utvrđen.",
+        "sha256Izvornika": "f395a8cbe956c8c406776403accf212ebc10a15bd79663b5d56610eb0bf8d2e5",
+        "pre": {},
+        "posle": {
+          "slika": "slike/spomenici/slobostina-spomenik-zrtvama-fasizma.webp",
+          "slikaOdnos": 0.833,
+          "slikaPotpis": "Antifašistički vjesnik, CC BY-SA 3.0, istorijski snimak"
+        }
+      },
+      {
+        "redniBrojPre": 4,
+        "id": "split-spomen-park-lovinac",
+        "stranica": "https://ratnakronikasplita.vedra.hr/prilozi/spomenici",
+        "slikaIzvor": "https://ratnakronikasplita.vedra.hr/slike/dodaci/context/116_lovrinac_4_spomen_kosturnica_palih_boraca_nora_.jpg",
+        "datumDokaza": null,
+        "licenca": "Slobodna licenca nije potvrđena; naveden dostupan autor i izvor.",
+        "proveraIdentiteta": "Izvor označava unutrašnjost spomen-groblja na Lovrincu, 11 ploča i zajedničku kosturnicu; odvojeno od običnog, nemačkog i pomorskog groblja. Fotograf i datum nisu navedeni.",
+        "sha256Izvornika": "8c117992715f295b16673229dbc9704922349bf8e3a165e6dda7360be48224e5",
+        "pre": {},
+        "posle": {
+          "slika": "slike/spomenici/split-spomen-park-lovinac.webp",
+          "slikaOdnos": 1.333,
+          "slikaPotpis": "Ratna kronika Splita / VeDRA, arhivski snimak"
+        }
+      },
+      {
+        "redniBrojPre": 5,
+        "id": "bitola-stara-carsija-2",
+        "stranica": "https://commons.wikimedia.org/wiki/File:Bugarski_zatvor_Vtora_svetska_vojna_Bitola_01.jpg",
+        "slikaIzvor": "https://upload.wikimedia.org/wikipedia/commons/5/53/Bugarski_zatvor_Vtora_svetska_vojna_Bitola_01.jpg",
+        "datumDokaza": "2018-09-29",
+        "licenca": "CC BY-SA 4.0",
+        "proveraIdentiteta": "Commons opis i zaseban članak identifikuju spomenik političkim zatvorenicima na mestu bugarskog zatvora u Bitolju; skulpturalni blok pred zgradom. Autor i licenca pročitani na stranici datoteke.",
+        "sha256Izvornika": "1050d50782187eec2a36b858a2e16e3823e4b09d1acca6e7864a6a7b91f101ec",
+        "pre": {},
+        "posle": {
+          "slika": "slike/spomenici/bitola-stara-carsija-2.webp",
+          "slikaOdnos": 1.778,
+          "slikaPotpis": "Zdravko, CC BY-SA 4.0 (2018)"
+        }
+      },
+      {
+        "redniBrojPre": 6,
+        "id": "makarska-vila-irena-party-school-museum",
+        "stranica": "https://www.spomenikdatabase.org/makarska",
+        "slikaIzvor": "https://static.wixstatic.com/media/e73a14_0411309cddc44b3e8c2bde75185c9dc7~mv2.jpg",
+        "datumDokaza": null,
+        "licenca": "Slobodna licenca nije potvrđena; naveden dostupan autor i izvor.",
+        "proveraIdentiteta": "Galerija Political School at Vila Irena, naslov Vila Irena4; prepoznatljiva bela vila na obali. Nije upotrebljen susedni dečji sanatorijum u Krvavici; slika ne potvrđuje da muzej radi.",
+        "sha256Izvornika": "d4f2ff5237d942526f636739ae6667fb73d8ae7e588eed7fe78b8bbf6a9e80db",
+        "pre": {},
+        "posle": {
+          "slika": "slike/spomenici/makarska-vila-irena-party-school-museum.webp",
+          "slikaOdnos": 1.493,
+          "slikaPotpis": "Spomenik Database"
+        }
+      },
+      {
+        "redniBrojPre": 8,
+        "id": "beograd-spomen-groblje-streljanih-1944",
+        "stranica": "https://www.xiwl.com/w/index.php/Beograd_-_Centralno_Groblje",
+        "slikaIzvor": "https://www.xiwl.com/w/img_auth.php/8/83/BelgradeCentralnoGroblj01.jpg",
+        "datumDokaza": null,
+        "licenca": "Slobodna licenca nije potvrđena; naveden dostupan autor i izvor.",
+        "proveraIdentiteta": "Karton imenuje Spomen Groblje Streljanih 1944 i autora Momčila Krkovića; kamena apstraktna skulptura u memorijalnoj celini. Nije opšta slika Centralnog groblja.",
+        "sha256Izvornika": "9da5ad57c5eb52ecb6d87f9d73850373a565e70eab1b0eea271b1ce535194625",
+        "pre": {},
+        "posle": {
+          "slika": "slike/spomenici/beograd-spomen-groblje-streljanih-1944.webp",
+          "slikaOdnos": 0.75,
+          "slikaPotpis": "Partisan Memorials Wiki"
+        }
+      },
+      {
+        "redniBrojPre": 10,
+        "id": "bosanska-bojna-spomenik-palim-borcima",
+        "stranica": "https://kladusajenasa.org/spomenici-nob-a/",
+        "slikaIzvor": "https://kladusajenasa.org/wp-content/uploads/2024/07/bojna-nob-2.jpg",
+        "datumDokaza": "2024-07 (putanja objave; datum snimanja nije utvrđen)",
+        "licenca": "Slobodna licenca nije potvrđena; naveden dostupan autor i izvor.",
+        "proveraIdentiteta": "Prvi odeljak Bosanska Bojna, spomenik palim borcima: visoki kameni obelisk i dva krila na trougaonoj platformi. Odvojen od drugog lokalnog spomenika, pravougaonog obeliska nad grobnicom. HTML direktno vraća 406, ali indeksirana stranica i originalna slika su dostupni; identitet proverljiv iz opisa i fotografije.",
+        "sha256Izvornika": "0c50815286112c769710bf64b62948848f2b5dc71e642aa981c9f66a4070ad90",
+        "pre": {},
+        "posle": {
+          "slika": "slike/spomenici/bosanska-bojna-spomenik-palim-borcima.webp",
+          "slikaOdnos": 0.8,
+          "slikaPotpis": "Kladuša je naša (2024)"
+        }
+      }
+    ],
+    "nereseni": [
+      {
+        "redniBrojPre": 7,
+        "id": "ada-spomenik-palim-borcima",
+        "ishod": "Izvorni karton Ada (Šodolovci) sadrži samo Missing3x4.jpg. Dopunski upiti Ada Kečanin i Ada Šodolovci daju popise i podatke o naselju, bez potvrđene fotografije ovog dela; drugi spomenici u Adi u Srbiji nisu upotrebljeni.",
+        "izvori": [
+          "https://www.xiwl.com/w/index.php/Ada_%28%C5%A0odolovci%29_-_Spomenik_Palim_Borcima",
+          "https://www.sodolovci.hr/naselja-opcine/"
+        ],
+        "uslovPonavljanja": "Nova imenovana lokalna galerija, terenski snimak ili pojedinačni ilustrovani karton."
+      },
+      {
+        "redniBrojPre": 9,
+        "id": "kumodraz-spomenik-palim-borcima-i-zrtvama-fasizma",
+        "ishod": "Izvorni karton Kumodraž sadrži samo Missing3x4.jpg. Pretrage latinicom, ćirilicom i uz autora daju druge spomenike (Stepa Stepanović, stariji ratovi), bez pouzdanog snimka NOB statue; nisu korišćeni kao zamena.",
+        "izvori": [
+          "https://www.xiwl.com/w/index.php/Kumodra%C5%BE_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1izma"
+        ],
+        "uslovPonavljanja": "Nov snimak sa potvrđenim lokalnim nazivom ili čitljivom posvetom, odnosno ilustrovan stručni karton."
+      }
+    ],
+    "provera": "Poređeni svi puni zapisi pre i posle: promenjena samo tri polja slike na osam ID-jeva. Lokacije, autori i stanje nisu menjani.",
+    "zavrsnaProvera": {
+      "slike": "Osmoro izvornika vizuelno pregledano; osam velikih WebP širine 400 px i osam malih visine 116 px; odnosi i potpisi potvrđeni, bez EXIF/XMP.",
+      "aplikacija": "Prikaz u pregledaču nije potvrđen; isti prethodni pad CDP veze nije ponavljan bez novog razloga.",
+      "testovi": "Nisu pokretani prema korisnikovoj pauzi."
+    }
   }
 }

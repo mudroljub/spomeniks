@@ -10,6 +10,8 @@ Ciljana provera identiteta fotografija **26.10.2026.**: svih deset sumnjivih par
 
 ## Prioriteti
 
+Konkretan red kandidata bez fotografije, sa kriterijumima izbora i ranijim proverama: [Prioriteti fotografisanja spomenika](FOTOGRAFIJE_PRIORITETI.md). Redosled izvora ispod služi proveri dostupnosti i prethodnog obuhvata; sam po sebi nije lista spomenika.
+
 Cilj: novi spomenici, fotografije, tačne lokacije i dopune iz pouzdanih javnih izvora. Prinos je procena na osnovu dosadašnjih paketa i izmerenog obima, ne garancija.
 
 - **Najviši prioritet — zvanični registri i stručne evidencije** (korisnik, 2026-10-21): prvo za žetvu, ali i za proveru, ispravke i činjenični integritet postojećih zapisa. [Plan po državama](#plan-stručnih-evidencija--21102026) ima prednost nad ranijim redosledom u tabeli ispod; pravilo i razrešavanje protivrečnosti su u [standardu](../.claude/skills/spomenici-zetva/references/standard.md#zvanični-registri-kao-osnova-kvaliteta).
