@@ -13,6 +13,8 @@ Proveri šta već imamo, jer je besplatno: `izvori/xiwl/` (stranica spomenika i 
 
 Stranice susednih zapisa su često bolje od same stavke: wiki stranica stele „pored doma“ ili groblja „ispred škole“ daje tačku i za dom ili školu. Pre mreže proveri sve stranice istog sela, ne samo onu o traženom objektu.
 
+Ako pojedinačni pogodak otkrije koristan lokalni popis, galeriju ili stručnu zbirku, odmah proceni i evidentiraj njenu vrednost po [pravilu prepoznavanja izvora](../spomenici-zetva/references/pretrage-i-fotografije.md#prepoznavanje-vrednog-izvora). Nemoj prevideti podatke za druge otvorene predmete; odobrena tura i njen redosled ostaju granica rada.
+
 Za groblja, kosturnice i grupe slabo opisanih zapisa prvo traži regionalnu evidenciju ili literaturu koja pokriva više otvorenih objekata. Prati [postupak za literaturu i grobne objekte](../spomenici-zetva/references/lociranje-i-stanje.md#literatura-i-grobni-objekti): probni dokument sa mikrolokacijama ima prednost nad ponavljanjem opštih upita za svaki grob. Dostupnost i obrađenost konkretnih knjiga proveri u `docs/IZVORI.md`.
 
 ## Odakle se zna gde je

@@ -1,5 +1,19 @@
 # Pretrage izvora i fotografije
 
+## Prepoznavanje vrednog izvora
+
+Pojedinačni uspeh može otkriti bolji izvor za ceo skup. Pri svakom novom korisnom pogotku pogledaj da li stranica ima popis, galeriju, mapu, povezane kartone ili bibliografiju za druge naše nerešene predmete; nemoj uzeti jednu sliku i prevideti zbirku iz koje dolazi.
+
+- **Vrednost meri prema našim prazninama:** više imenovanih objekata, fotografije sa proverljivim mestom i posvetom, konkretne adrese/parcele, autori, datumi snimaka, preseljenja i razlike između istoimenih obeležja. Jedna dobra fotografija jeste povod za procenu, ali ne dokazuje visok prinos celog sajta.
+- **Razdvoji vrednost i autoritet:** lokalno udruženje, muzej, inicijativa ili stranački sajt može imati jedinstvene terenske fotografije i precizne opise. Navedi izdavača i ograničenja; ne predstavljaj ga kao zvanični registar i ne odbacuj ga samo zato što nije državni. Proveri poreklo slika i teksta: prepis istog kataloga ili prenos Google fotografije nije novi nezavisan dokaz.
+- **Proveri šta je zaista novo:** uporedi sa `docs/IZVORI.md` i postojećim evidencijama u `data/provere/`. Novi naziv domena, preseljeni PDF i ranije obrađen izvod nisu nova neobrađena zbirka. Ako izvor već imamo, dopuni njegov red umesto pravljenja paralelne evidencije.
+- **Zabeleži ga odmah:** u `docs/IZVORI.md` upiši naziv, vezu, oblast, šta konkretno može dati, datum provere, dostupan i stvarno pročitan obim, dosadašnji prinos i uslov za ponavljanje. Za još neproverenu zbirku jasno napiši „prinos neproveren“; preuzimanje nije obrada. Pojedinačne dokaze i ishode čuvaj u postojećoj tematskoj evidenciji (`data/provere/izvori.json`, `fotografije.json` ili `lociranje.json`), po pravilima zajedničkog upisa.
+- **Proceni širu korist bez gubljenja reda:** u okviru odobrene obrade izvora poredi uzorak od 20 stavki, ili ceo izvor ako ih ima manje, sa mapom, spiskom bez lokacije i arhivom. Prvo važnija autorska dela i memorijalne celine; fotografije i dopune iz istog odeljka mogu se obraditi zajedno. Broj odeljaka, osoba, slika i spomenika vodi odvojeno. Registruj i ispravke i potvrde, ne samo nove markere; arhivirane predmete ne vraćaj bez dokaza.
+- **Ne širi nalog zbog dobrog nalaza:** pojedinačna pretraga dopušta kratku procenu i beleženje relevantnog izvora, ali ne znači da je odobrena žetva celog sajta, prelazak na niže prioritete ili ponavljanje zatvorene grane rada. Ako šira obrada nije obuhvaćena nalogom, sačuvaj konkretan predlog; nastavi odobreni paket. Završen pregled ne ostavljaj kao budući posao.
+- **Sačuvaj rezultat i granice:** razdvoji nove fotografije, lokacije, dopune, ranije već obrađene parove i nerešene identitete. Blokiran HTML ili API nije dokaz odsustva; zabeleži šta je ostalo dostupno i proverljivo. Posle uzorka nastavi samo ako donosi korisne nove podatke; neuspehe ponavljaj uz konkretan nov trag, ne istim opštim upitima.
+
+Primer: „Kladuša je naša“ otkrivena je tokom traženja fotografije Bosanske Bojne; lokalni popis je dao i druge imenovane snimke. Pouka je prepoznati zbirku i proveriti njeno preklapanje sa bazom, a ne zaključiti da su svi lokalni sajtovi jednako korisni; aktuelni obuhvat i rezultat tog izvora ostaju u `docs/IZVORI.md`.
+
 ## Prvo sačuvani podaci, zatim zbirni upit
 
 Pre nove mrežne pretrage pogledaj [obrađene izvore](../../../../docs/IZVORI.md) i [ranije lociranje](../../../../docs/LOCIRANJE_SPOMENIKA.md). Iskoristi ranije skinute OSM podatke, fotografije i PDF-ove u `izvori/`; raspored je u `izvori/README.md`, a preseljene putanje u `izvori/KONSOLIDACIJA.json`. Stare temp putanje iz istorijskih izveštaja nisu razlog za ponovno preuzimanje. Jednokratnu skriptu sa ugrađenom starom putanjom prilagodi pre pokretanja. Zabeleženi prinos pretrage pomaže izboru sledećeg postupka; ne predstavlja pouzdanost svakog pogotka.

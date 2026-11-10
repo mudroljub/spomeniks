@@ -9,6 +9,8 @@ Standard zapisa (polja, nazivi, vrste, obuhvat) je u `references/standard.md`. N
 
 **Prvo zvanični registri i stručne evidencije:** najviši prioritet imaju i za nove unose i za proveru/ispravku postojećih, prema [pravilu kvaliteta](references/standard.md#zvanični-registri-kao-osnova-kvaliteta). Mali broj novih markera nije razlog da se preskoči korisna provera podataka iz registra.
 
+**Usput prepoznaj vredan izvor:** kada pojedinačni pogodak otkrije lokalni popis, galeriju ili stručnu evidenciju koja može rešiti više naših zapisa, proceni i zabeleži izvor odmah, bez čekanja korisnikovog podsećanja. Primeni [prepoznavanje i procenu izvora](references/pretrage-i-fotografije.md#prepoznavanje-vrednog-izvora); širu obradu nastavi samo u okviru odobrenog posla.
+
 ## Rad sa podacima
 
 Na istim fajlovima istovremeno radi više agenata, pa se podaci čitaju i upisuju samo zajedničkim funkcijama iz `alati/zapis.py`, nikad ručnim `json.dump` u fajlove podataka:

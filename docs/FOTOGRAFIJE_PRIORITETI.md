@@ -192,6 +192,8 @@ Obuhvat po vrstama: muzej: 4, reljef: 1, spomen-groblje: 29, spomen-kuca: 16, sp
 
 ## Zatvoreni paketi ovog nastavka
 
+**Kladuša je naša — ciljana provera izvora, 10.11.2026:** svih 20 tematskih odeljaka upoređeno, dodato 11 fotografija (pet na mapi, šest zapisima bez lokacije). Predmeti ovog paketa nisu bili među 156 aktivnih kandidata, pa njihov broj ostaje isti. Ranije dodata fotografija Bosanske Bojne nije ponovo brojana. [Izvor i svi ishodi](../data/provere/izvori.json#kladusa-je-nasa-poredjenje-2026-11-10); [pojedinačne fotografije](../data/provere/fotografije.json#fotografije-kladusa-lokalni-izvor-2026-11-10).
+
 **Prva tura po listi završena, 10/10:** osam fotografija dodato (Ljubošina, Uremovac, Sloboština, Lovrinac, Bitolj, Vila Irena, Centralno groblje u Beogradu i Bosanska Bojna), dva nerešena predmeta izdvojena iz aktivnog reda. [Paket](../data/provere/fotografije.json#fotografije-redom-prvih10-2026-11-10). Istorijski snimci označeni su u potpisima; koordinate i stanje nisu menjani.
 
 Deset prethodnih kandidata dobilo je fotografiju i ne pojavljuje se u aktivnom redu: [prvih pet autorskih dela](../data/provere/fotografije.json#fotografije-vazni-autorski-2026-11-10), [Ljubin Grob, Jajce i Zenica](../data/provere/fotografije.json#fotografije-ljubin-jajce-zenica-2026-11-10), [Prkos i Jasenovac](../data/provere/fotografije.json#fotografije-prkos-jasenovac-2026-11-10).
