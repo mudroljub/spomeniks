@@ -27493,5 +27493,51 @@
       "aplikacija": "Nije ponavljan isti neuspešan pokušaj snimka iz prethodnog paketa bez novog razloga; prikaz u pregledaču nije potvrđen.",
       "testovi": "Nisu pokretani prema korisnikovoj pauzi."
     }
+  },
+  "fotografije-prkos-jasenovac-2026-11-10": {
+    "datum": "2026-11-10",
+    "obuhvat": "Oba odobrena kandidata: Mrtvi logoraš u Jasenovcu i kosturnica u Prkosu Lasinjskom.",
+    "pregledano": 2,
+    "dodatoFotografija": 2,
+    "promene": [
+      {
+        "id": "jasenovac-mrtvi-logoras",
+        "stranica": "https://jusp-jasenovac.hr/Default.aspx?sid=7169",
+        "slikaIzvor": "https://jusp-jasenovac.hr/Uploads/61/5020/6468/6715/6736/6739/7169/27_3_3_2_mrtvi-logoras.jpg",
+        "datumDokaza": null,
+        "licenca": "Slobodna licenca nije potvrđena; izvor JUSP Jasenovac.",
+        "proveraIdentiteta": "Zvanična galerija imenuje delo A Dead Inmate, Stanko Jančić, Jasenovac, 1967. Godina 1967. odnosi se na delo, ne na snimak. Datum i autor fotografije nisu navedeni; potpis jasno kaže arhivski snimak. Biografija autora na istom sajtu (sid=6739) razlikuje repliku na patiju muzeja od ukradenog izvornika; iz fotografije se ne zaključuje koji odliv je prikazan.",
+        "sha256Izvornika": "41206e255fab9798615b1ce55266f6631044be4b92815093aaf740b2d97bcc63",
+        "pre": {},
+        "posle": {
+          "slika": "slike/spomenici/jasenovac-mrtvi-logoras.webp",
+          "slikaOdnos": 1.476,
+          "slikaPotpis": "JUSP Jasenovac, arhivski snimak"
+        }
+      },
+      {
+        "id": "prkos-lasinjski-spomen-kosturnica",
+        "stranica": "https://www.antifasisticki-vjesnik.org/hr/kalendar/12/21/305/",
+        "slikaIzvor": "https://www.antifasisticki-vjesnik.org/userfiles/images/antifasisticki_vjesnik/kalendar/Ustaski_pokolj_u_Prkosu_Lasinj/gallery/Prkos_Foto_J_Drobnjak_18_1.jpg",
+        "datumDokaza": "2020",
+        "licenca": "CC BY-SA 3.0 prema oznaci sajta; https://creativecommons.org/licenses/by-sa/3.0/; umanjeno i pretvoreno u WebP.",
+        "proveraIdentiteta": "Galerija potpisuje fotografa Jovicu Drobnjaka i godinu 2020; kamena kosturnica sa središnjom pločom i crvenom petokrakom. Autorstvo arhitekte potvrđuje i SABA RH https://sabh.hr/prkos-lasinjski/. Nije upotrebljen stariji snimak oštećenja iz 2010.",
+        "sha256Izvornika": "f56f8333717b92ade8a9156aca1c65f6efab86c84c3e1be13c23ace736597d7e",
+        "pre": {},
+        "posle": {
+          "slika": "slike/spomenici/prkos-lasinjski-spomen-kosturnica.webp",
+          "slikaOdnos": 1.498,
+          "slikaPotpis": "Jovica Drobnjak, Antifašistički vjesnik, CC BY-SA 3.0 (2020)"
+        }
+      }
+    ],
+    "provera": "Poređenjem svih punih zapisa pre i posle potvrđeno da su promenjena samo polja slika, slikaOdnos i slikaPotpis na ova dva ID-ja; koordinate i ostali podaci su sačuvani.",
+    "zavrsnaProvera": {
+      "slike": "Vizuelno pregledana oba izvornika; dve velike WebP sirine 400 px i dve male visine 116 px, odnosi i potpisi provereni, EXIF/XMP ne postoje.",
+      "integritet": "Ostaju ranije zabelezena greska opis/tekstualna posveta novi-sad-reljef-vere-pavlovic i 26 bliskih parova. Paket nije promenio lokacije.",
+      "diffCheck": "prolazi",
+      "aplikacija": "Prikaz u pregledacu nije potvrdjen; isti prethodni pad CDP veze nije ponavljan bez novog razloga.",
+      "testovi": "Nisu pokretani prema korisnikovoj pauzi."
+    }
   }
 }
