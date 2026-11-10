@@ -47,6 +47,14 @@
       "napomena": "Preuzet izričit položaj konkretnog obeležja i opis mikrolokacije iz sačuvane Wiki stranice. Ovo nije dokaz današnjeg stanja."
     }
   },
+  "banjevci-kasic-spomenik-palim-borcima": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Upiti za Banjevce–Kašić i Matu Sunića nisu dali lociran karton NOB spomenika. Savremeni spomenik Borislavu Bakoviću kod crkve odnosi se na rat1990-ih i nije upotrebljen kao zamena. Dva naselja i dalje nisu razrešena užom adresom."
+    }
+  },
   "banovici-murali-u-spomen-na-nob": {
     "proveraLokacije": {
       "datum": "2026-10-23",
@@ -278,12 +286,28 @@
       "izvestaj": "data/provere/odluke.json#spomenicinob-detaljno-3224-3664-2026-10-20"
     }
   },
+  "bileca-statua-mose-pijade": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Potvrđena je kasarna: nekadašnja Moša Pijade danas Bilećki borci. Savremeni izvori o okupljanju pitomaca i nekadašnjem logoru ne potvrđuju gde se danas nalazi tražena Dizdarevićeva statua. Tačka cele vojne kasarne nije potvrda konkretnog dela."
+    }
+  },
   "bjelajske-uvale-spomenik-zrtvama-fasistickog-teror": {
     "proveraLokacije": {
       "datum": "2026-10-20",
       "izvor": "https://www.spomenicinob.info/bosanskakrupa",
       "ishod": "provereno",
       "napomena": "Isti izvorni red 608, ista posveta i oblik zastave u Wiki kopijama Jasenica i Bjelajske Uvale. Tačka 44.754056,16.268778 izričito je opisana kao nasumična tačka na putu između naselja; obe ranije tačke odbačene."
+    }
+  },
+  "blastica-spomenik-na-dimkata-angelov-i-borcite": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Ciljani upit za Blašticu i Dimkata Angelova dao je prirodnjački opis ušća u jezero, ne spomenik. Ušće nije preuzeto kao tačka kompozicije. Ostaje knjiški trag bez potvrđenog prilaza i položaja."
     }
   },
   "bogojevce-spomenik-u-bogojevcu": {
@@ -351,6 +375,14 @@
       "napomena": "Turistički klub izričito navodi dva objekta: spomenik ratnicima oba rata i kosturnicu. Wiki fotografije opisuju tri apstraktne ploče i bistu; tačka je izričito centar zaseoka, ne mesto objekta. Nije spojen sa kosturnicom iz 1951; ostaje van mape bez dovoljno konkretnog položaja."
     }
   },
+  "brajinci-obelisk-u-spomen-na-formiranje-bircanske": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Ciljani upiti za Brajince, Krstu i obelisk potvrđuju terenski popis ali ne nezavisnu tačku na brdu. Razlikovana susedna ploča štampariji Fronta slobode; njena lokacija nije automatski lokacija obeliska."
+    }
+  },
   "bratac-spomenik-borcima-bratackog-odreda-poginulim": {
     "proveraLokacije": {
       "datum": "2026-10-21",
@@ -365,6 +397,14 @@
       "izvor": "https://digitalizacija-zzsknis.rs/wp-content/uploads/2025/02/Memorijali_Leskovac.pdf",
       "ishod": "Pribli?na lokacija proverena; podno?je nije potvr?eno",
       "napomena": "Karton PDF278: stara ?kola/vrti? i fotografija biste. Kro?nje zaklanjaju postament; nije zamenjena ta?kom zgrade."
+    }
+  },
+  "brvnik-spomenik-palim-borcima-i-zrtvama-fasisticko": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Terenski popis razlikuje staro delo iz 1951 pred domom i zamenski Baotićev memorijal iz 1988 naspram crkve, obnovljen 2001. Ciljani upiti nisu dali geografski uparenu crkvu/mali memorijalni prostor; adresa Opposite church nije sama tačka."
     }
   },
   "brzohode-spomen-cesma": {
@@ -493,6 +533,14 @@
       "izvor": "Sačuvani OSM/Wiki podaci i pojedinačni dokazi u lociranje.json#lociranje-prioriteti-2026-10-23-3-vazniji",
       "ishod": "približno",
       "napomena": "{\"izvor\": \"GeoNames RS; postojeća Commons fotografija\", \"potvrda\": \"Naselje Ćuprija; tačka parkovske biste nije potvrđena\", \"identitet\": \"https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B0%D1%80%D0%BA_%D1%83_%D0%8B%D1%83%D0%BF%D1%80%D0%B8%D1%98%D0%B8.jpg\", \"fotografija\": \"slike/bez-lokacije/cuprija-spomenik-miodragu-novakovicu-dzudzi.webp\"}"
+    }
+  },
+  "daruvar-spomen-grobnica": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Wiki i alternativni domen nisu dostupni. Gradski plan potvrđuje registrovanu masovnu grobnicu boraca X korpusa, ali nije potvrđeno da je rebrasta kompozicija iz zapisa ista parcela. Nađeni židovski spomenici su drugačije forme i nisu iskorišćeni kao zamenska lokacija."
     }
   },
   "daruvar-stjepanovici-grob-narodnog-heroja-paje-oro": {
@@ -669,6 +717,22 @@
       "izvor": "https://registar.kulturnadobra.hr/",
       "ishod": "Potvrđena dopuna položaja ili podataka",
       "napomena": "Karton Z-7163 izričito razlikuje stradanje 1945 i otkrivanje obeležja 3.7.2012; ispravljena godina obeležja, položaj sačuvan kao kandidat bez nove javne tačke."
+    }
+  },
+  "drvar-spomen-park": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "potvrdjena-tacka-objekta",
+      "napomena": "Potvrđen park Šobića glavica na postojećoj preciznoj lokaciji centralnog spomenika drvar. Stručni rad i terenski opis razlikuju centralnu skulpturu, obližnji memorijalni zid i park; zapis cele celine ostaje zaseban od skulpture. Prihvaćeno odredište za poznatu malu gradsku memorijalnu celinu, bez tvrdnje da su svi njeni elementi obnovljeni."
+    }
+  },
+  "drvar-spomen-staza-titovog-odlaska-iz-drvara": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Ciljani upiti za stazu Titovog odlaska i Slobodana Štrpca nisu dali izveden plan trase ili određenu memorijalnu tačku. Pristup terenskoj stranici Drvara vratio je timeout. Potvrđena pećina ne određuje stazu severno od nje; koordinata pećine nije preneta."
     }
   },
   "dub": {
@@ -960,12 +1024,36 @@
       "napomena": "Pojedinačni Google karton imenuje kosturnicu palih crvenoarmejaca na Brdu mira; satelitski prikaz i fotografija ograde sa granatama odgovaraju zajedničkoj celini dve kosturnice opisanoj u muzeju. Nije gradsko groblje ili Norveška kuća. Muzej izričito daje 1962. i Desimira Žižovića Buina za kosturnice; ranija 1956. i Živorad Maksimović bili su pogrešno preneti. Maksimovićev spomenik internircima iz 1973. je drugo delo. Sačuvani crvenoarmejci-karton.png i crvenoarmejci-potvrda.png."
     }
   },
+  "gornji-milanovac-spomenik-takovcima-stradalim-u-mauthausenu": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Izvor Spomenik Database potvrđuje zasebno delo sa rukama u Brdu mira, ali daje tačku celog parka. Ona nije preuzeta pojedinačnom delu; potrebna je uža celina ili uparena tačka konkretnih stepenica."
+    }
+  },
   "gornji-milanovac-spomenik-takovskim-internircima-u": {
     "proveraLokacije": {
       "datum": "2026-10-27",
       "izvor": "data/provere/lociranje.json#lociranje-proba-pet-2026-10-27",
       "ishod": "bez-nove-potvrde",
       "napomena": "Muzej potvrđuje bronzani spomenik Živorada Maksimovića iz 1973, koji prikazuje naša fotografija, i razlikuje ga od zasebnog betonskog memorijala 33 Takovcima. Google vraća park, muzeje i Norvešku kuću; nijedan rezultat nije pojedinačna bronzana skulptura. Tačka celog parka nije proglašena podnožjem. Sačuvan internirci.png; marker nije pomeran."
+    }
+  },
+  "gornji-ribnik-spomenik-na-prvobitnom-mjestu-sahran": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Upiti za prvo grobno mesto Ive Lole Ribara u Ribniku nisu dali novu nezavisnu tačku konkretnog Mulabegovićevog dela. Postojeći terenski izvor razlikuje istorijski prvi grob i kasniji prenos ostataka; nije preuzet GPS drugog groblja ili današnjeg groba."
+    }
+  },
+  "gornji-svilaj-spomenik-partizanskim-borcima-poginu": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Terenski popis potvrđuje Kadar i uništene vajarske elemente pre 2003, uz tada sačuvane ploče. Ciljani upit po brdu i autoru nije dao nezavisnu tačku ostataka. Stanje rusevine nije menjano na osnovu nedostajućeg novijeg nalaza."
     }
   },
   "gornji-vitkovci-spomenik-palim-borcima": {
@@ -1114,6 +1202,14 @@
       "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 45.19067, \"lng\": 20.51311}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
     }
   },
+  "ilok-spomen-kosturnica": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Stari Wiki URL je vratio 403, alternativni domen nije dostupan. Stručni rad povezuje Kolacija sa iločkom kosturnicom Crvene armije, a izveštaj komemoracije navodi tvrđavu; bez fotografskog uparivanja i uže tačke tvrđave ne proglašava se potvrda postojeće približne koordinate. Spomenik žrtvama 1991–1995 je drugi objekat."
+    }
+  },
   "indjija-bista-anke-matic-grozde": {
     "proveraLokacije": {
       "datum": "2026-10-23",
@@ -1152,6 +1248,14 @@
       "izvor": "data/provere/lociranje.json#lociranje-drugih-pet-2026-10-27",
       "ishod": "bez-nove-potvrde",
       "napomena": "Sačuvana Wiki stranica izričito označava tačku kao procenu prema drugom, neratnom objektu. Google opšti rezultat je Sečanica kod Niša, a stari CID 9563289780052591285 ne otvara potvrđen karton memorijala. Bez nezavisne fotografije i tačke ništa nije pomerano."
+    }
+  },
+  "jablanac-spomenik-palim-borcima": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Stručni članak potvrđuje bronzanu majku sa ranjenim sinom na kamenoj osnovi na obali Jablanca. Ciljana pretraga nije dala noviji georeferencirani karton ili fotografiju iste statue. Stari opis obale nije dovoljno sidro niti dokaz opstanka."
     }
   },
   "jabuka-bista-dragana-kovacevica": {
@@ -1226,12 +1330,36 @@
       "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 43.34805, \"lng\": 19.51604}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
     }
   },
+  "jagodnjak-spomenik-palim-borcima": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Katalog 2022 potvrđuje raskrsnicu Borisa Kidriča i Branka Radičevića i izgled. Opštinski rezultat Spomenik govori o drugom, bolmanskom memorijalu. Upiti za tačku i OSM raskrsnicu nisu dali upotrebljivu geometriju; prvi OSM server HTTP 406, alternativni timeout. Nije preuzet GPS jevrejskog groblja na kraju iste ulice."
+    }
+  },
+  "jajce-statua-mose-pijade": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "potvrdjena-tacka-objekta",
+      "napomena": "Fotobaza 29.6.2022. identifikuje statuu ispred Doma AVNOJ-a; muzej i Spomenik Database potvrđuju original i zamenski primerak. Prihvaćena postojeća precizna lokacija ustanove jajce 44.3382408,17.2680898 kao odredište za statuu na ulazu, ne novo podnožje. Razlikovana od drugog odlivka u Novom Travniku."
+    }
+  },
   "jalovik-bista-dragoljuba-jovicica-u-rodnom-mestu": {
     "proveraLokacije": {
       "datum": "2026-10-23",
       "izvor": "Sačuvani OSM/Wiki podaci i pojedinačni dokazi u lociranje.json#lociranje-prioriteti-2026-10-23-3-vazniji",
       "ishod": "bez-nove-potvrde",
       "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 44.59854, \"lng\": 19.82877}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
+    }
+  },
+  "jastrebac-memorijalni-kompleks": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Dva ciljana upita za Jasičje i memorijalni kompleks nisu dala karton ili georeferenciranu fotografiju. Nađen istoimeni lokalitet u Ražnju, ali bez dokaza da je upravo to knjiška celina na Jastrepcu. Nije izmišljena tačka na osnovu toponima."
     }
   },
   "jazbine-spomenik-partizanskom-stozeru": {
@@ -1249,6 +1377,14 @@
       "izvor": "https://www.spomenicinob.info/",
       "ishod": "bez potvrđene tačke",
       "napomena": "Opis postavlja obeležje oko 150m zapadno od groblja, dok postojeća tačka leži oko 5km dalje; nije potvrđena.; Opis postavlja obeležje oko 150m zapadno od groblja, dok postojeća tačka leži oko 5km dalje; nije potvrđena."
+    }
+  },
+  "jesenje-spomenik-nob": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Opštinska procena rizika iz septembra 2024, PDF list 18–19, potvrđuje Gornje Jesenje, nasuprot Zadružnom domu, pokraj kbr.99. Razrešeno naselje i adresa, ali mrežna pretraga nije dala nezavisnu tačku broja 99 ili samog memorijala. Enciklopedija daje drugu godinu 1957; godina nije menjana u ovom lociranju."
     }
   },
   "josavica-spomenik-zrtvama-fasistickog-terora-i-borcima-nor-a": {
@@ -1396,6 +1532,14 @@
       "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 44.46799, \"lng\": 19.82035}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
     }
   },
+  "komiza-spomenik-zajednistva": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Ciljani upiti za Spomenik zajedništva u Komiži i Mirka Ostoju nisu dali konkretan lociran karton. Rezultati za Kostanje, Krilo-Jesenice i srušeno Ostojino delo u Mravincima nisu isti predmet. Knjiški trag ostaje otvoren bez preslikavanja tuđeg stanja."
+    }
+  },
   "konjuh-spomen-zona-korita": {
     "proveraLokacije": {
       "datum": "2026-10-23",
@@ -1474,6 +1618,30 @@
       "ishod": "preskoceno-uklonjeno",
       "izvor": "https://www.kurir.rs/crna-hronika/1902329/beskrupulozno-ukradena-mesingana-ploca-sa-muzeja-u-sumaricama",
       "napomena": "Izveštaj iz 2015. prenosi izjavu kustoskinje da je skulptura srne ranije ukradena; povratak nije potvrđen. Ne locirati prema staroj knjizi bez novog dokaza."
+    }
+  },
+  "kraljevo-spomenik-prvom-partizanskom-tenku": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Novinski izveštaj potvrđuje nekadašnji plato pred Domom Vojske. Parlamentarni zapis potvrđuje prenos u Jarčujak, ali ne istorijsko podnožje. Bez geografski uparenog istorijskog platoa postojeća približna koordinata ostaje nepromenjena; stanje uklonjen sačuvano."
+    }
+  },
+  "krapje-spomen-kosturnica": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Zvanični JUSP potvrđuje Jankovićevu kompoziciju iz1967 nad centralnom grobnicom i razlikuje još dve grobnice. Reportaža iz2022 potvrđuje uništenje i najavu obnove, ali ne završenu obnovu ili preciznu tačku postamenta. Nije preuzet GPS logora ili susedne grobnice."
+    }
+  },
+  "krapje-spomenik-logoru-ii": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Zvanični JUSP karton određuje logor između Struga i sela Krapje, ali ne daje tačku Jankovićevog spomenika. Literatura menja numeraciju Krapje/Bročice; nisu poistovećeni naziv logora i pojedinačna kompozicija, niti prihvaćen centroid sela."
     }
   },
   "kriva-bara-spomenik-na-mjestu-strijeljanja-brace-d": {
@@ -1684,6 +1852,22 @@
       "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 44.22533, \"lng\": 20.23994}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
     }
   },
+  "ljubljana-spomenik-edvardu-kardelju": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "potvrdjena-tacka-objekta",
+      "napomena": "Razlikovano od Spomenika revolucije: grupa Kardelja na čelu ljudi stoji južno od njega. EŠD5657 daje46.05084,14.49986; imenovani OSM node3813805269 daje46.05079,14.49986, a Spomenik Database odvojeno potvrđuje istu grupu i približno istu tačku. Prihvaćen imenovani OSM položaj. ZAPS katalog potvrđuje i arhitektu Fedju Košira."
+    }
+  },
+  "ljubljana-spomenik-padlim-pionirjem": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Razdvojena su dva Kalinova dela: poznati Spomenik pionirjem u Tivoliju (EŠD5680) i spomenik pionirima palim u NOB na Žalama, koji izričito navodi istorijski stručni pregled iz 1970. Tačka Tivolija nije preneta palim pionirima. Novi trag je Žale, ali uža grobna parcela i identitet knjiškog unosa ostaju nepotvrđeni."
+    }
+  },
   "ljubljana-spomenik-ustanovitvi-vos-of": {
     "proveraLokacije": {
       "datum": "2026-10-27",
@@ -1714,6 +1898,30 @@
       "izvor": "https://registar.kulturnadobra.hr/#/details/128289",
       "ishod": "Spojen potvrđeni duplikat",
       "napomena": "Zadržan loncarica-partizansko-groblje-polum; dokaz i prethodna polja u izveštaju paketa."
+    }
+  },
+  "lovnica-spomenik-formiranju-seste-proleterske-isto": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Terenska evidencija potvrđuje delo iz1982 i beleženje avgusta2023, ali nema adresu. U istom mestu su manastir, muzej, groblje i vodenički memorijal; njihove tačke nisu prenete spomeniku formiranja brigade bez dokaza da je u toj određenoj celini."
+    }
+  },
+  "lozovac-spomenik-palim-radnicima-tvornice-aluminij": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Noviji stručni pregled potvrđuje Niđu Ercega i Luju Lozicu uz delo iz 1967, ali nije dao georeferenciranu mikrolokaciju. Prostorni plan Lozovca određuje širu zonu, ne konkretan memorijal na Vrhu Brine. Autorstvo se ne dopunjava usput bez provere istog obuhvata."
+    }
+  },
+  "lozovac-tromilja-spomenik-palim-borcima-i-zrtvama": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Ciljani upiti za Tromilju, Jovića/Petkovića i NOB nisu dali nezavisnu tačku ili noviji karton. Prostorni dokument pominje drugi spomenik Domovinskog rata, pa njegova lokacija nije preneta knjiškom delu iz 1975."
     }
   },
   "lukavac-bista-antona-macana": {
@@ -1778,6 +1986,14 @@
       "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=143",
       "ishod": "pogresno-zaglavlje-u-izvodu-ispravljeno",
       "napomena": "Martinci; obelisk visok 8 m, podignut 1975. Prethodna približna tačka pripadala je pogrešnom naselju; tačka spomenika nije potvrđena."
+    }
+  },
+  "majske-medje-spomenik-ferencu-kisu": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Ponovo potvrđen konkretan opis iz kataloga: južno od sela, levo od poljskog nastavka Ulice Jovana Jovanovića Zmaja. Upit nije dao tačku ograde/postamenta. Razlikovan od Kišovog groba u Luču i kasnije kripte u Bolmanu; te koordinate nisu preuzete."
     }
   },
   "majur-spomen-cesma-2": {
@@ -2138,12 +2354,28 @@
       "napomena": "{\"opis\": null, \"osm\": {\"osm\": [], \"sidro\": null, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"zaključak\": \"Nije potvrđena tačka pojedinačnog objekta; registar i postojeća približna tačka ne dokazuju podnožje.\"}"
     }
   },
+  "osijek-spomenik-titu-memorijalni-park": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Ciljani upiti za osječki Titov spomenik Dušana Nikolića iz1981 nisu dali georeferenciranu istorijsku fotografiju ili plan pojedinačne statue. Knjiški podatak o bivšem memorijalnom parku i postojeće uklanjanje sačuvani; druge Titove statue i opšti Donji grad nisu lokacija ovog dela."
+    }
+  },
   "osmaci-bista-svetozara-vukovica-zarka": {
     "proveraLokacije": {
       "datum": "2026-10-23",
       "izvor": "Sačuvani OSM/Wiki podaci i pojedinačni dokazi u lociranje.json#lociranje-prioriteti-2026-10-23-3-vazniji",
       "ishod": "bez-nove-potvrde",
       "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 44.39483, \"lng\": 18.90656}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
+    }
+  },
+  "padjeni-spomenik-palim-borcima-i-zrtvama-fasistick": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Ciljani upiti za Pađene i Vojvodića vraćaju terenski popis: spomenik iz1986 autora Ljube Vojvodića i Vuka Roganovića, bez adrese. Rezultati za ponor i mljekaru nisu lokacija memorijala; centar sela nije preciziran."
     }
   },
   "pale-bista-mihajla-cvore": {
@@ -2202,6 +2434,14 @@
       "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 45.24074097, \"lng\": 13.93705308}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
     }
   },
+  "pec-spomenik-bori-vukmirovicu": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Ciljani upiti nisu potvrdili zaseban Stojanovićev spomenik iz1952 u Peći. Većina rezultata opisuje Landovicu ili zajednički spomenik Bore i Ramiza u Prištini, druge predmete. Moguća veza sa porodičnom grobnicom Vukmirović ostaje otvorena; nije izvršeno automatsko spajanje."
+    }
+  },
   "pecenjevce-bista-branka-cvetkovica": {
     "proveraLokacije": {
       "datum": "2026-10-23",
@@ -2231,6 +2471,14 @@
       "izvor": "Sačuvani OSM/Wiki podaci i pojedinačni dokazi u lociranje.json#lociranje-prioriteti-2026-10-23-3-vazniji",
       "ishod": "bez-nove-potvrde",
       "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 44.79411, \"lng\": 20.14432}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
+    }
+  },
+  "petrovo-partizansko-groblje": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Terenski izvor razlikuje staro groblje Lužanjak i novu kosturnicu naspram pošte iz1970. Prenos ostataka je naveden kao moguć, ne potvrđen. Nova adresa nije automatski pridružena zapisu koji obuhvata obe faze, niti je stara godina dokaz današnje tačke."
     }
   },
   "pirot-bista": {
@@ -2281,6 +2529,14 @@
       "napomena": "Geometrija kartona 134436 i ortofoto određuju konkretno groblje/parcela; prethodna tačka bila je na drugom mestu. Položaj pojedinačne grobnice nije potvrđen, približnost se čuva."
     }
   },
+  "podgrab-kosturnica-sa-posmrtnim-ostacima-101-palog": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Terenski popis dopunjuje uži trag: uz glavni put i crkvu, beleženo oktobra 2021; razlikuje kosturnicu od spomenika Pale i dodatih obeležja drugih ratova. Ciljani upiti nisu dali upotrebljivu tačku crkve/platoa koja potvrđuje ovu kosturnicu."
+    }
+  },
   "poljice-partizansko-groblje": {
     "proveraOpstanka": {
       "datum": "2026-10-20",
@@ -2290,12 +2546,28 @@
       "izvestaj": "data/provere/odluke.json#spomenicinob-detaljno-3665-4103-2026-10-20"
     }
   },
+  "poljice-spomenik-palim-borcima-nor-a": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Terenski popis potvrđuje delo i beleženje maja 2024. Nađena je imenovana bivša stanica Poljice u Poljicama Popovo; njen GPS ne određuje automatski spomenik 70 m severnije. Savremeni rezultati Petrovog Poljica odnose se na borce poginule 1995, drugi objekat."
+    }
+  },
   "ponikovica-bista-miodraga-milovanovica-luneta": {
     "proveraLokacije": {
       "datum": "2026-10-23",
       "izvor": "Sačuvani OSM/Wiki podaci i pojedinačni dokazi u lociranje.json#lociranje-prioriteti-2026-10-23-3-vazniji",
       "ishod": "bez-nove-potvrde",
       "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 43.87416, \"lng\": 19.92575}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
+    }
+  },
+  "popovac-baranja-spomenik-palim-borcima": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Pretraga Popovca i Pejovića nije dala nezavisnu tačku. Katalog 2022 i postojeća fotografija ostaju dokaz identiteta, ali središte sela nije potvrđena određena celina. Nisu preuzeti rezultati za Popovaču ili druge Popovce."
     }
   },
   "potok-spomenik-zrtvama-fasistickog-terora": {
@@ -2493,6 +2765,14 @@
       "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 43.23524, \"lng\": 21.58941}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
     }
   },
+  "przici-spomenik-nob": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Terenska evidencija i stručni osvrt potvrđuju Ugljenovo delo u Pržićima, bez mikrolokacije. Prostorni/ekološki dokumenti daju GPS drugih objekata i mernih stanica, ne spomenika; nisu iskorišćeni kao tačka. Današnji opstanak nije potvrđen."
+    }
+  },
   "pucisca-spomenik-palim-borcima": {
     "proveraLokacije": {
       "datum": "2026-10-23",
@@ -2506,6 +2786,14 @@
       "datum": "2026-10-20",
       "izvor": "spomenicinob.info i sačuvani Partisan Memorials Wiki; dopunske pretrage gde su dozvoljene",
       "ishod": "Katalog nema adresu ni fotografiju; dopunska pretraga nalazi istoimeno kulturno društvo, ali ne potvrđuje bistu na tački sela."
+    }
+  },
+  "radonovci-memorijalni-kompleks-zikica-jovanovic": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Ciljani upiti za Radonovce i kompleks Žikica Jovanović nisu dali konkretan karton ili prostorni plan spomenika. Knjiški opis obuhvata veoma veliku celinu i prekinut je; bez provere geografskog identiteta i užeg položaja nije određena proizvoljna tačka."
     }
   },
   "radovis-bista-na-kosta-susinov": {
@@ -2618,6 +2906,14 @@
       "izvor": "Sačuvani OSM/Wiki podaci i pojedinačni dokazi u lociranje.json#lociranje-prioriteti-2026-10-23-3-vazniji",
       "ishod": "bez-nove-potvrde",
       "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 45.20317, \"lng\": 20.77501}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
+    }
+  },
+  "sarajevo-grbavica-statua-boska-buhe": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Terenska evidencija izričito kaže da statua nije pronađena u martu 2017. Vest 6.3.2026. beleži pomeranje drugih skulptura u zoni gradilišta bivšeg Doma pionira; ne dokazuje povratak ove statue. Nema potvrde lokacije niti osnova za automatsko stanje uklonjen."
     }
   },
   "sarajevo-pofalici-bista-vase-miskina-crnog-2": {
@@ -2756,6 +3052,22 @@
       "napomena": "Zadržan sibenik-spomenik-palim-borcima-zrinska; dokaz i prethodna polja u izveštaju paketa."
     }
   },
+  "sibenik-spomenik-sudionicima-revolucionarnog-radni": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Ciljani upiti za puni naziv spomenika, Despota i zgradu suda nisu dali karton ni savremenu fotografiju koja uparuje delo i današnju adresu. Biografija kipara na gradskom sajtu nije tačka spomenika; Ribič je drugo delo."
+    }
+  },
+  "sibenik-spomenik-zdravstvenim-radnicima-poginulim": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Ciljani upiti za bolnicu i Radovanijevo delo daju adresu današnje bolnice Stjepana Radića 83, ali ne potvrđuju opstanak i položaj konkretnog spomenika na njenom zidu. Opšta bolnička lokacija nije prihvaćena samo na osnovu starog knjiškog podatka."
+    }
+  },
   "sige-spomen-cesma-2": {
     "proveraLokacije": {
       "datum": "2026-10-26",
@@ -2779,6 +3091,14 @@
       "izvor": "Sačuvani OSM/Wiki podaci i pojedinačni dokazi u lociranje.json#lociranje-prioriteti-2026-10-23-3-vazniji",
       "ishod": "bez-nove-potvrde",
       "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 44.11643, \"lng\": 20.40796}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
+    }
+  },
+  "sipovo-spomenik-na-mjestu-masovnog-strijeljanja-zr": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Ponovo otvorena terenska evidencija Šipova; potvrđeni Luka Ilić, 1989, leva obala Plive kod benzinske stanice. Ciljani upit nije dao ime stanice ili georeferenciranu fotografiju. Antički spomenici uz Plivu su drugi objekti."
     }
   },
   "sirogojno-bista-save-jovanovica-sirogojna": {
@@ -2829,6 +3149,14 @@
       "napomena": "{\"izvor\": \"https://korcagin.mk/za-patronot/\", \"osm\": \"https://www.openstreetmap.org/way/175451790\", \"potvrda\": \"Fotografija u zapisu je bronzana puna figura u dvorištu škole, koju školski izvor razlikuje od apstraktnog spomenika na mestu rodne kuće kod Narodne banke. Tačka škole je približna, ne izmereno podnožje statue.\"}"
     }
   },
+  "skopje-spomenik-na-studentskata-mladina": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Arhitektonska evidencija potvrđuje da današnji MKC nosi staro ime Dom mladih 25 Maj, ali ne potvrđuje da je to ista bivša fakultetska lokacija niti da se studentska bronzana kompozicija tamo nalazi. Opis Bombe iza MKC odnosi se na drugi spomenik; nije preuzeta njegova tačka."
+    }
+  },
   "slatina-leskovac-spomenik-palim-borcima": {
     "proveraLokacije": {
       "datum": "2026-10-23",
@@ -2843,6 +3171,14 @@
       "izvor": "Sačuvani OSM/Wiki podaci i pojedinačni dokazi u lociranje.json#lociranje-prioriteti-2026-10-23-3-vazniji",
       "ishod": "bez-nove-potvrde",
       "napomena": "{\"osm\": {\"osm\": [], \"sidro\": null, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\", \"razlog\": \"Dva istoimena Slivna; položaj kod puta i borova ne razrešava opštinu, ne bira se naselje nagađanjem.\"}"
+    }
+  },
+  "sljivovica-spomen-kosturnica": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Wiki i alternativni domen nisu dostupni; ciljani upiti za Šljivovicu i kosturnicu nisu vratili konkretan karton sa tačkom. Rezultat za Osečinu opisuje grobnicu iz Prvog svetskog rata i nije prihvaćen. Osobena belo-crvena kompozicija ostaje bez uže geografske potvrde."
     }
   },
   "smederevo-bista-jovana-janicijevica-ranka": {
@@ -2956,6 +3292,14 @@
       "izvor": "https://registar.kulturnadobra.hr/#/details/134439",
       "ishod": "Potvrđena dopuna položaja ili podataka",
       "napomena": "Geometrija kartona 134439 i ortofoto određuju konkretno groblje/parcela; prethodna tačka bila je na drugom mestu. Položaj pojedinačne grobnice nije potvrđen, približnost se čuva."
+    }
+  },
+  "studenci-spomen-kosturnica": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Wiki i alternativni domen nisu dostupni. Knjiga Spomen obilježja, str.472, potvrđuje istu formu, 1970 i položaj severno od puta Proložac–Studenci–Lovreć; škola ga održava, što nije potvrda položaja u školi. Savremeno premeštanje kosturnice Mlakva u Studence kod Kosinja je drugo mesto."
     }
   },
   "stuti": {
@@ -3119,6 +3463,14 @@
       "napomena": "Službeni karton 128908, fotografija i geometrija EPSG:3765; položaj samog objekta unutar obuhvata nije izmeren, ostaje približno."
     }
   },
+  "tuholj-zajednicka-grobnica-zrtava-fasistickog-tero": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Zvanični registar Zavoda TK, red64, smešta grobnicu u Tuholj, Meškoviće. Pronađena karta mezarja Džamija Tuholj ne identifikuje ovu oblikovanu zajedničku grobnicu. Sužena adresa prema registru; nije preuzet položaj drugog groblja."
+    }
+  },
   "unista-spomen-dom-druge-dalmatinske-proleterske-br": {
     "proveraLokacije": {
       "datum": "2026-10-20",
@@ -3175,6 +3527,14 @@
       "napomena": "{\"izvor\": \"https://www.openstreetmap.org/way/40762411\", \"potvrda\": \"Gradsko groblje Varaždin, ne potvrđena grobna parcela\", \"identitet\": \"https://commons.wikimedia.org/wiki/File:Bista_Marija_Vidovi%C4%87,_Vara%C5%BEdin.JPG\", \"fotografija\": \"slike/bez-lokacije/varazdin-bista-marije-vidovic.webp\"}"
     }
   },
+  "velgosti-spomenik-na-ilinden-i-nob": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Današnja škola Živko Čingo potvrđena je na Ilindenskoj bb, ali zgrada je iz 1982/83, novija od knjiškog spomenika. Commons ima belo geometrijsko ilindensko obeležje, ne traženu bronzu. Nema potvrde da je bronzana figura preneta u današnje dvorište."
+    }
+  },
   "velika-grabovnica-bista-borka-stamenkovica": {
     "proveraLokacije": {
       "datum": "2026-10-23",
@@ -3206,6 +3566,14 @@
       "izvor": "https://registar.kulturnadobra.hr/#/details/130907",
       "ishod": "Spojen potvrđeni duplikat",
       "napomena": "Zadržan veliki-brdo-spomenik-palim-borcima; dokaz i prethodna polja u izveštaju paketa."
+    }
+  },
+  "veliko-palanciste-spomenik-palim-borcima-nor-a": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Terenski popis daje novi uži trag Stanovići, uz glavni put, i razlikuje spomenik iz1963 od groblja u Puharinama. Izvor navodi još jednog nepoznatog koautora; nije izmišljen. Bez uparene karte platoa nema tačke."
     }
   },
   "vezicevo-spomen-cesma": {
@@ -3378,6 +3746,14 @@
       "napomena": "{\"izvor\": \"https://cja.huji.ac.il/hmm/browser.php?id=40125&mode=set\", \"karton\": 40125, \"dokumentovanje\": \"Vladimir Levin i Ekaterina Oleshkevich, 2021; opis Vladimir Levin i Anna Berezin, 2023\", \"potvrda\": \"Primarni univerzitetski terenski karton daje koordinate pojedinačnog spomenika 45.831631,15.984920 i dokumentaciju iz jula 2021. Opis Mojsija sa zapovestima i dva komemorativna natpisa podudara se sa našom fotografijom i knjiškom posvetom, a nije centroid groblja. Grad Zagreb zasebno potvrđuje komemoraciju kod iste skulpture 6.5.2024.\", \"dopunskiIzvor\": \"https://zagreb.hr/en/dan-sjecanja-na-zrtve-holokausta/197992\", \"lokalniKarton\": \"izvori/pretrage/lociranje-prioriteti-2026-10-23/mirogoj-cja.html\", \"ogranicenje\": \"Direktan posrednički URL slike kartona vraća HTML stranu greške; njime nije zamenjena postojeća proverena fotografija. Identitet potvrđuju postojeća fotografija i opis kartona.\"}"
     }
   },
+  "zagreb-rakov-potok-spomen-podrucje-rakov-potok": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Savremene komemoracije potvrđuju memorijalnu šumu; detaljan opis iz 2023 daje ulaz preko puta Karlovačke ceste 68 i stazu do kosturnice. Ulazni kameni putokaz i kosturnica dublje u šumi su različiti elementi. Dodat je konkretan prilaz, a centroid velike šume nije prihvaćen kao lokacija."
+    }
+  },
   "zagrovic-spomen-kosturnica": {
     "proveraLokacije": {
       "datum": "2026-10-23",
@@ -3394,12 +3770,28 @@
       "napomena": "{\"osm\": {\"osm\": [], \"sidro\": {\"lat\": 44.19767, \"lng\": 21.78513}, \"ishod\": \"Nema novog imenovanog para u sačuvanom OSM-u; neimenovani objekti nisu prihvaćeni\"}, \"wiki\": [], \"ograničenje\": \"Provera imenovanih lokalnih kandidata i postojeće adrese; nijedan kandidat nije potvrđen kao tačka ovog pojedinačnog objekta.\"}"
     }
   },
+  "zaton-spomenik-borcima-narodne-revolucije-i-zrtvam": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "bez-nove-potvrde",
+      "napomena": "Ciljani upiti za autora i stari trg nisu dali pouzdan savremeni karton ili dokaz opstanka. Forumska fotografija navodi spomenik u Zatonu bez nezavisne tačke, a savremene skulpture mediteranske medvedice i drugi Zatoni nisu isto delo. Nije proširen obim na opštu proveru Hrvatske."
+    }
+  },
   "zemun-spomen-belezi-na-batajnickom-drumu-obelezava": {
     "proveraLokacije": {
       "datum": "2026-11-09",
       "izvor": "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=17",
       "ishod": "popravljen prekinut naziv; zbirni zapis ostaje bez potvrđene tačke",
       "napomena": "Deset i sedamnaest žrtava i jedan naspram više objekata nisu isti obuhvat. Bez dodatnog dokaza ne spajati sve sa Goveđim brodom niti izmišljati pojedinačne koordinate."
+    }
+  },
+  "zenica-statua-narodnog-heroja-hasana-brkica": {
+    "proveraLokacije": {
+      "datum": "2026-11-10",
+      "izvor": "data/provere/lociranje.json#lociranje-redom-53-2026-11-10",
+      "ishod": "potvrdjena-tacka-objekta",
+      "napomena": "Stručni rad Wandering Monuments of Zenica (2024/2025), str.194 i sl.5, potvrđuje prenetu statuu u parku pred direkcijom. Spomenik Database daje tačku upravo tog memorijalnog parka 44°12′44.2″,17°54′28.4″ i navodi Hasana Brkića. Prihvaćena locirana određena celina, ne izmereno podnožje. Nije korišćen stari Metalurški institut."
     }
   },
   "zrenjanin-bista-zarka-turinskog": {

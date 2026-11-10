@@ -14,11 +14,7 @@ live-server
 
 ## TODO
 
-UNOS PODATAKA:
-- žetva izvora po [prioritetima](docs/IZVORI.md#prioriteti)
-
 POTPUNOST PODATKA:
-- locirati spomenike ([lociranje](docs/LOCIRANJE_SPOMENIKA.md))
 - dodavati fotografije ([obrađeni izvori fotografija](docs/IZVORI.md#commons-i-fotografije))
 - popunjavati druge atribute ([dopuna podataka](docs/DOPUNA_PODATAKA.md)). prioritet su: autor, posveta, wiki...
 - uklanjati duplikate i greške koji su se uvukli u bazu

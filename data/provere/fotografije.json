@@ -27336,5 +27336,101 @@
       "poredjenje": "Samo nameravana polja tri zapisa; sva postojeća mesta na mapi, Google CID, stanja i ostali zapisi sačuvani.",
       "testovi": "Nisu pokretani po odluci korisnika od 20.10.2026."
     }
+  },
+  "fotografije-vazni-autorski-2026-11-10": {
+    "datum": "2026-11-10",
+    "obuhvat": "Pet važnih autorskih dela na mapi bez slike, prvo tri korisniku navedena primera, zatim Izvidnica i Kalinov Talec. Nije obrađen ceo skup bez fotografija.",
+    "pregledano": 5,
+    "dodatoFotografija": 5,
+    "promene": [
+      {
+        "id": "derventa-spomenik-nob",
+        "stranica": "https://www.derventacafe.com/crtice-iz-istorije-o-skulpturi-nosenje-ranjenika/",
+        "slikaIzvor": "https://www.derventacafe.com/wp-content/uploads/2023/05/IMG_0004.jpeg",
+        "datumDokaza": "2023-05-20",
+        "potpis": "Derventa Cafe",
+        "licenca": "Nije utvrđena slobodna licenca; naveden izvor i dostupni autor.",
+        "proveraIdentiteta": "Potvrđen lokalni primerak ispred škole Nikola Tesla, sa susednim horizontalnim monolitom; drugi odlivi nisu korišćeni.",
+        "sha256Izvornika": "118f849109ff61d1e0b1b20277e9ff9f14a151e22bb39f9d0351978f5371de49",
+        "posle": {
+          "slika": "slike/spomenici/derventa-spomenik-nob.webp",
+          "slikaOdnos": 1.504,
+          "slikaPotpis": "Derventa Cafe"
+        },
+        "pre": {}
+      },
+      {
+        "id": "uzice-spomenik-lomaca",
+        "stranica": "https://uzickarepublikapress.rs/tragovi-uzicke-republike-nihov-turisticki-potencijal/",
+        "slikaIzvor": "https://uzickarepublikapress.rs/wp-content/uploads/spomenik-765x1024.jpg",
+        "datumDokaza": "2024-11-17",
+        "potpis": "Užička Republika Press",
+        "licenca": "Nije utvrđena slobodna licenca; naveden izvor i dostupni autor.",
+        "proveraIdentiteta": "Slika neposredno prati odeljak o Lomači na Dovarju; kamena kompozicija i bronzana ploča.",
+        "sha256Izvornika": "3947aee797ad6d54524a83eb121ac3d5918a7de1e218d0f2b91e83da740c033d",
+        "posle": {
+          "slika": "slike/spomenici/uzice-spomenik-lomaca.webp",
+          "slikaOdnos": 0.748,
+          "slikaPotpis": "Užička Republika Press"
+        },
+        "pre": {}
+      },
+      {
+        "id": "ljubljana-spomenik-edvardu-kardelju",
+        "stranica": "https://statues.vanderkrogt.net/object.php?record=si073&webpage=ST",
+        "slikaIzvor": "https://statues.vanderkrogt.net/Foto/si/si073.jpg",
+        "datumDokaza": "2016-09-10",
+        "potpis": "René & Peter van der Krogt, Statues – Hither & Thither (2016)",
+        "licenca": "Nije utvrđena slobodna licenca; naveden izvor i dostupni autor.",
+        "proveraIdentiteta": "Kardelj pred grupom figura sa apstraktnim licima; razlikuje se od susednog Spomenika revolucije. Izvorni vodeni žig sačuvan.",
+        "sha256Izvornika": "d323d728463c3b1db23acc8ee5f97ab4a7963e95ea6228f2f754d9792ff952ca",
+        "posle": {
+          "slika": "slike/spomenici/ljubljana-spomenik-edvardu-kardelju.webp",
+          "slikaOdnos": 1.504,
+          "slikaPotpis": "René & Peter van der Krogt, Statues – Hither & Thither (2016)"
+        },
+        "pre": {}
+      },
+      {
+        "id": "koprivnica-izvidnica",
+        "stranica": "https://www.spomenikdatabase.org/koprivnica",
+        "slikaIzvor": "https://static.wixstatic.com/media/e73a14_18c7d8b7b2224c29b471fef3d09fdbc3~mv2.jpg",
+        "datumDokaza": "1991",
+        "potpis": "Spomenik Database, istorijski snimak premeštanja (1991)",
+        "licenca": "Nije utvrđena slobodna licenca; naveden izvor i dostupni autor.",
+        "proveraIdentiteta": "Istorijska fotografija premeštanja skulpture iz centra u Danicu, eksplicitno označena u potpisu; nije prikazana kao današnje okruženje.",
+        "sha256Izvornika": "140badd641f14c1f26bacf14c3425284149de05d6f7d35c98ea9c5a352f7f2fb",
+        "posle": {
+          "slika": "slike/spomenici/koprivnica-izvidnica.webp",
+          "slikaOdnos": 1.619,
+          "slikaPotpis": "Spomenik Database, istorijski snimak premeštanja (1991)"
+        },
+        "pre": {}
+      },
+      {
+        "id": "ljubljana-gramozna-jama",
+        "stranica": "https://partizanstvo.si/en/detail/partisanmemorial/815/",
+        "slikaIzvor": "https://partizanstvo.si/media/partisanmemorial/815/2023_09_15_MK_IMG_3374_Gramozna_jama_LJ..jpg",
+        "datumDokaza": "2023-09-15",
+        "potpis": "Partizanstvo / Geopedija, CC BY 4.0 (2023)",
+        "licenca": "CC BY 4.0 prema API-ju galerije",
+        "proveraIdentiteta": "Kalinov Talec potvrđen vizuelno. Odbačene fotografije obeliska sa kartona 816; postojeća tačka baze odgovara tom susednom obelisku, dok karton 815 daje položaj statue oko 140 m dalje. Koordinate nisu menjane u paketu fotografija; neslaganje sačuvano za ciljanu proveru.",
+        "sha256Izvornika": "8a09870f43051e52816d678f539c4cdf2575fad7b5b94e4d0660fd4386312b47",
+        "posle": {
+          "slika": "slike/spomenici/ljubljana-gramozna-jama.webp",
+          "slikaOdnos": 0.75,
+          "slikaPotpis": "Partizanstvo / Geopedija, CC BY 4.0 (2023)"
+        },
+        "pre": {}
+      }
+    ],
+    "provera": "Posle ponovnog učitavanja potvrđeno da su promenjena samo tri polja slike na ovih pet ID-jeva; koordinate, stanje i ostali zapisi sačuvani.",
+    "zavrsnaProvera": {
+      "slike": "Svih pet slika pregledano vizuelno, WebP širine 400 px; pet malih slika visine 116 px, odnosi provereni, bez EXIF/XMP. Odbačen snimak drugih Sabolićevih skulptura i fotografije susednog obeliska.",
+      "integritet": "Ostaju ranija greška opis/tekstualna posveta novi-sad-reljef-vere-pavlovic i 26 ranije zabeleženih bliskih parova; ovaj paket ne menja lokacije niti uvodi nove parove.",
+      "diffCheck": "prolazi",
+      "aplikacija": "Pokušaj snimka telefona nije završen: Emulation.setTouchEmulationEnabled, veza sa pregledačem prekinuta pre učitavanja aplikacije. Nije potvrđen prikaz u pregledaču.",
+      "testovi": "Nisu pokretani, prema pauzi korisnika."
+    }
   }
 }
