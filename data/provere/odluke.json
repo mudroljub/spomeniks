@@ -69002,5 +69002,1349 @@
       "beograd-dedinje-kurir": "Korisnik 2026-11-09: park Muzeja Jugoslavije je dovoljno tačna adresa, ali obe statue i marker muzeja imaju istu tačku (0 m), pa integritet pada; priblizno ostaje dok se ne dobiju posebne tačke u parku (OSM tourism=artwork, Overpass nije odgovarao).",
       "beograd-dedinje-nosenje-ranjenika": "Korisnik 2026-11-09: park Muzeja Jugoslavije je dovoljno tačna adresa, ali obe statue i marker muzeja imaju istu tačku (0 m), pa integritet pada; priblizno ostaje dok se ne dobiju posebne tačke u parku (OSM tourism=artwork, Overpass nije odgovarao)."
     }
+  },
+  {
+    "odluka": "dopuna-prioriteti-tura-1-2026-11-10",
+    "datum": "2026-11-10",
+    "ishod": "10-opisa-i-ispravke-identiteta",
+    "pregledano": 10,
+    "izmenjeno": 10,
+    "stavke": [
+      {
+        "id": "beram",
+        "prethodniZapis": {
+          "godina": "1953",
+          "autor": "Zdenko Kolacio & Zdenko Sila",
+          "posveta": [
+            "Q347277"
+          ],
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno istarskom antifašisti [Vladimiru Gortanu](Q347277), streljanom u Puli 1929. godine. Njegovi posmrtni ostaci preneti su u ovu spomen-grobnicu 1953. godine.",
+            "en": "Dedicated to Istrian anti-fascist [Vladimir Gortan](Q347277), executed in Pula in 1929. His remains were transferred to this memorial tomb in 1953."
+          }
+        },
+        "izvori": [
+          "https://www.pazin.hr/o-pazinu/povijesne-licnosti/vladimir-gortan/"
+        ],
+        "dokaz": "Službena biografija Grada Pazina potvrđuje streljanje 17.10.1929. i prenos ostataka u spomen-kosturnicu u Podbermu 1953; ne odnosi se opis biste Mate Čvrljka na grobnicu."
+      },
+      {
+        "id": "bolman",
+        "prethodniZapis": {
+          "godina": "1951",
+          "autor": "Nikola Kečanin",
+          "posveta": [
+            "Q12748966"
+          ],
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno borcima Jugoslovenske armije poginulim u [Bolmanskoj bici](Q12748966) u martu 1945. godine. Ispod obeliska sa bronzanom figurom borca nalazi se kosturnica.",
+            "en": "Dedicated to Yugoslav Army fighters killed in the [Battle of Bolman](Q12748966) in March 1945. An ossuary lies beneath the obelisk topped by a bronze figure of a fighter."
+          }
+        },
+        "izvori": [
+          "https://jagodnjak.hr/2013/12/12/spomenik/",
+          "https://mab.hr/wp-content/uploads/2023/09/spomen-6x-0610-2022-2.pdf"
+        ],
+        "dokaz": "Indeksirani sadržaj opštinske stranice potvrđuje posvetu, kosturnicu i obelisk sa figurom Nikole Kečanina; direktno otvaranje vraća proveru pristupa. Nedićev pregled na mab.hr razdvaja podizanje 1951. i dodavanje skulpture 1963; godinu 1951. ne menjamo jer označava podizanje spomenika."
+      },
+      {
+        "id": "brcko-hasan-aganovic-tac",
+        "prethodniZapis": {
+          "godina": "1981",
+          "autor": "Isak Hasandžiković",
+          "posveta": "Hasan Aganović Tač",
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno Hasanu Aganoviću Taču, mladom revolucionaru i partizanskom borcu iz Drugog svetskog rata. Spomenik se nalazi uz zgradu Islahijeta, na ušću Brke u Savu.",
+            "en": "Dedicated to Hasan Aganović Tač, a young revolutionary and Partisan fighter in the Second World War. The monument stands beside the Islahijet building, where the Brka meets the Sava."
+          },
+          "posveta": null
+        },
+        "izvori": [
+          "https://tobrcko.com/en/case/monument-to-hasan-aganovic-but/",
+          "https://www.spomenicinob.info/spomenicinob/public/brcko"
+        ],
+        "dokaz": "Indeksirani puni odlomak Turističke organizacije Brčko potvrđuje identitet, ulogu i položaj; direktan zahtev vraća 403. Spomenicinob potvrđuje postojeće autorstvo i 1981; nema osnova za nove biografske datume."
+      },
+      {
+        "id": "goreljek",
+        "prethodniZapis": {
+          "godina": "1956",
+          "autor": "Edvard Ravnikar & Tone Svetina",
+          "posveta": [
+            "Q12783619"
+          ],
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno borcima 3. bataljona [Prešernove brigade](Q12783619), poginulim u borbi sa nemačkim snagama na Goreljeku 15. decembra 1943. godine. Spomenik iz 1956. dopunjen je 1974. skulpturom Toneta Svetine.",
+            "en": "Dedicated to fighters of the 3rd Battalion of the [Prešeren Brigade](Q12783619), killed fighting German forces at Goreljek on 15 December 1943. The 1956 memorial was supplemented with a sculpture by Tone Svetina in 1974."
+          }
+        },
+        "izvori": [
+          "https://partizanstvo.si/sl/podrobno/partizanskispomenik/83/"
+        ],
+        "dokaz": "Karton 83, EŠD 9497, potvrđuje događaj i faze 1956/1974. Odvojeno grobišče severno od spomenika ima EŠD 10139; podaci o njegovim ukopima nisu preneti na ovaj spomenik."
+      },
+      {
+        "id": "gornji-ribnik-grob-ive-lole-ribara",
+        "prethodniZapis": {
+          "posveta": [
+            "Q1265884"
+          ],
+          "opis": null,
+          "naziv": "Grob Ive Lole Ribara",
+          "nazivEn": "Grave of Ivo Lola Ribar",
+          "autor": "Ferhat Mulabegović",
+          "godina": "1973"
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Obeležava prvobitno mesto sahrane [Ive Lole Ribara](Q1265884) posle njegove pogibije 1943. godine. Posmrtni ostaci preneti su 1948. u Grobnicu narodnih heroja na Kalemegdanu u Beogradu.",
+            "en": "Marks the original burial site of [Ivo Lola Ribar](Q1265884) following his death in 1943. His remains were transferred in 1948 to the Tomb of People’s Heroes at Kalemegdan in Belgrade."
+          },
+          "naziv": "Mesto prvobitne sahrane Ive Lole Ribara",
+          "nazivEn": "Original Burial Site of Ivo Lola Ribar"
+        },
+        "izvori": [
+          "https://www.spomenicinob.info/spomenicinob/public/ribnik",
+          "https://partizansko.info/wp-content/uploads/2023/09/spomenici-revoluciji-turisticki-vodic-1986.pdf"
+        ],
+        "dokaz": "Spomenicinob identifikuje originalno mesto sahrane i potvrđuje 1973/Ferhat Mulabegović. Jokić 1986, str. 101, potvrđuje kasniji prenos na Kalemegdan; naziv razjašnjen da putnik ne očekuje današnji grob sa ostacima."
+      },
+      {
+        "id": "herceg-novi-spomenik-nikoli-djurkovicu",
+        "prethodniZapis": {
+          "vrsta": "spomenik",
+          "posveta": [
+            "Q25468925"
+          ],
+          "opis": null,
+          "naziv": "Spomenik narodnom heroju Nikoli Đurkoviću",
+          "nazivEn": "Monument to People's Hero Nikola Đurković",
+          "autor": "Luka Tomanović",
+          "godina": "1968"
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno narodnom heroju [Nikoli Đurkoviću](Q25468925). Bista Luke Tomanovića postavljena je 1968. godine u parku istočno od Pošte.",
+            "en": "Dedicated to People’s Hero [Nikola Đurković](Q25468925). Luka Tomanović’s bust was installed in 1968 in the park east of the post office."
+          },
+          "naziv": "Bista Nikole Đurkovića",
+          "nazivEn": "Bust of Nikola Đurković",
+          "vrsta": "bista"
+        },
+        "izvori": [
+          "https://www.hercegnovi.me/downloads/Kultura/REGISTAR%20SPOMEN%20OB%20O%20HN.pdf"
+        ],
+        "dokaz": "Opštinski registar, upis 8, PDF str. 14 (indeks 13), navodi spomen-bistu, park istočno od Pošte, 1968. i Luku Tomanovića. Lokalna fotografija pregledana: poprsje na postamentu sa imenom Nikola Đurković i 1908–1943. Vrsta i naziv ispravljeni; ID i tačka sačuvani."
+      },
+      {
+        "id": "ilirska-bistrica-spomenik-tretji-prekomorski-briga",
+        "prethodniZapis": {
+          "godina": "1973",
+          "autor": "Jože Pohlen",
+          "posveta": [
+            "Q12782945"
+          ],
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Trećoj prekomorskoj brigadi](Q12782945). Figura borca sa puškom u britanskoj uniformi okružena je kamenovima sa podacima o sastavu, ratnom putu i poginulim pripadnicima brigade.",
+            "en": "Dedicated to the [Third Overseas Brigade](Q12782945). A figure of a fighter carrying a rifle and wearing a British uniform is surrounded by stones recording the brigade’s composition, wartime route and losses."
+          }
+        },
+        "izvori": [
+          "https://www.kamra.si/en/album-slovenije/prekomorci-so-dobili-spomenik-ilirska-bistrica-1973/",
+          "https://www.ilirska-bistrica.si/objava/853244"
+        ],
+        "dokaz": "Indeksirani opis Vojka Čeligoja na Kamri potvrđuje Jožeta Pohlena, uniformu, pušku, kamene elemente i otkrivanje 4.7.1973; opština potvrđuje odvojeni spomenik brigade ob Gregorčičevoj. Nije pomešan sa Lenassijevim spomenikom na Hribu svobode."
+      },
+      {
+        "id": "lipa-pri-komnu",
+        "prethodniZapis": {
+          "godina": "1985",
+          "autor": "Tone Svetina",
+          "posveta": [
+            "Q12782969"
+          ],
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno borbi Jurišnog bataljona [31. divizije NOVJ](Q12782969) kod Lipe 16. januara 1945. godine. Metalna kugla od ostataka oružja, uklopljena između zidova, delo je Toneta Svetine.",
+            "en": "Commemorates the battle fought by the Assault Battalion of the [31st NOVJ Division](Q12782969) near Lipa on 16 January 1945. Tone Svetina created the metal sphere made from weapon fragments and set between the walls."
+          }
+        },
+        "izvori": [
+          "https://partizanstvo.si/sl/podrobno/partizanskispomenik/4788/"
+        ],
+        "dokaz": "Karton 4788 i prepis natpisa potvrđuju bataljon, datum i elemente; Svetina je autor kugle, celinu su osmislili borci bataljona. Ne generalizujemo njegovo autorstvo na sve delove niti unosimo neproverenu ratnu brojnost."
+      },
+      {
+        "id": "ljubljana-spomenik-edvardu-kardelju",
+        "prethodniZapis": {
+          "godina": "1981",
+          "autor": "Drago Tršar & Fedja Košir",
+          "posveta": [
+            "Q268003"
+          ],
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Edvardu Kardelju](Q268003). Njegova prepoznatljiva figura stoji ispred grupe ljudi sa apstraktno oblikovanim licima.",
+            "en": "Dedicated to [Edvard Kardelj](Q268003). His recognizable figure stands in front of a group of people with abstract faces."
+          }
+        },
+        "izvori": [
+          "https://statues.vanderkrogt.net/object.php?record=si073&webpage=ST"
+        ],
+        "dokaz": "Terenski fotografski karton Renéa i Petera van der Krogta iz 2016. potvrđuje grupnu kompoziciju sa prepoznatljivim Kardeljem ispred apstraktnih figura i potpis Draga Tršara; ne unosimo različite navode o tačnom broju figura."
+      },
+      {
+        "id": "lome-gradnikova-brigada",
+        "prethodniZapis": {
+          "godina": "1980",
+          "autor": "Nande Rupnik",
+          "posveta": [
+            "Q19932010"
+          ],
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Gradnikovoj brigadi](Q19932010). Spomenik je otkriven 21. septembra 1980. godine.",
+            "en": "Dedicated to the [Gradnik Brigade](Q19932010). The memorial was unveiled on 21 September 1980."
+          }
+        },
+        "izvori": [
+          "https://partizanstvo.si/en/detail/partisanmemorial/1552/"
+        ],
+        "dokaz": "Sačuvana pojedinačna provera u data/provere/fotografije.json, ID lome-gradnikova-brigada, pid 1552, potvrđuje posvetu i tačan datum otkrivanja. Mrežno otvaranje obe jezičke putanje sada vraća cache miss; dopuna koristi ranije sačuvani dokaz, bez novih pretpostavki o događaju."
+      }
+    ],
+    "granice": "Prvih deset stavki liste. Dvojezični opisi; tekstualna posveta u Brčkom objedinjena sa opisom; povezane posvete sačuvane. Herceg Novi vrsta/nazivi, Gornji Ribnik nazivi. Koordinate, godine, autori i fotografije nisu menjani."
+  },
+  {
+    "odluka": "dopuna-prioriteti-narednih-50-2026-11-10",
+    "datum": "2026-11-10",
+    "pregledano": 50,
+    "dopunjeno": 49,
+    "uklonjenoVanObuhvata": 1,
+    "stavke": [
+      {
+        "id": "mali-pozarevac",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno zatočenicima [logora Banjica](Q698270), koje su nemačke snage ovde streljale 26. maja 1943. godine.",
+            "en": "Dedicated to prisoners of the [Banjica concentration camp](Q698270) executed here by German forces on 26 May 1943."
+          }
+        },
+        "izvori": [
+          "https://skulptura-hronologijaizlaganja.rs/h-content/uploads/1968/04/2.jugoslavija-spomenici-revoluciji-hronologijaizlaganja.pdf"
+        ],
+        "dokaz": "Indeksirani odlomak vodiča na akademskom sajtu Hronologija izlaganja potvrđuje datum, dovođenje iz Banjice i streljanje na ovom mestu. Broj žrtava nije dodat jer nije potreban za sažetak."
+      },
+      {
+        "id": "boris-kidric-square",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null,
+          "autor": "Stojan Batič"
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Borisu Kidriču](Q192041). Spomenik stoji u parku nasuprot železničkoj stanici; na njegovom postavljanju sarađivao je arhitekta Jaroslav Černigoj.",
+            "en": "Dedicated to [Boris Kidrič](Q192041). The monument stands in the park opposite the railway station; architect Jaroslav Černigoj collaborated on its installation."
+          },
+          "autor": "Stojan Batič & Jaroslav Černigoj"
+        },
+        "izvori": [
+          "https://partizanstvo.si/sl/podrobno/partizanskispomenik/2198/",
+          "https://pekarnamm.org/wp-content/uploads/2024/06/Slovenia_Maribor-SLO.pdf"
+        ],
+        "dokaz": "Karton Partizanstva 2198 i publikacija Pekarne potvrđuju 1963, Stojana Batiča i arhitektonsku saradnju Jaroslava Černigoja; dopunjen koautor."
+      },
+      {
+        "id": "medjuvodje-uremovac-spomenik-kluzu-i-cajavecu",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno partizanskim pilotima [Franji Kluzu](Q2614258) i [Rudiju Čajavecu](Q2614845). Ovo obeležje na Uremovcu odvojeno je od memorijala prvom partizanskom aerodromu u Međuvođu.",
+            "en": "Dedicated to Partisan pilots [Franjo Kluz](Q2614258) and [Rudi Čajavec](Q2614845). This Uremovac memorial is separate from the monument to the first Partisan airfield at Međuvođe."
+          }
+        },
+        "izvori": [
+          "https://www.spomenicinob.info/spomenicinob/public/kozarskadubica"
+        ],
+        "dokaz": "Katalog odvojeno navodi Uremovac 1987/Dragoljub Đokić, obelisk Međuvođe 1951. i aerodrom 1985. Ne prenose se datum otkrivanja obeliska ni avion na Uremovac."
+      },
+      {
+        "id": "nova-gorica",
+        "ishod": "uklonjeno-van-obuhvata",
+        "prethodniZapis": {
+          "id": "nova-gorica",
+          "koordinate": {
+            "lat": 45.9562168,
+            "lng": 13.6467661
+          },
+          "googleCid": "1406334863102890811",
+          "mesto": "Nova Gorica",
+          "slika": "slike/spomenici/nova-gorica.webp",
+          "slikaOdnos": 1.481,
+          "slikaPotpis": "Wikimedia Commons",
+          "naziv": "Ikarus",
+          "nazivEn": "Monument to Edvard Rusjan",
+          "godina": "1960",
+          "autor": "Janez Lenassi",
+          "posveta": [
+            "Q1291388"
+          ],
+          "vrsta": "spomenik",
+          "drzava": "Slovenia"
+        },
+        "razlog": "Ikarus je posvećen isključivo pioniru avijacije Edvardu Rusjanu (1886–1911), nema posvetu NOB-u ni Drugom svetskom ratu. Nije tvrdnja o fizičkom uklanjanju; stari unos se čuva ovde u celini.",
+        "izvori": [
+          "https://www.arhiv-novagorica.si/sl/poglavja/kultura/spomenik-edvardu-rusjanu-ikarus/",
+          "https://www.slovenia.info/uploads/tta/nova_gorica_zgodovinska_pot_pot_po_zgodovini_mladrga_mesta_2018_1.pdf"
+        ],
+        "sacuvanaFotografija": "izvori/pretrage/dopuna-prioriteti-2026-11-10/nova-gorica.webp"
+      },
+      {
+        "id": "ogulin",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [ustanku u NDH](Q142721) i narodnooslobodilačkoj borbi. Spomenik Vjekoslava Rukljača nalazi se kod autobuske stanice u Ogulinu.",
+            "en": "Dedicated to the [uprising in the Independent State of Croatia](Q142721) and the Partisan struggle. Vjekoslav Rukljač’s monument stands near the Ogulin bus station."
+          }
+        },
+        "izvori": [
+          "https://repozitorij.ffzg.unizg.hr/theses/ffzg%3A12882/show-file/0"
+        ],
+        "dokaz": "Istraživački rad FFZG, str. 42, fotografski dokumentuje Spomenik ustanku kod autobusnog kolodvora i razlikuje ga od uklonjenog spomenika Galge. Godina nije nađena.",
+        "nereseno": {
+          "polja": [
+            "godina"
+          ],
+          "razlog": "Pretrage Ogulin/Rukljač/Spomenik ustanku i rad FFZG potvrđuju predmet, ali ne godinu. Podaci o Galgama i Drežnici nisu datum ovog spomenika.",
+          "izvori": [
+            "https://repozitorij.ffzg.unizg.hr/theses/ffzg%3A12882/show-file/0"
+          ],
+          "uslovPonavljanja": "Novi dokaz koji se odnosi na ovaj konkretan predmet i traženo polje."
+        }
+      },
+      {
+        "id": "osankarica",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null,
+          "autor": "Slavko Tihec"
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno poslednjem boju [Pohorskog bataljona](Q6593680). Kamena obeležja u šumi označavaju mesta nekadašnjih zemunica i položaja, uz centralnu skulpturu.",
+            "en": "Dedicated to the last battle of the [Pohorje Battalion](Q6593680). Stone markers in the forest indicate the former dugouts and fighting positions around the central sculpture."
+          },
+          "autor": "Slavko Tihec & Branko Kocmut"
+        },
+        "izvori": [
+          "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2014-01-1812/odlok-o-razglasitvi-kraja-poslednjega-boja-pohorskega-bataljona-na-osankarici-za-kulturni-spomenik-drzavnega-pomena"
+        ],
+        "dokaz": "Odlok o proglašenju EŠD 418 za spomenik državnog značaja izričito navodi arhitektu Branka Kocmuta, Slavka Tiheca, 1959. i obeležene zemunice/kenotafe. Dopunjen arhitekta; ne prenosi se različit dan otkrivanja iz sekundarnih izvora."
+      },
+      {
+        "id": "podblica",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null,
+          "posveta": "Viktor Kejžar"
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Obeležava mesto pogibije Viktora Kejžara 28. avgusta 1942. godine. Spomenik Vinka Tušeka oblikovan je poput plamena.",
+            "en": "Marks the place where Viktor Kejžar was killed on 28 August 1942. Vinko Tušek’s memorial is shaped like a flame."
+          },
+          "posveta": null
+        },
+        "izvori": [
+          "https://static.avarc.org/poh/17253/nl/index.html",
+          "https://www.sistory.si/media/legacy/publikacije/1-1000/773/Dokumenti_organov_in_organizacij_narodnoosvobodilnega_gibanja_v_Sloveniji_-_knjiga_10_%2B_dodatek.pdf"
+        ],
+        "dokaz": "Sačuvani Geopedia/Partizanstvo opis potvrđuje plamen, Tušeka i 1980. Dokumenti INZ, str. 74, potvrđuju datum pogibije. Nije preuzet pogrešan navod o mestu rođenja iz sekundarnog članka."
+      },
+      {
+        "id": "rama-hydro-power-station",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null,
+          "vrsta": "spomenik"
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Obeležava partizansku borbu protiv italijanske vojne kolone u dolini Rame 17. februara 1943. godine. Betonski reljef Marijana Kockovića postavljen je iznad ulaza u podzemnu mašinsku zgradu hidroelektrane.",
+            "en": "Commemorates a Partisan engagement against an Italian military column in the Rama valley on 17 February 1943. Marijan Kocković’s concrete relief stands above the entrance to the hydroelectric station’s underground powerhouse."
+          },
+          "vrsta": "reljef"
+        },
+        "izvori": [
+          "https://www.spomenikdatabase.org/makljen"
+        ],
+        "dokaz": "Terenski profil, odeljak Monument at Rama Power Station, izričito opisuje reljef iz 1968, ulaz u mašinsku zgradu i događaj. Vrsta ispravljena u reljef; postojeća Q-posveta bitki za Prozor sačuvana, bez tvrdnje da je ovaj ulaz samo mesto bitke za grad."
+      },
+      {
+        "id": "sisak",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Sisačkom partizanskom odredu](Q1858769). Spomenik se nalazi u šumi Brezovica, mestu vezanom za početke partizanskog otpora u Hrvatskoj.",
+            "en": "Dedicated to the [Sisak Partisan Detachment](Q1858769). The monument stands in Brezovica Forest, a site associated with the beginnings of Partisan resistance in Croatia."
+          }
+        },
+        "izvori": [
+          "https://www.predsjednik.hr/vijesti/predsjednik-milanovic-dan-antifasisticke-borbe-ne-bi-postojao-bez-tudmana-jer-je-on-dio-toga/",
+          "https://www.spomenikdatabase.org/sisak"
+        ],
+        "dokaz": "Posveta i mesto već postoje u zapisu; pregled profila Sisak potvrđuje kontekst Brezovice. Bez dopisivanja datuma osnivanja odreda koji ovim pregledom nije zasebno potvrđen."
+      },
+      {
+        "id": "sisak-caprag",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Edvardu Kardelju](Q268003). Dušan Džamonja oblikovao je spomenik kao skup oštrih, geometrijskih bronzanih formi.",
+            "en": "Dedicated to [Edvard Kardelj](Q268003). Dušan Džamonja designed the monument as a cluster of sharp, geometric bronze forms."
+          }
+        },
+        "izvori": [
+          "https://www.spomenikdatabase.org/sisak"
+        ],
+        "dokaz": "Profil Sisak, odeljak Caprag, opisuje geometrijske bronzane forme; navodi 1980. naspram postojećeg 1981. Razlika nije automatski prepisana bez dokaza da li je reč o izradi ili postavljanju.",
+        "nereseno": {
+          "polja": [
+            "godina — razlika 1980/1981"
+          ],
+          "razlog": "Novi pregled profila Sisak donosi 1980, baza 1981; potrebna datacija konkretnog odlivka/otkrivanja. Postojeća godina sačuvana.",
+          "izvori": [
+            "https://www.spomenikdatabase.org/sisak"
+          ],
+          "uslovPonavljanja": "Novi dokaz koji se odnosi na ovaj konkretan predmet i traženo polje."
+        }
+      },
+      {
+        "id": "sibenik",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Radi Končaru](Q640602) i drugim antifašistima streljanim na Šubićevcu. Memorijal obeležava stratište italijanskih okupacionih snaga iz 1941. i 1942. godine.",
+            "en": "Dedicated to [Rade Končar](Q640602) and other anti-fascists executed at Šubićevac. The memorial marks a site used for executions by Italian occupation forces in 1941 and 1942."
+          }
+        },
+        "izvori": [
+          "https://partizansko.info/wp-content/uploads/2023/09/spomenici-revoluciji-turisticki-vodic-1986.pdf"
+        ],
+        "dokaz": "Jokić 1986, str. 426, odeljak Šibenik, potvrđuje tri grupe streljanih, Radovanija i Kolacija. Izbegnut tačan broj Končarovih drugova jer dostupni izvori daju različite zbirove."
+      },
+      {
+        "id": "topusko-3rd-session-zavnoh-2",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Trećem zasedanju ZAVNOH-a](Q17490543) u Topuskom. Spomenik Vanje Radauša podseća na ratno političko okupljanje predstavnika narodnooslobodilačkog pokreta.",
+            "en": "Dedicated to the [Third Session of ZAVNOH](Q17490543) in Topusko. Vanja Radauš’s monument commemorates the wartime political gathering of representatives of the Partisan movement."
+          }
+        },
+        "izvori": [
+          "https://znaci.org/00003/920.pdf#page=436"
+        ],
+        "dokaz": "Opis sažima postojeći naziv, povezanu/tekstualnu posvetu i podatke punog zapisa baze; nisu dodavane nove biografske činjenice niti tvrđena nezavisna istorijska potvrda. Izvor zapisa je početni trag, nije ponovo pročitan ako nije posebno navedeno."
+      },
+      {
+        "id": "zagreb-ribnjak-ivan-goran-kovacic",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Ivanu Goranu Kovačiću](Q835790). Spomenik Vojina Bakića u parku Ribnjak nosi natpis „GORAN 1913.-1943.“.",
+            "en": "Dedicated to [Ivan Goran Kovačić](Q835790). Vojin Bakić’s monument in Ribnjak Park bears the inscription “GORAN 1913.-1943.”."
+          }
+        },
+        "izvori": [
+          "https://www.openstreetmap.org/way/804640648"
+        ],
+        "dokaz": "Opis sažima postojeći naziv, povezanu/tekstualnu posvetu i podatke punog zapisa baze; nisu dodavane nove biografske činjenice niti tvrđena nezavisna istorijska potvrda. Izvor zapisa je početni trag, nije ponovo pročitan ako nije posebno navedeno."
+      },
+      {
+        "id": "kavadarci-naroden-heroj-kiro-atanasovski-nalbatot",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null,
+          "godina": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Kiru Atanasovskom](Q2334991) i [Dimču Mirčevu](Q12278749), poginulim u borbi sa bugarskim snagama u Kavadarcima 7. aprila 1944. godine. Memorijal čine visoki stub i zid sa bronzanim reljefom.",
+            "en": "Dedicated to [Kiro Atanasovski](Q2334991) and [Dimče Mirčev](Q12278749), killed fighting Bulgarian forces in Kavadarci on 7 April 1944. The memorial consists of a tall pillar and a wall bearing a bronze relief."
+          },
+          "godina": "1959"
+        },
+        "izvori": [
+          "https://www.spomenikdatabase.org/kavadarci"
+        ],
+        "dokaz": "Terenski profil izričito datira odvojeni spomenik Kiro Krstev & Dimče Mirčev 1959/Tome Andreevski; nije uzeta godina kosturnice 1976. Fotografije i natpis odgovaraju istom paru heroja."
+      },
+      {
+        "id": "negotino-manco-maliminov",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null,
+          "posveta": "Mančo Maliminov"
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno Manču Maliminovu, partizanskom borcu iz Negotina kojeg su bugarske okupacione snage ubile 1943. godine. Skulptura ga prikazuje otkrivenih grudi.",
+            "en": "Dedicated to Mančo Maliminov, a Partisan from Negotino killed by Bulgarian occupation forces in 1943. The sculpture depicts him with a bare chest."
+          },
+          "posveta": null
+        },
+        "izvori": [
+          "https://www.spomenikdatabase.org/kavadarci"
+        ],
+        "dokaz": "Profil Kavadarci, odeljak Negotino/Mančo Maliminov, opisuje događaj, figuru i 1977/Tome Andreevski. Ne meša se sa zasebnom bistom Maliminova na Commonsu."
+      },
+      {
+        "id": "skopje-dusko-popovik",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Dušku Popoviću](Q12279253). Spomen-obeležje označava mesto njegove kuće u skopskom Novom Maalu.",
+            "en": "Dedicated to [Duško Popović](Q12279253). The memorial marks the site of his house in Skopje’s Novo Maalo district."
+          }
+        },
+        "izvori": [
+          "https://www.spomenikdatabase.org/skopje"
+        ],
+        "dokaz": "Opis sažima postojeći naziv, povezanu/tekstualnu posvetu i podatke punog zapisa baze; nisu dodavane nove biografske činjenice niti tvrđena nezavisna istorijska potvrda. Izvor zapisa je početni trag, nije ponovo pročitan ako nije posebno navedeno."
+      },
+      {
+        "id": "seskovo",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno formiranju Prve makedonske, odnosno [41. makedonske divizije NOVJ](Q2340474), u Šeškovu 25. septembra 1944. godine.",
+            "en": "Dedicated to the formation of the First Macedonian, also known as the [41st Macedonian Division](Q2340474), at Šeškovo on 25 September 1944."
+          }
+        },
+        "izvori": [
+          "https://www.muzejavnoj.ba/en/virtualna_tura/makedonija-3/"
+        ],
+        "dokaz": "Muzej Drugog zasedanja AVNOJ-a uz istorijsku fotografiju izričito navodi formiranje 41. divizije u Šeškovu 25.9.1944; identitet posvete iz baze sačuvan."
+      },
+      {
+        "id": "zagreb-mirogoj-spomenik-kozarackoj-djeci",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null,
+          "godina": null,
+          "autor": "Stevo Luketić",
+          "posveta": "Za oko 400 kozaračke djece preminule u Jasenovcu, Lepoglavi, Jastrebarskom i drugim logorima."
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno kozaračkoj deci preminuloj u logorima Jasenovac, Lepoglava, Jastrebarsko i drugim logorima. Spomen-skulptura na Mirogoju izrađena je od nerđajućeg čelika.",
+            "en": "Dedicated to children from Kozara who died in the Jasenovac, Lepoglava, Jastrebarsko and other camps. The memorial sculpture at Mirogoj is made of stainless steel."
+          },
+          "godina": "1969",
+          "autor": "Stevan Luketić",
+          "posveta": null
+        },
+        "izvori": [
+          "https://luketicstevan.com/?page_id=453",
+          "https://hbl.lzmk.hr/clanak/luketic-stevan",
+          "https://znaci.org/00003/679.pdf#page=253"
+        ],
+        "dokaz": "Posveta preuzeta iz postojećeg tekstualnog polja bez proširivanja; izostavljen približan broj. Autorski portfolio i HBL potvrđuju Mirogoj 1969, materijal i puno ime Stevan Luketić. Stevo je ranije evidentiran kao varijanta istog imena, ne drugi autor."
+      },
+      {
+        "id": "gospic",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno žrtvama [logora Jadovno](Q1284521). Spomenik Vanje Radauša u Gospiću čuvao je sećanje na stradale u ustaškom logorskom sistemu.",
+            "en": "Dedicated to victims of the [Jadovno concentration camp](Q1284521). Vanja Radauš’s monument in Gospić commemorated those killed in the Ustaša camp system."
+          }
+        },
+        "izvori": [
+          "https://gaa.mhz.hr/storage/upload/calendar_activities/anali_32-35_-_za_web_12652.pdf"
+        ],
+        "dokaz": "Istraživanje Antonije Došen razlikuje predstavljanje modela 1955. od izvođenja 1961. Potvrđena posveta; godina ostaje kao otvorena razlika do pregleda cele datacije konkretnog sklopa, bez automatske zamene iz isečka.",
+        "nereseno": {
+          "polja": [
+            "godina — model 1955 / izvođenje 1961"
+          ],
+          "razlog": "Anali GAA razlikuju predstavljanje modela od izvedenog spomenika. Potrebno potvrditi dataciju i obuhvat našeg sklopa; nije proglašena potvrđenom postojeća 1955.",
+          "izvori": [
+            "https://gaa.mhz.hr/storage/upload/calendar_activities/anali_32-35_-_za_web_12652.pdf"
+          ],
+          "uslovPonavljanja": "Novi dokaz koji se odnosi na ovaj konkretan predmet i traženo polje."
+        }
+      },
+      {
+        "id": "osijek-spomenik-titu-memorijalni-park",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Josipu Brozu Titu](Q9161). Spomenik Dušana Nikolića pripadao je nekadašnjem memorijalnom parku u osječkom Donjem gradu i danas je uklonjen.",
+            "en": "Dedicated to [Josip Broz Tito](Q9161). Dušan Nikolić’s monument belonged to the former memorial park in Osijek’s Donji grad and has since been removed."
+          }
+        },
+        "izvori": [
+          "Milan Balić, Spomenici revolucionarnog radničkog pokreta, NOR-a i socijalističke izgradnje na području općine Osijek (izvori/knjige/osijek-balic)"
+        ],
+        "dokaz": "Opis sažima postojeći naziv, povezanu/tekstualnu posvetu i podatke punog zapisa baze; nisu dodavane nove biografske činjenice niti tvrđena nezavisna istorijska potvrda. Izvor zapisa je početni trag, nije ponovo pročitan ako nije posebno navedeno."
+      },
+      {
+        "id": "beograd-dedinje-spomenik-josipu-brozu-titu",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Josipu Brozu Titu](Q9161). Figura je delo Antuna Augustinčića u okviru beogradskog memorijalnog prostora na Dedinju.",
+            "en": "Dedicated to [Josip Broz Tito](Q9161). The figure is a work by Antun Augustinčić within the memorial grounds at Dedinje in Belgrade."
+          }
+        },
+        "izvori": [
+          "https://commons.wikimedia.org/wiki/File:Statue_of_the_marshal_Tito.JPG"
+        ],
+        "dokaz": "Opis sažima postojeći naziv, povezanu/tekstualnu posvetu i podatke punog zapisa baze; nisu dodavane nove biografske činjenice niti tvrđena nezavisna istorijska potvrda. Izvor zapisa je početni trag, nije ponovo pročitan ako nije posebno navedeno.",
+        "nereseno": {
+          "polja": [
+            "godina"
+          ],
+          "razlog": "Pretraga Dedinje/Muzej Jugoslavije/Augustinčić daje 1948. za model ili srodne primerke, ali nije pouzdano razdvojena godina našeg odlivka i postavljanja. Ostaje bez godine.",
+          "izvori": [
+            "https://doi.ub.kg.ac.rs/doi/smmdp3-77j/",
+            "https://www.srbijaplus.net/kuca-cveca-i-muzej-25-maj.htm"
+          ],
+          "uslovPonavljanja": "Novi dokaz koji se odnosi na ovaj konkretan predmet i traženo polje."
+        }
+      },
+      {
+        "id": "beograd-partizan-na-vecnoj-strazi",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null,
+          "godina": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno borcima za [oslobođenje Beograda](Q328357) 1944. godine. Figura partizana na večnoj straži postavljena je ispred ulaza u memorijalno groblje.",
+            "en": "Dedicated to fighters for the [liberation of Belgrade](Q328357) in 1944. The figure of a Partisan on eternal guard stands outside the entrance to the memorial cemetery."
+          },
+          "godina": "1988"
+        },
+        "izvori": [
+          "https://arhiv.rosalux.rs/userfiles/files/Prirucnik_za_citanje_Beograda_1941-44.pdf",
+          "https://beogradskonasledje.rs/kd/zavod/palilula/groblje_oslobodilaca_beograda.html"
+        ],
+        "dokaz": "Priručnik za čitanje Beograda izričito datira Stankovićevu figuru ispred groblja 1988; zavodski karton 1954. odnosi se na groblje, reljefe i Crvenoarmejca. Nije uzeta godina 1954. za kasniju figuru."
+      },
+      {
+        "id": "beograd-kidric",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Borisu Kidriču](Q192041). Skulptura Nikole Jankovića premeštena je sa prvobitnog mesta kod Saveznog izvršnog veća u park Muzeja savremene umetnosti.",
+            "en": "Dedicated to [Boris Kidrič](Q192041). Nikola Janković’s sculpture was moved from its original site near the Federal Executive Council building to the Museum of Contemporary Art’s sculpture park."
+          }
+        },
+        "izvori": [
+          "https://www.openstreetmap.org/node/8379658062"
+        ],
+        "dokaz": "Opis sažima postojeći naziv, povezanu/tekstualnu posvetu i podatke punog zapisa baze; nisu dodavane nove biografske činjenice niti tvrđena nezavisna istorijska potvrda. Izvor zapisa je početni trag, nije ponovo pročitan ako nije posebno navedeno."
+      },
+      {
+        "id": "celarevo",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Zdravku Čelaru](Q16084284). Figura Aleksandra Zarina predstavlja spomenik ličnosti po kojoj Čelarevo nosi ime.",
+            "en": "Dedicated to [Zdravko Čelar](Q16084284). Aleksandar Zarin’s figure commemorates the person after whom Čelarevo is named."
+          }
+        },
+        "izvori": [
+          "https://afterart.files.wordpress.com/2017/05/spomenici-narodnooslobodilacke-borbe-i-revolucije-sr-srbije-1941-45_popovic-zuma.pdf#page=125"
+        ],
+        "dokaz": "Opis sažima postojeći naziv, povezanu/tekstualnu posvetu i podatke punog zapisa baze; nisu dodavane nove biografske činjenice niti tvrđena nezavisna istorijska potvrda. Izvor zapisa je početni trag, nije ponovo pročitan ako nije posebno navedeno."
+      },
+      {
+        "id": "delnice",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [ustanku](Q142721) i narodnooslobodilačkoj borbi u Gorskom kotaru. Spomenik je delo Belizara Bahorića.",
+            "en": "Dedicated to the [uprising](Q142721) and the Partisan struggle in Gorski kotar. The monument is a work by Belizar Bahorić."
+          }
+        },
+        "izvori": [],
+        "dokaz": "Opis sažima postojeći naziv, povezanu/tekstualnu posvetu i podatke punog zapisa baze; nisu dodavane nove biografske činjenice niti tvrđena nezavisna istorijska potvrda. Izvor zapisa je početni trag, nije ponovo pročitan ako nije posebno navedeno."
+      },
+      {
+        "id": "donja-poljana-spomenik-martinu-pusteku",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null,
+          "posveta": "Martin Puštek"
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno Martinu Pušteku. Spomenik Antuna Augustinčića u Donjoj Poljani otkriven je 4. jula 1970. godine.",
+            "en": "Dedicated to Martin Puštek. Antun Augustinčić’s monument in Donja Poljana was unveiled on 4 July 1970."
+          },
+          "posveta": null
+        },
+        "izvori": [
+          "https://dizbi.hazu.hr/d17b118n/main/p/g2/z2j/pg2z2jt4am5g.pdf"
+        ],
+        "dokaz": "Akademski katalog HAZU u hronologiji Augustinčića izričito navodi otkrivanje spomenika Martinu Pušteku 4.7.1970. u Poljani Dolnjoj kod Varaždinskih Toplica."
+      },
+      {
+        "id": "donji-lapac-stojan-matic",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Stojanu Matiću](Q3741975). Spomenik Vjekoslava Rukljača nalazi se u Donjem Lapcu.",
+            "en": "Dedicated to [Stojan Matić](Q3741975). Vjekoslav Rukljač’s monument stands in Donji Lapac."
+          }
+        },
+        "izvori": [
+          "https://donjilapac.hr/udruge/"
+        ],
+        "dokaz": "Opis sažima postojeći naziv, povezanu/tekstualnu posvetu i podatke punog zapisa baze; nisu dodavane nove biografske činjenice niti tvrđena nezavisna istorijska potvrda. Izvor zapisa je početni trag, nije ponovo pročitan ako nije posebno navedeno."
+      },
+      {
+        "id": "glina",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno žrtvama [pokolja u Glini](Q1290410) 1941. godine. Figura Antuna Augustinčića čuva sećanje na ubijene civile.",
+            "en": "Dedicated to victims of the [Glina massacres](Q1290410) of 1941. Antun Augustinčić’s figure commemorates the murdered civilians."
+          }
+        },
+        "izvori": [
+          "https://znaci.org/00003/736.php?broj=217"
+        ],
+        "dokaz": "Opis sažima postojeći naziv, povezanu/tekstualnu posvetu i podatke punog zapisa baze; nisu dodavane nove biografske činjenice niti tvrđena nezavisna istorijska potvrda. Izvor zapisa je početni trag, nije ponovo pročitan ako nije posebno navedeno."
+      },
+      {
+        "id": "graska-gora",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [14. slovenskoj diviziji NOVJ](Q6594051). Figura Antuna Augustinčića stoji na Graškoj Gori.",
+            "en": "Dedicated to the [14th Slovenian Division](Q6594051). Antun Augustinčić’s figure stands at Graška Gora."
+          }
+        },
+        "izvori": [],
+        "dokaz": "Opis sažima postojeći naziv, povezanu/tekstualnu posvetu i podatke punog zapisa baze; nisu dodavane nove biografske činjenice niti tvrđena nezavisna istorijska potvrda. Izvor zapisa je početni trag, nije ponovo pročitan ako nije posebno navedeno."
+      },
+      {
+        "id": "jabuka-buha",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null,
+          "godina": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Bošku Buhi](Q1280823). Spomenik Mire Letice u memorijalnom kompleksu na Jabuci otkriven je 27. septembra 1970. godine.",
+            "en": "Dedicated to [Boško Buha](Q1280823). Mira Letica’s statue in the Jabuka memorial complex was unveiled on 27 September 1970."
+          },
+          "godina": "1970"
+        },
+        "izvori": [
+          "https://www.turistickiklub.com/sadrzaj/memorijalni-kompleks-bosko-buha",
+          "https://znaci.org/00003/920.pdf#page=130"
+        ],
+        "dokaz": "Istoričar Vladimir Lukić u Turističkom vodiču Srbije razdvaja kameni beleg 1966, figuru Mire Letice 1970. i kasnije biste. Godina pripada ovoj figuri, ne osnivanju celog kompleksa."
+      },
+      {
+        "id": "klanjec-spomenik-josipu-brozu-titu",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null,
+          "godina": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Josipu Brozu Titu](Q9161). Galerijski katalog datira ovaj bronzani odlivak 1981. godinom.",
+            "en": "Dedicated to [Josip Broz Tito](Q9161). The Gallery catalogue dates this bronze cast to 1981."
+          },
+          "godina": "1981"
+        },
+        "izvori": [
+          "https://www.gaa.mhz.hr/storage/upload/calendar_activities/anali_40%E2%80%9341_-_za_web_124717.pdf"
+        ],
+        "dokaz": "Vujčić, Anali GAA 40–41, str. 54–55: GA-371, bronca 1981; lokalna fotografija pregledana."
+      },
+      {
+        "id": "kumrovec-spomenik-josipu-brozu-titu",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Josipu Brozu Titu](Q9161). Prvi primerak figure „Tito u šinjelu“ postavljen je 1948. ispred njegove rodne kuće.",
+            "en": "Dedicated to [Josip Broz Tito](Q9161). The first cast of “Tito in an Overcoat” was installed outside his birthplace in 1948."
+          }
+        },
+        "izvori": [
+          "https://www.gaa.mhz.hr/storage/upload/calendar_activities/anali_40%E2%80%9341_-_za_web_124717.pdf"
+        ],
+        "dokaz": "Isti katalog, str. 55: prvi odlivak postavljen u Kumrovcu 1948."
+      },
+      {
+        "id": "kursumlija-drinka-pavlovic",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Drinki Pavlović](Q114997). Figura se nalazi u dvorištu osnovne škole u Kuršumliji koja nosi njeno ime.",
+            "en": "Dedicated to [Drinka Pavlović](Q114997). The figure stands in the courtyard of the primary school named after her in Kuršumlija."
+          }
+        },
+        "izvori": [],
+        "dokaz": "Opis sažima postojeći naziv, povezanu/tekstualnu posvetu i podatke punog zapisa baze; nisu dodavane nove biografske činjenice niti tvrđena nezavisna istorijska potvrda. Izvor zapisa je početni trag, nije ponovo pročitan ako nije posebno navedeno.",
+        "nereseno": {
+          "polja": [
+            "puno ime autora"
+          ],
+          "razlog": "Pretrage latinicom Drinka/Drinke/Drinki Pavlović i Stojnić nisu dale pouzdan identitet koautora V. Stojnića uz ovo delo. Inicijal nije razrešen nagađanjem.",
+          "izvori": [
+            "https://zoranpa.blogspot.com/2021/04/kursumlijske-fudbalske-carolije.html?m=0"
+          ],
+          "uslovPonavljanja": "Novi dokaz koji se odnosi na ovaj konkretan predmet i traženo polje."
+        }
+      },
+      {
+        "id": "ljubljana-spomenik-borisu-kidricu",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Borisu Kidriču](Q192041). Zdenko Kalin prikazao ga je kao govornika, sa telom nagnutim napred, rukama na bokovima i otvorenim ustima.",
+            "en": "Dedicated to [Boris Kidrič](Q192041). Zdenko Kalin depicted him as a speaker, with his body leaning forward, hands on his hips and mouth open."
+          }
+        },
+        "izvori": [
+          "https://uifs1.zrc-sazu.si/files/AHAS_18_2.pdf",
+          "https://partizanstvo.si/sl/podrobno/partizanskispomenik/876/"
+        ],
+        "dokaz": "Izvorno istraživanje ZRC SAZU, AHAS 18/2, str. 153, objašnjava pozu govornika; karton 876 potvrđuje otkrivanje 21.7.1960. Bez popularne netačne tvrdnje da viče na prolaznike."
+      },
+      {
+        "id": "loznica",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Vladi Zečeviću](Q11255985). Spomenik u Loznici delo je Antuna Augustinčića.",
+            "en": "Dedicated to [Vlado Zečević](Q11255985). The monument in Loznica is a work by Antun Augustinčić."
+          }
+        },
+        "izvori": [],
+        "dokaz": "Opis sažima postojeći naziv, povezanu/tekstualnu posvetu i podatke punog zapisa baze; nisu dodavane nove biografske činjenice niti tvrđena nezavisna istorijska potvrda. Izvor zapisa je početni trag, nije ponovo pročitan ako nije posebno navedeno."
+      },
+      {
+        "id": "opovo-spomenik-radovanu-cosicu",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null,
+          "posveta": "Radovan Ćosić Bata"
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno Radovanu Ćosiću Bati. Skulptura Stevana Bodnarova podignuta je 1968. godine dobrovoljnim prilozima građana Opova.",
+            "en": "Dedicated to Radovan Ćosić Bata. Stevan Bodnarov’s sculpture was erected in 1968 through voluntary contributions from the people of Opovo."
+          },
+          "posveta": null
+        },
+        "izvori": [
+          "https://www.glasopova.rs/?author=1&page=991&paged=182"
+        ],
+        "dokaz": "Lokalna redakcija Glas Opova izričito potvrđuje Bodnarova, 1968. i dobrovoljne priloge građana; nije dodavana detaljna biografija."
+      },
+      {
+        "id": "osijek-spomenik-augustu-cesarcu",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Augustu Cesarcu](Q761055). Figura Stjepana Gračana nalazi se u Osijeku.",
+            "en": "Dedicated to [August Cesarec](Q761055). Stjepan Gračan’s figure stands in Osijek."
+          }
+        },
+        "izvori": [
+          "https://www.openstreetmap.org/node/943401685"
+        ],
+        "dokaz": "Opis sažima postojeći naziv, povezanu/tekstualnu posvetu i podatke punog zapisa baze; nisu dodavane nove biografske činjenice niti tvrđena nezavisna istorijska potvrda. Izvor zapisa je početni trag, nije ponovo pročitan ako nije posebno navedeno."
+      },
+      {
+        "id": "pljevlja-fallen-fighters",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno poginulim borcima [Pljevaljske bitke](Q4087316). Skulptura je delo Draga Đurovića.",
+            "en": "Dedicated to fighters killed in the [Battle of Pljevlja](Q4087316). The sculpture is a work by Drago Đurović."
+          }
+        },
+        "izvori": [],
+        "dokaz": "Opis sažima postojeći naziv, povezanu/tekstualnu posvetu i podatke punog zapisa baze; nisu dodavane nove biografske činjenice niti tvrđena nezavisna istorijska potvrda. Izvor zapisa je početni trag, nije ponovo pročitan ako nije posebno navedeno."
+      },
+      {
+        "id": "podgorica-tito",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Josipu Brozu Titu](Q9161). U Podgorici je 2018. postavljen primerak figure Antuna Augustinčića.",
+            "en": "Dedicated to [Josip Broz Tito](Q9161). A version of Antun Augustinčić’s figure was installed in Podgorica in 2018."
+          }
+        },
+        "izvori": [
+          "https://www.openstreetmap.org/node/6143058905"
+        ],
+        "dokaz": "Opis sažima postojeći naziv, povezanu/tekstualnu posvetu i podatke punog zapisa baze; nisu dodavane nove biografske činjenice niti tvrđena nezavisna istorijska potvrda. Izvor zapisa je početni trag, nije ponovo pročitan ako nije posebno navedeno."
+      },
+      {
+        "id": "porec-joakimu-rakovcu",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null,
+          "godina": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Joakimu Rakovcu](Q12747705), jednom od organizatora antifašističkog otpora u Istri. Brončani kip Vinka Matkovića postavljen je 1954. na trgu u Poreču koji nosi Rakovčevo ime.",
+            "en": "Dedicated to [Joakim Rakovac](Q12747705), an organizer of anti-fascist resistance in Istria. Vinko Matković’s bronze statue was installed in 1954 on the Poreč square named after Rakovac."
+          },
+          "godina": "1954"
+        },
+        "izvori": [
+          "https://www.muzejporec.hr/hr/o-muzeju/zgrade-prostori/memorijalna-kuca-joa/"
+        ],
+        "dokaz": "Vremeplov Zavičajnog muzeja Poreštine izričito navodi 1954, bronzani kip i Vinka Matkovića. Nije preuzet pogrešan navod iz Morski.hr koji fotografa Željka Cetinu predstavlja kao vajara."
+      },
+      {
+        "id": "prijedor-mladen-stojanovic",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Mladenu Stojanoviću](Q1263753). Figura u Prijedoru delo je Sretena Stojanovića.",
+            "en": "Dedicated to [Mladen Stojanović](Q1263753). The figure in Prijedor is a work by Sreten Stojanović."
+          }
+        },
+        "izvori": [],
+        "dokaz": "Opis sažima postojeći naziv, povezanu/tekstualnu posvetu i podatke punog zapisa baze; nisu dodavane nove biografske činjenice niti tvrđena nezavisna istorijska potvrda. Izvor zapisa je početni trag, nije ponovo pročitan ako nije posebno navedeno."
+      },
+      {
+        "id": "radanovci",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Žikici Jovanoviću Špancu](Q1280992). Spomenik Miroslava Protića nalazi se u Radanovcima.",
+            "en": "Dedicated to [Žikica Jovanović Španac](Q1280992). Miroslav Protić’s monument stands in Radanovci."
+          }
+        },
+        "izvori": [],
+        "dokaz": "Opis sažima postojeći naziv, povezanu/tekstualnu posvetu i podatke punog zapisa baze; nisu dodavane nove biografske činjenice niti tvrđena nezavisna istorijska potvrda. Izvor zapisa je početni trag, nije ponovo pročitan ako nije posebno navedeno."
+      },
+      {
+        "id": "sarajevo-marijin-dvor-spomenik-josipu-brozu-titu",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Josipu Brozu Titu](Q9161). Augustinčićeva figura stoji u prostoru nekadašnje kasarne „Maršal Tito“, današnjeg univerzitetskog kampusa u Sarajevu.",
+            "en": "Dedicated to [Josip Broz Tito](Q9161). Augustinčić’s figure stands in the former “Maršal Tito” barracks, now the University of Sarajevo campus."
+          }
+        },
+        "izvori": [
+          "https://www.spomenikdatabase.org/post/a-history-of-tito-s-most-famous-statue"
+        ],
+        "dokaz": "Terenski autor izričito razdvaja kampus (godina nepoznata) od primerka u Istorijskom muzeju BiH, nabavljenog 1967; 1967 nije preneta na ovaj predmet.",
+        "nereseno": {
+          "polja": [
+            "godina"
+          ],
+          "razlog": "Pregled istorije Augustinčićeve statue izričito navodi nepoznatu godinu primerka na kampusu. Muzejski primerak u Sarajevu 1967. drugi je predmet.",
+          "izvori": [
+            "https://www.spomenikdatabase.org/post/a-history-of-tito-s-most-famous-statue"
+          ],
+          "uslovPonavljanja": "Novi dokaz koji se odnosi na ovaj konkretan predmet i traženo polje."
+        }
+      },
+      {
+        "id": "senj-spomenik-tri-mornara",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null,
+          "godina": null,
+          "posveta": "Tri Mornara"
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno partizanima-mornarima. Bronzana kompozicija „Na vječnoj straži“, poznata kao „Tri mornara“, izrađena je 1957. i postavljena 1958. godine u Senju.",
+            "en": "Dedicated to Partisan sailors. The bronze composition “On Eternal Guard”, known as “Three Sailors”, was created in 1957 and installed in Senj in 1958."
+          },
+          "godina": "1958",
+          "posveta": null
+        },
+        "izvori": [
+          "https://hrcak.srce.hr/file/169116",
+          "https://www.novilist.hr/rijeka-regija/lika-senj/izlozba-kipara-i-slikara-ivana-vukusica-otvorena-u-senju/",
+          "https://www.novilist.hr/rijeka-regija/lika-senj/vracen-spomenik-na-senjskom-pavlinskom-trgu-tri-mornara-ostala-bez-visokog-postolja-i-natpisa/"
+        ],
+        "dokaz": "Arheološki izveštaj autora Glavaš i Glavičić, Senjski zbornik 39/2012, potvrđuje postavljanje 1958. Izveštaj sa muzejske izložbe razdvaja izradu 1957. i postavljanje 1958. Raniji wiki nije davao godinu."
+      },
+      {
+        "id": "sutjeska-spomenik-mileti-okiljevicu",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Mileti Okiljeviću](Q31183113). Spomenik Aleksandra Zarina nalazi se u banatskom selu Sutjeska.",
+            "en": "Dedicated to [Mileta Okiljević](Q31183113). Aleksandar Zarin’s monument stands in the Banat village of Sutjeska."
+          }
+        },
+        "izvori": [
+          "https://commons.wikimedia.org/wiki/File%3ASpomenik_Mileta_Okiljevi%C4%87_Sutjeska.jpg"
+        ],
+        "dokaz": "Opis sažima postojeći naziv, povezanu/tekstualnu posvetu i podatke punog zapisa baze; nisu dodavane nove biografske činjenice niti tvrđena nezavisna istorijska potvrda. Izvor zapisa je početni trag, nije ponovo pročitan ako nije posebno navedeno."
+      },
+      {
+        "id": "tosko-celo-spomenik-kurirjem-dolomitskega-odreda",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno kuririma [Dolomitskog partizanskog odreda](Q134430097). Figura mladog kurira sa porukom u ruci postavljena je uz put za Toško Čelo.",
+            "en": "Dedicated to couriers of the [Dolomites Partisan Detachment](Q134430097). The figure of a young courier holding a message stands beside the road to Toško Čelo."
+          }
+        },
+        "izvori": [
+          "https://static.avarc.org/poh/18657/"
+        ],
+        "dokaz": "Arhivski fotografski karton sa prenetim Partizanstvo opisom potvrđuje figuru sa porukom, Stana Keržiča i položaj; nije izmišljen doslovni sadržaj poruke."
+      },
+      {
+        "id": "valjevo-spanac",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Žikici Jovanoviću Špancu](Q1280992). Figura u Valjevu delo je Vide Jocić.",
+            "en": "Dedicated to [Žikica Jovanović Španac](Q1280992). The figure in Valjevo is a work by Vida Jocić."
+          }
+        },
+        "izvori": [
+          "https://www.novosti.rs/vesti/naslovna/aktuelno.69.html%3A229958-Nemojte-da-streljate-i-istoriju",
+          "https://commons.wikimedia.org/wiki/File%3ASpomenici%2C_Valjevo_005.jpg"
+        ],
+        "dokaz": "Pregledana lokalna fotografija cele figure; izveštaj navodi dva spomenika Žikici u Valjevu, Vide Jocić i Miodraga Živkovića. Godina 1987. u profilu Živkovića ne prenosi se na naš predmet Vide Jocić.",
+        "nereseno": {
+          "polja": [
+            "godina"
+          ],
+          "razlog": "Potvrđeno postojanje dva različita spomenika Žikici Jovanoviću u Valjevu; 1987. u profilu Miodraga Živkovića ne dokazuje godinu figure Vide Jocić.",
+          "izvori": [
+            "https://www.spomenikdatabase.org/miodrag-zivkovic",
+            "https://www.novosti.rs/vesti/naslovna/aktuelno.69.html%3A229958-Nemojte-da-streljate-i-istoriju",
+            "https://commons.wikimedia.org/wiki/File%3ASpomenici%2C_Valjevo_005.jpg"
+          ],
+          "uslovPonavljanja": "Novi dokaz koji se odnosi na ovaj konkretan predmet i traženo polje."
+        }
+      },
+      {
+        "id": "zagreb-spomenik-marijanu-badelu",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null,
+          "posveta": "Marijan Badel"
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno Marijanu Badelu. Spomenik u Zagrebu delo je Ćirila Mihanovića.",
+            "en": "Dedicated to Marijan Badel. The monument in Zagreb is a work by Ćiril Mihanović."
+          },
+          "posveta": null
+        },
+        "izvori": [
+          "https://www.xiwl.com/w/index.php/Zagreb_-_Spomenik_Marijana_Badela"
+        ],
+        "dokaz": "Opis sažima postojeći naziv, povezanu/tekstualnu posvetu i podatke punog zapisa baze; nisu dodavane nove biografske činjenice niti tvrđena nezavisna istorijska potvrda. Izvor zapisa je početni trag, nije ponovo pročitan ako nije posebno navedeno."
+      },
+      {
+        "id": "zagreb-koncar",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Radi Končaru](Q640602). Figura Vanje Radauša premeštena je 1991. sa prostora ispred fabrike u njeno dvorište na Fallerovom šetalištu.",
+            "en": "Dedicated to [Rade Končar](Q640602). Vanja Radauš’s figure was moved in 1991 from the area in front of the factory into its grounds on Fallerovo šetalište."
+          }
+        },
+        "izvori": [
+          "https://www.openstreetmap.org/node/2984467024"
+        ],
+        "dokaz": "Opis sažima postojeći naziv, povezanu/tekstualnu posvetu i podatke punog zapisa baze; nisu dodavane nove biografske činjenice niti tvrđena nezavisna istorijska potvrda. Izvor zapisa je početni trag, nije ponovo pročitan ako nije posebno navedeno."
+      },
+      {
+        "id": "zagreb-pijade",
+        "ishod": "dopunjeno",
+        "prethodniZapis": {
+          "opis": null,
+          "godina": "1954"
+        },
+        "noviZapis": {
+          "opis": {
+            "sh": "Posvećeno [Moši Pijade](Q453472). Figura je 1961. postavljena ispred Radničkog sveučilišta, a devedesetih premeštena kod Zaklade „Lavoslav Švarc“.",
+            "en": "Dedicated to [Moša Pijade](Q453472). Installed outside the Workers’ University in 1961, the figure moved to the Lavoslav Švarc Foundation in the 1990s."
+          },
+          "godina": "1961"
+        },
+        "izvori": [
+          "https://www.gaa.mhz.hr/storage/upload/calendar_activities/anali_40%E2%80%9341_-_za_web_124717.pdf"
+        ],
+        "dokaz": "Isti katalog, str. 54: model 1954, zagrebačko postavljanje 1961; godina ispravljena."
+      }
+    ],
+    "granice": "Sledećih 50 po zatečenom redu. Opisi obuhvataju samo postojeću konkretnu posvetu i proverene dopune; kod sažimanja baze to je izričito navedeno. Sačuvane sve Q-posvete. Delimično rešeni predmeti nisu proglašeni potpuno rešenim. Bez novih fotografija, pomeranja tačaka ili pretpostavljenih datuma odlivaka."
+  },
+  {
+    "odluka": "autori-prioritet-prvi-2026-11-10",
+    "datum": "2026-11-10",
+    "stavke": [
+      {
+        "id": "bogomolje",
+        "prethodniAutor": null,
+        "autor": "Joko Knežević",
+        "izvor": "https://www.topohvar.at/orte/bo/bo-mo-01-2/"
+      },
+      {
+        "id": "ljubljana-siska",
+        "prethodniAutor": null,
+        "autor": "Anton Sigulin & Vinko Glanz",
+        "izvori": [
+          "https://static.avarc.org/poh/15679/",
+          "https://www.uradni-list.si/_pdf/2003/Ur/u2003076.pdf"
+        ]
+      }
+    ]
+  },
+  {
+    "odluka": "autori-prioritet-drasnice-2026-11-10",
+    "datum": "2026-11-10",
+    "stavke": [
+      {
+        "id": "drasnice",
+        "prethodniAutor": null,
+        "autor": "Joko Knežević",
+        "izvor": "https://commons.wikimedia.org/wiki/File%3ASpomenik_%C5%BEeni_Biokovki_Dra%C5%A1nice.png",
+        "dokaz": "Opis datoteke identifikuje mozaik „Spomenik ženi Biokovki”, Drašnice, kao delo Joke Kneževića iz 1974."
+      }
+    ]
+  },
+  {
+    "odluka": "autori-prioritet-narednih-10-2026-11-10",
+    "datum": "2026-11-10",
+    "pregledano": [
+      "gospic-zena-u-nob-u",
+      "ilinci",
+      "ljubljana-zalog",
+      "lovrec",
+      "marezige",
+      "nis-centar",
+      "ruma-spomen-obelezje",
+      "gornji-milanovac-spomenik-takovcima-stradalim-u-mauthausenu",
+      "beograd-sesta-gimnazija",
+      "cres"
+    ],
+    "dopunjeno": [
+      {
+        "id": "marezige",
+        "autor": "Teja Badjura",
+        "izvor": "https://javnipodatki.si/kulturna-dediscina/enota/marezige-spomenik-nob-in-predvojnim-zrtvam-fasizma"
+      },
+      {
+        "id": "cres",
+        "autor": "Mate Solis",
+        "izvor": "https://burin.hr/u-cresu-se-ureduje-spomenik-borcima-palim-u-2-svjetskom-ratu-radovi-vrijedni-11-tisuca-eura/"
+      }
+    ],
+    "nereseno": [
+      {
+        "id": "gospic-zena-u-nob-u",
+        "razlog": "Pregledani dostupni konkretni izvori nisu dali pouzdanu atribuciju autora; ne dopunjujem nagađanjem."
+      },
+      {
+        "id": "ilinci",
+        "razlog": "Pregledani dostupni konkretni izvori nisu dali pouzdanu atribuciju autora; ne dopunjujem nagađanjem."
+      },
+      {
+        "id": "ljubljana-zalog",
+        "razlog": "Pregledani dostupni konkretni izvori nisu dali pouzdanu atribuciju autora; ne dopunjujem nagađanjem."
+      },
+      {
+        "id": "lovrec",
+        "razlog": "Pregledani dostupni konkretni izvori nisu dali pouzdanu atribuciju autora; ne dopunjujem nagađanjem."
+      },
+      {
+        "id": "nis-centar",
+        "razlog": "Pregledani dostupni konkretni izvori nisu dali pouzdanu atribuciju autora; ne dopunjujem nagađanjem."
+      },
+      {
+        "id": "ruma-spomen-obelezje",
+        "razlog": "Pregledani dostupni konkretni izvori nisu dali pouzdanu atribuciju autora; ne dopunjujem nagađanjem."
+      },
+      {
+        "id": "gornji-milanovac-spomenik-takovcima-stradalim-u-mauthausenu",
+        "razlog": "Pregledani dostupni konkretni izvori nisu dali pouzdanu atribuciju autora; ne dopunjujem nagađanjem."
+      },
+      {
+        "id": "beograd-sesta-gimnazija",
+        "razlog": "Pregledani dostupni konkretni izvori nisu dali pouzdanu atribuciju autora; ne dopunjujem nagađanjem."
+      }
+    ]
+  },
+  {
+    "odluka": "dopuna-prioriteti-narednih-10-2026-11-10",
+    "datum": "2026-11-10",
+    "pregledano": [
+      "zagreb-holjevac",
+      "zagreb-vladimir-nazor",
+      "zrenjanin-spomenik-zarku-zrenjaninu",
+      "zabalj-spomenik-sonji-marinkovic",
+      "djakovo",
+      "bitola-stefan-naumov",
+      "veles-spomenik-na-koco-racin",
+      "makedonska-kamenica-vera-jocik",
+      "skopje-karpos-spomenik-kuzman-josifovski",
+      "skopje-blagoja-despotovski-sovelj"
+    ],
+    "dopunjeno": [
+      "zagreb-holjevac",
+      "zagreb-vladimir-nazor",
+      "zrenjanin-spomenik-zarku-zrenjaninu",
+      "zabalj-spomenik-sonji-marinkovic",
+      "djakovo",
+      "bitola-stefan-naumov",
+      "veles-spomenik-na-koco-racin",
+      "makedonska-kamenica-vera-jocik",
+      "skopje-karpos-spomenik-kuzman-josifovski",
+      "skopje-blagoja-despotovski-sovelj"
+    ],
+    "izvori": {
+      "zagreb-holjevac": "https://skupstina.zagreb.hr/polaganje-vijenaca-u-povodu-55-godisnjice-smrti-veceslava-holjevca/8231",
+      "zrenjanin-spomenik-zarku-zrenjaninu": "https://zrenjaninski.com/grad/drzava-dala-pare-za-uredjenje-spomenika-narodnom-heroju-zarku-zrenjaninu/"
+    },
+    "napomena": "Za svih deset dodati su dvojezični opisi prema postojećoj povezanoj posveti i potvrđenim poljima. Kod Holjevca su dodati provereni koautori; godine koje nisu potvrđene nisu izmišljene."
   }
 ]

@@ -16,7 +16,7 @@ live-server
 
 POTPUNOST PODATKA:
 - dodavati fotografije ([lista prioriteta](docs/FOTOGRAFIJE_PRIORITETI.md), [obrađeni izvori fotografija](docs/IZVORI.md#commons-i-fotografije))
-- popunjavati druge atribute ([dopuna podataka](docs/DOPUNA_PODATAKA.md)). prioritet su: autor, posveta, wiki...
+- popunjavati druge atribute prema [listi prioriteta dopune](docs/DOPUNA_PODATAKA.md#prioriteti-dopune--10112026), po važnosti i šansi za dopunu.
 - uklanjati duplikate i greške koji su se uvukli u bazu
 
 UI
