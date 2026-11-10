@@ -1,6 +1,6 @@
 # Prioriteti fotografisanja spomenika
 
-Ažurirano **10.11.2026.** Lista je izvedena iz punih zapisa baze, preko `ucitaj_bazu()`, i obuhvata **156 neobrađenih kandidata na mapi bez fotografije**; još dva pregledana kandidata čekaju nov trag. Ovo je red za buduće odobrene pakete, ne nalog da se svi sada pretraže.
+Ažurirano **11.11.2026.** Lista je izvedena iz punih zapisa baze, preko `ucitaj_bazu()`, i obuhvata **154 neobrađena kandidata na mapi bez fotografije**; još dva pregledana kandidata čekaju nov trag. Ovo je red za buduće odobrene pakete, ne nalog da se svi sada pretraže.
 
 ## Kriterijumi uključivanja
 
@@ -20,22 +20,20 @@ Za svaki završeni paket dopuniti [evidenciju fotografija](../data/provere/fotog
 
 ## Aktivna lista
 
-Obuhvat po vrstama: muzej: 4, reljef: 1, spomen-groblje: 29, spomen-kuca: 16, spomen-park: 38, spomenik: 45, statua: 23.
+Obuhvat po vrstama: muzej: 4, reljef: 1, spomen-groblje: 29, spomen-kuca: 16, spomen-park: 38, spomenik: 44, statua: 22.
 
 | Red | Spomenik i mesto | Autor / osnov važnosti | Trag i početna veza | Bodovi | Napomena / ranija provera |
 |---|---|---|---|---:|---|
-| 1 | Partizansko groblje — Brestovčina<br>`brestovcina-partizansko-groblje` | Dragan Šurlan & Ibrahim Kuduzović & Muharem Bolić | izvor ([otvori](https://www.spomenicinob.info/gradiska)) | 14 | nije novom pretragom provereno |
-| 2 | Spomenik Martinu Pušteku — Donja Poljana<br>`donja-poljana-spomenik-martinu-pusteku` | Antun Augustinčić | izvor ([otvori](https://www.xiwl.com/w/index.php/Donja_Poljana_-_Spomenik_Martinu_Pu%C5%A1teku)) | 14 | nije novom pretragom provereno |
-| 3 | Spomenik Centralnoj partizanskoj bolnici — Dragoš sedlo<br>`tjentiste-spomenik-centralnoj-partizanskoj-bolnici` | Miodrag Živković | izvor ([otvori](https://www.openstreetmap.org/node/12073271624)) | 14 | nije novom pretragom provereno |
-| 4 | Spomenik Bombaš — Gornji Matejevac<br>`gornji-matejevac-spomenik-bombas` | Milovan Krstić | izvor ([otvori](https://www.xiwl.com/w/index.php/Gornji_Matejevac_-_Spomenik_Bomba%C5%A1)) | 14 | nije novom pretragom provereno |
-| 5 | Grob Ive Lole Ribara — Gornji Ribnik<br>`gornji-ribnik-grob-ive-lole-ribara` | Ferhat Mulabegović | izvor ([otvori](https://www.xiwl.com/w/index.php/Gornji_Ribnik_-_Grob_Ive_Lole_Ribara)) | 14 | nije novom pretragom provereno |
-| 6 | Spomen-kosturnica 13 palih boraca — Hadžići<br>`hadzici-spomen-kosturnica-13-palih-boraca` | Franc Vidmar & Dženana Goleš | izvor ([otvori](https://www.spomenicinob.info/hadzici)) | 14 | nije novom pretragom provereno |
-| 7 | Spomenik palim borcima — Jelašnica<br>`jelasnica-spomenik-palim-borcima-2` | Aleksandar Šakić | izvor ([otvori](https://www.xiwl.com/w/index.php/Jela%C5%A1nica_%28Ni%C5%A1ka_Banja%29_-_Spomenik_Palim_1941-1945)) | 14 | nije novom pretragom provereno |
-| 8 | Spomenik borbi 1941. godine — Klobuk<br>`klobuk-spomenik-borbi-1941-godine` | Vuk Roganović | izvor ([otvori](https://www.spomenicinob.info/trebinje)) | 14 | nije novom pretragom provereno |
-| 9 | Spomen-česma palim borcima I krajiške proleterske brigade — Lamovita<br>`lamovita-spomen-cesma-palim-borcima-i-krajiske-pro` | Slavko Pecikoza & Pavle Radovanović | izvor ([otvori](https://www.spomenicinob.info/prijedor)) | 14 | nije novom pretragom provereno |
-| 10 | Spomen-park — Lijeva Rijeka<br>`lijeva-rijeka-spomen-park` | Radosav Tomović | izvor ([otvori](https://www.xiwl.com/w/index.php/Lijeva_Rijeka_-_Spomen_Park)) | 14 | nije novom pretragom provereno |
-| 11 | Spomenik palim rudarima i rudarskom štrajku — Ljubija<br>`ljubija-spomenik-rudarima-poginulim-u-nob-i-20-god` | Marijan Kocković | izvor ([otvori](https://www.spomenicinob.info/prijedor)) | 14 | nije novom pretragom provereno |
-| 12 | Spomenik Borisu Kidriču — Ljubljana<br>`ljubljana-spomenik-borisu-kidricu` | Zdenko Kalin & Boris Kobe | izvor ([otvori](https://www.openstreetmap.org/node/3813810482)) | 14 | nije novom pretragom provereno |
+| 1 | Partizansko groblje — Brestovčina<br>`brestovcina-partizansko-groblje` | Dragan Šurlan & Ibrahim Kuduzović & Muharem Bolić | izvor ([otvori](https://www.spomenicinob.info/gradiska)) | 14 | [provereno 11.11.](../data/provere/fotografije.json#fotografije-redom-sledecih10-2026-11-11); nema slike |
+| 2 | Spomenik Martinu Pušteku — Donja Poljana<br>`donja-poljana-spomenik-martinu-pusteku` | Antun Augustinčić | izvor ([otvori](https://www.xiwl.com/w/index.php/Donja_Poljana_-_Spomenik_Martinu_Pu%C5%A1teku)) | 14 | [provereno 11.11.](../data/provere/fotografije.json#fotografije-redom-sledecih10-2026-11-11); nema slike |
+| 4 | Spomenik Bombaš — Gornji Matejevac<br>`gornji-matejevac-spomenik-bombas` | Milovan Krstić | izvor ([otvori](https://www.xiwl.com/w/index.php/Gornji_Matejevac_-_Spomenik_Bomba%C5%A1)) | 14 | [provereno 11.11.](../data/provere/fotografije.json#fotografije-redom-sledecih10-2026-11-11); nema slike |
+| 5 | Grob Ive Lole Ribara — Gornji Ribnik<br>`gornji-ribnik-grob-ive-lole-ribara` | Ferhat Mulabegović | izvor ([otvori](https://www.xiwl.com/w/index.php/Gornji_Ribnik_-_Grob_Ive_Lole_Ribara)) | 14 | [provereno 11.11.](../data/provere/fotografije.json#fotografije-redom-sledecih10-2026-11-11); nema slike |
+| 6 | Spomen-kosturnica 13 palih boraca — Hadžići<br>`hadzici-spomen-kosturnica-13-palih-boraca` | Franc Vidmar & Dženana Goleš | izvor ([otvori](https://www.spomenicinob.info/hadzici)) | 14 | [provereno 11.11.](../data/provere/fotografije.json#fotografije-redom-sledecih10-2026-11-11); nema slike |
+| 7 | Spomenik palim borcima — Jelašnica<br>`jelasnica-spomenik-palim-borcima-2` | Aleksandar Šakić | izvor ([otvori](https://www.xiwl.com/w/index.php/Jela%C5%A1nica_%28Ni%C5%A1ka_Banja%29_-_Spomenik_Palim_1941-1945)) | 14 | [provereno 11.11.](../data/provere/fotografije.json#fotografije-redom-sledecih10-2026-11-11); nema slike |
+| 8 | Spomenik borbi 1941. godine — Klobuk<br>`klobuk-spomenik-borbi-1941-godine` | Vuk Roganović | izvor ([otvori](https://www.spomenicinob.info/trebinje)) | 14 | [provereno 11.11.](../data/provere/fotografije.json#fotografije-redom-sledecih10-2026-11-11); nema slike |
+| 9 | Spomen-česma palim borcima I krajiške proleterske brigade — Lamovita<br>`lamovita-spomen-cesma-palim-borcima-i-krajiske-pro` | Slavko Pecikoza & Pavle Radovanović | izvor ([otvori](https://www.spomenicinob.info/prijedor)) | 14 | [provereno 11.11.](../data/provere/fotografije.json#fotografije-redom-sledecih10-2026-11-11); nema slike |
+| 10 | Spomen-park — Lijeva Rijeka<br>`lijeva-rijeka-spomen-park` | Radosav Tomović | izvor ([otvori](https://www.xiwl.com/w/index.php/Lijeva_Rijeka_-_Spomen_Park)) | 14 | [provereno 11.11.](../data/provere/fotografije.json#fotografije-redom-sledecih10-2026-11-11); nema slike |
+| 11 | Spomenik palim rudarima i rudarskom štrajku — Ljubija<br>`ljubija-spomenik-rudarima-poginulim-u-nob-i-20-god` | Marijan Kocković | izvor ([otvori](https://www.spomenicinob.info/prijedor)) | 14 | [provereno 11.11.](../data/provere/fotografije.json#fotografije-redom-sledecih10-2026-11-11); nema slike |
 | 13 | Spomen-kosturnica — Ludbreg<br>`ludbreg-spomen-kosturnica` | Frane Cota | izvor ([otvori](https://www.xiwl.com/w/index.php/Ludbreg_-_Spomen_Kosturnica)) | 14 | nije novom pretragom provereno |
 | 14 | Spomenik — Malča<br>`malca-spomenik` | Milovan Krstić | izvor ([otvori](https://www.xiwl.com/w/index.php/Mal%C4%8Da_-_Observer_Memorial)) | 14 | nije novom pretragom provereno |
 | 15 | Spomenik palim borcima — Markovac<br>`markovac-spomenik-palim-borcima-2` | Jordan Erčević | izvor ([otvori](https://www.xiwl.com/w/index.php/Markovac_%28Velika_Plana%29_-_Spomenik_Palim_Borcima)) | 14 | nije novom pretragom provereno |
@@ -191,6 +189,10 @@ Obuhvat po vrstama: muzej: 4, reljef: 1, spomen-groblje: 29, spomen-kuca: 16, sp
 [Dokazi i svih deset ishoda prve ture](../data/provere/fotografije.json#fotografije-redom-prvih10-2026-11-10).
 
 ## Zatvoreni paketi ovog nastavka
+
+**Sledeća tura, 11.11.2026:** dodata je fotografija spomenika Borisu Kidriču u Ljubljani; ostalih devet pregledanih kandidata ostaje bez potvrđene upotrebljive slike. [Ishodi](../data/provere/fotografije.json#fotografije-redom-sledeca-tura-2026-11-11).
+
+**Sledećih 10 kandidata, 11.11.2026:** provereni su izvori i slikovne pretrage za Brestovčinu, Donju Poljanu, Gornji Matejevac, Gornji Ribnik, Hadžiće, Jelašnicu, Klobuk, Lamovitu, Lijevu Rijeku i Ljubiju. Nijedan nema potvrđen upotrebljiv snimak konkretnog spomenika, pa svi ostaju na listi do novog izvora. [Ishodi](../data/provere/fotografije.json#fotografije-redom-sledecih10-2026-11-11).
 
 **Kladuša je naša — ciljana provera izvora, 10.11.2026:** svih 20 tematskih odeljaka upoređeno, dodato 11 fotografija (pet na mapi, šest zapisima bez lokacije). Predmeti ovog paketa nisu bili među 156 aktivnih kandidata, pa njihov broj ostaje isti. Ranije dodata fotografija Bosanske Bojne nije ponovo brojana. [Izvor i svi ishodi](../data/provere/izvori.json#kladusa-je-nasa-poredjenje-2026-11-10); [pojedinačne fotografije](../data/provere/fotografije.json#fotografije-kladusa-lokalni-izvor-2026-11-10).
 
