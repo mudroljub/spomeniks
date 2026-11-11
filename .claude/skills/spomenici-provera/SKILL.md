@@ -59,13 +59,21 @@ npx -y -p typescript tsc -p jsconfig.json
 
 Prolazi bez ispisa. Provera hvata pristup polju koje ne postoji (npr. ostatak preimenovanog polja), pa posle svake izmene polja ažuriraj `data/tipovi.d.ts`. Globalne najave (Leaflet, `Element.on`, `querySelector` vraća `HTMLElement`) su u `data/globalno.d.ts`; `sw.js` je izostavljen jer service worker ima drugo globalno okruženje.
 
+Lint (ESLint nije instaliran u projektu; verzija 9 ne čita `.eslintrc`, pa se pokreće 8):
+
+```
+npx -y eslint@8.57.0 --no-eslintrc -c .eslintrc --ext .js,.mjs src sw.js alati testovi
+```
+
+Prolazi bez ispisa. `--fix` popravlja razmake, ali proveri razliku: uvlačenje unutar HTML šablona je zato isključeno u pravilu `indent`.
+
 Kod je pisan bez tačke-zareza. Red koji počinje zagradom, npr. oznaka tipa `/** @type {X} */ (izraz)`, JavaScript čita kao poziv prethodnog reda i aplikacija pada; takav izraz dodeli promenljivoj.
 
 ## 3. Aplikacija
 
 **Testovi su pauzirani do odluke korisnika (2026-10-20): ne pokreći `node testovi/pokreni.mjs` ni njegove delove.** Proveru aplikacije radi snimkom ekrana (ispod). Kad korisnik ponovo dozvoli testove, važi sledeće.
 
-Prvo automatski testovi, u tri grupe u `testovi/`: `unit` (funkcije iz `utils/`, bez pregledača), `integracija` (stvarni podaci sa kodom i alati za upis) i `e2e` (glavni tokovi u Chrome-u bez prozora: mapa, prozor spomenika iz `#id`, pretraga, filteri, ruta, greške u aplikaciji; sam pokreće server i traje oko pola minuta):
+Prvo automatski testovi, u tri grupe u `testovi/`: `unit` (funkcije iz `src/utils/`, bez pregledača), `integracija` (stvarni podaci sa kodom i alati za upis) i `e2e` (glavni tokovi u Chrome-u bez prozora: mapa, prozor spomenika iz `#id`, pretraga, filteri, ruta, greške u aplikaciji; sam pokreće server i traje oko pola minuta):
 
 ```
 node testovi/pokreni.mjs        # unit i integracija, par sekundi
@@ -75,7 +83,13 @@ node testovi/pokreni.mjs e2e pretraga   # samo testovi čiji naziv sadrži „pr
 
 Posle male izmene pokreću se samo testovi za izmenjeni deo, a svi jednom, na kraju većeg posla.
 
-Nova funkcija u `utils/` dobija unit test, nova veza podataka i koda integracioni, a nov tok aplikacije e2e test u `testovi/e2e/aplikacija.test.mjs`. Moduli koji pri učitavanju čitaju `localStorage` ili `navigator` uvoze prvo `testovi/okruzenje.mjs`. Zajednički kod za upravljanje pregledačem je u `alati/pregledac.mjs`.
+Pouke iz 11.11.2026:
+- **Da li test hvata grešku:** pokreni samo taj fajl, direktno i sa rokom (`timeout 120 node --test --test-name-pattern="…" testovi/e2e/<fajl>.test.mjs`), ne kroz `pokreni.mjs` i ne u pozadini. Stari kod privremeno vrati u istoj komandi i odmah posle nje vrati novi, pa proveri da je vraćen. Proba kroz `pokreni.mjs` sa starim kodom zaglavila se duže od pet minuta, dok je fajl izvora ostao na staroj verziji.
+- **E2e test sa podacima:** kad pad glasi „nije se desilo: …“, prvo proveri da li su se promenili podaci spomenika koji test otvara (npr. opis sa linkom posvete ukida poseban red „Posvećeno“). Takav pad nije greška koda: izaberi spomenik koji i dalje ima traženo stanje.
+- **Vidljivost kartica u Chrome-u bez prozora:** `Target.createTarget` otvara novu karticu u prvom planu, pa su ostale `hidden`. Test koji zavisi od `visibilityState` zato svakoj kartici izričito postavlja stanje (`Object.defineProperty(document, 'visibilityState', …)`), kao u `testovi/e2e/izdanja.test.mjs`.
+- **Premeštanje fajlova:** stare putanje traži u svim praćenim fajlovima, bez filtera po ekstenziji (`git grep -n -E "(^|[^/])(utils|klase|komponente)/"`). Pri premeštanju u `src/` promakli su Python testovi u `testovi/integracija/test_zapis.py`.
+
+Nova funkcija u `src/utils/` dobija unit test, nova veza podataka i koda integracioni, a nov tok aplikacije e2e test u `testovi/e2e/aplikacija.test.mjs`. Moduli koji pri učitavanju čitaju `localStorage` ili `navigator` uvoze prvo `testovi/okruzenje.mjs`. Zajednički kod za upravljanje pregledačem je u `alati/pregledac.mjs`.
 
 Zatim pogledaj izmenu na ekranu telefona (390 × 844, dodir). Kad izmena dotiče raspored na širem ekranu, proveri i desktop (npr. 1440 × 900), uključujući preklapanje dugmadi i naslova:
 
@@ -96,7 +110,7 @@ Emulacija ne zamenjuje pravi telefon: za izmene izgleda reci korisniku da ih pro
 
 ### Prikaz i prijave korisnika
 
-- **Približne lokacije:** zadrži ikonicu spomenika, sa malim upitnikom preko sredine, malo spuštenim; bez isprekidanog kruga i bleđenja. Uz mesto, pre godine, piše „(bez tačne lokacije)“. Mapa i legenda koriste zajednički prikaz iz `utils/ikonice.js`, ne odvojene kopije oznake.
+- **Približne lokacije:** zadrži ikonicu spomenika, sa malim upitnikom preko sredine, malo spuštenim; bez isprekidanog kruga i bleđenja. Uz mesto, pre godine, piše „(bez tačne lokacije)“. Mapa i legenda koriste zajednički prikaz iz `src/utils/ikonice.js`, ne odvojene kopije oznake.
 - **Preklapanja:** približne ikonice odmakni od preciznih kada ima prostora; pomeraj samo prikaz, ne sačuvane koordinate ili odredište navigacije. Za proveru koristi Belu Crkvu (Mačva), gde su uz precizni kompleks, biste i muzej približno locirana grobnica u porti crkve i okolna sela; proveri više zumova i otvaranje pravog zapisa.
 - **Prijava spomenika:** dovoljni su naziv i lokacija; fotografija, kategorija, opis i ostalo su opcioni, a dodavanje na Google mapu je bonus. Na ekranu je kratko uputstvo „Pošalji lokaciju i naziv spomenika“, a dodatna polja ostaju u pripremljenom mejlu. Adresu sastavljaj tek na klik za slanje ili kopiranje; ne ispisuj je unapred u stranici, stalnim `mailto:` linkovima ili dokumentaciji i ne predstavljaj ovo kao potpunu zaštitu od botova.
 

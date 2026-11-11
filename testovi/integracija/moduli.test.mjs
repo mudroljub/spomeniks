@@ -11,7 +11,7 @@ const staticki = /^import\s+(?:[^'"]*?\s+from\s+)?['"](\.[^'"]+)['"]/gm
 const odlozeni = /\b(?:import|uvezi)\(['"](\.[^'"]+\.js)['"]\)/g // bez tipova iz JSDoc-a
 
 // moduli do kojih main.js stize uvozima, putanje od korena; sa odlozenima i oni koji se uvoze tek posle prvog crtanja
-const moduli = (odlozeno = false, pocetni = 'main.js', nadjeni = new Set()) => {
+const moduli = (odlozeno = false, pocetni = 'src/main.js', nadjeni = new Set()) => {
   if (nadjeni.has(pocetni)) return nadjeni
   nadjeni.add(pocetni)
   const kod = procitaj(pocetni)
@@ -31,5 +31,5 @@ test('moduli za prvo crtanje se preuzimaju unapred, odlozeni ne, a svi se cuvaju
     assert.equal(html.includes(`<link rel="modulepreload" href="${modul}">`), potrebni.has(modul), `preuzimanje unapred: ${modul}`)
     assert.ok(sw.includes(`'${modul}'`), `sw.js ne cuva ${modul}`)
   }
-  assert.ok(!potrebni.has('komponente/Detalji.js') && svi.has('komponente/Detalji.js'))
+  assert.ok(!potrebni.has('src/komponente/Detalji.js') && svi.has('src/komponente/Detalji.js'))
 })

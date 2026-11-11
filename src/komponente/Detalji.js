@@ -428,12 +428,25 @@ export default class Detalji extends HTMLElement {
     pokaziNaMapi(marker, this.panel)
   }
 
+  // dopuna podataka ne zatvara opis i natpis koje je korisnik već otvorio
   osvezi() {
     if (!this.marker || this.panel.hidden) return
     const skrol = this.panel.scrollTop
+    const opisOtvoren = this.opisOtvoren()
+    const natpisOtvoren = Boolean(this.panel.querySelector('.natpis')?.hasAttribute('open'))
     this.iscrtaj()
     this.oznaciCeoOpis()
+    this.otvoriOpis(opisOtvoren)
+    this.panel.querySelector('.natpis')?.toggleAttribute('open', natpisOtvoren)
     this.panel.scrollTop = skrol
+  }
+
+  opisOtvoren() {
+    return this.panel.querySelector('.opis')?.getAttribute('aria-expanded') === 'true'
+  }
+
+  otvoriOpis(otvoren) {
+    this.panel.querySelector('.opis')?.setAttribute('aria-expanded', String(otvoren))
   }
 
   iscrtaj() {
@@ -461,7 +474,7 @@ export default class Detalji extends HTMLElement {
           <button id="ruta"></button>
         </p>
         ${spomen.slika ? `
-          <figure class="slika" ${spomen.slikaOdnos ? `style="aspect-ratio: ${spomen.slikaOdnos}"` : ''}>
+          <figure class="slika" ${Number(spomen.slikaOdnos) > 0 ? `style="aspect-ratio: ${Number(spomen.slikaOdnos)}"` : ''}>
             <img src="${escapeHtml(spomen.slika)}" alt="" onerror="this.parentNode.remove()">
             ${spomen.slikaPotpis ? `<figcaption>${t('foto')}: ${escapeHtml(spomen.slikaPotpis)}</figcaption>` : ''}
           </figure>
@@ -513,7 +526,7 @@ export default class Detalji extends HTMLElement {
     this.osveziPodatke()
   }
 
-  /** @param {Pick<import('../data/tipovi').Spomenik, 'opis'>} spomen */
+  /** @param {Pick<import('../../data/tipovi').Spomenik, 'opis'>} spomen */
   opisSpomenika({opis}) {
     return (jezik === 'en' ? opis?.en : opis?.sh) || ''
   }
@@ -530,6 +543,7 @@ export default class Detalji extends HTMLElement {
 
   osveziPodatke() {
     if (!this.marker) return
+    const opisOtvoren = this.opisOtvoren()
     this.panel.querySelectorAll('.podaci').forEach(red => red.remove())
     this.panel.querySelector('.mesto').after(...this.redoviPodataka(this.marker.spomen).map(html => {
       const red = document.createElement('p')
@@ -538,6 +552,7 @@ export default class Detalji extends HTMLElement {
       return red
     }))
     this.oznaciCeoOpis()
+    this.otvoriOpis(opisOtvoren)
   }
 
   linkPosvete(q, tekst) {
@@ -546,7 +561,7 @@ export default class Detalji extends HTMLElement {
     return link ? `<a href="${escapeHtml(link)}" target="_blank">${tekst}</a>` : tekst
   }
 
-  /** @param {Pick<import('../data/tipovi').Spomenik, 'posveta' | 'opis'>} spomen */
+  /** @param {Pick<import('../../data/tipovi').Spomenik, 'posveta' | 'opis'>} spomen */
   praviPosvetu(spomen) {
     const {posveta = []} = spomen
     if (typeof posveta === 'string') return posveta.trim() ? `${t('posveta')}: ${escapeHtml(posveta.trim())}` : ''
@@ -558,7 +573,7 @@ export default class Detalji extends HTMLElement {
     return linkovi ? `${t('posveta')}: ${linkovi}` : ''
   }
 
-  /** @param {Pick<import('../data/tipovi').Spomenik, 'opis'>} spomen */
+  /** @param {Pick<import('../../data/tipovi').Spomenik, 'opis'>} spomen */
   praviOpis(spomen) {
     const opis = this.opisSpomenika(spomen)
     if (!opis) return ''

@@ -107,7 +107,7 @@ export default class Najblizi extends HTMLElement {
     this.dugme.textContent = t('uBlizini')
     this.dugme.hidden = true
     this.dugme.addEventListener('click', () => {
-      mapa.fire('izbor', {marker: null})
+      mapa.fire('izbor', {marker: null, izvor: 'najblizi'})
       this.popuni()
       this.panel.hidden = false
     })
@@ -124,6 +124,8 @@ export default class Najblizi extends HTMLElement {
     this.shadowRoot.append(style, this.dugme, this.panel)
     upravljajPanelom(this.panel, () => this.panel.hidden = true, t('uBlizini'), () => this.dugme)
 
+    // drugi panel ili prozor spomenika zauzima isto mesto na ekranu
+    mapa.on('izbor otvoriRutu', ({izvor}) => { if (izvor !== 'najblizi') this.panel.hidden = true })
     mapa.on('pozicija', ({latlng}) => {
       this.pozicija = latlng
       this.prikazi()

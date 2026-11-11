@@ -8,8 +8,6 @@ export const naziviStanja = {
   zatvoren: t('zatvoren'),
 }
 
-const bezLinkova = html => (html || '').replace(/<[^>]*>/g, '')
-
 export const bezbedanLink = link => {
   if (typeof link !== 'string') return ''
   try {
@@ -18,12 +16,12 @@ export const bezbedanLink = link => {
   } catch { return '' }
 }
 
-/** @param {Pick<import('../data/tipovi').Spomenik, 'naziv' | 'nazivEn'>} spomenik */
-export const nazivSpomenika = ({naziv, nazivEn}) => (jezik === 'en' && bezLinkova(nazivEn)) || naziv || ''
+/** @param {Pick<import('../../data/tipovi').Spomenik, 'naziv' | 'nazivEn'>} spomenik */
+export const nazivSpomenika = ({naziv, nazivEn}) => (jezik === 'en' && nazivEn) || naziv || ''
 
 export const malaSlika = putanja => putanja.replace('slike/spomenici/', 'slike/male/')
 
-/** @param {import('../data/tipovi').Spomenik} spomenik */
+/** @param {import('../../data/tipovi').Spomenik} spomenik */
 export const autoriSpomenika = ({autor}) => autor ? autor.split(' & ') : []
 
 export const nestao = stanje => stanje === 'uklonjen'

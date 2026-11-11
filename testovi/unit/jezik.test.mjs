@@ -1,7 +1,7 @@
 import '../okruzenje.mjs'
 import {test} from 'node:test'
 import assert from 'node:assert/strict'
-import {jezik, t, nazivDrzave} from '../../utils/jezik.js'
+import {jezik, t, nazivDrzave} from '../../src/utils/jezik.js'
 
 test('domaći jezik pregledača daje srpskohrvatski', () => {
   assert.equal(jezik, 'sh')
@@ -29,7 +29,7 @@ test('tekst sa više vrednosti i nazivi država', () => {
 })
 
 test('izbor jezika se pamti na uređaju, a bez skladišta ostaje u adresi', async t => {
-  const {promeniJezik} = await import('../../utils/jezik.js')
+  const {promeniJezik} = await import('../../src/utils/jezik.js')
   const ponovo = t.mock.method(location, 'reload', () => {})
   const prelaz = t.mock.method(location, 'assign', () => {})
   promeniJezik('en')
@@ -44,7 +44,7 @@ test('izbor jezika se pamti na uređaju, a bez skladišta ostaje u adresi', asyn
   const adresa = {href: location.href, search: location.search}
   Object.assign(location, {href: 'https://spomenici.test/?jezik=en', search: '?jezik=en'})
   try {
-    assert.equal((await import('../../utils/jezik.js?iz-adrese')).jezik, 'en')
+    assert.equal((await import('../../src/utils/jezik.js?iz-adrese')).jezik, 'en')
   } finally {
     Object.assign(location, adresa)
   }

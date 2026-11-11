@@ -15,6 +15,8 @@ const pokreni = ({mreza, neuspesanUpis = false, kesevi = new Map(), verzija, sad
     return {
       put: async (zahtev, odgovor) => {
         if (neuspesanUpis) throw new Error('QuotaExceededError')
+        // kao u pregledacu: ponovni upis premesta unos na kraj
+        sadrzaj.delete(kljuc(zahtev))
         sadrzaj.set(kljuc(zahtev), odgovor.clone())
       },
       addAll: async putanje => {
@@ -179,9 +181,9 @@ test('ista fotografija se ne proverava ponovo pre isteka roka ni posle restarta 
 })
 
 test('granica kesa vazi i kada svaki worker upise samo jednu novu sliku', async () => {
-  const kesevi = new Map([['spomenici-slike', new Map(Array.from({length: 1500}, (_,i) =>
+  const kesevi = new Map([['spomenici-slike', new Map(Array.from({length: 1500}, (_, i) =>
     [`${sajt}/slike/male/${i}.webp`, new Response('stara')]))]])
-  for (let i=0; i<3; i++) {
+  for (let i = 0; i < 3; i++) {
     const sw = pokreni({kesevi, mreza: () => new Response('nova')})
     await sw.otvoriAdresu(`/slike/male/nova-${i}.webp`)
     assert.equal(kesevi.get('spomenici-slike').size, 1500)
@@ -189,29 +191,41 @@ test('granica kesa vazi i kada svaki worker upise samo jednu novu sliku', async 
   assert.ok(!kesevi.get('spomenici-slike').has(`${sajt}/slike/male/0.webp`))
 })
 
+test('ponovo proverena slika postaje najnovija i ne brise se prva kad se kes popuni', async () => {
+  const kesevi = new Map([['spomenici-slike', new Map(Array.from({length: 1500}, (_, i) =>
+    [`${sajt}/slike/male/${i}.webp`, new Response('stara')]))]])
+  const sw = pokreni({kesevi, mreza: () => new Response('nova')})
+  await sw.otvoriAdresu('/slike/male/0.webp')
+  await sw.otvoriAdresu('/slike/male/nova.webp')
+  const slike = kesevi.get('spomenici-slike')
+  assert.equal(slike.size, 1500)
+  assert.ok(slike.has(`${sajt}/slike/male/0.webp`))
+  assert.ok(!slike.has(`${sajt}/slike/male/1.webp`))
+})
+
 test('prinudno azuriranje cuva vezu starih klijenata sa prethodnim izdanjem do ucitavanja nove stranice', async () => {
   const kesevi = new Map(), poruke = []
-  const klijenti = [{id:'A',url:sajt+'/',postMessage:m=>poruke.push(m)}, {id:'B',url:sajt+'/',postMessage:m=>poruke.push(m)}]
-  const stari = pokreni({verzija:'stari',kesevi,mreza:()=>new Response('stari')})
+  const klijenti = [{id:'A', url:sajt + '/', postMessage:m => poruke.push(m)}, {id:'B', url:sajt + '/', postMessage:m => poruke.push(m)}]
+  const stari = pokreni({verzija:'stari', kesevi, mreza:() => new Response('stari')})
   await stari.dogadjaj('install')
-  const novi = pokreni({verzija:'novi',kesevi,klijenti,mreza:()=>new Response('novi')})
+  const novi = pokreni({verzija:'novi', kesevi, klijenti, mreza:() => new Response('novi')})
   await novi.dogadjaj('install')
-  await novi.dogadjaj('message', {data:{vrsta:'AKTIVIRAJ',prethodni:stari.imeIzdanja}})
-  assert.equal(novi.preuzimanje().preskocenoCekanje,true)
+  await novi.dogadjaj('message', {data:{vrsta:'AKTIVIRAJ', prethodni:stari.imeIzdanja}})
+  assert.equal(novi.preuzimanje().preskocenoCekanje, true)
   await novi.dogadjaj('activate')
-  assert.equal(poruke.length,2)
-  assert.equal(await (await novi.otvoriAdresu('/main.js',{clientId:'A'})).text(),'stari')
-  assert.equal(await (await novi.otvoriAdresu('/main.js',{clientId:'B'})).text(),'stari')
-  assert.equal(await (await novi.otvoriAdresu('/main.js',{clientId:'nova-stranica'})).text(),'novi')
+  assert.equal(poruke.length, 2)
+  assert.equal(await (await novi.otvoriAdresu('/src/main.js', {clientId:'A'})).text(), 'stari')
+  assert.equal(await (await novi.otvoriAdresu('/src/main.js', {clientId:'B'})).text(), 'stari')
+  assert.equal(await (await novi.otvoriAdresu('/src/main.js', {clientId:'nova-stranica'})).text(), 'novi')
   assert.ok(kesevi.has(stari.imeIzdanja))
 })
 
 test('stara kartica ne brise kes novog izdanja koje jos ceka', async () => {
   const kesevi = new Map()
-  const stari = pokreni({verzija:'stari',kesevi,mreza:()=>new Response('stari')})
+  const stari = pokreni({verzija:'stari', kesevi, mreza:() => new Response('stari')})
   await stari.dogadjaj('install')
-  const novi = pokreni({verzija:'novi',kesevi,mreza:()=>new Response('novi')})
+  const novi = pokreni({verzija:'novi', kesevi, mreza:() => new Response('novi')})
   await novi.dogadjaj('install')
-  await stari.dogadjaj('message',{data:{vrsta:'SPREMAN'}})
-  assert.equal(await (await novi.otvoriAdresu('/main.js')).text(),'novi')
+  await stari.dogadjaj('message', {data:{vrsta:'SPREMAN'}})
+  assert.equal(await (await novi.otvoriAdresu('/main.js')).text(), 'novi')
 })

@@ -140,9 +140,7 @@ const praviTekst = spomenik => normalizuj([
   spomenik.naziv || '',
   spomenik.nazivEn || '',
   domaciNazivDrzave(spomenik.drzava),
-]
-  .join(' ')
-  .replace(/<[^>]*>/g, ''))
+].join(' '))
 
 export default class Pretraga extends HTMLElement {
   constructor(stavke, callback) {

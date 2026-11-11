@@ -3,7 +3,7 @@ import {test} from 'node:test'
 import assert from 'node:assert/strict'
 
 postaviNavigator({jezici: ['de-DE', 'en-US']})
-const {jezik, t, nazivDrzave} = await import('../../utils/jezik.js')
+const {jezik, t, nazivDrzave} = await import('../../src/utils/jezik.js')
 
 test('stranac bez sačuvanog izbora dobija engleski', () => {
   assert.equal(jezik, 'en')

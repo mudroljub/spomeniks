@@ -4,7 +4,7 @@ import {t} from '../utils/jezik.js'
 
 export default class Slika extends HTMLElement {
 
-  /** @param {import('../data/tipovi').Spomenik} spomen */
+  /** @param {import('../../data/tipovi').Spomenik} spomen */
   constructor(spomen, marker) {
     super()
     this.mesto = spomen.mesto

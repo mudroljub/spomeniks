@@ -12,14 +12,14 @@ test('novo izdanje ceka stare klijente, a u pozadini prelazi na svoj komplet res
     if (zahtev.url === '/sw.js') {
       odgovor.setHeader('Content-Type', 'text/javascript')
       odgovor.end(kod.replace(/const VERZIJA = '[^']+'/u, `const VERZIJA = 'proba-${izdanje}'`))
-    } else if (zahtev.url.startsWith('/utils/')) {
+    } else if (zahtev.url.startsWith('/src/utils/')) {
       odgovor.setHeader('Content-Type', 'text/javascript')
       odgovor.end(readFileSync(new URL('../../' + zahtev.url.slice(1), import.meta.url)))
     } else if (['/', '/index.html', '/zadrzana.html'].includes(zahtev.url)) {
       odgovor.setHeader('Content-Type', 'text/html')
       odgovor.end(`<!doctype html><body>${izdanje}<script type="module">
         ${zahtev.url === '/zadrzana.html' ? "navigator.serviceWorker.addEventListener('message',e=>{if(e.data?.vrsta==='OSVEZI_IZDANJE')e.stopImmediatePropagation()})" : ''}
-        import {pratiIzdanje} from './utils/azuriranje.js';
+        import {pratiIzdanje} from './src/utils/azuriranje.js';
         navigator.serviceWorker.register('sw.js').then(pratiIzdanje)
       </script>`)
     } else odgovor.end(`${izdanje}:${zahtev.url}`)
@@ -48,43 +48,62 @@ test('novo izdanje ceka stare klijente, a u pozadini prelazi na svoj komplet res
     await b.send('Page.reload')
     await cekaj(() => b.izvrsi(`!!navigator.serviceWorker.controller`))
     await b.izvrsi(`new Promise(r=>{window.druga=document.createElement('iframe');druga.onload=()=>r(true);druga.src='index.html';document.body.appendChild(druga)})`)
-    assert.equal(await b.izvrsi(`druga.contentWindow.fetch('main.js').then(r=>r.text())`), 'staro:/main.js')
+    assert.equal(await b.izvrsi(`druga.contentWindow.fetch('src/main.js').then(r=>r.text())`), 'staro:/src/main.js')
     const stareVerzije = new Set(verzije.keys())
     izdanje = 'novo'
     await b.izvrsi(`navigator.serviceWorker.getRegistration().then(r=>r.update()).then(()=>true)`)
     await cekaj(() => b.izvrsi(`navigator.serviceWorker.getRegistration().then(r=>!!r.waiting)`))
     const novaVerzija = [...verzije.values()].find(v => !stareVerzije.has(v.versionId))
     assert.ok(novaVerzija)
-    assert.equal(await b.izvrsi(`fetch('main.js').then(r=>r.text())`), 'staro:/main.js')
-    assert.equal(await b.izvrsi(`druga.contentWindow.fetch('main.js').then(r=>r.text())`), 'staro:/main.js')
-    assert.equal(await b.izvrsi(`caches.open('spomenici-aplikacija-proba-novo').then(k=>k.match(new URL('main.js',location.href))).then(r=>r.text())`), 'novo:/main.js')
+    assert.equal(await b.izvrsi(`fetch('src/main.js').then(r=>r.text())`), 'staro:/src/main.js')
+    assert.equal(await b.izvrsi(`druga.contentWindow.fetch('src/main.js').then(r=>r.text())`), 'staro:/src/main.js')
+    assert.equal(await b.izvrsi(`caches.open('spomenici-aplikacija-proba-novo').then(k=>k.match(new URL('src/main.js',location.href))).then(r=>r.text())`), 'novo:/src/main.js')
     await b.send('Page.navigate', {url: 'about:blank'})
     await cekaj(() => verzije.get(novaVerzija.versionId)?.status === 'activated')
     await b.send('Page.navigate', {url: adresa})
     await cekaj(() => b.izvrsi(`location.origin===${JSON.stringify(new URL(adresa).origin)} && !!navigator.serviceWorker.controller`))
-    assert.equal(await b.izvrsi(`fetch('main.js').then(r=>r.text())`), 'novo:/main.js')
+    assert.equal(await b.izvrsi(`fetch('src/main.js').then(r=>r.text())`), 'novo:/src/main.js')
     assert.equal(await b.izvrsi(`caches.has('spomenici-aplikacija-proba-staro')`), false)
     // Druga kartica namerno odlozi ponovno ucitavanje da proverimo da joj se izdanje ne promeni usred rada.
-    const {result:{targetId}} = await b.send('Target.createTarget',{url:adresa+'zadrzana.html'})
-    const {result:{sessionId}} = await b.send('Target.attachToTarget',{targetId,flatten:true})
-    const izvrsiDrugu = async expression => {
-      const {result} = await b.send('Runtime.evaluate',{expression,awaitPromise:true,returnByValue:true},sessionId)
-      if (result.exceptionDetails) throw new Error(result.exceptionDetails.exception?.description)
-      return result.result.value
+    const otvoriKarticu = async url => {
+      const {result:{targetId}} = await b.send('Target.createTarget', {url})
+      const {result:{sessionId}} = await b.send('Target.attachToTarget', {targetId, flatten:true})
+      const izvrsi = async expression => {
+        const {result} = await b.send('Runtime.evaluate', {expression, awaitPromise:true, returnByValue:true}, sessionId)
+        if (result.exceptionDetails) throw new Error(result.exceptionDetails.exception?.description)
+        return result.result.value
+      }
+      await cekaj(() => izvrsi(`document.readyState==='complete' && !!navigator.serviceWorker.controller`))
+      // nova kartica je u pozadini, pa bi sama pokrenula prelaz; ovde ga pokrece samo glavna kartica
+      await izvrsi(`(Object.defineProperty(document,'visibilityState',{value:'visible',configurable:true}),true)`)
+      return {sessionId, izvrsi}
     }
-    await cekaj(() => izvrsiDrugu(`document.readyState==='complete' && !!navigator.serviceWorker.controller`))
+    const {sessionId, izvrsi: izvrsiDrugu} = await otvoriKarticu(adresa + 'zadrzana.html')
+    // Kartica koju korisnik gleda ne sme da se osveži usred rada, nego tek kad ode u pozadinu.
+    const {izvrsi: izvrsiVidljivu} = await otvoriKarticu(adresa)
+    await izvrsiVidljivu(`window.neosvezena=true`)
+    await b.izvrsi(`(Object.defineProperty(document,'visibilityState',{value:'visible',configurable:true}),true)`)
     izdanje = 'trece'
     await b.izvrsi(`navigator.serviceWorker.getRegistration().then(r=>r.update()).then(()=>true)`)
     await cekaj(() => b.izvrsi(`navigator.serviceWorker.getRegistration().then(r=>!!r.waiting)`))
     // odlazak aplikacije u pozadinu pokrece prelaz na novo izdanje
     await b.izvrsi(`(Object.defineProperty(document,'visibilityState',{value:'hidden',configurable:true}),document.dispatchEvent(new Event('visibilitychange')),true)`)
     await cekaj(() => b.izvrsi(`document.body.textContent.startsWith('trece') && !!navigator.serviceWorker.controller`))
-    assert.equal(await b.izvrsi(`fetch('main.js').then(r=>r.text())`),'trece:/main.js')
-    assert.equal(await izvrsiDrugu(`fetch('main.js').then(r=>r.text())`),'novo:/main.js')
-    assert.equal(await b.izvrsi(`caches.has('spomenici-aplikacija-proba-novo')`),true)
-    await b.send('Page.reload',{},sessionId)
+    assert.equal(await b.izvrsi(`fetch('src/main.js').then(r=>r.text())`), 'trece:/src/main.js')
+    assert.equal(await izvrsiDrugu(`fetch('src/main.js').then(r=>r.text())`), 'novo:/src/main.js')
+    assert.equal(await b.izvrsi(`caches.has('spomenici-aplikacija-proba-novo')`), true)
+    await sleep(500)
+    assert.equal(await izvrsiVidljivu(`window.neosvezena === true && document.body.textContent.startsWith('novo')`), true)
+    await izvrsiVidljivu(`(Object.defineProperty(document,'visibilityState',{value:'hidden',configurable:true}),document.dispatchEvent(new Event('visibilitychange')),true)`)
+    await cekaj(() => izvrsiVidljivu(`document.body.textContent.startsWith('trece')`))
+    await b.send('Page.reload', {}, sessionId)
     await cekaj(() => izvrsiDrugu(`document.body.textContent.startsWith('trece')`))
     await cekaj(() => b.izvrsi(`caches.has('spomenici-aplikacija-proba-novo').then(v=>!v)`))
+    // izdanje koje se preuzme tek kad je kartica vec u pozadini prelazi bez novog skrivanja kartice
+    await b.izvrsi(`(Object.defineProperty(document,'visibilityState',{value:'hidden',configurable:true}),document.dispatchEvent(new Event('visibilitychange')),true)`)
+    izdanje = 'cetvrto'
+    await b.izvrsi(`navigator.serviceWorker.getRegistration().then(r=>r.update()).then(()=>true)`)
+    await cekaj(() => b.izvrsi(`document.body.textContent.startsWith('cetvrto')`))
   } finally {
     await b?.zatvori()
     server.closeAllConnections()

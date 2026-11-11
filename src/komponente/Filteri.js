@@ -465,8 +465,8 @@ export default class Filteri extends HTMLElement {
     }
 
     const cipovi = g => `<div class="cipovi">${opcije(g).map(({opcija, naziv, broj, izabran}) =>
-      `<button class="cip" data-grupa="${g.kljuc}" data-opcija="${opcija}" aria-pressed="${izabran}"
-        ${!broj && !izabran ? 'disabled' : ''}>${g.znak ? `<span class="znak">${g.znak(opcija)}</span>` : ''}${naziv}<span class="broj">${broj}</span></button>`).join('')}</div>`
+      `<button class="cip" data-grupa="${g.kljuc}" data-opcija="${escapeHtml(opcija)}" aria-pressed="${izabran}"
+        ${!broj && !izabran ? 'disabled' : ''}>${g.znak ? `<span class="znak">${g.znak(opcija)}</span>` : ''}${escapeHtml(naziv)}<span class="broj">${broj}</span></button>`).join('')}</div>`
 
     const stavka = (g, i, opcija, naziv, izabran, broj = '') =>
       `<li role="option" id="opcija-${g.kljuc}-${i}" data-opcija="${escapeHtml(opcija)}" data-naziv="${escapeHtml(naziv)}" aria-selected="${izabran}">${escapeHtml(naziv)}<span class="broj">${broj}</span></li>`

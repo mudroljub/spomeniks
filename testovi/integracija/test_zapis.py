@@ -18,7 +18,7 @@ FAJLOVI_PODATAKA = ('ISTAKNUTI', 'OSTALI', 'BEZ_LOKACIJE', 'ARHIVA', 'IZVORI', '
 
 class ZapisTest(unittest.TestCase):
     def test_promena_vaznosti_menja_zum_i_podelu_fajlova(self):
-        put = Path(zapis.__file__).resolve().parent.parent / 'utils' / 'vaznost.js'
+        put = Path(zapis.__file__).resolve().parent.parent / 'src' / 'utils' / 'vaznost.js'
         kod = put.read_text(encoding='utf-8')
         prioritet_groblja = re.search(r'groblje:\s*(\d+)', kod).group(1)
         kod = re.sub(r"('spomen-park':\s*)2\b", lambda m: m[1] + prioritet_groblja, kod)
@@ -35,7 +35,7 @@ class ZapisTest(unittest.TestCase):
             self.assertTrue(zapis.u_istaknutima({'vrsta': 'spomen-park', 'istaknut': True}))
 
     def test_formatiranje_js_konfiguracije_ne_menja_zumove(self):
-        put = Path(zapis.__file__).resolve().parent.parent / 'utils' / 'vaznost.js'
+        put = Path(zapis.__file__).resolve().parent.parent / 'src' / 'utils' / 'vaznost.js'
         kod = put.read_text(encoding='utf-8').replace("'", '"')
         kod = kod.replace('export const vaznostVrste = {', 'export const vaznostVrste =\n{')
         modul = self.folder / 'dvostruki-navodnici.mjs'

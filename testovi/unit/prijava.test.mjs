@@ -1,7 +1,7 @@
 import '../okruzenje.mjs'
 import {test} from 'node:test'
 import assert from 'node:assert/strict'
-import {mejl, prijavaUrl} from '../../utils/prijava.js'
+import {mejl, prijavaUrl} from '../../src/utils/prijava.js'
 
 const delovi = url => {
   const [adresa, upit] = url.split('?')

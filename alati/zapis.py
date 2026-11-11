@@ -83,7 +83,7 @@ IZVORI_STANJA = 'data/izvori/izvori-stanja.json'
 PREVODI_EN, DETALJI = 'data/prevodi-en.json', 'data/detalji.json'
 PROVERE_SPOMENIKA = 'data/provere/provere-spomenika.json'
 POLJA_PROVERE = ('proveraLokacije', 'proveraOpstanka')
-ZUM_ISTAKNUTIH = 7  # pocetni zum mape (klase/mapa.js): prvi fajl ima samo ono sto se tada vidi
+ZUM_ISTAKNUTIH = 7  # pocetni zum mape (src/klase/mapa.js): prvi fajl ima samo ono sto se tada vidi
 
 
 def _ucitaj_zumove(putanja):
@@ -94,7 +94,7 @@ def _ucitaj_zumove(putanja):
     return json.loads(rezultat.stdout)
 
 
-ZUM_VRSTE = _ucitaj_zumove(Path(__file__).resolve().parent.parent / 'utils' / 'vaznost.js')
+ZUM_VRSTE = _ucitaj_zumove(Path(__file__).resolve().parent.parent / 'src' / 'utils' / 'vaznost.js')
 
 
 def poredaj(zapis):

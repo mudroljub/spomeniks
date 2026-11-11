@@ -4,7 +4,7 @@ import {test, before, after} from 'node:test'
 import assert from 'node:assert/strict'
 import {readFileSync} from 'node:fs'
 import {otvoriPregledac, pokreniServer, sleep} from '../../alati/pregledac.mjs'
-import {nivoiVaznosti} from '../../utils/vaznost.js'
+import {nivoiVaznosti} from '../../src/utils/vaznost.js'
 
 let pregledac, server
 const greske = []
@@ -53,7 +53,7 @@ const otvori = async (hash = '') => {
 
 const BROJ = `document.body.innerText.match(/(\\d+) od \\d+/)?.[1]`
 
-const sacekajTraku = () => sacekaj(`import('./klase/mapa.js').then(({mapa}) => {
+const sacekajTraku = () => sacekaj(`import('./src/klase/mapa.js').then(({mapa}) => {
   const s=document.querySelector('nav-slajder')
   const slike=new Set(document.querySelector('polje-pretraga').filtrirano
     .filter(x=>x.dajSliku && mapa.getBounds().contains(x.marker.dajPoziciju())).map(x=>x.dajSliku))
@@ -77,9 +77,9 @@ test('istaknuto groblje zadržava ikonicu i ulazi u oba filtera i najviši prag 
   await otvori('#mostar-partisan-cemetery')
   const rezultat = await izvrsi(`(async () => {
     const s = document.querySelector('planer-rute').stavke.get('mostar-partisan-cemetery').spomenik
-    const {izgledMarkera} = await import('./utils/ikonice.js')
-    const {pripadaVrsti, najmanjiZum} = await import('./utils/vaznost.js')
-    const {izaberiStanice} = await import('./utils/ture.js')
+    const {izgledMarkera} = await import('./src/utils/ikonice.js')
+    const {pripadaVrsti, najmanjiZum} = await import('./src/utils/vaznost.js')
+    const {izaberiStanice} = await import('./src/utils/ture.js')
     return {vrsta: s.vrsta, istaknut: s.istaknut, ikonica: izgledMarkera(s).slika,
       zum: najmanjiZum(s), 'spomen-groblje': pripadaVrsti(s, 'spomen-groblje'), istaknuti: pripadaVrsti(s, 'istaknut'),
       uTuri: izaberiStanice([s], {drzave: [s.drzava]}, 'istaknut').length,
@@ -92,9 +92,9 @@ test('istaknuto groblje zadržava ikonicu i ulazi u oba filtera i najviši prag 
 test('oznake vrsta prate UI nazive i sve njihove ikonice postoje', async () => {
   await otvori()
   const greskeVrsta = await izvrsi(`(async () => {
-    const {vrstePoVaznosti} = await import('./utils/vaznost.js')
-    const {t} = await import('./utils/jezik.js')
-    const {izgledMarkera} = await import('./utils/ikonice.js')
+    const {vrstePoVaznosti} = await import('./src/utils/vaznost.js')
+    const {t} = await import('./src/utils/jezik.js')
+    const {izgledMarkera} = await import('./src/utils/ikonice.js')
     const greske = []
     for (const vrsta of vrstePoVaznosti) {
       const naziv = t(vrsta).normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase()
@@ -113,9 +113,9 @@ test('legenda, filteri, izbor ture i slojevi mape prate isti prioritet vrsta', a
   await otvori()
   await izvrsi("document.querySelector('polje-pretraga .dugme-filteri').click()")
   const prikaz = await izvrsi(`(async () => {
-    const {nivoiVaznosti} = await import('./utils/vaznost.js')
-    const {t} = await import('./utils/jezik.js')
-    const {default: Marker} = await import('./klase/Marker.js')
+    const {nivoiVaznosti} = await import('./src/utils/vaznost.js')
+    const {t} = await import('./src/utils/jezik.js')
+    const {default: Marker} = await import('./src/klase/Marker.js')
     const legenda = document.querySelector('dugme-legenda').shadowRoot
     const filteri = document.querySelector('panel-filteri').shadowRoot
     const ruta = document.querySelector('planer-rute').shadowRoot
@@ -151,7 +151,7 @@ test('Više vodi na članak o spomeniku, a bez članka se ne prikazuje', async (
     await sacekaj("document.querySelector('detalji-spomenika').marker?.spomen.id === " + JSON.stringify(id), 'otvoren spomenik')
     assert.equal(await izvrsi(`${prozor}.querySelector('a.vise')?.href ?? null`), link)
   }
-  const neispravni = await izvrsi(`import('./utils/clanci.js').then(({jeClanak,clanakSpomenika}) =>
+  const neispravni = await izvrsi(`import('./src/utils/clanci.js').then(({jeClanak,clanakSpomenika}) =>
     [...document.querySelector('planer-rute').stavke.values()].flatMap(({spomenik:s}) => {
       const greske = ['wiki','wikiEn'].filter(f=>s[f]&&!jeClanak(s[f]))
       if (!s.wiki&&!s.wikiEn&&clanakSpomenika(s)) greske.push('rezervni izvor')
@@ -187,7 +187,7 @@ test('stanje se prikazuje bez izvora i godine izdanja', async () => {
 })
 
 test('posveta prikazuje tekst bez HTML-a i zadržava postojeće wiki linkove', async () => {
-  await otvori('#podgorica-tito')
+  await otvori('#sarajevo-djuro-djakovic')
   const detalji = "document.querySelector('detalji-spomenika')"
   const prozor = `${detalji}.shadowRoot`
   const red = `[...${prozor}.querySelectorAll('.podaci')].find(p => p.textContent.startsWith('Posvećeno:'))`
@@ -201,7 +201,7 @@ test('posveta prikazuje tekst bez HTML-a i zadržava postojeće wiki linkove', a
   })()`)
   assert.equal(await izvrsi(`${red}.textContent`), `Posvećeno: ${opis}`)
   assert.equal(await izvrsi(`${red}.querySelector('a, b')`), null)
-  await otvori('#podgorica-tito')
+  await otvori('#sarajevo-djuro-djakovic')
   assert.equal(await sacekaj(`${red}?.querySelector('a')?.href`, 'wiki posveta posle opisa'), link)
 })
 
@@ -228,6 +228,20 @@ test('na engleskom naslov i opis stižu iz zasebnih fajlova i dopune već otvore
   assert.notEqual(await izvrsi(`${prozor}.querySelector('h2 .ime').textContent`), 'Interrupted Flight Monument')
 })
 
+test('dopuna podataka ne zatvara opis i natpis koje je korisnik otvorio', async () => {
+  await otvori('#kragujevac-sumarice-park')
+  const d = "document.querySelector('detalji-spomenika')"
+  await sacekaj(`${d}.shadowRoot.querySelector('.opis')`, 'opis')
+  await izvrsi(`(()=>{const d=${d};d.marker.spomen.natpis='Natpis';d.marker.spomen.opis={sh:'Posvećeno '+'dugom opisu spomenika, '.repeat(40),en:'x'};d.prikazi(d.marker)})()`)
+  const otvoreno = `(()=>{const p=${d}.shadowRoot;return [p.querySelector('.opis').getAttribute('aria-expanded'),p.querySelector('.natpis').open]})()`
+  await izvrsi(`(()=>{const p=${d}.shadowRoot;p.querySelector('.opis').click();p.querySelector('.natpis').open=true})()`)
+  assert.deepEqual(await izvrsi(otvoreno), ['true', true])
+  await izvrsi(`${d}.osvezi()`)
+  assert.deepEqual(await izvrsi(otvoreno), ['true', true])
+  await izvrsi(`${d}.osveziPodatke()`)
+  assert.deepEqual(await izvrsi(otvoreno), ['true', true])
+})
+
 test('pretraga suzi spomenike', async () => {
   await otvori()
   await izvrsi(`(() => { const p = document.querySelector('polje-pretraga input'); p.value = 'Tjentište'; p.dispatchEvent(new Event('input', {bubbles: true})) })()`)
@@ -250,7 +264,7 @@ test('traka se osvezi jednom posle touchpad pokreta i ceka zavrsetak prevlacenja
   }
   try {
     assert.equal(await izvrsi(`(async()=>{
-      const {mapa}=await import('./klase/mapa.js')
+      const {mapa}=await import('./src/klase/mapa.js')
       for(let i=0;i<8;i++){
         mapa.getContainer().dispatchEvent(new WheelEvent('wheel',{deltaX:8,cancelable:true}))
         await new Promise(r=>setTimeout(r,25))
@@ -258,13 +272,13 @@ test('traka se osvezi jednom posle touchpad pokreta i ceka zavrsetak prevlacenja
       return proveraTrake.broj
     })()`), 0)
     await sacekaj('proveraTrake.broj===1', 'jedno osvezavanje posle touchpada')
-    await izvrsi(`import('./klase/mapa.js').then(({mapa})=>{
+    await izvrsi(`import('./src/klase/mapa.js').then(({mapa})=>{
       proveraTrake.broj=0
       mapa.getContainer().dispatchEvent(new WheelEvent('wheel',{deltaX:8,cancelable:true}))
     })`)
     await dodir('touchStart')
-    for (let i=1; i<=4; i++) {
-      await dodir('touchMove',195-i*12)
+    for (let i = 1; i <= 4; i++) {
+      await dodir('touchMove', 195 - i * 12)
       await sleep(25)
     }
     await sleep(200)
@@ -281,8 +295,8 @@ test('traka se osvezi jednom posle touchpad pokreta i ceka zavrsetak prevlacenja
 test('traka prati mapu, važnost i filtere, a prazan predeo je sakriva', async () => {
   await otvori()
   const proveri = async () => izvrsi(`(async () => {
-    const {mapa} = await import('./klase/mapa.js')
-    const {vaznostSpomenika} = await import('./utils/vaznost.js')
+    const {mapa} = await import('./src/klase/mapa.js')
+    const {vaznostSpomenika} = await import('./src/utils/vaznost.js')
     const s = document.querySelector('nav-slajder')
     const stavke = document.querySelector('polje-pretraga').filtrirano
     const prikazane = s.slike.map(f => stavke.find(x => x.dajSliku === f))
@@ -293,23 +307,23 @@ test('traka prati mapu, važnost i filtere, a prazan predeo je sakriva', async (
       vrste: [...new Set(prikazane.map(x => x.spomenik.vrsta))],
       ids: prikazane.map(x => x.spomenik.id)}
   })()`)
-  await izvrsi("import('./klase/mapa.js').then(({mapa}) => void mapa.setView([44.81,20.46],11,{animate:false}))")
+  await izvrsi("import('./src/klase/mapa.js').then(({mapa}) => void mapa.setView([44.81,20.46],11,{animate:false}))")
   await sacekajTraku()
   const beograd = await proveri()
   assert.ok(beograd.broj > 0 && beograd.sveUOkviru && beograd.potpune && beograd.poredjane)
-  await izvrsi("window.prvaSlika=document.querySelector('nav-slajder').traka.firstChild; import('./klase/mapa.js').then(({mapa}) => void mapa.fire('moveend'))")
+  await izvrsi("window.prvaSlika=document.querySelector('nav-slajder').traka.firstChild; import('./src/klase/mapa.js').then(({mapa}) => void mapa.fire('moveend'))")
   assert.ok(await izvrsi("window.prvaSlika===document.querySelector('nav-slajder').traka.firstChild"))
   await izvrsi("document.querySelector('polje-pretraga').filteri.izaberi('tip','statua')")
   const statue = await proveri()
   assert.ok(statue.broj > 0 && statue.sveUOkviru && statue.potpune)
   assert.deepEqual(statue.vrste, ['statua'])
-  await izvrsi("document.querySelector('polje-pretraga').ponisti(); import('./klase/mapa.js').then(({mapa}) => void mapa.setView([43.34,17.8],12,{animate:false}))")
+  await izvrsi("document.querySelector('polje-pretraga').ponisti(); import('./src/klase/mapa.js').then(({mapa}) => void mapa.setView([43.34,17.8],12,{animate:false}))")
   await sacekajTraku()
   const mostar = await proveri()
   assert.ok(mostar.broj > 0 && mostar.sveUOkviru && mostar.potpune && mostar.poredjane)
   assert.ok(mostar.ids.includes('mostar-partisan-cemetery'))
   assert.ok(!mostar.ids.some(id => beograd.ids.includes(id)))
-  await izvrsi("import('./klase/mapa.js').then(({mapa}) => void mapa.setView([40,14],15,{animate:false}))")
+  await izvrsi("import('./src/klase/mapa.js').then(({mapa}) => void mapa.setView([40,14],15,{animate:false}))")
   await sacekajTraku()
   const prazno = await proveri()
   assert.equal(prazno.broj, 0)
@@ -324,24 +338,24 @@ test('traka prikazuje mesto do zuma 11, a naziv spomenika od zuma 12', async () 
     const slika = [...s.traka.children].find(x=>x.mesto==='Beograd (Dorćol)')
     return slika && {tekst:slika.naziv.textContent,title:slika.naziv.title,alt:slika.slika.alt}
   })()`)
-  await izvrsi("import('./klase/mapa.js').then(({mapa}) => void mapa.setView([44.8304596,20.4574169],15,{animate:false}))")
+  await izvrsi("import('./src/klase/mapa.js').then(({mapa}) => void mapa.setView([44.8304596,20.4574169],15,{animate:false}))")
   await sacekajTraku()
-  assert.deepEqual(await natpis(), {tekst:'Menora u plamenu',title:'Menora u plamenu',alt:'Spomenik Beograd (Dorćol)'})
-  await izvrsi("import('./klase/mapa.js').then(({mapa}) => void mapa.setZoom(11,{animate:false}))")
+  assert.deepEqual(await natpis(), {tekst:'Menora u plamenu', title:'Menora u plamenu', alt:'Spomenik Beograd (Dorćol)'})
+  await izvrsi("import('./src/klase/mapa.js').then(({mapa}) => void mapa.setZoom(11,{animate:false}))")
   await sacekajTraku()
   assert.equal((await natpis()).tekst, 'Beograd (Dorćol)')
-  await izvrsi("import('./klase/mapa.js').then(({mapa}) => void mapa.setZoom(12,{animate:false}))")
+  await izvrsi("import('./src/klase/mapa.js').then(({mapa}) => void mapa.setZoom(12,{animate:false}))")
   await sacekajTraku()
   assert.equal((await natpis()).tekst, 'Menora u plamenu')
   assert.equal(await izvrsi("document.querySelector('planer-rute').stavke.get('dorcol').spomenik.mesto"), 'Beograd (Dorćol)')
 })
 
 test('desktop traka prikazuje nazive spomenika i kada obuhvata više naselja', async () => {
-  await pregledac.send('Emulation.setDeviceMetricsOverride', {width:1440,height:900,deviceScaleFactor:1,mobile:false})
+  await pregledac.send('Emulation.setDeviceMetricsOverride', {width:1440, height:900, deviceScaleFactor:1, mobile:false})
   try {
     await otvori()
     const natpis = async zoom => {
-      await izvrsi(`import('./klase/mapa.js').then(({mapa})=>void mapa.setView([44.7802301,20.4169938],${zoom},{animate:false}))`)
+      await izvrsi(`import('./src/klase/mapa.js').then(({mapa})=>void mapa.setView([44.7802301,20.4169938],${zoom},{animate:false}))`)
       await sacekajTraku()
       return izvrsi(`(()=>{
       const s=document.querySelector('nav-slajder')
@@ -351,10 +365,10 @@ test('desktop traka prikazuje nazive spomenika i kada obuhvata više naselja', a
         zarkovo:natpisi.find(x=>x.mesto==='Beograd (Žarkovo)')?.tekst}
     })()`)
     }
-    assert.deepEqual(await natpis(14), {banovo:'Spomenik palim borcima Čukarice',zarkovo:'Spomenik palim borcima NOB'})
+    assert.deepEqual(await natpis(14), {banovo:'Spomenik palim borcima Čukarice', zarkovo:'Spomenik palim borcima NOB'})
     assert.equal((await natpis(11)).banovo, 'Beograd (Banovo Brdo)')
   } finally {
-    await pregledac.send('Emulation.setDeviceMetricsOverride', {width:390,height:844,deviceScaleFactor:2,mobile:true})
+    await pregledac.send('Emulation.setDeviceMetricsOverride', {width:390, height:844, deviceScaleFactor:2, mobile:true})
   }
 })
 
@@ -393,7 +407,7 @@ test('prijava otvara pripremljen mejl, a dopuna uključuje postojeći spomenik',
   assert.equal(await izvrsi(`${prijava}.querySelector('#panel').hidden`), false)
   assert.equal(await izvrsi(`${prijava}.querySelector('[href^="mailto:"]')`), null)
   assert.doesNotMatch(await izvrsi(`${prijava}.innerHTML`), /[^\s]+@[^\s]+\.[a-z]{2,}/)
-  const link = new URL(await izvrsi(`import('./utils/prijava.js').then(m => m.prijavaUrl())`))
+  const link = new URL(await izvrsi(`import('./src/utils/prijava.js').then(m => m.prijavaUrl())`))
   assert.equal(link.protocol, 'mailto:')
   assert.match(link.pathname, /^[^@]+@gmail\.com$/)
   assert.match(link.searchParams.get('body'), /Naziv spomenika \(obavezno\)/)
@@ -411,7 +425,7 @@ test('prijava otvara pripremljen mejl, a dopuna uključuje postojeći spomenik',
   await sacekaj(`${detalji}.querySelector('#dopuna')`, 'dugme za dopunu')
   assert.equal(await izvrsi(`${detalji}.querySelector('[href^="mailto:"]')`), null)
   assert.doesNotMatch(await izvrsi(`${detalji}.innerHTML`), /[^\s]+@gmail\.com/)
-  const dopuna = new URL(await izvrsi(`import('./utils/prijava.js').then(m => m.prijavaUrl(document.querySelector('detalji-spomenika').marker.spomen))`))
+  const dopuna = new URL(await izvrsi(`import('./src/utils/prijava.js').then(m => m.prijavaUrl(document.querySelector('detalji-spomenika').marker.spomen))`))
   assert.equal(dopuna.pathname, link.pathname)
   assert.match(dopuna.searchParams.get('subject'), /Dopuna podataka:.*Masle/)
   assert.match(dopuna.searchParams.get('body'), /https:\/\/www.google.com\/maps\?q=\d/)
@@ -443,7 +457,7 @@ test('približne lokacije u Beloj Crkvi ne prekrivaju precizni spomenik', async 
   await otvori('#bela-crkva-start-uprising')
   await sacekaj("document.querySelector('detalji-spomenika').marker?.spomen.id === 'bela-crkva-start-uprising'", 'Bela Crkva')
   for (const zum of [11, 10, 12]) {
-    const rezultat = await izvrsi(`import('./klase/mapa.js').then(({mapa}) => {
+    const rezultat = await izvrsi(`import('./src/klase/mapa.js').then(({mapa}) => {
       mapa.setZoom(${zum}, {animate: false})
       const marker = document.querySelector('detalji-spomenika').marker
       const tacni = marker.element.getElement().getBoundingClientRect()
@@ -483,7 +497,7 @@ test('tematske ture imaju wiki članak, stanice i vezu posle ponovnog otvaranja'
     assert.equal(await izvrsi(`${ruta}.querySelector('#ime-rute').textContent`), naziv)
     assert.match(await izvrsi(`${ruta}.querySelector('#wiki-rute').href`), new RegExp(clanak))
   }
-  await izvrsi("import('./utils/ruta.js').then(m => m.postaviRutu([]))")
+  await izvrsi("import('./src/utils/ruta.js').then(m => m.postaviRutu([]))")
 })
 
 test('gradska tura Niša se približava uz sve stanice na vidljivom delu mape', async () => {
@@ -491,9 +505,9 @@ test('gradska tura Niša se približava uz sve stanice na vidljivom delu mape', 
   const ruta = "document.querySelector('planer-rute').shadowRoot"
   await izvrsi(`${ruta}.querySelector('#dugme').click();${ruta}.querySelector('[data-kartica="ture"]').click()`)
   await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura li')].find(li => li.querySelector('.ime').textContent === 'Niš u NOB').querySelector('button').click()`)
-  await sacekaj("import('./klase/mapa.js').then(({mapa}) => mapa.getZoom() > 11)", 'bliži prikaz gradske ture')
+  await sacekaj("import('./src/klase/mapa.js').then(({mapa}) => mapa.getZoom() > 11)", 'bliži prikaz gradske ture')
   await sleep(400)
-  const provera = await izvrsi(`Promise.all([import('./klase/mapa.js'), Promise.all(['data/spomenici-istaknuti.json', 'data/spomenici-ostali.json'].map(f => fetch(f).then(r => r.json()))).then(d => d.flat()), import('./utils/ruta.js')]).then(([{mapa}, spomenici, {dajRutu}]) => {
+  const provera = await izvrsi(`Promise.all([import('./src/klase/mapa.js'), Promise.all(['data/spomenici-istaknuti.json', 'data/spomenici-ostali.json'].map(f => fetch(f).then(r => r.json()))).then(d => d.flat()), import('./src/utils/ruta.js')]).then(([{mapa}, spomenici, {dajRutu}]) => {
     const dno = ${ruta}.querySelector('#dugme').getBoundingClientRect().top - 20
     return spomenici.filter(s => dajRutu().includes(s.id)).map(s => {
       const p = mapa.latLngToContainerPoint(s.koordinate)
@@ -509,7 +523,7 @@ test('svaka stanica ima direktnu navigaciju nezavisnu od cele ture', async () =>
   const ruta = "document.querySelector('planer-rute').shadowRoot"
   await izvrsi(`${ruta}.querySelector('#dugme').click();${ruta}.querySelector('[data-kartica="ture"]').click()`)
   await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura li')].find(li => li.querySelector('.ime').textContent === 'Niš u NOB').querySelector('button').click()`)
-  const podaci = await izvrsi(`Promise.all([Promise.all(['data/spomenici-istaknuti.json', 'data/spomenici-ostali.json'].map(f => fetch(f).then(r => r.json()))).then(d => d.flat()), import('./utils/ruta.js')]).then(([spomenici, {dajRutu}]) => {
+  const podaci = await izvrsi(`Promise.all([Promise.all(['data/spomenici-istaknuti.json', 'data/spomenici-ostali.json'].map(f => fetch(f).then(r => r.json()))).then(d => d.flat()), import('./src/utils/ruta.js')]).then(([spomenici, {dajRutu}]) => {
     const ids = dajRutu()
     return ids.map(id => spomenici.find(s => s.id === id))
   })`)
@@ -537,16 +551,16 @@ test('podrazumevani prag je statua i svaka vrsta je zasebna opcija', async () =>
   assert.equal(await izvrsi("document.querySelector('planer-rute').pragVaznosti"), 'statua')
   assert.match(await izvrsi(`${ruta}.querySelector('#prag-vaznosti').textContent`), /Statua/)
   const opcije = await izvrsi(`[...${ruta}.querySelectorAll('[data-prag]')].map(o=>({value:o.dataset.prag,label:o.textContent,znak:Boolean(o.querySelector('img'))}))`)
-  assert.ok(opcije.every(o=>o.znak), 'svaka opcija ima znak sa mape')
-  assert.deepEqual(opcije.map(o=>o.value), nivoiVaznosti)
-  assert.ok(opcije.every(o=>!o.label.includes('/')))
+  assert.ok(opcije.every(o => o.znak), 'svaka opcija ima znak sa mape')
+  assert.deepEqual(opcije.map(o => o.value), nivoiVaznosti)
+  assert.ok(opcije.every(o => !o.label.includes('/')))
   await izvrsi(`${ruta}.querySelector('#dugme').click()`)
   await izvrsi(`${ruta}.querySelector('[data-kartica="ture"]').click()`)
   await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura li')].find(li=>li.querySelector('.ime').textContent==='Beograd u NOB').querySelector('button').click()`)
-  const vrste = await izvrsi("import('./utils/ruta.js').then(m=>m.dajRutu().map(id=>document.querySelector('planer-rute').stavke.get(id).spomenik.vrsta))")
+  const vrste = await izvrsi("import('./src/utils/ruta.js').then(m=>m.dajRutu().map(id=>document.querySelector('planer-rute').stavke.get(id).spomenik.vrsta))")
   assert.ok(vrste.includes('statua'))
-  assert.ok(!vrste.some(v=>['bista','spomen-obelezje','groblje','spomen-ploca'].includes(v)))
-  await izvrsi("import('./utils/ruta.js').then(m=>m.postaviRutu([]))")
+  assert.ok(!vrste.some(v => ['bista', 'spomen-obelezje', 'groblje', 'spomen-ploca'].includes(v)))
+  await izvrsi("import('./src/utils/ruta.js').then(m=>m.postaviRutu([]))")
 })
 
 test('prag važnosti menja celu automatsku turu i pamti izbor bez ograničenja broja stanica', async () => {
@@ -564,17 +578,17 @@ test('prag važnosti menja celu automatsku turu i pamti izbor bez ograničenja b
   assert.ok(await izvrsi(`[...${ruta}.querySelectorAll('#spisak-tura li')].some(li=>li.querySelector('.ime').textContent==='Jugoslavija u NOB'&&li.querySelector('.opis').textContent==='Istaknuti spomenik')`))
   await postaviPrag('spomen-ploca')
   await izaberi('Beograd u NOB')
-  const svi = await izvrsi("import('./utils/ruta.js').then(m=>m.dajRutu())")
+  const svi = await izvrsi("import('./src/utils/ruta.js').then(m=>m.dajRutu())")
   assert.ok(svi.length > 10, 'sve stanice, uključujući one posle desete')
   assert.equal(await izvrsi(`${ruta}.querySelectorAll('#stanice li').length`), svi.length)
   await postaviPrag('istaknut')
-  const istaknuti = await izvrsi("import('./utils/ruta.js').then(m=>m.dajRutu())")
+  const istaknuti = await izvrsi("import('./src/utils/ruta.js').then(m=>m.dajRutu())")
   assert.ok(istaknuti.length > 0 && istaknuti.length < svi.length)
   assert.ok(istaknuti.every(id => svi.includes(id)))
-  assert.ok(await izvrsi(`import('./utils/ruta.js').then(m=>m.dajRutu().every(id=>document.querySelector('planer-rute').stavke.get(id).spomenik.istaknut===true))`))
+  assert.ok(await izvrsi(`import('./src/utils/ruta.js').then(m=>m.dajRutu().every(id=>document.querySelector('planer-rute').stavke.get(id).spomenik.istaknut===true))`))
   await otvori()
   assert.equal(await izvrsi(prag), 'istaknut')
-  assert.deepEqual(new Set(await izvrsi("import('./utils/ruta.js').then(m=>m.dajRutu())")), new Set(istaknuti))
+  assert.deepEqual(new Set(await izvrsi("import('./src/utils/ruta.js').then(m=>m.dajRutu())")), new Set(istaknuti))
   await postaviPrag('spomen-ploca')
   // Prava gradska tura može dobiti istaknut spomenik dopunom baze.
   await izvrsi(`(() => {
@@ -590,24 +604,24 @@ test('prag važnosti menja celu automatsku turu i pamti izbor bez ograničenja b
   assert.equal(await izvrsi(`${ruta}.querySelectorAll('#stanice li').length`), 3)
   await postaviPrag('istaknut')
   assert.equal(await izvrsi(`${ruta}.querySelectorAll('#stanice li').length`), 0)
-  assert.deepEqual(await izvrsi("import('./utils/ruta.js').then(m=>m.dajRutu())"), [])
-  assert.equal(await izvrsi("import('./utils/ruta.js').then(m=>m.dajTuruId())"), 'test-prazna-tura')
+  assert.deepEqual(await izvrsi("import('./src/utils/ruta.js').then(m=>m.dajRutu())"), [])
+  assert.equal(await izvrsi("import('./src/utils/ruta.js').then(m=>m.dajTuruId())"), 'test-prazna-tura')
   assert.equal(await izvrsi(`${ruta}.querySelector('#prazna').hidden`), false)
   assert.equal(await izvrsi(`${ruta}.querySelector('#vaznost').hidden`), false)
   await postaviPrag('spomen-ploca')
   assert.equal(await izvrsi(`${ruta}.querySelectorAll('#stanice li').length`), 3)
-  await izvrsi("import('./utils/ruta.js').then(m=>m.ukloniIzRute(m.dajRutu()[0]))")
-  const rucna = await izvrsi("import('./utils/ruta.js').then(m=>m.dajRutu())")
+  await izvrsi("import('./src/utils/ruta.js').then(m=>m.ukloniIzRute(m.dajRutu()[0]))")
+  const rucna = await izvrsi("import('./src/utils/ruta.js').then(m=>m.dajRutu())")
   await postaviPrag('istaknut')
-  assert.deepEqual(await izvrsi("import('./utils/ruta.js').then(m=>m.dajRutu())"), rucna, 'ručno izmenjena ruta se čuva')
+  assert.deepEqual(await izvrsi("import('./src/utils/ruta.js').then(m=>m.dajRutu())"), rucna, 'ručno izmenjena ruta se čuva')
   await postaviPrag('spomenik')
-  await izvrsi("import('./utils/ruta.js').then(m=>m.postaviRutu([]))")
+  await izvrsi("import('./src/utils/ruta.js').then(m=>m.postaviRutu([]))")
 })
 
 test('uklanjanje rute otvara predložene rute', async () => {
   await otvori()
   const ruta = "document.querySelector('planer-rute').shadowRoot"
-  await izvrsi("import('./utils/ruta.js').then(m=>m.postaviRutu([...document.querySelector('planer-rute').stavke.keys()].slice(0, 2)))")
+  await izvrsi("import('./src/utils/ruta.js').then(m=>m.postaviRutu([...document.querySelector('planer-rute').stavke.keys()].slice(0, 2)))")
   await izvrsi(`${ruta}.querySelector('#dugme').click()`)
   await izvrsi(`${ruta}.querySelector('[data-kartica="planer"]').click()`)
   await izvrsi(`${ruta}.querySelector('#isprazni').click()`)
@@ -671,7 +685,7 @@ test('lista želja i posećeni spomenici pamte se posle ponovnog otvaranja i mog
   const sacuvana = `JSON.parse(localStorage.getItem('spomenici-poseta'))[${JSON.stringify(id)}]`
   await otvori('#' + id)
   try {
-    await izvrsi(`import('./utils/oznake.js').then(m=>m.postaviOznaku(${JSON.stringify(id)},null))`)
+    await izvrsi(`import('./src/utils/oznake.js').then(m=>m.postaviOznaku(${JSON.stringify(id)},null))`)
     await izvrsi(`${oznaka('lista')}.click()`)
     assert.equal(await izvrsi(oznaka('lista') + '.getAttribute("aria-pressed")'), 'true')
     assert.equal(await izvrsi(sacuvana), 'lista')
@@ -687,7 +701,7 @@ test('lista želja i posećeni spomenici pamte se posle ponovnog otvaranja i mog
     assert.equal(await izvrsi(oznaka('posetio') + '.getAttribute("aria-pressed")'), 'false')
     assert.equal(await izvrsi(`Object.hasOwn(JSON.parse(localStorage.getItem('spomenici-poseta')),${JSON.stringify(id)})`), false)
   } finally {
-    await izvrsi(`import('./utils/oznake.js').then(m=>m.postaviOznaku(${JSON.stringify(id)},null))`)
+    await izvrsi(`import('./src/utils/oznake.js').then(m=>m.postaviOznaku(${JSON.stringify(id)},null))`)
   }
 })
 
@@ -723,7 +737,7 @@ test('U blizini posle lociranja nudi najbliže spomenike redom i otvara izabrani
     assert.equal(await izvrsi(`${najblizi}.querySelector('#dugme').hidden`), true)
     await izvrsi("document.querySelector('dugme-lokator').click()")
     await sacekaj(`!${najblizi}.querySelector('#dugme').hidden`, 'dugme U blizini')
-    assert.ok(await sacekaj(`import('./klase/mapa.js').then(({mapa}) => mapa.latLngToContainerPoint([${lat}, ${lng}]).distanceTo(mapa.getSize().divideBy(2)) < 2)`, 'mapa centrirana na korisnika'))
+    assert.ok(await sacekaj(`import('./src/klase/mapa.js').then(({mapa}) => mapa.latLngToContainerPoint([${lat}, ${lng}]).distanceTo(mapa.getSize().divideBy(2)) < 2)`, 'mapa centrirana na korisnika'))
     await izvrsi(`${najblizi}.querySelector('#dugme').click()`)
     assert.equal(await izvrsi(`${najblizi}.querySelector('#panel').hidden`), false)
     const redovi = await izvrsi(`[...${najblizi}.querySelectorAll('li')].map(li => ({km: li.querySelector('.km').textContent, naziv: li.querySelector('.naziv').textContent}))`)
@@ -737,6 +751,17 @@ test('U blizini posle lociranja nudi najbliže spomenike redom i otvara izabrani
     await izvrsi(`${najblizi}.querySelector('li button').click()`)
     assert.equal(await izvrsi(`${najblizi}.querySelector('#panel').hidden`), true)
     await sacekaj("document.querySelector('detalji-spomenika').marker?.spomen.id === 'mostar-partisan-cemetery'", 'otvoren najbliži spomenik')
+    // otvoren panel U blizini se zatvara kad se otvori drugi panel ili spomenik, i obrnuto
+    const planer = "document.querySelector('planer-rute')"
+    await izvrsi(`${najblizi}.querySelector('#dugme').click()`)
+    assert.equal(await izvrsi("document.querySelector('detalji-spomenika').marker"), null)
+    await izvrsi(`${planer}.dugme.click()`)
+    assert.equal(await izvrsi(`${najblizi}.querySelector('#panel').hidden`), true)
+    await izvrsi(`${najblizi}.querySelector('#dugme').click()`)
+    assert.equal(await izvrsi(`${planer}.panel.hidden`), true)
+    await izvrsi(`${najblizi}.querySelector('#dugme').click()`)
+    await izvrsi(`${planer}.stavke.get('mostar-partisan-cemetery').marker.otvoriProzor()`)
+    assert.equal(await izvrsi(`${najblizi}.querySelector('#panel').hidden`), true)
   } finally {
     await pregledac.send('Emulation.clearGeolocationOverride')
   }
@@ -753,7 +778,7 @@ test('široka pretraga crta ograničen broj najvažnijih obeliska, a ostale pri 
   assert.ok(pronadjeno > 1000, `pronađeno ${pronadjeno}`)
   assert.ok(izdaleka.length <= 400, `nacrtano ${izdaleka.length}`)
   assert.ok(!izdaleka.some(src => src.includes('spomen-ploca')), 'ploče ne potiskuju važnije spomenike')
-  await izvrsi("import('./klase/mapa.js').then(({mapa}) => void mapa.setView([44.81, 20.46], 14, {animate: false}))")
+  await izvrsi("import('./src/klase/mapa.js').then(({mapa}) => void mapa.setView([44.81, 20.46], 14, {animate: false}))")
   assert.ok((await nacrtani()).some(src => src.includes('spomen-ploca')), 'izbliza se vide i ploče')
 })
 
@@ -761,7 +786,7 @@ test('prvi GPS signal okreće gotovu turu ka korisniku, a ručno uređenu rutu n
   const stanice = ['banja-luka-maslesa', 'mostar-partisan-cemetery', 'podgorica-tito']
   const posleLociranja = async (izmena = '') => {
     await otvori()
-    return izvrsi(`Promise.all([import('./utils/ruta.js'), import('./klase/mapa.js')]).then(([r, {mapa}]) => {
+    return izvrsi(`Promise.all([import('./src/utils/ruta.js'), import('./src/klase/mapa.js')]).then(([r, {mapa}]) => {
       r.izaberiTuru({id: 'proba', naziv: 'Proba', spomenici: ${JSON.stringify([...stanice, 'okucani'])}})
       r.ukloniIzRute('okucani')
       ${izmena}
@@ -774,7 +799,7 @@ test('prvi GPS signal okreće gotovu turu ka korisniku, a ručno uređenu rutu n
     assert.deepEqual(await posleLociranja(`r.izaberiTuru({id: 'proba', naziv: 'Proba', spomenici: ${JSON.stringify(stanice)}})`),
       [...stanice].reverse(), 'gotova tura')
   } finally {
-    await izvrsi("import('./utils/ruta.js').then(m => m.postaviRutu([]))")
+    await izvrsi("import('./src/utils/ruta.js').then(m => m.postaviRutu([]))")
   }
 })
 
@@ -815,7 +840,7 @@ test('brzo kucanje pretražuje jednom posle zastoja, a Enter odmah', async () =>
 test('Prikazi odmah obradi poslednji unos i pomeri mapu na nove rezultate', async () => {
   await otvori()
   const rezultat = await izvrsi(`(async()=>{
-    const p=document.querySelector('polje-pretraga'),{mapa}=await import('./klase/mapa.js')
+    const p=document.querySelector('polje-pretraga'),{mapa}=await import('./src/klase/mapa.js')
     p.polje.value='Tjentište';p.pretrazi();p.filteri.otvori()
     p.polje.value='Kozara';p.polje.dispatchEvent(new Event('input',{bubbles:true}))
     const original=mapa.fitBounds
@@ -833,13 +858,13 @@ test('Prikazi odmah obradi poslednji unos i pomeri mapu na nove rezultate', asyn
       return {odmah,pozvanoKasnije:pozvano,idsKasnije:p.filtrirano.map(s=>s.spomenik.id)}
     }finally{mapa.fitBounds=original}
   })()`)
-  assert.equal(rezultat.odmah.pozvano,1)
-  assert.equal(rezultat.odmah.poklapanje,true,'mapa obuhvata Kozaru')
+  assert.equal(rezultat.odmah.pozvano, 1)
+  assert.equal(rezultat.odmah.poklapanje, true, 'mapa obuhvata Kozaru')
   assert.ok(rezultat.odmah.ids.includes('kozara'))
   assert.ok(!rezultat.odmah.ids.includes('tjentiste'))
-  assert.equal(rezultat.odmah.odlozena,false)
-  assert.equal(rezultat.pozvanoKasnije,1)
-  assert.deepEqual(rezultat.idsKasnije,rezultat.odmah.ids)
+  assert.equal(rezultat.odmah.odlozena, false)
+  assert.equal(rezultat.pozvanoKasnije, 1)
+  assert.deepEqual(rezultat.idsKasnije, rezultat.odmah.ids)
 })
 
 // rad bez signala postoji samo u objavljenoj aplikaciji, pa ga test ukljucuje zamenom podesavanja;
@@ -947,24 +972,24 @@ test('stara fotografija se osvezi pod istim URL-om i nova ostaje dostupna bez mr
 
 test('paneli dobijaju fokus, Escape ih zatvara i vraca fokus na dugme', async () => {
   await otvori()
-  await izvrsi(`import('./klase/mapa.js').then(({mapa})=>void mapa.fire('pozicija',{latlng:L.latLng(44,20)}))`)
-  for (const selektor of ['dugme-legenda','planer-rute','lista-najblizih','panel-filteri']) {
+  await izvrsi(`import('./src/klase/mapa.js').then(({mapa})=>void mapa.fire('pozicija',{latlng:L.latLng(44,20)}))`)
+  for (const selektor of ['dugme-legenda', 'planer-rute', 'lista-najblizih', 'panel-filteri', 'prijava-spomenika']) {
     await izvrsi(`(()=>{
       const c=document.querySelector(${JSON.stringify(selektor)})
       const dugme=c.dugme || document.querySelector('polje-pretraga').dugme
       dugme.focus();dugme.click()
     })()`)
     await sacekaj(`(()=>{const c=document.querySelector(${JSON.stringify(selektor)});return !c.panel.hidden && c.shadowRoot.activeElement===c.panel})()`, 'fokus u panelu')
-    await pregledac.send('Input.dispatchKeyEvent',{type:'keyDown',key:'Escape',code:'Escape'})
-    await pregledac.send('Input.dispatchKeyEvent',{type:'keyUp',key:'Escape',code:'Escape'})
+    await pregledac.send('Input.dispatchKeyEvent', {type:'keyDown', key:'Escape', code:'Escape'})
+    await pregledac.send('Input.dispatchKeyEvent', {type:'keyUp', key:'Escape', code:'Escape'})
     const stanje = await izvrsi(`(()=>{const c=document.querySelector(${JSON.stringify(selektor)}),d=c.dugme || document.querySelector('polje-pretraga').dugme;return {hidden:c.panel.hidden,fokus:c.shadowRoot.activeElement===d || document.activeElement===d,aktivan:document.activeElement?.tagName,unutra:c.shadowRoot.activeElement?.id}})()`)
-    assert.equal(stanje.hidden && stanje.fokus,true,selektor+': '+JSON.stringify(stanje))
+    assert.equal(stanje.hidden && stanje.fokus, true, selektor + ': ' + JSON.stringify(stanje))
   }
   await otvori('#mostar-partisan-cemetery')
-  await sacekaj(`(()=>{const d=document.querySelector('detalji-spomenika');return d.shadowRoot.activeElement===d.panel && !!d.panel.getAttribute('aria-label')})()`,'fokus detalja')
-  await pregledac.send('Input.dispatchKeyEvent',{type:'keyDown',key:'Escape',code:'Escape'})
-  await pregledac.send('Input.dispatchKeyEvent',{type:'keyUp',key:'Escape',code:'Escape'})
-  assert.equal(await izvrsi(`document.querySelector('detalji-spomenika').panel.hidden`),true)
+  await sacekaj(`(()=>{const d=document.querySelector('detalji-spomenika');return d.shadowRoot.activeElement===d.panel && !!d.panel.getAttribute('aria-label')})()`, 'fokus detalja')
+  await pregledac.send('Input.dispatchKeyEvent', {type:'keyDown', key:'Escape', code:'Escape'})
+  await pregledac.send('Input.dispatchKeyEvent', {type:'keyUp', key:'Escape', code:'Escape'})
+  assert.equal(await izvrsi(`document.querySelector('detalji-spomenika').panel.hidden`), true)
 })
 
 test('nepotpuno ucitavanje ne skracuje sacuvanu automatsku turu i daje tacnu poruku', async () => {
@@ -975,36 +1000,36 @@ test('nepotpuno ucitavanje ne skracuje sacuvanu automatsku turu i daje tacnu por
     const ruta={turaId:t.id,naziv:t.naziv,spomenici:ids}
     localStorage.setItem('spomenici-ruta',JSON.stringify(ruta));return ruta
   })()`)
-  assert.equal(sacuvana.spomenici.length,2)
+  assert.equal(sacuvana.spomenici.length, 2)
   let aktivno = true
-  const zaustavljeni=[],poruke=[]
-  pregledac.slusaj(m=>{
+  const zaustavljeni = [], poruke = []
+  pregledac.slusaj(m => {
     if(!aktivno)return
-    if(m.method==='Fetch.requestPaused')zaustavljeni.push(m.params.requestId)
-    if(m.method==='Page.javascriptDialogOpening'){
+    if(m.method === 'Fetch.requestPaused')zaustavljeni.push(m.params.requestId)
+    if(m.method === 'Page.javascriptDialogOpening') {
       poruke.push(m.params.message)
-      pregledac.send('Page.handleJavaScriptDialog',{accept:true}).catch(()=>{})
+      pregledac.send('Page.handleJavaScriptDialog', {accept:true}).catch(() => {})
     }
   })
-  await pregledac.send('Network.setBypassServiceWorker',{bypass:true})
-  await pregledac.send('Fetch.enable',{patterns:[{urlPattern:'*data/spomenici-ostali.json'}]})
+  await pregledac.send('Network.setBypassServiceWorker', {bypass:true})
+  await pregledac.send('Fetch.enable', {patterns:[{urlPattern:'*data/spomenici-ostali.json'}]})
   try {
-    await pregledac.send('Page.navigate',{url:'about:blank'})
-    await pregledac.send('Page.navigate',{url:server.adresa})
-    await sacekaj(`document.querySelector('polje-pretraga') && document.querySelector('planer-rute').definicije.length>0`,'prvi deo podataka')
-    assert.deepEqual(await izvrsi(`JSON.parse(localStorage.getItem('spomenici-ruta'))`),sacuvana)
-    assert.equal(await izvrsi(`document.querySelector('polje-pretraga input').disabled`),true,'pretraga čeka ostale spomenike')
+    await pregledac.send('Page.navigate', {url:'about:blank'})
+    await pregledac.send('Page.navigate', {url:server.adresa})
+    await sacekaj(`document.querySelector('polje-pretraga') && document.querySelector('planer-rute').definicije.length>0`, 'prvi deo podataka')
+    assert.deepEqual(await izvrsi(`JSON.parse(localStorage.getItem('spomenici-ruta'))`), sacuvana)
+    assert.equal(await izvrsi(`document.querySelector('polje-pretraga input').disabled`), true, 'pretraga čeka ostale spomenike')
     // drugi deo se trazi tek malo posle prvog crtanja
-    for(let i=0;i<100 && !zaustavljeni.length;i++)await sleep(50)
-    for(const requestId of zaustavljeni)await pregledac.send('Fetch.fulfillRequest',{requestId,responseCode:503,body:''})
-    for(let i=0;i<50 && !poruke.length;i++)await sleep(50)
-    assert.match(poruke[0],/samo deo spomenika/)
-    assert.equal(await izvrsi(`document.querySelector('polje-pretraga input').disabled`),false,'bez ostalih pretražuju se istaknuti')
-    assert.deepEqual(await izvrsi(`JSON.parse(localStorage.getItem('spomenici-ruta'))`),sacuvana)
+    for(let i = 0;i < 100 && !zaustavljeni.length;i++)await sleep(50)
+    for(const requestId of zaustavljeni)await pregledac.send('Fetch.fulfillRequest', {requestId, responseCode:503, body:''})
+    for(let i = 0;i < 50 && !poruke.length;i++)await sleep(50)
+    assert.match(poruke[0], /samo deo spomenika/)
+    assert.equal(await izvrsi(`document.querySelector('polje-pretraga input').disabled`), false, 'bez ostalih pretražuju se istaknuti')
+    assert.deepEqual(await izvrsi(`JSON.parse(localStorage.getItem('spomenici-ruta'))`), sacuvana)
   }finally{
-    aktivno=false
+    aktivno = false
     await pregledac.send('Fetch.disable')
-    await pregledac.send('Network.setBypassServiceWorker',{bypass:false})
+    await pregledac.send('Network.setBypassServiceWorker', {bypass:false})
     await izvrsi(`localStorage.removeItem('spomenici-ruta')`)
   }
 })
@@ -1014,33 +1039,33 @@ test('dodirne mete imaju najmanje 44 px i engleski prevod kontrola', async () =>
   await izvrsi(`localStorage.setItem('spomenici-jezik','en')`)
   try{
     await otvori()
-    const kontrole=await izvrsi(`({
+    const kontrole = await izvrsi(`({
       lokator:document.querySelector('dugme-lokator button').getAttribute('aria-label'),
       ekran:document.querySelector('dugme-pun-ekran button').getAttribute('aria-label'),
       mete:[document.querySelector('#jezik'),...document.querySelectorAll('.leaflet-control-zoom a')].map(e=>{const r=e.getBoundingClientRect();return [r.width,r.height]})
     })`)
-    assert.equal(kontrole.lokator,'Locate me')
-    assert.equal(kontrole.ekran,'Full screen')
-    assert.ok(kontrole.mete.every(([w,h])=>w>=44 && h>=44))
+    assert.equal(kontrole.lokator, 'Locate me')
+    assert.equal(kontrole.ekran, 'Full screen')
+    assert.ok(kontrole.mete.every(([w, h]) => w >= 44 && h >= 44))
   }finally{await izvrsi(`localStorage.setItem('spomenici-jezik','sh')`)}
 })
 
 test('neproveren link autora ili posvete se prikazuje samo kao tekst', async () => {
   await otvori('#mostar-partisan-cemetery')
-  const rezultat=await izvrsi(`(()=>{
+  const rezultat = await izvrsi(`(()=>{
     const d=document.querySelector('detalji-spomenika')
     return [d.praviAutore({autor:'Nepoznat'}),(()=>{d.autori.Nepoznat='javascript:alert(1)';return d.praviAutore({autor:'Nepoznat'})})(),
       (()=>{d.posvete.QPROBA={naziv:{sh:'Posveta'},wiki:'data:text/html,test'};return d.praviPosvetu({posveta:['QPROBA']})})()]
   })()`)
-  assert.ok(rezultat.every(html=>!html.includes('<a ')))
+  assert.ok(rezultat.every(html => !html.includes('<a ')))
 })
 
 test('U blizini naznacava da prikazuje samo filtrirane rezultate', async () => {
   await otvori()
   await izvrsi(`(()=>{const p=document.querySelector('polje-pretraga');p.polje.value='Tjentište';p.pretrazi()})()`)
-  assert.equal(await izvrsi(`document.querySelector('lista-najblizih').panel.querySelector('.filteri').hidden`),false)
+  assert.equal(await izvrsi(`document.querySelector('lista-najblizih').panel.querySelector('.filteri').hidden`), false)
   await izvrsi(`document.querySelector('polje-pretraga').ponisti()`)
-  assert.equal(await izvrsi(`document.querySelector('lista-najblizih').panel.querySelector('.filteri').hidden`),true)
+  assert.equal(await izvrsi(`document.querySelector('lista-najblizih').panel.querySelector('.filteri').hidden`), true)
 })
 
 test('traka dopunjava fotografije nakon prosirenja ekrana bez rucnog pomeranja', async () => {
@@ -1048,10 +1073,10 @@ test('traka dopunjava fotografije nakon prosirenja ekrana bez rucnog pomeranja',
   await sacekajTraku()
   const pre = await izvrsi(`document.querySelector('nav-slajder').traka.childElementCount`)
   try {
-    await pregledac.send('Emulation.setDeviceMetricsOverride',{width:1440,height:900,deviceScaleFactor:1,mobile:false})
-    await sacekaj(`(()=>{const t=document.querySelector('nav-slajder').traka;return t.childElementCount>${pre} && t.scrollWidth>=t.clientWidth})()`,'dopunjena traka na sirokom ekranu')
+    await pregledac.send('Emulation.setDeviceMetricsOverride', {width:1440, height:900, deviceScaleFactor:1, mobile:false})
+    await sacekaj(`(()=>{const t=document.querySelector('nav-slajder').traka;return t.childElementCount>${pre} && t.scrollWidth>=t.clientWidth})()`, 'dopunjena traka na sirokom ekranu')
   } finally {
-    await pregledac.send('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:2,mobile:true})
+    await pregledac.send('Emulation.setDeviceMetricsOverride', {width:390, height:844, deviceScaleFactor:2, mobile:true})
   }
 })
 
@@ -1065,7 +1090,7 @@ test('groblje ima zaseban filter, oznaku u legendi i marker', async () => {
   await izvrsi(`${cip}.click()`)
   const vrste = await izvrsi("document.querySelector('polje-pretraga').filtrirano.map(s=>s.spomenik.vrsta)")
   assert.ok(vrste.length > 0)
-  assert.ok(vrste.every(v=>v==='groblje'))
+  assert.ok(vrste.every(v => v === 'groblje'))
   await izvrsi(`${root}.querySelector('#prikazi').click()`)
   await sacekaj("!!document.querySelector('.leaflet-marker-pane img[src*=\"groblje-postoji.svg\"]')", 'marker groba posle potvrde')
   await izvrsi("document.querySelector('dugme-legenda').shadowRoot.querySelector('button').click()")

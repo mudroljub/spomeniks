@@ -336,7 +336,7 @@ if novi_bliski:
 otisak_ispravan = True
 # u razvoju (devMode) nema novih izdanja, pa se otisak proverava tek pred objavu
 def razvoj():
-    put = 'utils/podesavanja.js'
+    put = 'src/utils/podesavanja.js'
     return os.path.exists(put) and re.search(r'devMode = true', open(put, encoding='utf8').read()) is not None
 if os.path.exists('sw.js') and not razvoj():
     import subprocess

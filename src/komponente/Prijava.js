@@ -2,7 +2,7 @@
 import {mapa} from '../klase/mapa.js'
 import {t} from '../utils/jezik.js'
 import {mejl, prijavaUrl} from '../utils/prijava.js'
-import {stilPanela} from '../utils/ui.js'
+import {stilPanela, upravljajPanelom} from '../utils/ui.js'
 
 export default class Prijava extends HTMLElement {
   constructor() {
@@ -47,8 +47,8 @@ export default class Prijava extends HTMLElement {
         }
       </style>
       <button id="dugme" aria-expanded="false" aria-controls="panel" aria-label="${t('prijavaNaslov')}" title="${t('prijavaNaslov')}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M12 21s-6.5-5.8-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 15.2 12 21 12 21Z" stroke-linejoin="round"/><path d="M12 7v5.6M9.2 9.8h5.6"/></svg></button>
-      <section id="panel" aria-labelledby="naslov" hidden>
-        <header><h2 id="naslov">${t('prijavaNaslov')}</h2><button id="zatvori" aria-label="${t('zatvori')}">×</button></header>
+      <section id="panel" hidden>
+        <header><h2>${t('prijavaNaslov')}</h2><button id="zatvori" aria-label="${t('zatvori')}">×</button></header>
         <p>${t('prijavaUputstvo')}</p>
         <button id="mejl">${t('prijavaOtvoriMejl')}</button>
         <p class="adresa"><button id="kopiraj">${t('prijavaKopiraj')}</button><span id="status" role="status"></span></p>
@@ -58,6 +58,7 @@ export default class Prijava extends HTMLElement {
     this.dugme = this.shadowRoot.querySelector('#dugme')
     this.panel = this.shadowRoot.querySelector('#panel')
     this.dugme.addEventListener('click', () => this.prikazi(this.panel.hidden))
+    upravljajPanelom(this.panel, () => this.prikazi(false), t('prijavaNaslov'), () => this.dugme)
     this.shadowRoot.querySelector('#mejl').addEventListener('click', () => {
       location.href = prijavaUrl()
     })
@@ -70,18 +71,12 @@ export default class Prijava extends HTMLElement {
         status.textContent = `${t('prijavaKopirajRucno')}: ${mejl()}`
       }
     })
-    this.shadowRoot.querySelector('#zatvori').addEventListener('click', () => this.prikazi(false, true))
-    this.addEventListener('keydown', e => {
-      if (e.key === 'Escape' && !this.panel.hidden) this.prikazi(false, true)
-    })
+    this.shadowRoot.querySelector('#zatvori').addEventListener('click', () => this.prikazi(false))
     mapa.on('click izbor otvoriRutu', () => this.prikazi(false))
   }
 
-  prikazi(otvoren, vratiFokus = false) {
+  prikazi(otvoren) {
     this.panel.hidden = !otvoren
-    this.dugme.setAttribute('aria-expanded', String(otvoren))
-    if (otvoren) this.shadowRoot.querySelector('#zatvori').focus()
-    else if (vratiFokus) this.dugme.focus()
   }
 }
 

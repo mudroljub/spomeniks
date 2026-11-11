@@ -2,7 +2,7 @@
   "env": {
     "browser": true,
     "node": true,
-    "es6": true
+    "es2022": true
   },
   "globals": {
     "L": false
@@ -11,7 +11,7 @@
     "no-undef": "error",
     "no-unused-vars": "error",
     "no-redeclare": "error",
-    "no-use-before-define": "error",
+    "no-use-before-define": ["error", {"functions": false, "variables": false}],
     "no-dupe-args": "error",
     "no-dupe-keys": "error",
     "no-unreachable": "error",
@@ -19,10 +19,10 @@
     "no-param-reassign": "error",
     "vars-on-top": "error",
     "no-shadow-restricted-names": "error",
-    "indent": ["warn", 2, { "SwitchCase": 1 }],
+    "indent": ["warn", 2, { "SwitchCase": 1, "ignoredNodes": ["TemplateLiteral *"] }],
     "operator-assignment": ["error", "always"],
     "space-before-blocks": "warn",
-    "space-before-function-paren": ["warn", "never"],
+    "space-before-function-paren": ["warn", {"anonymous": "never", "named": "never", "asyncArrow": "always"}],
     "space-in-parens": ["warn", "never"],
     "arrow-spacing": "warn",
     "constructor-super": "error",
@@ -36,23 +36,20 @@
     "object-shorthand": "error",
     "no-unexpected-multiline": "error",
     "semi": ["warn", "never"],
-    "quotes": ["warn", "single"],
+    "quotes": ["warn", "single", {"avoidEscape": true, "allowTemplateLiterals": true}],
     "prefer-const": "warn",
     "prefer-arrow-callback": "warn",
     "arrow-parens": ["warn", "as-needed"],
     "space-infix-ops": "warn",
     "comma-spacing": ["warn", { "before": false, "after": true }],
     "spaced-comment": ["warn", "always"],
-    "new-cap": ["warn", {
-      "capIsNewExceptions": ["mongodb.ObjectID"]
-    }]
+    "new-cap": "warn"
   },
   "parserOptions": {
-    "ecmaVersion": 8,
+    "ecmaVersion": 2022,
     "sourceType": "module",
     "ecmaFeatures": {
-      "impliedStrict": true,
-      "jsx": true
+      "impliedStrict": true
     }
   }
 }

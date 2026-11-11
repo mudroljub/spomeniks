@@ -2,7 +2,7 @@ import '../okruzenje.mjs'
 import {test} from 'node:test'
 import assert from 'node:assert/strict'
 import {existsSync} from 'node:fs'
-import {izgledMarkera, ikonicaSaOznakama, znak, znakVrste, senka, pribliznaOznaka} from '../../utils/ikonice.js'
+import {izgledMarkera, ikonicaSaOznakama, znak, znakVrste, senka, pribliznaOznaka} from '../../src/utils/ikonice.js'
 
 test('vrsta i stanje biraju sliku markera, a spomenik ostaje obelisk', () => {
   assert.equal(izgledMarkera({vrsta: 'bista'}).slika, 'slike/markeri/bista-postoji.svg')

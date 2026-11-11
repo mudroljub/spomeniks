@@ -2,7 +2,7 @@
 
 Pokreću se iz korena repozitorijuma: Python sa `python -I alati/<alat>.py`, a Node sa `node alati/<alat>.mjs`.
 
-Alati koji uvoze `zapis.py` takođe zahtevaju `node` na PATH-u: pri učitavanju preuzimaju gotov izračun zumova iz `utils/vaznost.js`, istog modula koji koristi aplikacija.
+Alati koji uvoze `zapis.py` takođe zahtevaju `node` na PATH-u: pri učitavanju preuzimaju gotov izračun zumova iz `src/utils/vaznost.js`, istog modula koji koristi aplikacija.
 
 | Alat | Namena |
 |---|---|
@@ -27,7 +27,7 @@ Testovi su pauzirani do odluke korisnika (2026-10-20; [AGENTS.md](../AGENTS.md#p
 
 | Grupa | Sadržaj |
 |---|---|
-| `unit/` | Funkcije iz `utils/` bez pregledača: pretraga i HTML, jezik i padeži, ruta i oznake na uređaju, raspored oznaka, ikonice, prijava, članci, ture i važnost; odluke `sw.js` o kešu, sa lažnim kešom i mrežom. `okruzenje.mjs` daje `localStorage` i `navigator`. |
+| `unit/` | Funkcije iz `src/utils/` bez pregledača: pretraga i HTML, jezik i padeži, ruta i oznake na uređaju, raspored oznaka, ikonice, prijava, članci, ture i važnost; odluke `sw.js` o kešu, sa lažnim kešom i mrežom. `okruzenje.mjs` daje `localStorage` i `navigator`. |
 | `integracija/` | Stvarni podaci sa kodom (linkovi članaka, ture iz `data/ture.json`, slike markera, nazivi država i stanja); `test_zapis.py` (zaključavanje između procesa, atomaran upis) i `test_integritet.py` (izlazni status `integritet.py` na izolovanim podacima). |
 | `e2e/` | Glavni tokovi aplikacije u Chrome-u bez prozora, na ekranu telefona; sam pokreće server. |
 
@@ -35,10 +35,10 @@ Pri paralelnom radu obuhvati čitanje i upis blokom `with zakljucani_podaci():` 
 
 ## Objavljivanje aplikacije i offline keš
 
-Dok je `devMode` u `utils/podesavanja.js` uključen, aplikacija ne registruje worker i gasi ranije instaliran, pa se otisak ne računa i integritet ga ne proverava. Pred objavu postavi `devMode` na `false` i pokreni `node alati/otisak.mjs` (ili `npm run otisak`). Alat računa otisak iz sadržaja svih resursa sa spiska u `sw.js` i samog workera, uz isti rezultat za LF i CRLF. Otisak označava sadržaj offline keša i nije semantički broj verzije. `python -I -B alati/integritet.py` proverava otisak i pada ako nije osvežen; zasebno ga proverava `npm run otisak:provera`. Komanda ne objavljuje aplikaciju.
+Dok je `devMode` u `src/utils/podesavanja.js` uključen, aplikacija ne registruje worker i gasi ranije instaliran, pa se otisak ne računa i integritet ga ne proverava. Pred objavu postavi `devMode` na `false` i pokreni `node alati/otisak.mjs` (ili `npm run otisak`). Alat računa otisak iz sadržaja svih resursa sa spiska u `sw.js` i samog workera, uz isti rezultat za LF i CRLF. Otisak označava sadržaj offline keša i nije semantički broj verzije. `python -I -B alati/integritet.py` proverava otisak i pada ako nije osvežen; zasebno ga proverava `npm run otisak:provera`. Komanda ne objavljuje aplikaciju.
 
 Instalacija unapred preuzima komplet resursa u zaseban nepromenljiv keš izdanja. Dok je aplikacija na ekranu, novo izdanje čeka; kada ode u pozadinu (`visibilitychange`), worker prvo sačuva vezu svakog starog klijenta sa njegovim izdanjem, zatim se aktivira i traži ponovno učitavanje svih kartica. Stara kartica, čak i ako odloži ponovno učitavanje, dobija stare resurse; nova navigacija dobija novo izdanje. Stari keš se briše tek kad više nema njegovih klijenata. Ne dodavati bezuslovni `skipWaiting()` ili `clients.claim()`. Prva migracija sa izdanja koja još nemaju ovu poruku zahteva zatvaranje starih kartica jednom.
 
 Fotografije imaju poseban keš: sačuvana slika se prikazuje odmah. Mrežna provera se ponavlja tek posle jednog dana ili novog izdanja; vreme provere ostaje sačuvano i kad se worker ugasi. Posle uspešne provere ažurirana slika se koristi pri sledećem učitavanju, dok neuspešna provera zadržava postojeću. Isto važi za male slike. Granice od 4.000 pločica atlasa, 700 pločica bliskog zuma i 1.500 slika primenjuju se pri svakom upisu i aktivaciji, nezavisno od broja zahteva pre gašenja workera.
 
-Pločice mape (`klase/mapa.js`) do zuma 12 daje Esri NatGeo atlas, a od 13 do 18 [Stadia Maps](https://stadiamaps.com), Stamen Terrain; OSM se ne koristi, jer njegova [pravila](https://operations.osmfoundation.org/policies/tiles/) zabranjuju rad bez signala. Stadia ovlašćuje po domenu (`mudroljub.github.io` je dodat u Stadia nalogu), pa ključ ne ide u kod, a `localhost` radi bez ovlašćenja. Besplatni plan ima 200.000 pločica mesečno, samo za nekomercijalnu upotrebu. Stadia pločice su u posebnom kešu `spomenici-mapa-izbliza`: pločica u dvostrukoj rezoluciji ima do oko 140 KB, pa 700 pločica ostaje ispod 100 MB, koliko [uslovi](https://stadiamaps.com/terms-of-service/) dozvoljavaju mobilnoj aplikaciji za rad bez signala. Pločice ostaju u kešu dok ih novije ne istisnu, iako je rok iz zaglavlja 6 sati; odluka korisnika (2026-10-27).
+Pločice mape (`src/klase/mapa.js`) do zuma 12 daje Esri NatGeo atlas, a od 13 do 18 [Stadia Maps](https://stadiamaps.com), Stamen Terrain; OSM se ne koristi, jer njegova [pravila](https://operations.osmfoundation.org/policies/tiles/) zabranjuju rad bez signala. Stadia ovlašćuje po domenu (`mudroljub.github.io` je dodat u Stadia nalogu), pa ključ ne ide u kod, a `localhost` radi bez ovlašćenja. Besplatni plan ima 200.000 pločica mesečno, samo za nekomercijalnu upotrebu. Stadia pločice su u posebnom kešu `spomenici-mapa-izbliza`: pločica u dvostrukoj rezoluciji ima do oko 140 KB, pa 700 pločica ostaje ispod 100 MB, koliko [uslovi](https://stadiamaps.com/terms-of-service/) dozvoljavaju mobilnoj aplikaciji za rad bez signala. Pločice ostaju u kešu dok ih novije ne istisnu, iako je rok iz zaglavlja 6 sati; odluka korisnika (2026-10-27).

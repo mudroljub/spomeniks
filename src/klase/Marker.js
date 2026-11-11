@@ -32,7 +32,7 @@ const rasporediUKrug = (grupa, pomaci, razmak = razmakKruga, uKrugu = 4) => grup
   pomaci.set(s, [Math.round(poluprecnik * Math.cos(ugao)), Math.round(poluprecnik * Math.sin(ugao))])
 })
 
-/** @param {import('../data/tipovi').Spomenik[]} spomenici */
+/** @param {import('../../data/tipovi').Spomenik[]} spomenici */
 export const pomaciPribliznih = spomenici => {
   const grupe = new Map()
   spomenici.filter(s => s.priblizno).forEach(s => {
@@ -49,7 +49,7 @@ const razmakBliskih = 24 // oko širine ikonice, da se tačni spomenici ne prekl
 const metaraPoStepenu = 111320
 /**
  * Tačni spomenici na istoj ili skoro istoj tački (npr. delovi jednog kompleksa) razmiču se u krug, da se ikonice ne preklope.
- * @param {import('../data/tipovi').Spomenik[]} spomenici
+ * @param {import('../../data/tipovi').Spomenik[]} spomenici
  */
 export const pomaciBliskih = spomenici => {
   const tacni = spomenici.filter(s => !s.priblizno)
@@ -91,7 +91,7 @@ const opis = spomen => {
 export default class Marker {
 
   /**
-   * @param {import('../data/tipovi').Spomenik} spomen
+   * @param {import('../../data/tipovi').Spomenik} spomen
    * @param {[number, number]} [pomak]
    */
   constructor(spomen, pomak) {

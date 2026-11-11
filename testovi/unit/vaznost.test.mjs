@@ -1,7 +1,7 @@
 import {test} from 'node:test'
 import assert from 'node:assert/strict'
 import {readFileSync} from 'node:fs'
-import {zumVrste, zumPoVaznosti, vaznostVrste, nivoiVaznosti} from '../../utils/vaznost.js'
+import {zumVrste, zumPoVaznosti, vaznostVrste, nivoiVaznosti} from '../../src/utils/vaznost.js'
 
 test('izvorna važnost počinje od jedan i daje jedinstvene uzastopne prioritete', () => {
   assert.equal(vaznostVrste.istaknut, 1)
@@ -11,7 +11,7 @@ test('izvorna važnost počinje od jedan i daje jedinstvene uzastopne prioritete
 test('sama promena važnosti određuje redosled, slojeve i zum, uključujući jedanaesti nivo', async () => {
   const redosled = ['istaknut', ...Object.keys(zumVrste).reverse(), 'probna-vrsta']
   const konfiguracija = Object.fromEntries(redosled.map((v, i) => [v, i + 1]).reverse())
-  const kod = readFileSync(new URL('../../utils/vaznost.js', import.meta.url), 'utf8')
+  const kod = readFileSync(new URL('../../src/utils/vaznost.js', import.meta.url), 'utf8')
     .replace(/export const vaznostVrste = \{[^}]*\}/u, `export const vaznostVrste = ${JSON.stringify(konfiguracija)}`)
   const m = await import(`data:text/javascript;base64,${Buffer.from(kod).toString('base64')}`)
   assert.deepEqual(m.nivoiVaznosti, redosled)

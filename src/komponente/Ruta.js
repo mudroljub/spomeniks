@@ -2,7 +2,7 @@
 import {mapa} from '../klase/mapa.js'
 import {navigacijaIkonica, znakVrste} from '../utils/ikonice.js'
 import {stilZaglavlja, stilPanela, upravljajPanelom} from '../utils/ui.js'
-import {naziviStanja, nazivSpomenika, malaSlika, navigacijaUrl} from '../utils/helpers.js'
+import {naziviStanja, nazivSpomenika, malaSlika, navigacijaUrl, bezbedanLink} from '../utils/helpers.js'
 import {t, jezik, nazivDrzave} from '../utils/jezik.js'
 import {dajRutu, dajNaziv, dajWiki, dajTuruId, postaviRutu, izaberiTuru, ukloniIzRute, pomeri, promeneRute} from '../utils/ruta.js'
 import {sastaviTure} from '../utils/ture.js'
@@ -492,7 +492,7 @@ export default class Ruta extends HTMLElement {
     upravljajPanelom(this.panel, () => this.panel.hidden = true, t('trenutnaRuta'), () => this.dugme)
 
     promeneRute.addEventListener('promena', () => this.prikazi())
-    mapa.on('izbor', ({marker}) => marker && !siroko.matches && (this.panel.hidden = true))
+    mapa.on('izbor', ({marker, izvor}) => (izvor === 'najblizi' || marker && !siroko.matches) && (this.panel.hidden = true))
     mapa.on('otvoriRutu', () => this.otvori())
     mapa.on('pozicija', ({latlng}) => {
       const prvaPozicija = !this.pozicija
@@ -652,8 +652,9 @@ export default class Ruta extends HTMLElement {
     this.panel.querySelector('#ime-rute').textContent = prevedi(dajNaziv())
     this.panel.querySelector('#naslov-rute').hidden = !dajNaziv()
     const wiki = /** @type {HTMLAnchorElement} */ (this.panel.querySelector('#wiki-rute'))
-    wiki.hidden = !dajWiki()
-    if (dajWiki()) wiki.href = dajWiki()
+    const wikiLink = bezbedanLink(dajWiki())
+    wiki.hidden = !wikiLink
+    if (wikiLink) wiki.href = wikiLink
     else wiki.removeAttribute('href')
     this.panel.querySelector('#nazad').hidden = !dajNaziv()
     this.panel.querySelector('.alati').hidden = !stanice.length
@@ -686,7 +687,7 @@ export default class Ruta extends HTMLElement {
     return red
   }
 
-  /** @param {import('../data/tipovi').Tura} tura */
+  /** @param {import('../../data/tipovi').Tura} tura */
   praviTuru({id, naziv, spomenici, wiki}, iskorisceneSlike) {
     const red = document.createElement('li')
     red.innerHTML = '<button class="naziv tura"><span class="tekst"><span class="ime"></span><span class="opis"></span></span></button>'

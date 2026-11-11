@@ -1,7 +1,7 @@
 import '../okruzenje.mjs'
 import {test} from 'node:test'
 import assert from 'node:assert/strict'
-import {dajOznaku, postaviOznaku, promene} from '../../utils/oznake.js'
+import {dajOznaku, postaviOznaku, promene} from '../../src/utils/oznake.js'
 
 test('spomenik ima najviše jednu oznaku, sačuvanu na uređaju', () => {
   let promena = 0
@@ -18,22 +18,22 @@ test('spomenik ima najviše jednu oznaku, sačuvanu na uređaju', () => {
 
 test('oznake se učitavaju sa uređaja, a oštećen zapis ih ne ruši', async () => {
   localStorage.setItem('spomenici-poseta', JSON.stringify({tjentiste: 'lista'}))
-  assert.equal((await import('../../utils/oznake.js?sacuvane')).dajOznaku('tjentiste'), 'lista')
+  assert.equal((await import('../../src/utils/oznake.js?sacuvane')).dajOznaku('tjentiste'), 'lista')
   localStorage.setItem('spomenici-poseta', '{neispravan')
-  assert.equal((await import('../../utils/oznake.js?ostecene')).dajOznaku('tjentiste'), undefined)
+  assert.equal((await import('../../src/utils/oznake.js?ostecene')).dajOznaku('tjentiste'), undefined)
   localStorage.setItem('spomenici-poseta', JSON.stringify({tjentiste: 'lista', kozara: 'nepoznata', sutjeska: 7}))
-  const mesovite = await import('../../utils/oznake.js?nepoznate')
+  const mesovite = await import('../../src/utils/oznake.js?nepoznate')
   assert.equal(mesovite.dajOznaku('tjentiste'), 'lista')
   assert.equal(mesovite.dajOznaku('kozara'), undefined)
   assert.equal(mesovite.dajOznaku('sutjeska'), undefined)
   localStorage.setItem('spomenici-poseta', JSON.stringify(['lista']))
-  assert.equal((await import('../../utils/oznake.js?niz')).dajOznaku('0'), undefined)
+  assert.equal((await import('../../src/utils/oznake.js?niz')).dajOznaku('0'), undefined)
 })
 
 test('označavanje radi u memoriji kada pregledač zabrani skladište', async t => {
   t.mock.method(localStorage, 'getItem', () => { throw new Error('zabranjeno čitanje') })
   t.mock.method(localStorage, 'setItem', () => { throw new Error('zabranjen upis') })
-  const nove = await import('../../utils/oznake.js?bez-skladista')
+  const nove = await import('../../src/utils/oznake.js?bez-skladista')
   let promena = 0
   nove.promene.addEventListener('promena', () => promena++)
   assert.equal(nove.dajOznaku('a'), undefined)

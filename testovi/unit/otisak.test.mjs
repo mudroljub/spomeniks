@@ -11,14 +11,14 @@ test('otisak resursa otkriva promenu i ignorise razliku LF/CRLF', () => {
   try {
     const root = pathToFileURL(direktorijum + '/')
     const worker = "const VERZIJA = ''; const fajlovi=['main.js'];"
-    writeFileSync(join(direktorijum,'sw.js'),worker)
-    writeFileSync(join(direktorijum,'main.js'),'prvo\n')
+    writeFileSync(join(direktorijum, 'sw.js'), worker)
+    writeFileSync(join(direktorijum, 'main.js'), 'prvo\n')
     const {ocekivana} = proveriOtisak(root)
-    writeFileSync(join(direktorijum,'sw.js'),worker.replace("VERZIJA = ''",`VERZIJA = '${ocekivana}'`))
-    assert.equal(proveriOtisak(root).ispravno,true)
-    writeFileSync(join(direktorijum,'main.js'),'prvo\r\n')
-    assert.equal(proveriOtisak(root).ispravno,true)
-    writeFileSync(join(direktorijum,'main.js'),'drugo\n')
-    assert.equal(proveriOtisak(root).ispravno,false)
-  } finally {rmSync(direktorijum,{recursive:true,force:true})}
+    writeFileSync(join(direktorijum, 'sw.js'), worker.replace("VERZIJA = ''", `VERZIJA = '${ocekivana}'`))
+    assert.equal(proveriOtisak(root).ispravno, true)
+    writeFileSync(join(direktorijum, 'main.js'), 'prvo\r\n')
+    assert.equal(proveriOtisak(root).ispravno, true)
+    writeFileSync(join(direktorijum, 'main.js'), 'drugo\n')
+    assert.equal(proveriOtisak(root).ispravno, false)
+  } finally {rmSync(direktorijum, {recursive:true, force:true})}
 })

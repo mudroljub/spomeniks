@@ -1,6 +1,6 @@
 import {test} from 'node:test'
 import assert from 'node:assert/strict'
-import {jeClanak, clanakSpomenika} from '../../utils/clanci.js'
+import {jeClanak, clanakSpomenika} from '../../src/utils/clanci.js'
 
 test('izvor podataka nikada nije rezervni članak', () => {
   for (const izvor of ['https://www.openstreetmap.org/way/683348683', 'https://example.com/clanak-o-spomeniku'])

@@ -3,7 +3,7 @@ import {test} from 'node:test'
 import assert from 'node:assert/strict'
 import {
   normalizuj, escapeHtml, nazivSpomenika, malaSlika, autoriSpomenika, nestao, ruine, mestoUrl, navigacijaUrl, bezbedanLink,
-} from '../../utils/helpers.js'
+} from '../../src/utils/helpers.js'
 
 test('linkovi prihvataju samo apsolutne HTTP i HTTPS adrese', () => {
   assert.equal(bezbedanLink('https://example.com/autor'), 'https://example.com/autor')

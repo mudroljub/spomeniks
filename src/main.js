@@ -47,7 +47,7 @@ document.querySelector('#slajder-okvir').appendChild(slajder)
 let filtriraneStavke = []
 
 /**
- * @param {import('./data/tipovi').Spomenik} spomenik
+ * @param {import('../data/tipovi').Spomenik} spomenik
  * @param {[number, number]} [pomak]
  */
 const praviStavku = (spomenik, pomak) => {
@@ -120,7 +120,7 @@ if (devMode) {
 const ucitaj = putanja => fetch(putanja)
   .then(res => res.ok ? res.json() : Promise.reject(new Error(`${putanja}: HTTP ${res.status}`)))
 
-/** @param {any[]} spomenici @returns {import('./data/tipovi').Spomenik[]} */
+/** @param {any[]} spomenici @returns {import('../data/tipovi').Spomenik[]} */
 const saSlikama = spomenici => spomenici.map(s => s.slika === true || (!s.slika && s.slikaOdnos) ? Object.assign(s, {slika: `slike/spomenici/${s.id}.webp`}) : s)
 const ucitajSpomenike = putanja => ucitaj(putanja).then(saSlikama)
 
@@ -141,9 +141,9 @@ let potpuniPodaci = false
 /** @type {Pretraga | undefined} */
 let pretraga
 
-/** @type {{detalji?: Record<string, Partial<import('./data/tipovi').Spomenik>>, prevodi?: Record<string, string>}} */
+/** @type {{detalji?: Record<string, Partial<import('../data/tipovi').Spomenik>>, prevodi?: Record<string, string>}} */
 const dopune = {}
-/** @param {import('./data/tipovi').Spomenik[]} spomenici */
+/** @param {import('../data/tipovi').Spomenik[]} spomenici */
 const dopuni = spomenici => spomenici.forEach(spomenik => {
   Object.assign(spomenik, dopune.detalji?.[spomenik.id])
   const nazivEn = dopune.prevodi?.[spomenik.id]

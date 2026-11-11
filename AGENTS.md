@@ -50,7 +50,7 @@ with zakljucani_podaci():
 
 ## Provera
 
-U razvoju (`devMode` u `utils/podesavanja.js`) ne pravi se novo izdanje: ne pokreći `node alati/otisak.mjs`; otisak se računa samo pred objavu (README, OBJAVLJIVANJE; opis u `docs/ALATI.md`).
+U razvoju (`devMode` u `src/utils/podesavanja.js`) ne pravi se novo izdanje: ne pokreći `node alati/otisak.mjs`; otisak se računa samo pred objavu (README, OBJAVLJIVANJE; opis u `docs/ALATI.md`).
 
 **Testovi su pauzirani do odluke korisnika (2026-10-20): niko ne pokreće `node testovi/pokreni.mjs` ni njegove delove.** Ostale provere ispod važe.
 

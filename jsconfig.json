@@ -14,10 +14,7 @@
   },
   // sw.js nije uključen: service worker ima drugo globalno okruženje (WebWorker), koje se ne slaže sa DOM tipovima
   "include": [
-    "main.js",
-    "klase",
-    "komponente",
-    "utils",
+    "src",
     "data/*.d.ts"
   ]
 }

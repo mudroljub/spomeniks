@@ -16,7 +16,7 @@ const uPoligonu = ([lat, lng], poligon) => poligon.reduce((unutra, [lat1, lng1],
   return (lat1 > lat) !== (lat2 > lat) && lng < lng1 + (lat - lat1) * (lng2 - lng1) / (lat2 - lat1) ? !unutra : unutra
 }, false)
 
-/** @param {import('../data/tipovi').OblastTure} oblast */
+/** @param {import('../../data/tipovi').OblastTure} oblast */
 const proveriOblast = oblast => {
   const drzave = new Set(oblast.drzave)
   const mesta = oblast.mesta && new Set(oblast.mesta.map(m => m.toLowerCase()))
@@ -37,8 +37,8 @@ const proveriOblast = oblast => {
 }
 
 /**
- * @param {import('../data/tipovi').Spomenik[]} spomenici
- * @param {import('../data/tipovi').OblastTure} oblast
+ * @param {import('../../data/tipovi').Spomenik[]} spomenici
+ * @param {import('../../data/tipovi').OblastTure} oblast
  * @param {string} prag
  */
 export const izaberiStanice = (spomenici, oblast, prag) => {
@@ -49,10 +49,10 @@ export const izaberiStanice = (spomenici, oblast, prag) => {
 }
 
 /**
- * @param {import('../data/tipovi').DefinicijaTure[]} definicije
- * @param {import('../data/tipovi').Spomenik[]} spomenici
+ * @param {import('../../data/tipovi').DefinicijaTure[]} definicije
+ * @param {import('../../data/tipovi').Spomenik[]} spomenici
  * @param {string} vaznost
- * @returns {import('../data/tipovi').Tura[]}
+ * @returns {import('../../data/tipovi').Tura[]}
  */
 export const sastaviTure = (definicije, spomenici, vaznost) => definicije.map(({id, naziv, wiki, oblast, prag}) => ({
   id, naziv, wiki, spomenici: izaberiStanice(spomenici, oblast, prag ?? vaznost).map(s => s.id),

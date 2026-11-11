@@ -1,6 +1,6 @@
 import {test} from 'node:test'
 import assert from 'node:assert/strict'
-import Raspored from '../../utils/raspored.js'
+import Raspored from '../../src/utils/raspored.js'
 
 const okvir = (levo, gore, sirina = 40, visina = 20) => ({levo, gore, desno: levo + sirina, dole: gore + visina})
 
