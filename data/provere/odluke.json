@@ -70659,5 +70659,195 @@
       "kumodraz-spomenik-palim-borcima-i-zrtvama-fasizma": "Wiki ima isti inicijal M. Ivković."
     },
     "napomena": "Zbirni prolaz bez mreže: aktivni red iz docs/DOPUNA_PODATAKA.md (244 predmeta sa autorom ili godinom) uparen sa lokalnom kopijom Partisan Memorials Wiki po izvoru ili jedinstvenoj tački do 50 m; preuzeta polja Designer, Built i autori iz Notes. Wiki je sekundarni izvor; stručni izvor ima prednost ako se kasnije razlikuje."
+  },
+  {
+    "odluka": "duplikati-naziv-autor-godina-2026-11-11",
+    "datum": "2026-11-11",
+    "napomena": "Pregled bez mreže po istom mestu ili blizini do 5 km, istim posebnim rečima naziva, autoru i godini (blizina sama nije kriterijum, jer spomen-parkovi imaju više dela). Od 92 para pregledano je 20 izglednih; opšti nazivi u različitim selima nisu spajani. Mrežom pročitane samo stranice spomenicinob.info za Brčko i Modriču.",
+    "spajanja": [
+      {
+        "uklonjen": "avala-mountain-spomenik-sovjetskim-ratnim-veterani",
+        "zadrzan": "avala",
+        "pre": {
+          "uklonjen": {
+            "id": "avala-mountain-spomenik-sovjetskim-ratnim-veterani",
+            "koordinate": {
+              "lat": 44.6888,
+              "lng": 20.5118613
+            },
+            "mesto": "Avala Mountain",
+            "slika": "slike/spomenici/avala-mountain-spomenik-sovjetskim-ratnim-veterani.webp",
+            "slikaOdnos": 0.75,
+            "slikaPotpis": "Partisan Memorials Wiki",
+            "naziv": "Spomenik sovjetskim ratnim veteranima",
+            "nazivEn": "Monument to Soviet War Veterans",
+            "godina": "1965",
+            "autor": "Jovan Kratohvil",
+            "vrsta": "spomen-obelezje",
+            "drzava": "Serbia"
+          },
+          "zadrzan": {
+            "koordinate": {
+              "lat": 44.6887928,
+              "lng": 20.5140309
+            },
+            "priblizno": null,
+            "godina": "1965",
+            "adresa": "Na padini ispod glavnog puta ka vrhu Avale"
+          },
+          "izvorUklonjenog": "https://www.xiwl.com/w/index.php/Avala_-_Spomenik_Sovjetskim_Ratnim_Veteranima"
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 44.6887928,
+            "lng": 20.5140309
+          },
+          "priblizno": null,
+          "godina": "1965",
+          "adresa": "Na padini ispod glavnog puta ka vrhu Avale"
+        },
+        "dokaz": "Isti naziv, autor Jovan Kratohvil, godina 1965 i referenca spomenikdatabase.org/avala; tačke 171 m. Zadržan potpuniji zapis sa opisom, posvetom i fotografijom."
+      },
+      {
+        "uklonjen": "kulkulje-spomenik-palim-borcima-i-zrtvama-fasistic",
+        "zadrzan": "kukulje-spomenik-palim-borcima-i-zrtvama-fasistick",
+        "pre": {
+          "uklonjen": {
+            "id": "kulkulje-spomenik-palim-borcima-i-zrtvama-fasistic",
+            "koordinate": {
+              "lat": 45.001302,
+              "lng": 17.40664
+            },
+            "mesto": "Kukulje",
+            "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+            "nazivEn": "Monument to Fallen Fighters and Victims of Fascist Terror",
+            "godina": "1964",
+            "vrsta": "spomen-obelezje",
+            "drzava": "Bosnia and Herzegovina"
+          },
+          "zadrzan": {
+            "koordinate": {
+              "lat": 45.00147,
+              "lng": 17.40866
+            },
+            "priblizno": true,
+            "godina": "1964",
+            "adresa": null
+          },
+          "izvorUklonjenog": "https://www.xiwl.com/w/index.php/Kulkulje_-_Spomenik_Palim_Borcima_i_%C5%BDrtvama_Fa%C5%A1isti%C4%8Dkog_Terora"
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 45.001302,
+            "lng": 17.40664
+          },
+          "priblizno": null,
+          "godina": "1964",
+          "adresa": null
+        },
+        "dokaz": "Isti spomenik iz spomenicinob.info/srbac; drugi ID je nastao iz pogrešnog imena „Kulkulje“ na Partisan Memorials Wiki. Preneta tačka sa wikija (159 m), uklonjena oznaka približne tačke; zadržana fotografija."
+      },
+      {
+        "uklonjen": "skugric-partizansko-groblje",
+        "zadrzan": "gornji-skugric-partizansko-groblje",
+        "pre": {
+          "uklonjen": {
+            "id": "skugric-partizansko-groblje",
+            "koordinate": {
+              "lat": 44.909476,
+              "lng": 18.344396
+            },
+            "mesto": "Skugrić",
+            "naziv": "Partizansko groblje",
+            "nazivEn": "Partisan Cemetery",
+            "godina": "1961",
+            "vrsta": "groblje",
+            "drzava": "Bosnia and Herzegovina"
+          },
+          "zadrzan": {
+            "koordinate": {
+              "lat": 44.9056992,
+              "lng": 18.349081
+            },
+            "priblizno": true,
+            "godina": "1961",
+            "adresa": "Close to elementary school"
+          },
+          "izvorUklonjenog": "https://www.xiwl.com/w/index.php/Skugri%C4%87_-_Partizansko_Groblje"
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 44.909476,
+            "lng": 18.344396
+          },
+          "priblizno": null,
+          "godina": "1961",
+          "adresa": "Close to elementary school"
+        },
+        "dokaz": "spomenicinob.info/modrica navodi samo jedno partizansko groblje u Skugriću (Gornji Skugrić, 1961, kod škole); stranica wikija ima istu belešku o sahranama 1955. i obnovi oko 2015. Preneta tačka sa wikija (558 m)."
+      },
+      {
+        "uklonjen": "vrelo-bosne-spomenik-igmanskom-marsu",
+        "zadrzan": "ilidza-vreoca-spomenik-igmanskom-marsu",
+        "pre": {
+          "uklonjen": {
+            "id": "vrelo-bosne-spomenik-igmanskom-marsu",
+            "koordinate": {
+              "lat": 43.819131,
+              "lng": 18.267403
+            },
+            "priblizno": true,
+            "mesto": "Vrelo Bosne",
+            "adresa": "Car park",
+            "slika": "slike/spomenici/vrelo-bosne-spomenik-igmanskom-marsu.webp",
+            "slikaOdnos": 1.333,
+            "slikaPotpis": "Vanjagenije, CC BY-SA 4.0",
+            "naziv": "Spomenik Igmanskom maršu",
+            "nazivEn": "Monument to the Igman March",
+            "godina": "1951",
+            "posveta": [
+              "Q3467820"
+            ],
+            "vrsta": "spomen-obelezje",
+            "drzava": "Bosnia and Herzegovina"
+          },
+          "zadrzan": {
+            "koordinate": {
+              "lat": 43.819131,
+              "lng": 18.267403
+            },
+            "priblizno": null,
+            "godina": null,
+            "adresa": null
+          },
+          "izvorUklonjenog": "https://www.spomenicinob.info/ilidza"
+        },
+        "posle": {
+          "koordinate": {
+            "lat": 43.819131,
+            "lng": 18.267403
+          },
+          "priblizno": null,
+          "godina": "1951",
+          "adresa": "Kod parkinga Vrela Bosne"
+        },
+        "dokaz": "Ista tačka (0 m) i isti kamen kod parkinga Vrela Bosne; tačka drugog zapisa ranije je pomerena na GPS fotografije ovog spomenika (odluka commons-kategorije-bih-2026-10-20). Preneti godina 1951 i adresa iz spomenicinob.info/ilidza; alternativna fotografija sačuvana u izvori/fotografije/duplikati-2026-11-11."
+      }
+    ],
+    "razlicitiObjekti": {
+      "sarajevo-pofalici-bista-vase-miskina-crnog / -2": "spomenicinob.info/novosarajevo navodi dve biste na različitim adresama (Ložionička 8 i Kolodvorska).",
+      "vezicevo-spomen-cesma / vezicevo-spomen-cesma-palim-borcima": "Opisi i wiki razlikuju česmu kod škole i česmu kod Doma kulture.",
+      "leskovac-bista-stanimira-veljkovica-zeleta / -gimnazija": "Dva primerka: krug fabrike (1954) i dvorište Gimnazije (1953).",
+      "sremska-mitrovica-bista-slobodana-bajica-paje / -2": "Popović-Zuma 1981 navodi dve biste u Sremskoj Mitrovici: ispred škole i u krugu kasarne. Nije utvrđeno koji ID je koji; obe tačke su približne.",
+      "gornji-bukvik-bista-* / brcko-bista-*": "spomenicinob.info/brcko navodi posebne serije bisti Dragana Radakovića (2008) na partizanskom groblju u Brčkom i u Gornjem Bukviku.",
+      "dol-pri-ljubljani-spomenik-padlim-v-nob / videm-pri-dolu-spomenik-padlim-v-nob": "Različite jedinice registra eid.gov.si (19801 i 19352).",
+      "bojanja-vas / slamna-vas-spomenik-nob": "Različita sela i izvori (OSM, eid.gov.si 11231).",
+      "kninsko-polje-spomen-kosturnica / zagrovic-spomen-kosturnica": "Različite jedinice Registra kulturnih dobara RH (130058 i 130059).",
+      "skopje-dusko-popovik / skopje-spomenik": "Drugi spomenik je spomenik Prve konferencije NOF-a, istog autora.",
+      "skopje-karpos-spomenik-kuzman-josifovski / skopje-spomenik-kuzman-josifovski-pitu": "Statua u Kozlu (Saša Popovski, mesto pogibije) i druga statua 2,7 km dalje; nije potvrđeno da je isti objekat.",
+      "zagreb-ferenscica-bista-augusta-cesarca / zagreb-tkalciceva-august-cesarec": "Različiti delovi grada, 4 km; nema dokaza istog objekta.",
+      "cacak-bista-ratka-mitrovica / jezdina-bista-ratka-mitrovica": "Otvoreno: Popović-Zuma navodi bistu O. Berbelje ispred škole „Ratko Mitrović“ u Čačku, a za Jezdinu samo ploču na Zadružnom domu. Commons bista u Jezdini može biti ta školska bista ako je škola u Jezdini; potvrditi položaj škole pre spajanja."
+    },
+    "preusmereneVeze": []
   }
 ]
